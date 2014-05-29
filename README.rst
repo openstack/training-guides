@@ -1,5 +1,5 @@
-OpenStack Manuals
-+++++++++++++++++
+OpenStack Training Guides
++++++++++++++++++++++++++
 
 This repository contains open source training manuals that can be
 used to learn about the OpenStack project.
