@@ -196,7 +196,7 @@
     <title>Weights</title>
     <mediaobject>
       <imageobject>
-        <imagedata fileref="../common/figures/nova-weighting-hosts.png"
+        <imagedata fileref="https://raw.githubusercontent.com/openstack/openstack-manuals/master/doc/common/figures/nova-weighting-hosts.png"
                    contentwidth="7in"/>
       </imageobject>
     </mediaobject>

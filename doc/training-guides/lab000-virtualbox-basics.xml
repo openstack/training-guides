@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE chapter [
-<!ENTITY % openstack SYSTEM "../common/entities/openstack.ent">
+<!ENTITY % openstack SYSTEM "https://raw.githubusercontent.com/openstack/openstack-manuals/master/doc/common/entities/openstack.ent">
 %openstack;
 ]>
 <chapter xmlns="http://docbook.org/ns/docbook"
@@ -54,7 +54,7 @@
           <td rowspan="1" colspan="1">Intel ix or AMD QuadCore</td>
         </tr>
         <tr>
-          <td rowspan="1" colspan="1">4&nbsp;GB RAM:</td>
+          <td rowspan="1" colspan="1">4 GB RAM:</td>
           <td rowspan="1" colspan="1">DDR2/DDR3</td>
         </tr>
       </tbody>
@@ -380,8 +380,8 @@ KVM acceleration can NOT be used</computeroutput></screen>
     </mediaobject>
   </figure>
     <para>Select the appropriate amount of RAM. For the control node,
-    the minimum is 512&nbsp;MB of RAM. For other settings, use the
-    defaults. The hard disk size can be 8&nbsp;GB.</para>
+    the minimum is 512 MB of RAM. For other settings, use the
+    defaults. The hard disk size can be 8 GB.</para>
     <para>Configure the networks</para>
     <para>(Ignore the IP Address for now, you will set it up from
       inside the VM)</para>
@@ -453,8 +453,8 @@ KVM acceleration can NOT be used</computeroutput></screen>
     <title>Network node</title>
 
     <para>Create a new virtual machine, minimum RAM is
-      512&nbsp;MB. The remainder can be left as default. The minimum HDD
-      space is 8&nbsp;GB.</para>
+      512 MB. The remainder can be left as default. The minimum HDD
+      space is 8 GB.</para>
 
   <figure>
     <title>Create New Virtual Machine</title>
@@ -549,8 +549,8 @@ KVM acceleration can NOT be used</computeroutput></screen>
   <section xml:id="lab000-virtualbox-basics_setup_compute_node">
     <title>Compute node</title>
 
-    <para>Create a virtual machine with at least 1,000&nbsp;MB RAM and
-    8&nbsp;GB HDD. For other settings, use the defaults.</para>
+    <para>Create a virtual machine with at least 1,000 MB RAM and
+    8 GB HDD. For other settings, use the defaults.</para>
   <figure>
     <title>Create new virtual machine</title>
     <mediaobject>

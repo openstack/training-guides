@@ -5845,7 +5845,7 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ./doc/training-guides/module001-ch009-vm-placement.xml:200(None)
-msgid "@@image: '../common/figures/nova-weighting-hosts.png'; md5=000eab4cf0deb1da2e692e023065a6ae"
+msgid "@@image: 'https://raw.githubusercontent.com/openstack/openstack-manuals/master/doc/common/figures/nova-weighting-hosts.png'; md5=000eab4cf0deb1da2e692e023065a6ae"
 msgstr ""
 
 #: ./doc/training-guides/module001-ch009-vm-placement.xml:7(title) ./doc/training-guides/bk001-ch005-associate-compute-node.xml:14(title)
