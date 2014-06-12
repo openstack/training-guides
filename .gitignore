@@ -1,0 +1,23 @@
+.DS_Store
+*.xpr
+.idea
+
+# Build results
+target/
+publish-docs/
+generated/
+/build-*.log.gz
+
+# Ignore Vagrant Related Files
+acceptance_config.yml
+boxes/*
+/.vagrant
+
+# Testenvironment
+.tox/
+
+# Editors
+*~
+.*.swp
+.bak
+/.project
