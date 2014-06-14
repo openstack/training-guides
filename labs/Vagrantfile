@@ -45,8 +45,8 @@
 nodes = {
     'allinone' => 51,
 #    'controller' => 51,
-#    'compute' => 201,
-#    'network' => 210,
+#    'compute' => 52,
+#    'network' => 53,
 }
 
 # Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
