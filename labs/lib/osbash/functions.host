@@ -1,0 +1,283 @@
+# This file contains bash functions that are used by osbash on the host.
+
+source "$LIB_DIR/functions"
+
+#-------------------------------------------------------------------------------
+# Conditional execution
+#-------------------------------------------------------------------------------
+# TODO: Create a help function and display it under help by default or with
+# option --help (-h).
+# exec_cmd is used for conditional execution:
+#
+# OSBASH=exec_cmd
+#
+# Execute command only if OSBASH is set:
+# ${OSBASH:-:} cmd args
+#
+# Execute command only if OSBASH is not set:
+# ${OSBASH:+:} cmd args
+#
+# Disable actual call to VBoxManage (selectively override configuration):
+# OSBASH= cmd args
+#
+# Enable call to VBoxManage (selectively override configuration):
+# OSBASH=exec_cmd cmd args
+
+function exec_cmd {
+    local cmd=$1
+    shift
+    $cmd "$@"
+}
+
+OSBASH=exec_cmd
+
+#-------------------------------------------------------------------------------
+
+function get_base_disk_path {
+    echo $DISK_DIR/base-$VM_ACCESS-$DISTRO.vdi
+}
+
+#-------------------------------------------------------------------------------
+# ssh
+#-------------------------------------------------------------------------------
+function strip_top_dir {
+    local FULL_PATH=$1
+    echo "${FULL_PATH/$TOP_DIR\//}"
+}
+
+# Copy files or directories to VM (incl. implied directories; HOME is TOP_DIR)
+function vm_scp_to_vm {
+    local SSH_PORT=$1
+    shift
+    while (($#)); do
+        local SRC_PATH=$1
+        shift
+        local TARGET_PATH=$(strip_top_dir "$SRC_PATH")
+        local TARGET_DIR=$(dirname "$TARGET_PATH")
+        vm_ssh "$SSH_PORT" "mkdir -p $TARGET_DIR"
+        scp -q -r \
+            -i "$LIB_DIR/vagrant-ssh-keys/vagrant" \
+            -o "UserKnownHostsFile /dev/null" \
+            -o "StrictHostKeyChecking no" \
+            -P "$SSH_PORT" \
+            "$SRC_PATH" "$VM_SHELL_USER@localhost:$TARGET_PATH"
+    done
+}
+
+# Execute commands via ssh
+function vm_ssh {
+    local SSH_PORT=$1
+    shift
+    ssh -q \
+        -i "$LIB_DIR/vagrant-ssh-keys/vagrant" \
+        -o "UserKnownHostsFile /dev/null" \
+        -o "StrictHostKeyChecking no" \
+        -p "$SSH_PORT" \
+        "$VM_SHELL_USER@localhost" "$@"
+}
+
+function wait_for_ssh {
+    local SSH_PORT=$1
+
+    echo "Waiting for ssh server to respond on local port $SSH_PORT"
+    while [ : ]; do
+        if vm_ssh "$SSH_PORT" exit ; then
+            break
+        else
+            echo -n .
+            sleep 1
+        fi
+    done
+}
+
+# Copy one script to VM and execute it via ssh; log output to separate file
+function ssh_exec_script {
+    local SSH_PORT=$1
+    local SCRIPT_PATH=$2
+
+    vm_scp_to_vm "$SSH_PORT" "$SCRIPT_PATH"
+
+    local REMOTE_PATH=$(strip_top_dir "$SCRIPT_PATH")
+
+    echo -en "\n$(date) start $REMOTE_PATH"
+
+    local SCRIPT_NAME="$(basename "$SCRIPT_PATH" .sh)"
+    local PREFIX=$(get_next_prefix "$LOG_DIR" "auto")
+    local LOG_PATH=$LOG_DIR/${PREFIX}_${SCRIPT_NAME}.auto
+
+    vm_ssh "$SSH_PORT" "bash $REMOTE_PATH" > "$LOG_PATH" 2>&1
+
+    echo -en "\n$(date)  done"
+}
+
+# Wait for sshd, prepare autostart dirs, and execute autostart scripts on VM
+function ssh_process_autostart {
+    local SSH_PORT=$1
+
+    wait_for_ssh "$SSH_PORT"
+    vm_ssh "$SSH_PORT" "rm -rf lib config autostart"
+    vm_scp_to_vm "$SSH_PORT" "$TOP_DIR/lib" "$TOP_DIR/config"
+
+    local SCR_PATH=""
+    for SCRIPT_PATH in "$AUTOSTART_DIR/"*.sh; do
+        ssh_exec_script "$SSH_PORT" "$SCRIPT_PATH"
+    done
+    touch "$STATUS_DIR/done"
+}
+
+#-------------------------------------------------------------------------------
+# Autostart mechanism
+#-------------------------------------------------------------------------------
+
+function autostart_reset {
+    clean_dir "$AUTOSTART_DIR"
+    clean_dir "$STATUS_DIR"
+}
+
+function wait_for_autofiles {
+    local DONE=false
+    shopt -s nullglob
+
+    ${WBATCH:-:} wbatch_wait_auto
+    # Return if we are just faking it for wbatch
+    ${OSBASH:+:} return 0
+
+    until $DONE ; do
+        if [ -f "$STATUS_DIR/done" ]; then
+            DONE=true
+            rm "$STATUS_DIR/done"
+            # Return only after checking for remaining *.sh.begin files
+        fi
+        # Note: begin files are only visible with a VirtualBox shared folder
+        local PROCESSING=("$STATUS_DIR"/*.sh.begin)
+        if [ -n "${PROCESSING[0]-}" ]; then
+            for f in "${PROCESSING[@]}"; do
+                echo >&2 -en "\nVM processing $(basename "$f" .begin)"
+                rm "$f"
+            done
+        fi
+        echo >&2 -n .
+        sleep 1
+    done
+    echo
+}
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Prepending numbers ensures scripts will be executed in the order they
+# were added to the queue.
+
+function _autostart_queue {
+    local SRC_DIR=${1%/*}
+    # if SRC_DIR is a code, turn it into a real path
+    local SRC_DIR="$(src_dir_code_to_dir "$SRC_DIR")"
+
+    local SRC_NAME=${1##*/}
+
+    # If we get a target name, file will be renamed
+    local TARGET_NAME=${2:-$SRC_NAME}
+
+    if [[ $TARGET_NAME = *.sh ]]; then
+        # Create target file name like 01_apt_init.sh
+        local PREFIX=$(get_next_prefix "$AUTOSTART_DIR" "sh" 2)
+        TARGET_NAME="${PREFIX}_$TARGET_NAME"
+    fi
+
+    if [ "$SRC_NAME" = "$TARGET_NAME" ]; then
+        echo >&2 -e "\t$SRC_NAME"
+    else
+        echo >&2 -e "\t$SRC_NAME -> $TARGET_NAME"
+    fi
+
+    local SRC_PATH=$SRC_DIR/$SRC_NAME
+    cp -- "$SRC_PATH" "$AUTOSTART_DIR/$TARGET_NAME"
+    ${WBATCH:-:} wbatch_cp_auto "$SRC_PATH" "$AUTOSTART_DIR/$TARGET_NAME"
+}
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Print to the console which file requested guest scripts to run
+function log_autostart_source {
+    # If the caller doesn't provide a config file, log the caller's source file
+    local SRC_FILE=${1:-${BASH_SOURCE[1]##*/}}
+    echo >&2 "Copying autostart files set in $SRC_FILE"
+}
+
+# autostart <src_dir|src_dir_code> <file> <new_name>
+# e.g. autostart osbash init_xxx_node.sh init_controller_node.sh
+function autostart_and_rename {
+    local SRC_DIR=$1
+    local SRC_FILE=$2
+    local TARGET_FILE=$3
+
+    # Don't log this file -- log our caller's source file
+    log_autostart_source "${BASH_SOURCE[1]##*/}"
+
+    _autostart_queue "$SRC_DIR/$SRC_FILE" "$TARGET_FILE"
+}
+
+# autostart <src_dir|src_dir_code> <file> [<file> ...]
+# e.g. autostart scripts prepare_home.sh apt_init.sh
+function autostart {
+    local SRC_DIR=$1
+    shift
+
+    # Don't log this file -- log our caller's source file
+    log_autostart_source "${BASH_SOURCE[1]##*/}"
+
+    while (($#)); do
+        local SRC_FILE=$1
+        shift
+        _autostart_queue "$SRC_DIR/$SRC_FILE"
+    done
+}
+
+function autostart_from_config {
+    local CONFIG_FILE=$1
+
+    log_autostart_source "$CONFIG_FILE"
+    get_script_paths_from_config "$CONFIG_FILE" | while read SCR_PATH; do
+        _autostart_queue "$SCR_PATH"
+    done
+}
+
+#-------------------------------------------------------------------------------
+# Functions to get install ISO images
+#-------------------------------------------------------------------------------
+
+function download {
+    local URL=$1
+    local DEST_DIR=$2
+    local DEST_FILE=$3
+    local RC=0
+
+    local WGET=$(which wget)
+    mkdir -pv "$DEST_DIR"
+    if [ -n "$WGET" ]; then
+        $WGET --output-document "$DEST_DIR/$DEST_FILE" "$URL"||RC=$?
+    else
+        # Mac OS X has curl instead of wget
+        local CURL=$(which curl)
+        if [ -n "$CURL" ]; then
+            $CURL "$URL" -o "$DEST_DIR/$DEST_FILE"||RC=$?
+        fi
+    fi
+    if [ $RC -ne 0 ]; then
+        echo >&2 "Unable to download $URL, quitting."
+        exit 1
+    fi
+}
+
+function get_iso_name {
+    basename "${ISO_URL:-}"
+}
+
+function find_install-iso {
+    local ISO_NAME=$1
+    if [ ! -f "$ISO_DIR/$ISO_NAME" ]; then
+        echo >&2 "$ISO_NAME not in $ISO_DIR; downloading"
+        download "$ISO_URL" "$ISO_DIR" "$ISO_NAME"
+    fi
+}
+
+# vim: set ai ts=4 sw=4 et ft=sh:
