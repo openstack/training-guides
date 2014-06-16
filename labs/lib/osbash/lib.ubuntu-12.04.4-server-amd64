@@ -1,0 +1,52 @@
+# Ubuntu 12.04.4 LTS amd64 server
+
+# Default scripts for all Ubuntu installs
+: ${BASE_INSTALL_SCRIPTS:=scripts.ubuntu}
+
+#-------------------------------------------------------------------------------
+# Booting the operating system installer
+#-------------------------------------------------------------------------------
+
+readonly ISO_URL=http://releases.ubuntu.com/12.04/ubuntu-12.04.4-server-amd64.iso
+
+readonly _PS_ssh=http://git.openstack.org/cgit/openstack/training-guides/plain/labs/lib/osbash/netboot/preseed-ssh.cfg
+readonly _PS_vbadd=http://git.openstack.org/cgit/openstack/training-guides/plain/labs/lib/osbash/netboot/preseed-vbadd.cfg
+readonly _PS_all=http://git.openstack.org/cgit/openstack/training-guides/plain/labs/lib/osbash/netboot/preseed-all.cfg
+
+readonly _BOOT_ARGS="/install/vmlinuz
+ noapic
+ preseed/url=%s
+ debian-installer=en_US
+ auto=true
+ locale=en_US
+ hostname=osbash
+ fb=false
+ debconf/frontend=noninteractive
+ keyboard-configuration/modelcode=SKIP
+ initrd=/install/initrd.gz
+ console-setup/ask_detect=false"
+
+function vbox_distro_start_installer {
+    local VM_NAME=$1
+
+    # pick a _PS_* file
+    local PRESEED=_PS_$VM_ACCESS
+
+    echo "Using $PRESEED ${!PRESEED}"
+
+    local BOOT_ARGS=$(printf "$_BOOT_ARGS" "${!PRESEED}")
+
+    vbox_kbd_escape_key
+    vbox_kbd_escape_key
+    vbox_kbd_enter_key
+
+    vbox_sleep 1
+
+    echo "Pushing boot command line"
+    vbox_kbd_string_input "$VM_NAME" "$BOOT_ARGS"
+
+    echo "Initiating boot sequence"
+    vbox_kbd_enter_key
+}
+
+# vim: set ai ts=4 sw=4 et ft=sh:

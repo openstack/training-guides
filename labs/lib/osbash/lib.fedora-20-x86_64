@@ -1,0 +1,42 @@
+# Fedora 20 x86_64
+
+# Default scripts for all Fedora base disks
+: ${BASE_INSTALL_SCRIPTS:=scripts.fedora}
+
+# Give Fedora 20 installer sufficient RAM
+VM_BASE_MEM=1024
+
+#-------------------------------------------------------------------------------
+# Booting the operating system installer
+#-------------------------------------------------------------------------------
+
+readonly ISO_URL=http://mirror.switch.ch/ftp/mirror/fedora/linux/releases/20/Fedora/x86_64/iso/Fedora-20-x86_64-DVD.iso
+
+readonly _KS_ssh=http://git.openstack.org/cgit/openstack/training-guides/plain/labs/lib/osbash/netboot/ks-ssh.cfg
+readonly _KS_vbadd=http://git.openstack.org/cgit/openstack/training-guides/plain/labs/lib/osbash/netboot/ks-vbadd.cfg
+readonly _KS_all=http://git.openstack.org/cgit/openstack/training-guides/plain/labs/lib/osbash/netboot/ks-all.cfg
+
+readonly _BOOT_ARGS="linux ks=%s"
+
+function vbox_distro_start_installer {
+    local VM_NAME=$1
+
+    # pick a _KS_* file
+    local KICKSTART=_KS_$VM_ACCESS
+
+    echo "Using $KICKSTART ${!KICKSTART}"
+
+    local BOOT_ARGS=$(printf "$_BOOT_ARGS" "${!KICKSTART}")
+
+    vbox_kbd_escape_key
+
+    vbox_sleep 1
+
+    echo "Pushing boot command line"
+    vbox_kbd_string_input "$VM_NAME" "$BOOT_ARGS"
+
+    echo "Initiating boot sequence"
+    vbox_kbd_enter_key
+}
+
+# vim: set ai ts=4 sw=4 et ft=sh:
