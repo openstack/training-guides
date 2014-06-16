@@ -1,0 +1,31 @@
+ECHO.
+ECHO %time% Initialization done. Hit any key to continue.
+ECHO.
+PAUSE
+
+ECHO VBoxManage hostonlyif create
+VBoxManage hostonlyif create
+IF %errorlevel% NEQ 0 GOTO :vbm_error
+
+ECHO VBoxManage hostonlyif ipconfig "VirtualBox Host-Only Ethernet Adapter" --ip %MGMTNET% --netmask 255.255.255.0
+VBoxManage hostonlyif ipconfig "VirtualBox Host-Only Ethernet Adapter" --ip %MGMTNET% --netmask 255.255.255.0
+IF %errorlevel% NEQ 0 GOTO :vbm_error
+
+ECHO VBoxManage hostonlyif create
+VBoxManage hostonlyif create
+IF %errorlevel% NEQ 0 GOTO :vbm_error
+
+ECHO VBoxManage hostonlyif ipconfig "VirtualBox Host-Only Ethernet Adapter #2" --ip %DATANET% --netmask 255.255.255.0
+VBoxManage hostonlyif ipconfig "VirtualBox Host-Only Ethernet Adapter #2" --ip %DATANET% --netmask 255.255.255.0
+IF %errorlevel% NEQ 0 GOTO :vbm_error
+
+ECHO VBoxManage hostonlyif create
+VBoxManage hostonlyif create
+IF %errorlevel% NEQ 0 GOTO :vbm_error
+
+ECHO VBoxManage hostonlyif ipconfig "VirtualBox Host-Only Ethernet Adapter #3" --ip %APINET% --netmask 255.255.255.0
+VBoxManage hostonlyif ipconfig "VirtualBox Host-Only Ethernet Adapter #3" --ip %APINET% --netmask 255.255.255.0
+IF %errorlevel% NEQ 0 GOTO :vbm_error
+
+REM vim: set ai ts=4 sw=4 et ft=dosbatch:
+

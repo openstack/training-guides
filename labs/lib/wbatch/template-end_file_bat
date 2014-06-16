@@ -1,0 +1,47 @@
+ECHO.
+ECHO %time% Batch script seems to have succeeded.
+ECHO.
+
+GOTO :terminate
+
+REM Note: vbm_error falls through to terminate
+:vbm_error
+ECHO.
+ECHO %time% VBoxManage returned with an error. Aborting.
+ECHO.
+
+:terminate
+ENDLOCAL
+PAUSE
+GOTO :eof
+
+REM ============================================================================
+REM
+REM End of program, function definitions follow
+REM
+REM ============================================================================
+:wait_auto
+IF EXIST %STATUSDIR%\done (
+    DEL %STATUSDIR%\done
+    GOTO :eof
+)
+TIMEOUT /T 5 /NOBREAK
+GOTO :wait_auto
+REM - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+:wait_poweroff
+VBoxManage showvminfo %~1 --machinereadable|findstr poweroff
+IF %errorlevel% EQU 0 GOTO :eof
+TIMEOUT /T 2 /NOBREAK
+GOTO :wait_poweroff
+REM - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+:vm_exists
+VBoxManage list vms|findstr %~1
+IF %errorlevel% NEQ 0 GOTO :eof
+ECHO.
+ECHO %time% VM %~1 already exists. Aborting.
+ECHO.
+GOTO :terminate
+REM - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+REM vim: set ai ts=4 sw=4 et ft=dosbatch:
+

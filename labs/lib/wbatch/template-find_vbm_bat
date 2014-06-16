@@ -1,0 +1,30 @@
+REM VBoxManage is not in PATH, but this is a good guess
+IF EXIST %ProgramFiles%\Oracle\VirtualBox\VBoxManage.exe (
+    SET PATH=%PATH%;%ProgramFiles%\Oracle\VirtualBox
+    ECHO.
+    ECHO %time% Found %ProgramFiles%\Oracle\VirtualBox\VBoxManage.exe
+    ECHO.
+    GOTO :vbm_found
+)
+
+ECHO.
+ECHO %time% Searching %SystemDrive% for VBoxManage, this may take a while
+ECHO.
+FOR /r %SystemDrive% %%a IN (*) DO (
+    IF "%%~nxa"=="VBoxManage.exe" (
+        SET PATH=%PATH%;%%~dpa
+        ECHO %time% Found %%~dpnxa
+        GOTO :vbm_found
+    )
+)
+
+ECHO.
+ECHO %time% Cannot find VBoxManage.exe (part of VirtualBox) on %SystemDrive%.
+ECHO %time% Program stops.
+ECHO.
+GOTO :terminate
+
+:vbm_found
+
+REM vim: set ai ts=4 sw=4 et ft=dosbatch:
+

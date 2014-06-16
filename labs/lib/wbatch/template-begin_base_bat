@@ -1,0 +1,24 @@
+ECHO %time% Cleaning up autostart and log directories
+DEL /S /Q %AUTODIR%
+DEL /S /Q %LOGDIR%
+
+ECHO %time% Looking for %IMGDIR%\%INSTALLFILE%
+IF EXIST %IMGDIR%\%INSTALLFILE% goto got_install_iso
+ECHO.
+ECHO %INSTALLFILE% not found in %IMGDIR%.
+ECHO.
+ECHO To proceed, I need the install ISO from
+ECHO %ISOURL%
+ECHO.
+goto :terminate
+
+:got_install_iso
+ECHO.
+ECHO %time% Found %IMGDIR%\%INSTALLFILE%
+ECHO.
+ECHO %time% Initialization done. Hit any key to continue.
+ECHO.
+PAUSE
+
+REM vim: set ai ts=4 sw=4 et ft=dosbatch:
+

@@ -1,0 +1,23 @@
+ECHO %time% Cleaning up autostart and log directories
+DEL /S /Q %AUTODIR%
+DEL /S /Q %LOGDIR%
+
+ECHO %time% Looking for %IMGDIR%\%BASEDISK%
+IF EXIST %IMGDIR%\%BASEDISK% goto got_base_disk
+ECHO.
+ECHO %BASEDISK% not found in %IMGDIR%.
+ECHO.
+ECHO You need to build a base disk before you can create node VMs.
+ECHO.
+goto :terminate
+
+:got_base_disk
+ECHO.
+ECHO %time% Found %IMGDIR%\%BASEDISK%
+ECHO.
+ECHO %time% Initialization done. Hit any key to continue.
+ECHO.
+PAUSE
+
+REM vim: set ai ts=4 sw=4 et ft=dosbatch:
+
