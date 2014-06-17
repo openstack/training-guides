@@ -1,0 +1,296 @@
+# This bash library contains the functions that allow osbash to produce
+# Windows batch files.
+
+: ${WBATCH_DIR:="$TOP_DIR/wbatch"}
+
+# By default, Windows batch file templates are in the same directory as this
+# file
+: ${WBATCH_TEMPLATE_DIR:=$(dirname "$BASH_SOURCE")}
+
+# wbatch cannot use ssh for talking to the VM; install VirtualBox guest
+# additions
+VM_ACCESS=vbadd
+
+#-------------------------------------------------------------------------------
+# Helper functions
+#-------------------------------------------------------------------------------
+
+# See functions.host for definition and explanation of exec_cmd
+WBATCH=exec_cmd
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+function wbatch_reset {
+    clean_dir "$WBATCH_DIR"
+}
+
+function wbatch_new_file {
+    local NAME=$1
+    mkdir -p "$WBATCH_DIR"
+    WBATCH_OUT="$WBATCH_DIR/$NAME"
+    echo -n > "$WBATCH_OUT"
+}
+
+function wbatch_close_file {
+    unset WBATCH_OUT
+}
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+function wbatch_write_line {
+    if [ -n "${WBATCH_OUT:-}" ]; then
+        # Don't expand backslash escapes except for ending the line with CRLF
+        #
+        # Note: Windows batch scripts with LF may seem to work, but (for
+        #       instance) jump labels don't work properly
+        echo -n "$@" >> "$WBATCH_OUT"
+        echo -e "\r" >> "$WBATCH_OUT"
+    fi
+}
+
+function wbatch_write_stdin {
+    local LINE=""
+
+    # Set IFS to preserve leading whitespace
+    while IFS= read -r LINE; do
+        wbatch_write_line "$LINE"
+    done
+}
+
+function wbatch_echo {
+    wbatch_write_line "ECHO %time% $@"
+}
+
+#-------------------------------------------------------------------------------
+# Batch function calls
+#-------------------------------------------------------------------------------
+
+function wbatch_abort_if_vm_exists {
+    local VM=$1
+    wbatch_write_line "CALL :vm_exists $VM"
+}
+
+function wbatch_wait_poweroff {
+    local VM=$1
+    cat << WBAT | wbatch_write_stdin
+ECHO %time% Waiting for VM $VM to power off.
+CALL :wait_poweroff $VM
+ECHO %time% VM $VM powered off.
+WBAT
+}
+
+function wbatch_wait_auto {
+    cat << WBAT | wbatch_write_stdin
+ECHO %time% Waiting for autostart files to execute.
+CALL :wait_auto
+ECHO %time% All autostart files executed.
+WBAT
+}
+
+#-------------------------------------------------------------------------------
+# Batch commands
+#-------------------------------------------------------------------------------
+
+function wbatch_delete_disk {
+    local DISK=$(basename "$1")
+    wbatch_write_line "IF EXIST %IMGDIR%\\$DISK DEL %IMGDIR%\\$DISK"
+}
+
+function wbatch_rename_disk {
+    local SOURCE=$(basename "$1")
+    local TARGET=$(basename "$2")
+
+    wbatch_write_line "MOVE /y %IMGDIR%\\$SOURCE %IMGDIR%\\$TARGET"
+}
+
+function wbatch_cp_auto {
+    local SOURCE=$(wbatch_path_to_windows "$1")
+    local TARGET=$(basename "$2")
+    SOURCE=${SOURCE//\//\\}
+    wbatch_write_line "COPY %TOPDIR%\\$SOURCE %AUTODIR%\\$TARGET"
+}
+
+function wbatch_sleep {
+    local SEC=$1
+    wbatch_write_line "TIMEOUT /T $SEC /NOBREAK"
+}
+
+#-------------------------------------------------------------------------------
+# Templated parts
+#-------------------------------------------------------------------------------
+
+# Note: BSD and GNU sed behavior is different. Don't try anything fancy
+#       like inserting \r or in-place editing (-i).
+
+function wbatch_file_header {
+    local PRODUCT=$1
+    local DATE=$(date -u)
+
+    sed -e "
+        s,%USER%,$USER,g;
+        s,%HOSTNAME%,$HOSTNAME,g;
+        s,%DATE%,$DATE,g;
+        s,%PRODUCT%,$PRODUCT,g;
+        " "$WBATCH_TEMPLATE_DIR/template-file_header_bat" | wbatch_write_stdin
+}
+
+function wbatch_end_file {
+    cat "$WBATCH_TEMPLATE_DIR/template-end_file_bat" | wbatch_write_stdin
+    wbatch_close_file
+}
+
+function wbatch_find_vbm {
+    cat "$WBATCH_TEMPLATE_DIR/template-find_vbm_bat" | wbatch_write_stdin
+}
+
+function wbatch_mkdirs {
+    local AUTODIR=$(wbatch_path_to_windows "$AUTOSTART_DIR")
+    local IMGDIR=$(wbatch_path_to_windows "$IMG_DIR")
+    local LOGDIR=$(wbatch_path_to_windows "$LOG_DIR")
+    local STATUSDIR=$(wbatch_path_to_windows "$STATUS_DIR")
+
+    AUTODIR="$(wbatch_escape_backslash "$AUTODIR")"
+    IMGDIR="$(wbatch_escape_backslash "$IMGDIR")"
+    LOGDIR="$(wbatch_escape_backslash "$LOGDIR")"
+    STATUSDIR="$(wbatch_escape_backslash "$STATUSDIR")"
+
+    sed -e "
+        s,%P_AUTODIR%,$AUTODIR,g;
+        s,%P_IMGDIR%,$IMGDIR,g;
+        s,%P_LOGDIR%,$LOGDIR,g;
+        s,%P_STATUSDIR%,$STATUSDIR,g;
+        " "$WBATCH_TEMPLATE_DIR/template-mkdirs_bat" | wbatch_write_stdin
+}
+
+function wbatch_create_hostnet {
+    wbatch_new_file "create_hostnet.bat"
+    wbatch_file_header "host-only networks"
+    wbatch_find_vbm
+
+    sed -e "
+        s,%APINET%,$API_NET,g;
+        s,%DATANET%,$DATA_NET,g;
+        s,%MGMTNET%,$MGMT_NET,g;
+        " "$WBATCH_TEMPLATE_DIR/template-create_hostnet_bat" | wbatch_write_stdin
+
+    wbatch_end_file
+}
+
+function wbatch_begin_base {
+    local ISO_NAME=$(get_iso_name)
+
+    if [ -z "$ISO_NAME" ]; then
+        echo >&2 "Windows batch file needs install ISO URL (ISO_URL)."
+        exit 1
+    fi
+
+    wbatch_new_file "create_base.bat"
+    wbatch_file_header "base disk"
+    wbatch_find_vbm
+    wbatch_mkdirs
+
+    sed -e "
+        s,%INSTALLFILE%,$ISO_NAME,g;
+        s,%ISOURL%,$ISO_URL,g;
+        " "$WBATCH_TEMPLATE_DIR/template-begin_base_bat" | wbatch_write_stdin
+}
+
+function wbatch_begin_node {
+    local NAME=$1
+    wbatch_new_file "create_${NAME}_node.bat"
+    wbatch_file_header "$NAME VM"
+    wbatch_find_vbm
+    wbatch_mkdirs
+
+    local BASEDISK=$(basename "$BASE_DISK")
+
+    sed -e "
+        s,%BASEDISK%,$BASEDISK,g;
+        " "$WBATCH_TEMPLATE_DIR/template-begin_node_bat" | wbatch_write_stdin
+}
+
+#-------------------------------------------------------------------------------
+# VBoxManage call handling
+#-------------------------------------------------------------------------------
+
+function wbatch_get_hostif_subst {
+    local HOSTIF=$1
+    case "$HOSTIF" in
+        ${MGMT_NET_IF:-""})
+            echo 'VirtualBox Host-Only Ethernet Adapter'
+            ;;
+        ${DATA_NET_IF:-""})
+            echo 'VirtualBox Host-Only Ethernet Adapter #2'
+            ;;
+        ${API_NET_IF:-""})
+            echo 'VirtualBox Host-Only Ethernet Adapter #3'
+            ;;
+        *)
+            return 1
+            ;;
+    esac
+}
+
+function wbatch_log_vbm {
+    ARGS=( "$@" )
+    for i in "${!ARGS[@]}"; do
+        case "${ARGS[i]}" in
+            --hostonlyadapter*)
+                # The next arg is the host-only interface name -> change it
+                ARGS[i+1]=\"$(wbatch_get_hostif_subst "${ARGS[i+1]}")\"
+                ;;
+            --hostpath)
+                # The next arg is the shared dir -> change it
+                ARGS[i+1]='%SHAREDIR%'
+                continue
+                ;;
+        esac
+
+        # On Windows, ISO and base disk images must be in IMGDIR
+        re='\.(iso|vdi)$'
+        if [[ "${ARGS[i]}" =~ $re ]]; then
+            local IMG_NAME=$(basename "${ARGS[i]}")
+            ARGS[i]="%IMGDIR%\\$IMG_NAME"
+            continue
+        fi
+    done
+
+    # Echo what we are about to do
+    wbatch_write_line "ECHO VBoxManage ${ARGS[@]}"
+
+    wbatch_write_line "VBoxManage ${ARGS[@]}"
+
+    # Abort if VBoxManage call raised errorlevel
+    wbatch_write_line "IF %errorlevel% NEQ 0 GOTO :vbm_error"
+
+    # Blank line for readability
+    wbatch_write_line ""
+}
+
+#-------------------------------------------------------------------------------
+# Windows path name helpers
+#-------------------------------------------------------------------------------
+
+# On Windows, all paths are relative to TOP_DIR
+function wbatch_path_to_windows {
+    local FULL_PATH=$1
+    # strip off ${TOP_DIR}/
+    FULL_PATH="${FULL_PATH/$TOP_DIR\//}"
+    FULL_PATH=$(wbatch_slash_to_backslash "$FULL_PATH")
+    echo "$FULL_PATH"
+}
+
+# Escape backslashes in (path) variables that are given to sed
+function wbatch_escape_backslash {
+    local STRING=$1
+    STRING="${STRING//\\/\\\\}"
+    echo "$STRING"
+}
+
+function wbatch_slash_to_backslash {
+    local SOME_PATH=$1
+    SOME_PATH="${SOME_PATH//\//\\}"
+    echo "$SOME_PATH"
+}
+
+# vim: set ai ts=4 sw=4 et ft=sh:
