@@ -1,0 +1,12 @@
+# This file contains OpenStack configuration data. It is used by both
+# host (osbash, Windows batch) and VM guest scripts.
+
+# one of: folsom, grizzly, havana, icehouse
+: ${OPENSTACK_RELEASE:=icehouse}
+
+# Networks used by OpenStack training-labs setup
+: ${MGMT_NET:=10.10.10.1}
+: ${DATA_NET:=10.20.20.1}
+: ${API_NET:=192.168.100.1}
+
+# vim: set ai ts=4 sw=4 et ft=sh:
