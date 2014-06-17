@@ -139,6 +139,10 @@ function wbatch_end_file {
     wbatch_close_file
 }
 
+function wbatch_elevate_privileges {
+    cat "$WBATCH_TEMPLATE_DIR/template-elevate_privs_bat" | wbatch_write_stdin
+}
+
 function wbatch_find_vbm {
     cat "$WBATCH_TEMPLATE_DIR/template-find_vbm_bat" | wbatch_write_stdin
 }
@@ -165,6 +169,8 @@ function wbatch_mkdirs {
 function wbatch_create_hostnet {
     wbatch_new_file "create_hostnet.bat"
     wbatch_file_header "host-only networks"
+    # Creating networks requires elevated privileges
+    wbatch_elevate_privileges
     wbatch_find_vbm
 
     sed -e "
