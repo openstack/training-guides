@@ -1,0 +1,19 @@
+# Used by osbash.sh and guest scripts
+
+: ${VM_BASE_NAME:=base}
+
+# Port used for ssh forwarding when building base disk
+: ${VM_BASE_SSH_PORT:=2229}
+
+: ${OSBASH_LIB_DIR:=$LIB_DIR/osbash}
+: ${OSBASH_SCRIPTS_DIR:=$SCRIPTS_DIR/osbash}
+
+: ${TEMPLATE_DIR:=$LIB_DIR/osbash/templates}
+
+# Name of VirtualBox shared folder
+: ${SHARE_NAME:=osbash}
+
+# Note: shell user name and password are set in preseed.cfg
+VM_SHELL_USER=osbash
+
+# vim: set ai ts=4 sw=4 et ft=sh:
