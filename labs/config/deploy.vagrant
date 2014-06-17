@@ -1,0 +1,8 @@
+# Used by guest scripts
+
+# Name of VirtualBox shared folder
+SHARE_NAME=vagrant
+
+VM_SHELL_USER=vagrant
+
+# vim: set ai ts=4 sw=4 et ft=sh:
