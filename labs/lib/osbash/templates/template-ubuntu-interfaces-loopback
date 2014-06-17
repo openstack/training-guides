@@ -1,0 +1,3 @@
+# The loopback network interface
+auto lo
+iface lo inet loopback

@@ -1,0 +1,4 @@
+# VirtualBox NAT -- for Internet access to VM
+DEVICE=%IF_NAME%
+ONBOOT=yes
+BOOTPROTO=dhcp

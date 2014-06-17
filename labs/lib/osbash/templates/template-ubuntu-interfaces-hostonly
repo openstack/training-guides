@@ -1,0 +1,4 @@
+auto %IF_NAME%
+iface %IF_NAME% inet static
+      address %IP_ADDRESS%
+      netmask 255.255.255.0
