@@ -5,6 +5,10 @@
 VBM=vbm
 : ${VBM_LOG:=$LOG_DIR/vbm.log}
 
+# vbm is a wrapper around the VirtualBox VBoxManage executable; it handles
+# logging and conditional execution (set OSBASH= to prevent the actual call to
+# VBoxManage, or WBATCH= to keep a call from being recorded for Windows batch
+# files)
 function vbm {
     ${WBATCH:-:} wbatch_log_vbm "$@"
 
