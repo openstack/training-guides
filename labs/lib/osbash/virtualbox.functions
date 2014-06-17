@@ -288,12 +288,13 @@ function vm_mem {
     $VBM modifyvm "$NAME" --memory "$MEM"
 }
 
+# Port forwarding from host to VM (binding to host's 127.0.0.1)
 function vm_port {
     local NAME="$1"
     local DESC="$2"
     local HOSTPORT="$3"
     local GUESTPORT="$4"
-    $VBM modifyvm "$NAME" --natpf1 "$DESC,tcp,,$HOSTPORT,,$GUESTPORT"
+    $VBM modifyvm "$NAME" --natpf1 "$DESC,tcp,127.0.0.1,$HOSTPORT,,$GUESTPORT"
 }
 
 function vm_nic_hostonly {
