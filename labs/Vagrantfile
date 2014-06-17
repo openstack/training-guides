@@ -80,8 +80,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
        if prefix == "controller" or prefix == "allinone"
          box.vm.network "forwarded_port", guest: 80, host: 8080
        end
-       # Run the shell provisioning script file
-       box.vm.provision :shell, :path => "#{prefix}.sh"
+       # Run the shell provisioning script file (as root)
+       box.vm.provision :shell, :path => "scripts/vagrant/#{prefix}.sh"
        # Advanced VirtualBox settings
        box.vm.provider :virtualbox do |vbox|
          # Single node resource allocations; will be more selective for
