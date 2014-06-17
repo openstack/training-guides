@@ -1,0 +1,142 @@
+# This file contains bash functions that may be used by both guest and host
+# systems.
+
+# Non-recursive removal of all files except README.*
+function clean_dir {
+    local CLEAN_DIR=$1
+    if [ ! -e "$CLEAN_DIR" ]; then
+        mkdir -pv "$CLEAN_DIR"
+    elif [ ! -d "$CLEAN_DIR" ]; then
+        echo >&2 "Not a directory: $CLEAN_DIR"
+        return 1
+    fi
+    shopt -s nullglob
+    local ENTRIES=("$CLEAN_DIR"/*)
+    if [ -n "${ENTRIES[0]-}" ]; then
+        for f in "${ENTRIES[@]}"; do
+            # Skip directories
+            if [ ! -f "$f" ]; then
+                continue
+            fi
+
+            # Skip README.*
+            if [[ $f =~ /README\. ]]; then
+                continue
+            fi
+
+            rm -f "$f"
+        done
+    fi
+}
+
+function is_root {
+    if [ $EUID -eq 0 ]; then
+        return 0
+    else
+        return 1
+    fi
+}
+
+function yes_or_no {
+    local prompt=$1
+    local input=""
+    while [ : ]; do
+        read -p "$prompt (Y/n): " input
+        case "$input" in
+            N|n)
+                return 1
+                ;;
+            ""|Y|y)
+                return 0
+                ;;
+            *)
+                echo "Invalid input: $input"
+                ;;
+        esac
+    done
+}
+
+#-------------------------------------------------------------------------------
+# Helpers to incrementally number files via name prefixes
+#-------------------------------------------------------------------------------
+
+function get_next_file_number {
+    local DIR=$1
+    local EXT=${2:-""}
+
+    # Get number of *.log files in directory
+    shopt -s nullglob
+    if [ -n "$EXT" ]; then
+        # Count files with specific extension
+        local FILES=("$DIR/"*".$EXT")
+    else
+        # Count all files
+        local FILES=("$DIR/"*)
+    fi
+    echo "${#FILES[*]}"
+}
+
+function get_next_prefix {
+    local DIR=$1
+    local EXT=$2
+    # Number of digits in prefix string (default 3)
+    local DIGITS=${3:-3}
+
+    # Get number of *.$EXT files in $DIR
+    local CNT="$(get_next_file_number "$DIR" "$EXT")"
+
+    printf "%0${DIGITS}d" "$CNT"
+}
+
+#-------------------------------------------------------------------------------
+# Helpers for scripts configuration files (config/scripts.*)
+#-------------------------------------------------------------------------------
+
+# Configuration files use codes for directories rather than full paths (to make
+# them easier to read and write)
+
+function src_dir_code_to_dir {
+    local SRC_DIR_CODE=$1
+    case "$SRC_DIR_CODE" in
+        osbash)
+            echo "$OSBASH_SCRIPTS_DIR"
+            ;;
+        scripts)
+            echo "$SCRIPTS_DIR"
+            ;;
+        config)
+            echo "$CONFIG_DIR"
+            ;;
+        *)
+            # No code, it must be a path already
+            echo "$SRC_DIR_CODE"
+            ;;
+    esac
+}
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Returns list of enabled scripts (to disable, comment out with #)
+
+function get_script_paths_from_config {
+    local CONFIG_FILE=$1
+    local CONFIG_PATH=$CONFIG_DIR/$CONFIG_FILE
+
+    if [ ! -f "$CONFIG_PATH" ]; then
+        echo >&2 "Config file not found: $CONFIG_FILE"
+        return 1
+    fi
+    local DIR_CODE=""
+    local NAME=""
+    while read -r DIR_CODE NAME; do
+        if [[ $DIR_CODE =~ ^# ]]; then
+            # Skip lines that are commented out
+            continue
+        else
+            local DIR="$(src_dir_code_to_dir "$DIR_CODE")"
+            local SCR_PATH=$DIR/$NAME
+            echo "$SCR_PATH"
+        fi
+    done < "$CONFIG_PATH"
+}
+
+# vim: set ai ts=4 sw=4 et ft=sh:
