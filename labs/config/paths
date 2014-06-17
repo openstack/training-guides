@@ -1,0 +1,33 @@
+# This file is used by all scripts to find the directories for the files they
+# read or write. They find this file as "$TOP_DIR/config/paths".
+
+# Configuration files
+: ${CONFIG_DIR:=$TOP_DIR/config}
+
+# Installation ISO images, basedisk images, exported VM cluster images, etc.
+#
+# TODO(rluethi): merge these directories in the code, the option to have them
+#                in separate directories doesn't seem very useful
+: ${DISK_DIR:=$TOP_DIR/img}
+: ${IMG_DIR:=$TOP_DIR/img}
+: ${ISO_DIR:=$TOP_DIR/img}
+
+# Code libraries, templates, preseed/kickstart files
+: ${LIB_DIR:=$TOP_DIR/lib}
+
+# Log files
+: ${LOG_DIR:=$TOP_DIR/log}
+
+# Status files (progress indicator for running scripts)
+: ${STATUS_DIR:=$LOG_DIR/status}
+
+# Scripts that run within the basedisk and node VMs
+: ${SCRIPTS_DIR:=$TOP_DIR/scripts}
+
+# Directory shared with VM guest
+: ${SHARE_DIR:=$TOP_DIR}
+
+# Autostart directory; files placed here are executed within the VM
+: ${AUTOSTART_DIR:=$SHARE_DIR/autostart}
+
+# vim: set ai ts=4 sw=4 et ft=sh:
