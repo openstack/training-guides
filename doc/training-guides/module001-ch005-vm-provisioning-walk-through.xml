@@ -182,12 +182,11 @@
   <para><guilabel>Launching an instance</guilabel></para>
     <para>To launch an instance, the user selects an image, a flavor,
       and other optional attributes. In this case the selected
-      flavor provides a root volume (as all flavors do) labeled vda in
-      the diagram and additional ephemeral storage labeled vdb in the
-      diagram. The user has also opted to map a volume from the
+      flavor provides a root volume (as all flavors do). Let us assume that the
+      root volume is labelled as 'vda' and additional ephemeral storage labelled
+      as 'vdb'. The user has also opted to map a volume from the
       <systemitem class="service">cinder-volume</systemitem>
-      store to the third virtual disk, vdc, on this
-      instance.</para>
+      store to the third virtual disk, vdc, on this instance.</para>
     <para>Figure 2.2. Instance creation from image and run time
       state</para>
   <figure>
@@ -207,11 +206,10 @@
       is an empty disk with an emphemeral life as it is destroyed when
       you delete the instance. The compute node attaches to the
       requested <systemitem class="service">cinder-volume</systemitem>
-      using iSCSI and maps this to the third
-      disk (vdc) as requested. The vCPU and memory resources are
-      provisioned and the instance is booted from the first drive. The
-      instance runs and changes data on the disks indicated in red in
-      the diagram.</para>
+      using iSCSI and maps this to the third disk (vdc) as requested.
+      The vCPU and memory resources are provisioned and the instance is booted
+      from the first drive. The instance runs and changes data on the disks
+      indicated in red in the diagram.</para>
     <para>There are many possible variations in the details of the
       scenario, particularly in terms of what the backing storage is
       and the network protocols used to attach and move storage. One
@@ -237,7 +235,7 @@
   </figure>
       <para>Once you launch a VM in OpenStack, there's something more
         going on in the background. To understand what's happening
-        behind the dashboard, lets take a deeper dive into OpenStack’s
+        behind the dashboard, lets take a deeper dive into OpenStack's
         VM provisioning. For launching a VM, you can either use
         the command-line interfaces or the OpenStack dashboard.
       </para>
