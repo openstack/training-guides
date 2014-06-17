@@ -1,0 +1,86 @@
+# This bash library contains the main function that creates a node VM.
+
+# Configure VirtualBox network interfaces
+function _vbox_configure_ifs {
+    # Iterate over all NET_IF_? variables
+    local NET_IFS=( "${!NET_IF_@}" )
+    local NET_IF=""
+    for NET_IF in "${NET_IFS[@]}"; do
+        local IF_NUM=${NET_IF##*_}
+        if [ "${!NET_IF}" = "nat" ]; then
+            echo "interface $IF_NUM: NAT"
+            vm_nic_nat "$NODE_NAME" "$IF_NUM"
+        else
+            # Host-only network: NET_IF is net name (e.g. API_NET)
+            # Use corresponding VirtualBox interface (e.g. API_NET_IF)
+            local HOST_IF="${!NET_IF}_IF"
+            echo "interface $IF_NUM: host-only ${!HOST_IF}"
+            vm_nic_hostonly "$NODE_NAME" "$IF_NUM" "${!HOST_IF}"
+        fi
+    done
+}
+
+# Boot node VM; wait until autostart files are processed and VM is shut down
+function _vbox_boot_with_autostart {
+    local VM=$1
+    local SSH_PORT=$2
+
+    vbox_boot "$VM"
+
+    # Wait for ssh connection and execute scripts in autostart directory
+    # (for wbatch, osbashauto does the processing instead)
+    ${WBATCH:+:} ssh_process_autostart "$SSH_PORT" &
+
+    wait_for_autofiles
+    echo >&2 "VM \"$VM\": autostart files executed"
+    vm_wait_for_shutdown "$VM"
+}
+
+function vm_build_node {
+    # XXX Run this function in sub-shell to protect our caller's environment
+    #     (which might be _our_ enviroment if we get called again)
+    (
+
+    NODE_NAME=$1
+    source "$CONFIG_DIR/config.$NODE_NAME"
+
+    ${WBATCH:-:} wbatch_begin_node "$NODE_NAME"
+
+    vm_create "$NODE_NAME"
+
+    # Set VM_MEM in config/config.NODE_NAME to override
+    vm_mem "$NODE_NAME" "${VM_MEM:-512}"
+
+    _vbox_configure_ifs
+
+    # Port forwarding
+    if [ -n "${VM_SSH_PORT:-}" ]; then
+        vm_port "$NODE_NAME" ssh "$VM_SSH_PORT" 22
+    fi
+    if [ -n "${VM_WWW_PORT:-}" ]; then
+        vm_port "$NODE_NAME" http "$VM_WWW_PORT" 80
+    fi
+
+    vm_add_share "$NODE_NAME" "$SHARE_DIR" "$SHARE_NAME"
+    vm_attach_disk_multi "$NODE_NAME" "$BASE_DISK"
+    #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    autostart_reset
+    # Rename to pass the node name to the script
+    autostart_and_rename osbash init_xxx_node.sh "init_${NODE_NAME}_node.sh"
+    autostart_from_config scripts.nodeinit_osbash
+
+    _vbox_boot_with_autostart "$NODE_NAME" "$VM_SSH_PORT"
+    vm_snapshot "$NODE_NAME" "network_configured"
+    #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    autostart_reset
+    autostart_from_config "scripts.$NODE_NAME"
+    autostart scripts shutdown.sh
+    _vbox_boot_with_autostart "$NODE_NAME" "$VM_SSH_PORT"
+    vm_snapshot "$NODE_NAME" "pre-installed"
+    #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    ${WBATCH:-:} wbatch_end_file
+
+    )
+}
+
+# vim: set ai ts=4 sw=4 et ft=sh:
