@@ -1,0 +1,624 @@
+#-------------------------------------------------------------------------------
+# VirtualBoxManage
+#-------------------------------------------------------------------------------
+
+VBM=vbm
+: ${VBM_LOG:=$LOG_DIR/vbm.log}
+
+function vbm {
+    ${WBATCH:-:} wbatch_log_vbm "$@"
+
+    mkdir -p "$(dirname "$VBM_LOG")"
+
+    if [[ -n "${OSBASH:-}" ]]; then
+        echo "$@" >> "$VBM_LOG"
+        local rc=0
+        "$VBM_EXE" "$@" || rc=$?
+        if [ $rc -ne 0 ]; then
+            echo >&2 "FAILURE: VBoxManage: $@"
+            return 1
+        fi
+    else
+        echo "(not executed) $@" >> "$VBM_LOG"
+    fi
+}
+
+function get_vb_version {
+    local VERSION=""
+    local RAW=$(WBATCH= $VBM --version)
+    local re='([0-9]+\.[0-9]+\.[0-9]+).*'
+    if [[ $RAW =~ $re ]]; then
+        VERSION=${BASH_REMATCH[1]}
+    fi
+    echo "$VERSION"
+}
+
+#-------------------------------------------------------------------------------
+# VM status
+#-------------------------------------------------------------------------------
+
+function vm_exists {
+    local VM_NAME=$1
+    return $(WBATCH= $VBM list vms | grep -q "\"$VM_NAME\"")
+}
+
+function vm_is_running {
+    local VM_NAME=$1
+    return $(WBATCH= $VBM showvminfo --machinereadable "$VM_NAME" | \
+        grep -q 'VMState="running"')
+}
+
+function vm_wait_for_shutdown {
+    local VM=$1
+
+    ${WBATCH:-:} wbatch_wait_poweroff "$VM"
+    # Return if we are just faking it for wbatch
+    ${OSBASH:+:} return 0
+
+    echo >&2 -n "Machine shutting down"
+    until WBATCH= $VBM showvminfo --machinereadable "$VM" 2>/dev/null | \
+            grep -q '="poweroff"'; do
+        echo -n .
+        sleep 1
+    done
+    echo >&2 -e "\nMachine powered off."
+}
+
+function vm_power_off {
+    local VM_NAME=$1
+    if vm_is_running "$VM_NAME"; then
+        echo >&2 "Powering off VM \"$VM_NAME\""
+        $VBM controlvm "$VM_NAME" poweroff
+    fi
+    # VirtualBox VM needs a break before taking new commands
+    vbox_sleep 1
+}
+
+function vm_snapshot {
+    local VM_NAME=$1
+    local SHOT_NAME=$2
+
+    # Blanks would fail in Windows batch files; space becomes underscore
+    SHOT_NAME="${SHOT_NAME// /_}"
+
+    $VBM snapshot "$VM_NAME" take "$SHOT_NAME"
+    # VirtualBox VM needs a break before taking new commands
+    vbox_sleep 1
+}
+
+#-------------------------------------------------------------------------------
+# Host-only network functions
+#-------------------------------------------------------------------------------
+
+function hostonlyif_in_use {
+    local NAME=$1
+    return $(WBATCH= $VBM list -l runningvms | \
+        grep -q "Host-only Interface '$NAME'")
+}
+
+function ip_to_hostonlyif {
+    local IP=$1
+    local prevline=""
+    WBATCH= $VBM list hostonlyifs | grep -e "^Name:" -e "^IPAddress:" | \
+    while read line; do
+        if [[ "$line" == *$IP* ]]; then
+            # match longest string that ends with a space
+            echo ${prevline##Name:* }
+            break
+        fi
+        prevline=$line
+    done
+}
+
+function create_hostonlyif {
+    local OUT=$(WBATCH= $VBM hostonlyif create 2> /dev/null | grep "^Interface")
+    # OUT is something like "Interface 'vboxnet3' was successfully created"
+    local re="Interface '(.*)' was successfully created"
+    if [[ $OUT =~ $re ]]; then
+        echo "${BASH_REMATCH[1]}"
+    else
+        echo >&2 "Host-only interface creation failed"
+        return 1
+    fi
+}
+
+function create_network {
+    local IP=$1
+
+    # XXX We need host-only interface names as identifiers for wbatch; by
+    #     always executing VBoxManage calls to ip_to_hostonlyif and
+    #     create_hostonlyif we avoid the need to invent fake interface names
+
+    local NAME="$(OSBASH=exec_cmd ip_to_hostonlyif "$IP")"
+    if [ -n "$NAME" ]; then
+        if hostonlyif_in_use "$NAME"; then
+            echo >&2 "Host-only interface $NAME ($IP) is in use. Using it, too."
+        fi
+    else
+        echo >&2 "Creating host-only interface"
+        NAME=$(OSBASH=exec_cmd  create_hostonlyif)
+    fi
+
+    echo >&2 "Configuring host-only network $IP ($NAME)"
+    $VBM hostonlyif ipconfig "$NAME" \
+        --ip "$IP" \
+        --netmask 255.255.255.0 >/dev/null
+    echo "$NAME"
+}
+
+#-------------------------------------------------------------------------------
+# Disk functions
+#-------------------------------------------------------------------------------
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Creating, registering and unregistering disk images with VirtualBox
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# DISK can be either a path or a disk UUID
+function disk_registered {
+    local DISK=$1
+    return $(WBATCH= $VBM list hdds | grep -q "$DISK")
+}
+
+# DISK can be either a path or a disk UUID
+function disk_unregister {
+    local DISK=$1
+    echo >&2 -e "Unregistering disk\n\t$DISK"
+    $VBM closemedium disk "$DISK"
+}
+
+function create_vdi {
+    local HDPATH=$1
+    local SIZE=$2
+    echo >&2 -e "Creating disk:\n\t$HDPATH"
+    $VBM createhd --format VDI --filename "$HDPATH" --size "$SIZE"
+}
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Attaching and detaching disks from VMs
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# DISK can be either a path or a disk UUID
+function get_next_child_uuid {
+    local DISK=$1
+    local CHILD_UUID=""
+    if disk_registered "$DISK"; then
+        local LINE=$(WBATCH= $VBM showhdinfo "$DISK" | grep -e "^Child UUIDs:")
+        CHILD_UUID=${LINE##Child UUIDs:* }
+    fi
+    echo -e "next_child_uuid $DISK:\n\t$LINE\n\t$CHILD_UUID" >> "$VBM_LOG"
+    echo "$CHILD_UUID"
+}
+
+# DISK can be either a path or a disk UUID
+function path_to_disk_uuid {
+    local DISK=$1
+    local UUID=""
+    local LINE=$(WBATCH= $VBM showhdinfo "$DISK" | grep -e "^UUID:")
+    local re='UUID:[ ]+([^ ]+)'
+    if [[ $LINE =~ $re ]]; then
+        UUID=${BASH_REMATCH[1]}
+    fi
+    echo -e "path_to_disk_uuid $DISK:\n\t$LINE\n\t$UUID" >> "$VBM_LOG"
+    echo "$UUID"
+}
+
+# DISK can be either a path or a disk UUID
+function disk_to_path {
+    local DISK=$1
+    local FPATH=""
+    local LINE=$(WBATCH= $VBM showhdinfo "$DISK" | grep -e "^Location:")
+    local re='Location:[ ]+([^ ]+)'
+    if [[ $LINE =~ $re ]]; then
+        FPATH=${BASH_REMATCH[1]}
+    fi
+    echo -e "disk_to_path $DISK:\n\t$LINE\n\t$FPATH" >> "$VBM_LOG"
+    echo "$FPATH"
+}
+
+# DISK can be either a path or a disk UUID
+function disk_to_vm {
+    local DISK=$1
+    local VM_NAME=""
+    local LINE=$(WBATCH= $VBM showhdinfo "$DISK" | grep -e "^In use by VMs:")
+    local re='In use by VMs:[ ]+([^ ]+) '
+    if [[ $LINE =~ $re ]]; then
+        VM_NAME=${BASH_REMATCH[1]}
+    fi
+    echo -e "disk_to_vm $DISK:\n\t$LINE\n\t$VM_NAME" >> "$VBM_LOG"
+    echo "$VM_NAME"
+}
+
+function vm_get_disk_path {
+    local VM_NAME=$1
+    local LINE=$(WBATCH= $VBM showvminfo --machinereadable "$VM_NAME" | \
+        grep '^"SATA-0-0"=.*vdi"$')
+    local HDPATH=${LINE##\"SATA-0-0\"=\"}
+    HDPATH=${HDPATH%\"}
+    echo "$HDPATH"
+}
+
+function vm_detach_disk {
+    local VM_NAME=$1
+    echo >&2 "Detaching disk from VM \"$VM_NAME\""
+    $VBM storageattach "$VM_NAME" \
+        --storagectl SATA \
+        --port 0 \
+        --device 0 \
+        --type hdd \
+        --medium none
+    # VirtualBox VM needs a break before taking new commands
+    vbox_sleep 1
+}
+
+# DISK can be either a path or a disk UUID
+function vm_attach_disk {
+    local VM_NAME=$1
+    local DISK=$2
+    echo >&2 -e "Attaching to VM \"$VM_NAME\":\n\t$DISK"
+    $VBM storageattach "$VM_NAME" \
+        --storagectl SATA \
+        --port 0 \
+        --device 0 \
+        --type hdd \
+        --medium "$DISK"
+}
+
+# DISK can be either a path or a disk UUID
+function vm_attach_disk_multi {
+    local VM_NAME=$1
+    local DISK=$2
+    echo >&2 -e "Attaching to VM \"$VM_NAME\":\n\t$DISK"
+    $VBM storageattach "$VM_NAME" \
+        --storagectl SATA \
+        --port 0 \
+        --device 0 \
+        --type hdd \
+        --medium "$DISK" \
+        --mtype multiattach
+}
+
+#-------------------------------------------------------------------------------
+# VM create and configure
+#-------------------------------------------------------------------------------
+
+function vm_mem {
+    local NAME="$1"
+    local MEM="$2"
+    $VBM modifyvm "$NAME" --memory "$MEM"
+}
+
+function vm_port {
+    local NAME="$1"
+    local DESC="$2"
+    local HOSTPORT="$3"
+    local GUESTPORT="$4"
+    $VBM modifyvm "$NAME" --natpf1 "$DESC,tcp,,$HOSTPORT,,$GUESTPORT"
+}
+
+function vm_nic_hostonly {
+    local VM=$1
+    # We start counting interfaces at 0, but VirtualBox starts NICs at 1
+    local NIC=$(($2 + 1))
+    local NETNAME=$3
+    $VBM modifyvm "$VM" \
+        "--nictype$NIC" "$NICTYPE" \
+        "--nic$NIC" hostonly \
+        "--hostonlyadapter$NIC" "$NETNAME" \
+        "--nicpromisc$NIC" allow-all
+}
+
+function vm_nic_nat {
+    local VM=$1
+    # We start counting interfaces at 0, but VirtualBox starts NICs at 1
+    local NIC=$(($2 + 1))
+    $VBM modifyvm "$VM" "--nictype$NIC" "$NICTYPE" "--nic$NIC" nat
+}
+
+function vm_create {
+    # NOTE: We assume that a VM with a matching name is ours.
+    #       Remove and recreate just in case someone messed with it.
+    local VM_NAME="$1"
+
+    ${WBATCH:-:} wbatch_abort_if_vm_exists "$VM_NAME"
+
+    # Don't write to wbatch scripts, and don't execute when we are faking it
+    # it for wbatch
+    WBATCH= ${OSBASH:-:} vm_delete "$VM_NAME"
+
+    # XXX ostype is distro-specific; moving it to modifyvm disables networking
+
+    # Note: The VirtualBox GUI may not notice group changes after VM creation
+    #       until GUI is restarted. Moving a VM with group membership will
+    #       fail in cases (lingering files from old VM) where creating a
+    #       VM in that location succeeds.
+    #
+    # XXX temporary hack
+    # --groups not supported in VirtualBox 4.1 (Mac OS X 10.5)
+    echo >&2 "Creating VM \"$VM_NAME\""
+    local VER=$(get_vb_version)
+    if [[ $VER = 4.1*  ]]; then
+        $VBM createvm \
+            --name "$VM_NAME" \
+            --register \
+            --ostype Ubuntu_64 >/dev/null
+    else
+        $VBM createvm \
+            --name "$VM_NAME" \
+            --register \
+            --ostype Ubuntu_64 \
+            --groups "/$VM_GROUP"  >/dev/null
+    fi
+
+    $VBM modifyvm "$VM_NAME" --rtcuseutc on
+    $VBM modifyvm "$VM_NAME" --biosbootmenu disabled
+    $VBM modifyvm "$VM_NAME" --largepages on
+    $VBM modifyvm "$VM_NAME" --boot1 disk
+
+    # XXX temporary hack
+    # --portcount not supported in VirtualBox 4.1 (Mac OS X 10.5)
+    if [[ $VER == 4.1*  ]]; then
+        $VBM storagectl "$VM_NAME" --name SATA --add sata
+    else
+        $VBM storagectl "$VM_NAME" --name SATA --add sata --portcount 1
+    fi
+
+    $VBM storagectl "$VM_NAME" --name IDE --add ide
+    echo >&2 "Created VM \"$VM_NAME\""
+}
+
+#-------------------------------------------------------------------------------
+# VM unregister, remove, delete
+#-------------------------------------------------------------------------------
+
+function vm_unregister_del {
+    local VM_NAME=$1
+    echo >&2 "Unregistering and deleting VM \"$VM_NAME\""
+    $VBM unregistervm "$VM_NAME" --delete
+}
+
+function vm_delete {
+    local VM_NAME=$1
+    echo >&2 -n "Asked to delete VM \"$VM_NAME\" "
+    if vm_exists "$VM_NAME"; then
+        echo >&2 "(found)"
+        vm_power_off "$VM_NAME"
+        local HDPATH="$(vm_get_disk_path "$VM_NAME")"
+        if [ -n "$HDPATH" ]; then
+            echo >&2 -e "Disk attached: $HDPATH"
+            vm_detach_disk "$VM_NAME"
+            disk_unregister "$HDPATH"
+            echo >&2 -e "Deleting: $HDPATH"
+            rm -f "$HDPATH"
+        fi
+        vm_unregister_del "$VM_NAME"
+    else
+        echo >&2 "(not found)"
+    fi
+}
+
+# Remove VMs using disk and its children disks
+# DISK can be either a path or a disk UUID
+function disk_delete_child_vms {
+    local DISK=$1
+    if ! disk_registered "$DISK"; then
+        # VirtualBox doesn't know this disk; we are done
+        echo >&2 -e "Disk not registered with VirtualBox:\n\t$DISK"
+        return 0
+    fi
+
+    # XXX temporary hack
+    # No Child UUIDs through showhdinfo in VirtualBox 4.1 (Mac OS X 10.5)
+    local VER=$(get_vb_version)
+    if [[ $VER == 4.1*  ]]; then
+        local VM=""
+        for VM in controller network compute base; do
+            vm_delete "$VM"
+        done
+        return 0
+    fi
+
+    while [ : ]; do
+        local CHILD_UUID=$(get_next_child_uuid "$DISK")
+        if [ -n "$CHILD_UUID" ]; then
+            local CHILD_DISK="$(disk_to_path "$CHILD_UUID")"
+            echo >&2 -e "\nChild disk UUID: $CHILD_UUID\n\t$CHILD_DISK"
+
+            local VM="$(disk_to_vm "$CHILD_UUID")"
+            if [ -n "$VM" ]; then
+                echo 2>&1 -e "\tstill attached to VM \"$VM\""
+                vm_delete "$VM"
+            else
+                echo >&2 "Unregistering and deleting: $CHILD_UUID"
+                disk_unregister "$CHILD_UUID"
+                echo >&2 -e "\t$CHILD_DISK"
+                rm -f "$CHILD_DISK"
+            fi
+        else
+            break
+        fi
+    done
+}
+
+#-------------------------------------------------------------------------------
+# VM shared folders
+#-------------------------------------------------------------------------------
+
+function vm_add_share_automount {
+    local VM_NAME=$1
+    local SHARE_DIR=$2
+    local SHARE_NAME=$3
+    $VBM sharedfolder add "$VM_NAME" \
+        --name "$SHARE_NAME" \
+        --hostpath "$SHARE_DIR" \
+        --automount
+}
+
+function vm_add_share {
+    local VM_NAME=$1
+    local SHARE_DIR=$2
+    local SHARE_NAME=$3
+    $VBM sharedfolder add "$VM_NAME" \
+        --name "$SHARE_NAME" \
+        --hostpath "$SHARE_DIR"
+}
+
+function vm_rm_share {
+    local VM_NAME=$1
+    local SHARE_NAME=$2
+    $VBM sharedfolder remove "$VM_NAME" --name "$SHARE_NAME"
+}
+
+#-------------------------------------------------------------------------------
+# VirtualBox guest add-ons
+#-------------------------------------------------------------------------------
+
+function _download_guestadd-iso {
+    # e.g. 4.1.32r92798 4.3.10_RPMFusionr93012 4.3.10_Debianr93012
+    local ISO=VBoxGuestAdditions.iso
+    local VER=$(get_vb_version)
+    if [[ -n "$VER" ]]; then
+        local URL="http://download.virtualbox.org/virtualbox/$VER/VBoxGuestAdditions_$VER.iso"
+        download "$URL" "$ISO_DIR" $ISO
+    fi
+    GUESTADD_ISO="$ISO_DIR/$ISO"
+}
+
+function _get_guestadd-iso {
+    local ISO=VBoxGuestAdditions.iso
+
+    local ADD_ISO="$IMG_DIR/$ISO"
+    if [ -f "$ADD_ISO" ]; then
+        echo "$ADD_ISO"
+        return 0
+    fi
+
+    ADD_ISO="/Applications/VirtualBox.app/Contents/MacOS/$ISO"
+    if [ -f "$ADD_ISO" ]; then
+        echo "$ADD_ISO"
+        return 0
+    fi
+
+    echo >&2 "Searching filesystem for VBoxGuestAdditions. This may take a while..."
+    ADD_ISO=$(find / -name "$ISO" 2>/dev/null) || true
+    if [ -n "$ADD_ISO" ]; then
+        echo "$ADD_ISO"
+        return 0
+    fi
+
+    echo >&2 "Looking on the Internet"
+    _download_guestadd-iso
+    if [ -f "$ADD_ISO" ]; then
+        echo "$ADD_ISO"
+        return 0
+    fi
+}
+
+function _vm_attach_guestadd-iso {
+    local VM=$1
+    local GUESTADD_ISO=$2
+    local rc=0
+    $VBM storageattach "$VM" --storagectl IDE --port 1 --device 0 --type dvddrive --medium "$GUESTADD_ISO" 2>/dev/null || rc=$?
+    return $rc
+}
+
+function vm_attach_guestadd-iso {
+    local VM=$1
+
+    OSBASH= ${WBATCH:-:} _vm_attach_guestadd-iso "$VM" emptydrive
+    OSBASH= ${WBATCH:-:} _vm_attach_guestadd-iso "$VM" additions
+    # Return if we are just faking it for wbatch
+    ${OSBASH:+:} return 0
+
+    if [ -z "${GUESTADD_ISO-}" ]; then
+
+        # No location provided, asking VirtualBox for one
+
+        # An existing drive is needed to make additions shortcut work
+        # (at least VirtualBox 4.3.12 and below)
+        WBATCH= _vm_attach_guestadd-iso "$VM" emptydrive
+
+        if WBATCH= _vm_attach_guestadd-iso "$VM" additions; then
+            echo >&2 "Using VBoxGuestAdditions provided by VirtualBox"
+            return 0
+        fi
+        # Neither user nor VirtualBox are helping, let's go guessing
+        GUESTADD_ISO=$(_get_guestadd-iso)
+        if [ -z "GUESTADD_ISO" ]; then
+            # No ISO found
+            return 2
+        fi
+    fi
+    if WBATCH= _vm_attach_guestadd-iso "$VM" "$GUESTADD_ISO"; then
+        echo >&2 "Attached $GUESTADD_ISO"
+        return 0
+    else
+        echo >&2 "Failed to attach $GUESTADD_ISO"
+        return 3
+    fi
+}
+
+#-------------------------------------------------------------------------------
+# Sleep
+#-------------------------------------------------------------------------------
+
+function vbox_sleep {
+    SEC=$1
+
+    # Don't sleep if we are just faking it for wbatch
+    ${OSBASH:-:} sleep "$SEC"
+    ${WBATCH:-:} wbatch_sleep "$SEC"
+}
+
+#-------------------------------------------------------------------------------
+# Booting a VM and passing boot parameters
+#-------------------------------------------------------------------------------
+
+source "$OSBASH_LIB_DIR/scanlib"
+
+function _vbox_push_scancode {
+    local VM_NAME=$1
+    shift
+    # Split string (e.g. '01 81') into arguments (works also if we
+    # get each hexbyte as a separate argument)
+    # Not quoting $@ is intentional -- we want to split on blanks
+    local SCANCODE=( $@ )
+    $VBM controlvm "$VM_NAME" keyboardputscancode "${SCANCODE[@]}"
+}
+
+function vbox_kbd_escape_key {
+    _vbox_push_scancode "$VM_NAME" "$(esc2scancode)"
+}
+
+function vbox_kbd_enter_key {
+    _vbox_push_scancode "$VM_NAME" "$(enter2scancode)"
+}
+
+function vbox_kbd_string_input {
+    local VM_NAME=$1
+    local STR=$2
+
+    # This loop is inefficient enough that we don't overrun the keyboard input
+    # buffer when pushing scancodes to the VirtualBox.
+    while IFS=  read -r -n1 char; do
+        if [ -n "$char" ]; then
+            SC=$(char2scancode "$char")
+            if [ -n "$SC" ]; then
+                _vbox_push_scancode "$VM_NAME" "$SC"
+            else
+                echo >&2 "not found: $char"
+            fi
+        fi
+    done <<< "$STR"
+}
+
+function vbox_boot {
+    local VM=$1
+
+    echo >&2 "Starting VM \"$VM\""
+    $VBM startvm "$VM"
+}
+
+#-------------------------------------------------------------------------------
+
+# vim: set ai ts=4 sw=4 et ft=sh:
