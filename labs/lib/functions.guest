@@ -1,0 +1,286 @@
+# This file contains bash functions that may be used by guest systems (VMs).
+
+# Sourcing this file calls functions fix_path_env and source_deploy.
+
+source "$LIB_DIR/functions"
+source "$LIB_DIR/functions-common-devstack"
+
+function source_deploy {
+    if [ -n "${VM_SHELL_USER:-}" ]; then
+        # Already sourced
+        return 0
+    fi
+    if mountpoint -q /vagrant; then
+        source "$CONFIG_DIR/deploy.vagrant"
+    else
+        source "$CONFIG_DIR/deploy.osbash"
+    fi
+}
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# If our sudo user's PATH is preserved (and does not contain sbin dirs),
+# some commands won't be found. Observed with Vagrant shell provisioner
+# scripts using sudo after "su - vagrant".
+# Adding to the path seems preferable to messing with the vagrant user's
+# sudoers environment (or working with a separate Vagrant user).
+
+function fix_path_env {
+    if is_root; then return 0; fi
+    if echo 'echo $PATH'|sudo sh|grep -q '/sbin'; then return 0; fi
+    export PATH=$PATH:/sbin:/usr/sbin:/usr/local/sbin
+}
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+function zero_empty_space {
+    echo "Filling empty disk space with zeros"
+    sudo dd if=/dev/zero of=/filler bs=1M 2>/dev/null || true
+    sudo rm /filler
+}
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Used by guest scripts to let osbash know they are running
+
+function indicate_current_auto {
+    if [ "${VM_SHELL_USER:-}" = "osbash" ]; then
+        local NAME=${1:-$(basename "$0")}
+        local FPATH=${2:-"/$STATUS_DIR/$NAME.begin"}
+        mkdir -p "$STATUS_DIR"
+        touch "$FPATH"
+    fi
+}
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Debug function to make a script halt execution until a tmp file is removed
+
+function wait_for_file {
+    local MSG=$1
+    local WAITFILE=remove_to_continue
+    [ -n "$MSG" ] && WAITFILE=${WAITFILE}_${MSG}
+    touch "/tmp/$WAITFILE"
+    while [ -e "/tmp/$WAITFILE" ]; do
+        sleep 1
+    done
+}
+#-------------------------------------------------------------------------------
+# Copy stdin/stderr to log file
+#-------------------------------------------------------------------------------
+
+function exec_logpath {
+    local LOG_PATH=$1
+
+    # Append all stdin and stderr to log file
+    exec > >(tee -a "$LOG_PATH") 2>&1
+}
+
+function exec_logfile {
+    local LOG_DIR=${1:-/home/$VM_SHELL_USER/log}
+
+    # Default extension is log
+    local EXT=${2:-log}
+
+    mkdir -p "$LOG_DIR"
+
+    # Log name based on name of running script
+    local BASE_NAME=$(basename "$0" .sh)
+
+    local PREFIX=$(get_next_prefix "$LOG_DIR" "$EXT")
+    local LOG_NAME="${PREFIX}_$BASE_NAME.$EXT"
+
+    exec_logpath "$LOG_DIR/$LOG_NAME"
+}
+
+#-------------------------------------------------------------------------------
+# Functions that need to run as root
+#-------------------------------------------------------------------------------
+
+function as_root_fix_mount_vboxsf_link {
+    local FILE=/sbin/mount.vboxsf
+    if [ -L $FILE -a ! -e $FILE ]; then
+        echo "$FILE is a broken symlink. Trying to fix it."
+        shopt -s nullglob
+        local NEW=(/opt/VBoxGuestAdditions*/lib/VBoxGuestAdditions)
+        if [ -n "$NEW" ]; then
+            ln -sv "$NEW" /usr/lib/VBoxGuestAdditions
+        else
+            return 1
+        fi
+    fi
+}
+
+function as_root_inject_sudoer {
+    if grep -q "${VM_SHELL_USER}" /etc/sudoers; then
+        echo "${VM_SHELL_USER} already in /etc/sudoers"
+    else
+        echo "${VM_SHELL_USER} ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+        echo "Defaults:${VM_SHELL_USER} !requiretty" >> /etc/sudoers
+    fi
+}
+
+# Change to a regular user to execute a guest script (and log its output)
+
+function as_root_exec_script {
+    local SCRIPT_PATH=$1
+    local SCRIPT_NAME="$(basename "$SCRIPT_PATH" .sh)"
+
+    echo "$(date) start $SCRIPT_PATH"
+
+    local PREFIX=$(get_next_prefix "$LOG_DIR" "auto")
+    local LOG_PATH=$LOG_DIR/${PREFIX}_$SCRIPT_NAME.auto
+
+    su - "$VM_SHELL_USER" -c "bash $SCRIPT_PATH" >"$LOG_PATH" 2>&1
+
+    echo "$(date)  done"
+}
+
+#-------------------------------------------------------------------------------
+# Network configuration
+#-------------------------------------------------------------------------------
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Fedora /etc/sysconfig/network-scripts/ifcfg-* configuration
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+function _ifnum_to_ifname_fedora {
+    local IF_NUM=$1
+    local -a IF_NAMES=('p2p1' 'p7p1' 'p8p1' 'p9p1')
+
+    echo "${IF_NAMES[$IF_NUM]}"
+}
+
+function _config_sysconfig_nat {
+    local IF_NUM=$1
+
+    local IF_NAME="$(_ifnum_to_ifname_fedora "$IF_NUM")"
+
+    local IF_FILE=/etc/sysconfig/network-scripts/ifcfg-$IF_NAME
+
+    sed -e "
+        s,%IF_NAME%,$IF_NAME,g;
+    " "$TEMPLATE_DIR/template-fedora-ifcfg-nat" | sudo tee "$IF_FILE"
+}
+
+function _config_sysconfig_hostonly {
+    local IF_NUM=$1
+    local IP_ADDRESS=$2
+
+    local IF_NAME="$(_ifnum_to_ifname_fedora "$IF_NUM")"
+
+    local IF_FILE=/etc/sysconfig/network-scripts/ifcfg-$IF_NAME
+
+    sed -e "
+        s,%IF_NAME%,$IF_NAME,g;
+        s,%IP_ADDRESS%,$IP_ADDRESS,g;
+    " "$TEMPLATE_DIR/template-fedora-ifcfg-hostonly" | sudo tee "$IF_FILE"
+}
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Ubuntu /etc/network/interfaces configuration
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+readonly UBUNTU_IF_FILE=/etc/network/interfaces
+
+function _ifnum_to_ifname_ubuntu {
+    local IF_NUM=$1
+    local -a IF_NAMES=('eth0' 'eth1' 'eth2' 'eth3')
+
+    echo "${IF_NAMES[$IF_NUM]}"
+}
+
+
+function _config_interfaces_nat {
+    local IF_NAME=eth0
+
+    local IF_NAME="$(_ifnum_to_ifname_ubuntu "$IF_NUM")"
+
+    # Empty line before this entry
+    echo | sudo tee -a "$UBUNTU_IF_FILE"
+
+    sed -e "
+        s,%IF_NAME%,$IF_NAME,g;
+    " "$TEMPLATE_DIR/template-ubuntu-interfaces-nat" | sudo tee -a "$UBUNTU_IF_FILE"
+}
+
+function _config_interfaces_hostonly {
+    local IF_NUM=$1
+    local IP_ADDRESS=$2
+
+    local IF_NAME="$(_ifnum_to_ifname_ubuntu "$IF_NUM")"
+
+    # Empty line before this entry
+    echo | sudo tee -a "$UBUNTU_IF_FILE"
+
+    sed -e "
+        s,%IF_NAME%,$IF_NAME,g;
+        s,%IP_ADDRESS%,$IP_ADDRESS,g;
+    " "$TEMPLATE_DIR/template-ubuntu-interfaces-hostonly" | sudo tee -a "$UBUNTU_IF_FILE"
+}
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+function config_nat {
+    local IF_NUM=$1
+
+    if is_fedora; then
+        echo _config_sysconfig_nat "$IF_NUM"
+        _config_sysconfig_nat "$IF_NUM"
+    else
+        echo _config_interfaces_nat "$IF_NUM"
+        _config_interfaces_nat "$IF_NUM"
+    fi
+}
+
+function config_hostonly {
+    local IF_NUM=$1
+    local IP_ADDRESS=$2
+
+    if is_fedora; then
+        echo _config_sysconfig_hostonly "$IF_NUM" "$IP_ADDRESS"
+        _config_sysconfig_hostonly "$IF_NUM" "$IP_ADDRESS"
+    else
+        echo _config_interfaces_hostonly "$IF_NUM" "$IP_ADDRESS"
+        _config_interfaces_hostonly "$IF_NUM" "$IP_ADDRESS"
+    fi
+}
+
+function get_ip_from_net_and_fourth {
+    local NET_NAME=$1
+    local NET="${!NET_NAME}"
+    local FOURTH_OCTET=$2
+
+    echo "${NET%.*}.$FOURTH_OCTET"
+}
+
+function config_network {
+    if is_ubuntu; then
+        # Configuration functions will append to this file
+        sudo cp -v  "$TEMPLATE_DIR/template-ubuntu-interfaces-loopback" \
+                    "$UBUNTU_IF_FILE"
+    fi
+
+    # Get FOURTH_OCTET and network interfaces (NET_IF_?) for this node
+    unset -v NET_IF_0 NET_IF_1 NET_IF_2 NET_IF_3
+    source "$CONFIG_DIR/config.$(hostname)"
+
+    # Get API_NET, DATA_NET, MGMT_NET
+    source "$CONFIG_DIR/openstack"
+
+    # Iterate over all NET_IF_? variables
+    local NET_IFS=( "${!NET_IF_@}" )
+    local NET_IF=""
+    for NET_IF in "${NET_IFS[@]}"; do
+        echo >&2 -n "${NET_IF} ${!NET_IF}"
+        local IF_NUM=${NET_IF##*_}
+        if [ "${!NET_IF}" = "nat" ]; then
+            echo >&2
+            config_nat "$IF_NUM"
+        else
+            # Host-only network: NET_IF is net name (e.g. API_NET)
+            # Use corresponding value (e.g. 192.168.100.1)
+            IP="$(get_ip_from_net_and_fourth "${!NET_IF}" "$FOURTH_OCTET")"
+            echo >&2 " $IP"
+
+            config_hostonly "$IF_NUM" "$IP"
+        fi
+    done
+}
+
+#-------------------------------------------------------------------------------
+fix_path_env
+source_deploy
+#-------------------------------------------------------------------------------
+
+# vim: set ai ts=4 sw=4 et ft=sh:
