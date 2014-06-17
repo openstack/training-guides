@@ -1,0 +1,9 @@
+10.10.10.51 controller-mgmt
+192.168.100.51 controller-api
+
+10.10.10.52 network-mgmt
+10.20.20.52 network-data
+192.168.100.52 network-api
+
+10.10.10.53 compute-mgmt
+10.20.20.53 compute-data
