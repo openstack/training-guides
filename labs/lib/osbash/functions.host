@@ -40,6 +40,19 @@ function get_base_disk_path {
 #-------------------------------------------------------------------------------
 # ssh
 #-------------------------------------------------------------------------------
+
+# Download Vagrant insecure private key if necessary
+function check_vagrant_private_key {
+    local KEY_NAME="vagrant"
+    local KEY_URL=https://raw.githubusercontent.com/mitchellh/vagrant/master/keys/$KEY_NAME
+    local VAGRANT_KEY_DIR=$LIB_DIR/vagrant-ssh-keys
+
+    if [ ! -f "$VAGRANT_KEY_DIR/$KEY_NAME" ]; then
+        download "$KEY_URL" "$VAGRANT_KEY_DIR" $KEY_NAME
+        chmod 400 "$VAGRANT_KEY_DIR/$KEY_NAME"
+    fi
+}
+
 function strip_top_dir {
     local FULL_PATH=$1
     echo "${FULL_PATH/$TOP_DIR\//}"
@@ -49,6 +62,9 @@ function strip_top_dir {
 function vm_scp_to_vm {
     local SSH_PORT=$1
     shift
+
+    check_vagrant_private_key
+
     while (($#)); do
         local SRC_PATH=$1
         shift
@@ -68,6 +84,9 @@ function vm_scp_to_vm {
 function vm_ssh {
     local SSH_PORT=$1
     shift
+
+    check_vagrant_private_key
+
     ssh -q \
         -i "$LIB_DIR/vagrant-ssh-keys/vagrant" \
         -o "UserKnownHostsFile /dev/null" \
