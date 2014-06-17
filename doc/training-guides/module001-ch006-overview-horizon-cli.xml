@@ -443,7 +443,14 @@
         Instancescategory to view the instance name, its (private or
         public) IP address, size, status, task, and power
         state.</para>
-      <para>Figure 5. OpenStack dashboard – Instances</para>
+      <figure>
+        <title>OpenStack Dashboard- Instances</title>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="figures/image00.png"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
       <para>If you did not provide a keypair, security groups, or
         rules so far, by default the instance can only be accessed
         from inside the cloud through VNC at this point. Even pinging
