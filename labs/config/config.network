@@ -1,0 +1,13 @@
+# Node VM configuration. Used by osbash/wbatch (host and guest).
+
+# Port forwarding
+VM_SSH_PORT=2231
+
+# Last octet of IP addresses
+FOURTH_OCTET=52
+
+# Assign network interfaces to networks
+NET_IF_0=nat
+NET_IF_1=MGMT_NET
+NET_IF_2=DATA_NET
+NET_IF_3=API_NET
