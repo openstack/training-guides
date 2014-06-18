@@ -26,7 +26,8 @@ function vm_install_base {
             exit 1
         fi
         INSTALL_ISO=$ISO_DIR/$ISO_NAME
-        find_install-iso "$ISO_NAME"
+        # Don't look for ISO image if we are only doing wbatch
+        ${OSBASH:-:} find_install-iso "$ISO_NAME"
     fi
 
     echo >&2 -e "Install ISO:\n\t$INSTALL_ISO"
