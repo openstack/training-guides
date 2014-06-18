@@ -1,0 +1,18 @@
+Slides for Upstream Training
+============================
+
+The files are based on teaching material provided originally by Loic Dachary as ODP files. Converted to RST text in order to be converted by landslide in convenient html5 slides.
+
+Documentation for landslide on https://github.com/adamzap/landslide
+
+Install landslide
+-----------------
+
+Install the latest stable version of Landslide with a python package manager like pip:
+
+  $ pip install landslide
+
+To build the presentations
+--------------------------
+
+  $ landslide <presentation.rst>
