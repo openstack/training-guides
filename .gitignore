@@ -21,3 +21,9 @@ boxes/*
 .*.swp
 .bak
 /.project
+
+# Labs artifacts
+labs/autostart
+labs/img
+labs/log
+labs/wbatch
