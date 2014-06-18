@@ -1,0 +1,5 @@
+# Scripts for all nodes built by osbash
+scripts etc_hosts.sh
+osbash enable_vagrant_ssh_keys.sh
+#osbash wait_debug.sh
+scripts shutdown.sh
