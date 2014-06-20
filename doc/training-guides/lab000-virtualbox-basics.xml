@@ -628,21 +628,17 @@ KVM acceleration can NOT be used</computeroutput></screen>
   </section>
   <section xml:id="lab000-virtualbox-basics_setup_warnings">
     <title>Warnings and advice</title>
-
-    <para>Well there are a few warnings that I must give you out
-       of experience due to common habits that most people may
-       have.</para>
-    <para>Sometimes shutting down your Virtual Machine may lead to
-        the malfunctioning of OpenStack Services. Try not to directly
-        shutdown your VM, in case your VM's don't get Internet.</para>
+    <para>Shutting down your Virtual Machine may lead to
+        malfunctioning OpenStack Services. Do not directly
+        shutdown your VM, in case your VM's don't have Internet connectivity.</para>
       <itemizedlist>
         <listitem>
           <para>From your VM instance, use the <command>ping</command>
-          command to see whether Internet is on.</para>
+          command to verify internet access.</para>
           <screen><prompt>$</prompt> <userinput>ping www.google.com</userinput></screen>
         </listitem>
         <listitem>
-          <para>If its not connected, restart networking
+          <para>If its not connected, restart the networking
             service:</para>
       <screen><prompt>#</prompt> <userinput>service networking restart</userinput>
 <prompt>#</prompt> <userinput>ping www.google.com</userinput></screen>
@@ -653,10 +649,9 @@ KVM acceleration can NOT be used</computeroutput></screen>
             misconfigured.</para>
         </listitem>
         <listitem>
-          <para>This should reconnect your network about 99% of the
-            time. If you are really unlucky you must be having some
-            other problems or your Internet connection itself is not
-            functioning.</para>
+          <para>This should reconnect the network a majority of the
+            time. If you still cannot connect, there may be another issue,
+            or internet access is unavailable.</para>
         </listitem>
         <listitem>
           <para>Note: There are known bugs with the ping under NAT.
@@ -665,9 +660,9 @@ KVM acceleration can NOT be used</computeroutput></screen>
             Network is connected to the Internet.</para>
         </listitem>
       </itemizedlist>
-      <para>Congrats, you are ready with the infrastructure for
-        deploying OpenStack. Just make sure that you have installed
-        Ubuntu Server on the above setup Virtual Box instances. In the
+      <para>Congratulations! You are now setup with the infrastructure for
+        deploying OpenStack. Just make sure that the Ubuntu Server
+        is installed on the above setup Virtual Box instances. In the
         next section we will go through deploying OpenStack using the
         above created Virtual Box instances.</para>
   </section>
