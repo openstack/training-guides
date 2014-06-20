@@ -11,7 +11,7 @@ generated/
 # Ignore Vagrant Related Files
 acceptance_config.yml
 boxes/*
-/.vagrant
+.vagrant
 
 # Testenvironment
 .tox/
