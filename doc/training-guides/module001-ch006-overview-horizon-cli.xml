@@ -107,13 +107,13 @@
     </mediaobject>
   </figure>
       <para>The top-level row shows the username that you logged in
-        with. You can also access Settingsor Sign Outof the Web
+        with. You can also access Settings or Sign Out of the Web
         interface.</para>
-      <para>If you are logged in as an end user rather than an admin
-        user, the main screen shows only the Projecttab.</para>
+      <para>If you are logged in as an end-user rather than an admin
+        user, the main screen shows only the Project tab.</para>
       <para><guilabel>OpenStack dashboard – Project tab</guilabel></para>
-      <para>This tab shows details for the projects, or projects, of
-        which you are a member.</para>
+      <para>This tab shows details for the projects, or projects,
+        which you are a member of.</para>
       <para>Select a project from the drop-down list on the left-hand
         side to access the following categories:</para>
       <para><emphasis role="bold">Overview</emphasis></para>
@@ -137,9 +137,9 @@
       <para><emphasis role="bold">Access &amp;
     Security</emphasis></para>
       <para>On the<emphasis role="bold"> Security
-    Groupstab</emphasis>, you can list, create, and delete security
+    Groups tab</emphasis>, you can list, create, and delete security
     groups and edit rules for security groups.</para>
-      <para>On the <emphasis role="bold">Keypairstab</emphasis>, you
+      <para>On the <emphasis role="bold">Keypairs tab</emphasis>, you
     can list, create, and import keypairs, and delete keypairs.</para>
       <para>On the <emphasis role="bold">Floating IPstab</emphasis>,
     you can allocate an IP address to or release it from a
@@ -176,7 +176,7 @@
         <listitem>
           <para>If you are a member of multiple projects, select a
             project from the drop-down list at the top of the
-            Projecttab.</para>
+            Project tab.</para>
         </listitem>
         <listitem>
           <para>Click the Access &amp; Security category.</para>
@@ -215,22 +215,22 @@
           <para>Click Add Rule.</para>
         </listitem>
         <listitem>
-          <para>The Add Rulewindow appears.</para>
+          <para>The Add Rule window appears.</para>
         </listitem>
         <listitem>
-          <para>In the IP Protocollist, select TCP.</para>
+          <para>In the IP Protocol list, select TCP.</para>
         </listitem>
         <listitem>
-          <para>In the Openlist, select Port.</para>
+          <para>In the Open list, select Port.</para>
         </listitem>
         <listitem>
-          <para>In the Portbox, enter 22.</para>
+          <para>In the Port box, enter 22.</para>
         </listitem>
         <listitem>
-          <para>In the Sourcelist, select CIDR.</para>
+          <para>In the Source list, select CIDR.</para>
         </listitem>
         <listitem>
-          <para>In the CIDRbox, enter 0.0.0.0/0.</para>
+          <para>In the CIDR box, enter 0.0.0.0/0.</para>
         </listitem>
         <listitem>
           <para>Click Add.</para>
@@ -251,22 +251,22 @@
           <para>Click Add Rule.</para>
         </listitem>
         <listitem>
-          <para>The Add Rulewindow appears.</para>
+          <para>The Add Rule window appears.</para>
         </listitem>
         <listitem>
-          <para>In the IP Protocollist, select ICMP.</para>
+          <para>In the IP Protocol list, select ICMP.</para>
         </listitem>
         <listitem>
-          <para>In the Typebox, enter -1.</para>
+          <para>In the Type box, enter -1.</para>
         </listitem>
         <listitem>
-          <para>In the Codebox, enter -1.</para>
+          <para>In the Code box, enter -1.</para>
         </listitem>
         <listitem>
-          <para>In the Sourcelist, select CIDR.</para>
+          <para>In the Source list, select CIDR.</para>
         </listitem>
         <listitem>
-          <para>In the CIDRbox, enter 0.0.0.0/0.</para>
+          <para>In the CIDR box, enter 0.0.0.0/0.</para>
         </listitem>
         <listitem>
           <para>Click Add.</para>
@@ -285,13 +285,13 @@
         <listitem>
           <para>If you are a member of multiple projects, select a
             project from the drop-down list at the top of the
-            Projecttab.</para>
+            Project tab.</para>
         </listitem>
         <listitem>
-          <para>Click the Access &amp; Securitycategory.</para>
+          <para>Click the Access &amp; Security category.</para>
         </listitem>
         <listitem>
-          <para>Click the Keypairstab. The dashboard shows the
+          <para>Click the Keypairs tab. The dashboard shows the
             keypairs that are available for this project.</para>
         </listitem>
         <listitem>
@@ -301,10 +301,10 @@
           <para>Click Create Keypair.</para>
         </listitem>
         <listitem>
-          <para>The Create Keypairwindow appears.</para>
+          <para>The Create Keypair window appears.</para>
         </listitem>
         <listitem>
-          <para>In the Keypair Namebox, enter a name for your
+          <para>In the Keypair Name box, enter a name for your
             keypair.</para>
         </listitem>
         <listitem>
@@ -320,14 +320,14 @@
           <para>Click Import Keypair.</para>
         </listitem>
         <listitem>
-          <para>The Import Keypairwindow appears.</para>
+          <para>The Import Keypair window appears.</para>
         </listitem>
         <listitem>
           <para>In the Keypair Namebox, enter the name of your
             keypair.</para>
         </listitem>
         <listitem>
-          <para>In the Public Keybox, copy the public key.</para>
+          <para>In the Public Key box, copy the public key.</para>
         </listitem>
         <listitem>
           <para>Click Import Keypair.</para>
@@ -350,7 +350,7 @@
       <para>The public key of the keypair is registered in the Nova
         database.</para>
       <para>The dashboard lists the keypair in the Access &amp;
-        Securitycategory.</para>
+        Security category.</para>
     <para><guilabel>Launch instances</guilabel></para>
     <para>Instances are virtual machines that run inside the cloud.
       You can launch an instance directly from one of the available
@@ -370,7 +370,7 @@
         <listitem>
           <para>If you are a member of multiple projects, select a
             project from the drop-down list at the top of the
-            Projecttab.</para>
+            Project tab.</para>
         </listitem>
         <listitem>
           <para>Click the Images &amp; Snapshot category.</para>
@@ -384,7 +384,7 @@
           <para>Select an image and click Launch.</para>
         </listitem>
         <listitem>
-          <para>In the Launch Imagewindow, specify the
+          <para>In the Launch Image window, specify the
             following:</para>
         </listitem>
         <listitem>
@@ -392,7 +392,7 @@
             machine.</para>
         </listitem>
         <listitem>
-          <para>From the Flavordrop-down list, select the size of the
+          <para>From the Flavor drop-down list, select the size of the
             virtual machine to launch.</para>
         </listitem>
         <listitem>
@@ -440,7 +440,7 @@
         </listitem>
       </orderedlist>
       <para>After you have launched an instance, switch to the
-        Instancescategory to view the instance name, its (private or
+        Instances category to view the instance name, its (private or
         public) IP address, size, status, task, and power
         state.</para>
       <figure>
@@ -580,7 +580,7 @@
             started.</para>
         </listitem>
         <listitem>
-          <para>SSH in to your instance</para>
+          <para>SSH into your instance</para>
         </listitem>
       </orderedlist>
       <para>To SSH into your instance, you use the downloaded keypair
@@ -621,7 +621,7 @@
         <listitem>
           <para>If you are a member of multiple projects, select a
             project from the drop-down list at the top of the
-            Projecttab.</para>
+            Project tab.</para>
         </listitem>
         <listitem>
           <para>Click the Instancescategory.</para>
@@ -660,7 +660,7 @@
         <listitem>
           <para>If you are a member of multiple projects, select a
             project from the drop-down list at the top of the
-            Projecttab.</para>
+            Project tab.</para>
         </listitem>
         <listitem>
           <para>Click the Instancescategory.</para>
@@ -684,7 +684,7 @@
         </listitem>
       </orderedlist>
   <figure>
-    <title>OpenStack Dashboard : Actions</title>
+    <title>OpenStack Dashboard: Actions</title>
     <mediaobject>
       <imageobject>
         <imagedata fileref="figures/image30.png"/>
@@ -710,7 +710,7 @@
         <listitem>
           <para>If you are a member of multiple projects, select a
             project from the drop-down list at the top of the
-            Projecttab.</para>
+            Project tab.</para>
         </listitem>
         <listitem>
           <para>Select a month and click Submitto query the instance
@@ -736,7 +736,7 @@
         </listitem>
         <listitem>
           <para>If you are a member of multiple projects, select a
-            Projectfrom the drop-down list at the top of the
+            Project from the drop-down list at the top of the
             tab.</para>
         </listitem>
         <listitem>
@@ -790,7 +790,7 @@
         </listitem>
         <listitem>
           <para>If you are a member of multiple projects, select a
-            Projectfrom the drop-down list at the top of the
+            Project from the drop-down list at the top of the
             tab.</para>
         </listitem>
         <listitem>
@@ -975,12 +975,12 @@
         <para>Log in to the OpenStack dashboard.</para>
       </listitem>
       <listitem>
-        <para>On the Projecttab, select the project for which you
+        <para>On the Project tab, select the project for which you
           want to download the OpenStack RC file.</para>
       </listitem>
       <listitem>
         <para>Click Access &amp; Security. Then, click Download
-          OpenStack RC Fileand save the file.</para>
+          OpenStack RC File and save the file.</para>
       </listitem>
       <listitem>
         <para>Copy the openrc.sh file to the machine from where you
@@ -2327,7 +2327,7 @@
         <para>Created a new network:</para>
       </listitem>
       <listitem>
-        <para>Just as shown previous, the unknown option
+        <para>Just as shown previously, the unknown option
           --provider:network-type is used to create a local provider
           network.</para>
       </listitem>
@@ -2388,7 +2388,7 @@
           ip_address=192.168.2.40 is one unknown option.</para>
       </listitem>
       <listitem>
-        <para>How to find unknown options?The unknown options can be
+        <para>How to find unknown options? The unknown options can be
           easily found by watching the output of create_xxx or
           show_xxx command. For example, in the port creation command,
           we see the fixed_ips fields, which can be used as an unknown
