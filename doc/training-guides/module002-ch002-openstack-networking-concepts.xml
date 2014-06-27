@@ -8,7 +8,7 @@
     <para><emphasis role="bold">Network Types</emphasis></para>
     <para>The OpenStack Networking configuration provided by the
         Rackspace Private Cloud cookbooks allows you to choose between
-        VLAN or GRE isolated networks, both provider- and
+        VLAN or GRE isolated networks, both provider and
         tenant-specific. From the provider side, an administrator can
         also create a flat network.</para>
     <para>The type of network that is used for private tenant networks
