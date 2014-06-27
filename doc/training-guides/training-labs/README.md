@@ -8,7 +8,7 @@ Training Labs will provide scripts to automate creation of Training
 Environment.
 
 **Note:** Training Labs are specifically meant for OpenStack Training and are
-speficially tuned as per Training Manuals repo.
+specifically tuned as per Training Manuals repo.
 
 BluePrints
 ---------
@@ -19,17 +19,17 @@ Training Labs : https://blueprints.launchpad.net/openstack-manuals/+spec/opensta
 IRC
 ---
 
-To contribute please contact Pranav Salunke ( dguitarbite@gmail.com) or hop on
-to IRC channel `#openstack-manuals`.
+To contribute please contact Pranav Salunke (dguitarbite@gmail.com) or hop on
+to the IRC channel `#openstack-manuals`.
 
-To follow the weekly meetings schedule for OpenStack Training, please refer
-the following link.
+To follow the weekly meetings for OpenStack Training, please refer
+to the following link.
 
-For IRC meetings, refer the wiki page on training manuals.
+For IRC meetings, refer to the wiki page on training manuals.
 https://wiki.openstack.org/wiki/Meetings/training-manual
 
 Wiki
 ----
 
-Follow various links on OpenStack Training Manuals here :
+Follow various links on OpenStack Training Manuals here:
 https://wiki.openstack.org/wiki/Training-guides
