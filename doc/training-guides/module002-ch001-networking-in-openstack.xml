@@ -211,15 +211,15 @@
         which individual services should run on which physical
         devices. On one extreme, all service daemons can be run on a
         single physical host for evaluation purposes. On the other,
-        each service could have its own physical hosts, and some cases
+        each service could have its own physical hosts, and in some cases,
         be replicated across multiple hosts for redundancy.</para>
     <para>In this guide, we focus primarily on a standard architecture
         that includes a “cloud controller” host, a “network gateway”
         host, and a set of hypervisors for running VMs. The "cloud
         controller" and "network gateway" can be combined in simple
-        deployments, though if you expect VMs to send significant
+        deployments. If you expect VMs to send significant
         amounts of traffic to or from the Internet, a dedicated
-        network gateway host is suggested to avoid potential CPU
+        network gateway host is suggested, to avoid potential CPU
         contention between packet forwarding performed by the
         quantum-l3-agent and other OpenStack services.</para>
     <para><emphasis role="bold">Network Connectivity for Physical
@@ -251,7 +251,7 @@
         <listitem>
             <para><emphasis role="bold">External
                 network:</emphasis>Used to provide VMs with Internet
-                access in some deployment scenarios. The IP addresses
+                access, in some deployment scenarios. The IP addresses
                 on this network should be reachable by anyone on the
                 Internet.</para>
         </listitem>
