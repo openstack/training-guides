@@ -8,28 +8,50 @@ Training Labs will provide scripts to automate creation of Training
 Environment.
 
 **Note:** Training Labs are specifically meant for OpenStack Training and are
-speficially tuned as per Training Manuals repo.
+specifically tuned as per Training Manuals repo.
 
 BluePrints
----------
+----------
 
 Training Manuals : https://blueprints.launchpad.net/openstack-manuals/+spec/training-manuals
 Training Labs : https://blueprints.launchpad.net/openstack-manuals/+spec/openstack-training-labs
 
-IRC
----
+Mailing Lists, IRC
+------------------
 
-To contribute please contact Pranav Salunke ( dguitarbite@gmail.com) or hop on
-to IRC channel `#openstack-manuals`.
+* To contribute please hop on to IRC on channel `#openstack-doc` on IRC freenode
+  or write an email on OpenStack Manuals mailing list
+  `openstack-docs@lists.openstack.org`.
 
-To follow the weekly meetings schedule for OpenStack Training, please refer
-the following link.
+**NOTE:** You might consider registering on OpenStack Manuals mailing list if
+          you want to post your email instantly. It may take some time for
+          unregistered users as it requires admin's approval.
 
-For IRC meetings, refer the wiki page on training manuals.
+Sub-team leads
+--------------
+
+Fell free to ping Roger or Pranav on IRC channel `#openstack-doc` regarding
+any queries about the Labs section.
+
+* Roger Luethi
+** Email: `rl@patchworkscience.org`
+** IRC: `rluethi`
+
+* Pranav Salunke
+** Email: `dguitarbite@gmail.com`
+** IRC: `dguitarbite`
+
+Meetings
+--------
+
+To follow the weekly meetings for OpenStack Training, please refer
+to the following link.
+
+For IRC meetings, refer to the wiki page on training manuals.
 https://wiki.openstack.org/wiki/Meetings/training-manual
 
 Wiki
 ----
 
-Follow various links on OpenStack Training Manuals here :
+Follow various links on OpenStack Training Manuals here:
 https://wiki.openstack.org/wiki/Training-guides
