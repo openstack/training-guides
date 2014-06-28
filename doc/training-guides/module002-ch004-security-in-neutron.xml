@@ -58,7 +58,7 @@
         </listitem>
         <listitem>
             <para><emphasis role="bold"
-                >Resource-based:</emphasis>whether access to specific
+                >Resource-based:</emphasis>whether access to a specific
                 resource might be granted or not according to the
                 permissions configured for the resource (currently
                 available only for the network resource). The actual
@@ -78,10 +78,10 @@
         the terms "policy" and "rule" to refer to objects which
         are specified in the same way in the policy file; in other
         words, there are no syntax differences between a rule and
-        a policy. We will define a policy something which is
+        a policy. We will define a policy as something which is
         matched directly from the OpenStack Networking policy
         engine, whereas we will define a rule as the elements of
-        such policies which are then evaluated. For instance in
+        such policies, which are then evaluated. For instance, in
         create_subnet: [["admin_or_network_owner"]], create_subnet
         is regarded as a policy, whereas admin_or_network_owner is
         regarded as a rule.</para>
@@ -94,15 +94,15 @@
         other hand create_network:shared is triggered every time
         the shared attribute is explicitly specified (and set to a
         value different from its default) in a POST /v2.0/networks
-        request. It is also worth mentioning that policies can be
-        also related to specific API extensions; for instance
+        request. It is also worth mentioning that policies can
+        also relate to specific API extensions; for instance
         extension:provider_network:set will be triggered if the
         attributes defined by the Provider Network extensions are
         specified in an API request.</para>
     <para>An authorization policy can be composed by one or more
-        rules. If more rules are specified, evaluation policy will
-        be successful if any of the rules evaluates successfully;
-        if an API operation matches multiple policies, then all
+        rules. If more rules are specified, the evaluation policy will
+        be successful, if any of the rules evaluate successfully.
+        If an API operation matches multiple policies, then all
         the policies must evaluate successfully. Also,
         authorization rules are recursive. Once a rule is matched,
         the rule(s) can be resolved to another rule, until a
@@ -121,7 +121,7 @@
             <para><emphasis role="bold">Field-based
                 rules:</emphasis> evaluate successfully if a field
                 of the resource specified in the current request
-                matches a specific value. For instance
+                matches a specific value. For instance,
                 "field:networks:shared=True" is successful if the
                 attribute shared of the network resource is set to
                 true.</para>
