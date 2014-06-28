@@ -20,17 +20,17 @@
       </imageobject>
     </mediaobject>
   </figure>
-  <para>Just as shown by above figure, nova-scheduler interacts with
+  <para>Just as shown by the above figure, nova-scheduler interacts with
     other components through queue and central database repo. For
-    scheduling, queue is the essential communications hub.</para>
+    scheduling, the queue is the essential communications hub.</para>
   <para>All compute nodes (also known as hosts in terms of OpenStack)
     periodically publish their status, resources available and
     hardware capabilities to nova-scheduler through the queue.
-    nova-scheduler then collects this data and uses it to make
+    Nova-scheduler then collects this data and uses it to make
     decisions when a request comes in.</para>
   <para>By default, the compute scheduler is configured as a filter
     scheduler, as described in the next section. In the default
-    configuration, this scheduler considers hosts that meet all the
+    configuration, this scheduler considers hosts that meet all of the
     following criteria:</para>
   <itemizedlist>
     <listitem>
@@ -49,7 +49,7 @@
     <para><guilabel>Filter Scheduler</guilabel></para>
     <para>The Filter Scheduler supports filtering and weighting to
     make informed decisions on where a new instance should be created.
-    This Scheduler supports only working with Compute Nodes.</para>
+    This Scheduler only supports working with Compute Nodes.</para>
 
       <para><guilabel>Filtering</guilabel></para>
   <figure>
@@ -65,7 +65,7 @@
         and finally chooses hosts for the requested number of
         instances (each time it chooses the most weighed host and
         appends it to the list of selected hosts).</para>
-      <para>If it turns up, that it can’t find candidates for the next
+      <para>If it turns up that it can’t find candidates for the next
         instance, it means that there are no more appropriate hosts
         where the instance could be scheduled.</para>
       <para>If we speak about filtering and weighting, their work is
@@ -76,7 +76,7 @@
         (nova.scheduler.filters):</para>
       <itemizedlist>
         <listitem>
-          <para>AllHostsFilter - frankly speaking, this filter does no
+          <para>AllHostsFilter - This filter does no
             operation. It passes all the available hosts.</para>
         </listitem>
         <listitem>
@@ -138,15 +138,15 @@
       <para>Here ram_allocation_ratio means the virtual RAM to
         physical RAM allocation ratio (it is 1.5 by default). Really,
         nice and simple.</para>
-      <para>Next standard filter to describe is AvailabilityZoneFilter
-        and it isn’t difficult too. This filter just looks at the
+      <para>The next standard filter to describe is AvailabilityZoneFilter
+        and it isn’t difficult. This filter just looks at the
         availability zone of compute node and availability zone from
         the properties of the request. Each Compute service has its
-        own availability zone. So deployment engineers have an option
+        own availability zone, so that deployment engineers have an option
         to run scheduler with availability zones support and can
         configure availability zones on each compute host. This
-        classes method host_passes returns True if availability zone
-        mentioned in request is the same on the current compute
+        classes method host_passes returns True if the availability zone
+        mentioned in the request is the same on the current compute
         host.</para>
       <para>The ImagePropertiesFilter filters hosts based on the
         architecture, hypervisor type, and virtual machine mode
@@ -154,7 +154,7 @@
         host that supports the arm architecture on a qemu compute
         host. The ImagePropertiesFilter will only pass hosts that can
         satisfy this request. These instance properties are populated
-        from properties define on the instance’s image. E.g. an image
+        from properties defined on the instance’s image. E.g. an image
         can be decorated with these properties using glance
         image-update img-uuid --property architecture=arm --property
         hypervisor_type=qemu Only hosts that satisfy these
@@ -171,20 +171,20 @@
         are passed if no extra_specs are specified.</para>
       <para>ComputeFilter is quite simple and passes any host whose
         Compute service is enabled and operational.</para>
-      <para>Now we are going to IsolatedHostsFilter. There can be some
+      <para>Now we are going to the IsolatedHostsFilter. There can be some
         special hosts reserved for specific images. These hosts are
-        called isolated. So the images to run on the isolated hosts
-        are also called isolated. This Scheduler checks if
+        called isolated. The images to run on the isolated hosts
+        are also called isolated. This Scheduler checks if the
         image_isolated flag named in instance specifications is the
         same that the host has.</para>
 
     <para><guilabel>Weights</guilabel></para>
     <para>Filter Scheduler uses so-called weights during its
       work.</para>
-    <para>The Filter Scheduler weights hosts based on the config
+    <para>The Filter Scheduler weighs hosts based on the config
       option scheduler_weight_classes, this defaults to
       nova.scheduler.weights.all_weighers, which selects the only
-      weigher available – the RamWeigher. Hosts are then weighted and
+      weigher available – the RamWeigher. Hosts are then weighed and
       sorted with the largest weight winning.</para>
     <para>Filter Scheduler finds local list of acceptable hosts by
       repeated filtering and weighing. Each time it chooses a host, it
