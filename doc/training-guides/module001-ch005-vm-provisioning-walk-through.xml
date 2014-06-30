@@ -209,7 +209,7 @@
       using iSCSI and maps this to the third disk (vdc) as requested.
       The vCPU and memory resources are provisioned and the instance is booted
       from the first drive. The instance runs and changes data on the disks
-      indicated in yellow in the diagram.</para>
+      highlighted in yellow in the diagram.</para>
     <para>There are many possible variations in the details of the
       scenario, particularly in terms of what the backing storage is
       and the network protocols used to attach and move storage. One
