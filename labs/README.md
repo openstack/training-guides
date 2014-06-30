@@ -4,7 +4,7 @@ Training Labs
 About
 -----
 
-Training Labs will provide scripts to automate creation of Training
+Training Labs will provide scripts to automate the creation of the Training
 Environment.
 
 **Note:** Training Labs are specifically meant for OpenStack Training and are
@@ -19,18 +19,18 @@ Training Labs : https://blueprints.launchpad.net/openstack-manuals/+spec/opensta
 Mailing Lists, IRC
 ------------------
 
-* To contribute please hop on to IRC on channel `#openstack-doc` on IRC freenode
-  or write an email on OpenStack Manuals mailing list
+* To contribute please hop on to IRC on the channel `#openstack-doc` on IRC freenode
+  or write an e-mail to the OpenStack Manuals mailing list
   `openstack-docs@lists.openstack.org`.
 
-**NOTE:** You might consider registering on OpenStack Manuals mailing list if
-          you want to post your email instantly. It may take some time for
-          unregistered users as it requires admin's approval.
+**NOTE:** You might consider registering on the OpenStack Manuals mailing list if
+          you want to post your e-mail instantly. It may take some time for
+          unregistered users, as it requires admin's approval.
 
 Sub-team leads
 --------------
 
-Fell free to ping Roger or Pranav on IRC channel `#openstack-doc` regarding
+Feel free to ping Roger or Pranav on the IRC channel `#openstack-doc` regarding
 any queries about the Labs section.
 
 * Roger Luethi
