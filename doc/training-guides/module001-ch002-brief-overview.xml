@@ -7,11 +7,11 @@
   <title>Brief Overview</title>
   <para>OpenStack is a cloud operating system that controls large
     pools of compute, storage, and networking resources throughout a
-    datacenter. It is all managed through a dashboard that gives
+    datacenter. It is all managed through a dashboard called Horizon, that gives
     administrators control while empowering their users to provision
     resources through a web interface.</para>
   <para>OpenStack is a global collaboration of developers and cloud
-    computing technologists producing the ubiquitous open source cloud
+    computing technologists, producing the ubiquitous open source cloud
     computing platform for public and private clouds. The project aims
     to deliver solutions for all types of clouds by being</para>
   <itemizedlist>
@@ -29,8 +29,8 @@
       xlink:href="http://goo.gl/Ye9DFT"
     >http://goo.gl/Ye9DFT</link></para>
   <para><guilabel> OpenStack Foundation:</guilabel></para>
-    <para>The OpenStack Foundation, established September 2012, is an
-      independent body providing shared resources to help achieve the
+    <para>The OpenStack Foundation, established in September of 2012, is an
+      independent body, providing shared resources to help achieve the
       OpenStack Mission by protecting, empowering, and promoting
       OpenStack software and the community around it. This includes users,
       developers and the entire ecosystem. For more information visit
@@ -64,12 +64,9 @@
   <para><guilabel>Who uses OpenStack?</guilabel></para>
     <para>Corporations, service providers, VARS, SMBs, researchers,
       and global data centers looking to deploy large-scale cloud
-      deployments for private or public clouds leveraging the support
+      deployments for private or public clouds, leveraging the support
       and resulting technology of a global open source community. This is just
-      three years into OpenStack, it's new, it's yet to
-      mature and has immense possibilities. How do I say that? All
-      these ‘buzz words’ will fall into a properly solved jigsaw
-      puzzle as you go through this article.</para>
+      four years into OpenStack, it's new and has immense possibilities.</para>
   <para><guilabel>It's Open Source:</guilabel></para>
     <para>All of the code for OpenStack is freely available under the
       Apache 2.0 license. Anyone can run it, build on it, or submit
