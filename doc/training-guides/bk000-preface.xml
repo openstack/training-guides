@@ -129,7 +129,7 @@
         <?dbhtml stop-chunking?>
         <section xml:id="important-terms">
             <title>Important Terms</title>
-            <xi:include href="./lab000-important-terms.xml"
+            <xi:include href="./basic-install-guide/lab000-important-terms.xml"
             xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'lab000-important-terms']/*[not(self::db:title)])">
               <xi:fallback><para><mediaobject><imageobject><imagedata fileref="figures/openstack-training-remote-content-not-available.png" format="PNG"/></imageobject></mediaobject>Remote content not available</para><para>image source</para><para><link xlink:href="https://docs.google.com/drawings/d/1J2LZSxmc06xKyxMgPjv5fC0blV7qK6956-AeTmFOZD4/edit?usp=sharing">https://docs.google.com/drawings/d/1J2LZSxmc06xKyxMgPjv5fC0blV7qK6956-AeTmFOZD4/edit?usp=sharing</link></para></xi:fallback>
             </xi:include>
@@ -143,7 +143,7 @@
         </section>
         <section xml:id="virtualbox-manual">
             <title>Building the Training Cluster, Manually</title>
-            <xi:include href="./lab000-virtualbox-basics.xml"
+            <xi:include href="./basic-install-guide/lab000-virtualbox-basics.xml"
             xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'lab000-virtualbox-basics']/*[not(self::db:title)])">
               <xi:fallback><para><mediaobject><imageobject><imagedata fileref="figures/openstack-training-remote-content-not-available.png" format="PNG"/></imageobject></mediaobject>Remote content not available</para><para>image source</para><para><link xlink:href="https://docs.google.com/drawings/d/1J2LZSxmc06xKyxMgPjv5fC0blV7qK6956-AeTmFOZD4/edit?usp=sharing">https://docs.google.com/drawings/d/1J2LZSxmc06xKyxMgPjv5fC0blV7qK6956-AeTmFOZD4/edit?usp=sharing</link></para></xi:fallback>
             </xi:include>
