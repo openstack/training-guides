@@ -86,5 +86,5 @@
     <xi:include href="associate-guide/bk001-associate-training-guide.xml"/>
     <xi:include href="operator-guide/bk002-operator-training-guide.xml"/>
     <xi:include href="developer-guide/bk003-developer-training-guide.xml"/>
-    <xi:include href="bk004-architect-training-guide.xml"/>
+    <xi:include href="architect-guide/bk004-architect-training-guide.xml"/>
    </set>
