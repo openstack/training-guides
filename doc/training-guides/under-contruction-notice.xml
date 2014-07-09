@@ -9,15 +9,15 @@
         <para>We need your help! This is a community driven project to provide the user group community
         access to OpenStack training materials. We cannot make this work without your help.</para>
         <para>There are a few ways to get involved. The easiest way is to use the training guides. Look at
-        the end of each section and you will see the Submit a Bug link. When you find something that can
+        the end of each section and you will see the "Submit a Bug" link. When you find something that can
         be improved or fixed, submit a bug by clicking on the link.</para>
-        <para>If you want to get involved with the effort around OpenStack community training, read on,
+        <para>If you want to get involved with the effort around OpenStack community training,
         here are the options:</para>
         <para>
         <itemizedlist>
           <listitem>
             <formalpara><title>Attending a user group using the training materials</title>
-              <para>The OpenStack community training started at the SFBay OpenStack User Group. More
+              <para>The OpenStack community training started at the SF Bay OpenStack User Group. More
                 information on this user group and others using the training guides on the <link
                   xlink:href="https://wiki.openstack.org/wiki/OpenStackUserGroups">OpenStack User Groups
                   page</link>.</para>
@@ -25,8 +25,8 @@
             </listitem>
           <listitem>
               <formalpara><title>Teach / Lead a user group using the training materials</title>
-              <para>Awesome! Your experience will not only give you more experience with OpenStack, but
-                you will help some people find new jobs. We have put all the information about <link
+              <para>Your experience will not only give you more experience with OpenStack, but
+                you can help people find new jobs. We have put all the information about <link
                   xlink:href="https://wiki.openstack.org/wiki/OpenStackUserGroups/HowTo#Running_a_Hackathon"
                   >How To Run An OpenStack Hackathon</link> here.</para></formalpara>
             </listitem>
@@ -43,7 +43,7 @@
                         statements to actually use the source content to create new pages. We aim to use
                         as much of the material as possible from existing documentation. By doing this
                         we reuse and improve the existing docs. The topics in the Associate Training
-                        Guide are in a bunch of KanBan story board cards. Each card in the story board
+                        Guide are in KanBan story board cards. Each card in the story board
                         represents something that an Associate trainee needs to learn. But first things
                         first, you need to get some basic tools and accounts installed and configured
                         before you can really start.</para>
@@ -60,13 +60,13 @@
                         to go, you can assign some work to yourself. Go to the <link
                           xlink:href="https://trello.com/board/openstack-training/51d6e5fee37248fd5b003de9"
                           >Training Trello/KanBan storyboard</link> and assign a card / user story from
-                        the Sprint Backlog to yourself. If you do not have a Trello account, no problem,
-                        just create one. Email seanrob@yahoo-inc.com and you will have access.</para>
+                        the Sprint Backlog to yourself. If you do not have a Trello account,
+                        you can create one. Email seanrob@yahoo-inc.com to get access.</para>
                     </listitem>
                     <listitem>
                       <para><emphasis role="bold">Create the Content:</emphasis> Each card / user story
-                        from the KanBan story board will be a separate chunk of content that you will
-                        add to the openstack-manuals repository openstack-training sub-project.
+                        from the KanBan story board will represent a separate chunk of content that you can
+                        add to the openstack-manuals repository, openstack-training sub-project.
                         <link xlink:href="operator-getting-started-lab.html#operator-add-training-content">
                             More details on creating training content here.</link></para>
                     </listitem>
