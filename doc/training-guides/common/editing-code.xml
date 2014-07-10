@@ -518,25 +518,11 @@ blueprint training-manuals</computeroutput></screen>
                     page.</para>
             </step>
             <step>
-                <para><emphasis role="bold">Pick a Card:</emphasis>
+                <para><emphasis role="bold">Pick a bug:</emphasis>
                     Once you have your tools ready to go, you can
-                    assign some work to yourself. Go to the <link
-                        xlink:href="https://trello.com/board/openstack-training/51d6e5fee37248fd5b003de9"
-                        >Training Trello/KanBan storyboard</link> and
-                    assign a card / user story from the Sprint Backlog
-                    to yourself. If you do not have a Trello account,
-                    no problem, just create one. Email
-                    seanrob@yahoo-inc.com and you will have access.
-                    Move the card from the Sprint Backlog to
-                    Doing.</para>
-            </step>
-            <step>
-                <para><emphasis role="bold">Create the
-                        Content:</emphasis> Each card / user story
-                    from the KanBan story board will be a separate
-                    chunk of content you will add to the
-                    openstack-manuals repository openstack-training
-                    sub-project.</para>
+                    assign a bug to yourself. Go to the <link
+                        xlink:href="https://bugs.launchpad.net/openstack-training-guides"
+                        >Training Bugs</link> and assign a bug from the list to yourself.</para>
             </step>
             <step>
                 <para>Open the file <emphasis role="bold"
@@ -555,10 +541,10 @@ blueprint training-manuals</computeroutput></screen>
                     book.</para>
             </step>
             <step>
-                <para>Create a branch by using the card number as
+                <para>Create a branch by using the bug number as
                         <emphasis role="bold"
                             >associate-card-<replaceable>XXX</replaceable></emphasis>
-                    where <replaceable>XXX</replaceable> is the card
+                    where <replaceable>XXX</replaceable> is the bug
                     number. Review <link
                         xlink:href="http://docs.openstack.org/trunk/openstack-training/content/operator-create-branch.html"
                         >Creating a Branch</link> again for
@@ -619,7 +605,7 @@ blueprint training-manuals</computeroutput></screen>
                 <para>Merge the branch.</para>
             </step>
             <step>
-                <para>Move the card from Doing to Done.</para>
+                <para>The bug will be completed automatically if the commit message references the bug number.</para>
             </step>
         </procedure>
     </section>
