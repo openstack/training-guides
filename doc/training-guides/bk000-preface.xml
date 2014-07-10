@@ -62,16 +62,12 @@
                           >Getting Tools and Accounts</link> page.</para>
                     </listitem>
                     <listitem>
-                      <para><emphasis role="bold">Pick a Card:</emphasis> Once you have your tools ready
-                        to go, you can assign some work to yourself. Go to the <link
-                          xlink:href="https://trello.com/board/openstack-training/51d6e5fee37248fd5b003de9"
-                          >Training Trello/KanBan storyboard</link> and assign a card / user story from
-                        the Sprint Backlog to yourself. If you do not have a Trello account, no problem,
-                        just create one. Email seanrob@yahoo-inc.com and you will have access.</para>
+                      <para><emphasis role="bold">Pick a Bug:</emphasis> Once you have your tools ready
+                        to go, you can assign some work to yourself. Go to the <link xlink:href="https://bugs.launchpad.net/openstack-training-guides">Bugs</link> and assign a bug from the list to yourself.</para>
                     </listitem>
                     <listitem>
-                      <para><emphasis role="bold">Create the Content:</emphasis> Each card / user story
-                        from the KanBan story board will be a separate chunk of content that you will
+                      <para><emphasis role="bold">Create the Content:</emphasis> Each bug
+                        from the list will be a separate chunk of content that you will
                         add to the openstack-manuals repository openstack-training sub-project.
                         <link xlink:href="operator-getting-started-lab.html#operator-add-training-content">
                             More details on creating training content here.</link></para>
@@ -115,9 +111,8 @@
           </listitem>
           <listitem>
             <para><link
-                xlink:href="https://trello.com/board/openstack-training/51d6e5fee37248fd5b003de9"
-                >Training Trello/KanBan storyboard</link>(we develop high level project action items
-              here)</para>
+                xlink:href="https://launchpad.net/openstack-training-guides"
+                >Training Bugs</link></para>
           </listitem>
         </orderedlist>
         </para>
