@@ -12,27 +12,25 @@
   </section>
   <section xml:id="operator-intro-object-store">
     <title>Review Associate Introduction to Object Storage</title>
-    <xi:include href="https://raw.githubusercontent.com/openstack/openstack-manuals/master/doc/common/section_objectstorage-intro.xml"
+    <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_objectstorage-intro.xml"
       xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'section_objectstorage-intro']/*[not(self::db:title)])">
-      <xi:fallback><para><mediaobject><imageobject><imagedata fileref="../figures/openstack-training-remote-content-not-available.png" format="PNG"/></imageobject></mediaobject>Remote content not available</para><para>image source</para><para><link xlink:href="https://docs.google.com/drawings/d/1J2LZSxmc06xKyxMgPjv5fC0blV7qK6956-AeTmFOZD4/edit?usp=sharing">https://docs.google.com/drawings/d/1J2LZSxmc06xKyxMgPjv5fC0blV7qK6956-AeTmFOZD4/edit?usp=sharing</link></para></xi:fallback>
     </xi:include>
   </section>
-  <xi:include href="https://raw.githubusercontent.com/openstack/openstack-manuals/master/doc/common/section_objectstorage-features.xml"/>
+  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_objectstorage-features.xml"/>
   <section xml:id="operator-object-store-node-administration-tasks">
     <title>Review Associate Administration Tasks</title>
     <para></para>
   </section>
-  <xi:include href="https://raw.githubusercontent.com/openstack/openstack-manuals/master/doc/common/section_objectstorage-characteristics.xml"/>
-  <xi:include href="https://raw.githubusercontent.com/openstack/openstack-manuals/master/doc/common/section_objectstorage-components.xml"/>
-  <xi:include href="https://raw.githubusercontent.com/openstack/openstack-manuals/master/doc/common/section_objectstorage-ringbuilder.xml"/>
+  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_objectstorage-characteristics.xml"/>
+  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_objectstorage-components.xml"/>
+  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_objectstorage-ringbuilder.xml"/>
   <section xml:id="operator-swift-more-concepts">
     <title>More Swift Concepts</title>
     <xi:include href="../common/module003-ch006-more-concepts.xml"
       xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'module003-ch006-more-concepts']/*[not(self::db:title)])">
-      <xi:fallback><para><mediaobject><imageobject><imagedata fileref="../figures/openstack-training-remote-content-not-available.png" format="PNG"/></imageobject></mediaobject>Remote content not available</para><para>image source</para><para><link xlink:href="https://docs.google.com/drawings/d/1J2LZSxmc06xKyxMgPjv5fC0blV7qK6956-AeTmFOZD4/edit?usp=sharing">https://docs.google.com/drawings/d/1J2LZSxmc06xKyxMgPjv5fC0blV7qK6956-AeTmFOZD4/edit?usp=sharing</link></para></xi:fallback>
     </xi:include>
   </section>
-  <xi:include href="https://raw.githubusercontent.com/openstack/openstack-manuals/master/doc/common/section_objectstorage-arch.xml"/>
-  <xi:include href="https://raw.githubusercontent.com/openstack/openstack-manuals/master/doc/common/section_objectstorage-account-reaper.xml"/>
-  <xi:include href="https://raw.githubusercontent.com/openstack/openstack-manuals/master/doc/common/section_objectstorage-replication.xml"/>
+  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_objectstorage-arch.xml"/>
+  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_objectstorage-account-reaper.xml"/>
+  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_objectstorage-replication.xml"/>
 </chapter>
