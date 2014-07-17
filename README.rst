@@ -5,7 +5,7 @@ This repository contains open source training manuals that can be
 used to learn about the OpenStack project.
 
 For more details, see the `OpenStack Training Guides wiki page
-<https://wiki.openstack.org/wiki/Training-manuals>`_.
+<https://wiki.openstack.org/wiki/Training-guides>`_.
 
 It includes these guides:
 
