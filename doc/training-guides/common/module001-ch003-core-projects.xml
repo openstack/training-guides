@@ -591,10 +591,10 @@
           <para>qcow2 (Qemu/KVM)</para>
         </listitem>
         <listitem>
-          <para>VMDK (VMWare)</para>
+          <para>VMDK (VMware)</para>
         </listitem>
         <listitem>
-          <para>OVF (VMWare, others)</para>
+          <para>OVF (VMware, others)</para>
         </listitem>
       </itemizedlist>
       <para>To checkout the complete list of Core and Incubated
