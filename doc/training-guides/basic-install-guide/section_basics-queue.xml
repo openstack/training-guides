@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xmlns="http://docbook.org/ns/docbook"
+  xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  version="5.0"
+  xml:id="basics-queue">
+  <?dbhtml-stop-chunking?>
+  <title>Messaging server</title>
+  <para>OpenStack uses a <glossterm>message broker</glossterm> to coordinate
+    operations and status information among services. The message broker
+    service typically runs on the controller node. OpenStack supports several
+    message brokers including <application>RabbitMQ</application>,
+    <application>Qpid</application>, and <application>ZeroMQ</application>.
+    However, most distributions that package OpenStack support a particular
+    message broker. This guide covers the RabbitMQ message broker which is
+    supported by each distribution. If you prefer to implement a
+    different message broker, consult the documentation associated
+    with it.</para>
+  <itemizedlist>
+    <listitem>
+      <para><link xlink:href="http://www.rabbitmq.com">RabbitMQ</link></para>
+    </listitem>
+    <listitem>
+      <para><link xlink:href="http://qpid.apache.org">Qpid</link></para>
+    </listitem>
+    <listitem>
+      <para><link xlink:href="http://zeromq.org">ZeroMQ</link></para>
+    </listitem>
+  </itemizedlist>
+  <procedure>
+    <title>To install the <application>RabbitMQ</application> message broker service</title>
+    <step os="ubuntu;debian">
+      <screen><prompt>#</prompt> <userinput>apt-get install rabbitmq-server</userinput></screen>
+    </step>
+    <step os="rhel;centos;fedora">
+      <screen><prompt>#</prompt> <userinput>yum install rabbitmq-server</userinput></screen>
+    </step>
+    <step os="sles;opensuse">
+      <screen><prompt>#</prompt> <userinput>zypper install rabbitmq-server</userinput></screen>
+    </step>
+  </procedure>
+  <procedure>
+    <title>To configure the message broker service</title>
+    <step os="sles;opensuse;rhel;centos;fedora">
+      <para>Start the message broker service and enable it to start when the
+          system boots:</para>
+      <screen><prompt>#</prompt> <userinput>service rabbitmq-server start</userinput>
+<prompt>#</prompt> <userinput>chkconfig rabbitmq-server on</userinput></screen>
+    </step>
+    <step>
+      <para>The message broker creates a default account that uses
+        <literal>guest</literal> for the username and password. To simplify
+        installation of your test environment, we recommend that you use this
+        account, but change the password for it.</para>
+      <para>Run the following command:</para>
+      <para>Replace <replaceable>RABBIT_PASS</replaceable> with a suitable
+        password.</para>
+      <screen><prompt>#</prompt> <userinput>rabbitmqctl change_password guest <replaceable>RABBIT_PASS</replaceable></userinput></screen>
+      <para>You must configure the <literal>rabbit_password</literal> key
+        in the configuration file for each OpenStack service that uses the
+        message broker.</para>
+      <note>
+        <para>For production environments, you should create a unique account
+          with suitable password. For more information on securing the
+          message broker, see the
+        <link xlink:href="https://www.rabbitmq.com/man/rabbitmqctl.1.man.html"
+          >documentation</link>.</para>
+        <para>If you decide to create a unique account with suitable password
+          for your test environment, you must configure the
+          <literal>rabbit_userid</literal> and
+          <literal>rabbit_password</literal> keys in the configuration file
+          of each OpenStack service that uses the message broker.</para>
+      </note>
+    </step>
+  </procedure>
+  <para>Congratulations, now you are ready to install OpenStack
+    services!</para>
+</section>
