@@ -40,17 +40,17 @@
   <note>
     <para>It is advised to take regular snapshots of the Virtual Box
       Virtual Machines (controller node) after each section. This will
-      help you to save your session and revert back to it in case you
+      help you save your session and revert back to it in case you
       break something while deploying OpenStack.</para>
   </note>
   <para><guilabel>controller node</guilabel></para>
-  <para>Start your controller node the one you setup in previous
+  <para>Start your controller node the one you setup in the previous
     section.</para>
   <para><emphasis role="bold">Preparing Ubuntu
     13.04/12.04</emphasis></para>
   <itemizedlist>
     <listitem>
-      <para>After you install Ubuntu Server, go in sudo mode</para>
+      <para>After you install Ubuntu Server, go into sudo mode</para>
       <screen><prompt>$</prompt> <userinput>sudo su</userinput></screen>
     </listitem>
     <listitem>
@@ -70,7 +70,7 @@
       <filename>/etc/network/interfaces</filename> file</para>
   <itemizedlist>
     <listitem>
-      <para>Open <filename>/etc/network/interfaces</filename> and edit
+      <para>Open <filename>/etc/network/interfaces</filename> and edit the
         file as mentioned:</para>
       <programlisting># This file describes the network interfaces available on your system
 # and how to activate them. For more information, see interfaces(5).
@@ -110,7 +110,7 @@ iface eth2 inet dhcp</programlisting>
       <screen><prompt>#</prompt> <userinput>ifconfig</userinput></screen>
     </listitem>
     <listitem>
-      <para>You should see the expected network interface cards having
+      <para>You should see the expected network interface cards with
         the required IP Addresses.</para>
     </listitem>
   </itemizedlist>
@@ -118,11 +118,11 @@ iface eth2 inet dhcp</programlisting>
   <itemizedlist>
     <listitem>
       <para>Create an SSH key pair for your Control Node. Follow the
-        same steps as you did in the starting section of the article
+        same steps as you did in the begin of the article
         for your host machine.</para>
     </listitem>
     <listitem>
-      <para>To SSH into the Control Node from the Host Machine type
+      <para>To SSH into the Control Node from the Host Machine, type
         the below command.</para>
       <screen><prompt>$</prompt> <userinput>ssh control@10.10.10.51</userinput></screen>
       <screen><prompt>$</prompt> <userinput>sudo su</userinput></screen>
@@ -150,7 +150,7 @@ iface eth2 inet dhcp</programlisting>
       <screen><prompt>#</prompt> <userinput>apt-get install -y rabbitmq-server</userinput></screen>
     </listitem>
     <listitem>
-      <para>Install NTP service:</para>
+      <para>Install the NTP service:</para>
       <screen><prompt>#</prompt> <userinput>apt-get install -y ntp</userinput></screen>
     </listitem>
     <listitem>
@@ -200,7 +200,7 @@ iface eth2 inet dhcp</programlisting>
     Identity API.</para>
   <itemizedlist>
     <listitem>
-      <para>Install Keystone packages:</para>
+      <para>Install the Keystone packages:</para>
       <screen><prompt>#</prompt> <userinput>apt-get install -y keystone</userinput></screen>
     </listitem>
     <listitem>
@@ -553,7 +553,7 @@ osapi_volume_listen_port=5900</programlisting>
     </listitem>
   </itemizedlist>
   <para><emphasis role="bold">Cinder</emphasis></para>
-  <para>Cinder is an OpenStack project to provide “block storage as a
+  <para>Cinder is an OpenStack project that provides “block storage as a
     service”.</para>
   <itemizedlist>
     <listitem>
@@ -660,7 +660,7 @@ rabbit_port = 5672</programlisting>
       <screen><prompt>#</prompt> <userinput>cd /etc/init.d/; for i in $( ls cinder-* ); do service $i restart; done</userinput></screen>
     </listitem>
     <listitem>
-      <para>Verify if Cinder services are running:</para>
+      <para>Verify that the Cinder services are running:</para>
       <screen><prompt>#</prompt> <userinput>cd /etc/init.d/; for i in $( ls cinder-* ); do service $i status; done</userinput></screen>
     </listitem>
   </itemizedlist>
