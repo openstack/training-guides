@@ -220,12 +220,12 @@ iface eth2 inet dhcp</programlisting>
         scripts:</para>
       <para>
         <link
-          xlink:href="http://git.openstack.org/cgit/openstack/training-guides/plain/labs/openstack_scripts/Keystone/Scripts/keystone_basic.sh">
+            xlink:href="http://git.openstack.org/cgit/openstack/training-guides/plain/doc/training-guides/basic-install-guide/keystone-scripts/keystone_basic.sh">
           <filename>keystone_basic.sh</filename>
         </link></para>
       <para>
         <link
-          xlink:href="http://git.openstack.org/cgit/openstack/training-guides/plain/labs/openstack_scripts/Keystone/Scripts/keystone_endpoints_basic.sh">
+            xlink:href="http://git.openstack.org/cgit/openstack/training-guides/plain/doc/training-guides/basic-install-guide/keystone-scripts/keystone_endpoints_basic.sh">
           <filename>keystone_endpoints_basic.sh</filename>
         </link></para>
     </listitem>
