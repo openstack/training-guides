@@ -24,12 +24,6 @@
   </section>
   <section xml:id="associate-network-node-administration-tasks">
     <title>Administration Tasks</title>
-    <section xml:id="associate-network-cli-commands">
-        <title>Network CLI Commands</title>
-      <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/ch_cli_neutron_commands.xml"
-          xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'neutronclient_commands']/*[not(self::db:title)])">
-        </xi:include>
-    </section>
     <section xml:id="associate-network-manage">
         <title>Manage Networks</title>
       <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_cli_neutron_manage_networks.xml"
