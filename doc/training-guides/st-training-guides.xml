@@ -97,5 +97,6 @@
     <xi:include href="operator-guide/bk002-operator-training-guide.xml"/>
     <xi:include href="developer-guide/bk003-developer-training-guide.xml"/>
     <xi:include href="architect-guide/bk004-architect-training-guide.xml"/>
-    <xi:include href="basic-install-guide/bk-openstack-basic-install-guide.xml"/>
+    <!-- For Juno Release -->
+    <!-- xi:include href="basic-install-guide/bk-openstack-basic-install-guide.xml"/ -->
    </set>
