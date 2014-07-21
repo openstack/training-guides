@@ -55,14 +55,27 @@
     </listitem>
     <listitem>
       <para>Add Icehouse repositories:</para>
-      <screen><prompt>#</prompt> <userinput>apt-get install ubuntu-cloud-keyring python-software-properties software-properties-common python-keyring</userinput></screen>
-      <screen><prompt>#</prompt> <userinput>echo deb http://ubuntu-cloud.archive.canonical.com/ubuntu precise-updates/icehouse main >> /etc/apt/sources.list.d/icehouse.list</userinput></screen>
+      <screen>
+          <prompt>#</prompt>
+          <userinput>apt-get install ubuntu-cloud-keyring
+              python-software-properties software-properties-common
+              python-keyring
+          </userinput>
+      </screen>
+      <screen>
+          <prompt>#</prompt>
+          <userinput>echo deb http://ubuntu-cloud.archive.canonical.com/ubuntu
+              precise-updates/icehouse main >>
+              /etc/apt/sources.list.d/icehouse.list
+          </userinput>
+      </screen>
     </listitem>
     <listitem>
       <para>Update your system:</para>
-      <screen><prompt>#</prompt> <userinput>apt-get update</userinput>
-<prompt>#</prompt> <userinput>apt-get upgrade</userinput>
-<prompt>#</prompt> <userinput>apt-get dist-upgrade</userinput></screen>
+      <screen>
+          <prompt>#</prompt> <userinput>apt-get update</userinput>
+          <prompt>#</prompt> <userinput>apt-get upgrade</userinput>
+          <prompt>#</prompt> <userinput>apt-get dist-upgrade</userinput></screen>
     </listitem>
   </itemizedlist>
   <para><emphasis role="bold">Networking :</emphasis></para>
@@ -72,7 +85,8 @@
     <listitem>
       <para>Open <filename>/etc/network/interfaces</filename> and edit the
         file as mentioned:</para>
-      <programlisting># This file describes the network interfaces available on your system
+    <programlisting>
+# This file describes the network interfaces available on your system
 # and how to activate them. For more information, see interfaces(5).
 # This file is configured for OpenStack Control Node by dguitarbite.
 # Note: Selection of the IP addresses is important, changing them may break some of OpenStack Related services,
@@ -82,13 +96,17 @@
 auto lo
 iface lo inet loopback
 
+# The primary network interface - Virtual Box NAT connection
+# (Virtual Box Network Adapter 3)
+auto eth2
+iface eth2 inet dhcp
+
 # Virtual Box vboxnet0 - OpenStack Management Network
 # (Virtual Box Network Adapter 1)
 auto eth0
 iface eth0 inet static
 address 10.10.10.51
 netmask 255.255.255.0
-gateway 10.10.10.1
 
 # Virtual Box vboxnet2 - for exposing OpenStack API over external network
 # (Virtual Box Network Adapter 2)
@@ -96,12 +114,7 @@ auto eth1
 iface eth1 inet static
 address 192.168.100.51
 netmask 255.255.255.0
-gateway 192.168.100.1
-
-# The primary network interface - Virtual Box NAT connection
-# (Virtual Box Network Adapter 3)
-auto eth2
-iface eth2 inet dhcp</programlisting>
+</programlisting>
     </listitem>
     <listitem>
       <para>After saving the interfaces file, restart the networking
@@ -130,24 +143,57 @@ iface eth2 inet dhcp</programlisting>
     <listitem>
       <para>Now you can have access to your host clipboard.</para>
     </listitem>
-  </itemizedlist>
+</itemizedlist>
+<para><emphasis role="bold">To use the Ubuntu Cloud Archive for Icehouse</emphasis>
+</para>
+    <para>The <link
+      xlink:href="https://wiki.ubuntu.com/ServerTeam/CloudArchive"
+      >Ubuntu Cloud Archive</link> is a special repository that
+      allows you to install newer releases of OpenStack on the
+      stable supported version of Ubuntu.</para>
+     <para>Install the Ubuntu Cloud Archive for Icehouse
+        <screen>
+            <prompt>#</prompt>
+            <userinput>apt-get install python-software-properties</userinput>
+            <prompt>#</prompt>
+            <userinput>add-apt-repository cloud-archive:icehouse</userinput>
+        </screen>
+    </para>
+    <para>Update the package database and upgrade your system:</para>
+    <screen>
+    <prompt>#</prompt> <userinput>apt-get update</userinput>
+    <prompt>#</prompt> <userinput>apt-get dist-upgrade</userinput>
+    </screen>
+    <para>Reboot the system for all changes to take effect:</para>
+    <screen>
+        <prompt>#</prompt> <userinput>reboot</userinput>
+    </screen>
   <para><emphasis role="bold">My SQL</emphasis></para>
   <itemizedlist>
     <listitem>
       <para>Install MySQL:</para>
-      <screen><prompt>#</prompt> <userinput>apt-get install -y mysql-server python-mysqldb</userinput></screen>
+      <screen>
+          <prompt>#</prompt>
+          <userinput>apt-get install -y mysql-server python-mysqldb</userinput>
+      </screen>
     </listitem>
     <listitem>
       <para>Configure mysql to accept all incoming requests:</para>
-      <screen><prompt>#</prompt> <userinput>sed -i 's/127.0.0.1/0.0.0.0/g' /etc/mysql/my.cnf</userinput></screen>
-      <screen><prompt>#</prompt> <userinput>service mysql restart</userinput></screen>
+      <screen>
+          <prompt>#</prompt> <userinput>sed -i 's/127.0.0.1/0.0.0.0/g' /etc/mysql/my.cnf</userinput>
+      </screen>
+      <screen>
+          <prompt>#</prompt> <userinput>service mysql restart</userinput></screen>
     </listitem>
   </itemizedlist>
   <para><emphasis role="bold">RabbitMQ</emphasis></para>
   <itemizedlist>
     <listitem>
       <para>Install RabbitMQ:</para>
-      <screen><prompt>#</prompt> <userinput>apt-get install -y rabbitmq-server</userinput></screen>
+      <screen>
+          <prompt>#</prompt>
+          <userinput>apt-get install -y rabbitmq-server</userinput>
+      </screen>
     </listitem>
     <listitem>
       <para>Install the NTP service:</para>
