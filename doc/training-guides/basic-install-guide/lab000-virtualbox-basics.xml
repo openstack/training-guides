@@ -37,11 +37,11 @@
     xlink:href="http://www.virtualbox.org/manual/UserManual.html">Virtual
     Box Manual</link></para>
     <para><emphasis role="bold">Requirements:</emphasis></para>
-    <para>Operating Systems - I recommend Ubuntu Server 12.04 LTS,
-    Ubuntu Server 13.10 or Debian Wheezy.</para>
-    <note><para>Ubuntu 12.10 is not
-       supporting OpenStack Grizzly Packages. Ubuntu team has decided not
-       to package Grizzly Packages for Ubuntu 12.10.</para></note>
+    <para>Operating Systems - It is recommended to use Ubuntu Server 14.04 LTS,
+    </para>
+    <note><para>Older Ubuntu versions may not support IceHouse. Ubuntu Server
+            12.04 will support IceHouse but is out of scope of this book.
+    </para></note>
     <itemizedlist>
       <listitem>
           <para>Recommended Requirements:</para>
@@ -77,19 +77,25 @@
         </tr>
       </tbody>
     </informaltable>
-    <para>If you don't know whether your processor is VT enabled, you
-      could check it by installing cpu-checker:</para>
-      <screen><prompt>#</prompt> <userinput>apt-get install cpu-checker</userinput>
-<prompt>#</prompt> <userinput>kvm-ok</userinput></screen>
+    <para>To check if the processor is VT enabled, install cpu-checker as
+        follows:</para>
+    <screen>
+        <prompt>#</prompt>
+        <userinput>apt-get install cpu-checker</userinput>
+        <prompt>#</prompt>
+        <userinput>kvm-ok</userinput>
+    </screen>
     <para>If your device does not support VT it will show:</para>
-    <screen><computeroutput>INFO:Your CPU does not support KVM extensions
-KVM acceleration can NOT be used</computeroutput></screen>
+    <screen>
+        <computeroutput>INFO: Your CPU does not support KVM extensions
+            KVM acceleration can NOT be used</computeroutput>
+    </screen>
     <para>You will still be able to use Virtual Box but the instances
       will be very slow.</para>
     <para>There are many ways to configure your OpenStack Setup. In this example, we
     will deploy OpenStack multi node using OVS as the network
     plug-in and QEMU/KVM as the hypervisor.</para>
-  <para><emphasis role="bold">Host only connections:</emphasis></para>
+    <para><emphasis role="bold">Host only connections:</emphasis></para>
     <itemizedlist>
       <listitem>
         <para>Host only connections provide an internal network
@@ -97,8 +103,7 @@ KVM acceleration can NOT be used</computeroutput></screen>
           by other networks.</para>
       </listitem>
       <listitem>
-        <para>You may even use bridged connections if you have a
-          router/switch.</para>
+        <para>Bridged connections are not recommended.</para>
       </listitem>
       <listitem>
         <para>The following are the host only connections that you
@@ -127,11 +132,6 @@ KVM acceleration can NOT be used</computeroutput></screen>
       </imageobject>
     </mediaobject>
   </figure>
-  <!--
-  <para>Publicly editable image source at <link
-    xlink:href="https://docs.google.com/drawings/d/1GX3FXmkz3c_tUDpZXUVMpyIxicWuHs5fNsHvYNjwNNk/edit?usp=sharing"
-    >https://docs.google.com/drawings/d/1GX3FXmkz3c_tUDpZXUVMpyIxicWuHs5fNsHvYNjwNNk/edit?usp=sharing</link></para>
-  -->
   <para>Vboxnet0, Vboxnet1, Vboxnet2 - are virtual networks setup
       by virtual box with your host machine. This is the way your host
       can communicate with the virtual machines. These networks are in
