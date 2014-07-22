@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-07-19 06:00+0000\n"
+"POT-Creation-Date: 2014-07-22 06:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -263,7 +263,7 @@ msgstr ""
 msgid "<placeholder-1/> big dummy example image"
 msgstr ""
 
-#: ./doc/training-guides/user-story-includes-template.xml:22(para) ./doc/training-guides/bk000-preface.xml:129(para) ./doc/training-guides/bk000-preface.xml:136(para) ./doc/training-guides/bk000-preface.xml:143(para) ./doc/training-guides/operator-guide/bk002-ch004-operator-controller-node.xml:17(para) ./doc/training-guides/operator-guide/bk002-ch004-operator-controller-node.xml:24(para) ./doc/training-guides/operator-guide/bk002-ch004-operator-controller-node.xml:31(para) ./doc/training-guides/operator-guide/bk002-ch013-operator-object-storage-node.xml:17(para) ./doc/training-guides/operator-guide/bk002-ch013-operator-object-storage-node.xml:32(para) ./doc/training-guides/operator-guide/bk002-ch007-operator-compute-node.xml:17(para) ./doc/training-guides/operator-guide/bk002-ch007-operator-compute-node.xml:24(para) ./doc/training-guides/operator-guide/bk002-ch007-operator-compute-node.xml:31(para) ./doc/training-guides/operator-guide/bk002-ch011-operator-network-node-lab.xml:15(para) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:17(para) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:24(para) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:35(para) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:42(para) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:49(para) ./doc/training-guides/operator-guide/bk002-ch005-operator-controller-node-lab.xml:15(para) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:15(para) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:22(para) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:29(para) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:36(para) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:43(para) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:25(para) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:32(para) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:39(para) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:46(para) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:53(para) ./doc/training-guides/operator-guide/bk002-ch008-operator-compute-node-lab.xml:15(para) ./doc/training-guides/operator-guide/bk002-ch014-operator-object-storage-node-lab.xml:15(para) ./doc/training-guides/operator-guide/bk002-ch014-operator-object-storage-node-lab.xml:22(para) ./doc/training-guides/operator-guide/bk002-ch014-operator-object-storage-node-lab.xml:29(para) ./doc/training-guides/operator-guide/bk002-ch014-operator-object-storage-node-lab.xml:36(para) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:17(para) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:24(para) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:31(para) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:40(para) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:47(para) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:54(para) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:61(para) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:68(para) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:75(para) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:27(para) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:34(para) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:41(para) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:48(para) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:55(para) ./doc/training-guides/associate-guide/bk001-ch009-associate-object-storage-node.xml:17(para) ./doc/training-guides/associate-guide/bk001-ch009-associate-object-storage-node.xml:24(para) ./doc/training-guides/associate-guide/bk001-ch009-associate-object-storage-node.xml:33(para) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:17(para) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:24(para) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:31(para) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:40(para) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:47(para) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:54(para) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:61(para) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:68(para) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:75(para) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:82(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:25(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:32(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:39(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:46(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:53(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:15(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:22(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:29(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:36(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:43(para)
+#: ./doc/training-guides/user-story-includes-template.xml:22(para) ./doc/training-guides/bk000-preface.xml:129(para) ./doc/training-guides/bk000-preface.xml:136(para) ./doc/training-guides/bk000-preface.xml:143(para) ./doc/training-guides/operator-guide/bk002-ch004-operator-controller-node.xml:17(para) ./doc/training-guides/operator-guide/bk002-ch004-operator-controller-node.xml:24(para) ./doc/training-guides/operator-guide/bk002-ch004-operator-controller-node.xml:31(para) ./doc/training-guides/operator-guide/bk002-ch013-operator-object-storage-node.xml:17(para) ./doc/training-guides/operator-guide/bk002-ch013-operator-object-storage-node.xml:32(para) ./doc/training-guides/operator-guide/bk002-ch007-operator-compute-node.xml:17(para) ./doc/training-guides/operator-guide/bk002-ch007-operator-compute-node.xml:24(para) ./doc/training-guides/operator-guide/bk002-ch007-operator-compute-node.xml:31(para) ./doc/training-guides/operator-guide/bk002-ch011-operator-network-node-lab.xml:15(para) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:17(para) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:24(para) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:35(para) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:42(para) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:49(para) ./doc/training-guides/operator-guide/bk002-ch005-operator-controller-node-lab.xml:15(para) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:15(para) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:22(para) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:29(para) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:36(para) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:43(para) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:25(para) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:32(para) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:39(para) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:46(para) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:53(para) ./doc/training-guides/operator-guide/bk002-ch008-operator-compute-node-lab.xml:15(para) ./doc/training-guides/operator-guide/bk002-ch014-operator-object-storage-node-lab.xml:15(para) ./doc/training-guides/operator-guide/bk002-ch014-operator-object-storage-node-lab.xml:22(para) ./doc/training-guides/operator-guide/bk002-ch014-operator-object-storage-node-lab.xml:29(para) ./doc/training-guides/operator-guide/bk002-ch014-operator-object-storage-node-lab.xml:36(para) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:27(para) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:34(para) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:41(para) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:48(para) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:55(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:25(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:32(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:39(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:46(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:53(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:15(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:22(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:29(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:36(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:43(para)
 msgid "image source"
 msgstr ""
 
@@ -341,11 +341,11 @@ msgstr ""
 msgid "Important Terms"
 msgstr ""
 
-#: ./doc/training-guides/bk000-preface.xml:129(para) ./doc/training-guides/bk000-preface.xml:136(para) ./doc/training-guides/bk000-preface.xml:143(para) ./doc/training-guides/operator-guide/bk002-ch004-operator-controller-node.xml:17(para) ./doc/training-guides/operator-guide/bk002-ch004-operator-controller-node.xml:24(para) ./doc/training-guides/operator-guide/bk002-ch004-operator-controller-node.xml:31(para) ./doc/training-guides/operator-guide/bk002-ch013-operator-object-storage-node.xml:17(para) ./doc/training-guides/operator-guide/bk002-ch013-operator-object-storage-node.xml:32(para) ./doc/training-guides/operator-guide/bk002-ch007-operator-compute-node.xml:17(para) ./doc/training-guides/operator-guide/bk002-ch007-operator-compute-node.xml:24(para) ./doc/training-guides/operator-guide/bk002-ch007-operator-compute-node.xml:31(para) ./doc/training-guides/operator-guide/bk002-ch011-operator-network-node-lab.xml:15(para) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:17(para) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:24(para) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:35(para) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:42(para) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:49(para) ./doc/training-guides/operator-guide/bk002-ch005-operator-controller-node-lab.xml:15(para) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:15(para) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:22(para) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:29(para) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:36(para) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:43(para) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:25(para) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:32(para) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:39(para) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:46(para) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:53(para) ./doc/training-guides/operator-guide/bk002-ch008-operator-compute-node-lab.xml:15(para) ./doc/training-guides/operator-guide/bk002-ch014-operator-object-storage-node-lab.xml:15(para) ./doc/training-guides/operator-guide/bk002-ch014-operator-object-storage-node-lab.xml:22(para) ./doc/training-guides/operator-guide/bk002-ch014-operator-object-storage-node-lab.xml:29(para) ./doc/training-guides/operator-guide/bk002-ch014-operator-object-storage-node-lab.xml:36(para) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:17(para) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:24(para) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:31(para) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:40(para) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:47(para) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:54(para) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:61(para) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:68(para) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:75(para) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:27(para) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:34(para) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:41(para) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:48(para) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:55(para) ./doc/training-guides/associate-guide/bk001-ch009-associate-object-storage-node.xml:17(para) ./doc/training-guides/associate-guide/bk001-ch009-associate-object-storage-node.xml:24(para) ./doc/training-guides/associate-guide/bk001-ch009-associate-object-storage-node.xml:33(para) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:17(para) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:24(para) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:31(para) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:40(para) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:47(para) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:54(para) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:61(para) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:68(para) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:75(para) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:82(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:25(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:32(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:39(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:46(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:53(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:15(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:22(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:29(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:36(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:43(para)
+#: ./doc/training-guides/bk000-preface.xml:129(para) ./doc/training-guides/bk000-preface.xml:136(para) ./doc/training-guides/bk000-preface.xml:143(para) ./doc/training-guides/operator-guide/bk002-ch004-operator-controller-node.xml:17(para) ./doc/training-guides/operator-guide/bk002-ch004-operator-controller-node.xml:24(para) ./doc/training-guides/operator-guide/bk002-ch004-operator-controller-node.xml:31(para) ./doc/training-guides/operator-guide/bk002-ch013-operator-object-storage-node.xml:17(para) ./doc/training-guides/operator-guide/bk002-ch013-operator-object-storage-node.xml:32(para) ./doc/training-guides/operator-guide/bk002-ch007-operator-compute-node.xml:17(para) ./doc/training-guides/operator-guide/bk002-ch007-operator-compute-node.xml:24(para) ./doc/training-guides/operator-guide/bk002-ch007-operator-compute-node.xml:31(para) ./doc/training-guides/operator-guide/bk002-ch011-operator-network-node-lab.xml:15(para) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:17(para) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:24(para) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:35(para) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:42(para) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:49(para) ./doc/training-guides/operator-guide/bk002-ch005-operator-controller-node-lab.xml:15(para) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:15(para) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:22(para) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:29(para) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:36(para) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:43(para) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:25(para) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:32(para) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:39(para) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:46(para) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:53(para) ./doc/training-guides/operator-guide/bk002-ch008-operator-compute-node-lab.xml:15(para) ./doc/training-guides/operator-guide/bk002-ch014-operator-object-storage-node-lab.xml:15(para) ./doc/training-guides/operator-guide/bk002-ch014-operator-object-storage-node-lab.xml:22(para) ./doc/training-guides/operator-guide/bk002-ch014-operator-object-storage-node-lab.xml:29(para) ./doc/training-guides/operator-guide/bk002-ch014-operator-object-storage-node-lab.xml:36(para) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:27(para) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:34(para) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:41(para) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:48(para) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:55(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:25(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:32(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:39(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:46(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:53(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:15(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:22(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:29(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:36(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:43(para)
 msgid "<placeholder-1/>Remote content not available"
 msgstr ""
 
-#: ./doc/training-guides/bk000-preface.xml:129(link) ./doc/training-guides/bk000-preface.xml:136(link) ./doc/training-guides/bk000-preface.xml:143(link) ./doc/training-guides/operator-guide/bk002-ch004-operator-controller-node.xml:17(link) ./doc/training-guides/operator-guide/bk002-ch004-operator-controller-node.xml:24(link) ./doc/training-guides/operator-guide/bk002-ch004-operator-controller-node.xml:31(link) ./doc/training-guides/operator-guide/bk002-ch013-operator-object-storage-node.xml:17(link) ./doc/training-guides/operator-guide/bk002-ch013-operator-object-storage-node.xml:32(link) ./doc/training-guides/operator-guide/bk002-ch007-operator-compute-node.xml:17(link) ./doc/training-guides/operator-guide/bk002-ch007-operator-compute-node.xml:24(link) ./doc/training-guides/operator-guide/bk002-ch007-operator-compute-node.xml:31(link) ./doc/training-guides/operator-guide/bk002-ch011-operator-network-node-lab.xml:15(link) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:17(link) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:24(link) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:35(link) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:42(link) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:49(link) ./doc/training-guides/operator-guide/bk002-ch005-operator-controller-node-lab.xml:15(link) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:15(link) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:22(link) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:29(link) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:36(link) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:43(link) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:25(link) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:32(link) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:39(link) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:46(link) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:53(link) ./doc/training-guides/operator-guide/bk002-ch008-operator-compute-node-lab.xml:15(link) ./doc/training-guides/operator-guide/bk002-ch014-operator-object-storage-node-lab.xml:15(link) ./doc/training-guides/operator-guide/bk002-ch014-operator-object-storage-node-lab.xml:22(link) ./doc/training-guides/operator-guide/bk002-ch014-operator-object-storage-node-lab.xml:29(link) ./doc/training-guides/operator-guide/bk002-ch014-operator-object-storage-node-lab.xml:36(link) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:17(link) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:24(link) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:31(link) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:40(link) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:47(link) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:54(link) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:61(link) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:68(link) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:75(link) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:27(link) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:34(link) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:41(link) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:48(link) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:55(link) ./doc/training-guides/associate-guide/bk001-ch009-associate-object-storage-node.xml:17(link) ./doc/training-guides/associate-guide/bk001-ch009-associate-object-storage-node.xml:24(link) ./doc/training-guides/associate-guide/bk001-ch009-associate-object-storage-node.xml:33(link) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:17(link) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:24(link) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:31(link) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:40(link) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:47(link) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:54(link) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:61(link) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:68(link) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:75(link) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:82(link) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:25(link) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:32(link) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:39(link) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:46(link) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:53(link) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:15(link) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:22(link) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:29(link) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:36(link) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:43(link)
+#: ./doc/training-guides/bk000-preface.xml:129(link) ./doc/training-guides/bk000-preface.xml:136(link) ./doc/training-guides/bk000-preface.xml:143(link) ./doc/training-guides/operator-guide/bk002-ch004-operator-controller-node.xml:17(link) ./doc/training-guides/operator-guide/bk002-ch004-operator-controller-node.xml:24(link) ./doc/training-guides/operator-guide/bk002-ch004-operator-controller-node.xml:31(link) ./doc/training-guides/operator-guide/bk002-ch013-operator-object-storage-node.xml:17(link) ./doc/training-guides/operator-guide/bk002-ch013-operator-object-storage-node.xml:32(link) ./doc/training-guides/operator-guide/bk002-ch007-operator-compute-node.xml:17(link) ./doc/training-guides/operator-guide/bk002-ch007-operator-compute-node.xml:24(link) ./doc/training-guides/operator-guide/bk002-ch007-operator-compute-node.xml:31(link) ./doc/training-guides/operator-guide/bk002-ch011-operator-network-node-lab.xml:15(link) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:17(link) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:24(link) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:35(link) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:42(link) ./doc/training-guides/operator-guide/bk002-ch010-operator-network-node.xml:49(link) ./doc/training-guides/operator-guide/bk002-ch005-operator-controller-node-lab.xml:15(link) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:15(link) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:22(link) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:29(link) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:36(link) ./doc/training-guides/operator-guide/bk002-ch002-operator-getting-started-lab.xml:43(link) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:25(link) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:32(link) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:39(link) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:46(link) ./doc/training-guides/operator-guide/bk002-ch001-operator-getting-started.xml:53(link) ./doc/training-guides/operator-guide/bk002-ch008-operator-compute-node-lab.xml:15(link) ./doc/training-guides/operator-guide/bk002-ch014-operator-object-storage-node-lab.xml:15(link) ./doc/training-guides/operator-guide/bk002-ch014-operator-object-storage-node-lab.xml:22(link) ./doc/training-guides/operator-guide/bk002-ch014-operator-object-storage-node-lab.xml:29(link) ./doc/training-guides/operator-guide/bk002-ch014-operator-object-storage-node-lab.xml:36(link) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:27(link) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:34(link) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:41(link) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:48(link) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:55(link) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:25(link) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:32(link) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:39(link) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:46(link) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:53(link) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:15(link) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:22(link) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:29(link) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:36(link) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:43(link)
 msgid "https://docs.google.com/drawings/d/1J2LZSxmc06xKyxMgPjv5fC0blV7qK6956-AeTmFOZD4/edit?usp=sharing"
 msgstr ""
 
@@ -627,12 +627,6 @@ msgstr ""
 msgid "Days 5 to 6, 16:40 to 17:00"
 msgstr ""
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:17(None) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:24(None) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:31(None) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:40(None) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:47(None) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:54(None) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:61(None) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:68(None) ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:75(None) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:27(None) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:34(None) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:41(None) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:48(None) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:55(None) ./doc/training-guides/associate-guide/bk001-ch009-associate-object-storage-node.xml:17(None) ./doc/training-guides/associate-guide/bk001-ch009-associate-object-storage-node.xml:24(None) ./doc/training-guides/associate-guide/bk001-ch009-associate-object-storage-node.xml:33(None) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:17(None) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:24(None) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:31(None) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:40(None) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:47(None) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:54(None) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:61(None) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:68(None) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:75(None) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:82(None)
-msgid "@@image: 'figures/openstack-training-remote-content-not-available.png'; md5=THIS FILE DOESN'T EXIST"
-msgstr ""
-
 #: ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:10(title)
 msgid "Day 1, 15:00 to 17:00"
 msgstr ""
@@ -641,39 +635,39 @@ msgstr ""
 msgid "VM Placement"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:21(title) ./doc/training-guides/common/module001-ch010-vm-provisioning-indepth.xml:7(title)
+#: ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:20(title) ./doc/training-guides/common/module001-ch010-vm-provisioning-indepth.xml:7(title)
 msgid "VM provisioning in-depth"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:28(title) ./doc/training-guides/common/module001-ch011-block-storage.xml:6(title)
+#: ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:26(title) ./doc/training-guides/common/module001-ch011-block-storage.xml:6(title)
 msgid "OpenStack Block Storage"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:35(title) ./doc/training-guides/associate-guide/bk001-ch007-associate-network-node.xml:26(title) ./doc/training-guides/associate-guide/bk001-ch009-associate-object-storage-node.xml:28(title) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:35(title)
+#: ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:32(title) ./doc/training-guides/associate-guide/bk001-ch007-associate-network-node.xml:26(title) ./doc/training-guides/associate-guide/bk001-ch009-associate-object-storage-node.xml:26(title) ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:32(title)
 msgid "Administration Tasks"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:37(title)
+#: ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:34(title)
 msgid "Block Storage CLI Commands"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:44(title)
+#: ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:40(title)
 msgid "Block Storage Manage Volumes"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:51(title)
+#: ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:46(title)
 msgid "Compute CLI Commands"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:58(title)
+#: ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:52(title)
 msgid "Compute Image creation"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:65(title)
+#: ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:58(title)
 msgid "Compute Boot Instance"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:72(title)
+#: ./doc/training-guides/associate-guide/bk001-ch005-associate-compute-node.xml:64(title)
 msgid "Compute Terminate Instance"
 msgstr ""
 
@@ -690,10 +684,6 @@ msgid "OpenStack Networking Concepts"
 msgstr ""
 
 #: ./doc/training-guides/associate-guide/bk001-ch007-associate-network-node.xml:28(title)
-msgid "Network CLI Commands"
-msgstr ""
-
-#: ./doc/training-guides/associate-guide/bk001-ch007-associate-network-node.xml:34(title)
 msgid "Manage Networks"
 msgstr ""
 
@@ -703,6 +693,12 @@ msgstr ""
 
 #: ./doc/training-guides/associate-guide/bk001-bk010-associate-object-storage-node-quiz.xml:7(title)
 msgid "Day 2, 14:25 to 14:45"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:27(None) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:34(None) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:41(None) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:48(None) ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:55(None)
+msgid "@@image: 'figures/openstack-training-remote-content-not-available.png'; md5=THIS FILE DOESN'T EXIST"
 msgstr ""
 
 #: ./doc/training-guides/associate-guide/bk001-ch001-associate-getting-started.xml:8(title)
@@ -945,7 +941,7 @@ msgstr ""
 msgid "ZeroMQ"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/bk001-ch004-associate-controller-node-quiz.xml:280(para) ./doc/training-guides/basic-install-guide/lab001-control-node.xml:146(emphasis) ./doc/training-guides/basic-install-guide/section_basics-queue.xml:21(link) ./doc/training-guides/common/module001-ch008-queues-messaging.xml:146(title) ./doc/training-guides/common/module001-ch008-queues-messaging.xml:181(title) ./doc/training-guides/common/module001-ch008-queues-messaging.xml:204(title)
+#: ./doc/training-guides/associate-guide/bk001-ch004-associate-controller-node-quiz.xml:280(para) ./doc/training-guides/basic-install-guide/lab001-control-node.xml:189(emphasis) ./doc/training-guides/basic-install-guide/section_basics-queue.xml:21(link) ./doc/training-guides/common/module001-ch008-queues-messaging.xml:146(title) ./doc/training-guides/common/module001-ch008-queues-messaging.xml:181(title) ./doc/training-guides/common/module001-ch008-queues-messaging.xml:204(title)
 msgid "RabbitMQ"
 msgstr ""
 
@@ -1205,19 +1201,19 @@ msgstr ""
 msgid "Introduction to Object Storage"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/bk001-ch009-associate-object-storage-node.xml:21(title)
+#: ./doc/training-guides/associate-guide/bk001-ch009-associate-object-storage-node.xml:20(title)
 msgid "Features and Benefits"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/bk001-ch009-associate-object-storage-node.xml:30(title)
+#: ./doc/training-guides/associate-guide/bk001-ch009-associate-object-storage-node.xml:28(title)
 msgid "Object Storage CLI Commands"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/bk001-ch009-associate-object-storage-node.xml:37(title)
+#: ./doc/training-guides/associate-guide/bk001-ch009-associate-object-storage-node.xml:34(title)
 msgid "Manage Object Storage"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/bk001-ch009-associate-object-storage-node.xml:38(para)
+#: ./doc/training-guides/associate-guide/bk001-ch009-associate-object-storage-node.xml:35(para)
 msgid "Will be included from the swift developer reference"
 msgstr ""
 
@@ -1269,39 +1265,39 @@ msgstr ""
 msgid "Overview Horizon and OpenStack CLI"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:21(title) ./doc/training-guides/common/module001-ch007-keystone-arch.xml:6(title)
+#: ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:20(title) ./doc/training-guides/common/module001-ch007-keystone-arch.xml:6(title)
 msgid "Keystone Architecture"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:28(title) ./doc/training-guides/common/module001-ch008-queues-messaging.xml:6(title)
+#: ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:26(title) ./doc/training-guides/common/module001-ch008-queues-messaging.xml:6(title)
 msgid "OpenStack Messaging and Queues"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:37(title)
+#: ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:34(title)
 msgid "Identity CI Commands"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:44(title)
+#: ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:40(title)
 msgid "Identity User Management"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:51(title)
+#: ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:46(title)
 msgid "Image CLI Commands"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:58(title)
+#: ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:52(title)
 msgid "Image List Images"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:65(title)
+#: ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:58(title)
 msgid "Image Adding Images"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:72(title)
+#: ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:64(title)
 msgid "Image Manage Images"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:79(title)
+#: ./doc/training-guides/associate-guide/bk001-ch003-associate-controller-node.xml:70(title)
 msgid "Message Queue Configuration"
 msgstr ""
 
@@ -2097,7 +2093,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:13(None) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:126(None) ./doc/training-guides/basic-install-guide/lab003-compute-node.xml:18(None) ./doc/training-guides/basic-install-guide/lab002-network-node.xml:15(None)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:13(None) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:131(None) ./doc/training-guides/basic-install-guide/lab003-compute-node.xml:18(None) ./doc/training-guides/basic-install-guide/lab002-network-node.xml:15(None)
 msgid "@@image: '../figures/lab000-virtual-box/image03.png'; md5=2f79252a8c2f058f103df5346c9cd6fb"
 msgstr ""
 
@@ -2153,387 +2149,407 @@ msgstr ""
 msgid "Add Icehouse repositories:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:62(para) ./doc/training-guides/basic-install-guide/lab003-compute-node.xml:51(para) ./doc/training-guides/basic-install-guide/lab002-network-node.xml:45(para) ./doc/training-guides/basic-install-guide/lab002-network-node.xml:227(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:74(para) ./doc/training-guides/basic-install-guide/lab003-compute-node.xml:51(para) ./doc/training-guides/basic-install-guide/lab002-network-node.xml:45(para) ./doc/training-guides/basic-install-guide/lab002-network-node.xml:227(para)
 msgid "Update your system:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:68(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:81(emphasis)
 msgid "Networking :"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:69(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:82(para)
 msgid "Configure your network by editing <filename>/etc/network/interfaces</filename> file"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:73(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:86(para)
 msgid "Open <filename>/etc/network/interfaces</filename> and edit the file as mentioned:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:107(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:120(para)
 msgid "After saving the interfaces file, restart the networking service:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:113(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:126(para)
 msgid "You should see the expected network interface cards with the required IP Addresses."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:117(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:130(emphasis)
 msgid "SSH from HOST"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:120(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:133(para)
 msgid "Create an SSH key pair for your Control Node. Follow the same steps as you did in the begin of the article for your host machine."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:125(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:138(para)
 msgid "To SSH into the Control Node from the Host Machine, type the below command."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:131(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:144(para)
 msgid "Now you can have access to your host clipboard."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:134(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:147(emphasis)
+msgid "To use the Ubuntu Cloud Archive for Icehouse"
+msgstr ""
+
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:149(para) ./doc/training-guides/basic-install-guide/section_basics-packages.xml:97(para)
+msgid "The <link href=\"https://wiki.ubuntu.com/ServerTeam/CloudArchive\">Ubuntu Cloud Archive</link> is a special repository that allows you to install newer releases of OpenStack on the stable supported version of Ubuntu."
+msgstr ""
+
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:154(para)
+msgid "Install the Ubuntu Cloud Archive for Icehouse <placeholder-1/>"
+msgstr ""
+
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:162(para) ./doc/training-guides/basic-install-guide/section_basics-packages.xml:109(para)
+msgid "Update the package database and upgrade your system:"
+msgstr ""
+
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:167(para) ./doc/training-guides/basic-install-guide/section_basics-packages.xml:122(para)
+msgid "Reboot the system for all changes to take effect:"
+msgstr ""
+
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:171(emphasis)
 msgid "My SQL"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:137(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:174(para)
 msgid "Install MySQL:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:141(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:181(para)
 msgid "Configure mysql to accept all incoming requests:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:149(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:192(para)
 msgid "Install RabbitMQ:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:153(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:199(para)
 msgid "Install the NTP service:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:157(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:203(para)
 msgid "Create these databases:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:172(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:218(emphasis)
 msgid "Other"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:175(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:221(para)
 msgid "Install other services:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:179(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:225(para)
 msgid "Enable IP_Forwarding:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:183(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:229(para)
 msgid "Also add the following two lines into<filename>/etc/sysctl.conf</filename>:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:189(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:235(para)
 msgid "To save you from reboot, perform the following"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:196(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:242(emphasis)
 msgid "Keystone"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:197(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:243(para)
 msgid "Keystone is an OpenStack project that provides Identity, Token, Catalog and Policy services for use specifically by projects in the OpenStack family. It implements OpenStack’s Identity API."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:203(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:249(para)
 msgid "Install the Keystone packages:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:207(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:253(para)
 msgid "Adapt the connection attribute in the <filename>/etc/keystone/keystone.conf</filename> to the new database:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:213(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:259(para)
 msgid "Restart the identity service then synchronize the database:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:219(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:265(para)
 msgid "Fill up the keystone database using the following scripts:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:224(filename)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:270(filename)
 msgid "keystone_basic.sh"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:229(filename)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:275(filename)
 msgid "keystone_endpoints_basic.sh"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:233(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:279(para)
 msgid "Run scripts:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:240(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:286(para)
 msgid "Create a simple credentials file"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:244(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:290(para)
 msgid "Paste the following:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:251(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:297(para)
 msgid "Load the above credentials:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:255(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:301(para)
 msgid "To test Keystone, we use a simple CLI command:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:259(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:305(emphasis)
 msgid "Glance"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:260(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:306(para)
 msgid "The OpenStack Glance project provides services for discovering, registering, and retrieving virtual machine images. Glance has a RESTful API that allows querying of VM image metadata as well as retrieval of the actual image."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:264(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:310(para)
 msgid "VM images made available through Glance can be stored in a variety of locations from simple file systems to object-storage systems like the OpenStack Swift project."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:267(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:313(para)
 msgid "Glance, as with all OpenStack projects, is written with the following design guidelines in mind:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:271(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:317(para)
 msgid "Component based architecture: Quickly adds new behaviors"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:275(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:321(para)
 msgid "Highly available: Scales to very serious workloads"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:278(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:324(para)
 msgid "Fault tolerant: Isolated processes avoid cascading failures"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:282(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:328(para)
 msgid "Recoverable: Failures should be easy to diagnose, debug, and rectify"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:286(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:332(para)
 msgid "Open standards: Be a reference implementation for a community-driven api"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:290(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:336(para)
 msgid "Install Glance:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:294(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:340(para)
 msgid "Update <filename>/etc/glance/glance-api-paste.ini</filename>:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:307(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:353(para)
 msgid "Update the <filename>/etc/glance/glance-registry-paste.ini</filename>:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:319(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:365(para)
 msgid "Update the <filename>/etc/glance/glance-api.conf</filename>:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:334(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:380(para)
 msgid "Update the <filename>/etc/glance/glance-registry.conf</filename>:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:349(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:395(para)
 msgid "Restart the glance-api and glance-registry services:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:354(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:400(para)
 msgid "Synchronize the Glance database:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:358(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:404(para)
 msgid "To test Glance, upload the “cirros cloud image” directly from the internet:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:363(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:409(para)
 msgid "Check if the image is successfully uploaded:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:367(emphasis) ./doc/training-guides/basic-install-guide/lab003-compute-node.xml:150(para) ./doc/training-guides/basic-install-guide/lab002-network-node.xml:101(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:413(emphasis) ./doc/training-guides/basic-install-guide/lab003-compute-node.xml:150(para) ./doc/training-guides/basic-install-guide/lab002-network-node.xml:101(emphasis)
 msgid "Neutron"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:368(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:414(para)
 msgid "Neutron is an OpenStack project to provide “network connectivity as a service\" between interface devices (e.g., vNICs) managed by other OpenStack services (e.g., nova)."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:373(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:419(para)
 msgid "Install the Neutron Server and the Open vSwitch package collection:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:378(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:424(para)
 msgid "Edit the <filename>/etc/neutron/plugins/openvswitch/ovs_neutron_plugin.ini</filename>:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:397(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:443(para)
 msgid "Edit the <filename>/etc/neutron/api-paste.ini</filename>:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:411(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:457(para)
 msgid "Edit the <filename>/etc/neutron/neutron.conf</filename>:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:427(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:473(para)
 msgid "Restart Neutron services:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:431(emphasis) ./doc/training-guides/basic-install-guide/lab003-compute-node.xml:199(emphasis) ./doc/training-guides/common/module001-ch009-vm-placement.xml:16(title)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:477(emphasis) ./doc/training-guides/basic-install-guide/lab003-compute-node.xml:199(emphasis) ./doc/training-guides/common/module001-ch009-vm-placement.xml:16(title)
 msgid "Nova"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:432(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:478(para)
 msgid "Nova is the project name for OpenStack Compute, a cloud computing fabric controller, the main part of an IaaS system. Individuals and organizations can use Nova to host and manage their own cloud computing systems. Nova originated as a project out of NASA Ames Research Laboratory."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:437(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:483(para)
 msgid "Nova is written with the following design guidelines in mind:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:441(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:487(para)
 msgid "Component based architecture: Quickly adds new behaviors."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:445(para) ./doc/training-guides/basic-install-guide/lab001-control-node.xml:564(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:491(para) ./doc/training-guides/basic-install-guide/lab001-control-node.xml:610(para)
 msgid "Highly available: Scales to very serious workloads."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:448(para) ./doc/training-guides/basic-install-guide/lab001-control-node.xml:567(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:494(para) ./doc/training-guides/basic-install-guide/lab001-control-node.xml:613(para)
 msgid "Fault-Tolerant: Isolated processes avoid cascading failures."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:452(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:498(para)
 msgid "Recoverable: Failures should be easy to diagnose, debug, and rectify."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:456(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:502(para)
 msgid "Open standards: Be a reference implementation for a community-driven api."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:460(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:506(para)
 msgid "API compatibility: Nova strives to be API-compatible with popular systems like Amazon EC2."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:464(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:510(para)
 msgid "Install nova components:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:468(para) ./doc/training-guides/basic-install-guide/lab003-compute-node.xml:209(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:514(para) ./doc/training-guides/basic-install-guide/lab003-compute-node.xml:209(para)
 msgid "Edit <filename>/etc/nova/api-paste.ini</filename>"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:483(para) ./doc/training-guides/basic-install-guide/lab003-compute-node.xml:232(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:529(para) ./doc/training-guides/basic-install-guide/lab003-compute-node.xml:232(para)
 msgid "Edit <filename>/etc/nova/nova.conf</filename>"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:541(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:587(para)
 msgid "Synchronize your database:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:545(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:591(para)
 msgid "Restart nova-* services (all nova services):"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:549(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:595(para)
 msgid "Check for the smiling faces on <systemitem class=\"service\">nova-*</systemitem> services to confirm your installation:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:555(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:601(emphasis)
 msgid "Cinder"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:556(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:602(para)
 msgid "Cinder is an OpenStack project that provides “block storage as a service”."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:560(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:606(para)
 msgid "Component based architecture: Quickly adds new behavior."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:571(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:617(para)
 msgid "Recoverable: Failures should be easy to diagnose, debug and rectify."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:575(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:621(para)
 msgid "Open standards: Be a reference implementation for a community-driven API."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:579(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:625(para)
 msgid "API compatibility: Cinder strives to be API-compatible with popular systems like Amazon EC2."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:583(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:629(para)
 msgid "Install Cinder components:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:587(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:633(para)
 msgid "Configure the iSCSI services:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:591(para) ./doc/training-guides/basic-install-guide/section_nova-networking-compute-node.xml:79(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:637(para) ./doc/training-guides/basic-install-guide/section_nova-networking-compute-node.xml:79(para)
 msgid "Restart the services:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:596(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:642(para)
 msgid "Edit <filename>/etc/cinder/api-paste.ini</filename>:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:612(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:658(para)
 msgid "Edit <filename>/etc/cinder/cinder.conf</filename>:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:628(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:674(para)
 msgid "Then, synchronize Cinder database:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:632(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:678(para)
 msgid "Finally, create a volume group and name it <literal>cinder-volumes</literal>:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:645(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:691(para)
 msgid "Proceed to create the physical volume then the volume group:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:652(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:698(para)
 msgid "Be aware that this volume group gets lost after a system reboot. If you do not want to perform this step again, make sure that you save the machine state and do not shut it down."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:659(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:705(para)
 msgid "Restart the Cinder services:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:663(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:709(para)
 msgid "Verify that the Cinder services are running:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:667(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:713(emphasis)
 msgid "Horizon"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:668(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:714(para)
 msgid "Horizon is the canonical implementation of OpenStack’s dashboard, which provides a web-based user interface to OpenStack services including Nova, Swift, Keystone, etc."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:673(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:719(para)
 msgid "To install Horizon, complete these steps:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:677(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:723(para)
 msgid "If you do not like the OpenStack Ubuntu Theme, you can remove it with the below command:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:682(para)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:728(para)
 msgid "Reload Apache and memcached:"
 msgstr ""
 
@@ -3023,16 +3039,8 @@ msgstr ""
 msgid "To use the Ubuntu Cloud Archive for Juno"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/section_basics-packages.xml:97(para)
-msgid "The <link href=\"https://wiki.ubuntu.com/ServerTeam/CloudArchive\">Ubuntu Cloud Archive</link> is a special repository that allows you to install newer releases of OpenStack on the stable supported version of Ubuntu."
-msgstr ""
-
 #: ./doc/training-guides/basic-install-guide/section_basics-packages.xml:103(para)
 msgid "Install the Ubuntu Cloud Archive for <glossterm>Juno</glossterm>: <placeholder-1/>"
-msgstr ""
-
-#: ./doc/training-guides/basic-install-guide/section_basics-packages.xml:109(para)
-msgid "Update the package database and upgrade your system:"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_basics-packages.xml:114(para)
@@ -3041,10 +3049,6 @@ msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_basics-packages.xml:118(para)
 msgid "Install the Ubuntu 13.10 backported kernel:"
-msgstr ""
-
-#: ./doc/training-guides/basic-install-guide/section_basics-packages.xml:122(para)
-msgid "Reboot the system for all changes to take effect:"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_basics-packages.xml:127(title)
@@ -4522,11 +4526,11 @@ msgid "Requirements:"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:40(para)
-msgid "Operating Systems - I recommend Ubuntu Server 12.04 LTS, Ubuntu Server 13.10 or Debian Wheezy."
+msgid "Operating Systems - It is recommended to use Ubuntu Server 14.04 LTS,"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:42(para)
-msgid "Ubuntu 12.10 is not supporting OpenStack Grizzly Packages. Ubuntu team has decided not to package Grizzly Packages for Ubuntu 12.10."
+msgid "Older Ubuntu versions may not support IceHouse. Ubuntu Server 12.04 will support IceHouse but is out of scope of this book."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:47(para)
@@ -4566,56 +4570,53 @@ msgid "2GB Ram:"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:80(para)
-msgid "If you don't know whether your processor is VT enabled, you could check it by installing cpu-checker:"
+msgid "To check if the processor is VT enabled, install cpu-checker as follows:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:84(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:88(para)
 msgid "If your device does not support VT it will show:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:87(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:93(para)
 msgid "You will still be able to use Virtual Box but the instances will be very slow."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:89(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:95(para)
 msgid "There are many ways to configure your OpenStack Setup. In this example, we will deploy OpenStack multi node using OVS as the network plug-in and QEMU/KVM as the hypervisor."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:92(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:98(emphasis)
 msgid "Host only connections:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:95(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:101(para)
 msgid "Host only connections provide an internal network between your host and the Virtual Machine instances on your host machine. This network is not traceable by other networks."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:100(para)
-msgid "You may even use bridged connections if you have a router/switch."
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:106(para)
+msgid "Bridged connections are not recommended."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:104(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:109(para)
 msgid "The following are the host only connections that you will be setting up later on:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:108(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:113(para)
 msgid "vboxnet0 - OpenStack management network - host static IP 10.10.10.1"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:112(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:117(para)
 msgid "vboxnet1 - VM conf.network - host static IP 10.20.20.1"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:116(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:121(para)
 msgid "vboxnet2 - VM external network access (host machine) 192.168.100.1"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:123(title)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:128(title)
 msgid "Network diagram"
 msgstr ""
 
-#. <para>Publicly editable image source at <link
-#.     xlink:href="https://docs.google.com/drawings/d/1GX3FXmkz3c_tUDpZXUVMpyIxicWuHs5fNsHvYNjwNNk/edit?usp=sharing"
-#.     >https://docs.google.com/drawings/d/1GX3FXmkz3c_tUDpZXUVMpyIxicWuHs5fNsHvYNjwNNk/edit?usp=sharing</link></para>
 #: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:135(para)
 msgid "Vboxnet0, Vboxnet1, Vboxnet2 - are virtual networks setup by virtual box with your host machine. This is the way your host can communicate with the virtual machines. These networks are in turn used by virtual box VM’s for OpenStack networks, so that OpenStack’s services can communicate with each other. For details, see the <link href=\"http://www.virtualbox.org/manual/ch06.html#network_hostonly\">VirtualBox documentation</link>"
 msgstr ""
