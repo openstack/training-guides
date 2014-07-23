@@ -14,7 +14,7 @@ BluePrints
 ----------
 
 Training Manuals : https://blueprints.launchpad.net/openstack-manuals/+spec/training-manuals
-Training Labs : https://blueprints.launchpad.net/openstack-manuals/+spec/openstack-training-labs
+Training Labs : https://blueprints.launchpad.net/openstack-training-guides/+spec/openstack-training-labs
 
 Mailing Lists, IRC
 ------------------
