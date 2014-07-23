@@ -7,7 +7,7 @@
     <preface xml:id="preface">
         <title>Preface</title>
         <?dbhtml stop-chunking?>
-      <xi:include href="https://raw.githubusercontent.com/openstack/openstack-manuals/master/doc/common/section_dochistory.xml">
+      <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_dochistory.xml">
       </xi:include>
      </preface>
     <appendix xml:id="under-construction">
@@ -126,23 +126,20 @@
             <title>Important Terms</title>
             <xi:include href="./basic-install-guide/lab000-important-terms.xml"
             xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'lab000-important-terms']/*[not(self::db:title)])">
-              <xi:fallback><para><mediaobject><imageobject><imagedata fileref="figures/openstack-training-remote-content-not-available.png" format="PNG"/></imageobject></mediaobject>Remote content not available</para><para>image source</para><para><link xlink:href="https://docs.google.com/drawings/d/1J2LZSxmc06xKyxMgPjv5fC0blV7qK6956-AeTmFOZD4/edit?usp=sharing">https://docs.google.com/drawings/d/1J2LZSxmc06xKyxMgPjv5fC0blV7qK6956-AeTmFOZD4/edit?usp=sharing</link></para></xi:fallback>
             </xi:include>
         </section>
         <section xml:id="virtualbox-scripted">
             <title>Building the Training Cluster, Scripted</title>
             <xi:include href="./training-cluster-by-script.xml"
             xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'training-cluster-by-script']/*[not(self::db:title)])">
-              <xi:fallback><para><mediaobject><imageobject><imagedata fileref="figures/openstack-training-remote-content-not-available.png" format="PNG"/></imageobject></mediaobject>Remote content not available</para><para>image source</para><para><link xlink:href="https://docs.google.com/drawings/d/1J2LZSxmc06xKyxMgPjv5fC0blV7qK6956-AeTmFOZD4/edit?usp=sharing">https://docs.google.com/drawings/d/1J2LZSxmc06xKyxMgPjv5fC0blV7qK6956-AeTmFOZD4/edit?usp=sharing</link></para></xi:fallback>
             </xi:include>
         </section>
         <section xml:id="virtualbox-manual">
             <title>Building the Training Cluster, Manually</title>
             <xi:include href="./basic-install-guide/lab000-virtualbox-basics.xml"
             xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'lab000-virtualbox-basics']/*[not(self::db:title)])">
-              <xi:fallback><para><mediaobject><imageobject><imagedata fileref="figures/openstack-training-remote-content-not-available.png" format="PNG"/></imageobject></mediaobject>Remote content not available</para><para>image source</para><para><link xlink:href="https://docs.google.com/drawings/d/1J2LZSxmc06xKyxMgPjv5fC0blV7qK6956-AeTmFOZD4/edit?usp=sharing">https://docs.google.com/drawings/d/1J2LZSxmc06xKyxMgPjv5fC0blV7qK6956-AeTmFOZD4/edit?usp=sharing</link></para></xi:fallback>
             </xi:include>
         </section>
     </appendix>
-  <xi:include href="https://raw.githubusercontent.com/openstack/openstack-manuals/master/doc/common/app_support.xml"/>
+  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/app_support.xml"/>
 </book>
