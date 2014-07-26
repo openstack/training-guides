@@ -80,10 +80,8 @@
     <para>To check if the processor is VT enabled, install cpu-checker as
         follows:</para>
     <screen>
-        <prompt>#</prompt>
-        <userinput>apt-get install cpu-checker</userinput>
-        <prompt>#</prompt>
-        <userinput>kvm-ok</userinput>
+        <prompt>#</prompt> <userinput>apt-get install cpu-checker</userinput>
+        <prompt>#</prompt> <userinput>kvm-ok</userinput>
     </screen>
     <para>If your device does not support VT it will show:</para>
     <screen>
