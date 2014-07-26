@@ -93,7 +93,7 @@
     </info>
     <!-- <xi:include href="under-contruction-notice.xml"/> -->
     <xi:include href="bk000-preface.xml"/>
-    <xi:include href="associate-guide/bk001-associate-training-guide.xml"/>
+    <xi:include href="associate-guide/bk_associate-training-guide.xml"/>
     <xi:include href="operator-guide/bk002-operator-training-guide.xml"/>
     <xi:include href="developer-guide/bk003-developer-training-guide.xml"/>
     <xi:include href="architect-guide/bk004-architect-training-guide.xml"/>
