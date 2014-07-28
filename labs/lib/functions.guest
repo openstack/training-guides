@@ -144,6 +144,34 @@ function iniset_sudo {
 }
 
 #-------------------------------------------------------------------------------
+# OpenStack helpers
+#-------------------------------------------------------------------------------
+
+function mysql_exe {
+    local cmd="$1"
+    echo "MySQL cmd: $cmd."
+    mysql -u "root" -p"$DATABASE_PASSWORD" -e "$cmd"
+}
+
+function setup_database {
+    local service=$1
+    local user_name=$(service_to_user_name $service)
+    local user_password=$(service_to_user_password $service)
+    mysql_exe "CREATE DATABASE $service"
+    mysql_exe "GRANT ALL ON ${service}.* TO '$user_name'@'%' IDENTIFIED BY '$user_password';"
+}
+
+function service_to_user_name {
+    local service_name=$1
+    echo "${service_name}User"
+}
+
+function service_to_user_password {
+    local service_name=$1
+    echo "${service_name}Pass"
+}
+
+#-------------------------------------------------------------------------------
 # Network configuration
 #-------------------------------------------------------------------------------
 

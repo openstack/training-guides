@@ -1,3 +1,3 @@
 # Scripts for controller node
 scripts apt_install_mysql.sh
-scripts setup_keystonedb.sh
+scripts setup_keystone.sh
