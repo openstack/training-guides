@@ -9,7 +9,8 @@ exec_logfile
 indicate_current_auto
 
 #-------------------------------------------------------------------------------
-# Create database Keystone, Glance, Quantum, Nova, and Cinder
+# Create database Keystone, Glance, Neutron, Nova, and Cinder
+#-------------------------------------------------------------------------------
 function mysql_exe {
     local CMD="$1"
     echo mysql -u "root" -p"$DATABASE_PASSWORD" -e "$CMD"
