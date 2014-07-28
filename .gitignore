@@ -27,3 +27,4 @@ labs/autostart
 labs/img
 labs/log
 labs/wbatch
+labs/lib/vagrant-ssh-keys
