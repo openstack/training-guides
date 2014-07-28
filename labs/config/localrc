@@ -8,8 +8,8 @@
 # to the Internet, this is not sufficient.
 #VM_PROXY="http://192.168.178.20:3128"
 
-# Options:  ubuntu-12.04.4-server-amd64 (default)
-#           ubuntu-14.04-server-amd64
+# Options:  ubuntu-12.04.4-server-amd64
+#           ubuntu-14.04-server-amd64 (default)
 #           fedora-20-x86_64
 #DISTRO=ubuntu-12.04.4-server-amd64
 #DISTRO=fedora-20-x86_64

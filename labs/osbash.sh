@@ -8,7 +8,7 @@ trap 'kill -- -$$' SIGINT
 
 TOP_DIR=$(cd $(dirname "$0") && pwd)
 
-: ${DISTRO:=ubuntu-12.04.4-server-amd64}
+: ${DISTRO:=ubuntu-14.04-server-amd64}
 
 source "$TOP_DIR/config/localrc"
 source "$TOP_DIR/config/paths"
