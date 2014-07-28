@@ -28,13 +28,18 @@ echo "Installing MySQL."
 sudo apt-get install -y mysql-server python-mysqldb
 
 echo "Configuring MySQL to accept requests by other nodes."
-sudo bash -c "source $LIB_DIR/functions-common-devstack && \
-    iniset /etc/mysql/my.cnf mysqld bind-address $DB_IP && \
-    iniset /etc/mysql/my.cnf mysqld default-storage-engine innodb && \
-    iniset /etc/mysql/my.cnf mysqld innodb_file_per_table 1 && \
-    iniset /etc/mysql/my.cnf mysqld collation-server utf8_general_ci && \
-    iniset /etc/mysql/my.cnf mysqld init-connect \"'SET NAMES utf8'\" && \
-    iniset /etc/mysql/my.cnf mysqld character-set-server utf8"
+
+# Enable access by other nodes via the management network
+iniset_sudo /etc/mysql/my.cnf mysqld bind-address "$DB_IP"
+
+# Enable InnoDB
+iniset_sudo /etc/mysql/my.cnf mysqld default-storage-engine innodb
+iniset_sudo /etc/mysql/my.cnf mysqld innodb_file_per_table 1
+
+# Enable UTF-8 character set and UTF-8 collation by default
+iniset_sudo /etc/mysql/my.cnf mysqld collation-server utf8_general_ci
+iniset_sudo /etc/mysql/my.cnf mysqld init-connect "'SET NAMES utf8'"
+iniset_sudo /etc/mysql/my.cnf mysqld character-set-server utf8
 
 echo "Restarting MySQL service."
 sudo service mysql restart

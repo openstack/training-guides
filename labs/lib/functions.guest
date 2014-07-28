@@ -129,6 +129,20 @@ function as_root_exec_script {
 }
 
 #-------------------------------------------------------------------------------
+# Root wrapper around devstack function for manipulating config files
+#-------------------------------------------------------------------------------
+
+function iniset_sudo {
+    local file=$1
+    shift
+    local tmpfile=$(mktemp)
+    # Create a temporary copy, work on it, and copy it back into place
+    cp -fv "$file" "$tmpfile"
+    iniset "$tmpfile" "$@"
+    cat "$tmpfile" | sudo tee "$file" >/dev/null
+}
+
+#-------------------------------------------------------------------------------
 # Network configuration
 #-------------------------------------------------------------------------------
 
