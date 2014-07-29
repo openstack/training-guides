@@ -13,7 +13,7 @@ indicate_current_auto
 #-------------------------------------------------------------------------------
 function mysql_exe {
     local CMD="$1"
-    echo mysql -u "root" -p"$DATABASE_PASSWORD" -e "$CMD"
+    mysql -u "root" -p"$DATABASE_PASSWORD" -e "$CMD"
 }
 
 function setup_database {
