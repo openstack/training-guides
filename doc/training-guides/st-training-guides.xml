@@ -92,7 +92,7 @@
         </revhistory>
     </info>
     <!-- <xi:include href="under-contruction-notice.xml"/> -->
-    <xi:include href="bk000-preface.xml"/>
+    <xi:include href="bk_preface.xml"/>
     <xi:include href="associate-guide/bk_associate-training-guide.xml"/>
     <xi:include href="operator-guide/bk_operator-training-guide.xml"/>
     <xi:include href="developer-guide/bk_developer-training-guide.xml"/>
