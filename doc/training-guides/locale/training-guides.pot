@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-07-27 06:00+0000\n"
+"POT-Creation-Date: 2014-07-30 06:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,11 +13,11 @@ msgstr ""
 msgid "Under Construction"
 msgstr ""
 
-#: ./doc/training-guides/under-contruction-notice.xml:8(title) ./doc/training-guides/bk000-preface.xml:14(title)
+#: ./doc/training-guides/under-contruction-notice.xml:8(title) ./doc/training-guides/bk_preface.xml:14(title)
 msgid "OpenStack Training Guides Are Under Construction"
 msgstr ""
 
-#: ./doc/training-guides/under-contruction-notice.xml:9(para) ./doc/training-guides/bk000-preface.xml:15(para)
+#: ./doc/training-guides/under-contruction-notice.xml:9(para) ./doc/training-guides/bk_preface.xml:15(para)
 msgid "We need your help! This is a community driven project to provide the user group community access to OpenStack training materials. We cannot make this work without your help."
 msgstr ""
 
@@ -29,7 +29,7 @@ msgstr ""
 msgid "If you want to get involved with the effort around OpenStack community training, here are the options:"
 msgstr ""
 
-#: ./doc/training-guides/under-contruction-notice.xml:19(title) ./doc/training-guides/bk000-preface.xml:25(title)
+#: ./doc/training-guides/under-contruction-notice.xml:19(title) ./doc/training-guides/bk_preface.xml:25(title)
 msgid "Attending a user group using the training materials"
 msgstr ""
 
@@ -37,7 +37,7 @@ msgstr ""
 msgid "The OpenStack community training started at the SF Bay OpenStack User Group. More information on this user group and others using the training guides on the <link href=\"https://wiki.openstack.org/wiki/OpenStackUserGroups\">OpenStack User Groups page</link>."
 msgstr ""
 
-#: ./doc/training-guides/under-contruction-notice.xml:27(title) ./doc/training-guides/bk000-preface.xml:33(title)
+#: ./doc/training-guides/under-contruction-notice.xml:27(title) ./doc/training-guides/bk_preface.xml:33(title)
 msgid "Teach / Lead a user group using the training materials"
 msgstr ""
 
@@ -45,7 +45,7 @@ msgstr ""
 msgid "Your experience will not only give you more experience with OpenStack, but you can help people find new jobs. We have put all the information about <link href=\"https://wiki.openstack.org/wiki/OpenStackUserGroups/HowTo#Running_a_Hackathon\">How To Run An OpenStack Hackathon</link> here."
 msgstr ""
 
-#: ./doc/training-guides/under-contruction-notice.xml:35(title) ./doc/training-guides/bk000-preface.xml:41(title)
+#: ./doc/training-guides/under-contruction-notice.xml:35(title) ./doc/training-guides/bk_preface.xml:41(title)
 msgid "Help create the training pages"
 msgstr ""
 
@@ -53,7 +53,7 @@ msgstr ""
 msgid "We are currently working on creating the Associate Training Guide. It is the first of four training guides. We are using the Install Guide, Administration Guides, Developer Documentation, and Aptira supplied content as the sources for most of the Associate Training Guide. The basic idea is that we use XML include statements to actually use the source content to create new pages. We aim to use as much of the material as possible from existing documentation. By doing this we reuse and improve the existing docs. The topics in the Associate Training Guide are in KanBan story board cards. Each card in the story board represents something that an Associate trainee needs to learn. But first things first, you need to get some basic tools and accounts installed and configured before you can really start."
 msgstr ""
 
-#: ./doc/training-guides/under-contruction-notice.xml:52(para) ./doc/training-guides/bk000-preface.xml:58(para)
+#: ./doc/training-guides/under-contruction-notice.xml:52(para) ./doc/training-guides/bk_preface.xml:58(para)
 msgid "<emphasis role=\"bold\">Getting Accounts and Tools:</emphasis> We can't do this without operators and developers using and creating the content. Anyone can contribute content. You will need the tools to get started. Go to the <link href=\"operator-getting-started-lab.html#getting-tools-and-accounts\">Getting Tools and Accounts</link> page."
 msgstr ""
 
@@ -65,31 +65,31 @@ msgstr ""
 msgid "<emphasis role=\"bold\">Create the Content:</emphasis> Each card / user story from the KanBan story board will represent a separate chunk of content that you can add to the openstack-manuals repository, openstack-training sub-project. <link href=\"operator-getting-started-lab.html#operator-add-training-content\"> More details on creating training content here.</link>"
 msgstr ""
 
-#: ./doc/training-guides/under-contruction-notice.xml:77(para) ./doc/training-guides/bk000-preface.xml:79(para)
+#: ./doc/training-guides/under-contruction-notice.xml:77(para) ./doc/training-guides/bk_preface.xml:79(para)
 msgid "Here are more details on committing changes to OpenStack <link href=\"operator-getting-started-lab.html#submit-doc-bug\">fixing a documentation bug</link> , <link href=\"https://wiki.openstack.org/wiki/Gerrit_Workflow\">OpenStack Gerrit Workflow</link>, <link href=\"https://wiki.openstack.org/wiki/Documentation/HowTo\">OpenStack Documentation HowTo</link> and , <link href=\"http://git-scm.com/doc\">Git Documentation</link>"
 msgstr ""
 
-#: ./doc/training-guides/under-contruction-notice.xml:86(para) ./doc/training-guides/bk000-preface.xml:88(para)
+#: ./doc/training-guides/under-contruction-notice.xml:86(para) ./doc/training-guides/bk_preface.xml:88(para)
 msgid "More details on the OpenStack Training project."
 msgstr ""
 
-#: ./doc/training-guides/under-contruction-notice.xml:90(para) ./doc/training-guides/bk000-preface.xml:92(para)
+#: ./doc/training-guides/under-contruction-notice.xml:90(para) ./doc/training-guides/bk_preface.xml:92(para)
 msgid "<link href=\"https://wiki.openstack.org/wiki/Training-manuals\">OpenStack Training Wiki</link> (describes the project in detail)"
 msgstr ""
 
-#: ./doc/training-guides/under-contruction-notice.xml:94(para) ./doc/training-guides/bk000-preface.xml:96(para)
+#: ./doc/training-guides/under-contruction-notice.xml:94(para) ./doc/training-guides/bk_preface.xml:96(para)
 msgid "<link href=\"https://blueprints.launchpad.net/openstack-manuals/+spec/training-manuals\">OpenStack Training blueprint</link>(this is the key project page)"
 msgstr ""
 
-#: ./doc/training-guides/under-contruction-notice.xml:99(para) ./doc/training-guides/bk000-preface.xml:101(para)
+#: ./doc/training-guides/under-contruction-notice.xml:99(para) ./doc/training-guides/bk_preface.xml:101(para)
 msgid "<link href=\"http://www.meetup.com/openstack/\">Bi-Weekly SFBay Hackathon meetup page</link>(we discuss project details with all team members)"
 msgstr ""
 
-#: ./doc/training-guides/under-contruction-notice.xml:103(para) ./doc/training-guides/bk000-preface.xml:105(para)
+#: ./doc/training-guides/under-contruction-notice.xml:103(para) ./doc/training-guides/bk_preface.xml:105(para)
 msgid "<link href=\"https://etherpad.openstack.org/sfbay-openstack\">Bi-Weekly SFBay Hackathon Etherpad</link>(meetup notes)"
 msgstr ""
 
-#: ./doc/training-guides/under-contruction-notice.xml:107(para) ./doc/training-guides/bk000-preface.xml:109(para)
+#: ./doc/training-guides/under-contruction-notice.xml:107(para) ./doc/training-guides/bk_preface.xml:109(para)
 msgid "<link href=\"https://wiki.openstack.org/wiki/Meetings/training-manuals\">Core Training Weekly Meeting Agenda</link>(we review project action items here)"
 msgstr ""
 
@@ -97,7 +97,7 @@ msgstr ""
 msgid "<link href=\"https://trello.com/board/openstack-training/51d6e5fee37248fd5b003de9\">Training Trello/KanBan storyboard</link>(we develop high level project action items here)"
 msgstr ""
 
-#: ./doc/training-guides/under-contruction-notice.xml:118(link) ./doc/training-guides/bk000-preface.xml:119(link)
+#: ./doc/training-guides/under-contruction-notice.xml:118(link) ./doc/training-guides/bk_preface.xml:119(link)
 msgid "Submit a bug. Enter the summary as \"Training, \" with a few words. Be descriptive as possible in the description field. Open the tag pull-down and enter training-manuals."
 msgstr ""
 
@@ -263,7 +263,7 @@ msgstr ""
 msgid "<placeholder-1/> big dummy example image"
 msgstr ""
 
-#: ./doc/training-guides/user-story-includes-template.xml:22(para) ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:15(para) ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:22(para) ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:29(para) ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:36(para) ./doc/training-guides/operator-guide/ch_operator-controller-node-lab.xml:15(para) ./doc/training-guides/operator-guide/ch_operator-network-node-lab.xml:15(para) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:17(para) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:24(para) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:35(para) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:42(para) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:49(para) ./doc/training-guides/operator-guide/ch_operator-compute-node.xml:17(para) ./doc/training-guides/operator-guide/ch_operator-compute-node.xml:24(para) ./doc/training-guides/operator-guide/ch_operator-compute-node.xml:31(para) ./doc/training-guides/operator-guide/ch_operator-controller-node.xml:17(para) ./doc/training-guides/operator-guide/ch_operator-controller-node.xml:24(para) ./doc/training-guides/operator-guide/ch_operator-controller-node.xml:31(para) ./doc/training-guides/operator-guide/ch_operator-compute-node-lab.xml:15(para) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:25(para) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:32(para) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:39(para) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:46(para) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:53(para) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:15(para) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:22(para) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:29(para) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:36(para) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:43(para) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:27(para) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:34(para) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:41(para) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:48(para) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:55(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:25(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:32(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:39(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:46(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:53(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:15(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:22(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:29(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:36(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:43(para)
+#: ./doc/training-guides/user-story-includes-template.xml:22(para) ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:15(para) ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:22(para) ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:29(para) ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:36(para) ./doc/training-guides/operator-guide/ch_operator-controller-node-lab.xml:15(para) ./doc/training-guides/operator-guide/ch_operator-network-node-lab.xml:15(para) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:17(para) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:24(para) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:35(para) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:42(para) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:49(para) ./doc/training-guides/operator-guide/ch_operator-compute-node.xml:17(para) ./doc/training-guides/operator-guide/ch_operator-compute-node.xml:24(para) ./doc/training-guides/operator-guide/ch_operator-compute-node.xml:31(para) ./doc/training-guides/operator-guide/ch_operator-controller-node.xml:17(para) ./doc/training-guides/operator-guide/ch_operator-controller-node.xml:24(para) ./doc/training-guides/operator-guide/ch_operator-controller-node.xml:31(para) ./doc/training-guides/operator-guide/ch_operator-compute-node-lab.xml:15(para) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:25(para) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:32(para) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:39(para) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:46(para) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:53(para) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:15(para) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:22(para) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:29(para) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:36(para) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:43(para) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:27(para) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:34(para) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:41(para) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:48(para) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:55(para) ./doc/training-guides/developer-guide/ch_developer-getting-started-lab.xml:15(para) ./doc/training-guides/developer-guide/ch_developer-getting-started-lab.xml:22(para) ./doc/training-guides/developer-guide/ch_developer-getting-started-lab.xml:29(para) ./doc/training-guides/developer-guide/ch_developer-getting-started-lab.xml:36(para) ./doc/training-guides/developer-guide/ch_developer-getting-started-lab.xml:43(para) ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:25(para) ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:32(para) ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:39(para) ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:46(para) ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:53(para)
 msgid "image source"
 msgstr ""
 
@@ -287,65 +287,65 @@ msgstr ""
 msgid "Submit a bug on the section above. Leave a short description for the bug summary, a paragraph for the description and then tag with training-manuals."
 msgstr ""
 
-#: ./doc/training-guides/bk000-preface.xml:6(title)
+#: ./doc/training-guides/bk_preface.xml:6(title)
 msgid "Start Here"
 msgstr ""
 
-#: ./doc/training-guides/bk000-preface.xml:8(title)
+#: ./doc/training-guides/bk_preface.xml:8(title)
 msgid "Preface"
 msgstr ""
 
-#: ./doc/training-guides/bk000-preface.xml:17(para)
+#: ./doc/training-guides/bk_preface.xml:17(para)
 msgid "There are a few ways to get involved. The easiest way is to use the training guides. Look at the end of each section and you will see the Submit a Bug link. When you find something that can be improved or fixed, submit a bug by clicking on the link."
 msgstr ""
 
-#: ./doc/training-guides/bk000-preface.xml:20(para)
+#: ./doc/training-guides/bk_preface.xml:20(para)
 msgid "If you want to get involved with the effort around OpenStack community training, read on, here are the options:"
 msgstr ""
 
-#: ./doc/training-guides/bk000-preface.xml:26(para)
+#: ./doc/training-guides/bk_preface.xml:26(para)
 msgid "The OpenStack community training started at the SFBay OpenStack User Group. More information on this user group and others using the training guides on the <link href=\"https://wiki.openstack.org/wiki/OpenStackUserGroups\">OpenStack User Groups page</link>."
 msgstr ""
 
-#: ./doc/training-guides/bk000-preface.xml:34(para)
+#: ./doc/training-guides/bk_preface.xml:34(para)
 msgid "Awesome! Your experience will not only give you more experience with OpenStack, but you will help some people find new jobs. We have put all the information about <link href=\"https://wiki.openstack.org/wiki/OpenStackUserGroups/HowTo#Running_a_Hackathon\">How To Run An OpenStack Hackathon</link> here."
 msgstr ""
 
-#: ./doc/training-guides/bk000-preface.xml:45(para)
+#: ./doc/training-guides/bk_preface.xml:45(para)
 msgid "We are currently working on creating the Associate Training Guide. It is the first of four training guides. We are using the Install Guide, Administration Guides, Developer Documentation, and Aptira supplied content as the sources for most of the Associate Training Guide. The basic idea is that we use XML include statements to actually use the source content to create new pages. We aim to use as much of the material as possible from existing documentation. By doing this we reuse and improve the existing docs. The topics in the Associate Training Guide are in a bunch of KanBan story board cards. Each card in the story board represents something that an Associate trainee needs to learn. But first things first, you need to get some basic tools and accounts installed and configured before you can really start."
 msgstr ""
 
-#: ./doc/training-guides/bk000-preface.xml:65(para)
+#: ./doc/training-guides/bk_preface.xml:65(para)
 msgid "<emphasis role=\"bold\">Pick a Bug:</emphasis> Once you have your tools ready to go, you can assign some work to yourself. Go to the <link href=\"https://bugs.launchpad.net/openstack-training-guides\">Bugs</link> and assign a bug from the list to yourself."
 msgstr ""
 
-#: ./doc/training-guides/bk000-preface.xml:69(para)
+#: ./doc/training-guides/bk_preface.xml:69(para)
 msgid "<emphasis role=\"bold\">Create the Content:</emphasis> Each bug from the list will be a separate chunk of content that you will add to the openstack-manuals repository openstack-training sub-project. <link href=\"operator-getting-started-lab.html#operator-add-training-content\"> More details on creating training content here.</link>"
 msgstr ""
 
-#: ./doc/training-guides/bk000-preface.xml:115(link)
+#: ./doc/training-guides/bk_preface.xml:115(link)
 msgid "Training Bugs"
 msgstr ""
 
-#: ./doc/training-guides/bk000-preface.xml:123(title)
+#: ./doc/training-guides/bk_preface.xml:123(title)
 msgid "Building the Training Cluster"
 msgstr ""
 
-#: ./doc/training-guides/bk000-preface.xml:126(title)
+#: ./doc/training-guides/bk_preface.xml:126(title)
 msgid "Important Terms"
 msgstr ""
 
-#: ./doc/training-guides/bk000-preface.xml:132(title)
+#: ./doc/training-guides/bk_preface.xml:132(title)
 msgid "Building the Training Cluster, Scripted"
 msgstr ""
 
-#: ./doc/training-guides/bk000-preface.xml:138(title)
+#: ./doc/training-guides/bk_preface.xml:138(title)
 msgid "Building the Training Cluster, Manually"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:15(None) ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:22(None) ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:29(None) ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:36(None) ./doc/training-guides/operator-guide/ch_operator-controller-node-lab.xml:15(None) ./doc/training-guides/operator-guide/ch_operator-network-node-lab.xml:15(None) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:17(None) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:24(None) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:35(None) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:42(None) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:49(None) ./doc/training-guides/operator-guide/ch_operator-compute-node.xml:17(None) ./doc/training-guides/operator-guide/ch_operator-compute-node.xml:24(None) ./doc/training-guides/operator-guide/ch_operator-compute-node.xml:31(None) ./doc/training-guides/operator-guide/ch_operator-controller-node.xml:17(None) ./doc/training-guides/operator-guide/ch_operator-controller-node.xml:24(None) ./doc/training-guides/operator-guide/ch_operator-controller-node.xml:31(None) ./doc/training-guides/operator-guide/ch_operator-compute-node-lab.xml:15(None) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:25(None) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:32(None) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:39(None) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:46(None) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:53(None) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:15(None) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:22(None) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:29(None) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:36(None) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:43(None) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:25(None) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:32(None) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:39(None) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:46(None) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:53(None) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:15(None) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:22(None) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:29(None) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:36(None) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:43(None)
+#: ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:15(None) ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:22(None) ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:29(None) ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:36(None) ./doc/training-guides/operator-guide/ch_operator-controller-node-lab.xml:15(None) ./doc/training-guides/operator-guide/ch_operator-network-node-lab.xml:15(None) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:17(None) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:24(None) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:35(None) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:42(None) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:49(None) ./doc/training-guides/operator-guide/ch_operator-compute-node.xml:17(None) ./doc/training-guides/operator-guide/ch_operator-compute-node.xml:24(None) ./doc/training-guides/operator-guide/ch_operator-compute-node.xml:31(None) ./doc/training-guides/operator-guide/ch_operator-controller-node.xml:17(None) ./doc/training-guides/operator-guide/ch_operator-controller-node.xml:24(None) ./doc/training-guides/operator-guide/ch_operator-controller-node.xml:31(None) ./doc/training-guides/operator-guide/ch_operator-compute-node-lab.xml:15(None) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:25(None) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:32(None) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:39(None) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:46(None) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:53(None) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:15(None) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:22(None) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:29(None) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:36(None) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:43(None) ./doc/training-guides/developer-guide/ch_developer-getting-started-lab.xml:15(None) ./doc/training-guides/developer-guide/ch_developer-getting-started-lab.xml:22(None) ./doc/training-guides/developer-guide/ch_developer-getting-started-lab.xml:29(None) ./doc/training-guides/developer-guide/ch_developer-getting-started-lab.xml:36(None) ./doc/training-guides/developer-guide/ch_developer-getting-started-lab.xml:43(None) ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:25(None) ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:32(None) ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:39(None) ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:46(None) ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:53(None)
 msgid "@@image: '../figures/openstack-training-remote-content-not-available.png'; md5=f2583b37e01220460a55b8c255c987c3"
 msgstr ""
 
@@ -361,11 +361,11 @@ msgstr ""
 msgid "Installing Object Node"
 msgstr ""
 
-#: ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:15(para) ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:22(para) ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:29(para) ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:36(para) ./doc/training-guides/operator-guide/ch_operator-controller-node-lab.xml:15(para) ./doc/training-guides/operator-guide/ch_operator-network-node-lab.xml:15(para) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:17(para) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:24(para) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:35(para) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:42(para) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:49(para) ./doc/training-guides/operator-guide/ch_operator-compute-node.xml:17(para) ./doc/training-guides/operator-guide/ch_operator-compute-node.xml:24(para) ./doc/training-guides/operator-guide/ch_operator-compute-node.xml:31(para) ./doc/training-guides/operator-guide/ch_operator-controller-node.xml:17(para) ./doc/training-guides/operator-guide/ch_operator-controller-node.xml:24(para) ./doc/training-guides/operator-guide/ch_operator-controller-node.xml:31(para) ./doc/training-guides/operator-guide/ch_operator-compute-node-lab.xml:15(para) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:25(para) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:32(para) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:39(para) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:46(para) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:53(para) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:15(para) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:22(para) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:29(para) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:36(para) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:43(para) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:27(para) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:34(para) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:41(para) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:48(para) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:55(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:25(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:32(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:39(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:46(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:53(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:15(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:22(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:29(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:36(para) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:43(para)
+#: ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:15(para) ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:22(para) ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:29(para) ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:36(para) ./doc/training-guides/operator-guide/ch_operator-controller-node-lab.xml:15(para) ./doc/training-guides/operator-guide/ch_operator-network-node-lab.xml:15(para) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:17(para) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:24(para) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:35(para) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:42(para) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:49(para) ./doc/training-guides/operator-guide/ch_operator-compute-node.xml:17(para) ./doc/training-guides/operator-guide/ch_operator-compute-node.xml:24(para) ./doc/training-guides/operator-guide/ch_operator-compute-node.xml:31(para) ./doc/training-guides/operator-guide/ch_operator-controller-node.xml:17(para) ./doc/training-guides/operator-guide/ch_operator-controller-node.xml:24(para) ./doc/training-guides/operator-guide/ch_operator-controller-node.xml:31(para) ./doc/training-guides/operator-guide/ch_operator-compute-node-lab.xml:15(para) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:25(para) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:32(para) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:39(para) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:46(para) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:53(para) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:15(para) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:22(para) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:29(para) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:36(para) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:43(para) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:27(para) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:34(para) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:41(para) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:48(para) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:55(para) ./doc/training-guides/developer-guide/ch_developer-getting-started-lab.xml:15(para) ./doc/training-guides/developer-guide/ch_developer-getting-started-lab.xml:22(para) ./doc/training-guides/developer-guide/ch_developer-getting-started-lab.xml:29(para) ./doc/training-guides/developer-guide/ch_developer-getting-started-lab.xml:36(para) ./doc/training-guides/developer-guide/ch_developer-getting-started-lab.xml:43(para) ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:25(para) ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:32(para) ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:39(para) ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:46(para) ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:53(para)
 msgid "<placeholder-1/>Remote content not available"
 msgstr ""
 
-#: ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:15(link) ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:22(link) ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:29(link) ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:36(link) ./doc/training-guides/operator-guide/ch_operator-controller-node-lab.xml:15(link) ./doc/training-guides/operator-guide/ch_operator-network-node-lab.xml:15(link) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:17(link) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:24(link) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:35(link) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:42(link) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:49(link) ./doc/training-guides/operator-guide/ch_operator-compute-node.xml:17(link) ./doc/training-guides/operator-guide/ch_operator-compute-node.xml:24(link) ./doc/training-guides/operator-guide/ch_operator-compute-node.xml:31(link) ./doc/training-guides/operator-guide/ch_operator-controller-node.xml:17(link) ./doc/training-guides/operator-guide/ch_operator-controller-node.xml:24(link) ./doc/training-guides/operator-guide/ch_operator-controller-node.xml:31(link) ./doc/training-guides/operator-guide/ch_operator-compute-node-lab.xml:15(link) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:25(link) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:32(link) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:39(link) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:46(link) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:53(link) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:15(link) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:22(link) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:29(link) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:36(link) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:43(link) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:27(link) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:34(link) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:41(link) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:48(link) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:55(link) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:25(link) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:32(link) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:39(link) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:46(link) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:53(link) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:15(link) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:22(link) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:29(link) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:36(link) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:43(link)
+#: ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:15(link) ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:22(link) ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:29(link) ./doc/training-guides/operator-guide/ch_operator-object-storage-node-lab.xml:36(link) ./doc/training-guides/operator-guide/ch_operator-controller-node-lab.xml:15(link) ./doc/training-guides/operator-guide/ch_operator-network-node-lab.xml:15(link) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:17(link) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:24(link) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:35(link) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:42(link) ./doc/training-guides/operator-guide/ch_operator-network-node.xml:49(link) ./doc/training-guides/operator-guide/ch_operator-compute-node.xml:17(link) ./doc/training-guides/operator-guide/ch_operator-compute-node.xml:24(link) ./doc/training-guides/operator-guide/ch_operator-compute-node.xml:31(link) ./doc/training-guides/operator-guide/ch_operator-controller-node.xml:17(link) ./doc/training-guides/operator-guide/ch_operator-controller-node.xml:24(link) ./doc/training-guides/operator-guide/ch_operator-controller-node.xml:31(link) ./doc/training-guides/operator-guide/ch_operator-compute-node-lab.xml:15(link) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:25(link) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:32(link) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:39(link) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:46(link) ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:53(link) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:15(link) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:22(link) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:29(link) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:36(link) ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:43(link) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:27(link) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:34(link) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:41(link) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:48(link) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:55(link) ./doc/training-guides/developer-guide/ch_developer-getting-started-lab.xml:15(link) ./doc/training-guides/developer-guide/ch_developer-getting-started-lab.xml:22(link) ./doc/training-guides/developer-guide/ch_developer-getting-started-lab.xml:29(link) ./doc/training-guides/developer-guide/ch_developer-getting-started-lab.xml:36(link) ./doc/training-guides/developer-guide/ch_developer-getting-started-lab.xml:43(link) ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:25(link) ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:32(link) ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:39(link) ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:46(link) ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:53(link)
 msgid "https://docs.google.com/drawings/d/1J2LZSxmc06xKyxMgPjv5fC0blV7qK6956-AeTmFOZD4/edit?usp=sharing"
 msgstr ""
 
@@ -437,7 +437,7 @@ msgstr ""
 msgid "Review Associate OpenStack Networking Concepts"
 msgstr ""
 
-#: ./doc/training-guides/operator-guide/ch_operator-network-node.xml:29(para) ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:51(para) ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:72(para) ./doc/training-guides/architect-guide/bk_architect-training-guide.xml:8(para)
+#: ./doc/training-guides/operator-guide/ch_operator-network-node.xml:29(para) ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:51(para) ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:72(para) ./doc/training-guides/architect-guide/bk_architect-training-guide.xml:8(para)
 msgid "TBD"
 msgstr ""
 
@@ -489,7 +489,7 @@ msgstr ""
 msgid "Controller Node"
 msgstr ""
 
-#: ./doc/training-guides/operator-guide/ch_operator-controller-node.xml:10(title) ./doc/training-guides/developer-guide/bk003-ch004-developer-apis-in-depth.xml:10(title)
+#: ./doc/training-guides/operator-guide/ch_operator-controller-node.xml:10(title) ./doc/training-guides/developer-guide/ch_developer-apis-in-depth.xml:10(title)
 msgid "Day 2 to 4, 09:00 to 11:00, 11:15 to 12:30"
 msgstr ""
 
@@ -525,35 +525,35 @@ msgstr ""
 msgid "Object Storage Node Quiz"
 msgstr ""
 
-#: ./doc/training-guides/operator-guide/ch_operator-object-storage-node-quiz.xml:8(title) ./doc/training-guides/developer-guide/bk003-ch021-developer-how-to-participate-day-nine-quiz.xml:8(title)
+#: ./doc/training-guides/operator-guide/ch_operator-object-storage-node-quiz.xml:8(title) ./doc/training-guides/developer-guide/ch_developer-how-to-participate-day-nine-quiz.xml:8(title)
 msgid "Day 9, 16:40 to 17:00"
 msgstr ""
 
-#: ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:6(title) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:6(title) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:12(guilabel) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:6(title)
+#: ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:6(title) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:6(title) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:12(guilabel) ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:6(title)
 msgid "Getting Started"
 msgstr ""
 
-#: ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:8(title) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:8(title)
+#: ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:8(title) ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:8(title)
 msgid "Day 1, 09:00 to 11:00, 11:15 to 12:30"
 msgstr ""
 
-#: ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:12(title) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:12(title) ./doc/training-guides/basic-install-guide/ch_overview.xml:10(title) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:12(title) ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:12(title) ./doc/training-guides/common/module001-ch006-overview-horizon-cli.xml:33(guilabel) ./doc/training-guides/common/module001-ch006-overview-horizon-cli.xml:119(emphasis) ./doc/training-guides/common/module001-ch006-overview-horizon-cli.xml:835(guilabel)
+#: ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:12(title) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:12(title) ./doc/training-guides/basic-install-guide/ch_overview.xml:10(title) ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:12(title) ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:12(title) ./doc/training-guides/common/module001-ch006-overview-horizon-cli.xml:33(guilabel) ./doc/training-guides/common/module001-ch006-overview-horizon-cli.xml:119(emphasis) ./doc/training-guides/common/module001-ch006-overview-horizon-cli.xml:835(guilabel)
 msgid "Overview"
 msgstr ""
 
-#: ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:13(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:13(para)
+#: ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:13(para) ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:13(para)
 msgid "Training would take 2.5 months self paced, (5) 2 week periods with a user group meeting, or 40 hours instructor led with 40 hours of self paced lab time."
 msgstr ""
 
-#: ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:15(para) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:15(para) ./doc/training-guides/basic-install-guide/section_neutron-ovs-compute-node.xml:29(title) ./doc/training-guides/basic-install-guide/section_trove-install.xml:11(title) ./doc/training-guides/basic-install-guide/section_neutron-ml2-controller-node.xml:9(title) ./doc/training-guides/basic-install-guide/section_neutron-ovs-controller-node.xml:25(title) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:15(para) ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:14(para)
+#: ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:15(para) ./doc/training-guides/associate-guide/ch_associate-getting-started.xml:15(para) ./doc/training-guides/basic-install-guide/section_neutron-ovs-compute-node.xml:29(title) ./doc/training-guides/basic-install-guide/section_trove-install.xml:11(title) ./doc/training-guides/basic-install-guide/section_neutron-ml2-controller-node.xml:9(title) ./doc/training-guides/basic-install-guide/section_neutron-ovs-controller-node.xml:25(title) ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:14(para) ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:15(para)
 msgid "Prerequisites"
 msgstr ""
 
-#: ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:17(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:17(para)
+#: ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:17(para) ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:17(para)
 msgid "Associate guide training"
 msgstr ""
 
-#: ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:18(para) ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:18(para)
+#: ./doc/training-guides/operator-guide/ch_operator-getting-started.xml:18(para) ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:18(para)
 msgid "Associate guide virtualbox scripted install completed and running"
 msgstr ""
 
@@ -585,39 +585,39 @@ msgstr ""
 msgid "Days 5 to 6, 16:40 to 17:00"
 msgstr ""
 
-#: ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:6(title) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:6(title)
+#: ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:6(title) ./doc/training-guides/developer-guide/ch_developer-getting-started-lab.xml:6(title)
 msgid "Getting Started Lab"
 msgstr ""
 
-#: ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:8(title) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:8(title)
+#: ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:8(title) ./doc/training-guides/developer-guide/ch_developer-getting-started-lab.xml:8(title)
 msgid "Day 1, 13:30 to 14:45, 15:00 to 17:00"
 msgstr ""
 
-#: ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:12(title) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:12(title)
+#: ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:12(title) ./doc/training-guides/developer-guide/ch_developer-getting-started-lab.xml:12(title)
 msgid "Getting the Tools and Accounts for Committing Code"
 msgstr ""
 
-#: ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:19(title) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:19(title) ./doc/training-guides/common/editing-code.xml:240(title)
+#: ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:19(title) ./doc/training-guides/developer-guide/ch_developer-getting-started-lab.xml:19(title) ./doc/training-guides/common/editing-code.xml:240(title)
 msgid "Fix a Documentation Bug"
 msgstr ""
 
-#: ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:26(title) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:26(title)
+#: ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:26(title) ./doc/training-guides/developer-guide/ch_developer-getting-started-lab.xml:26(title)
 msgid "Submit a Documentation Bug"
 msgstr ""
 
-#: ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:33(title) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:33(title) ./doc/training-guides/common/editing-code.xml:433(title)
+#: ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:33(title) ./doc/training-guides/developer-guide/ch_developer-getting-started-lab.xml:33(title) ./doc/training-guides/common/editing-code.xml:433(title)
 msgid "Create a Branch"
 msgstr ""
 
-#: ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:40(title) ./doc/training-guides/developer-guide/bk003-ch002-developer-getting-started-lab.xml:40(title)
+#: ./doc/training-guides/operator-guide/ch_operator-getting-started-lab.xml:40(title) ./doc/training-guides/developer-guide/ch_developer-getting-started-lab.xml:40(title)
 msgid "Optional: Add to the Training Guide Documentation"
 msgstr ""
 
-#: ./doc/training-guides/operator-guide/ch_operator-getting-started-quiz.xml:6(title) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:6(title) ./doc/training-guides/developer-guide/bk003-ch003-developer-getting-started-quiz.xml:6(title)
+#: ./doc/training-guides/operator-guide/ch_operator-getting-started-quiz.xml:6(title) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:6(title) ./doc/training-guides/developer-guide/ch_developer-getting-started-quiz.xml:6(title)
 msgid "Getting Started Quiz"
 msgstr ""
 
-#: ./doc/training-guides/operator-guide/ch_operator-getting-started-quiz.xml:8(title) ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:8(title) ./doc/training-guides/developer-guide/bk003-ch003-developer-getting-started-quiz.xml:8(title)
+#: ./doc/training-guides/operator-guide/ch_operator-getting-started-quiz.xml:8(title) ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:8(title) ./doc/training-guides/developer-guide/ch_developer-getting-started-quiz.xml:8(title)
 msgid "Day 1, 16:40 to 17:00"
 msgstr ""
 
@@ -895,7 +895,7 @@ msgstr ""
 msgid "Day 2, 10:40 to 11:00"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/ch_associate-assessment.xml:6(title) ./doc/training-guides/developer-guide/bk003-ch022-developer-assessment.xml:6(title)
+#: ./doc/training-guides/associate-guide/ch_associate-assessment.xml:6(title) ./doc/training-guides/developer-guide/ch_developer-assessment.xml:6(title)
 msgid "Assessment"
 msgstr ""
 
@@ -903,27 +903,27 @@ msgstr ""
 msgid "Day 2, 15:00 to 16:00"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/ch_associate-assessment.xml:12(title) ./doc/training-guides/developer-guide/bk003-ch022-developer-assessment.xml:12(title)
+#: ./doc/training-guides/associate-guide/ch_associate-assessment.xml:12(title) ./doc/training-guides/developer-guide/ch_developer-assessment.xml:12(title)
 msgid "Questions"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/ch_associate-assessment.xml:14(caption) ./doc/training-guides/developer-guide/bk003-ch022-developer-assessment.xml:14(caption)
+#: ./doc/training-guides/associate-guide/ch_associate-assessment.xml:14(caption) ./doc/training-guides/developer-guide/ch_developer-assessment.xml:14(caption)
 msgid "Assessment Question 1"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/ch_associate-assessment.xml:19(th) ./doc/training-guides/associate-guide/ch_associate-assessment.xml:40(th) ./doc/training-guides/developer-guide/bk003-ch022-developer-assessment.xml:19(th) ./doc/training-guides/developer-guide/bk003-ch022-developer-assessment.xml:40(th)
+#: ./doc/training-guides/associate-guide/ch_associate-assessment.xml:19(th) ./doc/training-guides/associate-guide/ch_associate-assessment.xml:40(th) ./doc/training-guides/developer-guide/ch_developer-assessment.xml:19(th) ./doc/training-guides/developer-guide/ch_developer-assessment.xml:40(th)
 msgid "Task"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/ch_associate-assessment.xml:20(th) ./doc/training-guides/associate-guide/ch_associate-assessment.xml:41(th) ./doc/training-guides/developer-guide/bk003-ch022-developer-assessment.xml:20(th) ./doc/training-guides/developer-guide/bk003-ch022-developer-assessment.xml:41(th)
+#: ./doc/training-guides/associate-guide/ch_associate-assessment.xml:20(th) ./doc/training-guides/associate-guide/ch_associate-assessment.xml:41(th) ./doc/training-guides/developer-guide/ch_developer-assessment.xml:20(th) ./doc/training-guides/developer-guide/ch_developer-assessment.xml:41(th)
 msgid "Completed?"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/ch_associate-assessment.xml:26(para) ./doc/training-guides/associate-guide/ch_associate-assessment.xml:47(para) ./doc/training-guides/developer-guide/bk003-ch022-developer-assessment.xml:26(para) ./doc/training-guides/developer-guide/bk003-ch022-developer-assessment.xml:47(para)
+#: ./doc/training-guides/associate-guide/ch_associate-assessment.xml:26(para) ./doc/training-guides/associate-guide/ch_associate-assessment.xml:47(para) ./doc/training-guides/developer-guide/ch_developer-assessment.xml:26(para) ./doc/training-guides/developer-guide/ch_developer-assessment.xml:47(para)
 msgid "Configure a ...."
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/ch_associate-assessment.xml:35(caption) ./doc/training-guides/developer-guide/bk003-ch022-developer-assessment.xml:35(caption)
+#: ./doc/training-guides/associate-guide/ch_associate-assessment.xml:35(caption) ./doc/training-guides/developer-guide/ch_developer-assessment.xml:35(caption)
 msgid "Assessment Question 2"
 msgstr ""
 
@@ -2087,7 +2087,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:13(None) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:131(None) ./doc/training-guides/basic-install-guide/lab003-compute-node.xml:18(None) ./doc/training-guides/basic-install-guide/lab002-network-node.xml:15(None)
+#: ./doc/training-guides/basic-install-guide/lab001-control-node.xml:13(None) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:129(None) ./doc/training-guides/basic-install-guide/lab003-compute-node.xml:18(None) ./doc/training-guides/basic-install-guide/lab002-network-node.xml:15(None)
 msgid "@@image: '../figures/lab000-virtual-box/image03.png'; md5=2f79252a8c2f058f103df5346c9cd6fb"
 msgstr ""
 
@@ -2617,7 +2617,7 @@ msgstr ""
 msgid "You must remove or comment the line beginning with <literal>127.0.1.1</literal>."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/section_basics-networking-neutron.xml:83(title) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:453(title)
+#: ./doc/training-guides/basic-install-guide/section_basics-networking-neutron.xml:83(title) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:451(title)
 msgid "Network node"
 msgstr ""
 
@@ -2669,7 +2669,7 @@ msgstr ""
 msgid "Set the hostname of the node to <code>network</code>."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/section_basics-networking-neutron.xml:165(title) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:550(title) ./doc/training-guides/basic-install-guide/section_basics-networking-nova.xml:76(title)
+#: ./doc/training-guides/basic-install-guide/section_basics-networking-neutron.xml:165(title) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:548(title) ./doc/training-guides/basic-install-guide/section_basics-networking-nova.xml:76(title)
 msgid "Compute node"
 msgstr ""
 
@@ -4359,103 +4359,103 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:206(None)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:204(None)
 msgid "@@image: '../figures/lab000-virtual-box/image13.png'; md5=eeaf2e523b991a592182c76fcfc29e07"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:251(None)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:249(None)
 msgid "@@image: '../figures/lab000-virtual-box/image19.png'; md5=9a3c62ffc47b83ab5306820bd3a9a4fc"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:287(None)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:285(None)
 msgid "@@image: '../figures/lab000-virtual-box/image16.png'; md5=bb1f3c80211fafd0ce737725ca39a6b3"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:322(None)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:320(None)
 msgid "@@image: '../figures/lab000-virtual-box/image08.png'; md5=e52887e98a60caa87affd91d78ff6a4f"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:378(None)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:376(None)
 msgid "@@image: '../figures/lab000-virtual-box/image11.png'; md5=f0799ccd13811e991932b79655efe63b"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:419(None)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:417(None)
 msgid "@@image: '../figures/lab000-virtual-box/image07.png'; md5=dc8a7ca4a721116dad4d808efdcd0158"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:429(None)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:427(None)
 msgid "@@image: '../figures/lab000-virtual-box/image18.png'; md5=cc6c10310380102b418c665047c0539c"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:439(None)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:437(None)
 msgid "@@image: '../figures/lab000-virtual-box/image14.png'; md5=469f15068705c1a40cb5504cc2a8e5dd"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:464(None)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:462(None)
 msgid "@@image: '../figures/lab000-virtual-box/image12.png'; md5=266a767b48f2c3eba60b67e01a1c6cc5"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:507(None)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:505(None)
 msgid "@@image: '../figures/lab000-virtual-box/image05.png'; md5=c711ea21fcc2b1e18d9d41375bc9a713"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:517(None)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:515(None)
 msgid "@@image: '../figures/lab000-virtual-box/image17.png'; md5=9077ae7ff15e88187de9941fd8c7db5f"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:527(None)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:525(None)
 msgid "@@image: '../figures/lab000-virtual-box/image02.png'; md5=001129ba8b8030bbf1ca9e23805d9b84"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:537(None)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:535(None)
 msgid "@@image: '../figures/lab000-virtual-box/image00.png'; md5=e90be704c41d381dedab6f8fb3b8c391"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:559(None)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:557(None)
 msgid "@@image: '../figures/lab000-virtual-box/image04.png'; md5=8577d54796c8479a2f089ee09846e130"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:597(None)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:595(None)
 msgid "@@image: '../figures/lab000-virtual-box/image15.png'; md5=2d2b9eb2d913030490694d3df8c26c20"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:607(None)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:605(None)
 msgid "@@image: '../figures/lab000-virtual-box/image10.png'; md5=4f06faaf244be263d90b41855b10d62a"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:617(None)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:615(None)
 msgid "@@image: '../figures/lab000-virtual-box/image01.png'; md5=1eb33f35a0af357f7e96fa03830d49c0"
 msgstr ""
 
@@ -4567,419 +4567,419 @@ msgstr ""
 msgid "To check if the processor is VT enabled, install cpu-checker as follows:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:88(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:86(para)
 msgid "If your device does not support VT it will show:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:93(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:91(para)
 msgid "You will still be able to use Virtual Box but the instances will be very slow."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:95(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:93(para)
 msgid "There are many ways to configure your OpenStack Setup. In this example, we will deploy OpenStack multi node using OVS as the network plug-in and QEMU/KVM as the hypervisor."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:98(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:96(emphasis)
 msgid "Host only connections:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:101(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:99(para)
 msgid "Host only connections provide an internal network between your host and the Virtual Machine instances on your host machine. This network is not traceable by other networks."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:106(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:104(para)
 msgid "Bridged connections are not recommended."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:109(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:107(para)
 msgid "The following are the host only connections that you will be setting up later on:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:113(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:111(para)
 msgid "vboxnet0 - OpenStack management network - host static IP 10.10.10.1"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:117(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:115(para)
 msgid "vboxnet1 - VM conf.network - host static IP 10.20.20.1"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:121(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:119(para)
 msgid "vboxnet2 - VM external network access (host machine) 192.168.100.1"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:128(title)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:126(title)
 msgid "Network diagram"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:135(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:133(para)
 msgid "Vboxnet0, Vboxnet1, Vboxnet2 - are virtual networks setup by virtual box with your host machine. This is the way your host can communicate with the virtual machines. These networks are in turn used by virtual box VM’s for OpenStack networks, so that OpenStack’s services can communicate with each other. For details, see the <link href=\"http://www.virtualbox.org/manual/ch06.html#network_hostonly\">VirtualBox documentation</link>"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:145(title)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:143(title)
 msgid "Setup your VM environment"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:146(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:144(para)
 msgid "Before you can start configuring your environment you need to download some of the following stuff:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:150(link)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:148(link)
 msgid "Oracle Virtual Box"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:152(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:150(para)
 msgid "You cannot set up an AMD64 VM on a x86 machine."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:155(link)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:153(link)
 msgid "Ubuntu 12.04 Server or Ubuntu 13.04 Server"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:159(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:157(para)
 msgid "You need a x86 image for VM's if kvm-ok fails, even though you are on an AMD64 machine."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:161(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:159(para)
 msgid "Even though I'm using Ubuntu as host, the same is applicable to Windows, Mac and other Linux hosts."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:165(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:163(para)
 msgid "If you have i5 or i7 2nd gen processor you can have VT technology inside VM's provided by VMware. This means that your OpenStack nodes (which are in turn VM's) will give positive result on KVM-OK. (I call it - nesting of type-2 hypervisors). The rest of the configurations remain same except for the UI and a few other trivial differences."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:175(title)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:173(title)
 msgid "Configure virtual networks"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:179(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:177(para)
 msgid "This section of the guide will help you setup your networks for your Virtual Machine."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:183(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:181(para)
 msgid "Launch Virtual Box"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:188(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:186(para)
 msgid "Click on <emphasis role=\"bold\">File&gt;Preferences</emphasis> present on the menu bar of Virtual Box."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:193(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:191(para)
 msgid "Select the <emphasis role=\"bold\">Network tab</emphasis>."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:197(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:195(para)
 msgid "On the right side you will see an option to add Host-Only networks."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:202(title)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:200(title)
 msgid "Create host only networks"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:212(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:210(para)
 msgid "Create three host-only network connections. As shown above."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:216(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:214(para)
 msgid "Edit the host-only connections to have the following settings."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:220(emphasis) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:247(title) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:398(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:481(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:576(td)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:218(emphasis) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:245(title) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:396(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:479(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:574(td)
 msgid "Vboxnet0"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:225(th) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:261(th) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:296(th)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:223(th) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:259(th) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:294(th)
 msgid "Option"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:226(th) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:262(th) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:297(th)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:224(th) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:260(th) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:295(th)
 msgid "Value"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:229(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:265(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:300(td)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:227(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:263(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:298(td)
 msgid "IPv4 Address:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:230(td)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:228(td)
 msgid "10.10.10.1"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:233(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:269(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:304(td)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:231(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:267(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:302(td)
 msgid "IPv4 Network Mask:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:234(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:270(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:305(td)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:232(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:268(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:303(td)
 msgid "255.255.255.0"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:237(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:273(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:308(td)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:235(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:271(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:306(td)
 msgid "IPv6 Address:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:238(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:242(td)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:236(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:240(td)
 msgid "Can be left blank"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:241(td)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:239(td)
 msgid "IPv6 Network Mask Length:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:255(emphasis) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:283(title) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:486(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:581(td)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:253(emphasis) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:281(title) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:484(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:579(td)
 msgid "Vboxnet1"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:266(td)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:264(td)
 msgid "10.20.20.1"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:274(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:278(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:309(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:313(td)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:272(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:276(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:307(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:311(td)
 msgid "Can be Left Blank"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:277(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:312(td)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:275(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:310(td)
 msgid "IPv6 Network Mask Length :"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:291(emphasis) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:403(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:491(td)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:289(emphasis) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:401(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:489(td)
 msgid "Vboxnet2"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:301(td)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:299(td)
 msgid "192.168.100.1"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:318(title)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:316(title)
 msgid "Image: Vboxnet2"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:328(title)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:326(title)
 msgid "Install SSH and FTP"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:331(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:329(para)
 msgid "You may benefit by installing SSH and FTP so that you can use your remote shell to login into the machine and use your terminal which is more convenient than using the Virtual Machines tty through the Virtual Box's UI. You get a few added features such as copy - paste commands into the remote terminal, which is not possible directly on VM."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:339(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:337(para)
 msgid "FTP is for transferring files to and from your local machine and the virtual machine. You can also use SFTP or install FTPD on both HOST and VM's."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:344(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:342(para)
 msgid "Installation of SSH and FTP with the configuration steps are out of the scope of this guide."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:348(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:346(para)
 msgid "Set up the networks from inside the VM before trying to SSH and FTP into the machines."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:354(title)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:352(title)
 msgid "Install your VM instances"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:358(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:356(para)
 msgid "During installation of the operating systems you will be asked for custom software to install. You may skip this step by pressing the <keycap>Enter</keycap> key without selecting any of the given options."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:364(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:362(para)
 msgid "Please do not install any of the other packages except for the packages that are mentioned below unless you are familiar with the process."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:370(title)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:368(title)
 msgid "Control node"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:372(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:370(para)
 msgid "Create a new virtual machine and select Ubuntu Server."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:374(title) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:555(title)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:372(title) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:553(title)
 msgid "Create new virtual machine"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:382(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:380(para)
 msgid "Select the appropriate amount of RAM. For the control node, the minimum is 512 MB of RAM. For other settings, use the defaults. The hard disk size can be 8 GB."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:385(para) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:468(para) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:563(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:383(para) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:466(para) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:561(para)
 msgid "Configure the networks"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:386(para) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:469(para) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:564(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:384(para) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:467(para) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:562(para)
 msgid "(Ignore the IP Address for now, you will set it up from inside the VM)"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:392(th) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:475(th) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:570(th)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:390(th) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:473(th) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:568(th)
 msgid "Network Adapter"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:393(th) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:476(th) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:571(th)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:391(th) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:474(th) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:569(th)
 msgid "Host-Only Adapter Name"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:394(th) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:477(th) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:572(th)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:392(th) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:475(th) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:570(th)
 msgid "IP Address"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:397(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:480(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:575(td)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:395(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:478(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:573(td)
 msgid "eth0"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:399(td)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:397(td)
 msgid "10.10.10.51"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:402(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:485(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:580(td)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:400(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:483(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:578(td)
 msgid "eth1"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:404(td)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:402(td)
 msgid "192.168.100.51"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:407(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:490(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:585(td)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:405(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:488(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:583(td)
 msgid "eth2"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:408(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:496(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:586(td)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:406(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:494(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:584(td)
 msgid "NAT"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:409(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:497(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:587(td)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:407(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:495(td) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:585(td)
 msgid "DHCP"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:413(emphasis) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:501(emphasis) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:591(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:411(emphasis) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:499(emphasis) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:589(emphasis)
 msgid "Adapter 1 (Vboxnet0)"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:415(title) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:593(title)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:413(title) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:591(title)
 msgid "Adapter1 - Vboxnet0"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:423(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:421(emphasis)
 msgid "Adapter 2 (Vboxnet2)"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:425(title)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:423(title)
 msgid "Adapter2 - Vboxnet2"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:433(emphasis) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:611(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:431(emphasis) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:609(emphasis)
 msgid "Adapter 3 (NAT)"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:435(title) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:613(title)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:433(title) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:611(title)
 msgid "Adapter3 - NAT"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:443(para) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:541(para) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:621(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:441(para) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:539(para) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:619(para)
 msgid "Now install Ubuntu Server 12.04 or 13.04 on this machine."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:445(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:443(para)
 msgid "Install SSH server when asked for custom software to install. The rest of the packages are not required and may come in the way of OpenStack packages - like DNS servers etc. (not necessary). Unless you know what you are doing."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:455(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:453(para)
 msgid "Create a new virtual machine, minimum RAM is 512 MB. The remainder can be left as default. The minimum HDD space is 8 GB."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:460(title)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:458(title)
 msgid "Create New Virtual Machine"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:482(td)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:480(td)
 msgid "10.10.10.52"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:487(td)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:485(td)
 msgid "10.20.20.52"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:492(td)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:490(td)
 msgid "192.168.100.52"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:495(td)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:493(td)
 msgid "eth3"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:503(title)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:501(title)
 msgid "Adapter 1 - Vboxnet0"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:511(emphasis) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:601(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:509(emphasis) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:599(emphasis)
 msgid "Adapter 2 (Vboxnet1)"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:513(title) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:603(title)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:511(title) ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:601(title)
 msgid "Adapter2 - Vboxnet1"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:521(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:519(emphasis)
 msgid "Adapter 3 (Vboxnet2)"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:523(title)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:521(title)
 msgid "Adapter3 - Vboxnet2"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:531(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:529(emphasis)
 msgid "Adapter 4 (NAT)"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:533(title)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:531(title)
 msgid "Adapter4 - NAT"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:543(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:541(para)
 msgid "Install the SSH server when you are prompted for the custom software to install. The rest of the packages are not required and may come in the way of OpenStack packages - like DNS servers."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:552(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:550(para)
 msgid "Create a virtual machine with at least 1,000 MB RAM and 8 GB HDD. For other settings, use the defaults."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:577(td)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:575(td)
 msgid "10.10.10.53"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:582(td)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:580(td)
 msgid "10.20.20.53"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:623(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:621(para)
 msgid "Install the SSH server when asked for custom software to install. The rest of the packages are not required and may come in the way of OpenStack packages - like DNS servers etc."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:630(title)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:628(title)
 msgid "Warnings and advice"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:631(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:629(para)
 msgid "Shutting down your Virtual Machine may lead to malfunctioning OpenStack Services. Do not directly shutdown your VM, in case your VM's don't have Internet connectivity."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:636(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:634(para)
 msgid "From your VM instance, use the <placeholder-1/> command to verify internet access."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:641(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:639(para)
 msgid "If its not connected, restart the networking service:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:647(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:645(para)
 msgid "If this doesn't work, check your network settings from Virtual Box. Something may be missing or it may be misconfigured."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:652(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:650(para)
 msgid "This should reconnect the network a majority of the time. If you still cannot connect, there may be another issue, or internet access is unavailable."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:657(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:655(para)
 msgid "Note: There are known bugs with the ping under NAT. Although the latest versions of Virtual Box have better performance, sometimes ping may not work even if the Network is connected to the Internet."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:663(para)
+#: ./doc/training-guides/basic-install-guide/lab000-virtualbox-basics.xml:661(para)
 msgid "Congratulations! You are now setup with the infrastructure for deploying OpenStack. Just make sure that the Ubuntu Server is installed on the above setup Virtual Box instances. In the next section we will go through deploying OpenStack using the above created Virtual Box instances."
 msgstr ""
 
@@ -9062,344 +9062,344 @@ msgstr ""
 msgid "Fully integrated with Compute for attaching block volumes and reporting on usage."
 msgstr ""
 
-#: ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:22(title)
-msgid "Review Operator Introduction"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:29(title)
-msgid "Review Operator Brief Overview"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:36(title)
-msgid "Review Operator Core Projects"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:43(title)
-msgid "Review Operator OpenStack Architecture"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch001-developer-getting-started.xml:50(title)
-msgid "Review Operator Virtual Machine Provisioning Walk-Through"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch007-developer-apis-day-three-lab.xml:6(title)
-msgid "Developer APIs in Depth Lab Day Three"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch007-developer-apis-day-three-lab.xml:8(title)
-msgid "Day 3, 13:30 to 14:45, 15:00 to 16:30"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch013-developer-how-to-participate-day-five-quiz.xml:6(title)
-msgid "Developer How To Participate Day Five Quiz"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch013-developer-how-to-participate-day-five-quiz.xml:8(title)
-msgid "Day 5, 16:40 to 17:00"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch006-developer-apis-day-two-quiz.xml:6(title)
-msgid "Developer APIs in Depth Day Two Quiz"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch006-developer-apis-day-two-quiz.xml:8(title)
-msgid "Day 2, 16:40 to 17:00"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch012-developer-how-to-participate-day-five-lab.xml:6(title)
-msgid "Developer How To Participate Lab Day Five"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch012-developer-how-to-participate-day-five-lab.xml:8(title)
-msgid "Day 5, 13:30 to 14:45, 15:00 to 16:30"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch008-developer-apis-day-three-quiz.xml:6(title)
-msgid "Developer APIs in Depth Day Three Quiz"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch008-developer-apis-day-three-quiz.xml:8(title)
-msgid "Day 3, 16:40 to 17:00"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch015-developer-how-to-participate-day-six-quiz.xml:6(title)
-msgid "Developer How To Participate Day Six Quiz"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch015-developer-how-to-participate-day-six-quiz.xml:8(title)
-msgid "Day 6, 16:40 to 17:00"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch020-developer-how-to-participate-day-nine-lab.xml:6(title)
-msgid "Developer How To Participate Lab Day Nine"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch020-developer-how-to-participate-day-nine-lab.xml:8(title)
-msgid "Day 9, 13:30 to 14:45, 15:00 to 16:30"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch004-developer-apis-in-depth.xml:8(title)
-msgid "Developer APIs in Depth"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch009-developer-apis-day-four-lab.xml:6(title)
-msgid "Developer How To Participate Lab Day Four"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch009-developer-apis-day-four-lab.xml:8(title)
-msgid "Day 4, 13:30 to 14:45, 15:00 to 16:30"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch021-developer-how-to-participate-day-nine-quiz.xml:6(title)
-msgid "Developer How To Participate Day Nine Quiz"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:6(title)
-msgid "Developer How To Participate Bootcamp"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:8(title)
-msgid "One Day with Focus on Contribution"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:13(para)
-msgid "Training will take 6 hours with labs and quizzes."
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:16(para)
-msgid "Some knowledge of Python and/or Perl"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:17(para)
-msgid "Editor on a self-supplied laptop with either Eclipse with pydev, vim, emacs, or pycharm"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:18(para)
-msgid "Run through the Operator Training Guide Getting Started Lab in full. This will walk each trainee through installing the accounts and tools required for the bootcamp."
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:22(title)
-msgid "Morning Classroom 10:00 to 11:15"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:23(para)
-msgid "Understanding the local tools in-depth"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:25(para)
-msgid "Pycharm editor"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:26(para)
-msgid "Git"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:27(para)
-msgid "Sourcetree"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:28(para)
-msgid "Maven"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:30(para)
-msgid "Understanding the remote tools in-depth"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:32(para)
-msgid "git-review"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:33(para)
-msgid "github"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:34(para)
-msgid "gerrit"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:35(para)
-msgid "jenkins"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:36(para)
-msgid "gearman"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:37(para)
-msgid "jeepy"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:38(para)
-msgid "zuul"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:39(para)
-msgid "launchpad"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:41(para)
-msgid "CI Pipeline Workflow Overview"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:43(para)
-msgid "Understanding the submission process in-depth"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:44(para)
-msgid "Review submission syntax"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:45(para)
-msgid "Gerrit etiquette"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:46(para)
-msgid "Resubmission"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:50(title)
-msgid "Morning Lab 11:30 to 12:30"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:54(title)
-msgid "Morning Quiz 12:30 to 12:50"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:55(para) ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:76(para)
-msgid "Online moodle test for theory, bit of syntax and terms, retake until 100%"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:56(para) ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:77(para)
-msgid "Content TBD"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:59(title)
-msgid "Afternoon Classroom 13:30 to 14:45"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:60(para)
-msgid "Understanding the CI Pipeline in-depth"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:62(para)
-msgid "Gerrit Workflow"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:63(para)
-msgid "Common jenkins tests"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:64(para)
-msgid "Reviewing and understanding zuul"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:65(para)
-msgid "Understanding jenkins output"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:66(para)
-msgid "Understanding jenkins system manual (devstack)"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:67(para)
-msgid "automated (tempest) integration tests"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:71(title)
-msgid "Afternoon Lab 15:00 to 17:00"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch023-developer-how-to-participate-bootcamp.xml:75(title)
-msgid "Afternoon Quiz 17:00 to 17:20"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch019-developer-how-to-participate-day-eight-quiz.xml:6(title)
-msgid "Developer How To Participate Day Eight Quiz"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch019-developer-how-to-participate-day-eight-quiz.xml:8(title)
-msgid "Day 8, 16:40 to 17:00"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch014-developer-how-to-participate-day-six-lab.xml:6(title)
-msgid "Developer How To Participate Lab Day Six"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch014-developer-how-to-participate-day-six-lab.xml:8(title)
-msgid "Day 6, 13:30 to 14:45, 15:00 to 16:30"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch011-developer-how-to-partipate.xml:8(title)
-msgid "Developer How To Participate"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch011-developer-how-to-partipate.xml:10(title)
-msgid "Day 5 to 9, 09:00 to 11:00, 11:15 to 12:30"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch022-developer-assessment.xml:8(title)
-msgid "Day 10, 9:00 to 11:00, 11:15 to 12:30, hands on lab 13:30 to 14:45, 15:00 to 17:00"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-developer-training-guide.xml:5(title)
-msgid "Developer Training Guide"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch005-developer-apis-day-two-lab.xml:6(title)
-msgid "Developer APIs in Depth Lab Day Two"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch005-developer-apis-day-two-lab.xml:8(title)
-msgid "Day 2, 13:30 to 14:45, 15:00 to 16:30"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch005-developer-apis-day-two-lab.xml:10(title)
-msgid "Pre-Requisites"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch005-developer-apis-day-two-lab.xml:16(link)
-msgid "Git Basics"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch005-developer-apis-day-two-lab.xml:21(link)
-msgid "Gerrit Basics"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch005-developer-apis-day-two-lab.xml:26(link)
-msgid "Jenkins"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch010-developer-apis-day-four-quiz.xml:6(title)
-msgid "Developer APIs in Depth Day Four Quiz"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch010-developer-apis-day-four-quiz.xml:8(title)
-msgid "Day 4, 16:40 to 17:00"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch017-developer-how-to-participate-day-seven-quiz.xml:6(title)
-msgid "Developer How To Participate Day Seven Quiz"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch017-developer-how-to-participate-day-seven-quiz.xml:8(title)
-msgid "Day 7, 16:40 to 17:00"
-msgstr ""
-
-#: ./doc/training-guides/developer-guide/bk003-ch018-developer-how-to-participate-day-eight-lab.xml:6(title)
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-day-eight-lab.xml:6(title)
 msgid "Developer How To Participate Lab Day Eight"
 msgstr ""
 
-#: ./doc/training-guides/developer-guide/bk003-ch018-developer-how-to-participate-day-eight-lab.xml:8(title)
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-day-eight-lab.xml:8(title)
 msgid "Day 8, 13:30 to 14:45, 15:00 to 16:30"
 msgstr ""
 
-#: ./doc/training-guides/developer-guide/bk003-ch016-developer-how-to-participate-day-seven-lab.xml:6(title)
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:6(title)
+msgid "Developer How To Participate Bootcamp"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:8(title)
+msgid "One Day with Focus on Contribution"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:13(para)
+msgid "Training will take 6 hours with labs and quizzes."
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:16(para)
+msgid "Some knowledge of Python and/or Perl"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:17(para)
+msgid "Editor on a self-supplied laptop with either Eclipse with pydev, vim, emacs, or pycharm"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:18(para)
+msgid "Run through the Operator Training Guide Getting Started Lab in full. This will walk each trainee through installing the accounts and tools required for the bootcamp."
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:22(title)
+msgid "Morning Classroom 10:00 to 11:15"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:23(para)
+msgid "Understanding the local tools in-depth"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:25(para)
+msgid "Pycharm editor"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:26(para)
+msgid "Git"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:27(para)
+msgid "Sourcetree"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:28(para)
+msgid "Maven"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:30(para)
+msgid "Understanding the remote tools in-depth"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:32(para)
+msgid "git-review"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:33(para)
+msgid "github"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:34(para)
+msgid "gerrit"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:35(para)
+msgid "jenkins"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:36(para)
+msgid "gearman"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:37(para)
+msgid "jeepy"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:38(para)
+msgid "zuul"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:39(para)
+msgid "launchpad"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:41(para)
+msgid "CI Pipeline Workflow Overview"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:43(para)
+msgid "Understanding the submission process in-depth"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:44(para)
+msgid "Review submission syntax"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:45(para)
+msgid "Gerrit etiquette"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:46(para)
+msgid "Resubmission"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:50(title)
+msgid "Morning Lab 11:30 to 12:30"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:54(title)
+msgid "Morning Quiz 12:30 to 12:50"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:55(para) ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:76(para)
+msgid "Online moodle test for theory, bit of syntax and terms, retake until 100%"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:56(para) ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:77(para)
+msgid "Content TBD"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:59(title)
+msgid "Afternoon Classroom 13:30 to 14:45"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:60(para)
+msgid "Understanding the CI Pipeline in-depth"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:62(para)
+msgid "Gerrit Workflow"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:63(para)
+msgid "Common jenkins tests"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:64(para)
+msgid "Reviewing and understanding zuul"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:65(para)
+msgid "Understanding jenkins output"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:66(para)
+msgid "Understanding jenkins system manual (devstack)"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:67(para)
+msgid "automated (tempest) integration tests"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:71(title)
+msgid "Afternoon Lab 15:00 to 17:00"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml:75(title)
+msgid "Afternoon Quiz 17:00 to 17:20"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/bk_developer-training-guide.xml:5(title)
+msgid "Developer Training Guide"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-assessment.xml:8(title)
+msgid "Day 10, 9:00 to 11:00, 11:15 to 12:30, hands on lab 13:30 to 14:45, 15:00 to 17:00"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-day-seven-lab.xml:6(title)
 msgid "Developer How To Participate Lab Day Seven"
 msgstr ""
 
-#: ./doc/training-guides/developer-guide/bk003-ch016-developer-how-to-participate-day-seven-lab.xml:8(title)
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-day-seven-lab.xml:8(title)
 msgid "Day 7, 13:30 to 14:45, 15:00 to 16:30"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-day-eight-quiz.xml:6(title)
+msgid "Developer How To Participate Day Eight Quiz"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-day-eight-quiz.xml:8(title)
+msgid "Day 8, 16:40 to 17:00"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-apis-day-four-quiz.xml:6(title)
+msgid "Developer APIs in Depth Day Four Quiz"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-apis-day-four-quiz.xml:8(title)
+msgid "Day 4, 16:40 to 17:00"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-apis-day-two-quiz.xml:6(title)
+msgid "Developer APIs in Depth Day Two Quiz"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-apis-day-two-quiz.xml:8(title)
+msgid "Day 2, 16:40 to 17:00"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-apis-day-three-lab.xml:6(title)
+msgid "Developer APIs in Depth Lab Day Three"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-apis-day-three-lab.xml:8(title)
+msgid "Day 3, 13:30 to 14:45, 15:00 to 16:30"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-day-seven-quiz.xml:6(title)
+msgid "Developer How To Participate Day Seven Quiz"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-day-seven-quiz.xml:8(title)
+msgid "Day 7, 16:40 to 17:00"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-apis-day-four-lab.xml:6(title)
+msgid "Developer How To Participate Lab Day Four"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-apis-day-four-lab.xml:8(title)
+msgid "Day 4, 13:30 to 14:45, 15:00 to 16:30"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-day-six-lab.xml:6(title)
+msgid "Developer How To Participate Lab Day Six"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-day-six-lab.xml:8(title)
+msgid "Day 6, 13:30 to 14:45, 15:00 to 16:30"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-partipate.xml:8(title)
+msgid "Developer How To Participate"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-partipate.xml:10(title)
+msgid "Day 5 to 9, 09:00 to 11:00, 11:15 to 12:30"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-apis-day-three-quiz.xml:6(title)
+msgid "Developer APIs in Depth Day Three Quiz"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-apis-day-three-quiz.xml:8(title)
+msgid "Day 3, 16:40 to 17:00"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-day-six-quiz.xml:6(title)
+msgid "Developer How To Participate Day Six Quiz"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-day-six-quiz.xml:8(title)
+msgid "Day 6, 16:40 to 17:00"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-day-five-lab.xml:6(title)
+msgid "Developer How To Participate Lab Day Five"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-day-five-lab.xml:8(title)
+msgid "Day 5, 13:30 to 14:45, 15:00 to 16:30"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:22(title)
+msgid "Review Operator Introduction"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:29(title)
+msgid "Review Operator Brief Overview"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:36(title)
+msgid "Review Operator Core Projects"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:43(title)
+msgid "Review Operator OpenStack Architecture"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-getting-started.xml:50(title)
+msgid "Review Operator Virtual Machine Provisioning Walk-Through"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-day-five-quiz.xml:6(title)
+msgid "Developer How To Participate Day Five Quiz"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-day-five-quiz.xml:8(title)
+msgid "Day 5, 16:40 to 17:00"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-apis-day-two-lab.xml:6(title)
+msgid "Developer APIs in Depth Lab Day Two"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-apis-day-two-lab.xml:8(title)
+msgid "Day 2, 13:30 to 14:45, 15:00 to 16:30"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-apis-day-two-lab.xml:10(title)
+msgid "Pre-Requisites"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-apis-day-two-lab.xml:16(link)
+msgid "Git Basics"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-apis-day-two-lab.xml:21(link)
+msgid "Gerrit Basics"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-apis-day-two-lab.xml:26(link)
+msgid "Jenkins"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-day-nine-lab.xml:6(title)
+msgid "Developer How To Participate Lab Day Nine"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-day-nine-lab.xml:8(title)
+msgid "Day 9, 13:30 to 14:45, 15:00 to 16:30"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-day-nine-quiz.xml:6(title)
+msgid "Developer How To Participate Day Nine Quiz"
+msgstr ""
+
+#: ./doc/training-guides/developer-guide/ch_developer-apis-in-depth.xml:8(title)
+msgid "Developer APIs in Depth"
 msgstr ""
 
 #: ./doc/training-guides/architect-guide/bk_architect-training-guide.xml:5(title)
