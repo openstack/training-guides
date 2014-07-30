@@ -3,7 +3,7 @@
     xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     version="5.0"
-    xml:id="module002-ch001-networking-in-openstack">
+    xml:id="section_networking-in-openstack">
     <title>Networking in OpenStack</title>
     <para><guilabel>Networking in OpenStack</guilabel></para>
         <para>OpenStack Networking provides a rich tenant-facing API

@@ -3,7 +3,7 @@
     xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     version="5.0"
-    xml:id="module002-ch004-security-in-neutron">
+    xml:id="section_security-in-neutron">
     <title>Security in Neutron</title>
     <para><guilabel>Security Groups</guilabel></para>
     <para>Security groups and security group rules allow

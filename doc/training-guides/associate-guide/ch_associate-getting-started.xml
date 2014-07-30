@@ -22,36 +22,36 @@
     </section>
     <section xml:id="associate-intro-text">
         <title>Introduction Text</title>
-        <xi:include href="../common/module001-ch001-intro-text.xml"
-        xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'module001-ch001-intro-text']/*[not(self::db:title)])">
+        <xi:include href="../common/section_intro-text.xml"
+        xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'section_intro-text']/*[not(self::db:title)])">
           <xi:fallback><para><mediaobject><imageobject><imagedata fileref="figures/openstack-training-remote-content-not-available.png" format="PNG"/></imageobject></mediaobject>Remote content not available</para><para>image source</para><para><link xlink:href="https://docs.google.com/drawings/d/1J2LZSxmc06xKyxMgPjv5fC0blV7qK6956-AeTmFOZD4/edit?usp=sharing">https://docs.google.com/drawings/d/1J2LZSxmc06xKyxMgPjv5fC0blV7qK6956-AeTmFOZD4/edit?usp=sharing</link></para></xi:fallback>
         </xi:include>
     </section>
     <section xml:id="associate-brief-overview">
         <title>Brief Overview</title>
-        <xi:include href="../common/module001-ch002-brief-overview.xml"
-        xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'module001-ch002-brief-overview']/*[not(self::db:title)])">
+        <xi:include href="../common/section_brief-overview.xml"
+        xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'section_brief-overview']/*[not(self::db:title)])">
           <xi:fallback><para><mediaobject><imageobject><imagedata fileref="figures/openstack-training-remote-content-not-available.png" format="PNG"/></imageobject></mediaobject>Remote content not available</para><para>image source</para><para><link xlink:href="https://docs.google.com/drawings/d/1J2LZSxmc06xKyxMgPjv5fC0blV7qK6956-AeTmFOZD4/edit?usp=sharing">https://docs.google.com/drawings/d/1J2LZSxmc06xKyxMgPjv5fC0blV7qK6956-AeTmFOZD4/edit?usp=sharing</link></para></xi:fallback>
         </xi:include>
     </section>
     <section xml:id="associate-core-projects">
         <title>Core Projects</title>
-        <xi:include href="../common/module001-ch003-core-projects.xml"
-        xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'module001-ch003-core-projects']/*[not(self::db:title)])">
+        <xi:include href="../common/section_core-projects.xml"
+        xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'section_core-projects']/*[not(self::db:title)])">
           <xi:fallback><para><mediaobject><imageobject><imagedata fileref="figures/openstack-training-remote-content-not-available.png" format="PNG"/></imageobject></mediaobject>Remote content not available</para><para>image source</para><para><link xlink:href="https://docs.google.com/drawings/d/1J2LZSxmc06xKyxMgPjv5fC0blV7qK6956-AeTmFOZD4/edit?usp=sharing">https://docs.google.com/drawings/d/1J2LZSxmc06xKyxMgPjv5fC0blV7qK6956-AeTmFOZD4/edit?usp=sharing</link></para></xi:fallback>
         </xi:include>
     </section>
     <section xml:id="associate-openstack-architecture">
         <title>OpenStack Architecture</title>
-        <xi:include href="../common/module001-ch004-openstack-architecture.xml"
-        xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'module001-ch004-openstack-architecture']/*[not(self::db:title)])">
+        <xi:include href="../common/section_openstack-architecture.xml"
+        xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'section_openstack-architecture']/*[not(self::db:title)])">
           <xi:fallback><para><mediaobject><imageobject><imagedata fileref="figures/openstack-training-remote-content-not-available.png" format="PNG"/></imageobject></mediaobject>Remote content not available</para><para>image source</para><para><link xlink:href="https://docs.google.com/drawings/d/1J2LZSxmc06xKyxMgPjv5fC0blV7qK6956-AeTmFOZD4/edit?usp=sharing">https://docs.google.com/drawings/d/1J2LZSxmc06xKyxMgPjv5fC0blV7qK6956-AeTmFOZD4/edit?usp=sharing</link></para></xi:fallback>
         </xi:include>
     </section>
     <section xml:id="associate-vm-provisioning-walk-through">
         <title>Virtual Machine Provisioning Walk-Through</title>
-        <xi:include href="../common/module001-ch005-vm-provisioning-walk-through.xml"
-        xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'module001-ch005-vm-provisioning-walk-through']/*[not(self::db:title)])">
+        <xi:include href="../common/section_vm-provisioning-walk-through.xml"
+        xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'section_vm-provisioning-walk-through']/*[not(self::db:title)])">
           <xi:fallback><para><mediaobject><imageobject><imagedata fileref="figures/openstack-training-remote-content-not-available.png" format="PNG"/></imageobject></mediaobject>Remote content not available</para><para>image source</para><para><link xlink:href="https://docs.google.com/drawings/d/1J2LZSxmc06xKyxMgPjv5fC0blV7qK6956-AeTmFOZD4/edit?usp=sharing">https://docs.google.com/drawings/d/1J2LZSxmc06xKyxMgPjv5fC0blV7qK6956-AeTmFOZD4/edit?usp=sharing</link></para></xi:fallback>
         </xi:include>
     </section>

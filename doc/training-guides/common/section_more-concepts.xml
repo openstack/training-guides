@@ -7,7 +7,7 @@
     xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     version="5.0"
-    xml:id="module003-ch006-more-concepts">
+    xml:id="section_more-concepts">
     <title>A Bit More On Swift</title>
         <para><guilabel>Containers and Objects</guilabel></para>
         <para>A container is a storage compartment for your data and
