@@ -137,7 +137,7 @@ function iniset_sudo {
     shift
     local tmpfile=$(mktemp)
     # Create a temporary copy, work on it, and copy it back into place
-    cp -fv "$file" "$tmpfile"
+    sudo cp -fv "$file" "$tmpfile"
     iniset "$tmpfile" "$@"
     cat "$tmpfile" | sudo tee "$file" >/dev/null
 }
