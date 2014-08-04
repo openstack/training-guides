@@ -49,7 +49,8 @@ function indicate_current_auto {
 # Debug function to make a script halt execution until a tmp file is removed
 
 function wait_for_file {
-    local MSG=$1
+    # If no argument is passed, use empty string (to pass nounset option)
+    local MSG=${1-""}
     local WAITFILE=remove_to_continue
     [ -n "$MSG" ] && WAITFILE=${WAITFILE}_${MSG}
     touch "/tmp/$WAITFILE"
