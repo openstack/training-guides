@@ -10,23 +10,28 @@
     <info>
         <copyright>
             <year>2013</year>
+            <year>2014</year>
             <holder>OpenStack Foundation</holder>
         </copyright>
         <productname>OpenStack Training Guides</productname>
         <pubdate/>
-        <legalnotice role="apache2"><annotation>
+        <legalnotice role="apache2">
+            <annotation>
                 <remark>Copyright details are filled in by the
-                    template.</remark></annotation>
+                    template.</remark>
+            </annotation>
         </legalnotice>
-        <legalnotice role="cc-by-sa"><annotation>
-            <remark>Copyright details are filled in by the
-                template.</remark>
-        </annotation></legalnotice>
+        <legalnotice role="cc-by-sa">
+            <annotation>
+                <remark>Copyright details are filled in by the
+                    template.</remark>
+            </annotation>
+        </legalnotice>
         <abstract>
-            <para>OpenStack™ Training Guides offer the open source community
-                software training for cloud administration and management for
-                any organization.</para>
-             </abstract>
+            <para>OpenStack™ Training Guides offer the open source
+                community software training for cloud administration
+                and management for any organization.</para>
+        </abstract>
         <revhistory>
             <!-- ... continue adding more revisions here as you change this document using the markup shown below... -->
             <revision>
@@ -34,7 +39,8 @@
                 <revdescription>
                     <itemizedlist spacing="compact">
                         <listitem>
-                            <para>migrate training guides to separate repository</para>
+                            <para>migrate training guides to separate
+                                repository</para>
                         </listitem>
                     </itemizedlist>
                 </revdescription>
@@ -54,7 +60,8 @@
                 <revdescription>
                     <itemizedlist spacing="compact">
                         <listitem>
-                            <para>first training guides sprint held</para>
+                            <para>first training guides sprint
+                                held</para>
                         </listitem>
                     </itemizedlist>
                 </revdescription>
@@ -64,7 +71,8 @@
                 <revdescription>
                     <itemizedlist spacing="compact">
                         <listitem>
-                            <para>rough draft published to the web</para>
+                            <para>rough draft published to the
+                                web</para>
                         </listitem>
                     </itemizedlist>
                 </revdescription>
