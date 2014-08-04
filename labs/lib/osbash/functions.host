@@ -124,7 +124,7 @@ function ssh_exec_script {
     local PREFIX=$(get_next_prefix "$LOG_DIR" "auto")
     local LOG_PATH=$LOG_DIR/${PREFIX}_${SCRIPT_NAME}.auto
 
-    vm_ssh "$SSH_PORT" "bash $REMOTE_PATH" > "$LOG_PATH" 2>&1
+    vm_ssh "$SSH_PORT" "bash $REMOTE_PATH && rm -vf $REMOTE_PATH" > "$LOG_PATH" 2>&1
 
     echo -en "\n$(date)  done"
 }
@@ -140,6 +140,7 @@ function ssh_process_autostart {
     local SCR_PATH=""
     for SCRIPT_PATH in "$AUTOSTART_DIR/"*.sh; do
         ssh_exec_script "$SSH_PORT" "$SCRIPT_PATH"
+        rm -vf "$SCRIPT_PATH" >&2
     done
     touch "$STATUS_DIR/done"
 }
