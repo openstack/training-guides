@@ -154,6 +154,8 @@ function autostart_reset {
     clean_dir "$STATUS_DIR"
 }
 
+# Wait until all autofiles are processed (indicated by a "$STATUS_DIR/done"
+# file created either by osbashauto or ssh_process_autostart)
 function wait_for_autofiles {
     local DONE=false
     shopt -s nullglob
@@ -169,7 +171,8 @@ function wait_for_autofiles {
             rm "$STATUS_DIR/done"
             # Return only after checking for remaining *.sh.begin files
         fi
-        # Note: begin files are only visible with a VirtualBox shared folder
+        # Note: begin files (created by indicate_current_auto) are only visible
+        # if the STATUS_DIR directory is shared between host and VM
         local PROCESSING=("$STATUS_DIR"/*.sh.begin)
         if [ -n "${PROCESSING[0]-}" ]; then
             for f in "${PROCESSING[@]}"; do
