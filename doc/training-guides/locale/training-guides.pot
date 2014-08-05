@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-07-30 06:00+0000\n"
+"POT-Creation-Date: 2014-08-05 06:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -169,7 +169,7 @@ msgstr ""
 msgid "Install the Virtual Box guest add-ons through Ubuntu repositories:"
 msgstr ""
 
-#: ./doc/training-guides/st-training-guides.xml:7(title) ./doc/training-guides/st-training-guides.xml:9(titleabbrev) ./doc/training-guides/st-training-guides.xml:15(productname)
+#: ./doc/training-guides/st-training-guides.xml:7(title) ./doc/training-guides/st-training-guides.xml:9(titleabbrev) ./doc/training-guides/st-training-guides.xml:16(productname)
 msgid "OpenStack Training Guides"
 msgstr ""
 
@@ -177,63 +177,67 @@ msgstr ""
 msgid "2013"
 msgstr ""
 
-#: ./doc/training-guides/st-training-guides.xml:13(holder)
+#: ./doc/training-guides/st-training-guides.xml:13(year)
+msgid "2014"
+msgstr ""
+
+#: ./doc/training-guides/st-training-guides.xml:14(holder)
 msgid "OpenStack Foundation"
 msgstr ""
 
-#: ./doc/training-guides/st-training-guides.xml:18(remark) ./doc/training-guides/st-training-guides.xml:22(remark)
+#: ./doc/training-guides/st-training-guides.xml:20(remark) ./doc/training-guides/st-training-guides.xml:26(remark)
 msgid "Copyright details are filled in by the template."
 msgstr ""
 
-#: ./doc/training-guides/st-training-guides.xml:26(para)
+#: ./doc/training-guides/st-training-guides.xml:31(para)
 msgid "OpenStack™ Training Guides offer the open source community software training for cloud administration and management for any organization."
 msgstr ""
 
-#: ./doc/training-guides/st-training-guides.xml:33(date)
+#: ./doc/training-guides/st-training-guides.xml:38(date)
 msgid "2014-05-29"
 msgstr ""
 
-#: ./doc/training-guides/st-training-guides.xml:37(para)
+#: ./doc/training-guides/st-training-guides.xml:42(para)
 msgid "migrate training guides to separate repository"
 msgstr ""
 
-#: ./doc/training-guides/st-training-guides.xml:43(date)
+#: ./doc/training-guides/st-training-guides.xml:49(date)
 msgid "2013-11-04"
 msgstr ""
 
-#: ./doc/training-guides/st-training-guides.xml:47(para)
+#: ./doc/training-guides/st-training-guides.xml:53(para)
 msgid "major restructure of guides"
 msgstr ""
 
-#: ./doc/training-guides/st-training-guides.xml:53(date)
+#: ./doc/training-guides/st-training-guides.xml:59(date)
 msgid "2013-09-11"
 msgstr ""
 
-#: ./doc/training-guides/st-training-guides.xml:57(para)
+#: ./doc/training-guides/st-training-guides.xml:63(para)
 msgid "first training guides sprint held"
 msgstr ""
 
-#: ./doc/training-guides/st-training-guides.xml:63(date)
+#: ./doc/training-guides/st-training-guides.xml:70(date)
 msgid "2013-08-07"
 msgstr ""
 
-#: ./doc/training-guides/st-training-guides.xml:67(para)
+#: ./doc/training-guides/st-training-guides.xml:74(para)
 msgid "rough draft published to the web"
 msgstr ""
 
-#: ./doc/training-guides/st-training-guides.xml:73(date)
+#: ./doc/training-guides/st-training-guides.xml:81(date)
 msgid "2013-07-09"
 msgstr ""
 
-#: ./doc/training-guides/st-training-guides.xml:77(para)
+#: ./doc/training-guides/st-training-guides.xml:85(para)
 msgid "first draft released"
 msgstr ""
 
-#: ./doc/training-guides/st-training-guides.xml:83(date)
+#: ./doc/training-guides/st-training-guides.xml:91(date)
 msgid "2013-06-18"
 msgstr ""
 
-#: ./doc/training-guides/st-training-guides.xml:87(para)
+#: ./doc/training-guides/st-training-guides.xml:95(para)
 msgid "blueprint created"
 msgstr ""
 
