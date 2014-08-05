@@ -124,8 +124,8 @@
         <?dbhtml stop-chunking?>
         <section xml:id="important-terms">
             <title>Important Terms</title>
-            <xi:include href="./basic-install-guide/lab000-important-terms.xml"
-            xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'lab000-important-terms']/*[not(self::db:title)])">
+            <xi:include href="./basic-install-guide/lab_important-terms.xml"
+            xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'lab_important-terms']/*[not(self::db:title)])">
             </xi:include>
         </section>
         <section xml:id="virtualbox-scripted">
@@ -136,8 +136,8 @@
         </section>
         <section xml:id="virtualbox-manual">
             <title>Building the Training Cluster, Manually</title>
-            <xi:include href="./basic-install-guide/lab000-virtualbox-basics.xml"
-            xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'lab000-virtualbox-basics']/*[not(self::db:title)])">
+            <xi:include href="./basic-install-guide/lab_virtualbox-basics.xml"
+            xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'lab_virtualbox-basics']/*[not(self::db:title)])">
             </xi:include>
         </section>
     </appendix>

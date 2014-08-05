@@ -7,7 +7,7 @@
   xmlns:xi="http://www.w3.org/2001/XInclude"
   xmlns:xlink="http://www.w3.org/1999/xlink"
  version="5.0"
-  xml:id="lab000-virtualbox-basics">
+  xml:id="lab_virtualbox-basics">
   <title>VirtualBox basics</title>
   <para><guilabel>Getting Started</guilabel></para>
   <para>The following methods are conventional for deploying
@@ -126,7 +126,7 @@
     <title>Network diagram</title>
     <mediaobject>
       <imageobject>
-        <imagedata  contentwidth="5in" fileref="../figures/lab000-virtual-box/image03.png"/>
+        <imagedata  contentwidth="5in" fileref="../figures/lab_virtual-box/image03.png"/>
       </imageobject>
     </mediaobject>
   </figure>
@@ -139,7 +139,7 @@
       xlink:href="http://www.virtualbox.org/manual/ch06.html#network_hostonly">VirtualBox
       documentation</link>
   </para>
-  <section xml:id="lab000-virtualbox-basics_setup_virtualbox">
+  <section xml:id="lab_virtualbox-basics_setup_virtualbox">
   <title>Setup your VM environment</title>
   <para>Before you can start configuring your environment you need to
     download some of the following stuff:</para>
@@ -169,7 +169,7 @@
       </listitem>
     </itemizedlist>
   </section>
-  <section xml:id="lab000-virtualbox-basics_setup_virtual_networks">
+  <section xml:id="lab_virtualbox-basics_setup_virtual_networks">
     <title>Configure virtual networks</title>
 
     <itemizedlist>
@@ -200,7 +200,7 @@
     <title>Create host only networks</title>
     <mediaobject>
       <imageobject>
-        <imagedata fileref="../figures/lab000-virtual-box/image13.png"
+        <imagedata fileref="../figures/lab_virtual-box/image13.png"
                    contentwidth="6in"/>
       </imageobject>
     </mediaobject>
@@ -245,7 +245,7 @@
     <title>Vboxnet0</title>
     <mediaobject>
       <imageobject>
-        <imagedata fileref="../figures/lab000-virtual-box/image19.png"
+        <imagedata fileref="../figures/lab_virtual-box/image19.png"
                    contentwidth="6in"/>
       </imageobject>
     </mediaobject>
@@ -281,7 +281,7 @@
     <title>Vboxnet1</title>
     <mediaobject>
       <imageobject>
-        <imagedata fileref="../figures/lab000-virtual-box/image16.png"
+        <imagedata fileref="../figures/lab_virtual-box/image16.png"
                    contentwidth="6in"/>
       </imageobject>
     </mediaobject>
@@ -316,13 +316,13 @@
     <title>Image: Vboxnet2</title>
     <mediaobject>
       <imageobject>
-        <imagedata fileref="../figures/lab000-virtual-box/image08.png"
+        <imagedata fileref="../figures/lab_virtual-box/image08.png"
                    contentwidth="6in"/>
       </imageobject>
     </mediaobject>
   </figure>
   </section>
-  <section xml:id="lab000-virtualbox-basics_setup_install_ssh_ftp">
+  <section xml:id="lab_virtualbox-basics_setup_install_ssh_ftp">
     <title>Install SSH and FTP</title>
     <itemizedlist>
       <listitem>
@@ -348,7 +348,7 @@
       machines.</para>
     </note>
   </section>
-  <section xml:id="lab000-virtualbox-basics_setup_install_vm_instances">
+  <section xml:id="lab_virtualbox-basics_setup_install_vm_instances">
     <title>Install your VM instances</title>
 
     <itemizedlist>
@@ -364,7 +364,7 @@
       familiar with the process.</para>
     </warning>
   </section>
-  <section xml:id="lab000-virtualbox-basics_setup_control_node">
+  <section xml:id="lab_virtualbox-basics_setup_control_node">
     <title>Control node</title>
 
     <para>Create a new virtual machine and select Ubuntu Server.</para>
@@ -372,7 +372,7 @@
     <title>Create new virtual machine</title>
     <mediaobject>
       <imageobject>
-        <imagedata fileref="../figures/lab000-virtual-box/image11.png"
+        <imagedata fileref="../figures/lab_virtual-box/image11.png"
                    contentwidth="6in"/>
       </imageobject>
     </mediaobject>
@@ -413,7 +413,7 @@
     <title>Adapter1 - Vboxnet0</title>
     <mediaobject>
       <imageobject>
-        <imagedata fileref="../figures/lab000-virtual-box/image07.png"
+        <imagedata fileref="../figures/lab_virtual-box/image07.png"
                    contentwidth="6in"/>
       </imageobject>
     </mediaobject>
@@ -423,7 +423,7 @@
     <title>Adapter2 - Vboxnet2</title>
     <mediaobject>
       <imageobject>
-        <imagedata fileref="../figures/lab000-virtual-box/image18.png"
+        <imagedata fileref="../figures/lab_virtual-box/image18.png"
                    contentwidth="6in"/>
       </imageobject>
     </mediaobject>
@@ -433,7 +433,7 @@
     <title>Adapter3 - NAT</title>
     <mediaobject>
       <imageobject>
-        <imagedata fileref="../figures/lab000-virtual-box/image14.png"
+        <imagedata fileref="../figures/lab_virtual-box/image14.png"
                    contentwidth="6in"/>
       </imageobject>
     </mediaobject>
@@ -447,7 +447,7 @@
       are doing.</para>
     </note>
   </section>
-  <section xml:id="lab000-virtualbox-basics_setup_network_node">
+  <section xml:id="lab_virtualbox-basics_setup_network_node">
     <title>Network node</title>
 
     <para>Create a new virtual machine, minimum RAM is
@@ -458,7 +458,7 @@
     <title>Create New Virtual Machine</title>
     <mediaobject>
       <imageobject>
-        <imagedata fileref="../figures/lab000-virtual-box/image12.png"
+        <imagedata fileref="../figures/lab_virtual-box/image12.png"
                    contentwidth="6in"/>
       </imageobject>
     </mediaobject>
@@ -501,7 +501,7 @@
     <title>Adapter 1 - Vboxnet0</title>
     <mediaobject>
       <imageobject>
-        <imagedata fileref="../figures/lab000-virtual-box/image05.png"
+        <imagedata fileref="../figures/lab_virtual-box/image05.png"
                    contentwidth="6in"/>
       </imageobject>
     </mediaobject>
@@ -511,7 +511,7 @@
     <title>Adapter2 - Vboxnet1</title>
     <mediaobject>
       <imageobject>
-        <imagedata fileref="../figures/lab000-virtual-box/image17.png"
+        <imagedata fileref="../figures/lab_virtual-box/image17.png"
                    contentwidth="6in"/>
       </imageobject>
     </mediaobject>
@@ -521,7 +521,7 @@
     <title>Adapter3 - Vboxnet2</title>
     <mediaobject>
       <imageobject>
-        <imagedata fileref="../figures/lab000-virtual-box/image02.png"
+        <imagedata fileref="../figures/lab_virtual-box/image02.png"
                    contentwidth="6in"/>
       </imageobject>
     </mediaobject>
@@ -531,7 +531,7 @@
     <title>Adapter4 - NAT</title>
     <mediaobject>
       <imageobject>
-        <imagedata fileref="../figures/lab000-virtual-box/image00.png"
+        <imagedata fileref="../figures/lab_virtual-box/image00.png"
                    contentwidth="6in"/>
       </imageobject>
     </mediaobject>
@@ -544,7 +544,7 @@
       servers.</para>
     </note>
   </section>
-  <section xml:id="lab000-virtualbox-basics_setup_compute_node">
+  <section xml:id="lab_virtualbox-basics_setup_compute_node">
     <title>Compute node</title>
 
     <para>Create a virtual machine with at least 1,000 MB RAM and
@@ -553,7 +553,7 @@
     <title>Create new virtual machine</title>
     <mediaobject>
       <imageobject>
-        <imagedata fileref="../figures/lab000-virtual-box/image04.png"
+        <imagedata fileref="../figures/lab_virtual-box/image04.png"
                    contentwidth="6in"/>
       </imageobject>
     </mediaobject>
@@ -591,7 +591,7 @@
     <title>Adapter1 - Vboxnet0</title>
     <mediaobject>
       <imageobject>
-        <imagedata fileref="../figures/lab000-virtual-box/image15.png"
+        <imagedata fileref="../figures/lab_virtual-box/image15.png"
                    contentwidth="6in"/>
       </imageobject>
     </mediaobject>
@@ -601,7 +601,7 @@
     <title>Adapter2 - Vboxnet1</title>
     <mediaobject>
       <imageobject>
-        <imagedata fileref="../figures/lab000-virtual-box/image10.png"
+        <imagedata fileref="../figures/lab_virtual-box/image10.png"
                    contentwidth="6in"/>
       </imageobject>
     </mediaobject>
@@ -611,7 +611,7 @@
     <title>Adapter3 - NAT</title>
     <mediaobject>
       <imageobject>
-        <imagedata fileref="../figures/lab000-virtual-box/image01.png"
+        <imagedata fileref="../figures/lab_virtual-box/image01.png"
                    contentwidth="6in"/>
       </imageobject>
     </mediaobject>
@@ -624,7 +624,7 @@
       like DNS servers etc.</para>
     </note>
   </section>
-  <section xml:id="lab000-virtualbox-basics_setup_warnings">
+  <section xml:id="lab_virtualbox-basics_setup_warnings">
     <title>Warnings and advice</title>
     <para>Shutting down your Virtual Machine may lead to
         malfunctioning OpenStack Services. Do not directly
