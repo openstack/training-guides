@@ -48,36 +48,6 @@
     section.</para>
   <para><emphasis role="bold">Preparing Ubuntu
     13.04/12.04</emphasis></para>
-  <itemizedlist>
-    <listitem>
-      <para>After you install Ubuntu Server, go into sudo mode</para>
-      <screen><prompt>$</prompt> <userinput>sudo su</userinput></screen>
-    </listitem>
-    <listitem>
-      <para>Add Icehouse repositories:</para>
-      <screen>
-          <prompt>#</prompt>
-          <userinput>apt-get install ubuntu-cloud-keyring
-              python-software-properties software-properties-common
-              python-keyring
-          </userinput>
-      </screen>
-      <screen>
-          <prompt>#</prompt>
-          <userinput>echo deb http://ubuntu-cloud.archive.canonical.com/ubuntu
-              precise-updates/icehouse main >>
-              /etc/apt/sources.list.d/icehouse.list
-          </userinput>
-      </screen>
-    </listitem>
-    <listitem>
-      <para>Update your system:</para>
-      <screen>
-          <prompt>#</prompt> <userinput>apt-get update</userinput>
-          <prompt>#</prompt> <userinput>apt-get upgrade</userinput>
-          <prompt>#</prompt> <userinput>apt-get dist-upgrade</userinput></screen>
-    </listitem>
-  </itemizedlist>
   <para><emphasis role="bold">Networking :</emphasis></para>
   <para>Configure your network by editing
       <filename>/etc/network/interfaces</filename> file</para>
@@ -144,6 +114,10 @@ netmask 255.255.255.0
       <para>Now you can have access to your host clipboard.</para>
     </listitem>
 </itemizedlist>
+<para><emphasis role="bold">Update package lists and repository information</emphasis></para>
+    <screen>
+        <prompt>#</prompt><userinput>apt-get update</userinput>
+    </screen>
 <para><emphasis role="bold">To use the Ubuntu Cloud Archive for Icehouse</emphasis>
 </para>
     <para>The <link
@@ -153,10 +127,8 @@ netmask 255.255.255.0
       stable supported version of Ubuntu.</para>
      <para>Install the Ubuntu Cloud Archive for Icehouse
         <screen>
-            <prompt>#</prompt>
-            <userinput>apt-get install python-software-properties</userinput>
-            <prompt>#</prompt>
-            <userinput>add-apt-repository cloud-archive:icehouse</userinput>
+            <prompt>#</prompt><userinput>apt-get install ubuntu-cloud-keyring software-properties-common python-software-properties</userinput>
+            <prompt>#</prompt><userinput>add-apt-repository cloud-archive:icehouse</userinput>
         </screen>
     </para>
     <para>Update the package database and upgrade your system:</para>
