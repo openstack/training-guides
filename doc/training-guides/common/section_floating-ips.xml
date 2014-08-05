@@ -3,7 +3,7 @@
     xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     version="5.0"
-    xml:id="module002-ch004-floating-ips">
+    xml:id="section_floating-ips">
     <title>Floating IP Addresses And Security Rules</title>
     <para>OpenStack Networking has the concept of Fixed IPs and
         Floating IPs. Fixed IPs are assigned to an instance on

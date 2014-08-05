@@ -3,7 +3,7 @@
   xmlns:xi="http://www.w3.org/2001/XInclude"
   xmlns:xlink="http://www.w3.org/1999/xlink"
  version="5.0"
-  xml:id="module001-ch006-overview-horizon-cli">
+  xml:id="section_overview-horizon-cli">
   <title>Overview Horizon and OpenStack CLI</title>
   <para><guilabel>How can I use an OpenStack cloud?</guilabel></para>
     <para>As an OpenStack cloud end user, you can provision your own

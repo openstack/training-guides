@@ -3,7 +3,7 @@
     xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     version="5.0"
-    xml:id="module002-ch003-neutron-use-cases">
+    xml:id="section_neutron-use-cases">
     <title>Neutron Use Cases</title>
     <para>As of now you must be wondering, how to use these awesome
         features that OpenStack Networking has given to us.</para>

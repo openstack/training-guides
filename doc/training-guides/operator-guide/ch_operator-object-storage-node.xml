@@ -26,8 +26,8 @@
   <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_objectstorage-ringbuilder.xml"/>
   <section xml:id="operator-swift-more-concepts">
     <title>More Swift Concepts</title>
-    <xi:include href="../common/module003-ch006-more-concepts.xml"
-      xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'module003-ch006-more-concepts']/*[not(self::db:title)])">
+    <xi:include href="../common/section_more-concepts.xml"
+      xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'section_more-concepts']/*[not(self::db:title)])">
     </xi:include>
   </section>
   <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_objectstorage-arch.xml"/>

@@ -3,7 +3,7 @@
     xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     version="5.0"
-    xml:id="module002-ch002-openstack-networking-concepts">
+    xml:id="section_openstack-networking-concepts">
     <title>OpenStack Networking Concepts</title>
     <para><emphasis role="bold">Network Types</emphasis></para>
     <para>The OpenStack Networking configuration provided by the

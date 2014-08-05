@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<chapter xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0" xml:id="module001-ch003-core-projects">
+<chapter xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0" xml:id="section_core-projects">
   <title>OpenStack Projects, History, and Releases Overview</title>
   <para><guilabel>Project history and releases overview.</guilabel></para>
   <para>OpenStack is a cloud computing project that provides an

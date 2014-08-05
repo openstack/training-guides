@@ -3,7 +3,7 @@
   xmlns:xi="http://www.w3.org/2001/XInclude"
   xmlns:xlink="http://www.w3.org/1999/xlink"
  version="5.0"
-  xml:id="module001-ch004-openstack-architecture">
+  xml:id="section_openstack-architecture">
   <title>OpenStack Architecture</title>
   <para><guilabel>Conceptual Architecture</guilabel></para>
     <para>The OpenStack project as a whole is designed to deliver a

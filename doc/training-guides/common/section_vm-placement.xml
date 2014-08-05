@@ -3,7 +3,7 @@
   xmlns:xi="http://www.w3.org/2001/XInclude"
   xmlns:xlink="http://www.w3.org/1999/xlink"
  version="5.0"
-  xml:id="module001-ch009-vm-placement">
+  xml:id="section_vm-placement">
   <title>VM Placement</title>
   <para>Compute uses the nova-scheduler service to determine how to
     dispatch compute and volume requests. For example, the

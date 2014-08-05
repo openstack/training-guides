@@ -2,10 +2,10 @@
 <chapter xmlns="http://docbook.org/ns/docbook"
   xmlns:xi="http://www.w3.org/2001/XInclude"
   xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0"
-  xml:id="module001-ch007-keystone-arch">
+  xml:id="section_keystone-arch">
   <title>Keystone Architecture</title>
   <!--<para>More Content To be Added ...</para>
-  <section xml:id="module001-ch007-keystone-arch-concepts">
+  <section xml:id="section_keystone-arch-concepts">
     <title>Identity Service Concepts</title> -->
     <para>The Identity service performs these
       functions:</para>

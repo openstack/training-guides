@@ -2,7 +2,7 @@
 <chapter xmlns="http://docbook.org/ns/docbook"
   xmlns:xi="http://www.w3.org/2001/XInclude"
   xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0"
-  xml:id="module001-ch001-intro-text">
+  xml:id="section_intro-text">
   <title>Introduction to OpenStack</title>
   <para>OpenStack is a cloud operating system that controls large
     pools of compute, storage, and networking resources throughout a

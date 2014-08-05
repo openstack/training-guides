@@ -3,7 +3,7 @@
   xmlns:xi="http://www.w3.org/2001/XInclude"
   xmlns:xlink="http://www.w3.org/1999/xlink"
  version="5.0"
-  xml:id="module001-ch005-vm-provisioning-walk-through">
+  xml:id="section_vm-provisioning-walk-through">
   <title>VM Provisioning Walk Through</title>
   <para>More Content To be Added ...</para>
   <para>OpenStack Compute gives you a tool to orchestrate a cloud,
