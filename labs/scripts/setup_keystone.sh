@@ -84,3 +84,8 @@ keystone endpoint-create \
     --publicurl "http://controller-api:5000/v2.0" \
     --adminurl "http://controller-mgmt:35357/v2.0" \
     --internalurl "http://controller-mgmt:5000/v2.0"
+
+echo "Adding service tenant."
+keystone tenant-create \
+    --name "$SERVICE_TENANT_NAME" \
+    --description "Service Tenant"
