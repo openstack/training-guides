@@ -82,9 +82,6 @@ function vm_snapshot {
     local VM_NAME=$1
     local SHOT_NAME=$2
 
-    # Blanks would fail in Windows batch files; space becomes underscore
-    SHOT_NAME="${SHOT_NAME// /_}"
-
     $VBM snapshot "$VM_NAME" take "$SHOT_NAME"
     # VirtualBox VM needs a break before taking new commands
     vbox_sleep 1
