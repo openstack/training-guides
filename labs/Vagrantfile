@@ -55,15 +55,15 @@ VAGRANTFILE_API_VERSION = "2"
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # Every Vagrant virtual environment requires a box (similar to OVA) to build
-  # from. The Vagrantfile currently uses Ubuntu 12.04 LTS (aka Precise
-  # Pangolin). Modify the line below and the box_url line to use a different
+  # from. The Vagrantfile currently uses Ubuntu 14.04 LTS (aka Trusty
+  # Thar). Modify the line below and the box_url line to use a different
   # distribution
 
-  config.vm.box = "precise64"
+  config.vm.box = "ubuntu/trusty64"
 
   # The URL from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
-  config.vm.box_url = "http://files.vagrantup.com/precise64.box"
+  config.vm.box_url = "https://vagrantcloud.com/ubuntu/trusty64"
 
   # Define each VM's settings (ex: hostname, IP address, RAM, vCPU, etc.)
   nodes.each do |prefix, fourth_octet|
