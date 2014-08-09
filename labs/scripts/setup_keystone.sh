@@ -22,11 +22,11 @@ echo "Setting up database for keystone."
 setup_database keystone
 
 function get_database_url {
-    local user_name=$(service_to_user_name keystone)
-    local user_password=$(service_to_user_password keystone)
+    local db_user=$(service_to_db_user keystone)
+    local db_password=$(service_to_db_password keystone)
     local database_host=controller-mgmt
 
-    echo "mysql://$user_name:$user_password@$database_host/keystone"
+    echo "mysql://$db_user:$db_password@$database_host/keystone"
 }
 
 database_url=$(get_database_url)

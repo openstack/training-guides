@@ -155,20 +155,36 @@ function mysql_exe {
 
 function setup_database {
     local service=$1
-    local user_name=$(service_to_user_name $service)
-    local user_password=$(service_to_user_password $service)
+    local db_user=$(service_to_db_user $service)
+    local db_password=$(service_to_db_password $service)
     mysql_exe "CREATE DATABASE $service"
-    mysql_exe "GRANT ALL ON ${service}.* TO '$user_name'@'%' IDENTIFIED BY '$user_password';"
+    mysql_exe "GRANT ALL ON ${service}.* TO '$db_user'@'%' IDENTIFIED BY '$db_password';"
 }
 
-function service_to_user_name {
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Users for service-specific MySQL databases
+
+function service_to_db_user {
     local service_name=$1
     echo "${service_name}User"
 }
 
-function service_to_user_password {
+function service_to_db_password {
     local service_name=$1
     echo "${service_name}Pass"
+}
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Service-specific users in keystone
+
+function service_to_user_name {
+    local service_name=$1
+    echo "${service_name}"
+}
+
+function service_to_user_password {
+    local service_name=$1
+    echo "${service_name}_pass"
 }
 
 #-------------------------------------------------------------------------------
