@@ -69,14 +69,9 @@ function vm_build_node {
     autostart_and_rename osbash init_xxx_node.sh "init_${NODE_NAME}_node.sh"
     autostart_from_config scripts.nodeinit_osbash
 
-    _vbox_boot_with_autostart "$NODE_NAME" "$VM_SSH_PORT"
-    vm_snapshot "$NODE_NAME" "network_configured"
     #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     autostart_reset
     autostart_from_config "scripts.$NODE_NAME"
-    autostart scripts shutdown.sh
-    _vbox_boot_with_autostart "$NODE_NAME" "$VM_SSH_PORT"
-    vm_snapshot "$NODE_NAME" "pre-installed"
     #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     ${WBATCH:-:} wbatch_end_file
 

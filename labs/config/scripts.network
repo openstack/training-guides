@@ -1,1 +1,4 @@
 # Scripts for network node
+scripts shutdown.sh
+boot
+snapshot "pre-installed"
