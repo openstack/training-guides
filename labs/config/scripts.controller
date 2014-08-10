@@ -2,3 +2,6 @@
 scripts apt_install_mysql.sh
 scripts setup_keystone.sh
 scripts setup_glance.sh
+scripts shutdown.sh
+boot
+snapshot "pre-installed"
