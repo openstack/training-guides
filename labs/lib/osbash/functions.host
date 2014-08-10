@@ -251,13 +251,37 @@ function autostart {
     done
 }
 
+# Parse config/scripts.* configuration files
 function autostart_from_config {
-    local CONFIG_FILE=$1
+    local config_file=$1
+    local config_path=$CONFIG_DIR/$config_file
 
-    log_autostart_source "$CONFIG_FILE"
-    get_script_paths_from_config "$CONFIG_FILE" | while read SCR_PATH; do
-        _autostart_queue "$SCR_PATH"
-    done
+    if [ ! -f "$config_path" ]; then
+        echo >&2 "Config file not found: $config_file"
+        return 1
+    fi
+
+    log_autostart_source "$config_file"
+    while read -r field_1 field_2; do
+        if [[ $field_1 =~ ^# ]]; then
+            # Skip lines that are commented out
+            continue
+        elif [ "$field_1" == "boot" ]; then
+            # Boot with queued autostart files now, wait for shutdown
+            echo >&2 _vbox_boot_with_autostart "$NODE_NAME" "$VM_SSH_PORT"
+            _vbox_boot_with_autostart "$NODE_NAME" "$VM_SSH_PORT"
+        elif [ "$field_1" == "snapshot" ]; then
+            # Format: snapshot "Description for snapshot"
+            echo >&2 vm_snapshot "$NODE_NAME" "$field_2"
+            vm_snapshot "$NODE_NAME" "$field_2"
+        else
+            # Queue a script for autostart
+            # Format: <dircode> <script_name>
+            # Note: _autostart_queue takes care of dircode
+            echo >&2 _autostart_queue "$field_1/$field_2"
+            _autostart_queue "$field_1/$field_2"
+        fi
+    done < "$config_path"
 }
 
 #-------------------------------------------------------------------------------

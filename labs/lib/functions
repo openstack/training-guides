@@ -113,30 +113,5 @@ function src_dir_code_to_dir {
             ;;
     esac
 }
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
-# Returns list of enabled scripts (to disable, comment out with #)
-
-function get_script_paths_from_config {
-    local CONFIG_FILE=$1
-    local CONFIG_PATH=$CONFIG_DIR/$CONFIG_FILE
-
-    if [ ! -f "$CONFIG_PATH" ]; then
-        echo >&2 "Config file not found: $CONFIG_FILE"
-        return 1
-    fi
-    local DIR_CODE=""
-    local NAME=""
-    while read -r DIR_CODE NAME; do
-        if [[ $DIR_CODE =~ ^# ]]; then
-            # Skip lines that are commented out
-            continue
-        else
-            local DIR="$(src_dir_code_to_dir "$DIR_CODE")"
-            local SCR_PATH=$DIR/$NAME
-            echo "$SCR_PATH"
-        fi
-    done < "$CONFIG_PATH"
-}
 
 # vim: set ai ts=4 sw=4 et ft=sh:
