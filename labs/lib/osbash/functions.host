@@ -263,7 +263,11 @@ function autostart_from_config {
     fi
 
     log_autostart_source "$config_file"
-    while read -r field_1 field_2; do
+
+    # Open file on file descriptor 3 so programs we call in this loop (ssh)
+    # are free to mess with the standard file descriptors.
+    exec 3< "$config_path"
+    while read -r field_1 field_2 <&3; do
         if [[ $field_1 =~ ^# ]]; then
             # Skip lines that are commented out
             continue
@@ -282,7 +286,7 @@ function autostart_from_config {
             echo >&2 _autostart_queue "$field_1/$field_2"
             _autostart_queue "$field_1/$field_2"
         fi
-    done < "$config_path"
+    done
 }
 
 #-------------------------------------------------------------------------------
