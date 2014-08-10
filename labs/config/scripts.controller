@@ -2,6 +2,7 @@
 scripts apt_install_mysql.sh
 scripts setup_keystone.sh
 scripts setup_glance.sh
+scripts setup_horizon.sh
 scripts shutdown.sh
 boot
 snapshot "pre-installed"
