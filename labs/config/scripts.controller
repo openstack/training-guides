@@ -3,6 +3,7 @@ scripts apt_install_mysql.sh
 scripts install_rabbitmq.sh
 scripts setup_keystone.sh
 scripts setup_glance.sh
+scripts setup_neutron_controller.sh
 scripts setup_horizon.sh
 scripts shutdown.sh
 boot
