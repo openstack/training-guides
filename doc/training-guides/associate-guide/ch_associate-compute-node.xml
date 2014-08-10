@@ -62,7 +62,7 @@
         </section>
         <section xml:id="associate-nova-terminate-instance">
             <title>Compute Terminate Instance</title>
-          <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_cli_nova_terminate.xml"
+          <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/user-guide/section_cli_nova_terminate.xml"
             xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'terminating']/*[not(self::db:title)])">
          </xi:include>
         </section>

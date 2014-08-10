@@ -68,7 +68,7 @@
         </section>
         <section xml:id="associate-oslo-configuration">
             <title>Message Queue Configuration</title>
-            <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_rpc.xml"
+            <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/config-reference/compute/section_rpc.xml"
             xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'configuring-rpc']/*[not(self::db:title)])">
             </xi:include>
         </section>
