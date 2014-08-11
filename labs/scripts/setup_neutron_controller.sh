@@ -52,7 +52,8 @@ keystone user-role-add \
 echo "Configuring neutron to use keystone for authentication."
 echo "Configuring neutron.conf"
 conf=/etc/neutron/neutron.conf
-service_tenant_id=$(keystone tenant-get service | awk '/ id / {print $2}')
+service_tenant_id=$(keystone tenant-get "$SERVICE_TENANT_NAME" | awk '/ id / {print $4}')
+echo "Service tenant id: $service_tenant_id"
 
 # Configuring [DEFAULT] section
 iniset_sudo $conf DEFAULT auth_strategy keystone
