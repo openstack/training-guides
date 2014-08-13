@@ -15,4 +15,8 @@ if [ ! -f "$IMG_DIR/$(basename "$CIRROS_URL")" ]; then
 fi
 
 # Download packages for all nodes
-sudo apt-get install -y --download-only bridge-utils cinder-api cinder-scheduler cinder-volume glance iscsitarget iscsitarget-dkms keystone libvirt-bin memcached mysql-server neutron-dhcp-agent neutron-l3-agent neutron-plugin-openvswitch-agent neutron-server nova-ajax-console-proxy nova-api nova-cert nova-compute-kvm nova-conductor nova-consoleauth nova-doc nova-novncproxy nova-scheduler novnc ntp open-iscsi openstack-dashboard openvswitch-datapath-dkms openvswitch-switch pm-utils python-guestfs python-mysqldb python-novaclient rabbitmq-server vlan
+sudo apt-get install -y --download-only cinder-api cinder-scheduler lvm2 \
+    cinder-volume glance openstack-dashboard memcached keystone \
+    neutron-server neutron-plugin-ml2 nova-api nova-cert nova-conductor \
+    nova-consoleauth nova-novncproxy nova-scheduler python-novaclient
+
