@@ -86,10 +86,9 @@ keystone service-create \
 nova_service_id=$(keystone service-list | awk '/ compute / {print $2}')
 keystone endpoint-create \
     --service-id "$nova_service_id" \
-    --publicurl "http://controller-api:8774" \
-    --adminurl "http://controller-mgmt:8774" \
-    --internalurl "http://controller-mgmt:8774"
-
+    --publicurl 'http://controller-api:8774/v2/%(tenant_id)s' \
+    --adminurl 'http://controller-mgmt:8774/v2/%(tenant_id)s' \
+    --internalurl 'http://controller-mgmt:8774/v2/%(tenant_id)s'
 
 echo "Creating the database tables for nova."
 sudo nova-manage db sync
