@@ -5,6 +5,8 @@ scripts setup_keystone.sh
 scripts setup_glance.sh
 scripts setup_nova_controller.sh
 scripts setup_neutron_controller.sh
+scripts setup_cinder_controller.sh
+scripts setup_cinder_volumes.sh
 scripts setup_horizon.sh
 scripts shutdown.sh
 boot
