@@ -109,21 +109,24 @@ echo >&2 "$(date) osbash starting"
 clean_dir "$LOG_DIR"
 
 function cleanup_base_disk {
-    # Remove users of base disk
-    echo >&2 "Unregistering and removing all disks attached to base disk path"
-    disk_delete_child_vms "$BASE_DISK"
-
-    if [ -f "$BASE_DISK" ]; then
+    if [ "$CMD" = basedisk -a -f "$BASE_DISK" ]; then
 
         echo >&2 "Found existing base disk: $BASE_DISK"
 
-        if ! yes_or_no "Re-use this base disk?"; then
+        if ! yes_or_no "Keep this base disk?"; then
             if disk_registered "$BASE_DISK"; then
-                echo >&2 "Unregistering old base disk"
+                # Remove users of base disk
+                echo >&2 "Unregistering and removing all disks attached to" \
+                            "base disk path."
+                disk_delete_child_vms "$BASE_DISK"
+                echo >&2 "Unregistering old base disk."
                 disk_unregister "$BASE_DISK"
             fi
-            echo >&2 "Removing old base disk"
+            echo >&2 "Removing old base disk."
             rm -f "$BASE_DISK"
+        else
+            echo >&2 "Nothing to do. Exiting."
+            exit
         fi
     fi
 }
@@ -141,6 +144,8 @@ fi
 if [ "$CMD" = basedisk ]; then
     exit
 fi
+
+echo "Using base disk $BASE_DISK"
 
 ${WBATCH:-:} wbatch_create_hostnet
 MGMT_NET_IF=$(create_network "$MGMT_NET")
