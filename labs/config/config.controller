@@ -11,3 +11,6 @@ FOURTH_OCTET=51
 NET_IF_0=nat
 NET_IF_1=MGMT_NET
 NET_IF_2=API_NET
+
+# Controller is running most of the services; it needs more than 512 MB RAM
+VM_MEM=1024
