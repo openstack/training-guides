@@ -147,8 +147,8 @@
     </listitem>
   </itemizedlist>
   <para>OpenStack is a true and innovative open standard. For more
-    user stories, see <link xlink:href="http://goo.gl/aF4lsL"
-      >http://goo.gl/aF4lsL</link>.</para>
+    user stories, see <link xlink:href="http://www.openstack.org/user-stories"
+    >http://www.openstack.org/user-stories</link>.</para>
   <para><guilabel>Release Cycle</guilabel></para>
   <figure>
     <title>Community Heartbeat</title>
