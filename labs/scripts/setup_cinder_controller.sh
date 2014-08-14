@@ -80,9 +80,21 @@ keystone service-create \
 cinder_service_id=$(keystone service-list | awk '/ volume / {print $2}')
 keystone endpoint-create \
     --service-id "$cinder_service_id" \
-    --publicurl "http://controller-api:8776/v1" \
-    --adminurl "http://controller-mgmt:8776/v1" \
-    --internalurl "http://controller-mgmt:8776/v1"
+    --publicurl 'http://controller-api:8776/v1/%(tenant_id)s' \
+    --adminurl 'http://controller-mgmt:8776/v1/%(tenant_id)s' \
+    --internalurl 'http://controller-mgmt:8776/v1/%(tenant_id)s'
+
+keystone service-create \
+    --name cinderv2 \
+    --type volumev2 \
+    --description "OpenStack Block Storage v2"
+
+cinder_v2_service_id=$(keystone service-list | awk '/ volumev2 / {print $2}')
+keystone endpoint-create \
+    --service-id "$cinder_v2_service_id" \
+    --publicurl 'http://controller-api:8776/v2/%(tenant_id)s' \
+    --adminurl 'http://controller-mgmt:8776/v2/%(tenant_id)s' \
+    --internalurl 'http://controller-mgmt:8776/v2/%(tenant_id)s'
 
 echo "Restarting cinder service."
 sudo service cinder-scheduler restart
