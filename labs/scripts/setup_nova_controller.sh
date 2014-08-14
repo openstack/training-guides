@@ -59,7 +59,7 @@ conf=/etc/nova/nova.conf
 # Configure RabbitMQ variables
 iniset_sudo $conf DEFAULT rpc_backend rabbit
 iniset_sudo $conf DEFAULT rabbit_host controller-mgmt
-iniset_sudo $conf DEFAULT rabbit_password $RABBIT_PASSWORD
+iniset_sudo $conf DEFAULT rabbit_password "$RABBIT_PASSWORD"
 
 # Configure other variables
 iniset_sudo $conf DEFAULT my_ip controller-mgmt

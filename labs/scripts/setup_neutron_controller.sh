@@ -61,15 +61,15 @@ iniset_sudo $conf DEFAULT auth_strategy keystone
 # Configure AMQP parameters
 iniset_sudo $conf DEFAULT rpc_backend neutron.openstack.common.rpc.impl_kombu
 iniset_sudo $conf DEFAULT rabbit_host controller-mgmt
-iniset_sudo $conf DEFAULT rabbit_password $RABBIT_PASSWORD
+iniset_sudo $conf DEFAULT rabbit_password "$RABBIT_PASSWORD"
 iniset_sudo $conf DEFAULT notify_nova_on_port_status_changes True
 iniset_sudo $conf DEFAULT notify_nova_on_port_data_changes True
 
 # Configure nova related parameters
 iniset_sudo $conf DEFAULT nova_url http://controller-mgmt:8774/v2
-iniset_sudo $conf DEFAULT nova_admin_username $nova_admin_user
-iniset_sudo $conf DEFAULT nova_admin_tenant_id $service_tenant_id
-iniset_sudo $conf DEFAULT nova_admin_password $nova_admin_password
+iniset_sudo $conf DEFAULT nova_admin_username "$nova_admin_user"
+iniset_sudo $conf DEFAULT nova_admin_tenant_id "$service_tenant_id"
+iniset_sudo $conf DEFAULT nova_admin_password "$nova_admin_password"
 iniset_sudo $conf DEFAULT nova_admin_auth_url http://controller-mgmt:35357/v2.0
 
 # Configure network plugin parameters

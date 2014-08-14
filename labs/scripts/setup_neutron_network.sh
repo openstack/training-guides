@@ -38,7 +38,7 @@ iniset_sudo $conf DEFAULT verbose True
 # Configure AMQP parameters
 iniset_sudo $conf DEFAULT rpc_backend neutron.openstack.common.rpc.impl_kombu
 iniset_sudo $conf DEFAULT rabbit_host controller-mgmt
-iniset_sudo $conf DEFAULT rabbit_password $RABBIT_PASSWORD
+iniset_sudo $conf DEFAULT rabbit_password "$RABBIT_PASSWORD"
 
 # Configure network plugin parameters
 iniset_sudo $conf DEFAULT core_plugin ml2
