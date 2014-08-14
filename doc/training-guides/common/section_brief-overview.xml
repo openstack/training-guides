@@ -26,15 +26,16 @@
     </listitem>
   </itemizedlist>
   <para>To check out more information on OpenStack visit <link
-      xlink:href="http://goo.gl/Ye9DFT"
-    >http://goo.gl/Ye9DFT</link></para>
+      xlink:href="http://www.openstack.org/"
+    >http://www.openstack.org/</link></para>
   <para><guilabel> OpenStack Foundation:</guilabel></para>
     <para>The OpenStack Foundation, established in September of 2012, is an
       independent body, providing shared resources to help achieve the
       OpenStack Mission by protecting, empowering, and promoting
       OpenStack software and the community around it. This includes users,
       developers and the entire ecosystem. For more information visit
-      http://goo.gl/3uvmNX.</para>
+      <link xlink:href="http://www.openstack.org/foundation"
+      >http://www.openstack.org/foundation</link>.</para>
   <para><guilabel> Who's behind OpenStack? </guilabel></para>
     <para>Founded by Rackspace Hosting and NASA, OpenStack has grown
       to be a global software community of developers collaborating on
@@ -46,7 +47,8 @@
       100 countries and 850 different organizations. It has also secured more than
       $10 million in funding and is ready to fulfill the OpenStack
       mission of becoming the ubiquitous cloud computing platform.
-      Checkout <link xlink:href="http://goo.gl/BZHJKd">http://goo.gl/BZHJKd</link>for more on the same.</para>
+      Checkout <link xlink:href="http://www.openstack.org/foundation"
+      >http://www.openstack.org/foundation</link>for more information.</para>
     <figure>
       <title>Nebula (NASA)</title>
       <mediaobject>
@@ -84,7 +86,7 @@
       Melbourne have deployed OpenStack clouds to achieve control,
       business agility and cost savings without the licensing fees and
       terms of proprietary software. For complete user stories visit
-        <link xlink:href="http://goo.gl/aF4lsL"
-        >http://goo.gl/aF4lsL</link>, this should give you a good idea
+        <link xlink:href="http://www.openstack.org/user-stories"
+        >http://www.openstack.org/user-stories</link>, this should give you a good idea
       about the importance of OpenStack.</para>
 </chapter>

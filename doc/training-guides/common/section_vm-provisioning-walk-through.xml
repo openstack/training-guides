@@ -26,8 +26,6 @@
       specifications. The majority of development is done with the KVM
       and Xen-based hypervisors. Refer to
       <link xlink:href="http://wiki.openstack.org/HypervisorSupportMatrix"></link>
-      <link xlink:href="http://goo.gl/n7AXnC">
-        http://goo.gl/n7AXnC</link>
       for a detailed list of features and support across the hypervisors.</para>
     <para>With OpenStack Compute, you can orchestrate clouds using
       multiple hypervisors in different zones. The types of
@@ -36,38 +34,39 @@
     <itemizedlist>
       <listitem>
         <para>KVM- Kernel-based Virtual Machine (visit <link
-            xlink:href="http://goo.gl/70dvRb"
-            >http://goo.gl/70dvRb</link>)</para>
+            xlink:href="http://www.linux-kvm.org/"
+            >http://www.linux-kvm.org/</link>)</para>
       </listitem>
       <listitem>
         <para>LXC- Linux Containers (through libvirt) (visit <link
-            xlink:href="http://goo.gl/Ous3ly"
-            >http://goo.gl/Ous3ly</link>)</para>
+            xlink:href="http://linuxcontainers.org/"
+            >http://linuxcontainers.org/</link>)</para>
       </listitem>
       <listitem>
         <para>QEMU- Quick EMUlator (visit <link
-            xlink:href="http://goo.gl/WWV9lL"
-            >http://goo.gl/WWV9lL</link>)</para>
+            xlink:href="http://www.qemu.org/"
+            >http://www.qemu.org/</link>)</para>
       </listitem>
       <listitem>
         <para>UML- User Mode Linux (visit <link
-            xlink:href="http://goo.gl/4HAkJj"
-            >http://goo.gl/4HAkJj</link>)</para>
+            xlink:href="http://en.wikipedia.org/wiki/User-mode_Linux"
+            >http://en.wikipedia.org/wiki/User-mode_Linux</link>)</para>
       </listitem>
       <listitem>
         <para>VMware vSphere4.1 update 1 and newer (visit <link
-            xlink:href="http://goo.gl/0DBeo5"
-            >http://goo.gl/0DBeo5</link>)</para>
+            xlink:href="http://vmware.com/products/vsphere"
+            >http://vmware.com/products/vsphere</link>)</para>
       </listitem>
       <listitem>
         <para>Xen- Xen, Citrix XenServer and Xen Cloud Platform (XCP)
-          (visit <link xlink:href="http://goo.gl/yXP9t1"
-            >http://goo.gl/yXP9t1</link>)</para>
+          (visit <link xlink:href="http://wiki.xen.org/"
+            >http://wiki.xen.org/</link>)</para>
       </listitem>
       <listitem>
         <para>Bare Metal- Provisions physical hardware via pluggable
-          sub-drivers. (visit <link xlink:href="http://goo.gl/exfeSg"
-            >http://goo.gl/exfeSg</link>)</para>
+          sub-drivers. (visit
+          <link xlink:href="https://wiki.openstack.org/wiki/GeneralBareMetalProvisioningFramework"
+          >Bare Metal wiki page</link>)</para>
       </listitem>
     </itemizedlist>
   <para><guilabel>Users and Tenants (Projects)</guilabel></para>
