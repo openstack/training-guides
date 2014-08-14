@@ -101,3 +101,19 @@ for component in "${components[@]}"; do
     sudo service "$component" restart
 done
 
+#------------------------------------------------------------------------------
+# Verify the Compute controller installation
+#------------------------------------------------------------------------------
+
+echo "Verifying nova output."
+
+echo "Verify nova service status."
+# This call needs root privileges for read access to /etc/nova/nova.conf.
+echo "sudo nova-manage service list"
+sudo nova-manage service list
+
+echo "nova image-list"
+nova image-list
+
+echo "nova list-extensions"
+nova list-extensions

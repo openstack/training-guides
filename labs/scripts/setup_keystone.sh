@@ -89,3 +89,27 @@ echo "Adding service tenant."
 keystone tenant-create \
     --name "$SERVICE_TENANT_NAME" \
     --description "Service Tenant"
+
+#------------------------------------------------------------------------------
+# Verify the Identity Service installation
+#------------------------------------------------------------------------------
+
+echo "Verifying keystone installation."
+
+# From this point on, we are going to use keystone for authentication
+unset OS_SERVICE_TOKEN OS_SERVICE_ENDPOINT
+
+# Load keystone credentials
+source "$CONFIG_DIR/labs-openstackrc.sh"
+
+# The output of the following commands can be used to verify or debug the
+# service.
+
+echo "keystone token-get"
+keystone token-get
+
+echo "keystone user-list"
+keystone user-list
+
+echo "keystone user-role-list --user $ADMIN_USER_NAME --tenant $ADMIN_TENANT_NAME"
+keystone user-role-list --user "$ADMIN_USER_NAME" --tenant "$ADMIN_TENANT_NAME"

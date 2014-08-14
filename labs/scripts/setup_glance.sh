@@ -110,3 +110,11 @@ glance image-create \
     --container-format bare \
     --disk-format qcow2 < "$IMG_DIR/cirros-0.3.2-x86_64-disk.img"
 
+#------------------------------------------------------------------------------
+# Verify the Image Service installation
+#------------------------------------------------------------------------------
+
+echo "Verifying that the image was successfully added to the service."
+
+echo "glance image-list"
+glance image-list
