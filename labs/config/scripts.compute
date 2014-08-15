@@ -1,4 +1,5 @@
 # Scripts for compute node
+scripts setup_nova_compute.sh
 scripts shutdown.sh
 boot
 snapshot "pre-installed"

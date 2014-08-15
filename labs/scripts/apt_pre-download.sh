@@ -18,5 +18,6 @@ fi
 sudo apt-get install -y --download-only cinder-api cinder-scheduler lvm2 \
     cinder-volume glance openstack-dashboard memcached keystone \
     neutron-server neutron-plugin-ml2 nova-api nova-cert nova-conductor \
-    nova-consoleauth nova-novncproxy nova-scheduler python-novaclient
+    nova-consoleauth nova-novncproxy nova-scheduler python-novaclient \
+    nova-compute-kvm python-guestfs
 
