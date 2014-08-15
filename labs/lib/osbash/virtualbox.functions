@@ -269,14 +269,16 @@ function vm_attach_disk {
 function vm_attach_disk_multi {
     local VM_NAME=$1
     local DISK=$2
+
+    $VBM modifyhd --type multiattach "$DISK"
+
     echo >&2 -e "Attaching to VM \"$VM_NAME\":\n\t$DISK"
     $VBM storageattach "$VM_NAME" \
         --storagectl SATA \
         --port 0 \
         --device 0 \
         --type hdd \
-        --medium "$DISK" \
-        --mtype multiattach
+        --medium "$DISK"
 }
 
 #-------------------------------------------------------------------------------
