@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-08-06 06:00+0000\n"
+"POT-Creation-Date: 2014-08-15 06:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9978,7 +9978,7 @@ msgid "GridCentric"
 msgstr ""
 
 #: ./doc/training-guides/common/section_core-projects.xml:149(para)
-msgid "OpenStack is a true and innovative open standard. For more user stories, see <link href=\"http://goo.gl/aF4lsL\">http://goo.gl/aF4lsL</link>."
+msgid "OpenStack is a true and innovative open standard. For more user stories, see <link href=\"http://www.openstack.org/user-stories\">http://www.openstack.org/user-stories</link>."
 msgstr ""
 
 #: ./doc/training-guides/common/section_core-projects.xml:152(guilabel)
@@ -10941,19 +10941,19 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:178(None)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:177(None)
 msgid "@@image: '../figures/image21.png'; md5=77049345dd5d86f8f7abe03c0497b1f2"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:196(None)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:195(None)
 msgid "@@image: '../figures/image09.png'; md5=69ea6c4853c189bd8c387bb4e534f6a2"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:232(None)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:231(None)
 msgid "@@image: '../figures/image22.png'; md5=d92dca8de8639d5a26cef1c8fcc592ed"
 msgstr ""
 
@@ -10974,158 +10974,158 @@ msgid "Hypervisors"
 msgstr ""
 
 #: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:21(para)
-msgid "OpenStack Compute requires a hypervisor and Compute controls the hypervisors through an API server. The process for selecting a hypervisor usually means prioritizing and making decisions based on budget and resource constraints as well as the inevitable list of supported features and required technical specifications. The majority of development is done with the KVM and Xen-based hypervisors. Refer to <link href=\"http://wiki.openstack.org/HypervisorSupportMatrix\"/><link href=\"http://goo.gl/n7AXnC\"> http://goo.gl/n7AXnC</link> for a detailed list of features and support across the hypervisors."
+msgid "OpenStack Compute requires a hypervisor and Compute controls the hypervisors through an API server. The process for selecting a hypervisor usually means prioritizing and making decisions based on budget and resource constraints as well as the inevitable list of supported features and required technical specifications. The majority of development is done with the KVM and Xen-based hypervisors. Refer to <link href=\"http://wiki.openstack.org/HypervisorSupportMatrix\"/> for a detailed list of features and support across the hypervisors."
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:32(para)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:30(para)
 msgid "With OpenStack Compute, you can orchestrate clouds using multiple hypervisors in different zones. The types of virtualization standards that may be used with Compute include:"
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:38(para)
-msgid "KVM- Kernel-based Virtual Machine (visit <link href=\"http://goo.gl/70dvRb\">http://goo.gl/70dvRb</link>)"
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:36(para)
+msgid "KVM- Kernel-based Virtual Machine (visit <link href=\"http://www.linux-kvm.org/\">http://www.linux-kvm.org/</link>)"
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:43(para)
-msgid "LXC- Linux Containers (through libvirt) (visit <link href=\"http://goo.gl/Ous3ly\">http://goo.gl/Ous3ly</link>)"
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:41(para)
+msgid "LXC- Linux Containers (through libvirt) (visit <link href=\"http://linuxcontainers.org/\">http://linuxcontainers.org/</link>)"
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:48(para)
-msgid "QEMU- Quick EMUlator (visit <link href=\"http://goo.gl/WWV9lL\">http://goo.gl/WWV9lL</link>)"
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:46(para)
+msgid "QEMU- Quick EMUlator (visit <link href=\"http://www.qemu.org/\">http://www.qemu.org/</link>)"
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:53(para)
-msgid "UML- User Mode Linux (visit <link href=\"http://goo.gl/4HAkJj\">http://goo.gl/4HAkJj</link>)"
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:51(para)
+msgid "UML- User Mode Linux (visit <link href=\"http://en.wikipedia.org/wiki/User-mode_Linux\">http://en.wikipedia.org/wiki/User-mode_Linux</link>)"
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:58(para)
-msgid "VMware vSphere4.1 update 1 and newer (visit <link href=\"http://goo.gl/0DBeo5\">http://goo.gl/0DBeo5</link>)"
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:56(para)
+msgid "VMware vSphere4.1 update 1 and newer (visit <link href=\"http://vmware.com/products/vsphere\">http://vmware.com/products/vsphere</link>)"
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:63(para)
-msgid "Xen- Xen, Citrix XenServer and Xen Cloud Platform (XCP) (visit <link href=\"http://goo.gl/yXP9t1\">http://goo.gl/yXP9t1</link>)"
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:61(para)
+msgid "Xen- Xen, Citrix XenServer and Xen Cloud Platform (XCP) (visit <link href=\"http://wiki.xen.org/\">http://wiki.xen.org/</link>)"
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:68(para)
-msgid "Bare Metal- Provisions physical hardware via pluggable sub-drivers. (visit <link href=\"http://goo.gl/exfeSg\">http://goo.gl/exfeSg</link>)"
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:66(para)
+msgid "Bare Metal- Provisions physical hardware via pluggable sub-drivers. (visit <link href=\"https://wiki.openstack.org/wiki/GeneralBareMetalProvisioningFramework\">Bare Metal wiki page</link>)"
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:73(guilabel) ./doc/training-guides/common/section_block-storage.xml:132(guilabel)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:72(guilabel) ./doc/training-guides/common/section_block-storage.xml:132(guilabel)
 msgid "Users and Tenants (Projects)"
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:74(para)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:73(para)
 msgid "The OpenStack Compute system is designed to be used by many different cloud computing consumers or customers, basically tenants on a shared system, using role-based access assignments. Roles control the actions that a user is allowed to perform. In the default configuration, most actions do not require a particular role, but this is configurable by the system administrator editing the appropriate <filename>policy.json</filename> file that maintains the rules. For example, a rule can be defined so that a user cannot allocate a public IP without the admin role. A user's access to particular images is limited by tenant, but the username and password are assigned per user. Key pairs granting access to an instance are enabled per user, but quotas to control resource consumption across available hardware resources are per tenant."
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:89(para)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:88(para)
 msgid "While the original EC2 API supports users, OpenStack Compute adds the concept of tenants. Tenants are isolated resource containers forming the principal organizational structure within the Compute service. They consist of a separate VLAN, volumes, instances, images, keys, and users. A user can specify which tenant he or she wishes to be known as by appending :project_id to his or her access key. If no tenant is specified in the API request, Compute attempts to use a tenant with the same ID as the user"
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:98(para) ./doc/training-guides/common/section_block-storage.xml:145(guilabel)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:97(para) ./doc/training-guides/common/section_block-storage.xml:145(guilabel)
 msgid "For tenants, quota controls are available to limit the:"
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:102(para) ./doc/training-guides/common/section_block-storage.xml:149(para)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:101(para) ./doc/training-guides/common/section_block-storage.xml:149(para)
 msgid "Number of volumes which may be created"
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:105(para)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:104(para)
 msgid "Total size of all volumes within a project as measured in GB"
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:109(para)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:108(para)
 msgid "Number of instances which may be launched"
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:112(para)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:111(para)
 msgid "Number of processor cores which may be allocated"
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:115(para)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:114(para)
 msgid "Floating IP addresses (assigned to any instance when it launches so the instance has the same publicly accessible IP addresses)"
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:120(para)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:119(para)
 msgid "Fixed IP addresses (assigned to the same instance each time it boots, publicly or privately accessible, typically private for management purposes)"
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:125(guilabel) ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:163(guilabel)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:124(guilabel) ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:162(guilabel)
 msgid "Images and Instances"
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:126(para)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:125(para)
 msgid "This introduction provides a high level overview of what images and instances are and description of the life-cycle of a typical virtual system within the cloud. There are many ways to configure the details of an OpenStack cloud and many ways to implement a virtual system within that cloud. These configuration details as well as the specific command-line utilities and API calls to perform the actions described are presented in the Image Management and Volume Management chapters."
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:135(para)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:134(para)
 msgid "Images are disk images which are templates for virtual machine file systems. The OpenStack Image Service is responsible for the storage and management of images within OpenStack."
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:139(para)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:138(para)
 msgid "Instances are the individual virtual machines running on physical compute nodes. The OpenStack Compute service manages instances. Any number of instances maybe started from the same image. Each instance is run from a copy of the base image so runtime changes made by an instance do not change the image it is based on. Snapshots of running instances may be taken which create a new image based on the current disk state of a particular instance."
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:147(para)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:146(para)
 msgid "When starting an instance a set of virtual resources known as a flavor must be selected. Flavors define how many virtual CPUs an instance has and the amount of RAM and size of its ephemeral disks. OpenStack provides a number of predefined flavors which cloud administrators may edit or add to. Users must select from the set of available flavors defined on their cloud."
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:154(para)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:153(para)
 msgid "Additional resources such as persistent volume storage and public IP address may be added to and removed from running instances. The examples below show the cinder-volume service which provide persistent block storage as opposed to the ephemeral storage provided by the instance flavor."
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:159(para)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:158(para)
 msgid "Here is an example of the life cycle of a typical virtual system within an OpenStack cloud to illustrate these concepts."
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:162(guilabel) ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:175(title)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:161(guilabel) ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:174(title)
 msgid "Initial State"
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:164(para)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:163(para)
 msgid "The following diagram shows the system state prior to launching an instance. The image store fronted by the Image Service has some number of predefined images. In the cloud, there is an available compute node with available vCPU, memory and local disk resources. Plus there are a number of predefined volumes in the <systemitem class=\"service\">cinder-volume</systemitem> service."
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:172(para)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:171(para)
 msgid "Figure 2.1. Base image state with no running instances"
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:182(guilabel)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:181(guilabel)
 msgid "Launching an instance"
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:183(para)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:182(para)
 msgid "To launch an instance, the user selects an image, a flavor, and other optional attributes. In this case the selected flavor provides a root volume (as all flavors do). Let us assume that the root volume is labelled as 'vda' and additional ephemeral storage labelled as 'vdb'. The user has also opted to map a volume from the <systemitem class=\"service\">cinder-volume</systemitem> store to the third virtual disk, vdc, on this instance."
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:190(para)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:189(para)
 msgid "Figure 2.2. Instance creation from image and run time state"
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:193(title)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:192(title)
 msgid "Launch VM Instance"
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:200(para)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:199(para)
 msgid "The OpenStack system copies the base image from the image store to local disk which is used as the first disk of the instance (vda). Having small images will result in faster start up of your instances as less data needs to be copied across the network. The system also creates a new empty disk image to present as the second disk (vdb). Be aware that the second disk is an empty disk with an emphemeral life as it is destroyed when you delete the instance. The compute node attaches to the requested <systemitem class=\"service\">cinder-volume</systemitem> using iSCSI and maps this to the third disk (vdc) as requested. The vCPU and memory resources are provisioned and the instance is booted from the first drive. The instance runs and changes data on the disks highlighted in yellow in the diagram."
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:213(para)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:212(para)
 msgid "There are many possible variations in the details of the scenario, particularly in terms of what the backing storage is and the network protocols used to attach and move storage. One variant worth mentioning here is that the ephemeral storage used for volumes vda and vdb in this example may be backed by network storage rather than local disk. The details are left for later chapters."
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:220(guilabel) ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:229(title)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:219(guilabel) ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:228(title)
 msgid "End State"
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:221(para)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:220(para)
 msgid "Once the instance has served its purpose and is deleted all state is reclaimed, except the persistent volume. The ephemeral storage is purged. Memory and vCPU resources are released. And of course the image has remained unchanged throughout."
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:226(para)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:225(para)
 msgid "Figure 2.3. End state of image and volume after instance exits"
 msgstr ""
 
-#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:236(para)
+#: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:235(para)
 msgid "Once you launch a VM in OpenStack, there's something more going on in the background. To understand what's happening behind the dashboard, lets take a deeper dive into OpenStack's VM provisioning. For launching a VM, you can either use the command-line interfaces or the OpenStack dashboard."
 msgstr ""
 
@@ -12767,7 +12767,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/common/section_brief-overview.xml:54(None)
+#: ./doc/training-guides/common/section_brief-overview.xml:56(None)
 msgid "@@image: '../figures/image23.jpg'; md5=6b259da45f404aa65ac2388e600f30b3"
 msgstr ""
 
@@ -12792,7 +12792,7 @@ msgid "feature rich."
 msgstr ""
 
 #: ./doc/training-guides/common/section_brief-overview.xml:28(para)
-msgid "To check out more information on OpenStack visit <link href=\"http://goo.gl/Ye9DFT\">http://goo.gl/Ye9DFT</link>"
+msgid "To check out more information on OpenStack visit <link href=\"http://www.openstack.org/\">http://www.openstack.org/</link>"
 msgstr ""
 
 #: ./doc/training-guides/common/section_brief-overview.xml:31(guilabel)
@@ -12800,55 +12800,55 @@ msgid "OpenStack Foundation:"
 msgstr ""
 
 #: ./doc/training-guides/common/section_brief-overview.xml:32(para)
-msgid "The OpenStack Foundation, established in September of 2012, is an independent body, providing shared resources to help achieve the OpenStack Mission by protecting, empowering, and promoting OpenStack software and the community around it. This includes users, developers and the entire ecosystem. For more information visit http://goo.gl/3uvmNX."
+msgid "The OpenStack Foundation, established in September of 2012, is an independent body, providing shared resources to help achieve the OpenStack Mission by protecting, empowering, and promoting OpenStack software and the community around it. This includes users, developers and the entire ecosystem. For more information visit <link href=\"http://www.openstack.org/foundation\">http://www.openstack.org/foundation</link>."
 msgstr ""
 
-#: ./doc/training-guides/common/section_brief-overview.xml:38(guilabel)
+#: ./doc/training-guides/common/section_brief-overview.xml:39(guilabel)
 msgid "Who's behind OpenStack?"
 msgstr ""
 
-#: ./doc/training-guides/common/section_brief-overview.xml:39(para)
-msgid "Founded by Rackspace Hosting and NASA, OpenStack has grown to be a global software community of developers collaborating on a standard and massively scalable open source cloud operating system. The OpenStack Foundation promotes the development, distribution and adoption of the OpenStack cloud operating system. As the independent home for OpenStack, the Foundation has already attracted more than 7,000 individual members from 100 countries and 850 different organizations. It has also secured more than $10 million in funding and is ready to fulfill the OpenStack mission of becoming the ubiquitous cloud computing platform. Checkout <link href=\"http://goo.gl/BZHJKd\">http://goo.gl/BZHJKd</link>for more on the same."
+#: ./doc/training-guides/common/section_brief-overview.xml:40(para)
+msgid "Founded by Rackspace Hosting and NASA, OpenStack has grown to be a global software community of developers collaborating on a standard and massively scalable open source cloud operating system. The OpenStack Foundation promotes the development, distribution and adoption of the OpenStack cloud operating system. As the independent home for OpenStack, the Foundation has already attracted more than 7,000 individual members from 100 countries and 850 different organizations. It has also secured more than $10 million in funding and is ready to fulfill the OpenStack mission of becoming the ubiquitous cloud computing platform. Checkout <link href=\"http://www.openstack.org/foundation\">http://www.openstack.org/foundation</link>for more information."
 msgstr ""
 
-#: ./doc/training-guides/common/section_brief-overview.xml:51(title)
+#: ./doc/training-guides/common/section_brief-overview.xml:53(title)
 msgid "Nebula (NASA)"
 msgstr ""
 
-#: ./doc/training-guides/common/section_brief-overview.xml:58(para)
+#: ./doc/training-guides/common/section_brief-overview.xml:60(para)
 msgid "The goal of the OpenStack Foundation is to serve developers, users, and the entire ecosystem by providing a set of shared resources to grow the footprint of public and private OpenStack clouds, enable technology vendors targeting the platform and assist developers in producing the best cloud software in the industry."
 msgstr ""
 
-#: ./doc/training-guides/common/section_brief-overview.xml:64(guilabel)
+#: ./doc/training-guides/common/section_brief-overview.xml:66(guilabel)
 msgid "Who uses OpenStack?"
 msgstr ""
 
-#: ./doc/training-guides/common/section_brief-overview.xml:65(para)
+#: ./doc/training-guides/common/section_brief-overview.xml:67(para)
 msgid "Corporations, service providers, VARS, SMBs, researchers, and global data centers looking to deploy large-scale cloud deployments for private or public clouds, leveraging the support and resulting technology of a global open source community. This is just four years into OpenStack, it's new and has immense possibilities."
 msgstr ""
 
-#: ./doc/training-guides/common/section_brief-overview.xml:70(guilabel)
+#: ./doc/training-guides/common/section_brief-overview.xml:72(guilabel)
 msgid "It's Open Source:"
 msgstr ""
 
-#: ./doc/training-guides/common/section_brief-overview.xml:71(para)
+#: ./doc/training-guides/common/section_brief-overview.xml:73(para)
 msgid "All of the code for OpenStack is freely available under the Apache 2.0 license. Anyone can run it, build on it, or submit changes back to the project. This open development model is one of the best ways to foster badly-needed cloud standards, remove the fear of proprietary lock-in for cloud customers, and create a large ecosystem that spans cloud providers."
 msgstr ""
 
-#: ./doc/training-guides/common/section_brief-overview.xml:77(guilabel)
+#: ./doc/training-guides/common/section_brief-overview.xml:79(guilabel)
 msgid "Who it's for:"
 msgstr ""
 
-#: ./doc/training-guides/common/section_brief-overview.xml:78(para)
+#: ./doc/training-guides/common/section_brief-overview.xml:80(para)
 msgid "Enterprises, service providers, government and academic institutions with physical hardware that would like to build a public or private cloud."
 msgstr ""
 
-#: ./doc/training-guides/common/section_brief-overview.xml:81(guilabel)
+#: ./doc/training-guides/common/section_brief-overview.xml:83(guilabel)
 msgid "How it's being used today:"
 msgstr ""
 
-#: ./doc/training-guides/common/section_brief-overview.xml:82(para)
-msgid "Organizations like CERN, Cisco WebEx, DreamHost, eBay, The Gap, HP, MercadoLibre, NASA, PayPal, Rackspace and University of Melbourne have deployed OpenStack clouds to achieve control, business agility and cost savings without the licensing fees and terms of proprietary software. For complete user stories visit <link href=\"http://goo.gl/aF4lsL\">http://goo.gl/aF4lsL</link>, this should give you a good idea about the importance of OpenStack."
+#: ./doc/training-guides/common/section_brief-overview.xml:84(para)
+msgid "Organizations like CERN, Cisco WebEx, DreamHost, eBay, The Gap, HP, MercadoLibre, NASA, PayPal, Rackspace and University of Melbourne have deployed OpenStack clouds to achieve control, business agility and cost savings without the licensing fees and terms of proprietary software. For complete user stories visit <link href=\"http://www.openstack.org/user-stories\">http://www.openstack.org/user-stories</link>, this should give you a good idea about the importance of OpenStack."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
