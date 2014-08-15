@@ -85,8 +85,10 @@ shift $(( OPTIND - 1 ));
 # Make sure we have exactly one argument, either basedisk or cluster
 if [ $# -eq 1 ]; then
     CMD=$1
-    if ! [[ $CMD =~ (basedisk|cluster) ]]; then
-        usage
+    if  [ "$CMD" = cluster ]; then
+        nodes="controller compute network"
+    else
+        nodes="$CMD"
     fi
 else
     usage
@@ -153,9 +155,9 @@ DATA_NET_IF=$(create_network "$DATA_NET")
 API_NET_IF=$(create_network "$API_NET")
 #-------------------------------------------------------------------------------
 source "$OSBASH_LIB_DIR/virtualbox.install_node"
-vm_build_node "controller"
-vm_build_node "network"
-vm_build_node "compute"
+for node in $nodes; do
+    vm_build_node "$node"
+done
 #-------------------------------------------------------------------------------
 function export_appliance {
     if [ -n "${EXPORT_OVA:-}" ]; then
