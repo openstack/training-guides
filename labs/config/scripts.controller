@@ -10,4 +10,6 @@ scripts setup_cinder_volumes.sh
 scripts setup_horizon.sh
 scripts shutdown.sh
 boot
+wait_for_shutdown
 snapshot "pre-installed"
+boot

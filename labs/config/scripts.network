@@ -1,4 +1,5 @@
 # Scripts for network node
 scripts shutdown.sh
 boot
+wait_for_shutdown
 snapshot "pre-installed"
