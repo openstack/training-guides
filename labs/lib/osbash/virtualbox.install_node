@@ -33,7 +33,6 @@ function _vbox_boot_with_autostart {
 
     wait_for_autofiles
     echo >&2 "VM \"$VM\": autostart files executed"
-    vm_wait_for_shutdown "$VM"
 }
 
 function vm_build_node {

@@ -279,6 +279,9 @@ function autostart_from_config {
             # Format: snapshot "Description for snapshot"
             echo >&2 vm_snapshot "$NODE_NAME" "$field_2"
             vm_snapshot "$NODE_NAME" "$field_2"
+        elif [ "$field_1" == "wait_for_shutdown" ]; then
+            echo >&2 vm_wait_for_shutdown "$NODE_NAME"
+            vm_wait_for_shutdown "$NODE_NAME"
         else
             # Queue a script for autostart
             # Format: <dircode> <script_name>

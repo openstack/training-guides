@@ -2,4 +2,5 @@
 scripts setup_nova_compute.sh
 scripts shutdown.sh
 boot
+wait_for_shutdown
 snapshot "pre-installed"
