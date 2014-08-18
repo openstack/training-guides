@@ -1,4 +1,5 @@
 # Scripts for network node
+scripts setup_neutron_network.sh
 scripts shutdown.sh
 boot
 wait_for_shutdown
