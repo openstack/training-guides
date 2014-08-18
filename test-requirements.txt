@@ -1,1 +1,1 @@
-openstack-doc-tools>=0.17
+openstack-doc-tools>=0.18.1
