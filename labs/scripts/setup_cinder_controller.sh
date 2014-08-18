@@ -43,7 +43,7 @@ echo "Creating cinder user and giving it admin role under service tenant."
 keystone user-create \
     --name "$cinder_admin_user" \
     --pass "$cinder_admin_password" \
-    --email cinder@domain.com
+    --email "cinder@$MAIL_DOMAIN"
 
 keystone user-role-add \
     --user "$cinder_admin_user" \

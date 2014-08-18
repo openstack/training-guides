@@ -46,7 +46,7 @@ echo "Creating glance user and giving it admin role under service tenant."
 keystone user-create \
     --name "$glance_admin_user" \
     --pass "$glance_admin_password" \
-    --email glance@domain.com
+    --email "glance@$MAIL_DOMAIN"
 
 keystone user-role-add \
     --user "$glance_admin_user" \

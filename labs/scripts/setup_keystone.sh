@@ -60,7 +60,7 @@ echo "Adding admin tenant."
 keystone tenant-create --name "$ADMIN_TENANT_NAME" --description "Admin Tenant"
 
 echo "Creating admin user."
-keystone user-create --name "$ADMIN_USER_NAME" --pass "$ADMIN_PASSWORD" --email admin@domain.com
+keystone user-create --name "$ADMIN_USER_NAME" --pass "$ADMIN_PASSWORD" --email "admin@$MAIL_DOMAIN"
 
 echo "Creating admin roles."
 keystone role-create --name "$ADMIN_ROLE_NAME"
