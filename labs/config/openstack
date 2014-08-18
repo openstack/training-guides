@@ -8,5 +8,14 @@
 : ${MGMT_NET:=10.10.10.1}
 : ${DATA_NET:=10.20.20.1}
 : ${API_NET:=192.168.100.1}
+# FIXME API_NET and EXT_NET should be different networks as soon as our
+#       setup allows it.
+: ${EXT_NET:=192.168.100.1}
+
+# EXT_NET
+: ${FLOATING_IP_START:=192.168.100.101}
+: ${FLOATING_IP_END:=192.168.100.200}
+: ${EXTERNAL_NETWORK_GATEWAY:=192.168.100.1}
+: ${EXTERNAL_NETWORK_CIDR:=192.168.100.0/24}
 
 # vim: set ai ts=4 sw=4 et ft=sh:

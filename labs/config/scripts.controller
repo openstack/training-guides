@@ -8,6 +8,7 @@ scripts setup_neutron_controller.sh
 scripts setup_cinder_controller.sh
 scripts setup_cinder_volumes.sh
 scripts setup_horizon.sh
+scripts config_external_network.sh
 scripts shutdown.sh
 boot
 wait_for_shutdown
