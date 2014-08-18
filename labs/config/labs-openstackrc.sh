@@ -12,4 +12,4 @@ source "$CONFIG_DIR/credentials"
 export OS_USERNAME=$ADMIN_USER_NAME
 export OS_PASSWORD=$ADMIN_PASSWORD
 export OS_TENANT_NAME=$ADMIN_TENANT_NAME
-export OS_AUTH_URL="http://controller-mgmt:5000/v2.0"
+export OS_AUTH_URL="http://controller-mgmt:35357/v2.0"
