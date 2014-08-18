@@ -100,7 +100,7 @@ echo "Verifying keystone installation."
 unset OS_SERVICE_TOKEN OS_SERVICE_ENDPOINT
 
 # Load keystone credentials
-source "$CONFIG_DIR/labs-openstackrc.sh"
+source "$CONFIG_DIR/admin-openstackrc.sh"
 
 # The output of the following commands can be used to verify or debug the
 # service.

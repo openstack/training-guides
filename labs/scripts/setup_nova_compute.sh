@@ -3,7 +3,7 @@ TOP_DIR=$(cd $(dirname "$0")/.. && pwd)
 source "$TOP_DIR/config/paths"
 source "$CONFIG_DIR/credentials"
 source "$LIB_DIR/functions.guest"
-source "$CONFIG_DIR/labs-openstackrc.sh"
+source "$CONFIG_DIR/admin-openstackrc.sh"
 exec_logfile
 
 indicate_current_auto
