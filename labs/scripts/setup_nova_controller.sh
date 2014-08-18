@@ -44,7 +44,7 @@ echo "Creating nova user and giving it admin role under service tenant."
 keystone user-create \
     --name "$nova_admin_user" \
     --pass "$nova_admin_password" \
-    --email nova@domain.com
+    --email "nova@$MAIL_DOMAIN"
 
 keystone user-role-add \
     --user "$nova_admin_user" \

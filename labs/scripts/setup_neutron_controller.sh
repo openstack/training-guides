@@ -42,7 +42,7 @@ echo "Creating neutron user and giving it admin role under service tenant."
 keystone user-create \
     --name "$neutron_admin_user" \
     --pass "$neutron_admin_password" \
-    --email neutron@domain.com
+    --email "neutron@$MAIL_DOMAIN"
 
 keystone user-role-add \
     --user "$neutron_admin_user" \
