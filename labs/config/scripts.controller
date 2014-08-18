@@ -10,6 +10,7 @@ scripts setup_cinder_volumes.sh
 scripts setup_horizon.sh
 scripts config_external_network.sh
 scripts config_demo_user.sh
+scripts config_tenant_network.sh
 scripts shutdown.sh
 boot
 wait_for_shutdown
