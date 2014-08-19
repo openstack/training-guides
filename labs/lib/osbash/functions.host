@@ -160,7 +160,8 @@ function wait_for_autofiles {
 
     ${WBATCH:-:} wbatch_wait_auto
     # Remove autostart files and return if we are just faking it for wbatch
-    ${OSBASH:+:} autostart_reset && return 0
+    ${OSBASH:+:} autostart_reset
+    ${OSBASH:+:} return 0
 
     until $DONE ; do
         if [ -f "$STATUS_DIR/done" ]; then
