@@ -303,6 +303,11 @@ function get_ip_from_net_and_fourth {
     echo "${NET%.*}.$FOURTH_OCTET"
 }
 
+function hostname_to_ip {
+    local host_name=$1
+    getent hosts "$host_name"|awk '{print $1}'
+}
+
 function config_network {
     if is_ubuntu; then
         # Configuration functions will append to this file

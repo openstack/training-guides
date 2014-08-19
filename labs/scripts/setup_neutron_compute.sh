@@ -68,7 +68,7 @@ iniset_sudo $conf securitygroup firewall_driver neutron.agent.linux.iptables_fir
 iniset_sudo $conf securitygroup enable_security_group True
 
 # Under the ovs section
-iniset_sudo $conf ovs local_ip INSTANCE_TUNNELS_INTERFACE_IP_ADDRESS
+iniset_sudo $conf ovs local_ip "$(hostname_to_ip compute-data)"
 iniset_sudo $conf ovs tunnel_type gre
 iniset_sudo $conf ovs enable_tunneling True
 
