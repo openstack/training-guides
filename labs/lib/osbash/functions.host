@@ -159,8 +159,8 @@ function wait_for_autofiles {
     shopt -s nullglob
 
     ${WBATCH:-:} wbatch_wait_auto
-    # Return if we are just faking it for wbatch
-    ${OSBASH:+:} return 0
+    # Remove autostart files and return if we are just faking it for wbatch
+    ${OSBASH:+:} autostart_reset && return 0
 
     until $DONE ; do
         if [ -f "$STATUS_DIR/done" ]; then
