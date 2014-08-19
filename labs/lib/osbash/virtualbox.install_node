@@ -35,13 +35,9 @@ function _vbox_boot_with_autostart {
     echo >&2 "VM \"$VM\": autostart files executed"
 }
 
-function vm_build_node {
-    # XXX Run this function in sub-shell to protect our caller's environment
-    #     (which might be _our_ enviroment if we get called again)
-    (
-
+# Create a new node VM and run basic configuration scripts
+function vm_init_node {
     NODE_NAME=$1
-    source "$CONFIG_DIR/config.$NODE_NAME"
 
     ${WBATCH:-:} wbatch_begin_node "$NODE_NAME"
 
@@ -70,7 +66,17 @@ function vm_build_node {
     # Rename to pass the node name to the script
     autostart_and_rename osbash init_xxx_node.sh "init_${NODE_NAME}_node.sh"
     autostart_from_config scripts.nodeinit_osbash
+}
 
+function vm_build_node {
+    # XXX Run this function in sub-shell to protect our caller's environment
+    #     (which might be _our_ enviroment if we get called again)
+    (
+
+    NODE_NAME=$1
+    source "$CONFIG_DIR/config.$NODE_NAME"
+
+    vm_init_node "$NODE_NAME"
     #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     autostart_reset
     autostart_from_config "scripts.$NODE_NAME"
