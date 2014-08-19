@@ -3,6 +3,6 @@ scripts etc_hosts.sh
 osbash enable_vagrant_ssh_keys.sh
 #osbash wait_debug.sh
 scripts shutdown.sh
-boot
-wait_for_shutdown
-snapshot "network_configured"
+cmd boot
+cmd wait_for_shutdown
+cmd snapshot "network_configured"

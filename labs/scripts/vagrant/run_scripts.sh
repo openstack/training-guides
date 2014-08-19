@@ -24,7 +24,7 @@ function vagrant_start_from_config {
         if [[ $field_1 =~ ^# ]]; then
             # Skip lines that are commented out
             continue
-        elif [[ "$field_1" == "boot" || "$field_1" == "snapshot" ]]; then
+        elif [[ "$field_1" = cmd ]]; then
             # Skip osbash commands, Vagrant ignores them
             continue
         else

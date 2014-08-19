@@ -1,6 +1,6 @@
 # Scripts for network node
 scripts setup_neutron_network.sh
 scripts shutdown.sh
-boot
-wait_for_shutdown
-snapshot "pre-installed"
+cmd boot
+cmd wait_for_shutdown
+cmd snapshot "pre-installed"

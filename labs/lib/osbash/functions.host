@@ -252,6 +252,33 @@ function autostart {
     done
 }
 
+# Parse command and arguments after a "cmd" token in config/scripts.*
+function command_from_config {
+    local cmd_string=( $1 )
+    local cmd=${cmd_string[0]}
+    case "$cmd" in
+        boot)
+            # Boot with queued autostart files now, wait for shutdown
+            echo >&2 _vbox_boot_with_autostart "$NODE_NAME" "$VM_SSH_PORT"
+            _vbox_boot_with_autostart "$NODE_NAME" "$VM_SSH_PORT"
+            ;;
+        snapshot)
+            # Format: snapshot <snapshot_name>
+            local shot_name=${cmd_string[1]}
+            echo >&2 vm_snapshot "$NODE_NAME" "$shot_name"
+            vm_snapshot "$NODE_NAME" "$shot_name"
+            ;;
+        wait_for_shutdown)
+            echo >&2 vm_wait_for_shutdown "$NODE_NAME"
+            vm_wait_for_shutdown "$NODE_NAME"
+            ;;
+        *)
+            echo >&2 "Error: invalid cmd: $cmd"
+            exit 1
+            ;;
+    esac
+}
+
 # Parse config/scripts.* configuration files
 function autostart_from_config {
     local config_file=$1
@@ -271,17 +298,8 @@ function autostart_from_config {
         if [[ $field_1 =~ ^# ]]; then
             # Skip lines that are commented out
             continue
-        elif [ "$field_1" == "boot" ]; then
-            # Boot with queued autostart files now, wait for shutdown
-            echo >&2 _vbox_boot_with_autostart "$NODE_NAME" "$VM_SSH_PORT"
-            _vbox_boot_with_autostart "$NODE_NAME" "$VM_SSH_PORT"
-        elif [ "$field_1" == "snapshot" ]; then
-            # Format: snapshot <snapshot_name>
-            echo >&2 vm_snapshot "$NODE_NAME" "$field_2"
-            vm_snapshot "$NODE_NAME" "$field_2"
-        elif [ "$field_1" == "wait_for_shutdown" ]; then
-            echo >&2 vm_wait_for_shutdown "$NODE_NAME"
-            vm_wait_for_shutdown "$NODE_NAME"
+        elif [ "$field_1" == "cmd" ]; then
+            command_from_config "$field_2"
         else
             # Queue a script for autostart
             # Format: <dircode> <script_name>

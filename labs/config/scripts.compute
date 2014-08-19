@@ -2,6 +2,6 @@
 scripts setup_nova_compute.sh
 scripts setup_neutron_compute.sh
 scripts shutdown.sh
-boot
-wait_for_shutdown
-snapshot "pre-installed"
+cmd boot
+cmd wait_for_shutdown
+cmd snapshot "pre-installed"
