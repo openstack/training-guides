@@ -37,7 +37,7 @@ function vagrant_start_from_config {
 }
 
 # The Vagrantfile uses Ubuntu
-for config_file in "scripts.nodeinit_vagrant" "scripts.ubuntu" "scripts.$HOSTNAME"; do
+for config_file in "scripts.ubuntu" "scripts.$HOSTNAME"; do
     echo "Config file $config_file"
     vagrant_start_from_config "$config_file"
 done
