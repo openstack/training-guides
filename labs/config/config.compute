@@ -10,3 +10,6 @@ FOURTH_OCTET=53
 NET_IF_0=nat
 NET_IF_1=MGMT_NET
 NET_IF_2=DATA_NET
+
+# Override number of virtual CPUs (default is 1)
+VM_CPUS=2
