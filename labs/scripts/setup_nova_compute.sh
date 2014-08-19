@@ -15,8 +15,12 @@ indicate_current_auto
 echo "Installing nova for compute node."
 sudo apt-get install -y nova-compute-kvm python-guestfs
 
-# To make the current kernel readable, run:
-sudo dpkg-statoverride  --update --add root root 0644 /boot/vmlinuz-$(uname -r)
+echo "Making the current kernel image world-readable."
+sudo dpkg-statoverride \
+    --update \
+    --add root root 0644 "/boot/vmlinuz-$(uname -r)"
+# Read the new setting into the log file
+sudo dpkg-statoverride --list "/boot/vmlinuz*"
 
 # Remove SQLite database created by Ubuntu package for nova.
 sudo rm -v /var/lib/nova/nova.sqlite
