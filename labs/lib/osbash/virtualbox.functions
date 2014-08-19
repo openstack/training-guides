@@ -291,6 +291,12 @@ function vm_mem {
     $VBM modifyvm "$NAME" --memory "$MEM"
 }
 
+function vm_cpus {
+    local NAME="$1"
+    local CPUS="$2"
+    $VBM modifyvm "$NAME" --cpus "$CPUS"
+}
+
 # Port forwarding from host to VM (binding to host's 127.0.0.1)
 function vm_port {
     local NAME="$1"

@@ -50,6 +50,9 @@ function vm_build_node {
     # Set VM_MEM in config/config.NODE_NAME to override
     vm_mem "$NODE_NAME" "${VM_MEM:-512}"
 
+    # Set VM_CPUS in config/config.NODE_NAME to override
+    vm_cpus "$NODE_NAME" "${VM_CPUS:-1}"
+
     _vbox_configure_ifs
 
     # Port forwarding
