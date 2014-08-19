@@ -276,7 +276,7 @@ function autostart_from_config {
             echo >&2 _vbox_boot_with_autostart "$NODE_NAME" "$VM_SSH_PORT"
             _vbox_boot_with_autostart "$NODE_NAME" "$VM_SSH_PORT"
         elif [ "$field_1" == "snapshot" ]; then
-            # Format: snapshot "Description for snapshot"
+            # Format: snapshot <snapshot_name>
             echo >&2 vm_snapshot "$NODE_NAME" "$field_2"
             vm_snapshot "$NODE_NAME" "$field_2"
         elif [ "$field_1" == "wait_for_shutdown" ]; then

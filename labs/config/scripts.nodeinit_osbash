@@ -5,4 +5,4 @@ osbash enable_vagrant_ssh_keys.sh
 scripts shutdown.sh
 boot
 wait_for_shutdown
-snapshot "Network configured."
+snapshot "network_configured"
