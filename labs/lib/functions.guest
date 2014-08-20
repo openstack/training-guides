@@ -35,7 +35,9 @@ function zero_empty_space {
     sudo rm /filler
 }
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-# Used by guest scripts to let osbash know they are running
+# For guest scripts to let osbash know they are running; used when osbashauto
+# runs scripts inside of the VM (STATUS_DIR directory must be shared between
+# host and VM).
 
 function indicate_current_auto {
     if [ "${VM_SHELL_USER:-}" = "osbash" ]; then
