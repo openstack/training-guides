@@ -1,4 +1,13 @@
 # Scripts for compute node
+cmd init_node
+scripts etc_hosts.sh
+osbash enable_vagrant_ssh_keys.sh
+#osbash wait_debug.sh
+# Using scripts/osbash/shutdown.sh because we want Vagrant to ignore this
+osbash shutdown.sh
+cmd boot
+cmd wait_for_shutdown
+cmd snapshot "network_configured"
 scripts setup_nova_compute.sh
 scripts setup_neutron_compute.sh
 scripts shutdown.sh

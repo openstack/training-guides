@@ -276,6 +276,10 @@ function command_from_config {
             echo >&2 vm_wait_for_shutdown "$NODE_NAME"
             vm_wait_for_shutdown "$NODE_NAME"
             ;;
+        init_node)
+            echo >&2 vm_init_node "$NODE_NAME"
+            vm_init_node "$NODE_NAME"
+            ;;
         *)
             echo >&2 "Error: invalid cmd: $cmd"
             exit 1
