@@ -24,8 +24,8 @@ function vagrant_start_from_config {
         if [[ $field_1 =~ ^# ]]; then
             # Skip lines that are commented out
             continue
-        elif [[ "$field_1" = cmd ]]; then
-            # Skip osbash commands, Vagrant ignores them
+        elif [[ "$field_1" = cmd || "$field_1" = osbash ]]; then
+            # Skip osbash commands and scripts for Vagrant
             continue
         else
             local dir="$(src_dir_code_to_dir "$field_1")"
