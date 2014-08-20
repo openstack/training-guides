@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<chapter xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude"
-  xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0" xml:id="lab_network-node">
+<chapter xmlns="http://docbook.org/ns/docbook"
+ xmlns:xi="http://www.w3.org/2001/XInclude"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ version="5.0"
+ xml:id="lab_network-node">
   <title>Network Node</title>
   <orderedlist>
     <listitem>
-      <para><emphasis role="bold">Network Diagram :</emphasis></para>
+      <para><emphasis role="bold">Network Diagram:</emphasis></para>
     </listitem>
   </orderedlist>
   <figure>
@@ -20,52 +23,143 @@
     xlink:href="https://docs.google.com/drawings/d/1GX3FXmkz3c_tUDpZXUVMpyIxicWuHs5fNsHvYNjwNNk/edit?usp=sharing"
     >https://docs.google.com/drawings/d/1GX3FXmkz3c_tUDpZXUVMpyIxicWuHs5fNsHvYNjwNNk/edit?usp=sharing</link></para>
   <para><emphasis role="bold">Vboxnet0</emphasis>, <emphasis role="bold">Vboxnet1</emphasis>,
-      <emphasis role="bold">Vboxnet2</emphasis> - are virtual networks setup up by virtual box with
-    your host machine. This is the way your host can communicate with the virtual machines. These
-    networks are in turn used by virtual box VM’s for OpenStack networks, so that OpenStack’s
+      <emphasis role="bold">Vboxnet2</emphasis> - are virtual networks setup up by VirtualBox with
+    your host machine. This is the way the host can communicate with the virtual machine instances. These
+    networks are in turn used by VirtualBox VM’s for OpenStack networks, so that OpenStack’s
     services can communicate with each other.</para>
-  <para><guilabel>Network Node</guilabel></para>
-  <para>Start your Controller Node the one you setup in previous section.</para>
-  <para><emphasis role="bold">Preparing Ubuntu 12.04</emphasis></para>
+  <para><guilabel>Network node</guilabel></para>
+  <para>Start the controller node which was set up in a previous section.</para>
+  <note>
+      <para>On reboot the VirtualBox VM may lose internet and network
+          connectivity. Restart the networking service and use the
+          <command>ping</command> command to verify the network
+          connectivity for the given VM.</para>
+  </note>
+  <note>
+      <para>Take regular snapshots of the VirtualBox virtual machines after
+          each section. In case the VM is broken, you may revert back to the
+          snapshot to save time and effort.</para>
+  </note>
+  <para><guilabel>Controller node</guilabel></para>
+  <para>
+      Start the controller node which was set up in a previous section.
+  </para>
+  <para><emphasis role="bold">Preparing Ubuntu 14.04</emphasis></para>
+  <para><emphasis role="bold">Networking :</emphasis></para>
+  <para>Configure your network by editing the
+      <filename>/etc/network/interfaces</filename> file</para>
   <itemizedlist>
     <listitem>
-      <para>After you install Ubuntu Server, go in sudo mode</para>
+      <para>Open <filename>/etc/network/interfaces</filename> and edit the
+        file as mentioned:</para>
+    <programlisting>
+# This file is for the OpenStack network node for OpenStack training project.
+# Note: Selection of the IP addresses is important.
+# Any changes to the IP addresses may break OpenStack related services.
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface - VirtualBox NAT connection
+# (VirtualBox Network Adapter 1)
+auto eth0
+iface eth0 inet dhcp
+
+# VirtualBox vboxnet0 - OpenStack management network
+# (VirtualBox Network Adapter 2)
+auto eth1
+iface eth1 inet static
+address 10.10.10.52
+netmask 255.255.255.0
+
+# VirtualBox vboxnet2 - OpenStack VM data/communication network
+# (VirtualBox Network Adapter 3)
+auto eth2
+iface eth2 inet static
+address 10.20.20.52
+netmask 255.255.255.0
+
+# VirtualBox vboxnet3 - For exposing external network
+# (VirtualBox Network Adapter 4)
+auto eth3
+iface eth3 inet static
+address 192.168.100.52
+netmask 255.255.255.0
+</programlisting>
+    </listitem>
+    <listitem>
+      <para>After saving the interfaces file, restart the networking
+        service:</para>
+      <screen><prompt>#</prompt> <userinput>service networking restart</userinput></screen>
+      <screen><prompt>#</prompt> <userinput>ifconfig</userinput></screen>
+    </listitem>
+    <listitem>
+        <para>The expected network interface should match with the required IP
+            addresses as configured above.</para>
+    </listitem>
+  </itemizedlist>
+  <para><emphasis role="bold">SSH from host</emphasis></para>
+  <itemizedlist>
+    <listitem>
+        <para>Create an SSH key pair for the controller node.</para>
+    </listitem>
+    <listitem>
+        <para>To SSH into the network node from the host machine, type the
+            command mentioned below.</para>
+      <screen><prompt>$</prompt> <userinput>ssh network@10.10.10.51</userinput></screen>
+      <screen><prompt>$</prompt> <userinput>sudo su</userinput></screen>
+    </listitem>
+</itemizedlist>
+  <para><emphasis role="bold">Preparing Ubuntu 14.04</emphasis></para>
+  <itemizedlist>
+    <listitem>
+      <para>After installing Ubuntu Server, ssh into the VM and change to the root user</para>
       <para>
         <screen><prompt>$</prompt> <userinput>sudo su</userinput></screen>
       </para>
-    </listitem>
+  </listitem>
     <listitem>
       <para>Add Icehouse repositories:</para>
       <para>
-        <screen><prompt>#</prompt> <userinput>apt-get install ubuntu-cloud-keyring python-software-properties software-properties-common python-keyring</userinput></screen>
-        <screen><prompt>#</prompt> <userinput>echo deb http://ubuntu-cloud.archive.canonical.com/ubuntu precise-updates/icehouse main >> /etc/apt/sources.list.d/icehouse.list</userinput></screen>
+        <screen><prompt>#</prompt><userinput>apt-get install ubuntu-cloud-keyring python-software-properties software-properties-common python-keyring</userinput></screen>
+        <screen><prompt>#</prompt><userinput>add-apt-repository cloud-archive:icehouse</userinput></screen>
       </para>
     </listitem>
     <listitem>
       <para>Update your system:</para>
       <para>
-        <screen><prompt>#</prompt> <userinput>apt-get update</userinput></screen>
-        <screen><prompt>#</prompt> <userinput>apt-get upgrade</userinput></screen>
-        <screen><prompt>#</prompt> <userinput>apt-get dist-upgrade</userinput></screen>
+        <screen><prompt>#</prompt><userinput>apt-get update</userinput></screen>
+        <screen><prompt>#</prompt><userinput>apt-get upgrade</userinput></screen>
+        <screen><prompt>#</prompt><userinput>apt-get dist-upgrade</userinput></screen>
       </para>
     </listitem>
     <listitem>
-      <para>Install NTP and other services:</para>
-      <para>
-          <screen><prompt>#</prompt> <userinput>apt-get install ntp vlan bridge-utils</userinput></screen>
-      </para>
+        <para>Restart the machine for the changes to apply</para>
+        <screen><prompt>#</prompt> <userinput>reboot</userinput></screen>
     </listitem>
     <listitem>
-      <para>Configure NTP Server to Controller Node:</para>
-      <para>
+        <para>Install vlan and bridge-utils packages:</para>
+        <screen><prompt>#</prompt> <userinput>apt-get install vlan bridge-utils</userinput></screen>
+    </listitem>
+    <listitem>
+        <para>Install NTP:</para>
+    <para>
+        <screen><prompt>#</prompt> <userinput>apt-get install ntp</userinput></screen>
+    </para>
+    </listitem>
+    <listitem>
+    <para>Configure NTP server to controller node:</para>
+    <para>
         <screen><prompt>#</prompt> <userinput>sed -i 's/server 0.ubuntu.pool.ntp.org/#server0.ubuntu.pool.ntp.org/g' /etc/ntp.conf</userinput></screen>
         <screen><prompt>#</prompt> <userinput>sed -i 's/server 1.ubuntu.pool.ntp.org/#server1.ubuntu.pool.ntp.org/g' /etc/ntp.conf</userinput></screen>
         <screen><prompt>#</prompt> <userinput>sed -i 's/server 2.ubuntu.pool.ntp.org/#server2.ubuntu.pool.ntp.org/g' /etc/ntp.conf</userinput></screen>
         <screen><prompt>#</prompt> <userinput>sed -i 's/server 3.ubuntu.pool.ntp.org/#server3.ubuntu.pool.ntp.org/g' /etc/ntp.conf</userinput></screen>
-      </para>
-    </listitem>
-    <listitem>
-      <para>Enable IP Forwarding by adding the following to <filename>/etc/sysctl.conf</filename>:</para>
+        <screen><prompt>#</prompt> <userinput>sed -i 's/server ntp.ubuntu.com/server 10.10.10.51/g'/etc/ntp.conf</userinput></screen>
+   </para>
+   </listitem>
+   <listitem>
+      <para>Enable IP forwarding by adding the following to <filename>/etc/sysctl.conf</filename>:</para>
       <para>
         <programlisting>net.ipv4.ip_forward=1
 net.ipv4.conf.all.rp_filter=0
@@ -81,11 +175,11 @@ net.ipv4.conf.default.rp_filter=0</programlisting>
         <screen><prompt>#</prompt> <userinput>sysctl -p</userinput></screen>
       </para>
     </listitem>
-  </itemizedlist>
-  <para><emphasis role="bold">Open vSwitch</emphasis></para>
-  <itemizedlist>
+</itemizedlist>
+<para><emphasis role="bold">Open vSwitch</emphasis></para>
+<itemizedlist>
     <listitem>
-      <para>Install Open vSwitch Packages:</para>
+      <para>Install Open vSwitch packages:</para>
       <para>
         <screen><prompt>#</prompt> <userinput>apt-get install -y openvswitch-switch openvswitch-datapath-dkms</userinput></screen>
       </para>
@@ -97,137 +191,89 @@ net.ipv4.conf.default.rp_filter=0</programlisting>
         <screen><prompt>#</prompt> <userinput>ovs-vsctl add-br br-ex</userinput></screen>
       </para>
     </listitem>
-  </itemizedlist>
+</itemizedlist>
   <para><emphasis role="bold">Neutron</emphasis></para>
-  <itemizedlist>
+<itemizedlist>
     <listitem>
       <para>Neutron:</para>
       <para>
-        <screen><prompt>#</prompt> <userinput>apt-get install neutron-server neutron-dhcp-agent neutron-plugin-openvswitch-agent neutron-l3-agent</userinput></screen>
+          <screen><prompt>#</prompt> <userinput>apt-get install neutron-plugin-ml2 neutron-plugin-openvswitch-agent openvswitch-datapath-dkms \
+            neutron-l3-agent neutron-dhcp-agent</userinput></screen>
       </para>
-    </listitem>
-    <listitem>
-      <para>Edit <filename>/etc/neutron/api-paste.ini</filename>:</para>
-      <para>
-        <programlisting>[filter:authtoken]
-paste.filter_factory = keystoneclient.middleware.auth_token:filter_factory
-auth_host = 10.10.10.51
-auth_port = 35357
-auth_protocol = http
-admin_tenant_name = service
-admin_user = neutron
-admin_password = service_pass</programlisting>
-      </para>
-    </listitem>
-    <listitem>
-      <para>Edit
-        <filename>/etc/neutron/plugins/openvswitch/ovs_neutron_plugin.ini</filename>:</para>
-      <para>
-        <programlisting>#Under the database section
-[DATABASE]
-connection = mysql://neutronUser:neutronPass@10.10.10.51/neutron
-#Under the OVS section
-[OVS]
-tenant_network_type = gre
-tunnel_id_ranges = 1:1000
-integration_bridge = br-int
-tunnel_bridge = br-tun
-local_ip = 10.10.10.51
-enable_tunneling = True
-tunnel_type = gre
-[agent]
-tunnel_types = gre
-#Firewall driver for realizing quantum security group function
-[SECURITYGROUP]
-firewall_driver =
-neutron.agent.linux.iptables_firewall.OVSHybridIptablesFirewallDriver</programlisting>
-      </para>
-    </listitem>
-    <listitem>
-      <para>Edit <filename>/etc/neutron/metadata_agent.ini</filename>:</para>
-      <para>
-        <programlisting># The Neutron user information for accessing the Neutron API.
-auth_url = http://10.10.10.51:35357/v2.0
-auth_region = RegionOne
-admin_tenant_name = service
-admin_user = neutron
-admin_password = service_pass
-# IP address used by Nova metadata server
-nova_metadata_ip = 10.10.10.51
-# TCP Port used by Nova metadata server
-nova_metadata_port = 8775
-metadata_proxy_shared_secret = helloOpenStack</programlisting>
-      </para>
-    </listitem>
-    <listitem>
-      <para>Edit <filename>/etc/neutron/dhcp_agent.ini</filename>:</para>
-      <para>
-        <programlisting>interface_driver = neutron.agent.linux.interface.OVSInterfaceDriver</programlisting>
-      </para>
-    </listitem>
-    <listitem>
-      <para>Edit <filename>/etc/neutron/l3_agent.ini</filename>:</para>
-      <para>
-        <programlisting>[DEFAULT]
-interface_driver = neutron.agent.linux.interface.OVSInterfaceDriver
-external_network_bridge = br-ex</programlisting>
-      </para>
-    </listitem>
-    <listitem>
-      <para>Edit <filename>/etc/neutron/neutron.conf</filename>:</para>
-      <para>
-        <programlisting>rabbit_host = 10.10.10.51
-#And update the keystone_authtoken section
-[keystone_authtoken]
-auth_host = 10.10.10.51
-auth_port = 35357
-auth_protocol = http
-admin_tenant_name = service
-admin_user = neutron
-admin_password = service_pass
-signing_dir = /var/lib/neutron/keystone-signing
-[database]
-connection = mysql://neutronUser:neutronPass@10.10.10.51/neutron</programlisting>
-      </para>
-    </listitem>
-    <listitem>
-      <para>Edit <filename>/etc/sudoers.d/neutron_sudoers:</filename>:</para>
-      <para>
-        <programlisting>#Modify the neutron user
-neutron ALL=NOPASSWD: ALL</programlisting>
-      </para>
-    </listitem>
-    <listitem>
-      <para>Restart Services:</para>
-      <para>
-        <screen><prompt>#</prompt> <userinput>for i in neutron-dhcp-agent neutron-metadata-agent neutron-
-plugin-agent neutron-l3-agent neutron-server; do service $i
-restart; done</userinput></screen>
-      </para>
-    </listitem>
-    <listitem>
-      <para>Edit Network Interfaces file <filename>/etc/network/interfaces</filename>:</para>
-      <para>
-        <programlisting>auto eth2
-iface eth2 inet manual
-up ifconfig $IFACE 0.0.0.0 up
-up ip link set $IFACE promisc on
-down ip link set $IFACE promisc off
-down ifconfig $IFACE down
+  </listitem>
+  <listitem>
+      <para>Edit <filename>/etc/neutron/neutron.conf</filename></para>
+      <para><programlisting>[DEFAULT]
+auth_strategy = keystone
+rpc_backend = neutron.openstack.common.rpc.impl_kombu
+rabbit_host = 10.10.10.51
+core_plugin = ml2
+service_plugins = router
+allow_overlapping_ips = True
 
-auto br-ex
-iface br-ex inet static
-address 192.168.100.52
-netmask 255.255.255.0
-gateway 192.168.100.1
-dns-nameservers 8.8.8.8</programlisting>
-      </para>
-    </listitem>
-    <listitem>
-      <para>Update your system:</para>
-      <para>
-        <screen><prompt>#</prompt> <userinput>ovs-vsctl add-port br-ex eth2</userinput></screen>
-      </para>
-    </listitem>
+[keystone_authtoken]
+auth_uri = http://10.10.10.51:5000
+auth_host = 10.10.10.51
+auth_protocol = http
+auth_port = 35357
+admin_tenant_name = service
+admin_user = neutron
+admin_password = service_pass</programlisting></para>
+  </listitem>
+  <listitem>
+      <para>Edit <filename>/etc/neutron/l3_agent.ini</filename></para>
+      <para><programlisting>[DEFAULT]
+interface_driver = neutron.agent.linux.interface.OVSInterfaceDriver
+use_namespaces = True</programlisting></para>
+  </listitem>
+  <listitem>
+      <para>Edit <filename>/etc/neutron/metadata_agent.ini</filename></para>
+      <para><programlisting>[DEFAULT]
+auth_url = http://10.10.10.51:5000/v2.0
+auth_region = regionOne
+admin_tenant_name = service
+admin_user = neutron
+admin_password = service_pass
+nova_metadata_ip = 10.10.10.51
+metadata_proxy_shared_secret = OpenStackTraining</programlisting></para>
+  </listitem>
+  <listitem>
+      <para>Configure ML2 Plugin by editing the file <filename>/etc/neutron/plugins/ml2/ml2_conf.ini</filename></para>
+      <para><programlisting>[ml2]
+type_drivers = gre
+tenant_network_types = gre
+mechanism_drivers = openvswitch
+
+[ml2_type_gre]
+tunnel_id_ranges = 1:1000
+
+[ovs]
+local_ip = 10.20.20.52
+tunnel_type = gre
+enable_tunneling = True
+
+[securitygroup]
+firewall_driver = neutron.agent.linux.iptables_firewall.OVSHybridIptablesFirewallDriver
+enable_security_group = True</programlisting></para>
+  </listitem>
+  <listitem>
+    <para>Restart OVS service</para>
+    <screen><prompt>#</prompt><userinput>service openvswitch-switch restart</userinput></screen>
+  </listitem>
+  <listitem>
+      <para>Add the integration bridge</para>
+      <screen><prompt>#</prompt><userinput>ovs-vsctl add-br br-int</userinput></screen>
+      <para>Add the external bridge</para>
+      <screen><prompt>#</prompt><userinput>ovs-vsctl add-br br-ex</userinput></screen>
+      <para>Add port to external bridge</para>
+      <screen><prompt>#</prompt><userinput>ovs-vsctl add-port br-ex eth3</userinput></screen>
+  </listitem>
+  <listitem>
+      <para>Restart neutron services</para>
+      <screen><prompt>#</prompt><userinput>service neutron-plugin-openvswitch-agent restart</userinput></screen>
+      <screen><prompt>#</prompt><userinput>service neutron-l3-agent restart</userinput></screen>
+      <screen><prompt>#</prompt><userinput>service neutron-dhcp-agent restart</userinput></screen>
+      <screen><prompt>#</prompt><userinput>service neutron-metadata-agent restart</userinput></screen>
+  </listitem>
   </itemizedlist>
 </chapter>
