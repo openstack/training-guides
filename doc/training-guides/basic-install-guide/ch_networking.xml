@@ -5,9 +5,9 @@
   version="5.0"
   xml:id="ch_networking">
   <title>Add a networking component</title>
-  <para>This chapter explains how to install and configure either
+  <para>This chapter explains how to install and configure
     OpenStack Networking (neutron) or the legacy <systemitem
-      class="service">nova-network</systemitem> networking service.
+      class="service">nova-network</systemitem> service.
     The <systemitem class="service">nova-network</systemitem> service
     enables you to deploy one network type per instance and is
     suitable for basic network functionality. OpenStack Networking
@@ -39,8 +39,8 @@
   <section xml:id="section_networking_next_steps">
     <title>Next steps</title>
     <para>Your OpenStack environment now includes the core components
-      necessary to launch a basic instance. You can <link
-        linkend="launch-instance">launch an instance</link> or add
+      necessary to launch an instance. You can <link
+        linkend="launch-instance">launch an instance</link> and add
       more OpenStack services to your environment.</para>
   </section>
 </chapter>
