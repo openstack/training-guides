@@ -7,13 +7,13 @@
   <title>Add the dashboard</title>
   <para>The OpenStack dashboard, also known as <link
       xlink:href="https://github.com/openstack/horizon/"
-      >Horizon</link>, is a Web interface that enables cloud
+      >Horizon</link>, is a web interface that enables cloud
     administrators and users to manage various OpenStack resources and
     services.</para>
   <para>The dashboard enables web-based interactions with the
     OpenStack Compute cloud controller through the OpenStack
     APIs.</para>
-  <para>These instructions show an example deployment configured with
+  <para>These instructions show an example deployment, configured with
     an Apache web server.</para>
   <para>After you <link linkend="install_dashboard">install and
       configure the dashboard</link>, you can complete the following
@@ -38,7 +38,7 @@
   <section xml:id="section_horizon_next_steps">
     <title>Next steps</title>
     <para>Your OpenStack environment now includes the dashboard. You can
-      <link linkend="launch-instance">launch an instance</link> or add more
+      <link linkend="launch-instance">launch an instance</link> and add more
       services to your environment in the following chapters.</para>
   </section>
 </chapter>
