@@ -18,23 +18,23 @@
         <!--phrase os="debian">Debian 7.0 (Wheezy)</phrase-->
     </titleabbrev>
        <!-- para>
-            <para>The OpenStack® system consists of several key
-                projects that you install separately but that work
-                together depending on your cloud needs. These projects
+            <para>OpenStack® consists of several key
+                projects that are installed separately but work
+                together depending on the requirements of the users. These projects
                 include Compute, Identity Service, Networking, Image
                 Service, Block Storage, Object Storage, Telemetry,
-                Orchestration, and Database. You can install any of these
-                projects separately and configure them stand-alone or
+                Orchestration, and Database. These projects can be installed
+                separately and configured as a stand-alone project or
                 as connected entities. <phrase
-                    os="debian">This guide walks through an
+                    os="debian">This guide walks through the
                     installation by using packages available through
                     Debian 7.0 (code name: Wheezy).</phrase>
-                <phrase os="ubuntu">This guide walks through an
+                <phrase os="ubuntu">This guide will walk you through an
                     installation by using packages available through
                     Ubuntu 12.04 (LTS) or 14.04 (LTS).</phrase>
-                <phrase os="rhel;centos;fedora">This guide shows you
+                <phrase os="rhel;centos;fedora">This guide will show
                     how to install OpenStack by using packages
-                    available through Fedora 20 as well as on Red Hat
+                    available through Fedora 20 as well as with Red Hat
                     Enterprise Linux and its derivatives through the
                     EPEL repository.</phrase>
                 <phrase os="opensuse">This guide shows you how to
