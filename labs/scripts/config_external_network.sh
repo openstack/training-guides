@@ -12,6 +12,11 @@ indicate_current_auto
 # Create the external network and a subnet on it.
 #------------------------------------------------------------------------------
 
+echo "Waiting for neutron to start."
+until neutron net-list >/dev/null 2>&1; do
+    sleep 1
+done
+
 echo "Creating the external network."
 neutron net-create ext-net --shared --router:external=True
 
