@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-08-19 06:14+0000\n"
+"POT-Creation-Date: 2014-08-23 06:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3052,7 +3052,7 @@ msgid "Add Object Storage"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/ch_swift.xml:8(para)
-msgid "The OpenStack Object Storage services work together to provide object storage and retrieval through a REST API. For this example architecture, you must have already installed the Identity Service, also known as Keystone."
+msgid "The OpenStack Object Storage services work together to provide object storage and retrieval through a REST API. For this example architecture, as a prerequisite, you should already have the Identity Service, also known as Keystone, installed."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/ch_swift.xml:31(title) ./doc/training-guides/basic-install-guide/ch_horizon.xml:39(title) ./doc/training-guides/basic-install-guide/ch_heat.xml:14(title) ./doc/training-guides/basic-install-guide/ch_ceilometer.xml:19(title) ./doc/training-guides/basic-install-guide/ch_cinder.xml:21(title) ./doc/training-guides/basic-install-guide/ch_networking.xml:40(title)
@@ -3152,7 +3152,7 @@ msgid "Add the dashboard"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/ch_horizon.xml:8(para)
-msgid "The OpenStack dashboard, also known as <link href=\"https://github.com/openstack/horizon/\">Horizon</link>, is a Web interface that enables cloud administrators and users to manage various OpenStack resources and services."
+msgid "The OpenStack dashboard, also known as <link href=\"https://github.com/openstack/horizon/\">Horizon</link>, is a web interface that enables cloud administrators and users to manage various OpenStack resources and services."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/ch_horizon.xml:13(para)
@@ -3160,7 +3160,7 @@ msgid "The dashboard enables web-based interactions with the OpenStack Compute c
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/ch_horizon.xml:16(para)
-msgid "These instructions show an example deployment configured with an Apache web server."
+msgid "These instructions show an example deployment, configured with an Apache web server."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/ch_horizon.xml:18(para)
@@ -3176,7 +3176,7 @@ msgid "Set up session storage for the dashboard. See <xref linkend=\"dashboard-s
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/ch_horizon.xml:40(para)
-msgid "Your OpenStack environment now includes the dashboard. You can <link linkend=\"launch-instance\">launch an instance</link> or add more services to your environment in the following chapters."
+msgid "Your OpenStack environment now includes the dashboard. You can <link linkend=\"launch-instance\">launch an instance</link> and add more services to your environment in the following chapters."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_keystone-verify.xml:8(para)
@@ -4034,7 +4034,7 @@ msgid "This chapter explains how to configure each node in the <link linkend=\"a
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/ch_basics.xml:27(para)
-msgid "Although most environments include OpenStack Identity, Image Service, Compute, at least one networking service, and the dashboard, OpenStack Object Storage can operate independently of most other services. If your use case only involves Object Storage, you can skip to . However, the dashboard will not work without at least OpenStack Image Service and Compute."
+msgid "Although most environments include OpenStack Identity, Image Service, Compute, one networking service, and the dashboard, OpenStack Object Storage can operate independently of most other services. If your use case only involves Object Storage, you can skip to . However, the dashboard will not work without at least the OpenStack Image Service and Compute."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/ch_basics.xml:36(para)
@@ -5211,11 +5211,11 @@ msgid "Add the Block Storage service"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/ch_cinder.xml:8(para)
-msgid "The OpenStack Block Storage service works through the interaction of a series of daemon processes named <systemitem role=\"process\">cinder-*</systemitem> that reside persistently on the host machine or machines. You can run the binaries from a single node or across multiple nodes. You can also run them on the same node as other OpenStack services. The following sections introduce Block Storage service components and concepts and show you how to configure and install the Block Storage service."
+msgid "The OpenStack Block Storage service works through the interaction of a series of daemon processes named <systemitem role=\"process\">cinder-*</systemitem> that reside persistently on the host machine or machines. You can run the binaries from a single node or across multiple nodes. You can also run them on the same node as other OpenStack services. The following sections introduce Block Storage service components and concepts. They will also show you how to configure and install the Block Storage service."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/ch_cinder.xml:22(para)
-msgid "Your OpenStack environment now includes Block Storage. You can <link linkend=\"launch-instance\">launch an instance</link> or add more services to your environment in the following chapters."
+msgid "Your OpenStack environment now includes Block Storage. You can <link linkend=\"launch-instance\">launch an instance</link> or add more services to your environment in the next chapters."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -5329,7 +5329,7 @@ msgid "Add a networking component"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/ch_networking.xml:8(para)
-msgid "This chapter explains how to install and configure either OpenStack Networking (neutron) or the legacy <systemitem class=\"service\">nova-network</systemitem> networking service. The <systemitem class=\"service\">nova-network</systemitem> service enables you to deploy one network type per instance and is suitable for basic network functionality. OpenStack Networking enables you to deploy multiple network types per instance and includes <glossterm baseform=\"plug-in\">plug-ins</glossterm> for a variety of products that support <glossterm>virtual networking</glossterm>."
+msgid "This chapter explains how to install and configure OpenStack Networking (neutron) or the legacy <systemitem class=\"service\">nova-network</systemitem> service. The <systemitem class=\"service\">nova-network</systemitem> service enables you to deploy one network type per instance and is suitable for basic network functionality. OpenStack Networking enables you to deploy multiple network types per instance and includes <glossterm baseform=\"plug-in\">plug-ins</glossterm> for a variety of products that support <glossterm>virtual networking</glossterm>."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/ch_networking.xml:18(para)
@@ -5341,7 +5341,7 @@ msgid "Modular Layer 2 (ML2) plug-in"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/ch_networking.xml:41(para)
-msgid "Your OpenStack environment now includes the core components necessary to launch a basic instance. You can <link linkend=\"launch-instance\">launch an instance</link> or add more OpenStack services to your environment."
+msgid "Your OpenStack environment now includes the core components necessary to launch an instance. You can <link linkend=\"launch-instance\">launch an instance</link> and add more OpenStack services to your environment."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
