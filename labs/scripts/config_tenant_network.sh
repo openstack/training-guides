@@ -12,6 +12,11 @@ indicate_current_auto
 #
 #------------------------------------------------------------------------------
 
+echo "Waiting for neutron to start."
+until neutron net-list >/dev/null 2>&1; do
+    sleep 1
+done
+
 echo "Creating the tenant network."
 neutron net-create demo-net
 
