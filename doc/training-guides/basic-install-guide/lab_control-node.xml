@@ -140,7 +140,23 @@ netmask 255.255.255.0
     <screen>
         <prompt>#</prompt> <userinput>reboot</userinput>
     </screen>
-  <para><emphasis role="bold">My SQL</emphasis></para>
+    <para>Install vlan and bridge-utils packages:</para>
+    <para>
+        <screen><prompt>#</prompt> <userinput>apt-get install vlan bridge-utils</userinput></screen>
+    </para>
+    <para>Install NTP:</para>
+    <para>
+        <screen><prompt>#</prompt> <userinput>apt-get install ntp</userinput></screen>
+    </para>
+    <para>Configure NTP Server to controller node:</para>
+    <para>
+        <screen><prompt>#</prompt> <userinput>sed -i 's/server 0.ubuntu.pool.ntp.org/#server 0.ubuntu.pool.ntp.org/g' /etc/ntp.conf</userinput></screen>
+        <screen><prompt>#</prompt> <userinput>sed -i 's/server 1.ubuntu.pool.ntp.org/#server 1.ubuntu.pool.ntp.org/g' /etc/ntp.conf</userinput></screen>
+        <screen><prompt>#</prompt> <userinput>sed -i 's/server 2.ubuntu.pool.ntp.org/#server 2.ubuntu.pool.ntp.org/g' /etc/ntp.conf</userinput></screen>
+        <screen><prompt>#</prompt> <userinput>sed -i 's/server 3.ubuntu.pool.ntp.org/#server 3.ubuntu.pool.ntp.org/g' /etc/ntp.conf</userinput></screen>
+        <screen><prompt>#</prompt> <userinput>sed -i 's/server ntp.ubuntu.com/server 10.10.10.51/g'/etc/ntp.conf</userinput></screen>
+    </para>
+  <para><emphasis role="bold">MySQL</emphasis></para>
   <itemizedlist>
     <listitem>
       <para>Install MySQL:</para>
