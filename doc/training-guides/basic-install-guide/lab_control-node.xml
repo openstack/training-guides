@@ -3,8 +3,8 @@
   xmlns:xi="http://www.w3.org/2001/XInclude"
   xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0"
   xml:id="lab_control-node.xml">
-  <title>Control Node</title>
-  <para><emphasis role="bold">Network Diagram :</emphasis></para>
+  <title>Controller node</title>
+  <para><emphasis role="bold">Network Diagram:</emphasis></para>
   <figure>
     <title>Network Diagram</title>
     <mediaobject>
@@ -15,21 +15,19 @@
     </mediaobject>
   </figure>
   <para>Publicly editable image source at <link
-      xlink:href="https://docs.google.com/drawings/d/1GX3FXmkz3c_tUDpZXUVMpyIxicWuHs5fNsHvYNjwNNk/edit?usp=sharing"
-      >https://docs.google.com/drawings/d/1GX3FXmkz3c_tUDpZXUVMpyIxicWuHs5fNsHvYNjwNNk/edit?usp=sharing</link></para>
+    xlink:href="https://docs.google.com/drawings/d/1GX3FXmkz3c_tUDpZXUVMpyIxicWuHs5fNsHvYNjwNNk/edit?usp=sharing"
+    >https://docs.google.com/drawings/d/1GX3FXmkz3c_tUDpZXUVMpyIxicWuHs5fNsHvYNjwNNk/edit?usp=sharing</link></para>
   <para><emphasis role="bold">Vboxnet0</emphasis>, <emphasis
       role="bold">Vboxnet1</emphasis>, <emphasis role="bold"
       >Vboxnet2</emphasis> - are virtual networks setup up by virtual
     box with your host machine. This is the way your host can
     communicate with the virtual machines. These networks are in turn
-    used by VirtualBox virtual machines for OpenStack networks, so
+    used by VirtualBox VMs for OpenStack networks, so
     that OpenStack’s services can communicate with each other.</para>
   <note>
-    <para>When you reboot the controller node on the VirtualBox
-      virtual machine, you might lose Internet and network
-      connectivity. Restart the networking service and use the
-        <command>ping</command> command to check whether the network
-      interfaces can communicate over the given networks.</para>
+      <para>On reboot the node VM may lose internet and network connectivity.
+          Restart the networking service and use the <command>ping</command>
+          command to verify the network connectivity for the given VM.</para>
   </note>
   <note>
     <para>To avoid issues on the VirtualBox virtual machine
@@ -38,48 +36,45 @@
       shut down.</para>
   </note>
   <note>
-    <para>It is advised to take regular snapshots of the Virtual Box
-      Virtual Machines (controller node) after each section. This will
-      help you save your session and revert back to it in case you
-      break something while deploying OpenStack.</para>
+    <para>Take regular snapshots of the VirtualBox virtual machines after
+          each section. In case the VM is broken, you may revert back to the
+          snapshot to save time and effort.</para>
   </note>
-  <para><guilabel>controller node</guilabel></para>
-  <para>Start your controller node the one you setup in the previous
-    section.</para>
-  <para><emphasis role="bold">Preparing Ubuntu
-    13.04/12.04</emphasis></para>
+  <para><guilabel>Controller node</guilabel></para>
+  <para>
+      Start the controller node which was set up in a previous section.
+  </para>
+  <para><emphasis role="bold">Preparing Ubuntu 14.04</emphasis></para>
   <para><emphasis role="bold">Networking :</emphasis></para>
-  <para>Configure your network by editing
+  <para>Configure your network by editing the
       <filename>/etc/network/interfaces</filename> file</para>
   <itemizedlist>
     <listitem>
       <para>Open <filename>/etc/network/interfaces</filename> and edit the
         file as mentioned:</para>
     <programlisting>
-# This file describes the network interfaces available on your system
-# and how to activate them. For more information, see interfaces(5).
-# This file is configured for OpenStack Control Node by dguitarbite.
-# Note: Selection of the IP addresses is important, changing them may break some of OpenStack Related services,
-# As these IP addresses are essential for communication between them.
+# This file is for the OpenStack controller node for OpenStack training project.
+# Note: Selection of the IP addresses is important.
+# Any changes to the IP addresses may break OpenStack related services.
 
-# The loopback network interface - for Host-Onlyroot
+# The loopback network interface
 auto lo
 iface lo inet loopback
 
 # The primary network interface - Virtual Box NAT connection
-# (Virtual Box Network Adapter 3)
+# (Virtual Box Network Adapter 1)
 auto eth0
 iface eth0 inet dhcp
 
-# Virtual Box vboxnet0 - OpenStack Management Network
-# (Virtual Box Network Adapter 1)
+# Virtual Box vboxnet0 - OpenStack management network
+# (Virtual Box Network Adapter 2)
 auto eth1
 iface eth1 inet static
 address 10.10.10.51
 netmask 255.255.255.0
 
-# Virtual Box vboxnet2 - for exposing OpenStack API over external network
-# (Virtual Box Network Adapter 2)
+# VirtualBox vboxnet2 - OpenStack API network
+# (Virtual Box Network Adapter 3)
 auto eth2
 iface eth2 inet static
 address 192.168.100.51
@@ -93,20 +88,15 @@ netmask 255.255.255.0
       <screen><prompt>#</prompt> <userinput>ifconfig</userinput></screen>
     </listitem>
     <listitem>
-      <para>You should see the expected network interface cards with
-        the required IP Addresses.</para>
+        <para>Verify if the network interfaces have the given IP addresses as
+        configured above.</para>
     </listitem>
   </itemizedlist>
-  <para><emphasis role="bold">SSH from HOST</emphasis></para>
+  <para><emphasis role="bold">SSH from host</emphasis></para>
   <itemizedlist>
     <listitem>
-      <para>Create an SSH key pair for your Control Node. Follow the
-        same steps as you did in the begin of the article
-        for your host machine.</para>
-    </listitem>
-    <listitem>
-      <para>To SSH into the Control Node from the Host Machine, type
-        the below command.</para>
+      <para>To SSH into the controller node from the host machine, type
+        the following command.</para>
       <screen><prompt>$</prompt> <userinput>ssh control@10.10.10.51</userinput></screen>
       <screen><prompt>$</prompt> <userinput>sudo su</userinput></screen>
     </listitem>
@@ -118,7 +108,7 @@ netmask 255.255.255.0
     <screen>
         <prompt>#</prompt><userinput>apt-get update</userinput>
     </screen>
-<para><emphasis role="bold">To use the Ubuntu Cloud Archive for Icehouse</emphasis>
+<para><emphasis role="bold">Update Ubuntu Cloud Archive for Icehouse</emphasis>
 </para>
     <para>The <link
       xlink:href="https://wiki.ubuntu.com/ServerTeam/CloudArchive"
@@ -127,7 +117,8 @@ netmask 255.255.255.0
       stable supported version of Ubuntu.</para>
      <para>Install the Ubuntu Cloud Archive for Icehouse
         <screen>
-            <prompt>#</prompt><userinput>apt-get install ubuntu-cloud-keyring software-properties-common python-software-properties</userinput>
+            <prompt>#</prompt><userinput>apt-get install ubuntu-cloud-keyring software-properties-common \
+                python-software-properties</userinput>
             <prompt>#</prompt><userinput>add-apt-repository cloud-archive:icehouse</userinput>
         </screen>
     </para>
@@ -203,12 +194,7 @@ netmask 255.255.255.0
       <screen><prompt>mysql></prompt> <userinput>quit;</userinput></screen>
     </listitem>
   </itemizedlist>
-  <para><emphasis role="bold">Other</emphasis></para>
-  <para><emphasis role="bold">Keystone</emphasis></para>
-  <para>Keystone is an OpenStack project that provides Identity,
-    Token, Catalog and Policy services for use specifically by
-    projects in the OpenStack family. It implements OpenStack’s
-    Identity API.</para>
+  <para><emphasis role="bold">Installing Keystone</emphasis></para>
   <itemizedlist>
     <listitem>
       <para>Install the Keystone packages:</para>
