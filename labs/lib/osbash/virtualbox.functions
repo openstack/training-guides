@@ -698,7 +698,11 @@ function vbox_boot {
     local VM=$1
 
     echo >&2 "Starting VM \"$VM\""
-    $VBM startvm "$VM"
+    if [ -n "${VM_UI:-}" ]; then
+        $VBM startvm "$VM" --type "$VM_UI"
+    else
+        $VBM startvm "$VM"
+    fi
 }
 
 #-------------------------------------------------------------------------------
