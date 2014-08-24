@@ -27,9 +27,12 @@ function vbm {
     fi
 }
 
+# Return VirtualBox version string (without distro extensions)
 function get_vb_version {
     local VERSION=""
+    # e.g. 4.1.32r92798 4.3.10_RPMFusionr93012 4.3.10_Debianr93012
     local RAW=$(WBATCH= $VBM --version)
+    # Sanitize version string
     local re='([0-9]+\.[0-9]+\.[0-9]+).*'
     if [[ $RAW =~ $re ]]; then
         VERSION=${BASH_REMATCH[1]}
@@ -483,8 +486,8 @@ function vm_rm_share {
 # VirtualBox guest add-ons
 #-------------------------------------------------------------------------------
 
+# Download VirtualBox guest-additions. Returns local path of ISO image.
 function _download_guestadd-iso {
-    # e.g. 4.1.32r92798 4.3.10_RPMFusionr93012 4.3.10_Debianr93012
     local ISO=VBoxGuestAdditions.iso
     local VER=$(get_vb_version)
     if [[ -n "$VER" ]]; then
