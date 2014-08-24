@@ -491,7 +491,7 @@ function _download_guestadd-iso {
         local URL="http://download.virtualbox.org/virtualbox/$VER/VBoxGuestAdditions_$VER.iso"
         download "$URL" "$ISO_DIR" $ISO
     fi
-    GUESTADD_ISO="$ISO_DIR/$ISO"
+    echo "$ISO_DIR/$ISO"
 }
 
 function _get_guestadd-iso {
@@ -517,7 +517,7 @@ function _get_guestadd-iso {
     fi
 
     echo >&2 "Looking on the Internet"
-    _download_guestadd-iso
+    ADD_ISO=$(_download_guestadd-iso)
     if [ -f "$ADD_ISO" ]; then
         echo "$ADD_ISO"
         return 0
