@@ -38,7 +38,7 @@ function vm_install_base {
         --type dvddrive \
         --medium "$INSTALL_ISO"
 
-    vm_attach_guestadd-iso "$VM_BASE_NAME"
+    ${WBATCH:-:} vm_attach_guestadd-iso "$VM_BASE_NAME"
 
     ${OSBASH:-:} mkdir -pv "$DISK_DIR"
     create_vdi "$BASE_BUILD_DISK" 8000
