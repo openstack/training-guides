@@ -140,7 +140,7 @@ function ssh_process_autostart {
     local SCR_PATH=""
     for SCRIPT_PATH in "$AUTOSTART_DIR/"*.sh; do
         ssh_exec_script "$SSH_PORT" "$SCRIPT_PATH"
-        rm -vf "$SCRIPT_PATH" >&2
+        rm -f "$SCRIPT_PATH" >&2
     done
     touch "$STATUS_DIR/done"
 }
