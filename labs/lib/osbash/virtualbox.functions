@@ -381,6 +381,38 @@ function vm_create {
 }
 
 #-------------------------------------------------------------------------------
+# VM export
+#-------------------------------------------------------------------------------
+
+# Export node VMs to OVA package file
+function vm_export_ova {
+    local ova_file=$1
+    local nodes=$2
+    echo >&2 "Removing shared folders for export"
+    local -a share_paths
+    local node
+    for node in $nodes; do
+        local share_path=$(vm_get_share_path "$node")
+        share_paths+=("$share_path")
+        if [ -n "$share_path" ]; then
+            vm_rm_share "$node" "$SHARE_NAME"
+        fi
+    done
+    rm -f "$ova_file"
+    mkdir -pv "$IMG_DIR"
+    $VBM export $nodes --output "$ova_file"
+    echo >&2 "Appliance exported"
+    echo >&2 "Reattaching shared folders"
+    local ii=0
+    for node in $nodes; do
+        if [ -n "${share_paths[$ii]}" ]; then
+            vm_add_share "$node" "$SHARE_DIR" "$SHARE_NAME"
+        fi
+        ii=$(($ii + 1))
+    done
+}
+
+#-------------------------------------------------------------------------------
 # VM unregister, remove, delete
 #-------------------------------------------------------------------------------
 
