@@ -11,7 +11,7 @@
     service typically runs on the controller node. OpenStack supports several
     message brokers including <application>RabbitMQ</application>,
     <application>Qpid</application>, and <application>ZeroMQ</application>.
-    However, most distributions that package OpenStack support a particular
+    Most distributions that package OpenStack support a particular
     message broker. This guide covers the RabbitMQ message broker which is
     supported by each distribution. If you prefer to implement a
     different message broker, consult the documentation associated
@@ -61,11 +61,11 @@
         message broker.</para>
       <note>
         <para>For production environments, you should create a unique account
-          with suitable password. For more information on securing the
+          with a suitable password. For more information on securing the
           message broker, see the
         <link xlink:href="https://www.rabbitmq.com/man/rabbitmqctl.1.man.html"
           >documentation</link>.</para>
-        <para>If you decide to create a unique account with suitable password
+        <para>If you decide to create a unique account with a suitable password
           for your test environment, you must configure the
           <literal>rabbit_userid</literal> and
           <literal>rabbit_password</literal> keys in the configuration file
@@ -73,6 +73,6 @@
       </note>
     </step>
   </procedure>
-  <para>Congratulations, now you are ready to install OpenStack
+  <para>Congratulations, you are now ready to install OpenStack
     services!</para>
 </section>
