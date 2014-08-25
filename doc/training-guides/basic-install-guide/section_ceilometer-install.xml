@@ -45,7 +45,7 @@
       <screen os="ubuntu;debian"><prompt>#</prompt> <userinput>apt-get install mongodb-server</userinput></screen>
       <note>
         <para>
-          By default MongoDB is configured to create several 1 GB files
+          By default, MongoDB is configured to create several 1 GB files
           in the <filename>/var/lib/mongodb/journal/</filename> directory
           to support database journaling.
         </para>
@@ -58,7 +58,7 @@
           file to 512 MB.
         </para>
         <para os="ubuntu;debian">
-          As the files are created the first time the MongoDB service starts
+          As the files are created, the first time the MongoDB service starts
           you must stop the service and remove the files for this change to
           take effect:
         </para>
@@ -157,7 +157,7 @@ rabbit_password = <replaceable>RABBIT_PASS</replaceable></programlisting>
     </step>
 
     <step os="ubuntu">
-      <para>Configure the log directory.</para>
+      <para>Configure the log directory:</para>
       <para>Edit the <filename>/etc/ceilometer/ceilometer.conf</filename> file
       and update the <literal>[DEFAULT]</literal> section:</para>
        <programlisting os="ubuntu" language="ini">[DEFAULT]
@@ -174,7 +174,7 @@ log_dir = /var/log/ceilometer</programlisting>
     </step>
     <step>
       <para>Configure the Telemetry service to authenticate with the Identity
-          Service.</para>
+          service:</para>
       <para>Set the <option>auth_strategy</option> value to
           <literal>keystone</literal> in the
           <filename>/etc/ceilometer/ceilometer.conf</filename> file:</para>
