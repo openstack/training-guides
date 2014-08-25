@@ -21,7 +21,7 @@ source "$OSBASH_LIB_DIR/virtualbox.functions"
 source "$OSBASH_LIB_DIR/virtualbox.install_base"
 
 function usage {
-    echo "Usage: $0 [-h] [-r] [-w|-f] [-e] [-n] {basedisk|cluster}"
+    echo "Usage: $0 [-h] [-r] [-w|-f] [-e] [-n] {basedisk|cluster|<node names>}"
     echo ""
     echo "-h        Help"
     echo "-n        Print configuration status and exit"
@@ -39,6 +39,7 @@ function print_config {
         echo "Target is base disk: $BASE_DISK"
     else
         echo "Base disk: $BASE_DISK"
+        echo "Nodes: $nodes"
     fi
 
     if [ -n "${EXPORT_OVA:-}" ]; then
@@ -87,16 +88,19 @@ done
 # Remove processed options from arguments
 shift $(( OPTIND - 1 ));
 
-# Make sure we have exactly one argument, either basedisk or cluster
-if [ $# -eq 1 ]; then
+if [ $# -eq 0 ]; then
+    # No argument given
+    usage
+elif [ "$1" = basedisk ]; then
+    # Building the base disk only
     CMD=$1
-    if  [ "$CMD" = cluster ]; then
+else
+    CMD=nodes
+    if [ "$1" = cluster ]; then
         nodes="controller compute network"
     else
-        nodes="$CMD"
+        nodes="$@"
     fi
-else
-    usage
 fi
 
 # Install over ssh by default
