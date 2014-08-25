@@ -457,6 +457,16 @@ function disk_delete_child_vms {
 # VM shared folders
 #-------------------------------------------------------------------------------
 
+# Return the host path for a VM's shared directory; assumes there is only one.
+function vm_get_share_path {
+    local VM_NAME=$1
+    local LINE=$(WBATCH= $VBM showvminfo --machinereadable "$VM_NAME" | \
+        grep '^SharedFolderPathMachineMapping1=')
+    local SHARE_PATH=${LINE##SharedFolderPathMachineMapping1=\"}
+    SHARE_PATH=${SHARE_PATH%\"}
+    echo "$SHARE_PATH"
+}
+
 function vm_add_share_automount {
     local VM_NAME=$1
     local SHARE_DIR=$2
