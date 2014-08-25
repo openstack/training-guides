@@ -10,14 +10,14 @@
     <para>Most cloud images support
       <glossterm>public key authentication</glossterm> rather than conventional
       user name/password authentication. Before launching an instance, you must
-      generate a public/private key pair using <command>ssh-keygen</command>
+      generate a public/private keypair using <command>ssh-keygen</command>
       and add the public key to your OpenStack environment.</para>
     <step>
       <para>Source the <literal>demo</literal> tenant credentials:</para>
       <screen><prompt>$</prompt> <userinput>source demo-openrc.sh</userinput></screen>
     </step>
     <step>
-      <para>Generate a key pair:</para>
+      <para>Generate a keypair:</para>
       <screen><prompt>$</prompt> <userinput>ssh-keygen</userinput></screen>
     </step>
     <step>
@@ -279,7 +279,7 @@ Are you sure you want to continue connecting (yes/no)? yes
 Warning: Permanently added '203.0.113.102' (RSA) to the list of known hosts.
 $</computeroutput></screen>
       <note>
-        <para>If your host does not contain the public/private key pair created
+        <para>If your host does not contain the public/private keypair created
         in an earlier step, SSH prompts for the default password associated
         with the <literal>cirros</literal> user.</para>
       </note>
