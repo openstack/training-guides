@@ -13,7 +13,7 @@ indicate_current_auto
 #------------------------------------------------------------------------------
 
 echo "Installing nova for compute node."
-sudo apt-get install -y nova-compute-kvm python-guestfs
+sudo apt-get install -y nova-compute-qemu python-guestfs libguestfs-tools
 
 echo "Making the current kernel image world-readable."
 sudo dpkg-statoverride \
@@ -53,11 +53,11 @@ iniset_sudo $conf DEFAULT rabbit_host controller-mgmt
 iniset_sudo $conf DEFAULT rabbit_password "$RABBIT_PASSWORD"
 
 # Configure other variables
-iniset_sudo $conf DEFAULT my_ip controller-mgmt
-iniset_sudo $conf DEFAULT vncserver_listen controller-mgmt
-iniset_sudo $conf DEFAULT vncserver_proxyclient_address compute-mgmt
+iniset_sudo $conf DEFAULT my_ip compute-mgmt
+iniset_sudo $conf DEFAULT vncserver_listen 0.0.0.0
 iniset_sudo $conf DEFAULT vnc_enabled True
 iniset_sudo $conf DEFAULT vncserver_proxyclient_address compute-mgmt
+iniset_sudo $conf DEFAULT novncproxy_base_url http://"$(hostname_to_ip controller-api)":6080/vnc_auto.html
 iniset_sudo $conf DEFAULT glance_host controller-mgmt
 iniset_sudo $conf DEFAULT auth_strategy keystone
 
@@ -72,7 +72,7 @@ iniset_sudo $conf keystone_authtoken admin_password "$nova_admin_password"
 
 # Configure nova-comptue.conf
 conf=/etc/nova/nova-compute.conf
-iniset_sudo $conf DEFAULT virt_type qemu
+iniset_sudo $conf libvirt virt_type qemu
 
 echo "Restarting nova services."
 sudo service nova-compute restart
