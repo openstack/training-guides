@@ -14,7 +14,7 @@
         it when you work with Neutron unless you are familiar with the
         underlying network technologies, as, by default, it blocks
         various types of network traffic that are important to
-        Neutron. To disable it, simple launch the program and clear
+        Neutron. To disable it, simply launch the program and clear
         the <guilabel>Enabled</guilabel> check box.</para>
       <para>After you successfully set up OpenStack with Neutron, you
         can re-enable and configure the tool. However, during Neutron
@@ -208,7 +208,7 @@ enable_tunneling = True</programlisting>
       <step>
         <para os="rhel;centos;fedora;opensuse;sles">Configure Compute to use
           OpenStack Networking services. Configure the
-          <filename>/etc/nova/nova.conf</filename> file as per instructions
+          <filename>/etc/nova/nova.conf</filename> file per the instructions
           below:</para>
         <screen os="rhel;centos;fedora;opensuse;sles"><prompt>#</prompt> <userinput>openstack-config --set /etc/nova/nova.conf DEFAULT \
   network_api_class nova.network.neutronv2.api.API</userinput>
