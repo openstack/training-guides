@@ -161,32 +161,8 @@ for node in $nodes; do
     vm_build_node "$node"
 done
 #-------------------------------------------------------------------------------
-function export_appliance {
-    if [ -n "${EXPORT_OVA:-}" ]; then
-        echo >&2 "Removing shared folders for export"
-        local -a share_paths
-        local node
-        for node in $nodes; do
-            local share_path=$(vm_get_share_path "$node")
-            share_paths+=("$share_path")
-            if [ -n "$share_path" ]; then
-                vm_rm_share "$node" "$SHARE_NAME"
-            fi
-        done
-        rm -f "$EXPORT_OVA"
-        mkdir -pv "$IMG_DIR"
-        $VBM export $nodes --output "$EXPORT_OVA"
-        echo >&2 "Appliance exported"
-        echo >&2 "Reattaching shared folders"
-        local ii=0
-        for node in $nodes; do
-            if [ -n "${share_paths[$ii]}" ]; then
-                vm_add_share "$node" "$SHARE_DIR" "$SHARE_NAME"
-            fi
-            ii=$(($ii + 1))
-        done
-    fi
-}
-export_appliance
+if [ -n "${EXPORT_OVA:-}" ]; then
+    vm_export_ova "$EXPORT_OVA" "$nodes"
+fi
 #-------------------------------------------------------------------------------
 echo >&2 "$(date) osbash finished successfully"
