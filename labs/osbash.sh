@@ -56,11 +56,13 @@ function print_config {
         ${OSBASH:+:} echo "no"
 
         echo "VM access method: $VM_ACCESS"
+
+        echo "GUI type: ${VM_UI:-gui}"
     fi
 
 }
 
-while getopts :e:fhnw opt; do
+while getopts :e:fg:hnw opt; do
     case $opt in
         e)
             if [ "$OPTARG" = ova ]; then
@@ -76,6 +78,15 @@ while getopts :e:fhnw opt; do
             source "$LIB_DIR/wbatch/batch_for_windows"
             wbatch_reset
             unset OSBASH
+            ;;
+        g)
+            if [[ "$OPTARG" =~ (headless|gui|sdl) ]]; then
+                VM_UI=$OPTARG
+            else
+                echo "Error: -g argument must be gui (default), sdl, or" \
+                        "headless"
+                exit
+            fi
             ;;
         h)
             usage
