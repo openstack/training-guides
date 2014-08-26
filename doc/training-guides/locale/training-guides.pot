@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-08-25 06:00+0000\n"
+"POT-Creation-Date: 2014-08-26 06:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2001,7 +2001,7 @@ msgstr ""
 msgid "Also set the <literal>[service_credentials]</literal> section:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/section_ceilometer-nova.xml:125(para) ./doc/training-guides/basic-install-guide/section_ceilometer-install.xml:160(para)
+#: ./doc/training-guides/basic-install-guide/section_ceilometer-nova.xml:125(para)
 msgid "Configure the log directory."
 msgstr ""
 
@@ -3080,7 +3080,7 @@ msgid "Passwords"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_basics-passwords.xml:9(para)
-msgid "The various OpenStack services and the required software like the database and the messaging server have to be password protected. You use these passwords when configuring a service and then again to access the service. You have to choose a password while configuring the service and later remember to use the same password when accessing it. Optionally, you can generate random passwords with the <application>pwgen</application> program. Or, to create passwords one at a time, use the output of this command repeatedly: <placeholder-1/>"
+msgid "The various OpenStack services and the required software, like the database and the messaging server, have to be password protected. These passwords are used when configuring a service and accessing a service. You have to choose a password while configuring the service and later remember to use the same password when accessing it. Optionally, you can generate random passwords with the <application>pwgen</application> program. To create passwords one at a time, use the output of the below command repeatedly: <placeholder-1/>"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_basics-passwords.xml:19(para)
@@ -3676,7 +3676,7 @@ msgid "The Telemetry service uses a database to store information. Specify the l
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_ceilometer-install.xml:47(para)
-msgid "By default MongoDB is configured to create several 1 GB files in the <filename>/var/lib/mongodb/journal/</filename> directory to support database journaling."
+msgid "By default, MongoDB is configured to create several 1 GB files in the <filename>/var/lib/mongodb/journal/</filename> directory to support database journaling."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_ceilometer-install.xml:52(para)
@@ -3684,7 +3684,7 @@ msgid "If you need to minimize the space allocated to support database journalin
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_ceilometer-install.xml:60(para)
-msgid "As the files are created the first time the MongoDB service starts you must stop the service and remove the files for this change to take effect:"
+msgid "As the files are created, the first time the MongoDB service starts you must stop the service and remove the files for this change to take effect:"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_ceilometer-install.xml:68(para)
@@ -3739,6 +3739,10 @@ msgstr ""
 msgid "Configure the collector dispatcher:"
 msgstr ""
 
+#: ./doc/training-guides/basic-install-guide/section_ceilometer-install.xml:160(para)
+msgid "Configure the log directory:"
+msgstr ""
+
 #: ./doc/training-guides/basic-install-guide/section_ceilometer-install.xml:168(para)
 msgid "Create a <literal>ceilometer</literal> user that the Telemetry service uses to authenticate with the Identity Service. Use the <literal>service</literal> tenant and give the user the <literal>admin</literal> role:"
 msgstr ""
@@ -3748,7 +3752,7 @@ msgid "ceilometer@example.com"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_ceilometer-install.xml:176(para)
-msgid "Configure the Telemetry service to authenticate with the Identity Service."
+msgid "Configure the Telemetry service to authenticate with the Identity service:"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_ceilometer-install.xml:178(para)
