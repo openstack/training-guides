@@ -39,19 +39,22 @@ function print_config {
         echo "Target is base disk: $BASE_DISK"
     else
         echo "Base disk: $BASE_DISK"
-
-        echo "Exporting VM cluster: ${EXPORT_OVA:-no}"
     fi
 
-    echo -n "Creating Windows batch scripts: "
-    ${WBATCH:-:} echo "yes"
-    ${WBATCH:+:} echo "no"
+    if [ -n "${EXPORT_OVA:-}" ]; then
+        echo "Exporting to OVA: ${EXPORT_OVA}"
+    else
+        echo -n "Creating Windows batch scripts: "
+        ${WBATCH:-:} echo "yes"
+        ${WBATCH:+:} echo "no"
 
-    echo -n "Creating $CMD on this machine: "
-    ${OSBASH:-:} echo "yes"
-    ${OSBASH:+:} echo "no"
+        echo -n "Creating $CMD on this machine: "
+        ${OSBASH:-:} echo "yes"
+        ${OSBASH:+:} echo "no"
 
-    echo "VM access method: $VM_ACCESS"
+        echo "VM access method: $VM_ACCESS"
+    fi
+
 }
 
 while getopts :efhnw opt; do
@@ -108,6 +111,11 @@ if [ "${INFO_ONLY:-0}" -eq 1 ]; then
     exit
 fi
 
+if [ -n "${EXPORT_OVA:-}" ]; then
+    vm_export_ova "$EXPORT_OVA" "$nodes"
+    exit
+fi
+
 echo >&2 "$(date) osbash starting"
 
 clean_dir "$LOG_DIR"
@@ -160,9 +168,5 @@ source "$OSBASH_LIB_DIR/virtualbox.install_node"
 for node in $nodes; do
     vm_build_node "$node"
 done
-#-------------------------------------------------------------------------------
-if [ -n "${EXPORT_OVA:-}" ]; then
-    vm_export_ova "$EXPORT_OVA" "$nodes"
-fi
 #-------------------------------------------------------------------------------
 echo >&2 "$(date) osbash finished successfully"
