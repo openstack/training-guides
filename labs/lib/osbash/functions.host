@@ -276,6 +276,15 @@ function command_from_config {
             echo >&2 vm_wait_for_shutdown "$NODE_NAME"
             vm_wait_for_shutdown "$NODE_NAME"
             ;;
+        snapshot_cycle)
+            # comprises shutdown, boot, wait_for_shutdown, snapshot
+            local shot_name=${cmd_string[1]}
+            echo >&2 snapshot_cycle "$NODE_NAME" "$shot_name"
+            _autostart_queue "osbash/shutdown.sh"
+            _vbox_boot_with_autostart "$NODE_NAME" "$VM_SSH_PORT"
+            vm_wait_for_shutdown "$NODE_NAME"
+            vm_snapshot "$NODE_NAME" "$shot_name"
+            ;;
         init_node)
             echo >&2 vm_init_node "$NODE_NAME"
             vm_init_node "$NODE_NAME"
