@@ -102,7 +102,7 @@ netmask 255.255.255.0
   <para><emphasis role="bold">SSH from host</emphasis></para>
   <itemizedlist>
     <listitem>
-        <para>Create an SSH key pair for the controller node.</para>
+        <para>Create an SSH keypair for the controller node.</para>
     </listitem>
     <listitem>
         <para>To SSH into the network node from the host machine, type the
