@@ -175,7 +175,7 @@ function export_appliance {
         done
         rm -f "$EXPORT_OVA"
         mkdir -pv "$IMG_DIR"
-        $VBM export controller network compute --output "$EXPORT_OVA"
+        $VBM export $nodes --output "$EXPORT_OVA"
         echo >&2 "Appliance exported"
         echo >&2 "Reattaching shared folders"
         local ii=0
