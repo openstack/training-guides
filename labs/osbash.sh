@@ -163,14 +163,28 @@ done
 #-------------------------------------------------------------------------------
 function export_appliance {
     if [ -n "${EXPORT_OVA:-}" ]; then
-        echo "Removing shared folders for export"
-        vm_rm_share "controller" "$SHARE_NAME"
-        vm_rm_share "network" "$SHARE_NAME"
-        vm_rm_share "compute" "$SHARE_NAME"
+        echo >&2 "Removing shared folders for export"
+        local -a share_paths
+        local node
+        for node in $nodes; do
+            local share_path=$(vm_get_share_path "$node")
+            share_paths+=("$share_path")
+            if [ -n "$share_path" ]; then
+                vm_rm_share "$node" "$SHARE_NAME"
+            fi
+        done
         rm -f "$EXPORT_OVA"
         mkdir -pv "$IMG_DIR"
         $VBM export controller network compute --output "$EXPORT_OVA"
         echo >&2 "Appliance exported"
+        echo >&2 "Reattaching shared folders"
+        local ii=0
+        for node in $nodes; do
+            if [ -n "${share_paths[$ii]}" ]; then
+                vm_add_share "$node" "$SHARE_DIR" "$SHARE_NAME"
+            fi
+            ii=$(($ii + 1))
+        done
     fi
 }
 export_appliance
