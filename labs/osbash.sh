@@ -54,7 +54,7 @@ function print_config {
     echo "VM access method: $VM_ACCESS"
 }
 
-while getopts efhnw opt; do
+while getopts :efhnw opt; do
     case $opt in
         e)
             EXPORT_OVA=$IMG_DIR/oslabs-$DISTRO.ova
@@ -74,7 +74,7 @@ while getopts efhnw opt; do
             source "$LIB_DIR/wbatch/batch_for_windows"
             ;;
         ?)
-            echo "Error: unhandled option $opt"
+            echo "Error: invalid option -$OPTARG"
             echo
             usage
             ;;
