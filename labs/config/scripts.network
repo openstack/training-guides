@@ -4,12 +4,6 @@ scripts etc_hosts.sh
 osbash enable_vagrant_ssh_keys.sh
 #osbash wait_debug.sh
 # Using scripts/osbash/shutdown.sh because we want Vagrant to ignore this
-osbash shutdown.sh
-cmd boot
-cmd wait_for_shutdown
-cmd snapshot "network_configured"
+cmd snapshot_cycle "network_configured"
 scripts setup_neutron_network.sh
-scripts shutdown.sh
-cmd boot
-cmd wait_for_shutdown
-cmd snapshot "pre-installed"
+cmd snapshot_cycle "pre-installed"
