@@ -75,6 +75,8 @@ while getopts efhnw opt; do
             ;;
         ?)
             echo "Error: unhandled option $opt"
+            echo
+            usage
             ;;
     esac
 done
