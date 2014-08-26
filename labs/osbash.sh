@@ -44,6 +44,8 @@ function print_config {
 
     if [ -n "${EXPORT_OVA:-}" ]; then
         echo "Exporting to OVA: ${EXPORT_OVA}"
+    elif [ -n "${EXPORT_VM_DIR:-}" ]; then
+        echo "Exporting to directory: ${EXPORT_VM_DIR}"
     else
         echo -n "Creating Windows batch scripts: "
         ${WBATCH:-:} echo "yes"
@@ -58,10 +60,17 @@ function print_config {
 
 }
 
-while getopts :efhnw opt; do
+while getopts :e:fhnw opt; do
     case $opt in
         e)
-            EXPORT_OVA=$IMG_DIR/oslabs-$DISTRO.ova
+            if [ "$OPTARG" = ova ]; then
+                EXPORT_OVA=$IMG_DIR/oslabs-$DISTRO.ova
+            elif [ "$OPTARG" = dir ]; then
+                EXPORT_VM_DIR=$IMG_DIR/oslabs-$DISTRO
+            else
+                echo "Error: -e argument must be ova or dir"
+                exit
+            fi
             ;;
         f)
             source "$LIB_DIR/wbatch/batch_for_windows"
@@ -76,6 +85,9 @@ while getopts :efhnw opt; do
             ;;
         w)
             source "$LIB_DIR/wbatch/batch_for_windows"
+            ;;
+        :)
+            echo "Error: -$OPTARG needs argument"
             ;;
         ?)
             echo "Error: invalid option -$OPTARG"
@@ -117,6 +129,11 @@ fi
 
 if [ -n "${EXPORT_OVA:-}" ]; then
     vm_export_ova "$EXPORT_OVA" "$nodes"
+    exit
+fi
+
+if [ -n "${EXPORT_VM_DIR:-}" ]; then
+    vm_export_dir "$EXPORT_VM_DIR" "$nodes"
     exit
 fi
 

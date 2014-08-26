@@ -412,6 +412,33 @@ function vm_export_ova {
     done
 }
 
+# Export node VMs by cloning VMs to directory
+function vm_export_dir {
+    local export_dir=$1
+    local nodes=$2
+
+    rm -rvf "$export_dir"
+
+    for node in $nodes; do
+        if vm_is_running "$node"; then
+            echo "Powering off node VM $node."
+            echo "$VBM controlvm $node poweroff"
+            $VBM controlvm "$node" poweroff
+        fi
+        sleep 1
+        vm_rm_share "$node" "$SHARE_NAME"
+        sleep 1
+        echo "Exporting VM $node to $export_dir"
+        # Use all: machineandchildren works only if --snapshot is given as UUID
+        $VBM clonevm "$node" \
+            --mode all \
+            --options keepallmacs,keepdisknames \
+            --name "$node" \
+            --groups "/$VM_GROUP" \
+            --basefolder "$export_dir"
+    done
+}
+
 #-------------------------------------------------------------------------------
 # VM unregister, remove, delete
 #-------------------------------------------------------------------------------
