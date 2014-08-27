@@ -87,7 +87,7 @@ iniset_sudo $conf DEFAULT neutron_admin_tenant_name "$SERVICE_TENANT_NAME"
 iniset_sudo $conf DEFAULT neutron_admin_username "$neutron_admin_user"
 iniset_sudo $conf DEFAULT neutron_admin_password "$neutron_admin_password"
 iniset_sudo $conf DEFAULT neutron_admin_auth_url http://controller-mgmt:35357/v2.0
-iniset_sudo $conf DEFAULT linuxnet_interface_driver nova.network.linux_net.LinuxOVSInterfaceDriver
+iniset_sudo $conf DEFAULT linuxnet_interface_driver neutron.agent.linux.interface.OVSInterfaceDriver
 iniset_sudo $conf DEFAULT firewall_driver nova.virt.firewall.NoopFirewallDriver
 iniset_sudo $conf DEFAULT security_group_api neutron
 

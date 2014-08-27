@@ -87,7 +87,7 @@ sudo ovs-vsctl add-port br-ex eth2
 
 echo "Configuring Layer-3 agent."
 conf=/etc/neutron/l3_agent.ini
-iniset_sudo $conf DEFAULT interface_driver nova.network.linux_net.LinuxOVSInterfaceDriver
+iniset_sudo $conf DEFAULT interface_driver neutron.agent.linux.interface.OVSInterfaceDriver
 iniset_sudo $conf DEFAULT use_namespaces True
 iniset_sudo $conf DEFAULT verbose True
 
