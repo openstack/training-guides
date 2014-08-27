@@ -81,7 +81,6 @@ while getopts :e:fg:hnw opt; do
             ;;
         f)
             source "$LIB_DIR/wbatch/batch_for_windows"
-            wbatch_reset
             unset OSBASH
             ;;
         g)
@@ -142,6 +141,9 @@ print_config
 if [ "${INFO_ONLY:-0}" -eq 1 ]; then
     exit
 fi
+
+# Clean wbatch directory
+${WBATCH:-:} wbatch_reset
 
 if [ -n "${EXPORT_OVA:-}" ]; then
     vm_export_ova "$EXPORT_OVA" "$nodes"
