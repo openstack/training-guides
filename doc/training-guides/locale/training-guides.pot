@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-08-26 06:00+0000\n"
+"POT-Creation-Date: 2014-08-27 06:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2080,7 +2080,7 @@ msgid "SSH from host"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_network-node.xml:105(para)
-msgid "Create an SSH key pair for the controller node."
+msgid "Create an SSH keypair for the controller node."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_network-node.xml:108(para)
@@ -4290,11 +4290,11 @@ msgid "To generate a keypair"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_launch-instance-nova.xml:10(para) ./doc/training-guides/basic-install-guide/section_launch-instance-neutron.xml:10(para)
-msgid "Most cloud images support <glossterm>public key authentication</glossterm> rather than conventional user name/password authentication. Before launching an instance, you must generate a public/private key pair using <placeholder-1/> and add the public key to your OpenStack environment."
+msgid "Most cloud images support <glossterm>public key authentication</glossterm> rather than conventional user name/password authentication. Before launching an instance, you must generate a public/private keypair using <placeholder-1/> and add the public key to your OpenStack environment."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_launch-instance-nova.xml:20(para) ./doc/training-guides/basic-install-guide/section_launch-instance-neutron.xml:20(para)
-msgid "Generate a key pair:"
+msgid "Generate a keypair:"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_launch-instance-nova.xml:24(para) ./doc/training-guides/basic-install-guide/section_launch-instance-neutron.xml:24(para)
@@ -4426,7 +4426,7 @@ msgid "Access your instance using SSH from the controller node or any host on th
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_launch-instance-nova.xml:241(para) ./doc/training-guides/basic-install-guide/section_launch-instance-neutron.xml:282(para)
-msgid "If your host does not contain the public/private key pair created in an earlier step, SSH prompts for the default password associated with the <literal>cirros</literal> user."
+msgid "If your host does not contain the public/private keypair created in an earlier step, SSH prompts for the default password associated with the <literal>cirros</literal> user."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_launch-instance-nova.xml:247(para) ./doc/training-guides/basic-install-guide/section_launch-instance-neutron.xml:288(para)
@@ -5671,7 +5671,7 @@ msgid "Before you begin"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_basics-prerequisites.xml:9(para)
-msgid "For a functional environment, OpenStack doesn't require a significant amount of resources. We recommend that your environment meets or exceeds the following minimum requirements which can support several minimal <glossterm>CirrOS</glossterm> instances:"
+msgid "For a functional environment, OpenStack does not require a significant amount of resources. We recommend that your environment meets or exceeds the following minimum requirements which can support several minimal <glossterm>CirrOS</glossterm> instances:"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_basics-prerequisites.xml:15(para)
@@ -5687,7 +5687,7 @@ msgid "Compute Node: 1 processor, 2 GB memory, and 10 GB storage"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_basics-prerequisites.xml:27(para)
-msgid "To minimize clutter and provide more resources for OpenStack, we recommend a minimal installation of your Linux distribution. Also, we strongly recommend that you install a 64-bit version of your distribution on at least the compute node. If you install a 32-bit version of your distribution on the compute node, attempting to start an instance using a 64-bit image will fail."
+msgid "To minimize clutter and provide more resources for OpenStack, we recommend a minimal installation of your Linux distribution. Also, we strongly recommend that you install a 64-bit version of your distribution on at least the compute node. If you install a 32-bit version of your distribution on the compute node, starting an instance using a 64-bit image will fail."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_basics-prerequisites.xml:34(para)
@@ -5695,19 +5695,19 @@ msgid "A single disk partition on each node works for most basic installations. 
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_basics-prerequisites.xml:39(para)
-msgid "Many users build their test environments on <glossterm baseform=\"virtual machine (VM)\">virtual machines (VMs)</glossterm>. The primary benefits of VMs include the following:"
+msgid "Many users build their test environments on <glossterm baseform=\"virtual machine (VM)\">virtual machines (VMs)</glossterm>. The primary benefits of this method include the following:"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_basics-prerequisites.xml:45(para)
-msgid "One physical server can support multiple nodes, each with almost any number of network interfaces."
+msgid "One physical server can support multiple nodes with almost any number of network interfaces."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_basics-prerequisites.xml:49(para)
-msgid "Ability to take periodic \"snap shots\" throughout the installation process and \"roll back\" to a working configuration in the event of a problem."
+msgid "The ability to take periodic \"snapshots\" throughout the installation process and \"roll back\" to a working configuration in the event of a problem."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_basics-prerequisites.xml:54(para)
-msgid "However, VMs will reduce performance of your instances, particularly if your hypervisor and/or processor lacks support for hardware acceleration of nested VMs."
+msgid "VMs can result in slow instances, particularly if your hypervisor and/or processor lacks support for hardware acceleration of nested VMs."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_basics-prerequisites.xml:58(para)
@@ -5859,7 +5859,7 @@ msgid "Each user belongs to a user group with the same name as the user."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_neutron-ovs-controller-node.xml:9(para)
-msgid "By default, the <literal>system-config-firewall</literal> automated firewall configuration tool is in place on RHEL. This graphical interface (and a curses-style interface with <literal>-tui</literal> on the end of the name) enables you to configure IP tables as a basic firewall. You should disable it when you work with Neutron unless you are familiar with the underlying network technologies, as, by default, it blocks various types of network traffic that are important to Neutron. To disable it, simple launch the program and clear the <guilabel>Enabled</guilabel> check box."
+msgid "By default, the <literal>system-config-firewall</literal> automated firewall configuration tool is in place on RHEL. This graphical interface (and a curses-style interface with <literal>-tui</literal> on the end of the name) enables you to configure IP tables as a basic firewall. You should disable it when you work with Neutron unless you are familiar with the underlying network technologies, as, by default, it blocks various types of network traffic that are important to Neutron. To disable it, simply launch the program and clear the <guilabel>Enabled</guilabel> check box."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_neutron-ovs-controller-node.xml:19(para)
@@ -5959,7 +5959,7 @@ msgid "Configure the <acronym>OVS</acronym> plug-in to use GRE tunneling. Edit t
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_neutron-ovs-controller-node.xml:209(para)
-msgid "Configure Compute to use OpenStack Networking services. Configure the <filename>/etc/nova/nova.conf</filename> file as per instructions below:"
+msgid "Configure Compute to use OpenStack Networking services. Configure the <filename>/etc/nova/nova.conf</filename> file per the instructions below:"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_neutron-ovs-controller-node.xml:233(para)
@@ -6303,7 +6303,7 @@ msgid "Messaging server"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_basics-queue.xml:9(para)
-msgid "OpenStack uses a <glossterm>message broker</glossterm> to coordinate operations and status information among services. The message broker service typically runs on the controller node. OpenStack supports several message brokers including <application>RabbitMQ</application>, <application>Qpid</application>, and <application>ZeroMQ</application>. However, most distributions that package OpenStack support a particular message broker. This guide covers the RabbitMQ message broker which is supported by each distribution. If you prefer to implement a different message broker, consult the documentation associated with it."
+msgid "OpenStack uses a <glossterm>message broker</glossterm> to coordinate operations and status information among services. The message broker service typically runs on the controller node. OpenStack supports several message brokers including <application>RabbitMQ</application>, <application>Qpid</application>, and <application>ZeroMQ</application>. Most distributions that package OpenStack support a particular message broker. This guide covers the RabbitMQ message broker which is supported by each distribution. If you prefer to implement a different message broker, consult the documentation associated with it."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_basics-queue.xml:31(title)
@@ -6335,15 +6335,15 @@ msgid "You must configure the <literal>rabbit_password</literal> key in the conf
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_basics-queue.xml:63(para)
-msgid "For production environments, you should create a unique account with suitable password. For more information on securing the message broker, see the <link href=\"https://www.rabbitmq.com/man/rabbitmqctl.1.man.html\">documentation</link>."
+msgid "For production environments, you should create a unique account with a suitable password. For more information on securing the message broker, see the <link href=\"https://www.rabbitmq.com/man/rabbitmqctl.1.man.html\">documentation</link>."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_basics-queue.xml:68(para)
-msgid "If you decide to create a unique account with suitable password for your test environment, you must configure the <literal>rabbit_userid</literal> and <literal>rabbit_password</literal> keys in the configuration file of each OpenStack service that uses the message broker."
+msgid "If you decide to create a unique account with a suitable password for your test environment, you must configure the <literal>rabbit_userid</literal> and <literal>rabbit_password</literal> keys in the configuration file of each OpenStack service that uses the message broker."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_basics-queue.xml:76(para)
-msgid "Congratulations, now you are ready to install OpenStack services!"
+msgid "Congratulations, you are now ready to install OpenStack services!"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_keystone-services.xml:8(title)
@@ -6425,23 +6425,23 @@ msgid "Register API endpoints"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_debconf-api-endpoints.xml:8(para)
-msgid "All Debian packages for API services, except the <package>heat-api</package> package, register the service in the Identity Service catalog. This feature is helpful because API endpoints are difficult to remember."
+msgid "All Debian packages for API services, except the <package>heat-api</package> package, register the service in the Identity service catalog. This feature is helpful because API endpoints can be difficult to remember."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_debconf-api-endpoints.xml:13(para)
-msgid "The <package>heat-common</package> package and not the <package>heat-api</package> package configures the Orchestration service."
+msgid "The <package>heat-common</package> package, not the <package>heat-api</package> package, configures the Orchestration service."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_debconf-api-endpoints.xml:17(para)
-msgid "When you install a package for an API service, you are prompted to register that service. However, after you install or upgrade the package for an API service, Debian immediately removes your response to this prompt from the <package>debconf</package> database. Consequently, you are prompted to re-register the service with the Identity Service. If you already registered the API service, respond <literal>no</literal> when you upgrade."
+msgid "When you install a package for an API service, you are prompted to register that service. After you install or upgrade the package for an API service, Debian immediately removes your response to this prompt from the <package>debconf</package> database. Consequently, you are prompted to re-register the service with the Identity service. If you already registered the API service, respond <literal>no</literal> when you upgrade."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_debconf-api-endpoints.xml:34(para)
-msgid "This screen registers packages in the Identity Service catalog:"
+msgid "This screen registers packages in the Identity service catalog:"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_debconf-api-endpoints.xml:45(para)
-msgid "You are prompted for the Identity Service <literal>admin_token</literal> value. The Identity Service uses this value to register the API service. When you set up the <package>keystone</package> package, this value is configured automatically."
+msgid "You are prompted for the Identity service <literal>admin_token</literal> value. The Identity service uses this value to register the API service. When you set up the <package>keystone</package> package, this value is configured automatically."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_debconf-api-endpoints.xml:59(para)
@@ -6461,7 +6461,7 @@ msgid "The Debian package post installation scripts will then perform the below 
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_debconf-api-endpoints.xml:98(para)
-msgid "The values of <literal>AUTH_TOKEN</literal>, <literal>KEYSTONE_ENDPOINT_IP</literal>, <literal>PKG_ENDPOINT_IP</literal> and <literal>REGION_NAME</literal> depend on the answer you will provide to the debconf prompts. But the values of <literal>SERVICE_NAME</literal>, <literal>SERVICE_TYPE</literal>, <literal>SERVICE_DESC</literal> and <literal>SERVICE_URL</literal> are already pre-wired in each package, so you don't have to remember them."
+msgid "The values of <literal>AUTH_TOKEN</literal>, <literal>KEYSTONE_ENDPOINT_IP</literal>, <literal>PKG_ENDPOINT_IP</literal> and <literal>REGION_NAME</literal> depend on the answer you will provide to the debconf prompts. The values of <literal>SERVICE_NAME</literal>, <literal>SERVICE_TYPE</literal>, <literal>SERVICE_DESC</literal> and <literal>SERVICE_URL</literal> are already pre-wired in each package, so you don't have to remember them."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_control-node.xml:20(para)
