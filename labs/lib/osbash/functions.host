@@ -29,8 +29,6 @@ function exec_cmd {
     $cmd "$@"
 }
 
-OSBASH=exec_cmd
-
 #-------------------------------------------------------------------------------
 
 function get_base_disk_path {

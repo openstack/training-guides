@@ -21,13 +21,13 @@ source "$OSBASH_LIB_DIR/virtualbox.functions"
 source "$OSBASH_LIB_DIR/virtualbox.install_base"
 
 function usage {
-    echo "Usage: $0 [-w|-f] [-g GUI] [-n] {basedisk|NODE [NODE..]}"
+    echo "Usage: $0 {-b|-w} [-g GUI] [-n] {basedisk|NODE [NODE..]}"
     echo "       $0 [-e EXPORT] [-n] NODE [NODE..]"
     echo ""
     echo "-h        Help"
     echo "-n        Print configuration status and exit"
-    echo "-w        Create Windows batch files, too"
-    echo "-f        Only create Windows batch files (fast)"
+    echo "-b        Build basedisk (if necessary) and node VMs (if any)"
+    echo "-w        Create Windows batch files"
     echo "-g GUI    VirtualBox GUI type during build"
     echo "-e EXPORT Export node VMs"
     echo ""
@@ -67,7 +67,7 @@ function print_config {
 
 }
 
-while getopts :e:fg:hnw opt; do
+while getopts :be:g:hnw opt; do
     case $opt in
         e)
             if [ "$OPTARG" = ova ]; then
@@ -79,9 +79,8 @@ while getopts :e:fg:hnw opt; do
                 exit
             fi
             ;;
-        f)
-            source "$LIB_DIR/wbatch/batch_for_windows"
-            unset OSBASH
+        b)
+            OSBASH=exec_cmd
             ;;
         g)
             if [[ "$OPTARG" =~ (headless|gui|sdl) ]]; then
