@@ -21,16 +21,21 @@ source "$OSBASH_LIB_DIR/virtualbox.functions"
 source "$OSBASH_LIB_DIR/virtualbox.install_base"
 
 function usage {
-    echo "Usage: $0 [-h] [-r] [-w|-f] [-e] [-n] {basedisk|cluster|<node names>}"
+    echo "Usage: $0 [-w|-f] [-g GUI] [-n] {basedisk|NODE [NODE..]}"
+    echo "       $0 [-e EXPORT] [-n] NODE [NODE..]"
     echo ""
     echo "-h        Help"
     echo "-n        Print configuration status and exit"
     echo "-w        Create Windows batch files, too"
     echo "-f        Only create Windows batch files (fast)"
-    echo "-e        Export OVA file of VM cluster"
+    echo "-g GUI    VirtualBox GUI type during build"
+    echo "-e EXPORT Export node VMs"
     echo ""
-    echo "basedisk  Create configured basedisk"
-    echo "cluster   Create configured VM cluster (and basedisk if necessary)"
+    echo "basedisk  Build configured basedisk"
+    echo "NODE      Build controller, compute, network, cluster [all three]"
+    echo "          (builds basedisk if necessary)"
+    echo "GUI       gui, sdl, or headless"
+    echo "EXPORT    ova (OVA package file) or dir (VM clone directory)"
     exit
 }
 
