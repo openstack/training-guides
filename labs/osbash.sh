@@ -62,6 +62,7 @@ function print_config {
 
         echo "VM access method: $VM_ACCESS"
 
+        # GUI is the VirtualBox default
         echo "GUI type: ${VM_UI:-gui}"
     fi
 
@@ -86,8 +87,7 @@ while getopts :be:g:hnw opt; do
             if [[ "$OPTARG" =~ (headless|gui|sdl) ]]; then
                 VM_UI=$OPTARG
             else
-                echo "Error: -g argument must be gui (default), sdl, or" \
-                        "headless"
+                echo "Error: -g argument must be gui, sdl, or headless"
                 exit
             fi
             ;;
