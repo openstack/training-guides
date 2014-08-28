@@ -83,7 +83,7 @@ echo "Adding the external bridge"
 sudo ovs-vsctl add-br br-ex
 
 echo "Adding port to external bridge."
-sudo ovs-vsctl add-port br-ex eth2
+sudo ovs-vsctl add-port br-ex eth3
 
 echo "Configuring Layer-3 agent."
 conf=/etc/neutron/l3_agent.ini
