@@ -24,7 +24,7 @@ until neutron net-list >/dev/null 2>&1; do
 done
 
 echo "Creating the external network."
-neutron net-create ext-net --shared --router:external=True
+neutron net-create ext-net --router:external=True
 
 echo "Creating a subnet on the external network."
 neutron subnet-create ext-net \
