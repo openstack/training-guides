@@ -154,6 +154,12 @@ if [ -n "${EXPORT_VM_DIR:-}" ]; then
     exit
 fi
 
+if [ -z "${OSBASH:-}" -a -z "${WBATCH:-}" ]; then
+    echo
+    echo "No -b, -w, or -e option given. Exiting."
+    exit
+fi
+
 echo >&2 "$(date) osbash starting"
 
 clean_dir "$LOG_DIR"
