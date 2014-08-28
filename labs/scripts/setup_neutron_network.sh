@@ -77,7 +77,7 @@ echo "Restarting the Open vSwitch (OVS) service."
 sudo service openvswitch-switch restart
 
 echo "Adding the integration bridge."
-sudo ovs-vsctl add-br br-int
+sudo ovs-vsctl --may-exist add-br br-int
 
 echo "Adding the external bridge"
 sudo ovs-vsctl add-br br-ex
