@@ -3,17 +3,17 @@
 
 # Non-recursive removal of all files except README.*
 function clean_dir {
-    local CLEAN_DIR=$1
-    if [ ! -e "$CLEAN_DIR" ]; then
-        mkdir -pv "$CLEAN_DIR"
-    elif [ ! -d "$CLEAN_DIR" ]; then
-        echo >&2 "Not a directory: $CLEAN_DIR"
+    local target_dir=$1
+    if [ ! -e "$target_dir" ]; then
+        mkdir -pv "$target_dir"
+    elif [ ! -d "$target_dir" ]; then
+        echo >&2 "Not a directory: $target_dir"
         return 1
     fi
     shopt -s nullglob
-    local ENTRIES=("$CLEAN_DIR"/*)
-    if [ -n "${ENTRIES[0]-}" ]; then
-        for f in "${ENTRIES[@]}"; do
+    local entries=("$target_dir"/*)
+    if [ -n "${entries[0]-}" ]; then
+        for f in "${entries[@]}"; do
             # Skip directories
             if [ ! -f "$f" ]; then
                 continue
@@ -61,31 +61,31 @@ function yes_or_no {
 #-------------------------------------------------------------------------------
 
 function get_next_file_number {
-    local DIR=$1
-    local EXT=${2:-""}
+    local dir=$1
+    local ext=${2:-""}
 
     # Get number of *.log files in directory
     shopt -s nullglob
-    if [ -n "$EXT" ]; then
+    if [ -n "$ext" ]; then
         # Count files with specific extension
-        local FILES=("$DIR/"*".$EXT")
+        local files=("$dir/"*".$ext")
     else
         # Count all files
-        local FILES=("$DIR/"*)
+        local files=("$dir/"*)
     fi
-    echo "${#FILES[*]}"
+    echo "${#files[*]}"
 }
 
 function get_next_prefix {
-    local DIR=$1
-    local EXT=$2
+    local dir=$1
+    local ext=$2
     # Number of digits in prefix string (default 3)
-    local DIGITS=${3:-3}
+    local digits=${3:-3}
 
-    # Get number of *.$EXT files in $DIR
-    local CNT="$(get_next_file_number "$DIR" "$EXT")"
+    # Get number of *.$ext files in $dir
+    local cnt="$(get_next_file_number "$dir" "$ext")"
 
-    printf "%0${DIGITS}d" "$CNT"
+    printf "%0${digits}d" "$cnt"
 }
 
 #-------------------------------------------------------------------------------
@@ -96,8 +96,8 @@ function get_next_prefix {
 # them easier to read and write)
 
 function src_dir_code_to_dir {
-    local SRC_DIR_CODE=$1
-    case "$SRC_DIR_CODE" in
+    local src_dir_code=$1
+    case "$src_dir_code" in
         osbash)
             echo "$OSBASH_SCRIPTS_DIR"
             ;;
@@ -109,7 +109,7 @@ function src_dir_code_to_dir {
             ;;
         *)
             # No code, it must be a path already
-            echo "$SRC_DIR_CODE"
+            echo "$src_dir_code"
             ;;
     esac
 }
