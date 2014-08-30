@@ -41,46 +41,46 @@ function get_base_disk_path {
 
 # Download Vagrant insecure private key if necessary
 function check_vagrant_private_key {
-    local KEY_NAME="vagrant"
-    local KEY_URL=https://raw.githubusercontent.com/mitchellh/vagrant/master/keys/$KEY_NAME
-    local VAGRANT_KEY_DIR=$LIB_DIR/vagrant-ssh-keys
+    local key_name="vagrant"
+    local key_url=https://raw.githubusercontent.com/mitchellh/vagrant/master/keys/$key_name
+    local vagrant_key_dir=$LIB_DIR/vagrant-ssh-keys
 
-    if [ ! -f "$VAGRANT_KEY_DIR/$KEY_NAME" ]; then
-        download "$KEY_URL" "$VAGRANT_KEY_DIR" $KEY_NAME
-        chmod 400 "$VAGRANT_KEY_DIR/$KEY_NAME"
+    if [ ! -f "$vagrant_key_dir/$key_name" ]; then
+        download "$key_url" "$vagrant_key_dir" $key_name
+        chmod 400 "$vagrant_key_dir/$key_name"
     fi
 }
 
 function strip_top_dir {
-    local FULL_PATH=$1
-    echo "${FULL_PATH/$TOP_DIR\//}"
+    local full_path=$1
+    echo "${full_path/$TOP_DIR\//}"
 }
 
 # Copy files or directories to VM (incl. implied directories; HOME is TOP_DIR)
 function vm_scp_to_vm {
-    local SSH_PORT=$1
+    local ssh_port=$1
     shift
 
     check_vagrant_private_key
 
     while (($#)); do
-        local SRC_PATH=$1
+        local src_path=$1
         shift
-        local TARGET_PATH=$(strip_top_dir "$SRC_PATH")
-        local TARGET_DIR=$(dirname "$TARGET_PATH")
-        vm_ssh "$SSH_PORT" "mkdir -p $TARGET_DIR"
+        local target_path=$(strip_top_dir "$src_path")
+        local target_dir=$(dirname "$target_path")
+        vm_ssh "$ssh_port" "mkdir -p $target_dir"
         scp -q -r \
             -i "$LIB_DIR/vagrant-ssh-keys/vagrant" \
             -o "UserKnownHostsFile /dev/null" \
             -o "StrictHostKeyChecking no" \
-            -P "$SSH_PORT" \
-            "$SRC_PATH" "$VM_SHELL_USER@localhost:$TARGET_PATH"
+            -P "$ssh_port" \
+            "$src_path" "$VM_SHELL_USER@localhost:$target_path"
     done
 }
 
 # Execute commands via ssh
 function vm_ssh {
-    local SSH_PORT=$1
+    local ssh_port=$1
     shift
 
     check_vagrant_private_key
@@ -89,16 +89,16 @@ function vm_ssh {
         -i "$LIB_DIR/vagrant-ssh-keys/vagrant" \
         -o "UserKnownHostsFile /dev/null" \
         -o "StrictHostKeyChecking no" \
-        -p "$SSH_PORT" \
+        -p "$ssh_port" \
         "$VM_SHELL_USER@localhost" "$@"
 }
 
 function wait_for_ssh {
-    local SSH_PORT=$1
+    local ssh_port=$1
 
-    echo "Waiting for ssh server to respond on local port $SSH_PORT"
+    echo "Waiting for ssh server to respond on local port $ssh_port"
     while [ : ]; do
-        if vm_ssh "$SSH_PORT" exit ; then
+        if vm_ssh "$ssh_port" exit ; then
             break
         else
             echo -n .
@@ -109,36 +109,36 @@ function wait_for_ssh {
 
 # Copy one script to VM and execute it via ssh; log output to separate file
 function ssh_exec_script {
-    local SSH_PORT=$1
-    local SCRIPT_PATH=$2
+    local ssh_port=$1
+    local script_path=$2
 
-    vm_scp_to_vm "$SSH_PORT" "$SCRIPT_PATH"
+    vm_scp_to_vm "$ssh_port" "$script_path"
 
-    local REMOTE_PATH=$(strip_top_dir "$SCRIPT_PATH")
+    local remote_path=$(strip_top_dir "$script_path")
 
-    echo -en "\n$(date) start $REMOTE_PATH"
+    echo -en "\n$(date) start $remote_path"
 
-    local SCRIPT_NAME="$(basename "$SCRIPT_PATH" .sh)"
-    local PREFIX=$(get_next_prefix "$LOG_DIR" "auto")
-    local LOG_PATH=$LOG_DIR/${PREFIX}_${SCRIPT_NAME}.auto
+    local script_name="$(basename "$script_path" .sh)"
+    local prefix=$(get_next_prefix "$LOG_DIR" "auto")
+    local log_path=$LOG_DIR/${prefix}_${script_name}.auto
 
-    vm_ssh "$SSH_PORT" "bash $REMOTE_PATH && rm -vf $REMOTE_PATH" > "$LOG_PATH" 2>&1
+    vm_ssh "$ssh_port" "bash $remote_path && rm -vf $remote_path" > "$log_path" 2>&1
 
     echo -en "\n$(date)  done"
 }
 
 # Wait for sshd, prepare autostart dirs, and execute autostart scripts on VM
 function ssh_process_autostart {
-    local SSH_PORT=$1
+    local ssh_port=$1
 
-    wait_for_ssh "$SSH_PORT"
-    vm_ssh "$SSH_PORT" "rm -rf lib config autostart"
-    vm_scp_to_vm "$SSH_PORT" "$TOP_DIR/lib" "$TOP_DIR/config"
+    wait_for_ssh "$ssh_port"
+    vm_ssh "$ssh_port" "rm -rf lib config autostart"
+    vm_scp_to_vm "$ssh_port" "$TOP_DIR/lib" "$TOP_DIR/config"
 
-    local SCRIPT_PATH=""
-    for SCRIPT_PATH in "$AUTOSTART_DIR/"*.sh; do
-        ssh_exec_script "$SSH_PORT" "$SCRIPT_PATH"
-        rm -f "$SCRIPT_PATH" >&2
+    local script_path=""
+    for script_path in "$AUTOSTART_DIR/"*.sh; do
+        ssh_exec_script "$ssh_port" "$script_path"
+        rm -f "$script_path" >&2
     done
     touch "$STATUS_DIR/done"
 }
@@ -155,7 +155,7 @@ function autostart_reset {
 # Wait until all autofiles are processed (indicated by a "$STATUS_DIR/done"
 # file created either by osbashauto or ssh_process_autostart)
 function wait_for_autofiles {
-    local DONE=false
+    local auto_done=false
     shopt -s nullglob
 
     ${WBATCH:-:} wbatch_wait_auto
@@ -163,17 +163,17 @@ function wait_for_autofiles {
     ${OSBASH:+:} autostart_reset
     ${OSBASH:+:} return 0
 
-    until $DONE ; do
+    until $auto_done ; do
         if [ -f "$STATUS_DIR/done" ]; then
-            DONE=true
+            auto_done=true
             rm "$STATUS_DIR/done"
             # Return only after checking for remaining *.sh.begin files
         fi
         # Note: begin files (created by indicate_current_auto) are only visible
         # if the STATUS_DIR directory is shared between host and VM
-        local PROCESSING=("$STATUS_DIR"/*.sh.begin)
-        if [ -n "${PROCESSING[0]-}" ]; then
-            for f in "${PROCESSING[@]}"; do
+        local processing=("$STATUS_DIR"/*.sh.begin)
+        if [ -n "${processing[0]-}" ]; then
+            for f in "${processing[@]}"; do
                 echo >&2 -en "\nVM processing $(basename "$f" .begin)"
                 rm "$f"
             done
@@ -190,30 +190,30 @@ function wait_for_autofiles {
 # were added to the queue.
 
 function _autostart_queue {
-    local SRC_DIR=${1%/*}
-    # if SRC_DIR is a code, turn it into a real path
-    SRC_DIR="$(src_dir_code_to_dir "$SRC_DIR")"
+    local src_dir=${1%/*}
+    # if src_dir is a code, turn it into a real path
+    src_dir="$(src_dir_code_to_dir "$src_dir")"
 
-    local SRC_NAME=${1##*/}
+    local src_name=${1##*/}
 
     # If we get a target name, file will be renamed
-    local TARGET_NAME=${2:-$SRC_NAME}
+    local target_name=${2:-$src_name}
 
-    if [[ $TARGET_NAME = *.sh ]]; then
+    if [[ $target_name = *.sh ]]; then
         # Create target file name like 01_apt_init.sh
-        local PREFIX=$(get_next_prefix "$AUTOSTART_DIR" "sh" 2)
-        TARGET_NAME="${PREFIX}_$TARGET_NAME"
+        local prefix=$(get_next_prefix "$AUTOSTART_DIR" "sh" 2)
+        target_name="${prefix}_$target_name"
     fi
 
-    if [ "$SRC_NAME" = "$TARGET_NAME" ]; then
-        echo >&2 -e "\t$SRC_NAME"
+    if [ "$src_name" = "$target_name" ]; then
+        echo >&2 -e "\t$src_name"
     else
-        echo >&2 -e "\t$SRC_NAME -> $TARGET_NAME"
+        echo >&2 -e "\t$src_name -> $target_name"
     fi
 
-    local SRC_PATH=$SRC_DIR/$SRC_NAME
-    cp -- "$SRC_PATH" "$AUTOSTART_DIR/$TARGET_NAME"
-    ${WBATCH:-:} wbatch_cp_auto "$SRC_PATH" "$AUTOSTART_DIR/$TARGET_NAME"
+    local src_path=$src_dir/$src_name
+    cp -- "$src_path" "$AUTOSTART_DIR/$target_name"
+    ${WBATCH:-:} wbatch_cp_auto "$src_path" "$AUTOSTART_DIR/$target_name"
 }
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -221,36 +221,36 @@ function _autostart_queue {
 # Print to the console which file requested guest scripts to run
 function log_autostart_source {
     # If the caller doesn't provide a config file, log the caller's source file
-    local SRC_FILE=${1:-${BASH_SOURCE[1]##*/}}
-    echo >&2 "Copying autostart files set in $SRC_FILE"
+    local src_file=${1:-${BASH_SOURCE[1]##*/}}
+    echo >&2 "Copying autostart files set in $src_file"
 }
 
 # autostart <src_dir|src_dir_code> <file> <new_name>
 # e.g. autostart osbash init_xxx_node.sh init_controller_node.sh
 function autostart_and_rename {
-    local SRC_DIR=$1
-    local SRC_FILE=$2
-    local TARGET_FILE=$3
+    local src_dir=$1
+    local src_file=$2
+    local target_file=$3
 
     # Don't log this file -- log our caller's source file
     log_autostart_source "${BASH_SOURCE[1]##*/}"
 
-    _autostart_queue "$SRC_DIR/$SRC_FILE" "$TARGET_FILE"
+    _autostart_queue "$src_dir/$src_file" "$target_file"
 }
 
 # autostart <src_dir|src_dir_code> <file> [<file> ...]
 # e.g. autostart scripts prepare_home.sh apt_init.sh
 function autostart {
-    local SRC_DIR=$1
+    local src_dir=$1
     shift
 
     # Don't log this file -- log our caller's source file
     log_autostart_source "${BASH_SOURCE[1]##*/}"
 
     while (($#)); do
-        local SRC_FILE=$1
+        local src_file=$1
         shift
-        _autostart_queue "$SRC_DIR/$SRC_FILE"
+        _autostart_queue "$src_dir/$src_file"
     done
 }
 
@@ -330,24 +330,24 @@ function autostart_from_config {
 #-------------------------------------------------------------------------------
 
 function download {
-    local URL=$1
-    local DEST_DIR=$2
-    local DEST_FILE=$3
-    local RC=0
+    local url=$1
+    local dest_dir=$2
+    local dest_file=$3
+    local rc=0
 
-    local WGET=$(which wget)
-    mkdir -pv "$DEST_DIR"
-    if [ -n "$WGET" ]; then
-        $WGET --output-document "$DEST_DIR/$DEST_FILE" "$URL"||RC=$?
+    local wget_exe=$(which wget)
+    mkdir -pv "$dest_dir"
+    if [ -n "$wget_exe" ]; then
+        $wget_exe --output-document "$dest_dir/$dest_file" "$url"||rc=$?
     else
         # Mac OS X has curl instead of wget
-        local CURL=$(which curl)
-        if [ -n "$CURL" ]; then
-            $CURL "$URL" -o "$DEST_DIR/$DEST_FILE"||RC=$?
+        local curl_exe=$(which curl)
+        if [ -n "$curl_exe" ]; then
+            $curl_exe "$url" -o "$dest_dir/$dest_file"||rc=$?
         fi
     fi
-    if [ $RC -ne 0 ]; then
-        echo >&2 "Unable to download $URL, quitting."
+    if [ $rc -ne 0 ]; then
+        echo >&2 "Unable to download $url, quitting."
         exit 1
     fi
 }
@@ -357,10 +357,10 @@ function get_iso_name {
 }
 
 function find_install-iso {
-    local ISO_NAME=$1
-    if [ ! -f "$ISO_DIR/$ISO_NAME" ]; then
-        echo >&2 "$ISO_NAME not in $ISO_DIR; downloading"
-        download "$ISO_URL" "$ISO_DIR" "$ISO_NAME"
+    local iso_name=$1
+    if [ ! -f "$ISO_DIR/$iso_name" ]; then
+        echo >&2 "$iso_name not in $ISO_DIR; downloading"
+        download "$ISO_URL" "$ISO_DIR" "$iso_name"
     fi
 }
 
