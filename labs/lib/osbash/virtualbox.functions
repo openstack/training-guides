@@ -670,10 +670,12 @@ function _vbox_push_scancode {
 }
 
 function vbox_kbd_escape_key {
+    local VM_NAME=$1
     _vbox_push_scancode "$VM_NAME" "$(esc2scancode)"
 }
 
 function vbox_kbd_enter_key {
+    local VM_NAME=$1
     _vbox_push_scancode "$VM_NAME" "$(enter2scancode)"
 }
 

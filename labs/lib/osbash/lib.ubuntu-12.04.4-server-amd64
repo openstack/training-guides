@@ -37,9 +37,9 @@ function vbox_distro_start_installer {
 
     local BOOT_ARGS=$(printf "$_BOOT_ARGS" "${!PRESEED}")
 
-    vbox_kbd_escape_key
-    vbox_kbd_escape_key
-    vbox_kbd_enter_key
+    vbox_kbd_escape_key "$VM_NAME"
+    vbox_kbd_escape_key "$VM_NAME"
+    vbox_kbd_enter_key "$VM_NAME"
 
     vbox_sleep 1
 
@@ -47,7 +47,7 @@ function vbox_distro_start_installer {
     vbox_kbd_string_input "$VM_NAME" "$BOOT_ARGS"
 
     echo "Initiating boot sequence"
-    vbox_kbd_enter_key
+    vbox_kbd_enter_key "$VM_NAME"
 }
 
 # vim: set ai ts=4 sw=4 et ft=sh:
