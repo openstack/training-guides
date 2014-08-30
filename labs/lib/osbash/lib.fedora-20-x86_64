@@ -19,24 +19,24 @@ readonly _KS_all=http://git.openstack.org/cgit/openstack/training-guides/plain/l
 readonly _BOOT_ARGS="linux ks=%s"
 
 function vbox_distro_start_installer {
-    local VM_NAME=$1
+    local vm_name=$1
 
     # pick a _KS_* file
-    local KICKSTART=_KS_$VM_ACCESS
+    local kickstart=_KS_$VM_ACCESS
 
-    echo "Using $KICKSTART ${!KICKSTART}"
+    echo "Using $kickstart ${!kickstart}"
 
-    local BOOT_ARGS=$(printf "$_BOOT_ARGS" "${!KICKSTART}")
+    local boot_args=$(printf "$_BOOT_ARGS" "${!kickstart}")
 
-    vbox_kbd_escape_key "$VM_NAME"
+    vbox_kbd_escape_key "$vm_name"
 
     vbox_sleep 1
 
     echo "Pushing boot command line"
-    vbox_kbd_string_input "$VM_NAME" "$BOOT_ARGS"
+    vbox_kbd_string_input "$vm_name" "$boot_args"
 
     echo "Initiating boot sequence"
-    vbox_kbd_enter_key "$VM_NAME"
+    vbox_kbd_enter_key "$vm_name"
 }
 
 # vim: set ai ts=4 sw=4 et ft=sh:

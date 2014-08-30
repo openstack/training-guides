@@ -27,26 +27,26 @@ readonly _BOOT_ARGS="/install/vmlinuz
  console-setup/ask_detect=false"
 
 function vbox_distro_start_installer {
-    local VM_NAME=$1
+    local vm_name=$1
 
     # pick a _PS_* file
-    local PRESEED=_PS_$VM_ACCESS
+    local preseed=_PS_$VM_ACCESS
 
-    echo "Using $PRESEED ${!PRESEED}"
+    echo "Using $preseed ${!preseed}"
 
-    local BOOT_ARGS=$(printf "$_BOOT_ARGS" "${!PRESEED}")
+    local boot_args=$(printf "$_BOOT_ARGS" "${!preseed}")
 
-    vbox_kbd_escape_key "$VM_NAME"
-    vbox_kbd_escape_key "$VM_NAME"
-    vbox_kbd_enter_key "$VM_NAME"
+    vbox_kbd_escape_key "$vm_name"
+    vbox_kbd_escape_key "$vm_name"
+    vbox_kbd_enter_key "$vm_name"
 
     vbox_sleep 1
 
     echo "Pushing boot command line"
-    vbox_kbd_string_input "$VM_NAME" "$BOOT_ARGS"
+    vbox_kbd_string_input "$vm_name" "$boot_args"
 
     echo "Initiating boot sequence"
-    vbox_kbd_enter_key "$VM_NAME"
+    vbox_kbd_enter_key "$vm_name"
 }
 
 # vim: set ai ts=4 sw=4 et ft=sh:
