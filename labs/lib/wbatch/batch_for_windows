@@ -25,9 +25,9 @@ function wbatch_reset {
 }
 
 function wbatch_new_file {
-    local NAME=$1
+    local file_name=$1
     mkdir -p "$WBATCH_DIR"
-    WBATCH_OUT="$WBATCH_DIR/$NAME"
+    WBATCH_OUT="$WBATCH_DIR/$file_name"
     echo -n > "$WBATCH_OUT"
 }
 
@@ -49,11 +49,11 @@ function wbatch_write_line {
 }
 
 function wbatch_write_stdin {
-    local LINE=""
+    local line=""
 
     # Set IFS to preserve leading whitespace
-    while IFS= read -r LINE; do
-        wbatch_write_line "$LINE"
+    while IFS= read -r line; do
+        wbatch_write_line "$line"
     done
 }
 
@@ -66,16 +66,16 @@ function wbatch_echo {
 #-------------------------------------------------------------------------------
 
 function wbatch_abort_if_vm_exists {
-    local VM=$1
-    wbatch_write_line "CALL :vm_exists $VM"
+    local vm_name=$1
+    wbatch_write_line "CALL :vm_exists $vm_name"
 }
 
 function wbatch_wait_poweroff {
-    local VM=$1
+    local vm_name=$1
     cat << WBAT | wbatch_write_stdin
-ECHO %time% Waiting for VM $VM to power off.
-CALL :wait_poweroff $VM
-ECHO %time% VM $VM powered off.
+ECHO %time% Waiting for VM $vm_name to power off.
+CALL :wait_poweroff $vm_name
+ECHO %time% VM $vm_name powered off.
 WBAT
 }
 
@@ -92,27 +92,27 @@ WBAT
 #-------------------------------------------------------------------------------
 
 function wbatch_delete_disk {
-    local DISK=$(basename "$1")
-    wbatch_write_line "IF EXIST %IMGDIR%\\$DISK DEL %IMGDIR%\\$DISK"
+    local disk=$(basename "$1")
+    wbatch_write_line "IF EXIST %IMGDIR%\\$disk DEL %IMGDIR%\\$disk"
 }
 
 function wbatch_rename_disk {
-    local SOURCE=$(basename "$1")
-    local TARGET=$(basename "$2")
+    local src=$(basename "$1")
+    local target=$(basename "$2")
 
-    wbatch_write_line "MOVE /y %IMGDIR%\\$SOURCE %IMGDIR%\\$TARGET"
+    wbatch_write_line "MOVE /y %IMGDIR%\\$src %IMGDIR%\\$target"
 }
 
 function wbatch_cp_auto {
-    local SOURCE=$(wbatch_path_to_windows "$1")
-    local TARGET=$(basename "$2")
-    SOURCE=${SOURCE//\//\\}
-    wbatch_write_line "COPY %TOPDIR%\\$SOURCE %AUTODIR%\\$TARGET"
+    local src=$(wbatch_path_to_windows "$1")
+    local target=$(basename "$2")
+    src=${src//\//\\}
+    wbatch_write_line "COPY %TOPDIR%\\$src %AUTODIR%\\$target"
 }
 
 function wbatch_sleep {
-    local SEC=$1
-    wbatch_write_line "TIMEOUT /T $SEC /NOBREAK"
+    local sec=$1
+    wbatch_write_line "TIMEOUT /T $sec /NOBREAK"
 }
 
 #-------------------------------------------------------------------------------
@@ -123,14 +123,14 @@ function wbatch_sleep {
 #       like inserting \r or in-place editing (-i).
 
 function wbatch_file_header {
-    local PRODUCT=$1
-    local DATE=$(date -u)
+    local product=$1
+    local date=$(date -u)
 
     sed -e "
         s,%USER%,$USER,g;
         s,%HOSTNAME%,$HOSTNAME,g;
-        s,%DATE%,$DATE,g;
-        s,%PRODUCT%,$PRODUCT,g;
+        s,%DATE%,$date,g;
+        s,%PRODUCT%,$product,g;
         " "$WBATCH_TEMPLATE_DIR/template-file_header_bat" | wbatch_write_stdin
 }
 
@@ -148,21 +148,21 @@ function wbatch_find_vbm {
 }
 
 function wbatch_mkdirs {
-    local AUTODIR=$(wbatch_path_to_windows "$AUTOSTART_DIR")
-    local IMGDIR=$(wbatch_path_to_windows "$IMG_DIR")
-    local LOGDIR=$(wbatch_path_to_windows "$LOG_DIR")
-    local STATUSDIR=$(wbatch_path_to_windows "$STATUS_DIR")
+    local autodir=$(wbatch_path_to_windows "$AUTOSTART_DIR")
+    local imgdir=$(wbatch_path_to_windows "$IMG_DIR")
+    local logdir=$(wbatch_path_to_windows "$LOG_DIR")
+    local statusdir=$(wbatch_path_to_windows "$STATUS_DIR")
 
-    AUTODIR="$(wbatch_escape_backslash "$AUTODIR")"
-    IMGDIR="$(wbatch_escape_backslash "$IMGDIR")"
-    LOGDIR="$(wbatch_escape_backslash "$LOGDIR")"
-    STATUSDIR="$(wbatch_escape_backslash "$STATUSDIR")"
+    autodir="$(wbatch_escape_backslash "$autodir")"
+    imgdir="$(wbatch_escape_backslash "$imgdir")"
+    logdir="$(wbatch_escape_backslash "$logdir")"
+    statusdir="$(wbatch_escape_backslash "$statusdir")"
 
     sed -e "
-        s,%P_AUTODIR%,$AUTODIR,g;
-        s,%P_IMGDIR%,$IMGDIR,g;
-        s,%P_LOGDIR%,$LOGDIR,g;
-        s,%P_STATUSDIR%,$STATUSDIR,g;
+        s,%P_AUTODIR%,$autodir,g;
+        s,%P_IMGDIR%,$imgdir,g;
+        s,%P_LOGDIR%,$logdir,g;
+        s,%P_STATUSDIR%,$statusdir,g;
         " "$WBATCH_TEMPLATE_DIR/template-mkdirs_bat" | wbatch_write_stdin
 }
 
@@ -183,9 +183,9 @@ function wbatch_create_hostnet {
 }
 
 function wbatch_begin_base {
-    local ISO_NAME=$(get_iso_name)
+    local iso_name=$(get_iso_name)
 
-    if [ -z "$ISO_NAME" ]; then
+    if [ -z "$iso_name" ]; then
         echo >&2 "Windows batch file needs install ISO URL (ISO_URL)."
         exit 1
     fi
@@ -196,22 +196,22 @@ function wbatch_begin_base {
     wbatch_mkdirs
 
     sed -e "
-        s,%INSTALLFILE%,$ISO_NAME,g;
+        s,%INSTALLFILE%,$iso_name,g;
         s,%ISOURL%,$ISO_URL,g;
         " "$WBATCH_TEMPLATE_DIR/template-begin_base_bat" | wbatch_write_stdin
 }
 
 function wbatch_begin_node {
-    local NAME=$1
-    wbatch_new_file "create_${NAME}_node.bat"
-    wbatch_file_header "$NAME VM"
+    local node_name=$1
+    wbatch_new_file "create_${node_name}_node.bat"
+    wbatch_file_header "$node_name VM"
     wbatch_find_vbm
     wbatch_mkdirs
 
-    local BASEDISK=$(basename "$BASE_DISK")
+    local basedisk=$(basename "$BASE_DISK")
 
     sed -e "
-        s,%BASEDISK%,$BASEDISK,g;
+        s,%BASEDISK%,$basedisk,g;
         " "$WBATCH_TEMPLATE_DIR/template-begin_node_bat" | wbatch_write_stdin
 }
 
@@ -220,8 +220,8 @@ function wbatch_begin_node {
 #-------------------------------------------------------------------------------
 
 function wbatch_get_hostif_subst {
-    local HOSTIF=$1
-    case "$HOSTIF" in
+    local hostif=$1
+    case "$hostif" in
         ${MGMT_NET_IF:-""})
             echo 'VirtualBox Host-Only Ethernet Adapter'
             ;;
@@ -255,8 +255,8 @@ function wbatch_log_vbm {
         # On Windows, ISO and base disk images must be in IMGDIR
         re='\.(iso|vdi)$'
         if [[ "${ARGS[i]}" =~ $re ]]; then
-            local IMG_NAME=$(basename "${ARGS[i]}")
-            ARGS[i]="%IMGDIR%\\$IMG_NAME"
+            local img_name=$(basename "${ARGS[i]}")
+            ARGS[i]="%IMGDIR%\\$img_name"
             continue
         fi
     done
@@ -279,24 +279,24 @@ function wbatch_log_vbm {
 
 # On Windows, all paths are relative to TOP_DIR
 function wbatch_path_to_windows {
-    local FULL_PATH=$1
+    local full_path=$1
     # strip off ${TOP_DIR}/
-    FULL_PATH="${FULL_PATH/$TOP_DIR\//}"
-    FULL_PATH=$(wbatch_slash_to_backslash "$FULL_PATH")
-    echo "$FULL_PATH"
+    full_path="${full_path/$TOP_DIR\//}"
+    full_path=$(wbatch_slash_to_backslash "$full_path")
+    echo "$full_path"
 }
 
 # Escape backslashes in (path) variables that are given to sed
 function wbatch_escape_backslash {
-    local STRING=$1
-    STRING="${STRING//\\/\\\\}"
-    echo "$STRING"
+    local string=$1
+    string="${string//\\/\\\\}"
+    echo "$string"
 }
 
 function wbatch_slash_to_backslash {
-    local SOME_PATH=$1
-    SOME_PATH="${SOME_PATH//\//\\}"
-    echo "$SOME_PATH"
+    local some_path=$1
+    some_path="${some_path//\//\\}"
+    echo "$some_path"
 }
 
 # vim: set ai ts=4 sw=4 et ft=sh:
