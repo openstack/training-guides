@@ -245,7 +245,7 @@ function _ifnum_to_ifname_ubuntu {
 
 
 function _config_interfaces_nat {
-    local IF_NAME=eth0
+    local IF_NUM=$1
 
     local IF_NAME="$(_ifnum_to_ifname_ubuntu "$IF_NUM")"
 
