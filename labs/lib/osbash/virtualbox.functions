@@ -186,8 +186,9 @@ function create_vdi {
 function get_next_child_uuid {
     local DISK=$1
     local CHILD_UUID=""
+    local LINE=""
     if disk_registered "$DISK"; then
-        local LINE=$(WBATCH= $VBM showhdinfo "$DISK" | grep -e "^Child UUIDs:")
+        LINE=$(WBATCH= $VBM showhdinfo "$DISK" | grep -e "^Child UUIDs:")
         CHILD_UUID=${LINE##Child UUIDs:* }
     fi
     echo -e "next_child_uuid $DISK:\n\t$LINE\n\t$CHILD_UUID" >> "$VBM_LOG"
