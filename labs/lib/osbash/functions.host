@@ -135,7 +135,7 @@ function ssh_process_autostart {
     vm_ssh "$SSH_PORT" "rm -rf lib config autostart"
     vm_scp_to_vm "$SSH_PORT" "$TOP_DIR/lib" "$TOP_DIR/config"
 
-    local SCR_PATH=""
+    local SCRIPT_PATH=""
     for SCRIPT_PATH in "$AUTOSTART_DIR/"*.sh; do
         ssh_exec_script "$SSH_PORT" "$SCRIPT_PATH"
         rm -f "$SCRIPT_PATH" >&2
