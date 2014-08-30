@@ -3,65 +3,65 @@
 # Configure VirtualBox network interfaces
 function _vbox_configure_ifs {
     # Iterate over all NET_IF_? variables
-    local NET_IFS=( "${!NET_IF_@}" )
-    local NET_IF=""
-    for NET_IF in "${NET_IFS[@]}"; do
-        local IF_NUM=${NET_IF##*_}
-        if [ "${!NET_IF}" = "nat" ]; then
-            echo "interface $IF_NUM: NAT"
-            vm_nic_nat "$NODE_NAME" "$IF_NUM"
+    local net_ifs=( "${!NET_IF_@}" )
+    local net_if=""
+    for net_if in "${net_ifs[@]}"; do
+        local if_num=${net_if##*_}
+        if [ "${!net_if}" = "nat" ]; then
+            echo "interface $if_num: NAT"
+            vm_nic_nat "$NODE_NAME" "$if_num"
         else
-            # Host-only network: NET_IF is net name (e.g. API_NET)
+            # Host-only network: net_if is net name (e.g. API_NET)
             # Use corresponding VirtualBox interface (e.g. API_NET_IF)
-            local HOST_IF="${!NET_IF}_IF"
-            echo "interface $IF_NUM: host-only ${!HOST_IF}"
-            vm_nic_hostonly "$NODE_NAME" "$IF_NUM" "${!HOST_IF}"
+            local host_if="${!net_if}_IF"
+            echo "interface $if_num: host-only ${!host_if}"
+            vm_nic_hostonly "$NODE_NAME" "$if_num" "${!host_if}"
         fi
     done
 }
 
 # Boot node VM; wait until autostart files are processed and VM is shut down
 function _vbox_boot_with_autostart {
-    local VM=$1
-    local SSH_PORT=$2
+    local vm_name=$1
+    local ssh_port=$2
 
-    vbox_boot "$VM"
+    vbox_boot "$vm_name"
 
     # Wait for ssh connection and execute scripts in autostart directory
     # (for wbatch, osbashauto does the processing instead)
-    ${WBATCH:+:} ssh_process_autostart "$SSH_PORT" &
+    ${WBATCH:+:} ssh_process_autostart "$ssh_port" &
 
     wait_for_autofiles
-    echo >&2 "VM \"$VM\": autostart files executed"
+    echo >&2 "VM \"$vm_name\": autostart files executed"
 }
 
 # Create a new node VM and run basic configuration scripts
 function vm_init_node {
-    NODE_NAME=$1
+    node_name=$1
 
-    vm_create "$NODE_NAME"
+    vm_create "$node_name"
 
     # Set VM_MEM in config/config.NODE_NAME to override
-    vm_mem "$NODE_NAME" "${VM_MEM:-512}"
+    vm_mem "$node_name" "${VM_MEM:-512}"
 
     # Set VM_CPUS in config/config.NODE_NAME to override
-    vm_cpus "$NODE_NAME" "${VM_CPUS:-1}"
+    vm_cpus "$node_name" "${VM_CPUS:-1}"
 
     _vbox_configure_ifs
 
     # Port forwarding
     if [ -n "${VM_SSH_PORT:-}" ]; then
-        vm_port "$NODE_NAME" ssh "$VM_SSH_PORT" 22
+        vm_port "$node_name" ssh "$VM_SSH_PORT" 22
     fi
     if [ -n "${VM_WWW_PORT:-}" ]; then
-        vm_port "$NODE_NAME" http "$VM_WWW_PORT" 80
+        vm_port "$node_name" http "$VM_WWW_PORT" 80
     fi
 
-    vm_add_share "$NODE_NAME" "$SHARE_DIR" "$SHARE_NAME"
-    vm_attach_disk_multi "$NODE_NAME" "$BASE_DISK"
+    vm_add_share "$node_name" "$SHARE_DIR" "$SHARE_NAME"
+    vm_attach_disk_multi "$node_name" "$BASE_DISK"
     #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     # Rename to pass the node name to the script
-    autostart_and_rename osbash init_xxx_node.sh "init_${NODE_NAME}_node.sh"
+    autostart_and_rename osbash init_xxx_node.sh "init_${node_name}_node.sh"
 }
 
 function vm_build_node {
