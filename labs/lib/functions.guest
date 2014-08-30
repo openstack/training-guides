@@ -41,10 +41,10 @@ function zero_empty_space {
 
 function indicate_current_auto {
     if [ "${VM_SHELL_USER:-}" = "osbash" ]; then
-        local NAME=${1:-$(basename "$0")}
-        local FPATH=${2:-"/$STATUS_DIR/$NAME.begin"}
+        local scr_name=${1:-$(basename "$0")}
+        local fpath=${2:-"/$STATUS_DIR/$scr_name.begin"}
         mkdir -p "$STATUS_DIR"
-        touch "$FPATH"
+        touch "$fpath"
     fi
 }
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -52,11 +52,11 @@ function indicate_current_auto {
 
 function wait_for_file {
     # If no argument is passed, use empty string (to pass nounset option)
-    local MSG=${1-""}
-    local WAITFILE=remove_to_continue
-    [ -n "$MSG" ] && WAITFILE=${WAITFILE}_${MSG}
-    touch "/tmp/$WAITFILE"
-    while [ -e "/tmp/$WAITFILE" ]; do
+    local msg=${1-""}
+    local wait_file=remove_to_continue
+    [ -n "$msg" ] && wait_file=${wait_file}_${msg}
+    touch "/tmp/$wait_file"
+    while [ -e "/tmp/$wait_file" ]; do
         sleep 1
     done
 }
@@ -65,27 +65,27 @@ function wait_for_file {
 #-------------------------------------------------------------------------------
 
 function exec_logpath {
-    local LOG_PATH=$1
+    local log_path=$1
 
     # Append all stdin and stderr to log file
-    exec > >(tee -a "$LOG_PATH") 2>&1
+    exec > >(tee -a "$log_path") 2>&1
 }
 
 function exec_logfile {
-    local LOG_DIR=${1:-/home/$VM_SHELL_USER/log}
+    local log_dir=${1:-/home/$VM_SHELL_USER/log}
 
     # Default extension is log
-    local EXT=${2:-log}
+    local ext=${2:-log}
 
-    mkdir -p "$LOG_DIR"
+    mkdir -p "$log_dir"
 
     # Log name based on name of running script
-    local BASE_NAME=$(basename "$0" .sh)
+    local base_name=$(basename "$0" .sh)
 
-    local PREFIX=$(get_next_prefix "$LOG_DIR" "$EXT")
-    local LOG_NAME="${PREFIX}_$BASE_NAME.$EXT"
+    local prefix=$(get_next_prefix "$log_dir" "$ext")
+    local log_name="${prefix}_$base_name.$ext"
 
-    exec_logpath "$LOG_DIR/$LOG_NAME"
+    exec_logpath "$log_dir/$log_name"
 }
 
 #-------------------------------------------------------------------------------
@@ -93,13 +93,13 @@ function exec_logfile {
 #-------------------------------------------------------------------------------
 
 function as_root_fix_mount_vboxsf_link {
-    local FILE=/sbin/mount.vboxsf
-    if [ -L $FILE -a ! -e $FILE ]; then
-        echo "$FILE is a broken symlink. Trying to fix it."
+    local file=/sbin/mount.vboxsf
+    if [ -L $file -a ! -e $file ]; then
+        echo "$file is a broken symlink. Trying to fix it."
         shopt -s nullglob
-        local NEW=(/opt/VBoxGuestAdditions*/lib/VBoxGuestAdditions)
-        if [ -n "$NEW" ]; then
-            ln -sv "$NEW" /usr/lib/VBoxGuestAdditions
+        local new=(/opt/VBoxGuestAdditions*/lib/VBoxGuestAdditions)
+        if [ -n "$new" ]; then
+            ln -sv "$new" /usr/lib/VBoxGuestAdditions
         else
             return 1
         fi
@@ -118,15 +118,15 @@ function as_root_inject_sudoer {
 # Change to a regular user to execute a guest script (and log its output)
 
 function as_root_exec_script {
-    local SCRIPT_PATH=$1
-    local SCRIPT_NAME="$(basename "$SCRIPT_PATH" .sh)"
+    local script_path=$1
+    local script_name="$(basename "$script_path" .sh)"
 
-    echo "$(date) start $SCRIPT_PATH"
+    echo "$(date) start $script_path"
 
-    local PREFIX=$(get_next_prefix "$LOG_DIR" "auto")
-    local LOG_PATH=$LOG_DIR/${PREFIX}_$SCRIPT_NAME.auto
+    local prefix=$(get_next_prefix "$LOG_DIR" "auto")
+    local log_path=$LOG_DIR/${prefix}_$script_name.auto
 
-    su - "$VM_SHELL_USER" -c "bash $SCRIPT_PATH" >"$LOG_PATH" 2>&1
+    su - "$VM_SHELL_USER" -c "bash $script_path" >"$log_path" 2>&1
 
     echo "$(date)  done"
 }
@@ -198,36 +198,36 @@ function service_to_user_password {
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 function _ifnum_to_ifname_fedora {
-    local IF_NUM=$1
-    local -a IF_NAMES=('p2p1' 'p7p1' 'p8p1' 'p9p1')
+    local if_num=$1
+    local -a if_names=('p2p1' 'p7p1' 'p8p1' 'p9p1')
 
-    echo "${IF_NAMES[$IF_NUM]}"
+    echo "${if_names[$if_num]}"
 }
 
 function _config_sysconfig_nat {
-    local IF_NUM=$1
+    local if_num=$1
 
-    local IF_NAME="$(_ifnum_to_ifname_fedora "$IF_NUM")"
+    local if_name="$(_ifnum_to_ifname_fedora "$if_num")"
 
-    local IF_FILE=/etc/sysconfig/network-scripts/ifcfg-$IF_NAME
+    local if_file=/etc/sysconfig/network-scripts/ifcfg-$if_name
 
     sed -e "
-        s,%IF_NAME%,$IF_NAME,g;
-    " "$TEMPLATE_DIR/template-fedora-ifcfg-nat" | sudo tee "$IF_FILE"
+        s,%IF_NAME%,$if_name,g;
+    " "$TEMPLATE_DIR/template-fedora-ifcfg-nat" | sudo tee "$if_file"
 }
 
 function _config_sysconfig_hostonly {
-    local IF_NUM=$1
-    local IP_ADDRESS=$2
+    local if_num=$1
+    local ip_address=$2
 
-    local IF_NAME="$(_ifnum_to_ifname_fedora "$IF_NUM")"
+    local if_name="$(_ifnum_to_ifname_fedora "$if_num")"
 
-    local IF_FILE=/etc/sysconfig/network-scripts/ifcfg-$IF_NAME
+    local if_file=/etc/sysconfig/network-scripts/ifcfg-$if_name
 
     sed -e "
-        s,%IF_NAME%,$IF_NAME,g;
-        s,%IP_ADDRESS%,$IP_ADDRESS,g;
-    " "$TEMPLATE_DIR/template-fedora-ifcfg-hostonly" | sudo tee "$IF_FILE"
+        s,%IF_NAME%,$if_name,g;
+        s,%IP_ADDRESS%,$ip_address,g;
+    " "$TEMPLATE_DIR/template-fedora-ifcfg-hostonly" | sudo tee "$if_file"
 }
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -237,72 +237,72 @@ function _config_sysconfig_hostonly {
 readonly UBUNTU_IF_FILE=/etc/network/interfaces
 
 function _ifnum_to_ifname_ubuntu {
-    local IF_NUM=$1
-    local -a IF_NAMES=('eth0' 'eth1' 'eth2' 'eth3')
+    local if_num=$1
+    local -a if_names=('eth0' 'eth1' 'eth2' 'eth3')
 
-    echo "${IF_NAMES[$IF_NUM]}"
+    echo "${if_names[$if_num]}"
 }
 
 
 function _config_interfaces_nat {
-    local IF_NUM=$1
+    local if_num=$1
 
-    local IF_NAME="$(_ifnum_to_ifname_ubuntu "$IF_NUM")"
+    local if_name="$(_ifnum_to_ifname_ubuntu "$if_num")"
 
     # Empty line before this entry
     echo | sudo tee -a "$UBUNTU_IF_FILE"
 
     sed -e "
-        s,%IF_NAME%,$IF_NAME,g;
+        s,%IF_NAME%,$if_name,g;
     " "$TEMPLATE_DIR/template-ubuntu-interfaces-nat" | sudo tee -a "$UBUNTU_IF_FILE"
 }
 
 function _config_interfaces_hostonly {
-    local IF_NUM=$1
-    local IP_ADDRESS=$2
+    local if_num=$1
+    local ip_address=$2
 
-    local IF_NAME="$(_ifnum_to_ifname_ubuntu "$IF_NUM")"
+    local if_name="$(_ifnum_to_ifname_ubuntu "$if_num")"
 
     # Empty line before this entry
     echo | sudo tee -a "$UBUNTU_IF_FILE"
 
     sed -e "
-        s,%IF_NAME%,$IF_NAME,g;
-        s,%IP_ADDRESS%,$IP_ADDRESS,g;
+        s,%IF_NAME%,$if_name,g;
+        s,%IP_ADDRESS%,$ip_address,g;
     " "$TEMPLATE_DIR/template-ubuntu-interfaces-hostonly" | sudo tee -a "$UBUNTU_IF_FILE"
 }
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 function config_nat {
-    local IF_NUM=$1
+    local if_num=$1
 
     if is_fedora; then
-        echo _config_sysconfig_nat "$IF_NUM"
-        _config_sysconfig_nat "$IF_NUM"
+        echo _config_sysconfig_nat "$if_num"
+        _config_sysconfig_nat "$if_num"
     else
-        echo _config_interfaces_nat "$IF_NUM"
-        _config_interfaces_nat "$IF_NUM"
+        echo _config_interfaces_nat "$if_num"
+        _config_interfaces_nat "$if_num"
     fi
 }
 
 function config_hostonly {
-    local IF_NUM=$1
-    local IP_ADDRESS=$2
+    local if_num=$1
+    local ip_address=$2
 
     if is_fedora; then
-        echo _config_sysconfig_hostonly "$IF_NUM" "$IP_ADDRESS"
-        _config_sysconfig_hostonly "$IF_NUM" "$IP_ADDRESS"
+        echo _config_sysconfig_hostonly "$if_num" "$ip_address"
+        _config_sysconfig_hostonly "$if_num" "$ip_address"
     else
-        echo _config_interfaces_hostonly "$IF_NUM" "$IP_ADDRESS"
-        _config_interfaces_hostonly "$IF_NUM" "$IP_ADDRESS"
+        echo _config_interfaces_hostonly "$if_num" "$ip_address"
+        _config_interfaces_hostonly "$if_num" "$ip_address"
     fi
 }
 
 function get_ip_from_net_and_fourth {
-    local NET_NAME=$1
-    local NET="${!NET_NAME}"
-    local FOURTH_OCTET=$2
+    local net_name=$1
+    local net="${!net_name}"
+    local fourth_octet=$2
 
-    echo "${NET%.*}.$FOURTH_OCTET"
+    echo "${net%.*}.$fourth_octet"
 }
 
 function hostname_to_ip {
@@ -325,21 +325,21 @@ function config_network {
     source "$CONFIG_DIR/openstack"
 
     # Iterate over all NET_IF_? variables
-    local NET_IFS=( "${!NET_IF_@}" )
-    local NET_IF=""
-    for NET_IF in "${NET_IFS[@]}"; do
-        echo >&2 -n "${NET_IF} ${!NET_IF}"
-        local IF_NUM=${NET_IF##*_}
-        if [ "${!NET_IF}" = "nat" ]; then
+    local net_ifs=( "${!NET_IF_@}" )
+    local net_if=""
+    for net_if in "${net_ifs[@]}"; do
+        echo >&2 -n "${net_if} ${!net_if}"
+        local if_num=${net_if##*_}
+        if [ "${!net_if}" = "nat" ]; then
             echo >&2
-            config_nat "$IF_NUM"
+            config_nat "$if_num"
         else
-            # Host-only network: NET_IF is net name (e.g. API_NET)
+            # Host-only network: net_if is net name (e.g. API_NET)
             # Use corresponding value (e.g. 192.168.100.1)
-            IP="$(get_ip_from_net_and_fourth "${!NET_IF}" "$FOURTH_OCTET")"
+            IP="$(get_ip_from_net_and_fourth "${!net_if}" "$FOURTH_OCTET")"
             echo >&2 " $IP"
 
-            config_hostonly "$IF_NUM" "$IP"
+            config_hostonly "$if_num" "$IP"
         fi
     done
 }
