@@ -1,8 +1,8 @@
 # This bash library contains the main function that creates the base disk.
 
 function vm_install_base {
-    local BASE_DISK=$1
-    local BASE_BUILD_DISK=$DISK_DIR/tmp-disk.vdi
+    local base_disk=$1
+    local base_build_disk=$DISK_DIR/tmp-disk.vdi
 
     # Port used for ssh forwarding when building base disk
     : ${VM_BASE_SSH_PORT:=2229}
@@ -11,23 +11,23 @@ function vm_install_base {
 
     ${WBATCH:-:} wbatch_begin_base
 
-    # Don't remove BASE_BUILD_DISK if we are just faking it for wbatch
-    ${OSBASH:-:} rm -f "$BASE_BUILD_DISK"
-    ${WBATCH:-:} wbatch_delete_disk "$BASE_BUILD_DISK"
+    # Don't remove base_build_disk if we are just faking it for wbatch
+    ${OSBASH:-:} rm -f "$base_build_disk"
+    ${WBATCH:-:} wbatch_delete_disk "$base_build_disk"
 
     vm_create "$VM_BASE_NAME"
     vm_mem "$VM_BASE_NAME" "${VM_BASE_MEM:=512}"
 
     if [ -z "${INSTALL_ISO-}" ]; then
-        local ISO_NAME="$(get_iso_name)"
+        local iso_name="$(get_iso_name)"
 
-        if [  -z "$ISO_NAME" ]; then
+        if [  -z "$iso_name" ]; then
             echo >&2 "Either ISO URL or name needed (ISO_URL, INSTALL_ISO)."
             exit 1
         fi
-        INSTALL_ISO=$ISO_DIR/$ISO_NAME
+        INSTALL_ISO=$ISO_DIR/$iso_name
         # Don't look for ISO image if we are only doing wbatch
-        ${OSBASH:-:} find_install-iso "$ISO_NAME"
+        ${OSBASH:-:} find_install-iso "$iso_name"
     fi
 
     echo >&2 -e "Install ISO:\n\t$INSTALL_ISO"
@@ -41,8 +41,8 @@ function vm_install_base {
     ${WBATCH:-:} vm_attach_guestadd-iso "$VM_BASE_NAME"
 
     ${OSBASH:-:} mkdir -pv "$DISK_DIR"
-    create_vdi "$BASE_BUILD_DISK" 8000
-    vm_attach_disk "$VM_BASE_NAME" "$BASE_BUILD_DISK"
+    create_vdi "$base_build_disk" 8000
+    vm_attach_disk "$VM_BASE_NAME" "$base_build_disk"
 
     #---------------------------------------------------------------------------
     # Set up communication with base VM: ssh port forwarding by default,
@@ -75,9 +75,9 @@ function vm_install_base {
     # Boot VM into distribution installer
     vbox_boot "$VM_BASE_NAME"
 
-    local DELAY=5
-    echo >&2 "Waiting $DELAY seconds for VM \"$VM_BASE_NAME\" to come up"
-    vbox_sleep "$DELAY"
+    local delay=5
+    echo >&2 "Waiting $delay seconds for VM \"$VM_BASE_NAME\" to come up"
+    vbox_sleep "$delay"
 
     vbox_distro_start_installer "$VM_BASE_NAME"
 
@@ -97,18 +97,18 @@ function vm_install_base {
 
     vm_unregister_del "$VM_BASE_NAME"
 
-    echo >&2 "Compacting $BASE_BUILD_DISK"
-    $VBM modifyhd "$BASE_BUILD_DISK" --compact
+    echo >&2 "Compacting $base_build_disk"
+    $VBM modifyhd "$base_build_disk" --compact
 
     # This disk will be moved to a new name, and this name will be used for
     # a new disk next time the script runs.
-    disk_unregister "$BASE_BUILD_DISK"
+    disk_unregister "$base_build_disk"
 
     echo >&2 "Base disk created"
 
-    echo >&2 "Moving base disk to $BASE_DISK"
-    ${OSBASH:-:} mv -vf "$BASE_BUILD_DISK" "$BASE_DISK"
-    ${WBATCH:-:} wbatch_rename_disk "$BASE_BUILD_DISK" "$BASE_DISK"
+    echo >&2 "Moving base disk to $base_disk"
+    ${OSBASH:-:} mv -vf "$base_build_disk" "$base_disk"
+    ${WBATCH:-:} wbatch_rename_disk "$base_build_disk" "$base_disk"
 
     ${WBATCH:-:} wbatch_end_file
 
