@@ -192,7 +192,7 @@ function wait_for_autofiles {
 function _autostart_queue {
     local SRC_DIR=${1%/*}
     # if SRC_DIR is a code, turn it into a real path
-    local SRC_DIR="$(src_dir_code_to_dir "$SRC_DIR")"
+    SRC_DIR="$(src_dir_code_to_dir "$SRC_DIR")"
 
     local SRC_NAME=${1##*/}
 
