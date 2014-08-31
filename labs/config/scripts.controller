@@ -15,6 +15,7 @@ scripts setup_nova_controller.sh
 scripts setup_neutron_controller.sh
 scripts setup_cinder_controller.sh
 scripts setup_cinder_volumes.sh
+cmd snapshot_cycle "cinder_installed"
 scripts setup_horizon.sh
 scripts config_external_network.sh
 scripts config_demo_user.sh
