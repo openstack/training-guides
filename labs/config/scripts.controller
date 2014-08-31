@@ -7,6 +7,7 @@ osbash enable_vagrant_ssh_keys.sh
 cmd snapshot_cycle "network_configured"
 scripts apt_install_mysql.sh
 scripts install_rabbitmq.sh
+cmd snapshot_cycle "pre-openstack_installed"
 scripts setup_keystone.sh
 scripts setup_glance.sh
 scripts setup_nova_controller.sh
