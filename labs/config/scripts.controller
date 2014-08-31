@@ -12,6 +12,7 @@ scripts setup_keystone.sh
 cmd snapshot_cycle "keystone_installed"
 scripts setup_glance.sh
 scripts setup_nova_controller.sh
+cmd snapshot_cycle "nova-controller_installed"
 scripts setup_neutron_controller.sh
 scripts setup_cinder_controller.sh
 scripts setup_cinder_volumes.sh
