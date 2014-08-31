@@ -258,34 +258,35 @@ function autostart {
 function command_from_config {
     local cmd_string=( $1 )
     local cmd=${cmd_string[0]}
+    local vm_name=$NODE_NAME
     case "$cmd" in
         boot)
             # Boot with queued autostart files now, wait for shutdown
-            echo >&2 _vbox_boot_with_autostart "$NODE_NAME" "$VM_SSH_PORT"
-            _vbox_boot_with_autostart "$NODE_NAME" "$VM_SSH_PORT"
+            echo >&2 _vbox_boot_with_autostart "$vm_name" "$VM_SSH_PORT"
+            _vbox_boot_with_autostart "$vm_name" "$VM_SSH_PORT"
             ;;
         snapshot)
             # Format: snapshot <snapshot_name>
             local shot_name=${cmd_string[1]}
-            echo >&2 vm_snapshot "$NODE_NAME" "$shot_name"
-            vm_snapshot "$NODE_NAME" "$shot_name"
+            echo >&2 vm_snapshot "$vm_name" "$shot_name"
+            vm_snapshot "$vm_name" "$shot_name"
             ;;
         wait_for_shutdown)
-            echo >&2 vm_wait_for_shutdown "$NODE_NAME"
-            vm_wait_for_shutdown "$NODE_NAME"
+            echo >&2 vm_wait_for_shutdown "$vm_name"
+            vm_wait_for_shutdown "$vm_name"
             ;;
         snapshot_cycle)
             # comprises shutdown, boot, wait_for_shutdown, snapshot
             local shot_name=${cmd_string[1]}
-            echo >&2 snapshot_cycle "$NODE_NAME" "$shot_name"
+            echo >&2 snapshot_cycle "$vm_name" "$shot_name"
             _autostart_queue "osbash/shutdown.sh"
-            _vbox_boot_with_autostart "$NODE_NAME" "$VM_SSH_PORT"
-            vm_wait_for_shutdown "$NODE_NAME"
-            vm_snapshot "$NODE_NAME" "$shot_name"
+            _vbox_boot_with_autostart "$vm_name" "$VM_SSH_PORT"
+            vm_wait_for_shutdown "$vm_name"
+            vm_snapshot "$vm_name" "$shot_name"
             ;;
         init_node)
-            echo >&2 vm_init_node "$NODE_NAME"
-            vm_init_node "$NODE_NAME"
+            echo >&2 vm_init_node "$vm_name"
+            vm_init_node "$vm_name"
             ;;
         *)
             echo >&2 "Error: invalid cmd: $cmd"
