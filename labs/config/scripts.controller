@@ -19,6 +19,7 @@ cmd snapshot_cycle "neutron-controller_installed"
 scripts setup_cinder_controller.sh
 scripts setup_cinder_volumes.sh
 scripts setup_horizon.sh
+cmd snapshot_cycle "horizon_installed"
 scripts config_external_network.sh
 scripts config_demo_user.sh
 scripts config_tenant_network.sh
