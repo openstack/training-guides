@@ -1,7 +1,5 @@
 # Used by osbash.sh and guest scripts
 
-: ${VM_BASE_NAME:=base}
-
 # Port used for ssh forwarding when building base disk
 : ${VM_BASE_SSH_PORT:=2229}
 
