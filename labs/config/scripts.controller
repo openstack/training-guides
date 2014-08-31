@@ -24,5 +24,5 @@ cmd snapshot_cycle "horizon_installed"
 scripts config_external_network.sh
 scripts config_demo_user.sh
 scripts config_tenant_network.sh
-cmd snapshot_cycle "pre-installed"
+cmd snapshot_cycle "openstack-controller_installed"
 cmd boot
