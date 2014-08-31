@@ -3,6 +3,7 @@
 function vm_install_base {
     local base_disk=$1
     local base_build_disk=$DISK_DIR/tmp-disk.vdi
+    local vm_name=base
 
     # Port used for ssh forwarding when building base disk
     : ${VM_BASE_SSH_PORT:=2229}
@@ -15,8 +16,8 @@ function vm_install_base {
     ${OSBASH:-:} rm -f "$base_build_disk"
     ${WBATCH:-:} wbatch_delete_disk "$base_build_disk"
 
-    vm_create "$VM_BASE_NAME"
-    vm_mem "$VM_BASE_NAME" "${VM_BASE_MEM:=512}"
+    vm_create "$vm_name"
+    vm_mem "$vm_name" "${VM_BASE_MEM:=512}"
 
     if [ -z "${INSTALL_ISO-}" ]; then
         local iso_name="$(get_iso_name)"
@@ -31,33 +32,33 @@ function vm_install_base {
     fi
 
     echo >&2 -e "Install ISO:\n\t$INSTALL_ISO"
-    $VBM storageattach "$VM_BASE_NAME" \
+    $VBM storageattach "$vm_name" \
         --storagectl IDE \
         --port 0 \
         --device 0 \
         --type dvddrive \
         --medium "$INSTALL_ISO"
 
-    ${WBATCH:-:} vm_attach_guestadd-iso "$VM_BASE_NAME"
+    ${WBATCH:-:} vm_attach_guestadd-iso "$vm_name"
 
     ${OSBASH:-:} mkdir -pv "$DISK_DIR"
     create_vdi "$base_build_disk" 8000
-    vm_attach_disk "$VM_BASE_NAME" "$base_build_disk"
+    vm_attach_disk "$vm_name" "$base_build_disk"
 
     #---------------------------------------------------------------------------
     # Set up communication with base VM: ssh port forwarding by default,
     # VirtualBox shared folders for wbatch
 
     # wbatch runs cannot use ssh, so skip port forwarding in that case
-    ${WBATCH:+:} vm_port "$VM_BASE_NAME" ssh "$VM_BASE_SSH_PORT" 22
+    ${WBATCH:+:} vm_port "$vm_name" ssh "$VM_BASE_SSH_PORT" 22
 
     # Automounted on /media/sf_bootstrap for first boot
-    ${WBATCH:-:} vm_add_share_automount "$VM_BASE_NAME" "$SHARE_DIR" bootstrap
+    ${WBATCH:-:} vm_add_share_automount "$vm_name" "$SHARE_DIR" bootstrap
     # Mounted on /$SHARE_NAME after first boot
-    ${WBATCH:-:} vm_add_share "$VM_BASE_NAME" "$SHARE_DIR" "$SHARE_NAME"
+    ${WBATCH:-:} vm_add_share "$vm_name" "$SHARE_DIR" "$SHARE_NAME"
     #---------------------------------------------------------------------------
 
-    $VBM modifyvm "$VM_BASE_NAME" --boot1 dvd
+    $VBM modifyvm "$vm_name" --boot1 dvd
 
     # Configure autostart
     autostart_reset
@@ -73,13 +74,13 @@ function vm_install_base {
     autostart scripts zero_empty.sh shutdown.sh
 
     # Boot VM into distribution installer
-    vbox_boot "$VM_BASE_NAME"
+    vbox_boot "$vm_name"
 
     local delay=5
-    echo >&2 "Waiting $delay seconds for VM \"$VM_BASE_NAME\" to come up"
+    echo >&2 "Waiting $delay seconds for VM \"$vm_name\" to come up"
     vbox_sleep "$delay"
 
-    vbox_distro_start_installer "$VM_BASE_NAME"
+    vbox_distro_start_installer "$vm_name"
 
     echo >&2 "Installing operating system; waiting for reboot"
 
@@ -88,14 +89,14 @@ function vm_install_base {
     ${WBATCH:+:} ssh_process_autostart "$VM_BASE_SSH_PORT" &
     # After reboot
     wait_for_autofiles
-    echo >&2 "Installation done for VM $VM_BASE_NAME"
+    echo >&2 "Installation done for VM $vm_name"
 
-    vm_wait_for_shutdown "$VM_BASE_NAME"
+    vm_wait_for_shutdown "$vm_name"
 
     # Detach disk from VM now or it will be deleted by vm_unregister_del
-    vm_detach_disk "$VM_BASE_NAME"
+    vm_detach_disk "$vm_name"
 
-    vm_unregister_del "$VM_BASE_NAME"
+    vm_unregister_del "$vm_name"
 
     echo >&2 "Compacting $base_build_disk"
     $VBM modifyhd "$base_build_disk" --compact
