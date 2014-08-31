@@ -11,6 +11,7 @@ cmd snapshot_cycle "pre-openstack_installed"
 scripts setup_keystone.sh
 cmd snapshot_cycle "keystone_installed"
 scripts setup_glance.sh
+cmd snapshot_cycle "glance_installed"
 scripts setup_nova_controller.sh
 scripts setup_neutron_controller.sh
 scripts setup_cinder_controller.sh
