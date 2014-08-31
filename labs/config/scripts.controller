@@ -15,6 +15,7 @@ cmd snapshot_cycle "glance_installed"
 scripts setup_nova_controller.sh
 cmd snapshot_cycle "nova-controller_installed"
 scripts setup_neutron_controller.sh
+cmd snapshot_cycle "neutron-controller_installed"
 scripts setup_cinder_controller.sh
 scripts setup_cinder_volumes.sh
 scripts setup_horizon.sh
