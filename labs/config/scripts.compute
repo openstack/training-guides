@@ -8,3 +8,4 @@ cmd snapshot_cycle "network_configured"
 scripts setup_nova_compute.sh
 scripts setup_neutron_compute.sh
 cmd snapshot_cycle "pre-installed"
+cmd boot
