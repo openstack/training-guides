@@ -1,0 +1,134 @@
+review.openstack.org
+====================
+
+.. image:: ./_assets/14-01-review.png
+  :width: 100%
+
+----
+
+gerrit workflow
+===============
+
+.. image:: ./_assets/14-02-gerrit-workflow.png
+  :width: 100%
+
+----
+
+upload an ssh key
+=================
+
+- https://review.openstack.org/#/settings/ssh-keys
+
+.. image:: ./_assets/14-03-upload-ssh-key.png
+
+----
+
+git config
+==========
+
+- git config --global user.name "Firstname Lastname"
+- git config --global user.email "your_email@youremail.com"
+
+.. image:: ./_assets/14-04-git-config.png
+
+----
+
+Install git review
+==================
+
+- apt-get / yum / … git review
+
+.. image:: ./_assets/14-05-install.png
+
+----
+
+git clone
+=========
+
+.. image:: ./_assets/14-06-git-clone.png
+
+----
+
+git review -s
+=============
+
+.. image:: ./_assets/14-07-git-review-s.png
+
+----
+
+git checkout -b TOPIC-BRANCH
+============================
+
+.. image:: ./_assets/14-08-git-checkout.png
+
+----
+
+running unit tests
+==================
+
+.. image:: ./_assets/14-09-unit-tests.png
+
+----
+
+git review -D
+=============
+
+.. image:: ./_assets/14-10-git-review.png
+
+----
+
+invite reviewers
+================
+
+.. image:: ./_assets/14-11-invite-reviewers.png
+  :width: 100%
+
+----
+
+New interface: invite reviewers
+===============================
+
+.. image:: ./_assets/14-12-new-invite-reviewers.png
+
+----
+
+git commit --amend
+==================
+
+.. image:: ./_assets/14-13-git-commit-amend.png
+
+----
+
+git review -D ( repush )
+========================
+
+.. image:: ./_assets/14-14-git-repush.png
+
+----
+
+gerrit patchset history
+=======================
+
+.. image:: ./_assets/14-15-patchset-history.png
+
+----
+
+New interface: gerrit patchset history
+=======================================
+
+.. image:: ./_assets/14-16-new-patchset-history.png
+
+----
+
+patchset diffs
+==============
+
+.. image:: ./_assets/14-17-patchset-diffs.png
+
+----
+
+Exercise
+========
+
+push a wip or draft and invite reviewers
+
