@@ -44,10 +44,15 @@ function check_vagrant_private_key {
     local key_name="vagrant"
     local key_url=https://raw.githubusercontent.com/mitchellh/vagrant/master/keys/$key_name
     local vagrant_key_dir=$LIB_DIR/vagrant-ssh-keys
+    local vagrant_key_path=$vagrant_key_dir/$key_name
 
-    if [ ! -f "$vagrant_key_dir/$key_name" ]; then
+    if [ ! -f "$vagrant_key_path" ]; then
         download "$key_url" "$vagrant_key_dir" $key_name
-        chmod 400 "$vagrant_key_dir/$key_name"
+    fi
+
+    if ! ls -l "$vagrant_key_path"|grep -q "^-r--------"; then
+        echo "Adjusting permissions for $vagrant_key_path"
+        chmod 400 "$vagrant_key_path"
     fi
 }
 
