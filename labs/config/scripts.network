@@ -7,3 +7,4 @@ osbash enable_vagrant_ssh_keys.sh
 cmd snapshot_cycle "network_configured"
 scripts setup_neutron_network.sh
 cmd snapshot_cycle "openstack-network_installed"
+cmd boot
