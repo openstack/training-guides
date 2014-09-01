@@ -37,31 +37,31 @@ function _vbox_boot_with_autostart {
 
 # Create a new node VM and run basic configuration scripts
 function vm_init_node {
-    node_name=$1
+    vm_name=$1
 
-    vm_create "$node_name"
+    vm_create "$vm_name"
 
     # Set VM_MEM in config/config.NODE_NAME to override
-    vm_mem "$node_name" "${VM_MEM:-512}"
+    vm_mem "$vm_name" "${VM_MEM:-512}"
 
     # Set VM_CPUS in config/config.NODE_NAME to override
-    vm_cpus "$node_name" "${VM_CPUS:-1}"
+    vm_cpus "$vm_name" "${VM_CPUS:-1}"
 
     _vbox_configure_ifs
 
     # Port forwarding
     if [ -n "${VM_SSH_PORT:-}" ]; then
-        vm_port "$node_name" ssh "$VM_SSH_PORT" 22
+        vm_port "$vm_name" ssh "$VM_SSH_PORT" 22
     fi
     if [ -n "${VM_WWW_PORT:-}" ]; then
-        vm_port "$node_name" http "$VM_WWW_PORT" 80
+        vm_port "$vm_name" http "$VM_WWW_PORT" 80
     fi
 
-    vm_add_share "$node_name" "$SHARE_DIR" "$SHARE_NAME"
-    vm_attach_disk_multi "$node_name" "$BASE_DISK"
+    vm_add_share "$vm_name" "$SHARE_DIR" "$SHARE_NAME"
+    vm_attach_disk_multi "$vm_name" "$BASE_DISK"
     #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     # Rename to pass the node name to the script
-    autostart_and_rename osbash init_xxx_node.sh "init_${node_name}_node.sh"
+    autostart_and_rename osbash init_xxx_node.sh "init_${NODE_NAME}_node.sh"
 }
 
 function vm_build_node {
