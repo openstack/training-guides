@@ -190,7 +190,7 @@ function get_next_child_uuid {
     local line=""
     if disk_registered "$disk"; then
         line=$(WBATCH= $VBM showhdinfo "$disk" | grep -e "^Child UUIDs:")
-        child_uuid=${LINE##Child UUIDs:* }
+        child_uuid=${line##Child UUIDs:* }
     fi
     echo -e "next_child_uuid $disk:\n\t$line\n\t$child_uuid" >> "$VBM_LOG"
     echo "$child_uuid"
