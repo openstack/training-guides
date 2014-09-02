@@ -13,7 +13,10 @@ indicate_current_auto
 #------------------------------------------------------------------------------
 
 echo "Installing cinder."
-sudo apt-get install -y cinder-api cinder-scheduler
+sudo apt-get install -y cinder-api cinder-scheduler qemu-utils
+# Note: The package 'qemu-utils' is required for 'qemu-img' which allows cinder
+#       to convert additional image types to bootable volumes. By default only
+#       raw images can be converted.
 
 echo "Setting up database for cinder."
 setup_database cinder
