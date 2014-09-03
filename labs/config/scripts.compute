@@ -7,5 +7,6 @@ osbash enable_vagrant_ssh_keys.sh
 cmd snapshot_cycle "network_configured"
 scripts setup_nova_compute.sh
 scripts setup_neutron_compute.sh
+scripts setup_cinder_volumes.sh
 cmd snapshot_cycle "pre-installed"
 cmd boot
