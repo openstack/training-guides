@@ -20,7 +20,7 @@ sudo apt-get install -y lvm2
 echo "Configuring LVM physical and logical volumes."
 cinder_loop_path=/var/lib/cinder-volumes
 cinder_loop_dev=/dev/loop2
-sudo dd if=/dev/zero of=$cinder_loop_path bs=1 count=0 seek=2G
+sudo dd if=/dev/zero of=$cinder_loop_path bs=1 count=0 seek=4G
 sudo losetup $cinder_loop_dev $cinder_loop_path
 sudo pvcreate $cinder_loop_dev
 sudo vgcreate cinder-volumes $cinder_loop_dev
