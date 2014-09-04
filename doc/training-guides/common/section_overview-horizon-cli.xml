@@ -89,8 +89,7 @@
             got from the cloud operator.</para>
         </listitem>
         <listitem>
-          <para><link xlink:href="https://ip_address_or_hostname/"
-              >https://IP_ADDRESS_OR_HOSTNAME/</link></para>
+          <para><uri>https://IP_ADDRESS_OR_HOSTNAME/</uri></para>
         </listitem>
         <listitem>
           <para>On the dashboard log in page, enter your user name and
