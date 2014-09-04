@@ -1060,7 +1060,7 @@
       <itemizedlist>
         <listitem>
           <para>The following example uploads a CentOS 6.3 image in
-            qcow2 format and con../figures it for public access:</para>
+            qcow2 format and configures it for public access:</para>
         </listitem>
         <listitem>
           <para>$glance image-create --name centos63-image
