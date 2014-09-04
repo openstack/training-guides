@@ -62,10 +62,10 @@ iniset_sudo $conf DEFAULT auth_strategy keystone
 iniset_sudo $conf DEFAULT rpc_backend neutron.openstack.common.rpc.impl_kombu
 iniset_sudo $conf DEFAULT rabbit_host controller-mgmt
 iniset_sudo $conf DEFAULT rabbit_password "$RABBIT_PASSWORD"
-iniset_sudo $conf DEFAULT notify_nova_on_port_status_changes True
-iniset_sudo $conf DEFAULT notify_nova_on_port_data_changes True
 
 # Configure nova related parameters
+iniset_sudo $conf DEFAULT notify_nova_on_port_status_changes True
+iniset_sudo $conf DEFAULT notify_nova_on_port_data_changes True
 iniset_sudo $conf DEFAULT nova_url http://controller-mgmt:8774/v2
 iniset_sudo $conf DEFAULT nova_admin_username "$nova_admin_user"
 iniset_sudo $conf DEFAULT nova_admin_tenant_id "$service_tenant_id"
@@ -80,8 +80,8 @@ iniset_sudo $conf DEFAULT allow_overlapping_ips True
 # Configuring [keystone_authtoken] section
 iniset_sudo $conf keystone_authtoken auth_uri "http://controller-mgmt:5000"
 iniset_sudo $conf keystone_authtoken auth_host controller-mgmt
-iniset_sudo $conf keystone_authtoken auth_port 35357
 iniset_sudo $conf keystone_authtoken auth_protocol http
+iniset_sudo $conf keystone_authtoken auth_port 35357
 iniset_sudo $conf keystone_authtoken admin_tenant_name "$SERVICE_TENANT_NAME"
 iniset_sudo $conf keystone_authtoken admin_user "$neutron_admin_user"
 iniset_sudo $conf keystone_authtoken admin_password "$neutron_admin_password"
@@ -101,12 +101,19 @@ keystone endpoint-create \
 
 echo "Configuring the OVS plug-in to use GRE tunneling."
 conf=/etc/neutron/plugins/ml2/ml2_conf.ini
+
+# Edit the [ml2] section.
 iniset_sudo $conf ml2 type_drivers gre
 iniset_sudo $conf ml2 tenant_network_types gre
 iniset_sudo $conf ml2 mechanism_drivers openvswitch
+
+# Edit the [ml2_type_gre] section.
 iniset_sudo $conf ml2_type_gre tunnel_id_ranges 1:1000
+
+# Edit the [securitygroup] section.
 iniset_sudo $conf securitygroup firewall_driver neutron.agent.linux.iptables_firewall.OVSHybridIptablesFirewallDriver
 iniset_sudo $conf securitygroup enable_security_group True
+
 
 echo "Configure Compute to use Networking"
 conf=/etc/nova/nova.conf
