@@ -6,6 +6,7 @@ osbash enable_vagrant_ssh_keys.sh
 # Using scripts/osbash/shutdown.sh because we want Vagrant to ignore this
 cmd snapshot_cycle "network_configured"
 scripts setup_nova_compute.sh
+cmd snapshot_cycle "nova-compute_installed"
 scripts setup_neutron_compute.sh
 scripts setup_cinder_volumes.sh
 cmd snapshot_cycle "pre-installed"
