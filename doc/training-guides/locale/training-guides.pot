@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-08-30 06:00+0000\n"
+"POT-Creation-Date: 2014-09-06 06:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13898,7 +13898,7 @@ msgid "To add an image"
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:1062(para)
-msgid "The following example uploads a CentOS 6.3 image in qcow2 format and con../figures it for public access:"
+msgid "The following example uploads a CentOS 6.3 image in qcow2 format and configures it for public access:"
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:1066(para)
