@@ -597,9 +597,8 @@ blueprint training-manuals</computeroutput></screen>
             <step>
                 <para>Verify the code is good by running <command>mvn
                         clean generate-sources</command> and by
-                    reviewing the local HTML in <link
-                        xlink:href="target/docbkx/webhelp/training-guides/content/"
-                            >file:///Users/<replaceable>username</replaceable>/code/openstack-manuals/doc/training-guides/target/docbkx/webhelp/training-guides/content/</link>.</para>
+                    reviewing the local HTML in <uri
+                            >file:///Users/<replaceable>username</replaceable>/code/training-guides/doc/training-guides/target/docbkx/webhelp/training-guides/content/</uri>.</para>
             </step>
             <step>
                 <para>Merge the branch.</para>
