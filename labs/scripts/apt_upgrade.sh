@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -o errexit -o nounset
 TOP_DIR=$(cd $(dirname "$0")/.. && pwd)
 source "$TOP_DIR/config/paths"
 source "$CONFIG_DIR/openstack"
@@ -16,6 +17,7 @@ sudo apt-get -y dist-upgrade
 
 # XXX Not a great location for Vagrant specific code
 if [[ $VM_SHELL_USER = vagrant ]]; then
+    init_os_ident
     if is_ubuntu; then
         sudo apt-get -y install virtualbox-guest-dkms
     fi

@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -o errexit -o nounset
 TOP_DIR=$(cd $(dirname "$0")/.. && pwd)
 source "$TOP_DIR/config/paths"
 source "$CONFIG_DIR/credentials"
@@ -91,7 +92,9 @@ log-queries
 # Verbose logging for DHCP
 log-dhcp
 DNSMASQ
-sudo killall dnsmasq
+
+# Catch and ignore error status if no dnsmasq process is found (the default)
+sudo killall dnsmasq||rc=$?
 
 echo "Configuring the metadata agent"
 conf=/etc/neutron/metadata_agent.ini

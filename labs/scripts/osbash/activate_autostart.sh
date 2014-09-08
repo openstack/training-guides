@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -o errexit -o nounset
 # This script is the first to run and the only one to run as root.
 
 # XXX The name activate_autostart.sh is hard-coded in ks.cfg and preseed.cfg.
@@ -51,6 +52,9 @@ sed -e "
     " "$OSBASH_SCRIPTS_DIR/template-$RCAUTOSTART" > "/etc/init.d/$RCAUTOSTART"
 
 chmod 755 "/etc/init.d/$RCAUTOSTART"
+
+# Make devstack's is_fedora work with nounset
+init_os_ident
 
 if is_fedora; then
     cat << SERVICE > /etc/systemd/system/$RCAUTOSTART.service

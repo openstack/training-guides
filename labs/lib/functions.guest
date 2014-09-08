@@ -5,6 +5,13 @@
 source "$LIB_DIR/functions"
 source "$LIB_DIR/functions-common-devstack"
 
+# Make devstack's operating system identification work with nounset
+function init_os_ident {
+    if [[ -z "${os_PACKAGE:-""}" ]]; then
+        GetOSVersion
+    fi
+}
+
 function source_deploy {
     if [ -n "${VM_SHELL_USER:-}" ]; then
         # Already sourced
@@ -281,6 +288,7 @@ function _config_interfaces_hostonly {
 function config_nat {
     local if_num=$1
 
+    init_os_ident
     if is_fedora; then
         echo _config_sysconfig_nat "$if_num"
         _config_sysconfig_nat "$if_num"
@@ -294,6 +302,7 @@ function config_hostonly {
     local if_num=$1
     local ip_address=$2
 
+    init_os_ident
     if is_fedora; then
         echo _config_sysconfig_hostonly "$if_num" "$ip_address"
         _config_sysconfig_hostonly "$if_num" "$ip_address"
@@ -317,6 +326,7 @@ function hostname_to_ip {
 }
 
 function config_network {
+    init_os_ident
     if is_ubuntu; then
         # Configuration functions will append to this file
         sudo cp -v  "$TEMPLATE_DIR/template-ubuntu-interfaces-loopback" \

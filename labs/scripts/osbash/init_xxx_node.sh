@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -o errexit -o nounset
 
 # This scripts configures hostname and networking for all nodes. The filename
 # determines the node name.

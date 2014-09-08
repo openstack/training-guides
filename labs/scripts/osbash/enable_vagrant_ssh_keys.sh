@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -o errexit -o nounset
 
 # This script installs the unsecure Vagrant ssh keys. This allows users to
 # log into the VMs using these keys instead of a password.
