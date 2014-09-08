@@ -6,6 +6,194 @@
   <title>Compute Node Quiz</title>
   <section xml:id="day-one-compute-quiz-schedule">
     <title>Day 1, 16:40 to 17:00</title>
-    <para></para>
+      <formalpara>
+        <title>Associate Training Guide, Compute Node Quiz Questions</title>
+            <para>
+                <orderedlist>
+                  <listitem>
+                      <formalpara>
+                        <title>Which component determines which host a VM should launch on?</title>
+                      <para>
+                          <orderedlist>
+                            <listitem>
+                              <para>nova-network</para>
+                            </listitem>
+                            <listitem>
+                              <para>queue</para>
+                            </listitem>
+                            <listitem>
+                              <para>nova-compute</para>
+                            </listitem>
+                            <listitem>
+                              <para>nova-console</para>
+                            </listitem>
+                            <listitem>
+                              <para>nova-scheduler</para>
+                            </listitem>
+                            <listitem>
+                              <para>nova-api</para>
+                            </listitem>
+                          </orderedlist>
+                        </para>
+                      </formalpara>
+                    </listitem>
+                    <listitem>
+                      <formalpara>
+                        <title>All compute nodes (also known as hosts in terms of OpenStack) periodically publish
+                            their status, resources available and hardware capabilities: (choose all that apply)</title>
+                      <para>
+                          <orderedlist>
+                            <listitem>
+                              <para>through the queue</para>
+                            </listitem>
+                            <listitem>
+                              <para>with SQL calls to the database</para>
+                            </listitem>
+                            <listitem>
+                              <para>with direct interprocess communication</para>
+                            </listitem>
+                          </orderedlist>
+                        </para>
+                      </formalpara>
+                    </listitem>
+                    <listitem>
+                      <formalpara>
+                        <title>By default, the compute node's scheduler is configured as:</title>
+                      <para>
+                          <orderedlist>
+                            <listitem>
+                              <para>the RAM scheduler</para>
+                            </listitem>
+                            <listitem>
+                              <para>the base scheduler</para>
+                            </listitem>
+                            <listitem>
+                              <para>the chance scheduler</para>
+                            </listitem>
+                            <listitem>
+                              <para>the filter scheduler</para>
+                            </listitem>
+                            <listitem>
+                              <para>the weight scheduler</para>
+                            </listitem>
+                          </orderedlist>
+                        </para>
+                      </formalpara>
+                    </listitem>
+                    <listitem>
+                      <formalpara>
+                        <title>If the compute node is using the filter scheduler, it works by:</title>
+                      <para>
+                          <orderedlist>
+                            <listitem>
+                              <para>filtering hosts by using predefined properties</para>
+                            </listitem>
+                            <listitem>
+                              <para>weighting hosts by applying predefined weights</para>
+                            </listitem>
+                            <listitem>
+                              <para>sorting hosts by using weights to determine host preference list first, then applying filters</para>
+                            </listitem>
+                            <listitem>
+                              <para>filtering hosts first, then using weights to determine host preference</para>
+                            </listitem>
+                            <listitem>
+                              <para>filtering hosts first, then choosing a random host from the filtered list</para>
+                            </listitem>
+                          </orderedlist>
+                        </para>
+                      </formalpara>
+                    </listitem>
+                    <listitem>
+                      <formalpara>
+                        <title>Scheduler always returns a host on which Nova can start the requested VM.</title>
+                        <para>
+                          <orderedlist>
+                            <listitem>
+                              <para>True</para>
+                            </listitem>
+                            <listitem>
+                              <para>False</para>
+                            </listitem>
+                          </orderedlist>
+                        </para>
+                      </formalpara>
+                    </listitem>
+                    <listitem>
+                      <formalpara>
+                        <title>OpenStack provides which classes of block storage? (choose all that apply)</title>
+                        <para>
+                          <orderedlist>
+                            <listitem>
+                              <para>RAM storage</para>
+                            </listitem>
+                            <listitem>
+                              <para>object storage</para>
+                            </listitem>
+                            <listitem>
+                              <para>persistent storage</para>
+                            </listitem>
+                            <listitem>
+                              <para>file storage</para>
+                            </listitem>
+                            <listitem>
+                              <para>SSD storage</para>
+                            </listitem>
+                            <listitem>
+                              <para>ephemeral storage</para>
+                            </listitem>
+                            <listitem>
+                              <para>disk storage</para>
+                            </listitem>
+                          </orderedlist>
+                        </para>
+                      </formalpara>
+                    </listitem>
+                    <listitem>
+                      <formalpara>
+                        <title>Persistent volumes can be used by more than one instance at the same time:</title>
+                      <para>
+                          <orderedlist>
+                            <listitem>
+                              <para>True</para>
+                            </listitem>
+                            <listitem>
+                              <para>False</para>
+                            </listitem>
+                          </orderedlist>
+                        </para>
+                      </formalpara>
+                    </listitem>
+                </orderedlist>
+            </para>
+      </formalpara>
+     <formalpara>
+        <title>Associate Training Guide, Compute Node Quiz Answers</title>
+            <para>
+                <orderedlist>
+                  <listitem>
+                    <para>e (nova-scheduler)</para>
+                  </listitem>
+                  <listitem>
+                    <para>a (through the queue) - This increases scalability.</para>
+                  </listitem>
+                  <listitem>
+                    <para>d (the filter scheduler)</para>
+                  </listitem>
+                  <listitem>
+                    <para>d filtering hosts first, then using weights to determine host preference</para>
+                  </listitem>
+                  <listitem>
+                    <para>b (False) - Scheduler can also return an error (no suitable host for the requested VM).</para>
+                  </listitem>
+                  <listitem>
+                    <para>c (persistent storage), f (ephemeral storage) - The question is about OpenStack's block storage classes.</para>
+                  </listitem>
+                  <listitem>
+                    <para>b (False)</para>
+                  </listitem>
+                </orderedlist>
+            </para>
+      </formalpara>
   </section>
 </chapter>
