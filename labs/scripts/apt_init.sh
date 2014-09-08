@@ -34,14 +34,21 @@ set_apt_proxy
 # Get apt index files
 sudo apt-get update
 
-# cloud-keyring to verify packages from ubuntu-cloud repo
-sudo apt-get install ubuntu-cloud-keyring
+function ubuntu_cloud_archive {
+    # cloud-keyring to verify packages from ubuntu-cloud repo
+    sudo apt-get install ubuntu-cloud-keyring
 
-# Install packages needed for add-apt-repository
-sudo apt-get -y install software-properties-common python-software-properties
-sudo add-apt-repository -y "cloud-archive:$OPENSTACK_RELEASE"
+    # Install packages needed for add-apt-repository
+    sudo apt-get -y install software-properties-common \
+                            python-software-properties
+    sudo add-apt-repository -y "cloud-archive:$OPENSTACK_RELEASE"
 
-# Get index files only for ubuntu-cloud repo but keep standard lists
-sudo apt-get update \
-    -o Dir::Etc::sourcelist="sources.list.d/cloudarchive-$OPENSTACK_RELEASE.list" \
-    -o Dir::Etc::sourceparts="-" -o APT::Get::List-Cleanup="0"
+    # Get index files only for ubuntu-cloud repo but keep standard lists
+    sudo apt-get update \
+        -o Dir::Etc::sourcelist="sources.list.d/cloudarchive-$OPENSTACK_RELEASE.list" \
+        -o Dir::Etc::sourceparts="-" -o APT::Get::List-Cleanup="0"
+}
+
+if grep -qs DISTRIB_CODENAME=precise /etc/lsb-release; then
+    ubuntu_cloud_archive
+fi
