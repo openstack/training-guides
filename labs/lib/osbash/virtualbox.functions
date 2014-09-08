@@ -378,6 +378,7 @@ function vm_create {
     else
         $VBM storagectl "$vm_name" --name SATA --add sata --portcount 1
     fi
+    $VBM storagectl "$vm_name" --name SATA --hostiocache on
 
     $VBM storagectl "$vm_name" --name IDE --add ide
     echo >&2 "Created VM \"$vm_name\""
