@@ -11,7 +11,7 @@
   <title>VirtualBox basics</title>
   <para><guilabel>Getting Started</guilabel></para>
   <para>The following methods are conventional for deploying
-    OpenStack on Virtual Box for the sake of a test/sandbox or just to
+    OpenStack on VirtualBox for the sake of a test/sandbox or just to
     try out OpenStack on commodity hardware.</para>
     <para>1. DevStack</para>
     <para>2. Vagrant</para>
@@ -88,7 +88,7 @@
         <computeroutput>INFO: Your CPU does not support KVM extensions
             KVM acceleration can NOT be used</computeroutput>
     </screen>
-    <para>You will still be able to use Virtual Box but the instances
+    <para>You will still be able to use VirtualBox but the instances
       will be very slow.</para>
     <para>There are many ways to configure your OpenStack Setup. In this example, we
     will deploy OpenStack multi node using OVS as the network
@@ -146,7 +146,7 @@
   <orderedlist>
     <listitem>
       <para><link xlink:href="https://www.virtualbox.org/wiki/Downloads">
-        Oracle Virtual Box</link></para>
+        Oracle VirtualBox</link></para>
    <note><para>You cannot set up an AMD64 VM on a x86 machine.</para></note>
     </listitem>
     <listitem>
@@ -178,14 +178,14 @@
           networks for your Virtual Machine.</para>
       </listitem>
       <listitem>
-        <para>Launch Virtual Box</para>
+        <para>Launch VirtualBox</para>
       </listitem>
     </itemizedlist>
     <itemizedlist>
       <listitem>
         <para>Click on <emphasis role="bold"
           >File>Preferences</emphasis> present on the menu bar of
-        Virtual Box.</para>
+        VirtualBox.</para>
       </listitem>
       <listitem>
         <para>Select the <emphasis role="bold">Network
@@ -329,7 +329,7 @@
         <para>You may benefit by installing SSH and FTP so that you
           can use your remote shell to login into the machine and
           use your terminal which is more convenient than using the
-          Virtual Machines tty through the Virtual Box's UI. You get a
+          Virtual Machines tty through the VirtualBox's UI. You get a
           few added features such as copy - paste commands into the
           remote terminal, which is not possible directly on VM.</para>
       </listitem>
@@ -643,7 +643,7 @@
         </listitem>
         <listitem>
           <para>If this doesn't work, check your network
-            settings from Virtual Box. Something may be missing or it may be
+            settings from VirtualBox. Something may be missing or it may be
             misconfigured.</para>
         </listitem>
         <listitem>
@@ -653,15 +653,15 @@
         </listitem>
         <listitem>
           <para>Note: There are known bugs with the ping under NAT.
-            Although the latest versions of Virtual Box have better
+            Although the latest versions of VirtualBox have better
             performance, sometimes ping may not work even if the
             Network is connected to the Internet.</para>
         </listitem>
       </itemizedlist>
       <para>Congratulations! You are now setup with the infrastructure for
         deploying OpenStack. Just make sure that the Ubuntu Server
-        is installed on the above setup Virtual Box instances. In the
+        is installed on the above setup VirtualBox instances. In the
         next section we will go through deploying OpenStack using the
-        above created Virtual Box instances.</para>
+        above created VirtualBox instances.</para>
   </section>
 </chapter>

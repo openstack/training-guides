@@ -61,20 +61,20 @@
 auto lo
 iface lo inet loopback
 
-# The primary network interface - Virtual Box NAT connection
-# (Virtual Box Network Adapter 1)
+# The primary network interface - VirtualBox NAT connection
+# (VirtualBox Network Adapter 1)
 auto eth0
 iface eth0 inet dhcp
 
-# Virtual Box vboxnet0 - OpenStack management network
-# (Virtual Box Network Adapter 2)
+# VirtualBox vboxnet0 - OpenStack management network
+# (VirtualBox Network Adapter 2)
 auto eth1
 iface eth1 inet static
 address 10.10.10.51
 netmask 255.255.255.0
 
 # VirtualBox vboxnet2 - OpenStack API network
-# (Virtual Box Network Adapter 3)
+# (VirtualBox Network Adapter 3)
 auto eth2
 iface eth2 inet static
 address 192.168.100.51

@@ -9,12 +9,12 @@
     <para>The operating system that is installed on your laptop or
       desktop that hosts virtual machines. This is commonly referred to as
       the host OS or <glossterm>host</glossterm>.
-      In short, the machine where your Virtual Box is
+      In short, the machine where your VirtualBox is
       installed.</para>
   </formalpara>
   <formalpara>
     <title>Guest Operating System (Guest)</title>
-    <para>The operating system that is installed on your Virtual Box
+    <para>The operating system that is installed on your VirtualBox
       Virtual Machine. This virtual instance is independent of the
       host OS. It is commonly referred to as <glossterm>guest OS</glossterm>
       or guest.</para>

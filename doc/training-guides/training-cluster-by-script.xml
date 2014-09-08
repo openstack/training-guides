@@ -16,7 +16,7 @@
     <title>To test scripts</title>
     <step>
       <title>Set up the test environment</title>
-      <para>To use Virtual Box as test environment, you must attach
+      <para>To use VirtualBox as test environment, you must attach
         the following network adapters:</para>
       <itemizedlist>
         <listitem>
@@ -38,7 +38,7 @@
     <step>
       <title>Test scripts individually</title>
       <para>Run the shell scripts in the <filename>Scripts</filename>
-        folder to verify they run correctly. Do not install Virtual Box,
+        folder to verify they run correctly. Do not install VirtualBox,
         although it is recommended because your host machine might fail.</para>
       <para>To test the scripts, run them. Some scripts require
         input parameters. If you do not want to run them manually, run
@@ -48,13 +48,13 @@
     </step>
     <step>
       <title>Test the entire system</title>
-      <para>You must install Virtual Box, Ubuntu Server 12.04 or
-        13.04, and the Virtual Box guest add-ons.</para>
-      <para>To install Virtual Box guest add-ons, complete one of
+      <para>You must install VirtualBox, Ubuntu Server 12.04 or
+        13.04, and the VirtualBox guest add-ons.</para>
+      <para>To install VirtualBox guest add-ons, complete one of
         these steps:</para>
       <itemizedlist>
         <listitem>
-          <para>Install the Virtual Box guest add-ons through
+          <para>Install the VirtualBox guest add-ons through
             ISO:</para>
           <screen><prompt>#</prompt> <userinput>apt-get install linux-headers-generic</userinput></screen>
           <screen><prompt>#</prompt> <userinput>mount /dev/cdrom0/ /tmp/cdrom</userinput> </screen>
@@ -62,7 +62,7 @@
           <screen><prompt>#</prompt> <userinput>./virtualbox</userinput></screen>
         </listitem>
         <listitem>
-          <para>Install the Virtual Box guest add-ons through Ubuntu
+          <para>Install the VirtualBox guest add-ons through Ubuntu
             repositories:</para>
           <screen><prompt>#</prompt> <userinput>apt-get install linux-headers-generic</userinput></screen>
           <screen><prompt>#</prompt> <userinput>apt-get --no-install-recommends install virtualbox-guest-additions</userinput></screen>
