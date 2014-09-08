@@ -28,6 +28,9 @@ RUNNING_KERNEL=$(uname -r)
 
 if [[ $INSTALLED_KERNEL != $RUNNING_KERNEL ]]; then
     echo "Kernel $INSTALLED_KERNEL installed. Removing $RUNNING_KERNEL."
+    if dpkg -s "linux-image-extra-$RUNNING_KERNEL" >/dev/null 2>&1; then
+        sudo dpkg --purge "linux-image-extra-$RUNNING_KERNEL"
+    fi
     sudo dpkg --purge "linux-image-$RUNNING_KERNEL"
     sudo dpkg --purge "linux-headers-$RUNNING_KERNEL"
 fi
