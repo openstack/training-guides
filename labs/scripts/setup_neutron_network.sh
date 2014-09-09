@@ -85,6 +85,25 @@ sudo ovs-vsctl add-br br-ex
 echo "Adding port to external bridge."
 sudo ovs-vsctl add-port br-ex eth3
 
+network_api_ip=$(hostname_to_ip network-api)
+
+echo "Moving network-api IP address from eth3 to a switch-internal device."
+sudo ifconfig eth3 0.0.0.0
+sudo ifconfig br-ex "$network_api_ip"
+
+echo "Making the IP address move reboot-safe."
+sudo sed -i "s/$network_api_ip/0.0.0.0/" /etc/network/interfaces
+cat << INTERFACES | sudo tee -a /etc/network/interfaces
+
+auto br-ex
+iface br-ex inet static
+      address $network_api_ip
+      netmask 255.255.255.0
+INTERFACES
+
+# Check if we can get to the API network again
+ping -c 1 controller-api
+
 echo "Configuring Layer-3 agent."
 conf=/etc/neutron/l3_agent.ini
 iniset_sudo $conf DEFAULT interface_driver neutron.agent.linux.interface.OVSInterfaceDriver
