@@ -276,10 +276,11 @@ header:not(:only-child) {
   font-family: "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
   font-weight: normal;
   font-size: 50px;
+  border-bottom: 2px solid black;
   letter-spacing: -.05em;
   color: black;
   text-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px;
-  position: absolute;
+  position: relative;
   left: 30px;
   top: 25px;
   margin: 0;
@@ -304,7 +305,7 @@ section, .slide header:only-child h1 {
   text-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px;
   margin-left: 30px;
   margin-right: 30px;
-  margin-top: 100px;
+  margin-top: 40px;
   display: block;
   overflow: hidden;
 }
