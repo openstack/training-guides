@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-09-08 06:00+0000\n"
+"POT-Creation-Date: 2014-09-09 06:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -779,11 +779,11 @@ msgstr ""
 msgid "OpenStack code is freely available via the FreeBSD license. (True or False)"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:91(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:106(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:121(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:160(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:175(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:20(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:36(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:101(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:118(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:159(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:174(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:238(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:301(para)
+#: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:91(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:106(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:121(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:160(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:175(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:20(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:36(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:101(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:118(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:159(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:174(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:238(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:301(para) ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:113(para) ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:158(para)
 msgid "True"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:94(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:109(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:124(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:163(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:178(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:23(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:39(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:104(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:121(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:162(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:177(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:241(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:304(para)
+#: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:94(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:109(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:124(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:163(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:178(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:23(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:39(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:104(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:121(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:162(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:177(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:241(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:304(para) ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:116(para) ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:161(para)
 msgid "False"
 msgstr ""
 
@@ -1233,6 +1233,174 @@ msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:376(para)
 msgid "B (False) - Because the term project was used instead of tenant in earlier versions of OpenStack Compute, some command-line tools use --project_id instead of --tenant-id or --os-tenant-id to refer to a tenant ID."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:10(title)
+msgid "Associate Training Guide, Compute Node Quiz Questions"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:15(title)
+msgid "Which component determines which host a VM should launch on?"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:19(para)
+msgid "nova-network"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:22(para)
+msgid "queue"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:25(para)
+msgid "nova-compute"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:28(para)
+msgid "nova-console"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:31(para)
+msgid "nova-scheduler"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:34(para)
+msgid "nova-api"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:42(title)
+msgid "All compute nodes (also known as hosts in terms of OpenStack) periodically publish their status, resources available and hardware capabilities: (choose all that apply)"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:47(para)
+msgid "through the queue"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:50(para)
+msgid "with SQL calls to the database"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:53(para)
+msgid "with direct interprocess communication"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:61(title)
+msgid "By default, the compute node's scheduler is configured as:"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:65(para)
+msgid "the RAM scheduler"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:68(para)
+msgid "the base scheduler"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:71(para)
+msgid "the chance scheduler"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:74(para)
+msgid "the filter scheduler"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:77(para)
+msgid "the weight scheduler"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:85(title)
+msgid "If the compute node is using the filter scheduler, it works by:"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:89(para)
+msgid "filtering hosts by using predefined properties"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:92(para)
+msgid "weighting hosts by applying predefined weights"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:95(para)
+msgid "sorting hosts by using weights to determine host preference list first, then applying filters"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:98(para)
+msgid "filtering hosts first, then using weights to determine host preference"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:101(para)
+msgid "filtering hosts first, then choosing a random host from the filtered list"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:109(title)
+msgid "Scheduler always returns a host on which Nova can start the requested VM."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:124(title)
+msgid "OpenStack provides which classes of block storage? (choose all that apply)"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:128(para)
+msgid "RAM storage"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:131(para)
+msgid "object storage"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:134(para)
+msgid "persistent storage"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:137(para)
+msgid "file storage"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:140(para)
+msgid "SSD storage"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:143(para)
+msgid "ephemeral storage"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:146(para)
+msgid "disk storage"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:154(title)
+msgid "Persistent volumes can be used by more than one instance at the same time:"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:171(title)
+msgid "Associate Training Guide, Compute Node Quiz Answers"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:175(para)
+msgid "e (nova-scheduler)"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:178(para)
+msgid "a (through the queue) - This increases scalability."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:181(para)
+msgid "d (the filter scheduler)"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:184(para)
+msgid "d filtering hosts first, then using weights to determine host preference"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:187(para)
+msgid "b (False) - Scheduler can also return an error (no suitable host for the requested VM)."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:190(para)
+msgid "c (persistent storage), f (ephemeral storage) - The question is about OpenStack's block storage classes."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:193(para)
+msgid "b (False)"
 msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node.xml:10(title)
@@ -10146,14 +10314,14 @@ msgid "Copy in other content sources including the Aptira content, a description
 msgstr ""
 
 #: ./doc/training-guides/common/editing-code.xml:598(para)
-msgid "Verify the code is good by running <placeholder-1/> and by reviewing the local HTML in <link href=\"target/docbkx/webhelp/training-guides/content/\">file:///Users/<replaceable>username</replaceable>/code/openstack-manuals/doc/training-guides/target/docbkx/webhelp/training-guides/content/</link>."
+msgid "Verify the code is good by running <placeholder-1/> and by reviewing the local HTML in <uri>file:///Users/<replaceable>username</replaceable>/code/training-guides/doc/training-guides/target/docbkx/webhelp/training-guides/content/</uri>."
 msgstr ""
 
-#: ./doc/training-guides/common/editing-code.xml:605(para)
+#: ./doc/training-guides/common/editing-code.xml:604(para)
 msgid "Merge the branch."
 msgstr ""
 
-#: ./doc/training-guides/common/editing-code.xml:608(para)
+#: ./doc/training-guides/common/editing-code.xml:607(para)
 msgid "The bug will be completed automatically if the commit message references the bug number."
 msgstr ""
 
