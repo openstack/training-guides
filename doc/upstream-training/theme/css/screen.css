@@ -47,9 +47,9 @@ div.slide {
   margin-left: -400px;
   left: 50%;
   top: 50%;
-  background: -webkit-gradient(linear, left bottom, left top, from(#bbd), to(#fff));
+  background: -webkit-gradient(linear, left bottom, left top, from(#eef3f5), to(#fff));
   background-color: #eee;
-  background: -moz-linear-gradient(bottom, #bbd, #fff);
+  background: -moz-linear-gradient(bottom, #eef3f5, #fff);
   -webkit-transition: margin 0.25s ease-in-out;
   -moz-transition: margin 0.25s ease-in-out;
   -o-transition: margin 0.25s ease-in-out;
@@ -99,9 +99,9 @@ body.expose div.slide {
 }
 
 body.expose div.slide:hover {
-  background: -webkit-gradient(linear, left bottom, left top, from(#bdd), to(#fff));
+  background: -webkit-gradient(linear, left bottom, left top, from(#eef3f5), to(#fff));
   background-color: #eee;
-  background: -moz-linear-gradient(bottom, #bdd, #fff);
+  background: -moz-linear-gradient(bottom, #eef3f5, #fff);
 }
 
 body.expose .slide-wrapper {
@@ -276,9 +276,9 @@ header:not(:only-child) {
   font-family: "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
   font-weight: normal;
   font-size: 50px;
-  border-bottom: 2px solid black;
+  border-bottom: 3px solid #777;
   letter-spacing: -.05em;
-  color: black;
+  color: #cf2f19;
   text-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px;
   position: relative;
   left: 30px;
