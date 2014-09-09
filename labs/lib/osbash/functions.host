@@ -127,7 +127,16 @@ function ssh_exec_script {
     local prefix=$(get_next_prefix "$LOG_DIR" "auto")
     local log_path=$LOG_DIR/${prefix}_${script_name}.auto
 
-    vm_ssh "$ssh_port" "bash $remote_path && rm -vf $remote_path" > "$log_path" 2>&1
+    local rc=0
+    vm_ssh "$ssh_port" "bash $remote_path && rm -vf $remote_path" \
+        > "$log_path" 2>&1 || rc=$?
+    if [ $rc -ne 0 ]; then
+        echo >&2
+        echo "ERROR: ssh returned status $rc for $remote_path" |
+            tee >&2 -a "$LOG_DIR/error.log"
+        # kill osbash host scripts
+        kill -- -$$
+    fi
 
     echo -en "\n$(date)  done"
 }
