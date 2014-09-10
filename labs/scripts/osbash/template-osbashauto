@@ -36,8 +36,12 @@ for AUTODIR in "/$SHARE_NAME/autostart" "/$SHARE_NAME/autostart/$HOSTNAME"; do
     if [ -d "$AUTODIR" ]; then
         echo "$(date) autodir $AUTODIR"
         for SCRIPT in $AUTODIR/*.sh; do
-            as_root_exec_script "$SCRIPT"
-
+            if ! as_root_exec_script "$SCRIPT"; then
+                echo >&2 "Script returned with error, giving up."
+                # Tell host about the error
+                echo "ERROR in $SCRIPT" >> "$STATUS_DIR/error"
+                exit 1
+            fi
             # Remove script after execution
             rm "$SCRIPT"
         done

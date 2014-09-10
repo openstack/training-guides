@@ -187,7 +187,7 @@ function wait_for_autofiles {
     ${OSBASH:+:} autostart_reset
     ${OSBASH:+:} return 0
 
-    until [ -f "$STATUS_DIR/done" ]; do
+    until [ -f "$STATUS_DIR/done" -o -f "$STATUS_DIR/error" ]; do
         # Note: begin files (created by indicate_current_auto) are only visible
         # if the STATUS_DIR directory is shared between host and VM
         ${WBATCH:-:} process_begin_files
@@ -196,7 +196,12 @@ function wait_for_autofiles {
     done
     # Check for remaining *.sh.begin files
     ${WBATCH:-:} process_begin_files
-    rm "$STATUS_DIR/done"
+    if [ -f "$STATUS_DIR/done" ]; then
+        rm "$STATUS_DIR/done"
+    else
+        echo -e >&2 "\nERROR occured. Exiting."
+        kill -- -$$
+    fi
     echo
 }
 

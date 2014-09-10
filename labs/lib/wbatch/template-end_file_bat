@@ -13,6 +13,7 @@ ECHO.
 :terminate
 ENDLOCAL
 PAUSE
+EXIT
 GOTO :eof
 
 REM ============================================================================
@@ -24,6 +25,17 @@ REM ============================================================================
 IF EXIST %STATUSDIR%\done (
     DEL %STATUSDIR%\done
     GOTO :eof
+)
+IF EXIST %STATUSDIR%\error (
+    ECHO.
+    ECHO %time% ERROR Script returned error:
+    ECHO.
+    TYPE %STATUSDIR%\error
+    ECHO.
+    ECHO %time% Aborting.
+    ECHO.
+    DEL %STATUSDIR%\error
+    GOTO :terminate
 )
 TIMEOUT /T 5 /NOBREAK
 GOTO :wait_auto

@@ -127,8 +127,14 @@ function as_root_exec_script {
     local log_path=$LOG_DIR/${prefix}_$script_name.auto
 
     su - "$VM_SHELL_USER" -c "bash $script_path" >"$log_path" 2>&1
-
-    echo "$(date)  done"
+    local rc=$?
+    if [ $rc -ne 0 ]; then
+        echo "$(date) ERROR: status $rc for $script_path" |
+            tee >&2 -a "$LOG_DIR/error.log"
+    else
+        echo "$(date)  done"
+    fi
+    return $rc
 }
 
 #-------------------------------------------------------------------------------
