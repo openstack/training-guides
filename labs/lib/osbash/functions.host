@@ -180,7 +180,6 @@ function process_begin_files {
 # Wait until all autofiles are processed (indicated by a "$STATUS_DIR/done"
 # file created either by osbashauto or ssh_process_autostart)
 function wait_for_autofiles {
-    local auto_done=false
     shopt -s nullglob
 
     ${WBATCH:-:} wbatch_wait_auto
@@ -188,18 +187,16 @@ function wait_for_autofiles {
     ${OSBASH:+:} autostart_reset
     ${OSBASH:+:} return 0
 
-    until $auto_done ; do
-        if [ -f "$STATUS_DIR/done" ]; then
-            auto_done=true
-            rm "$STATUS_DIR/done"
-            # Return only after checking for remaining *.sh.begin files
-        fi
+    until [ -f "$STATUS_DIR/done" ]; do
         # Note: begin files (created by indicate_current_auto) are only visible
         # if the STATUS_DIR directory is shared between host and VM
         ${WBATCH:-:} process_begin_files
         echo >&2 -n .
         sleep 1
     done
+    # Check for remaining *.sh.begin files
+    ${WBATCH:-:} process_begin_files
+    rm "$STATUS_DIR/done"
     echo
 }
 
