@@ -166,6 +166,17 @@ function autostart_reset {
     clean_dir "$STATUS_DIR"
 }
 
+function process_begin_files {
+    local processing=("$STATUS_DIR"/*.sh.begin)
+    if [ -n "${processing[0]-}" ]; then
+        local file
+        for file in "${processing[@]}"; do
+            echo >&2 -en "\nVM processing $(basename "$file" .begin)"
+            rm "$file"
+        done
+    fi
+}
+
 # Wait until all autofiles are processed (indicated by a "$STATUS_DIR/done"
 # file created either by osbashauto or ssh_process_autostart)
 function wait_for_autofiles {
@@ -185,13 +196,7 @@ function wait_for_autofiles {
         fi
         # Note: begin files (created by indicate_current_auto) are only visible
         # if the STATUS_DIR directory is shared between host and VM
-        local processing=("$STATUS_DIR"/*.sh.begin)
-        if [ -n "${processing[0]-}" ]; then
-            for f in "${processing[@]}"; do
-                echo >&2 -en "\nVM processing $(basename "$f" .begin)"
-                rm "$f"
-            done
-        fi
+        ${WBATCH:-:} process_begin_files
         echo >&2 -n .
         sleep 1
     done
