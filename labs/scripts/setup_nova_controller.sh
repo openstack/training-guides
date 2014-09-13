@@ -62,7 +62,7 @@ iniset_sudo $conf DEFAULT rabbit_host controller-mgmt
 iniset_sudo $conf DEFAULT rabbit_password "$RABBIT_PASSWORD"
 
 # Configure other variables
-iniset_sudo $conf DEFAULT my_ip controller-mgmt
+iniset_sudo $conf DEFAULT my_ip "$(hostname_to_ip controller-mgmt)"
 iniset_sudo $conf DEFAULT vncserver_listen controller-mgmt
 iniset_sudo $conf DEFAULT vncserver_proxyclient_address controller-mgmt
 iniset_sudo $conf DEFAULT auth_strategy keystone

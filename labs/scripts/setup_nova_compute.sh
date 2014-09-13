@@ -54,7 +54,7 @@ iniset_sudo $conf DEFAULT rabbit_host controller-mgmt
 iniset_sudo $conf DEFAULT rabbit_password "$RABBIT_PASSWORD"
 
 # Configure other variables
-iniset_sudo $conf DEFAULT my_ip compute-mgmt
+iniset_sudo $conf DEFAULT my_ip "$(hostname_to_ip compute-mgmt)"
 iniset_sudo $conf DEFAULT vncserver_listen 0.0.0.0
 iniset_sudo $conf DEFAULT vnc_enabled True
 iniset_sudo $conf DEFAULT vncserver_proxyclient_address compute-mgmt
