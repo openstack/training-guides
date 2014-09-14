@@ -12,9 +12,14 @@ indicate_current_auto
 #------------------------------------------------------------------------------
 
 echo "Disabling Reverse Path Forwarding filter (RFC 3704)."
-sudo sysctl -w "net.ipv4.conf.all.rp_filter=0"
-sudo sysctl -w "net.ipv4.conf.default.rp_filter=0"
-sudo sysctl -w "net.ipv4.ip_forward=1"
+cat << SYSCTL | sudo tee -a /etc/sysctl.conf
+net.ipv4.conf.all.rp_filter=0
+net.ipv4.conf.default.rp_filter=0
+net.ipv4.ip_forward=1
+SYSCTL
+
+# Reload changed file
+sudo sysctl -p
 
 echo "Installing neutron for network node."
 sudo apt-get install -y neutron-common neutron-plugin-ml2 \
