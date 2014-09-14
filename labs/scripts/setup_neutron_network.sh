@@ -117,7 +117,7 @@ iniset_sudo $conf DEFAULT auth_region regionOne
 iniset_sudo $conf DEFAULT admin_tenant_name "$SERVICE_TENANT_NAME"
 iniset_sudo $conf DEFAULT admin_user "$neutron_admin_user"
 iniset_sudo $conf DEFAULT admin_password "$neutron_admin_password"
-iniset_sudo $conf DEFAULT nova_metadata_ip controller-mgmt
+iniset_sudo $conf DEFAULT nova_metadata_ip "$(hostname_to_ip controller-mgmt)"
 iniset_sudo $conf DEFAULT metadata_proxy_shared_secret "$METADATA_SECRET"
 
 echo "Configuring the DHCP agent"
