@@ -103,23 +103,3 @@ echo "Restarting cinder service."
 sudo service cinder-scheduler restart
 sudo service cinder-api restart
 
-#------------------------------------------------------------------------------
-# Verify the Block Storage installation
-#------------------------------------------------------------------------------
-
-echo "Waiting for cinder to start."
-until cinder list >/dev/null 2>&1; do
-    sleep 1
-done
-
-echo "cinder create --display-name labsVolume 1"
-cinder create --display-name labsVolume 1
-
-echo "cinder list"
-cinder list
-
-echo "cinder delete labsVolume"
-cinder delete labsVolume
-
-echo "cinder list"
-cinder list
