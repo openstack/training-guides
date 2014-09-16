@@ -235,7 +235,7 @@ netmask 255.255.255.0
     </listitem>
     <listitem>
       <para>Create a simple credentials file</para>
-      <programlisting>nano Crediantials.sh</programlisting>
+      <programlisting>nano Credentials.sh</programlisting>
     </listitem>
     <listitem>
       <para>Paste the following:</para>
@@ -246,7 +246,7 @@ netmask 255.255.255.0
     </listitem>
     <listitem>
       <para>Load the above credentials:</para>
-      <screen><prompt>$</prompt> <userinput>source Crediantials.sh</userinput></screen>
+      <screen><prompt>$</prompt> <userinput>source Credentials.sh</userinput></screen>
     </listitem>
     <listitem>
       <para>To test Keystone, we use a simple CLI command:</para>
