@@ -137,7 +137,7 @@ netmask 255.255.255.0
     </para>
     <para>Install NTP:</para>
     <para>
-        <screen><prompt>#</prompt> <userinput>apt-get install ntp</userinput></screen>
+        <screen><prompt>#</prompt> <userinput>apt-get install -y ntp</userinput></screen>
     </para>
     <para>Configure NTP Server to controller node:</para>
     <para>
@@ -173,10 +173,6 @@ netmask 255.255.255.0
           <prompt>#</prompt>
           <userinput>apt-get install -y rabbitmq-server</userinput>
       </screen>
-    </listitem>
-    <listitem>
-      <para>Install the NTP service:</para>
-      <screen><prompt>#</prompt> <userinput>apt-get install -y ntp</userinput></screen>
     </listitem>
     <listitem>
       <para>Create these databases:</para>
