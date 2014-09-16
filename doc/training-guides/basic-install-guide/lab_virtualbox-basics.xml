@@ -39,8 +39,8 @@
     <para><emphasis role="bold">Requirements:</emphasis></para>
     <para>Operating Systems - It is recommended to use Ubuntu Server 14.04 LTS,
     </para>
-    <note><para>Older Ubuntu versions may not support IceHouse. Ubuntu Server
-            12.04 will support IceHouse but is out of scope of this book.
+    <note><para>Older Ubuntu versions may not support Icehouse. Ubuntu Server
+            12.04 will support Icehouse but is out of scope of this book.
     </para></note>
     <itemizedlist>
       <listitem>
