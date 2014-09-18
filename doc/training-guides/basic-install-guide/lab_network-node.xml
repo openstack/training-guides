@@ -181,7 +181,13 @@ net.ipv4.conf.default.rp_filter=0</programlisting>
     <listitem>
       <para>Install Open vSwitch packages:</para>
       <para>
-        <screen><prompt>#</prompt> <userinput>apt-get install -y openvswitch-switch openvswitch-datapath-dkms</userinput></screen>
+          <screen><prompt>#</prompt> <userinput>apt-get install -y openvswitch-switch openvswitch-datapath-dkms</userinput></screen>
+        <note os="ubuntu">
+        <para>The Ubuntu version 14.04 or Linux kernel version 3.11 or
+          newer do not require the
+            <emphasis>openvswitch-datapath-dkms</emphasis>
+          package.</para>
+        </note>
       </para>
     </listitem>
     <listitem>
