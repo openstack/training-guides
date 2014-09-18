@@ -8,7 +8,7 @@ Technical Committee
 
 The role of the Technical Committee
 
-The Technical Committee ("TC") is tasked with providing the technical leadership for OpenStack as a whole (all official programs, as defined below). It enforces OpenStack ideals (Openness, Transparency, Commonality, Integration, Quality...), decides on issues affecting multiple programs, forms an ultimate appeals board for technical decisions, and generally has oversight over all the OpenStack project. 
+The Technical Committee ("TC") is tasked with providing technical leadership over all the OpenStack projects. It enforces OpenStack ideals (Openness, Transparency, Commonality, Integration, Quality), decides on issues affecting multiple programs, forms an ultimate appeals board for technical decisions, and generally has oversight over the OpenStack project entirely.
 
 .. image:: ./_assets/03-01-TC.png
 
@@ -17,7 +17,7 @@ The Technical Committee ("TC") is tasked with providing the technical leadership
 OpenStack Programs
 ==================
 
-`OpenStack "Programs" are efforts which are essential to the completion of the OpenStack project mission, which is to produce the ubiquitous Open Source Cloud Computing platform that will meet the needs of public and private clouds regardless of size, by being simple to implement and massively scalable. Programs can create any code repository and produce any deliverable they deem necessary to achieve their goals.`
+OpenStack "Programs" are efforts which are essential to the completion of the OpenStack project mission. This mission is to produce the ubiquitous Open Source cloud computing platform that will meet the needs of public and private clouds regardless of size, by being simple to implement and massively scalable. Programs can create any code repository and produce any deliverable they deem necessary to achieve their goals.
 
 - The official list of programs is in the `governance` repository
    - http://git.openstack.org/cgit/openstack/governance/tree/reference/programs.yaml
@@ -78,9 +78,9 @@ Exercise
 Program Technical Leads (PTLs)
 ==============================
 
-- manage day-to-day operations
-- drive the program goals
-- resolve technical disputes
+- Manage day-to-day operations
+- Drive the program goals
+- Resolve technical disputes
 
 ----
 
@@ -98,7 +98,7 @@ Active Technical Contributor (ATC)
 ======================================
 
 
-`The TC seats are elected by the Active Technical Contributors ("ATC"), which are a subset of the Foundation Individual Members. Individual Members who committed a change to a repository under any of the official OpenStack programs (as defined above) over the last two 6-month release cycles are automatically considered ATC.`
+The TC seats are elected by the Active Technical Contributors ("ATC"), which are a subset of the Foundation Individual Members. Individual Members who committed a change to a repository under any of the official OpenStack programs (as defined above) over the last two 6-month release cycles are automatically considered an ATC.
 
 - TC seats are elected by ATC
 - Same as APC
@@ -109,4 +109,4 @@ Active Technical Contributor (ATC)
 Exercise
 ========
 
-`Each APC / ATC in the class add a URL to the etherpad proving it`
+`Each APC/ATC in the class should add a URL to the etherpad proving it`
