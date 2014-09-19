@@ -45,9 +45,9 @@ Project as social groups
 Assess your approach
 ====================
 
--Verbose or terse ?
-- Socialize or strictly professional ?
-- Habits: online relationships ?
+- Verbose or terse?
+- Socialize or strictly professional?
+- Habits: online relationships?
 - Acknowledge the language barrier
 
 ----
@@ -56,19 +56,19 @@ Engage immediately
 ==================
 
 - Discuss with non upstream
-- Get your nick / mail known
+- Get your nick/e-mail known
 - Mingle
 
 ----
 
-Play with your network
-======================
+Be engaged with your network
+============================
 
-- Ask people you know about the project
-- Send mails to friends saying you'll contribute
-- IM friends saying you'll contribute
+- Ask people you know, about the project
+- Send e-mails to friends about your contributions
+- IM friends about contributions
 - Ask about their contribution experience
-- Ask if they know someone
+- Ask if they know someone with similar experiences
 
 ----
 
@@ -76,7 +76,7 @@ Smaller tasks
 =============
 
 - Sizing the task difficulty
-- Spliting a task
+- Splitting a task
 - Seeking agreement on the split
 
 ----
@@ -84,9 +84,9 @@ Smaller tasks
 Choosing a question
 ===================
 
-- Think about the solution
-- Find a choice that needs to be made
-- Ask the question and propose your choice
+- Think about the answer
+- Find a solution that needs to be agreed upon
+- Ask the question and propose your solution
 
 ----
 
@@ -99,6 +99,7 @@ Code of conduct
 - When we disagree, we consult others
 - When we are unsure, we ask for help
 - Step down considerately
+- Respect the election process
 
 ----
 
@@ -106,7 +107,7 @@ Disagree
 ========
 
 - Suspension of disbelief
-- Accepting the rules
+- Accept the rules
 - No flamewars
 - No enemies
 
@@ -116,7 +117,7 @@ Understanding the conventions
 =============================
 
 - Read the policy
-- Read the code / documentation guidelines
+- Read the code/documentation guidelines
 - Read the actual code and the actual documentation
 - Apply them very diligently
 
@@ -144,7 +145,7 @@ Prepare the backport
 Local and upstream
 ==================
 
-- Development / trunk version
+- Development/trunk version
 - Stable version
 - In house version
 
@@ -215,7 +216,7 @@ From easy to difficult
 ======================
 
 - Answering questions
-- Contributing code / documentation
+- Contributing code/documentation
 - Contributing blueprints
 - Discussing the architecture
 - Influence the project governance
@@ -226,6 +227,6 @@ Archive and collect
 ===================
 
 - Log IM channels
-- Keep links to email archives
+- Keep links to e-mail archives
 - Choose one place to gather all information
 
