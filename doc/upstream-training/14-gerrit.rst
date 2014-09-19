@@ -130,5 +130,5 @@ patchset diffs
 Exercise
 ========
 
-push a wip or draft and invite reviewers
+Push a work in progress (wip) or draft and invite reviewers.
 
