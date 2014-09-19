@@ -135,7 +135,56 @@ iniset_sudo $conf DEFAULT verbose True
 echo "Restarting the network service."
 sudo service neutron-plugin-openvswitch-agent restart
 sudo service neutron-l3-agent restart
+
+echo -n "Getting router namespace."
+nsrouter=$(ip netns|grep qrouter)
+while [ : ]; do
+    nsrouter=$(ip netns|grep qrouter)
+    if [ -n "$nsrouter" ]; then
+        echo
+        echo "Router namespace: $nsrouter"
+        break
+    fi
+    echo -n "."
+    sleep 1
+done
+
 sudo service neutron-dhcp-agent restart
+
+echo -n "Getting DHCP namespace."
+while [ : ]; do
+    nsdhcp=$(ip netns|grep qdhcp)
+    if [ -n "$nsdhcp" ]; then
+        echo
+        echo "DHCP namespace: $nsdhcp"
+        break
+    fi
+    echo -n "."
+    sleep 1
+done
+
+echo -n "Waiting for interfaces qr-*, qg-* in router namespace."
+while [ : ]; do
+    ifaces=$(sudo ip netns exec "$nsrouter" ip addr)
+    if [[ $ifaces == *:\ qr-* && $ifaces == *:\ qg-* ]]; then
+        echo
+        break
+    fi
+    echo -n "."
+    sleep 1
+done
+
+echo -n "Waiting for interface tap* in DHCP namespace."
+while [ : ]; do
+    ifaces=$(sudo ip netns exec "$nsdhcp" ip addr)
+    if [[ $ifaces == *:\ tap* ]]; then
+        echo
+        break
+    fi
+    echo -n "."
+    sleep 1
+done
+
 sudo service neutron-metadata-agent restart
 
 echo "Restarting the OVS agent."
