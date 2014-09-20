@@ -1,11 +1,11 @@
 Commit messages
 ===============
 
-- quality of the OpenStack GIT history
+- quality of the OpenStack git history
 - carrot by alerting people to the benefits
 - anyone doing Gerrit code review can act as the stick
-- review the commit message, not just code
-- Developers read mostly, write occassionally
+- review the commit message, not just the code
+- Developers read mostly, write occasionally
 
 ----
 
@@ -28,21 +28,21 @@ Things to avoid
 
 ----
 
-Bad : two independent changes
+Bad: two independent changes
 =============================
 
 .. image:: ./_assets/17-01-bad-two.png
 
 ----
 
-Bad : new feature and refactor
+Bad: new feature and refactor
 ==============================
 
 .. image:: ./_assets/17-02-bad-new.png
 
 ----
 
-Good : new API + new feature
+Good: new API + new feature
 ============================
 
 .. image:: ./_assets/17-03-good.png
@@ -104,5 +104,5 @@ GIT commit message structure
 Exercise
 ========
 
-review each other messages on the draft
+Review each other’s commit messages on the draft
 
