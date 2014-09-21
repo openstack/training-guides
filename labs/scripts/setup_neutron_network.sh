@@ -131,6 +131,14 @@ iniset_sudo $conf DEFAULT interface_driver neutron.agent.linux.interface.OVSInte
 iniset_sudo $conf DEFAULT dhcp_driver neutron.agent.linux.dhcp.Dnsmasq
 iniset_sudo $conf DEFAULT use_namespaces True
 iniset_sudo $conf DEFAULT verbose True
+iniset_sudo $conf DEFAULT dnsmasq_config_file /etc/neutron/dnsmasq-neutron.conf
+
+cat << DNSMASQ | sudo tee /etc/neutron/dnsmasq-neutron.conf
+# Set interface MTU to 1454 (for instance, ssh authentication may fail
+# otherwise due to GRE overhead)
+dhcp-option-force=26,1454
+DNSMASQ
+killall dnsmasq
 
 echo "Restarting the network service."
 sudo service neutron-plugin-openvswitch-agent restart
