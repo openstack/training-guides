@@ -265,6 +265,28 @@ enable_security_group = True</programlisting></para>
       <screen><prompt>#</prompt><userinput>ovs-vsctl add-br br-int</userinput></screen>
       <para>Add the external bridge</para>
       <screen><prompt>#</prompt><userinput>ovs-vsctl add-br br-ex</userinput></screen>
+  </listitem>
+  <listitem>
+        <para>Edit <filename>/etc/network/interfaces</filename> to make
+            the following changes:</para>
+        <programlisting>
+# VirtualBox vboxnet2 - OpenStack VM internet access
+# (VirtualBox Network Adapter 3)
+auto eth3
+iface eth3 inet manual
+up ifconfig $IFACE 0.0.0.0 up
+up ip link set $IFACE promisc on
+down ip link set $IFACE promisc off
+down ifconfig $IFACE down
+
+# For giving access to network node via. the external network
+auto br-ex
+iface br-ex inet static
+address 192.168.100.52
+netmask 255.255.255.0
+        </programlisting>
+  </listitem>
+  <listitem>
       <para>Add port to external bridge</para>
       <screen><prompt>#</prompt><userinput>ovs-vsctl add-port br-ex eth3</userinput></screen>
   </listitem>
