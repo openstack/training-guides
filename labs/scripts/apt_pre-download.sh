@@ -9,7 +9,7 @@ exec_logfile
 indicate_current_auto
 
 # Download CirrOS image
-CIRROS_URL="http://download.cirros-cloud.net/0.3.2/cirros-0.3.2-x86_64-disk.img"
+CIRROS_URL="http://download.cirros-cloud.net/0.3.3/cirros-0.3.3-x86_64-disk.img"
 if [ ! -f "$IMG_DIR/$(basename "$CIRROS_URL")" ]; then
     wget --directory-prefix="$IMG_DIR" "$CIRROS_URL"
 fi
