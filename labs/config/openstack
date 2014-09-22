@@ -21,5 +21,9 @@
 # DEMO_NET
 : ${TENANT_NETWORK_GATEWAY:=172.16.0.1}
 : ${TENANT_NETWORK_CIDR:=172.16.0.0/24}
+# Comma-separated list of DNS name servers used by dnsmasq to serve instance
+# VMs in neutron subnets with dns_nameservers unset.
+# Default is Google Public DNS (8.8.8.8); to disable, set to "".
+: ${TENANT_VM_DNS_SERVER:=8.8.8.8}
 
 # vim: set ai ts=4 sw=4 et ft=sh:

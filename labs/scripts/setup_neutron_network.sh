@@ -3,6 +3,7 @@ TOP_DIR=$(cd $(dirname "$0")/.. && pwd)
 source "$TOP_DIR/config/paths"
 source "$CONFIG_DIR/credentials"
 source "$LIB_DIR/functions.guest"
+source "$CONFIG_DIR/openstack"
 exec_logfile
 
 indicate_current_auto
@@ -133,10 +134,23 @@ iniset_sudo $conf DEFAULT use_namespaces True
 iniset_sudo $conf DEFAULT verbose True
 iniset_sudo $conf DEFAULT dnsmasq_config_file /etc/neutron/dnsmasq-neutron.conf
 
+if [ -n "${TENANT_VM_DNS_SERVER:-''}" ]; then
+    iniset_sudo $conf DEFAULT dnsmasq_dns_servers "$TENANT_VM_DNS_SERVER"
+fi
+
 cat << DNSMASQ | sudo tee /etc/neutron/dnsmasq-neutron.conf
 # Set interface MTU to 1454 (for instance, ssh authentication may fail
 # otherwise due to GRE overhead)
 dhcp-option-force=26,1454
+
+# Override --no-hosts dnsmasq option supplied by neutron
+addn-hosts=/etc/hosts
+
+# Log dnsmasq queries to syslog
+log-queries
+
+# Verbose logging for DHCP
+log-dhcp
 DNSMASQ
 killall dnsmasq
 
