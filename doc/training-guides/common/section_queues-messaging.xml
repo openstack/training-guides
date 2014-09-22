@@ -60,7 +60,7 @@
     ‘euca-terminate instance’. In this case, only the compute node
     whose host’s hypervisor is running the virtual machine can kill
     the instance. The API acts as a consumer when RPC calls are
-    request/response, otherwise is acts as publisher only.</para>
+    request/response, otherwise it acts as publisher only.</para>
   <para><guilabel>Nova RPC Mappings</guilabel></para>
   <para>The figure below shows the internals of a message broker node
     (referred to as a RabbitMQ node in the diagrams) when a single
@@ -431,7 +431,7 @@
     </listitem>
   </itemizedlist>
   <para>The default value is 2 (persistent). During a send operation,
-    Publishers can override the delivery mode of messages so that, for
+    publishers can override the delivery mode of messages so that, for
     example, transient messages can be sent over a durable
     queue.</para>
 </chapter>
