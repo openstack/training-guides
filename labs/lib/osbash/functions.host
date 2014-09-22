@@ -30,9 +30,12 @@ function exec_cmd {
 }
 
 #-------------------------------------------------------------------------------
+function get_base_disk_name {
+    echo "base-$VM_ACCESS-$DISTRO.vdi"
+}
 
 function get_base_disk_path {
-    echo $DISK_DIR/base-$VM_ACCESS-$DISTRO.vdi
+    echo "$DISK_DIR/$(get_base_disk_name)"
 }
 
 #-------------------------------------------------------------------------------
