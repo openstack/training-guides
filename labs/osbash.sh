@@ -79,6 +79,7 @@ while getopts :be:g:hnw opt; do
                 echo "Error: -e argument must be ova or dir"
                 exit
             fi
+            OSBASH=exec_cmd
             ;;
         b)
             OSBASH=exec_cmd
