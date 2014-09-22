@@ -410,7 +410,7 @@ function vm_export_ova {
     local ii=0
     for node in $nodes; do
         if [ -n "${share_paths[$ii]}" ]; then
-            vm_add_share "$node" "$SHARE_DIR" "$SHARE_NAME"
+            vm_add_share "$node" "${share_paths[$ii]}" "$SHARE_NAME"
         fi
         ii=$(($ii + 1))
     done
@@ -430,7 +430,11 @@ function vm_export_dir {
             $VBM controlvm "$node" poweroff
         fi
         sleep 1
-        vm_rm_share "$node" "$SHARE_NAME"
+        local share_path=$(vm_get_share_path "$node")
+        if [ -n "$share_path" ]; then
+            echo >&2 "Removing shared folder for export"
+            vm_rm_share "$node" "$SHARE_NAME"
+        fi
         sleep 1
         echo "Exporting VM $node to $export_dir"
         # Use all: machineandchildren works only if --snapshot is given as UUID
@@ -440,6 +444,10 @@ function vm_export_dir {
             --name "$node" \
             --groups "/$VM_GROUP" \
             --basefolder "$export_dir"
+        if [ -n "$share_path" ]; then
+            echo >&2 "Reattaching shared folder"
+            vm_add_share "$node" "$share_path" "$SHARE_NAME"
+        fi
     done
 }
 
