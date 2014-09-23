@@ -441,9 +441,21 @@ function vm_export_dir {
         $VBM clonevm "$node" \
             --mode all \
             --options keepallmacs,keepdisknames \
-            --name "$node" \
+            --name "$node-e" \
             --groups "/$VM_GROUP" \
-            --basefolder "$export_dir"
+            --basefolder "$export_dir" \
+            --register
+        # VirtualBox registers disks and snapshots of the clone VM even if we
+        # don't register the VM above. Unregistering the registered VM takes
+        # care of the snapshots, but we still have to unregister the clone
+        # basedisk.
+        local snapshot_path="$(vm_get_disk_path "$node-e")"
+        local hd_dir=${snapshot_path%Snapshots/*}
+        local hd_path=$hd_dir$(get_base_disk_name)
+        $VBM unregistervm "$node-e"
+        if [ -n "$hd_path" ]; then
+            disk_unregister "$hd_path"
+        fi
         if [ -n "$share_path" ]; then
             echo >&2 "Reattaching shared folder"
             vm_add_share "$node" "$share_path" "$SHARE_NAME"
