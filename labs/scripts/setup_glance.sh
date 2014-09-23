@@ -108,7 +108,7 @@ glance image-create \
     --name Cirros_x86_64 \
     --is-public true \
     --container-format bare \
-    --disk-format qcow2 < "$IMG_DIR/cirros-0.3.3-x86_64-disk.img"
+    --disk-format qcow2 < "$HOME/img/$(basename $CIRROS_URL)"
 
 #------------------------------------------------------------------------------
 # Verify the Image Service installation

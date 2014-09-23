@@ -9,10 +9,34 @@ exec_logfile
 indicate_current_auto
 
 # Download CirrOS image
-CIRROS_URL="http://download.cirros-cloud.net/0.3.3/cirros-0.3.3-x86_64-disk.img"
-if [ ! -f "$IMG_DIR/$(basename "$CIRROS_URL")" ]; then
-    wget --directory-prefix="$IMG_DIR" "$CIRROS_URL"
-fi
+function get_cirros {
+    local file_name=$(basename $CIRROS_URL)
+    local remote_dir=$(dirname $CIRROS_URL)
+    local md5_f=$file_name.md5sum
+
+    mkdir -p "$IMG_DIR"
+
+    # Download to IMG_DIR to cache the data if the directory is shared
+    # with the host computer.
+    if [ ! -f "$IMG_DIR/$md5_f" ]; then
+        wget -O - "$remote_dir/MD5SUMS"|grep "$file_name" > "$IMG_DIR/$md5_f"
+    fi
+
+    if [ ! -f "$IMG_DIR/$file_name" ]; then
+        wget --directory-prefix="$IMG_DIR" "$CIRROS_URL"
+    fi
+
+    # Make sure we have image and MD5SUM on the basedisk.
+    if [ "$IMG_DIR" != "$HOME/img" ]; then
+        mkdir -p "$HOME/img"
+        cp -a "$IMG_DIR/$file_name" "$IMG_DIR/$md5_f" "$HOME/img"
+    fi
+
+    cd "$HOME/img"
+    md5sum -c "$HOME/img/$md5_f"
+    cd -
+}
+get_cirros
 
 function apt_download {
 
