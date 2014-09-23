@@ -38,7 +38,7 @@ Planning : Target
 - file new blueprints
 - set a target milestone
 - when in the cycle they intend to complete it
-- PTLs triage the submitted blueprints and sets Priority
+- PTLs triage the submitted blueprints and set priority
 
 .. image:: ./_assets/01-01-release.png
 
@@ -48,7 +48,7 @@ Implementation : Milestone
 ==========================
 
 - pushed to our Gerrit review
-- weeks before the milestone publication date.
+- weeks before the milestone publication date
 - milestone-proposed branch
 - feature-frozen
 
@@ -85,7 +85,7 @@ Release candidate 1
 ===================
 
 - Between the last milestone and the RC1
-- stop adding features and concentrate on bugfixes
+- stop adding features and concentrate on bug fixes
 - Once all the release-critical bugs are fixed, we produce the first - - - release candidate for that project (RC1)
 - used as-is as the final release
 
@@ -109,7 +109,7 @@ Other release candidates
 Release day
 ===========
 
-- last published Release Candidate
+- last published release candidate
 - published collectively as the OpenStack release
 
 .. image:: ./_assets/01-01-release.png
@@ -120,5 +120,5 @@ Exercise
 ========
 
 
-Based on the Icehouse release schedule find the URL of a document or a patch that belongs to each of the steps.
+Based on the Icehouse release schedule, find the URL of a document or a patch that belongs to each of the steps.
 
