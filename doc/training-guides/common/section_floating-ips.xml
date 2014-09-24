@@ -8,11 +8,11 @@
     <para>OpenStack Networking has the concept of Fixed IPs and
         Floating IPs. Fixed IPs are assigned to an instance on
         creation and stay the same until the instance is explicitly
-        terminated. Floating ips are ip addresses that can be
+        terminated. Floating IPs are IP addresses that can be
         dynamically associated with an instance. This address can be
         disassociated and associated with another instance at any
         time.</para>
-        <para>Various tasks carried out by Floating IP's as of
+        <para>Various tasks carried out by Floating IPs as of
         now.</para>
         <itemizedlist>
             <listitem>
@@ -20,28 +20,28 @@
                     available for admin role.</para>
             </listitem>
             <listitem>
-                <para>allocate an floating IP to a certain tenant,
+                <para>allocate a floating IP to a certain tenant,
                     only available for admin role.</para>
             </listitem>
             <listitem>
-                <para>deallocate an floating IP from a certain
+                <para>deallocate a floating IP from a certain
                     tenant</para>
             </listitem>
             <listitem>
-                <para>associate an floating IP to a given
+                <para>associate a floating IP to a given
                     instance</para>
             </listitem>
             <listitem>
-                <para>disassociate an floating IP from a certain
+                <para>disassociate a floating IP from a certain
                     instance</para>
             </listitem>
         </itemizedlist>
             <para>Just as shown by the above figure, we will have
                 nova-network-api to support nova client floating
-                commands. nova-network-api will invoke neutron cli lib
-                to interactive with neutron server via API. The data
-                about floating IPs will be stored in to neutron DB.
-                Neutron Agent, which is running on compute host will
+                commands. Nova-network-api will invoke neutron cli lib
+                to interact with the neutron server via API. The data
+                for the floating IPs will be stored in the neutron DB.
+                Neutron Agent, which is running on the compute host will
                 enforce the floating IP.</para>
             <para><guilabel>Multiple Floating
                 IP Pools</guilabel></para>
@@ -58,8 +58,8 @@
                 multiple L3 agent instances on one host.</para>
             <para>In addition, when you run multiple L3 agents, make
                 sure that handle_internal_only_routers is set to
-                Trueonly for one L3 agent in an OpenStack Networking
-                deployment and set to Falsefor all other L3 agents.
+                True only for one L3 agent in an OpenStack Networking
+                deployment and set to False for all other L3 agents.
                 Since the default value of this parameter is True, you
                 need to configure it carefully.</para>
             <para>Before starting L3 agents, you need to create
