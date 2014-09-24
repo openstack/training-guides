@@ -4,6 +4,9 @@
 # one of: folsom, grizzly, havana, icehouse
 : ${OPENSTACK_RELEASE:=icehouse}
 
+# CirrOS image URL
+CIRROS_URL="http://download.cirros-cloud.net/0.3.3/cirros-0.3.3-x86_64-disk.img"
+
 # Networks used by OpenStack training-labs setup
 : ${MGMT_NET:=10.10.10.1}
 : ${DATA_NET:=10.20.20.1}
