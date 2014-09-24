@@ -139,7 +139,7 @@
     Groups tab</emphasis>, you can list, create, and delete security
     groups and edit rules for security groups.</para>
       <para>On the <emphasis role="bold">Keypairs tab</emphasis>, you
-    can list, create, and import keypairs, and delete keypairs.</para>
+    can list, create, import, and delete keypairs.</para>
       <para>On the <emphasis role="bold">Floating IPstab</emphasis>,
     you can allocate an IP address to or release it from a
     project.</para>
