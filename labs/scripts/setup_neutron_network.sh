@@ -159,31 +159,20 @@ sudo service neutron-plugin-openvswitch-agent restart
 sudo service neutron-l3-agent restart
 
 echo -n "Getting router namespace."
-nsrouter=$(ip netns|grep qrouter)
-while [ : ]; do
-    nsrouter=$(ip netns|grep qrouter)
-    if [ -n "$nsrouter" ]; then
-        echo
-        echo "Router namespace: $nsrouter"
-        break
-    fi
+until ip netns|grep qrouter; do
     echo -n "."
     sleep 1
 done
+nsrouter=$(ip netns|grep qrouter)
 
 sudo service neutron-dhcp-agent restart
 
 echo -n "Getting DHCP namespace."
-while [ : ]; do
-    nsdhcp=$(ip netns|grep qdhcp)
-    if [ -n "$nsdhcp" ]; then
-        echo
-        echo "DHCP namespace: $nsdhcp"
-        break
-    fi
+until ip netns|grep qdhcp; do
     echo -n "."
     sleep 1
 done
+nsdhcp=$(ip netns|grep qdhcp)
 
 echo -n "Waiting for interfaces qr-*, qg-* in router namespace."
 while [ : ]; do
