@@ -174,13 +174,11 @@ until ip netns|grep qdhcp; do
 done
 nsdhcp=$(ip netns|grep qdhcp)
 
-
 echo -n "Waiting for interface qr-* in router namespace."
 until sudo ip netns exec "$nsrouter" ip addr|grep -Po "(?<=: )qr-.*(?=:)"; do
     echo -n "."
     sleep 1
 done
-nsdhcp=$(ip netns|grep qdhcp)
 
 echo -n "Waiting for interface qg-* in router namespace."
 until sudo ip netns exec "$nsrouter" ip addr|grep -Po "(?<=: )qg-.*(?=:)"; do
