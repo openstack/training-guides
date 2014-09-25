@@ -13,7 +13,7 @@ OpenStack Upstream Training
 Design Summit
 =============
 
-The time where developers meet face to face to finalize planning for next release cycle.
+Where developers meet face to face to finalize planning for the next release cycle.
 
 .. image:: ./_assets/05-01-design-summit.png
 
@@ -22,7 +22,7 @@ The time where developers meet face to face to finalize planning for next releas
 How does it work?
 ==================
 
-- Not a classic conference 
+- Not a classic conference
 - Discuss upcoming features for the next release cycle
 - 40-min long sessions
 - Open brainstorming discussion
@@ -69,7 +69,7 @@ At the Design Summit
 
 - Start on time
 - Mind the noise
-- Introducing clearly 
+- Clear introductions
 - Keep the discussion lively and on-topic
 - End on time
 
@@ -78,11 +78,12 @@ At the Design Summit
 Exercise
 ========
 
-Add a session proposal regarding your contribution in an etherpad, review two proposals 
+- Add a session proposal regarding your contribution in an etherpad
+- Review two proposals
 
 ----
 
-Rendez-vous
+Rendezvous
 ===========
 
 `Summit 101` sessions
