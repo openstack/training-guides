@@ -174,24 +174,22 @@ until ip netns|grep qdhcp; do
 done
 nsdhcp=$(ip netns|grep qdhcp)
 
-echo -n "Waiting for interfaces qr-*, qg-* in router namespace."
-while [ : ]; do
-    ifaces=$(sudo ip netns exec "$nsrouter" ip addr)
-    if [[ $ifaces == *:\ qr-* && $ifaces == *:\ qg-* ]]; then
-        echo
-        break
-    fi
+
+echo -n "Waiting for interface qr-* in router namespace."
+until sudo ip netns exec "$nsrouter" ip addr|grep -Po "(?<=: )qr-.*(?=:)"; do
+    echo -n "."
+    sleep 1
+done
+nsdhcp=$(ip netns|grep qdhcp)
+
+echo -n "Waiting for interface qg-* in router namespace."
+until sudo ip netns exec "$nsrouter" ip addr|grep -Po "(?<=: )qg-.*(?=:)"; do
     echo -n "."
     sleep 1
 done
 
 echo -n "Waiting for interface tap* in DHCP namespace."
-while [ : ]; do
-    ifaces=$(sudo ip netns exec "$nsdhcp" ip addr)
-    if [[ $ifaces == *:\ tap* ]]; then
-        echo
-        break
-    fi
+until sudo ip netns exec "$nsdhcp" ip addr|grep -Po "(?<=: )tap.*(?=:)"; do
     echo -n "."
     sleep 1
 done
