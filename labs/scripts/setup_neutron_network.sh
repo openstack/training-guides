@@ -91,7 +91,7 @@ log-queries
 # Verbose logging for DHCP
 log-dhcp
 DNSMASQ
-killall dnsmasq
+sudo killall dnsmasq
 
 echo "Configuring the metadata agent"
 conf=/etc/neutron/metadata_agent.ini
