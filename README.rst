@@ -30,21 +30,21 @@ On Fedora 20 and later::
 Building
 ========
 The different guides are in subdirectories of the
-``openstack-training-guides/doc/`` directory.
+``doc/`` directory.
 
 To build the guides, look for a ``pom.xml`` file within a subdirectory,
 then run the ``mvn`` command in that directory. For example::
 
-    cd openstack-training-guides/doc/training-guides/
+    cd doc/training-guides/
     mvn clean generate-sources
 
 The generated PDF documentation file is::
 
-    openstack-training-guides/doc/training-guides/target/docbkx/webhelp/training-guides.pdf
+    doc/training-guides/target/docbkx/webhelp/training-guides/training-guides.pdf
 
 The root of the generated HTML documentation is::
 
-    openstack-training-guides/doc/training-guides/target/docbkx/webhelp/training-guides/content/index.html
+    doc/training-guides/target/docbkx/webhelp/training-guides/content/index.html
 
 Testing of changes and building of the manual
 =============================================
