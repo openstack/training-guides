@@ -7,7 +7,7 @@
   <title>Compute Node</title>
   <orderedlist>
     <listitem>
-      <para><emphasis role="bold">Network Diagram :</emphasis></para>
+      <para><emphasis role="bold">Network Diagram:</emphasis></para>
     </listitem>
   </orderedlist>
   <figure>
@@ -30,9 +30,9 @@
     used by VirtualBox VMs for OpenStack networks, so that
     OpenStack’s services can communicate with each other.</para>
   <para><guilabel>Compute node</guilabel></para>
-  <para>Start the controller node which was set up in a previous section.</para>
+  <para>Start the controller node, which was set up in a previous section.</para>
   <note>
-      <para>On reboot the node VM may lose internet and network
+      <para>After the reboot of the node, the VM may lose internet and network
           connectivity. Restart the networking service and use the
           <command>ping</command> command to verify the network
           connectivity for the given VM.</para>
@@ -44,7 +44,7 @@
   </note>
   <para><guilabel>Controller node</guilabel></para>
   <para>
-      Start the controller node which was set up in a previous section.
+      Start the controller node, which was set up in a previous section.
   </para>
   <para><emphasis role="bold">Preparing Ubuntu 14.04</emphasis></para>
   <para><emphasis role="bold">Networking:</emphasis></para>
@@ -55,7 +55,7 @@
       <para>Open <filename>/etc/network/interfaces</filename> and edit the
         file as mentioned:</para>
     <programlisting>
-# This file is for the OpenStack compute node for OpenStack training project.
+# This file is for the OpenStack compute node for the OpenStack training project.
 # Note: Selection of the IP addresses is important.
 # Any changes to the IP addresses may break OpenStack related services.
 
@@ -98,7 +98,7 @@ netmask 255.255.255.0
   <itemizedlist>
     <listitem>
         <para>To SSH into the compute node from the host machine, type the
-            command mentioned below.</para>
+            command below:</para>
       <screen><prompt>$</prompt> <userinput>ssh compute@10.10.10.51</userinput></screen>
       <screen><prompt>$</prompt> <userinput>sudo su</userinput></screen>
     </listitem>
@@ -113,7 +113,7 @@ netmask 255.255.255.0
       </para>
     </listitem>
     <listitem>
-      <para>Add Icehouse repositories:</para>
+      <para>Add the Icehouse repositories:</para>
       <para>
         <screen><prompt>#</prompt><userinput>apt-get install ubuntu-cloud-keyring python-software-properties software-properties-common python-keyring</userinput></screen>
         <screen><prompt>#</prompt><userinput>add-apt-repository cloud-archive:icehouse</userinput></screen>
@@ -128,7 +128,7 @@ netmask 255.255.255.0
       </para>
     </listitem>
     <listitem>
-        <para>Restart the machine for the changes to apply</para>
+        <para>Restart the machine for the changes to apply:</para>
         <screen><prompt>#</prompt> <userinput>reboot</userinput></screen>
     </listitem>
     <listitem>
@@ -218,7 +218,7 @@ admin_password = service_pass</programlisting></para>
 virt_type = qemu</programlisting></para>
     </listitem>
     <listitem>
-        <para>Restart Nova Compute Service</para>
+        <para>Restart the Nova Compute Service:</para>
         <screen><prompt>#</prompt><userinput>service nova-compute restart</userinput></screen>
     </listitem>
 </itemizedlist>
@@ -226,7 +226,7 @@ virt_type = qemu</programlisting></para>
   <para><emphasis role="bold">Neutron and OVS</emphasis></para>
   <itemizedlist>
     <listitem>
-      <para>Install Open vSwitch</para>
+      <para>Install Open vSwitch:</para>
       <screen><prompt>#</prompt> <userinput>apt-get install -y neutron-common neutron-plugin-ml2 neutron-plugin-openvswitch-agent</userinput></screen>
     </listitem>
     <listitem>
@@ -276,7 +276,7 @@ admin_password = service_pass</programlisting></para>
       </para>
     </listitem>
     <listitem>
-        <para>Add the integration bridge</para>
+        <para>Add the integration bridge:</para>
         <screen><prompt>#</prompt><userinput>ovs-vsctl add-br br-int</userinput></screen>
     </listitem>
     <listitem>
