@@ -17,7 +17,7 @@ export SERVICE_ENDPOINT="http://${HOST_IP}:35357/v2.0"
 SERVICE_TENANT_NAME=${SERVICE_TENANT_NAME:-service}
 
 get_id () {
-    echo `$@ | awk '/ id / { print $4 }'`
+    echo $($@ | awk '/ id / { print $4 }')
 }
 
 # Tenants
