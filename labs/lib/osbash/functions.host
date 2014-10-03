@@ -214,10 +214,7 @@ function wait_for_autofiles {
 # were added to the queue.
 
 function _autostart_queue {
-    local src_dir=${1%/*}
-    # if src_dir is a code, turn it into a real path
-    src_dir="$(src_dir_code_to_dir "$src_dir")"
-
+    local src_path=$SCRIPTS_DIR/$1
     local src_name=${1##*/}
 
     # If we get a target name, file will be renamed
@@ -235,7 +232,6 @@ function _autostart_queue {
         echo >&2 -e "\t$src_name -> $target_name"
     fi
 
-    local src_path=$src_dir/$src_name
     cp -- "$src_path" "$AUTOSTART_DIR/$target_name"
     ${WBATCH:-:} wbatch_cp_auto "$src_path" "$AUTOSTART_DIR/$target_name"
 }
@@ -249,7 +245,7 @@ function log_autostart_source {
     echo >&2 "Copying autostart files set in $src_file"
 }
 
-# autostart <src_dir|src_dir_code> <file> <new_name>
+# autostart <src_dir> <file> <new_name>
 # e.g. autostart osbash init_xxx_node.sh init_controller_node.sh
 function autostart_and_rename {
     local src_dir=$1
@@ -262,19 +258,16 @@ function autostart_and_rename {
     _autostart_queue "$src_dir/$src_file" "$target_file"
 }
 
-# autostart <src_dir|src_dir_code> <file> [<file> ...]
-# e.g. autostart scripts prepare_home.sh apt_init.sh
+# autostart <file> [<file> ...]
+# e.g. autostart zero_empty.sh osbash/base_fixups.sh
 function autostart {
-    local src_dir=$1
-    shift
-
     # Don't log this file -- log our caller's source file
     log_autostart_source "${BASH_SOURCE[1]##*/}"
 
     while (($#)); do
         local src_file=$1
         shift
-        _autostart_queue "$src_dir/$src_file"
+        _autostart_queue "$src_file"
     done
 }
 
@@ -318,7 +311,7 @@ function command_from_config {
             # Note: _autostart_queue takes care of dircode
             local script_rel_path=${cmd_string[1]}
             echo >&2 _autostart_queue "$script_rel_path"
-            _autostart_queue "$SCRIPTS_DIR/$script_rel_path"
+            _autostart_queue "$script_rel_path"
             ;;
         *)
             echo >&2 "Error: invalid cmd: $cmd"
@@ -348,12 +341,6 @@ function autostart_from_config {
             continue
         elif [ "$field_1" == "cmd" ]; then
             command_from_config "$field_2"
-        else
-            # Queue a script for autostart
-            # Format: <dircode> <script_name>
-            # Note: _autostart_queue takes care of dircode
-            echo >&2 _autostart_queue "$field_1/$field_2"
-            _autostart_queue "$field_1/$field_2"
         fi
     done
 }
