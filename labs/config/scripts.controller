@@ -1,25 +1,25 @@
 # Scripts for controller node
 cmd init_node
-scripts etc_hosts.sh
-osbash enable_vagrant_ssh_keys.sh
+cmd queue etc_hosts.sh
+cmd queue osbash/enable_vagrant_ssh_keys.sh
 cmd snapshot_cycle "network_configured"
-scripts apt_install_mysql.sh
-scripts install_rabbitmq.sh
+cmd queue apt_install_mysql.sh
+cmd queue install_rabbitmq.sh
 cmd snapshot_cycle "pre-openstack_installed"
-scripts setup_keystone.sh
+cmd queue setup_keystone.sh
 cmd snapshot_cycle "keystone_installed"
-scripts setup_glance.sh
+cmd queue setup_glance.sh
 cmd snapshot_cycle "glance_installed"
-scripts setup_nova_controller.sh
+cmd queue setup_nova_controller.sh
 cmd snapshot_cycle "nova-controller_installed"
-scripts setup_neutron_controller.sh
+cmd queue setup_neutron_controller.sh
 cmd snapshot_cycle "neutron-controller_installed"
-scripts setup_cinder_controller.sh
+cmd queue setup_cinder_controller.sh
 cmd snapshot_cycle "cinder_installed"
-scripts setup_horizon.sh
+cmd queue setup_horizon.sh
 cmd snapshot_cycle "horizon_installed"
-scripts config_external_network.sh
-scripts config_demo_user.sh
-scripts config_tenant_network.sh
+cmd queue config_external_network.sh
+cmd queue config_demo_user.sh
+cmd queue config_tenant_network.sh
 cmd snapshot_cycle "openstack-controller_installed"
 cmd boot

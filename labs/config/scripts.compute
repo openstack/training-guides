@@ -1,11 +1,11 @@
 # Scripts for compute node
 cmd init_node
-scripts etc_hosts.sh
-osbash enable_vagrant_ssh_keys.sh
+cmd queue etc_hosts.sh
+cmd queue osbash/enable_vagrant_ssh_keys.sh
 cmd snapshot_cycle "network_configured"
-scripts setup_nova_compute.sh
+cmd queue setup_nova_compute.sh
 cmd snapshot_cycle "nova-compute_installed"
-scripts setup_neutron_compute.sh
-scripts setup_cinder_volumes.sh
+cmd queue setup_neutron_compute.sh
+cmd queue setup_cinder_volumes.sh
 cmd snapshot_cycle "pre-installed"
 cmd boot
