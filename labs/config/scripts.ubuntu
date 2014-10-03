@@ -2,3 +2,4 @@
 scripts apt_init.sh
 scripts apt_upgrade.sh
 scripts apt_pre-download.sh
+osbash enable_vagrant_ssh_keys.sh
