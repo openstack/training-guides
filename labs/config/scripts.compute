@@ -8,4 +8,9 @@ cmd snapshot_cycle nova-compute_installed
 cmd queue setup_neutron_compute.sh
 cmd queue setup_cinder_volumes.sh
 cmd snapshot_cycle compute_node_installed
+# Take snapshot of changes on controller VM, too
+cmd queue shutdown_controller.sh
 cmd boot
+cmd wait_for_shutdown -n controller
+cmd snapshot -n controller compute_node_installed
+cmd boot -n controller
