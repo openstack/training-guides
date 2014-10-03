@@ -49,6 +49,10 @@ function authorize_vagrant_key {
     fi
 }
 
+echo "Installing Vagrant insecure private key (connections to other VMs)."
+get_vagrant_key "vagrant"
+chmod 400 "$HOME/.ssh/vagrant"
+
 get_vagrant_key "vagrant.pub"
 chmod 444 "$HOME/.ssh/vagrant.pub"
 
