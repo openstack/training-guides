@@ -124,12 +124,8 @@ function wbatch_sleep {
 
 function wbatch_file_header {
     local product=$1
-    local date=$(date -u)
 
     sed -e "
-        s,%USER%,$USER,g;
-        s,%HOSTNAME%,$HOSTNAME,g;
-        s,%DATE%,$date,g;
         s,%PRODUCT%,$product,g;
         " "$WBATCH_TEMPLATE_DIR/template-file_header_bat" | wbatch_write_stdin
 }
