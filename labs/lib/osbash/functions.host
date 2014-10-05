@@ -282,7 +282,7 @@ function autostart {
 function command_from_config {
     local cmd_string=( $1 )
     local cmd=${cmd_string[0]}
-    local vm_name=$NODE_NAME
+    local vm_name=${NODE_NAME:-""}
     case "$cmd" in
         boot)
             # Boot with queued autostart files now, wait for shutdown
@@ -311,6 +311,14 @@ function command_from_config {
         init_node)
             echo >&2 vm_init_node "$vm_name"
             vm_init_node "$vm_name"
+            ;;
+        queue)
+            # Queue a script for autostart
+            # Format: <dircode> <script_name>
+            # Note: _autostart_queue takes care of dircode
+            local script_rel_path=${cmd_string[1]}
+            echo >&2 _autostart_queue "$script_rel_path"
+            _autostart_queue "$SCRIPTS_DIR/$script_rel_path"
             ;;
         *)
             echo >&2 "Error: invalid cmd: $cmd"

@@ -1,5 +1,5 @@
 # Scripts for Ubuntu installations
-scripts apt_init.sh
-scripts apt_upgrade.sh
-scripts apt_pre-download.sh
-osbash enable_vagrant_ssh_keys.sh
+cmd queue apt_init.sh
+cmd queue apt_upgrade.sh
+cmd queue apt_pre-download.sh
+cmd queue osbash/enable_vagrant_ssh_keys.sh
