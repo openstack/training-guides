@@ -36,7 +36,7 @@ git config
 Install git review
 ==================
 
-- apt-get / yum / … git review
+- apt-get / yum / pip install … git review
 
 .. image:: ./_assets/14-05-install.png
 
@@ -70,13 +70,6 @@ running unit tests
 
 ----
 
-git review -D
-=============
-
-.. image:: ./_assets/14-10-git-review.png
-
-----
-
 invite reviewers
 ================
 
@@ -96,13 +89,6 @@ git commit --amend
 ==================
 
 .. image:: ./_assets/14-13-git-commit-amend.png
-
-----
-
-git review -D ( repush )
-========================
-
-.. image:: ./_assets/14-14-git-repush.png
 
 ----
 
@@ -130,5 +116,5 @@ patchset diffs
 Exercise
 ========
 
-Push a work in progress (wip) or draft and invite reviewers.
+Push a work in progress (wip) and invite reviewers.
 

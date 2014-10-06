@@ -6,6 +6,7 @@ Commit messages
 - anyone doing Gerrit code review can act as the stick
 - review the commit message, not just the code
 - Developers read mostly, write occasionally
+- https://wiki.openstack.org/wiki/GitCommitMessages
 
 ----
 

@@ -14,7 +14,7 @@ Blueprint
 - a title
 - a description
 - longer-form go on a wiki page
-- Nova and Neutron manage blueprints on a git repo
+- Most of the projects now manage blueprints on a git repo called specs
 - https://wiki.openstack.org/wiki/Blueprints#Nova
 - https://wiki.openstack.org/wiki/Blueprints#Neutron
 

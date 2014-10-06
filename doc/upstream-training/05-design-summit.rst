@@ -43,12 +43,12 @@ Etherpads
 Proposing a session
 ===================
 
-.. image:: ./_assets/05-04-sessions.png
+- https://wiki.openstack.org/wiki/Summit/Kilo
 
 ----
 
-List of sessions
-================
+List of sessions (formerly)
+===========================
 
 .. image:: ./_assets/05-05-sessions.png
 
@@ -57,10 +57,8 @@ List of sessions
 Selection of sessions
 =====================
 
-- #Scheduled#: Your suggestion was accepted and has been scheduled
-- #Preapproved#: Your suggestion was accepted and should be scheduled (or merged with another session) soon
-- #Incomplete#: Your suggestion needs to be fixed before it can be accepted, please address reviewers comments
-- #Refused#: Your suggestion has been rejected, see reviewers comments for an explanation
+- TC votes for sessions in cross-project and other-projects tracks
+- PTLs vote for sessions in project tracks
 
 ----
 

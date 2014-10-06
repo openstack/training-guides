@@ -35,7 +35,7 @@ Planning : Discuss
 Planning : Target
 =================
 
-- file new blueprints
+- file new blueprints and/or specs
 - set a target milestone
 - when in the cycle they intend to complete it
 - PTLs triage the submitted blueprints and set priority

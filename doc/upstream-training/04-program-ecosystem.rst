@@ -58,7 +58,7 @@ Core (or What is OpenStack)
 ===========================
 
 - DefCore initiative, sponsored by the Board of Directors
-- TODO
+- Currently work in progress for qualifying APIs
 
 ----
 
