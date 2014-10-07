@@ -26,6 +26,10 @@ OpenStack Programs
 
 `OpenStack "Programs" are efforts which are essential to the completion of the OpenStack project mission, which is to produce the ubiquitous Open Source Cloud Computing platform that will meet the needs of public and private clouds regardless of size, by being simple to implement and massively scalable. Programs can create any code repository and produce any deliverable they deem necessary to achieve their goals.`
 
+- The official list of programs is in the `governance` repository
+   - http://git.openstack.org/cgit/openstack/governance/tree/reference/programs.yaml
+- The wiki page: https://wiki.openstack.org/wiki/Category:Programs
+
 ----
 
 List of Programs
