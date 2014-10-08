@@ -88,30 +88,4 @@ function get_next_prefix {
     printf "%0${digits}d" "$cnt"
 }
 
-#-------------------------------------------------------------------------------
-# Helpers for scripts configuration files (config/scripts.*)
-#-------------------------------------------------------------------------------
-
-# Configuration files use codes for directories rather than full paths (to make
-# them easier to read and write)
-
-function src_dir_code_to_dir {
-    local src_dir_code=$1
-    case "$src_dir_code" in
-        osbash)
-            echo "$OSBASH_SCRIPTS_DIR"
-            ;;
-        scripts)
-            echo "$SCRIPTS_DIR"
-            ;;
-        config)
-            echo "$CONFIG_DIR"
-            ;;
-        *)
-            # No code, it must be a path already
-            echo "$src_dir_code"
-            ;;
-    esac
-}
-
 # vim: set ai ts=4 sw=4 et ft=sh:
