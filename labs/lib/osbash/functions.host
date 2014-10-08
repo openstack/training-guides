@@ -271,30 +271,70 @@ function autostart {
     done
 }
 
+# Parse options given to configuration commands. Return parsed values by
+# setting variables to be used by caller.
+function get_cmd_options {
+    local OPTIND
+    local opt
+
+    while getopts :g:n: opt; do
+        case $opt in
+            g)
+                vm_ui=$OPTARG
+                ;;
+            n)
+                vm_name=$OPTARG
+                ;;
+            *)
+                echo >&2 "Error: bad option $OPTARG."
+                exit 1
+                ;;
+        esac
+    done
+    shift $((OPTIND-1))
+
+    # Assign the remaining arguments back to args
+    args=$@
+}
+
 # Parse command and arguments after a "cmd" token in config/scripts.*
 function command_from_config {
-    local cmd_string=( $1 )
-    local cmd=${cmd_string[0]}
+    local cmd=$1
+    shift
+
+    # Local variables that may be changed by get_cmd_options
     local vm_name=${NODE_NAME:-""}
+    local vm_ui=${VM_UI:-""}
+
+    local args=$@
     case "$cmd" in
         boot)
-            # Boot with queued autostart files now, wait for shutdown
-            echo >&2 _vbox_boot_with_autostart "$vm_name" "$VM_SSH_PORT"
-            _vbox_boot_with_autostart "$vm_name" "$VM_SSH_PORT"
+            # Format: boot [-g <gui_type>] [-n <node_name>]
+            # Boot with queued autostart files now, wait for end of scripts
+            # processing
+            get_cmd_options $args
+            echo >&2 "VM_UI=$vm_ui _vbox_boot_with_autostart $vm_name " \
+                        "$VM_SSH_PORT"
+            VM_UI=$vm_ui _vbox_boot_with_autostart "$vm_name" "$VM_SSH_PORT"
             ;;
         snapshot)
-            # Format: snapshot <snapshot_name>
-            local shot_name=${cmd_string[1]}
+            # Format: snapshot [-n <node_name>] <snapshot_name>
+            get_cmd_options $args
+            local shot_name=$args
             echo >&2 vm_snapshot "$vm_name" "$shot_name"
             vm_snapshot "$vm_name" "$shot_name"
             ;;
         wait_for_shutdown)
+            # Format: wait_for_shutdown [-n <node_name>]
+            get_cmd_options $args
             echo >&2 vm_wait_for_shutdown "$vm_name"
             vm_wait_for_shutdown "$vm_name"
             ;;
         snapshot_cycle)
+            # Format: snapshot_cycle [-g <gui_type>] [-n <node_name>]
             # comprises shutdown, boot, wait_for_shutdown, snapshot
-            local shot_name=${cmd_string[1]}
+            get_cmd_options $args
+            local shot_name=$args
             echo >&2 snapshot_cycle "$vm_name" "$shot_name"
             _autostart_queue "osbash/shutdown.sh"
             _vbox_boot_with_autostart "$vm_name" "$VM_SSH_PORT"
@@ -302,14 +342,15 @@ function command_from_config {
             vm_snapshot "$vm_name" "$shot_name"
             ;;
         init_node)
+            # Format: init_node [-n <node_name>]
+            get_cmd_options $args
             echo >&2 vm_init_node "$vm_name"
             vm_init_node "$vm_name"
             ;;
         queue)
             # Queue a script for autostart
-            # Format: <dircode> <script_name>
-            # Note: _autostart_queue takes care of dircode
-            local script_rel_path=${cmd_string[1]}
+            # Format: queue <script_name>
+            local script_rel_path=$args
             echo >&2 _autostart_queue "$script_rel_path"
             _autostart_queue "$script_rel_path"
             ;;
@@ -340,7 +381,7 @@ function autostart_from_config {
             # Skip lines that are commented out
             continue
         elif [ "$field_1" == "cmd" ]; then
-            command_from_config "$field_2"
+            command_from_config $field_2
         fi
     done
 }
