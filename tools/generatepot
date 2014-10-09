@@ -1,9 +1,5 @@
 #!/usr/bin/env python
-'''
-Created on 2012-7-3
 
-@author: daisy
-'''
 import os, sys
 from xml2po import Main
 from xml2po.modes.docbook import docbookXmlMode
