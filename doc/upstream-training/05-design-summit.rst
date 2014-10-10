@@ -30,6 +30,7 @@ How does it work?
 ----
 
 .. image:: ./_assets/05-02-design-summit.png
+  :width: 90%
 
 ----
 
