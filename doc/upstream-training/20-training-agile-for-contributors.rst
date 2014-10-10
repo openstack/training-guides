@@ -92,6 +92,7 @@ Sprint
 - 5 minutes review
 
 .. image:: ./_assets/20-01-sprint.png
+  :width: 90%
 
 ----
 
