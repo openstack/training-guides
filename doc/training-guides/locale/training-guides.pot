@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-09-09 06:00+0000\n"
+"POT-Creation-Date: 2014-10-11 06:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2183,7 +2183,7 @@ msgstr ""
 msgid "@@image: '../figures/lab_virtual-box/image03.png'; md5=2f79252a8c2f058f103df5346c9cd6fb"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:10(emphasis) ./doc/training-guides/basic-install-guide/lab_control-node.xml:7(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:10(emphasis) ./doc/training-guides/basic-install-guide/lab_control-node.xml:7(emphasis) ./doc/training-guides/basic-install-guide/lab_compute-node.xml:10(emphasis)
 msgid "Network Diagram:"
 msgstr ""
 
@@ -2203,7 +2203,7 @@ msgstr ""
 msgid "Network node"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:31(para) ./doc/training-guides/basic-install-guide/lab_network-node.xml:44(para) ./doc/training-guides/basic-install-guide/lab_control-node.xml:44(para) ./doc/training-guides/basic-install-guide/lab_compute-node.xml:33(para) ./doc/training-guides/basic-install-guide/lab_compute-node.xml:46(para)
+#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:31(para) ./doc/training-guides/basic-install-guide/lab_network-node.xml:44(para) ./doc/training-guides/basic-install-guide/lab_control-node.xml:44(para)
 msgid "Start the controller node which was set up in a previous section."
 msgstr ""
 
@@ -2259,7 +2259,7 @@ msgstr ""
 msgid "After installing Ubuntu Server, ssh into the VM and change to the root user"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:123(para) ./doc/training-guides/basic-install-guide/lab_compute-node.xml:116(para)
+#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:123(para)
 msgid "Add Icehouse repositories:"
 msgstr ""
 
@@ -2267,7 +2267,7 @@ msgstr ""
 msgid "Update your system:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:138(para) ./doc/training-guides/basic-install-guide/lab_compute-node.xml:131(para)
+#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:138(para)
 msgid "Restart the machine for the changes to apply"
 msgstr ""
 
@@ -2299,51 +2299,59 @@ msgstr ""
 msgid "Install Open vSwitch packages:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:188(para)
+#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:186(para)
+msgid "The Ubuntu version 14.04 or Linux kernel version 3.11 or newer do not require the <emphasis>openvswitch-datapath-dkms</emphasis> package."
+msgstr ""
+
+#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:194(para)
 msgid "Create the bridges:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:195(emphasis) ./doc/training-guides/basic-install-guide/lab_control-node.xml:440(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:201(emphasis) ./doc/training-guides/basic-install-guide/lab_control-node.xml:436(emphasis)
 msgid "Neutron"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:198(para)
+#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:204(para)
 msgid "Neutron:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:205(para) ./doc/training-guides/basic-install-guide/lab_compute-node.xml:252(para)
+#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:211(para) ./doc/training-guides/basic-install-guide/lab_compute-node.xml:252(para)
 msgid "Edit <filename>/etc/neutron/neutron.conf</filename>"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:224(para)
+#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:230(para)
 msgid "Edit <filename>/etc/neutron/l3_agent.ini</filename>"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:230(para)
+#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:236(para)
 msgid "Edit <filename>/etc/neutron/metadata_agent.ini</filename>"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:241(para)
+#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:247(para)
 msgid "Configure ML2 Plugin by editing the file <filename>/etc/neutron/plugins/ml2/ml2_conf.ini</filename>"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:260(para)
+#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:266(para)
 msgid "Restart OVS service"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:264(para) ./doc/training-guides/basic-install-guide/lab_compute-node.xml:279(para)
+#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:270(para)
 msgid "Add the integration bridge"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:266(para)
+#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:272(para)
 msgid "Add the external bridge"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:268(para)
+#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:276(para)
+msgid "Edit <filename>/etc/network/interfaces</filename> to make the following changes:"
+msgstr ""
+
+#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:296(para)
 msgid "Add port to external bridge"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:272(para)
+#: ./doc/training-guides/basic-install-guide/lab_network-node.xml:300(para)
 msgid "Restart neutron services"
 msgstr ""
 
@@ -2514,7 +2522,7 @@ msgid "Operating Systems - It is recommended to use Ubuntu Server 14.04 LTS,"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml:42(para)
-msgid "Older Ubuntu versions may not support IceHouse. Ubuntu Server 12.04 will support IceHouse but is out of scope of this book."
+msgid "Older Ubuntu versions may not support Icehouse. Ubuntu Server 12.04 will support Icehouse but is out of scope of this book."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml:47(para)
@@ -6636,7 +6644,7 @@ msgstr ""
 msgid "<emphasis role=\"bold\">Vboxnet0</emphasis>, <emphasis role=\"bold\">Vboxnet1</emphasis>, <emphasis role=\"bold\">Vboxnet2</emphasis> - are virtual networks setup up by virtual box with your host machine. This is the way your host can communicate with the virtual machines. These networks are in turn used by VirtualBox VMs for OpenStack networks, so that OpenStack’s services can communicate with each other."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:28(para) ./doc/training-guides/basic-install-guide/lab_compute-node.xml:35(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:28(para)
 msgid "On reboot the node VM may lose internet and network connectivity. Restart the networking service and use the <placeholder-1/> command to verify the network connectivity for the given VM."
 msgstr ""
 
@@ -6689,246 +6697,242 @@ msgid "Install RabbitMQ:"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_control-node.xml:178(para)
-msgid "Install the NTP service:"
-msgstr ""
-
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:182(para)
 msgid "Create these databases:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:197(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:193(emphasis)
 msgid "Installing Keystone"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:200(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:196(para)
 msgid "Install the Keystone packages:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:204(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:200(para)
 msgid "Adapt the connection attribute in the <filename>/etc/keystone/keystone.conf</filename> to the new database:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:210(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:206(para)
 msgid "Restart the identity service then synchronize the database:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:216(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:212(para)
 msgid "Fill up the keystone database using the following scripts:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:221(filename)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:217(filename)
 msgid "keystone_basic.sh"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:226(filename)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:222(filename)
 msgid "keystone_endpoints_basic.sh"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:230(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:226(para)
 msgid "Run scripts:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:237(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:233(para)
 msgid "Create a simple credentials file"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:241(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:237(para)
 msgid "Paste the following:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:248(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:244(para)
 msgid "Load the above credentials:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:252(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:248(para)
 msgid "To test Keystone, we use a simple CLI command:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:256(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:252(emphasis)
 msgid "Glance"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:257(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:253(para)
 msgid "The OpenStack Glance project provides services for discovering, registering, and retrieving virtual machine images. Glance has a RESTful API that allows querying of VM image metadata as well as retrieval of the actual image."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:261(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:257(para)
 msgid "VM images made available through Glance can be stored in a variety of locations from simple file systems to object-storage systems like the OpenStack Swift project."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:264(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:260(para)
 msgid "Glance, as with all OpenStack projects, is written with the following design guidelines in mind:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:268(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:264(para)
 msgid "Component based architecture: Quickly adds new behaviors"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:272(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:268(para)
 msgid "Highly available: Scales to very serious workloads"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:275(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:271(para)
 msgid "Fault tolerant: Isolated processes avoid cascading failures"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:279(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:275(para)
 msgid "Recoverable: Failures should be easy to diagnose, debug, and rectify"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:283(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:279(para)
 msgid "Open standards: Be a reference implementation for a community-driven api"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:287(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:283(para)
 msgid "Install Glance:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:291(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:287(para)
 msgid "Update <filename>/etc/glance/glance-api-paste.ini</filename>:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:304(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:300(para)
 msgid "Update the <filename>/etc/glance/glance-registry-paste.ini</filename>:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:316(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:312(para)
 msgid "Update the <filename>/etc/glance/glance-api.conf</filename>:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:337(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:333(para)
 msgid "Update the <filename>/etc/glance/glance-registry.conf</filename>:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:353(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:349(para)
 msgid "Restart the glance-api and glance-registry services:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:358(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:354(para)
 msgid "Synchronize the Glance database:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:362(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:358(para)
 msgid "To test Glance, upload the “cirros cloud image” directly from the internet:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:367(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:363(para)
 msgid "Check if the image is successfully uploaded:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:371(emphasis) ./doc/training-guides/basic-install-guide/lab_compute-node.xml:283(emphasis) ./doc/training-guides/common/section_vm-placement.xml:16(title)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:367(emphasis) ./doc/training-guides/basic-install-guide/lab_compute-node.xml:283(emphasis) ./doc/training-guides/common/section_vm-placement.xml:16(title)
 msgid "Nova"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:372(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:368(para)
 msgid "Nova is the project name for OpenStack Compute, a cloud computing fabric controller, the main part of an IaaS system. Individuals and organizations can use Nova to host and manage their own cloud computing systems. Nova originated as a project out of NASA Ames Research Laboratory."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:377(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:373(para)
 msgid "Nova is written with the following design guidelines in mind:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:379(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:375(para)
 msgid "Install nova components:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:385(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:381(para)
 msgid "Edit <filename>/etc/nova/nova.conf</filename>"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:421(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:417(para)
 msgid "Synchronize your database:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:425(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:421(para)
 msgid "Restart nova-* services (all nova services):"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:434(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:430(para)
 msgid "Check for the smiling faces on <systemitem class=\"service\">nova-*</systemitem> services to confirm your installation:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:441(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:437(para)
 msgid "Neutron is an OpenStack project to provide “network connectivity as a service\" between interface devices (e.g., vNICs) managed by other OpenStack services (e.g., nova)."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:446(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:442(para)
 msgid "Install the Neutron Server and the Open vSwitch package collection:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:451(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:447(para)
 msgid "Edit the <filename>/etc/neutron/plugins/ml2/ml2_conf.ini</filename>:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:467(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:463(para)
 msgid "Edit the <filename>/etc/neutron/api-paste.ini</filename>:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:481(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:477(para)
 msgid "Edit the <filename>/etc/neutron/neutron.conf</filename>:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:508(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:504(para)
 msgid "Restart Nova Services"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:512(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:508(para)
 msgid "Restart Neutron services:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:517(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:513(emphasis)
 msgid "Cinder"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:518(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:514(para)
 msgid "Cinder is an OpenStack project that provides “block storage as a service”."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:522(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:518(para)
 msgid "Install Cinder components:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:526(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:522(para)
 msgid "Edit <filename>/etc/cinder/cinder.conf</filename>:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:547(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:543(para)
 msgid "Then, synchronize Cinder database:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:551(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:547(para)
 msgid "Restart Cinder Services"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:556(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:552(para)
 msgid "Finally, create a volume group and name it <literal>cinder-volumes</literal>:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:569(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:565(para)
 msgid "Proceed to create the physical volume then the volume group:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:576(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:572(para)
 msgid "Be aware that this volume group gets lost after a system reboot. If you do not want to perform this step again, make sure that you save the machine state and do not shut it down."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:583(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:579(emphasis)
 msgid "Horizon"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:584(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:580(para)
 msgid "Horizon is the canonical implementation of OpenStack’s dashboard, which provides a web-based user interface to OpenStack services including Nova, Swift, Keystone, etc."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:589(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:585(para)
 msgid "To install Horizon, complete these steps:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:593(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:589(para)
 msgid "If you do not like the OpenStack Ubuntu Theme, you can remove it with the below command:"
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:598(para)
+#: ./doc/training-guides/basic-install-guide/lab_control-node.xml:594(para)
 msgid "Reload Apache and memcached:"
 msgstr ""
 
@@ -7194,12 +7198,16 @@ msgstr ""
 msgid "The basic <glossterm>compute node</glossterm> runs the <glossterm>hypervisor</glossterm> portion of Compute, which operates <glossterm>tenant</glossterm><glossterm baseform=\"virtual machine (VM)\">virtual machines</glossterm> or instances. By default, Compute uses <glossterm baseform=\"kernel-based VM (KVM)\">KVM</glossterm> as the <glossterm>hypervisor</glossterm>. Compute also provisions and operates tenant networks and implements <glossterm baseform=\"security group\">security groups</glossterm>. You can run more than one compute node."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_compute-node.xml:10(emphasis)
-msgid "Network Diagram :"
-msgstr ""
-
 #: ./doc/training-guides/basic-install-guide/lab_compute-node.xml:25(para)
 msgid "<emphasis role=\"bold\">Vboxnet0</emphasis>, <emphasis role=\"bold\">Vboxnet1</emphasis>, <emphasis role=\"bold\">Vboxnet2</emphasis> - are virtual networks set up up by VirtualBox with your host machine. This is the way the host can communicate with the virtual machines. These networks are in turn used by VirtualBox VMs for OpenStack networks, so that OpenStack’s services can communicate with each other."
+msgstr ""
+
+#: ./doc/training-guides/basic-install-guide/lab_compute-node.xml:33(para) ./doc/training-guides/basic-install-guide/lab_compute-node.xml:46(para)
+msgid "Start the controller node, which was set up in a previous section."
+msgstr ""
+
+#: ./doc/training-guides/basic-install-guide/lab_compute-node.xml:35(para)
+msgid "After the reboot of the node, the VM may lose internet and network connectivity. Restart the networking service and use the <placeholder-1/> command to verify the network connectivity for the given VM."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_compute-node.xml:50(emphasis)
@@ -7207,11 +7215,19 @@ msgid "Networking:"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_compute-node.xml:100(para)
-msgid "To SSH into the compute node from the host machine, type the command mentioned below."
+msgid "To SSH into the compute node from the host machine, type the command below:"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_compute-node.xml:110(para)
 msgid "After installing Ubuntu Server, switch to the root user"
+msgstr ""
+
+#: ./doc/training-guides/basic-install-guide/lab_compute-node.xml:116(para)
+msgid "Add the Icehouse repositories:"
+msgstr ""
+
+#: ./doc/training-guides/basic-install-guide/lab_compute-node.xml:131(para)
+msgid "Restart the machine for the changes to apply:"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_compute-node.xml:172(emphasis)
@@ -7231,7 +7247,7 @@ msgid "Edit <filename>/etc/nova/nova-compute.conf</filename>"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_compute-node.xml:221(para)
-msgid "Restart Nova Compute Service"
+msgid "Restart the Nova Compute Service:"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_compute-node.xml:226(emphasis)
@@ -7239,7 +7255,7 @@ msgid "Neutron and OVS"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_compute-node.xml:229(para)
-msgid "Install Open vSwitch"
+msgid "Install Open vSwitch:"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_compute-node.xml:233(para)
@@ -7248,6 +7264,10 @@ msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_compute-node.xml:273(para)
 msgid "Restart all the services:"
+msgstr ""
+
+#: ./doc/training-guides/basic-install-guide/lab_compute-node.xml:279(para)
+msgid "Add the integration bridge:"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_compute-node.xml:284(para)
@@ -10602,11 +10622,11 @@ msgid "Floating IP Addresses And Security Rules"
 msgstr ""
 
 #: ./doc/training-guides/common/section_floating-ips.xml:8(para)
-msgid "OpenStack Networking has the concept of Fixed IPs and Floating IPs. Fixed IPs are assigned to an instance on creation and stay the same until the instance is explicitly terminated. Floating ips are ip addresses that can be dynamically associated with an instance. This address can be disassociated and associated with another instance at any time."
+msgid "OpenStack Networking has the concept of Fixed IPs and Floating IPs. Fixed IPs are assigned to an instance on creation and stay the same until the instance is explicitly terminated. Floating IPs are IP addresses that can be dynamically associated with an instance. This address can be disassociated and associated with another instance at any time."
 msgstr ""
 
 #: ./doc/training-guides/common/section_floating-ips.xml:15(para)
-msgid "Various tasks carried out by Floating IP's as of now."
+msgid "Various tasks carried out by Floating IPs as of now."
 msgstr ""
 
 #: ./doc/training-guides/common/section_floating-ips.xml:19(para)
@@ -10614,23 +10634,23 @@ msgid "create IP ranges under a certain group, only available for admin role."
 msgstr ""
 
 #: ./doc/training-guides/common/section_floating-ips.xml:23(para)
-msgid "allocate an floating IP to a certain tenant, only available for admin role."
+msgid "allocate a floating IP to a certain tenant, only available for admin role."
 msgstr ""
 
 #: ./doc/training-guides/common/section_floating-ips.xml:27(para)
-msgid "deallocate an floating IP from a certain tenant"
+msgid "deallocate a floating IP from a certain tenant"
 msgstr ""
 
 #: ./doc/training-guides/common/section_floating-ips.xml:31(para)
-msgid "associate an floating IP to a given instance"
+msgid "associate a floating IP to a given instance"
 msgstr ""
 
 #: ./doc/training-guides/common/section_floating-ips.xml:35(para)
-msgid "disassociate an floating IP from a certain instance"
+msgid "disassociate a floating IP from a certain instance"
 msgstr ""
 
 #: ./doc/training-guides/common/section_floating-ips.xml:39(para)
-msgid "Just as shown by the above figure, we will have nova-network-api to support nova client floating commands. nova-network-api will invoke neutron cli lib to interactive with neutron server via API. The data about floating IPs will be stored in to neutron DB. Neutron Agent, which is running on compute host will enforce the floating IP."
+msgid "Just as shown by the above figure, we will have nova-network-api to support nova client floating commands. Nova-network-api will invoke neutron cli lib to interact with the neutron server via API. The data for the floating IPs will be stored in the neutron DB. Neutron Agent, which is running on the compute host will enforce the floating IP."
 msgstr ""
 
 #: ./doc/training-guides/common/section_floating-ips.xml:46(guilabel)
@@ -10642,7 +10662,7 @@ msgid "The L3 API in OpenStack Networking supports multiple floating IP pools. I
 msgstr ""
 
 #: ./doc/training-guides/common/section_floating-ips.xml:59(para)
-msgid "In addition, when you run multiple L3 agents, make sure that handle_internal_only_routers is set to Trueonly for one L3 agent in an OpenStack Networking deployment and set to Falsefor all other L3 agents. Since the default value of this parameter is True, you need to configure it carefully."
+msgid "In addition, when you run multiple L3 agents, make sure that handle_internal_only_routers is set to True only for one L3 agent in an OpenStack Networking deployment and set to False for all other L3 agents. Since the default value of this parameter is True, you need to configure it carefully."
 msgstr ""
 
 #: ./doc/training-guides/common/section_floating-ips.xml:65(para)
@@ -11998,7 +12018,7 @@ msgid "AMQP"
 msgstr ""
 
 #: ./doc/training-guides/common/section_queues-messaging.xml:51(para)
-msgid "Nova implements RPC (both request+response, and one-way, respectively nicknamed ‘rpc.call’ and ‘rpc.cast’) over AMQP by providing an adapter class which take cares of marshaling and un-marshaling of messages into function calls. Each Nova service, such as Compute, Scheduler, and so on, creates two queues at the initialization time, one which accepts messages with routing keys ‘NODE-TYPE.NODE-ID’, for example, compute.hostname, and another, which accepts messages with routing keys as generic ‘NODE-TYPE’, for example compute. The former is used specifically when Nova-API needs to redirect commands to a specific node like ‘euca-terminate instance’. In this case, only the compute node whose host’s hypervisor is running the virtual machine can kill the instance. The API acts as a consumer when RPC calls are request/response, otherwise is acts as publisher only."
+msgid "Nova implements RPC (both request+response, and one-way, respectively nicknamed ‘rpc.call’ and ‘rpc.cast’) over AMQP by providing an adapter class which take cares of marshaling and un-marshaling of messages into function calls. Each Nova service, such as Compute, Scheduler, and so on, creates two queues at the initialization time, one which accepts messages with routing keys ‘NODE-TYPE.NODE-ID’, for example, compute.hostname, and another, which accepts messages with routing keys as generic ‘NODE-TYPE’, for example compute. The former is used specifically when Nova-API needs to redirect commands to a specific node like ‘euca-terminate instance’. In this case, only the compute node whose host’s hypervisor is running the virtual machine can kill the instance. The API acts as a consumer when RPC calls are request/response, otherwise it acts as publisher only."
 msgstr ""
 
 #: ./doc/training-guides/common/section_queues-messaging.xml:64(guilabel)
@@ -12250,7 +12270,7 @@ msgid "<emphasis role=\"bold\">2 or “persistent”:</emphasis> The message is 
 msgstr ""
 
 #: ./doc/training-guides/common/section_queues-messaging.xml:433(para)
-msgid "The default value is 2 (persistent). During a send operation, Publishers can override the delivery mode of messages so that, for example, transient messages can be sent over a durable queue."
+msgid "The default value is 2 (persistent). During a send operation, publishers can override the delivery mode of messages so that, for example, transient messages can be sent over a durable queue."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -13134,7 +13154,7 @@ msgid "On the<emphasis role=\"bold\"> Security Groups tab</emphasis>, you can li
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:141(para)
-msgid "On the <emphasis role=\"bold\">Keypairs tab</emphasis>, you can list, create, and import keypairs, and delete keypairs."
+msgid "On the <emphasis role=\"bold\">Keypairs tab</emphasis>, you can list, create, import, and delete keypairs."
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:143(para)
@@ -15579,11 +15599,11 @@ msgid "A container used to group or isolate resources and/or identity objects. D
 msgstr ""
 
 #: ./doc/training-guides/common/section_keystone-arch.xml:98(para)
-msgid "An OpenStack service, such as Compute (Nova), Object Storage (Swift), or Image Service (Glance). Provides one or more endpoints through which users can access resources and perform operations."
+msgid "An OpenStack service, such as Compute (Nova), Object Storage (Swift), or the Image Service (Glance) provides one or more endpoints through which users can access resources and perform operations."
 msgstr ""
 
 #: ./doc/training-guides/common/section_keystone-arch.xml:107(para)
-msgid "An network-accessible address, usually described by URL, from where you access a service. If using an extension for templates, you can create an endpoint template, which represents the templates of all the consumable services that are available across the regions."
+msgid "A network-accessible address, usually described by URL, from where you access a service. If using an extension for templates, you can create an endpoint template, which represents the templates of all the consumable services that are available across the regions."
 msgstr ""
 
 #: ./doc/training-guides/common/section_keystone-arch.xml:118(para)
