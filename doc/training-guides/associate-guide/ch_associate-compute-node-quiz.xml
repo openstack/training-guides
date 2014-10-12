@@ -164,6 +164,69 @@
                         </para>
                       </formalpara>
                     </listitem>
+                    <listitem>
+                      <formalpara>
+                        <title>Specify in which order these steps must be completed to provision VMs:</title>
+                      <para>
+                          <orderedlist>
+                            <listitem>
+                              <para>nova-scheduler picks up the request from the queue.</para>
+                            </listitem>
+                            <listitem>
+                              <para>nova-compute generates data for the hypervisor driver and executes the request on the hypervisor (via libvirt or API).</para>
+                            </listitem>
+                            <listitem>
+                              <para>nova-scheduler interacts with nova DB to find an appropriate host via filtering and weighting, returns the updated instance entry with the appropriate host ID and sends the rpc.cast request to nova-compute for launching an instance on the appropriate host.</para>
+                            </listitem>
+                            <listitem>
+                              <para>nova-conductor interacts with nova DB and returns the instance information. nova-compute picks up the instance information from the queue.</para>
+                            </listitem>
+                            <listitem>
+                              <para>nova-api receives the request and sends a request to the Identity Service for validation of the auth-token and access permission. The Identity Service validates the token.</para>
+                            </listitem>
+                            <listitem>
+                              <para>nova-compute picks up the request for launching an instance on the appropriate host from the queue.</para>
+                            </listitem>
+                            <listitem>
+                              <para>neutron-server validates the auth-token with Identity Service. nova-compute retrieves the network info.</para>
+                            </listitem>
+                            <listitem>
+                              <para>nova-compute performs the REST-call by passing the auth-token to Network API to allocate and configure the network so that the instance gets the IP address.</para>
+                            </listitem>
+                            <listitem>
+                              <para>The dashboard or CLI converts the new instance request to a REST API request and sends it to nova-api.</para>
+                            </listitem>
+                            <listitem>
+                              <para>nova-compute performs the REST call by passing the auth-token to glance-api. Then, nova-compute uses the Image ID to retrieve the Image URI from the Image Service, and loads the image from the image storage.</para>
+                            </listitem>
+                            <listitem>
+                              <para>nova-compute sends the rpc.call request to nova-conductor to fetch the instance information such as host ID and flavor (RAM, CPU, disk).</para>
+                            </listitem>
+                            <listitem>
+                              <para>cinder-api validates the auth-token with Identity Service. nova-compute retrieves the block storage info.</para>
+                            </listitem>
+                            <listitem>
+                              <para>The dashboard or CLI gets the user credentials and authenticates with the Identity Service via REST API. The Identity Service authenticates the user and sends back an auth-token.</para>
+                            </listitem>
+                            <listitem>
+                              <para>glance-api validates the auth-token with Identity Service. nova-compute gets the image metadata.</para>
+                            </listitem>
+                            <listitem>
+                              <para>nova-compute performs the REST call by passing the auth-token to Volume API to attach volumes to the instance.</para>
+                            </listitem>
+                            <listitem>
+                              <para>nova-api checks for conflicts with nova DB and creates the initial database entry for a new instance.</para>
+                            </listitem>
+                            <listitem>
+                              <para>nova-api sends the rpc.call request to nova-scheduler expecting to get an updated instance entry with the host ID specified.</para>
+                            </listitem>
+                            <listitem>
+                              <para>nova-conductor picks up the request from the queue.</para>
+                            </listitem>
+                          </orderedlist>
+                        </para>
+                      </formalpara>
+                    </listitem>
                 </orderedlist>
             </para>
       </formalpara>
@@ -191,6 +254,9 @@
                   </listitem>
                   <listitem>
                     <para>b (False)</para>
+                  </listitem>
+                  <listitem>
+                    <para>a (6), b (18), c (7), d (11), e (3), f (8), g (15), h (14), i (2), j (12), k (9), l (17), m (1), n (13), o (16), p (4), q (5), r (10)</para>
                   </listitem>
                 </orderedlist>
             </para>
