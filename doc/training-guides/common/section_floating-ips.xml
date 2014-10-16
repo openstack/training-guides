@@ -69,4 +69,12 @@
             <para>For the first agent, invoke it with the following
                 l3_agent.ini where handle_internal_only_routers is
                 True.</para>
+            <programlisting>
+handle_internal_only_routers = True
+external_network_bridge = br-ex
+        </programlisting>
+        <programlisting>
+$sudo service neutron-l3-agent restart
+    </programlisting>
+    <para>For the second (or later) agent, invoke it with the following l3_agent.ini where handle_internal_only_routers is False.</para>
 </chapter>
