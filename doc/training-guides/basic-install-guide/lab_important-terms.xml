@@ -16,12 +16,12 @@
     <title>Guest Operating System (Guest)</title>
     <para>The operating system that is installed on your VirtualBox
       Virtual Machine. This virtual instance is independent of the
-      host OS. It is commonly referred to as <glossterm>guest OS</glossterm>
+      host OS. It is commonly referred to as the <glossterm>guest OS</glossterm>
       or guest.</para>
   </formalpara>
   <formalpara>
     <title>Node</title>
-    <para>In this context, refers specifically to servers. Each
+    <para>In this context, node refers specifically to servers. Each
       OpenStack server is a node.</para>
   </formalpara>
   <formalpara>
