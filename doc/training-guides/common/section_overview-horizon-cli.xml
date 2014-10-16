@@ -18,7 +18,7 @@
     <para>You can modify these examples for your specific use
       cases.</para>
     <para>In addition to these ways of interacting with a cloud, you
-      can access the OpenStack APIs indirectly through cURLcommands
+      can access the OpenStack APIs indirectly through cURL commands
       or open SDKs, or directly through the APIs. You can automate
       access or build tools to manage resources and services by using
       the native OpenStack APIs or the EC2 compatibility API.</para>
@@ -241,7 +241,7 @@
         <listitem>
           <para>If you want to accept requests from a particular range
             of IP addresses, specify the IP address block in the
-            CIDRbox.</para>
+            CIDR box.</para>
         </listitem>
       </orderedlist>
       <para>Add an ICMP rule</para>
@@ -623,7 +623,7 @@
             Project tab.</para>
         </listitem>
         <listitem>
-          <para>Click the Instancescategory.</para>
+          <para>Click the Instances category.</para>
         </listitem>
         <listitem>
           <para>The dashboard lists the instances that are available
@@ -662,7 +662,7 @@
             Project tab.</para>
         </listitem>
         <listitem>
-          <para>Click the Instancescategory.</para>
+          <para>Click the Instances category.</para>
         </listitem>
         <listitem>
           <para>The dashboard lists the instances that are available
@@ -673,7 +673,7 @@
             state.</para>
         </listitem>
         <listitem>
-          <para>In the Moredrop-down list in the Actionscolumn,
+          <para>In the More drop-down list in the Actions column,
             select the state.</para>
         </listitem>
         <listitem>
@@ -1481,11 +1481,11 @@
       </itemizedlist>
       <itemizedlist>
         <listitem>
-          <para>A key-pair for your instance, which are SSH
+          <para>A keypair for your instance, which are SSH
             credentials that are injected into images when they are
             launched. For this to work, the image must contain the
             cloud-init package. Create at least one keypair for each
-            project. If you already have generated a key-pair with an
+            project. If you already have generated a keypair with an
             external tool, you can import it into OpenStack. You can
             use the keypair for multiple instances that belong to that
             project. For details, refer to Section 1.5.1, Creating or
