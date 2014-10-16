@@ -20,7 +20,7 @@
       instance configured as the required OpenStack deployment. We
       will be manually deploying OpenStack on VirtualBox to
       get a better view of how OpenStack works.</para>
-    <para><guilabel>Prerequisite:</guilabel></para>
+    <para><guilabel>Prerequisites:</guilabel></para>
     <para>Networking and Linux are required to get setup.</para>
     <para>The Virtual Machines and Virtual Networks will be given
       equal privileges as a physical machine on a physical
@@ -37,10 +37,10 @@
     xlink:href="http://www.virtualbox.org/manual/UserManual.html">Virtual
     Box Manual</link></para>
     <para><emphasis role="bold">Requirements:</emphasis></para>
-    <para>Operating Systems - It is recommended to use Ubuntu Server 14.04 LTS,
+    <para>Operating Systems - It is recommended to use Ubuntu Server 14.04 LTS
     </para>
     <note><para>Older Ubuntu versions may not support Icehouse. Ubuntu Server
-            12.04 will support Icehouse but is out of scope of this book.
+            12.04 will support Icehouse but is out of scope for this book.
     </para></note>
     <itemizedlist>
       <listitem>
@@ -91,7 +91,7 @@
     <para>You will still be able to use VirtualBox but the instances
       will be very slow.</para>
     <para>There are many ways to configure your OpenStack Setup. In this example, we
-    will deploy OpenStack multi node using OVS as the network
+    will deploy OpenStack multi-node using OVS as the network
     plug-in and QEMU/KVM as the hypervisor.</para>
     <para><emphasis role="bold">Host only connections:</emphasis></para>
     <itemizedlist>
@@ -154,17 +154,17 @@
         Ubuntu 12.04 Server or Ubuntu 13.04 Server</link></para>
      </listitem>
    </orderedlist>
-   <note><para>You need a x86 image for VM's if kvm-ok fails, even
+   <note><para>You need an x86 image for VM's if kvm-ok fails, even
       though you are on an AMD64 machine.</para></note>
    <note><para>Even though I'm using Ubuntu as host, the same is
       applicable to Windows, Mac and other Linux hosts.</para></note>
    <itemizedlist>
       <listitem>
-        <para>If you have i5 or i7 2nd gen processor you can have VT
+        <para>If you have an i5 or i7 2nd gen processor you can have VT
         technology inside VM's provided by VMware. This means that
-        your OpenStack nodes (which are in turn VM's) will give
+        your OpenStack nodes (which are in turn VM's) will give a
         positive result on KVM-OK. (I call it - nesting of type-2
-        hypervisors). The rest of the configurations remain same except
+        hypervisors). The rest of the configurations remain the same except
         for the UI and a few other trivial differences.</para>
       </listitem>
     </itemizedlist>
@@ -331,12 +331,12 @@
           use your terminal which is more convenient than using the
           Virtual Machines tty through the VirtualBox's UI. You get a
           few added features such as copy - paste commands into the
-          remote terminal, which is not possible directly on VM.</para>
+          remote terminal, which is not possible directly on the VM.</para>
       </listitem>
       <listitem>
         <para>FTP is for transferring files to and from your local machine
           and the virtual machine. You can
-          also use SFTP or install FTPD on both HOST and VM's.</para>
+          also use SFTP or install FTPD on both the HOST and the VM's.</para>
       </listitem>
       <listitem>
         <para>Installation of SSH and FTP with the configuration steps are
@@ -353,14 +353,14 @@
 
     <itemizedlist>
       <listitem>
-        <para>During installation of the operating systems you will be
+        <para>During the installation of the operating systems you will be
           asked for custom software to install. You may skip this step
           by pressing the <keycap>Enter</keycap> key without selecting
           any of the given options.</para>
       </listitem>
     </itemizedlist>
     <warning><para>Please do not install any of the other packages
-      except for the packages that are mentioned below unless you are
+      except for the packages that are mentioned below, unless you are
       familiar with the process.</para>
     </warning>
   </section>
@@ -440,17 +440,16 @@
   </figure>
     <para>Now install Ubuntu Server 12.04 or 13.04 on this
       machine.</para>
-    <note><para>Install SSH server
+    <note><para>Install the SSH server
       when asked for custom software to install. The rest of the packages
-      are not required and may come in the way of OpenStack packages -
-      like DNS servers etc. (not necessary). Unless you know what you
-      are doing.</para>
+      are not required and may come in the way of the OpenStack packages -
+      like DNS servers etc. (unless you are an advanced user).</para>
     </note>
   </section>
   <section xml:id="lab_virtualbox-basics_setup_network_node">
     <title>Network node</title>
 
-    <para>Create a new virtual machine, minimum RAM is
+    <para>Create a new virtual machine, with the minimum RAM as
       512 MB. The remainder can be left as default. The minimum HDD
       space is 8 GB.</para>
 
