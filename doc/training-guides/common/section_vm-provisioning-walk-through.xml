@@ -137,20 +137,20 @@
       OpenStack.</para>
     <para>Instances are the individual virtual machines running on
       physical compute nodes. The OpenStack Compute service manages
-      instances. Any number of instances maybe started from the same
+      instances. Any number of instances may be started from the same
       image. Each instance is run from a copy of the base image so
       runtime changes made by an instance do not change the image it
       is based on. Snapshots of running instances may be taken which
       create a new image based on the current disk state of a
       particular instance.</para>
-    <para>When starting an instance a set of virtual resources known
+    <para>When starting an instance, a set of virtual resources known
       as a flavor must be selected. Flavors define how many virtual
       CPUs an instance has and the amount of RAM and size of its
       ephemeral disks. OpenStack provides a number of predefined
       flavors which cloud administrators may edit or add to. Users
       must select from the set of available flavors defined on their
       cloud.</para>
-    <para>Additional resources such as persistent volume storage and
+    <para>Additional resources such as persistent volume storage and a
       public IP address may be added to and removed from running
       instances. The examples below show the cinder-volume service
       which provide persistent block storage as opposed to the
@@ -217,10 +217,10 @@
       storage rather than local disk. The details are left for later
       chapters.</para>
     <para><guilabel>End State</guilabel></para>
-      <para>Once the instance has served its purpose and is deleted
+      <para>Once the instance has served its purpose and is deleted,
         all state is reclaimed, except the persistent volume. The
         ephemeral storage is purged. Memory and vCPU resources are
-        released. And of course the image has remained unchanged
+        released. The image remains unchanged
         throughout.</para>
       <para>Figure 2.3. End state of image and volume after instance
         exits</para>
@@ -236,6 +236,6 @@
         going on in the background. To understand what's happening
         behind the dashboard, lets take a deeper dive into OpenStack's
         VM provisioning. For launching a VM, you can either use
-        the command-line interfaces or the OpenStack dashboard.
+        the command-line interface or the OpenStack dashboard.
       </para>
 </chapter>
