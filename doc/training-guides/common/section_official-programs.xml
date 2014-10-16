@@ -96,7 +96,14 @@
         <td rowspan="1" colspan="1">October 2014</td>
         <td rowspan="1" colspan="1">Nova, Glance, Swift,
           Horizon, Keystone, Neutron, Cinder,
-          Ceilometer, Heat, Trove (more to be added)</td>
+          Ceilometer, Heat, Trove, Sahara</td>
+      </tr>
+      <tr>
+        <td rowspan="1" colspan="1">Kilo</td>
+        <td rowspan="1" colspan="1">April 2015</td>
+        <td rowspan="1" colspan="1">Nova, Glance, Swift,
+          Horizon, Keystone, Neutron, Cinder,
+          Ceilometer, Heat, Trove, Sahara, Ironic</td>
       </tr>
     </tbody>
   </informaltable>
