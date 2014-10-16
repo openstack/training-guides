@@ -14,3 +14,7 @@ NET_IF_2=API_NET
 
 # Controller is running most of the services; it needs more than 512 MB RAM
 VM_MEM=1024
+
+# Override number of virtual CPUs (default is 1)
+# To edit uncomment the line below
+# VM_CPUS=1
