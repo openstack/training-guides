@@ -92,3 +92,17 @@ code {
 .presenter_notes, #current_presenter_notes, #presenter_note {
   display: none;
 }
+
+.colleft {
+  float: left;
+  max-width: 48%;
+  height: 550px;
+  padding-left: 2em;
+}
+
+.colright {
+  float: right;
+  max-width: 48%;
+  height: 550px;
+  padding: 0;
+}
