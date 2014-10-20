@@ -310,7 +310,7 @@ section, .slide header:only-child h1 {
   overflow: hidden;
 }
 
-img { display: block; margin: auto; }
+img { display: block; margin: auto; max-width: 100%; max-height: 100%}
 
 section img.align-center {
   display: block;
@@ -561,4 +561,18 @@ aside {
   height: 100%;
   z-index: 64;
   display: none;
+}
+
+.colleft {
+  float: left;
+  max-width: 48%;
+  height: 600px;
+  padding-left: 2em;
+}
+
+.colright {
+  float: right;
+  max-width: 48%;
+  height: 600px;
+  padding: 0;
 }
