@@ -1,5 +1,26 @@
 # This bash library contains the main function that creates the base disk.
 
+function check_md5 {
+    local file=$1
+    local csum=$2
+    local md5exe
+    if ! md5exe=$(which md5sum); then
+      # On Mac OS X, the tool is called md5
+      if ! md5exe=$(which md5); then
+        echo >&2 "Neither md5sum nor md5 found. Aborting."
+        exit 1
+      fi
+    fi
+    echo >&2 -n "Verifying ISO image MD5 checksum: "
+    if $md5exe "$file" | grep -q "$csum"; then
+        echo >&2 "okay."
+    else
+        echo >&2 "failed."
+        echo >&2 "Aborting. Please fix or remove the ISO image."
+        exit 1
+    fi
+}
+
 function vm_install_base {
     local base_disk=$1
     local base_build_disk=$DISK_DIR/tmp-disk.vdi
@@ -32,6 +53,9 @@ function vm_install_base {
     fi
 
     echo >&2 -e "Install ISO:\n\t$INSTALL_ISO"
+
+    ${OSBASH:-:} check_md5 "$INSTALL_ISO" "$ISO_MD5"
+
     $VBM storageattach "$vm_name" \
         --storagectl IDE \
         --port 0 \
