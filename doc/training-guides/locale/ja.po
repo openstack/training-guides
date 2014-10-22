@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenStack Manuals\n"
-"POT-Creation-Date: 2014-10-10 13:14+0000\n"
-"PO-Revision-Date: 2014-10-10 05:10+0000\n"
+"POT-Creation-Date: 2014-10-21 12:41+0000\n"
+"PO-Revision-Date: 2014-10-22 05:38+0000\n"
 "Last-Translator: Tomoyuki KATO <tomo@dream.daynight.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/openstack-manuals-i18n/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -92,7 +92,7 @@ msgid ""
 "cards. Each card in the story board represents something that an Associate "
 "trainee needs to learn. But first things first, you need to get some basic "
 "tools and accounts installed and configured before you can really start."
-msgstr ""
+msgstr "現在、アソシエイトトレーニングガイドの作成に取り組んでいます。これは 4 つのトレーニングガイドの中で最初のものです。私たちは、アソシエイトトレーニングガイドの多くの内容として、インストールガイド、管理者ガイド、開発者ガイド、Aptira 提供のコンテンツを使用しています。基本的な考え方は、新しいページを作成するためにソースコンテンツを実際に使用するために、XML の include 構文を使用することです。既存のドキュメントから可能な限り、ほとんどの資材として使用することを目指しています。このようにすることにより、既存のドキュメントを再利用し、改善します。アソシエイトトレーニングガイドの話題は、カンバンストーリーボードカードにあります。ストーリーボードにある各カードは、アソシエイトトレーニーが学習する必要があることを表しています。しかし最初は、始める前に、いくつかの基本ツールとアカウントをインストールし、設定する必要があります。"
 
 #: ./doc/training-guides/under-contruction-notice.xml52(para)
 #: ./doc/training-guides/bk_preface.xml58(para)
@@ -135,7 +135,7 @@ msgid ""
 "href=\"https://wiki.openstack.org/wiki/Documentation/HowTo\">OpenStack "
 "Documentation HowTo</link> and , <link href=\"http://git-scm.com/doc\">Git "
 "Documentation</link>"
-msgstr ""
+msgstr "OpenStack に変更を提出することに関する詳細は、<link href=\"operator-getting-started-lab.html#submit-doc-bug\">fixing a documentation bug</link>、<link href=\"https://wiki.openstack.org/wiki/Gerrit_Workflow\">OpenStack Gerrit Workflow</link>、<link href=\"https://wiki.openstack.org/wiki/Documentation/HowTo\">OpenStack Documentation HowTo</link>、<link href=\"http://git-scm.com/doc\">Git Documentation</link> にあります。"
 
 #: ./doc/training-guides/under-contruction-notice.xml86(para)
 #: ./doc/training-guides/bk_preface.xml88(para)
@@ -192,7 +192,7 @@ msgid ""
 "Submit a bug. Enter the summary as \"Training, \" with a few words. Be "
 "descriptive as possible in the description field. Open the tag pull-down and"
 " enter training-manuals."
-msgstr ""
+msgstr "バグの報告。概要に「Training, 」と内容を入力してください。説明の項目は、できる限りわかりやすくしてください。タグのプルダウンを開き、training-manuals と入力します。"
 
 #: ./doc/training-guides/training-cluster-by-script.xml6(title)
 msgid "Build the Training Cluster, Scripted"
@@ -220,8 +220,8 @@ msgstr "テスト環境のセットアップ"
 
 #: ./doc/training-guides/training-cluster-by-script.xml19(para)
 msgid ""
-"To use VirtualBox as test environment, you must attach the following network"
-" adapters:"
+"To use VirtualBox as a test environment, you must attach the following "
+"network adapters:"
 msgstr "テスト環境として VirtualBox を使用するために、以下のネットワークアダプターを接続する必要があります。"
 
 #: ./doc/training-guides/training-cluster-by-script.xml23(para)
@@ -250,8 +250,8 @@ msgstr "個別のテストスクリプト"
 #: ./doc/training-guides/training-cluster-by-script.xml40(para)
 msgid ""
 "Run the shell scripts in the <filename>Scripts</filename> folder to verify "
-"they run correctly. Do not install VirtualBox, although it is recommended "
-"because your host machine might fail."
+"they run correctly. Do not install VirtualBox, even though it is recommended"
+" because your host machine might fail."
 msgstr ""
 
 #: ./doc/training-guides/training-cluster-by-script.xml43(para)
@@ -273,8 +273,8 @@ msgid ""
 msgstr "VirtualBox、Ubuntu Server 12.04 または　13.04、VirtualBox ゲストアドオンをインストールする必要があります。"
 
 #: ./doc/training-guides/training-cluster-by-script.xml53(para)
-msgid "To install VirtualBox guest add-ons, complete one of these steps:"
-msgstr "VirtualBox ゲストアドオンをインストールするために、これらの手順のどれかを実行します。"
+msgid "To install VirtualBox guest add-ons, complete one of the below steps:"
+msgstr "VirtualBox ゲストアドオンをインストールするために、以下の手順のどれかを実行します。"
 
 #: ./doc/training-guides/training-cluster-by-script.xml57(para)
 msgid "Install the VirtualBox guest add-ons through ISO:"
@@ -490,13 +490,13 @@ msgid ""
 " guides. Look at the end of each section and you will see the Submit a Bug "
 "link. When you find something that can be improved or fixed, submit a bug by"
 " clicking on the link."
-msgstr ""
+msgstr "関連する方法はいくつかあります。最も簡単な方法は、トレーニングガイドを使用することです。各セクションの最後を見ると、「Submit a Bug」リンクがあります。改善や修正したいものを見つけたとき、このリンクをクリックして、バグを報告してください。"
 
 #: ./doc/training-guides/bk_preface.xml20(para)
 msgid ""
 "If you want to get involved with the effort around OpenStack community "
 "training, read on, here are the options:"
-msgstr ""
+msgstr "OpenStack コミュニティのトレーニングに関する活動に関連したい場合、いくつかの選択肢があります。"
 
 #: ./doc/training-guides/bk_preface.xml26(para)
 msgid ""
@@ -530,7 +530,7 @@ msgid ""
 " Associate trainee needs to learn. But first things first, you need to get "
 "some basic tools and accounts installed and configured before you can really"
 " start."
-msgstr ""
+msgstr "現在、アソシエイトトレーニングガイドの作成に取り組んでいます。これは 4 つのトレーニングガイドの中で最初のものです。私たちは、アソシエイトトレーニングガイドの多くの内容として、インストールガイド、管理者ガイド、開発者ガイド、Aptira 提供のコンテンツを使用しています。基本的な考え方は、新しいページを作成するためにソースコンテンツを実際に使用するために、XML の include 構文を使用することです。既存のドキュメントから可能な限り、ほとんどの資材として使用することを目指しています。このようにすることにより、既存のドキュメントを再利用し、改善します。アソシエイトトレーニングガイドの話題は、カンバンストーリーボードカードにあります。ストーリーボードにある各カードは、アソシエイトトレーニーが学習する必要があることを表しています。しかし最初は、始める前に、いくつかの基本ツールとアカウントをインストールし、設定する必要があります。"
 
 #: ./doc/training-guides/bk_preface.xml65(para)
 msgid ""
@@ -567,7 +567,7 @@ msgstr "スクリプトを用いたトレーニングクラスターの構築"
 
 #: ./doc/training-guides/bk_preface.xml138(title)
 msgid "Building the Training Cluster, Manually"
-msgstr "手動によるトレーニングクラスターの構築"
+msgstr "トレーニングクラスターの手動構築"
 
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.
@@ -782,7 +782,7 @@ msgstr "Swift の概念の詳細"
 #: ./doc/training-guides/basic-install-guide/lab_network-node.xml7(title)
 #: ./doc/training-guides/basic-install-guide/lab_important-terms.xml40(title)
 msgid "Network Node"
-msgstr "Network ノード"
+msgstr "ネットワークノード"
 
 #: ./doc/training-guides/operator-guide/ch_operator-network-node.xml10(title)
 msgid "Days 7 to 8, 09:00 to 11:00, 11:15 to 12:30"
@@ -801,7 +801,7 @@ msgstr "アソシエイトの OpenStack Networking の概念の復習"
 #: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml72(para)
 #: ./doc/training-guides/architect-guide/bk_architect-training-guide.xml8(para)
 msgid "TBD"
-msgstr "TBD"
+msgstr "作成中"
 
 #: ./doc/training-guides/operator-guide/ch_operator-network-node.xml32(title)
 msgid "Operator OpenStack Neutron Use Cases"
@@ -829,7 +829,7 @@ msgstr "7 ～ 8 日目、16:40 ～ 17:00"
 #: ./doc/training-guides/basic-install-guide/lab_important-terms.xml35(title)
 #: ./doc/training-guides/basic-install-guide/lab_compute-node.xml7(title)
 msgid "Compute Node"
-msgstr "Compute ノード"
+msgstr "コンピュートノード"
 
 #: ./doc/training-guides/operator-guide/ch_operator-compute-node.xml10(title)
 msgid "Days 5 to 6, 09:00 to 11:00, 11:15 to 12:30"
@@ -854,7 +854,7 @@ msgstr "運用者トレーニングガイド"
 #: ./doc/training-guides/operator-guide/ch_operator-controller-node.xml8(title)
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node.xml8(title)
 msgid "Controller Node"
-msgstr "Controller ノード"
+msgstr "コントローラーノード"
 
 #: ./doc/training-guides/operator-guide/ch_operator-controller-node.xml10(title)
 #: ./doc/training-guides/developer-guide/ch_developer-apis-in-depth.xml10(title)
@@ -1023,7 +1023,7 @@ msgstr "オプション: トレーニングガイドのドキュメントへの�
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml6(title)
 #: ./doc/training-guides/developer-guide/ch_developer-getting-started-quiz.xml6(title)
 msgid "Getting Started Quiz"
-msgstr "はじめにクイズ"
+msgstr "はじめに クイズ"
 
 #: ./doc/training-guides/operator-guide/ch_operator-getting-started-quiz.xml8(title)
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml8(title)
@@ -1126,7 +1126,7 @@ msgstr "1 日目、10:40 ～ 11:00"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml10(title)
 msgid "Associate Training Guide, Getting Started Quiz Questions"
-msgstr "アソシエイトトレーニングガイド、はじめにクイズ問題"
+msgstr "アソシエイトトレーニングガイド、はじめに クイズ 問題"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml15(title)
 msgid ""
@@ -1317,7 +1317,7 @@ msgstr "LXC"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml212(title)
 msgid "Associate Training Guide, Getting Started Quiz Answers"
-msgstr "アソシエイトトレーニングガイド、はじめにクイズ解答"
+msgstr "アソシエイトトレーニングガイド、はじめに クイズ 解答"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml216(para)
 msgid "A, B, C, D, E"
@@ -1924,42 +1924,162 @@ msgid ""
 "Persistent volumes can be used by more than one instance at the same time:"
 msgstr "永続ボリュームは同時に複数のインスタンスにより使用できる。"
 
-#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml171(title)
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml169(title)
+msgid "Specify in which order these steps must be completed to provision VMs:"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml173(para)
+msgid "nova-scheduler picks up the request from the queue."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml176(para)
+msgid ""
+"nova-compute generates data for the hypervisor driver and executes the "
+"request on the hypervisor (via libvirt or API)."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml179(para)
+msgid ""
+"nova-scheduler interacts with nova DB to find an appropriate host via "
+"filtering and weighting, returns the updated instance entry with the "
+"appropriate host ID and sends the rpc.cast request to nova-compute for "
+"launching an instance on the appropriate host."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml182(para)
+msgid ""
+"nova-conductor interacts with nova DB and returns the instance information. "
+"nova-compute picks up the instance information from the queue."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml185(para)
+msgid ""
+"nova-api receives the request and sends a request to the Identity Service "
+"for validation of the auth-token and access permission. The Identity Service"
+" validates the token."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml188(para)
+msgid ""
+"nova-compute picks up the request for launching an instance on the "
+"appropriate host from the queue."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml191(para)
+msgid ""
+"neutron-server validates the auth-token with Identity Service. nova-compute "
+"retrieves the network info."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml194(para)
+msgid ""
+"nova-compute performs the REST-call by passing the auth-token to Network API"
+" to allocate and configure the network so that the instance gets the IP "
+"address."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml197(para)
+msgid ""
+"The dashboard or CLI converts the new instance request to a REST API request"
+" and sends it to nova-api."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml200(para)
+msgid ""
+"nova-compute performs the REST call by passing the auth-token to glance-api."
+" Then, nova-compute uses the Image ID to retrieve the Image URI from the "
+"Image Service, and loads the image from the image storage."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml203(para)
+msgid ""
+"nova-compute sends the rpc.call request to nova-conductor to fetch the "
+"instance information such as host ID and flavor (RAM, CPU, disk)."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml206(para)
+msgid ""
+"cinder-api validates the auth-token with Identity Service. nova-compute "
+"retrieves the block storage info."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml209(para)
+msgid ""
+"The dashboard or CLI gets the user credentials and authenticates with the "
+"Identity Service via REST API. The Identity Service authenticates the user "
+"and sends back an auth-token."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml212(para)
+msgid ""
+"glance-api validates the auth-token with Identity Service. nova-compute gets"
+" the image metadata."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml215(para)
+msgid ""
+"nova-compute performs the REST call by passing the auth-token to Volume API "
+"to attach volumes to the instance."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml218(para)
+msgid ""
+"nova-api checks for conflicts with nova DB and creates the initial database "
+"entry for a new instance."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml221(para)
+msgid ""
+"nova-api sends the rpc.call request to nova-scheduler expecting to get an "
+"updated instance entry with the host ID specified."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml224(para)
+msgid "nova-conductor picks up the request from the queue."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml234(title)
 msgid "Associate Training Guide, Compute Node Quiz Answers"
 msgstr "アソシエイトトレーニングガイド、コンピュートノードクイズ解答"
 
-#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml175(para)
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml238(para)
 msgid "e (nova-scheduler)"
 msgstr "e (nova-scheduler)"
 
-#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml178(para)
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml241(para)
 msgid "a (through the queue) - This increases scalability."
 msgstr "a (キュー経由) - これはスケーラビリティを向上させます。"
 
-#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml181(para)
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml244(para)
 msgid "d (the filter scheduler)"
 msgstr "d (フィルタースケジューラー)"
 
-#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml184(para)
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml247(para)
 msgid ""
 "d filtering hosts first, then using weights to determine host preference"
 msgstr "d まずホストをフィルターして、ホストの優先度を判断するために重みを使用する。"
 
-#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml187(para)
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml250(para)
 msgid ""
 "b (False) - Scheduler can also return an error (no suitable host for the "
 "requested VM)."
 msgstr "b (偽) - スケジューラーはエラーを返す可能性もあります (要求された仮想マシンに対して適切なホストがない場合)。"
 
-#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml190(para)
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml253(para)
 msgid ""
 "c (persistent storage), f (ephemeral storage) - The question is about "
 "OpenStack's block storage classes."
 msgstr "c (永続ストレージ)、f (一時ストレージ) - 問題は OpenStack のブロックストレージの種別に関するものです。"
 
-#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml193(para)
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml256(para)
 msgid "b (False)"
 msgstr "b (偽)"
+
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml259(para)
+msgid ""
+"a (6), b (18), c (7), d (11), e (3), f (8), g (15), h (14), i (2), j (12), k"
+" (9), l (17), m (1), n (13), o (16), p (4), q (5), r (10)"
+msgstr "a (6), b (18), c (7), d (11), e (3), f (8), g (15), h (14), i (2), j (12), k (9), l (17), m (1), n (13), o (16), p (4), q (5), r (10)"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node.xml10(title)
 msgid "Day 1, 15:00 to 17:00"
@@ -3396,7 +3516,7 @@ msgid ""
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_network-node.xml30(guilabel)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml451(title)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml450(title)
 #: ./doc/training-guides/basic-install-guide/section_basics-networking-neutron.xml83(title)
 msgid "Network node"
 msgstr "ネットワークノード"
@@ -3694,7 +3814,7 @@ msgstr "@@image: '../figures/lab_virtual-box/image14.png'; md5=469f15068705c1a40
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml462(None)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml461(None)
 msgid ""
 "@@image: '../figures/lab_virtual-box/image12.png'; "
 "md5=266a767b48f2c3eba60b67e01a1c6cc5"
@@ -3703,7 +3823,7 @@ msgstr "@@image: '../figures/lab_virtual-box/image12.png'; md5=266a767b48f2c3eba
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml505(None)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml504(None)
 msgid ""
 "@@image: '../figures/lab_virtual-box/image05.png'; "
 "md5=c711ea21fcc2b1e18d9d41375bc9a713"
@@ -3712,7 +3832,7 @@ msgstr "@@image: '../figures/lab_virtual-box/image05.png'; md5=c711ea21fcc2b1e18
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml515(None)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml514(None)
 msgid ""
 "@@image: '../figures/lab_virtual-box/image17.png'; "
 "md5=9077ae7ff15e88187de9941fd8c7db5f"
@@ -3721,7 +3841,7 @@ msgstr "@@image: '../figures/lab_virtual-box/image17.png'; md5=9077ae7ff15e88187
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml525(None)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml524(None)
 msgid ""
 "@@image: '../figures/lab_virtual-box/image02.png'; "
 "md5=001129ba8b8030bbf1ca9e23805d9b84"
@@ -3730,7 +3850,7 @@ msgstr "@@image: '../figures/lab_virtual-box/image02.png'; md5=001129ba8b8030bbf
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml535(None)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml534(None)
 msgid ""
 "@@image: '../figures/lab_virtual-box/image00.png'; "
 "md5=e90be704c41d381dedab6f8fb3b8c391"
@@ -3739,7 +3859,7 @@ msgstr "@@image: '../figures/lab_virtual-box/image00.png'; md5=e90be704c41d381de
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml557(None)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml556(None)
 msgid ""
 "@@image: '../figures/lab_virtual-box/image04.png'; "
 "md5=8577d54796c8479a2f089ee09846e130"
@@ -3748,7 +3868,7 @@ msgstr "@@image: '../figures/lab_virtual-box/image04.png'; md5=8577d54796c8479a2
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml595(None)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml594(None)
 msgid ""
 "@@image: '../figures/lab_virtual-box/image15.png'; "
 "md5=2d2b9eb2d913030490694d3df8c26c20"
@@ -3757,7 +3877,7 @@ msgstr "@@image: '../figures/lab_virtual-box/image15.png'; md5=2d2b9eb2d91303049
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml605(None)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml604(None)
 msgid ""
 "@@image: '../figures/lab_virtual-box/image10.png'; "
 "md5=4f06faaf244be263d90b41855b10d62a"
@@ -3766,7 +3886,7 @@ msgstr "@@image: '../figures/lab_virtual-box/image10.png'; md5=4f06faaf244be263d
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml615(None)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml614(None)
 msgid ""
 "@@image: '../figures/lab_virtual-box/image01.png'; "
 "md5=1eb33f35a0af357f7e96fa03830d49c0"
@@ -3800,8 +3920,8 @@ msgid ""
 msgstr "DevStack と Vagrant は、あるレベルでスクリプト実行による自動展開を実行できます。これにより、必要な OpenStack 環境が設定された VirtualBox インスタンスを作成できます。ここでは、OpenStack がどうのように動作するのかを詳しく確認するために、VirtualBox に OpenStack を手動展開します。"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml23(guilabel)
-msgid "Prerequisite:"
-msgstr "事前要件:"
+msgid "Prerequisites:"
+msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml24(para)
 msgid "Networking and Linux are required to get setup."
@@ -3844,13 +3964,13 @@ msgid "Requirements:"
 msgstr "要件:"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml40(para)
-msgid "Operating Systems - It is recommended to use Ubuntu Server 14.04 LTS,"
-msgstr "オペレーティングシステム - Ubuntu Server 14.04 LTS 推奨、"
+msgid "Operating Systems - It is recommended to use Ubuntu Server 14.04 LTS"
+msgstr "オペレーティングシステム - Ubuntu Server 14.04 LTS 推奨"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml42(para)
 msgid ""
 "Older Ubuntu versions may not support Icehouse. Ubuntu Server 12.04 will "
-"support Icehouse but is out of scope of this book."
+"support Icehouse but is out of scope for this book."
 msgstr "古いバージョンの Ubuntu は Icehouse をサポートしません。Ubuntu Server 12.04 は Icehouse を作成しませんが、このドキュメントの範囲外です。"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml47(para)
@@ -3908,7 +4028,7 @@ msgstr "VirtualBox を使用することもできますが、インスタンス�
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml93(para)
 msgid ""
 "There are many ways to configure your OpenStack Setup. In this example, we "
-"will deploy OpenStack multi node using OVS as the network plug-in and "
+"will deploy OpenStack multi-node using OVS as the network plug-in and "
 "QEMU/KVM as the hypervisor."
 msgstr ""
 
@@ -3984,9 +4104,9 @@ msgstr "Ubuntu 12.04 Server または Ubuntu 13.04 Server"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml157(para)
 msgid ""
-"You need a x86 image for VM's if kvm-ok fails, even though you are on an "
+"You need an x86 image for VM's if kvm-ok fails, even though you are on an "
 "AMD64 machine."
-msgstr "kvm-ok に失敗した場合、AMD64 マシンを使用していると、仮想マシンに x86 イメージが必要になります。"
+msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml159(para)
 msgid ""
@@ -3996,11 +4116,11 @@ msgstr "ホストに Ubuntu を使用していますが、Windows、Mac、他の
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml163(para)
 msgid ""
-"If you have i5 or i7 2nd gen processor you can have VT technology inside "
+"If you have an i5 or i7 2nd gen processor you can have VT technology inside "
 "VM's provided by VMware. This means that your OpenStack nodes (which are in "
-"turn VM's) will give positive result on KVM-OK. (I call it - nesting of "
-"type-2 hypervisors). The rest of the configurations remain same except for "
-"the UI and a few other trivial differences."
+"turn VM's) will give a positive result on KVM-OK. (I call it - nesting of "
+"type-2 hypervisors). The rest of the configurations remain the same except "
+"for the UI and a few other trivial differences."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml173(title)
@@ -4046,8 +4166,8 @@ msgstr "ホストオンリー接続を編集し、以下の設定をします。
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml218(emphasis)
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml245(title)
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml396(td)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml479(td)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml574(td)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml478(td)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml573(td)
 msgid "Vboxnet0"
 msgstr "Vboxnet0"
 
@@ -4102,8 +4222,8 @@ msgstr "IPv6 ネットワークマスク長:"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml253(emphasis)
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml281(title)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml484(td)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml579(td)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml483(td)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml578(td)
 msgid "Vboxnet1"
 msgstr "Vboxnet1"
 
@@ -4125,7 +4245,7 @@ msgstr "IPv6 ネットワークマスク長:"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml289(emphasis)
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml401(td)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml489(td)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml488(td)
 msgid "Vboxnet2"
 msgstr "Vboxnet2"
 
@@ -4147,13 +4267,14 @@ msgid ""
 "shell to login into the machine and use your terminal which is more "
 "convenient than using the Virtual Machines tty through the VirtualBox's UI. "
 "You get a few added features such as copy - paste commands into the remote "
-"terminal, which is not possible directly on VM."
+"terminal, which is not possible directly on the VM."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml337(para)
 msgid ""
 "FTP is for transferring files to and from your local machine and the virtual"
-" machine. You can also use SFTP or install FTPD on both HOST and VM's."
+" machine. You can also use SFTP or install FTPD on both the HOST and the "
+"VM's."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml342(para)
@@ -4174,15 +4295,15 @@ msgstr "仮想マシンインスタンスのインストール"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml356(para)
 msgid ""
-"During installation of the operating systems you will be asked for custom "
-"software to install. You may skip this step by pressing the "
+"During the installation of the operating systems you will be asked for "
+"custom software to install. You may skip this step by pressing the "
 "<keycap>Enter</keycap> key without selecting any of the given options."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml362(para)
 msgid ""
 "Please do not install any of the other packages except for the packages that"
-" are mentioned below unless you are familiar with the process."
+" are mentioned below, unless you are familiar with the process."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml368(title)
@@ -4194,7 +4315,7 @@ msgid "Create a new virtual machine and select Ubuntu Server."
 msgstr "新規仮想マシンを作成し、Ubuntu Server を選択します。"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml372(title)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml553(title)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml552(title)
 msgid "Create new virtual machine"
 msgstr "新規仮想マシンの作成"
 
@@ -4206,38 +4327,38 @@ msgid ""
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml383(para)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml466(para)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml561(para)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml465(para)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml560(para)
 msgid "Configure the networks"
 msgstr "ネットワークの設定"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml384(para)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml467(para)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml562(para)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml466(para)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml561(para)
 msgid "(Ignore the IP Address for now, you will set it up from inside the VM)"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml390(th)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml473(th)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml568(th)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml472(th)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml567(th)
 msgid "Network Adapter"
 msgstr "ネットワークアダプター"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml391(th)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml474(th)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml569(th)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml473(th)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml568(th)
 msgid "Host-Only Adapter Name"
 msgstr "ホストオンリーアダプター名"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml392(th)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml475(th)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml570(th)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml474(th)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml569(th)
 msgid "IP Address"
 msgstr "IP アドレス"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml395(td)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml478(td)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml573(td)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml477(td)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml572(td)
 msgid "eth0"
 msgstr "eth0"
 
@@ -4246,8 +4367,8 @@ msgid "10.10.10.51"
 msgstr "10.10.10.51"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml400(td)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml483(td)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml578(td)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml482(td)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml577(td)
 msgid "eth1"
 msgstr "eth1"
 
@@ -4256,31 +4377,31 @@ msgid "192.168.100.51"
 msgstr "192.168.100.51"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml405(td)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml488(td)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml583(td)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml487(td)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml582(td)
 msgid "eth2"
 msgstr "eth2"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml406(td)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml494(td)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml584(td)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml493(td)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml583(td)
 msgid "NAT"
 msgstr "NAT"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml407(td)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml495(td)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml585(td)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml494(td)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml584(td)
 msgid "DHCP"
 msgstr "DHCP"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml411(emphasis)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml499(emphasis)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml589(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml498(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml588(emphasis)
 msgid "Adapter 1 (Vboxnet0)"
 msgstr "アダプター 1 (Vboxnet0)"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml413(title)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml591(title)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml590(title)
 msgid "Adapter1 - Vboxnet0"
 msgstr "アダプター1 - Vboxnet0"
 
@@ -4293,161 +4414,161 @@ msgid "Adapter2 - Vboxnet2"
 msgstr "アダプター2 - Vboxnet2"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml431(emphasis)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml609(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml608(emphasis)
 msgid "Adapter 3 (NAT)"
 msgstr "アダプター 3 (NAT)"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml433(title)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml611(title)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml610(title)
 msgid "Adapter3 - NAT"
 msgstr "アダプター3 - NAT"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml441(para)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml539(para)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml619(para)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml538(para)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml618(para)
 msgid "Now install Ubuntu Server 12.04 or 13.04 on this machine."
 msgstr "これから、このマシンに Ubuntu Server 12.04 または 13.04 をインストールします。"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml443(para)
 msgid ""
-"Install SSH server when asked for custom software to install. The rest of "
-"the packages are not required and may come in the way of OpenStack packages "
-"- like DNS servers etc. (not necessary). Unless you know what you are doing."
+"Install the SSH server when asked for custom software to install. The rest "
+"of the packages are not required and may come in the way of the OpenStack "
+"packages - like DNS servers etc. (unless you are an advanced user)."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml453(para)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml452(para)
 msgid ""
-"Create a new virtual machine, minimum RAM is 512 MB. The remainder can be "
-"left as default. The minimum HDD space is 8 GB."
+"Create a new virtual machine, with the minimum RAM as 512 MB. The remainder "
+"can be left as default. The minimum HDD space is 8 GB."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml458(title)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml457(title)
 msgid "Create New Virtual Machine"
 msgstr "新規仮想マシンの作成"
 
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml480(td)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml479(td)
 msgid "10.10.10.52"
 msgstr "10.10.10.52"
 
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml485(td)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml484(td)
 msgid "10.20.20.52"
 msgstr "10.20.20.52"
 
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml490(td)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml489(td)
 msgid "192.168.100.52"
 msgstr "192.168.100.52"
 
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml493(td)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml492(td)
 msgid "eth3"
 msgstr "eth3"
 
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml501(title)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml500(title)
 msgid "Adapter 1 - Vboxnet0"
 msgstr "アダプター 1 - Vboxnet0"
 
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml509(emphasis)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml599(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml508(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml598(emphasis)
 msgid "Adapter 2 (Vboxnet1)"
 msgstr "アダプター 2 (Vboxnet1)"
 
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml511(title)
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml601(title)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml510(title)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml600(title)
 msgid "Adapter2 - Vboxnet1"
 msgstr "アダプター2 - Vboxnet1"
 
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml519(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml518(emphasis)
 msgid "Adapter 3 (Vboxnet2)"
 msgstr "アダプター 3 (Vboxnet2)"
 
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml521(title)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml520(title)
 msgid "Adapter3 - Vboxnet2"
 msgstr "アダプター3 - Vboxnet2"
 
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml529(emphasis)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml528(emphasis)
 msgid "Adapter 4 (NAT)"
 msgstr "アダプター 4 (NAT)"
 
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml531(title)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml530(title)
 msgid "Adapter4 - NAT"
 msgstr "アダプター4 - NAT"
 
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml541(para)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml540(para)
 msgid ""
 "Install the SSH server when you are prompted for the custom software to "
 "install. The rest of the packages are not required and may come in the way "
 "of OpenStack packages - like DNS servers."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml548(title)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml547(title)
 #: ./doc/training-guides/basic-install-guide/section_basics-networking-neutron.xml165(title)
 #: ./doc/training-guides/basic-install-guide/section_basics-networking-nova.xml76(title)
 #: ./doc/training-guides/basic-install-guide/lab_compute-node.xml32(guilabel)
 msgid "Compute node"
 msgstr "コンピュートノード"
 
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml550(para)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml549(para)
 msgid ""
 "Create a virtual machine with at least 1,000 MB RAM and 8 GB HDD. For other "
 "settings, use the defaults."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml575(td)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml574(td)
 msgid "10.10.10.53"
 msgstr "10.10.10.53"
 
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml580(td)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml579(td)
 msgid "10.20.20.53"
 msgstr "10.20.20.53"
 
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml621(para)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml620(para)
 msgid ""
 "Install the SSH server when asked for custom software to install. The rest "
 "of the packages are not required and may come in the way of OpenStack "
 "packages - like DNS servers etc."
 msgstr ""
 
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml628(title)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml627(title)
 msgid "Warnings and advice"
 msgstr "警告とアドバイス"
 
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml629(para)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml628(para)
 msgid ""
 "Shutting down your Virtual Machine may lead to malfunctioning OpenStack "
 "Services. Do not directly shutdown your VM, in case your VM's don't have "
 "Internet connectivity."
 msgstr "お使いの仮想マシンをシャットダウンすると、OpenStack のサービスがうまく動かなくなる可能性があります。仮想マシンがインターネットに接続されていない場合、仮想マシンを直接シャットダウンしないでください。"
 
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml634(para)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml633(para)
 msgid ""
 "From your VM instance, use the <placeholder-1/> command to verify internet "
 "access."
 msgstr "仮想マシンインスタンスから、<placeholder-1/> コマンドを使用して、インターネットアクセスを検証します。"
 
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml639(para)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml638(para)
 msgid "If its not connected, restart the networking service:"
 msgstr "接続されていない場合、ネットワークサービスを再起動します。"
 
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml645(para)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml644(para)
 msgid ""
 "If this doesn't work, check your network settings from VirtualBox. Something"
 " may be missing or it may be misconfigured."
 msgstr "うまくいかない場合、VirtualBox のネットワーク設定を確認します。何か不足していたり、設定が誤っていたりする可能性があります。"
 
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml650(para)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml649(para)
 msgid ""
 "This should reconnect the network a majority of the time. If you still "
 "cannot connect, there may be another issue, or internet access is "
 "unavailable."
 msgstr "これは、ほとんどの場合、ネットワークに再接続すべきです。まだ接続されない場合、別の問題の可能性があります。または、インターネットが利用できません。"
 
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml655(para)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml654(para)
 msgid ""
 "Note: There are known bugs with the ping under NAT. Although the latest "
 "versions of VirtualBox have better performance, sometimes ping may not work "
 "even if the Network is connected to the Internet."
 msgstr "注: NAT 環境の ping は、既知のバグがあります。最新バージョンの VirtualBox は性能が改善されていますが、ネットワークがインターネットに接続されていても、ときどき ping がうまく動作しないことがあります。"
 
-#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml661(para)
+#: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml660(para)
 msgid ""
 "Congratulations! You are now setup with the infrastructure for deploying "
 "OpenStack. Just make sure that the Ubuntu Server is installed on the above "
@@ -5567,7 +5688,7 @@ msgstr "ノード"
 msgid ""
 "In this context, refers specifically to servers. Each OpenStack server is a "
 "node."
-msgstr ""
+msgstr "ここでは、明確にサーバーとして参照します。各 OpenStack サーバーはノードです。"
 
 #: ./doc/training-guides/basic-install-guide/lab_important-terms.xml28(title)
 msgid "Control Node"
@@ -5578,16 +5699,16 @@ msgid ""
 "Hosts the database, Keystone (Middleware), and the servers for the scope of "
 "the current OpenStack deployment. It acts as the brains behind OpenStack and"
 " drives services such as authentication, database, and so on."
-msgstr ""
+msgstr "データベース、Keystone (ミドルウェア)、現在の OpenStack 環境の範囲のサーバーをホストします。OpenStack の後ろで中核として動作し、認証、データベースなどのサービスを実行します。"
 
 #: ./doc/training-guides/basic-install-guide/lab_important-terms.xml36(para)
 msgid ""
 "Has the required Hypervisor (Qemu/KVM) and is your Virtual Machine host."
-msgstr ""
+msgstr "必要となるハイパーバイザー (Qemu/KVM) を持ち、仮想マシンのホストになります。"
 
 #: ./doc/training-guides/basic-install-guide/lab_important-terms.xml41(para)
 msgid "Provides Network-as-a-Service and virtual networks for OpenStack."
-msgstr ""
+msgstr "Network-as-a-Service と OpenStack 向けの仮想ネットワークを提供します。"
 
 #: ./doc/training-guides/basic-install-guide/lab_important-terms.xml45(title)
 msgid "Using OpenSSH"
@@ -5599,7 +5720,7 @@ msgid ""
 "session by using an OpenSSH client to log in remotely to the required server"
 " node (Control, Network, Compute). Open a terminal on your host machine and "
 "run the following command: <placeholder-1/>"
-msgstr ""
+msgstr "ネットワークインターフェースファイルを設定後、必要なサーバーノード (コントローラー、ネットワーク、コンピュート) にリモートログインするために、OpenSSH クライアントを使用して SSH セッションを切り替えられます。ホストマシンで端末を開き、以下のコマンドを実行します。<placeholder-1/>"
 
 #: ./doc/training-guides/basic-install-guide/section_neutron-ovs-compute-node.xml7(title)
 #: ./doc/training-guides/basic-install-guide/section_nova-networking-compute-node.xml7(title)
@@ -12601,7 +12722,7 @@ msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/common/section_objectstorage-troubleshoot.xml93(para)
 msgid "Save the builder."
-msgstr ""
+msgstr "ビルダーを保存します。"
 
 #: ./doc/training-guides/basic-install-guide/common/section_objectstorage-troubleshoot.xml97(para)
 msgid ""
@@ -12866,7 +12987,7 @@ msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/common/section_objectstorage-ringbuilder.xml83(para)
 msgid "For example:"
-msgstr "例えば"
+msgstr "例:"
 
 #: ./doc/training-guides/basic-install-guide/common/section_objectstorage-ringbuilder.xml91(para)
 msgid ""
@@ -13618,7 +13739,7 @@ msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/common/section_objectstorage-components.xml219(title)
 msgid "Object Storage in use"
-msgstr ""
+msgstr "使用中の Object Storage"
 
 #: ./doc/training-guides/basic-install-guide/common/section_objectstorage-components.xml228(title)
 msgid "Download"
@@ -14035,7 +14156,7 @@ msgstr "開発者 ブートキャンプへの参加方法"
 
 #: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml8(title)
 msgid "One Day with Focus on Contribution"
-msgstr ""
+msgstr "貢献に注力する 1 日"
 
 #: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml13(para)
 msgid "Training will take 6 hours with labs and quizzes."
@@ -14049,7 +14170,7 @@ msgstr "Python や Perl の簡単な知識"
 msgid ""
 "Editor on a self-supplied laptop with either Eclipse with pydev, vim, emacs,"
 " or pycharm"
-msgstr ""
+msgstr "Eclipse または、pydev、vim、emacs、pycharm をインストールした、持ち込み PC のエディター"
 
 #: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml18(para)
 msgid ""
@@ -14155,7 +14276,7 @@ msgstr ""
 #: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml56(para)
 #: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml77(para)
 msgid "Content TBD"
-msgstr "TBD コンテンツ"
+msgstr "作成中コンテンツ"
 
 #: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-bootcamp.xml59(title)
 msgid "Afternoon Classroom 13:30 to 14:45"
@@ -16044,7 +16165,7 @@ msgstr ""
 msgid ""
 "Instances are the individual virtual machines running on physical compute "
 "nodes. The OpenStack Compute service manages instances. Any number of "
-"instances maybe started from the same image. Each instance is run from a "
+"instances may be started from the same image. Each instance is run from a "
 "copy of the base image so runtime changes made by an instance do not change "
 "the image it is based on. Snapshots of running instances may be taken which "
 "create a new image based on the current disk state of a particular instance."
@@ -16052,8 +16173,8 @@ msgstr ""
 
 #: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml146(para)
 msgid ""
-"When starting an instance a set of virtual resources known as a flavor must "
-"be selected. Flavors define how many virtual CPUs an instance has and the "
+"When starting an instance, a set of virtual resources known as a flavor must"
+" be selected. Flavors define how many virtual CPUs an instance has and the "
 "amount of RAM and size of its ephemeral disks. OpenStack provides a number "
 "of predefined flavors which cloud administrators may edit or add to. Users "
 "must select from the set of available flavors defined on their cloud."
@@ -16061,10 +16182,10 @@ msgstr ""
 
 #: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml153(para)
 msgid ""
-"Additional resources such as persistent volume storage and public IP address"
-" may be added to and removed from running instances. The examples below show"
-" the cinder-volume service which provide persistent block storage as opposed"
-" to the ephemeral storage provided by the instance flavor."
+"Additional resources such as persistent volume storage and a public IP "
+"address may be added to and removed from running instances. The examples "
+"below show the cinder-volume service which provide persistent block storage "
+"as opposed to the ephemeral storage provided by the instance flavor."
 msgstr ""
 
 #: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml158(para)
@@ -16146,10 +16267,10 @@ msgstr "終了状態"
 
 #: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml220(para)
 msgid ""
-"Once the instance has served its purpose and is deleted all state is "
+"Once the instance has served its purpose and is deleted, all state is "
 "reclaimed, except the persistent volume. The ephemeral storage is purged. "
-"Memory and vCPU resources are released. And of course the image has remained"
-" unchanged throughout."
+"Memory and vCPU resources are released. The image remains unchanged "
+"throughout."
 msgstr ""
 
 #: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml225(para)
@@ -16161,7 +16282,7 @@ msgid ""
 "Once you launch a VM in OpenStack, there's something more going on in the "
 "background. To understand what's happening behind the dashboard, lets take a"
 " deeper dive into OpenStack's VM provisioning. For launching a VM, you can "
-"either use the command-line interfaces or the OpenStack dashboard."
+"either use the command-line interface or the OpenStack dashboard."
 msgstr ""
 
 #: ./doc/training-guides/common/section_floating-ips.xml7(title)
@@ -16386,7 +16507,7 @@ msgstr "<systemitem class=\"service\">nova-conductor</systemitem> は、イン�
 msgid ""
 "<systemitem class=\"service\">nova-compute</systemitem> picks up the "
 "instance information from the queue."
-msgstr ""
+msgstr "<systemitem class=\"service\">nova-compute</systemitem> は、キューからインスタンスの情報を取り出します。"
 
 #. 12
 #: ./doc/training-guides/common/section_vm-provisioning-indepth.xml142(para)
@@ -16396,69 +16517,69 @@ msgid ""
 "api</systemitem>. Then, <systemitem class=\"service\">nova-"
 "compute</systemitem> uses the Image ID to retrieve the Image URI from the "
 "Image Service, and loads the image from the image storage."
-msgstr ""
+msgstr "<systemitem class=\"service\">nova-compute</systemitem> は、認証トークンを <systemitem class=\"service\">glance-api</systemitem> に渡すことにより、REST コールを実行します。次に、<systemitem class=\"service\">nova-compute</systemitem> は、イメージ ID を使用して、Image Service からイメージの URI を取得し、イメージストレージからイメージを読み込みます。"
 
 #: ./doc/training-guides/common/section_vm-provisioning-indepth.xml152(para)
 msgid ""
 "<systemitem class=\"service\">glance-api</systemitem> validates the auth-"
 "token with keystone."
-msgstr ""
+msgstr "<systemitem class=\"service\">glance-api</systemitem> は keystone を用いて認証トークンを検証します。"
 
 #: ./doc/training-guides/common/section_vm-provisioning-indepth.xml157(para)
 msgid ""
 "<systemitem class=\"service\">nova-compute</systemitem> gets the image "
 "metadata."
-msgstr ""
+msgstr "<systemitem class=\"service\">nova-compute</systemitem> は、イメージのメタデータを取得します。"
 
 #: ./doc/training-guides/common/section_vm-provisioning-indepth.xml163(para)
 msgid ""
 "<systemitem class=\"service\">nova-compute</systemitem> performs the REST-"
 "call by passing the auth-token to Network API to allocate and configure the "
 "network so that the instance gets the IP address."
-msgstr ""
+msgstr "<systemitem class=\"service\">nova-compute</systemitem> は、認証トークンを Network API に渡すことにより、REST コールを実行し、インスタンスが IP アドレスを取得できるよう、ネットワークを割り当て、設定します。"
 
 #. 15
 #: ./doc/training-guides/common/section_vm-provisioning-indepth.xml173(para)
 msgid ""
 "<systemitem class=\"service\">neutron-server</systemitem> validates the "
 "auth-token with keystone."
-msgstr ""
+msgstr "<systemitem class=\"service\">neutron-server</systemitem> \nは keystone を用いて認証トークンを検証します。"
 
 #: ./doc/training-guides/common/section_vm-provisioning-indepth.xml177(para)
 msgid ""
 "<systemitem class=\"service\">nova-compute</systemitem> retrieves the "
 "network info."
-msgstr ""
+msgstr "<systemitem class=\"service\">nova-compute</systemitem> は、ネットワーク情報を取得します。"
 
 #: ./doc/training-guides/common/section_vm-provisioning-indepth.xml183(para)
 msgid ""
 "<systemitem class=\"service\">nova-compute</systemitem> performs the REST "
 "call by passing the auth-token to Volume API to attach volumes to the "
 "instance."
-msgstr ""
+msgstr "<systemitem class=\"service\">nova-compute</systemitem> は、認証トークンを Volume API に渡すことにより、REST コールを実行し、ボリュームをインスタンスに接続します。"
 
 #: ./doc/training-guides/common/section_vm-provisioning-indepth.xml191(para)
 msgid ""
 "<systemitem class=\"service\">cinder-api</systemitem> validates the auth-"
 "token with keystone."
-msgstr ""
+msgstr "<systemitem class=\"service\">cinder-api</systemitem> は keystone を用いて認証トークンを検証します。"
 
 #: ./doc/training-guides/common/section_vm-provisioning-indepth.xml196(para)
 msgid ""
 "<systemitem class=\"service\">nova-compute</systemitem> retrieves the block "
 "storage info."
-msgstr ""
+msgstr "<systemitem class=\"service\">nova-compute</systemitem> は、ブロックストレージの情報を取得します。"
 
 #: ./doc/training-guides/common/section_vm-provisioning-indepth.xml202(para)
 msgid ""
 "<systemitem class=\"service\">nova-compute</systemitem> generates data for "
 "the hypervisor driver and executes the request on the hypervisor (via "
 "libvirt or API)."
-msgstr ""
+msgstr "<systemitem class=\"service\">nova-compute</systemitem> は、ハイパーバイザーのドライバー用の情報を生成し、(libvirt や API 経由で) ハイパーバイザーでリクエストを実行します。"
 
 #: ./doc/training-guides/common/section_vm-provisioning-indepth.xml210(title)
 msgid "Nova VM provisioning"
-msgstr ""
+msgstr "Nova 仮想マシン展開"
 
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.
@@ -16907,17 +17028,17 @@ msgstr ""
 
 #: ./doc/training-guides/common/section_block-storage.xml152(para)
 msgid "Number of snapshots which may be created"
-msgstr ""
+msgstr "作成する可能性があるスナップショット数"
 
 #: ./doc/training-guides/common/section_block-storage.xml155(para)
 msgid ""
 "Total number of Giga Bytes allowed per tenant (shared between snapshots and "
 "volumes)"
-msgstr ""
+msgstr "テナントごとに許可される合計ギガバイト数 (スナップショットとボリューム間で共有される)"
 
 #: ./doc/training-guides/common/section_block-storage.xml159(guilabel)
 msgid "Volumes Snapshots and Backups"
-msgstr ""
+msgstr "ボリュームのスナップショットとバックアップ"
 
 #: ./doc/training-guides/common/section_block-storage.xml160(para)
 msgid ""
@@ -17015,14 +17136,14 @@ msgid "Block Storage Capabilities"
 msgstr "Block Storage の機能"
 
 #: ./doc/training-guides/common/section_block-storage.xml220(para)
-#: ./doc/training-guides/common/section_official-programs.xml382(para)
+#: ./doc/training-guides/common/section_official-programs.xml389(para)
 msgid ""
 "OpenStack provides persistent block level storage devices for use with "
 "OpenStack compute instances."
 msgstr ""
 
 #: ./doc/training-guides/common/section_block-storage.xml224(para)
-#: ./doc/training-guides/common/section_official-programs.xml386(para)
+#: ./doc/training-guides/common/section_official-programs.xml393(para)
 msgid ""
 "The block storage system manages the creation, attaching and detaching of "
 "the block devices to servers. Block storage volumes are fully integrated "
@@ -17031,7 +17152,7 @@ msgid ""
 msgstr ""
 
 #: ./doc/training-guides/common/section_block-storage.xml231(para)
-#: ./doc/training-guides/common/section_official-programs.xml393(para)
+#: ./doc/training-guides/common/section_official-programs.xml400(para)
 msgid ""
 "In addition to using simple Linux server storage, it has unified storage "
 "support for numerous storage platforms including Ceph, NetApp, Nexenta, "
@@ -17039,7 +17160,7 @@ msgid ""
 msgstr ""
 
 #: ./doc/training-guides/common/section_block-storage.xml237(para)
-#: ./doc/training-guides/common/section_official-programs.xml399(para)
+#: ./doc/training-guides/common/section_official-programs.xml406(para)
 msgid ""
 "Block storage is appropriate for performance sensitive scenarios such as "
 "database storage, expandable file systems, or providing a server with access"
@@ -17047,7 +17168,7 @@ msgid ""
 msgstr ""
 
 #: ./doc/training-guides/common/section_block-storage.xml243(para)
-#: ./doc/training-guides/common/section_official-programs.xml405(para)
+#: ./doc/training-guides/common/section_official-programs.xml412(para)
 msgid ""
 "Snapshot management provides powerful functionality for backing up data "
 "stored on block storage volumes. Snapshots can be restored or used to create"
@@ -17576,11 +17697,11 @@ msgstr "ダッシュボード"
 msgid ""
 "Horizon is a modular Django web application that provides an end user and "
 "administrator interface to OpenStack services."
-msgstr ""
+msgstr "Horizon は、モジュール型の Django Web アプリケーションです。エンドユーザーと管理者に、OpenStack サービスへのインターフェースを提供します。"
 
 #: ./doc/training-guides/common/section_openstack-architecture.xml98(title)
 msgid "Horizon Dashboard"
-msgstr ""
+msgstr "Horizon ダッシュボード"
 
 #: ./doc/training-guides/common/section_openstack-architecture.xml106(para)
 msgid "As with most web applications, the architecture is fairly simple:"
@@ -17592,7 +17713,7 @@ msgid ""
 "separated into a reusable python module with most of the logic (interactions"
 " with various OpenStack APIs) and presentation (to make it easily "
 "customizable for different sites)."
-msgstr ""
+msgstr "Horizon は、通常 Apache の mod_wsgi で導入されます。そのコード自体は、論理 (さまざまな OpenStack API との通信) と表示 (さまざまなサイト向けに簡単にカスタマイズ可能) のほとんどが、再利用可能な Python モジュールに分割されています。"
 
 #: ./doc/training-guides/common/section_openstack-architecture.xml117(para)
 msgid ""
@@ -18309,7 +18430,7 @@ msgstr ""
 
 #: ./doc/training-guides/common/section_neutron-use-cases.xml10(guilabel)
 msgid "Use Case: Single Flat Network"
-msgstr ""
+msgstr "ユースケース: 単一のフラットネットワーク"
 
 #: ./doc/training-guides/common/section_neutron-use-cases.xml11(para)
 msgid ""
@@ -18370,11 +18491,11 @@ msgstr ""
 
 #: ./doc/training-guides/common/section_neutron-use-cases.xml65(title)
 msgid "Mixed Flat and Private Network"
-msgstr ""
+msgstr "フラットネットワークとプライベートネットワークの混在"
 
 #: ./doc/training-guides/common/section_neutron-use-cases.xml72(guilabel)
 msgid "Use Case: Provider Router with Private Networks"
-msgstr ""
+msgstr "ユースケース: プライベートネットワークを持つプライベートルーター"
 
 #: ./doc/training-guides/common/section_neutron-use-cases.xml74(para)
 msgid ""
@@ -18468,7 +18589,7 @@ msgstr "@@image: '../figures/image28.png'; md5=c813069a23d72a7a3f519d896270a62a"
 
 #: ./doc/training-guides/common/section_queues-messaging.xml8(title)
 msgid "Messaging in OpenStack"
-msgstr ""
+msgstr "OpenStack におけるメッセージング"
 
 #: ./doc/training-guides/common/section_queues-messaging.xml15(para)
 msgid ""
@@ -18528,7 +18649,7 @@ msgstr ""
 
 #: ./doc/training-guides/common/section_queues-messaging.xml64(guilabel)
 msgid "Nova RPC Mappings"
-msgstr ""
+msgstr "Nova RPC マッピング"
 
 #: ./doc/training-guides/common/section_queues-messaging.xml65(para)
 msgid ""
@@ -18977,8 +19098,8 @@ msgid "massively scalable"
 msgstr "大規模スケーラビリティー"
 
 #: ./doc/training-guides/common/section_brief-overview.xml25(para)
-msgid "feature rich."
-msgstr "高機能"
+msgid "feature rich"
+msgstr ""
 
 #: ./doc/training-guides/common/section_brief-overview.xml28(para)
 msgid ""
@@ -19086,7 +19207,7 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/common/section_official-programs.xml165(None)
+#: ./doc/training-guides/common/section_official-programs.xml172(None)
 msgid ""
 "@@image: '../figures/image05.png'; md5=6471ce66920c1bc1b8bd3854cf836b06"
 msgstr "@@image: '../figures/image05.png'; md5=6471ce66920c1bc1b8bd3854cf836b06"
@@ -19094,7 +19215,7 @@ msgstr "@@image: '../figures/image05.png'; md5=6471ce66920c1bc1b8bd3854cf836b06"
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/common/section_official-programs.xml178(None)
+#: ./doc/training-guides/common/section_official-programs.xml185(None)
 msgid ""
 "@@image: '../figures/image16.png'; md5=65b6013bd11cf821161a1ebe91d9968b"
 msgstr "@@image: '../figures/image16.png'; md5=65b6013bd11cf821161a1ebe91d9968b"
@@ -19102,7 +19223,7 @@ msgstr "@@image: '../figures/image16.png'; md5=65b6013bd11cf821161a1ebe91d9968b"
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/common/section_official-programs.xml209(None)
+#: ./doc/training-guides/common/section_official-programs.xml216(None)
 msgid ""
 "@@image: '../figures/image06.png'; md5=ad0f7b815daaf1979c604ac862e99a87"
 msgstr "@@image: '../figures/image06.png'; md5=ad0f7b815daaf1979c604ac862e99a87"
@@ -19110,7 +19231,7 @@ msgstr "@@image: '../figures/image06.png'; md5=ad0f7b815daaf1979c604ac862e99a87"
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/common/section_official-programs.xml250(None)
+#: ./doc/training-guides/common/section_official-programs.xml257(None)
 msgid ""
 "@@image: '../figures/image03.png'; md5=25ce40bfee4d12f6bf6d781e70b4402d"
 msgstr "@@image: '../figures/image03.png'; md5=25ce40bfee4d12f6bf6d781e70b4402d"
@@ -19118,7 +19239,7 @@ msgstr "@@image: '../figures/image03.png'; md5=25ce40bfee4d12f6bf6d781e70b4402d"
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/common/section_official-programs.xml304(None)
+#: ./doc/training-guides/common/section_official-programs.xml311(None)
 msgid ""
 "@@image: '../figures/image17.png'; md5=b4720b3ca2aa5b05cebb27c251a81583"
 msgstr "@@image: '../figures/image17.png'; md5=b4720b3ca2aa5b05cebb27c251a81583"
@@ -19126,7 +19247,7 @@ msgstr "@@image: '../figures/image17.png'; md5=b4720b3ca2aa5b05cebb27c251a81583"
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: ./doc/training-guides/common/section_official-programs.xml434(None)
+#: ./doc/training-guides/common/section_official-programs.xml441(None)
 msgid ""
 "@@image: '../figures/image26.png'; md5=4dd64736f53fb4d9398067a69e13f32b"
 msgstr "@@image: '../figures/image26.png'; md5=4dd64736f53fb4d9398067a69e13f32b"
@@ -19305,97 +19426,111 @@ msgstr "2014年10月"
 #: ./doc/training-guides/common/section_official-programs.xml97(td)
 msgid ""
 "Nova, Glance, Swift, Horizon, Keystone, Neutron, Cinder, Ceilometer, Heat, "
-"Trove (more to be added)"
-msgstr "Nova, Glance, Swift, Horizon, Keystone, Neutron, Cinder, Ceilometer, Heat, Trove (さらに何か)"
+"Trove, Sahara"
+msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml103(para)
+#: ./doc/training-guides/common/section_official-programs.xml102(td)
+msgid "Kilo"
+msgstr "Kilo"
+
+#: ./doc/training-guides/common/section_official-programs.xml103(td)
+msgid "April 2015"
+msgstr ""
+
+#: ./doc/training-guides/common/section_official-programs.xml104(td)
+msgid ""
+"Nova, Glance, Swift, Horizon, Keystone, Neutron, Cinder, Ceilometer, Heat, "
+"Trove, Sahara, Ironic"
+msgstr ""
+
+#: ./doc/training-guides/common/section_official-programs.xml110(para)
 msgid "Some OpenStack users include:"
 msgstr "以下のようなOpenStack ユーザーがいます。"
 
-#: ./doc/training-guides/common/section_official-programs.xml106(para)
+#: ./doc/training-guides/common/section_official-programs.xml113(para)
 msgid "PayPal / eBay"
 msgstr "PayPal / eBay"
 
-#: ./doc/training-guides/common/section_official-programs.xml109(para)
+#: ./doc/training-guides/common/section_official-programs.xml116(para)
 msgid "NASA"
 msgstr "NASA"
 
-#: ./doc/training-guides/common/section_official-programs.xml112(para)
+#: ./doc/training-guides/common/section_official-programs.xml119(para)
 msgid "CERN"
 msgstr "CERN"
 
-#: ./doc/training-guides/common/section_official-programs.xml115(para)
+#: ./doc/training-guides/common/section_official-programs.xml122(para)
 msgid "Yahoo!"
 msgstr "Yahoo!"
 
-#: ./doc/training-guides/common/section_official-programs.xml118(para)
+#: ./doc/training-guides/common/section_official-programs.xml125(para)
 msgid "Rackspace Cloud"
 msgstr "Rackspace Cloud"
 
-#: ./doc/training-guides/common/section_official-programs.xml121(para)
+#: ./doc/training-guides/common/section_official-programs.xml128(para)
 msgid "HP Public Cloud"
 msgstr "HP Public Cloud"
 
-#: ./doc/training-guides/common/section_official-programs.xml124(para)
+#: ./doc/training-guides/common/section_official-programs.xml131(para)
 msgid "MercadoLibre.com"
 msgstr "MercadoLibre.com"
 
-#: ./doc/training-guides/common/section_official-programs.xml127(para)
+#: ./doc/training-guides/common/section_official-programs.xml134(para)
 msgid "AT&amp;T"
 msgstr "AT&amp;T"
 
-#: ./doc/training-guides/common/section_official-programs.xml130(para)
+#: ./doc/training-guides/common/section_official-programs.xml137(para)
 msgid "KT (formerly Korea Telecom)"
 msgstr "KT (旧 Korea Telecom)"
 
-#: ./doc/training-guides/common/section_official-programs.xml133(para)
+#: ./doc/training-guides/common/section_official-programs.xml140(para)
 msgid "Deutsche Telekom"
 msgstr "Deutsche Telekom"
 
-#: ./doc/training-guides/common/section_official-programs.xml136(para)
+#: ./doc/training-guides/common/section_official-programs.xml143(para)
 msgid "Wikimedia Labs"
 msgstr "Wikimedia Labs"
 
-#: ./doc/training-guides/common/section_official-programs.xml139(para)
+#: ./doc/training-guides/common/section_official-programs.xml146(para)
 msgid "Hostalia of Telef nica Group"
 msgstr "Hostalia of Telef nica Group"
 
-#: ./doc/training-guides/common/section_official-programs.xml142(para)
+#: ./doc/training-guides/common/section_official-programs.xml149(para)
 msgid "SUSE Cloud solution"
 msgstr "SUSE Cloud ソリューション"
 
-#: ./doc/training-guides/common/section_official-programs.xml145(para)
+#: ./doc/training-guides/common/section_official-programs.xml152(para)
 msgid "Red Hat OpenShift PaaS solution"
 msgstr "Red Hat OpenShift PaaS ソリューション"
 
-#: ./doc/training-guides/common/section_official-programs.xml148(para)
+#: ./doc/training-guides/common/section_official-programs.xml155(para)
 msgid "Zadara Storage"
 msgstr "Zadara Storage"
 
-#: ./doc/training-guides/common/section_official-programs.xml151(para)
+#: ./doc/training-guides/common/section_official-programs.xml158(para)
 msgid "Mint Services"
 msgstr "Mint Services"
 
-#: ./doc/training-guides/common/section_official-programs.xml154(para)
+#: ./doc/training-guides/common/section_official-programs.xml161(para)
 msgid "GridCentric"
 msgstr "GridCentric"
 
-#: ./doc/training-guides/common/section_official-programs.xml157(para)
+#: ./doc/training-guides/common/section_official-programs.xml164(para)
 msgid ""
 "OpenStack is a true and innovative open standard. For more user stories, see"
 " <link href=\"http://www.openstack.org/user-"
 "stories\">http://www.openstack.org/user-stories</link>."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml160(guilabel)
+#: ./doc/training-guides/common/section_official-programs.xml167(guilabel)
 msgid "Release Cycle"
 msgstr "リリースサイクル"
 
-#: ./doc/training-guides/common/section_official-programs.xml162(title)
+#: ./doc/training-guides/common/section_official-programs.xml169(title)
 msgid "Community Heartbeat"
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml169(para)
+#: ./doc/training-guides/common/section_official-programs.xml176(para)
 msgid ""
 "OpenStack is based on a coordinated 6-month release cycle with frequent "
 "development milestones. You can find a link to the current development "
@@ -19404,60 +19539,60 @@ msgid ""
 "Cycle is made of four major stages:"
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml175(title)
+#: ./doc/training-guides/common/section_official-programs.xml182(title)
 msgid "Various Projects under OpenStack"
 msgstr "OpenStack のさまざまなプロジェクト"
 
-#: ./doc/training-guides/common/section_official-programs.xml182(para)
+#: ./doc/training-guides/common/section_official-programs.xml189(para)
 msgid ""
 "The creation of OpenStack took an estimated 249 years of effort (COCOMO "
 "model)."
 msgstr "OpenStack の作成は約 249 年かかります (COCOMO モデル)。"
 
-#: ./doc/training-guides/common/section_official-programs.xml184(para)
+#: ./doc/training-guides/common/section_official-programs.xml191(para)
 msgid "In a nutshell, OpenStack has:"
 msgstr "OpenStack は、要約すると、以下のとおりです。"
 
-#: ./doc/training-guides/common/section_official-programs.xml187(para)
+#: ./doc/training-guides/common/section_official-programs.xml194(para)
 msgid ""
 "64,396 commits made by 1,128 contributors, with its first commit made in "
 "May, 2010."
 msgstr "1,128 人により、64,396 コミットが実行されました。最初のコミットは 2010 年 5 月でした。"
 
-#: ./doc/training-guides/common/section_official-programs.xml191(para)
+#: ./doc/training-guides/common/section_official-programs.xml198(para)
 msgid ""
 "908,491 lines of code. OpenStack is written mostly in Python with an average"
 " number of source code comments."
 msgstr "908,491 行のコード。OpenStack は、平均的なソースコードのコメントを持ち、ほとんど Python で書かれています。"
 
-#: ./doc/training-guides/common/section_official-programs.xml195(para)
+#: ./doc/training-guides/common/section_official-programs.xml202(para)
 msgid "A code base with a long source history."
 msgstr "ソースの長い歴史を持つコードベース。"
 
-#: ./doc/training-guides/common/section_official-programs.xml198(para)
+#: ./doc/training-guides/common/section_official-programs.xml205(para)
 msgid "Increasing Y-O-Y commits."
 msgstr "増加する Y-O-Y コメント。"
 
-#: ./doc/training-guides/common/section_official-programs.xml201(para)
+#: ./doc/training-guides/common/section_official-programs.xml208(para)
 msgid ""
 "A very large development team comprised of people from around the world."
 msgstr "世界中の人々から構成された非常に大規模な開発チーム。"
 
-#: ./doc/training-guides/common/section_official-programs.xml206(title)
+#: ./doc/training-guides/common/section_official-programs.xml213(title)
 msgid "Programming Languages used to design OpenStack"
 msgstr "OpenStack を設計するために使用されるプログラミング言語"
 
-#: ./doc/training-guides/common/section_official-programs.xml213(para)
+#: ./doc/training-guides/common/section_official-programs.xml220(para)
 msgid ""
 "For an overview of OpenStack refer to http://www.openstack.org or "
 "http://goo.gl/4q7nVI. Common questions and answers are also covered here."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml216(guilabel)
+#: ./doc/training-guides/common/section_official-programs.xml223(guilabel)
 msgid "Official Programs Overview"
 msgstr "公式プログラムの概要"
 
-#: ./doc/training-guides/common/section_official-programs.xml217(para)
+#: ./doc/training-guides/common/section_official-programs.xml224(para)
 msgid ""
 "Let's take a dive into some of the technical aspects of OpenStack. Its "
 "scalability and flexibility are just some of the awesome features that make "
@@ -19465,7 +19600,7 @@ msgid ""
 "serve the community and its demands."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml222(para)
+#: ./doc/training-guides/common/section_official-programs.xml229(para)
 msgid ""
 "Being a cloud computing platform, OpenStack consists of many official "
 "programs and incubated projects which makes it really good as an IaaS cloud "
@@ -19473,11 +19608,11 @@ msgid ""
 "components necessary to call it an OpenStack Cloud."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml228(guimenu)
+#: ./doc/training-guides/common/section_official-programs.xml235(guimenu)
 msgid "Components of OpenStack"
 msgstr "OpenStack のコンポーネント"
 
-#: ./doc/training-guides/common/section_official-programs.xml229(para)
+#: ./doc/training-guides/common/section_official-programs.xml236(para)
 msgid ""
 "OpenStack has a modular architecture with various code names for its "
 "components. OpenStack has several shared services that span the three "
@@ -19488,11 +19623,11 @@ msgid ""
 "users as they interact with different cloud resources."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml237(guisubmenu)
+#: ./doc/training-guides/common/section_official-programs.xml244(guisubmenu)
 msgid "Compute (Nova)"
 msgstr "コンピュート (Nova)"
 
-#: ./doc/training-guides/common/section_official-programs.xml238(para)
+#: ./doc/training-guides/common/section_official-programs.xml245(para)
 msgid ""
 "The OpenStack cloud operating system enables enterprises and service "
 "providers to offer on-demand computing resources, by provisioning and "
@@ -19502,12 +19637,12 @@ msgid ""
 "designed to scale horizontally on standard hardware."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml246(title)
+#: ./doc/training-guides/common/section_official-programs.xml253(title)
 msgid ""
 "OpenStack Compute: Provision and manage large networks of virtual machines"
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml254(para)
+#: ./doc/training-guides/common/section_official-programs.xml261(para)
 msgid ""
 "OpenStack Compute (Nova) is a cloud computing fabric controller (the main "
 "part of an IaaS system). It is written in Python and uses many external "
@@ -19523,43 +19658,43 @@ msgid ""
 "such as LXC. In addition to different hypervisors, OpenStack runs on ARM."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml270(emphasis)
+#: ./doc/training-guides/common/section_official-programs.xml277(emphasis)
 msgid "Popular Use Cases:"
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml273(para)
+#: ./doc/training-guides/common/section_official-programs.xml280(para)
 msgid ""
 "Service providers offering an IaaS compute platform or services higher up "
 "the stack"
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml277(para)
+#: ./doc/training-guides/common/section_official-programs.xml284(para)
 msgid ""
 "IT departments acting as cloud service providers for business units and "
 "project teams"
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml281(para)
+#: ./doc/training-guides/common/section_official-programs.xml288(para)
 msgid "Processing big data with tools like Hadoop"
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml284(para)
+#: ./doc/training-guides/common/section_official-programs.xml291(para)
 msgid ""
 "Scaling compute up and down to meet demand for web resources and "
 "applications"
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml288(para)
+#: ./doc/training-guides/common/section_official-programs.xml295(para)
 msgid ""
 "High-performance computing (HPC) environments processing diverse and "
 "intensive workloads"
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml292(guisubmenu)
+#: ./doc/training-guides/common/section_official-programs.xml299(guisubmenu)
 msgid "Object Storage(Swift)"
 msgstr "Object Storage(Swift)"
 
-#: ./doc/training-guides/common/section_official-programs.xml293(para)
+#: ./doc/training-guides/common/section_official-programs.xml300(para)
 msgid ""
 "In addition to traditional enterprise-class storage technology, many "
 "organizations now have a variety of storage needs with varying performance "
@@ -19568,13 +19703,13 @@ msgid ""
 "case."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml300(title)
+#: ./doc/training-guides/common/section_official-programs.xml307(title)
 msgid ""
 "OpenStack Storage: Object and Block storage for use with servers and "
 "applications"
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml308(para)
+#: ./doc/training-guides/common/section_official-programs.xml315(para)
 msgid ""
 "OpenStack Object Storage (Swift) is a scalable redundant storage system. "
 "Objects and files are written to multiple disk drives spread throughout "
@@ -19587,7 +19722,7 @@ msgid ""
 "commodity hard drives and servers can be used."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml319(para)
+#: ./doc/training-guides/common/section_official-programs.xml326(para)
 msgid ""
 "Object Storage is ideal for cost effective, scale-out storage. It provides a"
 " fully distributed, API-accessible storage platform that can be integrated "
@@ -19597,17 +19732,17 @@ msgid ""
 "enterprise storage platforms, such as NetApp, Nexenta and SolidFire."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml327(para)
+#: ./doc/training-guides/common/section_official-programs.xml334(para)
 msgid "A few details on OpenStack’s Object Storage"
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml330(para)
+#: ./doc/training-guides/common/section_official-programs.xml337(para)
 msgid ""
 "OpenStack provides redundant, scalable object storage using clusters of "
 "standardized servers capable of storing petabytes of data"
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml335(para)
+#: ./doc/training-guides/common/section_official-programs.xml342(para)
 msgid ""
 "Object Storage is not a traditional file system, but rather a distributed "
 "storage system for static data such as virtual machine images, photo "
@@ -19616,14 +19751,14 @@ msgid ""
 "durability."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml343(para)
+#: ./doc/training-guides/common/section_official-programs.xml350(para)
 msgid ""
 "Objects and files are written to multiple disk drives spread throughout "
 "servers in the data center, with the OpenStack software responsible for "
 "ensuring data replication and integrity across the cluster."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml349(para)
+#: ./doc/training-guides/common/section_official-programs.xml356(para)
 msgid ""
 "Storage clusters scale horizontally simply by adding new servers. Should a "
 "server or hard drive fail, OpenStack replicates its content from other "
@@ -19633,11 +19768,11 @@ msgid ""
 "of more expensive equipment."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml359(guisubmenu)
+#: ./doc/training-guides/common/section_official-programs.xml366(guisubmenu)
 msgid "Block Storage(Cinder)"
 msgstr "Block Storage(Cinder)"
 
-#: ./doc/training-guides/common/section_official-programs.xml360(para)
+#: ./doc/training-guides/common/section_official-programs.xml367(para)
 msgid ""
 "OpenStack Block Storage (Cinder) provides persistent block level storage "
 "devices for use with OpenStack compute instances. The block storage system "
@@ -19656,15 +19791,15 @@ msgid ""
 " a new block storage volume."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml378(emphasis)
+#: ./doc/training-guides/common/section_official-programs.xml385(emphasis)
 msgid "A few points on OpenStack Block Storage:"
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml411(guisubmenu)
+#: ./doc/training-guides/common/section_official-programs.xml418(guisubmenu)
 msgid "Networking(Neutron)"
 msgstr "Networking(Neutron)"
 
-#: ./doc/training-guides/common/section_official-programs.xml412(para)
+#: ./doc/training-guides/common/section_official-programs.xml419(para)
 msgid ""
 "Today's data center networks contain more devices than ever before. From "
 "servers, network equipment, storage systems and security appliances, many of"
@@ -19676,7 +19811,7 @@ msgid ""
 "and flexibility with quicker provisioning."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml421(para)
+#: ./doc/training-guides/common/section_official-programs.xml428(para)
 msgid ""
 "OpenStack Networking is a pluggable, scalable and API-driven system for "
 "managing networks and IP addresses. Like other aspects of the cloud "
@@ -19686,13 +19821,13 @@ msgid ""
 "and gives users real self-service, even over their network configurations."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml430(title)
+#: ./doc/training-guides/common/section_official-programs.xml437(title)
 msgid ""
 "OpenStack Networking: Pluggable, scalable, API-driven network and IP "
 "management"
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml438(para)
+#: ./doc/training-guides/common/section_official-programs.xml445(para)
 msgid ""
 "OpenStack Networking (Neutron, formerly Quantum) is a system for managing "
 "networks and IP addresses. Like other aspects of the cloud operating system,"
@@ -19702,7 +19837,7 @@ msgid ""
 "users real self-service, even over their network configurations."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml446(para)
+#: ./doc/training-guides/common/section_official-programs.xml453(para)
 msgid ""
 "OpenStack Neutron provides networking models for different applications or "
 "user groups. Standard models include flat networks or VLANs for separation "
@@ -19719,18 +19854,18 @@ msgid ""
 "to be deployed and managed."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml462(para)
+#: ./doc/training-guides/common/section_official-programs.xml469(para)
 msgid "Networking Capabilities"
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml465(para)
+#: ./doc/training-guides/common/section_official-programs.xml472(para)
 msgid ""
 "OpenStack provides flexible networking models to suit the needs of different"
 " applications or user groups. Standard models include flat networks or VLANs"
 " for separation of servers and traffic."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml471(para)
+#: ./doc/training-guides/common/section_official-programs.xml478(para)
 msgid ""
 "OpenStack Networking manages IP addresses, allowing for dedicated static IPs"
 " or DHCP. Floating IPs allow traffic to be dynamically re-routed to any of "
@@ -19738,37 +19873,37 @@ msgid ""
 "maintenance or in the case of failure."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml478(para)
+#: ./doc/training-guides/common/section_official-programs.xml485(para)
 msgid ""
 "Users can create their own networks, control traffic and connect servers and"
 " devices to one or more networks."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml483(para)
+#: ./doc/training-guides/common/section_official-programs.xml490(para)
 msgid ""
 "The pluggable backend architecture lets users take advantage of commodity "
 "gear or advanced networking services from supported vendors."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml488(para)
+#: ./doc/training-guides/common/section_official-programs.xml495(para)
 msgid ""
 "Administrators can take advantage of software-defined networking (SDN) "
 "technology like OpenFlow to allow for high levels of multi-tenancy and "
 "massive scale."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml494(para)
+#: ./doc/training-guides/common/section_official-programs.xml501(para)
 msgid ""
 "OpenStack Networking has an extension framework allowing additional network "
 "services, such as intrusion detection systems (IDS), load balancing, "
 "firewalls and virtual private networks (VPN) to be deployed and managed."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml501(guisubmenu)
+#: ./doc/training-guides/common/section_official-programs.xml508(guisubmenu)
 msgid "Dashboard(Horizon)"
 msgstr "Dashboard(Horizon)"
 
-#: ./doc/training-guides/common/section_official-programs.xml502(para)
+#: ./doc/training-guides/common/section_official-programs.xml509(para)
 msgid ""
 "OpenStack Dashboard (Horizon) provides administrators and users a graphical "
 "interface to access, provision and automate cloud-based resources. The "
@@ -19777,18 +19912,18 @@ msgid ""
 "commercial vendors can customize the dashboard with their own brand."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml508(para)
+#: ./doc/training-guides/common/section_official-programs.xml515(para)
 msgid ""
 "The dashboard is just one way to interact with OpenStack resources. "
 "Developers can automate access or build tools to manage their resources "
 "using the native OpenStack API or the EC2 compatibility API."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml512(guisubmenu)
+#: ./doc/training-guides/common/section_official-programs.xml519(guisubmenu)
 msgid "Identity Service(Keystone)"
 msgstr "Identity Service(Keystone)"
 
-#: ./doc/training-guides/common/section_official-programs.xml513(para)
+#: ./doc/training-guides/common/section_official-programs.xml520(para)
 msgid ""
 "OpenStack Identity (Keystone) provides a central directory of users mapped "
 "to the OpenStack services they can access. It acts as a common "
@@ -19799,54 +19934,54 @@ msgid ""
 " such as those used for EC2."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml521(para)
+#: ./doc/training-guides/common/section_official-programs.xml528(para)
 msgid ""
 "Additionally, the catalog provides a query-able list of all of the services "
 "deployed in an OpenStack cloud in a single registry. Users and third-party "
 "tools can programmatically determine which resources they can access."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml525(para)
+#: ./doc/training-guides/common/section_official-programs.xml532(para)
 msgid "The OpenStack Identity Service enables administrators to:"
 msgstr "OpenStack Identity により、管理者は以下を実行できます。"
 
-#: ./doc/training-guides/common/section_official-programs.xml529(para)
+#: ./doc/training-guides/common/section_official-programs.xml536(para)
 msgid "Configure centralized policies across users and systems"
 msgstr "ユーザーとシステム全体にわたる一元的ポリシーの設定"
 
-#: ./doc/training-guides/common/section_official-programs.xml533(para)
+#: ./doc/training-guides/common/section_official-programs.xml540(para)
 msgid ""
 "Create users and tenants and define permissions for compute, storage, and "
 "networking resources by using role-based access control (RBAC) features"
 msgstr "ユーザーとテナントの作成。ロールベースアクセス制御 (RBAC) 機能を用いることにより、コンピュート、ストレージ、ネットワークのリソースに対する権限を定義します。"
 
-#: ./doc/training-guides/common/section_official-programs.xml538(para)
+#: ./doc/training-guides/common/section_official-programs.xml545(para)
 msgid ""
 "Integrate with an existing directory, like LDAP, to provide a single source "
 "of authentication across the enterprise"
 msgstr "エンタープライズ全体の単一認証ソースを提供する、既存の LDAP などのディレクトリとの統合。"
 
-#: ./doc/training-guides/common/section_official-programs.xml543(para)
+#: ./doc/training-guides/common/section_official-programs.xml550(para)
 msgid "The OpenStack Identity Service enables users to:"
 msgstr "OpenStack Identity により、ユーザーは以下を実行できます。"
 
-#: ./doc/training-guides/common/section_official-programs.xml546(para)
+#: ./doc/training-guides/common/section_official-programs.xml553(para)
 msgid "List the services to which they have access"
 msgstr "アクセス権のあるサービスの一覧表示"
 
-#: ./doc/training-guides/common/section_official-programs.xml549(para)
+#: ./doc/training-guides/common/section_official-programs.xml556(para)
 msgid "Make API requests"
 msgstr "API リクエストの実行"
 
-#: ./doc/training-guides/common/section_official-programs.xml552(para)
+#: ./doc/training-guides/common/section_official-programs.xml559(para)
 msgid "Log into the web dashboard to create resources owned by their account"
 msgstr "ダッシュボードへのログイン。自身のアカウントにより所有されるリソースを作成します。"
 
-#: ./doc/training-guides/common/section_official-programs.xml556(guisubmenu)
+#: ./doc/training-guides/common/section_official-programs.xml563(guisubmenu)
 msgid "Image Service(Glance)"
 msgstr "Image Service(Glance)"
 
-#: ./doc/training-guides/common/section_official-programs.xml557(para)
+#: ./doc/training-guides/common/section_official-programs.xml564(para)
 msgid ""
 "OpenStack Image Service (Glance) provides discovery, registration and "
 "delivery services for disk and server images. Stored images can be used as a"
@@ -19857,97 +19992,97 @@ msgid ""
 "images and lets clients stream the images to new servers."
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml566(para)
+#: ./doc/training-guides/common/section_official-programs.xml573(para)
 msgid "Capabilities of the Image Service include:"
 msgstr "Image Service の機能には、以下のものがあります。"
 
-#: ./doc/training-guides/common/section_official-programs.xml569(para)
+#: ./doc/training-guides/common/section_official-programs.xml576(para)
 msgid ""
 "Administrators can create base templates from which their users can start "
 "new compute instances"
 msgstr "管理者は基本テンプレートを作成できます。ユーザーは新しいインスタンスをそれから起動できます。"
 
-#: ./doc/training-guides/common/section_official-programs.xml573(para)
+#: ./doc/training-guides/common/section_official-programs.xml580(para)
 msgid ""
 "Users can choose from available images, or create their own from existing "
 "servers"
 msgstr "ユーザーは、利用可能なイメージから選択できます。また、既存のサーバーから自身のイメージを作成できます。"
 
-#: ./doc/training-guides/common/section_official-programs.xml577(para)
+#: ./doc/training-guides/common/section_official-programs.xml584(para)
 msgid ""
 "Snapshots can also be stored in the Image Service so that virtual machines "
 "can be backed up quickly"
 msgstr "仮想マシンを迅速にバックアップできるよう、スナップショットを Image Service に保存できます。"
 
-#: ./doc/training-guides/common/section_official-programs.xml581(para)
+#: ./doc/training-guides/common/section_official-programs.xml588(para)
 msgid ""
 "A multi-format image registry, the image service allows uploads of private "
 "and public images in a variety of formats, including:"
 msgstr ""
 
-#: ./doc/training-guides/common/section_official-programs.xml586(para)
+#: ./doc/training-guides/common/section_official-programs.xml593(para)
 msgid "Raw"
 msgstr "Raw"
 
-#: ./doc/training-guides/common/section_official-programs.xml589(para)
+#: ./doc/training-guides/common/section_official-programs.xml596(para)
 msgid "Machine (kernel/ramdisk outside of image, also known as AMI)"
 msgstr "マシン (イメージ以外のカーネル/ラムディスク、AMI としても知られている)"
 
-#: ./doc/training-guides/common/section_official-programs.xml593(para)
+#: ./doc/training-guides/common/section_official-programs.xml600(para)
 msgid "VHD (Hyper-V)"
 msgstr "VHD (Hyper-V)"
 
-#: ./doc/training-guides/common/section_official-programs.xml596(para)
+#: ./doc/training-guides/common/section_official-programs.xml603(para)
 msgid "VDI (VirtualBox)"
 msgstr "VDI (VirtualBox)"
 
-#: ./doc/training-guides/common/section_official-programs.xml599(para)
+#: ./doc/training-guides/common/section_official-programs.xml606(para)
 msgid "qcow2 (Qemu/KVM)"
 msgstr "qcow2 (QEMU/KVM)"
 
-#: ./doc/training-guides/common/section_official-programs.xml602(para)
+#: ./doc/training-guides/common/section_official-programs.xml609(para)
 msgid "VMDK (VMware)"
 msgstr "VMDK (VMware)"
 
-#: ./doc/training-guides/common/section_official-programs.xml605(para)
+#: ./doc/training-guides/common/section_official-programs.xml612(para)
 msgid "OVF (VMware, others)"
 msgstr "OVF (VMware など)"
 
-#: ./doc/training-guides/common/section_official-programs.xml608(para)
+#: ./doc/training-guides/common/section_official-programs.xml615(para)
 msgid ""
 "To checkout the complete list of official programs under OpenStack check out"
 " here : https://wiki.openstack.org/wiki/Program"
 msgstr "OpenStack の公式プログラムの一覧は https://wiki.openstack.org/wiki/Program を確認してください。"
 
-#: ./doc/training-guides/common/section_official-programs.xml611(para)
+#: ./doc/training-guides/common/section_official-programs.xml618(para)
 msgid ""
 "To checkout the complete list of official programs and incubated projects "
 "under OpenStack check out OpenStack’s Launchpad Project Page here : "
 "https://launchpad.net/openstack/"
 msgstr "OpenStack の公式プログラムと育成プロジェクトの一覧は、OpenStack の Launchpad プロジェクトページ https://launchpad.net/openstack/ を確認してください。"
 
-#: ./doc/training-guides/common/section_official-programs.xml614(guisubmenu)
+#: ./doc/training-guides/common/section_official-programs.xml621(guisubmenu)
 msgid "Amazon Web Services compatibility"
 msgstr "Amazon Web Services 互換性"
 
-#: ./doc/training-guides/common/section_official-programs.xml615(para)
+#: ./doc/training-guides/common/section_official-programs.xml622(para)
 msgid ""
 "OpenStack APIs are compatible with Amazon EC2 and Amazon S3 and thus client "
 "applications written for Amazon Web Services can be used with OpenStack with"
 " minimal porting effort."
 msgstr "OpenStack API は Amazon EC2 および Amazon S3 と互換性があります。そのため、Amazon Web Services 向けに書かれたクライアントアプリケーションは、最低限の移植により OpenStack に使用できます。"
 
-#: ./doc/training-guides/common/section_official-programs.xml619(guilabel)
+#: ./doc/training-guides/common/section_official-programs.xml626(guilabel)
 msgid "Governance"
 msgstr "運営"
 
-#: ./doc/training-guides/common/section_official-programs.xml620(para)
+#: ./doc/training-guides/common/section_official-programs.xml627(para)
 msgid ""
 "OpenStack is governed by a non-profit foundation and its board of directors,"
 " a technical committee and a user committee."
 msgstr "OpenStack は、非営利団体、役員会、技術委員会、ユーザー委員会により運営されています。"
 
-#: ./doc/training-guides/common/section_official-programs.xml623(para)
+#: ./doc/training-guides/common/section_official-programs.xml630(para)
 msgid ""
 "The foundation's stated mission is by providing shared resources to help "
 "achieve the OpenStack Mission by Protecting, Empowering, and Promoting "
@@ -20600,7 +20735,7 @@ msgstr ""
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml446(title)
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml608(title)
 msgid "OpenStack Dashboard- Instances"
-msgstr ""
+msgstr "OpenStack Dashboard - インスタンス"
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml453(para)
 msgid ""
@@ -21239,7 +21374,7 @@ msgstr "クライアントのバージョンの取得"
 msgid ""
 "After you install an OpenStack client, you can search for its version "
 "number, as follows:"
-msgstr ""
+msgstr "OpenStack クライアントのインストール後、以下のとおり、バージョン番号を検索できます。"
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml950(para)
 msgid "$ pip freeze | grep python-"
@@ -22877,7 +23012,7 @@ msgstr "|... wait for instance to become active ..."
 msgid ""
 "You can list bare metal nodes and interfaces. When a node is in use, its "
 "status includes the UUID of the instance that runs on it:"
-msgstr ""
+msgstr "ベアメタルノードとインターフェースを一覧表示できます。ノードが使用中の場合、そこで実行しているインスタンスの UUID がその状態に含まれます。"
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml2221(para)
 msgid "$ nova baremetal-node-list"
@@ -23103,7 +23238,7 @@ msgstr "スタックの管理と作成"
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml2396(para)
 msgid "To create a stack from an example template file"
-msgstr ""
+msgstr "サンプルテンプレートファイルからスタックを作成する方法"
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml2399(para)
 msgid ""
@@ -23187,7 +23322,7 @@ msgstr "$ heat stack-show mystack"
 msgid ""
 "A stack consists of a collection of resources. To list the resources, "
 "including their status, in a stack, run the following command:"
-msgstr ""
+msgstr "スタックは、リソースの集合から構成されます。以下のコマンドを実行して、スタックにあるリソースとその状態を一覧表示します。"
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml2461(para)
 msgid "$ heat resource-list mystack"
@@ -23217,7 +23352,7 @@ msgstr "$ heat resource-metadata mystack WikiDatabase"
 msgid ""
 "A series of events is generated during the life-cycle of a stack. This "
 "command will display those events."
-msgstr ""
+msgstr "一連のイベントが、スタックのライフサイクル中に生成されます。このコマンドは、これらのイベントを表示します。"
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml2482(para)
 msgid "$ heat event-list mystack"
