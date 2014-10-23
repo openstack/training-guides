@@ -8,8 +8,8 @@
   <para>Compute uses the nova-scheduler service to determine how to
     dispatch compute and volume requests. For example, the
     nova-scheduler service determines which host a VM should launch
-    on. The term host in the context of filters means a physical node
-    that has a <systemitem class="service">nova-compute</systemitem>
+    on. The term host, in the context of filters, means a physical node
+    that has the <systemitem class="service">nova-compute</systemitem>
     service running on it. You can configure the scheduler through a
     variety of options.</para>
   <figure>
@@ -21,7 +21,7 @@
     </mediaobject>
   </figure>
   <para>Just as shown by the above figure, nova-scheduler interacts with
-    other components through queue and central database repo. For
+    other components through the queue and central database repo. For
     scheduling, the queue is the essential communications hub.</para>
   <para>All compute nodes (also known as hosts in terms of OpenStack)
     periodically publish their status, resources available and
