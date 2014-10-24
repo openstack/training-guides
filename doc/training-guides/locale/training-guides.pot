@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-10-22 06:00+0000\n"
+"POT-Creation-Date: 2014-10-24 06:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3708,7 +3708,7 @@ msgid "Guest Operating System (Guest)"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_important-terms.xml:17(para)
-msgid "The operating system that is installed on your VirtualBox Virtual Machine. This virtual instance is independent of the host OS. It is commonly referred to as <glossterm>guest OS</glossterm> or guest."
+msgid "The operating system that is installed on your VirtualBox Virtual Machine. This virtual instance is independent of the host OS. It is commonly referred to as the <glossterm>guest OS</glossterm> or guest."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_important-terms.xml:23(title)
@@ -3716,7 +3716,7 @@ msgid "Node"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_important-terms.xml:24(para)
-msgid "In this context, refers specifically to servers. Each OpenStack server is a node."
+msgid "In this context, node refers specifically to servers. Each OpenStack server is a node."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_important-terms.xml:28(title)
@@ -10911,11 +10911,11 @@ msgid "@@image: 'https://raw.githubusercontent.com/openstack/openstack-manuals/m
 msgstr ""
 
 #: ./doc/training-guides/common/section_vm-placement.xml:8(para)
-msgid "Compute uses the nova-scheduler service to determine how to dispatch compute and volume requests. For example, the nova-scheduler service determines which host a VM should launch on. The term host in the context of filters means a physical node that has a <systemitem class=\"service\">nova-compute</systemitem> service running on it. You can configure the scheduler through a variety of options."
+msgid "Compute uses the nova-scheduler service to determine how to dispatch compute and volume requests. For example, the nova-scheduler service determines which host a VM should launch on. The term host, in the context of filters, means a physical node that has the <systemitem class=\"service\">nova-compute</systemitem> service running on it. You can configure the scheduler through a variety of options."
 msgstr ""
 
 #: ./doc/training-guides/common/section_vm-placement.xml:23(para)
-msgid "Just as shown by the above figure, nova-scheduler interacts with other components through queue and central database repo. For scheduling, the queue is the essential communications hub."
+msgid "Just as shown by the above figure, nova-scheduler interacts with other components through the queue and central database repo. For scheduling, the queue is the essential communications hub."
 msgstr ""
 
 #: ./doc/training-guides/common/section_vm-placement.xml:26(para)
@@ -13106,7 +13106,7 @@ msgid "You can modify these examples for your specific use cases."
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:20(para)
-msgid "In addition to these ways of interacting with a cloud, you can access the OpenStack APIs indirectly through cURLcommands or open SDKs, or directly through the APIs. You can automate access or build tools to manage resources and services by using the native OpenStack APIs or the EC2 compatibility API."
+msgid "In addition to these ways of interacting with a cloud, you can access the OpenStack APIs indirectly through cURL commands or open SDKs, or directly through the APIs. You can automate access or build tools to manage resources and services by using the native OpenStack APIs or the EC2 compatibility API."
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:25(para)
@@ -13362,7 +13362,7 @@ msgid "Port 22 is now open for requests from any IP address."
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:242(para)
-msgid "If you want to accept requests from a particular range of IP addresses, specify the IP address block in the CIDRbox."
+msgid "If you want to accept requests from a particular range of IP addresses, specify the IP address block in the CIDR box."
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:247(para)
@@ -13690,7 +13690,7 @@ msgid "To create instance snapshots"
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:626(para) ./doc/training-guides/common/section_overview-horizon-cli.xml:665(para)
-msgid "Click the Instancescategory."
+msgid "Click the Instances category."
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:629(para) ./doc/training-guides/common/section_overview-horizon-cli.xml:668(para)
@@ -13722,7 +13722,7 @@ msgid "Select the instance for which you want to change the state."
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:676(para)
-msgid "In the Moredrop-down list in the Actionscolumn, select the state."
+msgid "In the More drop-down list in the Actions column, select the state."
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:680(para)
@@ -14574,7 +14574,7 @@ msgid "Access and security credentials, which include one or both of the followi
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:1484(para)
-msgid "A key-pair for your instance, which are SSH credentials that are injected into images when they are launched. For this to work, the image must contain the cloud-init package. Create at least one keypair for each project. If you already have generated a key-pair with an external tool, you can import it into OpenStack. You can use the keypair for multiple instances that belong to that project. For details, refer to Section 1.5.1, Creating or Importing Keys."
+msgid "A keypair for your instance, which are SSH credentials that are injected into images when they are launched. For this to work, the image must contain the cloud-init package. Create at least one keypair for each project. If you already have generated a keypair with an external tool, you can import it into OpenStack. You can use the keypair for multiple instances that belong to that project. For details, refer to Section 1.5.1, Creating or Importing Keys."
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:1495(para)

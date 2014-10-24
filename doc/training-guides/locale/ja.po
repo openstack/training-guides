@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenStack Manuals\n"
-"POT-Creation-Date: 2014-10-21 12:41+0000\n"
-"PO-Revision-Date: 2014-10-22 05:38+0000\n"
-"Last-Translator: Tomoyuki KATO <tomo@dream.daynight.jp>\n"
+"POT-Creation-Date: 2014-10-23 09:32+0000\n"
+"PO-Revision-Date: 2014-10-23 09:32+0000\n"
+"Last-Translator: openstackjenkins <jenkins@openstack.org>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/openstack-manuals-i18n/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5677,8 +5677,8 @@ msgstr "ゲストオペレーティングシステム (ゲスト)"
 msgid ""
 "The operating system that is installed on your VirtualBox Virtual Machine. "
 "This virtual instance is independent of the host OS. It is commonly referred"
-" to as <glossterm>guest OS</glossterm> or guest."
-msgstr "VirtualBox の仮想マシンにインストールされるオペレーティングシステム。この仮想インスタンスは、ホスト OS と独立しています。一般的に<glossterm baseform=\"guest OS\">ゲスト OS</glossterm> やゲストと呼ばれます。"
+" to as the <glossterm>guest OS</glossterm> or guest."
+msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_important-terms.xml23(title)
 msgid "Node"
@@ -5686,9 +5686,9 @@ msgstr "ノード"
 
 #: ./doc/training-guides/basic-install-guide/lab_important-terms.xml24(para)
 msgid ""
-"In this context, refers specifically to servers. Each OpenStack server is a "
-"node."
-msgstr "ここでは、明確にサーバーとして参照します。各 OpenStack サーバーはノードです。"
+"In this context, node refers specifically to servers. Each OpenStack server "
+"is a node."
+msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/lab_important-terms.xml28(title)
 msgid "Control Node"
@@ -16611,8 +16611,8 @@ msgstr "@@image: 'https://raw.githubusercontent.com/openstack/openstack-manuals/
 msgid ""
 "Compute uses the nova-scheduler service to determine how to dispatch compute"
 " and volume requests. For example, the nova-scheduler service determines "
-"which host a VM should launch on. The term host in the context of filters "
-"means a physical node that has a <systemitem class=\"service\">nova-"
+"which host a VM should launch on. The term host, in the context of filters, "
+"means a physical node that has the <systemitem class=\"service\">nova-"
 "compute</systemitem> service running on it. You can configure the scheduler "
 "through a variety of options."
 msgstr ""
@@ -16620,7 +16620,7 @@ msgstr ""
 #: ./doc/training-guides/common/section_vm-placement.xml23(para)
 msgid ""
 "Just as shown by the above figure, nova-scheduler interacts with other "
-"components through queue and central database repo. For scheduling, the "
+"components through the queue and central database repo. For scheduling, the "
 "queue is the essential communications hub."
 msgstr ""
 
@@ -20157,7 +20157,7 @@ msgstr "お使いの具体的なユースケースのために、これらの例
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml20(para)
 msgid ""
 "In addition to these ways of interacting with a cloud, you can access the "
-"OpenStack APIs indirectly through cURLcommands or open SDKs, or directly "
+"OpenStack APIs indirectly through cURL commands or open SDKs, or directly "
 "through the APIs. You can automate access or build tools to manage resources"
 " and services by using the native OpenStack APIs or the EC2 compatibility "
 "API."
@@ -20507,8 +20507,8 @@ msgstr "これで、22 番ポートがすべての IP アドレスからのリ�
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml242(para)
 msgid ""
 "If you want to accept requests from a particular range of IP addresses, "
-"specify the IP address block in the CIDRbox."
-msgstr "特定の範囲の IP アドレスからリクエストを受け付けたい場合、CIDR ボックスに IP アドレスブロックを指定します。"
+"specify the IP address block in the CIDR box."
+msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml247(para)
 msgid "Add an ICMP rule"
@@ -20945,8 +20945,8 @@ msgstr "インスタンスのスナップショットの作成方法"
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml626(para)
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml665(para)
-msgid "Click the Instancescategory."
-msgstr "インスタンスカテゴリーをクリックします。"
+msgid "Click the Instances category."
+msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml629(para)
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml668(para)
@@ -20989,8 +20989,8 @@ msgid "Select the instance for which you want to change the state."
 msgstr "状態を変更したいインスタンスを選択します。"
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml676(para)
-msgid "In the Moredrop-down list in the Actionscolumn, select the state."
-msgstr "操作列にある▼ドロップダウンリストで、状態を選択します。"
+msgid "In the More drop-down list in the Actions column, select the state."
+msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml680(para)
 msgid ""
@@ -22097,10 +22097,10 @@ msgstr "アクセス、セキュリティクレデンシャル。以下のクレ
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml1484(para)
 msgid ""
-"A key-pair for your instance, which are SSH credentials that are injected "
+"A keypair for your instance, which are SSH credentials that are injected "
 "into images when they are launched. For this to work, the image must contain"
 " the cloud-init package. Create at least one keypair for each project. If "
-"you already have generated a key-pair with an external tool, you can import "
+"you already have generated a keypair with an external tool, you can import "
 "it into OpenStack. You can use the keypair for multiple instances that "
 "belong to that project. For details, refer to Section 1.5.1, Creating or "
 "Importing Keys."
