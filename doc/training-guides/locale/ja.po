@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenStack Manuals\n"
-"POT-Creation-Date: 2014-10-23 09:32+0000\n"
-"PO-Revision-Date: 2014-10-23 09:32+0000\n"
+"POT-Creation-Date: 2014-10-24 15:10+0000\n"
+"PO-Revision-Date: 2014-10-25 05:50+0000\n"
 "Last-Translator: openstackjenkins <jenkins@openstack.org>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/openstack-manuals-i18n/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -6884,7 +6884,7 @@ msgstr "<literal>[DEFAULT]</literal> セクションで、Image Service の位�
 
 #: ./doc/training-guides/basic-install-guide/section_nova-controller-install.xml159(para)
 msgid "Populate the Compute database:"
-msgstr ""
+msgstr "Compute データベースにデータを登録します。"
 
 #: ./doc/training-guides/basic-install-guide/section_nova-controller-install.xml164(title)
 msgid "To install and configure the Compute controller components"
@@ -8195,7 +8195,7 @@ msgstr "Open vSwitch (OVS) サービスの設定方法"
 msgid ""
 "The OVS service provides the underlying virtual networking framework for "
 "instances."
-msgstr ""
+msgstr "OVS サービスは、バックエンドの仮想ネットワークフレームワークをインスタンスに提供します。"
 
 #: ./doc/training-guides/basic-install-guide/section_neutron-ml2-compute-node.xml250(para)
 #: ./doc/training-guides/basic-install-guide/section_neutron-ml2-compute-node.xml256(para)
