@@ -2,10 +2,10 @@
 cmd init_node
 cmd queue etc_hosts.sh
 cmd queue osbash/enable_vagrant_ssh_keys.sh
-cmd snapshot_cycle "network_configured"
+cmd snapshot_cycle network_configured
 cmd queue setup_nova_compute.sh
-cmd snapshot_cycle "nova-compute_installed"
+cmd snapshot_cycle nova-compute_installed
 cmd queue setup_neutron_compute.sh
 cmd queue setup_cinder_volumes.sh
-cmd snapshot_cycle "compute_node_installed"
+cmd snapshot_cycle compute_node_installed
 cmd boot

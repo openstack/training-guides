@@ -2,7 +2,7 @@
 cmd init_node
 cmd queue etc_hosts.sh
 cmd queue osbash/enable_vagrant_ssh_keys.sh
-cmd snapshot_cycle "network_configured"
+cmd snapshot_cycle network_configured
 cmd queue setup_neutron_network.sh
-cmd snapshot_cycle "network_node_installed"
+cmd snapshot_cycle network_node_installed
 cmd boot
