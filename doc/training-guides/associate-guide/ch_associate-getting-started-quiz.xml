@@ -84,7 +84,7 @@
                     </listitem>
                     <listitem>
                       <formalpara>
-                        <title>OpenStack code is freely available via the FreeBSD license. (True or False)</title>
+                        <title>OpenStack code is freely available via the FreeBSD license.</title>
                       <para>
                           <orderedlist>
                             <listitem>
@@ -99,7 +99,7 @@
                     </listitem>
                     <listitem>
                       <formalpara>
-                        <title>OpenStack Swift is Object Storage. (True or False)</title>
+                        <title>OpenStack Swift is Object Storage.</title>
                       <para>
                           <orderedlist>
                             <listitem>
@@ -114,7 +114,7 @@
                     </listitem>
                     <listitem>
                       <formalpara>
-                        <title>OpenStack Networking is now called Quantum. (True or False)</title>
+                        <title>OpenStack Networking is now called Quantum.</title>
                       <para>
                           <orderedlist>
                             <listitem>
@@ -153,7 +153,7 @@
                     </listitem>
                     <listitem>
                       <formalpara>
-                        <title>OpenStack APIs are compatible with Amazon EC2 and Amazon S3. (True or False)</title>
+                        <title>OpenStack APIs are compatible with Amazon EC2 and Amazon S3.</title>
                       <para>
                           <orderedlist>
                             <listitem>
@@ -168,7 +168,7 @@
                     </listitem>
                     <listitem>
                       <formalpara>
-                        <title>Horizon is the OpenStack name for Compute. (True or False)</title>
+                        <title>Horizon is the OpenStack name for Compute.</title>
                       <para>
                           <orderedlist>
                             <listitem>
