@@ -13,7 +13,7 @@
                   <listitem>
                       <formalpara>
                         <title>When managing images for OpenStack you can complete all those tasks with the OpenStack
-                            dashboard. (True or False)</title>
+                            dashboard.</title>
                       <para>
                           <orderedlist>
                             <listitem>
@@ -29,7 +29,7 @@
                     <listitem>
                       <formalpara>
                         <title>When setting up access and security, SSH credentials (keypairs) must be injected
-                            into images after they are launched with a script. (True or False)</title>
+                            into images after they are launched with a script.</title>
                       <para>
                           <orderedlist>
                             <listitem>
@@ -68,7 +68,7 @@
                     </listitem>
                     <listitem>
                       <formalpara>
-                        <title>The following OpenStack command-line clients are available. (choose all that apply)</title>
+                        <title>The following OpenStack command-line clients are available: (choose all that apply)</title>
                       <para>
                           <orderedlist>
                             <listitem>
@@ -95,7 +95,7 @@
                         <title>To install a client package</title>
                         <para>
                           Run this command:
-<screen><prompt>#</prompt> <userinput>pip install [--update] python-project client (True or False)</userinput></screen>
+<screen><prompt>#</prompt> <userinput>pip install [--update] python-project client</userinput></screen>
                           <orderedlist>
                             <listitem>
                               <para>True</para>
@@ -167,7 +167,7 @@
                     </listitem>
                     <listitem>
                       <formalpara>
-                        <title>When you want to launch an instance you can only do that from an image. (True or False)</title>
+                        <title>When you want to launch an instance you can only do that from an image.</title>
                       <para>
                           <orderedlist>
                             <listitem>
@@ -182,7 +182,7 @@
                     </listitem>
                     <listitem>
                       <formalpara>
-                        <title>An instance has a Private IP address which has the following properties? (choose all that apply)</title>
+                        <title>An instance has a Private IP address which has the following properties: (choose all that apply)</title>
                       <para>
                           <orderedlist>
                             <listitem>
@@ -231,7 +231,7 @@
                     </listitem>
                     <listitem>
                       <formalpara>
-                        <title>To create a network in OpenStack use the following command: $ neutron net-create net1 (True or False)</title>
+                        <title>To create a network in OpenStack use the following command: $ neutron net-create net1</title>
                       <para>
                           <orderedlist>
                             <listitem>
@@ -294,7 +294,7 @@
                     </listitem>
                     <listitem>
                       <formalpara>
-                        <title>OpenStack uses the term tenant but in earlier versions it used the term customer. (True or False)</title>
+                        <title>OpenStack uses the term tenant but in earlier versions it used the term customer.</title>
                       <para>
                           <orderedlist>
                             <listitem>
