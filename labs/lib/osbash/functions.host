@@ -104,7 +104,7 @@ function vm_ssh {
 function wait_for_ssh {
     local ssh_port=$1
 
-    echo "Waiting for ssh server to respond on local port $ssh_port"
+    echo -n "Waiting for ssh server to respond on local port $ssh_port."
     while [ : ]; do
         if vm_ssh "$ssh_port" exit ; then
             break
@@ -113,6 +113,7 @@ function wait_for_ssh {
             sleep 1
         fi
     done
+    echo
 }
 
 # Copy one script to VM and execute it via ssh; log output to separate file
