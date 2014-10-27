@@ -178,15 +178,15 @@ netmask 255.255.255.0
       <para>Create these databases:</para>
       <screen><prompt>$</prompt> <userinput>mysql -u root -p</userinput></screen>
       <screen><prompt>mysql></prompt> <userinput>CREATE DATABASE keystone;</userinput></screen>
-      <screen><prompt>mysql></prompt> <userinput>GRANT ALL ON keystone.* TO 'keystoneUser'@'%' IDENTIFIED BY 'keystonePass';</userinput></screen>
+      <screen><prompt>mysql></prompt> <userinput>GRANT ALL ON keystone.* TO 'keystone'@'%' IDENTIFIED BY 'KEYSTONE_DBPASS';</userinput></screen>
       <screen><prompt>mysql></prompt> <userinput>CREATE DATABASE glance;</userinput></screen>
-      <screen><prompt>mysql></prompt> <userinput>GRANT ALL ON glance.* TO 'glanceUser'@'%' IDENTIFIED BY 'glancePass';</userinput></screen>
+      <screen><prompt>mysql></prompt> <userinput>GRANT ALL ON glance.* TO 'glance'@'%' IDENTIFIED BY 'GLANCE_DBPASS';</userinput></screen>
       <screen><prompt>mysql></prompt> <userinput>CREATE DATABASE neutron;</userinput></screen>
-      <screen><prompt>mysql></prompt> <userinput>GRANT ALL ON neutron.* TO 'neutronUser'@'%' IDENTIFIED BY 'neutronPass';</userinput></screen>
+      <screen><prompt>mysql></prompt> <userinput>GRANT ALL ON neutron.* TO 'neutron'@'%' IDENTIFIED BY 'NEUTRON_DBPASS';</userinput></screen>
       <screen><prompt>mysql></prompt> <userinput>CREATE DATABASE nova;</userinput></screen>
-      <screen><prompt>mysql></prompt> <userinput>GRANT ALL ON nova.* TO 'novaUser'@'%' IDENTIFIED BY 'novaPass';</userinput></screen>
+      <screen><prompt>mysql></prompt> <userinput>GRANT ALL ON nova.* TO 'nova'@'%' IDENTIFIED BY 'NOVA_DBPASS';</userinput></screen>
       <screen><prompt>mysql></prompt> <userinput>CREATE DATABASE cinder;</userinput></screen>
-      <screen><prompt>mysql></prompt> <userinput>GRANT ALL ON cinder.* TO 'cinderUser'@'%' IDENTIFIED BY 'cinderPass';</userinput></screen>
+      <screen><prompt>mysql></prompt> <userinput>GRANT ALL ON cinder.* TO 'cinder'@'%' IDENTIFIED BY 'CINDER_DBPASS';</userinput></screen>
       <screen><prompt>mysql></prompt> <userinput>quit;</userinput></screen>
     </listitem>
   </itemizedlist>
@@ -200,7 +200,7 @@ netmask 255.255.255.0
       <para>Adapt the connection attribute in the
           <filename>/etc/keystone/keystone.conf</filename> to the new
         database:</para>
-      <programlisting>connection = mysql://keystoneUser:keystonePass@10.10.10.51/keystone</programlisting>
+      <programlisting>connection = mysql://keystone:KEYSTONE_DBPASS@10.10.10.51/keystone</programlisting>
     </listitem>
     <listitem>
       <para>Restart the identity service then synchronize the
@@ -317,7 +317,7 @@ rpc_backend = rabbit
 rabbit_host = 10.10.10.51
 
 [database]
-sql_connection = mysql://glanceUser:glancePass@10.10.10.51/glance
+sql_connection = mysql://glance:GLANCE_DBPASS@10.10.10.51/glance
 [keystone_authtoken]
 auth_host = 10.10.10.51
 auth_port = 35357
@@ -333,7 +333,7 @@ flavor = keystone</programlisting>
       <para>Update the
           <filename>/etc/glance/glance-registry.conf</filename>:</para>
       <programlisting>[database]
-sql_connection = mysql://glanceUser:glancePass@10.10.10.51/glance
+sql_connection = mysql://glance:GLANCE_DBPASS@10.10.10.51/glance
 [keystone_authtoken]
 auth_host = 10.10.10.51
 auth_port = 35357
@@ -380,7 +380,7 @@ flavor = keystone</programlisting>
     <listitem>
       <para>Edit <filename>/etc/nova/nova.conf</filename></para>
       <programlisting>[database]
-connection = mysql://novaUser:novaPass@10.10.10.51/nova
+connection = mysql://nova:NOVA_DBPASS@10.10.10.51/nova
 
 [DEFAULT]
 rpc_backend = rabbit
@@ -498,7 +498,7 @@ admin_password = service_pass
 signing_dir = /var/lib/neutron/keystone-signing
 
 [database]
-connection = mysql://neutronUser:neutronPass@10.10.10.51/neutron</programlisting>
+connection = mysql://neutron:NEUTRON_DBPASS@10.10.10.51/neutron</programlisting>
     </listitem>
     <listitem>
       <para>Restart Nova Services</para>
@@ -521,7 +521,7 @@ connection = mysql://neutronUser:neutronPass@10.10.10.51/neutron</programlisting
     <listitem>
       <para>Edit <filename>/etc/cinder/cinder.conf</filename>:</para>
       <programlisting>[database]
-sql_connection = mysql://cinderUser:cinderPass@10.10.10.51/cinder
+sql_connection = mysql://cinder:CINDER_DBPASS@10.10.10.51/cinder
 
 [keystone_authtoken]
 auth_uri = http://10.10.10.51:5000
