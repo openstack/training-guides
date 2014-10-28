@@ -35,20 +35,6 @@ How to run the scripts
 
 This will do the complete installation for all the nodes - Controller, Compute and Network.
 
-To build one node at a time you can run
-
-        $ ./osbash -b <nodename>
-
-**Note** The node names can be 'controller', 'compute', 'network'.
-
-**Note:** The Controller node needs to be installed and running while building one of the other nodes.
-
-Controller node VM: $ ./osbash -b controller
-
-Network node VM: $ ./osbash -b network
-
-Compute node VM: $ ./osbash -b compute
-
 For more help you can check
 
         $ ./osbash --help
