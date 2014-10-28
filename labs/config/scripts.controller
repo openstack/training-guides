@@ -2,24 +2,24 @@
 cmd init_node
 cmd queue etc_hosts.sh
 cmd queue osbash/enable_vagrant_ssh_keys.sh
-cmd snapshot_cycle "network_configured"
+cmd snapshot_cycle network_configured
 cmd queue apt_install_mysql.sh
 cmd queue install_rabbitmq.sh
-cmd snapshot_cycle "pre-openstack_installed"
+cmd snapshot_cycle pre-openstack_installed
 cmd queue setup_keystone.sh
-cmd snapshot_cycle "keystone_installed"
+cmd snapshot_cycle keystone_installed
 cmd queue setup_glance.sh
-cmd snapshot_cycle "glance_installed"
+cmd snapshot_cycle glance_installed
 cmd queue setup_nova_controller.sh
-cmd snapshot_cycle "nova-controller_installed"
+cmd snapshot_cycle nova-controller_installed
 cmd queue setup_neutron_controller.sh
-cmd snapshot_cycle "neutron-controller_installed"
+cmd snapshot_cycle neutron-controller_installed
 cmd queue setup_cinder_controller.sh
-cmd snapshot_cycle "cinder_installed"
+cmd snapshot_cycle cinder_installed
 cmd queue setup_horizon.sh
-cmd snapshot_cycle "horizon_installed"
+cmd snapshot_cycle horizon_installed
 cmd queue config_external_network.sh
 cmd queue config_demo_user.sh
 cmd queue config_tenant_network.sh
-cmd snapshot_cycle "controller_node_installed"
+cmd snapshot_cycle controller_node_installed
 cmd boot
