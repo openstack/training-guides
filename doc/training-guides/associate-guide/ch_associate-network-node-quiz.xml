@@ -1,11 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
-<chapter xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude"
-  xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0"
-  xml:id="associate-network-node-quiz">
-  <?dbhtml stop-chunking?>
-  <title>Network Node Quiz</title>
-  <section xml:id="day-two-network-quiz-schedule">
-    <title>Day 2, 10:40 to 11:00</title>
-    <para></para>
-  </section>
+<chapter xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0" xml:id="associate-network-node-quiz">
+    <?dbhtml stop-chunking?>
+    <title>Network Node Quiz</title>
+    <section xml:id="day-two-network-quiz-schedule">
+        <title>Day 2, 10:40 to 11:00</title>
+        <formalpara>
+            <title>Associate Training Guide, Network Node Quiz Questions</title>
+            <para>
+                <orderedlist>
+                    <listitem>
+                        <formalpara>
+                            <title>The concept of a plug-in, which is a pluggable back-end implementation of the OpenStack Networking API, is used in OpenStack Networking and nova-network.</title>
+                            <para>
+                                <orderedlist>
+                                    <listitem>
+                                        <para>True</para>
+                                    </listitem>
+                                    <listitem>
+                                        <para>False</para>
+                                    </listitem>
+                                </orderedlist>
+                            </para>
+                        </formalpara>
+                    </listitem>
+                    <listitem>
+                        <formalpara>
+                            <title>A plug-in implements the logical API requests with L2-in-L3 tunneling or OpenFlow.</title>
+                            <para>
+                                <orderedlist>
+                                    <listitem>
+                                        <para>True</para>
+                                    </listitem>
+                                    <listitem>
+                                        <para>False</para>
+                                    </listitem>
+                                </orderedlist>
+                            </para>
+                        </formalpara>
+                    </listitem>
+                    <listitem>
+                        <formalpara>
+                            <title>As part of creating a VM, which process communicates with the OpenStack Networking API to plug each virtual NIC on the VM into a particular network:</title>
+                            <para>
+                                <orderedlist>
+                                    <listitem>
+                                        <para>nova-scheduler</para>
+                                    </listitem>
+                                    <listitem>
+                                        <para>nova-network</para>
+                                    </listitem>
+                                    <listitem>
+                                        <para>nova-compute</para>
+                                    </listitem>
+                                    <listitem>
+                                        <para>nova-quantum</para>
+                                    </listitem>
+                                    <listitem>
+                                        <para>nova-neutron</para>
+                                    </listitem>
+                                </orderedlist>
+                            </para>
+                        </formalpara>
+                    </listitem>
+                    <listitem>
+                        <formalpara>
+                            <title>A standard OpenStack Networking setup (like it was presented in this guide) has many distinct physical data center networks: (choose all that apply)</title>
+                            <para>
+                                <orderedlist>
+                                    <listitem>
+                                        <para>isolated network</para>
+                                    </listitem>
+                                    <listitem>
+                                        <para>cloud network</para>
+                                    </listitem>
+                                    <listitem>
+                                        <para>management network</para>
+                                    </listitem>
+                                    <listitem>
+                                        <para>data network</para>
+                                    </listitem>
+                                    <listitem>
+                                        <para>external-network</para>
+                                    </listitem>
+                                    <listitem>
+                                        <para>API network</para>
+                                    </listitem>
+                                    <listitem>
+                                        <para>datacenter network</para>
+                                    </listitem>
+                                </orderedlist>
+                            </para>
+                        </formalpara>
+                    </listitem>
+                    <listitem>
+                        <formalpara>
+                            <title>In this guide, we focused primarily on a standard architecture that includes a “cloud controller” host (Control node), a “network gateway” host (Network node), and a set of hypervisors for running VMs (Compute nodes). For each of the following services identify a host on which it usually runs:</title>
+                            <para>
+                                <orderedlist>
+                                    <listitem>
+                                        <para>Neutron plugin agent</para>
+                                    </listitem>
+                                    <listitem>
+                                        <para>Neutron L3 agent</para>
+                                    </listitem>
+                                    <listitem>
+                                        <para>Neutron DHCP agent</para>
+                                    </listitem>
+                                    <listitem>
+                                        <para>Neutron server</para>
+                                    </listitem>
+                                    <listitem>
+                                        <para>Neutron metadata agent</para>
+                                    </listitem>
+                                </orderedlist>
+                            </para>
+                        </formalpara>
+                    </listitem>
+                </orderedlist>
+            </para>
+        </formalpara>
+        <formalpara>
+            <title>Associate Training Guide, Network Node Quiz Answers</title>
+            <para>
+                <orderedlist>
+                    <listitem>
+                        <para>B (False) - only OpenStack Networking (Neutron) has a pluggable back-end.</para>
+                    </listitem>
+                    <listitem>
+                        <para>B (False) - a plug-in can use a variety of technologies to implement the logical API requests. Some OpenStack Networking plug-ins might use basic Linux VLANs and IP tables, while others might use more advanced technologies, such as L2-in-L3 tunneling or OpenFlow, to provide similar benefits.</para>
+                    </listitem>
+                    <listitem>
+                        <para>C</para>
+                    </listitem>
+                    <listitem>
+                        <para>C, D, E, F</para>
+                    </listitem>
+                    <listitem>
+                        <para>A - network node, compute nodes, B - network node, C - network node, D - control node, E - network node</para>
+                    </listitem>
+                </orderedlist>
+            </para>
+        </formalpara>
+    </section>
 </chapter>
