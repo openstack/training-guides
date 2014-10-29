@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-10-24 06:00+0000\n"
+"POT-Creation-Date: 2014-10-29 06:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -776,7 +776,7 @@ msgid "A new hypervisor cloud solution"
 msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:87(title)
-msgid "OpenStack code is freely available via the FreeBSD license. (True or False)"
+msgid "OpenStack code is freely available via the FreeBSD license."
 msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:91(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:106(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:121(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:160(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:175(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:20(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:36(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:101(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:118(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:159(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:174(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:238(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:301(para) ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:113(para) ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:158(para)
@@ -788,11 +788,11 @@ msgid "False"
 msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:102(title)
-msgid "OpenStack Swift is Object Storage. (True or False)"
+msgid "OpenStack Swift is Object Storage."
 msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:117(title)
-msgid "OpenStack Networking is now called Quantum. (True or False)"
+msgid "OpenStack Networking is now called Quantum."
 msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:132(title)
@@ -820,11 +820,11 @@ msgid "Ability to take store snapshots in the Image Service for backup"
 msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:156(title)
-msgid "OpenStack APIs are compatible with Amazon EC2 and Amazon S3. (True or False)"
+msgid "OpenStack APIs are compatible with Amazon EC2 and Amazon S3."
 msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:171(title)
-msgid "Horizon is the OpenStack name for Compute. (True or False)"
+msgid "Horizon is the OpenStack name for Compute."
 msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:186(title)
@@ -984,11 +984,11 @@ msgid "Associate Training Guide, Controller Node Quiz Questions"
 msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:15(title)
-msgid "When managing images for OpenStack you can complete all those tasks with the OpenStack dashboard. (True or False)"
+msgid "When managing images for OpenStack you can complete all those tasks with the OpenStack dashboard."
 msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:31(title)
-msgid "When setting up access and security, SSH credentials (keypairs) must be injected into images after they are launched with a script. (True or False)"
+msgid "When setting up access and security, SSH credentials (keypairs) must be injected into images after they are launched with a script."
 msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:47(title)
@@ -1016,7 +1016,7 @@ msgid "RAM"
 msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:71(title)
-msgid "The following OpenStack command-line clients are available. (choose all that apply)"
+msgid "The following OpenStack command-line clients are available: (choose all that apply)"
 msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:75(para)
@@ -1080,11 +1080,11 @@ msgid "To generate a keypair use the following command syntax: $ nova keypair-ad
 msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:170(title)
-msgid "When you want to launch an instance you can only do that from an image. (True or False)"
+msgid "When you want to launch an instance you can only do that from an image."
 msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:185(title)
-msgid "An instance has a Private IP address which has the following properties? (choose all that apply)"
+msgid "An instance has a Private IP address which has the following properties: (choose all that apply)"
 msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:189(para)
@@ -1128,7 +1128,7 @@ msgid "Shutdown/Restart"
 msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:234(title)
-msgid "To create a network in OpenStack use the following command: $ neutron net-create net1 (True or False)"
+msgid "To create a network in OpenStack use the following command: $ neutron net-create net1"
 msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:249(title)
@@ -1180,7 +1180,7 @@ msgid "Qpid"
 msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:297(title)
-msgid "OpenStack uses the term tenant but in earlier versions it used the term customer. (True or False)"
+msgid "OpenStack uses the term tenant but in earlier versions it used the term customer."
 msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:314(title)
@@ -4334,7 +4334,7 @@ msgid "Basic environment configuration"
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/ch_basics.xml:11(para)
-msgid "The trunk version of this guide focuses on the future Juno release and will not work for the current Icehouse release. If you want to install Icehouse, you must use the <link href=\"http://docs.openstack.org\">Icehouse version</link> of this guide instead."
+msgid "The trunk version of this guide focuses on the Icehouse release and will not work for the current Juno release. If you want to install Juno, you must use the <link href=\"http://docs.openstack.org\">Juno version</link> of this guide instead."
 msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/ch_basics.xml:20(para)

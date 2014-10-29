@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenStack Manuals\n"
-"POT-Creation-Date: 2014-10-27 21:50+0000\n"
-"PO-Revision-Date: 2014-10-27 23:50+0000\n"
-"Last-Translator: Tomoyuki KATO <tomo@dream.daynight.jp>\n"
+"POT-Creation-Date: 2014-10-28 12:44+0000\n"
+"PO-Revision-Date: 2014-10-28 11:12+0000\n"
+"Last-Translator: openstackjenkins <jenkins@openstack.org>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/openstack-manuals-i18n/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1205,9 +1205,8 @@ msgid "A new hypervisor cloud solution"
 msgstr "新しいハイパーバイザーのクラウドソリューション"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml87(title)
-msgid ""
-"OpenStack code is freely available via the FreeBSD license. (True or False)"
-msgstr "OpenStack のコードは FreeBSD ライセンスで自由に入手できる。 (真か偽か)"
+msgid "OpenStack code is freely available via the FreeBSD license."
+msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml91(para)
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml106(para)
@@ -1246,12 +1245,12 @@ msgid "False"
 msgstr "誤り"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml102(title)
-msgid "OpenStack Swift is Object Storage. (True or False)"
-msgstr "OpenStack Swift は Object Storage である。(真か偽か)"
+msgid "OpenStack Swift is Object Storage."
+msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml117(title)
-msgid "OpenStack Networking is now called Quantum. (True or False)"
-msgstr "OpenStack Networking は現在 Quantum という名称である。(真か偽か)"
+msgid "OpenStack Networking is now called Quantum."
+msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml132(title)
 msgid ""
@@ -1281,13 +1280,12 @@ msgid "Ability to take store snapshots in the Image Service for backup"
 msgstr "Image Service にあるスナップショットをバックアップのために保存する機能"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml156(title)
-msgid ""
-"OpenStack APIs are compatible with Amazon EC2 and Amazon S3. (True or False)"
-msgstr "OpenStack API は Amazon EC2 や Amazon S3 と互換性がある。(正誤判定)"
+msgid "OpenStack APIs are compatible with Amazon EC2 and Amazon S3."
+msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml171(title)
-msgid "Horizon is the OpenStack name for Compute. (True or False)"
-msgstr "Horizon は OpenStack Compute の名前である。(真か偽か)"
+msgid "Horizon is the OpenStack name for Compute."
+msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml186(title)
 msgid ""
@@ -1470,14 +1468,14 @@ msgstr "アソシエイトトレーニングガイド、コントローラーノ
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml15(title)
 msgid ""
 "When managing images for OpenStack you can complete all those tasks with the"
-" OpenStack dashboard. (True or False)"
-msgstr "OpenStack のイメージを管理するとき、すべての作業を OpenStack Dashboard を用いて実行できる。(真か偽か)"
+" OpenStack dashboard."
+msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml31(title)
 msgid ""
 "When setting up access and security, SSH credentials (keypairs) must be "
-"injected into images after they are launched with a script. (True or False)"
-msgstr "アクセスとセキュリティのセットアップ時、SSH クレデンシャル (キーペア) は、イメージの起動後にスクリプトを用いて注入する必要がある。(真か偽か)"
+"injected into images after they are launched with a script."
+msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml47(title)
 msgid "You can track monthly costs with metrics like: (choose all that apply)"
@@ -1505,9 +1503,9 @@ msgstr "メモリー"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml71(title)
 msgid ""
-"The following OpenStack command-line clients are available. (choose all that"
+"The following OpenStack command-line clients are available: (choose all that"
 " apply)"
-msgstr "以下の OpenStack コマンドラインクライアントが利用できます。 (正しいものをすべて選択)"
+msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml75(para)
 msgid "python-keystoneclient"
@@ -1576,15 +1574,14 @@ msgstr "キーペアを生成するために、以下のコマンドを使用し
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml170(title)
 msgid ""
-"When you want to launch an instance you can only do that from an image. "
-"(True or False)"
-msgstr "インスタンスを起動したいとき、イメージからのみ実行できる。(真か偽か)"
+"When you want to launch an instance you can only do that from an image."
+msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml185(title)
 msgid ""
-"An instance has a Private IP address which has the following properties? "
+"An instance has a Private IP address which has the following properties: "
 "(choose all that apply)"
-msgstr "プライベート IP アドレスを持つインスタンスは、以下のどの属性を持つでしょうか? (正しいものをすべて選択)"
+msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml189(para)
 msgid "Used for communication between instances"
@@ -1633,8 +1630,8 @@ msgstr "シャットダウン/再起動"
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml234(title)
 msgid ""
 "To create a network in OpenStack use the following command: $ neutron net-"
-"create net1 (True or False)"
-msgstr "OpenStack にネットワークを作成するために、次のコマンドを使用します: $ neutron net-create net1 (真か偽か)"
+"create net1"
+msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml249(title)
 msgid ""
@@ -1698,8 +1695,8 @@ msgstr "Qpid"
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml297(title)
 msgid ""
 "OpenStack uses the term tenant but in earlier versions it used the term "
-"customer. (True or False)"
-msgstr "OpenStack は、テナントという用語を使用しますが、以前のバージョンは顧客という用語を使用していました。(真か偽か)"
+"customer."
+msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml314(title)
 msgid "Associate Training Guide, Controller Node Quiz Answers"
@@ -6673,11 +6670,11 @@ msgstr "環境の基本設定"
 
 #: ./doc/training-guides/basic-install-guide/ch_basics.xml11(para)
 msgid ""
-"The trunk version of this guide focuses on the future Juno release and will "
-"not work for the current Icehouse release. If you want to install Icehouse, "
-"you must use the <link href=\"http://docs.openstack.org\">Icehouse "
-"version</link> of this guide instead."
-msgstr "このガイドの trunk バージョンは、将来の Juno リリースに注力し、現行の Icehouse リリースに対応していないかもしれません。Icehouse をインストールしたい場合、このガイドの <link href=\"http://docs.openstack.org\">Icehouse バージョン</link>を使用する必要があります。"
+"The trunk version of this guide focuses on the Icehouse release and will not"
+" work for the current Juno release. If you want to install Juno, you must "
+"use the <link href=\"http://docs.openstack.org\">Juno version</link> of this"
+" guide instead."
+msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/ch_basics.xml20(para)
 msgid ""
