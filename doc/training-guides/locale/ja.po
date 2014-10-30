@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenStack Manuals\n"
-"POT-Creation-Date: 2014-10-28 12:44+0000\n"
-"PO-Revision-Date: 2014-10-28 11:12+0000\n"
+"POT-Creation-Date: 2014-10-29 12:26+0000\n"
+"PO-Revision-Date: 2014-10-29 12:41+0000\n"
 "Last-Translator: openstackjenkins <jenkins@openstack.org>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/openstack-manuals-i18n/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -816,7 +816,7 @@ msgid "Operator OpenStack Neutron Floating IPs"
 msgstr "運用者向け OpenStack Neutron Floating IP"
 
 #: ./doc/training-guides/operator-guide/ch_operator-network-node-quiz.xml6(title)
-#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml6(title)
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml4(title)
 msgid "Network Node Quiz"
 msgstr "ネットワークノードクイズ"
 
@@ -1213,6 +1213,8 @@ msgstr ""
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml121(para)
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml160(para)
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml175(para)
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml17(para)
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml32(para)
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml20(para)
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml36(para)
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml101(para)
@@ -1231,6 +1233,8 @@ msgstr "正しい"
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml124(para)
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml163(para)
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml178(para)
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml20(para)
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml35(para)
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml23(para)
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml39(para)
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml104(para)
@@ -1361,9 +1365,149 @@ msgstr "2 日目、16:00 ～ 17:00"
 msgid "Associate Training Guide"
 msgstr "アソシエイトトレーニングガイド"
 
-#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml8(title)
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml6(title)
 msgid "Day 2, 10:40 to 11:00"
 msgstr "2 日目、10:40 ～ 11:00"
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml8(title)
+msgid "Associate Training Guide, Network Node Quiz Questions"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml13(title)
+msgid ""
+"The concept of a plug-in, which is a pluggable back-end implementation of "
+"the OpenStack Networking API, is used in OpenStack Networking and nova-"
+"network."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml28(title)
+msgid ""
+"A plug-in implements the logical API requests with L2-in-L3 tunneling or "
+"OpenFlow."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml43(title)
+msgid ""
+"As part of creating a VM, which process communicates with the OpenStack "
+"Networking API to plug each virtual NIC on the VM into a particular network:"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml47(para)
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml31(para)
+msgid "nova-scheduler"
+msgstr "nova-scheduler"
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml50(para)
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml19(para)
+msgid "nova-network"
+msgstr "nova-network"
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml53(para)
+#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml25(para)
+msgid "nova-compute"
+msgstr "nova-compute"
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml56(para)
+msgid "nova-quantum"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml59(para)
+msgid "nova-neutron"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml67(title)
+msgid ""
+"A standard OpenStack Networking setup (like it was presented in this guide) "
+"has many distinct physical data center networks: (choose all that apply)"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml71(para)
+msgid "isolated network"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml74(para)
+msgid "cloud network"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml77(para)
+msgid "management network"
+msgstr "管理ネットワーク"
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml80(para)
+msgid "data network"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml83(para)
+msgid "external-network"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml86(para)
+msgid "API network"
+msgstr "API ネットワーク"
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml89(para)
+msgid "datacenter network"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml97(title)
+msgid ""
+"In this guide, we focused primarily on a standard architecture that includes"
+" a “cloud controller” host (Control node), a “network gateway” host (Network"
+" node), and a set of hypervisors for running VMs (Compute nodes). For each "
+"of the following services identify a host on which it usually runs:"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml101(para)
+msgid "Neutron plugin agent"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml104(para)
+msgid "Neutron L3 agent"
+msgstr "neutron L3 エージェント"
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml107(para)
+msgid "Neutron DHCP agent"
+msgstr "Neutron DHCP エージェント"
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml110(para)
+msgid "Neutron server"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml113(para)
+msgid "Neutron metadata agent"
+msgstr "Neutron メタデータエージェント"
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml123(title)
+msgid "Associate Training Guide, Network Node Quiz Answers"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml127(para)
+msgid ""
+"B (False) - only OpenStack Networking (Neutron) has a pluggable back-end."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml130(para)
+msgid ""
+"B (False) - a plug-in can use a variety of technologies to implement the "
+"logical API requests. Some OpenStack Networking plug-ins might use basic "
+"Linux VLANs and IP tables, while others might use more advanced "
+"technologies, such as L2-in-L3 tunneling or OpenFlow, to provide similar "
+"benefits."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml133(para)
+msgid "C"
+msgstr "C"
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml136(para)
+msgid "C, D, E, F"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml139(para)
+msgid ""
+"A - network node, compute nodes, B - network node, C - network node, D - "
+"control node, E - network node"
+msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-assessment.xml6(title)
 #: ./doc/training-guides/developer-guide/ch_developer-assessment.xml6(title)
@@ -1784,25 +1928,13 @@ msgstr "アソシエイトトレーニングガイド、コンピュートノー
 msgid "Which component determines which host a VM should launch on?"
 msgstr "どのコンポーネントが、仮想マシンの起動するホストを判断するでしょうか?"
 
-#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml19(para)
-msgid "nova-network"
-msgstr "nova-network"
-
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml22(para)
 msgid "queue"
 msgstr "queue"
 
-#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml25(para)
-msgid "nova-compute"
-msgstr "nova-compute"
-
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml28(para)
 msgid "nova-console"
 msgstr "nova-console"
-
-#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml31(para)
-msgid "nova-scheduler"
-msgstr "nova-scheduler"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml34(para)
 msgid "nova-api"

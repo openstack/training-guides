@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-10-29 06:00+0000\n"
+"POT-Creation-Date: 2014-10-30 06:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -457,7 +457,7 @@ msgstr ""
 msgid "Operator OpenStack Neutron Floating IPs"
 msgstr ""
 
-#: ./doc/training-guides/operator-guide/ch_operator-network-node-quiz.xml:6(title) ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:6(title)
+#: ./doc/training-guides/operator-guide/ch_operator-network-node-quiz.xml:6(title) ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:4(title)
 msgid "Network Node Quiz"
 msgstr ""
 
@@ -779,11 +779,11 @@ msgstr ""
 msgid "OpenStack code is freely available via the FreeBSD license."
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:91(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:106(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:121(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:160(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:175(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:20(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:36(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:101(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:118(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:159(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:174(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:238(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:301(para) ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:113(para) ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:158(para)
+#: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:91(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:106(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:121(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:160(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:175(para) ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:17(para) ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:32(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:20(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:36(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:101(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:118(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:159(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:174(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:238(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:301(para) ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:113(para) ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:158(para)
 msgid "True"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:94(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:109(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:124(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:163(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:178(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:23(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:39(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:104(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:121(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:162(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:177(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:241(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:304(para) ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:116(para) ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:161(para)
+#: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:94(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:109(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:124(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:163(para) ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml:178(para) ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:20(para) ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:35(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:23(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:39(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:104(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:121(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:162(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:177(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:241(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:304(para) ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:116(para) ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:161(para)
 msgid "False"
 msgstr ""
 
@@ -895,8 +895,124 @@ msgstr ""
 msgid "Associate Training Guide"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:8(title)
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:6(title)
 msgid "Day 2, 10:40 to 11:00"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:8(title)
+msgid "Associate Training Guide, Network Node Quiz Questions"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:13(title)
+msgid "The concept of a plug-in, which is a pluggable back-end implementation of the OpenStack Networking API, is used in OpenStack Networking and nova-network."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:28(title)
+msgid "A plug-in implements the logical API requests with L2-in-L3 tunneling or OpenFlow."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:43(title)
+msgid "As part of creating a VM, which process communicates with the OpenStack Networking API to plug each virtual NIC on the VM into a particular network:"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:47(para) ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:31(para)
+msgid "nova-scheduler"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:50(para) ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:19(para)
+msgid "nova-network"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:53(para) ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:25(para)
+msgid "nova-compute"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:56(para)
+msgid "nova-quantum"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:59(para)
+msgid "nova-neutron"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:67(title)
+msgid "A standard OpenStack Networking setup (like it was presented in this guide) has many distinct physical data center networks: (choose all that apply)"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:71(para)
+msgid "isolated network"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:74(para)
+msgid "cloud network"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:77(para)
+msgid "management network"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:80(para)
+msgid "data network"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:83(para)
+msgid "external-network"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:86(para)
+msgid "API network"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:89(para)
+msgid "datacenter network"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:97(title)
+msgid "In this guide, we focused primarily on a standard architecture that includes a “cloud controller” host (Control node), a “network gateway” host (Network node), and a set of hypervisors for running VMs (Compute nodes). For each of the following services identify a host on which it usually runs:"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:101(para)
+msgid "Neutron plugin agent"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:104(para)
+msgid "Neutron L3 agent"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:107(para)
+msgid "Neutron DHCP agent"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:110(para)
+msgid "Neutron server"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:113(para)
+msgid "Neutron metadata agent"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:123(title)
+msgid "Associate Training Guide, Network Node Quiz Answers"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:127(para)
+msgid "B (False) - only OpenStack Networking (Neutron) has a pluggable back-end."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:130(para)
+msgid "B (False) - a plug-in can use a variety of technologies to implement the logical API requests. Some OpenStack Networking plug-ins might use basic Linux VLANs and IP tables, while others might use more advanced technologies, such as L2-in-L3 tunneling or OpenFlow, to provide similar benefits."
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:133(para)
+msgid "C"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:136(para)
+msgid "C, D, E, F"
+msgstr ""
+
+#: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml:139(para)
+msgid "A - network node, compute nodes, B - network node, C - network node, D - control node, E - network node"
 msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-assessment.xml:6(title) ./doc/training-guides/developer-guide/ch_developer-assessment.xml:6(title)
@@ -1243,24 +1359,12 @@ msgstr ""
 msgid "Which component determines which host a VM should launch on?"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:19(para)
-msgid "nova-network"
-msgstr ""
-
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:22(para)
 msgid "queue"
 msgstr ""
 
-#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:25(para)
-msgid "nova-compute"
-msgstr ""
-
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:28(para)
 msgid "nova-console"
-msgstr ""
-
-#: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:31(para)
-msgid "nova-scheduler"
 msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml:34(para)
