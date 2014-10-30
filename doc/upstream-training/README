@@ -12,7 +12,12 @@ Install the latest stable version of Landslide with a python package manager lik
 
   $ pip install landslide
 
-To build the presentations
+To build a presentation
+-----------------------
+
+  $ landslide -r -d <presentation.html> <presentation.rst>
+
+To build all presentations
 --------------------------
 
-  $ landslide <presentation.rst>
+  $ ./landslide.sh
