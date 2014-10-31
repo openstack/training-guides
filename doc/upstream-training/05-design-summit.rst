@@ -1,13 +1,6 @@
 OpenStack Design Summit
 =======================
 
-
-OpenStack Upstream Training
----------------------------
-
- <teacher name>
- <date>
-
 ----
 
 Design Summit
