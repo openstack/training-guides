@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-10-30 06:00+0000\n"
+"POT-Creation-Date: 2014-11-01 06:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12054,7 +12054,7 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ./doc/training-guides/common/section_neutron-use-cases.xml:68(None)
-msgid "@@image: '../figures/image36.png'; md5=880830d2a425db41661840218713072d"
+msgid "@@image: '../figures/image36.png'; md5=35909c86a7958e26ea38da228c07e6d0"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.

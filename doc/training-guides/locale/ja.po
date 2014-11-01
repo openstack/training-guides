@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenStack Manuals\n"
-"POT-Creation-Date: 2014-10-29 12:26+0000\n"
-"PO-Revision-Date: 2014-10-29 12:41+0000\n"
+"POT-Creation-Date: 2014-10-31 07:33+0000\n"
+"PO-Revision-Date: 2014-10-30 10:27+0000\n"
 "Last-Translator: openstackjenkins <jenkins@openstack.org>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/openstack-manuals-i18n/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -1206,7 +1206,7 @@ msgstr "新しいハイパーバイザーのクラウドソリューション"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml87(title)
 msgid "OpenStack code is freely available via the FreeBSD license."
-msgstr ""
+msgstr "OpenStack のコードは FreeBSD ライセンスで自由に入手できる。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml91(para)
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml106(para)
@@ -1250,11 +1250,11 @@ msgstr "誤り"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml102(title)
 msgid "OpenStack Swift is Object Storage."
-msgstr ""
+msgstr "OpenStack Swift は Object Storage である。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml117(title)
 msgid "OpenStack Networking is now called Quantum."
-msgstr ""
+msgstr "OpenStack Networking は現在 Quantum という名称である。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml132(title)
 msgid ""
@@ -1285,11 +1285,11 @@ msgstr "Image Service にあるスナップショットをバックアップの�
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml156(title)
 msgid "OpenStack APIs are compatible with Amazon EC2 and Amazon S3."
-msgstr ""
+msgstr "OpenStack API は Amazon EC2 や Amazon S3 と互換性がある。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml171(title)
 msgid "Horizon is the OpenStack name for Compute."
-msgstr ""
+msgstr "Horizon は OpenStack Compute の名称である。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml186(title)
 msgid ""
@@ -1371,7 +1371,7 @@ msgstr "2 日目、10:40 ～ 11:00"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml8(title)
 msgid "Associate Training Guide, Network Node Quiz Questions"
-msgstr ""
+msgstr "アソシエイトトレーニングガイド、ネットワークノードクイズ問題"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml13(title)
 msgid ""
@@ -1409,11 +1409,11 @@ msgstr "nova-compute"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml56(para)
 msgid "nova-quantum"
-msgstr ""
+msgstr "nova-quantum"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml59(para)
 msgid "nova-neutron"
-msgstr ""
+msgstr "nova-neutron"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml67(title)
 msgid ""
@@ -1423,11 +1423,11 @@ msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml71(para)
 msgid "isolated network"
-msgstr ""
+msgstr "隔離ネットワーク"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml74(para)
 msgid "cloud network"
-msgstr ""
+msgstr "クラウドネットワーク"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml77(para)
 msgid "management network"
@@ -1435,11 +1435,11 @@ msgstr "管理ネットワーク"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml80(para)
 msgid "data network"
-msgstr ""
+msgstr "データネットワーク"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml83(para)
 msgid "external-network"
-msgstr ""
+msgstr "外部ネットワーク"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml86(para)
 msgid "API network"
@@ -1447,7 +1447,7 @@ msgstr "API ネットワーク"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml89(para)
 msgid "datacenter network"
-msgstr ""
+msgstr "データセンターネットワーク"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml97(title)
 msgid ""
@@ -1459,7 +1459,7 @@ msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml101(para)
 msgid "Neutron plugin agent"
-msgstr ""
+msgstr "Neutron プラグインエージェント"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml104(para)
 msgid "Neutron L3 agent"
@@ -1471,7 +1471,7 @@ msgstr "Neutron DHCP エージェント"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml110(para)
 msgid "Neutron server"
-msgstr ""
+msgstr "Neutron サーバー"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml113(para)
 msgid "Neutron metadata agent"
@@ -1479,12 +1479,12 @@ msgstr "Neutron メタデータエージェント"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml123(title)
 msgid "Associate Training Guide, Network Node Quiz Answers"
-msgstr ""
+msgstr "アソシエイトトレーニングガイド、ネットワークノードクイズ解答"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml127(para)
 msgid ""
 "B (False) - only OpenStack Networking (Neutron) has a pluggable back-end."
-msgstr ""
+msgstr "B (偽) - OpenStack Networking (Neutron) のみが、プラグイン可能なバックエンドを持ちます。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml130(para)
 msgid ""
@@ -1501,7 +1501,7 @@ msgstr "C"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml136(para)
 msgid "C, D, E, F"
-msgstr ""
+msgstr "C, D, E, F"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml139(para)
 msgid ""
@@ -1613,13 +1613,13 @@ msgstr "アソシエイトトレーニングガイド、コントローラーノ
 msgid ""
 "When managing images for OpenStack you can complete all those tasks with the"
 " OpenStack dashboard."
-msgstr ""
+msgstr "OpenStack のイメージを管理するとき、すべての作業を OpenStack Dashboard を用いて実行できる。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml31(title)
 msgid ""
 "When setting up access and security, SSH credentials (keypairs) must be "
 "injected into images after they are launched with a script."
-msgstr ""
+msgstr "アクセスとセキュリティのセットアップ時、SSH クレデンシャル (キーペア) は、イメージの起動後にスクリプトを用いて注入する必要がある。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml47(title)
 msgid "You can track monthly costs with metrics like: (choose all that apply)"
@@ -1719,7 +1719,7 @@ msgstr "キーペアを生成するために、以下のコマンドを使用し
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml170(title)
 msgid ""
 "When you want to launch an instance you can only do that from an image."
-msgstr ""
+msgstr "インスタンスを起動したいとき、イメージのみから実行できる。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml185(title)
 msgid ""
@@ -1775,7 +1775,7 @@ msgstr "シャットダウン/再起動"
 msgid ""
 "To create a network in OpenStack use the following command: $ neutron net-"
 "create net1"
-msgstr ""
+msgstr "OpenStack にネットワークを作成するために、次のコマンドを使用します。$ neutron net-create net1"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml249(title)
 msgid ""
@@ -1840,7 +1840,7 @@ msgstr "Qpid"
 msgid ""
 "OpenStack uses the term tenant but in earlier versions it used the term "
 "customer."
-msgstr ""
+msgstr "OpenStack は、テナントという用語を使用しますが、以前のバージョンは顧客という用語を使用していました。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml314(title)
 msgid "Associate Training Guide, Controller Node Quiz Answers"
@@ -18528,8 +18528,8 @@ msgstr "@@image: '../figures/image35.png'; md5=9399b9e427152d07037568bdf38fb184"
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ./doc/training-guides/common/section_neutron-use-cases.xml68(None)
 msgid ""
-"@@image: '../figures/image36.png'; md5=880830d2a425db41661840218713072d"
-msgstr "@@image: '../figures/image36.png'; md5=880830d2a425db41661840218713072d"
+"@@image: '../figures/image36.png'; md5=35909c86a7958e26ea38da228c07e6d0"
+msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.
