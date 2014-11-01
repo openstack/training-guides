@@ -68,9 +68,19 @@ Implementation : freezes
 ========================
 
 .. class:: colleft
-- Feature proposal freeze
-- String freeze
 - Feature freeze
+
+  - new features will not be accepted, only fixes
+
+- Feature proposal freeze
+
+  - not even proposals for features will be accepted
+  - read: focus on bug-fixing
+
+- String freeze
+
+  - all externally visible strings must be frozen
+  - this helps the translation and documentation program
 
 .. class:: colright
 .. image:: ./_assets/01-01-release.png
