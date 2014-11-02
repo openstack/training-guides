@@ -2,12 +2,6 @@ Lego applied to Free Software contributions
 ===========================================
 
 
-OpenStack Upstream Training
----------------------------
-
- <teacher name>
- <date>
-
 ----
 
 Agile manifesto

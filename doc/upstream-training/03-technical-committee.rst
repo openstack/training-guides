@@ -1,14 +1,7 @@
 OpenStack Technical Committee
 =============================
 
-
-OpenStack Upstream Training
----------------------------
-
- <teacher name>
- <date>
-
-----
+-----
 
 Technical Committee
 ===================

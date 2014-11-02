@@ -1,12 +1,5 @@
-OpenStack Technical Committee
-=============================
-
-
 OpenStack Program Ecosystem
----------------------------
-
- <teacher name>
- <date>
+===========================
 
 ----
 
