@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenStack Manuals\n"
-"POT-Creation-Date: 2014-11-01 14:16+0000\n"
-"PO-Revision-Date: 2014-11-01 14:16+0000\n"
-"Last-Translator: openstackjenkins <jenkins@openstack.org>\n"
+"POT-Creation-Date: 2014-11-03 06:47+0000\n"
+"PO-Revision-Date: 2014-11-04 11:01+0000\n"
+"Last-Translator: Tomoyuki KATO <tomo@dream.daynight.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/openstack-manuals-i18n/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -252,7 +252,7 @@ msgid ""
 "Run the shell scripts in the <filename>Scripts</filename> folder to verify "
 "they run correctly. Do not install VirtualBox, even though it is recommended"
 " because your host machine might fail."
-msgstr ""
+msgstr "<filename>Scripts</filename> フォルダーでシェルスクリプトを実行して、正しく動作していることを検証します。ホストマシンが停止するかもしれないため、VirtualBox をインストールしないことを推奨します。"
 
 #: ./doc/training-guides/training-cluster-by-script.xml43(para)
 msgid ""
@@ -260,7 +260,7 @@ msgid ""
 " do not want to run them manually, run the "
 "<filename>Scripts/test_scripts.sh</filename> file. Virtual Box guest add-ons"
 " are not required to test the scripts as units."
-msgstr ""
+msgstr "スクリプトを確認するために、実行します。いくつかのスクリプトは、入力パラメーターが必要です。手動で実行したくない場合、<filename>Scripts/test_scripts.sh</filename> ファイルを実行します。VirtualBox ゲストアドオンは、ユニットにあるとおりスクリプトを確認するために必要ありません。"
 
 #: ./doc/training-guides/training-cluster-by-script.xml50(title)
 msgid "Test the entire system"
@@ -2059,13 +2059,13 @@ msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml173(para)
 msgid "nova-scheduler picks up the request from the queue."
-msgstr ""
+msgstr "nova-scheduler は、キューからリクエストを取り出します。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml176(para)
 msgid ""
 "nova-compute generates data for the hypervisor driver and executes the "
 "request on the hypervisor (via libvirt or API)."
-msgstr ""
+msgstr "nova-compute は、ハイパーバイザードライバー用データを生成し、ハイパーバイザーで (libvirt や API 経由で)　リクエストを実行します。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml179(para)
 msgid ""
@@ -12294,7 +12294,7 @@ msgstr ""
 #: ./doc/training-guides/basic-install-guide/common/section_objectstorage-arch.xml40(title)
 #: ./doc/training-guides/basic-install-guide/common/section_objectstorage-arch.xml69(title)
 msgid "Factors to consider"
-msgstr ""
+msgstr "考慮事項"
 
 #: ./doc/training-guides/basic-install-guide/common/section_objectstorage-arch.xml41(para)
 msgid ""
@@ -19228,7 +19228,7 @@ msgstr "大規模スケーラビリティー"
 
 #: ./doc/training-guides/common/section_brief-overview.xml25(para)
 msgid "feature rich"
-msgstr ""
+msgstr "高機能"
 
 #: ./doc/training-guides/common/section_brief-overview.xml28(para)
 msgid ""
