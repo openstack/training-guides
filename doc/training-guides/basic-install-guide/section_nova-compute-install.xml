@@ -22,23 +22,14 @@
     <title>To install and configure the Compute hypervisor components</title>
     <step>
       <para>Install the packages:</para>
-      <screen os="ubuntu"><prompt>#</prompt> <userinput>apt-get install nova-compute</userinput></screen>
-      <screen os="rhel;centos;fedora"><prompt>#</prompt> <userinput>yum install openstack-nova-compute</userinput></screen>
-      <screen os="sles;opensuse"><prompt>#</prompt> <userinput>zypper install openstack-nova-compute genisoimage</userinput></screen>
+      <screen os="ubuntu"><prompt>#</prompt> <userinput>apt-get install nova-compute sysfsutils</userinput></screen>
+      <screen os="rhel;centos;fedora"><prompt>#</prompt> <userinput>yum install openstack-nova-compute sysfsutils</userinput></screen>
+      <screen os="sles;opensuse"><prompt>#</prompt> <userinput>zypper install openstack-nova-compute genisoimage kvm</userinput></screen>
     </step>
     <step>
       <para>Edit the <filename>/etc/nova/nova.conf</filename> file and
         complete the following actions:</para>
       <substeps>
-        <step>
-          <para>In the <literal>[database]</literal> section, configure
-            database access:</para>
-          <programlisting language="ini">[database]
-...
-connection = mysql://nova:<replaceable>NOVA_DBPASS</replaceable>@<replaceable>controller</replaceable>/nova</programlisting>
-          <para>Replace <replaceable>NOVA_DBPASS</replaceable> with the password
-            you chose for the Compute database.</para>
-        </step>
         <step>
           <para>In the <literal>[DEFAULT]</literal> section, configure
             <application>RabbitMQ</application> message broker access:</para>
@@ -52,32 +43,40 @@ rabbit_password = <replaceable>RABBIT_PASS</replaceable></programlisting>
             <application>RabbitMQ</application>.</para>
         </step>
         <step>
-          <para>In the <literal>[keystone_authtoken</literal>] section,
+          <para>In the <literal>[DEFAULT]</literal> and
+            <literal>[keystone_authtoken]</literal> sections,
             configure Identity service access:</para>
-         <programlisting language="ini">
+         <programlisting language="ini">[DEFAULT]
+...
+auth_strategy = keystone
+
 [keystone_authtoken]
 ...
 auth_uri = http://<replaceable>controller</replaceable>:5000/v2.0
-auth_host = <replaceable>controller</replaceable>
-auth_port = 35357
-auth_protocol = http
+identity_uri = http://<replaceable>controller</replaceable>:35357
 admin_tenant_name = service
 admin_user = nova
 admin_password = <replaceable>NOVA_PASS</replaceable></programlisting>
           <para>Replace <replaceable>NOVA_PASS</replaceable> with the password
             you chose for the <literal>nova</literal> user in the Identity
             service.</para>
+          <note>
+            <para>Comment out any <literal>auth_host</literal>,
+              <literal>auth_port</literal>, and
+              <literal>auth_protocol</literal> options because the
+              <literal>identity_uri</literal> option replaces them.</para>
+          </note>
         </step>
         <step>
           <para>In the <literal>[DEFAULT]</literal> section, configure the
-            <literal>my_ip</literal> key:</para>
+            <literal>my_ip</literal> option:</para>
           <programlisting language="ini">[DEFAULT]
 ...
 my_ip = <replaceable>MANAGEMENT_INTERFACE_IP_ADDRESS</replaceable></programlisting>
           <para>Replace
             <replaceable>MANAGEMENT_INTERFACE_IP_ADDRESS</replaceable> with
             the IP address of the management network interface on your
-            first compute node, typically 10.0.0.31 in the
+            compute node, typically 10.0.0.31 for the first node in the
             <link linkend="architecture_example-architectures">example
             architecture</link>.</para>
         </step>
@@ -98,7 +97,7 @@ novncproxy_base_url = http://<replaceable>controller</replaceable>:6080/vnc_auto
           <para>Replace
             <replaceable>MANAGEMENT_INTERFACE_IP_ADDRESS</replaceable> with
             the IP address of the management network interface on your
-            first compute node, typically 10.0.0.31 in the
+            compute node, typically 10.0.0.31 for the first node in the
             <link linkend="architecture_example-architectures">example
             architecture</link>.</para>
           <note>
@@ -110,11 +109,35 @@ novncproxy_base_url = http://<replaceable>controller</replaceable>:6080/vnc_auto
           </note>
         </step>
         <step>
-          <para>In the <literal>[DEFAULT]</literal> section, configure the
+          <para>In the <literal>[glance]</literal> section, configure the
             location of the Image Service:</para>
+          <programlisting language="ini">[glance]
+...
+host = <replaceable>controller</replaceable></programlisting>
+        </step>
+        <step>
+          <para>(Optional) To assist with troubleshooting,
+            enable verbose logging in the <literal>[DEFAULT]</literal> section:</para>
           <programlisting language="ini">[DEFAULT]
 ...
-glance_host = <replaceable>controller</replaceable></programlisting>
+verbose = True</programlisting>
+        </step>
+      </substeps>
+    </step>
+    <step os="opensuse;sles">
+      <substeps>
+        <step>
+          <para>Ensure the kernel module <literal>nbd</literal> is
+            loaded.</para>
+          <screen><prompt>#</prompt> <userinput>modprobe nbd</userinput></screen>
+        </step>
+        <step>
+          <para>Ensure the module will be loaded on every boot.</para>
+          <para>On openSUSE by adding <literal>nbd</literal> in the
+            <filename>/etc/modules-load.d/nbd.conf</filename> file.</para>
+          <para>On SLES by adding or modifying the following line in the
+            <filename>/etc/sysconfig/kernel</filename> file.</para>
+          <programlisting language="ini">MODULES_LOADED_ON_BOOT = "nbd"</programlisting>
         </step>
       </substeps>
     </step>
@@ -124,16 +147,6 @@ glance_host = <replaceable>controller</replaceable></programlisting>
     <step>
       <para>Install the packages:</para>
       <screen><prompt>#</prompt> <userinput>apt-get install nova-compute</userinput></screen>
-    </step>
-    <step>
-      <para>Respond to the prompts for
-        <link linkend="debconf-dbconfig-common">database management</link>,
-        <link linkend="debconf-keystone_authtoken">Identity service
-        credentials</link>,
-        <link linkend="debconf-api-endpoints">service endpoint
-        registration</link>, and
-        <link linkend="debconf-rabbitmq">message broker
-        credentials.</link>.</para>
     </step>
   </procedure>
   <procedure>
@@ -159,21 +172,6 @@ glance_host = <replaceable>controller</replaceable></programlisting>
           <programlisting language="ini">[libvirt]
 ...
 virt_type = qemu</programlisting>
-          <warning os="ubuntu">
-            <para>On Ubuntu 12.04, kernels backported from newer releases may
-              not automatically load the KVM modules for hardware acceleration
-              when the compute node boots. In this case, launching an instance
-              will fail with the following message in the
-              <filename>/var/log/nova/nova-compute.log</filename> file:</para>
-            <screen><computeroutput>libvirtError: internal error: no supported architecture for os type 'hvm'</computeroutput></screen>
-            <para>As a workaround for this issue, you must add the appropriate
-              module for your compute node to the
-              <filename>/etc/modules</filename> file.</para>
-            <para>For systems with Intel processors:</para>
-            <screen><prompt>#</prompt> <userinput>echo 'kvm_intel' >> /etc/modules</userinput></screen>
-            <para>For systems with AMD processors:</para>
-            <screen><prompt>#</prompt> <userinput>echo 'kvm_amd' >> /etc/modules</userinput></screen>
-          </warning>
         </step>
       </substeps>
     </step>
@@ -184,36 +182,24 @@ virt_type = qemu</programlisting>
     <step os="rhel;centos;fedora;sles;opensuse">
       <para>Start the Compute service including its dependencies and configure
         them to start automatically when the system boots:</para>
-      <stepalternatives os="rhel;centos;fedora">
-        <step>
-          <para>For RHEL, CentOS, and compatible derivatives:</para>
-          <screen><prompt>#</prompt> <userinput>service libvirtd start</userinput>
-<prompt>#</prompt> <userinput>service messagebus start</userinput>
-<prompt>#</prompt> <userinput>service openstack-nova-compute start</userinput>
-<prompt>#</prompt> <userinput>chkconfig libvirtd on</userinput>
-<prompt>#</prompt> <userinput>chkconfig messagebus on</userinput>
-<prompt>#</prompt> <userinput>chkconfig openstack-nova-compute on</userinput></screen>
-        </step>
-        <step>
-          <para>For Fedora:</para>
-          <screen><prompt>#</prompt> <userinput>service libvirtd start</userinput>
-<prompt>#</prompt> <userinput>service dbus start</userinput>
-<prompt>#</prompt> <userinput>service openstack-nova-compute start</userinput>
-<prompt>#</prompt> <userinput>chkconfig libvirtd on</userinput>
-<prompt>#</prompt> <userinput>chkconfig dbus on</userinput>
-<prompt>#</prompt> <userinput>chkconfig openstack-nova-compute on</userinput></screen>
-        </step>
-      </stepalternatives>
-      <screen os="opensuse;sles"><prompt>#</prompt> <userinput>service libvirtd start</userinput>
+      <screen os="rhel;centos;fedora"><prompt>#</prompt> <userinput>systemctl enable libvirtd.service openstack-nova-compute.service</userinput>
+<prompt>#</prompt> <userinput>systemctl start libvirtd.service</userinput>
+<prompt>#</prompt> <userinput>systemctl start openstack-nova-compute.service</userinput></screen>
+      <para os="sles">On SLES:</para>
+      <screen os="sles"><prompt>#</prompt> <userinput>service libvirtd start</userinput>
 <prompt>#</prompt> <userinput>chkconfig libvirtd on</userinput>
 <prompt>#</prompt> <userinput>service openstack-nova-compute start</userinput>
 <prompt>#</prompt> <userinput>chkconfig openstack-nova-compute on</userinput></screen>
+      <para os="opensuse">On openSUSE:</para>
+      <screen os="opensuse"><prompt>#</prompt> <userinput>systemctl enable libvirtd.service openstack-nova-compute.service</userinput>
+<prompt>#</prompt> <userinput>systemctl start libvirtd.service</userinput>
+<prompt>#</prompt> <userinput>systemctl start openstack-nova-compute.service</userinput></screen>
     </step>
     <step os="ubuntu">
       <para>By default, the Ubuntu packages create an SQLite database.</para>
       <para>Because this configuration uses a SQL database server, you can
         remove the SQLite database file:</para>
-      <screen><prompt>#</prompt> <userinput>rm /var/lib/nova/nova.sqlite</userinput></screen>
+      <screen><prompt>#</prompt> <userinput>rm -f /var/lib/nova/nova.sqlite</userinput></screen>
     </step>
   </procedure>
 </section>

@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE chapter [
-<!ENTITY % openstack SYSTEM "https://raw.githubusercontent.com/openstack/openstack-manuals/master/doc/common/entities/openstack.ent">
-%openstack;
-]>
 <chapter xmlns="http://docbook.org/ns/docbook"
   xmlns:xi="http://www.w3.org/2001/XInclude"
   xmlns:xlink="http://www.w3.org/1999/xlink"

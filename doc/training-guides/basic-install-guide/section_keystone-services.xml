@@ -25,14 +25,15 @@
         services in your environment.</para>
       <para>Create the service entity for the Identity service:</para>
       <screen><prompt>$</prompt> <userinput>keystone service-create --name keystone --type identity \
-  --description="OpenStack Identity"</userinput>
+  --description "OpenStack Identity"</userinput>
 <computeroutput>+-------------+----------------------------------+
 |   Property  |              Value               |
 +-------------+----------------------------------+
 | description |        OpenStack Identity        |
-| id          | 15c11a23667e427e91bc31335b45f4bd |
-| name        |             keystone             |
-| type        |             identity             |
+|   enabled   |               True               |
+|      id     | 15c11a23667e427e91bc31335b45f4bd |
+|     name    |             keystone             |
+|     type    |             identity             |
 +-------------+----------------------------------+</computeroutput></screen>
       <note>
         <para>Because OpenStack generates IDs dynamically, you will see
@@ -47,23 +48,26 @@
       <para>OpenStack provides three API endpoint variations for each service:
         admin, internal, and public. In a production environment, the variants
         might reside on separate networks that service different types of users
-        for security reasons. For simplicity, this configuration uses the
-        management network for all variations.</para>
+        for security reasons. Also, OpenStack supports multiple regions for
+        scalability. For simplicity, this configuration uses the management
+        network for all endpoint variations and the
+        <literal>regionOne</literal> region.</para>
       <para>Create the API endpoint for the Identity service:</para>
       <screen><prompt>$</prompt> <userinput>keystone endpoint-create \
-  --service-id=$(keystone service-list | awk '/ identity / {print $2}') \
-  --publicurl=http://<replaceable>controller</replaceable>:5000/v2.0 \
-  --internalurl=http://<replaceable>controller</replaceable>:5000/v2.0 \
-  --adminurl=http://<replaceable>controller</replaceable>:35357/v2.0</userinput>
+  --service-id $(keystone service-list | awk '/ identity / {print $2}') \
+  --publicurl http://<replaceable>controller</replaceable>:5000/v2.0 \
+  --internalurl http://<replaceable>controller</replaceable>:5000/v2.0 \
+  --adminurl http://<replaceable>controller</replaceable>:35357/v2.0 \
+  --region regionOne</userinput>
 <computeroutput>+-------------+----------------------------------+
 |   Property  |             Value                |
 +-------------+----------------------------------+
-| adminurl    |   http://controller:35357/v2.0   |
-| id          | 11f9c625a3b94a3f8e66bf4e5de2679f |
+|   adminurl  |   http://controller:35357/v2.0   |
+|      id     | 11f9c625a3b94a3f8e66bf4e5de2679f |
 | internalurl |   http://controller:5000/v2.0    |
-| publicurl   |   http://controller:5000/v2.0    |
-| region      |           regionOne              |
-| service_id  | 15c11a23667e427e91bc31335b45f4bd |
+|  publicurl  |   http://controller:5000/v2.0    |
+|    region   |           regionOne              |
+|  service_id | 15c11a23667e427e91bc31335b45f4bd |
 +-------------+----------------------------------+</computeroutput></screen>
       <note>
         <para>This command references the ID of the service that you created

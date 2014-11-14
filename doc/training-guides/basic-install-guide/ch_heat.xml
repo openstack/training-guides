@@ -7,7 +7,6 @@
   <title>Add the Orchestration module</title>
   <para>The Orchestration module (heat) uses a heat orchestration template
     (HOT) to create and manage cloud resources.</para>
-  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_getstart_orchestration.xml"/>
   <xi:include href="section_heat-install.xml"/>
   <xi:include href="section_heat-verify.xml"/>
   <section xml:id="section_heat_next_steps">

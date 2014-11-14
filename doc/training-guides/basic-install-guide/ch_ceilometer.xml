@@ -8,8 +8,7 @@
      <para>Telemetry provides a framework for monitoring and metering
           the OpenStack cloud. It is also known as the ceilometer
           project.</para>
-     <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_getstart_telemetry.xml"/>
-     <xi:include href="section_ceilometer-install.xml"/>
+     <xi:include href="section_ceilometer-controller.xml"/>
      <xi:include href="section_ceilometer-nova.xml"/>
      <xi:include href="section_ceilometer-glance.xml"/>
      <xi:include href="section_ceilometer-cinder.xml"/>
