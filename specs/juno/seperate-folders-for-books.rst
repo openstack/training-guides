@@ -25,8 +25,8 @@ books.
 Proposed change
 ===============
 
-* Create guide-specific folders under `../doc/training-gudies/`.
-* Move and refactor XML files specific to each book to its respective folder.
+* Create guide-specific folders under `../doc/training-guides/`.
+* Move and refactor XML files specific to each book to its respective folder
   layout.
 * The output for guides is unchanged. A single PDF file is generated for all
   training guides.
