@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenStack Manuals\n"
-"POT-Creation-Date: 2014-11-03 06:47+0000\n"
-"PO-Revision-Date: 2014-11-04 11:01+0000\n"
+"POT-Creation-Date: 2014-11-17 10:51+0000\n"
+"PO-Revision-Date: 2014-11-18 04:11+0000\n"
 "Last-Translator: Tomoyuki KATO <tomo@dream.daynight.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/openstack-manuals-i18n/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -1945,7 +1945,7 @@ msgid ""
 "All compute nodes (also known as hosts in terms of OpenStack) periodically "
 "publish their status, resources available and hardware capabilities: (choose"
 " all that apply)"
-msgstr "すべてのコンピュートノード (ホストとしても知られている OpenStack の用語) は、ノードの状態、利用可能なリソース、ハードウェア互換性を定期的に発行します。(正しいものをすべて選択)"
+msgstr "すべてのコンピュートノード (ホストとしても知られている OpenStack の用語) は、ノードの状態、利用可能なリソース、ハードウェア互換性を定期的に発行します (正しいものをすべて選択)"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml47(para)
 msgid "through the queue"
@@ -1961,7 +1961,7 @@ msgstr "プロセス間の直接通信の利用"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml61(title)
 msgid "By default, the compute node's scheduler is configured as:"
-msgstr "コンピュートノードのスケジューラーは、デフォルトで以下のとおり設定されます。"
+msgstr "コンピュートノードのスケジューラーは、デフォルトで以下の設定をされます"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml65(para)
 msgid "the RAM scheduler"
@@ -1985,7 +1985,7 @@ msgstr "ウェイトスケジューラー"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml85(title)
 msgid "If the compute node is using the filter scheduler, it works by:"
-msgstr "コンピュートノードがフィルタースケジューラーを使用している場合、このとおり動作する。"
+msgstr "コンピュートノードがフィルタースケジューラーを使用している場合、以下の動作をします"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml89(para)
 msgid "filtering hosts by using predefined properties"
@@ -2013,7 +2013,7 @@ msgstr "まずホストをフィルターして、フィルターされた一覧
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml109(title)
 msgid ""
 "Scheduler always returns a host on which Nova can start the requested VM."
-msgstr "スケジューラーは、要求された仮想マシンを起動できるホストを必ず返す。"
+msgstr "スケジューラーは、要求された仮想マシンを起動できるホストを必ず返す"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml124(title)
 msgid ""
@@ -2051,21 +2051,21 @@ msgstr "ディスクストレージ"
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml154(title)
 msgid ""
 "Persistent volumes can be used by more than one instance at the same time:"
-msgstr "永続ボリュームは同時に複数のインスタンスにより使用できる。"
+msgstr "永続ボリュームは同時に複数のインスタンスにより使用できる"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml169(title)
 msgid "Specify in which order these steps must be completed to provision VMs:"
-msgstr ""
+msgstr "仮想マシンを配備するために実行する必要がある手順を正しい順番に並び替えてください"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml173(para)
 msgid "nova-scheduler picks up the request from the queue."
-msgstr "nova-scheduler は、キューからリクエストを取り出します。"
+msgstr "nova-scheduler がリクエストをキューから取り出す。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml176(para)
 msgid ""
 "nova-compute generates data for the hypervisor driver and executes the "
 "request on the hypervisor (via libvirt or API)."
-msgstr "nova-compute は、ハイパーバイザードライバー用データを生成し、ハイパーバイザーで (libvirt や API 経由で)　リクエストを実行します。"
+msgstr "nova-compute が、ハイパーバイザードライバー向けのデータを生成し、(libvirt や API 経由で) ハイパーバイザーにおいてリクエストを実行する。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml179(para)
 msgid ""
