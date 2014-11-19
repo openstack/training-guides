@@ -28,13 +28,14 @@ function usage {
     echo "-n        Print configuration status and exit"
     echo "-b        Build basedisk (if necessary) and node VMs (if any)"
     echo "-w        Create Windows batch files"
-    echo "-g GUI    VirtualBox GUI type during build"
+    echo "-g GUI    GUI type during build"
     echo "-e EXPORT Export node VMs"
     echo ""
     echo "basedisk  Build configured basedisk"
     echo "NODE      Build controller, compute, network, cluster [all three]"
     echo "          (builds basedisk if necessary)"
     echo "GUI       gui, sdl, or headless"
+    echo "          (choose GUI type for VirtualBox)"
     echo "EXPORT    ova (OVA package file) or dir (VM clone directory)"
     exit
 }
