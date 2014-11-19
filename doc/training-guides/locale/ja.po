@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenStack Manuals\n"
-"POT-Creation-Date: 2014-11-17 10:51+0000\n"
-"PO-Revision-Date: 2014-11-18 04:11+0000\n"
+"POT-Creation-Date: 2014-11-18 09:02+0000\n"
+"PO-Revision-Date: 2014-11-18 07:40+0000\n"
 "Last-Translator: Tomoyuki KATO <tomo@dream.daynight.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/openstack-manuals-i18n/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -2092,13 +2092,13 @@ msgstr ""
 msgid ""
 "nova-compute picks up the request for launching an instance on the "
 "appropriate host from the queue."
-msgstr ""
+msgstr "nova-compute が、適切なホストにおいてインスタンスを起動するリクエストをキューから取り出す。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml191(para)
 msgid ""
 "neutron-server validates the auth-token with Identity Service. nova-compute "
 "retrieves the network info."
-msgstr ""
+msgstr "neutron-server が Identity で認証トークンを検証する。nova-compute がネットワーク情報を取得する。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml194(para)
 msgid ""
@@ -2111,7 +2111,7 @@ msgstr ""
 msgid ""
 "The dashboard or CLI converts the new instance request to a REST API request"
 " and sends it to nova-api."
-msgstr ""
+msgstr "ダッシュボードや CLI が、新規インスタンスのリクエストを REST API リクエストに変換し、nova-api に送信する。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml200(para)
 msgid ""
@@ -2130,20 +2130,20 @@ msgstr ""
 msgid ""
 "cinder-api validates the auth-token with Identity Service. nova-compute "
 "retrieves the block storage info."
-msgstr ""
+msgstr "cinder-api が Identity で認証トークンを検証する。nova-compute がブロックストレージ情報を取得する。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml209(para)
 msgid ""
 "The dashboard or CLI gets the user credentials and authenticates with the "
 "Identity Service via REST API. The Identity Service authenticates the user "
 "and sends back an auth-token."
-msgstr ""
+msgstr "ダッシュボードや CLI が、ユーザーのクレデンシャルを取得し、REST API 経由で Identity を用いて認証する。Identity がユーザーを認証し、認証トークンを送り返す。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml212(para)
 msgid ""
 "glance-api validates the auth-token with Identity Service. nova-compute gets"
 " the image metadata."
-msgstr ""
+msgstr "glance-api が Identity で認証トークンを検証する。nova-compute がイメージのメタデータを取得する。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml215(para)
 msgid ""
@@ -2165,11 +2165,11 @@ msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml224(para)
 msgid "nova-conductor picks up the request from the queue."
-msgstr ""
+msgstr "nova-conductor がリクエストをキューから取り出す。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml234(title)
 msgid "Associate Training Guide, Compute Node Quiz Answers"
-msgstr "アソシエイトトレーニングガイド、コンピュートノードクイズ解答"
+msgstr "アソシエイトトレーニングガイド、コンピュートノードクイズの解答"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml238(para)
 msgid "e (nova-scheduler)"
