@@ -372,11 +372,11 @@
             Project tab.</para>
         </listitem>
         <listitem>
-          <para>Click the Images &amp; Snapshot category.</para>
+          <para>Click the Images &amp; Snapshots category.</para>
         </listitem>
         <listitem>
           <para>The dashboard shows the images that have been uploaded
-            to OpenStack Image Service and are available for this
+            to the OpenStack Image Service and are available for this
             project.</para>
         </listitem>
         <listitem>
@@ -403,7 +403,7 @@
             to provide a keypair to launch the instance.</para>
         </listitem>
         <listitem>
-          <para>In Instance Count, enter the number of virtual
+          <para>In the Instance Count field, enter the number of virtual
             machines to launch from this image.</para>
         </listitem>
         <listitem>
@@ -434,7 +434,7 @@
               volume”</link>.</para>
         </listitem>
        <listitem>
-          <para>Click Launch Instance. The instance is started on any
+          <para>Click Launch Instance. The instance is started on one
             of the compute nodes in the cloud.</para>
         </listitem>
       </orderedlist>
@@ -450,7 +450,7 @@
           </imageobject>
         </mediaobject>
       </figure>
-      <para>If you did not provide a keypair, security groups, or
+      <para>If you did not provide a keypair, create security groups, or
         rules so far, by default the instance can only be accessed
         from inside the cloud through VNC at this point. Even pinging
         the instance is not possible. To access the instance through a
@@ -477,7 +477,7 @@
         <listitem>
           <para>To be able to select from which volume to boot, launch
             an instance from an arbitrary image. The image you select
-            does not boot. It is replaced by the image on the volume
+            will not boot. It will be replaced by the image on the volume
             that you choose in the next steps.</para>
         </listitem>
         <listitem>
@@ -1501,7 +1501,7 @@
       <itemizedlist>
         <listitem>
           <para>If needed, you can assign a floating (public) IP
-            addressto a running instance and attach a block storage
+            address to a running instance and attach a block storage
             device, or volume, for persistent storage. For details,
             see Section 1.5.3, Managing IP Addresses and Section 1.7,
             Managing Volumes.</para>
@@ -1677,7 +1677,7 @@
         </listitem>
         <listitem>
           <para>Optionally, to configure your volume, see the
-            Configuring Image Service and Storage for Computechapter
+            Configuring Image Service and Storage for Compute chapter
             in the OpenStack Configuration Reference.</para>
         </listitem>
         <listitem>
@@ -1995,7 +1995,7 @@
               command:</para>
           </listitem>
           <listitem>
-            <para>$ nova unpause SERVER</para>
+            <para>$ nova un-pause SERVER</para>
           </listitem>
         </itemizedlist>
         <para><guilabel>Suspend and resume an instance</guilabel></para>
