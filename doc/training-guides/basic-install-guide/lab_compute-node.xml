@@ -99,7 +99,7 @@ netmask 255.255.255.0
     <listitem>
         <para>To SSH into the compute node from the host machine, type the
             command below:</para>
-      <screen><prompt>$</prompt> <userinput>ssh compute@10.10.10.51</userinput></screen>
+      <screen><prompt>$</prompt> <userinput>ssh compute@10.10.10.53</userinput></screen>
       <screen><prompt>$</prompt> <userinput>sudo su</userinput></screen>
     </listitem>
 </itemizedlist>
