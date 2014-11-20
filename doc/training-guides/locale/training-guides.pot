@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-11-02 06:00+0000\n"
+"POT-Creation-Date: 2014-11-20 06:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12552,7 +12552,7 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: ./doc/training-guides/common/section_official-programs.xml:185(None)
-msgid "@@image: '../figures/image16.png'; md5=65b6013bd11cf821161a1ebe91d9968b"
+msgid "@@image: '../figures/image16.png'; md5=127d6cb9b8adf4eb215908342f1966c0"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
