@@ -9,9 +9,10 @@ exec_logfile
 
 indicate_current_auto
 
-#------------------------------------------------------------------------------
-# Set up Image Service (glance).
-#------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------
+# Install the Image Service (glance).
+# http://docs.openstack.org/icehouse/install-guide/install/apt/content/glance-install.html
+#-----------------------------------------------------------------------------------------
 
 echo "Installing glance."
 sudo apt-get install -y glance
@@ -95,9 +96,10 @@ echo "Restarting glance service."
 sudo service glance-registry restart
 sudo service glance-api restart
 
-#------------------------------------------------------------------------------
-# Add CirrOS image.
-#------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------
+# Verify the Image Service installation
+# http://docs.openstack.org/icehouse/install-guide/install/apt/content/glance-verify.html
+#----------------------------------------------------------------------------------------
 
 echo "Waiting for glance to start."
 until glance image-list >/dev/null 2>&1; do
@@ -110,10 +112,6 @@ glance image-create \
     --is-public true \
     --container-format bare \
     --disk-format qcow2 < "$HOME/img/$(basename $CIRROS_URL)"
-
-#------------------------------------------------------------------------------
-# Verify the Image Service installation
-#------------------------------------------------------------------------------
 
 echo "Verifying that the image was successfully added to the service."
 
