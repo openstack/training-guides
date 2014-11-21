@@ -14,10 +14,7 @@ indicate_current_auto
 #------------------------------------------------------------------------------
 
 echo "Installing glance."
-sudo apt-get install -y glance
-
-echo "Setting up database for glance."
-setup_database glance
+sudo apt-get install -y glance python-glanceclient
 
 function get_database_url {
     local db_user=$(service_to_db_user glance)
@@ -29,11 +26,17 @@ function get_database_url {
 
 database_url=$(get_database_url)
 
-echo "Configuring glance."
-
 echo "Setting database connection: $database_url."
 iniset_sudo /etc/glance/glance-api.conf database connection "$database_url"
 iniset_sudo /etc/glance/glance-registry.conf database connection "$database_url"
+
+echo "Removing default SQLite database."
+sudo rm -f /var/lib/glance/glance.sqlite
+
+echo "Setting up database for glance."
+setup_database glance
+
+echo "Configuring glance."
 
 # TODO: Should we configure the rpc_backend (glance-api.conf) here?
 
