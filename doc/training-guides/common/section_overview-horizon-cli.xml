@@ -44,12 +44,12 @@
             client for the dashboard, which is based on noVNC, your
             browser must support HTML5 Canvas and HTML5 WebSockets.
             For more details and a list of browsers that support
-            noVNC, see<link
+            noVNC, see <link
               xlink:href="https://github.com/kanaka/noVNC/blob/master/README.md"
               ></link><link
               xlink:href="https://github.com/kanaka/noVNC/blob/master/README.md"
               >https://github.com/kanaka/noVNC/blob/master/README.md</link>,
-              and<link
+              and <link
               xlink:href="https://github.com/kanaka/noVNC/wiki/Browser-support"
               ></link><link
               xlink:href="https://github.com/kanaka/noVNC/wiki/Browser-support"
