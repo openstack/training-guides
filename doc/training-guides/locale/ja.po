@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenStack Manuals\n"
-"POT-Creation-Date: 2014-11-19 20:15+0000\n"
-"PO-Revision-Date: 2014-11-19 09:31+0000\n"
-"Last-Translator: openstackjenkins <jenkins@openstack.org>\n"
+"POT-Creation-Date: 2014-11-21 15:00+0000\n"
+"PO-Revision-Date: 2014-11-21 08:20+0000\n"
+"Last-Translator: Tomoyuki KATO <tomo@dream.daynight.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/openstack-manuals-i18n/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19347,7 +19347,7 @@ msgstr "@@image: '../figures/image05.png'; md5=6471ce66920c1bc1b8bd3854cf836b06"
 #: ./doc/training-guides/common/section_official-programs.xml185(None)
 msgid ""
 "@@image: '../figures/image16.png'; md5=127d6cb9b8adf4eb215908342f1966c0"
-msgstr ""
+msgstr "@@image: '../figures/image16.png'; md5=127d6cb9b8adf4eb215908342f1966c0"
 
 #. When image changes, this message will be marked fuzzy or untranslated for
 #. you.
@@ -19448,7 +19448,7 @@ msgstr "リリース日"
 
 #: ./doc/training-guides/common/section_official-programs.xml40(td)
 msgid "Included Components"
-msgstr ""
+msgstr "同梱コンポーネント"
 
 #: ./doc/training-guides/common/section_official-programs.xml43(td)
 msgid "Austin"
@@ -19556,7 +19556,7 @@ msgstr "2014年10月"
 msgid ""
 "Nova, Glance, Swift, Horizon, Keystone, Neutron, Cinder, Ceilometer, Heat, "
 "Trove, Sahara"
-msgstr ""
+msgstr "Nova, Glance, Swift, Horizon, Keystone, Neutron, Cinder, Ceilometer, Heat, Trove, Sahara"
 
 #: ./doc/training-guides/common/section_official-programs.xml102(td)
 msgid "Kilo"
@@ -19564,13 +19564,13 @@ msgstr "Kilo"
 
 #: ./doc/training-guides/common/section_official-programs.xml103(td)
 msgid "April 2015"
-msgstr ""
+msgstr "2015年4月"
 
 #: ./doc/training-guides/common/section_official-programs.xml104(td)
 msgid ""
 "Nova, Glance, Swift, Horizon, Keystone, Neutron, Cinder, Ceilometer, Heat, "
 "Trove, Sahara, Ironic"
-msgstr ""
+msgstr "Nova, Glance, Swift, Horizon, Keystone, Neutron, Cinder, Ceilometer, Heat, Trove, Sahara, Ironic"
 
 #: ./doc/training-guides/common/section_official-programs.xml110(para)
 msgid "Some OpenStack users include:"
@@ -19649,7 +19649,7 @@ msgid ""
 "OpenStack is a true and innovative open standard. For more user stories, see"
 " <link href=\"http://www.openstack.org/user-"
 "stories\">http://www.openstack.org/user-stories</link>."
-msgstr ""
+msgstr "OpenStack は、真の革新的なオープン標準です。さらなるユーザーストーリーは <link href=\"http://www.openstack.org/user-stories\">http://www.openstack.org/user-stories</link> を参照してください。"
 
 #: ./doc/training-guides/common/section_official-programs.xml167(guilabel)
 msgid "Release Cycle"
@@ -19657,7 +19657,7 @@ msgstr "リリースサイクル"
 
 #: ./doc/training-guides/common/section_official-programs.xml169(title)
 msgid "Community Heartbeat"
-msgstr ""
+msgstr "コミュニティー活動状況"
 
 #: ./doc/training-guides/common/section_official-programs.xml176(para)
 msgid ""
@@ -19666,7 +19666,7 @@ msgid ""
 "release schedule <link "
 "href=\"https://wiki.openstack.org/wiki/Releases\">here</link>. The Release "
 "Cycle is made of four major stages:"
-msgstr ""
+msgstr "OpenStack は、頻繁な開発マイルストーンを持つ、調整された 6 か月のリリースサイクルに基づいています。現在の開発リリーススケジュールが<link href=\"https://wiki.openstack.org/wiki/Releases\">ここ</link>にあります。リリースサイクルは、大きく 4 つの段階から構成されます。"
 
 #: ./doc/training-guides/common/section_official-programs.xml182(title)
 msgid "Various Projects under OpenStack"
