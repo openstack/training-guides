@@ -202,7 +202,7 @@
       up of your instances as less data needs to be copied across the
       network. The system also creates a new empty disk image to
       present as the second disk (vdb). Be aware that the second disk
-      is an empty disk with an emphemeral life as it is destroyed when
+      is an empty disk with an ephemeral life as it is destroyed when
       you delete the instance. The compute node attaches to the
       requested <systemitem class="service">cinder-volume</systemitem>
       using iSCSI and maps this to the third disk (vdc) as requested.
