@@ -15,8 +15,10 @@ function check_md5 {
     if $md5exe "$file" | grep -q "$csum"; then
         echo >&2 "okay."
     else
-        echo >&2 "failed."
-        echo >&2 "Aborting. Please fix or remove the ISO image."
+        echo >&2 "Verification failed. ISO image is corrupt."
+        echo >&2 "Removing the ISO image."
+        rm "$file"
+        echo >&2 "Please re-run osbash script."
         exit 1
     fi
 }
