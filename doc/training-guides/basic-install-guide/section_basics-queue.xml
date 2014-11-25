@@ -3,7 +3,7 @@
   xmlns:xi="http://www.w3.org/2001/XInclude"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   version="5.0"
-  xml:id="basics-queue">
+  xml:id="basics-messaging-server">
   <?dbhtml stop-chunking?>
   <title>Messaging server</title>
   <para>OpenStack uses a <glossterm>message broker</glossterm> to coordinate
@@ -11,7 +11,7 @@
     service typically runs on the controller node. OpenStack supports several
     message brokers including <application>RabbitMQ</application>,
     <application>Qpid</application>, and <application>ZeroMQ</application>.
-    Most distributions that package OpenStack support a particular
+    However, most distributions that package OpenStack support a particular
     message broker. This guide covers the RabbitMQ message broker which is
     supported by each distribution. If you prefer to implement a
     different message broker, consult the documentation associated
@@ -41,11 +41,17 @@
   </procedure>
   <procedure>
     <title>To configure the message broker service</title>
-    <step os="sles;opensuse;rhel;centos;fedora">
-      <para>Start the message broker service and enable it to start when the
+    <step os="rhel;centos;fedora;sles;opensuse">
+      <para>Start the message broker service and configure it to start when the
           system boots:</para>
-      <screen><prompt>#</prompt> <userinput>service rabbitmq-server start</userinput>
+      <screen os="rhel;centos;fedora"><prompt>#</prompt> <userinput>systemctl enable rabbitmq-server.service</userinput>
+<prompt>#</prompt> <userinput>systemctl start rabbitmq-server.service</userinput></screen>
+      <para os="sles">On SLES:</para>
+      <screen os="sles"><prompt>#</prompt> <userinput>service rabbitmq-server start</userinput>
 <prompt>#</prompt> <userinput>chkconfig rabbitmq-server on</userinput></screen>
+      <para os="opensuse">On openSUSE:</para>
+      <screen os="opensuse"><prompt>#</prompt> <userinput>systemctl enable rabbitmq-server.service</userinput>
+<prompt>#</prompt> <userinput>systemctl start rabbitmq-server.service</userinput></screen>
     </step>
     <step>
       <para>The message broker creates a default account that uses
@@ -55,17 +61,19 @@
       <para>Run the following command:</para>
       <para>Replace <replaceable>RABBIT_PASS</replaceable> with a suitable
         password.</para>
-      <screen><prompt>#</prompt> <userinput>rabbitmqctl change_password guest <replaceable>RABBIT_PASS</replaceable></userinput></screen>
+      <screen><prompt>#</prompt> <userinput>rabbitmqctl change_password guest <replaceable>RABBIT_PASS</replaceable></userinput>
+<computeroutput>Changing password for user "guest" ...
+...done.</computeroutput></screen>
       <para>You must configure the <literal>rabbit_password</literal> key
         in the configuration file for each OpenStack service that uses the
         message broker.</para>
       <note>
         <para>For production environments, you should create a unique account
-          with a suitable password. For more information on securing the
+          with suitable password. For more information on securing the
           message broker, see the
         <link xlink:href="https://www.rabbitmq.com/man/rabbitmqctl.1.man.html"
           >documentation</link>.</para>
-        <para>If you decide to create a unique account with a suitable password
+        <para>If you decide to create a unique account with suitable password
           for your test environment, you must configure the
           <literal>rabbit_userid</literal> and
           <literal>rabbit_password</literal> keys in the configuration file
@@ -73,6 +81,6 @@
       </note>
     </step>
   </procedure>
-  <para>Congratulations, you are now ready to install OpenStack
+  <para>Congratulations, now you are ready to install OpenStack
     services!</para>
 </section>

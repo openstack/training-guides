@@ -18,8 +18,6 @@
       services. Each service offers an application programming interface
       (<glossterm>API</glossterm>) that facilitates this integration. The
       following table provides a list of OpenStack services:</para>
-  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/ch_getstart.xml"
-      xpointer="element(table1)"/>
     <para>This guide describes how to deploy these services in a functional
       test environment and, by example, teaches you how to build a production
       environment.</para>
@@ -29,15 +27,6 @@
     <para>Launching a virtual machine or instance involves many interactions
       among several services. The following diagram provides the conceptual
       architecture of a typical OpenStack environment.</para>
-    <figure xml:id="conceptual-architecture">
-      <title>Conceptual architecture</title>
-      <mediaobject>
-        <imageobject>
-          <imagedata contentwidth="6in"
-              fileref="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/figures/openstack_havana_conceptual_arch.png"/>
-        </imageobject>
-      </mediaobject>
-    </figure>
   </section>
   <section xml:id="architecture_example-architectures">
     <title>Example architectures</title>
@@ -48,8 +37,6 @@
       architectures:</para>
     <itemizedlist>
       <listitem>
-          <para>Three-node architecture with OpenStack Networking (neutron).
-              To be implemented</para>
         <itemizedlist>
           <listitem>
             <para>The basic controller node runs the Identity service, Image
@@ -65,27 +52,41 @@
               your environment.</para>
           </listitem>
           <listitem>
-            <para>The network node runs the Networking plug-in, layer 2 agent,
-              and several layer 3 agents that provision and operate tenant
-              networks. Layer 2 services include provisioning of virtual
-              networks and tunnels. Layer 3 services include routing,
-              <glossterm baseform="Network Address Translation (NAT)">NAT</glossterm>
-              , and <glossterm>DHCP</glossterm>. This node also handles
-              external (internet) connectivity for tenant virtual machines
+            <para>The network node runs the Networking plug-in, layer-2 agent,
+              and several layer-3 agents that provision and operate tenant
+              networks. Layer-2 services include provisioning of virtual
+              networks and tunnels. Layer-3 services include routing,
+              <glossterm baseform="Network Address Translation (NAT)">NAT</glossterm>,
+              and <glossterm>DHCP</glossterm>. This node also handles
+              external (Internet) connectivity for tenant virtual machines
               or instances.</para>
           </listitem>
           <listitem>
             <para>The compute node runs the hypervisor portion of Compute,
               which operates tenant virtual machines or instances. By default
               Compute uses KVM as the hypervisor. The compute node also runs
-              the Networking plug-in and layer 2 agent which operate tenant
+              the Networking plug-in and layer-2 agent which operate tenant
               networks and implement security groups. You can run more than
               one compute node.</para>
             <para>Optionally, the compute node also runs the Telemetry
               agent. This component provides additional features for
               your environment.</para>
           </listitem>
+          <listitem>
+            <para>The optional storage node contains the disks that the Block
+              Storage service uses to serve volumes. You can run more than one
+              storage node.</para>
+            <para>Optionally, the storage node also runs the Telemetry
+              agent. This component provides additional features for
+              your environment.</para>
+          </listitem>
         </itemizedlist>
+        <note>
+          <para>When you implement this architecture, skip
+            To use optional services, you
+            might need to install additional nodes, as described in
+            subsequent chapters.</para>
+        </note>
         <figure xml:id="example-architecture-with-neutron-networking">
           <title>Three-node architecture with OpenStack Networking (neutron)</title>
           <mediaobject>
@@ -97,6 +98,7 @@
         </figure>
       </listitem>
       <listitem>
+          <para>Two-node architecture with legacy networking (nova-network). See</para>
         <itemizedlist>
           <listitem>
             <para>The basic
@@ -126,6 +128,11 @@
               your environment.</para>
           </listitem>
         </itemizedlist>
+        <note>
+          <para>When you implement this architecture, skip
+            might need to install additional nodes, as described in
+            subsequent chapters.</para>
+        </note>
         <figure xml:id="example-architecture-with-legacy-networking">
           <title>Two-node architecture with legacy networking (nova-network)</title>
           <mediaobject>

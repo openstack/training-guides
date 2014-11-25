@@ -5,9 +5,9 @@
   version="5.0"
   xml:id="ch_keystone">
     <title>Add the Identity service</title>
-    <xi:include href="common/section_keystone-concepts.xml"/>
     <xi:include href="section_keystone-install.xml"/>
     <xi:include href="section_keystone-users.xml"/>
     <xi:include href="section_keystone-services.xml"/>
     <xi:include href="section_keystone-verify.xml"/>
+    <xi:include href="section_keystone-openrc.xml"/>
 </chapter>

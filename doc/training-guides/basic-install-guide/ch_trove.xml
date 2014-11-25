@@ -10,7 +10,6 @@
           integrated project name is <glossterm>trove</glossterm>.</para>
        <warning><para>This chapter is a work in progress. It may contain
           incorrect information, and will be updated frequently.</para></warning>
-  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_getstart_trove.xml"/>
           <xi:include href="section_trove-install.xml" />
           <xi:include href="section_trove-verify.xml" />
 </chapter>

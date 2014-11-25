@@ -13,10 +13,6 @@
     <para>Configure the clients on your desktop rather than on the
         server so that you have a similar experience to your
         users.</para>
-    <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_cli_overview.xml"/>
-    <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_cli_install.xml"/>
-    <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_cli_openrc.xml"/>
-
     <section xml:id="ch_clients_openrc_files">
       <title>Create openrc.sh files</title>
 

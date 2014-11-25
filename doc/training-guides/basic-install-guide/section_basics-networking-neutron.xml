@@ -54,6 +54,9 @@
         <para>Network mask: 255.255.255.0 (or /24)</para>
         <para>Default gateway: 10.0.0.1</para>
       </step>
+      <step>
+        <para>Reboot the system to activate the changes.</para>
+      </step>
     </procedure>
     <procedure>
       <title>To configure name resolution:</title>
@@ -133,9 +136,7 @@ BOOTPROTO='static'</programlisting>
         </substeps>
       </step>
       <step>
-        <para>Restart networking:</para>
-        <screen os="ubuntu;debian"><prompt>#</prompt> <userinput>service networking stop &amp;&amp; service networking start</userinput></screen>
-        <screen os="rhel;centos;fedora;sles;opensuse"><prompt>#</prompt> <userinput>service network restart</userinput></screen>
+        <para>Reboot the system to activate the changes.</para>
       </step>
     </procedure>
     <procedure>
@@ -185,6 +186,9 @@ BOOTPROTO='static'</programlisting>
             and so on.</para>
         </note>
       </step>
+      <step>
+        <para>Reboot the system to activate the changes.</para>
+      </step>
     </procedure>
     <procedure>
       <title>To configure name resolution:</title>
@@ -211,12 +215,12 @@ BOOTPROTO='static'</programlisting>
   </section>
   <section xml:id="basics-neutron-networking-verify">
     <title>Verify connectivity</title>
-    <para>We recommend that you verify network connectivity to the internet
+    <para>We recommend that you verify network connectivity to the Internet
       and among the nodes before proceeding further.</para>
     <procedure>
       <step>
         <para>From the <emphasis>controller</emphasis> node,
-          <command>ping</command> a site on the internet:</para>
+          <command>ping</command> a site on the Internet:</para>
         <screen><prompt>#</prompt> <userinput>ping -c 4 openstack.org</userinput>
 <computeroutput>PING openstack.org (174.143.194.225) 56(84) bytes of data.
 64 bytes from 174.143.194.225: icmp_seq=1 ttl=54 time=18.3 ms
@@ -260,7 +264,7 @@ rtt min/avg/max/mdev = 0.202/0.217/0.263/0.030 ms</computeroutput></screen>
       </step>
       <step>
         <para>From the <emphasis>network</emphasis> node,
-          <command>ping</command> a site on the internet:</para>
+          <command>ping</command> a site on the Internet:</para>
         <screen><prompt>#</prompt> <userinput>ping -c 4 openstack.org</userinput>
 <computeroutput>PING openstack.org (174.143.194.225) 56(84) bytes of data.
 64 bytes from 174.143.194.225: icmp_seq=1 ttl=54 time=18.3 ms
@@ -304,7 +308,7 @@ rtt min/avg/max/mdev = 0.202/0.217/0.263/0.030 ms</computeroutput></screen>
       </step>
       <step>
         <para>From the <emphasis>compute</emphasis> node,
-          <command>ping</command> a site on the internet:</para>
+          <command>ping</command> a site on the Internet:</para>
         <screen><prompt>#</prompt> <userinput>ping -c 4 openstack.org</userinput>
 <computeroutput>PING openstack.org (174.143.194.225) 56(84) bytes of data.
 64 bytes from 174.143.194.225: icmp_seq=1 ttl=54 time=18.3 ms

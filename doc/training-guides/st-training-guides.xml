@@ -99,12 +99,10 @@
             </revision>
         </revhistory>
     </info>
-    <!-- <xi:include href="under-contruction-notice.xml"/> -->
+    <xi:include href="under-contruction-notice.xml"/>
     <xi:include href="bk_preface.xml"/>
     <xi:include href="associate-guide/bk_associate-training-guide.xml"/>
     <xi:include href="operator-guide/bk_operator-training-guide.xml"/>
     <xi:include href="developer-guide/bk_developer-training-guide.xml"/>
     <xi:include href="architect-guide/bk_architect-training-guide.xml"/>
-    <!-- For Juno Release -->
-    <!-- xi:include href="basic-install-guide/bk-openstack-basic-install-guide.xml"/ -->
    </set>

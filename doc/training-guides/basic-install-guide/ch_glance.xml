@@ -25,7 +25,6 @@
           ><citetitle>Configuration
       Reference</citetitle></link>.</para>
   </important>
-  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_getstart_image.xml"/>
   <xi:include href="section_glance-install.xml"/>
   <xi:include href="section_glance-verify.xml"/>
 </chapter>
