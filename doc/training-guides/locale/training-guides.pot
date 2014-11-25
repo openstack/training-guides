@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-11-20 06:00+0000\n"
+"POT-Creation-Date: 2014-11-25 06:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,7 +53,7 @@ msgstr ""
 msgid "We are currently working on creating the Associate Training Guide. It is the first of four training guides. We are using the Install Guide, Administration Guides, Developer Documentation, and Aptira supplied content as the sources for most of the Associate Training Guide. The basic idea is that we use XML include statements to actually use the source content to create new pages. We aim to use as much of the material as possible from existing documentation. By doing this we reuse and improve the existing docs. The topics in the Associate Training Guide are in KanBan story board cards. Each card in the story board represents something that an Associate trainee needs to learn. But first things first, you need to get some basic tools and accounts installed and configured before you can really start."
 msgstr ""
 
-#: ./doc/training-guides/under-contruction-notice.xml:52(para) ./doc/training-guides/bk_preface.xml:58(para)
+#: ./doc/training-guides/under-contruction-notice.xml:52(para)
 msgid "<emphasis role=\"bold\">Getting Accounts and Tools:</emphasis> We can't do this without operators and developers using and creating the content. Anyone can contribute content. You will need the tools to get started. Go to the <link href=\"operator-getting-started-lab.html#getting-tools-and-accounts\">Getting Tools and Accounts</link> page."
 msgstr ""
 
@@ -65,7 +65,7 @@ msgstr ""
 msgid "<emphasis role=\"bold\">Create the Content:</emphasis> Each card / user story from the KanBan story board will represent a separate chunk of content that you can add to the openstack-manuals repository, openstack-training sub-project. <link href=\"operator-getting-started-lab.html#operator-add-training-content\"> More details on creating training content here.</link>"
 msgstr ""
 
-#: ./doc/training-guides/under-contruction-notice.xml:77(para) ./doc/training-guides/bk_preface.xml:79(para)
+#: ./doc/training-guides/under-contruction-notice.xml:77(para)
 msgid "Here are more details on committing changes to OpenStack <link href=\"operator-getting-started-lab.html#submit-doc-bug\">fixing a documentation bug</link> , <link href=\"https://wiki.openstack.org/wiki/Gerrit_Workflow\">OpenStack Gerrit Workflow</link>, <link href=\"https://wiki.openstack.org/wiki/Documentation/HowTo\">OpenStack Documentation HowTo</link> and , <link href=\"http://git-scm.com/doc\">Git Documentation</link>"
 msgstr ""
 
@@ -319,12 +319,20 @@ msgstr ""
 msgid "We are currently working on creating the Associate Training Guide. It is the first of four training guides. We are using the Install Guide, Administration Guides, Developer Documentation, and Aptira supplied content as the sources for most of the Associate Training Guide. The basic idea is that we use XML include statements to actually use the source content to create new pages. We aim to use as much of the material as possible from existing documentation. By doing this we reuse and improve the existing docs. The topics in the Associate Training Guide are in a bunch of KanBan story board cards. Each card in the story board represents something that an Associate trainee needs to learn. But first things first, you need to get some basic tools and accounts installed and configured before you can really start."
 msgstr ""
 
+#: ./doc/training-guides/bk_preface.xml:58(para)
+msgid "<emphasis role=\"bold\">Getting Accounts and Tools:</emphasis> We can't do this without operators and developers using and creating the content. Anyone can contribute content. You will need the tools to get started. Go to the <link href=\"http://docs.openstack.org/training-guides/content/operator-getting-started-lab.html#getting-tools-and-accounts\"> Getting Tools and Accounts</link> page."
+msgstr ""
+
 #: ./doc/training-guides/bk_preface.xml:65(para)
 msgid "<emphasis role=\"bold\">Pick a Bug:</emphasis> Once you have your tools ready to go, you can assign some work to yourself. Go to the <link href=\"https://bugs.launchpad.net/openstack-training-guides\">Bugs</link> and assign a bug from the list to yourself."
 msgstr ""
 
 #: ./doc/training-guides/bk_preface.xml:69(para)
-msgid "<emphasis role=\"bold\">Create the Content:</emphasis> Each bug from the list will be a separate chunk of content that you will add to the openstack-manuals repository openstack-training sub-project. <link href=\"operator-getting-started-lab.html#operator-add-training-content\"> More details on creating training content here.</link>"
+msgid "<emphasis role=\"bold\">Create the Content:</emphasis> Each bug from the list will be a separate chunk of content that you will add to the openstack-manuals repository openstack-training sub-project. <link href=\"http://docs.openstack.org/training-guides/content/operator-getting-started-lab.html#operator-add-training-content\"> More details on creating training content here.</link>"
+msgstr ""
+
+#: ./doc/training-guides/bk_preface.xml:79(para)
+msgid "Here are more details on committing changes to OpenStack <link href=\"http://docs.openstack.org/training-guides/content/operator-getting-started-lab.html#submit-doc-bug\">fixing a documentation bug</link> , <link href=\"https://wiki.openstack.org/wiki/Gerrit_Workflow\">OpenStack Gerrit Workflow</link>, <link href=\"https://wiki.openstack.org/wiki/Documentation/HowTo\">OpenStack Documentation HowTo</link> and , <link href=\"http://git-scm.com/doc\">Git Documentation</link>"
 msgstr ""
 
 #: ./doc/training-guides/bk_preface.xml:115(link)
@@ -13586,11 +13594,11 @@ msgid "To launch an instance from an image"
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:375(para)
-msgid "Click the Images &amp; Snapshot category."
+msgid "Click the Images &amp; Snapshots category."
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:378(para)
-msgid "The dashboard shows the images that have been uploaded to OpenStack Image Service and are available for this project."
+msgid "The dashboard shows the images that have been uploaded to the OpenStack Image Service and are available for this project."
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:383(para)
@@ -13618,7 +13626,7 @@ msgid "In case an image uses a static root password or a static key set (neither
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:406(para)
-msgid "In Instance Count, enter the number of virtual machines to launch from this image."
+msgid "In the Instance Count field, enter the number of virtual machines to launch from this image."
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:410(para)
@@ -13638,7 +13646,7 @@ msgid "If you want to boot from volume, click the respective entry to expand its
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:437(para)
-msgid "Click Launch Instance. The instance is started on any of the compute nodes in the cloud."
+msgid "Click Launch Instance. The instance is started on one of the compute nodes in the cloud."
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:441(para)
@@ -13650,7 +13658,7 @@ msgid "OpenStack Dashboard- Instances"
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:453(para)
-msgid "If you did not provide a keypair, security groups, or rules so far, by default the instance can only be accessed from inside the cloud through VNC at this point. Even pinging the instance is not possible. To access the instance through a VNC console, see<link href=\"http://docs.openstack.org/user-guide/content/instance_console.html\"/><link href=\"http://docs.openstack.org/user-guide/content/instance_console.html\">the section called “Get a console to an instance”</link>."
+msgid "If you did not provide a keypair, create security groups, or rules so far, by default the instance can only be accessed from inside the cloud through VNC at this point. Even pinging the instance is not possible. To access the instance through a VNC console, see<link href=\"http://docs.openstack.org/user-guide/content/instance_console.html\"/><link href=\"http://docs.openstack.org/user-guide/content/instance_console.html\">the section called “Get a console to an instance”</link>."
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:463(guilabel) ./doc/training-guides/common/section_overview-horizon-cli.xml:1660(guilabel)
@@ -13674,7 +13682,7 @@ msgid "To boot an instance from the volume, especially note the following steps:
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:478(para)
-msgid "To be able to select from which volume to boot, launch an instance from an arbitrary image. The image you select does not boot. It is replaced by the image on the volume that you choose in the next steps."
+msgid "To be able to select from which volume to boot, launch an instance from an arbitrary image. The image you select will not boot. It will be replaced by the image on the volume that you choose in the next steps."
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:484(para)
@@ -14686,7 +14694,7 @@ msgid "A security group, which defines which incoming network traffic is forward
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:1503(para)
-msgid "If needed, you can assign a floating (public) IP addressto a running instance and attach a block storage device, or volume, for persistent storage. For details, see Section 1.5.3, Managing IP Addresses and Section 1.7, Managing Volumes."
+msgid "If needed, you can assign a floating (public) IP address to a running instance and attach a block storage device, or volume, for persistent storage. For details, see Section 1.5.3, Managing IP Addresses and Section 1.7, Managing Volumes."
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:1510(para)
@@ -14842,7 +14850,7 @@ msgid "# cinder create --image-id 397e713c-b95b-4186-ad46-6126863ea0a9 --display
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:1679(para)
-msgid "Optionally, to configure your volume, see the Configuring Image Service and Storage for Computechapter in the OpenStack Configuration Reference."
+msgid "Optionally, to configure your volume, see the Configuring Image Service and Storage for Compute chapter in the OpenStack Configuration Reference."
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:1684(para)
@@ -15150,7 +15158,7 @@ msgid "To un-pause the server, run the following command:"
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:1998(para)
-msgid "$ nova unpause SERVER"
+msgid "$ nova un-pause SERVER"
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml:2001(guilabel)

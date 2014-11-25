@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenStack Manuals\n"
-"POT-Creation-Date: 2014-11-21 15:00+0000\n"
-"PO-Revision-Date: 2014-11-21 08:20+0000\n"
+"POT-Creation-Date: 2014-11-24 20:25+0000\n"
+"PO-Revision-Date: 2014-11-25 05:30+0000\n"
 "Last-Translator: Tomoyuki KATO <tomo@dream.daynight.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/openstack-manuals-i18n/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -95,7 +95,6 @@ msgid ""
 msgstr "現在、アソシエイトトレーニングガイドの作成に取り組んでいます。これは 4 つのトレーニングガイドの中で最初のものです。私たちは、アソシエイトトレーニングガイドの多くの内容として、インストールガイド、管理者ガイド、開発者ガイド、Aptira 提供のコンテンツを使用しています。基本的な考え方は、新しいページを作成するためにソースコンテンツを実際に使用するために、XML の include 構文を使用することです。既存のドキュメントから可能な限り、ほとんどの資材として使用することを目指しています。このようにすることにより、既存のドキュメントを再利用し、改善します。アソシエイトトレーニングガイドの話題は、カンバンストーリーボードカードにあります。ストーリーボードにある各カードは、アソシエイトトレーニーが学習する必要があることを表しています。しかし最初は、始める前に、いくつかの基本ツールとアカウントをインストールし、設定する必要があります。"
 
 #: ./doc/training-guides/under-contruction-notice.xml52(para)
-#: ./doc/training-guides/bk_preface.xml58(para)
 msgid ""
 "<emphasis role=\"bold\">Getting Accounts and Tools:</emphasis> We can't do "
 "this without operators and developers using and creating the content. Anyone"
@@ -125,7 +124,6 @@ msgid ""
 msgstr ""
 
 #: ./doc/training-guides/under-contruction-notice.xml77(para)
-#: ./doc/training-guides/bk_preface.xml79(para)
 msgid ""
 "Here are more details on committing changes to OpenStack <link href"
 "=\"operator-getting-started-lab.html#submit-doc-bug\">fixing a documentation"
@@ -532,6 +530,16 @@ msgid ""
 " start."
 msgstr "現在、アソシエイトトレーニングガイドの作成に取り組んでいます。これは 4 つのトレーニングガイドの中で最初のものです。私たちは、アソシエイトトレーニングガイドの多くの内容として、インストールガイド、管理者ガイド、開発者ガイド、Aptira 提供のコンテンツを使用しています。基本的な考え方は、新しいページを作成するためにソースコンテンツを実際に使用するために、XML の include 構文を使用することです。既存のドキュメントから可能な限り、ほとんどの資材として使用することを目指しています。このようにすることにより、既存のドキュメントを再利用し、改善します。アソシエイトトレーニングガイドの話題は、カンバンストーリーボードカードにあります。ストーリーボードにある各カードは、アソシエイトトレーニーが学習する必要があることを表しています。しかし最初は、始める前に、いくつかの基本ツールとアカウントをインストールし、設定する必要があります。"
 
+#: ./doc/training-guides/bk_preface.xml58(para)
+msgid ""
+"<emphasis role=\"bold\">Getting Accounts and Tools:</emphasis> We can't do "
+"this without operators and developers using and creating the content. Anyone"
+" can contribute content. You will need the tools to get started. Go to the "
+"<link href=\"http://docs.openstack.org/training-guides/content/operator-"
+"getting-started-lab.html#getting-tools-and-accounts\"> Getting Tools and "
+"Accounts</link> page."
+msgstr ""
+
 #: ./doc/training-guides/bk_preface.xml65(para)
 msgid ""
 "<emphasis role=\"bold\">Pick a Bug:</emphasis> Once you have your tools "
@@ -544,9 +552,22 @@ msgstr ""
 msgid ""
 "<emphasis role=\"bold\">Create the Content:</emphasis> Each bug from the "
 "list will be a separate chunk of content that you will add to the openstack-"
-"manuals repository openstack-training sub-project. <link href=\"operator-"
-"getting-started-lab.html#operator-add-training-content\"> More details on "
-"creating training content here.</link>"
+"manuals repository openstack-training sub-project. <link "
+"href=\"http://docs.openstack.org/training-guides/content/operator-getting-"
+"started-lab.html#operator-add-training-content\"> More details on creating "
+"training content here.</link>"
+msgstr ""
+
+#: ./doc/training-guides/bk_preface.xml79(para)
+msgid ""
+"Here are more details on committing changes to OpenStack <link "
+"href=\"http://docs.openstack.org/training-guides/content/operator-getting-"
+"started-lab.html#submit-doc-bug\">fixing a documentation bug</link> , <link "
+"href=\"https://wiki.openstack.org/wiki/Gerrit_Workflow\">OpenStack Gerrit "
+"Workflow</link>, <link "
+"href=\"https://wiki.openstack.org/wiki/Documentation/HowTo\">OpenStack "
+"Documentation HowTo</link> and , <link href=\"http://git-scm.com/doc\">Git "
+"Documentation</link>"
 msgstr ""
 
 #: ./doc/training-guides/bk_preface.xml115(link)
@@ -818,7 +839,7 @@ msgstr "運用者向け OpenStack Neutron Floating IP"
 #: ./doc/training-guides/operator-guide/ch_operator-network-node-quiz.xml6(title)
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml4(title)
 msgid "Network Node Quiz"
-msgstr "ネットワークノードクイズ"
+msgstr "ネットワークノード クイズ"
 
 #: ./doc/training-guides/operator-guide/ch_operator-network-node-quiz.xml8(title)
 msgid "Days 7 to 8, 16:40 to 17:00"
@@ -876,7 +897,7 @@ msgstr "アソシエイトの OpenStack のメッセージングとキューの�
 #: ./doc/training-guides/operator-guide/ch_operator-controller-node-quiz.xml6(title)
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml6(title)
 msgid "Controller Node Quiz"
-msgstr "コントローラーノードクイズ"
+msgstr "コントローラーノード クイズ"
 
 #: ./doc/training-guides/operator-guide/ch_operator-controller-node-quiz.xml8(title)
 msgid "Days 2 to 4, 16:40 to 17:00"
@@ -894,7 +915,7 @@ msgstr "5 ～ 6 日目、13:30 ～ 14:45、15:00 ～ 17:00"
 #: ./doc/training-guides/operator-guide/ch_operator-object-storage-node-quiz.xml6(title)
 #: ./doc/training-guides/associate-guide/ch_associate-object-storage-node-quiz.xml5(title)
 msgid "Object Storage Node Quiz"
-msgstr "オブジェクトストレージノードクイズ"
+msgstr "オブジェクトストレージノード クイズ"
 
 #: ./doc/training-guides/operator-guide/ch_operator-object-storage-node-quiz.xml8(title)
 #: ./doc/training-guides/developer-guide/ch_developer-how-to-participate-day-nine-quiz.xml8(title)
@@ -976,7 +997,7 @@ msgstr "アソシエイトの仮想マシン展開の詳細のレビュー"
 #: ./doc/training-guides/operator-guide/ch_operator-compute-node-quiz.xml6(title)
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml6(title)
 msgid "Compute Node Quiz"
-msgstr "コンピュートノードクイズ"
+msgstr "コンピュートノード クイズ"
 
 #: ./doc/training-guides/operator-guide/ch_operator-compute-node-quiz.xml8(title)
 msgid "Days 5 to 6, 16:40 to 17:00"
@@ -1131,7 +1152,7 @@ msgstr "アソシエイトトレーニングガイド、はじめに クイズ �
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml15(title)
 msgid ""
 "What are some of the compelling features of a cloud? (choose all that apply)"
-msgstr "クラウドのいくつかの主要な機能はどれでしょうか? (正しいものをすべて選択)"
+msgstr "クラウドのいくつかの主要な機能はどれでしょうか (正しいものをすべて選択)"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml19(para)
 msgid "On-demand self-service"
@@ -1157,7 +1178,7 @@ msgstr "ネットワークアクセス"
 msgid ""
 "What three service models does cloud computing provide? (choose all that "
 "apply)"
-msgstr "クラウドコンピューティングが提供する 3 種類のモデルはどれでしょうか? (正しいものをすべて選択)"
+msgstr "クラウドコンピューティングが提供する 3 種類のモデルはどれでしょうか (正しいものをすべて選択)"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml43(para)
 msgid "Software-as-a-Service (SaaS)"
@@ -1182,7 +1203,7 @@ msgstr "Platform-as-a-Service (PaaS)"
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml63(title)
 msgid ""
 "What does the OpenStack project aim to deliver? (choose all that apply)"
-msgstr "OpenStack プロジェクトが導入を目指しているものはどれでしょうか? (正しいものをすべて選択)"
+msgstr "OpenStack プロジェクトが提供することを目指しているものはどれでしょうか (正しいものをすべて選択)"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml67(para)
 msgid "Simple to implement cloud solution"
@@ -1206,7 +1227,7 @@ msgstr "新しいハイパーバイザーのクラウドソリューション"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml87(title)
 msgid "OpenStack code is freely available via the FreeBSD license."
-msgstr "OpenStack のコードは FreeBSD ライセンスで自由に入手できる。"
+msgstr "OpenStack のコードは FreeBSD ライセンスで自由に入手できる"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml91(para)
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml106(para)
@@ -1250,34 +1271,34 @@ msgstr "誤り"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml102(title)
 msgid "OpenStack Swift is Object Storage."
-msgstr "OpenStack Swift は Object Storage である。"
+msgstr "OpenStack Swift は Object Storage である"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml117(title)
 msgid "OpenStack Networking is now called Quantum."
-msgstr "OpenStack Networking は現在 Quantum という名称である。"
+msgstr "OpenStack Networking は現在 Quantum という名称である"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml132(title)
 msgid ""
 "The Image Service (Glance) in OpenStack provides: (Choose all that apply)"
-msgstr "OpenStack の Image Service (Glance) が提供するものはどれでしょうか。(正しいものをすべて選択)"
+msgstr "OpenStack の Image Service (Glance) が提供するものはどれでしょうか (正しいものをすべて選択)"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml136(para)
 msgid "Base Templates which users can start new compute instances"
-msgstr "ユーザーが新しいコンピュートインスタンスを起動できるベースのテンプレート"
+msgstr "ユーザーが新しいコンピュートインスタンスを起動できる、基本テンプレート"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml139(para)
 msgid "Configuration of centralized policies across users and systems"
-msgstr "ユーザーとシステムをまたがる一元管理された設定"
+msgstr "ユーザーとシステムをまたがる一元管理されたポリシー設定"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml142(para)
 msgid ""
 "Available images for users to choose from or create their own from existing "
 "servers"
-msgstr "ユーザーが選択する、既存のサーバーから作成する、利用可能なイメージ"
+msgstr "ユーザーが選択する利用可能なイメージ、またはユーザーが既存のサーバーから作成する利用可能なイメージ"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml145(para)
 msgid "A central directory of users"
-msgstr "ユーザーの中央ディレクトリ"
+msgstr "ユーザーの中央ディレクトリー"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml148(para)
 msgid "Ability to take store snapshots in the Image Service for backup"
@@ -1285,16 +1306,16 @@ msgstr "Image Service にあるスナップショットをバックアップの�
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml156(title)
 msgid "OpenStack APIs are compatible with Amazon EC2 and Amazon S3."
-msgstr "OpenStack API は Amazon EC2 や Amazon S3 と互換性がある。"
+msgstr "OpenStack API は Amazon EC2 や Amazon S3 と互換性がある"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml171(title)
 msgid "Horizon is the OpenStack name for Compute."
-msgstr "Horizon は OpenStack Compute の名称である。"
+msgstr "Horizon は OpenStack Compute の名称である"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml186(title)
 msgid ""
 "Which Hypervisors can be supported in OpenStack? (Choose all that apply)"
-msgstr "どのハイパーバイザーが OpenStack でサポートされるでしょうか? (正しいものをすべて選択)"
+msgstr "どのハイパーバイザーが OpenStack でサポートされるでしょうか (正しいものをすべて選択)"
 
 #: ./doc/training-guides/associate-guide/ch_associate-getting-started-quiz.xml190(para)
 msgid "KVM"
@@ -1378,19 +1399,19 @@ msgid ""
 "The concept of a plug-in, which is a pluggable back-end implementation of "
 "the OpenStack Networking API, is used in OpenStack Networking and nova-"
 "network."
-msgstr ""
+msgstr "OpenStack Networking API のプラグイン可能なバックエンド実装である、プラグインの概念は、OpenStack Networking と nova-network において使用される。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml28(title)
 msgid ""
 "A plug-in implements the logical API requests with L2-in-L3 tunneling or "
 "OpenFlow."
-msgstr ""
+msgstr "プラグインは、L2-in-L3 トンネリングや OpenFlow を用いて論理 API リクエストを実装する。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml43(title)
 msgid ""
 "As part of creating a VM, which process communicates with the OpenStack "
 "Networking API to plug each virtual NIC on the VM into a particular network:"
-msgstr ""
+msgstr "仮想マシン作成の一部として、どのプロセスが OpenStack Networking API と通信して、仮想マシンの各仮想 NIC を特定のネットワークに接続するでしょうか。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml47(para)
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml31(para)
@@ -1419,7 +1440,7 @@ msgstr "nova-neutron"
 msgid ""
 "A standard OpenStack Networking setup (like it was presented in this guide) "
 "has many distinct physical data center networks: (choose all that apply)"
-msgstr ""
+msgstr "(このガイドで示されたような) 標準的な OpenStack Networking セットアップ環境は、多くの別々な物理データセンターネットワークを持つ (正しいものをすべて選択)。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml71(para)
 msgid "isolated network"
@@ -1455,7 +1476,7 @@ msgid ""
 " a “cloud controller” host (Control node), a “network gateway” host (Network"
 " node), and a set of hypervisors for running VMs (Compute nodes). For each "
 "of the following services identify a host on which it usually runs:"
-msgstr ""
+msgstr "このガイドでは、「クラウドコントローラー」ホスト (コントローラーノード)、「ネットワークゲートウェイ」ホスト (ネットワークノード)、仮想マシンを実行するためのハイパーバイザー群 (コンピュートノード) を持つ、標準的なアーキテクチャーに主な焦点を当てています。以下の各サービスは、一般的にどのホストにおいて実行されますか。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml101(para)
 msgid "Neutron plugin agent"
@@ -1463,7 +1484,7 @@ msgstr "Neutron プラグインエージェント"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml104(para)
 msgid "Neutron L3 agent"
-msgstr "neutron L3 エージェント"
+msgstr "Neutron L3 エージェント"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml107(para)
 msgid "Neutron DHCP agent"
@@ -1479,7 +1500,7 @@ msgstr "Neutron メタデータエージェント"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml123(title)
 msgid "Associate Training Guide, Network Node Quiz Answers"
-msgstr "アソシエイトトレーニングガイド、ネットワークノードクイズ解答"
+msgstr "アソシエイトトレーニングガイド、ネットワークノード クイズ 解答"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml127(para)
 msgid ""
@@ -1493,7 +1514,7 @@ msgid ""
 "Linux VLANs and IP tables, while others might use more advanced "
 "technologies, such as L2-in-L3 tunneling or OpenFlow, to provide similar "
 "benefits."
-msgstr ""
+msgstr "B (偽) - プラグインは、論理 API リクエストを実装するために、さまざまな技術を使用できます。いくつかの OpenStack Networking プラグインは、基本的な Linux VLAN と iptables を使用することもできます。別のものは、同様の機能を提供するために L2-in-L3 トンネリングや OpenFlow のような高度な技術を使用するかもしれません。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-network-node-quiz.xml133(para)
 msgid "C"
@@ -1507,7 +1528,7 @@ msgstr "C, D, E, F"
 msgid ""
 "A - network node, compute nodes, B - network node, C - network node, D - "
 "control node, E - network node"
-msgstr ""
+msgstr "A - ネットワークノードとコンピュートノード、B - ネットワークノード、C - ネットワークノード、D - コントローラーノード、E - ネットワークノード"
 
 #: ./doc/training-guides/associate-guide/ch_associate-assessment.xml6(title)
 #: ./doc/training-guides/developer-guide/ch_developer-assessment.xml6(title)
@@ -1607,23 +1628,23 @@ msgstr "1 日目、14:25 ～ 14:45"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml10(title)
 msgid "Associate Training Guide, Controller Node Quiz Questions"
-msgstr "アソシエイトトレーニングガイド、コントローラーノードクイズ問題"
+msgstr "アソシエイトトレーニングガイド、コントローラーノード クイズ 問題"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml15(title)
 msgid ""
 "When managing images for OpenStack you can complete all those tasks with the"
 " OpenStack dashboard."
-msgstr "OpenStack のイメージを管理するとき、すべての作業を OpenStack Dashboard を用いて実行できる。"
+msgstr "OpenStack のイメージを管理するとき、すべての作業を OpenStack Dashboard から実行できる"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml31(title)
 msgid ""
 "When setting up access and security, SSH credentials (keypairs) must be "
 "injected into images after they are launched with a script."
-msgstr "アクセスとセキュリティのセットアップ時、SSH クレデンシャル (キーペア) は、イメージの起動後にスクリプトを用いて注入する必要がある。"
+msgstr "アクセスとセキュリティのセットアップ時、SSH クレデンシャル (キーペア) は、イメージの起動後にスクリプトを用いて注入する必要がある"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml47(title)
 msgid "You can track monthly costs with metrics like: (choose all that apply)"
-msgstr "以下のような測定項目を用いて月額を測定できます。(正しいものをすべて選択)"
+msgstr "以下のような測定項目を用いて月あたりのコストを測定できます (正しいものをすべて選択)"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml51(para)
 msgid "VCPU"
@@ -1649,7 +1670,7 @@ msgstr "メモリー"
 msgid ""
 "The following OpenStack command-line clients are available: (choose all that"
 " apply)"
-msgstr ""
+msgstr "以下の OpenStack コマンドラインクライアントが利用できます (正しいものをすべて選択)"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml75(para)
 msgid "python-keystoneclient"
@@ -1673,22 +1694,22 @@ msgstr "python-novaclient"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml95(title)
 msgid "To install a client package"
-msgstr "クライアントパッケージのインストール方法"
+msgstr "クライアントパッケージをインストールします"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml96(para)
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml113(para)
 msgid "Run this command: <placeholder-1/><placeholder-2/>"
-msgstr "このコマンドを実行します。<placeholder-1/><placeholder-2/>"
+msgstr "次のコマンドを実行します。<placeholder-1/><placeholder-2/>"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml112(title)
 msgid "To list images"
-msgstr "イメージの一覧表示方法"
+msgstr "イメージを一覧表示します"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml129(title)
 msgid ""
 "When troubleshooting image creation you will need to look at which of the "
 "following log files for errors? (choose all that apply)"
-msgstr "イメージ作成のトラブルシューティング時、どのログファイルからエラーを確認する必要があるでしょうか? (正しいものをすべて選択)"
+msgstr "イメージ作成のトラブルシューティング時、どのログファイルのエラーを確認する必要があるでしょうか (正しいものをすべて選択)"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml134(para)
 msgid "Examine the /var/log/nova-api.log"
@@ -1714,18 +1735,18 @@ msgstr "/var/log/nova-image.log を確認する"
 msgid ""
 "To generate a keypair use the following command syntax: $ nova keypair-add "
 "--pub_key ~/.ssh/id_rsa.pub KEY_NAME"
-msgstr "キーペアを生成するために、以下のコマンドを使用します。$ nova keypair-add --pub_key ~/.ssh/id_rsa.pub KEY_NAME"
+msgstr "キーペアを生成するために、次のコマンドを使用します。$ nova keypair-add --pub_key ~/.ssh/id_rsa.pub KEY_NAME"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml170(title)
 msgid ""
 "When you want to launch an instance you can only do that from an image."
-msgstr "インスタンスを起動したいとき、イメージのみから実行できる。"
+msgstr "インスタンスを起動したいとき、イメージのみから起動できる"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml185(title)
 msgid ""
 "An instance has a Private IP address which has the following properties: "
 "(choose all that apply)"
-msgstr ""
+msgstr "インスタンスは、以下のプロパティーを持つプライベート IP アドレスを持つ (正しいものをすべて選択)"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml189(para)
 msgid "Used for communication between instances"
@@ -1737,19 +1758,19 @@ msgstr "再起動後も同じままである"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml198(para)
 msgid "Stays allocated, even if you terminate the instance"
-msgstr "インスタンスを停止しても、割り当てられたままです。"
+msgstr "インスタンスを停止しても、割り当てられたままとなる"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml201(para)
 msgid ""
 "To see the status of the Private IP addresses you use the following command:"
 " $ nova floating-ip-pool-list"
-msgstr "プライベート IP アドレスの状態を確認するために、以下のコマンドを使用します: $ nova floating-ip-pool-list"
+msgstr "プライベート IP アドレスの状態を確認するために、次のコマンドを使用する。$ nova floating-ip-pool-list"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml210(title)
 msgid ""
 "To start and stop and instance you can use the following options: (choose "
 "all that apply)"
-msgstr "インスタンスを起動したり停止したりするために、以下のオプションを使用できます。(正しいものをすべて選択)"
+msgstr "インスタンスを起動したり停止したりするために、以下のオプションを使用できる (正しいものをすべて選択)"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml214(para)
 msgid "Pause/Un-pause"
@@ -1761,7 +1782,7 @@ msgstr "休止/再開"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml220(para)
 msgid "Reboot"
-msgstr "リブート"
+msgstr "再起動"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml223(para)
 msgid "Evacuate"
@@ -1775,12 +1796,12 @@ msgstr "シャットダウン/再起動"
 msgid ""
 "To create a network in OpenStack use the following command: $ neutron net-"
 "create net1"
-msgstr "OpenStack にネットワークを作成するために、次のコマンドを使用します。$ neutron net-create net1"
+msgstr "OpenStack にネットワークを作成するために、次のコマンドを使用する。$ neutron net-create net1"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml249(title)
 msgid ""
 "Identity Service provides the following functions: (choose all that apply)"
-msgstr "Identity Service は以下の機能を提供します。(正しいものをすべて選択)"
+msgstr "Identity は以下の機能を提供する (正しいものをすべて選択)"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml253(para)
 msgid "Group policy objects"
@@ -1807,7 +1828,7 @@ msgstr "サービスカタログ"
 msgid ""
 "The AMQP supports the following messaging bus options: (choose all that "
 "apply)"
-msgstr "AMQP は以下のメッセージバスオプションをサポートします。(正しいものをすべて選択)"
+msgstr "AMQP は以下のメッセージバスオプションをサポートする (正しいものをすべて選択)"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml277(para)
 #: ./doc/training-guides/basic-install-guide/section_basics-queue.xml27(link)
@@ -1840,17 +1861,17 @@ msgstr "Qpid"
 msgid ""
 "OpenStack uses the term tenant but in earlier versions it used the term "
 "customer."
-msgstr "OpenStack は、テナントという用語を使用しますが、以前のバージョンは顧客という用語を使用していました。"
+msgstr "OpenStack はテナントという用語を使用するが、以前のバージョンは顧客という用語を使用していた"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml314(title)
 msgid "Associate Training Guide, Controller Node Quiz Answers"
-msgstr "アソシエイトトレーニングガイド、コントローラーノードクイズ解答"
+msgstr "アソシエイトトレーニングガイド、コントローラーノード クイズ 解答"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml318(para)
 msgid ""
 "B (False) - you can manage images through only the glance and nova clients "
 "or the Image Service and Compute APIs."
-msgstr "B (偽) -  glance と nova クライアント経由、Image Service API と Compute API 経由のみでイメージを管理できます。"
+msgstr "B (偽) -  glance クライアントと nova クライアント経由、Image Service API と Compute API 経由のみでイメージを管理できます。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml322(para)
 msgid ""
@@ -20775,14 +20796,14 @@ msgid "To launch an instance from an image"
 msgstr "イメージからインスタンスを起動する方法"
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml375(para)
-msgid "Click the Images &amp; Snapshot category."
-msgstr "イメージとスナップショットカテゴリーをクリックします。"
+msgid "Click the Images &amp; Snapshots category."
+msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml378(para)
 msgid ""
-"The dashboard shows the images that have been uploaded to OpenStack Image "
-"Service and are available for this project."
-msgstr "ダッシュボードは OpenStack Image Service にアップロードされ、このプロジェクトに利用可能なイメージを表示します。"
+"The dashboard shows the images that have been uploaded to the OpenStack "
+"Image Service and are available for this project."
+msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml383(para)
 msgid "Select an image and click Launch."
@@ -20814,9 +20835,9 @@ msgstr "イメージが固定の root パスワードまたは固定のキーセ
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml406(para)
 msgid ""
-"In Instance Count, enter the number of virtual machines to launch from this "
-"image."
-msgstr "インスタンス数に、このイメージから起動する仮想マシン数を入力します。"
+"In the Instance Count field, enter the number of virtual machines to launch "
+"from this image."
+msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml410(para)
 msgid "Activate the security groups that you want to assign to the instance."
@@ -20850,7 +20871,7 @@ msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml437(para)
 msgid ""
-"Click Launch Instance. The instance is started on any of the compute nodes "
+"Click Launch Instance. The instance is started on one of the compute nodes "
 "in the cloud."
 msgstr ""
 
@@ -20868,9 +20889,9 @@ msgstr "OpenStack Dashboard - インスタンス"
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml453(para)
 msgid ""
-"If you did not provide a keypair, security groups, or rules so far, by "
-"default the instance can only be accessed from inside the cloud through VNC "
-"at this point. Even pinging the instance is not possible. To access the "
+"If you did not provide a keypair, create security groups, or rules so far, "
+"by default the instance can only be accessed from inside the cloud through "
+"VNC at this point. Even pinging the instance is not possible. To access the "
 "instance through a VNC console, see<link href=\"http://docs.openstack.org"
 "/user-guide/content/instance_console.html\"/><link "
 "href=\"http://docs.openstack.org/user-"
@@ -20912,8 +20933,8 @@ msgstr ""
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml478(para)
 msgid ""
 "To be able to select from which volume to boot, launch an instance from an "
-"arbitrary image. The image you select does not boot. It is replaced by the "
-"image on the volume that you choose in the next steps."
+"arbitrary image. The image you select will not boot. It will be replaced by "
+"the image on the volume that you choose in the next steps."
 msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml484(para)
@@ -22244,7 +22265,7 @@ msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml1503(para)
 msgid ""
-"If needed, you can assign a floating (public) IP addressto a running "
+"If needed, you can assign a floating (public) IP address to a running "
 "instance and attach a block storage device, or volume, for persistent "
 "storage. For details, see Section 1.5.3, Managing IP Addresses and Section "
 "1.7, Managing Volumes."
@@ -22450,8 +22471,8 @@ msgstr "# cinder create --image-id 397e713c-b95b-4186-ad46-6126863ea0a9 --displa
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml1679(para)
 msgid ""
 "Optionally, to configure your volume, see the Configuring Image Service and "
-"Storage for Computechapter in the OpenStack Configuration Reference."
-msgstr "オプションとして、ボリュームを設定する場合、OpenStack 設定リファレンスの  Configuring Image Service and Storage for Compute の章を参照してください。"
+"Storage for Compute chapter in the OpenStack Configuration Reference."
+msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml1684(para)
 msgid "To list volumes"
@@ -22832,8 +22853,8 @@ msgid "To un-pause the server, run the following command:"
 msgstr "インスタンスの一時停止を解除するには、以下のコマンドを実行します。"
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml1998(para)
-msgid "$ nova unpause SERVER"
-msgstr "$ nova unpause SERVER"
+msgid "$ nova un-pause SERVER"
+msgstr ""
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml2001(guilabel)
 msgid "Suspend and resume an instance"
