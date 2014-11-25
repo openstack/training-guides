@@ -405,7 +405,7 @@ neutron_metadata_proxy_shared_secret = OpenStackTraining
 
 [keystone_authtoken]
 auth_uri = http://10.10.10.51:5000
-auth_host = controller
+auth_host = 10.10.10.51
 auth_port = 35357
 auth_protocol = http
 admin_tenant_name = service
