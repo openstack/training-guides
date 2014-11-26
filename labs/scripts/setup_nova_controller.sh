@@ -9,19 +9,14 @@ exec_logfile
 
 indicate_current_auto
 
-#------------------------------------------------------------------------------
-# Set up OpenStack Compute (nova) for controller node.
-#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------
+# Install Compute controller services
+# http://docs.openstack.org/icehouse/install-guide/install/apt/content/nova-controller.html
+#------------------------------------------------------------------------------------------
 
 echo "Installing nova for controller node."
 sudo apt-get install -y nova-api nova-cert nova-conductor nova-consoleauth \
                         nova-novncproxy nova-scheduler python-novaclient
-
-# Remove SQLite database created by Ubuntu package for nova.
-sudo rm -v /var/lib/nova/nova.sqlite
-
-echo "Setting up database for nova."
-setup_database nova
 
 function get_database_url {
     local db_user=$(service_to_db_user nova)
@@ -33,10 +28,34 @@ function get_database_url {
 
 database_url=$(get_database_url)
 
-echo "Configuring nova for controller node."
+echo "Configuring [database] section in /etc/nova/nova.conf for controller node."
 
 echo "Setting database connection: $database_url."
 iniset_sudo /etc/nova/nova.conf database connection "$database_url"
+
+echo "Configuring [DEFAULT] section in /etc/nova/nova.conf for controller node."
+conf=/etc/nova/nova.conf
+
+# Configuring [DEFAULT] section
+
+# Configure RabbitMQ variables
+iniset_sudo $conf DEFAULT rpc_backend rabbit
+iniset_sudo $conf DEFAULT rabbit_host controller-mgmt
+iniset_sudo $conf DEFAULT rabbit_password "$RABBIT_PASSWORD"
+
+# Configure other variables
+iniset_sudo $conf DEFAULT my_ip "$(hostname_to_ip controller-mgmt)"
+iniset_sudo $conf DEFAULT vncserver_listen controller-mgmt
+iniset_sudo $conf DEFAULT vncserver_proxyclient_address controller-mgmt
+
+# Remove SQLite database created by Ubuntu package for nova.
+sudo rm -v /var/lib/nova/nova.sqlite
+
+echo "Setting up database for nova."
+setup_database nova
+
+echo "Creating the database tables for nova."
+sudo nova-manage db sync
 
 nova_admin_user=$(service_to_user_name nova)
 nova_admin_password=$(service_to_user_password nova)
@@ -53,19 +72,8 @@ keystone user-role-add \
     --role "$ADMIN_ROLE_NAME"
 
 echo "Configuring nova to use keystone for authentication."
-echo "Configuring nova.conf"
-conf=/etc/nova/nova.conf
-# Configuring [DEFAULT] section
 
-# Configure RabbitMQ variables
-iniset_sudo $conf DEFAULT rpc_backend rabbit
-iniset_sudo $conf DEFAULT rabbit_host controller-mgmt
-iniset_sudo $conf DEFAULT rabbit_password "$RABBIT_PASSWORD"
-
-# Configure other variables
-iniset_sudo $conf DEFAULT my_ip "$(hostname_to_ip controller-mgmt)"
-iniset_sudo $conf DEFAULT vncserver_listen controller-mgmt
-iniset_sudo $conf DEFAULT vncserver_proxyclient_address controller-mgmt
+# Configuring the [DEFAULT] section
 iniset_sudo $conf DEFAULT auth_strategy keystone
 
 # Configure [keystone_authtoken] section
@@ -90,9 +98,6 @@ keystone endpoint-create \
     --publicurl 'http://controller-api:8774/v2/%(tenant_id)s' \
     --adminurl 'http://controller-mgmt:8774/v2/%(tenant_id)s' \
     --internalurl 'http://controller-mgmt:8774/v2/%(tenant_id)s'
-
-echo "Creating the database tables for nova."
-sudo nova-manage db sync
 
 echo "Restarting nova services."
 declare -a components=(nova-api nova-cert nova-consoleauth nova-scheduler
