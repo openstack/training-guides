@@ -13,8 +13,8 @@
     <properties>
         <!-- This is set by Jenkins according to the branch. -->
         <release.path.name>local</release.path.name>
-        <comments.enabled>1</comments.enabled>
-        <profileOs>ubuntu</profileOs>
+        <comments.enabled>0</comments.enabled>
+        <profile.os>ubuntu</profile.os>
     </properties>
 
     <!-- ################################################ -->
@@ -75,6 +75,7 @@
                     <canonicalUrlBase>http://docs.openstack.org/training-guides/content</canonicalUrlBase>
                     <glossaryCollection>${basedir}/../glossary/glossary-terms.xml</glossaryCollection>
                     <branding>openstack</branding>
+                    <profileOs>${profile.os}</profileOs>
                     <showXslMessages>true</showXslMessages>
                 </configuration>
             </plugin>
