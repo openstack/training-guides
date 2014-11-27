@@ -129,11 +129,13 @@ function create_hostonlyif {
 function create_network {
     local ip=$1
 
-    # XXX We need host-only interface names as identifiers for wbatch; by
-    #     always executing VBoxManage calls to ip_to_hostonlyif and
-    #     create_hostonlyif we avoid the need to invent fake interface names
+    # If we are here only for wbatch, ignore actual network interfaces; just
+    # return a unique identifier (so it can be replaced with the interface
+    # name used by Windows).
+    ${OSBASH:+:} mktemp -u XXXXXXXX
+    ${OSBASH:+:} return 0
 
-    local if_name="$(OSBASH=exec_cmd ip_to_hostonlyif "$ip")"
+    local if_name="$(ip_to_hostonlyif "$ip")"
     if [ -n "$if_name" ]; then
         if hostonlyif_in_use "$if_name"; then
             echo >&2 "Host-only interface $if_name ($ip) is in use." \
@@ -141,7 +143,7 @@ function create_network {
         fi
     else
         echo >&2 "Creating host-only interface"
-        if_name=$(OSBASH=exec_cmd  create_hostonlyif)
+        if_name=$(create_hostonlyif)
     fi
 
     echo >&2 "Configuring host-only network $ip ($if_name)"
