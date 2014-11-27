@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenStack Manuals\n"
-"POT-Creation-Date: 2014-11-25 19:17+0000\n"
-"PO-Revision-Date: 2014-11-25 13:42+0000\n"
+"POT-Creation-Date: 2014-11-26 17:31+0000\n"
+"PO-Revision-Date: 2014-11-27 04:10+0000\n"
 "Last-Translator: openstackjenkins <jenkins@openstack.org>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/openstack-manuals-i18n/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -14196,24 +14196,24 @@ msgstr "アカウントサーバーは、コンテナー一覧を維持するた
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml78(title)
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml133(title)
 msgid "To create the ring"
-msgstr ""
+msgstr "リングの作成方法"
 
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml26(para)
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml80(para)
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml135(para)
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-verify.xml12(para)
 msgid "Perform these steps on the controller node."
-msgstr ""
+msgstr "コントローラーノードにおいて、これらの手順を実行します。"
 
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml29(para)
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml83(para)
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml138(para)
 msgid "Change to the <literal>/etc/swift</literal> directory."
-msgstr ""
+msgstr "<literal>/etc/swift</literal> ディレクトリーに移動します。"
 
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml32(para)
 msgid "Create the base <filename>account.builder</filename> file:"
-msgstr ""
+msgstr "ベースの <filename>account.builder</filename> ファイルを作成します。"
 
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml36(para)
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml91(para)
@@ -14225,19 +14225,19 @@ msgstr ""
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml93(replaceable)
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml147(replaceable)
 msgid "STORAGE_NODE_MANAGEMENT_INTERFACE_IP_ADDRESS"
-msgstr ""
+msgstr "STORAGE_NODE_MANAGEMENT_INTERFACE_IP_ADDRESS"
 
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml38(replaceable)
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml93(replaceable)
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml147(replaceable)
 msgid "DEVICE_NAME"
-msgstr ""
+msgstr "DEVICE_NAME"
 
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml38(replaceable)
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml93(replaceable)
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml147(replaceable)
 msgid "DEVICE_WEIGHT"
-msgstr ""
+msgstr "DEVICE_WEIGHT"
 
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml39(para)
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml94(para)
@@ -14264,51 +14264,51 @@ msgstr ""
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml108(para)
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml162(para)
 msgid "Verify the ring contents:"
-msgstr ""
+msgstr "リングの内容を検証します。"
 
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml65(para)
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml120(para)
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml174(para)
 msgid "Rebalance the ring:"
-msgstr ""
+msgstr "リングをリバランスします。"
 
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml68(para)
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml123(para)
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml177(para)
 msgid "This process can take a while."
-msgstr ""
+msgstr "この処理は少し時間がかかる可能性があります。"
 
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml74(title)
 msgid "Container ring"
-msgstr ""
+msgstr "コンテナーリング"
 
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml75(para)
 msgid ""
 "The container server uses the container ring to maintain lists of objects. "
 "However, it does not track object locations."
-msgstr ""
+msgstr "コンテナーサーバーは、オブジェクト一覧を維持するために、コンテナーリングを使用します。しかしながら、オブジェクトの位置を追跡しません。"
 
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml86(para)
 msgid "Create the base <filename>container.builder</filename> file:"
-msgstr ""
+msgstr "ベースの <filename>container.builder</filename> ファイルを作成します。"
 
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml129(title)
 msgid "Object ring"
-msgstr ""
+msgstr "オブジェクトリング"
 
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml130(para)
 msgid ""
 "The object server uses the object ring to maintain lists of object locations"
 " on local devices."
-msgstr ""
+msgstr "オブジェクトサーバーは、ローカルデバイスのおけるオブジェクトの位置の一覧を維持するために、オブジェクトリングを使用します。"
 
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml141(para)
 msgid "Create the base <filename>object.builder</filename> file:"
-msgstr ""
+msgstr "ベースの <filename>object.builder</filename> ファイルを作成します。"
 
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml183(title)
 msgid "Distribute ring configuration files"
-msgstr ""
+msgstr "リング設定ファイルを配布します。"
 
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-initial-rings.xml184(para)
 msgid ""
@@ -14317,7 +14317,7 @@ msgid ""
 "<filename>object.ring.gz</filename> files to the "
 "<literal>/etc/swift</literal> directory on each storage node and any "
 "additional nodes running the proxy service."
-msgstr ""
+msgstr "各ストレージノード、プロキシーサービスを実行している追加ノードにおいて、 <filename>account.ring.gz</filename> ファイル、<filename>container.ring.gz</filename> ファイル、<filename>object.ring.gz</filename> ファイルを <literal>/etc/swift</literal> ディレクトリーにコピーします。"
 
 #: ./doc/training-guides/basic-install-guide/object-storage/section_start-storage-node-services.xml8(title)
 msgid "Start services on the storage nodes"
@@ -14341,7 +14341,7 @@ msgstr "<literal>swift-init</literal> コマンドについて詳しく知りた
 msgid ""
 "This section describes how to verify operation of the Object Storage "
 "service."
-msgstr ""
+msgstr "このセクションは、Object Storage の動作を検証する方法を説明します。"
 
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-verify.xml19(para)
 msgid "Show the service status:"
@@ -14374,7 +14374,7 @@ msgstr "テストファイルをダウンロードします。"
 msgid ""
 "Replace <replaceable>FILE</replaceable> with the name of the file uploaded "
 "to the <literal>demo-container1</literal> container."
-msgstr ""
+msgstr "<replaceable>FILE</replaceable> を <literal>demo-container1</literal> コンテナーにアップロードしたファイルの名前に置き換えます。"
 
 #: ./doc/training-guides/basic-install-guide/object-storage/section_object-storage-install-config-storage-nodes.xml7(title)
 msgid "Install and configure storage nodes"
@@ -14529,19 +14529,19 @@ msgstr "<filename>/etc/swift/proxy-server.conf</filename> ファイルを編集�
 msgid ""
 "In the <literal>[DEFAULT]</literal> section, configure the bind port, user, "
 "and configuration directory:"
-msgstr ""
+msgstr "<literal>[DEFAULT]</literal> セクションにおいて、バインドするポート、ユーザー、設定ディレクトリーを設定します。"
 
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-controller-node.xml142(para)
 msgid ""
 "In the <literal>[app:proxy-server]</literal> section, enable account "
 "management:"
-msgstr ""
+msgstr "<literal>[app:proxy-server]</literal> セクションにおいて、アカウント管理を有効化します。"
 
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-controller-node.xml150(para)
 msgid ""
 "In the <literal>[filter:keystoneauth]</literal> section, configure the "
 "operator roles:"
-msgstr ""
+msgstr "<literal>[filter:keystoneauth]</literal> セクションにおいて、operator ロールを設定します。"
 
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-controller-node.xml157(para)
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-controller-node.xml176(para)
@@ -14552,7 +14552,7 @@ msgstr ""
 msgid ""
 "In the <literal>[filter:authtoken]</literal> section, configure Identity "
 "service access:"
-msgstr ""
+msgstr "<literal>[filter:authtoken]</literal> セクションに、Identity のアクセス権を設定します。"
 
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-controller-node.xml172(para)
 msgid ""
