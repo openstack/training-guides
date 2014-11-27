@@ -337,7 +337,7 @@ Client for the Identity Service API. Use to create and manage users, tenants, ro
 nova(python-novaclient)
 Client for the Compute API and its extensions. Use to create and manage images, instances, and flavors.
 neutron(python-neutronclient)
-Client for the Networking API. Use to configure networks for guest servers. This client was previously known as neutron.
+Client for the Networking API. Use to configure networks for guest servers. This client was previously known as quantum.
 swift(python-swiftclient)
 Client for the Object Storage API. Use to gather statistics, list items, update metadata, upload, download and delete files stored by the object storage service. Provides access to a swift installation for ad hoc processing.
 heat(python-heatclient)</para>
