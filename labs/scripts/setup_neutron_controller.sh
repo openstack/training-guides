@@ -11,33 +11,14 @@ indicate_current_auto
 
 #------------------------------------------------------------------------------
 # Set up OpenStack Networking (neutron) for controller node.
+# http://docs.openstack.org/icehouse/install-guide/install/apt/content/neutron-ml2-controller-node.html
 #------------------------------------------------------------------------------
-
-echo "Installing neutron for controller node."
-sudo apt-get install -y neutron-server neutron-plugin-ml2
 
 echo "Setting up database for neutron."
 setup_database neutron
 
-function get_database_url {
-    local db_user=$(service_to_db_user neutron)
-    local db_password=$(service_to_db_password neutron)
-    local database_host=controller-mgmt
-
-    echo "mysql://$db_user:$db_password@$database_host/neutron"
-}
-
-database_url=$(get_database_url)
-
-echo "Configuring neutron for controller node."
-
-echo "Setting database connection: $database_url."
-iniset_sudo /etc/neutron/neutron.conf database connection "$database_url"
-
 neutron_admin_user=$(service_to_user_name neutron)
 neutron_admin_password=$(service_to_user_password neutron)
-nova_admin_user=$(service_to_user_name nova)
-nova_admin_password=$(service_to_user_password nova)
 
 echo "Creating neutron user and giving it admin role under service tenant."
 keystone user-create \
@@ -50,19 +31,60 @@ keystone user-role-add \
     --tenant "$SERVICE_TENANT_NAME" \
     --role "$ADMIN_ROLE_NAME"
 
-echo "Configuring neutron to use keystone for authentication."
-echo "Configuring neutron.conf"
+echo "Registering neutron with keystone so that other services can locate it."
+keystone service-create \
+    --name neutron \
+    --type network \
+    --description "OpenStack Networking"
+
+neutron_service_id=$(keystone service-list | awk '/ network / {print $2}')
+keystone endpoint-create \
+    --service-id "$neutron_service_id" \
+    --publicurl "http://controller-api:9696" \
+    --adminurl "http://controller-mgmt:9696" \
+    --internalurl "http://controller-mgmt:9696"
+
+echo "Installing neutron for controller node."
+sudo apt-get install -y neutron-server neutron-plugin-ml2
+
+echo "Configuring neutron for controller node."
+
+function get_database_url {
+    local db_user=$(service_to_db_user neutron)
+    local db_password=$(service_to_db_password neutron)
+    local database_host=controller-mgmt
+
+    echo "mysql://$db_user:$db_password@$database_host/neutron"
+}
+
+database_url=$(get_database_url)
+
+echo "Setting database connection: $database_url."
 conf=/etc/neutron/neutron.conf
-service_tenant_id=$(keystone tenant-get "$SERVICE_TENANT_NAME" | awk '/ id / {print $4}')
-echo "Service tenant id: $service_tenant_id"
+iniset_sudo $conf database connection "$database_url"
 
 # Configuring [DEFAULT] section
 iniset_sudo $conf DEFAULT auth_strategy keystone
+
+# Configuring [keystone_authtoken] section
+iniset_sudo $conf keystone_authtoken auth_uri "http://controller-mgmt:5000"
+iniset_sudo $conf keystone_authtoken auth_host controller-mgmt
+iniset_sudo $conf keystone_authtoken auth_protocol http
+iniset_sudo $conf keystone_authtoken auth_port 35357
+iniset_sudo $conf keystone_authtoken admin_tenant_name "$SERVICE_TENANT_NAME"
+iniset_sudo $conf keystone_authtoken admin_user "$neutron_admin_user"
+iniset_sudo $conf keystone_authtoken admin_password "$neutron_admin_password"
 
 # Configure AMQP parameters
 iniset_sudo $conf DEFAULT rpc_backend neutron.openstack.common.rpc.impl_kombu
 iniset_sudo $conf DEFAULT rabbit_host controller-mgmt
 iniset_sudo $conf DEFAULT rabbit_password "$RABBIT_PASSWORD"
+
+nova_admin_user=$(service_to_user_name nova)
+nova_admin_password=$(service_to_user_password nova)
+
+service_tenant_id=$(keystone tenant-get "$SERVICE_TENANT_NAME" | awk '/ id / {print $4}')
+echo "Service tenant id: $service_tenant_id"
 
 # Configure nova related parameters
 iniset_sudo $conf DEFAULT notify_nova_on_port_status_changes True
@@ -77,28 +99,6 @@ iniset_sudo $conf DEFAULT nova_admin_auth_url http://controller-mgmt:35357/v2.0
 iniset_sudo $conf DEFAULT core_plugin ml2
 iniset_sudo $conf DEFAULT service_plugins router
 iniset_sudo $conf DEFAULT allow_overlapping_ips True
-
-# Configuring [keystone_authtoken] section
-iniset_sudo $conf keystone_authtoken auth_uri "http://controller-mgmt:5000"
-iniset_sudo $conf keystone_authtoken auth_host controller-mgmt
-iniset_sudo $conf keystone_authtoken auth_protocol http
-iniset_sudo $conf keystone_authtoken auth_port 35357
-iniset_sudo $conf keystone_authtoken admin_tenant_name "$SERVICE_TENANT_NAME"
-iniset_sudo $conf keystone_authtoken admin_user "$neutron_admin_user"
-iniset_sudo $conf keystone_authtoken admin_password "$neutron_admin_password"
-
-echo "Registering neutron with keystone so that other services can locate it."
-keystone service-create \
-    --name neutron \
-    --type network \
-    --description "OpenStack Networking"
-
-neutron_service_id=$(keystone service-list | awk '/ network / {print $2}')
-keystone endpoint-create \
-    --service-id "$neutron_service_id" \
-    --publicurl "http://controller-api:9696" \
-    --adminurl "http://controller-mgmt:9696" \
-    --internalurl "http://controller-mgmt:9696"
 
 echo "Configuring the OVS plug-in to use GRE tunneling."
 conf=/etc/neutron/plugins/ml2/ml2_conf.ini
@@ -115,7 +115,6 @@ iniset_sudo $conf ml2_type_gre tunnel_id_ranges 1:1000
 iniset_sudo $conf securitygroup firewall_driver neutron.agent.linux.iptables_firewall.OVSHybridIptablesFirewallDriver
 iniset_sudo $conf securitygroup enable_security_group True
 
-
 echo "Configure Compute to use Networking"
 conf=/etc/nova/nova.conf
 iniset_sudo $conf DEFAULT network_api_class nova.network.neutronv2.api.API
@@ -128,6 +127,8 @@ iniset_sudo $conf DEFAULT neutron_admin_auth_url http://controller-mgmt:35357/v2
 iniset_sudo $conf DEFAULT linuxnet_interface_driver neutron.agent.linux.interface.OVSInterfaceDriver
 iniset_sudo $conf DEFAULT firewall_driver nova.virt.firewall.NoopFirewallDriver
 iniset_sudo $conf DEFAULT security_group_api neutron
+# service_neutron_metadata_proxy, neutron_metadata_proxy_shared_secret from:
+# http://docs.openstack.org/icehouse/install-guide/install/apt/content/neutron-ml2-network-node.html
 iniset_sudo $conf DEFAULT service_neutron_metadata_proxy true
 iniset_sudo $conf DEFAULT neutron_metadata_proxy_shared_secret "$METADATA_SECRET"
 
