@@ -86,6 +86,18 @@ keystone endpoint-create \
     --adminurl "http://controller-mgmt:35357/v2.0" \
     --internalurl "http://controller-mgmt:5000/v2.0"
 
+echo "Creating demo user."
+keystone user-create --name "$DEMO_USER_NAME" --pass "$DEMO_PASSWORD" --email "demo@$MAIL_DOMAIN"
+
+echo "Creating demo tenant."
+keystone tenant-create --name "$DEMO_TENANT_NAME" --description "Demo Tenant"
+
+echo "Linking the demo user, _member_ role, and demo tenant."
+keystone user-role-add \
+    --tenant "$DEMO_TENANT_NAME" \
+    --user "$DEMO_USER_NAME" \
+    --role "$MEMBER_ROLE_NAME"
+
 echo "Adding service tenant."
 keystone tenant-create \
     --name "$SERVICE_TENANT_NAME" \

@@ -19,7 +19,6 @@ cmd snapshot_cycle cinder_installed
 cmd queue setup_horizon.sh
 cmd snapshot_cycle horizon_installed
 cmd queue config_external_network.sh
-cmd queue config_demo_user.sh
 cmd queue config_tenant_network.sh
 cmd snapshot_cycle controller_node_installed
 cmd boot
