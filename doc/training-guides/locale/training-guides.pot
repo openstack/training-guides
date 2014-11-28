@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-11-26 06:00+0000\n"
+"POT-Creation-Date: 2014-11-28 06:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1324,7 +1324,7 @@ msgid "A, C, D, E - You can track costs per month by showing metrics like number
 msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:330(para)
-msgid "A, D, E - The following command-line clients are available for the respective services' APIs: cinder(python-cinderclient) Client for the Block Storage service API. Use to create and manage volumes. glance(python-glanceclient) Client for the Image Service API. Use to create and manage images. keystone(python-keystoneclient) Client for the Identity Service API. Use to create and manage users, tenants, roles, endpoints, and credentials. nova(python-novaclient) Client for the Compute API and its extensions. Use to create and manage images, instances, and flavors. neutron(python-neutronclient) Client for the Networking API. Use to configure networks for guest servers. This client was previously known as neutron. swift(python-swiftclient) Client for the Object Storage API. Use to gather statistics, list items, update metadata, upload, download and delete files stored by the object storage service. Provides access to a swift installation for ad hoc processing. heat(python-heatclient)"
+msgid "A, D, E - The following command-line clients are available for the respective services' APIs: cinder(python-cinderclient) Client for the Block Storage service API. Use to create and manage volumes. glance(python-glanceclient) Client for the Image Service API. Use to create and manage images. keystone(python-keystoneclient) Client for the Identity Service API. Use to create and manage users, tenants, roles, endpoints, and credentials. nova(python-novaclient) Client for the Compute API and its extensions. Use to create and manage images, instances, and flavors. neutron(python-neutronclient) Client for the Networking API. Use to configure networks for guest servers. This client was previously known as quantum. swift(python-swiftclient) Client for the Object Storage API. Use to gather statistics, list items, update metadata, upload, download and delete files stored by the object storage service. Provides access to a swift installation for ad hoc processing. heat(python-heatclient)"
 msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:346(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:349(para) ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml:367(para)
@@ -12068,7 +12068,7 @@ msgid "Launch VM Instance"
 msgstr ""
 
 #: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:199(para)
-msgid "The OpenStack system copies the base image from the image store to local disk which is used as the first disk of the instance (vda). Having small images will result in faster start up of your instances as less data needs to be copied across the network. The system also creates a new empty disk image to present as the second disk (vdb). Be aware that the second disk is an empty disk with an emphemeral life as it is destroyed when you delete the instance. The compute node attaches to the requested <systemitem class=\"service\">cinder-volume</systemitem> using iSCSI and maps this to the third disk (vdc) as requested. The vCPU and memory resources are provisioned and the instance is booted from the first drive. The instance runs and changes data on the disks highlighted in yellow in the diagram."
+msgid "The OpenStack system copies the base image from the image store to local disk which is used as the first disk of the instance (vda). Having small images will result in faster start up of your instances as less data needs to be copied across the network. The system also creates a new empty disk image to present as the second disk (vdb). Be aware that the second disk is an empty disk with an ephemeral life as it is destroyed when you delete the instance. The compute node attaches to the requested <systemitem class=\"service\">cinder-volume</systemitem> using iSCSI and maps this to the third disk (vdc) as requested. The vCPU and memory resources are provisioned and the instance is booted from the first drive. The instance runs and changes data on the disks highlighted in yellow in the diagram."
 msgstr ""
 
 #: ./doc/training-guides/common/section_vm-provisioning-walk-through.xml:212(para)

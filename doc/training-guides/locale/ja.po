@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenStack Manuals\n"
-"POT-Creation-Date: 2014-11-26 17:31+0000\n"
-"PO-Revision-Date: 2014-11-27 04:10+0000\n"
+"POT-Creation-Date: 2014-11-27 20:25+0000\n"
+"PO-Revision-Date: 2014-11-28 04:00+0000\n"
 "Last-Translator: openstackjenkins <jenkins@openstack.org>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/openstack-manuals-i18n/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -1901,12 +1901,12 @@ msgid ""
 " nova(python-novaclient) Client for the Compute API and its extensions. Use "
 "to create and manage images, instances, and flavors. neutron(python-"
 "neutronclient) Client for the Networking API. Use to configure networks for "
-"guest servers. This client was previously known as neutron. swift(python-"
+"guest servers. This client was previously known as quantum. swift(python-"
 "swiftclient) Client for the Object Storage API. Use to gather statistics, "
 "list items, update metadata, upload, download and delete files stored by the"
 " object storage service. Provides access to a swift installation for ad hoc "
 "processing. heat(python-heatclient)"
-msgstr "A, D, E - 以下のコマンドラインクライアントは、各サービスの API を利用可能です。cinder (python-cinderclient) は、ボリュームの作成と管理のために Block Storage サービス API を使用します。glance (python-glanceclient) クライアントは、イメージの作成と管理のために Image Service API を使用します。keystone (python-keystoneclient) クライアントは、ユーザー、テナント、ロール、エンドポイント、クレデンシャルを作成および管理するために、Identity Service API を使用します。nova (python-novaclient) クライアントは、イメージ、インスタンス、フレーバーの作成と管理のために、Compute API とその拡張を使用します。neutron (python-neutronclient) クライアントは、ゲストサーバーのネットワークを設定するために Networking API を使用します。このクライアントは、以前 neutron として知られていました。swift (python-swiftclient) クライアントは、統計情報の収集、項目の一覧表示、メタデータの更新、オブジェクトストレージサービスに保存されているファイルのアップロード、ダウンロード、削除を実行するために、Object Storage API を使用します。アドホック処理のために、swift インストール環境にアクセスできます。heat (python-heatclient)"
+msgstr ""
 
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml346(para)
 #: ./doc/training-guides/associate-guide/ch_associate-controller-node-quiz.xml349(para)
@@ -7212,7 +7212,7 @@ msgstr "<literal>cinder</literal> ユーザーを <literal>service</literal> テ
 
 #: ./doc/training-guides/basic-install-guide/section_cinder-controller-node.xml78(para)
 msgid "Create the <literal>cinder</literal> services:"
-msgstr ""
+msgstr "<literal>cinder</literal> サービスを作成します。"
 
 #: ./doc/training-guides/basic-install-guide/section_cinder-controller-node.xml102(para)
 msgid ""
@@ -7222,7 +7222,7 @@ msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_cinder-controller-node.xml107(para)
 msgid "Create the Block Storage service endpoints:"
-msgstr ""
+msgstr "Block Storage のサービスエンドポイントを作成します。"
 
 #: ./doc/training-guides/basic-install-guide/section_cinder-controller-node.xml141(para)
 msgid ""
@@ -8452,7 +8452,7 @@ msgstr ""
 #: ./doc/training-guides/basic-install-guide/section_dashboard-install.xml19(title)
 #: ./doc/training-guides/basic-install-guide/section_dashboard-install.xml36(title)
 msgid "To install the dashboard components"
-msgstr ""
+msgstr "ダッシュボードのコンポーネントのインストール方法"
 
 #: ./doc/training-guides/basic-install-guide/section_dashboard-install.xml27(para)
 msgid ""
@@ -8460,11 +8460,11 @@ msgid ""
 "package as a dependency. Some users reported issues with this theme in "
 "previous releases. If you encounter issues, remove this package to restore "
 "the original OpenStack theme."
-msgstr ""
+msgstr "Ubuntu は、依存関係として <package>openstack-dashboard-ubuntu-theme</package> パッケージをインストールします。一部のユーザーは、以前のリリースでこのテーマに問題があることを報告しています。問題に遭遇した場合、このパッケージを削除して、元々の OpenStack テーマを復元してください。"
 
 #: ./doc/training-guides/basic-install-guide/section_dashboard-install.xml42(para)
 msgid "Respond to prompts for web server configuration."
-msgstr ""
+msgstr "Web サーバー設定のプロンプトに入力します。"
 
 #: ./doc/training-guides/basic-install-guide/section_dashboard-install.xml44(para)
 msgid ""
@@ -10294,7 +10294,7 @@ msgstr ""
 #: ./doc/training-guides/basic-install-guide/section_trove-install.xml194(para)
 msgid ""
 "This example shows you how to create a MySQL datastore with version 5.5:"
-msgstr ""
+msgstr "この例は、MySQL 5.5 のデータストアを作成する方法です。"
 
 #: ./doc/training-guides/basic-install-guide/section_trove-install.xml196(replaceable)
 msgid "glance_image_ID"
@@ -10306,7 +10306,7 @@ msgstr ""
 
 #: ./doc/training-guides/basic-install-guide/section_trove-install.xml203(replaceable)
 msgid "/etc/<placeholder-1/>/validation-rules.json"
-msgstr ""
+msgstr "/etc/<placeholder-1/>/validation-rules.json"
 
 #: ./doc/training-guides/basic-install-guide/section_trove-install.xml204(para)
 msgid "Example for uplodating rules for MySQL datastore:"
@@ -11387,7 +11387,7 @@ msgstr "<literal>heat</literal> データベースを作成します。"
 
 #: ./doc/training-guides/basic-install-guide/section_heat-install.xml27(para)
 msgid "Grant proper access to the <literal>heat</literal> database:"
-msgstr ""
+msgstr "<literal>heat</literal> データベースに適切な権限を付与します。"
 
 #: ./doc/training-guides/basic-install-guide/section_heat-install.xml30(replaceable)
 #: ./doc/training-guides/basic-install-guide/section_heat-install.xml32(replaceable)
@@ -11411,7 +11411,7 @@ msgstr "HEAT_PASS"
 
 #: ./doc/training-guides/basic-install-guide/section_heat-install.xml62(para)
 msgid "Replace <replaceable>HEAT_PASS</replaceable> with a suitable password."
-msgstr ""
+msgstr "<replaceable>HEAT_PASS</replaceable> を適切なパスワードに置き換えます。"
 
 #: ./doc/training-guides/basic-install-guide/section_heat-install.xml66(para)
 msgid ""
@@ -11429,7 +11429,7 @@ msgstr "<literal>heat_stack_user</literal> ロールと <literal>heat_stack_owne
 msgid ""
 "By default, users created by Orchestration use the "
 "<literal>heat_stack_user</literal> role."
-msgstr ""
+msgstr "Orchestration により作成されたユーザーは、デフォルトで <literal>heat_stack_user</literal> ロールを使用します。"
 
 #: ./doc/training-guides/basic-install-guide/section_heat-install.xml82(para)
 msgid ""
@@ -11451,7 +11451,7 @@ msgstr "パッケージをインストールするために以下のコマンド
 msgid ""
 "Edit the <filename>/etc/heat/heat.conf</filename> file and complete the "
 "following actions:"
-msgstr ""
+msgstr "<filename>/etc/heat/heat.conf</filename> ファイルを編集し、以下の作業を完了します。"
 
 #: ./doc/training-guides/basic-install-guide/section_heat-install.xml165(para)
 msgid ""
@@ -13931,7 +13931,7 @@ msgstr "<emphasis role=\"bold\">権限</emphasis>: OpenStack Object Storage を 
 
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-storage-node.xml7(title)
 msgid "Install and configure the storage nodes"
-msgstr ""
+msgstr "ストレージノードのインストールと設定"
 
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-storage-node.xml8(para)
 msgid ""
@@ -14484,7 +14484,7 @@ msgstr ""
 msgid ""
 "The Object Storage service does not use a SQL database on the controller "
 "node."
-msgstr ""
+msgstr "Object Storage は、コントローラーノードで SQL データベースを使用しません。"
 
 #: ./doc/training-guides/basic-install-guide/object-storage/section_swift-controller-node.xml36(para)
 msgid "Create a <literal>swift</literal> user:"
@@ -18740,8 +18740,8 @@ msgid ""
 "images will result in faster start up of your instances as less data needs "
 "to be copied across the network. The system also creates a new empty disk "
 "image to present as the second disk (vdb). Be aware that the second disk is "
-"an empty disk with an emphemeral life as it is destroyed when you delete the"
-" instance. The compute node attaches to the requested <systemitem "
+"an empty disk with an ephemeral life as it is destroyed when you delete the "
+"instance. The compute node attaches to the requested <systemitem "
 "class=\"service\">cinder-volume</systemitem> using iSCSI and maps this to "
 "the third disk (vdc) as requested. The vCPU and memory resources are "
 "provisioned and the instance is booted from the first drive. The instance "
@@ -25202,7 +25202,7 @@ msgstr "インスタンスの一時停止を解除するには、以下のコマ
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml1998(para)
 msgid "$ nova un-pause SERVER"
-msgstr ""
+msgstr "$ nova un-pause SERVER"
 
 #: ./doc/training-guides/common/section_overview-horizon-cli.xml2001(guilabel)
 msgid "Suspend and resume an instance"
