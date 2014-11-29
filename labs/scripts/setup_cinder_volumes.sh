@@ -14,6 +14,12 @@ indicate_current_auto
 # Set up Block Storage service (cinder).
 #------------------------------------------------------------------------------
 
+# Get FOURTH_OCTET for this node
+source "$CONFIG_DIR/config.$(hostname)"
+
+MY_MGMT_IP=$(get_ip_from_net_and_fourth "MGMT_NET" "$FOURTH_OCTET")
+echo "IP address of this node's interface in management network: $MY_MGMT_IP."
+
 echo "Installing cinder."
 
 sudo apt-get install -y lvm2
@@ -75,6 +81,8 @@ iniset_sudo $conf DEFAULT rabbit_host controller-mgmt
 iniset_sudo $conf DEFAULT rabbit_port 5672
 iniset_sudo $conf DEFAULT rabbit_userid guest
 iniset_sudo $conf DEFAULT rabbit_password "$RABBIT_PASSWORD"
+iniset_sudo $conf DEFAULT my_ip "$MY_MGMT_IP"
+
 iniset_sudo $conf DEFAULT glance_host controller-mgmt
 
 echo "Restarting cinder service."
