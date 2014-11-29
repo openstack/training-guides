@@ -11,29 +11,30 @@ indicate_current_auto
 
 #------------------------------------------------------------------------------
 # Set up OpenStack Networking (neutron) for network node.
+# http://docs.openstack.org/icehouse/install-guide/install/apt/content/neutron-ml2-network-node.html
 #------------------------------------------------------------------------------
 
-echo "Disabling Reverse Path Forwarding filter (RFC 3704)."
+echo "Editing /etc/sysctl.conf: enable IP forwarding, disable RPF filter."
 cat << SYSCTL | sudo tee -a /etc/sysctl.conf
+# Enable IP forwarding
+net.ipv4.ip_forward=1
+# Disable Reverse Path Forwarding filter (RFC 3704)
 net.ipv4.conf.all.rp_filter=0
 net.ipv4.conf.default.rp_filter=0
-net.ipv4.ip_forward=1
 SYSCTL
 
 # Reload changed file
 sudo sysctl -p
 
-echo "Installing neutron for network node."
-sudo apt-get install -y neutron-common neutron-plugin-ml2 \
-    neutron-plugin-openvswitch-agent neutron-l3-agent \
-    neutron-dhcp-agent
+echo "Installing networking components for network node."
+sudo apt-get install -y neutron-plugin-ml2 neutron-plugin-openvswitch-agent \
+    neutron-l3-agent neutron-dhcp-agent
 
 echo "Configuring neutron for network node."
 
 neutron_admin_user=$(service_to_user_name neutron)
 neutron_admin_password=$(service_to_user_password neutron)
 
-echo "Configuring neutron to use keystone for authentication."
 conf=/etc/neutron/neutron.conf
 echo "Configuring $conf."
 
@@ -74,6 +75,8 @@ iniset_sudo $conf DEFAULT dhcp_driver neutron.agent.linux.dhcp.Dnsmasq
 iniset_sudo $conf DEFAULT use_namespaces True
 iniset_sudo $conf DEFAULT verbose True
 iniset_sudo $conf DEFAULT dnsmasq_config_file /etc/neutron/dnsmasq-neutron.conf
+
+# Configure a DNS server to be used by VM instances
 if [ -n "${TENANT_VM_DNS_SERVER:-''}" ]; then
     iniset_sudo $conf DEFAULT dnsmasq_dns_servers "$TENANT_VM_DNS_SERVER"
 fi
@@ -105,6 +108,11 @@ iniset_sudo $conf DEFAULT admin_user "$neutron_admin_user"
 iniset_sudo $conf DEFAULT admin_password "$neutron_admin_password"
 iniset_sudo $conf DEFAULT nova_metadata_ip "$(hostname_to_ip controller-mgmt)"
 iniset_sudo $conf DEFAULT metadata_proxy_shared_secret "$METADATA_SECRET"
+iniset_sudo $conf DEFAULT verbose True
+
+# The next two steps according to the install-guide (configuring
+# service_neutron_metadata_proxy and neutron_metadata_proxy_shared_secret)
+# are done in setup_neutron_controller.sh.
 
 echo "Configuring the OVS plug-in to use GRE tunneling."
 conf=/etc/neutron/plugins/ml2/ml2_conf.ini
