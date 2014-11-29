@@ -12,6 +12,7 @@ indicate_current_auto
 
 #------------------------------------------------------------------------------
 # Set up Block Storage service (cinder).
+# http://docs.openstack.org/icehouse/install-guide/install/apt/content/cinder-node.html
 #------------------------------------------------------------------------------
 
 # Get FOURTH_OCTET for this node
@@ -25,12 +26,13 @@ echo "Installing cinder."
 sudo apt-get install -y lvm2
 
 echo "Configuring LVM physical and logical volumes."
+
+# We don't have a dedicated physical partition for cinder to use; instead,
+# we configure a file-backed loopback device.
 cinder_loop_path=/var/lib/cinder-volumes
 cinder_loop_dev=/dev/loop2
 sudo dd if=/dev/zero of=$cinder_loop_path bs=1 count=0 seek=4G
 sudo losetup $cinder_loop_dev $cinder_loop_path
-sudo pvcreate $cinder_loop_dev
-sudo vgcreate cinder-volumes $cinder_loop_dev
 
 # Tell upstart to run losetup again when the system is rebooted
 cat << UPSTART | sudo tee "/etc/init/cinder-losetup.conf"
@@ -41,32 +43,21 @@ task
 exec /sbin/losetup $cinder_loop_dev $cinder_loop_path
 UPSTART
 
+sudo pvcreate $cinder_loop_dev
+sudo vgcreate cinder-volumes $cinder_loop_dev
+
+# We could configure LVM to only use loopback devices or only the device
+# we just set up, but scanning our block devices to find our volume group
+# is fast enough.
+
 sudo apt-get install -y cinder-volume
-
-function get_database_url {
-    local db_user=$(service_to_db_user cinder)
-    local db_password=$(service_to_db_password cinder)
-    local database_host=controller-mgmt
-
-    echo "mysql://$db_user:$db_password@$database_host/cinder"
-}
-
-database_url=$(get_database_url)
-
-echo "Configuring cinder."
-
-echo "Setting database connection: $database_url."
-iniset_sudo /etc/cinder/cinder.conf database connection "$database_url"
-
-cinder_admin_user=$(service_to_user_name cinder)
-cinder_admin_password=$(service_to_user_password cinder)
-
-echo "Configuring cinder to use keystone for authentication."
 
 conf=/etc/cinder/cinder.conf
 echo "Configuring $conf."
 
 # Configure [keystone_authtoken] section.
+cinder_admin_user=$(service_to_user_name cinder)
+cinder_admin_password=$(service_to_user_password cinder)
 iniset_sudo $conf keystone_authtoken auth_uri "http://controller-mgmt:5000"
 iniset_sudo $conf keystone_authtoken auth_host controller-mgmt
 iniset_sudo $conf keystone_authtoken auth_port 35357
@@ -81,9 +72,25 @@ iniset_sudo $conf DEFAULT rabbit_host controller-mgmt
 iniset_sudo $conf DEFAULT rabbit_port 5672
 iniset_sudo $conf DEFAULT rabbit_userid guest
 iniset_sudo $conf DEFAULT rabbit_password "$RABBIT_PASSWORD"
+
+function get_database_url {
+    local db_user=$(service_to_db_user cinder)
+    local db_password=$(service_to_db_password cinder)
+    local database_host=controller-mgmt
+
+    echo "mysql://$db_user:$db_password@$database_host/cinder"
+}
+
+database_url=$(get_database_url)
+
+echo "Setting database connection: $database_url."
+iniset_sudo $conf database connection "$database_url"
+
 iniset_sudo $conf DEFAULT my_ip "$MY_MGMT_IP"
 
 iniset_sudo $conf DEFAULT glance_host controller-mgmt
+
+echo "Configuring cinder to use keystone for authentication."
 
 echo "Restarting cinder service."
 sudo service cinder-volume restart
