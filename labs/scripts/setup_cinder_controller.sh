@@ -10,7 +10,8 @@ exec_logfile
 indicate_current_auto
 
 #------------------------------------------------------------------------------
-# Set up Block Storage service controller (cinder controller node).
+# Set up Block Storage service controller (cinder controller node)
+# http://docs.openstack.org/icehouse/install-guide/install/apt/content/cinder-controller.html
 #------------------------------------------------------------------------------
 
 echo "Installing cinder."
@@ -18,9 +19,6 @@ sudo apt-get install -y cinder-api cinder-scheduler qemu-utils
 # Note: The package 'qemu-utils' is required for 'qemu-img' which allows cinder
 #       to convert additional image types to bootable volumes. By default only
 #       raw images can be converted.
-
-echo "Setting up database for cinder."
-setup_database cinder
 
 function get_database_url {
     local db_user=$(service_to_db_user cinder)
@@ -32,10 +30,13 @@ function get_database_url {
 
 database_url=$(get_database_url)
 
-echo "Configuring cinder."
+echo "Configuring [database] section in /etc/cinder/cinder.conf."
 
 echo "Setting database connection: $database_url."
 iniset_sudo /etc/cinder/cinder.conf database connection "$database_url"
+
+echo "Setting up database for cinder."
+setup_database cinder
 
 echo "Creating the database tables for cinder."
 sudo cinder-manage db sync
@@ -43,12 +44,13 @@ sudo cinder-manage db sync
 cinder_admin_user=$(service_to_user_name cinder)
 cinder_admin_password=$(service_to_user_password cinder)
 
-echo "Creating cinder user and giving it admin role under service tenant."
+echo "Creating cinder user."
 keystone user-create \
     --name "$cinder_admin_user" \
     --pass "$cinder_admin_password" \
     --email "cinder@$MAIL_DOMAIN"
 
+echo "Linking cinder user, service tenant and admin role."
 keystone user-role-add \
     --user "$cinder_admin_user" \
     --tenant "$SERVICE_TENANT_NAME" \
@@ -68,7 +70,7 @@ iniset_sudo $conf keystone_authtoken admin_tenant_name "$SERVICE_TENANT_NAME"
 iniset_sudo $conf keystone_authtoken admin_user "$cinder_admin_user"
 iniset_sudo $conf keystone_authtoken admin_password "$cinder_admin_password"
 
-# Configure [DEFAULT] section.
+# Configure [DEFAULT] section to use RabbitMQ message broker.
 iniset_sudo $conf DEFAULT rpc_backend cinder.openstack.common.rpc.impl_kombu
 iniset_sudo $conf DEFAULT rabbit_host controller-mgmt
 iniset_sudo $conf DEFAULT rabbit_port 5672
@@ -103,4 +105,3 @@ keystone endpoint-create \
 echo "Restarting cinder service."
 sudo service cinder-scheduler restart
 sudo service cinder-api restart
-
