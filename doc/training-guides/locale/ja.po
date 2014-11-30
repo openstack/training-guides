@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenStack Manuals\n"
-"POT-Creation-Date: 2014-11-27 20:25+0000\n"
-"PO-Revision-Date: 2014-11-28 04:00+0000\n"
-"Last-Translator: openstackjenkins <jenkins@openstack.org>\n"
+"POT-Creation-Date: 2014-11-29 09:23+0000\n"
+"PO-Revision-Date: 2014-11-30 05:59+0000\n"
+"Last-Translator: Tomoyuki KATO <tomo@dream.daynight.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/openstack-manuals-i18n/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2098,20 +2098,20 @@ msgid ""
 "filtering and weighting, returns the updated instance entry with the "
 "appropriate host ID and sends the rpc.cast request to nova-compute for "
 "launching an instance on the appropriate host."
-msgstr ""
+msgstr "nova-scheduler が、nova DB を使用して、フィルタリングや重み付けにより適切なホストを見つける。適切なホスト ID を用いて更新されたインスタンスのエントリーを返す。インスタンスを適切なホストで起動するために rpc.cast リクエストを nova-compute に送信する。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml182(para)
 msgid ""
 "nova-conductor interacts with nova DB and returns the instance information. "
 "nova-compute picks up the instance information from the queue."
-msgstr ""
+msgstr "nova-conductor が nova DB を使用して、インスタンスの情報を返す。nova-compute がインスタンスの情報をキューから取り出す。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml185(para)
 msgid ""
 "nova-api receives the request and sends a request to the Identity Service "
 "for validation of the auth-token and access permission. The Identity Service"
 " validates the token."
-msgstr ""
+msgstr "nova-api が、リクエストを受け取り、認証トークンとアクセス権限を検証するために、リクエストを Identity に送信する。Identity がトークンを検証する。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml188(para)
 msgid ""
@@ -2143,13 +2143,13 @@ msgid ""
 "nova-compute performs the REST call by passing the auth-token to glance-api."
 " Then, nova-compute uses the Image ID to retrieve the Image URI from the "
 "Image Service, and loads the image from the image storage."
-msgstr ""
+msgstr "nova-compute が、認証トークンを glance-api に渡すことにより REST コールを実行する。次に、nova-compute が、イメージ ID を使用して Image Service からイメージ URI を取得し、イメージストレージからイメージを読み込む。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml203(para)
 msgid ""
 "nova-compute sends the rpc.call request to nova-conductor to fetch the "
 "instance information such as host ID and flavor (RAM, CPU, disk)."
-msgstr ""
+msgstr "nova-compute が、ホスト ID やフレーバー (メモリー、CPU、ディスク) などのインスタンスの情報を取得するために、rpc.call リクエストを nova-conductor に送信する。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml206(para)
 msgid ""
@@ -2180,13 +2180,13 @@ msgstr "nova-compute が、ボリュームをインスタンスに接続する�
 msgid ""
 "nova-api checks for conflicts with nova DB and creates the initial database "
 "entry for a new instance."
-msgstr ""
+msgstr "nova-api が、nova DB の競合を確認し、新しいインスタンスの初期データベースエントリーを作成する。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml221(para)
 msgid ""
 "nova-api sends the rpc.call request to nova-scheduler expecting to get an "
 "updated instance entry with the host ID specified."
-msgstr ""
+msgstr "nova-api が、指定したホスト ID を用いて更新されたインスタンスのエントリーを取得するために、rpc.call リクエストを nova-scheduler に送信する。"
 
 #: ./doc/training-guides/associate-guide/ch_associate-compute-node-quiz.xml224(para)
 msgid "nova-conductor picks up the request from the queue."
@@ -16066,7 +16066,7 @@ msgstr ""
 #: ./doc/training-guides/basic-install-guide/common/section_objectstorage-components.xml109(title)
 #: ./doc/training-guides/basic-install-guide/common/section_objectstorage-components.xml123(title)
 msgid "Zones"
-msgstr ""
+msgstr "ゾーン"
 
 #: ./doc/training-guides/basic-install-guide/common/section_objectstorage-components.xml110(para)
 msgid ""
@@ -16119,14 +16119,14 @@ msgstr ""
 #: ./doc/training-guides/basic-install-guide/common/section_objectstorage-components.xml153(title)
 #: ./doc/training-guides/basic-install-guide/common/section_objectstorage-components.xml166(title)
 msgid "Partitions"
-msgstr ""
+msgstr "パーティション"
 
 #: ./doc/training-guides/basic-install-guide/common/section_objectstorage-components.xml154(para)
 msgid ""
 "A partition is a collection of stored data, including account databases, "
 "container databases, and objects. Partitions are core to the replication "
 "system."
-msgstr ""
+msgstr "パーティションは、アカウントデータベース、コンテナーデータベース、オブジェクトなどの保存データの集まります。パーティションは、複製システムの中核です。"
 
 #: ./doc/training-guides/basic-install-guide/common/section_objectstorage-components.xml156(para)
 msgid ""
