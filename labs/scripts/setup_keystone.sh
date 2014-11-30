@@ -41,11 +41,11 @@ setup_database keystone
 echo "Creating the database tables for keystone."
 sudo keystone-manage db_sync
 
-# NOTE: Commenting out command for openssl to
-# generate random token as we are passing default value in
-# $ADMIN_TOKEN. Should be changed in future to follow
-# install-guides structure.
-# openssl rand -hex 10
+# Create a "shared secret" used as OS_SERVICE_TOKEN, together with
+# OS_SERVICE_ENDPOINT, before keystone can be used for authentication
+echo -n "Using openssl to generate a random admin token: "
+ADMIN_TOKEN=$(openssl rand -hex 10)
+echo "$ADMIN_TOKEN"
 
 echo "Configuring [DEFAULT] section in /etc/keystone/keystone.conf."
 
