@@ -10,7 +10,8 @@ exec_logfile
 indicate_current_auto
 
 #------------------------------------------------------------------------------
-# Create the external network and a subnet on it.
+# Create the external network and a subnet on it
+# http://docs.openstack.org/icehouse/install-guide/install/apt/content/neutron_initial-external-network.html
 #------------------------------------------------------------------------------
 
 # Work around neutron client failing with unsupported locale settings
