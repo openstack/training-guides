@@ -8,11 +8,13 @@ exec_logfile
 indicate_current_auto
 
 #------------------------------------------------------------------------------
-# Set up OpenStack Dashboard (horizon).
+# Set up OpenStack Dashboard (horizon)
+# http://docs.openstack.org/icehouse/install-guide/install/apt/content/install_dashboard.html
 #------------------------------------------------------------------------------
 
 echo "Installing horizon."
-sudo apt-get install -y openstack-dashboard memcached
+sudo apt-get install -y apache2 memcached libapache2-mod-wsgi \
+    openstack-dashboard
 
 echo "Purging Ubuntu theme."
 sudo dpkg --purge openstack-dashboard-ubuntu-theme
