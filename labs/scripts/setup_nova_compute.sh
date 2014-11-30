@@ -14,15 +14,8 @@ indicate_current_auto
 #------------------------------------------------------------------------------
 
 echo "Installing nova for compute node."
-sudo debconf-set-selections <<< 'libguestfs-tools libguestfs/update-appliance boolean false'
-sudo apt-get install -y nova-compute-qemu python-guestfs libguestfs-tools
+sudo apt-get install -y nova-compute-qemu
 
-echo "Making the current kernel image world-readable."
-sudo dpkg-statoverride \
-    --update \
-    --add root root 0644 "/boot/vmlinuz-$(uname -r)"
-# Read the new setting into the log file
-sudo dpkg-statoverride --list "/boot/vmlinuz*"
 
 # Remove SQLite database created by Ubuntu package for nova.
 sudo rm -v /var/lib/nova/nova.sqlite
