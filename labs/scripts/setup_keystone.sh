@@ -58,6 +58,16 @@ iniset_sudo /etc/keystone/keystone.conf DEFAULT log_dir "/var/log/keystone"
 echo "Restarting keystone."
 sudo service keystone restart
 
+if ! sudo crontab -l -u keystone 2>&1 | grep token_flush; then
+    # No existing crontab entry for token_flush -- add one now.
+    echo "Adding crontab entry to purge expired tokens:"
+    cat << CRON | sudo tee -a /var/spool/cron/crontabs/keystone
+# Purges expired tokens every hour and logs the output
+@hourly /usr/bin/keystone-manage token_flush >/var/log/keystone/keystone-tokenflush.log 2>&1
+CRON
+    echo "---------------------------------------------"
+fi
+
 #------------------------------------------------------------------------------
 # Configure keystone users, tenants and roles
 # http://docs.openstack.org/icehouse/install-guide/install/apt/content/keystone-users.html
