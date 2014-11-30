@@ -44,6 +44,10 @@ function check_dashboard_settings {
 
     echo -n "Allowed hosts: "
     grep "^ALLOWED_HOSTS" $dashboard_conf
+
+    local auth_host=controller-mgmt
+    echo "Setting OPENSTACK_HOST = \"$auth_host\"."
+    sudo sed -i "s#^\(OPENSTACK_HOST =\).*#\1 \"$auth_host\";#" $dashboard_conf
 }
 
 echo "Checking dashboard configuration."
