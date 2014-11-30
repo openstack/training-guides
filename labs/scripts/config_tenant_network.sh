@@ -10,7 +10,8 @@ exec_logfile
 indicate_current_auto
 
 #------------------------------------------------------------------------------
-#
+# Create tenant network
+# http://docs.openstack.org/icehouse/install-guide/install/apt/content/neutron_initial-tenant-network.html
 #------------------------------------------------------------------------------
 
 # Work around neutron client failing with unsupported locale settings
