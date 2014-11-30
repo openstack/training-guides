@@ -11,14 +11,20 @@ indicate_current_auto
 
 #------------------------------------------------------------------------------
 # Set up OpenStack Compute (nova) for compute node.
+# http://docs.openstack.org/icehouse/install-guide/install/apt/content/nova-compute.html
 #------------------------------------------------------------------------------
 
 echo "Installing nova for compute node."
+# We can't use KVM inside VirtualBox.
 sudo apt-get install -y nova-compute-qemu
 
+echo "Configuring nova for compute node."
 
-# Remove SQLite database created by Ubuntu package for nova.
-sudo rm -v /var/lib/nova/nova.sqlite
+conf=/etc/nova/nova.conf
+echo "Configuring $conf."
+
+# Configuring [DEFAULT] section
+iniset_sudo $conf DEFAULT auth_strategy keystone
 
 function get_database_url {
     local db_user=$(service_to_db_user nova)
@@ -30,31 +36,11 @@ function get_database_url {
 
 database_url=$(get_database_url)
 
-echo "Configuring nova for compute node."
-
 echo "Setting database connection: $database_url."
-iniset_sudo /etc/nova/nova.conf database connection "$database_url"
+iniset_sudo $conf database connection "$database_url"
 
 nova_admin_user=$(service_to_user_name nova)
 nova_admin_password=$(service_to_user_password nova)
-
-conf=/etc/nova/nova.conf
-echo "Configuring $conf."
-# Configuring [DEFAULT] section
-
-# Configure RabbitMQ variables
-iniset_sudo $conf DEFAULT rpc_backend rabbit
-iniset_sudo $conf DEFAULT rabbit_host controller-mgmt
-iniset_sudo $conf DEFAULT rabbit_password "$RABBIT_PASSWORD"
-
-# Configure other variables
-iniset_sudo $conf DEFAULT my_ip "$(hostname_to_ip compute-mgmt)"
-iniset_sudo $conf DEFAULT vncserver_listen 0.0.0.0
-iniset_sudo $conf DEFAULT vnc_enabled True
-iniset_sudo $conf DEFAULT vncserver_proxyclient_address compute-mgmt
-iniset_sudo $conf DEFAULT novncproxy_base_url http://"$(hostname_to_ip controller-api)":6080/vnc_auto.html
-iniset_sudo $conf DEFAULT glance_host controller-mgmt
-iniset_sudo $conf DEFAULT auth_strategy keystone
 
 # Configure [keystone_authtoken] section
 iniset_sudo $conf keystone_authtoken auth_uri http://controller-mgmt:5000
@@ -65,18 +51,32 @@ iniset_sudo $conf keystone_authtoken admin_tenant_name "$SERVICE_TENANT_NAME"
 iniset_sudo $conf keystone_authtoken admin_user "$nova_admin_user"
 iniset_sudo $conf keystone_authtoken admin_password "$nova_admin_password"
 
-# Configure nova-comptue.conf
+# Configure RabbitMQ variables
+iniset_sudo $conf DEFAULT rpc_backend rabbit
+iniset_sudo $conf DEFAULT rabbit_host controller-mgmt
+iniset_sudo $conf DEFAULT rabbit_password "$RABBIT_PASSWORD"
+
+# Configure other variables
+iniset_sudo $conf DEFAULT my_ip "$(hostname_to_ip compute-mgmt)"
+iniset_sudo $conf DEFAULT vnc_enabled True
+iniset_sudo $conf DEFAULT vncserver_listen 0.0.0.0
+iniset_sudo $conf DEFAULT vncserver_proxyclient_address compute-mgmt
+iniset_sudo $conf DEFAULT novncproxy_base_url http://"$(hostname_to_ip controller-api)":6080/vnc_auto.html
+iniset_sudo $conf DEFAULT glance_host controller-mgmt
+
+# Configure nova-compute.conf
 conf=/etc/nova/nova-compute.conf
 iniset_sudo $conf libvirt virt_type qemu
+
+# Remove SQLite database created by Ubuntu package for nova.
+sudo rm -v /var/lib/nova/nova.sqlite
 
 echo "Restarting nova services."
 sudo service nova-compute restart
 
 #------------------------------------------------------------------------------
-# Verify the Nova installation on Compute Node
+# Verify the Nova installation on compute node
 #------------------------------------------------------------------------------
-
-echo "Verifying nova output."
 
 echo "Verify nova service status."
 # This call needs root privileges for read access to /etc/nova/nova.conf.
