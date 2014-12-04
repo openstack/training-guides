@@ -10,5 +10,5 @@ fi
 
 for presentation in *.rst; do
     presentation_name=$(basename "${presentation}" .rst)
-    landslide -r -d "${presentation_name}.html" "${presentation}"
+    landslide -i -d "${presentation_name}.html" "${presentation}"
 done
