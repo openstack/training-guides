@@ -76,7 +76,7 @@
             <note>
               <para>Here are more details on committing changes to OpenStack <link
                     xlink:href="operator-getting-started-lab.html#submit-doc-bug">fixing a documentation bug</link>
-                    , <link xlink:href="https://wiki.openstack.org/wiki/Gerrit_Workflow">OpenStack Gerrit
+                    , <link xlink:href="http://docs.openstack.org/infra/manual/developers.html#development-workflow">OpenStack Gerrit
                     Workflow</link>, <link xlink:href="https://wiki.openstack.org/wiki/Documentation/HowTo">OpenStack
                     Documentation HowTo</link> and , <link xlink:href="http://git-scm.com/doc">Git Documentation</link></para>
             </note>

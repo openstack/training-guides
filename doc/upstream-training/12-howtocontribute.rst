@@ -46,7 +46,7 @@ Do you work at a company?
 =========================
 
 - If your contribution is on behalf of a company, have your managers sign the Corporate Contributor License Agreement
-- https://wiki.openstack.org/wiki/How_To_Contribute#Contributors_License_Agreement
+- http://docs.openstack.org/infra/manual/developers.html#account-setup
 
 ----
 

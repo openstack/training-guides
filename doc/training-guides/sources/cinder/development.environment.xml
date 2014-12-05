@@ -90,7 +90,7 @@ or Mac OS X 10.7 (OpenSSL 0.9.8r) works fine with cinder.
 <title>Getting-The-Code</title>
 <para>
 ----------------
-Grab the code from GitHub::
+Grab the code::
     git clone https://github.com/openstack/cinder.git
     cd cinder
 </para>

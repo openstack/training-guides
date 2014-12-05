@@ -51,7 +51,7 @@ http://docs.openstack.org/training-guides/content/operator-getting-started-lab.h
 git-review
 http://www.mediawiki.org/wiki/Gerrit/git-review
 https://pypi.python.org/pypi/git-review
-https://wiki.openstack.org/wiki/GerritWorkflow#Git_Review_Installation
+http://docs.openstack.org/infra/manual/developers.html#installing-git-review
 
 Understanding the submission process in-depth:
 Review submission syntax
@@ -64,7 +64,7 @@ Links to source locations:
 https://wiki.openstack.org/wiki/Documentation/Builds
 CI Pipeline Workflow Overview
 Gerrit Workflow
-https://wiki.openstack.org/wiki/GerritWorkflow
+http://docs.openstack.org/infra/manual/developers.html#development-workflow
 
 Understanding the remote tools in-depth:
 sources
@@ -74,7 +74,7 @@ github (same links as above)
 gerrit
 https://gerrit-documentation.storage.googleapis.com/Documentation/2.8.1/index.html
 http://www.mediawiki.org/wiki/Gerrit/Tutorial
-https://wiki.openstack.org/wiki/Gerrit_Workflow
+http://docs.openstack.org/infra/manual/developers.html#development-workflow
 jenkins
 http://jenkins-ci.org
 https://wiki.jenkins-ci.org/display/JENKINS/Meet+Jenkins
