@@ -9,7 +9,7 @@ as described in `How To Contribute`__ in the OpenStack wiki.
 Our `main blueprint`__ contains the usual links for blueprints, bugs, etc.
 
 __ contribute_
-.. _contribute: http://wiki.openstack.org/HowToContribute
+.. _contribute: http://docs.openstack.org/infra/manual/developers.html
 
 __ lp_
 .. _lp: https://blueprints.launchpad.net/openstack-training-guides/+spec/openstack-training-labs
@@ -43,7 +43,7 @@ currently all written in bash, the examples to follow are this project and
 `devstack <http://devstack.org/>`_.
 
 DevStack bash style guidelines can be found at the bottom of:
-https://github.com/openstack-dev/devstack/blob/master/HACKING.rst
+https://git.openstack.org/cgit/openstack-dev/devstack/blob/master/HACKING.rst
 
 Structure
 ---------
@@ -100,7 +100,7 @@ Submitting patches
 These documents will help you submit patches to OpenStack projects (including
 this one):
 
-- https://wiki.openstack.org/wiki/GerritWorkflow
+- http://docs.openstack.org/infra/manual/developers.html#development-workflow
 - https://wiki.openstack.org/wiki/GitCommitMessages
 
 If you change the behavior of the scripts as documented in the training-guides,
@@ -115,7 +115,7 @@ Reviewing
 ---------
 
 Learn how to review (or what to expect when having your patches reviewed) here:
-- https://wiki.openstack.org/wiki/GerritWorkflow
+- http://docs.openstack.org/infra/manual/developers.html#development-workflow
 
 TODO
 ----

@@ -66,7 +66,7 @@ msgid "<emphasis role=\"bold\">Create the Content:</emphasis> Each card / user s
 msgstr ""
 
 #: ./doc/training-guides/under-contruction-notice.xml:77(para)
-msgid "Here are more details on committing changes to OpenStack <link href=\"operator-getting-started-lab.html#submit-doc-bug\">fixing a documentation bug</link> , <link href=\"https://wiki.openstack.org/wiki/Gerrit_Workflow\">OpenStack Gerrit Workflow</link>, <link href=\"https://wiki.openstack.org/wiki/Documentation/HowTo\">OpenStack Documentation HowTo</link> and , <link href=\"http://git-scm.com/doc\">Git Documentation</link>"
+msgid "Here are more details on committing changes to OpenStack <link href=\"operator-getting-started-lab.html#submit-doc-bug\">fixing a documentation bug</link> , <link href=\"http://docs.openstack.org/infra/manual/developers.html#development-workflow\">OpenStack Gerrit Workflow</link>, <link href=\"https://wiki.openstack.org/wiki/Documentation/HowTo\">OpenStack Documentation HowTo</link> and , <link href=\"http://git-scm.com/doc\">Git Documentation</link>"
 msgstr ""
 
 #: ./doc/training-guides/under-contruction-notice.xml:86(para) ./doc/training-guides/bk_preface.xml:88(para)
@@ -332,7 +332,7 @@ msgid "<emphasis role=\"bold\">Create the Content:</emphasis> Each bug from the 
 msgstr ""
 
 #: ./doc/training-guides/bk_preface.xml:79(para)
-msgid "Here are more details on committing changes to OpenStack <link href=\"http://docs.openstack.org/training-guides/content/operator-getting-started-lab.html#submit-doc-bug\">fixing a documentation bug</link> , <link href=\"https://wiki.openstack.org/wiki/Gerrit_Workflow\">OpenStack Gerrit Workflow</link>, <link href=\"https://wiki.openstack.org/wiki/Documentation/HowTo\">OpenStack Documentation HowTo</link> and , <link href=\"http://git-scm.com/doc\">Git Documentation</link>"
+msgid "Here are more details on committing changes to OpenStack <link href=\"http://docs.openstack.org/training-guides/content/operator-getting-started-lab.html#submit-doc-bug\">fixing a documentation bug</link> , <link href=\"http://docs.openstack.org/infra/manual/developers.html#development-workflow\">OpenStack Gerrit Workflow</link>, <link href=\"https://wiki.openstack.org/wiki/Documentation/HowTo\">OpenStack Documentation HowTo</link> and , <link href=\"http://git-scm.com/doc\">Git Documentation</link>"
 msgstr ""
 
 #: ./doc/training-guides/bk_preface.xml:115(link)
@@ -3356,7 +3356,7 @@ msgid "Getting-The-Code"
 msgstr ""
 
 #: ./doc/training-guides/sources/cinder/development.environment.xml:91(para)
-msgid "---------------- Grab the code from GitHub:: git clone https://github.com/openstack/cinder.git cd cinder"
+msgid "---------------- Grab the code:: git clone https://github.com/openstack/cinder.git cd cinder"
 msgstr ""
 
 #: ./doc/training-guides/sources/cinder/development.environment.xml:99(title)
@@ -4039,7 +4039,7 @@ msgid "One last step. Go to the review page listed after you submitted your revi
 msgstr ""
 
 #: ./doc/training-guides/common/editing-code.xml:500(para)
-msgid "More details on branching can be found here under <link href=\"https://wiki.openstack.org/wiki/Gerrit_Workflow\">Gerrit Workflow</link> and the <link href=\"http://git-scm.com/doc\">Git docs</link>."
+msgid "More details on branching can be found here under <link href=\"http://docs.openstack.org/infra/manual/developers.html#development-workflow\">Gerrit Workflow</link> and the <link href=\"http://git-scm.com/doc\">Git docs</link>."
 msgstr ""
 
 #: ./doc/training-guides/common/editing-code.xml:508(title)

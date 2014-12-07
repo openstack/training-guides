@@ -27,4 +27,4 @@ Approved specs will be created on Launchpad blueprints::
 
 For more information about working with gerrit, see::
 
-  https://wiki.openstack.org/wiki/Gerrit_Workflow
+  http://docs.openstack.org/infra/manual/developers.html#development-workflow
