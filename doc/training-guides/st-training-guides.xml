@@ -6,6 +6,11 @@
     xml:id="st-training-guides">
     <title>OpenStack Training Guides</title>
     <?rax title.font.size="28px" subtitle.font.size="28px"?>
+    <?rax
+      status.bar.text.font.size="40px"
+      status.bar.text="Training Guides Icehouse"?>
+    <?rax subtitle.font.size="17px" title.font.size="32px"?>
+
     <titleabbrev>OpenStack Training Guides</titleabbrev>
     <info>
         <copyright>
@@ -34,6 +39,17 @@
         </abstract>
         <revhistory>
             <!-- ... continue adding more revisions here as you change this document using the markup shown below... -->
+            <revision>
+                <date>2014-12-17</date>
+                <revdescription>
+                    <itemizedlist>
+                        <listitem>
+                            <para>Icehouse released, adds support for automated labs installation.
+                            </para>
+                        </listitem>
+                    </itemizedlist>
+                </revdescription>
+            </revision>
             <revision>
                 <date>2014-05-29</date>
                 <revdescription>
