@@ -93,7 +93,10 @@ function vm_ssh {
 
     check_vagrant_private_key
 
-    ssh -q \
+    # Some operating systems (e.g., Mac OS X) export locale settings to the
+    # target that cause some Python clients to fail. Override with a standard
+    # setting (LC_ALL=C).
+    LC_ALL=C ssh -q \
         -i "$LIB_DIR/vagrant-ssh-keys/vagrant" \
         -o "UserKnownHostsFile /dev/null" \
         -o "StrictHostKeyChecking no" \

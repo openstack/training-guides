@@ -14,12 +14,6 @@ indicate_current_auto
 # http://docs.openstack.org/icehouse/install-guide/install/apt/content/neutron_initial-tenant-network.html
 #------------------------------------------------------------------------------
 
-# Work around neutron client failing with unsupported locale settings
-if [[ "$(neutron --help)" == "unsupported locale setting" ]]; then
-    echo "Locale not supported on node, setting LC_ALL=C."
-    export LC_ALL=C
-fi
-
 echo "Waiting for neutron to start."
 until neutron net-list >/dev/null 2>&1; do
     sleep 1
