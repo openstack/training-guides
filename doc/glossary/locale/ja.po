@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenStack Manuals\n"
-"POT-Creation-Date: 2014-12-12 04:44+0000\n"
-"PO-Revision-Date: 2014-12-12 04:50+0000\n"
+"POT-Creation-Date: 2014-12-18 22:19+0000\n"
+"PO-Revision-Date: 2014-12-19 02:21+0000\n"
 "Last-Translator: Tomoyuki KATO <tomo@dream.daynight.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/openstack-manuals-i18n/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -1190,7 +1190,7 @@ msgid ""
 "subject (owner) of the certificate and the party relying upon the "
 "certificate. CAs are characteristic of many public key infrastructure (PKI) "
 "schemes."
-msgstr ""
+msgstr "認証局。暗号において、電子証明書を発行するエンティティー。電子証明書は、証明書の発行先の名前により公開鍵の所有者を証明する。これにより、他の信頼される機関が証明書を信頼できるようになる。また、証明された公開鍵に対応する秘密鍵による表明を信頼できるようになる。この信頼関係のモデルにおいて、CA は証明書の発行先と証明書を信頼している機関の両方に対する信頼された第三者機関である。CA は、多くの公開鍵基盤 (PKI) スキームの特徴である。"
 
 #: ./doc/glossary/glossary-terms.xml1228(glossterm)
 msgid "cache pruner"
@@ -1365,7 +1365,7 @@ msgstr "セルマネージャー"
 msgid ""
 "The Compute component that contains a list of the current capabilities of "
 "each host within the cell and routes requests as appropriate."
-msgstr ""
+msgstr "セル内にある各ホストの現在のキャパシティー一覧を持ち、リクエストを適切にルーティングする、Compute のコンポーネント。"
 
 #: ./doc/glossary/glossary-terms.xml1415(glossterm)
 #: ./doc/glossary/glossary-terms.xml1417(primary)
@@ -1615,7 +1615,7 @@ msgstr "Cloudbase-Init"
 msgid ""
 "A Windows project providing guest initialization features, similar to cloud-"
 "init."
-msgstr ""
+msgstr "cloud-init 同様のゲスト初期化機能を提供する Windows プロジェクト。"
 
 #: ./doc/glossary/glossary-terms.xml1692(glossterm)
 #: ./doc/glossary/glossary-terms.xml1694(primary)
@@ -1689,7 +1689,7 @@ msgid ""
 " again to its original content. OpenStack supports compression at the Linux "
 "file system level but does not support compression for things such as Object"
 " Storage objects or Image Service VM images."
-msgstr ""
+msgstr "特別なエンコーディングによりファイル容量を減らすこと。このファイルは、元の内容に展開できます。OpenStack は、Linux ファイルシステムレベルの圧縮をサポートしますが、Object Storage のオブジェクトや Image Service の仮想マシンイメージなどの圧縮をサポートしません。"
 
 #: ./doc/glossary/glossary-terms.xml1772(glossterm)
 #: ./doc/glossary/glossary-terms.xml1774(primary)
@@ -1699,7 +1699,7 @@ msgstr ""
 #: ./doc/glossary/glossary-terms.xml1846(primary)
 #: ./doc/glossary/glossary-terms.xml1859(primary)
 msgid "Compute"
-msgstr "コンピュート"
+msgstr "Compute"
 
 #: ./doc/glossary/glossary-terms.xml1780(para)
 msgid ""
@@ -1754,7 +1754,7 @@ msgid ""
 " daemon that manages VM instances that <phrase role=\"keep-"
 "together\">provide</phrase> a wide range of services, such as web "
 "applications and analytics."
-msgstr ""
+msgstr "<systemitem class=\"service\">nova-compute</systemitem> デーモンを実行するノード。Web アプリケーションや分析などの幅広いサービスを<phrase role=\"keep-together\">提供</phrase>する。"
 
 #: ./doc/glossary/glossary-terms.xml1844(glossterm)
 #: ./doc/glossary/glossary-terms.xml1848(secondary)
@@ -1776,7 +1776,7 @@ msgid ""
 "instance life cycle, including run, reboot, terminate, attach/detach "
 "volumes, and so on. Provided by the <systemitem class=\"service\">nova-"
 "compute</systemitem> daemon."
-msgstr ""
+msgstr "各ノードで動作し、仮想マシンインスタンスのライフサイクル (実行、再起動、終了、ボリュームの接続や切断など) を管理する、Compute のコンポーネント。<systemitem class=\"service\">nova-compute</systemitem> デーモンにより提供される。"
 
 #: ./doc/glossary/glossary-terms.xml1873(glossterm)
 msgid "concatenated object"
@@ -2635,7 +2635,7 @@ msgstr ""
 msgid ""
 "The Compute RabbitMQ message exchange that remains active when the server "
 "restarts."
-msgstr ""
+msgstr "サーバーの再起動時に有効なままになる Compute の RabbitMQ メッセージ交換。"
 
 #: ./doc/glossary/glossary-terms.xml2733(glossterm)
 #: ./doc/glossary/glossary-terms.xml2735(primary)
@@ -2656,7 +2656,7 @@ msgstr "動的ホスト設定プロトコル（DHCP）"
 msgid ""
 "A method to automatically configure networking for a host at boot time. "
 "Provided by both Networking and Compute."
-msgstr ""
+msgstr "ホストの起動時にネットワークを自動的に設定する方式。Networking と Compute により提供される。"
 
 #: ./doc/glossary/glossary-terms.xml2754(glossterm)
 msgid "Dynamic HyperText Markup Language (DHTML)"
@@ -4260,7 +4260,7 @@ msgstr "IP Address Management (IPAM)"
 msgid ""
 "The process of automating IP address allocation, deallocation, and "
 "management. Currently provided by Compute, melange, and Networking."
-msgstr ""
+msgstr "IP アドレスの割り当て、割り当て解除、管理を自動化するプロセス。現在、Compute、melange、Networking により提供される。"
 
 #: ./doc/glossary/glossary-terms.xml4537(glossterm)
 msgid "IPL"
@@ -4652,7 +4652,7 @@ msgstr "Load-Balancer-as-a-Service (LBaaS)"
 msgid ""
 "Enables Networking to distribute incoming requests evenly between designated"
 " instances."
-msgstr ""
+msgstr "Networking により、受信リクエストを指定されたインスタンス間で均等に分散できるようになる。"
 
 #: ./doc/glossary/glossary-terms.xml4964(glossterm)
 #: ./doc/glossary/glossary-terms.xml4966(primary)
@@ -4663,7 +4663,7 @@ msgstr "論理ボリュームマネージャー (LVM)"
 msgid ""
 "Provides a method of allocating space on mass-storage devices that is more "
 "flexible than conventional partitioning schemes."
-msgstr ""
+msgstr "伝統的なパーティションスキーマよりも柔軟に、大規模ストレージデバイスに領域を割り当てる方式を提供する。"
 
 #: ./doc/glossary/glossary-terms.xml4980(title)
 msgid "M"
@@ -4969,7 +4969,7 @@ msgid ""
 "Linux kernel feature that provides independent virtual networking instances "
 "on a single host with separate routing tables and interfaces. Similar to "
 "virtual routing and forwarding (VRF) services on physical network equipment."
-msgstr ""
+msgstr "別々のルーティングテーブルとインターフェースを持つ単一のホストにおいて、独立した仮想ネットワークインターフェースを提供する Linux カーネル機能。物理ネットワーク環境における仮想ルーティングおよびフォワーディング (VRF) サービスと似ている。"
 
 #: ./doc/glossary/glossary-terms.xml5330(glossterm)
 #: ./doc/glossary/glossary-terms.xml5332(primary)
@@ -5235,7 +5235,7 @@ msgstr "Compute において NexentaStor デバイスのサポートを提供す
 #: ./doc/glossary/glossary-terms.xml5609(glossterm)
 #: ./doc/glossary/glossary-terms.xml5611(primary)
 msgid "No ACK"
-msgstr ""
+msgstr "No ACK"
 
 #: ./doc/glossary/glossary-terms.xml5615(para)
 msgid ""
@@ -6183,7 +6183,7 @@ msgstr "radvd"
 msgid ""
 "The router advertisement daemon, used by the Compute VLAN manager and "
 "FlatDHCP manager to provide routing services for VM instances."
-msgstr ""
+msgstr "ルーター通知デーモン。仮想マシンインスタンスにルーティングサービスを提供するために、Compute の VLAN マネージャーと FlatDHCP マネージャーにより使用される。"
 
 #: ./doc/glossary/glossary-terms.xml6714(glossterm)
 #: ./doc/glossary/glossary-terms.xml6716(primary)
@@ -6909,7 +6909,7 @@ msgstr "サービス登録"
 msgid ""
 "An Identity Service feature that enables services, such as Compute, to "
 "automatically register with the catalog."
-msgstr ""
+msgstr "自動的にカタログに登録するために、Compute などのサービスを有効化する、Identity の機能。"
 
 #: ./doc/glossary/glossary-terms.xml7474(glossterm)
 #: ./doc/glossary/glossary-terms.xml7476(primary)
@@ -6930,7 +6930,7 @@ msgstr "サービストークン"
 msgid ""
 "An administrator-defined token used by Compute to communicate securely with "
 "the Identity Service."
-msgstr ""
+msgstr "Identity と安全に通信するために Compute により使用される、管理者により定義されたトークン。"
 
 #: ./doc/glossary/glossary-terms.xml7498(glossterm)
 #: ./doc/glossary/glossary-terms.xml7502(secondary)
@@ -7825,7 +7825,7 @@ msgid ""
 "A generic term for virtualization of network functions such as switching, "
 "routing, load balancing, and security using a combination of VMs and "
 "overlays on physical network infrastructure."
-msgstr ""
+msgstr "複数の仮想マシンを使用して、物理ネットワーク上にオーバーレイされる、スイッチング、ルーティング、負荷分散、セキュリティなどのネットワーク機能の仮想化に関する一般的な用語。"
 
 #: ./doc/glossary/glossary-terms.xml8539(glossterm)
 #: ./doc/glossary/glossary-terms.xml8541(primary)
