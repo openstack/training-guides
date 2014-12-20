@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenStack Manuals\n"
-"POT-Creation-Date: 2014-12-08 10:05+0000\n"
-"PO-Revision-Date: 2014-12-13 11:10+0000\n"
+"POT-Creation-Date: 2014-12-14 22:48+0000\n"
+"PO-Revision-Date: 2014-12-18 11:11+0000\n"
 "Last-Translator: Tomoyuki KATO <tomo@dream.daynight.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/openstack-manuals-i18n/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -370,7 +370,7 @@ msgstr "@@image: 'figures/openstack-training-example-image.png'; md5=87bf110d5b5
 
 #: ./doc/training-guides/user-story-includes-template.xml7(title)
 msgid "Including external content for user stories, version 1.3"
-msgstr ""
+msgstr "ユーザーストーリーの外部コンテンツの取り込み、バージョン 1.3"
 
 #: ./doc/training-guides/user-story-includes-template.xml8(para)
 msgid ""
@@ -3073,26 +3073,26 @@ msgid ""
 "convenient than using the Virtual Machines tty through the VirtualBox's UI. "
 "You get a few added features such as copy - paste commands into the remote "
 "terminal, which is not possible directly on the VM."
-msgstr ""
+msgstr "SSH と FTP をインストールすることにより便利になります。VirtualBox の画面から仮想マシンの tty を使用するより便利に、マシンにログインするためにリモートシェルを使用して、ターミナルを使用できるようになります。仮想マシンを直接できないような、リモートターミナルにコマンドをコピーと貼り付けするなどの追加機能を利用できます。"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml333(para)
 msgid ""
 "FTP is for transferring files to and from your local machine and the virtual"
 " machine. You can also use SFTP or install FTPD on both the HOST and the "
 "VM's."
-msgstr ""
+msgstr "FTP は、ローカルマシンと仮想マシンでファイルを転送するためです。SFTP を使用することもできます。また、ホストと仮想マシンの両方に FTPD をインストールすることもできます。"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml338(para)
 msgid ""
 "Installation of SSH and FTP with the configuration steps are out of the "
 "scope of this guide."
-msgstr ""
+msgstr "SSH と FTP のインストールおよび設定手順は、このガイドの範囲外です。"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml342(para)
 msgid ""
 "Set up the networks from inside the VM before trying to SSH and FTP into the"
 " machines."
-msgstr ""
+msgstr "マシンから SSH と FTP を実行する前に、仮想マシン内からネットワークを設定します。"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml348(title)
 msgid "Install your VM instances"
@@ -3103,13 +3103,13 @@ msgid ""
 "During the installation of the operating systems you will be asked for "
 "custom software to install. You may skip this step by pressing the "
 "<keycap>Enter</keycap> key without selecting any of the given options."
-msgstr ""
+msgstr "オペレーティングシステムのインストール中に、個別にインストールするソフトウェアを確認されます。与えられたオプションを何も選択せずに <keycap>Enter</keycap> キーを押して、この手順をスキップできます。"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml358(para)
 msgid ""
 "Please do not install any of the other packages except for the packages that"
 " are mentioned below, unless you are familiar with the process."
-msgstr ""
+msgstr "この手順に慣れている方以外は、以下に示されたパッケージ以外のパッケージを何もインストールしないでください。"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml364(title)
 msgid "Control node"
@@ -3129,7 +3129,7 @@ msgid ""
 "Select the appropriate amount of RAM. For the control node, the minimum is "
 "512 MB of RAM. For other settings, use the defaults. The hard disk size can "
 "be 8 GB."
-msgstr ""
+msgstr "適切なメモリー量を選択します。コントローラーノードは、512 MB メモリーが最小です。他はデフォルトを使用します。ディスク容量は 8 GB にします。"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml379(para)
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml461(para)
@@ -3141,7 +3141,7 @@ msgstr "ネットワークの設定"
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml462(para)
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml557(para)
 msgid "(Ignore the IP Address for now, you will set it up from inside the VM)"
-msgstr ""
+msgstr "(ここでは、IP アドレスを無視します。仮想マシンの中から設定します。)"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml386(th)
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml468(th)
@@ -3239,13 +3239,13 @@ msgid ""
 "Install the SSH server when asked for custom software to install. The rest "
 "of the packages are not required and may come in the way of the OpenStack "
 "packages - like DNS servers etc. (unless you are an advanced user)."
-msgstr ""
+msgstr "インストールする個別ソフトウェアを確認されたとき、SSH サーバーをインストールします。(高度なユーザーでなければ) 残りのパッケージは必要ありません。DNS サーバーなどは、OpenStack パッケージに合わせてインストールされるかもしれません。"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml448(para)
 msgid ""
 "Create a new virtual machine, with the minimum RAM as 512 MB. The remainder "
 "can be left as default. The minimum HDD space is 8 GB."
-msgstr ""
+msgstr "最小メモリーの 512 MB で新規仮想マシンを作成します。残りは、デフォルトのままにしておきます。最小ディスク容量は 8 GB です。"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml453(title)
 msgid "Create New Virtual Machine"
@@ -3302,7 +3302,7 @@ msgid ""
 "Install the SSH server when you are prompted for the custom software to "
 "install. The rest of the packages are not required and may come in the way "
 "of OpenStack packages - like DNS servers."
-msgstr ""
+msgstr "インストールする個別ソフトウェアを確認されたとき、SSH サーバーをインストールします。残りのパッケージは必要ありません。DNS サーバーなどは、OpenStack パッケージに合わせてインストールされるかもしれません。"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml543(title)
 #: ./doc/training-guides/basic-install-guide/lab_compute-node.xml32(guilabel)
@@ -3313,7 +3313,7 @@ msgstr "コンピュートノード"
 msgid ""
 "Create a virtual machine with at least 1,000 MB RAM and 8 GB HDD. For other "
 "settings, use the defaults."
-msgstr ""
+msgstr "少なくとも 1,000 MB メモリーと 8 GB ディスクを持つ仮想マシンを作成します。他の設定は、デフォルトのままにしておきます。"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml570(td)
 msgid "10.10.10.53"
@@ -3328,7 +3328,7 @@ msgid ""
 "Install the SSH server when asked for custom software to install. The rest "
 "of the packages are not required and may come in the way of OpenStack "
 "packages - like DNS servers etc."
-msgstr ""
+msgstr "インストールする個別ソフトウェアを確認されたとき、SSH サーバーをインストールします。残りのパッケージは必要ありません。DNS サーバーなどは、OpenStack パッケージに合わせてインストールされるかもしれません。"
 
 #: ./doc/training-guides/basic-install-guide/lab_virtualbox-basics.xml623(title)
 msgid "Warnings and advice"
@@ -3377,7 +3377,7 @@ msgid ""
 "OpenStack. Just make sure that the Ubuntu Server is installed on the above "
 "setup VirtualBox instances. In the next section we will go through deploying"
 " OpenStack using the above created VirtualBox instances."
-msgstr ""
+msgstr "おめでとうございます。これで OpenStack を導入するための基盤がセットアップされました。Ubuntu Server がここまでにセットアップした VirtualBox 仮想マシンにきちんとインストールされていること確認します。次のセクションにおいて、この仮想マシンを使用して OpenStack を導入していきます。"
 
 #: ./doc/training-guides/basic-install-guide/lab_important-terms.xml6(title)
 msgid "Important terms"
@@ -5029,11 +5029,11 @@ msgstr ""
 
 #: ./doc/training-guides/common/editing-code.xml43(para)
 msgid "Add your GitHub username and password."
-msgstr ""
+msgstr "GitHub のユーザー名とパスワードを追加します。"
 
 #: ./doc/training-guides/common/editing-code.xml47(para)
 msgid "Set your local repository location."
-msgstr ""
+msgstr "ローカルリポジトリーの場所を設定します。"
 
 #: ./doc/training-guides/common/editing-code.xml53(title)
 msgid "Install an XML editor"
@@ -8529,7 +8529,7 @@ msgstr ""
 
 #: ./doc/training-guides/common/section_queues-messaging.xml153(guilabel)
 msgid "RPC Calls"
-msgstr ""
+msgstr "RPC コール"
 
 #: ./doc/training-guides/common/section_queues-messaging.xml154(para)
 msgid "The diagram below shows the message flow during an rp.call operation:"
@@ -8564,7 +8564,7 @@ msgstr ""
 
 #: ./doc/training-guides/common/section_queues-messaging.xml188(guilabel)
 msgid "RPC Casts"
-msgstr ""
+msgstr "RPC コール"
 
 #: ./doc/training-guides/common/section_queues-messaging.xml189(para)
 msgid "The diagram below the message flow during an rp.cast operation:"
@@ -8585,7 +8585,7 @@ msgstr ""
 
 #: ./doc/training-guides/common/section_queues-messaging.xml211(guilabel)
 msgid "AMQP Broker Load"
-msgstr ""
+msgstr "AMQP ブローカーロード"
 
 #: ./doc/training-guides/common/section_queues-messaging.xml212(para)
 msgid ""
@@ -8959,7 +8959,7 @@ msgstr ""
 
 #: ./doc/training-guides/common/section_brief-overview.xml72(guilabel)
 msgid "It's Open Source:"
-msgstr ""
+msgstr "オープンソースです。"
 
 #: ./doc/training-guides/common/section_brief-overview.xml73(para)
 msgid ""
@@ -9049,7 +9049,7 @@ msgstr "OpenStack のプロジェクト、歴史、リリースの概要"
 
 #: ./doc/training-guides/common/section_official-programs.xml4(guilabel)
 msgid "Project history and releases overview."
-msgstr ""
+msgstr "プロジェクトの歴史とリリースの概要。"
 
 #: ./doc/training-guides/common/section_official-programs.xml5(para)
 msgid ""
