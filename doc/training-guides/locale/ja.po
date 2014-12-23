@@ -5,9 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenStack Manuals\n"
-"POT-Creation-Date: 2014-12-14 22:48+0000\n"
-"PO-Revision-Date: 2014-12-18 11:11+0000\n"
-"Last-Translator: Tomoyuki KATO <tomo@dream.daynight.jp>\n"
+"POT-Creation-Date: 2014-12-22 18:26+0000\n"
+"PO-Revision-Date: 2014-12-22 18:26+0000\n"
+"Last-Translator: openstackjenkins <jenkins@openstack.org>\n"
 "Language-Team: Japanese (http://www.transifex.com/projects/p/openstack-manuals-i18n/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -283,79 +283,87 @@ msgid "Install the VirtualBox guest add-ons through Ubuntu repositories:"
 msgstr "Ubuntu リポジトリから VirtualBox ゲストアドオンをインストールします。"
 
 #: ./doc/training-guides/st-training-guides.xml7(title)
-#: ./doc/training-guides/st-training-guides.xml9(titleabbrev)
-#: ./doc/training-guides/st-training-guides.xml16(productname)
+#: ./doc/training-guides/st-training-guides.xml14(titleabbrev)
+#: ./doc/training-guides/st-training-guides.xml21(productname)
 msgid "OpenStack Training Guides"
 msgstr "OpenStack トレーニングガイド"
 
-#: ./doc/training-guides/st-training-guides.xml12(year)
+#: ./doc/training-guides/st-training-guides.xml17(year)
 msgid "2013"
 msgstr "2013"
 
-#: ./doc/training-guides/st-training-guides.xml13(year)
+#: ./doc/training-guides/st-training-guides.xml18(year)
 msgid "2014"
 msgstr "2014"
 
-#: ./doc/training-guides/st-training-guides.xml14(holder)
+#: ./doc/training-guides/st-training-guides.xml19(holder)
 msgid "OpenStack Foundation"
 msgstr "OpenStack Foundation"
 
-#: ./doc/training-guides/st-training-guides.xml20(remark)
-#: ./doc/training-guides/st-training-guides.xml26(remark)
+#: ./doc/training-guides/st-training-guides.xml25(remark)
+#: ./doc/training-guides/st-training-guides.xml31(remark)
 msgid "Copyright details are filled in by the template."
 msgstr "Copyright details are filled in by the template."
 
-#: ./doc/training-guides/st-training-guides.xml31(para)
+#: ./doc/training-guides/st-training-guides.xml36(para)
 msgid ""
 "OpenStack™ Training Guides offer the open source community software training"
 " for cloud administration and management for any organization."
 msgstr "OpenStack™ トレーニングガイドは、あらゆる組織のクラウド管理者向けに、オープンソースソフトウェアのコミュニティのトレーニングを提供します。"
 
-#: ./doc/training-guides/st-training-guides.xml38(date)
+#: ./doc/training-guides/st-training-guides.xml43(date)
+msgid "2014-12-17"
+msgstr ""
+
+#: ./doc/training-guides/st-training-guides.xml47(para)
+msgid "Icehouse released, adds support for automated labs installation."
+msgstr ""
+
+#: ./doc/training-guides/st-training-guides.xml54(date)
 msgid "2014-05-29"
 msgstr "2014-05-29"
 
-#: ./doc/training-guides/st-training-guides.xml42(para)
+#: ./doc/training-guides/st-training-guides.xml58(para)
 msgid "migrate training guides to separate repository"
 msgstr "トレーニングガイドを別リポジトリに移行"
 
-#: ./doc/training-guides/st-training-guides.xml49(date)
+#: ./doc/training-guides/st-training-guides.xml65(date)
 msgid "2013-11-04"
 msgstr "2013-11-04"
 
-#: ./doc/training-guides/st-training-guides.xml53(para)
+#: ./doc/training-guides/st-training-guides.xml69(para)
 msgid "major restructure of guides"
 msgstr "ガイドの基本構成の変更"
 
-#: ./doc/training-guides/st-training-guides.xml59(date)
+#: ./doc/training-guides/st-training-guides.xml75(date)
 msgid "2013-09-11"
 msgstr "2013-09-11"
 
-#: ./doc/training-guides/st-training-guides.xml63(para)
+#: ./doc/training-guides/st-training-guides.xml79(para)
 msgid "first training guides sprint held"
 msgstr "トレーニングガイドの 1 回目スプリントの開催"
 
-#: ./doc/training-guides/st-training-guides.xml70(date)
+#: ./doc/training-guides/st-training-guides.xml86(date)
 msgid "2013-08-07"
 msgstr "2013-08-07"
 
-#: ./doc/training-guides/st-training-guides.xml74(para)
+#: ./doc/training-guides/st-training-guides.xml90(para)
 msgid "rough draft published to the web"
 msgstr "Web 公開の大まかなドラフト"
 
-#: ./doc/training-guides/st-training-guides.xml81(date)
+#: ./doc/training-guides/st-training-guides.xml97(date)
 msgid "2013-07-09"
 msgstr "2013-07-09"
 
-#: ./doc/training-guides/st-training-guides.xml85(para)
+#: ./doc/training-guides/st-training-guides.xml101(para)
 msgid "first draft released"
 msgstr "ドラフト初版の公開"
 
-#: ./doc/training-guides/st-training-guides.xml91(date)
+#: ./doc/training-guides/st-training-guides.xml107(date)
 msgid "2013-06-18"
 msgstr "2013-06-18"
 
-#: ./doc/training-guides/st-training-guides.xml95(para)
+#: ./doc/training-guides/st-training-guides.xml111(para)
 msgid "blueprint created"
 msgstr "ブループリントの作成"
 
