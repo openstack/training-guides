@@ -70,7 +70,7 @@ fi
 
 #------------------------------------------------------------------------------
 # Configure keystone users, tenants and roles
-# http://docs.openstack.org/icehouse/install-guide/install/apt/content/keystone-users.html
+# http://docs.openstack.org/juno/install-guide/install/apt/content/keystone-users.html
 #------------------------------------------------------------------------------
 
 echo "Using OS_SERVICE_TOKEN, OS_SERVICE_ENDPOINT for authentication."
@@ -82,19 +82,19 @@ until keystone user-list >/dev/null 2>&1; do
     sleep 1
 done
 
+echo "Adding admin tenant."
+keystone tenant-create --name "$ADMIN_TENANT_NAME" --description "Admin Tenant"
+
 echo "Creating admin user."
 keystone user-create --name "$ADMIN_USER_NAME" --pass "$ADMIN_PASSWORD" --email "admin@$MAIL_DOMAIN"
 
 echo "Creating admin roles."
 keystone role-create --name "$ADMIN_ROLE_NAME"
 
-echo "Adding admin tenant."
-keystone tenant-create --name "$ADMIN_TENANT_NAME" --description "Admin Tenant"
-
 echo "Linking admin user, admin role and admin tenant."
 keystone user-role-add \
-    --tenant "$ADMIN_TENANT_NAME" \
     --user "$ADMIN_USER_NAME" \
+    --tenant "$ADMIN_TENANT_NAME" \
     --role "$ADMIN_ROLE_NAME"
 
 echo "Linking admin user, _member_ role, and admin tenant."
@@ -103,11 +103,11 @@ keystone user-role-add \
     --user "$ADMIN_USER_NAME" \
     --role "$MEMBER_ROLE_NAME"
 
-echo "Creating demo user."
-keystone user-create --name "$DEMO_USER_NAME" --pass "$DEMO_PASSWORD" --email "demo@$MAIL_DOMAIN"
-
 echo "Creating demo tenant."
 keystone tenant-create --name "$DEMO_TENANT_NAME" --description "Demo Tenant"
+
+echo "Creating demo user."
+keystone user-create --name "$DEMO_USER_NAME" --pass "$DEMO_PASSWORD" --email "demo@$MAIL_DOMAIN"
 
 echo "Linking the demo user, _member_ role, and demo tenant."
 keystone user-role-add \
