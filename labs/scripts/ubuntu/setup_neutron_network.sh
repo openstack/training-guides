@@ -122,7 +122,7 @@ sudo killall dnsmasq||rc=$?
 echo "Configuring the metadata agent"
 conf=/etc/neutron/metadata_agent.ini
 iniset_sudo $conf DEFAULT auth_url http://controller-mgmt:5000/v2.0
-iniset_sudo $conf DEFAULT auth_region regionOne
+iniset_sudo $conf DEFAULT auth_region "$REGION"
 iniset_sudo $conf DEFAULT admin_tenant_name "$SERVICE_TENANT_NAME"
 iniset_sudo $conf DEFAULT admin_user "$neutron_admin_user"
 iniset_sudo $conf DEFAULT admin_password "$neutron_admin_password"
