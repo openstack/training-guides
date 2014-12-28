@@ -122,7 +122,7 @@ keystone tenant-create \
 
 #------------------------------------------------------------------------------
 # Configure keystone services and API endpoints
-# http://docs.openstack.org/icehouse/install-guide/install/apt/content/keystone-services.html
+# http://docs.openstack.org/juno/install-guide/install/apt/content/keystone-services.html
 #------------------------------------------------------------------------------
 
 echo "Creating keystone service."
@@ -136,8 +136,8 @@ keystone_service_id=$(keystone service-list | awk '/ keystone / {print $2}')
 keystone endpoint-create \
     --service-id "$keystone_service_id" \
     --publicurl "http://controller-api:5000/v2.0" \
-    --adminurl "http://controller-mgmt:35357/v2.0" \
-    --internalurl "http://controller-mgmt:5000/v2.0"
+    --internalurl "http://controller-mgmt:5000/v2.0" \
+    --adminurl "http://controller-mgmt:35357/v2.0"
 
 #------------------------------------------------------------------------------
 # Verify the Identity Service installation
