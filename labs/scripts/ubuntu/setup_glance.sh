@@ -4,45 +4,20 @@ TOP_DIR=$(cd $(dirname "$0")/.. && pwd)
 source "$TOP_DIR/config/paths"
 source "$CONFIG_DIR/credentials"
 source "$LIB_DIR/functions.guest"
-source "$CONFIG_DIR/admin-openstackrc.sh"
 exec_logfile
 
 indicate_current_auto
 
-#-----------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
 # Install the Image Service (glance).
-# http://docs.openstack.org/icehouse/install-guide/install/apt/content/glance-install.html
-#-----------------------------------------------------------------------------------------
-
-echo "Installing glance."
-sudo apt-get install -y glance python-glanceclient
-
-function get_database_url {
-    local db_user=$(service_to_db_user glance)
-    local db_password=$(service_to_db_password glance)
-    local database_host=controller-mgmt
-
-    echo "mysql://$db_user:$db_password@$database_host/glance"
-}
-
-database_url=$(get_database_url)
-
-echo "Setting database connection: $database_url."
-iniset_sudo /etc/glance/glance-api.conf database connection "$database_url"
-iniset_sudo /etc/glance/glance-registry.conf database connection "$database_url"
-
-echo "Removing default SQLite database."
-sudo rm -f /var/lib/glance/glance.sqlite
+# http://docs.openstack.org/juno/install-guide/install/apt/content/glance-install.html
+#------------------------------------------------------------------------------
 
 echo "Setting up database for glance."
 setup_database glance
 
-echo "Configuring glance."
-
-# TODO: Should we configure the rpc_backend (glance-api.conf) here?
-
-echo "Creating the database tables for glance."
-sudo glance-manage db_sync
+echo "Sourcing the admin credentials."
+source "$CONFIG_DIR/admin-openstackrc.sh"
 
 glance_admin_user=$(service_to_user_name glance)
 glance_admin_password=$(service_to_user_password glance)
@@ -58,10 +33,36 @@ keystone user-role-add \
     --tenant "$SERVICE_TENANT_NAME" \
     --role "$ADMIN_ROLE_NAME"
 
-echo "Configuring glance to use keystone for authentication."
+echo "Registering glance with keystone so that other services can locate it."
+keystone service-create \
+    --name glance \
+    --type image \
+    --description "OpenStack Image Service"
+
+glance_service_id=$(keystone service-list | awk '/ image / {print $2}')
+keystone endpoint-create \
+    --service-id "$glance_service_id" \
+    --publicurl "http://controller-api:9292" \
+    --internalurl "http://controller-mgmt:9292" \
+    --adminurl "http://controller-mgmt:9292"
+
+echo "Installing glance."
+sudo apt-get install -y glance python-glanceclient
+
+function get_database_url {
+    local db_user=$(service_to_db_user glance)
+    local db_password=$(service_to_db_password glance)
+    local database_host=controller-mgmt
+
+    echo "mysql://$db_user:$db_password@$database_host/glance"
+}
+
+database_url=$(get_database_url)
+echo "Database connection: $database_url."
 
 echo "Configuring glance-api.conf."
 conf=/etc/glance/glance-api.conf
+iniset_sudo $conf database connection "$database_url"
 iniset_sudo $conf keystone_authtoken auth_uri "http://controller-mgmt:5000"
 iniset_sudo $conf keystone_authtoken auth_host controller-mgmt
 iniset_sudo $conf keystone_authtoken auth_port 35357
@@ -73,6 +74,7 @@ iniset_sudo $conf paste_deploy flavor "keystone"
 
 echo "Configuring glance-registry.conf."
 conf=/etc/glance/glance-registry.conf
+iniset_sudo $conf database connection "$database_url"
 iniset_sudo $conf keystone_authtoken auth_uri "http://controller-mgmt:5000"
 iniset_sudo $conf keystone_authtoken auth_host controller-mgmt
 iniset_sudo $conf keystone_authtoken auth_port 35357
@@ -82,27 +84,20 @@ iniset_sudo $conf keystone_authtoken admin_user "$glance_admin_user"
 iniset_sudo $conf keystone_authtoken admin_password "$glance_admin_password"
 iniset_sudo $conf paste_deploy flavor "keystone"
 
-echo "Registering glance with keystone so that other services can locate it."
-keystone service-create \
-    --name glance \
-    --type image \
-    --description "OpenStack Image Service"
-
-glance_service_id=$(keystone service-list | awk '/ image / {print $2}')
-keystone endpoint-create \
-    --service-id "$glance_service_id" \
-    --publicurl "http://controller-api:9292" \
-    --adminurl "http://controller-mgmt:9292" \
-    --internalurl "http://controller-mgmt:9292"
+echo "Creating the database tables for glance."
+sudo glance-manage db_sync
 
 echo "Restarting glance service."
 sudo service glance-registry restart
 sudo service glance-api restart
 
-#----------------------------------------------------------------------------------------
+echo "Removing default SQLite database."
+sudo rm -f /var/lib/glance/glance.sqlite
+
+#------------------------------------------------------------------------------
 # Verify the Image Service installation
-# http://docs.openstack.org/icehouse/install-guide/install/apt/content/glance-verify.html
-#----------------------------------------------------------------------------------------
+# http://docs.openstack.org/juno/install-guide/install/apt/content/glance-verify.html
+#------------------------------------------------------------------------------
 
 echo "Waiting for glance to start."
 until glance image-list >/dev/null 2>&1; do
