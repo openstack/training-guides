@@ -11,11 +11,25 @@ indicate_current_auto
 
 #------------------------------------------------------------------------------
 # Set up keystone for controller node
-# http://docs.openstack.org/icehouse/install-guide/install/apt/content/keystone-install.html
+# http://docs.openstack.org/juno/install-guide/install/apt/content/keystone-install.html
 #------------------------------------------------------------------------------
+
+echo "Setting up database for keystone."
+setup_database keystone
+
+# Create a "shared secret" used as OS_SERVICE_TOKEN, together with
+# OS_SERVICE_ENDPOINT, before keystone can be used for authentication
+echo -n "Using openssl to generate a random admin token: "
+ADMIN_TOKEN=$(openssl rand -hex 10)
+echo "$ADMIN_TOKEN"
 
 echo "Installing keystone."
 sudo apt-get install -y keystone
+
+echo "Configuring [DEFAULT] section in /etc/keystone/keystone.conf."
+
+echo "Setting admin_token to bootstrap authentication."
+iniset_sudo /etc/keystone/keystone.conf DEFAULT admin_token "$ADMIN_TOKEN"
 
 function get_database_url {
     local db_user=$(service_to_db_user keystone)
@@ -32,31 +46,17 @@ echo "Configuring [database] section in /etc/keystone/keystone.conf."
 echo "Setting database connection: $database_url."
 iniset_sudo /etc/keystone/keystone.conf database connection "$database_url"
 
-echo "Removing default SQLite database."
-sudo rm -f /var/lib/keystone/keystone.db
-
-echo "Setting up database for keystone."
-setup_database keystone
-
 echo "Creating the database tables for keystone."
 sudo keystone-manage db_sync
-
-# Create a "shared secret" used as OS_SERVICE_TOKEN, together with
-# OS_SERVICE_ENDPOINT, before keystone can be used for authentication
-echo -n "Using openssl to generate a random admin token: "
-ADMIN_TOKEN=$(openssl rand -hex 10)
-echo "$ADMIN_TOKEN"
-
-echo "Configuring [DEFAULT] section in /etc/keystone/keystone.conf."
-
-echo "Setting admin_token to bootstrap authentication."
-iniset_sudo /etc/keystone/keystone.conf DEFAULT admin_token "$ADMIN_TOKEN"
 
 echo "Setting log directory to /var/log/keystone."
 iniset_sudo /etc/keystone/keystone.conf DEFAULT log_dir "/var/log/keystone"
 
 echo "Restarting keystone."
 sudo service keystone restart
+
+echo "Removing default SQLite database."
+sudo rm -f /var/lib/keystone/keystone.db
 
 if ! sudo crontab -l -u keystone 2>&1 | grep token_flush; then
     # No existing crontab entry for token_flush -- add one now.
