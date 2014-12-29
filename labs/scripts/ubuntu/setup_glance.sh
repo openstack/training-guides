@@ -26,7 +26,6 @@ echo "Creating glance user and giving it admin role under service tenant."
 keystone user-create \
     --name "$glance_admin_user" \
     --pass "$glance_admin_password" \
-    --email "glance@$MAIL_DOMAIN"
 
 keystone user-role-add \
     --user "$glance_admin_user" \
@@ -44,7 +43,8 @@ keystone endpoint-create \
     --service-id "$glance_service_id" \
     --publicurl "http://controller-api:9292" \
     --internalurl "http://controller-mgmt:9292" \
-    --adminurl "http://controller-mgmt:9292"
+    --adminurl "http://controller-mgmt:9292" \
+    --region "$REGION"
 
 echo "Installing glance."
 sudo apt-get install -y glance python-glanceclient
@@ -63,26 +63,26 @@ echo "Database connection: $database_url."
 echo "Configuring glance-api.conf."
 conf=/etc/glance/glance-api.conf
 iniset_sudo $conf database connection "$database_url"
-iniset_sudo $conf keystone_authtoken auth_uri "http://controller-mgmt:5000"
-iniset_sudo $conf keystone_authtoken auth_host controller-mgmt
-iniset_sudo $conf keystone_authtoken auth_port 35357
-iniset_sudo $conf keystone_authtoken auth_protocol http
+iniset_sudo $conf keystone_authtoken auth_uri "http://controller-mgmt:5000/v2.0"
+iniset_sudo $conf keystone_authtoken identity_uri "http://controller-mgmt:35357"
 iniset_sudo $conf keystone_authtoken admin_tenant_name "$SERVICE_TENANT_NAME"
 iniset_sudo $conf keystone_authtoken admin_user "$glance_admin_user"
 iniset_sudo $conf keystone_authtoken admin_password "$glance_admin_password"
 iniset_sudo $conf paste_deploy flavor "keystone"
+iniset_sudo $conf glance_store default_store file
+iniset_sudo $conf glance_store filesystem_store_datadir /var/lib/glance/images/
+iniset_sudo $conf DEFAULT verbose True
 
 echo "Configuring glance-registry.conf."
 conf=/etc/glance/glance-registry.conf
 iniset_sudo $conf database connection "$database_url"
-iniset_sudo $conf keystone_authtoken auth_uri "http://controller-mgmt:5000"
-iniset_sudo $conf keystone_authtoken auth_host controller-mgmt
-iniset_sudo $conf keystone_authtoken auth_port 35357
-iniset_sudo $conf keystone_authtoken auth_protocol http
+iniset_sudo $conf keystone_authtoken auth_uri "http://controller-mgmt:5000/v2.0"
+iniset_sudo $conf keystone_authtoken identity_uri "http://controller-mgmt:35357"
 iniset_sudo $conf keystone_authtoken admin_tenant_name "$SERVICE_TENANT_NAME"
 iniset_sudo $conf keystone_authtoken admin_user "$glance_admin_user"
 iniset_sudo $conf keystone_authtoken admin_password "$glance_admin_password"
 iniset_sudo $conf paste_deploy flavor "keystone"
+iniset_sudo $conf DEFAULT verbose True
 
 echo "Creating the database tables for glance."
 sudo glance-manage db_sync
@@ -104,12 +104,17 @@ until glance image-list >/dev/null 2>&1; do
     sleep 1
 done
 
-echo "Adding CirrOS image to glance."
+# cirros-0.3.3-x86_64-disk.img -> cirros-0.3.3-x86_64
+img_name=$(basename $CIRROS_URL -disk.img)
+
+echo "Adding CirrOS image as $img_name to glance."
+
 glance image-create \
-    --name Cirros_x86_64 \
-    --is-public true \
+    --name "$img_name" \
+    --file "$HOME/img/$(basename $CIRROS_URL)" \
+    --disk-format qcow2 \
     --container-format bare \
-    --disk-format qcow2 < "$HOME/img/$(basename $CIRROS_URL)"
+    --is-public True
 
 echo "Verifying that the image was successfully added to the service."
 
