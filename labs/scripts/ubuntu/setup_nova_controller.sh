@@ -25,8 +25,7 @@ nova_admin_password=$(service_to_user_password nova)
 echo "Creating nova user and giving it admin role under service tenant."
 keystone user-create \
     --name "$nova_admin_user" \
-    --pass "$nova_admin_password" \
-    --email "nova@$MAIL_DOMAIN"
+    --pass "$nova_admin_password"
 
 keystone user-role-add \
     --user "$nova_admin_user" \
@@ -44,7 +43,8 @@ keystone endpoint-create \
     --service-id "$nova_service_id" \
     --publicurl 'http://controller-api:8774/v2/%(tenant_id)s' \
     --internalurl 'http://controller-mgmt:8774/v2/%(tenant_id)s' \
-    --adminurl 'http://controller-mgmt:8774/v2/%(tenant_id)s'
+    --adminurl 'http://controller-mgmt:8774/v2/%(tenant_id)s' \
+    --region "$REGION"
 
 echo "Installing nova for controller node."
 sudo apt-get install -y nova-api nova-cert nova-conductor nova-consoleauth \
@@ -74,9 +74,7 @@ iniset_sudo $conf DEFAULT rabbit_password "$RABBIT_PASSWORD"
 iniset_sudo $conf DEFAULT auth_strategy keystone
 
 iniset_sudo $conf keystone_authtoken auth_uri http://controller-mgmt:5000
-iniset_sudo $conf keystone_authtoken auth_host controller-mgmt
-iniset_sudo $conf keystone_authtoken auth_port 35357
-iniset_sudo $conf keystone_authtoken auth_protocol http
+iniset_sudo $conf keystone_authtoken identity_uri http://controller-mgmt:35357
 iniset_sudo $conf keystone_authtoken admin_tenant_name "$SERVICE_TENANT_NAME"
 iniset_sudo $conf keystone_authtoken admin_user "$nova_admin_user"
 iniset_sudo $conf keystone_authtoken admin_password "$nova_admin_password"
@@ -84,6 +82,9 @@ iniset_sudo $conf keystone_authtoken admin_password "$nova_admin_password"
 iniset_sudo $conf DEFAULT my_ip "$(hostname_to_ip controller-mgmt)"
 iniset_sudo $conf DEFAULT vncserver_listen controller-mgmt
 iniset_sudo $conf DEFAULT vncserver_proxyclient_address controller-mgmt
+
+iniset_sudo $conf glance host controller-mgmt
+iniset_sudo $conf DEFAULT verbose True
 
 echo "Creating the database tables for nova."
 sudo nova-manage db sync
