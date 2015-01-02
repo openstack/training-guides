@@ -39,7 +39,7 @@ conf=/etc/neutron/neutron.conf
 echo "Configuring $conf."
 
 # Configure AMQP parameters
-iniset_sudo $conf DEFAULT rpc_backend neutron.openstack.common.rpc.impl_kombu
+iniset_sudo $conf DEFAULT rpc_backend rabbit
 iniset_sudo $conf DEFAULT rabbit_host controller-mgmt
 iniset_sudo $conf DEFAULT rabbit_password "$RABBIT_PASSWORD"
 
@@ -47,10 +47,8 @@ iniset_sudo $conf DEFAULT rabbit_password "$RABBIT_PASSWORD"
 iniset_sudo $conf DEFAULT auth_strategy keystone
 
 # Configuring [keystone_authtoken] section
-iniset_sudo $conf keystone_authtoken auth_uri "http://controller-mgmt:5000"
-iniset_sudo $conf keystone_authtoken auth_host controller-mgmt
-iniset_sudo $conf keystone_authtoken auth_protocol http
-iniset_sudo $conf keystone_authtoken auth_port 35357
+iniset_sudo $conf keystone_authtoken auth_uri http://controller-mgmt:5000/v2.0
+iniset_sudo $conf keystone_authtoken identity_uri http://controller-mgmt:35357
 iniset_sudo $conf keystone_authtoken admin_tenant_name "$SERVICE_TENANT_NAME"
 iniset_sudo $conf keystone_authtoken admin_user "$neutron_admin_user"
 iniset_sudo $conf keystone_authtoken admin_password "$neutron_admin_password"
@@ -66,26 +64,33 @@ echo "Configuring the OVS plug-in to use GRE tunneling."
 conf=/etc/neutron/plugins/ml2/ml2_conf.ini
 
 # Under the ml2 section
-iniset_sudo $conf ml2 type_drivers gre
+iniset_sudo $conf ml2 type_drivers flat,gre
 iniset_sudo $conf ml2 tenant_network_types gre
 iniset_sudo $conf ml2 mechanism_drivers openvswitch
+
+iniset_sudo $conf ml2_type_flat flat_networks external
 
 # Under the ml2_type_gre section
 iniset_sudo $conf ml2_type_gre tunnel_id_ranges 1:1000
 
 # Under the securitygroup section
 iniset_sudo $conf securitygroup enable_security_group True
+iniset_sudo $conf securitygroup enable_ipset True
 iniset_sudo $conf securitygroup firewall_driver neutron.agent.linux.iptables_firewall.OVSHybridIptablesFirewallDriver
 
 # Under the ovs section
 iniset_sudo $conf ovs local_ip "$(hostname_to_ip network-data)"
-iniset_sudo $conf ovs tunnel_type gre
 iniset_sudo $conf ovs enable_tunneling True
+iniset_sudo $conf ovs bridge_mappings external:br-ex
+
+iniset_sudo $conf agent tunnel_types gre
 
 echo "Configuring Layer-3 agent."
 conf=/etc/neutron/l3_agent.ini
 iniset_sudo $conf DEFAULT interface_driver neutron.agent.linux.interface.OVSInterfaceDriver
 iniset_sudo $conf DEFAULT use_namespaces True
+iniset_sudo $conf DEFAULT external_network_bridge br-ex
+iniset_sudo $conf DEFAULT router_delete_namespaces True
 iniset_sudo $conf DEFAULT verbose True
 
 echo "Configuring the DHCP agent"
@@ -93,6 +98,7 @@ conf=/etc/neutron/dhcp_agent.ini
 iniset_sudo $conf DEFAULT interface_driver neutron.agent.linux.interface.OVSInterfaceDriver
 iniset_sudo $conf DEFAULT dhcp_driver neutron.agent.linux.dhcp.Dnsmasq
 iniset_sudo $conf DEFAULT use_namespaces True
+iniset_sudo $conf DEFAULT dhcp_delete_namespaces True
 iniset_sudo $conf DEFAULT verbose True
 iniset_sudo $conf DEFAULT dnsmasq_config_file /etc/neutron/dnsmasq-neutron.conf
 
@@ -131,14 +137,15 @@ iniset_sudo $conf DEFAULT metadata_proxy_shared_secret "$METADATA_SECRET"
 iniset_sudo $conf DEFAULT verbose True
 
 # The next two steps according to the install-guide (configuring
-# service_neutron_metadata_proxy and neutron_metadata_proxy_shared_secret)
-# are done in setup_neutron_controller.sh.
+# service_metadata_proxy and metadata_proxy_shared_secret) have already been
+# done in setup_neutron_controller.sh.
+
+# XXX The install-guide wants us to restart nova-api on controller now, but we
+#     ignore that for now; by default, the controller gets rebooted for a
+#     snapshot anyway.
 
 echo "Restarting the Open vSwitch (OVS) service."
 sudo service openvswitch-switch restart
-
-echo "Adding the integration bridge."
-sudo ovs-vsctl --may-exist add-br br-int
 
 echo "Adding the external bridge"
 sudo ovs-vsctl add-br br-ex
@@ -205,3 +212,14 @@ done
 
 sudo service neutron-metadata-agent restart
 
+#------------------------------------------------------------------------------
+# Verify the Networking Service installation
+#------------------------------------------------------------------------------
+
+echo "Verifying neutron installation."
+
+# Load keystone credentials
+source "$CONFIG_DIR/admin-openstackrc.sh"
+
+echo "neutron agent-list"
+neutron agent-list
