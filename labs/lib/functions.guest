@@ -362,6 +362,25 @@ function config_network {
 }
 
 #-------------------------------------------------------------------------------
+# ssh wrapper functions
+#-------------------------------------------------------------------------------
+
+function no_chk_ssh {
+    echo >&2 "ssh $@"
+    # Options set to disable strict host key checking and related messages.
+    ssh \
+        -o "UserKnownHostsFile /dev/null" \
+        -o "StrictHostKeyChecking no" \
+        -o LogLevel=error \
+        "$@"
+}
+
+# ssh from one node VM to another node in the cluster
+function node_ssh {
+    no_chk_ssh -i "$HOME/.ssh/vagrant" "$@"
+}
+
+#-------------------------------------------------------------------------------
 fix_path_env
 source_deploy
 #-------------------------------------------------------------------------------

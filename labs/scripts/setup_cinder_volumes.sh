@@ -100,20 +100,23 @@ sudo service tgt restart
 # Verify the Block Storage installation
 #------------------------------------------------------------------------------
 
+echo "Verifying Block Storage installation on controller node."
+
 echo "Waiting for cinder to start."
-until cinder list >/dev/null 2>&1; do
+AUTH='source config/$CONFIG_DIR/admin-openstackrc.sh'
+until node_ssh controller-mgmt "$AUTH; cinder list" >/dev/null 2>&1; do
     sleep 1
 done
 
 echo "cinder create --display-name labsVolume 1"
-cinder create --display-name labsVolume 1
+node_ssh controller-mgmt "$AUTH; cinder create --display-name labsVolume 1"
 
 echo "cinder list"
-cinder list
+# FIXME check Status column (may be creating, available, or error)
+node_ssh controller-mgmt "$AUTH; cinder list"
 
 echo "cinder delete labsVolume"
-cinder delete labsVolume
+node_ssh controller-mgmt "$AUTH; cinder delete labsVolume"
 
 echo "cinder list"
-cinder list
-
+node_ssh controller-mgmt "$AUTH; cinder list"
