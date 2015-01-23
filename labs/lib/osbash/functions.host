@@ -381,11 +381,20 @@ function autostart_from_config {
     # are free to mess with the standard file descriptors.
     exec 3< "$config_path"
     while read -r field_1 field_2 <&3; do
-        if [[ $field_1 =~ ^# ]]; then
-            # Skip lines that are commented out
+        if [[ $field_1 =~ (^$|^#) ]]; then
+            # Skip empty lines and lines that are commented out
             continue
         elif [ "$field_1" == "cmd" ]; then
             command_from_config $field_2
+        else
+            # Syntax error
+            echo -n >&2 "ERROR in $config_file: '$field_1"
+            if [ -n "$field_2" ]; then
+                echo >&2 " $field_2'"
+            else
+                echo >&2 "'"
+            fi
+            exit 1
         fi
     done
 }
