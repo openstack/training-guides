@@ -94,7 +94,7 @@ function vm_install_base {
 
     autostart osbash/base_fixups.sh
 
-    # By default, set by lib/osbash/lib.* to something like scripts.ubuntu
+    # By default, set by lib/osbash/lib.* to something like scripts.ubuntu_base
     autostart_from_config "$BASE_INSTALL_SCRIPTS"
 
     autostart zero_empty.sh shutdown.sh

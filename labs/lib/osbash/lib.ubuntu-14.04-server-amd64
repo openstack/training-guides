@@ -1,7 +1,7 @@
 # Ubuntu 14.04 LTS amd64 server
 
 # Default scripts for all Ubuntu installs
-: ${BASE_INSTALL_SCRIPTS:=scripts.ubuntu}
+: ${BASE_INSTALL_SCRIPTS:=scripts.ubuntu_base}
 
 #-------------------------------------------------------------------------------
 # Booting the operating system installer
