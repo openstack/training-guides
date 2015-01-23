@@ -3,10 +3,10 @@ cmd init_node
 cmd queue etc_hosts.sh
 cmd queue osbash/enable_vagrant_ssh_keys.sh
 cmd snapshot_cycle compute_node_init
-cmd queue setup_nova_compute.sh
+cmd queue ubuntu/setup_nova_compute.sh
 cmd snapshot_cycle nova-compute_installed
-cmd queue setup_neutron_compute.sh
-cmd queue setup_cinder_volumes.sh
+cmd queue ubuntu/setup_neutron_compute.sh
+cmd queue ubuntu/setup_cinder_volumes.sh
 cmd snapshot_cycle compute_node_installed
 # Take snapshot of changes on controller VM, too
 cmd queue shutdown_controller.sh
