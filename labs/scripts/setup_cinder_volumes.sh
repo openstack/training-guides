@@ -103,7 +103,7 @@ sudo service tgt restart
 echo "Verifying Block Storage installation on controller node."
 
 echo "Waiting for cinder to start."
-AUTH='source config/$CONFIG_DIR/admin-openstackrc.sh'
+AUTH="source $CONFIG_DIR/admin-openstackrc.sh"
 until node_ssh controller-mgmt "$AUTH; cinder list" >/dev/null 2>&1; do
     sleep 1
 done
