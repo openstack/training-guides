@@ -39,8 +39,8 @@
                         <configuration>
                             <includes>st-training-guides.xml</includes>
                             <sourceDirectory>.</sourceDirectory>
-                            <webhelpDirname>training-guides</webhelpDirname>
-                            <pdfFilenameBase>training-guides</pdfFilenameBase>
+                            <webhelpDirname>${release.path.name}/training-guides</webhelpDirname>
+                            <pdfFilenameBase>training-guides-${release.path.name}</pdfFilenameBase>
                             <enableDisqus>${comments.enabled}</enableDisqus>
                             <enableGoogleAnalytics>1</enableGoogleAnalytics>
                             <googleAnalyticsId>UA-17511903-1</googleAnalyticsId>
@@ -72,7 +72,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <canonicalUrlBase>http://docs.openstack.org/training-guides/content</canonicalUrlBase>
+                    <canonicalUrlBase>http://docs.openstack.org/${release.path.name}/training-guides/content</canonicalUrlBase>
                     <glossaryCollection>${basedir}/../glossary/glossary-terms.xml</glossaryCollection>
                     <branding>openstack</branding>
                     <profileOs>${profile.os}</profileOs>
