@@ -117,13 +117,16 @@ Admin Login:
 
 * SSH
 
-You can ssh to each of the nodes:
+You can ssh to each of the nodes by:
 
-        $ ssh controller@10.10.10.51
+        # Controller node
+        $ ssh osbash@10.10.10.51
 
-        $ ssh compute@10.10.10.51
+        # Network node
+        $ ssh osbash@10.10.10.52
 
-        $ ssh network@10.10.10.51
+        # Compute node
+        $ ssh osbash@10.10.10.53
 
 Credentials for all nodes:
 
