@@ -276,7 +276,7 @@
         generated a keypair with an external tool, you can import it
         into OpenStack. The keypair can be used for multiple instances
         that belong to a project.</para>
-      <para>To add a keypair</para>
+      <para>To add a keypair:</para>
       <orderedlist>
         <listitem>
           <para>Log in to the OpenStack dashboard.</para>
@@ -292,9 +292,6 @@
         <listitem>
           <para>Click the Keypairs tab. The dashboard shows the
             keypairs that are available for this project.</para>
-        </listitem>
-        <listitem>
-          <para>To add a keypair.</para>
         </listitem>
         <listitem>
           <para>Click Create Keypair.</para>
