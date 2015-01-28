@@ -157,13 +157,13 @@
     group rules to enable users to ping and SSH to the instances. To
     do so, you either add rules to the default security group or add a
     security group with rules. For information, see<link
-      xlink:href="http://docs.openstack.org/user-guide/content/security_groups_add_rule.html"
-      >the section called “Add security group rules”</link>.</para>
+      xlink:href="http://docs.openstack.org/user-guide/content/sdk_configure_instances.html"
+      >the section called “Create and manage security group rules”</link>.</para>
     <para>Keypairs are SSH credentials that are injected into images
     when they are launched. For this to work, the image must contain
     the cloud-init package. For information, see<link
-      xlink:href="http://docs.openstack.org/user-guide/content/keypair_add.html"
-      >the section called “Add keypairs”</link>.</para>
+      xlink:href="http://docs.openstack.org/user-guide/content/sdk_configure_instances.html"
+      >the section called “Add a keypair”</link>.</para>
       <para><guilabel>Add security group rules</guilabel></para>
       <para>The following procedure shows you how to add rules to the
         default security group.</para>
@@ -339,8 +339,8 @@
           <para>$ chmod 0600 MY_PRIV_KEY.pem</para>
         </listitem>
         <listitem>
-          <para>Use the ssh-addcommand to make the keypair known to
-            SSH:</para>
+          <para>Use the <command>ssh-add</command> command to make the
+            keypair known to SSH:</para>
         </listitem>
         <listitem>
           <para>$ ssh-add MY_PRIV_KEY.pem</para>
@@ -414,9 +414,8 @@
           <para>Security groups are a kind of cloud firewall that
         define which incoming network traffic should be forwarded to
         instances. For details, see<link
-          xlink:href="http://docs.openstack.org/user-guide/content/security_groups_add_rule.html"
-          >the section called “Add security group
-        rules”</link>.</para>
+          xlink:href="http://docs.openstack.org/user-guide/content/sdk_configure_instances.html"
+          >the section called “Create and manage security groups”</link>.</para>
         </listitem>
         <listitem>
           <para>If you have not created any specific security groups,
@@ -1409,18 +1408,18 @@
             arguments that you used to create the rule.</para>
         </listitem>
         <listitem>
-          <para>To delete the security rule that you created in<link
-              xlink:href="http://docs.openstack.org/user-guide/content/configure_security_groups_rules.html#sec_group_rule_add"
-              >Step 3.a</link>:</para>
+          <para>To delete the security rule that you added as described in<link
+              xlink:href="http://docs.openstack.org/user-guide/content/sdk_configure_instances.html"
+              >Create and manage security group rules</link>:</para>
         </listitem>
         <listitem>
           <para>$ nova secgroup-delete-rule SEC_GROUP_NAME tcp 22 22
             0.0.0.0/0</para>
         </listitem>
         <listitem>
-          <para>To delete the security rule that you created in<link
-              xlink:href="http://docs.openstack.org/user-guide/content/configure_security_groups_rules.html#sec_group_rule_add_alt"
-              >Step 3.b</link>:</para>
+          <para>To delete the security group that you created as described in<link
+              xlink:href="http://docs.openstack.org/user-guide/content/sdk_configure_instances.html"
+              >Create and manage security groups</link>:</para>
         </listitem>
         <listitem>
           <para>$ nova secgroup-delete-group-rule --ip_proto tcp
