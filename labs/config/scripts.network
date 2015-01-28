@@ -4,6 +4,8 @@ cmd queue etc_hosts.sh
 cmd queue osbash/enable_vagrant_ssh_keys.sh
 cmd snapshot_cycle network_configured
 cmd queue setup_neutron_network.sh
+cmd snapshot_cycle neutron_configured
+cmd queue setup_lbaas_network.sh
 cmd snapshot_cycle network_node_installed
 # Take snapshot of changes on controller VM, too
 cmd queue shutdown_controller.sh

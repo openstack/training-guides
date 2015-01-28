@@ -61,7 +61,7 @@ apt_download nova-api nova-cert nova-conductor nova-consoleauth \
     nova-novncproxy nova-scheduler python-novaclient
 
 # Neutron Controller
-apt_download neutron-server neutron-plugin-ml2
+apt_download neutron-server neutron-plugin-ml2 neutron-lbaas-agent
 
 # Cinder Controller
 apt_download cinder-api cinder-scheduler
