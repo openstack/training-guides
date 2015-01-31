@@ -1,7 +1,7 @@
 # Fedora 20 x86_64
 
 # Default scripts for all Fedora base disks
-: ${BASE_INSTALL_SCRIPTS:=scripts.fedora}
+: ${BASE_INSTALL_SCRIPTS:=scripts.fedora_base}
 
 # Give Fedora 20 installer sufficient RAM
 VM_BASE_MEM=1024
