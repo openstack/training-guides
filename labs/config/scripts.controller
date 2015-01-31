@@ -2,7 +2,7 @@
 cmd init_node
 cmd queue etc_hosts.sh
 cmd queue osbash/enable_vagrant_ssh_keys.sh
-cmd snapshot_cycle network_configured
+cmd snapshot_cycle controller_node_init
 cmd queue apt_install_mysql.sh
 cmd queue install_rabbitmq.sh
 cmd snapshot_cycle pre-openstack_installed
