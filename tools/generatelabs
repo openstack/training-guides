@@ -1,0 +1,10 @@
+#!/bin/bash
+# Used by tox.ini when checking build and publishing docs to website
+
+# Create tarball of labs scripts for Linux/OS X users
+bash -c "tar czf publish-docs/trunk/training-guides/labs-scripts.tgz labs"
+
+# Generate Windows batch scripts
+bash -c "labs/osbash.sh -w cluster"
+# Create zip file of labs scripts for Windows users
+bash -c "zip -r publish-docs/trunk/training-guides/labs-scripts.zip labs"
