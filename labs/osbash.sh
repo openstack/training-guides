@@ -162,6 +162,7 @@ if [ -z "${OSBASH:-}" -a -z "${WBATCH:-}" ]; then
     exit
 fi
 
+STARTTIME=$(date +%s)
 echo >&2 "$(date) osbash starting"
 
 clean_dir "$LOG_DIR"
@@ -215,4 +216,6 @@ for node in $nodes; do
     vm_build_node "$node"
 done
 #-------------------------------------------------------------------------------
+ENDTIME=$(date +%s)
 echo >&2 "$(date) osbash finished successfully"
+echo "osbash completed in $(($ENDTIME - $STARTTIME)) seconds."
