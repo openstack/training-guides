@@ -1,3 +1,12 @@
+===============
+Relevant actors
+===============
+
+ <teacher name>
+ <date>
+
+----
+
 Relevant actors
 ===============
 
@@ -9,9 +18,7 @@ Relevant actors
 Relevance metrics
 =================
 
-.. image:: ./_assets/02-02-relevance-metrics.png
-  :align: right
-  :width: 55%
+.. rst-class:: colleft
 
 - Commits
 - Completed blueprints
@@ -20,6 +27,11 @@ Relevance metrics
 - Lines of code
 - Reviews
 - Mentoring
+
+.. rst-class:: colright
+
+.. image:: ./_assets/02-02-relevance-metrics.png
+
 
 ----
 

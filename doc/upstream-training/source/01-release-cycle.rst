@@ -1,8 +1,6 @@
+=======================
 OpenStack Release Cycle
 =======================
-
-OpenStack Upstream Training
----------------------------
 
  <teacher name>
  <date>
@@ -12,28 +10,27 @@ OpenStack Upstream Training
 Planning : Design
 =================
 
-.. class:: colleft
+.. rst-class:: colleft
 
 - Planning stage is at the start of a cycle
 - take a step back
 - focus on what we want to do for the next one
 
-.. class:: colright
 .. image:: ./_assets/01-01-release.png
+
 
 ----
 
 Planning : Discuss
 ==================
 
-.. class:: colleft
+.. rst-class:: colleft
 
 - With our peers
 - feedback and comments
 - create the corresponding blueprint
 - 4 weeks, Design Summit on the third week
 
-.. class:: colright
 .. image:: ./_assets/01-01-release.png
 
 ----
@@ -41,14 +38,15 @@ Planning : Discuss
 Planning : Target
 =================
 
-.. class:: colleft
+.. rst-class:: colleft
 
 - file new blueprints and/or specs
 - set a target milestone
 - when in the cycle they intend to complete it
 - PTLs triage the submitted blueprints and set priority
 
-.. class:: colright
+.. rst-class:: colright
+
 .. image:: ./_assets/01-01-release.png
 
 ----
@@ -56,14 +54,15 @@ Planning : Target
 Implementation : Milestone
 ==========================
 
-.. class:: colleft
+.. rst-class:: colleft
 
 - pushed to our Gerrit review
 - weeks before the milestone publication date
 - milestone-proposed branch
 - feature-frozen
 
-.. class:: colright
+.. rst-class:: colright
+
 .. image:: ./_assets/01-01-release.png
 
 ----
@@ -71,32 +70,32 @@ Implementation : Milestone
 Implementation : freezes
 ========================
 
-.. class:: colleft
+.. rst-class:: colleft
 
-- Feature freeze
+* Feature proposal freeze
 
-  - new features will not be accepted, only fixes
+  * not even proposals for features will be accepted
+  * focus on bug-fixing
 
-- Feature proposal freeze
+* Feature freeze
 
-  - not even proposals for features will be accepted
-  - read: focus on bug-fixing
+  * new features will not be accepted, only fixes
 
-- String freeze
+* String freeze
 
-  - all externally visible strings must be frozen
-  - this helps the translation and documentation program
+  * all externally visible strings must be frozen
+  * this helps the translation and documentation program
 
-.. class:: colright
+.. rst-class:: colright
+
 .. image:: ./_assets/01-01-release.png
-
 
 ----
 
 Release Candidates
 ==================
 
-.. class:: colleft
+.. rst-class:: colleft
 
 - After the last milestone
 - file bugs about everything you find
@@ -104,7 +103,8 @@ Release Candidates
 - write documentation
 - fix as many bugs as you can
 
-.. class:: colright
+.. rst-class:: colright
+
 .. image:: ./_assets/01-01-release.png
 
 ----
@@ -112,7 +112,7 @@ Release Candidates
 Release candidate 1
 ===================
 
-.. class:: colleft
+.. rst-class:: colleft
 
 - Between the last milestone and the RC1
 - stop adding features and concentrate on bug fixes
@@ -120,7 +120,9 @@ Release candidate 1
   candidate for that project (RC1)
 - used as-is as the final release
 
-.. class:: colright
+
+.. rst-class:: colright
+
 .. image:: ./_assets/01-01-release.png
 
 ----
@@ -128,7 +130,7 @@ Release candidate 1
 Other release candidates
 ========================
 
-.. class:: colleft
+.. rst-class:: colleft
 
 - regressions and integration issues
 - new release-critical bugs
@@ -136,7 +138,8 @@ Other release candidates
 - merged in the master branch first
 - repeated as many times as necessary
 
-.. class:: colright
+.. rst-class:: colright
+
 .. image:: ./_assets/01-01-release.png
 
 ----
@@ -144,12 +147,13 @@ Other release candidates
 Release day
 ===========
 
-.. class:: colleft
+.. rst-class:: colleft
 
 - last published release candidate
 - published collectively as the OpenStack release
 
-.. class:: colright
+.. rst-class:: colright
+
 .. image:: ./_assets/01-01-release.png
 
 ----
