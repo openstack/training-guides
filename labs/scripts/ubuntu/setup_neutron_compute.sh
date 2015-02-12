@@ -11,7 +11,7 @@ indicate_current_auto
 
 #------------------------------------------------------------------------------
 # Set up OpenStack Networking (neutron) for compute node.
-# http://docs.openstack.org/icehouse/install-guide/install/apt/content/neutron-ml2-compute-node.html
+# http://docs.openstack.org/juno/install-guide/install/apt/content/neutron-compute-node.html
 #------------------------------------------------------------------------------
 
 echo "Editing /etc/sysctl.conf: disable Reverse Path Forwarding filter."
@@ -36,6 +36,11 @@ neutron_admin_password=$(service_to_user_password neutron)
 conf=/etc/neutron/neutron.conf
 echo "Configuring $conf."
 
+# Configure AMQP parameters
+iniset_sudo $conf DEFAULT rpc_backend neutron.openstack.common.rpc.impl_kombu
+iniset_sudo $conf DEFAULT rabbit_host controller-mgmt
+iniset_sudo $conf DEFAULT rabbit_password "$RABBIT_PASSWORD"
+
 # Configuring [DEFAULT] section
 iniset_sudo $conf DEFAULT auth_strategy keystone
 
@@ -47,11 +52,6 @@ iniset_sudo $conf keystone_authtoken auth_port 35357
 iniset_sudo $conf keystone_authtoken admin_tenant_name "$SERVICE_TENANT_NAME"
 iniset_sudo $conf keystone_authtoken admin_user "$neutron_admin_user"
 iniset_sudo $conf keystone_authtoken admin_password "$neutron_admin_password"
-
-# Configure AMQP parameters
-iniset_sudo $conf DEFAULT rpc_backend neutron.openstack.common.rpc.impl_kombu
-iniset_sudo $conf DEFAULT rabbit_host controller-mgmt
-iniset_sudo $conf DEFAULT rabbit_password "$RABBIT_PASSWORD"
 
 # Configure network plugin parameters
 iniset_sudo $conf DEFAULT core_plugin ml2
@@ -71,14 +71,15 @@ iniset_sudo $conf ml2 mechanism_drivers openvswitch
 # Under the ml2_type_gre section
 iniset_sudo $conf ml2_type_gre tunnel_id_ranges 1:1000
 
+# Under the securitygroup section
+iniset_sudo $conf securitygroup enable_security_group True
+iniset_sudo $conf securitygroup firewall_driver neutron.agent.linux.iptables_firewall.OVSHybridIptablesFirewallDriver
+
 # Under the ovs section
 iniset_sudo $conf ovs local_ip "$(hostname_to_ip compute-data)"
-iniset_sudo $conf ovs tunnel_type gre
 iniset_sudo $conf ovs enable_tunneling True
 
-# Under the securitygroup section
-iniset_sudo $conf securitygroup firewall_driver neutron.agent.linux.iptables_firewall.OVSHybridIptablesFirewallDriver
-iniset_sudo $conf securitygroup enable_security_group True
+iniset_sudo $conf ovs tunnel_type gre
 
 echo "Restarting the Open vSwitch (OVS) service."
 sudo service openvswitch-switch restart
@@ -89,15 +90,16 @@ sudo ovs-vsctl --may-exist add-br br-int
 echo "Configuring Compute to use Networking."
 conf=/etc/nova/nova.conf
 iniset_sudo $conf DEFAULT network_api_class nova.network.neutronv2.api.API
+iniset_sudo $conf DEFAULT security_group_api neutron
+iniset_sudo $conf DEFAULT linuxnet_interface_driver neutron.agent.linux.interface.OVSInterfaceDriver
+iniset_sudo $conf DEFAULT firewall_driver nova.virt.firewall.NoopFirewallDriver
+
 iniset_sudo $conf DEFAULT neutron_url http://controller-mgmt:9696
 iniset_sudo $conf DEFAULT neutron_auth_strategy keystone
+iniset_sudo $conf DEFAULT neutron_admin_auth_url http://controller-mgmt:35357/v2.0
 iniset_sudo $conf DEFAULT neutron_admin_tenant_name "$SERVICE_TENANT_NAME"
 iniset_sudo $conf DEFAULT neutron_admin_username "$neutron_admin_user"
 iniset_sudo $conf DEFAULT neutron_admin_password "$neutron_admin_password"
-iniset_sudo $conf DEFAULT neutron_admin_auth_url http://controller-mgmt:35357/v2.0
-iniset_sudo $conf DEFAULT linuxnet_interface_driver neutron.agent.linux.interface.OVSInterfaceDriver
-iniset_sudo $conf DEFAULT firewall_driver nova.virt.firewall.NoopFirewallDriver
-iniset_sudo $conf DEFAULT security_group_api neutron
 
 echo "Restarting the Compute service."
 sudo service nova-compute restart
