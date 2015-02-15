@@ -12,7 +12,7 @@ indicate_current_auto
 
 #------------------------------------------------------------------------------
 # Set up Block Storage service (cinder).
-# http://docs.openstack.org/icehouse/install-guide/install/apt/content/cinder-node.html
+# http://docs.openstack.org/juno/install-guide/install/apt/content/cinder-install-storage-node.html
 #------------------------------------------------------------------------------
 
 # Get FOURTH_OCTET for this node
@@ -21,8 +21,7 @@ source "$CONFIG_DIR/config.$(hostname)"
 MY_MGMT_IP=$(get_ip_from_net_and_fourth "MGMT_NET" "$FOURTH_OCTET")
 echo "IP address of this node's interface in management network: $MY_MGMT_IP."
 
-echo "Installing cinder."
-
+echo "Installing the Logical Volume Manager (LVM)."
 sudo apt-get install -y lvm2
 
 echo "Configuring LVM physical and logical volumes."
@@ -50,28 +49,11 @@ sudo vgcreate cinder-volumes $cinder_loop_dev
 # we just set up, but scanning our block devices to find our volume group
 # is fast enough.
 
+echo "Installing cinder."
 sudo apt-get install -y cinder-volume
 
 conf=/etc/cinder/cinder.conf
 echo "Configuring $conf."
-
-# Configure [keystone_authtoken] section.
-cinder_admin_user=$(service_to_user_name cinder)
-cinder_admin_password=$(service_to_user_password cinder)
-iniset_sudo $conf keystone_authtoken auth_uri "http://controller-mgmt:5000"
-iniset_sudo $conf keystone_authtoken auth_host controller-mgmt
-iniset_sudo $conf keystone_authtoken auth_port 35357
-iniset_sudo $conf keystone_authtoken auth_protocol http
-iniset_sudo $conf keystone_authtoken admin_tenant_name "$SERVICE_TENANT_NAME"
-iniset_sudo $conf keystone_authtoken admin_user "$cinder_admin_user"
-iniset_sudo $conf keystone_authtoken admin_password "$cinder_admin_password"
-
-# Configure [DEFAULT] section.
-iniset_sudo $conf DEFAULT rpc_backend cinder.openstack.common.rpc.impl_kombu
-iniset_sudo $conf DEFAULT rabbit_host controller-mgmt
-iniset_sudo $conf DEFAULT rabbit_port 5672
-iniset_sudo $conf DEFAULT rabbit_userid guest
-iniset_sudo $conf DEFAULT rabbit_password "$RABBIT_PASSWORD"
 
 function get_database_url {
     local db_user=$(service_to_db_user cinder)
@@ -86,18 +68,37 @@ database_url=$(get_database_url)
 echo "Setting database connection: $database_url."
 iniset_sudo $conf database connection "$database_url"
 
+# Configure [DEFAULT] section.
+iniset_sudo $conf DEFAULT rpc_backend cinder.openstack.common.rpc.impl_kombu
+iniset_sudo $conf DEFAULT rabbit_host controller-mgmt
+iniset_sudo $conf DEFAULT rabbit_port 5672
+iniset_sudo $conf DEFAULT rabbit_userid guest
+iniset_sudo $conf DEFAULT rabbit_password "$RABBIT_PASSWORD"
+
+# Configure [keystone_authtoken] section.
+cinder_admin_user=$(service_to_user_name cinder)
+cinder_admin_password=$(service_to_user_password cinder)
+iniset_sudo $conf keystone_authtoken auth_uri "http://controller-mgmt:5000"
+iniset_sudo $conf keystone_authtoken auth_host controller-mgmt
+iniset_sudo $conf keystone_authtoken auth_port 35357
+iniset_sudo $conf keystone_authtoken auth_protocol http
+iniset_sudo $conf keystone_authtoken admin_tenant_name "$SERVICE_TENANT_NAME"
+iniset_sudo $conf keystone_authtoken admin_user "$cinder_admin_user"
+iniset_sudo $conf keystone_authtoken admin_password "$cinder_admin_password"
+
 iniset_sudo $conf DEFAULT my_ip "$MY_MGMT_IP"
 
 iniset_sudo $conf DEFAULT glance_host controller-mgmt
 
-echo "Configuring cinder to use keystone for authentication."
+iniset_sudo $conf DEFAULT verbose True
 
 echo "Restarting cinder service."
-sudo service cinder-volume restart
 sudo service tgt restart
+sudo service cinder-volume restart
 
 #------------------------------------------------------------------------------
 # Verify the Block Storage installation
+# http://docs.openstack.org/juno/install-guide/install/apt/content/cinder-verify.html
 #------------------------------------------------------------------------------
 
 echo "Verifying Block Storage installation on controller node."
