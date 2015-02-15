@@ -4,15 +4,59 @@ TOP_DIR=$(cd $(dirname "$0")/.. && pwd)
 source "$TOP_DIR/config/paths"
 source "$CONFIG_DIR/credentials"
 source "$LIB_DIR/functions.guest"
-source "$CONFIG_DIR/admin-openstackrc.sh"
 exec_logfile
 
 indicate_current_auto
 
 #------------------------------------------------------------------------------
 # Set up Block Storage service controller (cinder controller node)
-# http://docs.openstack.org/icehouse/install-guide/install/apt/content/cinder-controller.html
+# http://docs.openstack.org/juno/install-guide/install/apt/content/cinder-install-controller-node.html
 #------------------------------------------------------------------------------
+
+echo "Setting up database for cinder."
+setup_database cinder
+
+source "$CONFIG_DIR/admin-openstackrc.sh"
+
+cinder_admin_user=$(service_to_user_name cinder)
+cinder_admin_password=$(service_to_user_password cinder)
+
+echo "Creating cinder user."
+keystone user-create \
+    --name "$cinder_admin_user" \
+    --pass "$cinder_admin_password" \
+    --email "cinder@$MAIL_DOMAIN"
+
+echo "Linking cinder user, service tenant and admin role."
+keystone user-role-add \
+    --user "$cinder_admin_user" \
+    --tenant "$SERVICE_TENANT_NAME" \
+    --role "$ADMIN_ROLE_NAME"
+
+echo "Registering cinder with keystone so that other services can locate it."
+keystone service-create \
+    --name cinder \
+    --type volume \
+    --description "OpenStack Block Storage"
+
+keystone service-create \
+    --name cinderv2 \
+    --type volumev2 \
+    --description "OpenStack Block Storage v2"
+
+cinder_service_id=$(keystone service-list | awk '/ volume / {print $2}')
+keystone endpoint-create \
+    --service-id "$cinder_service_id" \
+    --publicurl 'http://controller-api:8776/v1/%(tenant_id)s' \
+    --adminurl 'http://controller-mgmt:8776/v1/%(tenant_id)s' \
+    --internalurl 'http://controller-mgmt:8776/v1/%(tenant_id)s'
+
+cinder_v2_service_id=$(keystone service-list | awk '/ volumev2 / {print $2}')
+keystone endpoint-create \
+    --service-id "$cinder_v2_service_id" \
+    --publicurl 'http://controller-api:8776/v2/%(tenant_id)s' \
+    --adminurl 'http://controller-mgmt:8776/v2/%(tenant_id)s' \
+    --internalurl 'http://controller-mgmt:8776/v2/%(tenant_id)s'
 
 echo "Installing cinder."
 sudo apt-get install -y cinder-api cinder-scheduler qemu-utils
@@ -30,36 +74,18 @@ function get_database_url {
 
 database_url=$(get_database_url)
 
-echo "Configuring [database] section in /etc/cinder/cinder.conf."
-
-echo "Setting database connection: $database_url."
-iniset_sudo /etc/cinder/cinder.conf database connection "$database_url"
-
-echo "Setting up database for cinder."
-setup_database cinder
-
-echo "Creating the database tables for cinder."
-sudo cinder-manage db sync
-
-cinder_admin_user=$(service_to_user_name cinder)
-cinder_admin_password=$(service_to_user_password cinder)
-
-echo "Creating cinder user."
-keystone user-create \
-    --name "$cinder_admin_user" \
-    --pass "$cinder_admin_password" \
-    --email "cinder@$MAIL_DOMAIN"
-
-echo "Linking cinder user, service tenant and admin role."
-keystone user-role-add \
-    --user "$cinder_admin_user" \
-    --tenant "$SERVICE_TENANT_NAME" \
-    --role "$ADMIN_ROLE_NAME"
-
-echo "Configuring cinder to use keystone for authentication."
-
 echo "Configuring cinder-api.conf."
 conf=/etc/cinder/cinder.conf
+
+echo "Setting database connection: $database_url."
+iniset_sudo $conf database connection "$database_url"
+
+# Configure [DEFAULT] section to use RabbitMQ message broker.
+iniset_sudo $conf DEFAULT rpc_backend cinder.openstack.common.rpc.impl_kombu
+iniset_sudo $conf DEFAULT rabbit_host controller-mgmt
+iniset_sudo $conf DEFAULT rabbit_port 5672
+iniset_sudo $conf DEFAULT rabbit_userid guest
+iniset_sudo $conf DEFAULT rabbit_password "$RABBIT_PASSWORD"
 
 # Configure [keystone_authtoken] section.
 iniset_sudo $conf keystone_authtoken auth_uri "http://controller-mgmt:5000"
@@ -70,37 +96,8 @@ iniset_sudo $conf keystone_authtoken admin_tenant_name "$SERVICE_TENANT_NAME"
 iniset_sudo $conf keystone_authtoken admin_user "$cinder_admin_user"
 iniset_sudo $conf keystone_authtoken admin_password "$cinder_admin_password"
 
-# Configure [DEFAULT] section to use RabbitMQ message broker.
-iniset_sudo $conf DEFAULT rpc_backend cinder.openstack.common.rpc.impl_kombu
-iniset_sudo $conf DEFAULT rabbit_host controller-mgmt
-iniset_sudo $conf DEFAULT rabbit_port 5672
-iniset_sudo $conf DEFAULT rabbit_userid guest
-iniset_sudo $conf DEFAULT rabbit_password "$RABBIT_PASSWORD"
-
-echo "Registering cinder with keystone so that other services can locate it."
-keystone service-create \
-    --name cinder \
-    --type volume \
-    --description "OpenStack Block Storage"
-
-cinder_service_id=$(keystone service-list | awk '/ volume / {print $2}')
-keystone endpoint-create \
-    --service-id "$cinder_service_id" \
-    --publicurl 'http://controller-api:8776/v1/%(tenant_id)s' \
-    --adminurl 'http://controller-mgmt:8776/v1/%(tenant_id)s' \
-    --internalurl 'http://controller-mgmt:8776/v1/%(tenant_id)s'
-
-keystone service-create \
-    --name cinderv2 \
-    --type volumev2 \
-    --description "OpenStack Block Storage v2"
-
-cinder_v2_service_id=$(keystone service-list | awk '/ volumev2 / {print $2}')
-keystone endpoint-create \
-    --service-id "$cinder_v2_service_id" \
-    --publicurl 'http://controller-api:8776/v2/%(tenant_id)s' \
-    --adminurl 'http://controller-mgmt:8776/v2/%(tenant_id)s' \
-    --internalurl 'http://controller-mgmt:8776/v2/%(tenant_id)s'
+echo "Creating the database tables for cinder."
+sudo cinder-manage db sync
 
 echo "Restarting cinder service."
 sudo service cinder-scheduler restart
