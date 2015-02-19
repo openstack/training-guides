@@ -16,7 +16,7 @@ indicate_current_auto
 
 echo "Installing nova for compute node."
 # We can't use KVM inside VirtualBox.
-sudo apt-get install -y nova-compute-qemu
+sudo apt-get install -y nova-compute-qemu sysfsutils
 
 echo "Configuring nova for compute node."
 
@@ -35,10 +35,8 @@ nova_admin_user=$(service_to_user_name nova)
 nova_admin_password=$(service_to_user_password nova)
 
 # Configure [keystone_authtoken] section
-iniset_sudo $conf keystone_authtoken auth_uri http://controller-mgmt:5000
-iniset_sudo $conf keystone_authtoken auth_host controller-mgmt
-iniset_sudo $conf keystone_authtoken auth_port 35357
-iniset_sudo $conf keystone_authtoken auth_protocol http
+iniset_sudo $conf keystone_authtoken auth_uri http://controller-mgmt:5000/v2.0
+iniset_sudo $conf keystone_authtoken identity_uri http://controller-mgmt:35357
 iniset_sudo $conf keystone_authtoken admin_tenant_name "$SERVICE_TENANT_NAME"
 iniset_sudo $conf keystone_authtoken admin_user "$nova_admin_user"
 iniset_sudo $conf keystone_authtoken admin_password "$nova_admin_password"
@@ -50,38 +48,23 @@ iniset_sudo $conf DEFAULT vncserver_listen 0.0.0.0
 iniset_sudo $conf DEFAULT vncserver_proxyclient_address compute-mgmt
 iniset_sudo $conf DEFAULT novncproxy_base_url http://"$(hostname_to_ip controller-api)":6080/vnc_auto.html
 
-iniset_sudo $conf DEFAULT glance_host controller-mgmt
+iniset_sudo $conf glance host controller-mgmt
 
 iniset_sudo $conf DEFAULT verbose True
 
-function get_database_url {
-    local db_user=$(service_to_db_user nova)
-    local db_password=$(service_to_db_password nova)
-    local database_host=controller-mgmt
-
-    echo "mysql://$db_user:$db_password@$database_host/nova"
-}
-
-database_url=$(get_database_url)
-
-echo "Setting database connection: $database_url."
-iniset_sudo $conf database connection "$database_url"
-
 # Configure nova-compute.conf
 conf=/etc/nova/nova-compute.conf
-iniset_sudo $conf libvirt virt_type qemu
+echo -n "Hardware acceleration for virtualization: "
+if sudo egrep -q '(vmx|svm)' /proc/cpuinfo; then
+    echo "available."
+else
+    echo "not available."
+    iniset_sudo $conf libvirt virt_type qemu
+fi
+echo "Config: $(sudo grep virt_type $conf)"
 
 echo "Restarting nova services."
 sudo service nova-compute restart
 
 # Remove SQLite database created by Ubuntu package for nova.
 sudo rm -v /var/lib/nova/nova.sqlite
-
-#------------------------------------------------------------------------------
-# Verify the Nova installation on compute node
-#------------------------------------------------------------------------------
-
-echo "Verifying nova service status."
-# This call needs root privileges for read access to /etc/nova/nova.conf.
-echo "sudo nova-manage service list"
-sudo nova-manage service list
