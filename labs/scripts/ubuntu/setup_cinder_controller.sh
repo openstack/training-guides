@@ -24,8 +24,7 @@ cinder_admin_password=$(service_to_user_password cinder)
 echo "Creating cinder user."
 keystone user-create \
     --name "$cinder_admin_user" \
-    --pass "$cinder_admin_password" \
-    --email "cinder@$MAIL_DOMAIN"
+    --pass "$cinder_admin_password"
 
 echo "Linking cinder user, service tenant and admin role."
 keystone user-role-add \
@@ -59,7 +58,8 @@ keystone endpoint-create \
     --internalurl 'http://controller-mgmt:8776/v2/%(tenant_id)s'
 
 echo "Installing cinder."
-sudo apt-get install -y cinder-api cinder-scheduler qemu-utils
+sudo apt-get install -y cinder-api cinder-scheduler python-cinderclient \
+    qemu-utils
 # Note: The package 'qemu-utils' is required for 'qemu-img' which allows cinder
 #       to convert additional image types to bootable volumes. By default only
 #       raw images can be converted.
@@ -81,20 +81,21 @@ echo "Setting database connection: $database_url."
 iniset_sudo $conf database connection "$database_url"
 
 # Configure [DEFAULT] section to use RabbitMQ message broker.
-iniset_sudo $conf DEFAULT rpc_backend cinder.openstack.common.rpc.impl_kombu
+iniset_sudo $conf DEFAULT rpc_backend rabbit
 iniset_sudo $conf DEFAULT rabbit_host controller-mgmt
-iniset_sudo $conf DEFAULT rabbit_port 5672
-iniset_sudo $conf DEFAULT rabbit_userid guest
 iniset_sudo $conf DEFAULT rabbit_password "$RABBIT_PASSWORD"
+iniset_sudo $conf DEFAULT auth_strategy keystone
 
 # Configure [keystone_authtoken] section.
-iniset_sudo $conf keystone_authtoken auth_uri "http://controller-mgmt:5000"
-iniset_sudo $conf keystone_authtoken auth_host controller-mgmt
-iniset_sudo $conf keystone_authtoken auth_port 35357
-iniset_sudo $conf keystone_authtoken auth_protocol http
+iniset_sudo $conf keystone_authtoken auth_uri "http://controller-mgmt:5000/v2.0"
+iniset_sudo $conf keystone_authtoken identity_uri "http://controller-mgmt:35357"
 iniset_sudo $conf keystone_authtoken admin_tenant_name "$SERVICE_TENANT_NAME"
 iniset_sudo $conf keystone_authtoken admin_user "$cinder_admin_user"
 iniset_sudo $conf keystone_authtoken admin_password "$cinder_admin_password"
+
+iniset_sudo $conf DEFAULT my_ip "$(hostname_to_ip controller-mgmt)"
+
+iniset_sudo $conf DEFAULT verbose True
 
 echo "Creating the database tables for cinder."
 sudo cinder-manage db sync
@@ -102,3 +103,6 @@ sudo cinder-manage db sync
 echo "Restarting cinder service."
 sudo service cinder-scheduler restart
 sudo service cinder-api restart
+
+echo "Removing unused SQLite database file (if any)."
+sudo rm -rf /var/lib/cinder/cinder.sqlite
