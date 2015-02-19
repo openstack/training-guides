@@ -9,20 +9,27 @@ indicate_current_auto
 
 #------------------------------------------------------------------------------
 # Set up OpenStack Dashboard (horizon)
-# http://docs.openstack.org/icehouse/install-guide/install/apt/content/install_dashboard.html
+# http://docs.openstack.org/juno/install-guide/install/apt/content/install_dashboard.html
 #------------------------------------------------------------------------------
 
 echo "Installing horizon."
-sudo apt-get install -y apache2 memcached libapache2-mod-wsgi \
-    openstack-dashboard
+sudo apt-get install -y openstack-dashboard apache2 libapache2-mod-wsgi \
+    memcached python-memcache
 
 echo "Purging Ubuntu theme."
 sudo dpkg --purge openstack-dashboard-ubuntu-theme
 
 function check_dashboard_settings {
-    local memcached_conf=/etc/memcached.conf
     local dashboard_conf=/etc/openstack-dashboard/local_settings.py
 
+    local auth_host=controller-mgmt
+    echo "Setting OPENSTACK_HOST = \"$auth_host\"."
+    sudo sed -i "s#^\(OPENSTACK_HOST =\).*#\1 \"$auth_host\";#" $dashboard_conf
+
+    echo -n "Allowed hosts: "
+    grep "^ALLOWED_HOSTS" $dashboard_conf
+
+    local memcached_conf=/etc/memcached.conf
     # Port is a number on line starting with "-p "
     local port=$(grep -Po -- '(?<=^-p )\d+' $memcached_conf)
 
@@ -41,13 +48,6 @@ function check_dashboard_settings {
 
     echo -n "Time zone setting: "
     grep TIME_ZONE $dashboard_conf
-
-    echo -n "Allowed hosts: "
-    grep "^ALLOWED_HOSTS" $dashboard_conf
-
-    local auth_host=controller-mgmt
-    echo "Setting OPENSTACK_HOST = \"$auth_host\"."
-    sudo sed -i "s#^\(OPENSTACK_HOST =\).*#\1 \"$auth_host\";#" $dashboard_conf
 }
 
 echo "Checking dashboard configuration."
