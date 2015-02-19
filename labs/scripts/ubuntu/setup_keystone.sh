@@ -26,12 +26,13 @@ ADMIN_TOKEN=$(openssl rand -hex 10)
 echo "$ADMIN_TOKEN"
 
 echo "Installing keystone."
-sudo apt-get install -y keystone
+sudo apt-get install -y keystone python-keystoneclient
 
-echo "Configuring [DEFAULT] section in /etc/keystone/keystone.conf."
+conf=/etc/keystone/keystone.conf
+echo "Configuring [DEFAULT] section in $conf."
 
 echo "Setting admin_token to bootstrap authentication."
-iniset_sudo /etc/keystone/keystone.conf DEFAULT admin_token "$ADMIN_TOKEN"
+iniset_sudo $conf DEFAULT admin_token "$ADMIN_TOKEN"
 
 function get_database_url {
     local db_user=$(service_to_db_user keystone)
@@ -46,13 +47,17 @@ database_url=$(get_database_url)
 echo "Configuring [database] section in /etc/keystone/keystone.conf."
 
 echo "Setting database connection: $database_url."
-iniset_sudo /etc/keystone/keystone.conf database connection "$database_url"
+iniset_sudo $conf database connection "$database_url"
+
+echo "Configuring the UUID token provider and SQL driver."
+iniset_sudo $conf token provider keystone.token.providers.uuid.Provider
+iniset_sudo $conf token driver keystone.token.persistence.backends.sql.Token
+
+echo "Enabling verbose logging."
+iniset_sudo $conf DEFAULT verbose True
 
 echo "Creating the database tables for keystone."
 sudo keystone-manage db_sync
-
-echo "Setting log directory to /var/log/keystone."
-iniset_sudo /etc/keystone/keystone.conf DEFAULT log_dir "/var/log/keystone"
 
 echo "Restarting keystone."
 sudo service keystone restart
