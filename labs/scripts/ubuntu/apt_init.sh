@@ -50,6 +50,9 @@ function ubuntu_cloud_archive {
         -o Dir::Etc::sourceparts="-" -o APT::Get::List-Cleanup="0"
 }
 
-if grep -qs DISTRIB_CODENAME=precise /etc/lsb-release; then
+# precise needs the cloud archive, and so does trusty for non-Icehouse releases
+if grep -qs DISTRIB_CODENAME=precise /etc/lsb-release ||
+        [ "$OPENSTACK_RELEASE" != "icehouse" ]; then
+    echo "Enabling the Ubuntu cloud archive."
     ubuntu_cloud_archive
 fi

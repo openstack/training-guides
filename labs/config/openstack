@@ -1,8 +1,8 @@
 # This file contains OpenStack configuration data. It is used by both
 # host (osbash, Windows batch) and VM guest scripts.
 
-# one of: folsom, grizzly, havana, icehouse
-: ${OPENSTACK_RELEASE:=icehouse}
+# one of: icehouse, juno
+: ${OPENSTACK_RELEASE:=juno}
 
 # CirrOS image URL
 CIRROS_URL="http://download.cirros-cloud.net/0.3.3/cirros-0.3.3-x86_64-disk.img"
