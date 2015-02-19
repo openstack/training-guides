@@ -29,4 +29,6 @@ CIRROS_URL="http://download.cirros-cloud.net/0.3.3/cirros-0.3.3-x86_64-disk.img"
 # Default is Google Public DNS (8.8.8.8); to disable, set to "".
 : ${TENANT_VM_DNS_SERVER:=8.8.8.8}
 
+: ${REGION:=regionOne}
+
 # vim: set ai ts=4 sw=4 et ft=sh:

@@ -3,6 +3,8 @@ set -o errexit -o nounset
 TOP_DIR=$(cd $(dirname "$0")/.. && pwd)
 source "$TOP_DIR/config/paths"
 source "$CONFIG_DIR/credentials"
+# Get REGION
+source "$CONFIG_DIR/openstack"
 source "$LIB_DIR/functions.guest"
 
 exec_logfile
@@ -137,7 +139,8 @@ keystone endpoint-create \
     --service-id "$keystone_service_id" \
     --publicurl "http://controller-api:5000/v2.0" \
     --internalurl "http://controller-mgmt:5000/v2.0" \
-    --adminurl "http://controller-mgmt:35357/v2.0"
+    --adminurl "http://controller-mgmt:35357/v2.0" \
+    --region "$REGION"
 
 #------------------------------------------------------------------------------
 # Verify the Identity Service installation
