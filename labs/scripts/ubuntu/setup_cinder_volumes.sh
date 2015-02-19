@@ -50,7 +50,7 @@ sudo vgcreate cinder-volumes $cinder_loop_dev
 # is fast enough.
 
 echo "Installing cinder."
-sudo apt-get install -y cinder-volume
+sudo apt-get install -y cinder-volume python-mysqldb
 
 conf=/etc/cinder/cinder.conf
 echo "Configuring $conf."
@@ -69,19 +69,17 @@ echo "Setting database connection: $database_url."
 iniset_sudo $conf database connection "$database_url"
 
 # Configure [DEFAULT] section.
-iniset_sudo $conf DEFAULT rpc_backend cinder.openstack.common.rpc.impl_kombu
+iniset_sudo $conf DEFAULT rpc_backend rabbit
 iniset_sudo $conf DEFAULT rabbit_host controller-mgmt
-iniset_sudo $conf DEFAULT rabbit_port 5672
-iniset_sudo $conf DEFAULT rabbit_userid guest
 iniset_sudo $conf DEFAULT rabbit_password "$RABBIT_PASSWORD"
+
+iniset_sudo $conf DEFAULT auth_strategy keystone
 
 # Configure [keystone_authtoken] section.
 cinder_admin_user=$(service_to_user_name cinder)
 cinder_admin_password=$(service_to_user_password cinder)
-iniset_sudo $conf keystone_authtoken auth_uri "http://controller-mgmt:5000"
-iniset_sudo $conf keystone_authtoken auth_host controller-mgmt
-iniset_sudo $conf keystone_authtoken auth_port 35357
-iniset_sudo $conf keystone_authtoken auth_protocol http
+iniset_sudo $conf keystone_authtoken auth_uri http://controller-mgmt:5000/v2.0
+iniset_sudo $conf keystone_authtoken identity_uri http://controller-mgmt:35357
 iniset_sudo $conf keystone_authtoken admin_tenant_name "$SERVICE_TENANT_NAME"
 iniset_sudo $conf keystone_authtoken admin_user "$cinder_admin_user"
 iniset_sudo $conf keystone_authtoken admin_password "$cinder_admin_password"
@@ -96,6 +94,8 @@ echo "Restarting cinder service."
 sudo service tgt restart
 sudo service cinder-volume restart
 
+sudo rm -f /var/lib/cinder/cinder.sqlite
+
 #------------------------------------------------------------------------------
 # Verify the Block Storage installation
 # http://docs.openstack.org/juno/install-guide/install/apt/content/cinder-verify.html
@@ -103,21 +103,29 @@ sudo service cinder-volume restart
 
 echo "Verifying Block Storage installation on controller node."
 
-echo "Waiting for cinder to start."
+echo "Sourcing the admin credentials."
 AUTH="source $CONFIG_DIR/admin-openstackrc.sh"
-until node_ssh controller-mgmt "$AUTH; cinder list" >/dev/null 2>&1; do
+
+echo "Waiting for cinder to start."
+until node_ssh controller-mgmt "$AUTH; cinder service-list" >/dev/null 2>&1; do
     sleep 1
 done
 
-echo "cinder create --display-name labsVolume 1"
-node_ssh controller-mgmt "$AUTH; cinder create --display-name labsVolume 1"
+echo "cinder service-list"
+node_ssh controller-mgmt "$AUTH; cinder service-list"
+
+echo "Sourcing the demo credentials."
+AUTH="source $CONFIG_DIR/demo-openstackrc.sh"
+
+echo "cinder create --display-name demo-volume1 1"
+node_ssh controller-mgmt "$AUTH; cinder create --display-name demo-volume1 1"
 
 echo "cinder list"
 # FIXME check Status column (may be creating, available, or error)
 node_ssh controller-mgmt "$AUTH; cinder list"
 
-echo "cinder delete labsVolume"
-node_ssh controller-mgmt "$AUTH; cinder delete labsVolume"
+echo "cinder delete demo-volume1"
+node_ssh controller-mgmt "$AUTH; cinder delete demo-volume1"
 
 echo "cinder list"
 node_ssh controller-mgmt "$AUTH; cinder list"
