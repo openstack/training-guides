@@ -178,6 +178,20 @@
       current development release schedule <link xlink:href=
           "https://wiki.openstack.org/wiki/Releases">here</link>.
       The Release Cycle is made of four major stages:</para>
+  <itemizedlist>
+    <listitem>
+      <para>Planning (Design, Discuss and Target)</para>
+    </listitem>
+    <listitem>
+      <para>Implementation (Milestone iterations)</para>
+    </listitem>
+    <listitem>
+      <para>Pre-release (Release Candidates dance)</para>
+    </listitem>
+    <listitem>
+      <para>Release day</para>
+    </listitem>
+   </itemizedlist>
   <figure>
     <title>Various Projects under OpenStack</title>
     <mediaobject>
