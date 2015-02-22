@@ -26,10 +26,12 @@ Bug status
 - New: The bug was just created
 - Incomplete: The bug is waiting on input from the reporter
 - Confirmed: The bug was reproduced or confirmed as a genuine bug
-- Triaged: The bug comments contain a full analysis on how to properly fix the issue
+- Triaged: The bug comments contain a full analysis on how to properly fix the
+  issue
 - In Progress: Work on the fix is in progress, bug has an assignee
 - Fix Committed: The branch containing the fix was merged into master
-- Fix Released: The fix is included in the milestone-proposed branch, a past milestone or a past release
+- Fix Released: The fix is included in the milestone-proposed branch, a past
+  milestone or a past release
 - Invalid: This is not a bug
 - Opinion: This is a valid issue, but it is the way it should be
 - Won't Fix: This is a valid issue, but we don't intend to fix that
@@ -55,8 +57,10 @@ Bug status
 Bug importance
 ==============
 
-- Critical: Data corruption / complete failure affecting most users, no workaround
-- High: Data corruption / complete failure affecting most users, with workaround
+- Critical: Data corruption / complete failure affecting most users, no
+  workaround
+- High: Data corruption / complete failure affecting most users, with
+  workaround
 - Failure of a significant feature, no workaround
 - Medium: Failure of a significant feature, with workaround
 - Failure of a fringe feature, no workaround
@@ -83,13 +87,18 @@ Bug importance
 Bug tags
 ========
 
-- low-hanging-fruit: Bugs that are easy to fix, ideal for beginners to get familiar with the workflow and to have their first contact with the code in OpenStack development.
+- low-hanging-fruit: Bugs that are easy to fix, ideal for beginners to get
+  familiar with the workflow and to have their first contact with the code in
+  OpenStack development.
 - documentation: Bug is about documentation or has an impact on documentation.
 - i18n: Translations / i18n issues.
-- security: Fix for the bug would make OpenStack more resilient to future security issues.
+- security: Fix for the bug would make OpenStack more resilient to future
+  security issues.
 - ops: Fix for the bug would significantly ease OpenStack operation.
-- SERIES-rc-potential: During the SERIES pre-release period, mark the bug as a potential release-critical blocker
-- SERIES-backport-potential: Mark the bug as a potential backport target to a specific SERIES (grizzly, havana...)
+- SERIES-rc-potential: During the SERIES pre-release period, mark the bug as a
+  potential release-critical blocker
+- SERIES-backport-potential: Mark the bug as a potential backport target to a
+  specific SERIES (grizzly, havana...)
 - Per project tags: https://wiki.openstack.org/wiki/BugTags
 
 ----
@@ -97,8 +106,10 @@ Bug tags
 Bug
 ===
 
-- Assigned To: The person currently working to fix this bug. Must be set by In progress stage.
-- Milestone: The milestone we need to fix the bug for, or the milestone/version it was fixed in.
+- Assigned To: The person currently working to fix this bug. Must be set by
+  In progress stage.
+- Milestone: The milestone we need to fix the bug for, or the
+  milestone/version it was fixed in.
 
 ----
 
@@ -117,7 +128,8 @@ Confirming & prioritizing
 
 - lacking information => Status: Incomplete
 - reproduced the issue => Status: Confirmed
-- core developer or a member of the project bug supervision team => Importance: <Bug impact>
+- core developer or a member of the project bug supervision team =>
+  Importance: <Bug impact>
 
 ----
 

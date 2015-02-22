@@ -1,6 +1,7 @@
 Lego applied to Free Software contributions
 ===========================================
 
+|
 
 ----
 
@@ -37,7 +38,8 @@ Lego town
 
 - Upstream project : a lego town
 - Company deadline : lego exhibition
-- Epic: become a major contributor and demonstrate the company skills during the exhibition
+- Epic: become a major contributor and demonstrate the company skills during
+  the exhibition
 
 ----
 
@@ -93,10 +95,14 @@ Sprint
 Communication
 =============
 
+|
+
 ----
 
 Diplomacy
 =========
+
+|
 
 ----
 

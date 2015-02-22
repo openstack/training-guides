@@ -8,7 +8,9 @@ if [[ ${LANDSLIDE_MISSING} -ne 0 ]]; then
     exit 1
 fi
 
-for presentation in ./associate-guide/*.rst; do
+cd ./associate-guide
+
+for presentation in *.rst; do
     presentation_name=$(basename "${presentation}" .rst)
-    landslide -i -d "./associate-guide/${presentation_name}.html" "${presentation}"
+    landslide -i -d "${presentation_name}.html" "${presentation}"
 done

@@ -36,21 +36,25 @@ Join irc.freenode.net#upstream-university
 #info
 =====
 
-Add an info item to the minutes. People should liberally use this for important things they say, so that they can be logged in the minutes.
+Add an info item to the minutes. People should liberally use this for
+important things they say, so that they can be logged in the minutes.
 
 ----
 
 #action
 =======
 
-Document an action item in the minutes. Include any nicknames in the line, and the item will be assigned to them. (nicknames are case-sensitive)  
+Document an action item in the minutes. Include any nicknames in the line, and
+the item will be assigned to them. (nicknames are case-sensitive)
 
 ----
 
 #help
 =====
 
-Add a "Call for Help" to the minutes. Use this command when you need to recruit someone to do a task. (Counter-intuitively, this doesn't provide help on the bot)
+Add a "Call for Help" to the minutes. Use this command when you need to
+recruit someone to do a task. (Counter-intuitively, this doesn't provide help
+on the bot)
 
 ----
 

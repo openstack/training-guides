@@ -45,7 +45,8 @@ Sign the Individual agreement
 Do you work at a company?
 =========================
 
-- If your contribution is on behalf of a company, have your managers sign the Corporate Contributor License Agreement
+- If your contribution is on behalf of a company, have your managers sign the
+  Corporate Contributor License Agreement
 - http://docs.openstack.org/infra/manual/developers.html#account-setup
 
 ----

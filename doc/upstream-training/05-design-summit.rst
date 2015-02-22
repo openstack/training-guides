@@ -1,12 +1,15 @@
 OpenStack Design Summit
 =======================
 
+|
+
 ----
 
 Design Summit
 =============
 
-Where developers meet face to face to finalize planning for the next release cycle.
+Where developers meet face to face to finalize planning for the next release
+cycle.
 
 .. image:: ./_assets/05-01-design-summit.png
 

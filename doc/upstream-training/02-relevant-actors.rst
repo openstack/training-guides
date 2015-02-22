@@ -58,5 +58,5 @@ Your management
 Exercise
 ========
 
-List three companies and individuals that have been the most influential in the making of the module you plan to contribute to, for each metric value.
-
+List three companies and individuals that have been the most influential in
+the making of the module you plan to contribute to, for each metric value.

@@ -154,7 +154,7 @@ Local and upstream
 Good workflow
 =============
 
-.. image:: ./_assets/19-01-goodworkflow.png 
+.. image:: ./_assets/19-01-goodworkflow.png
 
 ----
 

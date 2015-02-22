@@ -1,6 +1,8 @@
 OpenStack Program Ecosystem
 ===========================
 
+|
+
 ----
 
 Lifecycle of a new Program
@@ -17,7 +19,7 @@ External
 .. image:: ./_assets/04-02-lifecycle.png
 
 - Idea
-- Gather a community 
+- Gather a community
 - Alternate implementations
 - Stackforge
 - File an OpenStack incubation request
@@ -30,7 +32,7 @@ Incubated
 .. image:: ./_assets/04-03-lifecycle.png
 
 - Fill the gap with graduation requirements
-- Align with the OpenStack way 
+- Align with the OpenStack way
 - Two development milestones
 - Migrate to the openstack/* namespace
 - Graduation review

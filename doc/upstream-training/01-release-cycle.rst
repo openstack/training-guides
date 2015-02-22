@@ -13,6 +13,7 @@ Planning : Design
 =================
 
 .. class:: colleft
+
 - Planning stage is at the start of a cycle
 - take a step back
 - focus on what we want to do for the next one
@@ -26,6 +27,7 @@ Planning : Discuss
 ==================
 
 .. class:: colleft
+
 - With our peers
 - feedback and comments
 - create the corresponding blueprint
@@ -40,6 +42,7 @@ Planning : Target
 =================
 
 .. class:: colleft
+
 - file new blueprints and/or specs
 - set a target milestone
 - when in the cycle they intend to complete it
@@ -54,6 +57,7 @@ Implementation : Milestone
 ==========================
 
 .. class:: colleft
+
 - pushed to our Gerrit review
 - weeks before the milestone publication date
 - milestone-proposed branch
@@ -68,6 +72,7 @@ Implementation : freezes
 ========================
 
 .. class:: colleft
+
 - Feature freeze
 
   - new features will not be accepted, only fixes
@@ -92,6 +97,7 @@ Release Candidates
 ==================
 
 .. class:: colleft
+
 - After the last milestone
 - file bugs about everything you find
 - prioritize bugs / bug triage
@@ -107,9 +113,11 @@ Release candidate 1
 ===================
 
 .. class:: colleft
+
 - Between the last milestone and the RC1
 - stop adding features and concentrate on bug fixes
-- Once all the release-critical bugs are fixed, we produce the first - - - release candidate for that project (RC1)
+- Once all the release-critical bugs are fixed, we produce the first release
+  candidate for that project (RC1)
 - used as-is as the final release
 
 .. class:: colright
@@ -121,6 +129,7 @@ Other release candidates
 ========================
 
 .. class:: colleft
+
 - regressions and integration issues
 - new release-critical bugs
 - (RC2), with bugs targeted to it
@@ -136,6 +145,7 @@ Release day
 ===========
 
 .. class:: colleft
+
 - last published release candidate
 - published collectively as the OpenStack release
 
@@ -148,4 +158,5 @@ Exercise
 ========
 
 
-Based on the Icehouse release schedule, find the URL of a document or a patch that belongs to each of the steps.
+Based on the Icehouse release schedule, find the URL of a document or a patch
+that belongs to each of the steps.

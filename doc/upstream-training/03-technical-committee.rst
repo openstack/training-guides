@@ -1,6 +1,8 @@
 OpenStack Technical Committee
 =============================
 
+|
+
 -----
 
 Technical Committee
@@ -8,7 +10,11 @@ Technical Committee
 
 The role of the Technical Committee
 
-The Technical Committee ("TC") is tasked with providing technical leadership over all the OpenStack projects. It enforces OpenStack ideals (Openness, Transparency, Commonality, Integration, Quality), decides on issues affecting multiple programs, forms an ultimate appeals board for technical decisions, and generally has oversight over the OpenStack project entirely.
+The Technical Committee ("TC") is tasked with providing technical leadership
+over all the OpenStack projects. It enforces OpenStack ideals (Openness,
+Transparency, Commonality, Integration, Quality), decides on issues affecting
+multiple programs, forms an ultimate appeals board for technical decisions,
+and generally has oversight over the OpenStack project entirely.
 
 .. image:: ./_assets/03-01-TC.png
 
@@ -17,7 +23,12 @@ The Technical Committee ("TC") is tasked with providing technical leadership ove
 OpenStack Programs
 ==================
 
-OpenStack "Programs" are efforts which are essential to the completion of the OpenStack project mission. This mission is to produce the ubiquitous Open Source cloud computing platform that will meet the needs of public and private clouds regardless of size, by being simple to implement and massively scalable. Programs can create any code repository and produce any deliverable they deem necessary to achieve their goals.
+OpenStack "Programs" are efforts which are essential to the completion of the
+OpenStack project mission. This mission is to produce the ubiquitous Open
+Source cloud computing platform that will meet the needs of public and private
+clouds regardless of size, by being simple to implement and massively
+scalable. Programs can create any code repository and produce any deliverable
+they deem necessary to achieve their goals.
 
 - The official list of programs is in the `governance` repository
    - http://git.openstack.org/cgit/openstack/governance/tree/reference/programs.yaml
@@ -70,8 +81,9 @@ Meetings
 Exercise
 ========
 
-- Exercise 
- - read tc.2014-04-01-20.03.log.html and briefly comment on keystone document
+- Exercise
+
+  - read tc.2014-04-01-20.03.log.html and briefly comment on keystone document
 
 ----
 
@@ -98,11 +110,16 @@ Active Technical Contributor (ATC)
 ======================================
 
 
-The TC seats are elected by the Active Technical Contributors ("ATC"), which are a subset of the Foundation Individual Members. Individual Members who committed a change to a repository under any of the official OpenStack programs (as defined above) over the last two 6-month release cycles are automatically considered an ATC.
+The TC seats are elected by the Active Technical Contributors ("ATC"), which
+are a subset of the Foundation Individual Members. Individual Members who
+committed a change to a repository under any of the official OpenStack
+programs (as defined above) over the last two 6-month release cycles are
+automatically considered an ATC.
 
 - TC seats are elected by ATC
 - Same as APC
-- Bug triagers, technical documentation writers, etc can exceptionally apply for ATC
+- Bug triagers, technical documentation writers, etc can exceptionally apply
+  for ATC
 
 ----
 
