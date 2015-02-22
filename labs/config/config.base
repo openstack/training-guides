@@ -1,0 +1,4 @@
+# Base disk VM configuration. Used by osbash/wbatch (host and guest).
+
+# Port forwarding
+VM_SSH_PORT=2229

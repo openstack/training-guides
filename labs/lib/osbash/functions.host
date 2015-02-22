@@ -38,6 +38,16 @@ function get_base_disk_path {
     echo "$DISK_DIR/$(get_base_disk_name)"
 }
 
+# From DISTRO string (e.g., ubuntu-14.04-server-amd64), get first component
+function get_distro_name {
+    # Match up to first dash
+    local re='([^-]*)'
+
+    if [[ $DISTRO =~ $re ]]; then
+        echo "${BASH_REMATCH[1]}"
+    fi
+}
+
 #-------------------------------------------------------------------------------
 # ssh
 #-------------------------------------------------------------------------------
@@ -150,7 +160,13 @@ function ssh_exec_script {
 
 # Wait for sshd, prepare autostart dirs, and execute autostart scripts on VM
 function ssh_process_autostart {
-    local ssh_port=$1
+    # Run this function in sub-shell to protect our caller's environment
+    # (which might be _our_ enviroment if we get called again)
+    (
+
+    source "$CONFIG_DIR/config.$vm_name"
+
+    local ssh_port=$VM_SSH_PORT
 
     wait_for_ssh "$ssh_port"
     vm_ssh "$ssh_port" "rm -rf lib config autostart"
@@ -162,6 +178,8 @@ function ssh_process_autostart {
         rm -f "$script_path" >&2
     done
     touch "$STATUS_DIR/done"
+
+    )
 }
 
 #-------------------------------------------------------------------------------
@@ -317,9 +335,8 @@ function command_from_config {
             # Boot with queued autostart files now, wait for end of scripts
             # processing
             get_cmd_options $args
-            echo >&2 "VM_UI=$vm_ui _vbox_boot_with_autostart $vm_name " \
-                        "$VM_SSH_PORT"
-            VM_UI=$vm_ui _vbox_boot_with_autostart "$vm_name" "$VM_SSH_PORT"
+            echo >&2 "VM_UI=$vm_ui _vbox_boot_with_autostart $vm_name"
+            VM_UI=$vm_ui _vbox_boot_with_autostart "$vm_name"
             ;;
         snapshot)
             # Format: snapshot [-n <node_name>] <snapshot_name>
@@ -341,7 +358,7 @@ function command_from_config {
             local shot_name=$args
             echo >&2 snapshot_cycle "$vm_name" "$shot_name"
             _autostart_queue "osbash/shutdown.sh"
-            _vbox_boot_with_autostart "$vm_name" "$VM_SSH_PORT"
+            _vbox_boot_with_autostart "$vm_name"
             vm_wait_for_shutdown "$vm_name"
             vm_snapshot "$vm_name" "$shot_name"
             ;;
