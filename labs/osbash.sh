@@ -23,20 +23,22 @@ source "$OSBASH_LIB_DIR/virtualbox.install_base"
 function usage {
     echo "Usage: $0 {-b|-w} [-g GUI] [-n] {basedisk|NODE [NODE..]}"
     echo "       $0 [-e EXPORT] [-n] NODE [NODE..]"
+    # Don't advertise export until it is working properly
+    #echo "       $0 [-e EXPORT] [-n] NODE [NODE..]"
     echo ""
     echo "-h        Help"
     echo "-n        Print configuration status and exit"
     echo "-b        Build basedisk (if necessary) and node VMs (if any)"
     echo "-w        Create Windows batch files"
     echo "-g GUI    GUI type during build"
-    echo "-e EXPORT Export node VMs"
+    #echo "-e EXPORT Export node VMs"
     echo ""
     echo "basedisk  Build configured basedisk"
     echo "NODE      Build controller, compute, network, cluster [all three]"
     echo "          (builds basedisk if necessary)"
     echo "GUI       gui, sdl, or headless"
     echo "          (choose GUI type for VirtualBox)"
-    echo "EXPORT    ova (OVA package file) or dir (VM clone directory)"
+    #echo "EXPORT    ova (OVA package file) or dir (VM clone directory)"
     exit
 }
 
