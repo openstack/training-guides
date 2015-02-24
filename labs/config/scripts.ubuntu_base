@@ -2,4 +2,4 @@
 cmd queue ubuntu/apt_init.sh
 cmd queue ubuntu/apt_upgrade.sh
 cmd queue ubuntu/apt_pre-download.sh
-cmd queue osbash/enable_vagrant_ssh_keys.sh
+cmd queue osbash/enable_osbash_ssh_keys.sh

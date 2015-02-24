@@ -27,6 +27,6 @@ echo "Shutting down the controller node."
 ssh \
     -o "UserKnownHostsFile /dev/null" \
     -o "StrictHostKeyChecking no" \
-    -i "$HOME/.ssh/vagrant" \
+    -i "$HOME/.ssh/osbash_key" \
     controller-mgmt \
     sudo /sbin/shutdown -P now
