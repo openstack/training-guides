@@ -84,9 +84,9 @@ netmask 255.255.255.0
 </programlisting>
     </listitem>
     <listitem>
-      <para>After saving the interfaces file, restart the networking
-        service:</para>
-      <screen><prompt>#</prompt> <userinput>service networking restart</userinput></screen>
+      <para>After saving the interfaces file, bring the
+        interfaces up:</para>
+      <screen><prompt>#</prompt> <userinput>ifup eth1;ifup eth2</userinput></screen>
       <screen><prompt>#</prompt> <userinput>ifconfig</userinput></screen>
     </listitem>
     <listitem>
