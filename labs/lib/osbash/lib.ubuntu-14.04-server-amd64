@@ -10,9 +10,9 @@
 readonly ISO_URL=http://releases.ubuntu.com/14.04/ubuntu-14.04.1-server-amd64.iso
 readonly ISO_MD5=ca2531b8cd79ea5b778ede3a524779b9
 
-readonly _PS_ssh=http://git.openstack.org/cgit/openstack/training-guides/plain/labs/lib/osbash/netboot/preseed-ssh.cfg
+readonly _PS_ssh=http://git.openstack.org/cgit/openstack/training-guides/plain/labs/lib/osbash/netboot/preseed-ssh-v2.cfg
 readonly _PS_vbadd=http://git.openstack.org/cgit/openstack/training-guides/plain/labs/lib/osbash/netboot/preseed-vbadd.cfg
-readonly _PS_all=http://git.openstack.org/cgit/openstack/training-guides/plain/labs/lib/osbash/netboot/preseed-all.cfg
+readonly _PS_all=http://git.openstack.org/cgit/openstack/training-guides/plain/labs/lib/osbash/netboot/preseed-all-v2.cfg
 
 readonly _BOOT_ARGS="/install/vmlinuz
  noapic
