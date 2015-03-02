@@ -52,7 +52,7 @@
                       <para><emphasis role="bold">Getting Accounts and Tools:</emphasis> We can't do
                         this without operators and developers using and creating the content. Anyone can
                         contribute content. You will need the tools to get started. Go to the <link
-                          xlink:href="operator-getting-started-lab.html#getting-tools-and-accounts"
+                          xlink:href="http://docs.openstack.org/icehouse/training-guides/content/operator-getting-started-lab.html#getting-tools-and-accounts"
                           >Getting Tools and Accounts</link> page.</para>
                     </listitem>
                     <listitem>
@@ -67,7 +67,7 @@
                       <para><emphasis role="bold">Create the Content:</emphasis> Each card / user story
                         from the KanBan story board will represent a separate chunk of content that you can
                         add to the openstack-manuals repository, openstack-training sub-project.
-                        <link xlink:href="operator-getting-started-lab.html#operator-add-training-content">
+                        <link xlink:href="http://docs.openstack.org/icehouse/training-guides/content/operator-getting-started-lab.html#operator-add-training-content">
                             More details on creating training content here.</link></para>
                     </listitem>
                   </itemizedlist>
@@ -75,7 +75,7 @@
               </formalpara>
             <note>
               <para>Here are more details on committing changes to OpenStack <link
-                    xlink:href="operator-getting-started-lab.html#submit-doc-bug">fixing a documentation bug</link>
+                    xlink:href="http://docs.openstack.org/icehouse/training-guides/content/operator-getting-started-lab.html#submit-doc-bug">fixing a documentation bug</link>
                     , <link xlink:href="http://docs.openstack.org/infra/manual/developers.html#development-workflow">OpenStack Gerrit
                     Workflow</link>, <link xlink:href="https://wiki.openstack.org/wiki/Documentation/HowTo">OpenStack
                     Documentation HowTo</link> and , <link xlink:href="http://git-scm.com/doc">Git Documentation</link></para>
