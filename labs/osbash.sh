@@ -21,8 +21,7 @@ source "$OSBASH_LIB_DIR/virtualbox.functions"
 source "$OSBASH_LIB_DIR/virtualbox.install_base"
 
 function usage {
-    echo "Usage: $0 {-b|-w} [-g GUI] [-n] {basedisk|NODE [NODE..]}"
-    echo "       $0 [-e EXPORT] [-n] NODE [NODE..]"
+    echo "Usage: $0 {-b|-w} [-g GUI] [-n] {basedisk|cluster}"
     # Don't advertise export until it is working properly
     #echo "       $0 [-e EXPORT] [-n] NODE [NODE..]"
     echo ""
@@ -34,8 +33,9 @@ function usage {
     #echo "-e EXPORT Export node VMs"
     echo ""
     echo "basedisk  Build configured basedisk"
-    echo "NODE      Build controller, compute, network, cluster [all three]"
-    echo "          (builds basedisk if necessary)"
+    echo "cluster   Build OpenStack cluster [all nodes]" \
+                "(and basedisk if necessary)"
+    echo
     echo "GUI       gui, sdl, or headless"
     echo "          (choose GUI type for VirtualBox)"
     #echo "EXPORT    ova (OVA package file) or dir (VM clone directory)"
@@ -47,7 +47,7 @@ function print_config {
         echo "Target is base disk: $BASE_DISK"
     else
         echo "Base disk: $BASE_DISK"
-        echo "Nodes: $nodes"
+        echo "Distribution name: $(get_distro_name "$DISTRO")"
     fi
 
     if [ -n "${EXPORT_OVA:-}" ]; then
@@ -121,16 +121,8 @@ shift $(( OPTIND - 1 ));
 if [ $# -eq 0 ]; then
     # No argument given
     usage
-elif [ "$1" = basedisk ]; then
-    # Building the base disk only
-    CMD=$1
 else
-    CMD=nodes
-    if [ "$1" = cluster ]; then
-        nodes="controller compute network"
-    else
-        nodes="$@"
-    fi
+    CMD=$1
 fi
 
 # Install over ssh by default
@@ -213,10 +205,8 @@ MGMT_NET_IF=$(create_network "$MGMT_NET")
 DATA_NET_IF=$(create_network "$DATA_NET")
 API_NET_IF=$(create_network "$API_NET")
 #-------------------------------------------------------------------------------
-source "$OSBASH_LIB_DIR/virtualbox.install_node"
-for node in $nodes; do
-    vm_build_node "$node"
-done
+source "$OSBASH_LIB_DIR/virtualbox.install_nodes"
+vm_build_nodes "$CMD"
 #-------------------------------------------------------------------------------
 ENDTIME=$(date +%s)
 echo >&2 "$(date) osbash finished successfully"

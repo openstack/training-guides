@@ -24,13 +24,12 @@ function _vbox_configure_ifs {
 # Boot node VM; wait until autostart files are processed and VM is shut down
 function _vbox_boot_with_autostart {
     local vm_name=$1
-    local ssh_port=$2
 
     vbox_boot "$vm_name"
 
     # Wait for ssh connection and execute scripts in autostart directory
     # (for wbatch, osbashauto does the processing instead)
-    ${WBATCH:+:} ssh_process_autostart "$ssh_port" &
+    ${WBATCH:+:} ssh_process_autostart "$vm_name" &
 
     wait_for_autofiles
     echo >&2 "VM \"$vm_name\": autostart files executed"
@@ -38,6 +37,11 @@ function _vbox_boot_with_autostart {
 
 # Create a new node VM and run basic configuration scripts
 function vm_init_node {
+    # XXX Run this function in sub-shell to protect our caller's environment
+    #     (which might be _our_ enviroment if we get called again)
+    (
+    source "$CONFIG_DIR/config.$vm_name"
+
     vm_name=$1
 
     vm_create "$vm_name"
@@ -62,25 +66,21 @@ function vm_init_node {
     vm_attach_disk_multi "$vm_name" "$BASE_DISK"
     #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     # Rename to pass the node name to the script
-    autostart_and_rename osbash init_xxx_node.sh "init_${NODE_NAME}_node.sh"
-}
-
-function vm_build_node {
-    # XXX Run this function in sub-shell to protect our caller's environment
-    #     (which might be _our_ enviroment if we get called again)
-    (
-
-    NODE_NAME=$1
-    source "$CONFIG_DIR/config.$NODE_NAME"
-
-    ${WBATCH:-:} wbatch_begin_node "$NODE_NAME"
-    #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-    autostart_reset
-    autostart_from_config "scripts.$NODE_NAME"
-    #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-    ${WBATCH:-:} wbatch_end_file
+    autostart_and_rename osbash init_xxx_node.sh "init_${vm_name}_node.sh"
 
     )
+}
+
+function vm_build_nodes {
+    CONFIG_NAME=$(get_distro_name "$DISTRO")_$1
+    echo "Configuration file: $CONFIG_NAME"
+
+    ${WBATCH:-:} wbatch_begin_node "$CONFIG_NAME"
+    #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    autostart_reset
+    autostart_from_config "scripts.$CONFIG_NAME"
+    #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    ${WBATCH:-:} wbatch_end_file
 }
 
 # vim: set ai ts=4 sw=4 et ft=sh:

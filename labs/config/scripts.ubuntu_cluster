@@ -1,0 +1,82 @@
+#==============================================================================
+# Scripts for controller node
+cmd init_node -n controller
+
+cmd queue etc_hosts.sh
+cmd queue osbash/enable_vagrant_ssh_keys.sh
+cmd snapshot_cycle -n controller controller_node_init
+
+cmd queue ubuntu/apt_install_mysql.sh
+cmd queue ubuntu/install_rabbitmq.sh
+cmd snapshot_cycle -n controller pre-openstack_installed
+
+cmd queue ubuntu/setup_keystone.sh
+cmd snapshot_cycle -n controller keystone_installed
+
+cmd queue ubuntu/setup_glance.sh
+cmd snapshot_cycle -n controller glance_installed
+
+cmd queue ubuntu/setup_nova_controller.sh
+cmd snapshot_cycle -n controller nova-controller_installed
+
+cmd queue ubuntu/setup_neutron_controller.sh
+cmd snapshot_cycle -n controller neutron-controller_installed
+
+cmd queue ubuntu/setup_cinder_controller.sh
+cmd snapshot_cycle -n controller cinder_installed
+
+cmd queue ubuntu/setup_horizon.sh
+cmd snapshot_cycle -n controller horizon_installed
+
+cmd queue config_external_network.sh
+cmd queue config_tenant_network.sh
+cmd snapshot_cycle -n controller openstack_networks_configured
+
+cmd queue setup_lbaas_controller.sh
+cmd snapshot_cycle -n controller controller_node_installed
+
+cmd boot -n controller
+#==============================================================================
+# Scripts for compute node
+cmd init_node -n compute
+
+cmd queue etc_hosts.sh
+cmd queue osbash/enable_vagrant_ssh_keys.sh
+cmd snapshot_cycle -n compute compute_node_init
+
+cmd queue ubuntu/setup_nova_compute.sh
+cmd snapshot_cycle -n compute nova-compute_installed
+
+cmd queue ubuntu/setup_neutron_compute.sh
+cmd queue ubuntu/setup_cinder_volumes.sh
+cmd snapshot_cycle -n compute compute_node_installed
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Take snapshot of database changes on controller VM, too
+cmd queue shutdown_controller.sh
+cmd boot -n compute
+
+cmd wait_for_shutdown -n controller
+cmd snapshot -n controller controller_-_compute_node_installed
+cmd boot -n controller
+#==============================================================================
+# Scripts for network node
+cmd init_node -n network
+
+cmd queue etc_hosts.sh
+cmd queue osbash/enable_vagrant_ssh_keys.sh
+cmd snapshot_cycle -n network network_node_init
+
+cmd queue ubuntu/setup_neutron_network.sh
+cmd snapshot_cycle -n network neutron_configured
+
+cmd queue ubuntu/setup_lbaas_network.sh
+cmd snapshot_cycle -n network network_node_installed
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# Take snapshot of database changes on controller VM, too
+cmd queue shutdown_controller.sh
+cmd boot -n network
+
+cmd wait_for_shutdown -n controller
+cmd snapshot -n controller controller_-_network_node_installed
+cmd boot -n controller
+#==============================================================================
