@@ -397,7 +397,14 @@ function autostart_from_config {
             # Skip empty lines and lines that are commented out
             continue
         elif [ "$field_1" == "cmd" ]; then
-            command_from_config $field_2
+            if [ -n "${JUMP_SNAPSHOT:-""}" ]; then
+                if [[ $field_2 =~ ^snapshot.*${JUMP_SNAPSHOT} ]]; then
+                    echo >&2 "Skipped forward to snapshot $JUMP_SNAPSHOT."
+                    unset JUMP_SNAPSHOT
+                fi
+            else
+                command_from_config $field_2
+            fi
         else
             # Syntax error
             echo -n >&2 "ERROR in $config_file: '$field_1"
