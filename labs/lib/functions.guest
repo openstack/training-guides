@@ -377,7 +377,7 @@ function no_chk_ssh {
 
 # ssh from one node VM to another node in the cluster
 function node_ssh {
-    no_chk_ssh -i "$HOME/.ssh/vagrant" "$@"
+    no_chk_ssh -i "$HOME/.ssh/osbash_key" "$@"
 }
 
 #-------------------------------------------------------------------------------

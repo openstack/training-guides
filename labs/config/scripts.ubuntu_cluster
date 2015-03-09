@@ -3,7 +3,7 @@
 cmd init_node -n controller
 
 cmd queue etc_hosts.sh
-cmd queue osbash/enable_vagrant_ssh_keys.sh
+cmd queue osbash/enable_osbash_ssh_keys.sh
 cmd snapshot_cycle -n controller controller_node_init
 
 cmd queue ubuntu/apt_install_mysql.sh
@@ -41,7 +41,7 @@ cmd boot -n controller
 cmd init_node -n compute
 
 cmd queue etc_hosts.sh
-cmd queue osbash/enable_vagrant_ssh_keys.sh
+cmd queue osbash/enable_osbash_ssh_keys.sh
 cmd snapshot_cycle -n compute compute_node_init
 
 cmd queue ubuntu/setup_nova_compute.sh
@@ -63,7 +63,7 @@ cmd boot -n controller
 cmd init_node -n network
 
 cmd queue etc_hosts.sh
-cmd queue osbash/enable_vagrant_ssh_keys.sh
+cmd queue osbash/enable_osbash_ssh_keys.sh
 cmd snapshot_cycle -n network network_node_init
 
 cmd queue ubuntu/setup_neutron_network.sh

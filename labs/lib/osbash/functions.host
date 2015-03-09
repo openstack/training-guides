@@ -52,20 +52,15 @@ function get_distro_name {
 # ssh
 #-------------------------------------------------------------------------------
 
-# Download Vagrant insecure private key if necessary
-function check_vagrant_private_key {
-    local key_name="vagrant"
-    local key_url=https://raw.githubusercontent.com/mitchellh/vagrant/master/keys/$key_name
-    local vagrant_key_dir=$LIB_DIR/vagrant-ssh-keys
-    local vagrant_key_path=$vagrant_key_dir/$key_name
+# Check permission for osbash insecure private key
+function check_osbash_private_key {
+    local key_name="osbash_key"
+    local osbash_key_dir=$LIB_DIR/osbash-ssh-keys
+    local osbash_key_path=$osbash_key_dir/$key_name
 
-    if [ ! -f "$vagrant_key_path" ]; then
-        download "$key_url" "$vagrant_key_dir" $key_name
-    fi
-
-    if ! ls -l "$vagrant_key_path"|grep -q "^-r--------"; then
-        echo "Adjusting permissions for $vagrant_key_path"
-        chmod 400 "$vagrant_key_path"
+    if ! ls -l "$osbash_key_path"|grep -q "^-r--------"; then
+        echo "Adjusting permissions for $osbash_key_path"
+        chmod 400 "$osbash_key_path"
     fi
 }
 
@@ -79,7 +74,7 @@ function vm_scp_to_vm {
     local ssh_port=$1
     shift
 
-    check_vagrant_private_key
+    check_osbash_private_key
 
     while (($#)); do
         local src_path=$1
@@ -88,7 +83,7 @@ function vm_scp_to_vm {
         local target_dir=$(dirname "$target_path")
         vm_ssh "$ssh_port" "mkdir -p $target_dir"
         scp -q -r \
-            -i "$LIB_DIR/vagrant-ssh-keys/vagrant" \
+            -i "$LIB_DIR/osbash-ssh-keys/osbash_key" \
             -o "UserKnownHostsFile /dev/null" \
             -o "StrictHostKeyChecking no" \
             -P "$ssh_port" \
@@ -101,13 +96,13 @@ function vm_ssh {
     local ssh_port=$1
     shift
 
-    check_vagrant_private_key
+    check_osbash_private_key
 
     # Some operating systems (e.g., Mac OS X) export locale settings to the
     # target that cause some Python clients to fail. Override with a standard
     # setting (LC_ALL=C).
     LC_ALL=C ssh -q \
-        -i "$LIB_DIR/vagrant-ssh-keys/vagrant" \
+        -i "$LIB_DIR/osbash-ssh-keys/osbash_key" \
         -o "UserKnownHostsFile /dev/null" \
         -o "StrictHostKeyChecking no" \
         -p "$ssh_port" \
