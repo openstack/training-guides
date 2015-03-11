@@ -19,9 +19,10 @@ source "$OSBASH_LIB_DIR/lib.$DISTRO"
 source "$OSBASH_LIB_DIR/functions.host"
 source "$OSBASH_LIB_DIR/virtualbox.functions"
 source "$OSBASH_LIB_DIR/virtualbox.install_base"
+source "$LIB_DIR/osbash/lib.color"
 
 function usage {
-    echo "Usage: $0 {-b|-w} [-g GUI] [-n] {basedisk|cluster}"
+    echo "Usage: $0 {-b|-w} [-g GUI] [--no-color] [-n] {basedisk|NODE [NODE..]}"
     # Don't advertise export until it is working properly
     #echo "       $0 [-e EXPORT] [-n] NODE [NODE..]"
     echo ""
@@ -31,6 +32,7 @@ function usage {
     echo "-w        Create Windows batch files"
     echo "-g GUI    GUI type during build"
     #echo "-e EXPORT Export node VMs"
+    echo "--no-color  Disables colors during build"
     echo ""
     echo "basedisk  Build configured basedisk"
     echo "cluster   Build OpenStack cluster [all nodes]" \
@@ -44,10 +46,10 @@ function usage {
 
 function print_config {
     if [ "$CMD" = "basedisk" ]; then
-        echo "Target is base disk: $BASE_DISK"
+        echo -e "${CInfo:-}Target is base disk:${CData:-} $BASE_DISK${CReset:-}"
     else
-        echo "Base disk: $BASE_DISK"
-        echo "Distribution name: $(get_distro_name "$DISTRO")"
+        echo -e "${CInfo:-}Base disk:${CData:-} $BASE_DISK${CReset:-}"
+        echo -e "${CInfo:-}Distribution name: ${CData:-} $(get_distro_name "$DISTRO")${CReset:-}"
     fi
 
     if [ -n "${EXPORT_OVA:-}" ]; then
@@ -55,23 +57,23 @@ function print_config {
     elif [ -n "${EXPORT_VM_DIR:-}" ]; then
         echo "Exporting to directory: ${EXPORT_VM_DIR}"
     else
-        echo -n "Creating Windows batch scripts: "
-        ${WBATCH:-:} echo "yes"
-        ${WBATCH:+:} echo "no"
+        echo -e -n "${CInfo:-}Creating Windows batch scripts:${CReset:-} "
+        ${WBATCH:-:} echo -e "${CData:-}yes${CReset:-}"
+        ${WBATCH:+:} echo -e "${CData:-}no${CReset:-}"
 
-        echo -n "Creating $CMD on this machine: "
-        ${OSBASH:-:} echo "yes"
-        ${OSBASH:+:} echo "no"
+        echo -e -n "${CInfo:-}Creating $CMD on this machine:${CReset:-} "
+        ${OSBASH:-:} echo -e "${CData:-}yes${CReset:-}"
+        ${OSBASH:+:} echo -e "${CData:-}no${CReset:-}"
 
-        echo "VM access method: $VM_ACCESS"
+        echo -e "${CInfo:-}VM access method:${CData:-} $VM_ACCESS${CReset:-}"
 
         # GUI is the VirtualBox default
-        echo "GUI type: ${VM_UI:-gui}"
+        echo -e "${CInfo:-}GUI type:${CData:-} ${VM_UI:-gui}${CReset:-}"
     fi
 
 }
 
-while getopts :be:g:hnw opt; do
+while getopts :be:g:-:hnw opt; do
     case $opt in
         e)
             if [ "$OPTARG" = ova ]; then
@@ -79,7 +81,7 @@ while getopts :be:g:hnw opt; do
             elif [ "$OPTARG" = dir ]; then
                 EXPORT_VM_DIR=$IMG_DIR/oslabs-$DISTRO
             else
-                echo "Error: -e argument must be ova or dir"
+                echo -e "${CError:-}Error: -e argument must be ova or dir${CReset:-}"
                 exit
             fi
             OSBASH=exec_cmd
@@ -91,9 +93,21 @@ while getopts :be:g:hnw opt; do
             if [[ "$OPTARG" =~ (headless|gui|sdl) ]]; then
                 VM_UI=$OPTARG
             else
-                echo "Error: -g argument must be gui, sdl, or headless"
+                echo -e "${CError:-}Error: -g argument must be gui, sdl, or headless${CReset:-}"
                 exit
             fi
+            ;;
+        -)
+            case $OPTARG in
+                no-color)
+                    unset CError CStatus CInfo CProcess CData CMissing CReset
+                    ;;
+                *)
+                    echo -e "${CError:-}Error: invalid option -$OPTARG${CReset:-}"
+                    echo
+                    usage
+                    ;;
+            esac
             ;;
         h)
             usage
@@ -105,10 +119,10 @@ while getopts :be:g:hnw opt; do
             source "$LIB_DIR/wbatch/batch_for_windows"
             ;;
         :)
-            echo "Error: -$OPTARG needs argument"
+            echo -e "${CError:-}Error: -$OPTARG needs argument${CReset:-}"
             ;;
         ?)
-            echo "Error: invalid option -$OPTARG"
+            echo -e "${CError:-}Error: invalid option -$OPTARG${CReset:-}"
             echo
             usage
             ;;
@@ -152,12 +166,12 @@ fi
 
 if [ -z "${OSBASH:-}" -a -z "${WBATCH:-}" ]; then
     echo
-    echo "No -b, -w, or -e option given. Exiting."
+    echo -e "${CMissing:-}No -b, -w, or -e option given. Exiting.${CReset:-}"
     exit
 fi
 
 STARTTIME=$(date +%s)
-echo >&2 "$(date) osbash starting"
+echo -e >&2 "${CStatus:-} $(date) osbash starting ${CReset:-}"
 
 clean_dir "$LOG_DIR"
 
@@ -175,10 +189,10 @@ function cleanup_base_disk {
                 echo >&2 "Unregistering old base disk."
                 disk_unregister "$BASE_DISK"
             fi
-            echo >&2 "Removing old base disk."
+            echo -e >&2 "${CStatus:-}Removing old base disk.${CReset:-}"
             rm -f "$BASE_DISK"
         else
-            echo >&2 "Nothing to do. Exiting."
+            echo -e >&2 "${CMissing:-}Nothing to do. Exiting.${CReset:-}"
             exit
         fi
     fi
@@ -209,5 +223,5 @@ source "$OSBASH_LIB_DIR/virtualbox.install_nodes"
 vm_build_nodes "$CMD"
 #-------------------------------------------------------------------------------
 ENDTIME=$(date +%s)
-echo >&2 "$(date) osbash finished successfully"
-echo "osbash completed in $(($ENDTIME - $STARTTIME)) seconds."
+echo -e >&2 "${CStatus:-}$(date) osbash finished successfully${CReset:-}"
+echo "${CStatus:-}osbash completed in $(($ENDTIME - $STARTTIME)) seconds.${CReset:-}"
