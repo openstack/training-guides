@@ -15,17 +15,17 @@ readonly _PS_vbadd=http://git.openstack.org/cgit/openstack/training-guides/plain
 readonly _PS_all=http://git.openstack.org/cgit/openstack/training-guides/plain/labs/lib/osbash/netboot/preseed-all-v2.cfg
 
 readonly _BOOT_ARGS="/install/vmlinuz
- noapic
- preseed/url=%s
- debian-installer=en_US
- auto=true
- locale=en_US
- hostname=osbash
- fb=false
- debconf/frontend=noninteractive
- keyboard-configuration/modelcode=SKIP
- initrd=/install/initrd.gz
- console-setup/ask_detect=false"
+    noapic
+    preseed/url=%s
+    debian-installer=en_US
+    auto=true
+    locale=en_US
+    hostname=osbash
+    fb=false
+    debconf/frontend=noninteractive
+    keyboard-configuration/modelcode=SKIP
+    initrd=/install/initrd.gz
+    console-setup/ask_detect=false"
 
 function vbox_distro_start_installer {
     local vm_name=$1

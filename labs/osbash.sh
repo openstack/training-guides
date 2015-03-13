@@ -24,7 +24,7 @@ source "$LIB_DIR/osbash/lib.color"
 function usage {
     echo "Usage: $0 {-b|-w} [-g GUI] [--no-color] [-n] {basedisk|NODE [NODE..]}"
     # Don't advertise export until it is working properly
-    #echo "       $0 [-e EXPORT] [-n] NODE [NODE..]"
+    # echo "       $0 [-e EXPORT] [-n] NODE [NODE..]"
     echo ""
     echo "-h        Help"
     echo "-n        Print configuration status and exit"

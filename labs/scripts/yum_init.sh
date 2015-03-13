@@ -13,7 +13,9 @@ exec_logfile
 
 function set_yum_proxy {
     local YUM_FILE=/etc/yum.conf
-    if [ -z "${VM_PROXY-}" ]; then return 0; fi
+    if [ -z "${VM_PROXY-}" ]; then
+        return 0;
+    fi
     echo "proxy=${VM_PROXY}" | sudo tee -a $YUM_FILE
 }
 

@@ -37,5 +37,5 @@ echo "Attaching the router to the demo tenant subnet."
 neutron router-interface-add demo-router demo-subnet
 
 echo "Attaching the router to the external network by setting it as the" \
-     "gateway."
+    "gateway."
 neutron router-gateway-set demo-router ext-net
