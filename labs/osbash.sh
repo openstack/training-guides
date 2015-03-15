@@ -6,7 +6,7 @@ set -o nounset
 # Kill entire process group
 trap 'kill -- -$$' SIGINT
 
-TOP_DIR=$(cd $(dirname "$0") && pwd)
+TOP_DIR=$(cd "$(dirname "$0")" && pwd)
 
 : ${DISTRO:=ubuntu-14.04-server-amd64}
 

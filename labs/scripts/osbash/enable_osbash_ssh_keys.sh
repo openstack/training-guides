@@ -4,7 +4,7 @@ set -o errexit -o nounset
 # This script installs the insecure osbash ssh keys. This allows users to
 # log into the VMs using these keys instead of a password.
 
-TOP_DIR=$(cd $(dirname "$0")/.. && pwd)
+TOP_DIR=$(cd "$(dirname "$0")/.." && pwd)
 source "$TOP_DIR/config/paths"
 source "$LIB_DIR/functions.guest"
 
