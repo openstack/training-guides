@@ -42,7 +42,7 @@ DEMO_INSTANCE_NAME=demo-instance1
 echo "SUM --- BEGIN"
 
 function ssh_no_chk_node {
-    ssh_no_chk -i "$HOME/.ssh/vagrant" "$@"
+    ssh_no_chk -i "$HOME/.ssh/osbash_key" "$@"
 }
 
 function ssh_no_chk {
