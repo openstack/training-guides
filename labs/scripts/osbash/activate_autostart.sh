@@ -7,7 +7,7 @@ set -o errexit -o nounset
 # Remove files that called us (written by {ks,preseed}.cfg)
 rm -f /etc/init.d/osbash /etc/rc2.d/S40osbash
 
-TOP_DIR=$(cd $(dirname "$0")/.. && pwd)
+TOP_DIR=$(cd "$(dirname "$0")/.." && pwd)
 source "$TOP_DIR/config/paths"
 # source_deploy doesn't work here
 source "$CONFIG_DIR/deploy.osbash"

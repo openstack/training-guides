@@ -4,7 +4,7 @@ set -o errexit -o nounset
 # This scripts configures hostname and networking for all nodes. The filename
 # determines the node name.
 
-TOP_DIR=$(cd $(dirname "$0")/.. && pwd)
+TOP_DIR=$(cd "$(dirname "$0")/.." && pwd)
 source "$TOP_DIR/config/paths"
 source "$CONFIG_DIR/credentials"
 source "$LIB_DIR/functions.guest"
