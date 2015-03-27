@@ -7,8 +7,8 @@
 # Booting the operating system installer
 #-------------------------------------------------------------------------------
 
-readonly ISO_URL=http://releases.ubuntu.com/14.04/ubuntu-14.04.1-server-amd64.iso
-readonly ISO_MD5=ca2531b8cd79ea5b778ede3a524779b9
+readonly ISO_URL=http://releases.ubuntu.com/14.04/ubuntu-14.04.2-server-amd64.iso
+readonly ISO_MD5=83aabd8dcf1e8f469f3c72fff2375195
 
 readonly _PS_ssh=http://git.openstack.org/cgit/openstack/training-guides/plain/labs/lib/osbash/netboot/preseed-ssh-v2.cfg
 readonly _PS_vbadd=http://git.openstack.org/cgit/openstack/training-guides/plain/labs/lib/osbash/netboot/preseed-vbadd.cfg
