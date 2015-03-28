@@ -593,7 +593,7 @@ while [ : ]; do
     fi
 done
 
-if [ "${HTTP_EXCEPTIONS:-0}" -ne 0 ]; then
+if [ "${HTTP_EXCEPTIONS:-0}" != "0" ]; then
     echo "SUM ERROR HTTP exceptions: ${HTTP_EXCEPTIONS:-0}"
 fi
 
