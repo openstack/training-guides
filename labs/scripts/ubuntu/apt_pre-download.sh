@@ -73,7 +73,7 @@ apt_download openstack-dashboard memcached
 apt_download lvm2 cinder-volume
 
 # Nova Compute
-apt_download nova-compute-qemu python-guestfs libguestfs-tools
+apt_download nova-compute-qemu sysfsutils
 
 # Neutron Compute
 apt_download neutron-common neutron-plugin-ml2 \
