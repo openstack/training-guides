@@ -3,3 +3,7 @@
 # process, which may cause wedges in the gate later.
 openstack-doc-tools>=0.23
 doc8  # Apache-2.0
+pbr>=0.6,<1.0
+oslosphinx
+sphinx>=1.1.2,<1.2
+hieroglyph>=0.5

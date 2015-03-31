@@ -1,9 +1,10 @@
+===========================================
 Lego applied to Free Software contributions
 ===========================================
 
 |
 
-----
+=======
 
 Agile manifesto
 ===============
@@ -97,14 +98,16 @@ Communication
 
 |
 
-----
+=======
 
 Diplomacy
 =========
 
 |
 
-----
+=======
 
 Time to play with Legos
 =======================
+
+|

@@ -1,9 +1,6 @@
+=============================
 OpenStack Technical Committee
 =============================
-
-|
-
------
 
 Technical Committee
 ===================

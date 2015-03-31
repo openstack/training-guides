@@ -1,9 +1,7 @@
+===========================
 OpenStack Program Ecosystem
 ===========================
 
-|
-
-----
 
 Lifecycle of a new Program
 ==========================
