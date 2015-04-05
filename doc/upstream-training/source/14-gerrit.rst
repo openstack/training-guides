@@ -2,10 +2,16 @@
 review.openstack.org
 ====================
 
+.. rst-class:: colright
+
+|  <teacher name>
+|  <date>
+
+review.openstack.org
+====================
+
 .. image:: ./_assets/14-01-review.png
   :width: 100%
-
-----
 
 gerrit workflow
 ===============
@@ -13,16 +19,12 @@ gerrit workflow
 .. image:: ./_assets/14-02-gerrit-workflow.png
   :width: 100%
 
-----
-
 upload an ssh key
 =================
 
 - https://review.openstack.org/#/settings/ssh-keys
 
 .. image:: ./_assets/14-03-upload-ssh-key.png
-
-----
 
 git config
 ==========
@@ -32,8 +34,6 @@ git config
 
 .. image:: ./_assets/14-04-git-config.png
 
-----
-
 Install git review
 ==================
 
@@ -41,35 +41,25 @@ Install git review
 
 .. image:: ./_assets/14-05-install.png
 
-----
-
 git clone
 =========
 
 .. image:: ./_assets/14-06-git-clone.png
-
-----
 
 git review -s
 =============
 
 .. image:: ./_assets/14-07-git-review-s.png
 
-----
-
 git checkout -b TOPIC-BRANCH
 ============================
 
 .. image:: ./_assets/14-08-git-checkout.png
 
-----
-
 running unit tests
 ==================
 
 .. image:: ./_assets/14-09-unit-tests.png
-
-----
 
 invite reviewers
 ================
@@ -77,45 +67,35 @@ invite reviewers
 .. image:: ./_assets/14-11-invite-reviewers.png
   :width: 100%
 
-----
-
 New interface: invite reviewers
 ===============================
 
 .. image:: ./_assets/14-12-new-invite-reviewers.png
-
-----
 
 git commit --amend
 ==================
 
 .. image:: ./_assets/14-13-git-commit-amend.png
 
-----
-
 gerrit patchset history
 =======================
 
 .. image:: ./_assets/14-15-patchset-history.png
-
-----
+  :width: 100%
 
 New interface: gerrit patchset history
 =======================================
 
 .. image:: ./_assets/14-16-new-patchset-history.png
-
-----
+  :width: 100%
 
 patchset diffs
 ==============
 
 .. image:: ./_assets/14-17-patchset-diffs.png
-
-----
+  :width: 100%
 
 Exercise
 ========
 
 Push a work in progress (wip) and invite reviewers.
-
