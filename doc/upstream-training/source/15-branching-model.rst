@@ -1,17 +1,21 @@
-=============
+===============
+Branching model
+===============
+
+.. rst-class:: colright
+
+|  <teacher name>
+|  <date>
+
 nvie inspired
 =============
 
 .. image:: ./_assets/15-01-inspired.png
 
-----
-
 Stable branches
 ===============
 
 .. image:: ./_assets/15-02-stable-branches.png
-
-----
 
 Appropriate Fixes
 =================
@@ -20,8 +24,6 @@ Appropriate Fixes
 - user visible benefit
 - Self-contained
 - fix is already on master
-
-----
 
 Forbidden
 =========
@@ -33,31 +35,23 @@ Forbidden
 - DB schema changes
 - Incompatible config file changes
 
-----
-
 2013.2 branch and tags
 ======================
 
 .. image:: ./_assets/15-03-branch-tags.png
-
-----
 
 2013.2.4 preparation
 ====================
 
 .. image:: ./_assets/15-04-preparation.png
 
-----
-
 Review
 ======
 
 .. image:: ./_assets/15-05-review.png
-
-----
+  :width: 100%
 
 Exercise
 ========
 
 checkout the latest stable branch
-
