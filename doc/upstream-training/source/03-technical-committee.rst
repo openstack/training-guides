@@ -2,10 +2,15 @@
 OpenStack Technical Committee
 =============================
 
-Technical Committee
-===================
+.. rst-class:: colright
+
+|  <teacher name>
+|  <date>
 
 The role of the Technical Committee
+===================================
+
+.. rst-class:: colleft
 
 The Technical Committee ("TC") is tasked with providing technical leadership
 over all the OpenStack projects. It enforces OpenStack ideals (Openness,
@@ -13,9 +18,9 @@ Transparency, Commonality, Integration, Quality), decides on issues affecting
 multiple programs, forms an ultimate appeals board for technical decisions,
 and generally has oversight over the OpenStack project entirely.
 
-.. image:: ./_assets/03-01-TC.png
+.. rst-class:: colright
 
-----
+.. image:: ./_assets/03-01-TC.png
 
 OpenStack Programs
 ==================
@@ -31,10 +36,10 @@ they deem necessary to achieve their goals.
    - http://git.openstack.org/cgit/openstack/governance/tree/reference/programs.yaml
 - The wiki page: https://wiki.openstack.org/wiki/Category:Programs
 
-----
-
 List of Programs
 ================
+
+.. rst-class:: colleft
 
 - Compute (Nova)
 - Object Storage (Swift)
@@ -47,6 +52,9 @@ List of Programs
 - Orchestration (Heat)
 - Database Service (Trove)
 - Bare metal (Ironic)
+
+.. rst-class:: colright
+
 - Common Libraries (Oslo)
 - Queue service (Zaqar)
 - Data processing (Sahara)
@@ -62,8 +70,6 @@ List of Programs
 
 Maintained on http://git.openstack.org/cgit/openstack/governance/tree/reference/programs.yaml
 
-----
-
 Meetings
 ========
 
@@ -72,8 +78,7 @@ Meetings
 - Motions
 
 .. image:: ./_assets/03-02-IRCmeeting.png
-
-----
+  :width: 100%
 
 Exercise
 ========
@@ -82,16 +87,12 @@ Exercise
 
   - read tc.2014-04-01-20.03.log.html and briefly comment on keystone document
 
-----
-
 Program Technical Leads (PTLs)
 ==============================
 
 - Manage day-to-day operations
 - Drive the program goals
 - Resolve technical disputes
-
-----
 
 Active Program Contributor (APC)
 =================================
@@ -101,11 +102,8 @@ Active Program Contributor (APC)
 - Committed a change over the last two 6-month
 - Candidacy for the corresponding program PTL election
 
-----
-
 Active Technical Contributor (ATC)
 ======================================
-
 
 The TC seats are elected by the Active Technical Contributors ("ATC"), which
 are a subset of the Foundation Individual Members. Individual Members who
@@ -117,8 +115,6 @@ automatically considered an ATC.
 - Same as APC
 - Bug triagers, technical documentation writers, etc can exceptionally apply
   for ATC
-
-----
 
 Exercise
 ========
