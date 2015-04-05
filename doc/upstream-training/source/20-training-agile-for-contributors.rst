@@ -2,9 +2,10 @@
 Lego applied to Free Software contributions
 ===========================================
 
-|
+.. rst-class:: colright
 
-=======
+|  <teacher name>
+|  <date>
 
 Agile manifesto
 ===============
@@ -22,8 +23,6 @@ Agile manifesto
 - Self-organizing teams
 - Regular adaptation to changing circumstances
 
-----
-
 Applying agile
 ==============
 
@@ -31,8 +30,6 @@ Applying agile
 - No person has an ideal role
 - The role is hidden
 - Discovering the roles is an ongoing work
-
-----
 
 Lego town
 =========
@@ -42,8 +39,6 @@ Lego town
 - Epic: become a major contributor and demonstrate the company skills during
   the exhibition
 
-----
-
 Upstream
 ========
 
@@ -51,8 +46,6 @@ Upstream
 - Technical committee : 1
 - PTL : 1
 - Core : 5
-
-----
 
 Company
 =======
@@ -62,8 +55,6 @@ Company
 - Scrum Master : 1
 - Team members : 5
 
-----
-
 Free Software contributors
 ==========================
 
@@ -71,15 +62,11 @@ Free Software contributors
 - Controversial : 1
 - Agreeable : X
 
-----
-
 Epic
 ====
 
 - Discuss with the product owner
 - Write user stories
-
-----
 
 Sprint
 ======
@@ -91,23 +78,11 @@ Sprint
 .. image:: ./_assets/20-01-sprint.png
   :width: 90%
 
-----
-
 Communication
 =============
-
-|
-
-=======
 
 Diplomacy
 =========
 
-|
-
-=======
-
 Time to play with Legos
 =======================
-
-|
