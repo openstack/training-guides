@@ -2,18 +2,16 @@
 Relevant actors
 ===============
 
- <teacher name>
- <date>
+.. rst-class:: colright
 
-----
+|  <teacher name>
+|  <date>
 
 Relevant actors
 ===============
 
 .. image:: ./_assets/02-01-relevant-actors.png
   :width: 100%
-
-----
 
 Relevance metrics
 =================
@@ -32,16 +30,11 @@ Relevance metrics
 
 .. image:: ./_assets/02-02-relevance-metrics.png
 
-
-----
-
 Company snapshot
 ================
 
 .. image:: ./_assets/02-03-company-snapshot.png
   :width: 100%
-
-----
 
 Individual snapshot
 ===================
@@ -49,23 +42,17 @@ Individual snapshot
 .. image:: ./_assets/02-04-individual-snapshot.png
   :width: 100%
 
-----
-
 Module contributors
 ===================
 
 .. image:: ./_assets/02-05-module-contributors.png
   :width: 95%
 
-----
-
 Your management
 ===============
 
 .. image:: ./_assets/02-06-your-management.jpg
   :width: 55%
-
-----
 
 Exercise
 ========
