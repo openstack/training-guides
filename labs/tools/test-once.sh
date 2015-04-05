@@ -44,7 +44,7 @@ REMOTE_TOP_DIR=$(get_remote_top_dir)
 
 EXE_DIR_NAME=test_tmp
 mkdir -p "$TOP_DIR/$EXE_DIR_NAME"
-cp -u "$SCRIPT_SRC" "$TOP_DIR/$EXE_DIR_NAME"
+cp -f "$SCRIPT_SRC" "$TOP_DIR/$EXE_DIR_NAME"
 
 if [[ "$REMOTE_TOP_DIR" = "/home/osbash" ]]; then
     # Not using a shared folder, we need to scp the script to the target node
