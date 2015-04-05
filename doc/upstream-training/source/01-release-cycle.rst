@@ -2,10 +2,10 @@
 OpenStack Release Cycle
 =======================
 
- <teacher name>
- <date>
+.. rst-class:: colright
 
-----
+|  <teacher name>
+|  <date>
 
 Planning : Design
 =================
@@ -16,10 +16,9 @@ Planning : Design
 - take a step back
 - focus on what we want to do for the next one
 
+.. rst-class:: colright
+
 .. image:: ./_assets/01-01-release.png
-
-
-----
 
 Planning : Discuss
 ==================
@@ -31,9 +30,9 @@ Planning : Discuss
 - create the corresponding blueprint
 - 4 weeks, Design Summit on the third week
 
-.. image:: ./_assets/01-01-release.png
+.. rst-class:: colright
 
-----
+.. image:: ./_assets/01-01-release.png
 
 Planning : Target
 =================
@@ -49,8 +48,6 @@ Planning : Target
 
 .. image:: ./_assets/01-01-release.png
 
-----
-
 Implementation : Milestone
 ==========================
 
@@ -64,8 +61,6 @@ Implementation : Milestone
 .. rst-class:: colright
 
 .. image:: ./_assets/01-01-release.png
-
-----
 
 Implementation : freezes
 ========================
@@ -90,8 +85,6 @@ Implementation : freezes
 
 .. image:: ./_assets/01-01-release.png
 
-----
-
 Release Candidates
 ==================
 
@@ -106,8 +99,6 @@ Release Candidates
 .. rst-class:: colright
 
 .. image:: ./_assets/01-01-release.png
-
-----
 
 Release candidate 1
 ===================
@@ -125,8 +116,6 @@ Release candidate 1
 
 .. image:: ./_assets/01-01-release.png
 
-----
-
 Other release candidates
 ========================
 
@@ -142,8 +131,6 @@ Other release candidates
 
 .. image:: ./_assets/01-01-release.png
 
-----
-
 Release day
 ===========
 
@@ -156,11 +143,8 @@ Release day
 
 .. image:: ./_assets/01-01-release.png
 
-----
-
 Exercise
 ========
-
 
 Based on the Icehouse release schedule, find the URL of a document or a patch
 that belongs to each of the steps.
