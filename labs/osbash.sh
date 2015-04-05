@@ -22,24 +22,22 @@ source "$OSBASH_LIB_DIR/virtualbox.install_base"
 source "$LIB_DIR/osbash/lib.color"
 
 function usage {
-    echo "Usage: $0 {-b|-w} [-g GUI] [--no-color] [-n] {basedisk|NODE [NODE..]}"
+    echo "Usage: $0 {-b|-w} [-g GUI] [--no-color] [-n] {TARGET}"
     # Don't advertise export until it is working properly
     # echo "       $0 [-e EXPORT] [-n] NODE [NODE..]"
-    echo ""
-    echo "-h        Help"
-    echo "-n        Print configuration status and exit"
-    echo "-b        Build basedisk (if necessary) and node VMs (if any)"
-    echo "-w        Create Windows batch files"
-    echo "-g GUI    GUI type during build"
-    #echo "-e EXPORT Export node VMs"
-    echo "--no-color  Disables colors during build"
-    echo ""
-    echo "basedisk  Build configured basedisk"
-    echo "cluster   Build OpenStack cluster [all nodes]" \
-                "(and basedisk if necessary)"
     echo
-    echo "GUI       gui, sdl, or headless"
-    echo "          (choose GUI type for VirtualBox)"
+    echo "-h|--help  Help"
+    echo "-n         Print configuration status and exit"
+    echo "-b         Build basedisk (if necessary) and node VMs (if any)"
+    echo "-w         Create Windows batch files"
+    echo "-g GUI     GUI type during build"
+    #echo "-e EXPORT Export node VMs"
+    echo "--no-color Disables colors during build"
+    echo
+    echo "TARGET     basedisk: build configured basedisk"
+    echo "           cluster : build OpenStack cluster [all nodes]"
+    echo "                     (and basedisk if necessary)"
+    echo "GUI        gui, sdl, or headless (GUI type for VirtualBox)"
     #echo "EXPORT    ova (OVA package file) or dir (VM clone directory)"
     exit
 }
@@ -101,6 +99,9 @@ while getopts :be:g:-:hnw opt; do
             case $OPTARG in
                 no-color)
                     unset CError CStatus CInfo CProcess CData CMissing CReset
+                    ;;
+                help)
+                    usage
                     ;;
                 *)
                     echo -e "${CError:-}Error: invalid option -$OPTARG${CReset:-}"
