@@ -4,12 +4,25 @@ DEL /S /Q %LOGDIR%
 
 ECHO %time% Looking for %IMGDIR%\%INSTALLFILE%
 IF EXIST %IMGDIR%\%INSTALLFILE% goto got_install_iso
+
 ECHO.
 ECHO %INSTALLFILE% not found in %IMGDIR%.
 ECHO.
-ECHO To proceed, I need the install ISO from
+ECHO Trying to download the install ISO from
 ECHO %ISOURL%
 ECHO.
+ECHO Expect this to take several minutes or longer, depending on your
+ECHO Internet connection.
+ECHO.
+cscript /nologo downloader.js %ISOURL%
+RENAME downloaded.bin %INSTALLFILE%
+MOVE %INSTALLFILE% %IMGDIR%
+IF EXIST %IMGDIR%\%INSTALLFILE% goto got_install_iso
+ECHO.
+ECHO %INSTALLFILE% still not found in %IMGDIR%.
+ECHO Aborting.
+ECHO.
+
 goto :terminate
 
 :got_install_iso
