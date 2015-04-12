@@ -82,3 +82,6 @@ apt_download neutron-common neutron-plugin-ml2 \
 # Neutron Network
 apt_download neutron-common neutron-plugin-ml2 \
     neutron-plugin-openvswitch-agent neutron-l3-agent neutron-dhcp-agent
+
+# Heat
+apt_download heat-api heat-api-cfn heat-engine python-heatclient
