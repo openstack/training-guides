@@ -1,23 +1,21 @@
 Slides for Upstream Training
 ============================
 
-The files are based on teaching material provided originally by Loic Dachary as ODP files. Converted to RST text in order to be converted by landslide in convenient html5 slides.
+The files are based on teaching material provided originally by Loic Dachary as ODP files. Converted to RST text in order to be converted by Hieroglyph in convenient html5 slides.
 
-Documentation for landslide on https://github.com/adamzap/landslide
 
-Install landslide
+Install Tox
+-----------
+
+Install tox using pip
+
+  $ pip install tox
+
+Build the presentation
 -----------------
 
-Install the latest stable version of Landslide with a python package manager like pip:
+  $ tox -e upstream-slides
 
-  $ pip install landslide
+You should be able to see the slides at the given location: training-guides/doc/upstream-training/build/slides
 
-To build a presentation
------------------------
-
-  $ landslide -r -d <presentation.html> <presentation.rst>
-
-To build all presentations
---------------------------
-
-  $ ./landslide.sh
+These are HTML5 slides and should open with any modern web browser.
