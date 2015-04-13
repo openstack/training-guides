@@ -1,0 +1,7 @@
+#!/bin/bash
+# Used by tox.ini when checking build and publishing docs to website
+
+# Generate and publish upstream training slides
+
+mkdir -p publish-docs/trunk/training-guides/upstream-training/
+sphinx-build -b slides doc/upstream-training/source/ publish-docs/trunk/training-guides/upstream-training/
