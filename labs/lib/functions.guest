@@ -159,6 +159,59 @@ function iniset_sudo {
 }
 
 #-------------------------------------------------------------------------------
+# Functions for manipulating config files without section
+#-------------------------------------------------------------------------------
+
+function iniset_sudo_no_section {
+    local file=$1
+    shift
+    local tmpfile=$(mktemp)
+    # Create a temporary copy, work on it, and copy it back into place
+    sudo cp -fv "$file" "$tmpfile"
+    iniset_no_section "$tmpfile" "$@"
+    cat "$tmpfile" | sudo tee "$file" >/dev/null
+}
+
+# ini_has_option_no_section config-file option
+function ini_has_option_no_section {
+    local xtrace=$(set +o | grep xtrace)
+    set +o xtrace
+    local file=$1
+    local option=$2
+    local line
+    line=$(sed -ne "/^$option[ \t]*=/ p;" "$file")
+    $xtrace
+    [ -n "$line" ]
+}
+
+# Set an option in an INI file
+# iniset_no_section config-file option value
+function iniset_no_section {
+    local xtrace=$(set +o | grep xtrace)
+    set +o xtrace
+    local file=$1
+    local option=$2
+    local value=$3
+
+    [[ -z $option ]] && return
+
+    if ! ini_has_option_no_section "$file" "$option"; then
+        # Add it
+        sed -i -e "1 i\
+$option = $value
+" "$file"
+    else
+        local sep=$(echo -ne "\x01")
+        # Replace it
+        sed -i -e "/$option/ c\
+$option = $value
+" "$file"
+    fi
+    $xtrace
+}
+
+
+#-------------------------------------------------------------------------------
 # OpenStack helpers
 #-------------------------------------------------------------------------------
 
