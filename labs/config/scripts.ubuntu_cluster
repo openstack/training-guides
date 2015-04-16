@@ -33,7 +33,7 @@ cmd queue config_tenant_network.sh
 cmd snapshot_cycle -n controller openstack_networks_configured
 
 cmd queue setup_lbaas_controller.sh
-cmd snapshot_cycle -n controller controller_node_installed
+cmd snapshot_cycle -n controller lbaas-controller_installed
 
 cmd queue ubuntu/setup_heat_controller.sh
 cmd snapshot_cycle -n controller heat_controller_installed
@@ -73,7 +73,7 @@ cmd queue ubuntu/setup_neutron_network.sh
 cmd snapshot_cycle -n network neutron_configured
 
 cmd queue ubuntu/setup_lbaas_network.sh
-cmd snapshot_cycle -n network network_node_installed
+cmd snapshot_cycle -n network lbaas-network_installed
 
 cmd queue ubuntu/setup_heat_network.sh
 cmd snapshot_cycle -n network heat_network_installed
