@@ -85,3 +85,10 @@ apt_download neutron-common neutron-plugin-ml2 \
 
 # Heat
 apt_download heat-api heat-api-cfn heat-engine python-heatclient
+
+# Ceilometer
+apt_download mongodb-server mongodb-clients python-pymongo \
+    ceilometer-api ceilometer-collector ceilometer-agent-central \
+    ceilometer-agent-notification ceilometer-alarm-evaluator \
+    ceilometer-alarm-notifier ceilometer-agent-compute \
+    python-ceilometerclient

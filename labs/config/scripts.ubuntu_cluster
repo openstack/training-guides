@@ -35,6 +35,9 @@ cmd snapshot_cycle -n controller openstack_networks_configured
 cmd queue setup_lbaas_controller.sh
 cmd snapshot_cycle -n controller lbaas-controller_installed
 
+cmd queue ubuntu/setup_telemetry_controller.sh
+cmd snapshot_cycle -n controller telemetry-controller_installed
+
 cmd queue ubuntu/setup_heat_controller.sh
 cmd snapshot_cycle -n controller heat_controller_installed
 
@@ -52,7 +55,10 @@ cmd snapshot_cycle -n compute nova-compute_installed
 
 cmd queue ubuntu/setup_neutron_compute.sh
 cmd queue ubuntu/setup_cinder_volumes.sh
-cmd snapshot_cycle -n compute compute_node_installed
+cmd snapshot_cycle -n compute cinder-volume_installed
+
+cmd queue ubuntu/setup_telemetry_compute.sh
+cmd snapshot_cycle -n compute telemetry-compute_installed
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Take snapshot of database changes on controller VM, too
 cmd queue shutdown_controller.sh
@@ -77,7 +83,6 @@ cmd snapshot_cycle -n network lbaas-network_installed
 
 cmd queue ubuntu/setup_heat_network.sh
 cmd snapshot_cycle -n network heat_network_installed
-
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Take snapshot of database changes on controller VM, too
 cmd queue shutdown_controller.sh
