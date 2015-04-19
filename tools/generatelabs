@@ -2,9 +2,10 @@
 # Used by tox.ini when checking build and publishing docs to website
 
 # Create tarball of labs scripts for Linux/OS X users
-tar czf publish-docs/trunk/training-guides/labs-scripts.tgz labs
+tar --exclude=*.iso --exclude=*.vdi --exclude=*.log --exclude=*.auto -czf publish-docs/trunk/training-guides/labs-scripts.tgz labs
+
 
 # Generate Windows batch scripts
 labs/osbash.sh -w cluster
 # Create zip file of labs scripts for Windows users
-zip -r publish-docs/trunk/training-guides/labs-scripts.zip labs
+zip -r publish-docs/trunk/training-guides/labs-scripts.zip labs -x *.iso *.vdi *.log *.auto
