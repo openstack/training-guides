@@ -14,7 +14,7 @@ ECHO.
 ECHO Expect this to take several minutes or longer, depending on your
 ECHO Internet connection.
 ECHO.
-cscript /nologo downloader.js %ISOURL%
+cscript /nologo %TOOLSDIR%\downloader.js %ISOURL%
 RENAME downloaded.bin %INSTALLFILE%
 MOVE %INSTALLFILE% %IMGDIR%
 IF EXIST %IMGDIR%\%INSTALLFILE% goto got_install_iso
