@@ -68,7 +68,7 @@ function vm_install_base {
     ${WBATCH:-:} vm_attach_guestadd-iso "$vm_name"
 
     ${OSBASH:-:} mkdir -pv "$DISK_DIR"
-    create_vdi "$base_build_disk" "${BASE_DISK_SIZE:=8000}"
+    create_vdi "$base_build_disk" "${BASE_DISK_SIZE:=10000}"
     vm_attach_disk "$vm_name" "$base_build_disk"
 
     #---------------------------------------------------------------------------
