@@ -2,9 +2,6 @@ Introduction
 ============
 
 * The subfolders contain the RST files related to the Training Guides.
-* The RST files are built into HTML through landslide. Find the landslide
-style guide here https://raw.githubusercontent.com/adamzap/landslide/master/examples/restructuredtext/slides.rst
-* Create the output html by **./landslide.sh**
 * Please refer the following link to get more information about this project
   https://launchpad.net/openstack-training-guides
 * Please follow the following wiki to get more information about development
@@ -35,15 +32,8 @@ Structure of this folder
 
     1. associate-guide: This folder contains RST files related to Associate
        Training Guide.
-    2. operator-guide: This folder contains RST files related to Operator
-       Training Guide.
-    3. developer-guide: This folder contains RST files related to Developer
-       Training Guide.
-    4. architect-guide: This folder contains RST files related to Architect
-       Training Guide.
-    5. basic-install-guide: This folder contains Install Guides which is
-       similar to basic/easy version of Install Guides present under
-       openstack-manuals.
-    6. common: This folder contains common files used by multiple training
+    2. common: This folder contains common files used by multiple training
        guides.
-    7. figures: This folder contains images used by all the training guides.
+    3. figures: This folder contains images used by all the training guides.
+    4. _static: This folder contains theming (CSS) for generating the HTML
+       slides.
