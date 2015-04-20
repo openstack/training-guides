@@ -1,5 +1,9 @@
-Associate training guide
-========================
+Compute node quiz
+=================
+
+.. image:: ../figures/os_background.png
+   :class: fill
+   :width: 100%
 
 Compute node quiz questions
 ---------------------------
@@ -8,22 +12,12 @@ Compute node quiz questions
       :start-after: begin-compute-nova-scheduler
       :end-before: end-compute-nova-scheduler
 
-----
-
-Associate training guide
-========================
-
 Compute node quiz questions
 ---------------------------
 
 .. include:: ./notes/06-compute-node.rst
       :start-after: begin-compute-queue
       :end-before: end-compute-queue
-
-----
-
-Associate training guide
-========================
 
 Compute node quiz questions
 ---------------------------
@@ -32,22 +26,12 @@ Compute node quiz questions
       :start-after: begin-compute-default-scheduler
       :end-before: end-compute-default-scheduler
 
-----
-
-Associate training guide
-========================
-
 Compute node quiz questions
 ---------------------------
 
 .. include:: ./notes/06-compute-node.rst
       :start-after: begin-compute-filter-scheduler
       :end-before: end-compute-filter-scheduler
-
-----
-
-Associate training guide
-========================
 
 Compute node quiz questions
 ---------------------------
@@ -56,22 +40,12 @@ Compute node quiz questions
       :start-after: begin-compute-scheduler-returns
       :end-before: end-compute-scheduler-returns
 
-----
-
-Associate training guide
-========================
-
 Compute node quiz questions
 ---------------------------
 
 .. include:: ./notes/06-compute-node.rst
       :start-after: begin-compute-classes-block-storage
       :end-before: end-compute-classes-block-storage
-
-----
-
-Associate training guide
-========================
 
 Compute node quiz questions
 ---------------------------
@@ -80,10 +54,12 @@ Compute node quiz questions
       :start-after: begin-compute-persistent-volumes
       :end-before: end-compute-persistent-volumes
 
-----
+Answers
+=======
 
-Associate training guide
-========================
+.. image:: ../figures/os_background.png
+   :class: fill
+   :width: 100%
 
 Compute node quiz answers
 -------------------------

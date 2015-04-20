@@ -1,5 +1,9 @@
-Associate training guide
-========================
+Getting started quiz
+====================
+
+.. image:: ../figures/os_background.png
+   :class: fill
+   :width: 100%
 
 Getting started quiz questions
 ------------------------------
@@ -7,11 +11,6 @@ Getting started quiz questions
 .. include:: ./notes/02-getting-started.rst
       :start-after: begin-getting-deliver
       :end-before: end-getting-deliver
-
-----
-
-Associate training guide
-========================
 
 Getting started quiz questions
 ------------------------------
@@ -22,11 +21,6 @@ Getting started quiz questions
 .. include:: ./notes/02-getting-started.rst
       :start-after: begin-getting-swift
       :end-before: end-getting-swift
-
-----
-
-Associate training guide
-========================
 
 Getting started quiz questions
 ------------------------------
@@ -39,10 +33,6 @@ Getting started quiz questions
       :start-after: begin-getting-glance
       :end-before: end-getting-glance
 
-----
-
-Associate training guide
-========================
 
 Getting started quiz questions
 ------------------------------
@@ -55,11 +45,12 @@ Getting started quiz questions
       :start-after: begin-getting-hypervisors
       :end-before: end-getting-hypervisors
 
+Answers
+=======
 
-----
-
-Associate training guide
-========================
+.. image:: ../figures/os_background.png
+   :class: fill
+   :width: 100%
 
 Getting started quiz answers
 ----------------------------
