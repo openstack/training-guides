@@ -106,6 +106,12 @@ echo "Verifying Block Storage installation on controller node."
 echo "Sourcing the admin credentials."
 AUTH="source $CONFIG_DIR/admin-openstackrc.sh"
 
+# It takes time for Cinder to be aware of its services status.
+# Force restart cinder API and wait for 20 seconds.
+echo "Restarting Cinder API."
+node_ssh controller-mgmt "sudo service cinder-api restart"
+sleep 20
+
 echo "Waiting for cinder to start."
 until node_ssh controller-mgmt "$AUTH; cinder service-list" >/dev/null 2>&1; do
     sleep 1
@@ -114,15 +120,73 @@ done
 echo "cinder service-list"
 node_ssh controller-mgmt "$AUTH; cinder service-list"
 
+function check_cinder_services {
+
+    # It takes some time for cinder to detect its services and update its
+    # status. This method will wait for 20 seconds to get the status of the
+    # Cinder services.
+    local i=1
+    while [ : ]; do
+        if [[ -z  $(node_ssh controller-mgmt "$AUTH; cinder service-list" | grep down) ]] > /dev/null 2>&1; then
+            echo "Cinder services seem to be up and running!"
+            return 0
+        fi
+        ((i++))
+        if [[ "$i" -gt "20" ]]; then
+            echo "Error, cinder services are not working as expected."
+            exit 0
+        fi
+        echo -n .
+        sleep 1
+    done
+}
+
+# To avoid race conditions which were causing Cinder Volumes script to fail,
+# check the status of the cinder services. Cinder takes a few seconds before it
+# is aware of the exact status of its services.
+echo "Waiting for all cinder services to start."
+check_cinder_services
+
 echo "Sourcing the demo credentials."
 AUTH="source $CONFIG_DIR/demo-openstackrc.sh"
 
 echo "cinder create --display-name demo-volume1 1"
-node_ssh controller-mgmt "$AUTH; cinder create --display-name demo-volume1 1"
+node_ssh controller-mgmt "$AUTH; cinder create --display-name demo-volume1 1;sleep 20"
 
-echo "cinder list"
-# FIXME check Status column (may be creating, available, or error)
-node_ssh controller-mgmt "$AUTH; cinder list"
+echo "check if cinder has the given volume"
+until node_ssh controller-mgmt "$AUTH; cinder list | grep demo-volume1" > /dev/null 2>&1; do
+    sleep 1
+done
+
+function wait_for_cinder_volume {
+
+    # Wait for cinder volume to be created
+    echo -n 'Waiting for cinder volume to be created.'
+    local i=1
+    while [ : ]; do
+        if [[ -z  $(node_ssh controller-mgmt "$AUTH;cinder list" | grep creating) ]] > /dev/null 2>&1; then
+            # Proceed if the state of cinder-volumes is error or created.
+            # Cinder volumes cannot be deleted when it is in creating state.
+            # Throw an error and stop this script.
+            # The purpose of this method is to resolve cinder-volumes race.
+            return 0
+        fi
+        ((i++))
+        if [[ "$i" -gt "20" ]]; then
+            echo "Error creating cinder volume."
+            echo "[Warning]: Debug cinder volumes service on the compute node.
+            Delete the cinder-volume demo-volume1. Script could not delete this
+            volume."
+            exit 0
+        fi
+        echo -n .
+        sleep 1
+    done
+    echo
+}
+
+echo "Checking if volume is created."
+wait_for_cinder_volume
 
 echo "cinder delete demo-volume1"
 node_ssh controller-mgmt "$AUTH; cinder delete demo-volume1"
