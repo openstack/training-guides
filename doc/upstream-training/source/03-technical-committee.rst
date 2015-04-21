@@ -21,58 +21,24 @@ and generally has oversight over the OpenStack project entirely.
 
 .. image:: ./_assets/03-01-TC.png
 
-OpenStack Programs
-==================
+OpenStack Project Teams
+=======================
 
-OpenStack "Programs" are efforts which are essential to the completion of the
-OpenStack project mission. This mission is to produce the ubiquitous Open
-Source cloud computing platform that will meet the needs of public and private
-clouds regardless of size, by being simple to implement and massively
-scalable. Programs can create any code repository and produce any deliverable
-they deem necessary to achieve their goals.
+Project Teams are teams of *people* using *tools* (code repository,
+bug tracker, etc) and coordinated *processes* to produce a number of
+*deliverables*, in order to achieve a clearly stated *objective*.
 
-- The official list of programs is in the `governance` repository
-   - http://git.openstack.org/cgit/openstack/governance/tree/reference/programs.yaml
-- The wiki page: https://wiki.openstack.org/wiki/Category:Programs
-
-List of Programs
-================
-
-.. rst-class:: colleft
-
-- Compute (Nova)
-- Object Storage (Swift)
-- Image Service (Glance)
-- Identity (Keystone)
-- Dashboard (Horizon)
-- Networking (Neutron)
-- Block Storage (Cinder)
-- Telemetry (Ceilometer)
-- Orchestration (Heat)
-- Database Service (Trove)
-- Bare metal (Ironic)
-
-.. rst-class:: colright
-
-- Common Libraries (Oslo)
-- Queue service (Zaqar)
-- Data processing (Sahara)
-- Key management (Barbican)
-- DNS Service (Designate)
-- Shared File Systems (Manila)
-- Infrastructure
-- Documentation
-- Quality Assurance (QA)
-- Deployment (TripleO)
-- Devstack (DevStack)
-- Release cycle management
-
-Maintained on http://git.openstack.org/cgit/openstack/governance/tree/reference/programs.yaml
+- The official list of projects is in the `governance` repository
+   - http://git.openstack.org/cgit/openstack/governance/tree/reference/projects.yaml
+- Fully rendered http://governance.openstack.org/reference/projects/index.html
 
 Meetings
 ========
 
 - Governance/TechnicalCommittee#Meeting
+
+  - https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting
+
 - Agenda
 - Motions
 
@@ -86,14 +52,14 @@ Exercise
 
   - read tc.2014-04-01-20.03.log.html and briefly comment on keystone document
 
-Program Technical Leads (PTLs)
-==============================
+Project Team Leads (PTLs)
+=========================
 
 - Manage day-to-day operations
 - Drive the program goals
 - Resolve technical disputes
 
-Active Program Contributor (APC)
+Active Project Contributor (APC)
 =================================
 
 - Voters for a given program PTL

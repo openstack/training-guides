@@ -6,14 +6,28 @@ OpenStack Release Cycle
    :class: fill
    :width: 100%
 
+What makes a release
+====================
+
+- A way to coordinate the development of multiple projects
+- Until Kilo "integrated release" meant a date when all the projects
+  are released at the end of the development cycles
+- Integrated projects were also tested together at the gate
+- For Liberty integrated projects are those managed by the Release
+  Management Team
+- Other projects may have different schedules
+
+  - Each project team page shows its releas policy on
+    http://governance.openstack.org/reference/projects
+
 Planning : Design
 =================
 
 .. rst-class:: colleft
 
 - Planning stage is at the start of a cycle
-- take a step back
-- focus on what we want to do for the next one
+- Take a step back
+- Focus on what we want to do for the next one
 
 .. rst-class:: colright
 
@@ -25,8 +39,8 @@ Planning : Discuss
 .. rst-class:: colleft
 
 - With our peers
-- feedback and comments
-- create the corresponding blueprint
+- Feedback and comments
+- Create the corresponding blueprint
 - 4 weeks, Design Summit on the third week
 
 .. rst-class:: colright
@@ -38,9 +52,9 @@ Planning : Target
 
 .. rst-class:: colleft
 
-- file new blueprints and/or specs
-- set a target milestone
-- when in the cycle they intend to complete it
+- File new blueprints and/or specs
+- Set a target milestone
+- When in the cycle they intend to complete it
 - PTLs triage the submitted blueprints and set priority
 
 .. rst-class:: colright
@@ -52,10 +66,10 @@ Implementation : Milestone
 
 .. rst-class:: colleft
 
-- pushed to our Gerrit review
-- weeks before the milestone publication date
-- milestone-proposed branch
-- feature-frozen
+- Pushed to Gerrit for peer review
+- Weeks before the milestone publication date
+- Milestone-proposed branch
+- Feature-frozen
 
 .. rst-class:: colright
 
@@ -66,19 +80,19 @@ Implementation : freezes
 
 .. rst-class:: colleft
 
-* Feature proposal freeze
+- Feature proposal freeze
 
-  * not even proposals for features will be accepted
-  * focus on bug-fixing
+  - Not even proposals for features will be accepted
+  - Focus on bug-fixing
 
-* Feature freeze
+- Feature freeze
 
-  * new features will not be accepted, only fixes
+  - New features will not be accepted, only fixes
 
-* String freeze
+- String freeze
 
-  * all externally visible strings must be frozen
-  * this helps the translation and documentation program
+  - All externally visible strings must be frozen
+  - This helps the i18n and Documentation projects
 
 .. rst-class:: colright
 
@@ -90,10 +104,11 @@ Release Candidates
 .. rst-class:: colleft
 
 - After the last milestone
-- file bugs about everything you find
-- prioritize bugs / bug triage
-- write documentation
-- fix as many bugs as you can
+
+  - File bugs about everything you find
+  - Prioritize bugs / bug triage
+  - Write documentation
+  - Fix as many bugs as you can
 
 .. rst-class:: colright
 
@@ -105,10 +120,11 @@ Release candidate 1
 .. rst-class:: colleft
 
 - Between the last milestone and the RC1
-- stop adding features and concentrate on bug fixes
-- Once all the release-critical bugs are fixed, we produce the first release
-  candidate for that project (RC1)
-- used as-is as the final release
+
+  - Stop adding features and concentrate on bug fixes
+  - Once all the release-critical bugs are fixed, we produce the first release
+    candidate for that project (RC1)
+  - Used as-is as the final release
 
 
 .. rst-class:: colright
@@ -120,11 +136,14 @@ Other release candidates
 
 .. rst-class:: colleft
 
-- regressions and integration issues
-- new release-critical bugs
+- Regressions and integration issues
+
+  - New release-critical bugs
+
 - (RC2), with bugs targeted to it
-- merged in the master branch first
-- repeated as many times as necessary
+
+  - Merged in the master branch first
+  - Repeated as many times as necessary
 
 .. rst-class:: colright
 
@@ -135,8 +154,8 @@ Release day
 
 .. rst-class:: colleft
 
-- last published release candidate
-- published collectively as the OpenStack release
+- Last published release candidate
+- Published collectively as the OpenStack release
 
 .. rst-class:: colright
 
@@ -145,5 +164,5 @@ Release day
 Exercise
 ========
 
-Based on the Icehouse release schedule, find the URL of a document or a patch
+Based on the Kilo release schedule, find the URL of a document or a patch
 that belongs to each of the steps.
