@@ -235,7 +235,7 @@ div.slide div.presenter_notes, div.slides div.presenter_notes {
 /* Slide styles */
 
 div.slide p {
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .slide.far-past {
@@ -371,8 +371,8 @@ blockquote {
 }
 
 li {
-  padding: 2px 0;
-  font-size: 28px;
+  padding: 10px 0;
+  font-size: 20px;
 }
 
 li pre { margin-left: 0em; }
