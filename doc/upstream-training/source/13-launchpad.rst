@@ -1,10 +1,17 @@
+=============
+launchpad.net
+=============
+
+.. rst-class:: colright
+
+|  <teacher name>
+|  <date>
+
 launchpad.net
 =============
 
 .. image:: ./_assets/13-01-launchpad.png
   :width: 100%
-
-----
 
 Blueprint
 =========
@@ -18,8 +25,6 @@ Blueprint
 - https://wiki.openstack.org/wiki/Blueprints#Nova
 - https://wiki.openstack.org/wiki/Blueprints#Neutron
 
-----
-
 Bug status
 ==========
 
@@ -32,11 +37,13 @@ Bug status
 - Fix Committed: The branch containing the fix was merged into master
 - Fix Released: The fix is included in the milestone-proposed branch, a past
   milestone or a past release
+
+Bug status
+==========
+
 - Invalid: This is not a bug
 - Opinion: This is a valid issue, but it is the way it should be
 - Won't Fix: This is a valid issue, but we don't intend to fix that
-
-----
 
 Bug status
 ==========
@@ -52,8 +59,6 @@ Bug status
 - Opinion
 - Won't Fix
 
-----
-
 Bug importance
 ==============
 
@@ -68,8 +73,6 @@ Bug importance
 - Wish list: Not really a bug, but a suggested improvement
 - Undefined: Impact was not assessed yet
 
-----
-
 Bug importance
 ==============
 
@@ -82,8 +85,6 @@ Bug importance
 - Wishlist
 - Undefined
 
-----
-
 Bug tags
 ========
 
@@ -95,13 +96,15 @@ Bug tags
 - security: Fix for the bug would make OpenStack more resilient to future
   security issues.
 - ops: Fix for the bug would significantly ease OpenStack operation.
+
+Bug tags
+========
+
 - SERIES-rc-potential: During the SERIES pre-release period, mark the bug as a
   potential release-critical blocker
 - SERIES-backport-potential: Mark the bug as a potential backport target to a
   specific SERIES (grizzly, havana...)
 - Per project tags: https://wiki.openstack.org/wiki/BugTags
-
-----
 
 Bug
 ===
@@ -111,8 +114,6 @@ Bug
 - Milestone: The milestone we need to fix the bug for, or the
   milestone/version it was fixed in.
 
-----
-
 Bug report
 ==========
 
@@ -120,8 +121,6 @@ Bug report
 - check for duplicates
 - The release, or milestone, or commit ID
 - Status: New
-
-----
 
 Confirming & prioritizing
 =========================
@@ -131,16 +130,12 @@ Confirming & prioritizing
 - core developer or a member of the project bug supervision team =>
   Importance: <Bug impact>
 
-----
-
 Debugging
 =========
 
 - determining how to fix the bug
 - optional if straightforward
 - ask a core developer or bug supervisor => Status: Triaged
-
-----
 
 Bug fixing
 ==========
@@ -149,8 +144,6 @@ Bug fixing
 - Status: In progress
 - Assignee: the developer working on the fix
 - Gerrit will automatically set the status
-
-----
 
 After the change is accepted
 ============================
@@ -161,10 +154,7 @@ After the change is accepted
 - Milestone: Milestone the bug was fixed in
 - Status: Fix Released
 
-----
-
 Exercise
 ========
 
 Review other launchpad bugs and improve yours.
-
