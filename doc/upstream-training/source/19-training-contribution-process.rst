@@ -2,14 +2,10 @@
 Overview of the contribution process
 ====================================
 
+.. rst-class:: colright
 
-OpenStack Upstream Training
----------------------------
-
- <teacher name>
- <date>
-
-----
+|  <teacher name>
+|  <date>
 
 Project pulse
 =============
@@ -20,18 +16,12 @@ Project pulse
 - When was the last update?
 - etc.
 
-
-----
-
 Who's behind it?
 ==================
 
 - Individuals
 - Companies
 - What's their incentive?
-
-
-----
 
 Project as social groups
 =========================
@@ -41,8 +31,6 @@ Project as social groups
 - Corporate driven
 - Volunteers
 
-----
-
 Assess your approach
 ====================
 
@@ -51,16 +39,12 @@ Assess your approach
 - Habits: online relationships?
 - Acknowledge the language barrier
 
-----
-
 Engage immediately
 ==================
 
 - Discuss with non upstream
 - Get your nick/e-mail known
 - Mingle
-
-----
 
 Be engaged with your network
 ============================
@@ -71,8 +55,6 @@ Be engaged with your network
 - Ask about their contribution experience
 - Ask if they know someone with similar experiences
 
-----
-
 Smaller tasks
 =============
 
@@ -80,16 +62,12 @@ Smaller tasks
 - Splitting a task
 - Seeking agreement on the split
 
-----
-
 Choosing a question
 ===================
 
 - Think about the answer
 - Find a solution that needs to be agreed upon
 - Ask the question and propose your solution
-
-----
 
 Code of conduct
 ===============
@@ -102,8 +80,6 @@ Code of conduct
 - Step down considerately
 - Respect the election process
 
-----
-
 Disagree
 ========
 
@@ -111,8 +87,6 @@ Disagree
 - Accept the rules
 - No flamewars
 - No enemies
-
-----
 
 Understanding the conventions
 =============================
@@ -122,8 +96,6 @@ Understanding the conventions
 - Read the actual code and the actual documentation
 - Apply them very diligently
 
-----
-
 Explain what you do
 ===================
 
@@ -132,16 +104,12 @@ Explain what you do
 - What the work does
 - Each choice made must have a rationale
 
-----
-
 Prepare the backport
 ====================
 
 - Apply the contribution to trunk
 - Think about backporting
 - Twist the contribution to ease backporting
-
-----
 
 Local and upstream
 ==================
@@ -150,21 +118,15 @@ Local and upstream
 - Stable version
 - In house version
 
-----
-
 Good workflow
 =============
 
 .. image:: ./_assets/19-01-goodworkflow.png
 
-----
-
 Bad workflow
 ============
 
 .. image:: ./_assets/19-02-badworkflow.png
-
-----
 
 Quantify the delta
 ==================
@@ -172,8 +134,6 @@ Quantify the delta
 - Measure the delta with upstream
 - Compare
 - Analyze the reasons for an increased delta
-
-----
 
 Speeding the acceptance
 =======================
@@ -183,16 +143,12 @@ Speeding the acceptance
 - Communication
 - Getting attention
 
-----
-
 Timeframe
 =========
 
 - Engage daily
 - Ask for attention weekly
 - Try to get attention at least four times
-
-----
 
 Building karma
 ==============
@@ -202,16 +158,12 @@ Building karma
 - Fix the documentation
 - Answer questions
 
-----
-
 Parallelizing
 =============
 
 - Work
 - Karma missions
 - Learning about the project
-
-----
 
 From easy to difficult
 ======================
@@ -222,12 +174,9 @@ From easy to difficult
 - Discussing the architecture
 - Influence the project governance
 
-----
-
 Archive and collect
 ===================
 
 - Log IM channels
 - Keep links to e-mail archives
 - Choose one place to gather all information
-
