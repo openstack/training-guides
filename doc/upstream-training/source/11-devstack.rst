@@ -2,9 +2,15 @@
 devstack.org
 ============
 
-.. image:: ./_assets/11-01-devstack.png
+.. rst-class:: colright
 
-----
+|  <teacher name>
+|  <date>
+
+devstack.org
+============
+
+.. image:: ./_assets/11-01-devstack.png
 
 rejoin-stack.sh
 ===============
@@ -12,22 +18,18 @@ rejoin-stack.sh
 .. image:: ./_assets/11-02-rejoin-stack.png
   :width: 75%
 
-----
-
 http://localhost/
 =================
 
 .. image:: ./_assets/11-03-http-localhost.png
   :width: 100%
 
-----
+http://localhost/
+=================
 
 .. image:: ./_assets/11-04-git.png
-
-----
 
 Exercise
 ========
 
 Get the code for the targeted contribution
-
