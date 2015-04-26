@@ -64,6 +64,9 @@ echo "heat stack-list"
 until node_ssh controller-mgmt "$AUTH; heat stack-list" 2>/dev/null | grep "CREATE_COMPLETE"; do
     cnt=$((cnt + 1))
     if [ $cnt -eq 60 ]; then
+        # Print current stack list to help with debugging
+        echo
+        node_ssh controller-mgmt "$AUTH; heat stack-list"
         echo "Heat stack creation failed. Exiting."
         exit 1
     else
