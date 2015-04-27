@@ -2,10 +2,9 @@
 OpenStack Release Cycle
 =======================
 
-.. rst-class:: colright
-
-|  <teacher name>
-|  <date>
+.. image:: ./_assets/os_background.png
+   :class: fill
+   :width: 100%
 
 Planning : Design
 =================

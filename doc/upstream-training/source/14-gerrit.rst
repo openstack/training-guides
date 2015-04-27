@@ -2,10 +2,9 @@
 review.openstack.org
 ====================
 
-.. rst-class:: colright
-
-|  <teacher name>
-|  <date>
+.. image:: ./_assets/os_background.png
+   :class: fill
+   :width: 100%
 
 review.openstack.org
 ====================

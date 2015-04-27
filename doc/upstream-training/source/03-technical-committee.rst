@@ -2,10 +2,9 @@
 OpenStack Technical Committee
 =============================
 
-.. rst-class:: colright
-
-|  <teacher name>
-|  <date>
+.. image:: ./_assets/os_background.png
+   :class: fill
+   :width: 100%
 
 The role of the Technical Committee
 ===================================

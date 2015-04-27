@@ -32,3 +32,11 @@
   height: 600px;
   padding: 0;
 }
+
+article h1 {
+    color: white;
+}
+
+article h2 {
+    color: rgb(133,11,19);
+}

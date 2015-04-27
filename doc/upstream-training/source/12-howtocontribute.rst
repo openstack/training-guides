@@ -2,10 +2,10 @@
 How to contribute
 =================
 
-.. rst-class:: colright
+.. image:: ./_assets/os_background.png
+   :class: fill
+   :width: 100%
 
-|  <teacher name>
-|  <date>
 
 http://launchpad.net/
 =====================
