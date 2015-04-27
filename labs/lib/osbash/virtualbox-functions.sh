@@ -19,7 +19,7 @@ function vbm {
         local rc=0
         "$VBM_EXE" "$@" || rc=$?
         if [ $rc -ne 0 ]; then
-            echo >&2 "FAILURE: VBoxManage: $@"
+            echo -e >&2 "${CError:-}FAILURE: VBoxManage: $@${CReset:-}"
             return 1
         fi
     else
@@ -62,19 +62,19 @@ function vm_wait_for_shutdown {
     # Return if we are just faking it for wbatch
     ${OSBASH:+:} return 0
 
-    echo >&2 -n "Machine shutting down"
+    echo -e >&2 -n "${CStatus:-}Machine shutting down${CReset:-}"
     until WBATCH= $VBM showvminfo --machinereadable "$vm_name" 2>/dev/null | \
             grep -q '="poweroff"'; do
         echo -n .
         sleep 1
     done
-    echo >&2 -e "\nMachine powered off."
+    echo >&2 -e "${CStatus:-}\nMachine powered off.${CReset:-}"
 }
 
 function vm_power_off {
     local vm_name=$1
     if vm_is_running "$vm_name"; then
-        echo >&2 "Powering off VM \"$vm_name\""
+        echo -e >&2 "${CStatus:-}Powering off VM ${CData:-}\"$vm_name\"${CReset:-}"
         $VBM controlvm "$vm_name" poweroff
     fi
     # VirtualBox VM needs a break before taking new commands
@@ -121,7 +121,7 @@ function create_hostonlyif {
     if [[ $out =~ $re ]]; then
         echo "${BASH_REMATCH[1]}"
     else
-        echo >&2 "Host-only interface creation failed"
+        echo -e >&2 "${CError:-}Host-only interface creation failed${CReset:-}"
         return 1
     fi
 }
@@ -142,11 +142,11 @@ function create_network {
                         "Using it, too."
         fi
     else
-        echo >&2 "Creating host-only interface"
+        echo -e >&2 "${CStatus:-}Creating host-only interface${CReset:-}"
         if_name=$(create_hostonlyif)
     fi
 
-    echo >&2 "Configuring host-only network $ip ($if_name)"
+    echo -e >&2 "${CStatus:-}Configuring host-only network ${CData:-}$ip ($if_name)${CReset:-}"
     $VBM hostonlyif ipconfig "$if_name" \
         --ip "$ip" \
         --netmask 255.255.255.0 >/dev/null
@@ -170,14 +170,14 @@ function disk_registered {
 # disk can be either a path or a disk UUID
 function disk_unregister {
     local disk=$1
-    echo >&2 -e "Unregistering disk\n\t$disk"
+    echo >&2 -e "${CStatus:-}Unregistering disk\n\t${CData:-}$disk${CReset:-}"
     $VBM closemedium disk "$disk"
 }
 
 function create_vdi {
     local hd_path=$1
     local size=$2
-    echo >&2 -e "Creating disk:\n\t$hd_path"
+    echo >&2 -e "${CStatus:-}Creating disk:\n\t${CData:-}$hd_path${CReset:-}"
     $VBM createhd --format VDI --filename "$hd_path" --size "$size"
 }
 
@@ -353,7 +353,7 @@ function vm_create {
     #
     # XXX temporary hack
     # --groups not supported in VirtualBox 4.1 (Mac OS X 10.5)
-    echo >&2 "Creating VM \"$vm_name\""
+    echo -e >&2 "${CStatus:-}Creating VM ${CData:-}\"$vm_name\"${CReset:-}"
     local ver=$(get_vb_version)
     if [[ $ver = 4.1*  ]]; then
         $VBM createvm \
@@ -383,7 +383,7 @@ function vm_create {
     $VBM storagectl "$vm_name" --name SATA --hostiocache on
 
     $VBM storagectl "$vm_name" --name IDE --add ide
-    echo >&2 "Created VM \"$vm_name\""
+    echo -e >&2 "${CStatus:-}Created VM ${CData:-}\"$vm_name\"${CReset:-}"
 }
 
 #-------------------------------------------------------------------------------
@@ -471,7 +471,7 @@ function vm_export_dir {
 
 function vm_unregister_del {
     local vm_name=$1
-    echo >&2 "Unregistering and deleting VM \"$vm_name\""
+    echo -e >&2 "${CStatus:-}Unregistering and deleting VM ${CData:-}\"$vm_name\"${CReset:-}"
     $VBM unregistervm "$vm_name" --delete
 }
 
@@ -483,7 +483,7 @@ function vm_delete {
         vm_power_off "$vm_name"
         local hd_path="$(vm_get_disk_path "$vm_name")"
         if [ -n "$hd_path" ]; then
-            echo >&2 -e "Disk attached: $hd_path"
+            echo >&2 -e "${CInfo:-}Disk attached: ${CData:-}$hd_path${CReset:-}"
             vm_detach_disk "$vm_name"
             disk_unregister "$hd_path"
             echo >&2 -e "Deleting: $hd_path"
@@ -501,7 +501,7 @@ function disk_delete_child_vms {
     local disk=$1
     if ! disk_registered "$disk"; then
         # VirtualBox doesn't know this disk; we are done
-        echo >&2 -e "Disk not registered with VirtualBox:\n\t$disk"
+        echo >&2 -e "${CError:-}Disk not registered with VirtualBox:\n\t${CData:-}$disk${CReset:-}"
         return 0
     fi
 
@@ -527,7 +527,7 @@ function disk_delete_child_vms {
                 echo 2>&1 -e "\tstill attached to VM \"$vm_name\""
                 vm_delete "$vm_name"
             else
-                echo >&2 "Unregistering and deleting: $child_uuid"
+                echo -e >&2 "${CStatus:-}Unregistering and deleting: ${CData:-}$child_uuid${CReset:-}"
                 disk_unregister "$child_uuid"
                 echo >&2 -e "\t$child_disk"
                 rm -f "$child_disk"
@@ -661,7 +661,7 @@ function vm_attach_guestadd-iso {
         echo >&2 "Attached $GUESTADD_ISO"
         return 0
     else
-        echo >&2 "Failed to attach $GUESTADD_ISO"
+        echo -e >&2 "${CError:-}Failed to attach ${CData:-}$GUESTADD_ISO${CReset:-}"
         return 3
     fi
 }
@@ -725,7 +725,7 @@ function vbox_kbd_string_input {
 function vbox_boot {
     local vm_name=$1
 
-    echo >&2 "Starting VM \"$vm_name\""
+    echo -e >&2 "${CStatus:-}Starting VM ${CData:-}\"$vm_name\"${CReset:-}"
     if [ -n "${VM_UI:-}" ]; then
         $VBM startvm "$vm_name" --type "$VM_UI"
     else

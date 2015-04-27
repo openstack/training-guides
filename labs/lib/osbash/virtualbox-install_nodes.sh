@@ -73,7 +73,7 @@ function vm_init_node {
 
 function vm_build_nodes {
     CONFIG_NAME=$(get_distro_name "$DISTRO")_$1
-    echo "Configuration file: $CONFIG_NAME"
+    echo -e "${CInfo:-}Configuration file: ${CData:-}$CONFIG_NAME${CReset:-}"
 
     ${WBATCH:-:} wbatch_begin_node "$CONFIG_NAME"
     #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

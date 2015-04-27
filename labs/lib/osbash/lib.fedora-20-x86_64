@@ -33,7 +33,7 @@ function vbox_distro_start_installer {
 
     vbox_sleep 1
 
-    echo "Pushing boot command line"
+    echo -e "${CStatus:-}Pushing boot command line${CReset:-}"
     vbox_kbd_string_input "$vm_name" "$boot_args"
 
     echo "Initiating boot sequence"
