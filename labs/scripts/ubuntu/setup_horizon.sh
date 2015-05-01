@@ -54,6 +54,5 @@ echo "Checking dashboard configuration."
 check_dashboard_settings
 
 echo "Reloading apache and memcached service."
-sudo service apache2 stop
-sudo service apache2 start
+sudo service apache2 restart
 sudo service memcached restart
