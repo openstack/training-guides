@@ -3,7 +3,7 @@ set -o errexit -o nounset
 TOP_DIR=$(cd "$(dirname "$0")/.." && pwd)
 source "$TOP_DIR/config/paths"
 source "$CONFIG_DIR/deploy.osbash"
-source "$OSBASH_LIB_DIR/functions.host"
+source "$OSBASH_LIB_DIR/functions-host.sh"
 
 CONTROLLER_PORT=2230
 NETWORK_PORT=2231

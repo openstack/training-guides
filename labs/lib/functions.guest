@@ -2,7 +2,7 @@
 
 # Sourcing this file calls functions fix_path_env and source_deploy.
 
-source "$LIB_DIR/functions"
+source "$LIB_DIR/functions.sh"
 source "$LIB_DIR/functions-common-devstack"
 
 # Make devstack's operating system identification work with nounset
