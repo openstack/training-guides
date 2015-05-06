@@ -68,7 +68,9 @@ until node_ssh controller-mgmt "$AUTH; heat stack-list" 2>/dev/null | grep "CREA
         echo
         node_ssh controller-mgmt "$AUTH; heat stack-list"
         echo "Heat stack creation failed. Exiting."
-        exit 1
+        echo "[Warning]: Please debug heat services on the
+        controller and network node. Heat may not work."
+        exit 0
     else
         sleep 1
         echo -n "."
