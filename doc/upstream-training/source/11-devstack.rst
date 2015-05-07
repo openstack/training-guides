@@ -10,6 +10,7 @@ devstack.org
 ============
 
 .. image:: ./_assets/11-01-devstack.png
+   :width: 100%
 
 rejoin-stack.sh
 ===============
