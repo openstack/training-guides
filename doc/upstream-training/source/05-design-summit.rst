@@ -17,10 +17,10 @@ cycle.
 How does it work?
 ==================
 
-- Not a classic conference
+- Not a classic conference with presenter and audience
+  - more like a collaborative brainstorming session
 - Discuss upcoming features for the next release cycle
-- 40-min long sessions
-- Open brainstorming discussion
+- Not suitable to start learning about a topic
 
 .. image:: ./_assets/05-02-design-summit.png
   :width: 90%
@@ -33,12 +33,38 @@ Etherpads
 Proposing a session
 ===================
 
-- https://wiki.openstack.org/wiki/Summit/Kilo
+Sessions are proposed on an open document (generally an Etherpad) and
+discussed at team meetings.
 
-List of sessions (formerly)
+- https://wiki.openstack.org/wiki/Summit/Liberty
+- https://wiki.openstack.org/wiki/Design_Summit/Planning
+
+Types of sessions
+=================
+
+- Fishbowl sessions
+
+  * Open discussions, chairs organized in concentric rings
+  * People sitting in the inner circle lead the discussion
+  * No mics.
+
+- Work sessions
+
+  * Like sprints, small groups of people work on specific themes
+
+- Contributor meetups
+
+  * Reserved for ad-hoc meetings of project teams
+  * No predefined agenda.
+
+- Project pods
+
+  * Tables informally available for new/small teams
+
+List of sessions
 ===========================
 
-.. image:: ./_assets/05-05-sessions.png
+- https://libertydesignsummit.sched.org/overview/type/design+summit
 
 Selection of sessions
 =====================
@@ -59,9 +85,3 @@ Exercise
 ========
 
 - Add a session proposal regarding your contribution in an etherpad
-- Review two proposals
-
-Rendezvous
-===========
-
-`Summit 101` sessions
