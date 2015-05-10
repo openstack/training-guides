@@ -7,7 +7,7 @@
     <preface xml:id="preface">
         <title>Preface</title>
         <?dbhtml stop-chunking?>
-      <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_dochistory.xml">
+      <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_dochistory.xml?h=stable/icehouse">
       </xi:include>
      </preface>
     <appendix xml:id="preface_under-construction">
@@ -124,22 +124,22 @@
         <?dbhtml stop-chunking?>
         <section xml:id="important-terms">
             <title>Important Terms</title>
-            <xi:include href="./basic-install-guide/lab_important-terms.xml"
+            <xi:include href="./basic-install-guide/lab_important-terms.xml?h=stable/icehouse"
             xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'lab_important-terms']/*[not(self::db:title)])">
             </xi:include>
         </section>
         <section xml:id="virtualbox-scripted">
             <title>Building the Training Cluster, Scripted</title>
-            <xi:include href="./training-cluster-by-script.xml"
+            <xi:include href="./training-cluster-by-script.xml?h=stable/icehouse"
             xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'training-cluster-by-script']/*[not(self::db:title)])">
             </xi:include>
         </section>
         <section xml:id="virtualbox-manual">
             <title>Building the Training Cluster, Manually</title>
-            <xi:include href="./basic-install-guide/lab_virtualbox-basics.xml"
+            <xi:include href="./basic-install-guide/lab_virtualbox-basics.xml?h=stable/icehouse"
             xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'lab_virtualbox-basics']/*[not(self::db:title)])">
             </xi:include>
         </section>
     </appendix>
-  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/app_support.xml"/>
+  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/app_support.xml?h=stable/icehouse"/>
 </book>

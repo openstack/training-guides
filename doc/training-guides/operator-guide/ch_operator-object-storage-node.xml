@@ -12,25 +12,25 @@
   </section>
   <section xml:id="operator-intro-object-store">
     <title>Review Associate Introduction to Object Storage</title>
-    <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_objectstorage-intro.xml"
+    <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_objectstorage-intro.xml?h=stable/icehouse"
       xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'section_objectstorage-intro']/*[not(self::db:title)])">
     </xi:include>
   </section>
-  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_objectstorage-features.xml"/>
+  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_objectstorage-features.xml?h=stable/icehouse"/>
   <section xml:id="operator-object-store-node-administration-tasks">
     <title>Review Associate Administration Tasks</title>
     <para></para>
   </section>
-  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_objectstorage-characteristics.xml"/>
-  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_objectstorage-components.xml"/>
-  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_objectstorage-ringbuilder.xml"/>
+  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_objectstorage-characteristics.xml?h=stable/icehouse"/>
+  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_objectstorage-components.xml?h=stable/icehouse"/>
+  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_objectstorage-ringbuilder.xml?h=stable/icehouse"/>
   <section xml:id="operator-swift-more-concepts">
     <title>More Swift Concepts</title>
     <xi:include href="../common/section_more-concepts.xml"
       xpointer="xmlns(db=http://docbook.org/ns/docbook) xpath(//*[@xml:id = 'section_more-concepts']/*[not(self::db:title)])">
     </xi:include>
   </section>
-  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_objectstorage-arch.xml"/>
-  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_objectstorage-account-reaper.xml"/>
-  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_objectstorage-replication.xml"/>
+  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_objectstorage-arch.xml?h=stable/icehouse"/>
+  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_objectstorage-account-reaper.xml?h=stable/icehouse"/>
+  <xi:include href="http://git.openstack.org/cgit/openstack/openstack-manuals/plain/doc/common/section_objectstorage-replication.xml?h=stable/icehouse"/>
 </chapter>
