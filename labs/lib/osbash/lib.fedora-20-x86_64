@@ -11,6 +11,7 @@ VM_BASE_MEM=1024
 #-------------------------------------------------------------------------------
 
 readonly ISO_URL=http://mirror.switch.ch/ftp/mirror/fedora/linux/releases/20/Fedora/x86_64/iso/Fedora-20-x86_64-DVD.iso
+readonly ISO_MD5=9a190c8b2bd382c2d046dbc855cd2f2b
 
 readonly _KS_ssh=http://git.openstack.org/cgit/openstack/training-guides/plain/labs/lib/osbash/netboot/ks-ssh-v2.cfg
 readonly _KS_vbadd=http://git.openstack.org/cgit/openstack/training-guides/plain/labs/lib/osbash/netboot/ks-vbadd.cfg
