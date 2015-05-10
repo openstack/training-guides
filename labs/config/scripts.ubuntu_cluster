@@ -32,7 +32,7 @@ cmd queue config_external_network.sh
 cmd queue config_tenant_network.sh
 cmd snapshot_cycle -n controller openstack_networks_configured
 
-cmd queue setup_lbaas_controller.sh
+cmd queue ubuntu/setup_lbaas_controller.sh
 cmd snapshot_cycle -n controller lbaas-controller_installed
 
 cmd queue ubuntu/setup_telemetry_controller.sh
