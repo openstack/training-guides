@@ -16,10 +16,10 @@ source "$CONFIG_DIR/openstack"
 source "$CONFIG_DIR/deploy.osbash"
 source "$CONFIG_DIR/provider.virtualbox"
 source "$OSBASH_LIB_DIR/lib.$DISTRO"
-source "$OSBASH_LIB_DIR/functions.host"
-source "$OSBASH_LIB_DIR/virtualbox.functions"
-source "$OSBASH_LIB_DIR/virtualbox.install_base"
-source "$LIB_DIR/osbash/lib.color"
+source "$OSBASH_LIB_DIR/functions-host.sh"
+source "$OSBASH_LIB_DIR/virtualbox-functions.sh"
+source "$OSBASH_LIB_DIR/virtualbox-install_base.sh"
+source "$LIB_DIR/osbash/lib-color.sh"
 
 function usage {
     echo "Usage: $0 {-b|-w} [-g GUI] [--no-color] [-n] {TARGET}"
@@ -220,7 +220,7 @@ MGMT_NET_IF=$(create_network "$MGMT_NET")
 DATA_NET_IF=$(create_network "$DATA_NET")
 API_NET_IF=$(create_network "$API_NET")
 #-------------------------------------------------------------------------------
-source "$OSBASH_LIB_DIR/virtualbox.install_nodes"
+source "$OSBASH_LIB_DIR/virtualbox-install_nodes.sh"
 vm_build_nodes "$CMD"
 #-------------------------------------------------------------------------------
 ENDTIME=$(date +%s)

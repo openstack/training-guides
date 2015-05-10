@@ -3,7 +3,7 @@ set -o errexit -o nounset
 TOP_DIR=$(cd "$(dirname "$0")/.." && pwd)
 source "$TOP_DIR/config/paths"
 source "$CONFIG_DIR/deploy.osbash"
-source "$OSBASH_LIB_DIR/functions.host"
+source "$OSBASH_LIB_DIR/functions-host.sh"
 
 # Get remote ssh port of target node (VM_SSH_PORT)
 source "$CONFIG_DIR/config.controller"

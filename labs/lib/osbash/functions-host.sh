@@ -1,6 +1,6 @@
 # This file contains bash functions that are used by osbash on the host.
 
-source "$LIB_DIR/functions"
+source "$LIB_DIR/functions.sh"
 
 #-------------------------------------------------------------------------------
 # Conditional execution

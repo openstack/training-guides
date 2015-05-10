@@ -682,7 +682,7 @@ function vbox_sleep {
 # Booting a VM and passing boot parameters
 #-------------------------------------------------------------------------------
 
-source "$OSBASH_LIB_DIR/scanlib"
+source "$OSBASH_LIB_DIR/scanlib.sh"
 
 function _vbox_push_scancode {
     local vm_name=$1
