@@ -53,6 +53,22 @@ function check_dashboard_settings {
 echo "Checking dashboard configuration."
 check_dashboard_settings
 
+function check_apache_service {
+    # Check if apache service is down, if not force retry a couple of times.
+    sleep 10
+    i=0
+    until service apache2 status | grep 'not running'; do
+        sudo service apache2 stop
+        sleep 10
+        i ++
+        if [ $i -gt 3]
+        then
+            break
+        fi
+    done
+}
+
 echo "Reloading apache and memcached service."
-sudo service apache2 restart
+sudo service apache2 stop
+check_apache_service
 sudo service memcached restart
