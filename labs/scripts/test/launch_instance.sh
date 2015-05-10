@@ -131,7 +131,7 @@ function wait_for_nova_compute {
                 echo "Aborting."
                 exit
             fi
-            echo -n k
+            echo -n .
         else
             echo
             echo "SUM ERROR nova-compute on compute node has died."
