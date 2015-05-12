@@ -6,6 +6,21 @@ Relevant actors
    :class: fill
    :width: 100%
 
+The OpenStack Community
+=======================
+
+- Created by a large growing community
+
+  - 24,000 people
+  - 495 supporting companies
+  - over 20 million lines of code
+
+- Most recent ("Kilo") release stats:
+
+  - 1,500 developers
+  - 170 different companies
+  - 20,000 patches
+
 Relevant actors
 ===============
 
