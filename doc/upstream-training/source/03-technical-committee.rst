@@ -1,10 +1,24 @@
-=============================
-OpenStack Technical Committee
-=============================
+====================
+OpenStack Governance
+====================
 
 .. image:: ./_assets/os_background.png
    :class: fill
    :width: 100%
+
+OpenStack Foundation
+====================
+
+- Nonprofit foundation created to "develop, support, protect, and promote"
+  OpenStack
+
+  - Individual members: all of us
+  - Institutional members: Platinum and Gold sponsors
+  - Led by a board of directors
+  - Creates other committees for day-to-day leadership
+
+    - Technical Committee
+    - User Committee
 
 The role of the Technical Committee
 ===================================
@@ -64,7 +78,7 @@ Active Project Contributor (APC)
 
 - Voters for a given program PTL
 - Subset of the Foundation Individual Member
-- Committed a change over the last two 6-month
+- Committed a change over the last two 6-month release cycles
 - Candidacy for the corresponding program PTL election
 
 Active Technical Contributor (ATC)
