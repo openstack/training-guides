@@ -68,7 +68,7 @@ http://docs.openstack.org/infra/manual/developers.html#development-workflow
 
 Understanding the remote tools in-depth:
 sources
-OpenStack CI pipeline documentation http://ci.openstack.org/
+OpenStack CI pipeline documentation http://docs.openstack.org/infra/system-config/
 Use Jay Pipes blog (and Pipes himself) as source http://www.joinfu.com/
 github (same links as above)
 gerrit
@@ -87,7 +87,7 @@ jeepy
 Nodepool
 Logstash
 zuul
-http://ci.openstack.org/zuul
+http://docs.openstack.org/infra/zuul
 Understanding the CI Pipeline in-depth
 Common jenkins tests
 Reviewing and understanding zuul
