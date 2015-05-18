@@ -7,18 +7,18 @@ function check_md5 {
     if ! md5exe=$(which md5sum); then
         # On Mac OS X, the tool is called md5
         if ! md5exe=$(which md5); then
-            echo >&2 "Neither md5sum nor md5 found. Aborting."
+            echo -e >&2 "${CError:-}Neither md5sum nor md5 found. Aborting.${CReset:-}"
             exit 1
         fi
     fi
-    echo >&2 -n "Verifying ISO image MD5 checksum: "
+    echo -e >&2 -n "${CStatus:-}Verifying ISO image MD5 checksum: ${CReset:-}"
     if $md5exe "$file" | grep -q "$csum"; then
         echo >&2 "okay."
     else
-        echo >&2 "Verification failed. ISO image is corrupt."
+        echo -e >&2 "${CError:-}Verification failed. ISO image is corrupt.${CReset:-}"
         echo >&2 "Removing the ISO image."
         rm "$file"
-        echo >&2 "Please re-run osbash script."
+        echo -e >&2 "${CError:-}Please re-run osbash script.${CReset:-}"
         exit 1
     fi
 }
@@ -46,7 +46,7 @@ function vm_install_base {
         local iso_name="$(get_iso_name)"
 
         if [  -z "$iso_name" ]; then
-            echo >&2 "Either ISO URL or name needed (ISO_URL, INSTALL_ISO)."
+            echo -e >&2 "${CMissing:-}Either ISO URL or name needed (ISO_URL, INSTALL_ISO).${CReset:-}"
             exit 1
         fi
         INSTALL_ISO=$ISO_DIR/$iso_name
@@ -54,7 +54,7 @@ function vm_install_base {
         ${OSBASH:-:} find_install-iso "$iso_name"
     fi
 
-    echo >&2 -e "Install ISO:\n\t$INSTALL_ISO"
+    echo >&2 -e "${CInfo:-}Install ISO:\n\t${CData:-}$INSTALL_ISO${CReset:-}"
 
     ${OSBASH:-:} check_md5 "$INSTALL_ISO" "$ISO_MD5"
 
@@ -108,14 +108,14 @@ function vm_install_base {
 
     vbox_distro_start_installer "$vm_name"
 
-    echo >&2 "Installing operating system; waiting for reboot"
+    echo -e >&2 "${CStatus:-}Installing operating system; waiting for reboot${CReset:-}"
 
     # Wait for ssh connection and execute scripts in autostart directory
     # (for wbatch, osbashauto does the processing instead)
     ${WBATCH:+:} ssh_process_autostart "$VM_BASE_SSH_PORT" &
     # After reboot
     wait_for_autofiles
-    echo >&2 "Installation done for VM $vm_name"
+    echo -e >&2 "${CStatus:-}Installation done for VM ${CData:-}$vm_name${CReset:-}"
 
     vm_wait_for_shutdown "$vm_name"
 
@@ -131,7 +131,7 @@ function vm_install_base {
     # a new disk next time the script runs.
     disk_unregister "$base_build_disk"
 
-    echo >&2 "Base disk created"
+    echo -e >&2 "${CStatus:-}Base disk created${CReset:-}"
 
     echo >&2 "Moving base disk to $base_disk"
     ${OSBASH:-:} mv -vf "$base_build_disk" "$base_disk"
@@ -139,7 +139,7 @@ function vm_install_base {
 
     ${WBATCH:-:} wbatch_end_file
 
-    echo >&2 -e "$(date) osbash vm_install ends\n"
+    echo >&2 -e "${CData:-}$(date) ${CStatus:-}osbash vm_install ends\n${CReset:-}"
 }
 
 # vim: set ai ts=4 sw=4 et ft=sh:

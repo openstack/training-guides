@@ -50,7 +50,7 @@ function yes_or_no {
                 return 0
                 ;;
             *)
-                echo "Invalid input: $input"
+                echo -e "${CError:-}Invalid input: ${CData:-}$input${CReset:-}"
                 ;;
         esac
     done

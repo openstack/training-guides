@@ -112,7 +112,7 @@ function vm_ssh {
 function wait_for_ssh {
     local ssh_port=$1
 
-    echo -n "Waiting for ssh server to respond on local port $ssh_port."
+    echo -e -n "${CStatus:-}Waiting for ssh server to respond on local port ${CData:-}$ssh_port.${CReset:-}"
     while [ : ]; do
         if vm_ssh "$ssh_port" exit ; then
             break
@@ -144,7 +144,7 @@ function ssh_exec_script {
         > "$log_path" 2>&1 || rc=$?
     if [ $rc -ne 0 ]; then
         echo >&2
-        echo "ERROR: ssh returned status $rc for $remote_path" |
+        echo -e "${CError:-}ERROR: ssh returned status ${CData:-}$rc${CError:-} for${CData:-} $remote_path${CReset:-}" |
             tee >&2 -a "$LOG_DIR/error.log"
         # kill osbash host scripts
         kill -- -$$
@@ -219,7 +219,7 @@ function wait_for_autofiles {
     if [ -f "$STATUS_DIR/done" ]; then
         rm "$STATUS_DIR/done"
     else
-        echo -e >&2 "\nERROR occured. Exiting."
+        echo -e >&2 "${CError:-}\nERROR occured. Exiting.${CReset:-}"
         kill -- -$$
     fi
     echo
@@ -303,7 +303,7 @@ function get_cmd_options {
                 vm_name=$OPTARG
                 ;;
             *)
-                echo >&2 "Error: bad option $OPTARG."
+                echo -e >&2 "${CError:-}Error: bad option ${CData:-}$OPTARG.${CReset:-}"
                 exit 1
                 ;;
         esac
@@ -371,7 +371,7 @@ function command_from_config {
             _autostart_queue "$script_rel_path"
             ;;
         *)
-            echo >&2 "Error: invalid cmd: $cmd"
+            echo -e >&2 "${CError:-}Error: invalid cmd: ${CData:-}$cmd${CReset:-}"
             exit 1
             ;;
     esac
@@ -383,7 +383,7 @@ function autostart_from_config {
     local config_path=$CONFIG_DIR/$config_file
 
     if [ ! -f "$config_path" ]; then
-        echo >&2 "Config file not found: $config_file"
+        echo -e >&2 "${CMissing:-}Config file not found: ${CData:-}$config_file${CReset:-}"
         return 1
     fi
 
@@ -400,7 +400,7 @@ function autostart_from_config {
             command_from_config $field_2
         else
             # Syntax error
-            echo -n >&2 "ERROR in $config_file: '$field_1"
+            echo -e -n >&2 "${CError:-}ERROR in ${CInfo:-}$config_file: ${CData:-}'$field_1${CReset:-}"
             if [ -n "$field_2" ]; then
                 echo >&2 " $field_2'"
             else
@@ -433,7 +433,7 @@ function download {
         fi
     fi
     if [ $rc -ne 0 ]; then
-        echo >&2 "Unable to download $url, quitting."
+        echo -e >&2 "${CError:-}Unable to download ${CData:-}$url${CError:-}, quitting.${CReset:-}"
         exit 1
     fi
 }
