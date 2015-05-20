@@ -66,21 +66,6 @@ Exercise
 
   - read tc.2014-04-01-20.03.log.html and briefly comment on keystone document
 
-Project Team Leads (PTLs)
-=========================
-
-- Manage day-to-day operations
-- Drive the program goals
-- Resolve technical disputes
-
-Active Project Contributor (APC)
-=================================
-
-- Voters for a given program PTL
-- Subset of the Foundation Individual Member
-- Committed a change over the last two 6-month release cycles
-- Candidacy for the corresponding program PTL election
-
 Active Technical Contributor (ATC)
 ======================================
 
@@ -94,6 +79,21 @@ automatically considered an ATC.
 - Same as APC
 - Bug triagers, technical documentation writers, etc can exceptionally apply
   for ATC
+
+Active Project Contributor (APC)
+=================================
+
+- Voters for a given program PTL
+- Subset of the Foundation Individual Member
+- Committed a change over the last two 6-month release cycles
+- Candidacy for the corresponding program PTL election
+
+Project Team Leads (PTLs)
+=========================
+
+- Manage day-to-day operations
+- Drive the program goals
+- Resolve technical disputes
 
 Exercise
 ========
