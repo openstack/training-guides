@@ -22,13 +22,17 @@ source "$OSBASH_LIB_DIR/virtualbox-install_base.sh"
 source "$LIB_DIR/osbash/lib-color.sh"
 
 function usage {
-    echo "Usage: $0 {-b|-w} [-g GUI] [--no-color] [-n] {TARGET}"
+    echo "Usage: $0 {-b|-w} [-g GUI] [--no-color] [-n] [-t SNAP] {TARGET}"
     # Don't advertise export until it is working properly
     # echo "       $0 [-e EXPORT] [-n] NODE [NODE..]"
     echo
     echo "-h|--help  Help"
     echo "-n         Print configuration status and exit"
     echo "-b         Build basedisk (if necessary) and node VMs (if any)"
+
+    # Don't use -t directly, have tools/repeat-test.sh call it
+    #echo "-t SNAP    Jump to snapshot SNAP and continue build"
+
     echo "-w         Create Windows batch files"
     echo "-g GUI     GUI type during build"
     #echo "-e EXPORT Export node VMs"
@@ -38,6 +42,10 @@ function usage {
     echo "           cluster : build OpenStack cluster [all nodes]"
     echo "                     (and basedisk if necessary)"
     echo "GUI        gui, sdl, or headless (GUI type for VirtualBox)"
+
+    # Don't use -t SNAP directly, have tools/repeat-test.sh call it
+    #echo "SNAP       Name of snapshot from which build continues"
+
     #echo "EXPORT    ova (OVA package file) or dir (VM clone directory)"
     exit
 }
@@ -67,11 +75,16 @@ function print_config {
 
         # GUI is the VirtualBox default
         echo -e "${CInfo:-}GUI type:${CData:-} ${VM_UI:-gui}${CReset:-}"
+
+        if [ -n "${JUMP_SNAPSHOT:-}" ]; then
+            echo -e "${CInfo:-}Continuing from snapshot:" \
+                    "${CData:-}${JUMP_SNAPSHOT}${CReset:-}"
+        fi
     fi
 
 }
 
-while getopts :be:g:-:hnw opt; do
+while getopts :be:g:-:hnt:w opt; do
     case $opt in
         e)
             if [ "$OPTARG" = ova ]; then
@@ -115,6 +128,9 @@ while getopts :be:g:-:hnw opt; do
             ;;
         n)
             INFO_ONLY=1
+            ;;
+        t)
+            JUMP_SNAPSHOT=$OPTARG
             ;;
         w)
             source "$LIB_DIR/wbatch/batch_for_windows"
