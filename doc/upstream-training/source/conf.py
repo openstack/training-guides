@@ -1,8 +1,16 @@
-# -*- coding: utf-8 -*-
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
 #
-# OpenStack Upstream Training documentation build configuration file, created by
-# sphinx-quickstart on Sat Nov  1 14:32:31 2014.
+#    http://www.apache.org/licenses/LICENSE-2.0
 #
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+# implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 # This file is execfile()d with the current directory set to its
 # containing dir.
 #
@@ -30,7 +38,6 @@ import os
 # ones.
 extensions = [
     'sphinx.ext.doctest',
-    'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
     'sphinx.ext.pngmath',
@@ -50,8 +57,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'OpenStack Upstream Training'
-copyright = u'2014, Loic, Stefano and others'
+project = u'Upstream Training Guide'
+copyright = u'2014-2015, OpenStack contributors'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -183,28 +190,28 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'OpenStackUpstreamTrainingdoc'
+htmlhelp_basename = 'upstream-training-guide'
 
 
 # -- Options for LaTeX output ---------------------------------------------
 
 latex_elements = {
-# The paper size ('letterpaper' or 'a4paper').
-#'papersize': 'letterpaper',
+    # The paper size ('letterpaper' or 'a4paper').
+    #'papersize': 'letterpaper',
 
-# The font size ('10pt', '11pt' or '12pt').
-#'pointsize': '10pt',
+    # The font size ('10pt', '11pt' or '12pt').
+    #'pointsize': '10pt',
 
-# Additional stuff for the LaTeX preamble.
-#'preamble': '',
+    # Additional stuff for the LaTeX preamble.
+    #'preamble': '',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'OpenStackUpstreamTraining.tex', u'OpenStack Upstream Training Documentation',
-   u'Loic, Stefano and others', 'manual'),
+    ('index', 'UpstreamTrainingGuide.tex', u'Upstream Training Guide',
+     u'OpenStack contributors', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -232,10 +239,10 @@ latex_documents = [
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-#man_pages = [
-#    ('index', 'openstackupstreamtraining', u'OpenStack Upstream Training Documentation',
-#     [u'Loic, Stefano and others'], 1)
-#]
+man_pages = [
+    ('index', 'upstream-training-guide', u'Upstream Training Guide',
+     [u'OpenStack contributors'], 1)
+]
 
 # If true, show URL addresses after external links.
 #man_show_urls = False
@@ -246,11 +253,12 @@ latex_documents = [
 # Grouping the document tree into Texinfo files. List of tuples
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
-#texinfo_documents = [
-#  ('index', 'OpenStackUpstreamTraining', u'OpenStack Upstream Training Documentation',
-#   u'Loic, Stefano and others', 'OpenStackUpstreamTraining', 'One line description of project.',
-#   'Miscellaneous'),
-#]
+texinfo_documents = [
+    ('index', 'UpstreamTrainingGuide', u'Upstream Training Guide',
+     u'OpenStack contributors', 'UpstreamTrainingGuide',
+     'This guide shows how to work with the OpenStack upstream.',
+     'Miscellaneous'),
+]
 
 # Documents to append as an appendix to all manuals.
 #texinfo_appendices = []
@@ -267,26 +275,18 @@ latex_documents = [
 
 # -- Hieroglyph Slide Configuration ------------
 
-extensions += [
-    'hieroglyph',
-]
+extensions += ['hieroglyph']
 
 #slide_theme = 'slides'
 slide_theme = 'single-level'
 slide_levels = 3
-slide_footer = '<img alt="OS logo" src="_static/os_logo_small.png" style="width: 4em;">'
+slide_footer = ('<img alt="OS logo" src="_static/os_logo_small.png" '
+                'style="width: 4em;">')
 
 # Place custom static assets in the _static directory and uncomment
 # the following lines to include them
 
 slide_theme_options = {
-     'custom_css': 'custom.css',
- }
+    'custom_css': 'custom.css',
+}
 #'custom_js': 'custom.js',
-
-# ----------------------------------------------
-
-
-
-# Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'http://docs.python.org/': None}
