@@ -275,6 +275,8 @@ extensions += [
 #slide_theme = 'slides2'
 slide_theme = 'single-level'
 slide_levels = 3
+slide_footer = ('<img alt="OS logo" src="_static/os_logo_small.png" '
+                'style="width: 4em;">')
 
 # Place custom static assets in the _static directory and uncomment
 # the following lines to include them
