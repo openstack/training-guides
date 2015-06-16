@@ -41,3 +41,11 @@ article h2 {
     color: rgb(133,11,19);
 }
 
+.slide-footer {
+    position: absolute;
+    bottom: 1ex;
+    right: 1em;
+    font-size: 66%;
+    text-align: right;
+    z-index: -2;
+}
