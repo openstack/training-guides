@@ -1,37 +1,32 @@
-.. Upstream Training documentation master file, created by
-   sphinx-quickstart on Sat Nov  1 12:04:55 2014.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+===========================
+OpenStack Upstream Training
+===========================
 
-Welcome to Upstream Training's documentation!
-=============================================
+.. image:: ./_assets/os_background.png
+   :class: fill
+   :width: 100%
 
-Contents:
+.. slide::
 
-.. toctree::
-   :maxdepth: 1
+ * `OpenStack Release Cycle <01-release-cycle.html>`_
+ * `Relevant actors <02-relevant-actors.html>`_
+ * `OpenStack Governance <03-technical-committee.html>`_
+ * `OpenStack "Big Tent" and tags <04-program-ecosystem.html>`_
+ * `OpenStack Design Summit <05-design-summit.html>`_
+ * `IRC meetings <06-irc-meetings.html>`_
 
-   01-release-cycle
-   02-relevant-actors
-   03-technical-committee
-   04-program-ecosystem
-   05-design-summit
-   06-irc-meetings
-   11-devstack
-   12-howtocontribute
-   13-launchpad
-   14-gerrit
-   15-branching-model
-   16-reviewing
-   17-commit-message
-   18-jenkins
-   19-training-contribution-process
-   20-training-agile-for-contributors
+.. slide::
 
-Indices and tables
-==================
+ * `devstack.org <11-devstack.html>`_
+ * `How to contribute <12-howtocontribute.html>`_
+ * `launchpad.net <13-launchpad.html>`_
+ * `review.openstack.org <14-gerrit.html>`_
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. slide::
 
+ * `Branching model <15-branching-model.html>`_
+ * `Reviewing <16-reviewing.html>`_
+ * `Commit messages <17-commit-message.html>`_
+ * `Jenkins <18-jenkins.html>`_
+ * `Overview of the contribution process <19-training-contribution-process.html>`_
+ * `Lego applied to Free Software contributions <20-training-agile-for-contributors.html>`_

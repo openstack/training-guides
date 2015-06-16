@@ -1,6 +1,6 @@
-==========
-Reviewving
-==========
+=========
+Reviewing
+=========
 
 .. image:: ./_assets/os_background.png
    :class: fill
