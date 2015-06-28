@@ -30,6 +30,16 @@ echo "Installing networking components for network node."
 sudo apt-get install -y neutron-plugin-ml2 neutron-plugin-openvswitch-agent \
     neutron-l3-agent neutron-dhcp-agent
 
+# neutron-l3-agent has just been installed and is about to start. We are also
+# about to change its configuration file which tends to result in the agent
+# starting up with our changed configuration before the external bridge is
+# ready which ends with a misconfigured system (port with tag=4095). We can
+# either wait here for neutron-l3-agent to start with the old configuration
+# files, or shut it down now and start it with the new configuration files once
+# configuration files _and_ the external bridge are ready.
+echo "Stopping neutron-l3-agent for now."
+#sudo service neutron-l3-agent stop
+
 echo "Configuring neutron for network node."
 
 neutron_admin_user=$(service_to_user_name neutron)
@@ -175,6 +185,19 @@ ping -c 1 controller-api
 echo "Restarting the network service."
 sudo service neutron-plugin-openvswitch-agent restart
 sudo service neutron-l3-agent restart
+
+echo -n "Checking VLAN tags."
+# Wait for "tag:" to show up
+until sudo ovs-vsctl show|grep tag:; do
+    echo -n "."
+    sleep 1
+done
+if sudo ovs-vsctl show|grep "tag: 4095"; then
+    # tag: 4095 indicates an error
+    echo >&2 "ERROR: port is in limbo and won't recover:"
+    grep tag=4095 /etc/openvswitch/conf.db >&2
+    exit 1
+fi
 
 echo -n "Getting router namespace."
 until ip netns|grep qrouter; do
