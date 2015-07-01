@@ -15,6 +15,10 @@ Agile manifesto
 - Working software is the principal measure of progress
 - Sustainable development, able to maintain a constant pace
 - Close, daily co-operation between business people and developers
+
+Agile manifesto (cont.)
+=======================
+
 - Face-to-face conversation is the best form of communication (co-location)
 - Projects are built around motivated individuals, who should be trusted
 - Continuous attention to technical excellence and good design
