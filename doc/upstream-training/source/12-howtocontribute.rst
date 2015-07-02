@@ -13,6 +13,12 @@ http://launchpad.net/
 .. image:: ./_assets/12-01-launchpad-net.png
   :width: 75%
 
+https://www.openstack.org/join/
+===============================
+
+.. image:: ./_assets/12-join-openstack-org.png
+  :width: 100%
+
 http://review.openstack.org
 ===========================
 
@@ -48,6 +54,11 @@ Do you work at a company?
 
 - If your contribution is on behalf of a company, have your managers sign the
   Corporate Contributor License Agreement
+- When signing up for Foundation Membership, make sure to give the same email
+  address you’ll use for code contributions.
+
+  - This will need to match your preferred email address in Gerrit.
+
 - http://docs.openstack.org/infra/manual/developers.html#account-setup
 
 Signed agreement
