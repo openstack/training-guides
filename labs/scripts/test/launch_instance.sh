@@ -680,8 +680,38 @@ echo "Checking the status of your floating IP address."
 nova list
 
 echo
-echo "Verifying network connectivity to instance VM."
-ping -c1 "$floating_ip"
+echo -n "Verifying network connectivity to instance VM (may take 2+ min)."
+# Since Juno, the floating IP often takes a long time to become pingable.
+# Hopefully, this will be fixed, but for the time being we just ping the
+# floating IP until we get a reply (or we reach a time limit and give up).
+function patient_ping {
+    local ip=$1
+    local cnt=0
+
+    while [ : ]; do
+        echo -n .
+        sleep 1
+
+        # Ping the instance VM every ten seconds
+        if [[ $((cnt % 10)) -eq 0 ]]; then
+            if ping -c1 "$floating_ip" > /dev/null ; then
+                ping -c1 "$floating_ip"
+                echo "SUM ping instance VM after $cnt seconds."
+                break
+            fi
+        fi
+
+        # Abort if it takes too long
+        if [[ $cnt -gt 600 ]]; then
+            echo "SUM ERROR no ping for instance VM in $cnt seconds. Aborting."
+            exit 1
+        fi
+
+        cnt=$((cnt + 1))
+    done
+}
+
+patient_ping "$floating_ip"
 
 echo
 echo "Accessing our instance using SSH from the controller node."
