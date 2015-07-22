@@ -107,7 +107,7 @@ Getting started quiz questions
     apply)**
 
   #. KVM
-  #. VMware vShpere 4.1, update 1 or greater
+  #. VMware vSphere 4.1, update 1 or greater
   #. bhyve (BSD)
   #. Xen
   #. LXC
