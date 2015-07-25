@@ -38,7 +38,7 @@ sudo apt-get install -y neutron-plugin-ml2 neutron-plugin-openvswitch-agent \
 # files, or shut it down now and start it with the new configuration files once
 # configuration files _and_ the external bridge are ready.
 echo "Stopping neutron-l3-agent for now."
-#sudo service neutron-l3-agent stop
+sudo service neutron-l3-agent stop
 
 echo "Configuring neutron for network node."
 
