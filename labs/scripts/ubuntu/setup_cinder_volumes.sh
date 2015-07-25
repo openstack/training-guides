@@ -131,7 +131,7 @@ function check_cinder_services {
             echo "Cinder services seem to be up and running!"
             return 0
         fi
-        ((i++))
+        i=$((i + 1))
         if [[ "$i" -gt "20" ]]; then
             echo "Error, cinder services are not working as expected."
             exit 0
@@ -171,7 +171,7 @@ function wait_for_cinder_volume {
             # The purpose of this method is to resolve cinder-volumes race.
             return 0
         fi
-        ((i++))
+        i=$((i + 1))
         if [[ "$i" -gt "20" ]]; then
             echo "Error creating cinder volume."
             echo "[Warning]: Debug cinder volumes service on the compute node.
