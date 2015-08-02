@@ -127,9 +127,9 @@ function wait_for_nova_compute {
                 grep -q "start/running"; then
             if [ $cnt -eq 300 ]; then
                 # This should never happen.
-                echo "SUM ERROR nova-compute remains XXX while up."
+                echo "SUM ABORT nova-compute remains XXX while up."
                 echo "Aborting."
-                exit
+                exit 1
             fi
             echo -n .
         else
