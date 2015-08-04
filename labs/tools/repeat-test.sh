@@ -121,5 +121,9 @@ while [ : ]; do
     fi
     )
 
+    echo "Copying osbash log files into $dir."
+    mv "$LOG_DIR/"*.auto "$LOG_DIR/"*.log "$dir"
+
+    echo "Copying upstart log files into $dir."
     "$TOP_DIR/tools/get_upstart_logs.sh" "$dir"
 done
