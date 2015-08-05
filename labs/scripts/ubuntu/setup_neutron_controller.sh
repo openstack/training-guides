@@ -40,7 +40,7 @@ keystone service-create \
 neutron_service_id=$(keystone service-list | awk '/ network / {print $2}')
 keystone endpoint-create \
     --service-id "$neutron_service_id" \
-    --publicurl "http://controller-api:9696" \
+    --publicurl "http://controller-mgmt:9696" \
     --adminurl "http://controller-mgmt:9696" \
     --internalurl "http://controller-mgmt:9696" \
     --region "$REGION"
@@ -73,7 +73,7 @@ iniset_sudo $conf DEFAULT rabbit_password "$RABBIT_PASSWORD"
 iniset_sudo $conf DEFAULT auth_strategy keystone
 
 # Configuring [keystone_authtoken] section
-iniset_sudo $conf keystone_authtoken auth_uri "http://controller-mgmt:5000"
+iniset_sudo $conf keystone_authtoken auth_uri "http://controller-mgmt:5000/v2.0"
 iniset_sudo $conf keystone_authtoken identity_uri "http://controller-mgmt:35357"
 iniset_sudo $conf keystone_authtoken admin_tenant_name "$SERVICE_TENANT_NAME"
 iniset_sudo $conf keystone_authtoken admin_user "$neutron_admin_user"
