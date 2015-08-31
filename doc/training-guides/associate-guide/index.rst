@@ -1,18 +1,21 @@
+===========================================
 OpenStack Training Guides - Associate Guide
 ===========================================
 
-Contents:
+.. image:: ../figures/os_background.png
+   :class: fill
+   :width: 100%
 
-.. toctree::
-   :maxdepth: 1
+Modules
+=======
 
-   02-getting-started-quiz
-   06-compute-node-quiz
-   07-associate-network-node
+- `OpenStack networking <07-associate-network-node.html>`_
 
-Indices and tables
-==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+Quizzes
+=======
+
+- `Getting started <02-getting-started-quiz.html>`_
+- `Compute node <06-compute-node-quiz.html>`_
+
+
