@@ -64,20 +64,22 @@ Complete list of supported plugins https://wiki.openstack.org/wiki/Neutron_Plugi
 
 .. note::
 
-    Plugin list taken from: http://docs.openstack.org/admin-guide-cloud/content/section_plugin-arch.html
+   Plugin list taken from:
+   http://docs.openstack.org/admin-guide-cloud/networking_config-plugins.html
 
-    - Big Switch, Floodlight REST Proxy: http://www.openflowhub.org/display/floodlightcontroller/Quantum+REST+Proxy+Plugin
-    - Brocade Plugin
-    - Cisco: Documented externally at: https://wiki.openstack.org/wiki/Cisco-neutron
-    - Hyper-V Plugin
-    - Linux Bridge: Documentation included in this guide and
-        https://wiki.openstack.org/wiki/Neutron-Linux-Bridge-Plugin
-    - Midonet Plugin
-    - NEC OpenFlow: https://wiki.openstack.org/wiki/Neutron/NEC_OpenFlow_Plugin
-    - Open vSwitch: Documentation included in this guide.
-    - PLUMgrid: https://wiki.openstack.org/wiki/PLUMgrid-Neutron
-    - VMware NSX: Documentation include in this guide, NSX Product Overview ,
-      and NSX Product Support.
+   - Big Switch, Floodlight REST Proxy:
+     http://www.openflowhub.org/display/floodlightcontroller/Quantum+REST+Proxy+Plugin
+   - Brocade Plugin
+   - Cisco: Documented externally at: https://wiki.openstack.org/wiki/Cisco-neutron
+   - Hyper-V Plugin
+   - Linux Bridge: Documentation included in this guide and
+     https://wiki.openstack.org/wiki/Neutron-Linux-Bridge-Plugin
+   - Midonet Plugin
+   - NEC OpenFlow: https://wiki.openstack.org/wiki/Neutron/NEC_OpenFlow_Plugin
+   - Open vSwitch: Documentation included in this guide.
+   - PLUMgrid: https://wiki.openstack.org/wiki/PLUMgrid-Neutron
+   - VMware NSX: Documentation include in this guide, NSX Product Overview,
+     and NSX Product Support.
 
 Components of OpenStack Networking
 ==================================
