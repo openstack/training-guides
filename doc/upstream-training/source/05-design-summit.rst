@@ -15,7 +15,7 @@ cycle.
 .. image:: ./_assets/05-01-design-summit.png
 
 How does it work?
-==================
+=================
 
 - Not a classic conference with presenter and audience
   - more like a collaborative brainstorming session
@@ -62,9 +62,9 @@ Types of sessions
   * Tables informally available for new/small teams
 
 List of sessions
-===========================
+================
 
-- https://libertydesignsummit.sched.org/overview/type/design+summit
+- https://mitakadesignsummit.sched.org/overview/type/design+summit
 
 Selection of sessions
 =====================
