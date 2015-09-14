@@ -67,6 +67,22 @@ Module contributors
 .. image:: ./_assets/02-05-module-contributors.png
   :width: 95%
 
+OpenStack Activity - Dashboard
+==============================
+
+activity.openstack.org
+
+.. image:: ./_assets/02-07-activity-dashboard.png
+  :width: 100%
+
+OpenStack Activity - Other Metrics
+==================================
+
+activity.openstack.org
+
+.. image:: ./_assets/02-08-activity-metrics.png
+  :width: 100%
+
 Your management
 ===============
 
