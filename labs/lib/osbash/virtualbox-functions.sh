@@ -135,7 +135,7 @@ function create_network {
     ${OSBASH:+:} mktemp -u XXXXXXXX
     ${OSBASH:+:} return 0
 
-    local if_name="$(ip_to_hostonlyif "$ip")"
+    local if_name=$(ip_to_hostonlyif "$ip")
     if [ -n "$if_name" ]; then
         if hostonlyif_in_use "$if_name"; then
             echo >&2 "Host-only interface $if_name ($ip) is in use." \
@@ -451,7 +451,7 @@ function vm_export_dir {
         # don't register the VM above. Unregistering the registered VM takes
         # care of the snapshots, but we still have to unregister the clone
         # basedisk.
-        local snapshot_path="$(vm_get_disk_path "$node-e")"
+        local snapshot_path=$(vm_get_disk_path "$node-e")
         local hd_dir=${snapshot_path%Snapshots/*}
         local hd_path=$hd_dir$(get_base_disk_name)
         $VBM unregistervm "$node-e"
@@ -481,7 +481,7 @@ function vm_delete {
     if vm_exists "$vm_name"; then
         echo >&2 "(found)"
         vm_power_off "$vm_name"
-        local hd_path="$(vm_get_disk_path "$vm_name")"
+        local hd_path=$(vm_get_disk_path "$vm_name")
         if [ -n "$hd_path" ]; then
             echo >&2 -e "${CInfo:-}Disk attached: ${CData:-}$hd_path${CReset:-}"
             vm_detach_disk "$vm_name"
@@ -519,10 +519,10 @@ function disk_delete_child_vms {
     while [ : ]; do
         local child_uuid=$(get_next_child_uuid "$disk")
         if [ -n "$child_uuid" ]; then
-            local child_disk="$(disk_to_path "$child_uuid")"
+            local child_disk=$(disk_to_path "$child_uuid")
             echo >&2 -e "\nChild disk UUID: $child_uuid\n\t$child_disk"
 
-            local vm_name="$(disk_to_vm "$child_uuid")"
+            local vm_name=$(disk_to_vm "$child_uuid")
             if [ -n "$vm_name" ]; then
                 echo 2>&1 -e "\tstill attached to VM \"$vm_name\""
                 vm_delete "$vm_name"

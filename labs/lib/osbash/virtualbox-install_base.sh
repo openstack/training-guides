@@ -43,7 +43,7 @@ function vm_install_base {
     vm_mem "$vm_name" "${VM_BASE_MEM:=512}"
 
     if [ -z "${INSTALL_ISO-}" ]; then
-        local iso_name="$(get_iso_name)"
+        local iso_name=$(get_iso_name)
 
         if [  -z "$iso_name" ]; then
             echo -e >&2 "${CMissing:-}Either ISO URL or name needed (ISO_URL, INSTALL_ISO).${CReset:-}"

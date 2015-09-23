@@ -135,7 +135,7 @@ function ssh_exec_script {
 
     echo -en "\n$(date) start $remote_path"
 
-    local script_name="$(basename "$script_path" .sh)"
+    local script_name=$(basename "$script_path" .sh)
     local prefix=$(get_next_prefix "$LOG_DIR" "auto")
     local log_path=$LOG_DIR/${prefix}_${script_name}.auto
 

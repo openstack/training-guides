@@ -83,7 +83,7 @@ function get_next_prefix {
     local digits=${3:-3}
 
     # Get number of *.$ext files in $dir
-    local cnt="$(get_next_file_number "$dir" "$ext")"
+    local cnt=$(get_next_file_number "$dir" "$ext")
 
     printf "%0${digits}d" "$cnt"
 }

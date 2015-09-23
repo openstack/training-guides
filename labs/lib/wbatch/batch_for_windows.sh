@@ -149,10 +149,10 @@ function wbatch_mkdirs {
     local logdir=$(wbatch_path_to_windows "$LOG_DIR")
     local statusdir=$(wbatch_path_to_windows "$STATUS_DIR")
 
-    autodir="$(wbatch_escape_backslash "$autodir")"
-    imgdir="$(wbatch_escape_backslash "$imgdir")"
-    logdir="$(wbatch_escape_backslash "$logdir")"
-    statusdir="$(wbatch_escape_backslash "$statusdir")"
+    autodir=$(wbatch_escape_backslash "$autodir")
+    imgdir=$(wbatch_escape_backslash "$imgdir")
+    logdir=$(wbatch_escape_backslash "$logdir")
+    statusdir=$(wbatch_escape_backslash "$statusdir")
 
     sed -e "
         s,%P_AUTODIR%,$autodir,g;
