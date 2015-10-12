@@ -10,6 +10,7 @@ Modules
 =======
 
 - `OpenStack networking <07-associate-network-node.html>`_
+- `OpenStack compute <compute-overview.html>`_
 
 
 Quizzes
