@@ -22,6 +22,9 @@ the project's technical tools and social interactions. In a followup session,
 the students benefit from individual online sessions to help them resolve any
 remaining problems they might have.
 
+
+:doc:`upstream-details`
+
 When & Where to get OpenStack Upstream Training
 ===============================================
 
