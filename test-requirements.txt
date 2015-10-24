@@ -2,10 +2,10 @@
 # of appearance. Changing the order has an impact on the overall integration
 # process, which may cause wedges in the gate later.
 doc8  # Apache-2.0
-pbr>=0.6,<1.0
+pbr>=1.6
 oslosphinx
 openstack-doc-tools>=0.30
 sphinx>=1.1.2,!=1.2.0,!=1.3b1,<1.3
-openstackdocstheme>=1.0.7
+openstackdocstheme>=1.2.3
 hieroglyph>=0.7.1
 bashate # pep8 equivalent for bash scripts
