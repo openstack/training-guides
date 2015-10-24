@@ -106,6 +106,7 @@ Outline and online slide index
 How OpenStack is made
 ---------------------
 
+* `Release cycle <01-release-cycle.html>`_
 * `Relevant actors <02-relevant-actors.html>`_
 * `OpenStack Governance <03-technical-committee.html>`_
 * `OpenStack "Big Tent" and tags <04-program-ecosystem.html>`_
