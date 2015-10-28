@@ -63,9 +63,9 @@ processes for mentors and staff are kept on the
 `admin <https://wiki.openstack.org/wiki/OpenStack_Upstream_Training/Admin>`_
 page.
 
-**Still looking for help: please
-`register <http://goo.gl/forms/fczq3NZ16g>`_ and add yourself to the list
-below.**
+**Still looking for help: please**
+`register <http://goo.gl/forms/fczq3NZ16g>`_
+**and add yourself to the list below.**
 
 * Tim Freund <tim@freunds.net> (training, mentoring, assistant, english)
 * Chris Ricker <chris.ricker@gmail.com> (training, mentoring, assistant,
