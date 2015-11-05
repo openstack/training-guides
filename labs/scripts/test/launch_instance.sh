@@ -200,7 +200,7 @@ function wait_for_neutron_agents {
     (
     source "$CONFIG_DIR/admin-openstackrc.sh"
     neutron agent-list | sort > "$agent_list"
-    local out=$(grep " :-)  " "$agent_list" || rc=$?)
+    local out=$(grep " :-)  " "$agent_list")
     if [ -n "$out" ]; then
         echo
         echo "$out"
