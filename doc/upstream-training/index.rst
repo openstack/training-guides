@@ -28,8 +28,14 @@ remaining problems they might have.
 When & Where to get OpenStack Upstream Training
 ===============================================
 
-Next session of the OpenStack Upstream Training will be in Tokyo, before the
-OpenStack Summit.
+.. note::
+
+   OpenStack Upstream Training in Tokyo has ended.
+   Next session will be in Austin, Texas in April 2016 just before the
+   `OpenStack Summit <https://www.openstack.org/summit/austin-2016/>`_.
+
+The last session of the OpenStack Upstream Training was completed
+in Tokyo, before the OpenStack Summit.
 `Students can register here <http://goo.gl/forms/qAr3N8rdYs>`_ and
 `assistants and mentors can register here <http://goo.gl/forms/fczq3NZ16g>`_.
 
