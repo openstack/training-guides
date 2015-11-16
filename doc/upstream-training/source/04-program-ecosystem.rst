@@ -87,25 +87,9 @@ Stackforge
 .. image:: ./_assets/04-05-stackforge.png
   :width: 100%
 
-- Gerrit code review
-- Jenkins continuous integration
-- Git repository
-- IRC bots, pypi uploads...
-
-What is Stackforge for
-======================
-
-.. image:: ./_assets/04-06-stackforge.png
-  :width: 100%
-
-- Maintain related unofficial projects
-- Same tools and procedures used by the main projects
-
-How to add a project to Stackforge
-==================================
-
-.. image:: ./_assets/04-07-stackforge.png
-  :width: 100%
+- Stackforge was used for new unofficial projects, but retired on Aug 2015
+- Replaced by Big Tent initiative
+- Used the same processes and tools as the main OpenStack projects
 
 Exercise
 ========
