@@ -23,17 +23,24 @@ OpenStack Foundation
 The role of the Technical Committee
 ===================================
 
-.. rst-class:: colleft
-
 The Technical Committee ("TC") is tasked with providing technical leadership
 over all the OpenStack projects. It enforces OpenStack ideals (Openness,
 Transparency, Commonality, Integration, Quality), decides on issues affecting
 multiple programs, forms an ultimate appeals board for technical decisions,
 and generally has oversight over the OpenStack project entirely.
 
+- https://www.openstack.org/foundation/tech-committee/
+
+Technical Committee Members
+===========================
+
+.. rst-class:: colleft
+
+.. image:: ./_assets/03-01-TC1.png
+
 .. rst-class:: colright
 
-.. image:: ./_assets/03-01-TC.png
+.. image:: ./_assets/03-01-TC2.png
 
 OpenStack Project Teams
 =======================
