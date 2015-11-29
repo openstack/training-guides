@@ -290,3 +290,6 @@ slide_theme_options = {
     'custom_css': 'custom.css',
 }
 #'custom_js': 'custom.js',
+
+# -- Options for Internationalization output ------------------------------
+locale_dirs = ['locale/']

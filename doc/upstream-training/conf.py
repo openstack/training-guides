@@ -280,4 +280,4 @@ texinfo_documents = [
 # texinfo_no_detailmenu = False
 
 # -- Options for Internationalization output ------------------------------
-locale_dirs = ['locale/']
+locale_dirs = ['source/locale/']
