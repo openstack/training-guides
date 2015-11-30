@@ -54,8 +54,8 @@ How to prepare
 * Make sure you have a wifi enabled laptop with you.
 * Create a virtual machine on the laptop with Ubuntu 12.04 or 14.04 installed
   and 4GB of RAM.
-* Check that a you can ssh from your laptop to the virtual machine
-* Check that apt-get install works from within the virtual machine
+* Check that you can ssh from your laptop to the virtual machine
+* Check that :command:`apt-get install` works from the virtual machine
 * Get in touch with the team upstream-training@openstack.org to pick
   a contribution to work on.
 
