@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-11-28 04:25+0000\n"
+"PO-Revision-Date: 2015-11-29 08:50+0000\n"
 "Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
@@ -82,6 +82,9 @@ msgstr "1일차 1주일 전: 각 대상자와 함께 이메일을 통한 기여 
 msgid "Abstract"
 msgstr "요약"
 
+msgid "Acknowledge the language barrier"
+msgstr "언어 장벽을 인정"
+
 msgid "Active Project Contributor (APC)"
 msgstr "Active Project Contributor (APC)"
 
@@ -146,6 +149,9 @@ msgstr "기록을 보관하고 수집합니다."
 msgid "As these grow naturally they can apply to become Official"
 msgstr "자연스럽게 점차 커지면 공식이 되도록 지원할 수 있습니다"
 
+msgid "Assess your approach"
+msgstr "접근 방식에 대한 평가"
+
 msgid "Assess your approach."
 msgstr "접근 방식에 대해 평가해 봅니다."
 
@@ -160,6 +166,12 @@ msgstr "Design Summit에서"
 
 msgid "Bad workflow"
 msgstr "나쁜 작업 흐름"
+
+msgid "Bad: new feature and refactor"
+msgstr "안 좋은: 새로운 기능 및 리팩토링"
+
+msgid "Bad: two independent changes"
+msgstr "안 좋은: 두 개의 독립적인 변경 사항"
 
 msgid ""
 "Based on the Kilo release schedule, find the URL of a document or a patch "
@@ -190,7 +202,7 @@ msgid "Bring a laptop with wifi + 4GB RAM Ubuntu virtual machine"
 msgstr "Wifi를 지원하는 노트북 및 4GB 램을 가진 Ubuntu 가상 머신을 준비합니다"
 
 msgid "Bug"
-msgstr "버그"
+msgstr "Bug"
 
 msgid "Bug fixing"
 msgstr "버그 수정"
@@ -235,6 +247,9 @@ msgstr "CI 투표"
 msgid "Candidacy for the corresponding program PTL election"
 msgstr "대응하는 프로그램에 대한 PTL 선거에 대한 입후보 자격"
 
+msgid "Change-id"
+msgstr "Change-id"
+
 msgid "Changes to Nova's internal AMQP API"
 msgstr "Nova 내부 AMQP API에 대한 변경 사항"
 
@@ -267,6 +282,9 @@ msgstr "명확히 소개합니다"
 msgid "Cleber Rosa (mentoring, assistant, portuguese)"
 msgstr "Cleber Rosa (멘터링, 조교, 포르투갈어)"
 
+msgid "Code speaks : run gource"
+msgstr "코드가 말하는 것 : 소스 실행"
+
 msgid "Commit messages"
 msgstr "커밋 메시지"
 
@@ -284,6 +302,9 @@ msgstr "회사"
 
 msgid "Company & Upstream product owner"
 msgstr "회사 & Upstream 제품 소유자"
+
+msgid "Company employees"
+msgstr "회사 근로자"
 
 msgid "Company snapshot"
 msgstr "회사 스냅샷"
@@ -332,6 +353,9 @@ msgstr "핵심 검토자"
 
 msgid "Core services such as Block Storage (\"Cinder\")"
 msgstr "블록 스토리지 (\"Cinder\")와 같은 핵심 서비스"
+
+msgid "Corporate driven"
+msgstr "기업에 의해 주도"
 
 msgid "Course Outline"
 msgstr "과정 목차"
@@ -403,8 +427,14 @@ msgstr "DefCore 이니셔티브:"
 msgid "DefCore principles"
 msgstr "DefCore 원칙"
 
+msgid "Describe any limitations of the current code."
+msgstr "현재 코드에 대한 제한 사항을 설명합니다."
+
 msgid "Describe the output produced by the OpenStack community teams"
 msgstr "OpenStack 커뮤니티 팀에 의해 만들어진 결과를 설명합니다"
+
+msgid "Describe why a change is being made"
+msgstr "왜 변경 사항을 만들었는지를 설명"
 
 msgid "Determine the project's social groups."
 msgstr "프로젝트에 대한 사회적 집단을 규정해 봅니다."
@@ -424,8 +454,20 @@ msgstr "규모가 커지지 않음"
 msgid "Discuss upcoming features for the next release cycle"
 msgstr "다음 릴리즈 주기를 위한 곧 있을 기능을 토론합니다"
 
+msgid "Discuss with non upstream"
+msgstr "Upstream이 아닌 부분과 토론"
+
+msgid "Do not assume ..."
+msgstr "가정하지 말아야 할 것"
+
+msgid "Do not include patch set-specific comments."
+msgstr "Patch set에 대한 코멘트를 포함하지 않습니다."
+
 msgid "Do you work at a company?"
 msgstr "회사에서 일하는 경우"
+
+msgid "DocImpact"
+msgstr "DocImpact"
 
 msgid ""
 "Document an action item in the minutes. Include any nicknames in the line, "
@@ -488,11 +530,20 @@ msgstr "이메일"
 msgid "End on time"
 msgstr "정시에 종료합니다"
 
+msgid "Engage immediately"
+msgstr "바로 참여"
+
 msgid "Engage immediately."
 msgstr "즉시 참여합니다."
 
+msgid "Ensure sufficient information to decide whether to review."
+msgstr "검토 여부를 결정하기에 충분한 정보를 확인합니다."
+
 msgid "Epic"
 msgstr "Epic"
+
+msgid "Error report"
+msgstr "오류 보고"
 
 msgid "Etherpad"
 msgstr "Etherpad"
@@ -574,6 +625,9 @@ msgid ""
 msgstr ""
 "중요한 기능에 대한 실패에 대해서는 해결책이 있음. 부가 기능에 대한 실패에 대"
 "해서는 해결책이 없음"
+
+msgid "False errors"
+msgstr "잘못된 오류"
 
 msgid "Familiarize yourself with the code of conduct."
 msgstr "행동 강령과 친숙해 집니다."
@@ -667,6 +721,9 @@ msgid ""
 msgstr ""
 "전체 목록 확인 http://governance.openstack.org/reference/projects/index.html"
 
+msgid "GIT commit message structure"
+msgstr "GIT 커밋 메시지 구조"
+
 msgid ""
 "Gerrit Documentation: `Gerrit Code Review - A Quick Introduction <https://"
 "review.openstack.org/Documentation/intro-quick.html>`_"
@@ -697,11 +754,20 @@ msgstr "기여하고자 하는 대상에 대한 코드를 가져옵니다"
 msgid "Good workflow"
 msgstr "좋은 작업 흐름"
 
+msgid "Good: new API + new feature"
+msgstr "좋은: 새로운 API + 새로운 기능"
+
 msgid "Governance/TechnicalCommittee#Meeting"
 msgstr "Governance/TechnicalCommittee#Meeting"
 
 msgid "Group can follow the four *Open*"
 msgstr "그룹은 4개의 *개방성*을 따를 수 있습니다"
+
+msgid "Group of friends"
+msgstr "친구들로 구성된 집단"
+
+msgid "Habits: online relationships?"
+msgstr "습관: 온라인 관계?"
 
 msgid ""
 "Having at least 8 hours a week to dedicate to the project, be it through "
@@ -724,6 +790,12 @@ msgstr "OpenStack이 어떻게 만들어지는가 (1시간 30분 실습을 포�
 
 msgid "How does it work?"
 msgstr "어떤 식으로 운영되는가?"
+
+msgid "How many contributors?"
+msgstr "얼마나 많은 기여를 하는가?"
+
+msgid "How old is the project?"
+msgstr "프로젝트가 얼마나 오래되었는가?"
 
 msgid "How to contribute"
 msgstr "기여 방법"
@@ -795,6 +867,12 @@ msgstr "개별 스냅샷"
 msgid "Individuals"
 msgstr "개인"
 
+msgid "Information in commit messages (1/2)"
+msgstr "커밋 메시지 내 정보 (1/2)"
+
+msgid "Information in commit messages (2/2)"
+msgstr "커밋 메시지 내 정보 (2/2)"
+
 msgid "Infrastructure"
 msgstr "인프라"
 
@@ -818,6 +896,9 @@ msgstr "소개"
 
 msgid "Invalid"
 msgstr "Invalid"
+
+msgid "Jenkins"
+msgstr "Jenkins"
 
 msgid "Join irc.freenode.net#upstream-university"
 msgstr "irc.freenode.net#upstream-university 에 참여합니다"
@@ -950,6 +1031,12 @@ msgstr "마일스톤: 버그가 수정된 마일스톤"
 
 msgid "Mind the noise"
 msgstr "소음을 꺼립니다"
+
+msgid "Mixing two unrelated functional changes."
+msgstr "두 개의 서로 관계가 없는 기능적 변경 사항을 혼합"
+
+msgid "Mixing whitespace changes with functional code changes."
+msgstr "공백 변경 사항과 기능적 코드 변경 사항을 혼합"
 
 msgid "Module contributors"
 msgstr "모듈 컨트리뷰터"
@@ -1103,6 +1190,9 @@ msgstr ""
 msgid "Opinion"
 msgstr "Opinion"
 
+msgid "Optional external references"
+msgstr "선택적 외부 레퍼런스"
+
 msgid "Other projects may have different schedules"
 msgstr "다른 프로젝트들은 서로 다른 일정을 가질 수 있습니다"
 
@@ -1114,6 +1204,9 @@ msgstr "기타 태그들은 누군가에 의해 제안될 수 있습니다"
 
 msgid "Outline and online slide index"
 msgstr "목차 및 온라인 슬라이스 색인"
+
+msgid "Overview of the contribution process"
+msgstr "기여 프로세스 개요"
 
 msgid ""
 "Overview of the contribution process (`slides <19-training-contribution-"
@@ -1184,8 +1277,14 @@ msgstr ""
 "로세스* 에 따라 명확히 서술된 *목표* 를 달성하기 위해 다수의 *산출물* 을 생성"
 "하는 팀입니다."
 
+msgid "Project as social groups"
+msgstr "소셜 그룹으로서의 프로젝트"
+
 msgid "Project pods"
 msgstr "프로젝트 팟"
+
+msgid "Project pulse"
+msgstr "프로젝트 펄스"
 
 msgid ""
 "Projects are teams of people focused on implementing a specific aspect of "
@@ -1214,6 +1313,13 @@ msgstr "변화량을 정량화합니다"
 
 msgid "Quantify the delta."
 msgstr "변화량을 정량화합니다."
+
+msgid "Read the commit message to see if it hints at improved code structure."
+msgstr ""
+"개선된 코드 구조에서 힌트가 있는지를 확인하기 위해 커밋 메시지를 읽습니다."
+
+msgid "Recheck bug #XXX"
+msgstr "Bug #XXX 재확인"
 
 msgid "Regressions and integration issues"
 msgstr "회귀 및 통합 이슈"
@@ -1245,6 +1351,9 @@ msgstr "필요로 할 때에는 여러 번 반복됩니다"
 msgid "Replaced by Big Tent initiative"
 msgstr "Big Tent 이니셔티브에 의해 대체됨"
 
+msgid "Required external references"
+msgstr "필수 외부 레퍼런스"
+
 msgid "Reserved for ad-hoc meetings of project teams"
 msgstr "프로젝트 팀에 대한 임시 회의로 예약됩니다"
 
@@ -1256,6 +1365,12 @@ msgstr "해결된 버그"
 
 msgid "Review"
 msgstr "리뷰"
+
+msgid "Review each other’s commit messages on the draft"
+msgstr "서로 다른 구성원의 커밋 메시지를 초안으로 검토합니다"
+
+msgid "Review in gerrit"
+msgstr "Gerrit 내 검토"
 
 msgid "Review other launchpad bugs and improve yours."
 msgstr "다른 lanuchpad 버그를 검토하고 개선합니다."
@@ -1290,11 +1405,17 @@ msgstr "Scrum 마스터 : 1"
 msgid "Second day"
 msgstr "두 번째 날"
 
+msgid "SecurityImpact"
+msgstr "SecurityImpact"
+
 msgid "Selection of sessions"
 msgstr "세션 선택"
 
 msgid "Self-contained"
 msgstr "Self-contained"
+
+msgid "Sending large new features in a single giant commit."
+msgstr "커다란 새로운 기능을 거대한 단일 커밋으로 전송"
 
 msgid ""
 "Sessions are proposed on an open document (generally an Etherpad) and "
@@ -1323,6 +1444,9 @@ msgstr "쉬운 해결책이 있는 작은 문제. 기타 사소한 버그"
 
 msgid "Small means quicker & easier"
 msgstr "작다는 것은 보다 빠르고 쉽다는 것을 의미합니다"
+
+msgid "Socialize or strictly professional?"
+msgstr "사회화된 또는 엄격할 정도로 전문적인지?"
 
 msgid "Software, documentation, release management etc"
 msgstr "소프트웨어, 문서, 릴리즈 관리 등"
@@ -1508,6 +1632,9 @@ msgstr "버그가 재현 가능하거나 실제 버그로 확인되었습니다"
 msgid "The building blocks to achieve OpenStack's mission"
 msgstr "OpenStack 임무를 달성하기 위해 짓고자 하는 블록"
 
+msgid "The first commit line is the most important."
+msgstr "첫 커밋 줄은 가장 중요합니다."
+
 msgid ""
 "The fix is included in the milestone-proposed branch, a past milestone or a "
 "past release"
@@ -1593,6 +1720,9 @@ msgstr "번역 / i18n 이슈."
 msgid "Triaged"
 msgstr "Triaged"
 
+msgid "Triggered on every commit"
+msgstr "모든 커밋에 대해 작동됨"
+
 msgid "Types of sessions"
 msgstr "세션 유형"
 
@@ -1615,6 +1745,9 @@ msgstr ""
 "Kilo 까지는 \"통합 릴리즈\" 는 프로젝트에 대한 개발 주기가 완료되어 릴리즈되"
 "는 시점에 대한 일자를 의미하였습니다"
 
+msgid "UpgradeImpact"
+msgstr "UpgradeImpact"
+
 msgid "Upstream"
 msgstr "Upstream"
 
@@ -1633,11 +1766,17 @@ msgstr "Vancouver 스태프 (감사합니다!)"
 msgid "Vendors may substitute alternate implementations"
 msgstr "벤더는 대안에 따른 구현으로 대체할 수 있습니다"
 
+msgid "Verbose or terse?"
+msgstr "장황한지 또는 간결한지?"
+
 msgid ""
 "Victoria Martínez de la Cruz <victoria@vmartinezdelacruz.com> (assistant, "
 "english)"
 msgstr ""
 "Victoria Martínez de la Cruz <victoria@vmartinezdelacruz.com> (조교, 영어)"
+
+msgid "Volunteers"
+msgstr "자원 봉사자"
 
 msgid "Voters for a given program PTL"
 msgstr "주어진 프로그램 PTL을 위한 투표자"
@@ -1676,6 +1815,9 @@ msgstr "어떤 프로젝트에 기여하고 싶은가?"
 msgid "What makes a release"
 msgstr "릴리즈를 이루는 것들"
 
+msgid "What's their incentive?"
+msgstr "이들의 인센티브는 무엇일까?"
+
 msgid "When & Where to get OpenStack Upstream Training"
 msgstr "OpenStack Upstream Training을 언제 & 어디서 받는가"
 
@@ -1689,6 +1831,9 @@ msgstr ""
 "Foundation 멤버쉽으로 가입한 경우, 코드 기여를 위해 사용할 이메일 주소와 동일"
 "하게 입력했는지 확인하세요."
 
+msgid "When was the last update?"
+msgstr "언제 마지막 업데이트가 이루어졌는가?"
+
 msgid ""
 "Where developers meet face to face to finalize planning for the next release "
 "cycle."
@@ -1696,6 +1841,9 @@ msgstr "개발자들이 대면하여 다음 릴리즈 주기를 위한 계획을
 
 msgid "Who is the customer?"
 msgstr "누가 고객인가?"
+
+msgid "Who's behind it?"
+msgstr "누가 이 뒤에 있는가?"
 
 msgid "Wishlist"
 msgstr "Wishlist"
@@ -2243,6 +2391,9 @@ msgstr "제목"
 msgid "activity.openstack.org"
 msgstr "activity.openstack.org"
 
+msgid "add an error and match it to the jenkins message"
+msgstr "오류를 추가하고 jenkins 메시지에 대응시켜 봅니다"
+
 msgid "anyone doing Gerrit code review can act as the stick"
 msgstr "Gerrit 코드 리뷰를 수행하는 누구라도 지휘봉과 같은 행동이 가능합니다"
 
@@ -2251,6 +2402,9 @@ msgstr "apt-get / yum / pip install … git review"
 
 msgid "ask a core developer or bug supervisor => Status: Triaged"
 msgstr "핵심 개발자 또는 버그 감독자에게 문의 => 상태: Triaged"
+
+msgid "blueprint"
+msgstr "blueprint"
 
 msgid "carrot by alerting people to the benefits"
 msgstr "구성원에게 이점을 알림으로써 주는 일종의 보상"
@@ -2455,11 +2609,14 @@ msgstr "단위 테스트 실행"
 msgid "security"
 msgstr "security"
 
+msgid "the code is self-evident/self-documenting."
+msgstr "코드만으로 자명하고 설명적으로 되어 있습니다."
+
 msgid "the reviewer has access to external web services/site."
 msgstr "검토자는 외부 웹 서비스/사이트에 대한 접근을 갖고 있습니다."
 
 msgid "the reviewer understands what the original problem was."
-msgstr "검토자는 근원 문제가 무엇인지를 이해합니다."
+msgstr "검토자는 근원 문제가 무엇인지를 이해하고 있습니다."
 
 msgid "upload an ssh key"
 msgstr "ssh 키 업로드"
