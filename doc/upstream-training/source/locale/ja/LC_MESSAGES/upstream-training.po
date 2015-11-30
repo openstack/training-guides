@@ -1,0 +1,3504 @@
+# KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>, 2015. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: Upstream Training Guide 2014.11.01\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-26 07:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-11-26 07:20+0000\n"
+"Last-Translator: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"X-Generator: Zanata 3.7.3\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: ../../index.rst:3
+msgid "OpenStack Upstream Training"
+msgstr "OpenStack Upstream Training"
+
+#: ../../index.rst:6
+msgid "Abstract"
+msgstr "要約"
+
+#: ../../index.rst:8
+msgid ""
+"With over 2000 developers from 80 different companies worldwide, OpenStack "
+"is one of the largest collaborative software-development projects. Because "
+"of its size, it is characterized by a huge diversity in social norms and "
+"technical conventions. These can significantly slow down the speed at which "
+"newcomers are successful at integrating their own roadmap into that of the "
+"OpenStack project."
+msgstr ""
+
+#: ../../index.rst:15
+msgid ""
+"We've designed a training program to help professional developers negotiate "
+"this hurdle. It shows them how to ensure their bug fix or feature is "
+"accepted in the OpenStack project in a minimum amount of time. The "
+"educational program requires students to work on real-life bug fixes or new "
+"features during two days of real-life classes and online mentoring, until "
+"the work is accepted by OpenStack. The live two-day class teaches them to "
+"navigate the intricacies of the project's technical tools and social "
+"interactions. In a followup session, the students benefit from individual "
+"online sessions to help them resolve any remaining problems they might have."
+msgstr ""
+
+#: ../../index.rst:26
+msgid ":doc:`upstream-details`"
+msgstr ":doc:`upstream-details`"
+
+#: ../../index.rst:29
+msgid "When & Where to get OpenStack Upstream Training"
+msgstr "OpenStack Upstream Training の開催日時および開催場所"
+
+#: ../../index.rst:33
+msgid ""
+"OpenStack Upstream Training in Tokyo has ended. Next session will be in "
+"Austin, Texas in April 2016 just before the `OpenStack Summit <https://www."
+"openstack.org/summit/austin-2016/>`_."
+msgstr ""
+
+#: ../../index.rst:37
+msgid ""
+"The last session of the OpenStack Upstream Training was completed in Tokyo, "
+"before the OpenStack Summit. `Students can register here <http://goo.gl/"
+"forms/qAr3N8rdYs>`_ and `assistants and mentors can register here <http://"
+"goo.gl/forms/fczq3NZ16g>`_."
+msgstr ""
+
+#: ../../index.rst:42
+msgid ""
+"Maps and location information will be posted here once details are finalized."
+" We will be in or near the main Summit venue, but our room assignments are "
+"not yet finalized."
+msgstr ""
+
+#: ../../index.rst:46
+msgid ""
+"**Sunday, October 25, 2015 at 9:30 AM to 5:00 PM - Monday, October 26, 2015 "
+"at 9:30 AM to 5:00 PM (UTC+09:00)**"
+msgstr ""
+
+#: ../../index.rst:49
+msgid "Bring a laptop with wifi + 4GB RAM Ubuntu virtual machine"
+msgstr ""
+
+#: ../../index.rst:52
+msgid "How to prepare"
+msgstr "準備方法"
+
+#: ../../index.rst:54
+msgid "Make sure you have a wifi enabled laptop with you."
+msgstr ""
+
+#: ../../index.rst:55
+msgid ""
+"Create a virtual machine on the laptop with Ubuntu 12.04 or 14.04 installed "
+"and 4GB of RAM."
+msgstr ""
+
+#: ../../index.rst:57
+msgid "Check that a you can ssh from your laptop to the virtual machine"
+msgstr ""
+
+#: ../../index.rst:58
+msgid "Check that apt-get install works from within the virtual machine"
+msgstr "仮想マシン内から apt-get install が動作することを確認します"
+
+#: ../../index.rst:59
+msgid ""
+"Get in touch with the team upstream-training@openstack.org to pick a "
+"contribution to work on."
+msgstr ""
+
+#: ../../index.rst:63
+msgid "Staff"
+msgstr "スタッフ"
+
+#: ../../index.rst:65
+msgid ""
+"Loïc Dachary, Stefano Maffulli, Chris Ricker, Tim Freund and Haikel Guemar "
+"will lead the next training in Tokyo, in English. Add yourself to the list "
+"of `mentors <https://wiki.openstack.org/wiki/Mentors>`_, too. Tools and "
+"processes for mentors and staff are kept on the `admin <https://wiki."
+"openstack.org/wiki/OpenStack_Upstream_Training/Admin>`_ page."
+msgstr ""
+
+#: ../../index.rst:72
+msgid ""
+"**Still looking for help: please** `register <http://goo.gl/forms/"
+"fczq3NZ16g>`_ **and add yourself to the list below.**"
+msgstr ""
+
+#: ../../index.rst:76
+msgid "Tim Freund <tim@freunds.net> (training, mentoring, assistant, english)"
+msgstr ""
+"Tim Freund <tim@freunds.net> (training, mentoring, assistant, english)"
+
+#: ../../index.rst:77 ../../index.rst:90
+msgid ""
+"Chris Ricker <chris.ricker@gmail.com> (training, mentoring, assistant, "
+"english)"
+msgstr ""
+"Chris Ricker <chris.ricker@gmail.com> (training, mentoring, assistant, "
+"english)"
+
+#: ../../index.rst:79
+msgid "Loïc Dachary (Training, mentoring, assistant, english and french)"
+msgstr "Loïc Dachary (Training, mentoring, assistant, english and french)"
+
+#: ../../index.rst:80
+msgid "Shinobu KINJO (mentoring, assistant, japanese)"
+msgstr "Shinobu KINJO (mentoring, assistant, japanese)"
+
+#: ../../index.rst:81
+msgid "Cleber Rosa (mentoring, assistant, portuguese)"
+msgstr "Cleber Rosa (mentoring, assistant, portuguese)"
+
+#: ../../index.rst:82
+msgid "Rohit Agarwalla (assistant)"
+msgstr "Rohit Agarwalla (assistant)"
+
+#: ../../index.rst:83 ../../index.rst:99
+msgid "KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com> (assistant, Japanese)"
+msgstr "KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com> (assistant, Japanese)"
+
+#: ../../index.rst:84 ../../index.rst:100
+msgid "macJack <macjacktw@hotmail.com> (assistant, English, Chinese)"
+msgstr "macJack <macjacktw@hotmail.com> (assistant, English, Chinese)"
+
+#: ../../index.rst:87
+msgid "Vancouver Staff (Thank You!)"
+msgstr "Vancouver のスタッフ (ありがとう!)"
+
+#: ../../index.rst:89
+msgid "Tim Freund <tim@freunds.net> (training, assistant, english)"
+msgstr "Tim Freund <tim@freunds.net> (training, assistant, english)"
+
+#: ../../index.rst:92
+msgid ""
+"Sylvain Bauza <sbauza@redhat.com> (assistant, mentoring, training, french, "
+"english)"
+msgstr ""
+"Sylvain Bauza <sbauza@redhat.com> (assistant, mentoring, training, french, "
+"english)"
+
+#: ../../index.rst:94
+msgid "Lana Brindley (assistant, mentoring, English)"
+msgstr "Lana Brindley (assistant, mentoring, English)"
+
+#: ../../index.rst:95
+msgid "Rossella Sblendido (assistant, Italian, English)"
+msgstr "Rossella Sblendido (assistant, Italian, English)"
+
+#: ../../index.rst:96
+msgid ""
+"Victoria Martínez de la Cruz <victoria@vmartinezdelacruz.com> (assistant, "
+"english)"
+msgstr ""
+"Victoria Martínez de la Cruz <victoria@vmartinezdelacruz.com> (assistant, "
+"english)"
+
+#: ../../index.rst:98
+msgid "Takashi Torii <t-torii@ce.jp.nec.com> (assistant, japanese)"
+msgstr "Takashi Torii <t-torii@ce.jp.nec.com> (assistant, japanese)"
+
+#: ../../index.rst:101
+msgid ""
+"François Bureau <francois.bureau@cloudwatt> (assistant, french, english) - "
+"irc : Fdot"
+msgstr ""
+"François Bureau <francois.bureau@cloudwatt> (assistant, french, english) - "
+"irc : Fdot"
+
+#: ../../index.rst:104
+msgid ""
+"`Etherpad for Tokyo <https://etherpad.openstack.org/p/upstream-training-"
+"tokyo>`_"
+msgstr ""
+"`Tokyo 向け Etherpad <https://etherpad.openstack.org/p/upstream-training-"
+"tokyo>`_"
+
+#: ../../index.rst:109
+msgid "Outline and online slide index"
+msgstr ""
+
+#: ../../index.rst:113
+msgid "How OpenStack is made"
+msgstr "OpenStack はどのように作られているか"
+
+#: ../../index.rst:115
+msgid "`Release cycle <01-release-cycle.html>`_"
+msgstr "`リリースサイクル <01-release-cycle.html>`_"
+
+#: ../../index.rst:116
+msgid "`Relevant actors <02-relevant-actors.html>`_"
+msgstr "`関係者 <02-relevant-actors.html>`_"
+
+#: ../../index.rst:117
+msgid "`OpenStack Governance <03-technical-committee.html>`_"
+msgstr "`OpenStack ガバナンス <03-technical-committee.html>`_"
+
+#: ../../index.rst:118
+msgid "`OpenStack \"Big Tent\" and tags <04-program-ecosystem.html>`_"
+msgstr "`OpenStack ビッグテントとタグ <04-program-ecosystem.html>`_"
+
+#: ../../index.rst:119
+msgid "`OpenStack Design Summit <05-design-summit.html>`_"
+msgstr "`OpenStack Design Summit <05-design-summit.html>`_"
+
+#: ../../index.rst:120
+msgid "`IRC meetings <06-irc-meetings.html>`_"
+msgstr "`IRC ミーティング <06-irc-meetings.html>`_"
+
+#: ../../index.rst:123
+msgid "Workflow of an OpenStack contribution and tools"
+msgstr "OpenStack コントリビューションのワークフローとツール"
+
+#: ../../index.rst:125
+msgid "`devstack.org <11-devstack.html>`_"
+msgstr "`devstack.org <11-devstack.html>`_"
+
+#: ../../index.rst:126
+msgid "`How to contribute <12-howtocontribute.html>`_"
+msgstr ""
+
+#: ../../index.rst:127
+msgid "`launchpad.net <13-launchpad.html>`_"
+msgstr "`launchpad.net <13-launchpad.html>`_"
+
+#: ../../index.rst:128
+msgid "`review.openstack.org <14-gerrit.html>`_"
+msgstr "`review.openstack.org <14-gerrit.html>`_"
+
+#: ../../index.rst:129
+msgid "`Branching model <15-branching-model.html>`_"
+msgstr "`ブランチモデル <15-branching-model.html>`_"
+
+#: ../../index.rst:130
+msgid "`Reviewing <16-reviewing.html>`_"
+msgstr "`レビュー <16-reviewing.html>`_"
+
+#: ../../index.rst:131
+msgid "`Commit messages <17-commit-message.html>`_"
+msgstr "`コミットメッセージ <17-commit-message.html>`_"
+
+#: ../../index.rst:132
+msgid "`Jenkins <18-jenkins.html>`_"
+msgstr "`Jenkins <18-jenkins.html>`_"
+
+#: ../../index.rst:135
+msgid "The Contribution Process"
+msgstr "コントリビューションの流れ"
+
+#: ../../index.rst:137
+msgid ""
+"`Overview of the contribution process <19-training-contribution-process."
+"html>`_"
+msgstr "`コントリビューションの流れの概要 <19-training-contribution-process.html>`_"
+
+#: ../../index.rst:138
+msgid ""
+"`Lego applied to Free Software contributions <20-training-agile-for-"
+"contributors.html>`_"
+msgstr ""
+
+#: ../../index.rst:140
+msgid ""
+"`Complete index in slide format only <http://docs.openstack.org/upstream-"
+"training/slide-index.html>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:3
+msgid "OpenStack Upstream Training Details"
+msgstr "OpenStack Upstream Training 詳細"
+
+#: ../../upstream-details.rst:6 ../../upstream-details.rst:71
+msgid "Introduction"
+msgstr "はじめに"
+
+#: ../../upstream-details.rst:26
+msgid "Objectives"
+msgstr "目的"
+
+#: ../../upstream-details.rst:28
+msgid ""
+"Faster integration of the companies product roadmap into the OpenStack "
+"release cycle"
+msgstr ""
+
+#: ../../upstream-details.rst:30
+msgid "Successfully contribute one real world patch to an OpenStack component"
+msgstr ""
+
+#: ../../upstream-details.rst:31
+msgid "Master the technical tools"
+msgstr ""
+
+#: ../../upstream-details.rst:32
+msgid "Understand the OpenStack contribution workflow and social norms"
+msgstr ""
+
+#: ../../upstream-details.rst:35
+msgid "Target Audience"
+msgstr "想定対象者"
+
+#: ../../upstream-details.rst:37
+msgid "Developers"
+msgstr "開発者"
+
+#: ../../upstream-details.rst:38
+msgid "System administrators"
+msgstr "システム管理者"
+
+#: ../../upstream-details.rst:41
+msgid "Prerequisites"
+msgstr "事前要件"
+
+#: ../../upstream-details.rst:43
+msgid "Being able to read and write English at a technical level."
+msgstr "技術レベルの英語を読み書きできること"
+
+#: ../../upstream-details.rst:44
+msgid ""
+"If contributing code, being technically proficient enough to carry out "
+"simple bug fixes in the project."
+msgstr ""
+
+#: ../../upstream-details.rst:46
+msgid ""
+"If contributing documentation, being able to produce documents in the "
+"project's chosen infrastructure."
+msgstr ""
+
+#: ../../upstream-details.rst:48
+msgid ""
+"Having at least 8 hours a week to dedicate to the project, be it through "
+"programming or through interacting with the community."
+msgstr ""
+
+#: ../../upstream-details.rst:52
+msgid "Duration"
+msgstr ""
+
+#: ../../upstream-details.rst:54
+msgid "Face-to-face section: 2 days"
+msgstr ""
+
+#: ../../upstream-details.rst:55
+msgid ""
+"Online section: 10 one-hour individual mentoring sessions over a period of 4 "
+"to 10 weeks"
+msgstr ""
+
+#: ../../upstream-details.rst:59
+msgid "Infrastructure"
+msgstr ""
+
+#: ../../upstream-details.rst:61
+msgid ""
+"`ready to use devstack VM <https://wiki.openstack.org/wiki/"
+"OpenStack_Upstream_Training/Setup_DevStack>`_ for participants with network "
+"connectivity but troubles with their laptop"
+msgstr ""
+
+#: ../../upstream-details.rst:65
+msgid "Course Outline"
+msgstr ""
+
+#: ../../upstream-details.rst:68
+msgid "First day"
+msgstr ""
+
+#: ../../upstream-details.rst:73
+msgid ""
+"A week before Day 1: choice of a contribution, via email, with each "
+"participant"
+msgstr ""
+
+#: ../../upstream-details.rst:75
+msgid "Day 1: How OpenStack is made"
+msgstr ""
+
+#: ../../upstream-details.rst:76
+msgid "Day 1: Learn and practice git, gerrit, IRC"
+msgstr ""
+
+#: ../../upstream-details.rst:78
+msgid "Day 2: The theory of contribution"
+msgstr ""
+
+#: ../../upstream-details.rst:79
+msgid "Day 2: Lego contribution simulation"
+msgstr ""
+
+#: ../../upstream-details.rst:80
+msgid "Day 2: Individual presentation of the contribution plan"
+msgstr ""
+
+#: ../../upstream-details.rst:81
+msgid "Day 2: Online mentoring"
+msgstr ""
+
+#: ../../upstream-details.rst:84
+msgid "How OpenStack is made (3h including 1h30 exercises)"
+msgstr ""
+
+#: ../../upstream-details.rst:86
+msgid ""
+"`Release cycle <https://wiki.openstack.org/wiki/Release_Cycle>`_ (`slides "
+"<01-release-cycle.html>`__)"
+msgstr ""
+
+#: ../../upstream-details.rst:89
+msgid ""
+"`Planning (Design, Discuss and Target) <https://wiki.openstack.org/wiki/"
+"Release_Cycle#Planning_.28Design.2C_Discuss_and_Target.29>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:90
+msgid ""
+"`Implementation (Milestone iterations <https://wiki.openstack.org/wiki/"
+"Release_Cycle#Implementation_.28Milestone_iterations.29>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:91
+msgid ""
+"`Pre-release (Release Candidates dance) <https://wiki.openstack.org/wiki/"
+"Release_Cycle#Pre-release_.28Release_Candidates_dance.29>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:93
+msgid ""
+"`Release candidate 1 <https://wiki.openstack.org/wiki/"
+"Release_Cycle#Release_candidate_1>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:94
+msgid ""
+"`Other release candidates <https://wiki.openstack.org/wiki/"
+"Release_Cycle#Other_release_candidates>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:95
+msgid ""
+"`Release day <https://wiki.openstack.org/wiki/Release_Cycle#Release_day>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:97
+msgid ""
+"Exercise: based on the `Kilo release schedule <https://wiki.openstack.org/"
+"wiki/Kilo_Release_Schedule>`_ find the URL of a document or a patch that "
+"belongs to each of the above steps."
+msgstr ""
+
+#: ../../upstream-details.rst:101
+msgid "Relevant actors (`slides <02-relevant-actors.html>`__)"
+msgstr ""
+
+#: ../../upstream-details.rst:103
+msgid ""
+"`commiters <http://www.stackalytics.com/?release=kilo&metric="
+"commits&project_type=integrated&module=&company=&user_id=>`_ companies"
+msgstr ""
+
+#: ../../upstream-details.rst:105
+msgid ""
+"`commiters <http://www.stackalytics.com/?release=kilo&metric="
+"commits&project_type=integrated&module=&company=&user_id=>`_ individuals "
+"(bottom of the page)"
+msgstr ""
+
+#: ../../upstream-details.rst:109
+msgid ""
+"`OpenStack Governance <http://governance.openstack.org/>`_ (`slides <03-"
+"technical-committee.html>`__)"
+msgstr ""
+
+#: ../../upstream-details.rst:112
+msgid ""
+"`Technical Committee <http://governance.openstack.org/reference/charter."
+"html>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:113
+msgid ""
+"`The role of the Technical Committee <http://governance.openstack.org/"
+"reference/charter.html#mission>`_"
+msgstr ""
+"`Technical Committee の役割 <http://governance.openstack.org/reference/charter."
+"html#mission>`_"
+
+#: ../../upstream-details.rst:114
+msgid ""
+"`OpenStack Project Teams <http://governance.openstack.org/reference/charter."
+"html#openstack-project-teams>`_"
+msgstr ""
+"`OpenStack プロジェクトチーム <http://governance.openstack.org/reference/charter."
+"html#openstack-project-teams>`_"
+
+#: ../../upstream-details.rst:115
+msgid ""
+"`OpenStack Project Teams list <http://governance.openstack.org/reference/"
+"projects/index.html>`_"
+msgstr ""
+"`OpenStack プロジェクトチーム一覧 <http://governance.openstack.org/reference/projects/"
+"index.html>`_"
+
+#: ../../upstream-details.rst:116
+msgid ""
+"`Meetings <https://wiki.openstack.org/wiki/"
+"Meetings#Technical_Committee_meeting>`_"
+msgstr ""
+"`ミーティング <https://wiki.openstack.org/wiki/"
+"Meetings#Technical_Committee_meeting>`_"
+
+#: ../../upstream-details.rst:117
+msgid ""
+"Exercise: read `archived <http://eavesdrop.openstack.org/meetings/tc/2014/tc."
+"2014-04-01-20.03.log.html>`_ and briefly comment on `keystone document "
+"<https://etherpad.openstack.org/p/keystone-incubation-integration-"
+"requirements>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:119
+msgid ""
+"`PTLs <http://governance.openstack.org/reference/charter.html#project-team-"
+"leads>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:120
+msgid ""
+"`APC <http://governance.openstack.org/reference/charter.html#voters-for-ptl-"
+"seats-apc>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:121
+msgid ""
+"`ATC <http://governance.openstack.org/reference/charter.html#voters-for-tc-"
+"seats-atc>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:122
+msgid ""
+"Exercise: each APC / ATC in the class add a URL to the etherpad proving it"
+msgstr ""
+
+#: ../../upstream-details.rst:124
+msgid ""
+"`\"Big Tent\" and tags <http://governance.openstack.org/reference/new-"
+"projects-requirements.html>`_ (`slides <04-program-ecosystem.html>`__)"
+msgstr ""
+
+#: ../../upstream-details.rst:127
+msgid ""
+"`OpenStack Project Teams <http://governance.openstack.org/reference/projects/"
+"index.html>`__"
+msgstr ""
+
+#: ../../upstream-details.rst:128
+msgid ""
+"`List of approved tags <http://governance.openstack.org/reference/tags/index."
+"html>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:129
+msgid ""
+"`Understanding the DefCore Guidelines <https://github.com/openstack/"
+"defcore>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:130
+msgid ""
+"`Core Definition <https://github.com/openstack/defcore/blob/master/process/"
+"CoreDefinition.rst>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:131
+msgid "`Stackforge <http://ci.openstack.org/stackforge.html>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:132
+msgid ""
+"`How to add a project to Stackforge <http://docs.openstack.org/infra/manual/"
+"creators.html>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:133
+msgid "Exercise: What kind of Program do you contribute to ?"
+msgstr ""
+
+#: ../../upstream-details.rst:135
+msgid ""
+"`Design summits <https://wiki.openstack.org/wiki/Design_Summit>`_ (`slides "
+"<05-design-summit.html>`__)"
+msgstr ""
+
+#: ../../upstream-details.rst:138
+msgid ""
+"`Propose sessions <https://wiki.openstack.org/wiki/Design_Summit/Planning>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:139
+msgid ""
+"`List of sessions <https://libertydesignsummit.sched.org/overview/type/"
+"design+summit#.VVeYTt-uNNw>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:140
+msgid ""
+"`Liberty Summit Etherpads <https://wiki.openstack.org/wiki/Design_Summit/"
+"Liberty/Etherpads>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:141
+msgid ""
+"Exercise: Add a session proposal regarding your contribution in an etherpad, "
+"review two proposals"
+msgstr ""
+
+#: ../../upstream-details.rst:144
+msgid ""
+"`IRC meetings <https://wiki.openstack.org/wiki/Meetings>`_ (`slides <06-irc-"
+"meetings.html>`__)"
+msgstr ""
+
+#: ../../upstream-details.rst:147
+msgid ""
+"`IRC Services <http://docs.openstack.org/infra/system-config/irc.html>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:148
+msgid "`meetbot <http://wiki.debian.org/MeetBot>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:149
+msgid "`OpenStack IRC channels <https://wiki.openstack.org/wiki/IRC>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:150
+msgid "`IRC Logs <http://eavesdrop.openstack.org/irclogs/>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:151
+msgid ""
+"``#info`` - Add an info item to the minutes. People should liberally use "
+"this for important things they say, so that they can be logged in the "
+"minutes."
+msgstr ""
+
+#: ../../upstream-details.rst:154
+msgid ""
+"``#action`` - Document an action item in the minutes. Include any nicknames "
+"in the line, and the item will be assigned to them. (nicknames are case-"
+"sensitive)"
+msgstr ""
+
+#: ../../upstream-details.rst:157
+msgid ""
+"``#help`` - Add a \"Call for Help\" to the minutes. Use this command when "
+"you need to recruit someone to do a task. (Counter-intuitively, this doesn't "
+"provide help on the bot)"
+msgstr ""
+
+#: ../../upstream-details.rst:160
+msgid "Exercise: lunch menu online meeting"
+msgstr ""
+
+#: ../../upstream-details.rst:163
+msgid ""
+"Workflow of an OpenStack contribution and tools (3h including 2h exercises)"
+msgstr ""
+
+#: ../../upstream-details.rst:165
+msgid ""
+"`devstack <http://docs.openstack.org/developer/devstack/>`_ (`slides <11-"
+"devstack.html>`__)"
+msgstr ""
+
+#: ../../upstream-details.rst:168
+msgid "Ubuntu or Fedora"
+msgstr ""
+
+#: ../../upstream-details.rst:169
+msgid "``git clone https://github.com/openstack-dev/devstack.git``"
+msgstr ""
+
+#: ../../upstream-details.rst:170
+msgid ""
+"`minimal configuration <http://docs.openstack.org/developer/devstack/"
+"configuration.html#minimal-configuration>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:171
+msgid "``cd devstack; ./stack.sh``"
+msgstr "``cd devstack; ./stack.sh``"
+
+#: ../../upstream-details.rst:172
+msgid "Exercise: get the code for the targeted contribution"
+msgstr "演習: コントリビューション予定のコードの取得"
+
+#: ../../upstream-details.rst:174
+msgid ""
+"`How_To_Contribute URL <https://wiki.openstack.org/wiki/How_To_Contribute>`_ "
+"(`slides <12-howtocontribute.html>`__)"
+msgstr ""
+"`コントリビューション方法の URL <https://wiki.openstack.org/wiki/How_To_Contribute>`_ "
+"(`slides <12-howtocontribute.html>`__)"
+
+#: ../../upstream-details.rst:177
+msgid ""
+"`Puppet <https://wiki.openstack.org/wiki/"
+"Puppet#Contributing_to_the_modules>`_"
+msgstr ""
+"`Puppet <https://wiki.openstack.org/wiki/"
+"Puppet#Contributing_to_the_modules>`_"
+
+#: ../../upstream-details.rst:178
+msgid "`Documentation <https://wiki.openstack.org/wiki/Documentation/HowTo>`_"
+msgstr ""
+"`Documentation <https://wiki.openstack.org/wiki/Documentation/HowTo>`_"
+
+#: ../../upstream-details.rst:179
+msgid ""
+"`Training guides <https://wiki.openstack.org/wiki/Training-guides#How_To>`_"
+msgstr ""
+"`Training guides <https://wiki.openstack.org/wiki/Training-guides#How_To>`_"
+
+#: ../../upstream-details.rst:180
+msgid "Excercise: Apply for individual membership and sign the CLA"
+msgstr "演習: 個人メンバー登録および CLA の署名"
+
+#: ../../upstream-details.rst:182
+msgid ""
+"`Launchpad <https://help.launchpad.net/>`_ (`slides <13-launchpad.html>`__)"
+msgstr ""
+"`Launchpad <https://help.launchpad.net/>`_ (`slides <13-launchpad.html>`__)"
+
+#: ../../upstream-details.rst:184
+msgid "`Blueprints <https://wiki.openstack.org/wiki/Blueprints>`_"
+msgstr "`ブループリント <https://wiki.openstack.org/wiki/Blueprints>`_"
+
+#: ../../upstream-details.rst:185
+msgid "`Bugs <https://wiki.openstack.org/wiki/Bugs>`_"
+msgstr "`バグ <https://wiki.openstack.org/wiki/Bugs>`_"
+
+#: ../../upstream-details.rst:187
+msgid ""
+"`Status, Importance, Assigned To, Milestone, Tags <https://wiki.openstack."
+"org/wiki/Bugs#Bugs_reference>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:188
+msgid "`reporting a bug <https://wiki.openstack.org/wiki/Bugs#Reporting>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:189
+msgid ""
+"`confirming and prioritizing <https://wiki.openstack.org/wiki/"
+"Bugs#Confirming_.26_prioritizing>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:190
+msgid ""
+"`debugging <https://wiki.openstack.org/wiki/Bugs#Debugging_.28optional.29>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:191
+msgid "`bugfixing <https://wiki.openstack.org/wiki/Bugs#Bugfixing>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:193
+msgid "Exercise: review other launchpad bugs and improve yours"
+msgstr ""
+
+#: ../../upstream-details.rst:195
+msgid "How to contribute (`slides <14-gerrit.html>`__)"
+msgstr ""
+
+#: ../../upstream-details.rst:198
+msgid ""
+"`Developer’s Guide <http://docs.openstack.org/infra/manual/developers."
+"html>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:199
+msgid ""
+"`Account setup <http://docs.openstack.org/infra/manual/developers."
+"html#account-setup>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:200
+msgid ""
+"`Git review installation <http://docs.openstack.org/infra/manual/developers."
+"html#installing-git-review>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:201
+msgid ""
+"`Starting Work on a New Repository <http://docs.openstack.org/infra/manual/"
+"developers.html#starting-work-on-a-new-repository>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:202
+msgid ""
+"`Development workflow <http://docs.openstack.org/infra/manual/developers."
+"html#development-workflow>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:203
+msgid ""
+"`Running unit tests <http://docs.openstack.org/infra/manual/developers."
+"html#running-unit-tests>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:204
+msgid ""
+"`Cross-Repository Dependencies <http://docs.openstack.org/infra/manual/"
+"developers.html#cross-repository-dependencies>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:205
+msgid "Exercise: push a wip or draft and invite reviewers"
+msgstr ""
+
+#: ../../upstream-details.rst:207
+msgid "Branching model (`slides <15-branching-model.html>`__)"
+msgstr ""
+
+#: ../../upstream-details.rst:210
+msgid "`Branch model <https://wiki.openstack.org/wiki/Branch_Model>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:211
+msgid "`Stable branch <https://wiki.openstack.org/wiki/StableBranch>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:212
+msgid "Exercise: checkout the latest stable branch"
+msgstr ""
+
+#: ../../upstream-details.rst:214
+msgid ""
+"`Code Review <http://docs.openstack.org/infra/manual/developers.html#code-"
+"review>`_ (`slides <16-reviewing.html>`__)"
+msgstr ""
+
+#: ../../upstream-details.rst:216
+msgid ""
+"`Peer Review <http://docs.openstack.org/infra/manual/developers.html#peer-"
+"review>`_ (`slides <17-commit-message.html>`__)"
+msgstr ""
+
+#: ../../upstream-details.rst:219
+msgid ""
+"`Git Commit Good Practice <https://wiki.openstack.org/wiki/"
+"GitCommitMessages>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:220
+msgid ""
+"Gerrit Documentation: `Gerrit Code Review - A Quick Introduction <https://"
+"review.openstack.org/Documentation/intro-quick.html>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:221
+msgid ""
+"Gerrit Documentation: `Reviewing the Change <https://review.openstack.org/"
+"Documentation/intro-quick.html#_reviewing_the_change>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:222
+msgid "Exercise: review each other messages on the draft"
+msgstr ""
+
+#: ../../upstream-details.rst:224
+msgid ""
+"`Jenkins (Automated testing) <http://docs.openstack.org/infra/manual/"
+"developers.html#automated-testing>`_ (`slides <18-jenkins.html>`__)"
+msgstr ""
+
+#: ../../upstream-details.rst:227
+msgid "Exercise: add an error and match it to the jenkins message"
+msgstr ""
+
+#: ../../upstream-details.rst:230
+msgid "Second day"
+msgstr ""
+
+#: ../../upstream-details.rst:233
+msgid "The Contribution Process (1 hour)"
+msgstr ""
+
+#: ../../upstream-details.rst:235
+msgid ""
+"Overview of the contribution process (`slides <19-training-contribution-"
+"process.html>`__)"
+msgstr ""
+
+#: ../../upstream-details.rst:238
+msgid "Take the pulse of the project."
+msgstr ""
+
+#: ../../upstream-details.rst:239
+msgid "Figure out who's behind it."
+msgstr ""
+
+#: ../../upstream-details.rst:240
+msgid "Determine the project's social groups."
+msgstr ""
+
+#: ../../upstream-details.rst:241
+msgid "Assess your approach."
+msgstr ""
+
+#: ../../upstream-details.rst:242
+msgid "Engage immediately."
+msgstr ""
+
+#: ../../upstream-details.rst:243
+msgid "Play with your network."
+msgstr ""
+
+#: ../../upstream-details.rst:244
+msgid "Perform the smaller tasks."
+msgstr ""
+
+#: ../../upstream-details.rst:245
+msgid "Choose a question."
+msgstr ""
+
+#: ../../upstream-details.rst:246
+msgid "Familiarize yourself with the code of conduct."
+msgstr ""
+
+#: ../../upstream-details.rst:247
+msgid "Understand the conventions."
+msgstr ""
+
+#: ../../upstream-details.rst:248
+msgid "Explain what you do."
+msgstr ""
+
+#: ../../upstream-details.rst:249
+msgid "Prepare the backport."
+msgstr ""
+
+#: ../../upstream-details.rst:250
+msgid "Learn what's local and what's upstream."
+msgstr ""
+
+#: ../../upstream-details.rst:251
+msgid "Learn what distinguishes good work flow from bad work flow."
+msgstr ""
+
+#: ../../upstream-details.rst:252
+msgid "Quantify the delta."
+msgstr ""
+
+#: ../../upstream-details.rst:253
+msgid "Speed up the acceptance."
+msgstr ""
+
+#: ../../upstream-details.rst:254
+msgid "Determine the time frame."
+msgstr ""
+
+#: ../../upstream-details.rst:255
+msgid "Maximize karma."
+msgstr ""
+
+#: ../../upstream-details.rst:256
+msgid "Work in parallel."
+msgstr ""
+
+#: ../../upstream-details.rst:257
+msgid "Archive and collect."
+msgstr ""
+
+#: ../../upstream-details.rst:260
+msgid "Agile for Contributors (15 min)"
+msgstr ""
+
+#: ../../upstream-details.rst:262
+msgid ""
+"Lego applied to Free Software contributions (`slides <20-training-agile-for-"
+"contributors.html>`__)"
+msgstr ""
+
+#: ../../upstream-details.rst:265
+msgid "Apply agile"
+msgstr ""
+
+#: ../../upstream-details.rst:266
+msgid "Who is the customer?"
+msgstr ""
+
+#: ../../upstream-details.rst:267
+msgid "Company & Upstream product owner"
+msgstr ""
+
+#: ../../upstream-details.rst:268
+msgid "Sprint review presentation to Upstream"
+msgstr ""
+
+#: ../../upstream-details.rst:271
+msgid "Contribution Simulation (2 hour)"
+msgstr ""
+
+#: ../../upstream-details.rst:273
+msgid ""
+"The students make a virtual contribution simulation using Lego bricks as "
+"props, with the goal of expanding a Lego town, built by upstream. They are "
+"divided into teams; the teacher is by turns the product owner in the company "
+"and the upstream."
+msgstr ""
+
+#: ../../upstream-details.rst:279
+msgid "Contribution Planning (2 hours)"
+msgstr ""
+
+#: ../../upstream-details.rst:281
+msgid ""
+"`ODP slides <http://dachary.org/loic/openstack-training/training-student-"
+"project-sample.odp>`_ `PDF slides <http://dachary.org/loic/openstack-"
+"training/training-student-project-sample.pdf>`_"
+msgstr ""
+
+#: ../../upstream-details.rst:284
+msgid ""
+"The students use template slides to prepare a 5-minute presentation of their "
+"planned contribution."
+msgstr ""
+
+#: ../../upstream-details.rst:286
+msgid "A sample presentation is given by the teacher, as an example."
+msgstr ""
+
+#: ../../upstream-details.rst:287
+msgid ""
+"Each student group prepares a presentation describing: * the contribution "
+"they plan to work on during the online sessions, * how they will engage with "
+"the Upstream, * how it contributes to the company's agenda * and whom they "
+"will be working with."
+msgstr ""
+
+#: ../../upstream-details.rst:292
+msgid "Each student group presents its slides to the class"
+msgstr ""
+
+#: ../../upstream-details.rst:295
+msgid "Etherpad"
+msgstr "Etherpad"
+
+#: ../../upstream-details.rst:297
+msgid "https://etherpad.openstack.org/p/upstream-training-vancouver"
+msgstr "https://etherpad.openstack.org/p/upstream-training-vancouver"
+
+#: ../01-release-cycle.rst:3
+msgid "OpenStack Release Cycle"
+msgstr "OpenStack リリースサイクル"
+
+#: ../01-release-cycle.rst:10
+msgid "What is OpenStack?"
+msgstr "OpenStack とは何か?"
+
+#: ../01-release-cycle.rst:12
+msgid "Open source software for creating private and public clouds"
+msgstr ""
+
+#: ../01-release-cycle.rst:13
+msgid "Coordinated collection of software from a few dozen related projects"
+msgstr ""
+
+#: ../01-release-cycle.rst:14
+msgid ""
+"Projects are teams of people focused on implementing a specific aspect of "
+"OpenStack"
+msgstr ""
+
+#: ../01-release-cycle.rst:17
+msgid "Core services such as Block Storage (\"Cinder\")"
+msgstr ""
+
+#: ../01-release-cycle.rst:18
+msgid "Supporting services such as Common Libraries (\"Oslo\")"
+msgstr ""
+
+#: ../01-release-cycle.rst:19
+msgid "Horizontal teams such as Documentation"
+msgstr ""
+
+#: ../01-release-cycle.rst:22
+msgid "What makes a release"
+msgstr ""
+
+#: ../01-release-cycle.rst:24
+msgid "A way to coordinate the development of multiple projects"
+msgstr ""
+
+#: ../01-release-cycle.rst:25
+msgid ""
+"Until Kilo \"integrated release\" meant a date when all the projects are "
+"released at the end of the development cycles"
+msgstr ""
+
+#: ../01-release-cycle.rst:27
+msgid "Integrated projects were also tested together at the gate"
+msgstr ""
+
+#: ../01-release-cycle.rst:28
+msgid ""
+"For Liberty integrated projects are those managed by the Release Management "
+"Team"
+msgstr ""
+
+#: ../01-release-cycle.rst:30
+msgid "Other projects may have different schedules"
+msgstr ""
+
+#: ../01-release-cycle.rst:32
+msgid ""
+"Each project team page shows its release policy on http://governance."
+"openstack.org/reference/projects"
+msgstr ""
+
+#: ../01-release-cycle.rst:36
+msgid "Planning : Design"
+msgstr ""
+
+#: ../01-release-cycle.rst:40
+msgid "Planning stage is at the start of a cycle"
+msgstr ""
+
+#: ../01-release-cycle.rst:41
+msgid "Take a step back"
+msgstr ""
+
+#: ../01-release-cycle.rst:42
+msgid "Focus on what we want to do for the next one"
+msgstr ""
+
+#: ../01-release-cycle.rst:49
+msgid "Planning : Discuss"
+msgstr ""
+
+#: ../01-release-cycle.rst:53
+msgid "With our peers"
+msgstr ""
+
+#: ../01-release-cycle.rst:54
+msgid "Feedback and comments"
+msgstr ""
+
+#: ../01-release-cycle.rst:55
+msgid "Create the corresponding blueprint"
+msgstr ""
+
+#: ../01-release-cycle.rst:56
+msgid "4 weeks, Design Summit on the third week"
+msgstr ""
+
+#: ../01-release-cycle.rst:63
+msgid "Planning : Target"
+msgstr ""
+
+#: ../01-release-cycle.rst:67
+msgid "File new blueprints and/or specs"
+msgstr "新規ブループリントおよびスペックの登録"
+
+#: ../01-release-cycle.rst:68
+msgid "Set a target milestone"
+msgstr "目標マイルストーンの設定"
+
+#: ../01-release-cycle.rst:69
+msgid "When in the cycle they intend to complete it"
+msgstr ""
+
+#: ../01-release-cycle.rst:70
+msgid "PTLs triage the submitted blueprints and set priority"
+msgstr ""
+
+#: ../01-release-cycle.rst:77
+msgid "Implementation : Milestone"
+msgstr ""
+
+#: ../01-release-cycle.rst:81
+msgid "Pushed to Gerrit for peer review"
+msgstr ""
+
+#: ../01-release-cycle.rst:82
+msgid "Weeks before the milestone publication date"
+msgstr ""
+
+#: ../01-release-cycle.rst:83
+msgid "Milestone-proposed branch"
+msgstr ""
+
+#: ../01-release-cycle.rst:84
+msgid "Feature-frozen"
+msgstr ""
+
+#: ../01-release-cycle.rst:91
+msgid "Implementation : freezes"
+msgstr ""
+
+#: ../01-release-cycle.rst:95
+msgid "Feature proposal freeze"
+msgstr ""
+
+#: ../01-release-cycle.rst:97
+msgid "Not even proposals for features will be accepted"
+msgstr ""
+
+#: ../01-release-cycle.rst:98
+msgid "Focus on bug-fixing"
+msgstr ""
+
+#: ../01-release-cycle.rst:100
+msgid "Feature freeze"
+msgstr ""
+
+#: ../01-release-cycle.rst:102
+msgid "New features will not be accepted, only fixes"
+msgstr ""
+
+#: ../01-release-cycle.rst:104
+msgid "String freeze"
+msgstr ""
+
+#: ../01-release-cycle.rst:106
+msgid "All externally visible strings must be frozen"
+msgstr ""
+
+#: ../01-release-cycle.rst:107
+msgid "This helps the i18n and Documentation projects"
+msgstr ""
+
+#: ../01-release-cycle.rst:114
+msgid "Release Candidates"
+msgstr ""
+
+#: ../01-release-cycle.rst:118
+msgid "After the last milestone"
+msgstr ""
+
+#: ../01-release-cycle.rst:120
+msgid "File bugs about everything you find"
+msgstr ""
+
+#: ../01-release-cycle.rst:121
+msgid "Prioritize bugs / bug triage"
+msgstr ""
+
+#: ../01-release-cycle.rst:122
+msgid "Write documentation"
+msgstr ""
+
+#: ../01-release-cycle.rst:123
+msgid "Fix as many bugs as you can"
+msgstr ""
+
+#: ../01-release-cycle.rst:130
+msgid "Release candidate 1"
+msgstr "リリース候補版 1 (RC1)"
+
+#: ../01-release-cycle.rst:134
+msgid "Between the last milestone and the RC1"
+msgstr ""
+
+#: ../01-release-cycle.rst:136
+msgid "Stop adding features and concentrate on bug fixes"
+msgstr ""
+
+#: ../01-release-cycle.rst:137
+msgid ""
+"Once all the release-critical bugs are fixed, we produce the first release "
+"candidate for that project (RC1)"
+msgstr ""
+
+#: ../01-release-cycle.rst:139
+msgid "Used as-is as the final release"
+msgstr ""
+
+#: ../01-release-cycle.rst:147
+msgid "Other release candidates"
+msgstr ""
+
+#: ../01-release-cycle.rst:151
+msgid "Regressions and integration issues"
+msgstr ""
+
+#: ../01-release-cycle.rst:153
+msgid "New release-critical bugs"
+msgstr ""
+
+#: ../01-release-cycle.rst:155
+msgid "(RC2), with bugs targeted to it"
+msgstr ""
+
+#: ../01-release-cycle.rst:157
+msgid "Merged in the master branch first"
+msgstr ""
+
+#: ../01-release-cycle.rst:158
+msgid "Repeated as many times as necessary"
+msgstr ""
+
+#: ../01-release-cycle.rst:165
+msgid "Release day"
+msgstr "リリース日"
+
+#: ../01-release-cycle.rst:169
+msgid "Last published release candidate"
+msgstr ""
+
+#: ../01-release-cycle.rst:170
+msgid "Published collectively as the OpenStack release"
+msgstr ""
+
+#: ../01-release-cycle.rst:177
+msgid "Exercise"
+msgstr "演習"
+
+#: ../01-release-cycle.rst:179
+msgid ""
+"Based on the Kilo release schedule, find the URL of a document or a patch "
+"that belongs to each of the steps."
+msgstr ""
+
+#: ../02-relevant-actors.rst:3 ../02-relevant-actors.rst:25
+msgid "Relevant actors"
+msgstr "関係者"
+
+#: ../02-relevant-actors.rst:10
+msgid "The OpenStack Community"
+msgstr "OpenStack コミュニティー"
+
+#: ../02-relevant-actors.rst:12
+msgid "Created by a large growing community"
+msgstr "大きく成長しているコミュニティーにより作成されています"
+
+#: ../02-relevant-actors.rst:14
+msgid "32,255 people"
+msgstr "32,255 人"
+
+#: ../02-relevant-actors.rst:15
+msgid "555 supporting companies"
+msgstr "555 サポート企業"
+
+#: ../02-relevant-actors.rst:16
+msgid "More than 20 million lines of code"
+msgstr "2,000 万行以上のコード"
+
+#: ../02-relevant-actors.rst:18
+msgid "Most recent (\"Liberty\") release stats:"
+msgstr "最新リリース (\"Liberty\") の統計:"
+
+#: ../02-relevant-actors.rst:20
+msgid "1,933 developers"
+msgstr "1,933 人の開発者"
+
+#: ../02-relevant-actors.rst:21
+msgid "164 different companies"
+msgstr "164 社の企業"
+
+#: ../02-relevant-actors.rst:22
+msgid "More than 20,000 patches"
+msgstr "20,000 以上のパッチ"
+
+#: ../02-relevant-actors.rst:31
+msgid "Relevance metrics"
+msgstr "関連する指標"
+
+#: ../02-relevant-actors.rst:35
+msgid "CI votes"
+msgstr ""
+
+#: ../02-relevant-actors.rst:36
+msgid "Commits"
+msgstr ""
+
+#: ../02-relevant-actors.rst:37
+msgid "Completed Blueprints"
+msgstr ""
+
+#: ../02-relevant-actors.rst:38
+msgid "Drafted Blueprints"
+msgstr ""
+
+#: ../02-relevant-actors.rst:39
+msgid "Emails"
+msgstr ""
+
+#: ../02-relevant-actors.rst:40
+msgid "Filed Bugs"
+msgstr ""
+
+#: ../02-relevant-actors.rst:41
+msgid "Lines of code"
+msgstr ""
+
+#: ../02-relevant-actors.rst:42
+msgid "Patch Sets"
+msgstr ""
+
+#: ../02-relevant-actors.rst:43
+msgid "Person-day effort"
+msgstr ""
+
+#: ../02-relevant-actors.rst:44
+msgid "Resolved Bugs"
+msgstr ""
+
+#: ../02-relevant-actors.rst:45
+msgid "Reviews"
+msgstr ""
+
+#: ../02-relevant-actors.rst:53
+msgid "Company snapshot"
+msgstr ""
+
+#: ../02-relevant-actors.rst:59
+msgid "Individual snapshot"
+msgstr ""
+
+#: ../02-relevant-actors.rst:65
+msgid "Module contributors"
+msgstr ""
+
+#: ../02-relevant-actors.rst:71
+msgid "OpenStack Activity - Dashboard"
+msgstr ""
+
+#: ../02-relevant-actors.rst:73 ../02-relevant-actors.rst:81
+msgid "activity.openstack.org"
+msgstr ""
+
+#: ../02-relevant-actors.rst:79
+msgid "OpenStack Activity - Other Metrics"
+msgstr ""
+
+#: ../02-relevant-actors.rst:87
+msgid "Your management"
+msgstr ""
+
+#: ../02-relevant-actors.rst:95
+msgid ""
+"List three companies and individuals that have been the most influential in "
+"the making of the module you plan to contribute to, for each metric value."
+msgstr ""
+
+#: ../03-technical-committee.rst:3
+msgid "OpenStack Governance"
+msgstr "OpenStack ガバナンス"
+
+#: ../03-technical-committee.rst:10
+msgid "OpenStack Foundation"
+msgstr "OpenStack Foundation"
+
+#: ../03-technical-committee.rst:12
+msgid ""
+"Nonprofit foundation created to \"develop, support, protect, and promote\" "
+"OpenStack"
+msgstr "OpenStack を「開発、支援、保護、促進」するために作成された非営利団体"
+
+#: ../03-technical-committee.rst:15
+msgid "Individual members: all of us"
+msgstr "個人メンバー：私たち全員"
+
+#: ../03-technical-committee.rst:16
+msgid "Institutional members: Platinum and Gold sponsors"
+msgstr "組織メンバー：プラチナスポンサーおよびゴールドスポンサー"
+
+#: ../03-technical-committee.rst:17
+msgid "Led by a board of directors"
+msgstr "役員会により指揮されています"
+
+#: ../03-technical-committee.rst:18
+msgid "Creates other committees for day-to-day leadership"
+msgstr ""
+
+#: ../03-technical-committee.rst:20
+msgid "Technical Committee"
+msgstr "技術委員会 (TC)"
+
+#: ../03-technical-committee.rst:21
+msgid "User Committee"
+msgstr ""
+
+#: ../03-technical-committee.rst:24
+msgid "The role of the Technical Committee"
+msgstr ""
+
+#: ../03-technical-committee.rst:26
+msgid ""
+"The Technical Committee (\"TC\") is tasked with providing technical "
+"leadership over all the OpenStack projects. It enforces OpenStack ideals "
+"(Openness, Transparency, Commonality, Integration, Quality), decides on "
+"issues affecting multiple programs, forms an ultimate appeals board for "
+"technical decisions, and generally has oversight over the OpenStack project "
+"entirely."
+msgstr ""
+
+#: ../03-technical-committee.rst:32
+msgid "https://www.openstack.org/foundation/tech-committee/"
+msgstr "https://www.openstack.org/foundation/tech-committee/"
+
+#: ../03-technical-committee.rst:35
+msgid "Technical Committee Members"
+msgstr ""
+
+#: ../03-technical-committee.rst:46
+msgid "OpenStack Project Teams"
+msgstr ""
+
+#: ../03-technical-committee.rst:48
+msgid ""
+"Project Teams are teams of *people* using *tools* (code repository, bug "
+"tracker, etc) and coordinated *processes* to produce a number of "
+"*deliverables*, in order to achieve a clearly stated *objective*."
+msgstr ""
+
+#: ../03-technical-committee.rst:52
+msgid "The official list of projects is in the `governance` repository"
+msgstr ""
+
+#: ../03-technical-committee.rst:53
+msgid ""
+"http://git.openstack.org/cgit/openstack/governance/tree/reference/projects."
+"yaml"
+msgstr ""
+"http://git.openstack.org/cgit/openstack/governance/tree/reference/projects."
+"yaml"
+
+#: ../03-technical-committee.rst:54
+msgid ""
+"Fully rendered http://governance.openstack.org/reference/projects/index.html"
+msgstr ""
+
+#: ../03-technical-committee.rst:57
+msgid "Meetings"
+msgstr "ミーティング"
+
+#: ../03-technical-committee.rst:59
+msgid "Governance/TechnicalCommittee#Meeting"
+msgstr ""
+
+#: ../03-technical-committee.rst:61
+msgid "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
+msgstr "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
+
+#: ../03-technical-committee.rst:63
+msgid "Agenda"
+msgstr ""
+
+#: ../03-technical-committee.rst:64
+msgid "Motions"
+msgstr ""
+
+#: ../03-technical-committee.rst:74
+msgid ""
+"read tc.2014-04-01-20.03.log.html and briefly comment on keystone document"
+msgstr ""
+
+#: ../03-technical-committee.rst:77
+msgid "Active Technical Contributor (ATC)"
+msgstr ""
+
+#: ../03-technical-committee.rst:79
+msgid ""
+"The TC seats are elected by the Active Technical Contributors (\"ATC\"), "
+"which are a subset of the Foundation Individual Members. Individual Members "
+"who committed a change to a repository under any of the official OpenStack "
+"programs (as defined above) over the last two 6-month release cycles are "
+"automatically considered an ATC."
+msgstr ""
+
+#: ../03-technical-committee.rst:85
+msgid "TC seats are elected by ATC"
+msgstr ""
+
+#: ../03-technical-committee.rst:86
+msgid "Same as APC"
+msgstr ""
+
+#: ../03-technical-committee.rst:87
+msgid ""
+"Bug triagers, technical documentation writers, etc can exceptionally apply "
+"for ATC"
+msgstr ""
+
+#: ../03-technical-committee.rst:91
+msgid "Active Project Contributor (APC)"
+msgstr ""
+
+#: ../03-technical-committee.rst:93
+msgid "Voters for a given program PTL"
+msgstr ""
+
+#: ../03-technical-committee.rst:94
+msgid "Subset of the Foundation Individual Member"
+msgstr ""
+
+#: ../03-technical-committee.rst:95
+msgid "Committed a change over the last two 6-month release cycles"
+msgstr ""
+
+#: ../03-technical-committee.rst:96
+msgid "Candidacy for the corresponding program PTL election"
+msgstr ""
+
+#: ../03-technical-committee.rst:99
+msgid "Project Team Leads (PTLs)"
+msgstr ""
+
+#: ../03-technical-committee.rst:101
+msgid "Manage day-to-day operations"
+msgstr ""
+
+#: ../03-technical-committee.rst:102
+msgid "Drive the program goals"
+msgstr ""
+
+#: ../03-technical-committee.rst:103
+msgid "Resolve technical disputes"
+msgstr ""
+
+#: ../03-technical-committee.rst:108
+msgid ""
+"`Each APC/ATC in the class should add a URL to the etherpad proving it`"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:3
+msgid "OpenStack \"Big Tent\" and tags"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:10
+msgid "Old way of adding new Projects"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:15
+msgid "Created too much pressure to `integrate`"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:16
+msgid "Did not scale"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:17
+msgid "Superseded by *Big tent* approach with `tags`"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:22
+msgid "The building blocks to achieve OpenStack's mission"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:23
+msgid ""
+"Teams of people using tools (code repository, bug tracker, etc) and "
+"coordinated processes to produce a number of deliverables"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:25
+msgid ""
+"The Technical Committee reviews Working Groups interested in becoming "
+"official OpenStack Project Teams"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:29
+msgid "How to form new Project Team"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:31
+msgid "Start from groups of people working in the same area"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:32
+msgid "As these grow naturally they can apply to become Official"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:33
+msgid "TC will check:"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:35
+msgid "Alignment with OpenStack mission"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:36
+msgid "Interoperability with other projects"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:37
+msgid "Active and diverse team of contributors"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:38
+msgid "Group can follow the four *Open*"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:40
+msgid "Open Source"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:41
+msgid "Open Community"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:42
+msgid "Open Design"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:43
+msgid "Open Development"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:46
+msgid "Tags describing OpenStack Projects"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:48
+msgid "Describe the output produced by the OpenStack community teams"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:50
+msgid "Software, documentation, release management etc"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:51
+msgid "http://governance.openstack.org/reference/projects/index.html"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:53
+msgid "Current tags describe how projects are released and team diversity"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:54
+msgid "Other tags can be proposed by anyone"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:56
+msgid "List of approved tags"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:57
+msgid "http://governance.openstack.org/reference/tags/index.html"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:60
+msgid "Core (or What is OpenStack)"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:64
+msgid "DefCore initiative:"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:66
+msgid ""
+"guiding principles\" used by the Foundation Board to determine how "
+"commercial implementations of OpenStack can be granted use of the trademark"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:71
+msgid "DefCore principles"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:73
+msgid "Implementations that are Core can use OpenStack trademark (OpenStack™)"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:75
+msgid "Core is a subset of the whole project"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:76
+msgid "Claiming OpenStack requiring use of designated upstream code"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:77
+msgid "Projects must have an open reference implementation"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:78
+msgid "Vendors may substitute alternate implementations"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:79
+msgid "Tests can be remotely or self-administered"
+msgstr ""
+
+#: ../04-program-ecosystem.rst:80
+msgid "A subset of tests are chosen by the Foundation as \"must-pass\""
+msgstr ""
+
+#: ../04-program-ecosystem.rst:81
+msgid "OpenStack Core means passing all \"must-pass\" tests"
+msgstr "OpenStack Core は、すべての「must-pass」テストに成功していることを意味します"
+
+#: ../04-program-ecosystem.rst:85
+msgid "Stackforge"
+msgstr "Stackforge"
+
+#: ../04-program-ecosystem.rst:90
+msgid ""
+"Stackforge was used for new unofficial projects, but retired on Aug 2015"
+msgstr "Stackforge は、非公式の新規プロジェクトのために使用されました。2015年8月に廃止されました。"
+
+#: ../04-program-ecosystem.rst:91
+msgid "Replaced by Big Tent initiative"
+msgstr "ビッグテント構想により置き換えられました"
+
+#: ../04-program-ecosystem.rst:92
+msgid "Used the same processes and tools as the main OpenStack projects"
+msgstr "主要な OpenStack プロジェクトと同じプロセスとツールが使用されます"
+
+#: ../04-program-ecosystem.rst:97
+msgid "What kind of project do you want to contribute to?"
+msgstr "どの種類のプロジェクトに貢献したいですか?"
+
+#: ../05-design-summit.rst:3 ../05-design-summit.rst:10
+msgid "OpenStack Design Summit"
+msgstr "OpenStack Design Summit"
+
+#: ../05-design-summit.rst:12
+msgid ""
+"Where developers meet face to face to finalize planning for the next release "
+"cycle."
+msgstr "開発者が顔を合わせて、次のリリースサイクルに向けて最終的に計画するところです。"
+
+#: ../05-design-summit.rst:18
+msgid "How does it work?"
+msgstr ""
+
+#: ../05-design-summit.rst:20
+msgid ""
+"Not a classic conference with presenter and audience - more like a "
+"collaborative brainstorming session"
+msgstr ""
+
+#: ../05-design-summit.rst:22
+msgid "Discuss upcoming features for the next release cycle"
+msgstr ""
+
+#: ../05-design-summit.rst:23
+msgid "Not suitable to start learning about a topic"
+msgstr ""
+
+#: ../05-design-summit.rst:29
+msgid "Etherpads"
+msgstr ""
+
+#: ../05-design-summit.rst:34
+msgid "Proposing a session"
+msgstr ""
+
+#: ../05-design-summit.rst:36
+msgid ""
+"Sessions are proposed on an open document (generally an Etherpad) and "
+"discussed at team meetings."
+msgstr ""
+
+#: ../05-design-summit.rst:39
+msgid "https://wiki.openstack.org/wiki/Summit/Liberty"
+msgstr "https://wiki.openstack.org/wiki/Summit/Liberty"
+
+#: ../05-design-summit.rst:40
+msgid "https://wiki.openstack.org/wiki/Design_Summit/Planning"
+msgstr "https://wiki.openstack.org/wiki/Design_Summit/Planning"
+
+#: ../05-design-summit.rst:43
+msgid "Types of sessions"
+msgstr "セッション種別"
+
+#: ../05-design-summit.rst:45
+msgid "Fishbowl sessions"
+msgstr "フィッシュボールセッション"
+
+#: ../05-design-summit.rst:47
+msgid "Open discussions, chairs organized in concentric rings"
+msgstr ""
+
+#: ../05-design-summit.rst:48
+msgid "People sitting in the inner circle lead the discussion"
+msgstr ""
+
+#: ../05-design-summit.rst:49
+msgid "No mics."
+msgstr "マイクなし。"
+
+#: ../05-design-summit.rst:51
+msgid "Work sessions"
+msgstr "ワークセッション"
+
+#: ../05-design-summit.rst:53
+msgid "Like sprints, small groups of people work on specific themes"
+msgstr ""
+
+#: ../05-design-summit.rst:55
+msgid "Contributor meetups"
+msgstr "コントリビューターミートアップ"
+
+#: ../05-design-summit.rst:57
+msgid "Reserved for ad-hoc meetings of project teams"
+msgstr ""
+
+#: ../05-design-summit.rst:58
+msgid "No predefined agenda."
+msgstr "事前の議題なし。"
+
+#: ../05-design-summit.rst:60
+msgid "Project pods"
+msgstr "プロジェクトポッド"
+
+#: ../05-design-summit.rst:62
+msgid "Tables informally available for new/small teams"
+msgstr ""
+
+#: ../05-design-summit.rst:65
+msgid "List of sessions"
+msgstr ""
+
+#: ../05-design-summit.rst:67
+msgid "https://mitakadesignsummit.sched.org/overview/type/design+summit"
+msgstr ""
+
+#: ../05-design-summit.rst:70
+msgid "Selection of sessions"
+msgstr ""
+
+#: ../05-design-summit.rst:72
+msgid "TC votes for sessions in cross-project and other-projects tracks"
+msgstr ""
+
+#: ../05-design-summit.rst:73
+msgid "PTLs vote for sessions in project tracks"
+msgstr ""
+
+#: ../05-design-summit.rst:76
+msgid "At the Design Summit"
+msgstr ""
+
+#: ../05-design-summit.rst:78
+msgid "Start on time"
+msgstr ""
+
+#: ../05-design-summit.rst:79
+msgid "Mind the noise"
+msgstr ""
+
+#: ../05-design-summit.rst:80
+msgid "Clear introductions"
+msgstr ""
+
+#: ../05-design-summit.rst:81
+msgid "Keep the discussion lively and on-topic"
+msgstr ""
+
+#: ../05-design-summit.rst:82
+msgid "End on time"
+msgstr ""
+
+#: ../05-design-summit.rst:87
+msgid "Add a session proposal regarding your contribution in an etherpad"
+msgstr ""
+
+#: ../06-irc-meetings.rst:3 ../06-irc-meetings.rst:10
+msgid "IRC meetings"
+msgstr ""
+
+#: ../06-irc-meetings.rst:16
+msgid "IRC meetings list"
+msgstr ""
+
+#: ../06-irc-meetings.rst:22
+msgid "Meeting agenda"
+msgstr ""
+
+#: ../06-irc-meetings.rst:28
+msgid "Meetbot"
+msgstr ""
+
+#: ../06-irc-meetings.rst:36
+msgid "Join irc.freenode.net#upstream-university"
+msgstr ""
+
+#: ../06-irc-meetings.rst:39
+msgid "#info"
+msgstr ""
+
+#: ../06-irc-meetings.rst:41
+msgid ""
+"Add an info item to the minutes. People should liberally use this for "
+"important things they say, so that they can be logged in the minutes."
+msgstr ""
+
+#: ../06-irc-meetings.rst:45
+msgid "#action"
+msgstr ""
+
+#: ../06-irc-meetings.rst:47
+msgid ""
+"Document an action item in the minutes. Include any nicknames in the line, "
+"and the item will be assigned to them. (nicknames are case-sensitive)"
+msgstr ""
+
+#: ../06-irc-meetings.rst:51
+msgid "#help"
+msgstr ""
+
+#: ../06-irc-meetings.rst:53
+msgid ""
+"Add a \"Call for Help\" to the minutes. Use this command when you need to "
+"recruit someone to do a task. (Counter-intuitively, this doesn't provide "
+"help on the bot)"
+msgstr ""
+
+#: ../06-irc-meetings.rst:60
+msgid "Lunch menu meeting"
+msgstr ""
+
+#: ../11-devstack.rst:3 ../11-devstack.rst:10
+msgid "devstack.org"
+msgstr ""
+
+#: ../11-devstack.rst:16
+msgid "rejoin-stack.sh"
+msgstr ""
+
+#: ../11-devstack.rst:22 ../11-devstack.rst:28
+msgid "http://localhost/"
+msgstr ""
+
+#: ../11-devstack.rst:35
+msgid "Get the code for the targeted contribution"
+msgstr ""
+
+#: ../12-howtocontribute.rst:3
+msgid "How to contribute"
+msgstr ""
+
+#: ../12-howtocontribute.rst:11
+msgid "http://launchpad.net/"
+msgstr "http://launchpad.net/"
+
+#: ../12-howtocontribute.rst:17
+msgid "https://www.openstack.org/join/"
+msgstr "https://www.openstack.org/join/"
+
+#: ../12-howtocontribute.rst:23
+msgid "http://review.openstack.org"
+msgstr "http://review.openstack.org"
+
+#: ../12-howtocontribute.rst:29
+msgid "Sign In"
+msgstr "サインイン"
+
+#: ../12-howtocontribute.rst:35
+msgid "No agreement"
+msgstr ""
+
+#: ../12-howtocontribute.rst:41
+msgid "New agreement"
+msgstr ""
+
+#: ../12-howtocontribute.rst:47
+msgid "Sign the Individual agreement"
+msgstr ""
+
+#: ../12-howtocontribute.rst:53
+msgid "Do you work at a company?"
+msgstr ""
+
+#: ../12-howtocontribute.rst:55
+msgid ""
+"If your contribution is on behalf of a company, have your managers sign the "
+"Corporate Contributor License Agreement"
+msgstr ""
+
+#: ../12-howtocontribute.rst:57
+msgid ""
+"When signing up for Foundation Membership, make sure to give the same email "
+"address you’ll use for code contributions."
+msgstr ""
+
+#: ../12-howtocontribute.rst:60
+msgid "This will need to match your preferred email address in Gerrit."
+msgstr ""
+
+#: ../12-howtocontribute.rst:62
+msgid "http://docs.openstack.org/infra/manual/developers.html#account-setup"
+msgstr ""
+
+#: ../12-howtocontribute.rst:65
+msgid "Signed agreement"
+msgstr ""
+
+#: ../12-howtocontribute.rst:73
+msgid "Apply for individual membership and sign the CLA"
+msgstr ""
+
+#: ../13-launchpad.rst:3 ../13-launchpad.rst:10
+msgid "launchpad.net"
+msgstr ""
+
+#: ../13-launchpad.rst:16
+msgid "Blueprint"
+msgstr ""
+
+#: ../13-launchpad.rst:18
+msgid "a forum for listing and planning specifications for work to be done"
+msgstr ""
+
+#: ../13-launchpad.rst:19
+msgid "a blueprint is a description of a solution"
+msgstr ""
+
+#: ../13-launchpad.rst:20
+msgid "a title"
+msgstr ""
+
+#: ../13-launchpad.rst:21
+msgid "a description"
+msgstr ""
+
+#: ../13-launchpad.rst:22
+msgid "longer-form go on a wiki page"
+msgstr ""
+
+#: ../13-launchpad.rst:23
+msgid "Most of the projects now manage blueprints on a git repo called specs"
+msgstr ""
+
+#: ../13-launchpad.rst:24
+msgid "https://wiki.openstack.org/wiki/Blueprints#Nova"
+msgstr "https://wiki.openstack.org/wiki/Blueprints#Nova"
+
+#: ../13-launchpad.rst:25
+msgid "https://wiki.openstack.org/wiki/Blueprints#Neutron"
+msgstr "https://wiki.openstack.org/wiki/Blueprints#Neutron"
+
+#: ../13-launchpad.rst:28 ../13-launchpad.rst:50 ../13-launchpad.rst:63
+msgid "Bug status"
+msgstr ""
+
+#: ../13-launchpad.rst:33 ../13-launchpad.rst:65
+msgid "New"
+msgstr ""
+
+#: ../13-launchpad.rst:34
+msgid "The bug was just created"
+msgstr ""
+
+#: ../13-launchpad.rst:35 ../13-launchpad.rst:66
+msgid "Incomplete"
+msgstr ""
+
+#: ../13-launchpad.rst:36
+msgid "The bug is waiting on input from the reporter"
+msgstr ""
+
+#: ../13-launchpad.rst:37 ../13-launchpad.rst:67
+msgid "Confirmed"
+msgstr ""
+
+#: ../13-launchpad.rst:38
+msgid "The bug was reproduced or confirmed as a genuine bug"
+msgstr ""
+
+#: ../13-launchpad.rst:39 ../13-launchpad.rst:68
+msgid "Triaged"
+msgstr ""
+
+#: ../13-launchpad.rst:40
+msgid ""
+"The bug comments contain a full analysis on how to properly fix the issue"
+msgstr ""
+
+#: ../13-launchpad.rst:41 ../13-launchpad.rst:69
+msgid "In Progress"
+msgstr ""
+
+#: ../13-launchpad.rst:42
+msgid "Work on the fix is in progress, bug has an assignee"
+msgstr ""
+
+#: ../13-launchpad.rst:43 ../13-launchpad.rst:70
+msgid "Fix Committed"
+msgstr ""
+
+#: ../13-launchpad.rst:44
+msgid "The branch containing the fix was merged into master"
+msgstr ""
+
+#: ../13-launchpad.rst:45 ../13-launchpad.rst:71
+msgid "Fix Released"
+msgstr ""
+
+#: ../13-launchpad.rst:46
+msgid ""
+"The fix is included in the milestone-proposed branch, a past milestone or a "
+"past release"
+msgstr ""
+
+#: ../13-launchpad.rst:55 ../13-launchpad.rst:72
+msgid "Invalid"
+msgstr ""
+
+#: ../13-launchpad.rst:56
+msgid "This is not a bug"
+msgstr ""
+
+#: ../13-launchpad.rst:57 ../13-launchpad.rst:73
+msgid "Opinion"
+msgstr ""
+
+#: ../13-launchpad.rst:58
+msgid "This is a valid issue, but it is the way it should be"
+msgstr ""
+
+#: ../13-launchpad.rst:59 ../13-launchpad.rst:74
+msgid "Won't Fix"
+msgstr ""
+
+#: ../13-launchpad.rst:60
+msgid "This is a valid issue, but we don't intend to fix that"
+msgstr ""
+
+#: ../13-launchpad.rst:77 ../13-launchpad.rst:98
+msgid "Bug importance"
+msgstr ""
+
+#: ../13-launchpad.rst:82 ../13-launchpad.rst:100
+msgid "Critical"
+msgstr ""
+
+#: ../13-launchpad.rst:83
+msgid "Data corruption / complete failure affecting most users, no workaround"
+msgstr ""
+
+#: ../13-launchpad.rst:84 ../13-launchpad.rst:101
+msgid "High"
+msgstr ""
+
+#: ../13-launchpad.rst:85
+msgid ""
+"Data corruption / complete failure affecting most users, with workwround. "
+"Failure of a significant feature, no workaround"
+msgstr ""
+
+#: ../13-launchpad.rst:87 ../13-launchpad.rst:102
+msgid "Medium"
+msgstr ""
+
+#: ../13-launchpad.rst:88
+msgid ""
+"Failure of a significant feature, with workaround. Failure of a fringe "
+"feature, no workaround"
+msgstr ""
+
+#: ../13-launchpad.rst:90 ../13-launchpad.rst:103
+msgid "Low"
+msgstr ""
+
+#: ../13-launchpad.rst:91
+msgid "Small issue with an easy workaround. Any other insignificant bug"
+msgstr ""
+
+#: ../13-launchpad.rst:92 ../13-launchpad.rst:104
+msgid "Wishlist"
+msgstr ""
+
+#: ../13-launchpad.rst:93
+msgid "Not really a bug, but a suggested improvement"
+msgstr ""
+
+#: ../13-launchpad.rst:94 ../13-launchpad.rst:105
+msgid "Undefined"
+msgstr ""
+
+#: ../13-launchpad.rst:95
+msgid "Impact was not assessed yet"
+msgstr ""
+
+#: ../13-launchpad.rst:108 ../13-launchpad.rst:128
+msgid "Bug tags"
+msgstr "バグのタグ"
+
+#: ../13-launchpad.rst:113
+msgid "low-hanging-fruit"
+msgstr "low-hanging-fruit"
+
+#: ../13-launchpad.rst:114
+msgid ""
+"Bugs that are easy to fix, ideal for beginners to get familiar with the "
+"workflow and to have their first contact with the code in OpenStack "
+"development."
+msgstr ""
+
+#: ../13-launchpad.rst:117
+msgid "documentation"
+msgstr "ドキュメント"
+
+#: ../13-launchpad.rst:118
+msgid "Bug is about documentation or has an impact on documentation."
+msgstr "ドキュメント関連のバグ、ドキュメントに影響するもの。"
+
+#: ../13-launchpad.rst:119
+msgid "i18n"
+msgstr "i18n"
+
+#: ../13-launchpad.rst:120
+msgid "Translations / i18n issues."
+msgstr "翻訳 / i18n 関連の問題。"
+
+#: ../13-launchpad.rst:121
+msgid "security"
+msgstr "security"
+
+#: ../13-launchpad.rst:122
+msgid ""
+"Fix for the bug would make OpenStack more resilient to future security "
+"issues."
+msgstr "OpenStack の将来的なセキュリティー問題を回復させるバグ修正。"
+
+#: ../13-launchpad.rst:124
+msgid "ops"
+msgstr "ops"
+
+#: ../13-launchpad.rst:125
+msgid "Fix for the bug would significantly ease OpenStack operation."
+msgstr "OpenStack の運用を非常に容易にするバグ修正。"
+
+#: ../13-launchpad.rst:133
+msgid "SERIES-rc-potential"
+msgstr ""
+
+#: ../13-launchpad.rst:134
+msgid ""
+"During the SERIES pre-release period, mark the bug as a potential release-"
+"critical blocker"
+msgstr ""
+
+#: ../13-launchpad.rst:136
+msgid "SERIES-backport-potential"
+msgstr ""
+
+#: ../13-launchpad.rst:137
+msgid ""
+"Mark the bug as a potential backport target to a specific SERIES (grizzly, "
+"havana...)"
+msgstr ""
+
+#: ../13-launchpad.rst:139
+msgid "Per project tags"
+msgstr ""
+
+#: ../13-launchpad.rst:140
+msgid "https://wiki.openstack.org/wiki/BugTags"
+msgstr "https://wiki.openstack.org/wiki/BugTags"
+
+#: ../13-launchpad.rst:143
+msgid "Bug"
+msgstr ""
+
+#: ../13-launchpad.rst:148
+msgid "Assigned To"
+msgstr ""
+
+#: ../13-launchpad.rst:149
+msgid ""
+"The person currently working to fix this bug. Must be set by In progress "
+"stage."
+msgstr ""
+
+#: ../13-launchpad.rst:151
+msgid "Milestone"
+msgstr ""
+
+#: ../13-launchpad.rst:152
+msgid ""
+"The milestone we need to fix the bug for, or the milestone/version it was "
+"fixed in."
+msgstr ""
+
+#: ../13-launchpad.rst:156
+msgid "Bug report"
+msgstr "バグ報告"
+
+#: ../13-launchpad.rst:158
+msgid "file it against the proper OpenStack project"
+msgstr ""
+
+#: ../13-launchpad.rst:159
+msgid "check for duplicates"
+msgstr "重複の確認"
+
+#: ../13-launchpad.rst:160
+msgid "The release, or milestone, or commit ID"
+msgstr "リリース、マイルストーン、コミット ID"
+
+#: ../13-launchpad.rst:161
+msgid "Status: New"
+msgstr ""
+
+#: ../13-launchpad.rst:164
+msgid "Confirming & prioritizing"
+msgstr ""
+
+#: ../13-launchpad.rst:166
+msgid "lacking information => Status: Incomplete"
+msgstr ""
+
+#: ../13-launchpad.rst:167
+msgid "reproduced the issue => Status: Confirmed"
+msgstr ""
+
+#: ../13-launchpad.rst:168
+msgid ""
+"core developer or a member of the project bug supervision team => Importance:"
+" <Bug impact>"
+msgstr ""
+
+#: ../13-launchpad.rst:172
+msgid "Debugging"
+msgstr ""
+
+#: ../13-launchpad.rst:174
+msgid "determining how to fix the bug"
+msgstr ""
+
+#: ../13-launchpad.rst:175
+msgid "optional if straightforward"
+msgstr ""
+
+#: ../13-launchpad.rst:176
+msgid "ask a core developer or bug supervisor => Status: Triaged"
+msgstr ""
+
+#: ../13-launchpad.rst:179
+msgid "Bug fixing"
+msgstr ""
+
+#: ../13-launchpad.rst:181
+msgid "developer work on a fix"
+msgstr ""
+
+#: ../13-launchpad.rst:182
+msgid "Status: In progress"
+msgstr ""
+
+#: ../13-launchpad.rst:183
+msgid "Assignee: the developer working on the fix"
+msgstr ""
+
+#: ../13-launchpad.rst:184
+msgid "Gerrit will automatically set the status"
+msgstr ""
+
+#: ../13-launchpad.rst:187
+msgid "After the change is accepted"
+msgstr ""
+
+#: ../13-launchpad.rst:189
+msgid "reviewed, accepted, and has landed in master"
+msgstr ""
+
+#: ../13-launchpad.rst:190
+msgid "Status: Fix Committed"
+msgstr ""
+
+#: ../13-launchpad.rst:191
+msgid "milestone or release branch"
+msgstr ""
+
+#: ../13-launchpad.rst:192
+msgid "Milestone: Milestone the bug was fixed in"
+msgstr ""
+
+#: ../13-launchpad.rst:193
+msgid "Status: Fix Released"
+msgstr ""
+
+#: ../13-launchpad.rst:198
+msgid "Review other launchpad bugs and improve yours."
+msgstr ""
+
+#: ../14-gerrit.rst:3 ../14-gerrit.rst:10
+msgid "review.openstack.org"
+msgstr "review.openstack.org"
+
+#: ../14-gerrit.rst:16
+msgid "gerrit workflow"
+msgstr "gerrit ワークフロー"
+
+#: ../14-gerrit.rst:22
+msgid "upload an ssh key"
+msgstr "SSH 鍵のアップロード"
+
+#: ../14-gerrit.rst:24
+msgid "https://review.openstack.org/#/settings/ssh-keys"
+msgstr "https://review.openstack.org/#/settings/ssh-keys"
+
+#: ../14-gerrit.rst:29
+msgid "git config"
+msgstr "git 設定"
+
+#: ../14-gerrit.rst:31
+msgid "git config --global user.name \"Firstname Lastname\""
+msgstr "git config --global user.name \"Firstname Lastname\""
+
+#: ../14-gerrit.rst:32
+msgid "git config --global user.email \"your_email@youremail.com\""
+msgstr "git config --global user.email \"your_email@youremail.com\""
+
+#: ../14-gerrit.rst:37
+msgid "Install git review"
+msgstr "git review のインストール"
+
+#: ../14-gerrit.rst:39
+msgid "apt-get / yum / pip install … git review"
+msgstr "apt-get / yum / pip install … git review"
+
+#: ../14-gerrit.rst:44
+msgid "git clone"
+msgstr "git clone"
+
+#: ../14-gerrit.rst:49
+msgid "git review -s"
+msgstr "git review -s"
+
+#: ../14-gerrit.rst:54
+msgid "git checkout -b TOPIC-BRANCH"
+msgstr "git checkout -b TOPIC-BRANCH"
+
+#: ../14-gerrit.rst:59
+msgid "running unit tests"
+msgstr "ユニットテストの実行"
+
+#: ../14-gerrit.rst:64
+msgid "invite reviewers"
+msgstr "レビューアーの招待"
+
+#: ../14-gerrit.rst:70
+msgid "New interface: invite reviewers"
+msgstr "新インターフェース：レビューアーの招待"
+
+#: ../14-gerrit.rst:75
+msgid "git commit --amend"
+msgstr "git commit --amend"
+
+#: ../14-gerrit.rst:80
+msgid "gerrit patchset history"
+msgstr "gerrit パッチセットの履歴"
+
+#: ../14-gerrit.rst:86
+msgid "New interface: gerrit patchset history"
+msgstr "新インターフェース：gerrit パッチセットの履歴"
+
+#: ../14-gerrit.rst:92
+msgid "patchset diffs"
+msgstr "パッチセットの差分"
+
+#: ../14-gerrit.rst:100
+msgid "Push a work in progress (wip) and invite reviewers."
+msgstr "作業中 (WIP) のプッシュとレビューアーの招待"
+
+#: ../15-branching-model.rst:3
+msgid "Branching model"
+msgstr "ブランチモデル"
+
+#: ../15-branching-model.rst:10
+msgid "nvie inspired"
+msgstr ""
+
+#: ../15-branching-model.rst:15
+msgid "Stable branches"
+msgstr ""
+
+#: ../15-branching-model.rst:20
+msgid "Appropriate Fixes"
+msgstr ""
+
+#: ../15-branching-model.rst:22
+msgid "risk of regression"
+msgstr ""
+
+#: ../15-branching-model.rst:23
+msgid "user visible benefit"
+msgstr ""
+
+#: ../15-branching-model.rst:24
+msgid "Self-contained"
+msgstr ""
+
+#: ../15-branching-model.rst:25
+msgid "fix is already on master"
+msgstr ""
+
+#: ../15-branching-model.rst:28
+msgid "Forbidden"
+msgstr ""
+
+#: ../15-branching-model.rst:30
+msgid "New features"
+msgstr ""
+
+#: ../15-branching-model.rst:31
+msgid "Changes to the external HTTP APIs"
+msgstr ""
+
+#: ../15-branching-model.rst:32
+msgid "Changes to Nova's internal AMQP API"
+msgstr ""
+
+#: ../15-branching-model.rst:33
+msgid "Changes to the notification definitions"
+msgstr ""
+
+#: ../15-branching-model.rst:34
+msgid "DB schema changes"
+msgstr ""
+
+#: ../15-branching-model.rst:35
+msgid "Incompatible config file changes"
+msgstr ""
+
+#: ../15-branching-model.rst:38
+msgid "2013.2 branch and tags"
+msgstr ""
+
+#: ../15-branching-model.rst:43
+msgid "2013.2.4 preparation"
+msgstr ""
+
+#: ../15-branching-model.rst:48
+msgid "Review"
+msgstr "レビュー"
+
+#: ../15-branching-model.rst:56
+msgid "checkout the latest stable branch"
+msgstr "最新の stable ブランチのチェックアウト"
+
+#: ../16-reviewing.rst:3
+msgid "Reviewing"
+msgstr "レビュー"
+
+#: ../16-reviewing.rst:10 ../16-reviewing.rst:16
+msgid "Review unified"
+msgstr "一元レビュー"
+
+#: ../16-reviewing.rst:22
+msgid "Inline comments"
+msgstr "インラインコメント"
+
+#: ../16-reviewing.rst:27
+msgid "Draft inline comments"
+msgstr "ドラフトのインラインコメント"
+
+#: ../16-reviewing.rst:33
+msgid "Regular reviewer"
+msgstr "通常のレビューアー"
+
+#: ../16-reviewing.rst:38
+msgid "Core reviewer"
+msgstr "コアレビューアー"
+
+#: ../16-reviewing.rst:45
+msgid "push a wip or draft and invite reviewers"
+msgstr ""
+
+#: ../17-commit-message.rst:3 ../17-commit-message.rst:10
+msgid "Commit messages"
+msgstr ""
+
+#: ../17-commit-message.rst:12
+msgid "quality of the OpenStack git history"
+msgstr ""
+
+#: ../17-commit-message.rst:13
+msgid "carrot by alerting people to the benefits"
+msgstr ""
+
+#: ../17-commit-message.rst:14
+msgid "anyone doing Gerrit code review can act as the stick"
+msgstr ""
+
+#: ../17-commit-message.rst:15
+msgid "review the commit message, not just the code"
+msgstr ""
+
+#: ../17-commit-message.rst:16
+msgid "Developers read mostly, write occasionally"
+msgstr ""
+
+#: ../17-commit-message.rst:17
+msgid "https://wiki.openstack.org/wiki/GitCommitMessages"
+msgstr ""
+
+#: ../17-commit-message.rst:20
+msgid "Structural split of changes"
+msgstr ""
+
+#: ../17-commit-message.rst:22
+msgid "Small means quicker & easier"
+msgstr ""
+
+#: ../17-commit-message.rst:23
+msgid "Easier to revert"
+msgstr ""
+
+#: ../17-commit-message.rst:24
+msgid "Easier to bisect"
+msgstr ""
+
+#: ../17-commit-message.rst:25
+msgid "Easier to browse"
+msgstr ""
+
+#: ../17-commit-message.rst:28
+msgid "Things to avoid"
+msgstr ""
+
+#: ../17-commit-message.rst:30
+msgid "Mixing whitespace changes with functional code changes."
+msgstr ""
+
+#: ../17-commit-message.rst:31
+msgid "Mixing two unrelated functional changes."
+msgstr ""
+
+#: ../17-commit-message.rst:32
+msgid "Sending large new features in a single giant commit."
+msgstr ""
+
+#: ../17-commit-message.rst:35
+msgid "Bad: two independent changes"
+msgstr ""
+
+#: ../17-commit-message.rst:40
+msgid "Bad: new feature and refactor"
+msgstr ""
+
+#: ../17-commit-message.rst:45
+msgid "Good: new API + new feature"
+msgstr ""
+
+#: ../17-commit-message.rst:50
+msgid "Do not assume ..."
+msgstr ""
+
+#: ../17-commit-message.rst:52
+msgid "the reviewer understands what the original problem was."
+msgstr ""
+
+#: ../17-commit-message.rst:53
+msgid "the reviewer has access to external web services/site."
+msgstr ""
+
+#: ../17-commit-message.rst:54
+msgid "the code is self-evident/self-documenting."
+msgstr ""
+
+#: ../17-commit-message.rst:57
+msgid "Information in commit messages (1/2)"
+msgstr ""
+
+#: ../17-commit-message.rst:59
+msgid "Describe why a change is being made"
+msgstr ""
+
+#: ../17-commit-message.rst:60
+msgid "Read the commit message to see if it hints at improved code structure."
+msgstr ""
+
+#: ../17-commit-message.rst:61
+msgid "Ensure sufficient information to decide whether to review."
+msgstr ""
+
+#: ../17-commit-message.rst:64
+msgid "Information in commit messages (2/2)"
+msgstr ""
+
+#: ../17-commit-message.rst:66
+msgid "Describe any limitations of the current code."
+msgstr ""
+
+#: ../17-commit-message.rst:67
+msgid "Do not include patch set-specific comments."
+msgstr ""
+
+#: ../17-commit-message.rst:68
+msgid "The first commit line is the most important."
+msgstr ""
+
+#: ../17-commit-message.rst:71
+msgid "Required external references"
+msgstr ""
+
+#: ../17-commit-message.rst:73
+msgid "Change-id"
+msgstr ""
+
+#: ../17-commit-message.rst:75
+msgid "blueprint"
+msgstr ""
+
+#: ../17-commit-message.rst:78
+msgid "Optional external references"
+msgstr ""
+
+#: ../17-commit-message.rst:80
+msgid "DocImpact"
+msgstr "DocImpact"
+
+#: ../17-commit-message.rst:81
+msgid "SecurityImpact"
+msgstr "SecurityImpact"
+
+#: ../17-commit-message.rst:82
+msgid "UpgradeImpact"
+msgstr "UpgradeImpact"
+
+#: ../17-commit-message.rst:85
+msgid "GIT commit message structure"
+msgstr "GIT コミットメッセージの構造"
+
+#: ../17-commit-message.rst:92
+msgid "Review each other’s commit messages on the draft"
+msgstr ""
+
+#: ../18-jenkins.rst:3
+msgid "Jenkins"
+msgstr "Jenkins"
+
+#: ../18-jenkins.rst:10
+msgid "Triggered on every commit"
+msgstr "すべてのコミットにおいて実行"
+
+#: ../18-jenkins.rst:15
+msgid "Review in gerrit"
+msgstr "gerrit におけるレビュー"
+
+#: ../18-jenkins.rst:20
+msgid "Error report"
+msgstr "エラー報告"
+
+#: ../18-jenkins.rst:25
+msgid "False errors"
+msgstr "誤検知エラー"
+
+#: ../18-jenkins.rst:30
+msgid "Recheck bug #XXX"
+msgstr "バグ #XXX の再確認"
+
+#: ../18-jenkins.rst:38
+msgid "add an error and match it to the jenkins message"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:3
+msgid "Overview of the contribution process"
+msgstr "コントリビューションの流れの概要"
+
+#: ../19-training-contribution-process.rst:10
+msgid "Project pulse"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:12
+msgid "Code speaks : run gource"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:13
+msgid "How many contributors?"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:14
+msgid "How old is the project?"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:15
+msgid "When was the last update?"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:16
+msgid "etc."
+msgstr ""
+
+#: ../19-training-contribution-process.rst:19
+msgid "Who's behind it?"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:21
+msgid "Individuals"
+msgstr "個人"
+
+#: ../19-training-contribution-process.rst:22
+msgid "Companies"
+msgstr "企業"
+
+#: ../19-training-contribution-process.rst:23
+msgid "What's their incentive?"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:26
+msgid "Project as social groups"
+msgstr "社会グループとしてのプロジェクト"
+
+#: ../19-training-contribution-process.rst:28
+msgid "Group of friends"
+msgstr "友達のグループ"
+
+#: ../19-training-contribution-process.rst:29
+msgid "Company employees"
+msgstr "企業の従業員"
+
+#: ../19-training-contribution-process.rst:30
+msgid "Corporate driven"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:31
+msgid "Volunteers"
+msgstr "ボランティア"
+
+#: ../19-training-contribution-process.rst:34
+msgid "Assess your approach"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:36
+msgid "Verbose or terse?"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:37
+msgid "Socialize or strictly professional?"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:38
+msgid "Habits: online relationships?"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:39
+msgid "Acknowledge the language barrier"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:42
+msgid "Engage immediately"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:44
+msgid "Discuss with non upstream"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:45
+msgid "Get your nick/e-mail known"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:46
+msgid "Mingle"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:49
+msgid "Be engaged with your network"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:51
+msgid "Ask people you know, about the project"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:52
+msgid "Send e-mails to friends about your contributions"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:53
+msgid "IM friends about contributions"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:54
+msgid "Ask about their contribution experience"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:55
+msgid "Ask if they know someone with similar experiences"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:58
+msgid "Smaller tasks"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:60
+msgid "Sizing the task difficulty"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:61
+msgid "Splitting a task"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:62
+msgid "Seeking agreement on the split"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:65
+msgid "Choosing a question"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:67
+msgid "Think about the answer"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:68
+msgid "Find a solution that needs to be agreed upon"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:69
+msgid "Ask the question and propose your solution"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:72
+msgid "Code of conduct"
+msgstr "行動規範"
+
+#: ../19-training-contribution-process.rst:74
+msgid "Be considerate"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:75
+msgid "Be respectful"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:76
+msgid "Be collaborative"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:77
+msgid "When we disagree, we consult others"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:78
+msgid "When we are unsure, we ask for help"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:79
+msgid "Step down considerately"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:80
+msgid "Respect the election process"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:83
+msgid "Disagree"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:85
+msgid "Suspension of disbelief"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:86
+msgid "Accept the rules"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:87
+msgid "No flamewars"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:88
+msgid "No enemies"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:91
+msgid "Understanding the conventions"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:93
+msgid "Read the policy"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:94
+msgid "Read the code/documentation guidelines"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:95
+msgid "Read the actual code and the actual documentation"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:96
+msgid "Apply them very diligently"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:99
+msgid "Explain what you do"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:101
+msgid "Link to the blueprint"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:102
+msgid "Link to the bug report"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:103
+msgid "What the work does"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:104
+msgid "Each choice made must have a rationale"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:107
+msgid "Prepare the backport"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:109
+msgid "Apply the contribution to trunk"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:110
+msgid "Think about backporting"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:111
+msgid "Twist the contribution to ease backporting"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:114
+msgid "Local and upstream"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:116
+msgid "Development/trunk version"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:117
+msgid "Stable version"
+msgstr "Stable バージョン"
+
+#: ../19-training-contribution-process.rst:118
+msgid "In house version"
+msgstr "インハウスバージョン"
+
+#: ../19-training-contribution-process.rst:121
+msgid "Good workflow"
+msgstr "良いワークフロー"
+
+#: ../19-training-contribution-process.rst:126
+msgid "Bad workflow"
+msgstr "悪いワークフロー"
+
+#: ../19-training-contribution-process.rst:131
+msgid "Quantify the delta"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:133
+msgid "Measure the delta with upstream"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:134
+msgid "Compare"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:135
+msgid "Analyze the reasons for an increased delta"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:138
+msgid "Speeding the acceptance"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:140
+msgid "People skills"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:141
+msgid "Diplomacy"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:142
+msgid "Communication"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:143
+msgid "Getting attention"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:146
+msgid "Timeframe"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:148
+msgid "Engage daily"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:149
+msgid "Ask for attention weekly"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:150
+msgid "Try to get attention at least four times"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:153
+msgid "Building karma"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:155
+msgid "While waiting for input"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:156
+msgid "Fix the web site"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:157
+msgid "Fix the documentation"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:158
+msgid "Answer questions"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:161
+msgid "Parallelizing"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:163
+msgid "Work"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:164
+msgid "Karma missions"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:165
+msgid "Learning about the project"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:168
+msgid "From easy to difficult"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:170
+msgid "Answering questions"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:171
+msgid "Contributing code/documentation"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:172
+msgid "Contributing blueprints"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:173
+msgid "Discussing the architecture"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:174
+msgid "Influence the project governance"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:177
+msgid "Archive and collect"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:179
+msgid "Log IM channels"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:180
+msgid "Keep links to e-mail archives"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:181
+msgid "Choose one place to gather all information"
+msgstr ""
+
+#: ../20-training-agile-for-contributors.rst:3
+msgid "Lego applied to Free Software contributions"
+msgstr ""
+
+#: ../20-training-agile-for-contributors.rst:10
+msgid "Agile manifesto"
+msgstr "アジャイルマニフェスト"
+
+#: ../20-training-agile-for-contributors.rst:12
+msgid "Customer satisfaction by rapid delivery of useful software"
+msgstr "役立つソフトウェアの迅速な提供による顧客満足度"
+
+#: ../20-training-agile-for-contributors.rst:13
+msgid "Welcome changing requirements, even late in development"
+msgstr "変更要求の歓迎、開発終了間近でも"
+
+#: ../20-training-agile-for-contributors.rst:14
+msgid "Working software is delivered frequently (weeks rather than months)"
+msgstr "動作するソフトウェアの頻繁な提供 (月単位よりは週単位)"
+
+#: ../20-training-agile-for-contributors.rst:15
+msgid "Working software is the principal measure of progress"
+msgstr "動作するソフトウェアが進行状況の主要な指標です"
+
+#: ../20-training-agile-for-contributors.rst:16
+msgid "Sustainable development, able to maintain a constant pace"
+msgstr "持続可能な開発、一定ペースを維持可能"
+
+#: ../20-training-agile-for-contributors.rst:17
+msgid "Close, daily co-operation between business people and developers"
+msgstr "密接、ビジネス人と開発者の日共同作業"
+
+#: ../20-training-agile-for-contributors.rst:20
+msgid "Agile manifesto (cont.)"
+msgstr "アジャイルマニフェスト (続き)"
+
+#: ../20-training-agile-for-contributors.rst:22
+msgid ""
+"Face-to-face conversation is the best form of communication (co-location)"
+msgstr "対面の会話が最高のコミュニケーション (同じ場所)"
+
+#: ../20-training-agile-for-contributors.rst:23
+msgid "Projects are built around motivated individuals, who should be trusted"
+msgstr "信頼できる、やる気のある個人の周りにつくられたプロジェクト"
+
+#: ../20-training-agile-for-contributors.rst:24
+msgid "Continuous attention to technical excellence and good design"
+msgstr "技術的な精錬と良い設計に関する継続的な注意"
+
+#: ../20-training-agile-for-contributors.rst:25
+msgid ""
+"Simplicity- The art of maximizing the amount of work not done - is essential"
+msgstr "シンプルさ（行っていない作業量の最大化手法）が最も肝要"
+
+#: ../20-training-agile-for-contributors.rst:26
+msgid "Self-organizing teams"
+msgstr "自己組織化されたチーム"
+
+#: ../20-training-agile-for-contributors.rst:27
+msgid "Regular adaptation to changing circumstances"
+msgstr "状況変化への定期的な適用"
+
+#: ../20-training-agile-for-contributors.rst:30
+msgid "Applying agile"
+msgstr "アジャイルの適用"
+
+#: ../20-training-agile-for-contributors.rst:32
+msgid "Finding Roles : Product Owner, Scrum Master and Team Member"
+msgstr "役割の割り当て：プロダクトオーナー、スクラムマスター、チームメンバー"
+
+#: ../20-training-agile-for-contributors.rst:33
+msgid "No person has an ideal role"
+msgstr "理想的な役割はありません"
+
+#: ../20-training-agile-for-contributors.rst:34
+msgid "The role is hidden"
+msgstr "役割は隠されています"
+
+#: ../20-training-agile-for-contributors.rst:35
+msgid "Discovering the roles is an ongoing work"
+msgstr "役割の把握は進行中です"
+
+#: ../20-training-agile-for-contributors.rst:38
+msgid "Lego town"
+msgstr "レゴタウン"
+
+#: ../20-training-agile-for-contributors.rst:40
+msgid "Upstream project : a lego town"
+msgstr "アップストリームプロジェクト：レゴタウン"
+
+#: ../20-training-agile-for-contributors.rst:41
+msgid "Company deadline : lego exhibition"
+msgstr "企業の締め切り：レゴ展示会"
+
+#: ../20-training-agile-for-contributors.rst:42
+msgid ""
+"Epic: become a major contributor and demonstrate the company skills during "
+"the exhibition"
+msgstr "概略：主要コントリビューターになり、展示会期間中に企業のスキルを示します"
+
+#: ../20-training-agile-for-contributors.rst:46
+msgid "Upstream"
+msgstr "アップストリーム"
+
+#: ../20-training-agile-for-contributors.rst:48
+msgid "Board : 1"
+msgstr "ボード : 1"
+
+#: ../20-training-agile-for-contributors.rst:49
+msgid "Technical committee : 1"
+msgstr "技術委員会 (TC) : 1"
+
+#: ../20-training-agile-for-contributors.rst:50
+msgid "PTL : 1"
+msgstr "PTL : 1"
+
+#: ../20-training-agile-for-contributors.rst:51
+msgid "Core : 5"
+msgstr "コア : 5"
+
+#: ../20-training-agile-for-contributors.rst:54
+msgid "Company"
+msgstr "企業"
+
+#: ../20-training-agile-for-contributors.rst:56
+msgid "CEO : 1"
+msgstr "CEO : 1"
+
+#: ../20-training-agile-for-contributors.rst:57
+msgid "Product owner : 1"
+msgstr "プロダクトオーナー : 1"
+
+#: ../20-training-agile-for-contributors.rst:58
+msgid "Scrum Master : 1"
+msgstr "スクラムマスター : 1"
+
+#: ../20-training-agile-for-contributors.rst:59
+msgid "Team members : 5"
+msgstr "チームメンバー : 5"
+
+#: ../20-training-agile-for-contributors.rst:62
+msgid "Free Software contributors"
+msgstr "個人ソフトウェア開発者"
+
+#: ../20-training-agile-for-contributors.rst:64
+msgid "Distracted : 1"
+msgstr "気が散っている人 : 1"
+
+#: ../20-training-agile-for-contributors.rst:65
+msgid "Controversial : 1"
+msgstr "議論好きの人 : 1"
+
+#: ../20-training-agile-for-contributors.rst:66
+msgid "Agreeable : X"
+msgstr "感じのよい人 : X"
+
+#: ../20-training-agile-for-contributors.rst:69
+msgid "Epic"
+msgstr "概略"
+
+#: ../20-training-agile-for-contributors.rst:71
+msgid "Discuss with the product owner"
+msgstr "プロダクトオーナーとの議論"
+
+#: ../20-training-agile-for-contributors.rst:72
+msgid "Write user stories"
+msgstr "ユーザーストーリーの書き出し"
+
+#: ../20-training-agile-for-contributors.rst:75
+msgid "Sprint"
+msgstr "スプリント"
+
+#: ../20-training-agile-for-contributors.rst:77
+msgid "5 minutes planning"
+msgstr "計画 5 分間"
+
+#: ../20-training-agile-for-contributors.rst:78
+msgid "15 minutes building"
+msgstr "構築 15 分間"
+
+#: ../20-training-agile-for-contributors.rst:79
+msgid "5 minutes review"
+msgstr "レビュー 5 分間"
+
+#: ../20-training-agile-for-contributors.rst:91
+msgid "Time to play with Legos"
+msgstr "LEGO 演習の時間"
+
