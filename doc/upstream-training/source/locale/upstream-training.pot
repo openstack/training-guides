@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-29 06:17+0000\n"
+"POT-Creation-Date: 2015-12-01 06:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,11 +102,11 @@ msgid ""
 msgstr ""
 
 #: ../../index.rst:57
-msgid "Check that a you can ssh from your laptop to the virtual machine"
+msgid "Check that you can ssh from your laptop to the virtual machine"
 msgstr ""
 
 #: ../../index.rst:58
-msgid "Check that apt-get install works from within the virtual machine"
+msgid "Check that :command:`apt-get install` works from the virtual machine"
 msgstr ""
 
 #: ../../index.rst:59
