@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-11-30 11:49+0000\n"
+"PO-Revision-Date: 2015-12-02 02:50+0000\n"
 "Last-Translator: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -50,8 +50,17 @@ msgstr "アジャイルマニフェスト (続き)"
 msgid "Agreeable : X"
 msgstr "感じのよい人 : X"
 
+msgid "Answer questions"
+msgstr "質問への回答"
+
+msgid "Answering questions"
+msgstr "質問への回答"
+
 msgid "Applying agile"
 msgstr "アジャイルの適用"
+
+msgid "Assigned To"
+msgstr "Assigned To (担当者)"
 
 msgid "Bad workflow"
 msgstr "悪いワークフロー"
@@ -64,6 +73,12 @@ msgstr "ボード : 1"
 
 msgid "Branching model"
 msgstr "ブランチモデル"
+
+msgid "Bug"
+msgstr "バグ"
+
+msgid "Bug importance"
+msgstr "バグの重要度"
 
 msgid "Bug is about documentation or has an impact on documentation."
 msgstr "ドキュメント関連のバグ、ドキュメントに影響するもの。"
@@ -111,6 +126,12 @@ msgstr "企業の従業員"
 msgid "Continuous attention to technical excellence and good design"
 msgstr "技術的な精錬と良い設計に関する継続的な注意"
 
+msgid "Contributing blueprints"
+msgstr "ブループリントへの貢献"
+
+msgid "Contributing code/documentation"
+msgstr "コードやドキュメントへの貢献"
+
 msgid "Contributor meetups"
 msgstr "コントリビューターミートアップ"
 
@@ -126,8 +147,21 @@ msgstr "コアレビューアー"
 msgid "Created by a large growing community"
 msgstr "大きく成長しているコミュニティーにより作成されています"
 
+msgid "Critical"
+msgstr "Critical (クリティカル)"
+
 msgid "Customer satisfaction by rapid delivery of useful software"
 msgstr "役立つソフトウェアの迅速な提供による顧客満足度"
+
+msgid "Data corruption / complete failure affecting most users, no workaround"
+msgstr "多くのユーザーに影響するデータ破壊や障害、回避方法なし"
+
+msgid ""
+"Data corruption / complete failure affecting most users, with workwround. "
+"Failure of a significant feature, no workaround"
+msgstr ""
+"多くのユーザーに影響するデータ破壊や障害、回避方法あり。重要な機能の障害、回"
+"避方法なし"
 
 msgid "Developers"
 msgstr "開発者"
@@ -137,6 +171,9 @@ msgstr "役割の把握は進行中です"
 
 msgid "Discuss with the product owner"
 msgstr "プロダクトオーナーとの議論"
+
+msgid "Discussing the architecture"
+msgstr "アーキテクチャーの議論"
 
 msgid "Distracted : 1"
 msgstr "気が散っている人 : 1"
@@ -175,6 +212,11 @@ msgid ""
 "Face-to-face conversation is the best form of communication (co-location)"
 msgstr "対面の会話が最高のコミュニケーション (同じ場所)"
 
+msgid ""
+"Failure of a significant feature, with workaround. Failure of a fringe "
+"feature, no workaround"
+msgstr "重要な機能の障害、回避方法あり。その他の機能の障害、回避方法なし。"
+
 msgid "False errors"
 msgstr "誤検知エラー"
 
@@ -195,6 +237,12 @@ msgstr "OpenStack の将来的なセキュリティー問題を回復させる�
 msgid "Fix for the bug would significantly ease OpenStack operation."
 msgstr "OpenStack の運用を非常に容易にするバグ修正。"
 
+msgid "Fix the documentation"
+msgstr "ドキュメントの修正"
+
+msgid "Fix the web site"
+msgstr "Web サイトの修正"
+
 msgid ""
 "François Bureau <francois.bureau@cloudwatt> (assistant, french, english) - "
 "irc : Fdot"
@@ -205,6 +253,9 @@ msgstr ""
 msgid "Free Software contributors"
 msgstr "個人ソフトウェア開発者"
 
+msgid "From easy to difficult"
+msgstr "簡単なものから難しいものへ"
+
 msgid "GIT commit message structure"
 msgstr "GIT コミットメッセージの構造"
 
@@ -214,11 +265,20 @@ msgstr "良いワークフロー"
 msgid "Group of friends"
 msgstr "友達のグループ"
 
+msgid "High"
+msgstr "High (高)"
+
 msgid "How OpenStack is made"
 msgstr "OpenStack はどのように作られているか"
 
+msgid "How many contributors?"
+msgstr "どのくらいのコントリビューターがいるか?"
+
 msgid "How to prepare"
 msgstr "準備方法"
+
+msgid "Impact was not assessed yet"
+msgstr "影響がまだ確認されていない"
 
 msgid "In house version"
 msgstr "インハウスバージョン"
@@ -250,17 +310,29 @@ msgstr "KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com> (assistant, Japanese)"
 msgid "Lana Brindley (assistant, mentoring, English)"
 msgstr "Lana Brindley (assistant, mentoring, English)"
 
+msgid "Learning about the project"
+msgstr "プロジェクトについて知る"
+
 msgid "Led by a board of directors"
 msgstr "役員会により指揮されています"
 
 msgid "Lego town"
 msgstr "レゴタウン"
 
+msgid "Low"
+msgstr "Low (低)"
+
 msgid "Loïc Dachary (Training, mentoring, assistant, english and french)"
 msgstr "Loïc Dachary (Training, mentoring, assistant, english and french)"
 
+msgid "Medium"
+msgstr "Medium (中)"
+
 msgid "Meetings"
 msgstr "ミーティング"
+
+msgid "Milestone"
+msgstr "マイルストーン"
 
 msgid "More than 20 million lines of code"
 msgstr "2,000 万行以上のコード"
@@ -325,6 +397,9 @@ msgstr "コントリビューションの流れの概要"
 msgid "PTL : 1"
 msgstr "PTL : 1"
 
+msgid "Parallelizing"
+msgstr "並列化"
+
 msgid "Prerequisites"
 msgstr "事前要件"
 
@@ -336,6 +411,9 @@ msgstr "社会グループとしてのプロジェクト"
 
 msgid "Project pods"
 msgstr "プロジェクトポッド"
+
+msgid "Project pulse"
+msgstr "プロジェクト活動状況"
 
 msgid "Projects are built around motivated individuals, who should be trusted"
 msgstr "信頼できる、やる気のある個人の周りにつくられたプロジェクト"
@@ -406,6 +484,9 @@ msgstr "サインイン"
 msgid ""
 "Simplicity- The art of maximizing the amount of work not done - is essential"
 msgstr "シンプルさ（行っていない作業量の最大化手法）が最も肝要"
+
+msgid "Small issue with an easy workaround. Any other insignificant bug"
+msgstr "簡単な回避方法のある軽微な問題。その他の重要ではないバグ"
 
 msgid "Sprint"
 msgstr "スプリント"
@@ -486,6 +567,9 @@ msgstr "セッション種別"
 msgid "Ubuntu or Fedora"
 msgstr "Ubuntu または Fedora"
 
+msgid "Undefined"
+msgstr "Undefined (未定義)"
+
 msgid "UpgradeImpact"
 msgstr "UpgradeImpact"
 
@@ -529,6 +613,12 @@ msgid ""
 msgstr ""
 "開発者が顔を合わせて、次のリリースサイクルに向けて最終的に計画するところで"
 "す。"
+
+msgid "Wishlist"
+msgstr "Wishlist (要望)"
+
+msgid "Work"
+msgstr "作業"
 
 msgid "Work sessions"
 msgstr "ワークセッション"
