@@ -177,7 +177,7 @@ Workflow of an OpenStack contribution and tools (3h including 2h exercises)
   * `Puppet <https://wiki.openstack.org/wiki/Puppet#Contributing_to_the_modules>`_
   * `Documentation <https://wiki.openstack.org/wiki/Documentation/HowTo>`_
   * `Training guides <https://wiki.openstack.org/wiki/Training-guides#How_To>`_
-  * Excercise: Apply for individual membership and sign the CLA
+  * Exercise: Apply for individual membership and sign the CLA
 
 * `Launchpad <https://help.launchpad.net/>`_ (`slides <13-launchpad.html>`__)
 

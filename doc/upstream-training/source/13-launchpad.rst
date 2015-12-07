@@ -82,7 +82,7 @@ Bug importance
    * - Critical
      - Data corruption / complete failure affecting most users, no workaround
    * - High
-     - Data corruption / complete failure affecting most users, with workwround.
+     - Data corruption / complete failure affecting most users, with workaround.
        Failure of a significant feature, no workaround
    * - Medium
      - Failure of a significant feature, with workaround.
