@@ -9,11 +9,15 @@ Overview of the contribution process
 Project pulse
 =============
 
-- Code speaks : run gource
+- Code speaks : run Gource
 - How many contributors?
 - How old is the project?
 - When was the last update?
 - etc.
+
+.. note::
+
+    - Gource (gource.io): software version control visualization
 
 Who's behind it?
 ==================
