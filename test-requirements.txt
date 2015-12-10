@@ -6,6 +6,6 @@ pbr>=1.6
 oslosphinx
 openstack-doc-tools>=0.30
 sphinx>=1.1.2,!=1.2.0,!=1.3b1,<1.3
-openstackdocstheme>=1.2.3
+openstackdocstheme>=1.2.6
 hieroglyph>=0.7.1
 bashate # pep8 equivalent for bash scripts
