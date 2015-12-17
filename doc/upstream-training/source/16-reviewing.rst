@@ -12,12 +12,6 @@ Review unified
 .. image:: ./_assets/16-01-review-unified.png
   :width: 100%
 
-Review unified
-==============
-
-.. image:: ./_assets/16-02-review-unified.png
-  :width: 100%
-
 Inline comments
 ===============
 

@@ -24,6 +24,7 @@ upload an ssh key
 - https://review.openstack.org/#/settings/ssh-keys
 
 .. image:: ./_assets/14-03-upload-ssh-key.png
+   :width: 85%
 
 git config
 ==========
@@ -66,11 +67,6 @@ invite reviewers
 .. image:: ./_assets/14-11-invite-reviewers.png
   :width: 100%
 
-New interface: invite reviewers
-===============================
-
-.. image:: ./_assets/14-12-new-invite-reviewers.png
-
 git commit --amend
 ==================
 
@@ -80,12 +76,6 @@ gerrit patchset history
 =======================
 
 .. image:: ./_assets/14-15-patchset-history.png
-  :width: 100%
-
-New interface: gerrit patchset history
-=======================================
-
-.. image:: ./_assets/14-16-new-patchset-history.png
   :width: 100%
 
 patchset diffs
