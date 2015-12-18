@@ -281,15 +281,16 @@ extensions += ['hieroglyph']
 slide_theme = 'single-level'
 slide_levels = 3
 slide_footer = ('<img alt="OS logo" src="_static/os_logo_small.png" '
-                'style="width: 4em;">')
+                'style="width: 4em;">'
+                '<script language="JavaScript">logABug();</script>')
 
 # Place custom static assets in the _static directory and uncomment
 # the following lines to include them
 
 slide_theme_options = {
     'custom_css': 'custom.css',
+    'custom_js': 'custom.js',
 }
-#'custom_js': 'custom.js',
 
 # -- Options for Internationalization output ------------------------------
 locale_dirs = ['locale/']
