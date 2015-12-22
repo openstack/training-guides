@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-01 06:46+0000\n"
+"POT-Creation-Date: 2015-12-22 06:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -746,7 +746,7 @@ msgid ""
 msgstr ""
 
 #: ../../upstream-details.rst:180
-msgid "Excercise: Apply for individual membership and sign the CLA"
+msgid "Exercise: Apply for individual membership and sign the CLA"
 msgstr ""
 
 #: ../../upstream-details.rst:182
@@ -2258,7 +2258,7 @@ msgstr ""
 
 #: ../13-launchpad.rst:85
 msgid ""
-"Data corruption / complete failure affecting most users, with workwround. "
+"Data corruption / complete failure affecting most users, with workaround. "
 "Failure of a significant feature, no workaround"
 msgstr ""
 
@@ -2515,67 +2515,59 @@ msgstr ""
 msgid "https://review.openstack.org/#/settings/ssh-keys"
 msgstr ""
 
-#: ../14-gerrit.rst:29
+#: ../14-gerrit.rst:30
 msgid "git config"
 msgstr ""
 
-#: ../14-gerrit.rst:31
+#: ../14-gerrit.rst:32
 msgid "git config --global user.name \"Firstname Lastname\""
 msgstr ""
 
-#: ../14-gerrit.rst:32
+#: ../14-gerrit.rst:33
 msgid "git config --global user.email \"your_email@youremail.com\""
 msgstr ""
 
-#: ../14-gerrit.rst:37
+#: ../14-gerrit.rst:38
 msgid "Install git review"
 msgstr ""
 
-#: ../14-gerrit.rst:39
+#: ../14-gerrit.rst:40
 msgid "apt-get / yum / pip install … git review"
 msgstr ""
 
-#: ../14-gerrit.rst:44
+#: ../14-gerrit.rst:45
 msgid "git clone"
 msgstr ""
 
-#: ../14-gerrit.rst:49
+#: ../14-gerrit.rst:50
 msgid "git review -s"
 msgstr ""
 
-#: ../14-gerrit.rst:54
+#: ../14-gerrit.rst:55
 msgid "git checkout -b TOPIC-BRANCH"
 msgstr ""
 
-#: ../14-gerrit.rst:59
+#: ../14-gerrit.rst:60
 msgid "running unit tests"
 msgstr ""
 
-#: ../14-gerrit.rst:64
+#: ../14-gerrit.rst:65
 msgid "invite reviewers"
 msgstr ""
 
-#: ../14-gerrit.rst:70
-msgid "New interface: invite reviewers"
-msgstr ""
-
-#: ../14-gerrit.rst:75
+#: ../14-gerrit.rst:71
 msgid "git commit --amend"
 msgstr ""
 
-#: ../14-gerrit.rst:80
+#: ../14-gerrit.rst:76
 msgid "gerrit patchset history"
 msgstr ""
 
-#: ../14-gerrit.rst:86
-msgid "New interface: gerrit patchset history"
-msgstr ""
-
-#: ../14-gerrit.rst:92
+#: ../14-gerrit.rst:82
 msgid "patchset diffs"
 msgstr ""
 
-#: ../14-gerrit.rst:100
+#: ../14-gerrit.rst:90
 msgid "Push a work in progress (wip) and invite reviewers."
 msgstr ""
 
@@ -2659,27 +2651,27 @@ msgstr ""
 msgid "Reviewing"
 msgstr ""
 
-#: ../16-reviewing.rst:10 ../16-reviewing.rst:16
+#: ../16-reviewing.rst:10
 msgid "Review unified"
 msgstr ""
 
-#: ../16-reviewing.rst:22
+#: ../16-reviewing.rst:16
 msgid "Inline comments"
 msgstr ""
 
-#: ../16-reviewing.rst:27
+#: ../16-reviewing.rst:21
 msgid "Draft inline comments"
 msgstr ""
 
-#: ../16-reviewing.rst:33
+#: ../16-reviewing.rst:27
 msgid "Regular reviewer"
 msgstr ""
 
-#: ../16-reviewing.rst:38
+#: ../16-reviewing.rst:32
 msgid "Core reviewer"
 msgstr ""
 
-#: ../16-reviewing.rst:45
+#: ../16-reviewing.rst:39
 msgid "push a wip or draft and invite reviewers"
 msgstr ""
 
@@ -2880,7 +2872,7 @@ msgid "Project pulse"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:12
-msgid "Code speaks : run gource"
+msgid "Code speaks : run Gource"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:13
@@ -2899,391 +2891,395 @@ msgstr ""
 msgid "etc."
 msgstr ""
 
-#: ../19-training-contribution-process.rst:19
-msgid "Who's behind it?"
-msgstr ""
-
-#: ../19-training-contribution-process.rst:21
-msgid "Individuals"
-msgstr ""
-
-#: ../19-training-contribution-process.rst:22
-msgid "Companies"
+#: ../19-training-contribution-process.rst:20
+msgid "Gource (gource.io): software version control visualization"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:23
-msgid "What's their incentive?"
+msgid "Who's behind it?"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:25
+msgid "Individuals"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:26
-msgid "Project as social groups"
+msgid "Companies"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:28
-msgid "Group of friends"
-msgstr ""
-
-#: ../19-training-contribution-process.rst:29
-msgid "Company employees"
+#: ../19-training-contribution-process.rst:27
+msgid "What's their incentive?"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:30
-msgid "Corporate driven"
+msgid "Project as social groups"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:31
-msgid "Volunteers"
+#: ../19-training-contribution-process.rst:32
+msgid "Group of friends"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:33
+msgid "Company employees"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:34
-msgid "Assess your approach"
+msgid "Corporate driven"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:36
-msgid "Verbose or terse?"
-msgstr ""
-
-#: ../19-training-contribution-process.rst:37
-msgid "Socialize or strictly professional?"
+#: ../19-training-contribution-process.rst:35
+msgid "Volunteers"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:38
-msgid "Habits: online relationships?"
+msgid "Assess your approach"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:39
-msgid "Acknowledge the language barrier"
+#: ../19-training-contribution-process.rst:40
+msgid "Verbose or terse?"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:41
+msgid "Socialize or strictly professional?"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:42
-msgid "Engage immediately"
+msgid "Habits: online relationships?"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:44
-msgid "Discuss with non upstream"
-msgstr ""
-
-#: ../19-training-contribution-process.rst:45
-msgid "Get your nick/e-mail known"
+#: ../19-training-contribution-process.rst:43
+msgid "Acknowledge the language barrier"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:46
-msgid "Mingle"
+msgid "Engage immediately"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:48
+msgid "Discuss with non upstream"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:49
-msgid "Be engaged with your network"
+msgid "Get your nick/e-mail known"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:51
-msgid "Ask people you know, about the project"
-msgstr ""
-
-#: ../19-training-contribution-process.rst:52
-msgid "Send e-mails to friends about your contributions"
+#: ../19-training-contribution-process.rst:50
+msgid "Mingle"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:53
-msgid "IM friends about contributions"
-msgstr ""
-
-#: ../19-training-contribution-process.rst:54
-msgid "Ask about their contribution experience"
+msgid "Be engaged with your network"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:55
-msgid "Ask if they know someone with similar experiences"
+msgid "Ask people you know, about the project"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:56
+msgid "Send e-mails to friends about your contributions"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:57
+msgid "IM friends about contributions"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:58
-msgid "Smaller tasks"
+msgid "Ask about their contribution experience"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:60
-msgid "Sizing the task difficulty"
-msgstr ""
-
-#: ../19-training-contribution-process.rst:61
-msgid "Splitting a task"
+#: ../19-training-contribution-process.rst:59
+msgid "Ask if they know someone with similar experiences"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:62
-msgid "Seeking agreement on the split"
+msgid "Smaller tasks"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:64
+msgid "Sizing the task difficulty"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:65
-msgid "Choosing a question"
+msgid "Splitting a task"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:67
-msgid "Think about the answer"
-msgstr ""
-
-#: ../19-training-contribution-process.rst:68
-msgid "Find a solution that needs to be agreed upon"
+#: ../19-training-contribution-process.rst:66
+msgid "Seeking agreement on the split"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:69
-msgid "Ask the question and propose your solution"
+msgid "Choosing a question"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:71
+msgid "Think about the answer"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:72
-msgid "Code of conduct"
+msgid "Find a solution that needs to be agreed upon"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:74
-msgid "Be considerate"
-msgstr ""
-
-#: ../19-training-contribution-process.rst:75
-msgid "Be respectful"
+#: ../19-training-contribution-process.rst:73
+msgid "Ask the question and propose your solution"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:76
-msgid "Be collaborative"
-msgstr ""
-
-#: ../19-training-contribution-process.rst:77
-msgid "When we disagree, we consult others"
+msgid "Code of conduct"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:78
-msgid "When we are unsure, we ask for help"
+msgid "Be considerate"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:79
-msgid "Step down considerately"
+msgid "Be respectful"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:80
-msgid "Respect the election process"
+msgid "Be collaborative"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:81
+msgid "When we disagree, we consult others"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:82
+msgid "When we are unsure, we ask for help"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:83
-msgid "Disagree"
+msgid "Step down considerately"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:85
-msgid "Suspension of disbelief"
-msgstr ""
-
-#: ../19-training-contribution-process.rst:86
-msgid "Accept the rules"
+#: ../19-training-contribution-process.rst:84
+msgid "Respect the election process"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:87
-msgid "No flamewars"
+msgid "Disagree"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:88
-msgid "No enemies"
+#: ../19-training-contribution-process.rst:89
+msgid "Suspension of disbelief"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:90
+msgid "Accept the rules"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:91
-msgid "Understanding the conventions"
+msgid "No flamewars"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:93
-msgid "Read the policy"
-msgstr ""
-
-#: ../19-training-contribution-process.rst:94
-msgid "Read the code/documentation guidelines"
+#: ../19-training-contribution-process.rst:92
+msgid "No enemies"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:95
-msgid "Read the actual code and the actual documentation"
+msgid "Understanding the conventions"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:96
-msgid "Apply them very diligently"
+#: ../19-training-contribution-process.rst:97
+msgid "Read the policy"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:98
+msgid "Read the code/documentation guidelines"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:99
-msgid "Explain what you do"
+msgid "Read the actual code and the actual documentation"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:101
-msgid "Link to the blueprint"
-msgstr ""
-
-#: ../19-training-contribution-process.rst:102
-msgid "Link to the bug report"
+#: ../19-training-contribution-process.rst:100
+msgid "Apply them very diligently"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:103
-msgid "What the work does"
+msgid "Explain what you do"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:104
-msgid "Each choice made must have a rationale"
+#: ../19-training-contribution-process.rst:105
+msgid "Link to the blueprint"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:106
+msgid "Link to the bug report"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:107
-msgid "Prepare the backport"
+msgid "What the work does"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:109
-msgid "Apply the contribution to trunk"
-msgstr ""
-
-#: ../19-training-contribution-process.rst:110
-msgid "Think about backporting"
+#: ../19-training-contribution-process.rst:108
+msgid "Each choice made must have a rationale"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:111
-msgid "Twist the contribution to ease backporting"
+msgid "Prepare the backport"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:113
+msgid "Apply the contribution to trunk"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:114
-msgid "Local and upstream"
+msgid "Think about backporting"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:116
-msgid "Development/trunk version"
-msgstr ""
-
-#: ../19-training-contribution-process.rst:117
-msgid "Stable version"
+#: ../19-training-contribution-process.rst:115
+msgid "Twist the contribution to ease backporting"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:118
-msgid "In house version"
+msgid "Local and upstream"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:120
+msgid "Development/trunk version"
 msgstr ""
 
 #: ../19-training-contribution-process.rst:121
+msgid "Stable version"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:122
+msgid "In house version"
+msgstr ""
+
+#: ../19-training-contribution-process.rst:125
 msgid "Good workflow"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:126
+#: ../19-training-contribution-process.rst:130
 msgid "Bad workflow"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:131
+#: ../19-training-contribution-process.rst:135
 msgid "Quantify the delta"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:133
+#: ../19-training-contribution-process.rst:137
 msgid "Measure the delta with upstream"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:134
+#: ../19-training-contribution-process.rst:138
 msgid "Compare"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:135
+#: ../19-training-contribution-process.rst:139
 msgid "Analyze the reasons for an increased delta"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:138
+#: ../19-training-contribution-process.rst:142
 msgid "Speeding the acceptance"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:140
+#: ../19-training-contribution-process.rst:144
 msgid "People skills"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:141
+#: ../19-training-contribution-process.rst:145
 msgid "Diplomacy"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:142
+#: ../19-training-contribution-process.rst:146
 msgid "Communication"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:143
+#: ../19-training-contribution-process.rst:147
 msgid "Getting attention"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:146
+#: ../19-training-contribution-process.rst:150
 msgid "Timeframe"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:148
+#: ../19-training-contribution-process.rst:152
 msgid "Engage daily"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:149
+#: ../19-training-contribution-process.rst:153
 msgid "Ask for attention weekly"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:150
+#: ../19-training-contribution-process.rst:154
 msgid "Try to get attention at least four times"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:153
+#: ../19-training-contribution-process.rst:157
 msgid "Building karma"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:155
+#: ../19-training-contribution-process.rst:159
 msgid "While waiting for input"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:156
+#: ../19-training-contribution-process.rst:160
 msgid "Fix the web site"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:157
+#: ../19-training-contribution-process.rst:161
 msgid "Fix the documentation"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:158
+#: ../19-training-contribution-process.rst:162
 msgid "Answer questions"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:161
+#: ../19-training-contribution-process.rst:165
 msgid "Parallelizing"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:163
+#: ../19-training-contribution-process.rst:167
 msgid "Work"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:164
+#: ../19-training-contribution-process.rst:168
 msgid "Karma missions"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:165
+#: ../19-training-contribution-process.rst:169
 msgid "Learning about the project"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:168
+#: ../19-training-contribution-process.rst:172
 msgid "From easy to difficult"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:170
+#: ../19-training-contribution-process.rst:174
 msgid "Answering questions"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:171
+#: ../19-training-contribution-process.rst:175
 msgid "Contributing code/documentation"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:172
+#: ../19-training-contribution-process.rst:176
 msgid "Contributing blueprints"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:173
+#: ../19-training-contribution-process.rst:177
 msgid "Discussing the architecture"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:174
+#: ../19-training-contribution-process.rst:178
 msgid "Influence the project governance"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:177
+#: ../19-training-contribution-process.rst:181
 msgid "Archive and collect"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:179
+#: ../19-training-contribution-process.rst:183
 msgid "Log IM channels"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:180
+#: ../19-training-contribution-process.rst:184
 msgid "Keep links to e-mail archives"
 msgstr ""
 
-#: ../19-training-contribution-process.rst:181
+#: ../19-training-contribution-process.rst:185
 msgid "Choose one place to gather all information"
 msgstr ""
 
