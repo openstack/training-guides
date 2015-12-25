@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-12-23 01:03+0000\n"
+"PO-Revision-Date: 2015-12-25 04:27+0000\n"
 "Last-Translator: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -166,6 +166,9 @@ msgstr "密接、ビジネス人と開発者の日共同作業"
 
 msgid "Code of conduct"
 msgstr "行動規範"
+
+msgid "Code speaks : run Gource"
+msgstr "コードは語る : Gource の実行"
 
 msgid "Commit messages"
 msgstr "コミットメッセージ"
@@ -960,6 +963,9 @@ msgstr "OpenStack Upstream Training の開催日時および開催場所"
 msgid "When in the cycle they intend to complete it"
 msgstr "完了する予定のリリースサイクル"
 
+msgid "When was the last update?"
+msgstr "最終更新はいつか?"
+
 msgid "When we are unsure, we ask for help"
 msgstr "不確かなとき、支援を求める"
 
@@ -1267,6 +1273,9 @@ msgstr "devstack.org"
 
 msgid "documentation"
 msgstr "ドキュメント"
+
+msgid "etc."
+msgstr "他"
 
 msgid "gerrit patchset history"
 msgstr "gerrit パッチセットの履歴"
