@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-12-25 04:27+0000\n"
+"PO-Revision-Date: 2015-12-28 05:38+0000\n"
 "Last-Translator: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -28,6 +28,12 @@ msgstr "構築 15 分間"
 
 msgid "164 different companies"
 msgstr "164 社の企業"
+
+msgid "2013.2 branch and tags"
+msgstr "2013.2 ブランチとタグ"
+
+msgid "2013.2.4 preparation"
+msgstr "2013.2.4 準備"
 
 msgid "32,255 people"
 msgstr "32,255 人"
@@ -54,6 +60,9 @@ msgstr "要約"
 
 msgid "Accept the rules"
 msgstr "ルール遵守"
+
+msgid "Active Technical Contributor (ATC)"
+msgstr "Active Technical Contributor (ATC)"
 
 msgid "Agile manifesto"
 msgstr "アジャイルマニフェスト"
@@ -144,6 +153,15 @@ msgstr "CEO : 1"
 
 msgid "Change-id"
 msgstr "Change-id"
+
+msgid "Changes to Nova's internal AMQP API"
+msgstr "Nova の内部 AMQP API の変更"
+
+msgid "Changes to the external HTTP APIs"
+msgstr "外部 HTTP API の変更"
+
+msgid "Changes to the notification definitions"
+msgstr "通知の定義の変更"
 
 msgid "Choose one place to gather all information"
 msgstr "すべての情報を集める場所の選択"
@@ -241,6 +259,9 @@ msgstr "Critical (クリティカル)"
 
 msgid "Customer satisfaction by rapid delivery of useful software"
 msgstr "役立つソフトウェアの迅速な提供による顧客満足度"
+
+msgid "DB schema changes"
+msgstr "DB スキーマの変更"
 
 msgid "Data corruption / complete failure affecting most users, no workaround"
 msgstr "多くのユーザーに影響するデータ破壊や障害、回避方法なし"
@@ -391,6 +412,9 @@ msgstr "ドキュメントの修正"
 msgid "Fix the web site"
 msgstr "Web サイトの修正"
 
+msgid "Forbidden"
+msgstr "禁止"
+
 msgid ""
 "François Bureau <francois.bureau@cloudwatt> (assistant, french, english) - "
 "irc : Fdot"
@@ -410,6 +434,9 @@ msgstr "GIT コミットメッセージの構造"
 msgid "Get the code for the targeted contribution"
 msgstr "コントリビューション予定のコードの取得"
 
+msgid "Get your nick/e-mail known"
+msgstr "よく知られたニックネームやアドレスの取得"
+
 msgid "Getting attention"
 msgstr "注目を集める"
 
@@ -418,6 +445,12 @@ msgstr "良いワークフロー"
 
 msgid "Good: new API + new feature"
 msgstr "良: 新 API と新機能"
+
+msgid "Gource (gource.io): software version control visualization"
+msgstr "Gource (gource.io): ソフトウェアのバージョン管理情報の可視化"
+
+msgid "Governance/TechnicalCommittee#Meeting"
+msgstr "Governance/TechnicalCommittee#Meeting"
 
 msgid "Group of friends"
 msgstr "友達のグループ"
@@ -457,6 +490,9 @@ msgstr "In Progress"
 
 msgid "In house version"
 msgstr "インハウスバージョン"
+
+msgid "Incompatible config file changes"
+msgstr "互換性のない設定ファイルの変更"
 
 msgid "Incomplete"
 msgstr "Incomplete"
@@ -527,6 +563,9 @@ msgstr "バグレポートへのリンク"
 msgid "List of approved tags"
 msgstr "承認済みタグの一覧"
 
+msgid "List of sessions"
+msgstr "セッション一覧"
+
 msgid "Local and upstream"
 msgstr "ローカルとアップストリーム"
 
@@ -560,6 +599,9 @@ msgstr "ミーティング"
 msgid "Milestone"
 msgstr "マイルストーン"
 
+msgid "Mingle"
+msgstr "混合"
+
 msgid "More than 20 million lines of code"
 msgstr "2,000 万行以上のコード"
 
@@ -574,6 +616,9 @@ msgstr "New"
 
 msgid "New agreement"
 msgstr "新規アグリーメント"
+
+msgid "New features"
+msgstr "新機能"
 
 msgid "No agreement"
 msgstr "アグリーメントなし"
@@ -737,6 +782,9 @@ msgstr "技術的な論争の解決"
 msgid "Resolved Bugs"
 msgstr "バグ解決数"
 
+msgid "Respect the election process"
+msgstr "選挙プロセスへの敬意"
+
 msgid "Review"
 msgstr "レビュー"
 
@@ -767,6 +815,9 @@ msgstr "スクラムマスター : 1"
 msgid "SecurityImpact"
 msgstr "SecurityImpact"
 
+msgid "Selection of sessions"
+msgstr "セッションの選択"
+
 msgid "Self-contained"
 msgstr "自己完結"
 
@@ -792,8 +843,14 @@ msgid ""
 "Simplicity- The art of maximizing the amount of work not done - is essential"
 msgstr "シンプルさ（行っていない作業量の最大化手法）が最も肝要"
 
+msgid "Sizing the task difficulty"
+msgstr "タスクの複雑なの見積"
+
 msgid "Small issue with an easy workaround. Any other insignificant bug"
 msgstr "簡単な回避方法のある軽微な問題。その他の重要ではないバグ"
+
+msgid "Smaller tasks"
+msgstr "より小さいタスク"
 
 msgid "Speeding the acceptance"
 msgstr "受け入れのスピード"
@@ -834,6 +891,9 @@ msgstr ""
 
 msgid "System administrators"
 msgstr "システム管理者"
+
+msgid "TC seats are elected by ATC"
+msgstr "TC は ATC により投票されます"
 
 msgid "Takashi Torii <t-torii@ce.jp.nec.com> (assistant, japanese)"
 msgstr "Takashi Torii <t-torii@ce.jp.nec.com> (assistant, japanese)"
@@ -957,6 +1017,9 @@ msgstr "OpenStack とは何か?"
 msgid "What kind of project do you want to contribute to?"
 msgstr "どの種類のプロジェクトに貢献したいですか?"
 
+msgid "What's their incentive?"
+msgstr "何が動機になるか?"
+
 msgid "When & Where to get OpenStack Upstream Training"
 msgstr "OpenStack Upstream Training の開催日時および開催場所"
 
@@ -981,6 +1044,9 @@ msgstr ""
 
 msgid "Who is the customer?"
 msgstr "お客様は誰か?"
+
+msgid "Who's behind it?"
+msgstr "誰が後ろについているか?"
 
 msgid "Wishlist"
 msgstr "Wishlist (要望)"
@@ -1332,6 +1398,9 @@ msgstr "http://review.openstack.org"
 msgid "https://etherpad.openstack.org/p/upstream-training-vancouver"
 msgstr "https://etherpad.openstack.org/p/upstream-training-vancouver"
 
+msgid "https://mitakadesignsummit.sched.org/overview/type/design+summit"
+msgstr "https://mitakadesignsummit.sched.org/overview/type/design+summit"
+
 msgid "https://review.openstack.org/#/settings/ssh-keys"
 msgstr "https://review.openstack.org/#/settings/ssh-keys"
 
@@ -1346,6 +1415,9 @@ msgstr "https://wiki.openstack.org/wiki/BugTags"
 
 msgid "https://wiki.openstack.org/wiki/Design_Summit/Planning"
 msgstr "https://wiki.openstack.org/wiki/Design_Summit/Planning"
+
+msgid "https://wiki.openstack.org/wiki/GitCommitMessages"
+msgstr "https://wiki.openstack.org/wiki/GitCommitMessages"
 
 msgid "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
 msgstr "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
