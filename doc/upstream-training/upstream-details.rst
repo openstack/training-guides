@@ -126,8 +126,8 @@ How OpenStack is made (3h including 1h30 exercises)
 
   * `OpenStack Project Teams <http://governance.openstack.org/reference/projects/index.html>`__
   * `List of approved tags <http://governance.openstack.org/reference/tags/index.html>`_
-  * `Understanding the DefCore Guidelines <https://github.com/openstack/defcore>`_
-  * `Core Definition <https://github.com/openstack/defcore/blob/master/process/CoreDefinition.rst>`_
+  * `Understanding the DefCore Guidelines <https://git.openstack.org/cgit/openstack/defcore>`_
+  * `Core Definition <https://git.openstack.org/cgit/openstack/defcore/plain/doc/source/process/CoreDefinition.rst>`_
   * `Stackforge <http://ci.openstack.org/stackforge.html>`_
   * `How to add a project to Stackforge <http://docs.openstack.org/infra/manual/creators.html>`_
   * Exercise: What kind of Program do you contribute to ?
@@ -166,7 +166,7 @@ Workflow of an OpenStack contribution and tools (3h including 2h exercises)
   (`slides <11-devstack.html>`__)
 
   * Ubuntu or Fedora
-  * ``git clone https://github.com/openstack-dev/devstack.git``
+  * ``git clone https://git.openstack.org/openstack-dev/devstack``
   * `minimal configuration <http://docs.openstack.org/developer/devstack/configuration.html#minimal-configuration>`_
   * ``cd devstack; ./stack.sh``
   * Exercise: get the code for the targeted contribution
