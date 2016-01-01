@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-22 06:09+0000\n"
+"POT-Creation-Date: 2016-01-01 06:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -590,14 +590,14 @@ msgstr ""
 
 #: ../../upstream-details.rst:129
 msgid ""
-"`Understanding the DefCore Guidelines <https://github.com/openstack/"
-"defcore>`_"
+"`Understanding the DefCore Guidelines <https://git.openstack.org/cgit/"
+"openstack/defcore>`_"
 msgstr ""
 
 #: ../../upstream-details.rst:130
 msgid ""
-"`Core Definition <https://github.com/openstack/defcore/blob/master/process/"
-"CoreDefinition.rst>`_"
+"`Core Definition <https://git.openstack.org/cgit/openstack/defcore/plain/doc/"
+"source/process/CoreDefinition.rst>`_"
 msgstr ""
 
 #: ../../upstream-details.rst:131
@@ -707,7 +707,7 @@ msgid "Ubuntu or Fedora"
 msgstr ""
 
 #: ../../upstream-details.rst:169
-msgid "``git clone https://github.com/openstack-dev/devstack.git``"
+msgid "``git clone https://git.openstack.org/openstack-dev/devstack``"
 msgstr ""
 
 #: ../../upstream-details.rst:170
