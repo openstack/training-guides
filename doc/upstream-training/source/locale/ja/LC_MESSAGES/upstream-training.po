@@ -1,4 +1,5 @@
 # KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>, 2015. #zanata
+# KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>, 2016. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
@@ -7,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-12-28 05:38+0000\n"
+"PO-Revision-Date: 2016-01-04 05:56+0000\n"
 "Last-Translator: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -19,6 +20,9 @@ msgstr "#action"
 
 msgid "#help"
 msgstr "#help"
+
+msgid "#info"
+msgstr "#info"
 
 msgid "1,933 developers"
 msgstr "1,933 人の開発者"
@@ -61,8 +65,26 @@ msgstr "要約"
 msgid "Accept the rules"
 msgstr "ルール遵守"
 
+msgid "Acknowledge the language barrier"
+msgstr "言語障壁の認識"
+
 msgid "Active Technical Contributor (ATC)"
 msgstr "Active Technical Contributor (ATC)"
+
+msgid ""
+"Add a \"Call for Help\" to the minutes. Use this command when you need to "
+"recruit someone to do a task. (Counter-intuitively, this doesn't provide "
+"help on the bot)"
+msgstr ""
+"議事録に「手助け募集」を追加します。作業を実行する人を募集するときに、このコ"
+"マンドを使用します。直観に反して、これはボットを手助けしません。"
+
+msgid ""
+"Add an info item to the minutes. People should liberally use this for "
+"important things they say, so that they can be logged in the minutes."
+msgstr ""
+"参考情報を議事録に追加します。参加者は、重要な発言が議事録に記録されるよう、"
+"これを自由に使用すべきです。"
 
 msgid "Agile manifesto"
 msgstr "アジャイルマニフェスト"
@@ -88,11 +110,29 @@ msgstr "アジャイルの適用"
 msgid "Apply for individual membership and sign the CLA"
 msgstr "個人メンバー登録および CLA の署名"
 
+msgid "Apply them very diligently"
+msgstr "非常にこつこつと適用する"
+
 msgid "Applying agile"
 msgstr "アジャイルの適用"
 
 msgid "Appropriate Fixes"
 msgstr "適切な修正"
+
+msgid "Ask about their contribution experience"
+msgstr "知人・友人のコントリビューション経験について尋ねる"
+
+msgid "Ask if they know someone with similar experiences"
+msgstr "同じような経験を持つ人を知っているか尋ねる"
+
+msgid "Ask people you know, about the project"
+msgstr "知人にプロジェクトについて尋ねる"
+
+msgid "Ask the question and propose your solution"
+msgstr "質問の実施および解決策の提案"
+
+msgid "Assess your approach"
+msgstr "自身のアプローチの評価"
 
 msgid "Assigned To"
 msgstr "Assigned To (担当者)"
@@ -108,6 +148,12 @@ msgstr "悪: 2 つの独立した変更"
 
 msgid "Be collaborative"
 msgstr "共同作業する"
+
+msgid "Be considerate"
+msgstr "思いやりをもつ"
+
+msgid "Be engaged with your network"
+msgstr "あなたの知り合いと関わる"
 
 msgid "Be respectful"
 msgstr "敬意を持つ"
@@ -245,6 +291,9 @@ msgstr "コア : 5"
 msgid "Core reviewer"
 msgstr "コアレビューアー"
 
+msgid "Corporate driven"
+msgstr "企業主導"
+
 msgid "Course Outline"
 msgstr "コース概要"
 
@@ -302,6 +351,9 @@ msgstr "反対"
 msgid "Discovering the roles is an ongoing work"
 msgstr "役割の把握は進行中です"
 
+msgid "Discuss with non upstream"
+msgstr "アップストリーム以外との議論"
+
 msgid "Discuss with the product owner"
 msgstr "プロダクトオーナーとの議論"
 
@@ -320,6 +372,13 @@ msgstr "会社に勤めていますか?"
 msgid "DocImpact"
 msgstr "DocImpact"
 
+msgid ""
+"Document an action item in the minutes. Include any nicknames in the line, "
+"and the item will be assigned to them. (nicknames are case-sensitive)"
+msgstr ""
+"アクション項目を議事録に記録します。発言に任意のニックネームを含めると、その"
+"項目がその人に割り当てられます（ニックネームは大文字小文字を区別します）。"
+
 msgid "Draft inline comments"
 msgstr "ドラフトのインラインコメント"
 
@@ -329,11 +388,17 @@ msgstr "ブループリントドラフト数"
 msgid "Drive the program goals"
 msgstr "プログラムの目標の推進"
 
+msgid "Duration"
+msgstr "期間"
+
 msgid "Emails"
 msgstr "メール数"
 
 msgid "End on time"
 msgstr "時間厳守"
+
+msgid "Engage immediately"
+msgstr "迅速な関わり"
 
 msgid "Epic"
 msgstr "概略"
@@ -359,6 +424,9 @@ msgstr "演習"
 msgid "Exercise: get the code for the targeted contribution"
 msgstr "演習: コントリビューション予定のコードの取得"
 
+msgid "Explain what you do"
+msgstr "何をしているかを説明する"
+
 msgid ""
 "Face-to-face conversation is the best form of communication (co-location)"
 msgstr "対面の会話が最高のコミュニケーション (同じ場所)"
@@ -382,6 +450,9 @@ msgstr "新規ブループリントおよびスペックの登録"
 
 msgid "Filed Bugs"
 msgstr "バグ報告数"
+
+msgid "Find a solution that needs to be agreed upon"
+msgstr "合意する必要のあるソリューションの検討"
 
 msgid "Finding Roles : Product Owner, Scrum Master and Team Member"
 msgstr "役割の割り当て：プロダクトオーナー、スクラムマスター、チームメンバー"
@@ -455,6 +526,9 @@ msgstr "Governance/TechnicalCommittee#Meeting"
 msgid "Group of friends"
 msgstr "友達のグループ"
 
+msgid "Habits: online relationships?"
+msgstr "習慣: オンラインの関係性か?"
+
 msgid "High"
 msgstr "High (高)"
 
@@ -464,6 +538,9 @@ msgstr "OpenStack はどのように作られているか"
 msgid "How many contributors?"
 msgstr "どのくらいのコントリビューターがいるか?"
 
+msgid "How old is the project?"
+msgstr "どのくらい歴史のあるプロジェクトか?"
+
 msgid "How to contribute"
 msgstr "コントリビューション方法"
 
@@ -472,6 +549,9 @@ msgstr "新しいプロジェクトチームの立ち上げ方法"
 
 msgid "How to prepare"
 msgstr "準備方法"
+
+msgid "IM friends about contributions"
+msgstr "コントリビューションについて、友人にインスタントメッセージする"
 
 msgid "IRC meetings"
 msgstr "IRC ミーティング"
@@ -530,6 +610,9 @@ msgstr "Invalid"
 msgid "Jenkins"
 msgstr "Jenkins"
 
+msgid "Join irc.freenode.net#upstream-university"
+msgstr "irc.freenode.net#upstream-university に参加してください。"
+
 msgid "KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com> (assistant, Japanese)"
 msgstr "KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com> (assistant, Japanese)"
 
@@ -547,6 +630,13 @@ msgstr "役員会により指揮されています"
 
 msgid "Lego applied to Free Software contributions"
 msgstr "フリーソフトウェアのコントリビューションに適用する LEGO"
+
+msgid ""
+"Lego applied to Free Software contributions (`slides <20-training-agile-for-"
+"contributors.html>`__)"
+msgstr ""
+"フリーソフトウェアのコントリビューションに適用する LEGO (`スライド <20-"
+"training-agile-for-contributors.html>`__)"
 
 msgid "Lego town"
 msgstr "レゴタウン"
@@ -746,6 +836,12 @@ msgstr "ピアレビューのために Gerrit へのプッシュ"
 msgid "Quantify the delta"
 msgstr "差分の定量化"
 
+msgid "Read the actual code and the actual documentation"
+msgstr "実際のコードやドキュメントの参照"
+
+msgid "Read the code/documentation guidelines"
+msgstr "コード/ドキュメントのガイドラインの参照"
+
 msgid "Read the policy"
 msgstr "ポリシーの参照"
 
@@ -783,7 +879,7 @@ msgid "Resolved Bugs"
 msgstr "バグ解決数"
 
 msgid "Respect the election process"
-msgstr "選挙プロセスへの敬意"
+msgstr "選挙プロセスに敬意を示す"
 
 msgid "Review"
 msgstr "レビュー"
@@ -815,6 +911,9 @@ msgstr "スクラムマスター : 1"
 msgid "SecurityImpact"
 msgstr "SecurityImpact"
 
+msgid "Seeking agreement on the split"
+msgstr "分割の合意の取得"
+
 msgid "Selection of sessions"
 msgstr "セッションの選択"
 
@@ -823,6 +922,9 @@ msgstr "自己完結"
 
 msgid "Self-organizing teams"
 msgstr "自己組織化されたチーム"
+
+msgid "Send e-mails to friends about your contributions"
+msgstr "あなたのコントリビューションについて友人にメールする"
 
 msgid "Set a target milestone"
 msgstr "目標マイルストーンの設定"
@@ -844,13 +946,16 @@ msgid ""
 msgstr "シンプルさ（行っていない作業量の最大化手法）が最も肝要"
 
 msgid "Sizing the task difficulty"
-msgstr "タスクの複雑なの見積"
+msgstr "タスクの複雑さの見積"
 
 msgid "Small issue with an easy workaround. Any other insignificant bug"
 msgstr "簡単な回避方法のある軽微な問題。その他の重要ではないバグ"
 
 msgid "Smaller tasks"
 msgstr "より小さいタスク"
+
+msgid "Socialize or strictly professional?"
+msgstr "社交的か厳格なプロフェッショナルか?"
 
 msgid "Speeding the acceptance"
 msgstr "受け入れのスピード"
@@ -878,6 +983,12 @@ msgstr ""
 
 msgid "Staff"
 msgstr "スタッフ"
+
+msgid "Step down considerately"
+msgstr "思慮深く辞退する"
+
+msgid "Suspension of disbelief"
+msgstr "不信の停止"
 
 msgid "Sustainable development, able to maintain a constant pace"
 msgstr "持続可能な開発、一定ペースを維持可能"
@@ -997,6 +1108,9 @@ msgstr "主要な OpenStack プロジェクトと同じプロセスとツール�
 
 msgid "Vancouver Staff (Thank You!)"
 msgstr "Vancouver のスタッフ (ありがとう!)"
+
+msgid "Verbose or terse?"
+msgstr "冗長か簡潔か?"
 
 msgid ""
 "Victoria Martínez de la Cruz <victoria@vmartinezdelacruz.com> (assistant, "
@@ -1143,6 +1257,13 @@ msgid ""
 "`Launchpad <https://help.launchpad.net/>`_ (`slides <13-launchpad.html>`__)"
 msgstr ""
 "`Launchpad <https://help.launchpad.net/>`_ (`slides <13-launchpad.html>`__)"
+
+msgid ""
+"`Lego applied to Free Software contributions <20-training-agile-for-"
+"contributors.html>`_"
+msgstr ""
+"`フリーソフトウェアのコントリビューションに適用する LEGO <20-training-agile-"
+"for-contributors.html>`_"
 
 msgid ""
 "`Liberty Summit Etherpads <https://wiki.openstack.org/wiki/Design_Summit/"
@@ -1318,6 +1439,9 @@ msgstr "タイトル"
 
 msgid "activity.openstack.org"
 msgstr "activity.openstack.org"
+
+msgid "add an error and match it to the jenkins message"
+msgstr "エラーを追加して、Jenkins のメッセージと対応づけてください。"
 
 msgid "apt-get / yum / pip install … git review"
 msgstr "apt-get / yum / pip install … git review"
