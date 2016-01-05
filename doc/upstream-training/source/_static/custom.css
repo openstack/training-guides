@@ -1,3 +1,5 @@
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+
 .slide {
   background: -webkit-gradient(linear, left bottom, left top, from(#eef3f5), to(#fff));
   background-color: #eee;
@@ -48,4 +50,20 @@ article h2 {
     font-size: 66%;
     text-align: right;
     z-index: -2;
+}
+
+a.logabug {
+    position: absolute;
+    top: 1ex;
+    right: 3em;
+    font-size: 66%;
+    text-align: right;
+}
+
+.fa-bug {
+    color: #DA422F;
+}
+
+.fa-bug:hover {
+    color: #9A201D;
 }
