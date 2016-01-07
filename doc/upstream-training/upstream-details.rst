@@ -128,8 +128,7 @@ How OpenStack is made (3h including 1h30 exercises)
   * `List of approved tags <http://governance.openstack.org/reference/tags/index.html>`_
   * `Understanding the DefCore Guidelines <https://git.openstack.org/cgit/openstack/defcore>`_
   * `Core Definition <https://git.openstack.org/cgit/openstack/defcore/plain/doc/source/process/CoreDefinition.rst>`_
-  * `Stackforge <http://ci.openstack.org/stackforge.html>`_
-  * `How to add a project to Stackforge <http://docs.openstack.org/infra/manual/creators.html>`_
+  * `How to create a project <http://docs.openstack.org/infra/manual/creators.html>`_
   * Exercise: What kind of Program do you contribute to ?
 
 * `Design summits <https://wiki.openstack.org/wiki/Design_Summit>`_
