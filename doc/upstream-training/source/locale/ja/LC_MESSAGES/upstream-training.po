@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-01-05 04:25+0000\n"
+"PO-Revision-Date: 2016-01-07 01:46+0000\n"
 "Last-Translator: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -23,6 +23,13 @@ msgstr "#help"
 
 msgid "#info"
 msgstr "#info"
+
+msgid ""
+"**Sunday, October 25, 2015 at 9:30 AM to 5:00 PM - Monday, October 26, 2015 "
+"at 9:30 AM to 5:00 PM (UTC+09:00)**"
+msgstr ""
+"**Sunday, October 25, 2015 at 9:30 AM to 5:00 PM - Monday, October 26, 2015 "
+"at 9:30 AM to 5:00 PM (UTC+09:00)**"
 
 msgid "1,933 developers"
 msgstr "1,933 人の開発者"
@@ -54,6 +61,10 @@ msgstr "555 サポート企業"
 msgid ":doc:`upstream-details`"
 msgstr ":doc:`upstream-details`"
 
+msgid "A subset of tests are chosen by the Foundation as \"must-pass\""
+msgstr ""
+"テストのサブセットが「must-pass」として Foundation により選択されています"
+
 msgid ""
 "A week before Day 1: choice of a contribution, via email, with each "
 "participant"
@@ -67,6 +78,9 @@ msgstr "ルール遵守"
 
 msgid "Acknowledge the language barrier"
 msgstr "言語障壁の認識"
+
+msgid "Active Project Contributor (APC)"
+msgstr "Active Project Contributor (APC)"
 
 msgid "Active Technical Contributor (ATC)"
 msgstr "Active Technical Contributor (ATC)"
@@ -212,6 +226,9 @@ msgstr "ブランチモデル"
 msgid "Branching model (`slides <15-branching-model.html>`__)"
 msgstr "ブランチモデル (`スライド <15-branching-model.html>`__)"
 
+msgid "Bring a laptop with wifi + 4GB RAM Ubuntu virtual machine"
+msgstr "Wi-Fi と 4GB メモリーの Ubuntu 仮想マシンを持つノート PC の持ち込み"
+
 msgid "Bug"
 msgstr "バグ"
 
@@ -288,6 +305,9 @@ msgstr "コミットメッセージ"
 msgid "Commits"
 msgstr "コミット"
 
+msgid "Committed a change over the last two 6-month release cycles"
+msgstr "過去 2 回の 6 か月サイクルにおける変更のコミット"
+
 msgid "Communication"
 msgstr "コミュニケーション"
 
@@ -329,6 +349,9 @@ msgstr "ブループリントへの貢献"
 
 msgid "Contributing code/documentation"
 msgstr "コードやドキュメントへの貢献"
+
+msgid "Contribution Planning (2 hours)"
+msgstr "コントリビューション計画 (2 時間)"
 
 msgid "Contribution Simulation (2 hour)"
 msgstr "コントリビューションのシミュレーション (2 時間)"
@@ -435,6 +458,9 @@ msgstr "反対"
 msgid "Discovering the roles is an ongoing work"
 msgstr "役割の把握は進行中です"
 
+msgid "Discuss upcoming features for the next release cycle"
+msgstr "次のリリースサイクルに向けて新しい機能を議論します"
+
 msgid "Discuss with non upstream"
 msgstr "アップストリーム以外との議論"
 
@@ -480,6 +506,13 @@ msgstr "期間"
 
 msgid "Each choice made must have a rationale"
 msgstr "各選択肢は理論的根拠を持つ必要があります"
+
+msgid ""
+"Each project team page shows its release policy on http://governance."
+"openstack.org/reference/projects"
+msgstr ""
+"各プロジェクトチームは http://governance.openstack.org/reference/projects に"
+"リリースポリシーを公開しています。"
 
 msgid "Easier to bisect"
 msgstr "調査しやすく (bisect) する"
@@ -528,6 +561,9 @@ msgstr "演習"
 
 msgid "Exercise: Apply for individual membership and sign the CLA"
 msgstr "演習: 個人メンバー登録および CLA の署名"
+
+msgid "Exercise: What kind of Program do you contribute to ?"
+msgstr "演習: コントリビューションしたいプロジェクトは何か?"
 
 msgid "Exercise: add an error and match it to the jenkins message"
 msgstr "実習: エラーを追加して、Jenkins のメッセージと対応づけてください。"
@@ -629,6 +665,9 @@ msgstr "ドキュメントの修正"
 
 msgid "Fix the web site"
 msgstr "Web サイトの修正"
+
+msgid "Focus on bug-fixing"
+msgstr "バグ修正への注力"
 
 msgid "Focus on what we want to do for the next one"
 msgstr "次に実行したいことに注力する"
@@ -876,6 +915,9 @@ msgstr "Loïc Dachary (Training, mentoring, assistant, english and french)"
 msgid "Lunch menu meeting"
 msgstr "ランチメニューミーティング"
 
+msgid "Make sure you have a wifi enabled laptop with you."
+msgstr "Wi-FI を有効にしていることを確認してください。"
+
 msgid "Manage day-to-day operations"
 msgstr "日々の活動の管理"
 
@@ -902,6 +944,9 @@ msgstr "ミーティング"
 
 msgid "Milestone"
 msgstr "マイルストーン"
+
+msgid "Milestone: Milestone the bug was fixed in"
+msgstr "マイルストーン (Milestone): バグが修正されたマイルストーン"
 
 msgid "Mingle"
 msgstr "混合"
@@ -959,6 +1004,13 @@ msgid ""
 "OpenStack"
 msgstr "OpenStack を「開発、支援、保護、促進」するために作成された非営利団体"
 
+msgid ""
+"Not a classic conference with presenter and audience - more like a "
+"collaborative brainstorming session"
+msgstr ""
+"昔ながらの発表者と参加者によるコンファレンスではありません。より協調的なブレ"
+"インストーミングのセッションです。"
+
 msgid "Objectives"
 msgstr "目的"
 
@@ -1010,6 +1062,15 @@ msgstr "OpenStack Upstream Training"
 
 msgid "OpenStack Upstream Training Details"
 msgstr "OpenStack Upstream Training 詳細"
+
+msgid ""
+"OpenStack Upstream Training in Tokyo has ended. Next session will be in "
+"Austin, Texas in April 2016 just before the `OpenStack Summit <https://www."
+"openstack.org/summit/austin-2016/>`_."
+msgstr ""
+"OpenStack Upstream Training in Tokyo は終了しました。次のセッションは、2016年"
+"4月にテキサス州オースチンにおいて `OpenStack Summit <https://www.openstack."
+"org/summit/austin-2016/>`_ の直前に開催されます。"
 
 msgid "Opinion"
 msgstr "Opinion"
@@ -1113,6 +1174,9 @@ msgstr "ピアレビューのために Gerrit へのプッシュ"
 
 msgid "Quantify the delta"
 msgstr "差分の定量化"
+
+msgid "Quantify the delta."
+msgstr "差分を定量化する。"
 
 msgid "Read the actual code and the actual documentation"
 msgstr "実際のコードやドキュメントの参照"
@@ -1256,6 +1320,9 @@ msgstr "より小さいタスク"
 msgid "Socialize or strictly professional?"
 msgstr "社交的か厳格なプロフェッショナルか?"
 
+msgid "Speed up the acceptance."
+msgstr "受け入れを高速化する。"
+
 msgid "Speeding the acceptance"
 msgstr "受け入れのスピード"
 
@@ -1283,6 +1350,9 @@ msgstr ""
 msgid "Staff"
 msgstr "スタッフ"
 
+msgid "Status: Fix Committed"
+msgstr "状態: 修正コミット済み (Fix Committed)"
+
 msgid "Status: Fix Released"
 msgstr "状態: 修正公開済み (Fix Released)"
 
@@ -1303,6 +1373,9 @@ msgstr "ストリングフリーズ"
 
 msgid "Structural split of changes"
 msgstr "変更の構造的な分割"
+
+msgid "Subset of the Foundation Individual Member"
+msgstr "Foundation Individual Member の一部分"
 
 msgid "Supporting services such as Common Libraries (\"Oslo\")"
 msgstr "共通ライブラリー (\"Oslo\") などのサポートサービス"
@@ -1362,6 +1435,9 @@ msgstr "コントリビューションの流れ (1 時間)"
 msgid "The OpenStack Community"
 msgstr "OpenStack コミュニティー"
 
+msgid "The branch containing the fix was merged into master"
+msgstr "この修正を含むブランチが master にマージされました"
+
 msgid ""
 "The bug comments contain a full analysis on how to properly fix the issue"
 msgstr "バグコメントにおいて問題を修正する方法を完全に記載されている状態"
@@ -1377,6 +1453,20 @@ msgstr "バグが再現する、または本当にバグであると確認され
 
 msgid "The first commit line is the most important."
 msgstr "コミットの 1 行目はもっとも重要です。"
+
+msgid ""
+"The fix is included in the milestone-proposed branch, a past milestone or a "
+"past release"
+msgstr ""
+"修正が milestone-proposed ブランチ、過去のマイルストーン、または過去のリリー"
+"スに含まれています。"
+
+msgid ""
+"The last session of the OpenStack Upstream Training was completed in Tokyo, "
+"before the OpenStack Summit. `Students can register here <http://goo.gl/"
+"forms/qAr3N8rdYs>`_ and `assistants and mentors can register here <http://"
+"goo.gl/forms/fczq3NZ16g>`_."
+msgstr "最新の OpenStack Upstream Training は終了しました。"
 
 msgid "The release, or milestone, or commit ID"
 msgstr "リリース、マイルストーン、コミット ID"
@@ -1475,6 +1565,26 @@ msgstr ""
 msgid "Volunteers"
 msgstr "ボランティア"
 
+msgid ""
+"We've designed a training program to help professional developers negotiate "
+"this hurdle. It shows them how to ensure their bug fix or feature is "
+"accepted in the OpenStack project in a minimum amount of time. The "
+"educational program requires students to work on real-life bug fixes or new "
+"features during two days of real-life classes and online mentoring, until "
+"the work is accepted by OpenStack. The live two-day class teaches them to "
+"navigate the intricacies of the project's technical tools and social "
+"interactions. In a followup session, the students benefit from individual "
+"online sessions to help them resolve any remaining problems they might have."
+msgstr ""
+"プロフェッショナル開発者がこのハードルを乗り越える支援をするために、トレーニ"
+"ングプログラムを用意しました。バグ修正や機能追加ができる限り早く OpenStack プ"
+"ロジェクトにきちんと取り込まれるための方法を説明します。この教育プログラム"
+"は、受講者が、2日間の集合教育とオンラインのメンタリングを通して、OpenStack に"
+"取り込まれるまで、実際にバグ修正や新機能追加に取り組む必要があります。プロ"
+"ジェクトの技術的なツールやコミュニティとの関わりの複雑さについて、2日間の集合"
+"教育で説明します。フォローアップセッションでは、受講者が何か疑問に感じた点を"
+"解決するために、個々のオンラインセッションを受けられます。"
+
 msgid "Welcome changing requirements, even late in development"
 msgstr "変更要求の歓迎、開発終了間近でも"
 
@@ -1523,6 +1633,20 @@ msgstr "誰が後ろについているか?"
 
 msgid "Wishlist"
 msgstr "Wishlist (要望)"
+
+msgid ""
+"With over 2000 developers from 80 different companies worldwide, OpenStack "
+"is one of the largest collaborative software-development projects. Because "
+"of its size, it is characterized by a huge diversity in social norms and "
+"technical conventions. These can significantly slow down the speed at which "
+"newcomers are successful at integrating their own roadmap into that of the "
+"OpenStack project."
+msgstr ""
+"OpenStack は、最も巨大なコラボレーション型ソフトウェア開発プロジェクトの 1 つ"
+"です。世界中の 80 か国以上から 2000 人を超える開発者が参加しています。その規"
+"模によりもたらされる、社会規範や技術的な習慣における多様性が特徴的です。新規"
+"参入者が自身のロードマップと OpenStack プロジェクトとの統合を成功するまでに、"
+"かなり時間がかかってしまう可能性があります。"
 
 msgid "Won't Fix"
 msgstr "Won't Fix"
