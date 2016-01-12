@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-01 06:19+0000\n"
+"POT-Creation-Date: 2016-01-12 06:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -601,430 +601,426 @@ msgid ""
 msgstr ""
 
 #: ../../upstream-details.rst:131
-msgid "`Stackforge <http://ci.openstack.org/stackforge.html>`_"
+msgid ""
+"`How to create a project <http://docs.openstack.org/infra/manual/creators."
+"html>`_"
 msgstr ""
 
 #: ../../upstream-details.rst:132
-msgid ""
-"`How to add a project to Stackforge <http://docs.openstack.org/infra/manual/"
-"creators.html>`_"
-msgstr ""
-
-#: ../../upstream-details.rst:133
 msgid "Exercise: What kind of Program do you contribute to ?"
 msgstr ""
 
-#: ../../upstream-details.rst:135
+#: ../../upstream-details.rst:134
 msgid ""
 "`Design summits <https://wiki.openstack.org/wiki/Design_Summit>`_ (`slides "
 "<05-design-summit.html>`__)"
 msgstr ""
 
-#: ../../upstream-details.rst:138
+#: ../../upstream-details.rst:137
 msgid ""
 "`Propose sessions <https://wiki.openstack.org/wiki/Design_Summit/Planning>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:139
+#: ../../upstream-details.rst:138
 msgid ""
 "`List of sessions <https://libertydesignsummit.sched.org/overview/type/design"
 "+summit#.VVeYTt-uNNw>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:140
+#: ../../upstream-details.rst:139
 msgid ""
 "`Liberty Summit Etherpads <https://wiki.openstack.org/wiki/Design_Summit/"
 "Liberty/Etherpads>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:141
+#: ../../upstream-details.rst:140
 msgid ""
 "Exercise: Add a session proposal regarding your contribution in an etherpad, "
 "review two proposals"
 msgstr ""
 
-#: ../../upstream-details.rst:144
+#: ../../upstream-details.rst:143
 msgid ""
 "`IRC meetings <https://wiki.openstack.org/wiki/Meetings>`_ (`slides <06-irc-"
 "meetings.html>`__)"
 msgstr ""
 
-#: ../../upstream-details.rst:147
+#: ../../upstream-details.rst:146
 msgid ""
 "`IRC Services <http://docs.openstack.org/infra/system-config/irc.html>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:148
+#: ../../upstream-details.rst:147
 msgid "`meetbot <http://wiki.debian.org/MeetBot>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:149
+#: ../../upstream-details.rst:148
 msgid "`OpenStack IRC channels <https://wiki.openstack.org/wiki/IRC>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:150
+#: ../../upstream-details.rst:149
 msgid "`IRC Logs <http://eavesdrop.openstack.org/irclogs/>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:151
+#: ../../upstream-details.rst:150
 msgid ""
 "``#info`` - Add an info item to the minutes. People should liberally use "
 "this for important things they say, so that they can be logged in the "
 "minutes."
 msgstr ""
 
-#: ../../upstream-details.rst:154
+#: ../../upstream-details.rst:153
 msgid ""
 "``#action`` - Document an action item in the minutes. Include any nicknames "
 "in the line, and the item will be assigned to them. (nicknames are case-"
 "sensitive)"
 msgstr ""
 
-#: ../../upstream-details.rst:157
+#: ../../upstream-details.rst:156
 msgid ""
 "``#help`` - Add a \"Call for Help\" to the minutes. Use this command when "
 "you need to recruit someone to do a task. (Counter-intuitively, this doesn't "
 "provide help on the bot)"
 msgstr ""
 
-#: ../../upstream-details.rst:160
+#: ../../upstream-details.rst:159
 msgid "Exercise: lunch menu online meeting"
 msgstr ""
 
-#: ../../upstream-details.rst:163
+#: ../../upstream-details.rst:162
 msgid ""
 "Workflow of an OpenStack contribution and tools (3h including 2h exercises)"
 msgstr ""
 
-#: ../../upstream-details.rst:165
+#: ../../upstream-details.rst:164
 msgid ""
 "`devstack <http://docs.openstack.org/developer/devstack/>`_ (`slides <11-"
 "devstack.html>`__)"
 msgstr ""
 
-#: ../../upstream-details.rst:168
+#: ../../upstream-details.rst:167
 msgid "Ubuntu or Fedora"
 msgstr ""
 
-#: ../../upstream-details.rst:169
+#: ../../upstream-details.rst:168
 msgid "``git clone https://git.openstack.org/openstack-dev/devstack``"
 msgstr ""
 
-#: ../../upstream-details.rst:170
+#: ../../upstream-details.rst:169
 msgid ""
 "`minimal configuration <http://docs.openstack.org/developer/devstack/"
 "configuration.html#minimal-configuration>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:171
+#: ../../upstream-details.rst:170
 msgid "``cd devstack; ./stack.sh``"
 msgstr ""
 
-#: ../../upstream-details.rst:172
+#: ../../upstream-details.rst:171
 msgid "Exercise: get the code for the targeted contribution"
 msgstr ""
 
-#: ../../upstream-details.rst:174
+#: ../../upstream-details.rst:173
 msgid ""
 "`How_To_Contribute URL <https://wiki.openstack.org/wiki/How_To_Contribute>`_ "
 "(`slides <12-howtocontribute.html>`__)"
 msgstr ""
 
-#: ../../upstream-details.rst:177
+#: ../../upstream-details.rst:176
 msgid ""
 "`Puppet <https://wiki.openstack.org/wiki/"
 "Puppet#Contributing_to_the_modules>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:178
+#: ../../upstream-details.rst:177
 msgid "`Documentation <https://wiki.openstack.org/wiki/Documentation/HowTo>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:179
+#: ../../upstream-details.rst:178
 msgid ""
 "`Training guides <https://wiki.openstack.org/wiki/Training-guides#How_To>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:180
+#: ../../upstream-details.rst:179
 msgid "Exercise: Apply for individual membership and sign the CLA"
 msgstr ""
 
-#: ../../upstream-details.rst:182
+#: ../../upstream-details.rst:181
 msgid ""
 "`Launchpad <https://help.launchpad.net/>`_ (`slides <13-launchpad.html>`__)"
 msgstr ""
 
-#: ../../upstream-details.rst:184
+#: ../../upstream-details.rst:183
 msgid "`Blueprints <https://wiki.openstack.org/wiki/Blueprints>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:185
+#: ../../upstream-details.rst:184
 msgid "`Bugs <https://wiki.openstack.org/wiki/Bugs>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:187
+#: ../../upstream-details.rst:186
 msgid ""
 "`Status, Importance, Assigned To, Milestone, Tags <https://wiki.openstack."
 "org/wiki/Bugs#Bugs_reference>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:188
+#: ../../upstream-details.rst:187
 msgid "`reporting a bug <https://wiki.openstack.org/wiki/Bugs#Reporting>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:189
+#: ../../upstream-details.rst:188
 msgid ""
 "`confirming and prioritizing <https://wiki.openstack.org/wiki/"
 "Bugs#Confirming_.26_prioritizing>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:190
+#: ../../upstream-details.rst:189
 msgid ""
 "`debugging <https://wiki.openstack.org/wiki/Bugs#Debugging_.28optional.29>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:191
+#: ../../upstream-details.rst:190
 msgid "`bugfixing <https://wiki.openstack.org/wiki/Bugs#Bugfixing>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:193
+#: ../../upstream-details.rst:192
 msgid "Exercise: review other launchpad bugs and improve yours"
 msgstr ""
 
-#: ../../upstream-details.rst:195
+#: ../../upstream-details.rst:194
 msgid "How to contribute (`slides <14-gerrit.html>`__)"
 msgstr ""
 
-#: ../../upstream-details.rst:198
+#: ../../upstream-details.rst:197
 msgid ""
 "`Developer’s Guide <http://docs.openstack.org/infra/manual/developers.html>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:199
+#: ../../upstream-details.rst:198
 msgid ""
 "`Account setup <http://docs.openstack.org/infra/manual/developers."
 "html#account-setup>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:200
+#: ../../upstream-details.rst:199
 msgid ""
 "`Git review installation <http://docs.openstack.org/infra/manual/developers."
 "html#installing-git-review>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:201
+#: ../../upstream-details.rst:200
 msgid ""
 "`Starting Work on a New Repository <http://docs.openstack.org/infra/manual/"
 "developers.html#starting-work-on-a-new-repository>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:202
+#: ../../upstream-details.rst:201
 msgid ""
 "`Development workflow <http://docs.openstack.org/infra/manual/developers."
 "html#development-workflow>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:203
+#: ../../upstream-details.rst:202
 msgid ""
 "`Running unit tests <http://docs.openstack.org/infra/manual/developers."
 "html#running-unit-tests>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:204
+#: ../../upstream-details.rst:203
 msgid ""
 "`Cross-Repository Dependencies <http://docs.openstack.org/infra/manual/"
 "developers.html#cross-repository-dependencies>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:205
+#: ../../upstream-details.rst:204
 msgid "Exercise: push a wip or draft and invite reviewers"
 msgstr ""
 
-#: ../../upstream-details.rst:207
+#: ../../upstream-details.rst:206
 msgid "Branching model (`slides <15-branching-model.html>`__)"
 msgstr ""
 
-#: ../../upstream-details.rst:210
+#: ../../upstream-details.rst:209
 msgid "`Branch model <https://wiki.openstack.org/wiki/Branch_Model>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:211
+#: ../../upstream-details.rst:210
 msgid "`Stable branch <https://wiki.openstack.org/wiki/StableBranch>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:212
+#: ../../upstream-details.rst:211
 msgid "Exercise: checkout the latest stable branch"
 msgstr ""
 
-#: ../../upstream-details.rst:214
+#: ../../upstream-details.rst:213
 msgid ""
 "`Code Review <http://docs.openstack.org/infra/manual/developers.html#code-"
 "review>`_ (`slides <16-reviewing.html>`__)"
 msgstr ""
 
-#: ../../upstream-details.rst:216
+#: ../../upstream-details.rst:215
 msgid ""
 "`Peer Review <http://docs.openstack.org/infra/manual/developers.html#peer-"
 "review>`_ (`slides <17-commit-message.html>`__)"
 msgstr ""
 
-#: ../../upstream-details.rst:219
+#: ../../upstream-details.rst:218
 msgid ""
 "`Git Commit Good Practice <https://wiki.openstack.org/wiki/"
 "GitCommitMessages>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:220
+#: ../../upstream-details.rst:219
 msgid ""
 "Gerrit Documentation: `Gerrit Code Review - A Quick Introduction <https://"
 "review.openstack.org/Documentation/intro-quick.html>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:221
+#: ../../upstream-details.rst:220
 msgid ""
 "Gerrit Documentation: `Reviewing the Change <https://review.openstack.org/"
 "Documentation/intro-quick.html#_reviewing_the_change>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:222
+#: ../../upstream-details.rst:221
 msgid "Exercise: review each other messages on the draft"
 msgstr ""
 
-#: ../../upstream-details.rst:224
+#: ../../upstream-details.rst:223
 msgid ""
 "`Jenkins (Automated testing) <http://docs.openstack.org/infra/manual/"
 "developers.html#automated-testing>`_ (`slides <18-jenkins.html>`__)"
 msgstr ""
 
-#: ../../upstream-details.rst:227
+#: ../../upstream-details.rst:226
 msgid "Exercise: add an error and match it to the jenkins message"
 msgstr ""
 
-#: ../../upstream-details.rst:230
+#: ../../upstream-details.rst:229
 msgid "Second day"
 msgstr ""
 
-#: ../../upstream-details.rst:233
+#: ../../upstream-details.rst:232
 msgid "The Contribution Process (1 hour)"
 msgstr ""
 
-#: ../../upstream-details.rst:235
+#: ../../upstream-details.rst:234
 msgid ""
 "Overview of the contribution process (`slides <19-training-contribution-"
 "process.html>`__)"
 msgstr ""
 
-#: ../../upstream-details.rst:238
+#: ../../upstream-details.rst:237
 msgid "Take the pulse of the project."
 msgstr ""
 
-#: ../../upstream-details.rst:239
+#: ../../upstream-details.rst:238
 msgid "Figure out who's behind it."
 msgstr ""
 
-#: ../../upstream-details.rst:240
+#: ../../upstream-details.rst:239
 msgid "Determine the project's social groups."
 msgstr ""
 
-#: ../../upstream-details.rst:241
+#: ../../upstream-details.rst:240
 msgid "Assess your approach."
 msgstr ""
 
-#: ../../upstream-details.rst:242
+#: ../../upstream-details.rst:241
 msgid "Engage immediately."
 msgstr ""
 
-#: ../../upstream-details.rst:243
+#: ../../upstream-details.rst:242
 msgid "Play with your network."
 msgstr ""
 
-#: ../../upstream-details.rst:244
+#: ../../upstream-details.rst:243
 msgid "Perform the smaller tasks."
 msgstr ""
 
-#: ../../upstream-details.rst:245
+#: ../../upstream-details.rst:244
 msgid "Choose a question."
 msgstr ""
 
-#: ../../upstream-details.rst:246
+#: ../../upstream-details.rst:245
 msgid "Familiarize yourself with the code of conduct."
 msgstr ""
 
-#: ../../upstream-details.rst:247
+#: ../../upstream-details.rst:246
 msgid "Understand the conventions."
 msgstr ""
 
-#: ../../upstream-details.rst:248
+#: ../../upstream-details.rst:247
 msgid "Explain what you do."
 msgstr ""
 
-#: ../../upstream-details.rst:249
+#: ../../upstream-details.rst:248
 msgid "Prepare the backport."
 msgstr ""
 
-#: ../../upstream-details.rst:250
+#: ../../upstream-details.rst:249
 msgid "Learn what's local and what's upstream."
 msgstr ""
 
-#: ../../upstream-details.rst:251
+#: ../../upstream-details.rst:250
 msgid "Learn what distinguishes good work flow from bad work flow."
 msgstr ""
 
-#: ../../upstream-details.rst:252
+#: ../../upstream-details.rst:251
 msgid "Quantify the delta."
 msgstr ""
 
-#: ../../upstream-details.rst:253
+#: ../../upstream-details.rst:252
 msgid "Speed up the acceptance."
 msgstr ""
 
-#: ../../upstream-details.rst:254
+#: ../../upstream-details.rst:253
 msgid "Determine the time frame."
 msgstr ""
 
-#: ../../upstream-details.rst:255
+#: ../../upstream-details.rst:254
 msgid "Maximize karma."
 msgstr ""
 
-#: ../../upstream-details.rst:256
+#: ../../upstream-details.rst:255
 msgid "Work in parallel."
 msgstr ""
 
-#: ../../upstream-details.rst:257
+#: ../../upstream-details.rst:256
 msgid "Archive and collect."
 msgstr ""
 
-#: ../../upstream-details.rst:260
+#: ../../upstream-details.rst:259
 msgid "Agile for Contributors (15 min)"
 msgstr ""
 
-#: ../../upstream-details.rst:262
+#: ../../upstream-details.rst:261
 msgid ""
 "Lego applied to Free Software contributions (`slides <20-training-agile-for-"
 "contributors.html>`__)"
 msgstr ""
 
-#: ../../upstream-details.rst:265
+#: ../../upstream-details.rst:264
 msgid "Apply agile"
 msgstr ""
 
-#: ../../upstream-details.rst:266
+#: ../../upstream-details.rst:265
 msgid "Who is the customer?"
 msgstr ""
 
-#: ../../upstream-details.rst:267
+#: ../../upstream-details.rst:266
 msgid "Company & Upstream product owner"
 msgstr ""
 
-#: ../../upstream-details.rst:268
+#: ../../upstream-details.rst:267
 msgid "Sprint review presentation to Upstream"
 msgstr ""
 
-#: ../../upstream-details.rst:271
+#: ../../upstream-details.rst:270
 msgid "Contribution Simulation (2 hour)"
 msgstr ""
 
-#: ../../upstream-details.rst:273
+#: ../../upstream-details.rst:272
 msgid ""
 "The students make a virtual contribution simulation using Lego bricks as "
 "props, with the goal of expanding a Lego town, built by upstream. They are "
@@ -1032,28 +1028,28 @@ msgid ""
 "and the upstream."
 msgstr ""
 
-#: ../../upstream-details.rst:279
+#: ../../upstream-details.rst:278
 msgid "Contribution Planning (2 hours)"
 msgstr ""
 
-#: ../../upstream-details.rst:281
+#: ../../upstream-details.rst:280
 msgid ""
 "`ODP slides <http://dachary.org/loic/openstack-training/training-student-"
 "project-sample.odp>`_ `PDF slides <http://dachary.org/loic/openstack-"
 "training/training-student-project-sample.pdf>`_"
 msgstr ""
 
-#: ../../upstream-details.rst:284
+#: ../../upstream-details.rst:283
 msgid ""
 "The students use template slides to prepare a 5-minute presentation of their "
 "planned contribution."
 msgstr ""
 
-#: ../../upstream-details.rst:286
+#: ../../upstream-details.rst:285
 msgid "A sample presentation is given by the teacher, as an example."
 msgstr ""
 
-#: ../../upstream-details.rst:287
+#: ../../upstream-details.rst:286
 msgid ""
 "Each student group prepares a presentation describing: * the contribution "
 "they plan to work on during the online sessions, * how they will engage with "
@@ -1061,15 +1057,15 @@ msgid ""
 "will be working with."
 msgstr ""
 
-#: ../../upstream-details.rst:292
+#: ../../upstream-details.rst:291
 msgid "Each student group presents its slides to the class"
 msgstr ""
 
-#: ../../upstream-details.rst:295
+#: ../../upstream-details.rst:294
 msgid "Etherpad"
 msgstr ""
 
-#: ../../upstream-details.rst:297
+#: ../../upstream-details.rst:296
 msgid "https://etherpad.openstack.org/p/upstream-training-vancouver"
 msgstr ""
 
