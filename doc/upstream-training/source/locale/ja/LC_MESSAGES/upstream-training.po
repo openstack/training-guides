@@ -8,8 +8,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-01-08 05:06+0000\n"
-"Last-Translator: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>\n"
+"PO-Revision-Date: 2016-01-19 03:55+0000\n"
+"Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
 "X-Generator: Zanata 3.7.3\n"
@@ -23,6 +23,13 @@ msgstr "#help"
 
 msgid "#info"
 msgstr "#info"
+
+msgid ""
+"**Still looking for help: please** `register <http://goo.gl/forms/"
+"fczq3NZ16g>`_ **and add yourself to the list below.**"
+msgstr ""
+"**まだお手伝いを探しています: どうぞ** `登録 <http://goo.gl/forms/"
+"fczq3NZ16g>`_ **して、あなたの名前を一覧に追加してください。**"
 
 msgid ""
 "**Sunday, October 25, 2015 at 9:30 AM to 5:00 PM - Monday, October 26, 2015 "
@@ -98,6 +105,10 @@ msgid ""
 msgstr ""
 "議事録に「手助け募集」を追加します。作業を実行する人を募集するときに、このコ"
 "マンドを使用します。直観に反して、これはボットを手助けしません。"
+
+msgid "Add a session proposal regarding your contribution in an etherpad"
+msgstr ""
+"Etherpad にコントリビューションに関するセッションの提案を追加してください。"
 
 msgid ""
 "Add an info item to the minutes. People should liberally use this for "
@@ -189,6 +200,9 @@ msgstr "自身のアプローチを評価します。"
 
 msgid "Assigned To"
 msgstr "Assigned To (担当者)"
+
+msgid "At the Design Summit"
+msgstr "デザインサミットにおいて"
 
 msgid "Bad workflow"
 msgstr "悪いワークフロー"
@@ -399,6 +413,13 @@ msgstr "企業主導"
 msgid "Course Outline"
 msgstr "コース概要"
 
+msgid ""
+"Create a virtual machine on the laptop with Ubuntu 12.04 or 14.04 installed "
+"and 4GB of RAM."
+msgstr ""
+"4GB をメモリを搭載したノート PC に Ubuntu 12.04 または 14.04 の仮想マシンを作"
+"成してください。"
+
 msgid "Create the corresponding blueprint"
 msgstr "対応するブループリントの作成"
 
@@ -410,6 +431,11 @@ msgstr "日々のリーダーシップのために、他の委員会を作成し
 
 msgid "Critical"
 msgstr "Critical (クリティカル)"
+
+msgid "Current tags describe how projects are released and team diversity"
+msgstr ""
+"現在のタグは、プロジェクトがどのようにリリースされ、チームの多様性になってい"
+"るかを説明します"
 
 msgid "Customer satisfaction by rapid delivery of useful software"
 msgstr "役立つソフトウェアの迅速な提供による顧客満足度"
@@ -425,6 +451,9 @@ msgstr "1 日目: OpenStack はどのように作られているか"
 
 msgid "Day 1: Learn and practice git, gerrit, IRC"
 msgstr "1 日目: git、gerrit、IRC の学習と習熟"
+
+msgid "Day 2: Individual presentation of the contribution plan"
+msgstr "2 日目: コントリビューション計画の個人発表"
 
 msgid "Day 2: Lego contribution simulation"
 msgstr "2 日目: LEGO を用いたコントリビューションのシミュレーション"
@@ -446,6 +475,9 @@ msgstr "DefCore 原則"
 
 msgid "Describe any limitations of the current code."
 msgstr "現在のコードにある何かしらの制限を説明します。"
+
+msgid "Describe the output produced by the OpenStack community teams"
+msgstr "OpenStack コミュニティーのチームにより作成されるアウトプットの説明"
 
 msgid "Describe why a change is being made"
 msgstr "なぜ変更されるのかを説明します。"
@@ -584,6 +616,13 @@ msgstr "Etherpad"
 msgid "Exercise"
 msgstr "演習"
 
+msgid ""
+"Exercise: Add a session proposal regarding your contribution in an etherpad, "
+"review two proposals"
+msgstr ""
+"演習: Etherpad にコントリビューションに関するセッションの提案を追加して、2 つ"
+"の提案をレビューします。"
+
 msgid "Exercise: Apply for individual membership and sign the CLA"
 msgstr "演習: 個人メンバー登録および CLA の署名"
 
@@ -593,8 +632,23 @@ msgstr "演習: コントリビューションしたいプロジェクトは何�
 msgid "Exercise: add an error and match it to the jenkins message"
 msgstr "実習: エラーを追加して、Jenkins のメッセージと対応づけてください。"
 
+msgid ""
+"Exercise: based on the `Kilo release schedule <https://wiki.openstack.org/"
+"wiki/Kilo_Release_Schedule>`_ find the URL of a document or a patch that "
+"belongs to each of the above steps."
+msgstr ""
+"演習: `Kilo リリーススケジュール <https://wiki.openstack.org/wiki/"
+"Kilo_Release_Schedule>`_ に基づいて、上の各ステップに属するドキュメントやパッ"
+"チの URL を見つけてください。"
+
 msgid "Exercise: checkout the latest stable branch"
 msgstr "実習: 最新の安定ブランチのチェックアウト"
+
+msgid ""
+"Exercise: each APC / ATC in the class add a URL to the etherpad proving it"
+msgstr ""
+"演習: クラスにいる APC / ATC は、それを証明する URL を etherpad に追加してく"
+"ださい。"
 
 msgid "Exercise: get the code for the targeted contribution"
 msgstr "演習: コントリビューション予定のコードの取得"
@@ -820,6 +874,13 @@ msgstr "IRC ミーティング"
 msgid "IRC meetings list"
 msgstr "IRC ミーティング一覧"
 
+msgid ""
+"If your contribution is on behalf of a company, have your managers sign the "
+"Corporate Contributor License Agreement"
+msgstr ""
+"あなたのコントリビューションが企業活動ならば、マネージャーに Corporate "
+"Contributor License Agreement に署名してもらってください"
+
 msgid "Impact was not assessed yet"
 msgstr "影響がまだ確認されていない"
 
@@ -906,6 +967,12 @@ msgstr "Lana Brindley (assistant, mentoring, English)"
 
 msgid "Last published release candidate"
 msgstr "最後に公開されたリリース候補版"
+
+msgid "Learn what distinguishes good work flow from bad work flow."
+msgstr "良いワークフローと悪いワークフローの違いを学習します。"
+
+msgid "Learn what's local and what's upstream."
+msgstr "何がローカルか、何がアップストリームかを学習します。"
 
 msgid "Learning about the project"
 msgstr "プロジェクトについて知る"
@@ -1068,6 +1135,9 @@ msgstr ""
 "昔ながらの発表者と参加者によるコンファレンスではありません。より協調的なブレ"
 "インストーミングのセッションです。"
 
+msgid "Not suitable to start learning about a topic"
+msgstr "トピックについて学び始めることに適していません"
+
 msgid "Objectives"
 msgstr "目的"
 
@@ -1085,6 +1155,9 @@ msgstr "オープン開発"
 
 msgid "Open Source"
 msgstr "オープンソース"
+
+msgid "Open discussions, chairs organized in concentric rings"
+msgstr "議題に集中した、オープンな議論、チェアーによる整理"
 
 msgid "Open source software for creating private and public clouds"
 msgstr ""
@@ -1326,6 +1399,12 @@ msgstr "Rohit Agarwalla (assistant)"
 msgid "Rossella Sblendido (assistant, Italian, English)"
 msgstr "Rossella Sblendido (assistant, Italian, English)"
 
+msgid "SERIES-backport-potential"
+msgstr "SERIES-backport-potential"
+
+msgid "SERIES-rc-potential"
+msgstr "SERIES-rc-potential"
+
 msgid "Same as APC"
 msgstr "APC と同じ"
 
@@ -1355,6 +1434,13 @@ msgstr "あなたのコントリビューションについて友人にメール
 
 msgid "Sending large new features in a single giant commit."
 msgstr "巨大なコミットにおける新機能の大規模な追加"
+
+msgid ""
+"Sessions are proposed on an open document (generally an Etherpad) and "
+"discussed at team meetings."
+msgstr ""
+"セッションは、オープンなドキュメント (一般的には Etherpad) において提案され、"
+"チームミーティングにおいて議論されます。"
 
 msgid "Set a target milestone"
 msgstr "目標マイルストーンの設定"
@@ -1389,6 +1475,9 @@ msgstr "より小さいタスク"
 
 msgid "Socialize or strictly professional?"
 msgstr "社交的か厳格なプロフェッショナルか?"
+
+msgid "Software, documentation, release management etc"
+msgstr "ソフトウェア、ドキュメント、リリース管理など"
 
 msgid "Speed up the acceptance."
 msgstr "受け入れを高速化する。"
@@ -1475,6 +1564,9 @@ msgstr "TC は ATC により投票されます"
 msgid "TC will check:"
 msgstr "TC の確認項目:"
 
+msgid "Tags describing OpenStack Projects"
+msgstr "OpenStack プロジェクトを説明するタグ"
+
 msgid "Takashi Torii <t-torii@ce.jp.nec.com> (assistant, japanese)"
 msgstr "Takashi Torii <t-torii@ce.jp.nec.com> (assistant, japanese)"
 
@@ -1498,6 +1590,9 @@ msgstr "Technical Committee のメンバー"
 
 msgid "Technical committee : 1"
 msgstr "技術委員会 (TC) : 1"
+
+msgid "Tests can be remotely or self-administered"
+msgstr "テストはリモートか自己管理にて実行できます。"
 
 msgid "The Contribution Process"
 msgstr "コントリビューションの流れ"
@@ -1890,6 +1985,13 @@ msgid "`How to contribute <12-howtocontribute.html>`_"
 msgstr "`コントリビューション方法 <12-howtocontribute.html>`_"
 
 msgid ""
+"`How to create a project <http://docs.openstack.org/infra/manual/creators."
+"html>`_"
+msgstr ""
+"`プロジェクトの作成方法 <http://docs.openstack.org/infra/manual/creators."
+"html>`_"
+
+msgid ""
 "`How_To_Contribute URL <https://wiki.openstack.org/wiki/How_To_Contribute>`_ "
 "(`slides <12-howtocontribute.html>`__)"
 msgstr ""
@@ -2060,6 +2162,11 @@ msgid ""
 msgstr ""
 "`事前リリース (リリース候補の繰り返し) <https://wiki.openstack.org/wiki/"
 "Release_Cycle#Pre-release_.28Release_Candidates_dance.29>`_"
+
+msgid ""
+"`Propose sessions <https://wiki.openstack.org/wiki/Design_Summit/Planning>`_"
+msgstr ""
+"`提案セッション <https://wiki.openstack.org/wiki/Design_Summit/Planning>`_"
 
 msgid ""
 "`Puppet <https://wiki.openstack.org/wiki/"
@@ -2409,6 +2516,12 @@ msgstr "WIP かドラフトをプッシュして、レビューアーを招待�
 
 msgid "quality of the OpenStack git history"
 msgstr "OpenStack git 履歴の品質"
+
+msgid ""
+"read tc.2014-04-01-20.03.log.html and briefly comment on keystone document"
+msgstr ""
+"tc.2014-04-01-20.03.log.html を読み、keystone ドキュメントに簡潔にコメントし"
+"てください"
 
 msgid "rejoin-stack.sh"
 msgstr "rejoin-stack.sh"
