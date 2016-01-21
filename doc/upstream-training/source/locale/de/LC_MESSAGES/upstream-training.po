@@ -1,4 +1,5 @@
 # Frank Kloeker <eumel@arcor.de>, 2015. #zanata
+# Frank Kloeker <eumel@arcor.de>, 2016. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
@@ -7,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-12-17 12:44+0000\n"
+"PO-Revision-Date: 2016-01-21 06:13+0000\n"
 "Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -2335,6 +2336,13 @@ msgstr ""
 "slide-index.html>`_"
 
 msgid ""
+"`Core Definition <https://git.openstack.org/cgit/openstack/defcore/plain/doc/"
+"source/process/CoreDefinition.rst>`_"
+msgstr ""
+"`Kerndefinition <https://git.openstack.org/cgit/openstack/defcore/plain/doc/"
+"source/process/CoreDefinition.rst>`_"
+
+msgid ""
 "`Cross-Repository Dependencies <http://docs.openstack.org/infra/manual/"
 "developers.html#cross-repository-dependencies>`_"
 msgstr ""
@@ -2389,6 +2397,13 @@ msgstr ""
 
 msgid "`How to contribute <12-howtocontribute.html>`_"
 msgstr "`Wie etwas beitragen <12-howtocontribute.html>`_"
+
+msgid ""
+"`How to create a project <http://docs.openstack.org/infra/manual/creators."
+"html>`_"
+msgstr ""
+"`Wie wird ein Projekt erstellt <http://docs.openstack.org/infra/manual/"
+"creators.html>`_"
 
 msgid ""
 "`How_To_Contribute URL <https://wiki.openstack.org/wiki/How_To_Contribute>`_ "
@@ -2648,6 +2663,13 @@ msgstr ""
 "guides#How_To>`_"
 
 msgid ""
+"`Understanding the DefCore Guidelines <https://git.openstack.org/cgit/"
+"openstack/defcore>`_"
+msgstr ""
+"`Verstehen der  DefCore Richtlinien <https://git.openstack.org/cgit/"
+"openstack/defcore>`_"
+
+msgid ""
 "``#action`` - Document an action item in the minutes. Include any nicknames "
 "in the line, and the item will be assigned to them. (nicknames are case-"
 "sensitive)"
@@ -2675,6 +2697,9 @@ msgstr ""
 
 msgid "``cd devstack; ./stack.sh``"
 msgstr "``cd devstack; ./stack.sh``"
+
+msgid "``git clone https://git.openstack.org/openstack-dev/devstack``"
+msgstr "``git clone https://git.openstack.org/openstack-dev/devstack``"
 
 msgid "`bugfixing <https://wiki.openstack.org/wiki/Bugs#Bugfixing>`_"
 msgstr "`Fehler beseitigen <https://wiki.openstack.org/wiki/Bugs#Bugfixing>`_"
