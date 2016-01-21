@@ -28,23 +28,17 @@ remaining problems they might have.
 When & Where to get OpenStack Upstream Training
 ===============================================
 
-.. note::
-
-   OpenStack Upstream Training in Tokyo has ended.
-   Next session will be in Austin, Texas in April 2016 just before the
-   `OpenStack Summit <https://www.openstack.org/summit/austin-2016/>`_.
-
 The last session of the OpenStack Upstream Training was completed
 in Tokyo, before the OpenStack Summit.
-`Students can register here <http://goo.gl/forms/qAr3N8rdYs>`_ and
-`assistants and mentors can register here <http://goo.gl/forms/fczq3NZ16g>`_.
+`Students and mentors can register here
+<https://openstackfoundation.formstack.com/forms/mentoring>`_.
 
 Maps and location information will be posted here once details are finalized.
 We will be in or near the main Summit venue, but our room assignments are not
 yet finalized.
 
-**Sunday, October 25, 2015 at 9:30 AM to 5:00 PM - Monday, October 26, 2015 at
-9:30 AM to 5:00 PM (UTC+09:00)**
+**Saturday, April 23, 2016 at 9:30 AM to 5:00 PM - Sunday, April 24, 2016 at
+9:30 AM to 5:00 PM (UTC-05:00)**
 
 Bring a laptop with wifi + 4GB RAM Ubuntu virtual machine
 
@@ -62,26 +56,12 @@ How to prepare
 Staff
 =====
 
-Loïc Dachary, Stefano Maffulli, Chris Ricker, Tim Freund and Haikel Guemar
-will lead the next training in Tokyo, in English. Add yourself to the list
-of `mentors <https://wiki.openstack.org/wiki/Mentors>`_, too. Tools and
-processes for mentors and staff are kept on the
-`admin <https://wiki.openstack.org/wiki/OpenStack_Upstream_Training/Admin>`_
-page.
+Tim Freund will lead the next training in Austin, in English. Tools and
+processes for mentors and staff are kept on the `admin
+<https://wiki.openstack.org/wiki/OpenStack_Upstream_Training/Admin>`_ page.
 
 **Still looking for help: please**
-`register <http://goo.gl/forms/fczq3NZ16g>`_
-**and add yourself to the list below.**
-
-* Tim Freund <tim@freunds.net> (training, mentoring, assistant, english)
-* Chris Ricker <chris.ricker@gmail.com> (training, mentoring, assistant,
-  english)
-* Loïc Dachary (Training, mentoring, assistant, english and french)
-* Shinobu KINJO (mentoring, assistant, japanese)
-* Cleber Rosa (mentoring, assistant, portuguese)
-* Rohit Agarwalla (assistant)
-* KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com> (assistant, Japanese)
-* macJack <macjacktw@hotmail.com> (assistant, English, Chinese)
+`register <https://openstackfoundation.formstack.com/forms/mentoring>`_
 
 Vancouver Staff (Thank You!)
 ============================
@@ -101,9 +81,8 @@ Vancouver Staff (Thank You!)
 * François Bureau <francois.bureau@cloudwatt> (assistant, french, english) -
   irc : Fdot
 
-`Etherpad for Tokyo <https://etherpad.openstack.org/p/upstream-training-tokyo>`_
-
-
+`Etherpad for Austin
+<https://etherpad.openstack.org/p/upstream-training-austin>`_
 
 Outline and online slide index
 ==============================
@@ -134,7 +113,10 @@ Workflow of an OpenStack contribution and tools
 The Contribution Process
 ------------------------
 
-* `Overview of the contribution process <19-training-contribution-process.html>`_
-* `Lego applied to Free Software contributions <20-training-agile-for-contributors.html>`_
+* `Overview of the contribution process
+  <19-training-contribution-process.html>`_
+* `Lego applied to Free Software contributions
+  <20-training-agile-for-contributors.html>`_
 
-`Complete index in slide format only <http://docs.openstack.org/upstream-training/slide-index.html>`_
+`Complete index in slide format only
+<http://docs.openstack.org/upstream-training/slide-index.html>`_
