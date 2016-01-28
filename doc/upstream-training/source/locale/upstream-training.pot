@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-12 06:22+0000\n"
+"POT-Creation-Date: 2016-01-28 06:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,248 +55,218 @@ msgstr ""
 msgid "When & Where to get OpenStack Upstream Training"
 msgstr ""
 
-#: ../../index.rst:33
-msgid ""
-"OpenStack Upstream Training in Tokyo has ended. Next session will be in "
-"Austin, Texas in April 2016 just before the `OpenStack Summit <https://www."
-"openstack.org/summit/austin-2016/>`_."
-msgstr ""
-
-#: ../../index.rst:37
+#: ../../index.rst:31
 msgid ""
 "The last session of the OpenStack Upstream Training was completed in Tokyo, "
-"before the OpenStack Summit. `Students can register here <http://goo.gl/"
-"forms/qAr3N8rdYs>`_ and `assistants and mentors can register here <http://"
-"goo.gl/forms/fczq3NZ16g>`_."
+"before the OpenStack Summit. `Students and mentors can register here "
+"<https://openstackfoundation.formstack.com/forms/mentoring>`_."
 msgstr ""
 
-#: ../../index.rst:42
+#: ../../index.rst:36
 msgid ""
 "Maps and location information will be posted here once details are "
 "finalized. We will be in or near the main Summit venue, but our room "
 "assignments are not yet finalized."
 msgstr ""
 
-#: ../../index.rst:46
+#: ../../index.rst:40
 msgid ""
-"**Sunday, October 25, 2015 at 9:30 AM to 5:00 PM - Monday, October 26, 2015 "
-"at 9:30 AM to 5:00 PM (UTC+09:00)**"
+"**Saturday, April 23, 2016 at 9:30 AM to 5:00 PM - Sunday, April 24, 2016 at "
+"9:30 AM to 5:00 PM (UTC-05:00)**"
 msgstr ""
 
-#: ../../index.rst:49
+#: ../../index.rst:43
 msgid "Bring a laptop with wifi + 4GB RAM Ubuntu virtual machine"
 msgstr ""
 
-#: ../../index.rst:52
+#: ../../index.rst:46
 msgid "How to prepare"
 msgstr ""
 
-#: ../../index.rst:54
+#: ../../index.rst:48
 msgid "Make sure you have a wifi enabled laptop with you."
 msgstr ""
 
-#: ../../index.rst:55
+#: ../../index.rst:49
 msgid ""
 "Create a virtual machine on the laptop with Ubuntu 12.04 or 14.04 installed "
 "and 4GB of RAM."
 msgstr ""
 
-#: ../../index.rst:57
+#: ../../index.rst:51
 msgid "Check that you can ssh from your laptop to the virtual machine"
 msgstr ""
 
-#: ../../index.rst:58
+#: ../../index.rst:52
 msgid "Check that :command:`apt-get install` works from the virtual machine"
 msgstr ""
 
-#: ../../index.rst:59
+#: ../../index.rst:53
 msgid ""
 "Get in touch with the team upstream-training@openstack.org to pick a "
 "contribution to work on."
 msgstr ""
 
-#: ../../index.rst:63
+#: ../../index.rst:57
 msgid "Staff"
 msgstr ""
 
-#: ../../index.rst:65
+#: ../../index.rst:59
 msgid ""
-"Loïc Dachary, Stefano Maffulli, Chris Ricker, Tim Freund and Haikel Guemar "
-"will lead the next training in Tokyo, in English. Add yourself to the list "
-"of `mentors <https://wiki.openstack.org/wiki/Mentors>`_, too. Tools and "
+"Tim Freund will lead the next training in Austin, in English. Tools and "
 "processes for mentors and staff are kept on the `admin <https://wiki."
 "openstack.org/wiki/OpenStack_Upstream_Training/Admin>`_ page."
 msgstr ""
 
-#: ../../index.rst:72
+#: ../../index.rst:63
 msgid ""
-"**Still looking for help: please** `register <http://goo.gl/forms/"
-"fczq3NZ16g>`_ **and add yourself to the list below.**"
+"**Still looking for help: please** `register <https://openstackfoundation."
+"formstack.com/forms/mentoring>`_"
 msgstr ""
 
-#: ../../index.rst:76
-msgid "Tim Freund <tim@freunds.net> (training, mentoring, assistant, english)"
+#: ../../index.rst:67
+msgid "Vancouver Staff (Thank You!)"
 msgstr ""
 
-#: ../../index.rst:77 ../../index.rst:90
+#: ../../index.rst:69
+msgid "Tim Freund <tim@freunds.net> (training, assistant, english)"
+msgstr ""
+
+#: ../../index.rst:70
 msgid ""
 "Chris Ricker <chris.ricker@gmail.com> (training, mentoring, assistant, "
 "english)"
 msgstr ""
 
-#: ../../index.rst:79
-msgid "Loïc Dachary (Training, mentoring, assistant, english and french)"
-msgstr ""
-
-#: ../../index.rst:80
-msgid "Shinobu KINJO (mentoring, assistant, japanese)"
-msgstr ""
-
-#: ../../index.rst:81
-msgid "Cleber Rosa (mentoring, assistant, portuguese)"
-msgstr ""
-
-#: ../../index.rst:82
-msgid "Rohit Agarwalla (assistant)"
-msgstr ""
-
-#: ../../index.rst:83 ../../index.rst:99
-msgid "KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com> (assistant, Japanese)"
-msgstr ""
-
-#: ../../index.rst:84 ../../index.rst:100
-msgid "macJack <macjacktw@hotmail.com> (assistant, English, Chinese)"
-msgstr ""
-
-#: ../../index.rst:87
-msgid "Vancouver Staff (Thank You!)"
-msgstr ""
-
-#: ../../index.rst:89
-msgid "Tim Freund <tim@freunds.net> (training, assistant, english)"
-msgstr ""
-
-#: ../../index.rst:92
+#: ../../index.rst:72
 msgid ""
 "Sylvain Bauza <sbauza@redhat.com> (assistant, mentoring, training, french, "
 "english)"
 msgstr ""
 
-#: ../../index.rst:94
+#: ../../index.rst:74
 msgid "Lana Brindley (assistant, mentoring, English)"
 msgstr ""
 
-#: ../../index.rst:95
+#: ../../index.rst:75
 msgid "Rossella Sblendido (assistant, Italian, English)"
 msgstr ""
 
-#: ../../index.rst:96
+#: ../../index.rst:76
 msgid ""
 "Victoria Martínez de la Cruz <victoria@vmartinezdelacruz.com> (assistant, "
 "english)"
 msgstr ""
 
-#: ../../index.rst:98
+#: ../../index.rst:78
 msgid "Takashi Torii <t-torii@ce.jp.nec.com> (assistant, japanese)"
 msgstr ""
 
-#: ../../index.rst:101
+#: ../../index.rst:79
+msgid "KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com> (assistant, Japanese)"
+msgstr ""
+
+#: ../../index.rst:80
+msgid "macJack <macjacktw@hotmail.com> (assistant, English, Chinese)"
+msgstr ""
+
+#: ../../index.rst:81
 msgid ""
 "François Bureau <francois.bureau@cloudwatt> (assistant, french, english) - "
 "irc : Fdot"
 msgstr ""
 
-#: ../../index.rst:104
+#: ../../index.rst:84
 msgid ""
-"`Etherpad for Tokyo <https://etherpad.openstack.org/p/upstream-training-"
-"tokyo>`_"
+"`Etherpad for Austin <https://etherpad.openstack.org/p/upstream-training-"
+"austin>`_"
 msgstr ""
 
-#: ../../index.rst:109
+#: ../../index.rst:88
 msgid "Outline and online slide index"
 msgstr ""
 
-#: ../../index.rst:113
+#: ../../index.rst:92
 msgid "How OpenStack is made"
 msgstr ""
 
-#: ../../index.rst:115
+#: ../../index.rst:94
 msgid "`Release cycle <01-release-cycle.html>`_"
 msgstr ""
 
-#: ../../index.rst:116
+#: ../../index.rst:95
 msgid "`Relevant actors <02-relevant-actors.html>`_"
 msgstr ""
 
-#: ../../index.rst:117
+#: ../../index.rst:96
 msgid "`OpenStack Governance <03-technical-committee.html>`_"
 msgstr ""
 
-#: ../../index.rst:118
+#: ../../index.rst:97
 msgid "`OpenStack \"Big Tent\" and tags <04-program-ecosystem.html>`_"
 msgstr ""
 
-#: ../../index.rst:119
+#: ../../index.rst:98
 msgid "`OpenStack Design Summit <05-design-summit.html>`_"
 msgstr ""
 
-#: ../../index.rst:120
+#: ../../index.rst:99
 msgid "`IRC meetings <06-irc-meetings.html>`_"
 msgstr ""
 
-#: ../../index.rst:123
+#: ../../index.rst:102
 msgid "Workflow of an OpenStack contribution and tools"
 msgstr ""
 
-#: ../../index.rst:125
+#: ../../index.rst:104
 msgid "`devstack.org <11-devstack.html>`_"
 msgstr ""
 
-#: ../../index.rst:126
+#: ../../index.rst:105
 msgid "`How to contribute <12-howtocontribute.html>`_"
 msgstr ""
 
-#: ../../index.rst:127
+#: ../../index.rst:106
 msgid "`launchpad.net <13-launchpad.html>`_"
 msgstr ""
 
-#: ../../index.rst:128
+#: ../../index.rst:107
 msgid "`review.openstack.org <14-gerrit.html>`_"
 msgstr ""
 
-#: ../../index.rst:129
+#: ../../index.rst:108
 msgid "`Branching model <15-branching-model.html>`_"
 msgstr ""
 
-#: ../../index.rst:130
+#: ../../index.rst:109
 msgid "`Reviewing <16-reviewing.html>`_"
 msgstr ""
 
-#: ../../index.rst:131
+#: ../../index.rst:110
 msgid "`Commit messages <17-commit-message.html>`_"
 msgstr ""
 
-#: ../../index.rst:132
+#: ../../index.rst:111
 msgid "`Jenkins <18-jenkins.html>`_"
 msgstr ""
 
-#: ../../index.rst:135
+#: ../../index.rst:114
 msgid "The Contribution Process"
 msgstr ""
 
-#: ../../index.rst:137
+#: ../../index.rst:116
 msgid ""
 "`Overview of the contribution process <19-training-contribution-process."
 "html>`_"
 msgstr ""
 
-#: ../../index.rst:138
+#: ../../index.rst:118
 msgid ""
 "`Lego applied to Free Software contributions <20-training-agile-for-"
 "contributors.html>`_"
 msgstr ""
 
-#: ../../index.rst:140
+#: ../../index.rst:121
 msgid ""
 "`Complete index in slide format only <http://docs.openstack.org/upstream-"
 "training/slide-index.html>`_"
