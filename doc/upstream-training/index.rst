@@ -22,14 +22,17 @@ the project's technical tools and social interactions. In a followup session,
 the students benefit from individual online sessions to help them resolve any
 remaining problems they might have.
 
-
-:doc:`upstream-details`
+For more information, see :doc:`upstream-details`.
 
 When & Where to get OpenStack Upstream Training
 ===============================================
 
-The last session of the OpenStack Upstream Training was completed
-in Tokyo, before the OpenStack Summit.
+The next session of the OpenStack Upstream Training will be held in Austin,
+before the OpenStack Summit Austin 2016.
+
+**Saturday, April 23, 2016 at 9:30 AM to 5:00 PM - Sunday, April 24, 2016 at
+9:30 AM to 5:00 PM (UTC-05:00)**
+
 `Students and mentors can register here
 <https://openstackfoundation.formstack.com/forms/mentoring>`_.
 
@@ -37,21 +40,22 @@ Maps and location information will be posted here once details are finalized.
 We will be in or near the main Summit venue, but our room assignments are not
 yet finalized.
 
-**Saturday, April 23, 2016 at 9:30 AM to 5:00 PM - Sunday, April 24, 2016 at
-9:30 AM to 5:00 PM (UTC-05:00)**
-
-Bring a laptop with wifi + 4GB RAM Ubuntu virtual machine
+Bring a laptop with wifi, and 4+ GB RAM Ubuntu virtual machine
 
 How to prepare
 ==============
 
 * Make sure you have a wifi enabled laptop with you.
-* Create a virtual machine on the laptop with Ubuntu 12.04 or 14.04 installed
-  and 4GB of RAM.
+* Create a virtual machine on your laptop with Ubuntu 14.04 installed and
+  4+ GB of RAM.
+  Alternatively, you can use your virtual machine on a public cloud.
 * Check that you can ssh from your laptop to the virtual machine
-* Check that :command:`apt-get install` works from the virtual machine
+* Check that :command:`apt-get install` works on the virtual machine
 * Get in touch with the team upstream-training@openstack.org to pick
   a contribution to work on.
+
+`Etherpad for Austin Upstream Training
+<https://etherpad.openstack.org/p/upstream-training-austin>`_
 
 Staff
 =====
@@ -63,30 +67,10 @@ processes for mentors and staff are kept on the `admin
 **Still looking for help: please**
 `register <https://openstackfoundation.formstack.com/forms/mentoring>`_
 
-Vancouver Staff (Thank You!)
-============================
-
-* Tim Freund <tim@freunds.net> (training, assistant, english)
-* Chris Ricker <chris.ricker@gmail.com> (training, mentoring, assistant,
-  english)
-* Sylvain Bauza <sbauza@redhat.com> (assistant, mentoring, training, french,
-  english)
-* Lana Brindley (assistant, mentoring, English)
-* Rossella Sblendido (assistant, Italian, English)
-* Victoria Martínez de la Cruz <victoria@vmartinezdelacruz.com> (assistant,
-  english)
-* Takashi Torii <t-torii@ce.jp.nec.com> (assistant, japanese)
-* KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com> (assistant, Japanese)
-* macJack <macjacktw@hotmail.com> (assistant, English, Chinese)
-* François Bureau <francois.bureau@cloudwatt> (assistant, french, english) -
-  irc : Fdot
-
-`Etherpad for Austin
-<https://etherpad.openstack.org/p/upstream-training-austin>`_
+For more information about the past trainings, see :doc:`upstream-archives`.
 
 Outline and online slide index
 ==============================
-
 
 How OpenStack is made
 ---------------------
