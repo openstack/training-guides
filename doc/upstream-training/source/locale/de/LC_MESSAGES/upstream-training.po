@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-27 12:33+0000\n"
+"POT-Creation-Date: 2016-02-01 07:01+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -56,9 +56,6 @@ msgstr "5 Minuten überprüfen"
 
 msgid "555 supporting companies"
 msgstr "555 unterstützende Firmen"
-
-msgid ":doc:`upstream-details`"
-msgstr ":doc:`upstream-details`"
 
 msgid "A sample presentation is given by the teacher, as an example."
 msgstr "Eine Beispiel-Präsentation wird vom Lehrer gehalten."
@@ -259,10 +256,6 @@ msgstr "Branching-Modell"
 msgid "Branching model (`slides <15-branching-model.html>`__)"
 msgstr "Branching Modelle (`slides <15-branching-model.html>`__)"
 
-msgid "Bring a laptop with wifi + 4GB RAM Ubuntu virtual machine"
-msgstr ""
-"Bringen Sie ein Laptop mit mit WLAN + 4GB RAM Ubuntu virtuelle Maschine"
-
 msgid "Bug"
 msgstr "Fehler"
 
@@ -325,11 +318,6 @@ msgstr "Änderungen an externen HTTP APIs"
 msgid "Changes to the notification definitions"
 msgstr "Änderungen an Notifikationsdefinitionen"
 
-msgid "Check that :command:`apt-get install` works from the virtual machine"
-msgstr ""
-"Überprüfen Sie, ob das Kommando:`apt-get install` von der virtuellen "
-"Maschine funktioniert"
-
 msgid "Check that you can ssh from your laptop to the virtual machine"
 msgstr ""
 "Überprüfen Sie, ob sie mit ssh vom Laptop in die virtuelle Maschine "
@@ -344,13 +332,6 @@ msgstr "Wähle einen Platz zum Sammeln aller Informationen"
 msgid "Choosing a question"
 msgstr "Eine Frage wählen"
 
-msgid ""
-"Chris Ricker <chris.ricker@gmail.com> (training, mentoring, assistant, "
-"english)"
-msgstr ""
-"Chris Ricker <chris.ricker@gmail.com> (Training, Mentoring, Assistent, "
-"Englisch)"
-
 msgid "Claiming OpenStack requiring use of designated upstream code"
 msgstr ""
 "Die Behauptung, Openstack erfordert die Verwendung bezeichneten Upstream-"
@@ -358,6 +339,9 @@ msgstr ""
 
 msgid "Clear introductions"
 msgstr "Klare Anweisungen"
+
+msgid "Cleber Rosa (mentoring, assistant, portuguese)"
+msgstr "Cleber Rosa (Mentoring, Assistent, Portugiesisch)"
 
 msgid "Close, daily co-operation between business people and developers"
 msgstr "Nahe, tägliche Zusammenarbeit zwischen Geschäftsleute und Entwickler"
@@ -455,13 +439,6 @@ msgstr "Von Firmen getrieben"
 
 msgid "Course Outline"
 msgstr "Kursinhalt"
-
-msgid ""
-"Create a virtual machine on the laptop with Ubuntu 12.04 or 14.04 installed "
-"and 4GB of RAM."
-msgstr ""
-"Erstellen Sie eine virtuelle Machine auf dem Laptop mit Ubuntu 12.04 oder "
-"14.04 installiert und  4GB  RAM."
 
 msgid "Create the corresponding blueprint"
 msgstr "Erstellen des entsprechenden Blueprints"
@@ -867,13 +844,6 @@ msgstr ""
 msgid "Forbidden"
 msgstr "Verboten"
 
-msgid ""
-"François Bureau <francois.bureau@cloudwatt> (assistant, french, english) - "
-"irc : Fdot"
-msgstr ""
-"François Bureau <francois.bureau@cloudwatt> (Assistent, Französisch, "
-"Englisch) - irc : Fdot"
-
 msgid "Free Software contributors"
 msgstr "Freie Software Beiträger"
 
@@ -1087,9 +1057,6 @@ msgstr "Jenkins"
 msgid "Join irc.freenode.net#upstream-university"
 msgstr "Betrete irc.freenode.net#upstream-university"
 
-msgid "KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com> (assistant, Japanese)"
-msgstr "KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com> (Assistent, Japanisch)"
-
 msgid "Karma missions"
 msgstr "Karma-Missionen"
 
@@ -1165,6 +1132,10 @@ msgstr "Log IM Kanäle"
 
 msgid "Low"
 msgstr "Niedrig"
+
+msgid "Loïc Dachary (Training, mentoring, assistant, english and french)"
+msgstr ""
+"Loïc Dachary (Training, Mentoring, Assistent, Englisch und Französisch)"
 
 msgid "Lunch menu meeting"
 msgstr "Mittagsmenü-Meeting"
@@ -1612,6 +1583,9 @@ msgstr "Überprüfen"
 msgid "Reviews"
 msgstr "Überprüfung"
 
+msgid "Rohit Agarwalla (assistant)"
+msgstr "Rohit Agarwalla (Assistent)"
+
 msgid "Rossella Sblendido (assistant, Italian, English)"
 msgstr "Rossella Sblendido (Assistent, Italienisch, Englisch)"
 
@@ -1660,6 +1634,9 @@ msgstr ""
 
 msgid "Set a target milestone"
 msgstr "Setzen eines Zielmeilensteins"
+
+msgid "Shinobu KINJO (mentoring, assistant, japanese)"
+msgstr "Shinobu KINJO (Mentoring, Assistent, Japanisch)"
 
 msgid "Sign In"
 msgstr "Registrieren"
@@ -1779,13 +1756,6 @@ msgid "Sustainable development, able to maintain a constant pace"
 msgstr ""
 "Nachhaltige Entwicklung, in der Lage sein, ein konstantes Tempo zu halten"
 
-msgid ""
-"Sylvain Bauza <sbauza@redhat.com> (assistant, mentoring, training, french, "
-"english)"
-msgstr ""
-"Sylvain Bauza <sbauza@redhat.com> (Assistent, Mentoring, Training, "
-"Französisch, Englisch)"
-
 msgid "System administrators"
 msgstr "Systemadministratoren"
 
@@ -1805,9 +1775,6 @@ msgstr "Tische zwanglos zusammengestellt für neue/kleine Teams"
 
 msgid "Tags describing OpenStack Projects"
 msgstr "Schlagworte beschreiben OpenStack Projekte"
-
-msgid "Takashi Torii <t-torii@ce.jp.nec.com> (assistant, japanese)"
-msgstr "Takashi Torii <t-torii@ce.jp.nec.com> (Assistent, Japanisch)"
 
 msgid "Take a step back"
 msgstr "Einen Schritt zurücktreten"
@@ -1984,9 +1951,6 @@ msgid "This will need to match your preferred email address in Gerrit."
 msgstr ""
 "Dies wird benötigt, um Ihre beforzugte E-Mail-Adresse in Gerrit zu verwenden."
 
-msgid "Tim Freund <tim@freunds.net> (training, assistant, english)"
-msgstr "Tim Freund <tim@freunds.net> (Training, Assistent, Englisch)"
-
 msgid "Time to play with Legos"
 msgstr "Zeit mit Legos zu spielen"
 
@@ -2052,21 +2016,11 @@ msgstr ""
 msgid "User Committee"
 msgstr "Nutzerausschuss"
 
-msgid "Vancouver Staff (Thank You!)"
-msgstr "Vancouver Lehrpersonal (Vielen Dank!)"
-
 msgid "Vendors may substitute alternate implementations"
 msgstr "Lieferanten wechseln möglicherweise auf alternative Implementierungen"
 
 msgid "Verbose or terse?"
 msgstr "Mehr oder weniger?"
-
-msgid ""
-"Victoria Martínez de la Cruz <victoria@vmartinezdelacruz.com> (assistant, "
-"english)"
-msgstr ""
-"Victoria Martínez de la Cruz <victoria@vmartinezdelacruz.com> (Assistent, "
-"Englisch)"
 
 msgid "Volunteers"
 msgstr "Freiwillige"
@@ -2880,9 +2834,6 @@ msgstr "Langform steht in einer Wiki-Seite"
 
 msgid "low-hanging-fruit"
 msgstr "tief hängende Früchte"
-
-msgid "macJack <macjacktw@hotmail.com> (assistant, English, Chinese)"
-msgstr "macJack <macjacktw@hotmail.com> (Assistent, Englisch, Chinesisch)"
 
 msgid "milestone or release branch"
 msgstr "Meilenstein oder Versions-Branch"

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-27 12:33+0000\n"
+"POT-Creation-Date: 2016-02-01 07:01+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -57,9 +57,6 @@ msgstr "5분 동안의 리뷰"
 
 msgid "555 supporting companies"
 msgstr "555 지원 회사"
-
-msgid ":doc:`upstream-details`"
-msgstr ":doc:`upstream-details`"
 
 msgid "A sample presentation is given by the teacher, as an example."
 msgstr "선생님에 의해 주어진 샘플 발표를, 예시로 합니다."
@@ -252,9 +249,6 @@ msgstr "브랜칭 모델"
 msgid "Branching model (`slides <15-branching-model.html>`__)"
 msgstr "브랜칭 모델 (`슬라이드 <15-branching-model.html>`__)"
 
-msgid "Bring a laptop with wifi + 4GB RAM Ubuntu virtual machine"
-msgstr "Wifi를 지원하는 노트북와 4GB 램을 가진 Ubuntu 가상 머신을 준비합니다"
-
 msgid "Bug"
 msgstr "Bug"
 
@@ -313,9 +307,6 @@ msgstr "외부 HTTP API에 대한 변경 사항"
 msgid "Changes to the notification definitions"
 msgstr "Notification 정의에 대한 변경 사항"
 
-msgid "Check that :command:`apt-get install` works from the virtual machine"
-msgstr ":command:`apt-get install` 명령이 가상 머신에서 동작하는지 확인합니다."
-
 msgid "Check that you can ssh from your laptop to the virtual machine"
 msgstr "노트북에서 ssh를 사용하여 가상 머신으로 접속이 가능한지 확인합니다."
 
@@ -328,16 +319,14 @@ msgstr "모든 정보를 모을 한 장소를 선택하기"
 msgid "Choosing a question"
 msgstr "질문 선택"
 
-msgid ""
-"Chris Ricker <chris.ricker@gmail.com> (training, mentoring, assistant, "
-"english)"
-msgstr "Chris Ricker <chris.ricker@gmail.com> (교육, 멘토링, 조교, 영어)"
-
 msgid "Claiming OpenStack requiring use of designated upstream code"
 msgstr "OpenStack을 주장하기 위해서는 지정된 업스트림 코드 사용이 필수입니다"
 
 msgid "Clear introductions"
 msgstr "명확히 소개합니다"
+
+msgid "Cleber Rosa (mentoring, assistant, portuguese)"
+msgstr "Cleber Rosa (멘토링, 조교, 포르투갈어)"
 
 msgid "Close, daily co-operation between business people and developers"
 msgstr "비즈니스 구성원 및 개발자 간의 가까운, 매일 공동 작업"
@@ -434,13 +423,6 @@ msgstr "기업에 의해 주도"
 
 msgid "Course Outline"
 msgstr "과정 목차"
-
-msgid ""
-"Create a virtual machine on the laptop with Ubuntu 12.04 or 14.04 installed "
-"and 4GB of RAM."
-msgstr ""
-"노트북에 Ubuntu 12.04 또는 14.04가 설치하고 4GB 램을 가진 가상 머신을 생성합"
-"니다."
 
 msgid "Create the corresponding blueprint"
 msgstr "이에 대응하는 blueprint 생성"
@@ -829,13 +811,6 @@ msgstr "Liberty에서 통합 프로젝트는 릴리즈 관리 팀에 의해 관�
 msgid "Forbidden"
 msgstr "금지되는 사항"
 
-msgid ""
-"François Bureau <francois.bureau@cloudwatt> (assistant, french, english) - "
-"irc : Fdot"
-msgstr ""
-"François Bureau <francois.bureau@cloudwatt> (조교, 프랑스어, 영어) - irc : "
-"Fdot"
-
 msgid "Free Software contributors"
 msgstr "자유 소프트웨어 컨트리뷰터"
 
@@ -1045,9 +1020,6 @@ msgstr "Jenkins"
 msgid "Join irc.freenode.net#upstream-university"
 msgstr "irc.freenode.net#upstream-university 에 참여합니다"
 
-msgid "KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com> (assistant, Japanese)"
-msgstr "KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com> (조교, 일본어)"
-
 msgid "Karma missions"
 msgstr "Karma 임무"
 
@@ -1121,6 +1093,9 @@ msgstr "메신저 채널 로그"
 
 msgid "Low"
 msgstr "Low"
+
+msgid "Loïc Dachary (Training, mentoring, assistant, english and french)"
+msgstr "Loïc Dachary (교육, 멘토링, 조교, 영어 및 프랑스어)"
 
 msgid "Lunch menu meeting"
 msgstr "점심 메뉴 회의"
@@ -1559,6 +1534,9 @@ msgstr "리뷰하기"
 msgid "Reviews"
 msgstr "리뷰"
 
+msgid "Rohit Agarwalla (assistant)"
+msgstr "Rohit Agarwalla (조교)"
+
 msgid "Rossella Sblendido (assistant, Italian, English)"
 msgstr "Rossella Sblendido (조교, 이탈리아어, 영어)"
 
@@ -1607,6 +1585,9 @@ msgstr ""
 
 msgid "Set a target milestone"
 msgstr "대상 마일스톤을 정하기"
+
+msgid "Shinobu KINJO (mentoring, assistant, japanese)"
+msgstr "Shinobu KINJO (멘토링, 조교, 일본어)"
 
 msgid "Sign In"
 msgstr "로그인"
@@ -1720,11 +1701,6 @@ msgstr "불신에 대한 자발적 유예"
 msgid "Sustainable development, able to maintain a constant pace"
 msgstr "일정 속도를 유지할 수 있는, 지속 가능한 개발"
 
-msgid ""
-"Sylvain Bauza <sbauza@redhat.com> (assistant, mentoring, training, french, "
-"english)"
-msgstr "Sylvain Bauza <sbauza@redhat.com> (조교, 멘토링, 교육, 프랑스어, 영어)"
-
 msgid "System administrators"
 msgstr "시스템 관리자"
 
@@ -1742,9 +1718,6 @@ msgstr "새로운/작은 팀을 위해 사용 가능한 비공식 테이블"
 
 msgid "Tags describing OpenStack Projects"
 msgstr "OpenStack 프로젝트를 설명하는 태그"
-
-msgid "Takashi Torii <t-torii@ce.jp.nec.com> (assistant, japanese)"
-msgstr "Takashi Torii <t-torii@ce.jp.nec.com> (조교, 일본어)"
 
 msgid "Take a step back"
 msgstr "한 발짝 되돌아가기"
@@ -1915,9 +1888,6 @@ msgstr "버그가 아닙니다"
 msgid "This will need to match your preferred email address in Gerrit."
 msgstr "Gerrit에서 선호하는 이메일 주소와 일치시킬 필요가 있습니다"
 
-msgid "Tim Freund <tim@freunds.net> (training, assistant, english)"
-msgstr "Tim Freund <tim@freunds.net> (교육, 조교, 영어)"
-
 msgid "Time to play with Legos"
 msgstr "Lego와 함께 놀 시간"
 
@@ -1982,20 +1952,11 @@ msgstr "핵심 OpenStack 프로젝트와 동일한 프로세스 및 도구를 �
 msgid "User Committee"
 msgstr "사용자 Committee"
 
-msgid "Vancouver Staff (Thank You!)"
-msgstr "Vancouver 스태프 (감사합니다!)"
-
 msgid "Vendors may substitute alternate implementations"
 msgstr "벤더는 대안에 따른 구현으로 대체할 수 있습니다"
 
 msgid "Verbose or terse?"
 msgstr "장황한지 또는 간결한지?"
-
-msgid ""
-"Victoria Martínez de la Cruz <victoria@vmartinezdelacruz.com> (assistant, "
-"english)"
-msgstr ""
-"Victoria Martínez de la Cruz <victoria@vmartinezdelacruz.com> (조교, 영어)"
 
 msgid "Volunteers"
 msgstr "자원 봉사자"
@@ -2795,9 +2756,6 @@ msgstr "보다 긴 형태는 wiki 페이지에서 계속합니다"
 
 msgid "low-hanging-fruit"
 msgstr "low-hanging-fruit"
-
-msgid "macJack <macjacktw@hotmail.com> (assistant, English, Chinese)"
-msgstr "macJack <macjacktw@hotmail.com> (조교, 영어, 중국어)"
 
 msgid "milestone or release branch"
 msgstr "마일스톤 또는 릴리즈 브랜치"

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-27 12:33+0000\n"
+"POT-Creation-Date: 2016-02-01 07:01+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -68,9 +68,6 @@ msgstr "レビュー 5 分間"
 
 msgid "555 supporting companies"
 msgstr "555 サポート企業"
-
-msgid ":doc:`upstream-details`"
-msgstr ":doc:`upstream-details`"
 
 msgid "A sample presentation is given by the teacher, as an example."
 msgstr "サンプルプレゼンが、例として講師から提供されます。"
@@ -263,9 +260,6 @@ msgstr "ブランチモデル"
 msgid "Branching model (`slides <15-branching-model.html>`__)"
 msgstr "ブランチモデル (`スライド <15-branching-model.html>`__)"
 
-msgid "Bring a laptop with wifi + 4GB RAM Ubuntu virtual machine"
-msgstr "Wi-Fi と 4GB メモリーの Ubuntu 仮想マシンを持つノート PC の持ち込み"
-
 msgid "Bug"
 msgstr "バグ"
 
@@ -325,10 +319,6 @@ msgstr "外部 HTTP API の変更"
 msgid "Changes to the notification definitions"
 msgstr "通知の定義の変更"
 
-msgid "Check that :command:`apt-get install` works from the virtual machine"
-msgstr ""
-"仮想マシンの中から :command:`apt-get install` できることを確認してください。"
-
 msgid "Check that you can ssh from your laptop to the virtual machine"
 msgstr "ノート PC から仮想マシンに SSH できることを確認してください"
 
@@ -341,18 +331,14 @@ msgstr "すべての情報を集める場所の選択"
 msgid "Choosing a question"
 msgstr "質問の選択"
 
-msgid ""
-"Chris Ricker <chris.ricker@gmail.com> (training, mentoring, assistant, "
-"english)"
-msgstr ""
-"Chris Ricker <chris.ricker@gmail.com> (training, mentoring, assistant, "
-"english)"
-
 msgid "Claiming OpenStack requiring use of designated upstream code"
 msgstr "指示されたアップストリームのコードの使用を要求する OpenStack の主張"
 
 msgid "Clear introductions"
 msgstr "明確な導入"
+
+msgid "Cleber Rosa (mentoring, assistant, portuguese)"
+msgstr "Cleber Rosa (mentoring, assistant, portuguese)"
 
 msgid "Close, daily co-operation between business people and developers"
 msgstr "密接、ビジネス人と開発者の日共同作業"
@@ -449,13 +435,6 @@ msgstr "企業主導"
 
 msgid "Course Outline"
 msgstr "コース概要"
-
-msgid ""
-"Create a virtual machine on the laptop with Ubuntu 12.04 or 14.04 installed "
-"and 4GB of RAM."
-msgstr ""
-"4GB をメモリを搭載したノート PC に Ubuntu 12.04 または 14.04 の仮想マシンを作"
-"成してください。"
 
 msgid "Create the corresponding blueprint"
 msgstr "対応するブループリントの作成"
@@ -843,13 +822,6 @@ msgstr ""
 msgid "Forbidden"
 msgstr "禁止"
 
-msgid ""
-"François Bureau <francois.bureau@cloudwatt> (assistant, french, english) - "
-"irc : Fdot"
-msgstr ""
-"François Bureau <francois.bureau@cloudwatt> (assistant, french, english) - "
-"irc : Fdot"
-
 msgid "Free Software contributors"
 msgstr "個人ソフトウェア開発者"
 
@@ -1060,9 +1032,6 @@ msgstr "Jenkins"
 msgid "Join irc.freenode.net#upstream-university"
 msgstr "irc.freenode.net#upstream-university に参加してください。"
 
-msgid "KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com> (assistant, Japanese)"
-msgstr "KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com> (assistant, Japanese)"
-
 msgid "Karma missions"
 msgstr "カルマのミッション"
 
@@ -1136,6 +1105,9 @@ msgstr "インスタントメッセージチャンネルの記録"
 
 msgid "Low"
 msgstr "Low (低)"
+
+msgid "Loïc Dachary (Training, mentoring, assistant, english and french)"
+msgstr "Loïc Dachary (Training, mentoring, assistant, english and french)"
 
 msgid "Lunch menu meeting"
 msgstr "ランチメニューミーティング"
@@ -1578,6 +1550,9 @@ msgstr "レビュー"
 msgid "Reviews"
 msgstr "レビュー数"
 
+msgid "Rohit Agarwalla (assistant)"
+msgstr "Rohit Agarwalla (assistant)"
+
 msgid "Rossella Sblendido (assistant, Italian, English)"
 msgstr "Rossella Sblendido (assistant, Italian, English)"
 
@@ -1626,6 +1601,9 @@ msgstr ""
 
 msgid "Set a target milestone"
 msgstr "目標マイルストーンの設定"
+
+msgid "Shinobu KINJO (mentoring, assistant, japanese)"
+msgstr "Shinobu KINJO (mentoring, assistant, japanese)"
 
 msgid "Sign In"
 msgstr "サインイン"
@@ -1741,13 +1719,6 @@ msgstr "不信の停止"
 msgid "Sustainable development, able to maintain a constant pace"
 msgstr "持続可能な開発、一定ペースを維持可能"
 
-msgid ""
-"Sylvain Bauza <sbauza@redhat.com> (assistant, mentoring, training, french, "
-"english)"
-msgstr ""
-"Sylvain Bauza <sbauza@redhat.com> (assistant, mentoring, training, french, "
-"english)"
-
 msgid "System administrators"
 msgstr "システム管理者"
 
@@ -1765,9 +1736,6 @@ msgstr "新しい小さなチーム向けに非公式に利用できるテーブ
 
 msgid "Tags describing OpenStack Projects"
 msgstr "OpenStack プロジェクトを説明するタグ"
-
-msgid "Takashi Torii <t-torii@ce.jp.nec.com> (assistant, japanese)"
-msgstr "Takashi Torii <t-torii@ce.jp.nec.com> (assistant, japanese)"
 
 msgid "Take a step back"
 msgstr "譲歩する"
@@ -1872,15 +1840,6 @@ msgstr ""
 "スに含まれています。"
 
 msgid ""
-"The last session of the OpenStack Upstream Training was completed in Tokyo, "
-"before the OpenStack Summit. `Students and mentors can register here "
-"<https://openstackfoundation.formstack.com/forms/mentoring>`_."
-msgstr ""
-"東京の OpenStack Upstream Training は終了しました。`受講者とメンターはここか"
-"ら登録できます <https://openstackfoundation.formstack.com/forms/"
-"mentoring>`_ 。"
-
-msgid ""
 "The milestone we need to fix the bug for, or the milestone/version it was "
 "fixed in."
 msgstr ""
@@ -1947,9 +1906,6 @@ msgstr "バグではないと判断された状態"
 
 msgid "This will need to match your preferred email address in Gerrit."
 msgstr "これは Gerrit の優先メールアドレスと一致する必要がある"
-
-msgid "Tim Freund <tim@freunds.net> (training, assistant, english)"
-msgstr "Tim Freund <tim@freunds.net> (training, assistant, english)"
 
 msgid ""
 "Tim Freund will lead the next training in Austin, in English. Tools and "
@@ -2025,21 +1981,11 @@ msgstr "主要な OpenStack プロジェクトと同じプロセスとツール�
 msgid "User Committee"
 msgstr "ユーザー委員会"
 
-msgid "Vancouver Staff (Thank You!)"
-msgstr "Vancouver のスタッフ (ありがとう!)"
-
 msgid "Vendors may substitute alternate implementations"
 msgstr "ベンダーは代替実装により置き換える可能性がある"
 
 msgid "Verbose or terse?"
 msgstr "冗長か簡潔か?"
-
-msgid ""
-"Victoria Martínez de la Cruz <victoria@vmartinezdelacruz.com> (assistant, "
-"english)"
-msgstr ""
-"Victoria Martínez de la Cruz <victoria@vmartinezdelacruz.com> (assistant, "
-"english)"
 
 msgid "Volunteers"
 msgstr "ボランティア"
@@ -2282,13 +2228,6 @@ msgid "`Each APC/ATC in the class should add a URL to the etherpad proving it`"
 msgstr ""
 "`クラスにいる APC / ATC は、それを証明する URL を etherpad に追加してくださ"
 "い。`"
-
-msgid ""
-"`Etherpad for Austin <https://etherpad.openstack.org/p/upstream-training-"
-"austin>`_"
-msgstr ""
-"`Austin 向け Etherpad <https://etherpad.openstack.org/p/upstream-training-"
-"austin>`_"
 
 msgid ""
 "`Git Commit Good Practice <https://wiki.openstack.org/wiki/"
@@ -2857,9 +2796,6 @@ msgstr "より長い形式は wiki ページにあります"
 
 msgid "low-hanging-fruit"
 msgstr "low-hanging-fruit"
-
-msgid "macJack <macjacktw@hotmail.com> (assistant, English, Chinese)"
-msgstr "macJack <macjacktw@hotmail.com> (assistant, English, Chinese)"
 
 msgid "milestone or release branch"
 msgstr "マイルストーンまたはリリースブランチ"

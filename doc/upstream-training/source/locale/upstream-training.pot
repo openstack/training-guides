@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-28 06:20+0000\n"
+"POT-Creation-Date: 2016-02-02 06:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,36 +47,41 @@ msgid ""
 "online sessions to help them resolve any remaining problems they might have."
 msgstr ""
 
-#: ../../index.rst:26
-msgid ":doc:`upstream-details`"
+#: ../../index.rst:25
+msgid "For more information, see :doc:`upstream-details`."
 msgstr ""
 
-#: ../../index.rst:29
+#: ../../index.rst:28
 msgid "When & Where to get OpenStack Upstream Training"
 msgstr ""
 
-#: ../../index.rst:31
+#: ../../index.rst:30
 msgid ""
-"The last session of the OpenStack Upstream Training was completed in Tokyo, "
-"before the OpenStack Summit. `Students and mentors can register here "
-"<https://openstackfoundation.formstack.com/forms/mentoring>`_."
+"The next session of the OpenStack Upstream Training will be held in Austin, "
+"before the OpenStack Summit Austin 2016."
+msgstr ""
+
+#: ../../index.rst:33
+msgid ""
+"**Saturday, April 23, 2016 at 9:30 AM to 5:00 PM - Sunday, April 24, 2016 at "
+"9:30 AM to 5:00 PM (UTC-05:00)**"
 msgstr ""
 
 #: ../../index.rst:36
+msgid ""
+"`Students and mentors can register here <https://openstackfoundation."
+"formstack.com/forms/mentoring>`_."
+msgstr ""
+
+#: ../../index.rst:39
 msgid ""
 "Maps and location information will be posted here once details are "
 "finalized. We will be in or near the main Summit venue, but our room "
 "assignments are not yet finalized."
 msgstr ""
 
-#: ../../index.rst:40
-msgid ""
-"**Saturday, April 23, 2016 at 9:30 AM to 5:00 PM - Sunday, April 24, 2016 at "
-"9:30 AM to 5:00 PM (UTC-05:00)**"
-msgstr ""
-
 #: ../../index.rst:43
-msgid "Bring a laptop with wifi + 4GB RAM Ubuntu virtual machine"
+msgid "Bring a laptop with wifi, and 4+ GB RAM Ubuntu virtual machine"
 msgstr ""
 
 #: ../../index.rst:46
@@ -89,187 +94,323 @@ msgstr ""
 
 #: ../../index.rst:49
 msgid ""
-"Create a virtual machine on the laptop with Ubuntu 12.04 or 14.04 installed "
-"and 4GB of RAM."
-msgstr ""
-
-#: ../../index.rst:51
-msgid "Check that you can ssh from your laptop to the virtual machine"
+"Create a virtual machine on your laptop with Ubuntu 14.04 installed and 4+ "
+"GB of RAM. Alternatively, you can use your virtual machine on a public cloud."
 msgstr ""
 
 #: ../../index.rst:52
-msgid "Check that :command:`apt-get install` works from the virtual machine"
+msgid "Check that you can ssh from your laptop to the virtual machine"
 msgstr ""
 
 #: ../../index.rst:53
+msgid "Check that :command:`apt-get install` works on the virtual machine"
+msgstr ""
+
+#: ../../index.rst:54
 msgid ""
 "Get in touch with the team upstream-training@openstack.org to pick a "
 "contribution to work on."
 msgstr ""
 
 #: ../../index.rst:57
+msgid ""
+"`Etherpad for Austin Upstream Training <https://etherpad.openstack.org/p/"
+"upstream-training-austin>`_"
+msgstr ""
+
+#: ../../index.rst:61
 msgid "Staff"
 msgstr ""
 
-#: ../../index.rst:59
+#: ../../index.rst:63
 msgid ""
 "Tim Freund will lead the next training in Austin, in English. Tools and "
 "processes for mentors and staff are kept on the `admin <https://wiki."
 "openstack.org/wiki/OpenStack_Upstream_Training/Admin>`_ page."
 msgstr ""
 
-#: ../../index.rst:63
+#: ../../index.rst:67
 msgid ""
 "**Still looking for help: please** `register <https://openstackfoundation."
 "formstack.com/forms/mentoring>`_"
 msgstr ""
 
-#: ../../index.rst:67
-msgid "Vancouver Staff (Thank You!)"
-msgstr ""
-
-#: ../../index.rst:69
-msgid "Tim Freund <tim@freunds.net> (training, assistant, english)"
-msgstr ""
-
 #: ../../index.rst:70
 msgid ""
-"Chris Ricker <chris.ricker@gmail.com> (training, mentoring, assistant, "
-"english)"
+"For more information about the past trainings, see :doc:`upstream-archives`."
 msgstr ""
 
-#: ../../index.rst:72
-msgid ""
-"Sylvain Bauza <sbauza@redhat.com> (assistant, mentoring, training, french, "
-"english)"
-msgstr ""
-
-#: ../../index.rst:74
-msgid "Lana Brindley (assistant, mentoring, English)"
-msgstr ""
-
-#: ../../index.rst:75
-msgid "Rossella Sblendido (assistant, Italian, English)"
-msgstr ""
-
-#: ../../index.rst:76
-msgid ""
-"Victoria Martínez de la Cruz <victoria@vmartinezdelacruz.com> (assistant, "
-"english)"
-msgstr ""
-
-#: ../../index.rst:78
-msgid "Takashi Torii <t-torii@ce.jp.nec.com> (assistant, japanese)"
-msgstr ""
-
-#: ../../index.rst:79
-msgid "KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com> (assistant, Japanese)"
-msgstr ""
-
-#: ../../index.rst:80
-msgid "macJack <macjacktw@hotmail.com> (assistant, English, Chinese)"
-msgstr ""
-
-#: ../../index.rst:81
-msgid ""
-"François Bureau <francois.bureau@cloudwatt> (assistant, french, english) - "
-"irc : Fdot"
-msgstr ""
-
-#: ../../index.rst:84
-msgid ""
-"`Etherpad for Austin <https://etherpad.openstack.org/p/upstream-training-"
-"austin>`_"
-msgstr ""
-
-#: ../../index.rst:88
+#: ../../index.rst:73
 msgid "Outline and online slide index"
 msgstr ""
 
-#: ../../index.rst:92
+#: ../../index.rst:76
 msgid "How OpenStack is made"
 msgstr ""
 
-#: ../../index.rst:94
+#: ../../index.rst:78
 msgid "`Release cycle <01-release-cycle.html>`_"
 msgstr ""
 
-#: ../../index.rst:95
+#: ../../index.rst:79
 msgid "`Relevant actors <02-relevant-actors.html>`_"
 msgstr ""
 
-#: ../../index.rst:96
+#: ../../index.rst:80
 msgid "`OpenStack Governance <03-technical-committee.html>`_"
 msgstr ""
 
-#: ../../index.rst:97
+#: ../../index.rst:81
 msgid "`OpenStack \"Big Tent\" and tags <04-program-ecosystem.html>`_"
 msgstr ""
 
-#: ../../index.rst:98
+#: ../../index.rst:82
 msgid "`OpenStack Design Summit <05-design-summit.html>`_"
 msgstr ""
 
-#: ../../index.rst:99
+#: ../../index.rst:83
 msgid "`IRC meetings <06-irc-meetings.html>`_"
 msgstr ""
 
-#: ../../index.rst:102
+#: ../../index.rst:86
 msgid "Workflow of an OpenStack contribution and tools"
 msgstr ""
 
-#: ../../index.rst:104
+#: ../../index.rst:88
 msgid "`devstack.org <11-devstack.html>`_"
 msgstr ""
 
-#: ../../index.rst:105
+#: ../../index.rst:89
 msgid "`How to contribute <12-howtocontribute.html>`_"
 msgstr ""
 
-#: ../../index.rst:106
+#: ../../index.rst:90
 msgid "`launchpad.net <13-launchpad.html>`_"
 msgstr ""
 
-#: ../../index.rst:107
+#: ../../index.rst:91
 msgid "`review.openstack.org <14-gerrit.html>`_"
 msgstr ""
 
-#: ../../index.rst:108
+#: ../../index.rst:92
 msgid "`Branching model <15-branching-model.html>`_"
 msgstr ""
 
-#: ../../index.rst:109
+#: ../../index.rst:93
 msgid "`Reviewing <16-reviewing.html>`_"
 msgstr ""
 
-#: ../../index.rst:110
+#: ../../index.rst:94
 msgid "`Commit messages <17-commit-message.html>`_"
 msgstr ""
 
-#: ../../index.rst:111
+#: ../../index.rst:95
 msgid "`Jenkins <18-jenkins.html>`_"
 msgstr ""
 
-#: ../../index.rst:114
+#: ../../index.rst:98
 msgid "The Contribution Process"
 msgstr ""
 
-#: ../../index.rst:116
+#: ../../index.rst:100
 msgid ""
 "`Overview of the contribution process <19-training-contribution-process."
 "html>`_"
 msgstr ""
 
-#: ../../index.rst:118
+#: ../../index.rst:102
 msgid ""
 "`Lego applied to Free Software contributions <20-training-agile-for-"
 "contributors.html>`_"
 msgstr ""
 
-#: ../../index.rst:121
+#: ../../index.rst:105
 msgid ""
 "`Complete index in slide format only <http://docs.openstack.org/upstream-"
 "training/slide-index.html>`_"
+msgstr ""
+
+#: ../../upstream-archives.rst:3
+msgid "OpenStack Upstream Training Archives"
+msgstr ""
+
+#: ../../upstream-archives.rst:5
+msgid ""
+"We held the first OpenStack Upstream Training in Atlanta, before OpenStack "
+"Summit Atlanta 2014. Since Atlanta, we have held the training before every "
+"OpenStack Summit. Also, some user groups hold the local upstream training in "
+"their country."
+msgstr ""
+
+#: ../../upstream-archives.rst:10
+msgid ""
+"We are appreciating all staffs, especially Loic Dachary, Stefano Maffulli, "
+"and Tim Freund who lead the training respectively."
+msgstr ""
+
+#: ../../upstream-archives.rst:14
+msgid "2015 Tokyo"
+msgstr ""
+
+#: ../../upstream-archives.rst:17
+msgid "2015 Tokyo Staff (Thank You!)"
+msgstr ""
+
+#: ../../upstream-archives.rst:19
+msgid "Tim Freund (training, mentoring, assistant, english)"
+msgstr ""
+
+#: ../../upstream-archives.rst:20 ../../upstream-archives.rst:35
+#: ../../upstream-archives.rst:56 ../../upstream-archives.rst:84
+msgid "Chris Ricker (training, mentoring, assistant, english)"
+msgstr ""
+
+#: ../../upstream-archives.rst:21
+msgid "Loïc Dachary (Training, mentoring, assistant, english and french)"
+msgstr ""
+
+#: ../../upstream-archives.rst:22
+msgid "Shinobu KINJO (mentoring, assistant, japanese)"
+msgstr ""
+
+#: ../../upstream-archives.rst:23
+msgid "Cleber Rosa (mentoring, assistant, portuguese)"
+msgstr ""
+
+#: ../../upstream-archives.rst:24
+msgid "Rohit Agarwalla (assistant)"
+msgstr ""
+
+#: ../../upstream-archives.rst:25 ../../upstream-archives.rst:41
+msgid "KATO Tomoyuki (assistant, Japanese)"
+msgstr ""
+
+#: ../../upstream-archives.rst:26 ../../upstream-archives.rst:42
+msgid "macJack (assistant, English, Chinese)"
+msgstr ""
+
+#: ../../upstream-archives.rst:29
+msgid "2015 Vancouver"
+msgstr ""
+
+#: ../../upstream-archives.rst:32
+msgid "2015 Vancouver Staff (Thank You!)"
+msgstr ""
+
+#: ../../upstream-archives.rst:34
+msgid "Tim Freund (training, assistant, english)"
+msgstr ""
+
+#: ../../upstream-archives.rst:36 ../../upstream-archives.rst:63
+msgid "Sylvain Bauza (assistant, mentoring, training, french, english)"
+msgstr ""
+
+#: ../../upstream-archives.rst:37
+msgid "Lana Brindley (assistant, mentoring, English)"
+msgstr ""
+
+#: ../../upstream-archives.rst:38
+msgid "Rossella Sblendido (assistant, Italian, English)"
+msgstr ""
+
+#: ../../upstream-archives.rst:39 ../../upstream-archives.rst:68
+msgid "Victoria Martínez de la Cruz (assistant, english)"
+msgstr ""
+
+#: ../../upstream-archives.rst:40 ../../upstream-archives.rst:72
+msgid "Takashi Torii (assistant, japanese)"
+msgstr ""
+
+#: ../../upstream-archives.rst:43 ../../upstream-archives.rst:60
+msgid "François Bureau (assistant, french, english)"
+msgstr ""
+
+#: ../../upstream-archives.rst:46
+msgid "2014 Paris"
+msgstr ""
+
+#: ../../upstream-archives.rst:48
+msgid ""
+"`OpenStack Upstream Training in Paris <http://www.openstack.org/blog/2014/08/"
+"openstack-upstream-training-in-paris/>`_."
+msgstr ""
+
+#: ../../upstream-archives.rst:52
+msgid "2014 Paris Staff (Thank You!)"
+msgstr ""
+
+#: ../../upstream-archives.rst:54
+msgid "Stefano Maffulli (training, mentoring, assistant, english)"
+msgstr ""
+
+#: ../../upstream-archives.rst:55 ../../upstream-archives.rst:83
+msgid "Loic Dachary (training, mentoring, assistant, french, english)"
+msgstr ""
+
+#: ../../upstream-archives.rst:57 ../../upstream-archives.rst:85
+msgid "Xavier Antoviaque (training, mentoring, assistant, french, english)"
+msgstr ""
+
+#: ../../upstream-archives.rst:58 ../../upstream-archives.rst:86
+msgid "Rodolphe Quiedeville (training, mentoring, assistant, french)"
+msgstr ""
+
+#: ../../upstream-archives.rst:59
+msgid "Edouard Thuleau (assistant, french, english)"
+msgstr ""
+
+#: ../../upstream-archives.rst:61 ../../upstream-archives.rst:88
+msgid "Sahid Ferdjaoui (assistant, french, english)"
+msgstr ""
+
+#: ../../upstream-archives.rst:62
+msgid "Christophe Sauthier (training, assistant, mentoring, french, english)"
+msgstr ""
+
+#: ../../upstream-archives.rst:64
+msgid "Julie Pichon (training, mentoring, assistant, english)"
+msgstr ""
+
+#: ../../upstream-archives.rst:65
+msgid "Adrien Cunin (mentoring, assistant, french, english)"
+msgstr ""
+
+#: ../../upstream-archives.rst:66
+msgid "Tim Freund (assistant, english)"
+msgstr ""
+
+#: ../../upstream-archives.rst:67
+msgid "Syed Armani (training, mentoring, assistant, english)"
+msgstr ""
+
+#: ../../upstream-archives.rst:69
+msgid "Cindy Pallares (assistant, english)"
+msgstr ""
+
+#: ../../upstream-archives.rst:70
+msgid "Irena Berezovsky (assistant, mentor, english)"
+msgstr ""
+
+#: ../../upstream-archives.rst:71
+msgid "Haikel Guemar (assistant, mentor, french, english)"
+msgstr ""
+
+#: ../../upstream-archives.rst:75
+msgid "2014 Atlanta"
+msgstr ""
+
+#: ../../upstream-archives.rst:77
+msgid ""
+"`OpenStack Upstream Training in Atlanta A Big Success <http://www.openstack."
+"org/blog/2014/05/openstack-upstream-training-in-atlanta-a-big-success/>`_."
+msgstr ""
+
+#: ../../upstream-archives.rst:81
+msgid "2014 Atlanta Staff (Thank You!)"
+msgstr ""
+
+#: ../../upstream-archives.rst:87
+msgid "Edouard THULEAU (assistant, french, english)"
 msgstr ""
 
 #: ../../upstream-details.rst:3
