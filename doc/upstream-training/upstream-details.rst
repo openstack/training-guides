@@ -40,13 +40,13 @@ Target Audience
 Prerequisites
 =============
 
-- Being able to read and write English at a technical level.
+- Being able to read and write English at a technical level
 - If contributing code, being technically proficient enough to carry out
-  simple bug fixes in the project.
+  simple bug fixes in the project
 - If contributing documentation, being able to produce documents in the
-  project's chosen infrastructure.
+  project's chosen infrastructure
 - Having at least 8 hours a week to dedicate to the project, be it through
-  programming or through interacting with the community.
+  programming or through interacting with the community
 
 Duration
 ========
@@ -73,7 +73,7 @@ Introduction
 * A week before Day 1: choice of a contribution, via email, with each
   participant
 * Day 1: How OpenStack is made
-* Day 1: Learn and practice git, gerrit, IRC
+* Day 1: Learn and practice Git, Gerrit, IRC
 
 * Day 2: The theory of contribution
 * Day 2: Lego contribution simulation
@@ -201,7 +201,7 @@ Workflow of an OpenStack contribution and tools (3h including 2h exercises)
   * `Development workflow <http://docs.openstack.org/infra/manual/developers.html#development-workflow>`_
   * `Running unit tests <http://docs.openstack.org/infra/manual/developers.html#running-unit-tests>`_
   * `Cross-Repository Dependencies <http://docs.openstack.org/infra/manual/developers.html#cross-repository-dependencies>`_
-  * Exercise: push a wip or draft and invite reviewers
+  * Exercise: push a WIP or draft and invite reviewers
 
 * Branching model
   (`slides <15-branching-model.html>`__)
@@ -223,7 +223,7 @@ Workflow of an OpenStack contribution and tools (3h including 2h exercises)
 * `Jenkins (Automated testing) <http://docs.openstack.org/infra/manual/developers.html#automated-testing>`_
   (`slides <18-jenkins.html>`__)
 
-  * Exercise: add an error and match it to the jenkins message
+  * Exercise: add an error and match it to the Jenkins message
 
 Second day
 ==========
@@ -234,26 +234,26 @@ The Contribution Process (1 hour)
 Overview of the contribution process
 (`slides <19-training-contribution-process.html>`__)
 
-* Take the pulse of the project.
-* Figure out who's behind it.
-* Determine the project's social groups.
-* Assess your approach.
-* Engage immediately.
-* Play with your network.
-* Perform the smaller tasks.
-* Choose a question.
-* Familiarize yourself with the code of conduct.
-* Understand the conventions.
-* Explain what you do.
-* Prepare the backport.
-* Learn what's local and what's upstream.
-* Learn what distinguishes good work flow from bad work flow.
-* Quantify the delta.
-* Speed up the acceptance.
-* Determine the time frame.
-* Maximize karma.
-* Work in parallel.
-* Archive and collect.
+* Take the pulse of the project
+* Figure out who's behind it
+* Determine the project's social groups
+* Assess your approach
+* Engage immediately
+* Play with your network
+* Perform the smaller tasks
+* Choose a question
+* Familiarize yourself with the code of conduct
+* Understand the conventions
+* Explain what you do
+* Prepare the backport
+* Learn what's local and what's upstream
+* Learn what distinguishes good work flow from bad work flow
+* Quantify the delta
+* Speed up the acceptance
+* Determine the time frame
+* Maximize karma
+* Work in parallel
+* Archive and collect
 
 Agile for Contributors (15 min)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -281,13 +281,13 @@ Contribution Planning (2 hours)
 `PDF slides <http://dachary.org/loic/openstack-training/training-student-project-sample.pdf>`_
 
 * The students use template slides to prepare a 5-minute presentation of
-  their planned contribution.
-* A sample presentation is given by the teacher, as an example.
+  their planned contribution
+* A sample presentation is given by the teacher, as an example
 * Each student group prepares a presentation describing:
-  * the contribution they plan to work on during the online sessions,
-  * how they will engage with the Upstream,
+  * the contribution they plan to work on during the online sessions
+  * how they will engage with the Upstream
   * how it contributes to the company's agenda
-  * and whom they will be working with.
+  * and whom they will be working with
 * Each student group presents its slides to the class
 
 Etherpad
