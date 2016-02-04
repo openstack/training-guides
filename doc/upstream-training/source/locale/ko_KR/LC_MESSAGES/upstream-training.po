@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-01-11 06:06+0000\n"
+"PO-Revision-Date: 2016-02-03 05:56+0000\n"
 "Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
@@ -28,6 +28,20 @@ msgstr "#info"
 msgid "(RC2), with bugs targeted to it"
 msgstr "프로젝트에 대한 버그를 목표로 한 (RC2)"
 
+msgid ""
+"**Saturday, April 23, 2016 at 9:30 AM to 5:00 PM - Sunday, April 24, 2016 at "
+"9:30 AM to 5:00 PM (UTC-05:00)**"
+msgstr ""
+"**2016년 4월 23일 토요일, 9:30 AM 부터 5:00 PM 까지 - 2016년 4월 24일 일요"
+"일, 9:30 AM 부터 5:00 PM 까지 (UTC-05:00)**"
+
+msgid ""
+"**Still looking for help: please** `register <https://openstackfoundation."
+"formstack.com/forms/mentoring>`_"
+msgstr ""
+"**여전히 도움을 찾고 있습니다:** `등록 <https://openstackfoundation."
+"formstack.com/forms/mentoring>`_ 해 주세요"
+
 msgid "1,933 developers"
 msgstr "1,933 명의 개발자"
 
@@ -42,6 +56,30 @@ msgstr "2013.2 브랜치 및 태그"
 
 msgid "2013.2.4 preparation"
 msgstr "2013.2.4 준비"
+
+msgid "2014 Atlanta"
+msgstr "2014 Atlanta"
+
+msgid "2014 Atlanta Staff (Thank You!)"
+msgstr "2014 Atlanta 스태프 (감사합니다!)"
+
+msgid "2014 Paris"
+msgstr "2014 Paris"
+
+msgid "2014 Paris Staff (Thank You!)"
+msgstr "2014 Paris 스태프 (감사합니다!)"
+
+msgid "2015 Tokyo"
+msgstr "2015 Tokyo"
+
+msgid "2015 Tokyo Staff (Thank You!)"
+msgstr "2015 Tokyo 스태프 (감사합니다!)"
+
+msgid "2015 Vancouver"
+msgstr "2015 Vancouver"
+
+msgid "2015 Vancouver Staff (Thank You!)"
+msgstr "2015 Vancouver 스태프 (감사합니다!)"
 
 msgid "32,255 people"
 msgstr "32,255 명"
@@ -109,6 +147,9 @@ msgid ""
 msgstr ""
 "정보성 항목을 회의록에 추가합니다. 이야기하고자 하는 중요한 사항에 대해서는 "
 "이를 자유롭게 사용하여, 회의록에 기록될 수 있도록 합니다."
+
+msgid "Adrien Cunin (mentoring, assistant, french, english)"
+msgstr "Adrien Cunin (멘토링, 조교, 프랑스어, 영어)"
 
 msgid "After the change is accepted"
 msgstr "변경 사항이 승인된 이후"
@@ -249,6 +290,10 @@ msgstr "브랜칭 모델"
 msgid "Branching model (`slides <15-branching-model.html>`__)"
 msgstr "브랜칭 모델 (`슬라이드 <15-branching-model.html>`__)"
 
+msgid "Bring a laptop with wifi, and 4+ GB RAM Ubuntu virtual machine"
+msgstr ""
+"Wifi를 지원하는 노트북와 4GB 이상 램을 가진 Ubuntu 가상 머신을 준비합니다"
+
 msgid "Bug"
 msgstr "Bug"
 
@@ -307,6 +352,9 @@ msgstr "외부 HTTP API에 대한 변경 사항"
 msgid "Changes to the notification definitions"
 msgstr "Notification 정의에 대한 변경 사항"
 
+msgid "Check that :command:`apt-get install` works on the virtual machine"
+msgstr ":command:`apt-get install` 명령이 가상 머신에서 동작하는지 확인합니다."
+
 msgid "Check that you can ssh from your laptop to the virtual machine"
 msgstr "노트북에서 ssh를 사용하여 가상 머신으로 접속이 가능한지 확인합니다."
 
@@ -318,6 +366,15 @@ msgstr "모든 정보를 모을 한 장소를 선택하기"
 
 msgid "Choosing a question"
 msgstr "질문 선택"
+
+msgid "Chris Ricker (training, mentoring, assistant, english)"
+msgstr "Chris Ricker (교육, 멘토링, 조교, 영어)"
+
+msgid "Christophe Sauthier (training, assistant, mentoring, french, english)"
+msgstr "Christophe Sauthier (교육, 조교, 멘토링, 프랑스어, 영어)"
+
+msgid "Cindy Pallares (assistant, english)"
+msgstr "Cindy Pallares (조교, 영어)"
 
 msgid "Claiming OpenStack requiring use of designated upstream code"
 msgstr "OpenStack을 주장하기 위해서는 지정된 업스트림 코드 사용이 필수입니다"
@@ -423,6 +480,13 @@ msgstr "기업에 의해 주도"
 
 msgid "Course Outline"
 msgstr "과정 목차"
+
+msgid ""
+"Create a virtual machine on your laptop with Ubuntu 14.04 installed and 4+ "
+"GB of RAM. Alternatively, you can use your virtual machine on a public cloud."
+msgstr ""
+"노트북에 Ubuntu 12.04 또는 14.04가 설치하고 4GB 이상 램을 가진 가상 머신을 생"
+"성합니다. 대안으로, 공용 클라우드에서의 가상 머신을 사용할 수 있습니다."
 
 msgid "Create the corresponding blueprint"
 msgstr "이에 대응하는 blueprint 생성"
@@ -607,6 +671,12 @@ msgstr "살펴보기 쉽습니다"
 
 msgid "Easier to revert"
 msgstr "되돌리기 쉽습니다"
+
+msgid "Edouard THULEAU (assistant, french, english)"
+msgstr "Edouard THULEAU (조교, 프랑스어, 영어)"
+
+msgid "Edouard Thuleau (assistant, french, english)"
+msgstr "Edouard Thuleau (조교, 프랑스어, 영어)"
 
 msgid "Emails"
 msgstr "이메일"
@@ -808,8 +878,19 @@ msgid ""
 "Team"
 msgstr "Liberty에서 통합 프로젝트는 릴리즈 관리 팀에 의해 관리가 이루어집니다"
 
+msgid ""
+"For more information about the past trainings, see :doc:`upstream-archives`."
+msgstr ""
+"지난 교육에 관한 보다 자세한 정보는, :doc:`upstream-archives` 를 살펴봅니다."
+
+msgid "For more information, see :doc:`upstream-details`."
+msgstr "보다 자세한 정보는, :doc:`upstream-details` 를 살펴봅니다."
+
 msgid "Forbidden"
 msgstr "금지되는 사항"
+
+msgid "François Bureau (assistant, french, english)"
+msgstr "François Bureau (조교, 프랑스어, 영어)"
 
 msgid "Free Software contributors"
 msgstr "자유 소프트웨어 컨트리뷰터"
@@ -878,6 +959,9 @@ msgstr "친구들로 구성된 집단"
 
 msgid "Habits: online relationships?"
 msgstr "습관: 온라인 관계?"
+
+msgid "Haikel Guemar (assistant, mentor, french, english)"
+msgstr "Haikel Guemar (조교, 멘터, 프랑스어, 영어)"
 
 msgid ""
 "Having at least 8 hours a week to dedicate to the project, be it through "
@@ -1014,11 +1098,20 @@ msgstr "소개"
 msgid "Invalid"
 msgstr "Invalid"
 
+msgid "Irena Berezovsky (assistant, mentor, english)"
+msgstr "Irena Berezovsky (조교, 멘터, 영어)"
+
 msgid "Jenkins"
 msgstr "Jenkins"
 
 msgid "Join irc.freenode.net#upstream-university"
 msgstr "irc.freenode.net#upstream-university 에 참여합니다"
+
+msgid "Julie Pichon (training, mentoring, assistant, english)"
+msgstr "Julie Pichon (교육, 멘토링, 조교, 영어)"
+
+msgid "KATO Tomoyuki (assistant, Japanese)"
+msgstr "KATO Tomoyuki (조교, 일본어)"
 
 msgid "Karma missions"
 msgstr "Karma 임무"
@@ -1090,6 +1183,9 @@ msgstr "로컬 및 업스트림"
 
 msgid "Log IM channels"
 msgstr "메신저 채널 로그"
+
+msgid "Loic Dachary (training, mentoring, assistant, french, english)"
+msgstr "Loic Dachary (교육, 멘토링, 조교, 프랑스어, 영어)"
 
 msgid "Low"
 msgstr "Low"
@@ -1305,6 +1401,9 @@ msgstr "OpenStack 릴리즈 주기"
 
 msgid "OpenStack Upstream Training"
 msgstr "OpenStack Upstream Training"
+
+msgid "OpenStack Upstream Training Archives"
+msgstr "OpenStack Upstream Training 보관"
 
 msgid "OpenStack Upstream Training Details"
 msgstr "OpenStack Upstream Training 세부 사항"
@@ -1534,6 +1633,9 @@ msgstr "리뷰하기"
 msgid "Reviews"
 msgstr "리뷰"
 
+msgid "Rodolphe Quiedeville (training, mentoring, assistant, french)"
+msgstr "Rodolphe Quiedeville (교육, 멘토링, 조교, 프랑스어)"
+
 msgid "Rohit Agarwalla (assistant)"
 msgstr "Rohit Agarwalla (조교)"
 
@@ -1545,6 +1647,9 @@ msgstr "SERIES-backport-potential"
 
 msgid "SERIES-rc-potential"
 msgstr "SERIES-rc-potential"
+
+msgid "Sahid Ferdjaoui (assistant, french, english)"
+msgstr "Sahid Ferdjaoui (조교, 프랑스어, 영어)"
 
 msgid "Same as APC"
 msgstr "APC와 동일합니다"
@@ -1671,6 +1776,9 @@ msgstr "상태: In progress"
 msgid "Status: New"
 msgstr "상태: New"
 
+msgid "Stefano Maffulli (training, mentoring, assistant, english)"
+msgstr "Stefano Maffulli (교육, 멘토링, 조교, 영어)"
+
 msgid "Step down considerately"
 msgstr "사려깊게 물러납니다"
 
@@ -1701,6 +1809,12 @@ msgstr "불신에 대한 자발적 유예"
 msgid "Sustainable development, able to maintain a constant pace"
 msgstr "일정 속도를 유지할 수 있는, 지속 가능한 개발"
 
+msgid "Syed Armani (training, mentoring, assistant, english)"
+msgstr "Syed Armani (교육, 멘토링, 조교, 영어)"
+
+msgid "Sylvain Bauza (assistant, mentoring, training, french, english)"
+msgstr "Sylvain Bauza (조교, 멘토링, 교육, 프랑스어, 영어)"
+
 msgid "System administrators"
 msgstr "시스템 관리자"
 
@@ -1718,6 +1832,9 @@ msgstr "새로운/작은 팀을 위해 사용 가능한 비공식 테이블"
 
 msgid "Tags describing OpenStack Projects"
 msgstr "OpenStack 프로젝트를 설명하는 태그"
+
+msgid "Takashi Torii (assistant, japanese)"
+msgstr "Takashi Torii (조교, 일본어)"
 
 msgid "Take a step back"
 msgstr "한 발짝 되돌아가기"
@@ -1827,6 +1944,13 @@ msgid ""
 "fixed in."
 msgstr "버그 수정을 필요로 하는 마일스톤, 또는 수정되었던 마일스톤/버전"
 
+msgid ""
+"The next session of the OpenStack Upstream Training will be held in Austin, "
+"before the OpenStack Summit Austin 2016."
+msgstr ""
+"다음 OpenStack Upstream Training 세션은 Austin에서 OpenStack Summit Austin "
+"2016 전에 개최 예정입니다."
+
 msgid "The official list of projects is in the `governance` repository"
 msgstr "공식 프로젝트 목록은 `governance` 저장소 내에 있습니다"
 
@@ -1887,6 +2011,24 @@ msgstr "버그가 아닙니다"
 
 msgid "This will need to match your preferred email address in Gerrit."
 msgstr "Gerrit에서 선호하는 이메일 주소와 일치시킬 필요가 있습니다"
+
+msgid "Tim Freund (assistant, english)"
+msgstr "Tim Freund (조교, 영어)"
+
+msgid "Tim Freund (training, assistant, english)"
+msgstr "Tim Freund (교육, 조교, 영어)"
+
+msgid "Tim Freund (training, mentoring, assistant, english)"
+msgstr "Tim Freund (교육, 멘토링, 조교, 영어)"
+
+msgid ""
+"Tim Freund will lead the next training in Austin, in English. Tools and "
+"processes for mentors and staff are kept on the `admin <https://wiki."
+"openstack.org/wiki/OpenStack_Upstream_Training/Admin>`_ page."
+msgstr ""
+"Tim Freund께서 다음 교육을 Austin에서 영어로 진행할 것입니다. 멘터 및 스태프"
+"를 위한 도구 및 프로세스는 `admin <https://wiki.openstack.org/wiki/"
+"OpenStack_Upstream_Training/Admin>`_ 페이지에 유지됩니다."
 
 msgid "Time to play with Legos"
 msgstr "Lego와 함께 놀 시간"
@@ -1958,11 +2100,31 @@ msgstr "벤더는 대안에 따른 구현으로 대체할 수 있습니다"
 msgid "Verbose or terse?"
 msgstr "장황한지 또는 간결한지?"
 
+msgid "Victoria Martínez de la Cruz (assistant, english)"
+msgstr "Victoria Martínez de la Cruz (조교, 영어)"
+
 msgid "Volunteers"
 msgstr "자원 봉사자"
 
 msgid "Voters for a given program PTL"
 msgstr "주어진 프로그램 PTL을 위한 투표자"
+
+msgid ""
+"We are appreciating all staffs, especially Loic Dachary, Stefano Maffulli, "
+"and Tim Freund who lead the training respectively."
+msgstr ""
+"모든 스태프, 특히 교육을 분담하여 이끄는 Loic Dachary, Stefano Maffulli, 그리"
+"고 Tim Freund께 감사드립니다."
+
+msgid ""
+"We held the first OpenStack Upstream Training in Atlanta, before OpenStack "
+"Summit Atlanta 2014. Since Atlanta, we have held the training before every "
+"OpenStack Summit. Also, some user groups hold the local upstream training in "
+"their country."
+msgstr ""
+"OpenStack Upstream Training을 2014년 OpenStack Summit Atlanta 전에 처음 개최"
+"하였습니다. Atlanta 이후, 매번 OpenStack Summit 이전에 교육을 개최하여씁니"
+"다. 또한, 몇몇 유저 그룹은 자국 내에서 로컬 upstream training을 개최합니다."
 
 msgid ""
 "We've designed a training program to help professional developers negotiate "
@@ -2098,6 +2260,9 @@ msgstr "문서 기록"
 msgid "Write user stories"
 msgstr "사용자 스토리 작성"
 
+msgid "Xavier Antoviaque (training, mentoring, assistant, french, english)"
+msgstr "Xavier Antoviaque (교육, 멘토링, 조교, 프랑스어, 영어)"
+
 msgid "Your management"
 msgstr "대상 관리"
 
@@ -2196,6 +2361,13 @@ msgstr "`문서화 <https://wiki.openstack.org/wiki/Documentation/HowTo>`_"
 
 msgid "`Each APC/ATC in the class should add a URL to the etherpad proving it`"
 msgstr "`수업 내 각 APC/ATC 는 etherpad에 증명을 위한 URL을 추가합니다`"
+
+msgid ""
+"`Etherpad for Austin Upstream Training <https://etherpad.openstack.org/p/"
+"upstream-training-austin>`_"
+msgstr ""
+"`Austin Upstream Training을 위한 Etherpad <https://etherpad.openstack.org/p/"
+"upstream-training-austin>`_"
 
 msgid ""
 "`Git Commit Good Practice <https://wiki.openstack.org/wiki/"
@@ -2350,6 +2522,20 @@ msgstr ""
 "projects/index.html>`_"
 
 msgid ""
+"`OpenStack Upstream Training in Atlanta A Big Success <http://www.openstack."
+"org/blog/2014/05/openstack-upstream-training-in-atlanta-a-big-success/>`_."
+msgstr ""
+"`OpenStack Upstream Training in Atlanta A Big Success <http://www.openstack."
+"org/blog/2014/05/openstack-upstream-training-in-atlanta-a-big-success/>`_."
+
+msgid ""
+"`OpenStack Upstream Training in Paris <http://www.openstack.org/blog/2014/08/"
+"openstack-upstream-training-in-paris/>`_."
+msgstr ""
+"`OpenStack Upstream Training in Paris <http://www.openstack.org/blog/2014/08/"
+"openstack-upstream-training-in-paris/>`_."
+
+msgid ""
 "`Other release candidates <https://wiki.openstack.org/wiki/"
 "Release_Cycle#Other_release_candidates>`_"
 msgstr ""
@@ -2451,6 +2637,13 @@ msgid ""
 msgstr ""
 "`상태, 중요도, 할당됨, 마일스톤, 태그 <https://wiki.openstack.org/wiki/"
 "Bugs#Bugs_reference>`_"
+
+msgid ""
+"`Students and mentors can register here <https://openstackfoundation."
+"formstack.com/forms/mentoring>`_."
+msgstr ""
+"`학생 및 멘터는 여기를 통해 등록 가능합니다 <https://openstackfoundation."
+"formstack.com/forms/mentoring>`_."
 
 msgid ""
 "`Technical Committee <http://governance.openstack.org/reference/charter."
@@ -2756,6 +2949,9 @@ msgstr "보다 긴 형태는 wiki 페이지에서 계속합니다"
 
 msgid "low-hanging-fruit"
 msgstr "low-hanging-fruit"
+
+msgid "macJack (assistant, English, Chinese)"
+msgstr "macJack (조교, 영어, 중국어)"
 
 msgid "milestone or release branch"
 msgstr "마일스톤 또는 릴리즈 브랜치"
