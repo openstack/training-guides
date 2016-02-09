@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-02 06:14+0000\n"
+"POT-Creation-Date: 2016-02-09 06:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -460,25 +460,25 @@ msgid "Prerequisites"
 msgstr ""
 
 #: ../../upstream-details.rst:43
-msgid "Being able to read and write English at a technical level."
+msgid "Being able to read and write English at a technical level"
 msgstr ""
 
 #: ../../upstream-details.rst:44
 msgid ""
 "If contributing code, being technically proficient enough to carry out "
-"simple bug fixes in the project."
+"simple bug fixes in the project"
 msgstr ""
 
 #: ../../upstream-details.rst:46
 msgid ""
 "If contributing documentation, being able to produce documents in the "
-"project's chosen infrastructure."
+"project's chosen infrastructure"
 msgstr ""
 
 #: ../../upstream-details.rst:48
 msgid ""
 "Having at least 8 hours a week to dedicate to the project, be it through "
-"programming or through interacting with the community."
+"programming or through interacting with the community"
 msgstr ""
 
 #: ../../upstream-details.rst:52
@@ -525,7 +525,7 @@ msgid "Day 1: How OpenStack is made"
 msgstr ""
 
 #: ../../upstream-details.rst:76
-msgid "Day 1: Learn and practice git, gerrit, IRC"
+msgid "Day 1: Learn and practice Git, Gerrit, IRC"
 msgstr ""
 
 #: ../../upstream-details.rst:78
@@ -944,7 +944,7 @@ msgid ""
 msgstr ""
 
 #: ../../upstream-details.rst:204
-msgid "Exercise: push a wip or draft and invite reviewers"
+msgid "Exercise: push a WIP or draft and invite reviewers"
 msgstr ""
 
 #: ../../upstream-details.rst:206
@@ -1004,7 +1004,7 @@ msgid ""
 msgstr ""
 
 #: ../../upstream-details.rst:226
-msgid "Exercise: add an error and match it to the jenkins message"
+msgid "Exercise: add an error and match it to the Jenkins message"
 msgstr ""
 
 #: ../../upstream-details.rst:229
@@ -1022,83 +1022,59 @@ msgid ""
 msgstr ""
 
 #: ../../upstream-details.rst:237
-msgid "Take the pulse of the project."
+msgid "Take the pulse of the project"
 msgstr ""
 
 #: ../../upstream-details.rst:238
-msgid "Figure out who's behind it."
+msgid "Figure out who's behind it"
 msgstr ""
 
 #: ../../upstream-details.rst:239
-msgid "Determine the project's social groups."
-msgstr ""
-
-#: ../../upstream-details.rst:240
-msgid "Assess your approach."
-msgstr ""
-
-#: ../../upstream-details.rst:241
-msgid "Engage immediately."
+msgid "Determine the project's social groups"
 msgstr ""
 
 #: ../../upstream-details.rst:242
-msgid "Play with your network."
+msgid "Play with your network"
 msgstr ""
 
 #: ../../upstream-details.rst:243
-msgid "Perform the smaller tasks."
+msgid "Perform the smaller tasks"
 msgstr ""
 
 #: ../../upstream-details.rst:244
-msgid "Choose a question."
+msgid "Choose a question"
 msgstr ""
 
 #: ../../upstream-details.rst:245
-msgid "Familiarize yourself with the code of conduct."
+msgid "Familiarize yourself with the code of conduct"
 msgstr ""
 
 #: ../../upstream-details.rst:246
-msgid "Understand the conventions."
-msgstr ""
-
-#: ../../upstream-details.rst:247
-msgid "Explain what you do."
-msgstr ""
-
-#: ../../upstream-details.rst:248
-msgid "Prepare the backport."
+msgid "Understand the conventions"
 msgstr ""
 
 #: ../../upstream-details.rst:249
-msgid "Learn what's local and what's upstream."
+msgid "Learn what's local and what's upstream"
 msgstr ""
 
 #: ../../upstream-details.rst:250
-msgid "Learn what distinguishes good work flow from bad work flow."
-msgstr ""
-
-#: ../../upstream-details.rst:251
-msgid "Quantify the delta."
+msgid "Learn what distinguishes good work flow from bad work flow"
 msgstr ""
 
 #: ../../upstream-details.rst:252
-msgid "Speed up the acceptance."
+msgid "Speed up the acceptance"
 msgstr ""
 
 #: ../../upstream-details.rst:253
-msgid "Determine the time frame."
+msgid "Determine the time frame"
 msgstr ""
 
 #: ../../upstream-details.rst:254
-msgid "Maximize karma."
+msgid "Maximize karma"
 msgstr ""
 
 #: ../../upstream-details.rst:255
-msgid "Work in parallel."
-msgstr ""
-
-#: ../../upstream-details.rst:256
-msgid "Archive and collect."
+msgid "Work in parallel"
 msgstr ""
 
 #: ../../upstream-details.rst:259
@@ -1153,19 +1129,19 @@ msgstr ""
 #: ../../upstream-details.rst:283
 msgid ""
 "The students use template slides to prepare a 5-minute presentation of their "
-"planned contribution."
+"planned contribution"
 msgstr ""
 
 #: ../../upstream-details.rst:285
-msgid "A sample presentation is given by the teacher, as an example."
+msgid "A sample presentation is given by the teacher, as an example"
 msgstr ""
 
 #: ../../upstream-details.rst:286
 msgid ""
 "Each student group prepares a presentation describing: * the contribution "
-"they plan to work on during the online sessions, * how they will engage with "
-"the Upstream, * how it contributes to the company's agenda * and whom they "
-"will be working with."
+"they plan to work on during the online sessions * how they will engage with "
+"the Upstream * how it contributes to the company's agenda * and whom they "
+"will be working with"
 msgstr ""
 
 #: ../../upstream-details.rst:291
