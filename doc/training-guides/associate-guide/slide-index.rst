@@ -9,6 +9,7 @@ OpenStack Training Guides - Associate Guide
 Modules
 =======
 
+- `Getting started <01-getting-started.html>`_
 - `OpenStack networking <07-associate-network-node.html>`_
 - `OpenStack compute <compute-overview.html>`_
 
@@ -16,7 +17,7 @@ Modules
 Quizzes
 =======
 
-- `Getting started <02-getting-started-quiz.html>`_
+- `Getting started quiz <02-getting-started-quiz.html>`_
 - `Compute node <06-compute-node-quiz.html>`_
 
 
