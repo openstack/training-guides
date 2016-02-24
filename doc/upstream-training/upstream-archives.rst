@@ -10,8 +10,8 @@ Also, some user groups hold the local upstream training in their country.
 We are appreciating all staffs, especially Loic Dachary, Stefano Maffulli,
 and Tim Freund who lead the training respectively.
 
-2015 Tokyo
-==========
+2015 Tokyo, Japan
+=================
 
 2015 Tokyo Staff (Thank You!)
 -----------------------------
@@ -25,8 +25,8 @@ and Tim Freund who lead the training respectively.
 * KATO Tomoyuki (assistant, Japanese)
 * macJack (assistant, English, Chinese)
 
-2015 Vancouver
-==============
+2015 Vancouver, Canada
+======================
 
 2015 Vancouver Staff (Thank You!)
 ---------------------------------
@@ -42,8 +42,8 @@ and Tim Freund who lead the training respectively.
 * macJack (assistant, English, Chinese)
 * François Bureau (assistant, french, english)
 
-2014 Paris
-==========
+2014 Paris, France
+==================
 
 `OpenStack Upstream Training in Paris
 <http://www.openstack.org/blog/2014/08/openstack-upstream-training-in-paris/>`_.
@@ -71,8 +71,8 @@ and Tim Freund who lead the training respectively.
 * Haikel Guemar (assistant, mentor, french, english)
 * Takashi Torii (assistant, japanese)
 
-2014 Atlanta
-============
+2014 Atlanta, USA
+=================
 
 `OpenStack Upstream Training in Atlanta A Big Success
 <http://www.openstack.org/blog/2014/05/openstack-upstream-training-in-atlanta-a-big-success/>`_.
@@ -86,3 +86,42 @@ and Tim Freund who lead the training respectively.
 * Rodolphe Quiedeville (training, mentoring, assistant, french)
 * Edouard THULEAU (assistant, french, english)
 * Sahid Ferdjaoui (assistant, french, english)
+
+Local Upstream Trainings
+========================
+
+Seoul, Korea
+------------
+
+* Date: February 18, 2016 (Thu)
+* `Etherpad for Upstream Training, Korea, 2016
+  <https://etherpad.openstack.org/p/upstream-training-korea-2016>`_
+* More information: http://sdndev.net/10
+* Staff
+
+  * Ian Y. Choi (training, assistant, mentoring)
+  * Stephan Ahn (training, assistant, mentoring)
+  * Sungjin Kang (training, assistant, mentoring)
+  * Namgon Lucas Kim (assistant, mentoring)
+  * Junsik Shin (assistant, mentoring)
+  * Jungsu Han (assistant, mentoring)
+  * Jieun Kim (assistant)
+
+Tokyo, Japan
+------------
+
+Japan OpenStack User Group has held the Upstream Training in Japan.
+
+.. list-table:: Upstream Training in Japan
+   :header-rows: 1
+
+   * - Date
+     - Description
+   * - July 9 - 10, 2015 (Thu - Fri)
+     - More information:
+       http://www.meetup.com/Japan-OpenStack-User-Group/events/223005607/
+   * - February 2 - 3, 2015 (Mon - Tue)
+     - More information: http://openstackdays.com/archive/2015/feature/
+   * - October 10 - 11, 2014 (Fri - Sat)
+     - More information:
+       http://www.openstack.org/blog/2014/11/openstack-upstream-training-in-japan/

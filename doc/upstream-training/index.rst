@@ -67,7 +67,8 @@ processes for mentors and staff are kept on the `admin
 **Still looking for help: please**
 `register <https://openstackfoundation.formstack.com/forms/mentoring>`_
 
-For more information about the past trainings, see :doc:`upstream-archives`.
+For more information about the past trainings and local upstream trainings,
+see :doc:`upstream-archives`.
 
 Outline and online slide index
 ==============================
