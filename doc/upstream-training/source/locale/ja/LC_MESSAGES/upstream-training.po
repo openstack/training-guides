@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-04 21:46+0000\n"
+"POT-Creation-Date: 2016-02-26 08:00+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -54,26 +54,14 @@ msgstr "2013.2 ブランチとタグ"
 msgid "2013.2.4 preparation"
 msgstr "2013.2.4 準備"
 
-msgid "2014 Atlanta"
-msgstr "2014 Atlanta"
-
 msgid "2014 Atlanta Staff (Thank You!)"
 msgstr "2014 Atlanta スタッフ (ありがとう!)"
-
-msgid "2014 Paris"
-msgstr "2014 Paris"
 
 msgid "2014 Paris Staff (Thank You!)"
 msgstr "2014 Paris スタッフ (ありがとう!)"
 
-msgid "2015 Tokyo"
-msgstr "2015 Tokyo"
-
 msgid "2015 Tokyo Staff (Thank You!)"
 msgstr "2015 Tokyo スタッフ (ありがとう!)"
-
-msgid "2015 Vancouver"
-msgstr "2015 Vancouver"
 
 msgid "2015 Vancouver Staff (Thank You!)"
 msgstr "2015 Vancouver スタッフ (ありがとう!)"
@@ -862,10 +850,6 @@ msgid ""
 "Team"
 msgstr ""
 "Liberty 以降、統合プロジェクトはリリース管理チームにより管理されているもの"
-
-msgid ""
-"For more information about the past trainings, see :doc:`upstream-archives`."
-msgstr "これまでの開催の詳細は :doc:`upstream-archives` を参照してください。"
 
 msgid "For more information, see :doc:`upstream-details`."
 msgstr "詳細は :doc:`upstream-details` を参照してください。"

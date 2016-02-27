@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-09 06:00+0000\n"
+"POT-Creation-Date: 2016-02-27 06:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -137,97 +137,102 @@ msgstr ""
 
 #: ../../index.rst:70
 msgid ""
-"For more information about the past trainings, see :doc:`upstream-archives`."
+"For more information about the past trainings and local upstream trainings, "
+"see :doc:`upstream-archives`."
 msgstr ""
 
-#: ../../index.rst:73
+#: ../../index.rst:74
 msgid "Outline and online slide index"
 msgstr ""
 
-#: ../../index.rst:76
+#: ../../index.rst:77
 msgid "How OpenStack is made"
 msgstr ""
 
-#: ../../index.rst:78
+#: ../../index.rst:79
 msgid "`Release cycle <01-release-cycle.html>`_"
 msgstr ""
 
-#: ../../index.rst:79
+#: ../../index.rst:80
 msgid "`Relevant actors <02-relevant-actors.html>`_"
 msgstr ""
 
-#: ../../index.rst:80
+#: ../../index.rst:81
 msgid "`OpenStack Governance <03-technical-committee.html>`_"
 msgstr ""
 
-#: ../../index.rst:81
+#: ../../index.rst:82
 msgid "`OpenStack \"Big Tent\" and tags <04-program-ecosystem.html>`_"
 msgstr ""
 
-#: ../../index.rst:82
+#: ../../index.rst:83
 msgid "`OpenStack Design Summit <05-design-summit.html>`_"
 msgstr ""
 
-#: ../../index.rst:83
+#: ../../index.rst:84
 msgid "`IRC meetings <06-irc-meetings.html>`_"
 msgstr ""
 
-#: ../../index.rst:86
+#: ../../index.rst:87
 msgid "Workflow of an OpenStack contribution and tools"
 msgstr ""
 
-#: ../../index.rst:88
+#: ../../index.rst:89
 msgid "`devstack.org <11-devstack.html>`_"
 msgstr ""
 
-#: ../../index.rst:89
+#: ../../index.rst:90
 msgid "`How to contribute <12-howtocontribute.html>`_"
 msgstr ""
 
-#: ../../index.rst:90
+#: ../../index.rst:91
 msgid "`launchpad.net <13-launchpad.html>`_"
 msgstr ""
 
-#: ../../index.rst:91
+#: ../../index.rst:92
 msgid "`review.openstack.org <14-gerrit.html>`_"
 msgstr ""
 
-#: ../../index.rst:92
+#: ../../index.rst:93
 msgid "`Branching model <15-branching-model.html>`_"
 msgstr ""
 
-#: ../../index.rst:93
+#: ../../index.rst:94
 msgid "`Reviewing <16-reviewing.html>`_"
 msgstr ""
 
-#: ../../index.rst:94
+#: ../../index.rst:95
 msgid "`Commit messages <17-commit-message.html>`_"
 msgstr ""
 
-#: ../../index.rst:95
+#: ../../index.rst:96
 msgid "`Jenkins <18-jenkins.html>`_"
 msgstr ""
 
-#: ../../index.rst:98
+#: ../../index.rst:99
 msgid "The Contribution Process"
 msgstr ""
 
-#: ../../index.rst:100
+#: ../../index.rst:101
 msgid ""
 "`Overview of the contribution process <19-training-contribution-process."
 "html>`_"
 msgstr ""
 
-#: ../../index.rst:102
+#: ../../index.rst:103
 msgid ""
 "`Lego applied to Free Software contributions <20-training-agile-for-"
 "contributors.html>`_"
 msgstr ""
 
-#: ../../index.rst:105
+#: ../../index.rst:106
 msgid ""
 "`Complete index in slide format only <http://docs.openstack.org/upstream-"
 "training/slide-index.html>`_"
+msgstr ""
+
+#: ../../upstream-archives.rst:0
+msgid "Upstream Training in Japan"
 msgstr ""
 
 #: ../../upstream-archives.rst:3
@@ -249,7 +254,7 @@ msgid ""
 msgstr ""
 
 #: ../../upstream-archives.rst:14
-msgid "2015 Tokyo"
+msgid "2015 Tokyo, Japan"
 msgstr ""
 
 #: ../../upstream-archives.rst:17
@@ -290,7 +295,7 @@ msgid "macJack (assistant, English, Chinese)"
 msgstr ""
 
 #: ../../upstream-archives.rst:29
-msgid "2015 Vancouver"
+msgid "2015 Vancouver, Canada"
 msgstr ""
 
 #: ../../upstream-archives.rst:32
@@ -326,7 +331,7 @@ msgid "François Bureau (assistant, french, english)"
 msgstr ""
 
 #: ../../upstream-archives.rst:46
-msgid "2014 Paris"
+msgid "2014 Paris, France"
 msgstr ""
 
 #: ../../upstream-archives.rst:48
@@ -396,7 +401,7 @@ msgid "Haikel Guemar (assistant, mentor, french, english)"
 msgstr ""
 
 #: ../../upstream-archives.rst:75
-msgid "2014 Atlanta"
+msgid "2014 Atlanta, USA"
 msgstr ""
 
 #: ../../upstream-archives.rst:77
@@ -411,6 +416,100 @@ msgstr ""
 
 #: ../../upstream-archives.rst:87
 msgid "Edouard THULEAU (assistant, french, english)"
+msgstr ""
+
+#: ../../upstream-archives.rst:91
+msgid "Local Upstream Trainings"
+msgstr ""
+
+#: ../../upstream-archives.rst:94
+msgid "Seoul, Korea"
+msgstr ""
+
+#: ../../upstream-archives.rst:96
+msgid "Date: February 18, 2016 (Thu)"
+msgstr ""
+
+#: ../../upstream-archives.rst:97
+msgid ""
+"`Etherpad for Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
+"p/upstream-training-korea-2016>`_"
+msgstr ""
+
+#: ../../upstream-archives.rst:99
+msgid "More information: http://sdndev.net/10"
+msgstr ""
+
+#: ../../upstream-archives.rst:102
+msgid "Ian Y. Choi (training, assistant, mentoring)"
+msgstr ""
+
+#: ../../upstream-archives.rst:103
+msgid "Stephan Ahn (training, assistant, mentoring)"
+msgstr ""
+
+#: ../../upstream-archives.rst:104
+msgid "Sungjin Kang (training, assistant, mentoring)"
+msgstr ""
+
+#: ../../upstream-archives.rst:105
+msgid "Namgon Lucas Kim (assistant, mentoring)"
+msgstr ""
+
+#: ../../upstream-archives.rst:106
+msgid "Junsik Shin (assistant, mentoring)"
+msgstr ""
+
+#: ../../upstream-archives.rst:107
+msgid "Jungsu Han (assistant, mentoring)"
+msgstr ""
+
+#: ../../upstream-archives.rst:108
+msgid "Jieun Kim (assistant)"
+msgstr ""
+
+#: ../../upstream-archives.rst:111
+msgid "Tokyo, Japan"
+msgstr ""
+
+#: ../../upstream-archives.rst:113
+msgid "Japan OpenStack User Group has held the Upstream Training in Japan."
+msgstr ""
+
+#: ../../upstream-archives.rst:118
+msgid "Date"
+msgstr ""
+
+#: ../../upstream-archives.rst:119
+msgid "Description"
+msgstr ""
+
+#: ../../upstream-archives.rst:120
+msgid "July 9 - 10, 2015 (Thu - Fri)"
+msgstr ""
+
+#: ../../upstream-archives.rst:121
+msgid ""
+"More information: http://www.meetup.com/Japan-OpenStack-User-Group/"
+"events/223005607/"
+msgstr ""
+
+#: ../../upstream-archives.rst:123
+msgid "February 2 - 3, 2015 (Mon - Tue)"
+msgstr ""
+
+#: ../../upstream-archives.rst:124
+msgid "More information: http://openstackdays.com/archive/2015/feature/"
+msgstr ""
+
+#: ../../upstream-archives.rst:125
+msgid "October 10 - 11, 2014 (Fri - Sat)"
+msgstr ""
+
+#: ../../upstream-archives.rst:126
+msgid ""
+"More information: http://www.openstack.org/blog/2014/11/openstack-upstream-"
+"training-in-japan/"
 msgstr ""
 
 #: ../../upstream-details.rst:3
