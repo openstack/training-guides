@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-02-08 10:02+0000\n"
+"PO-Revision-Date: 2016-02-27 06:31+0000\n"
 "Last-Translator: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -57,14 +57,26 @@ msgstr "2013.2.4 準備"
 msgid "2014 Atlanta Staff (Thank You!)"
 msgstr "2014 Atlanta スタッフ (ありがとう!)"
 
+msgid "2014 Atlanta, USA"
+msgstr "2014 Atlanta, USA"
+
 msgid "2014 Paris Staff (Thank You!)"
 msgstr "2014 Paris スタッフ (ありがとう!)"
+
+msgid "2014 Paris, France"
+msgstr "2014 Paris, France"
 
 msgid "2015 Tokyo Staff (Thank You!)"
 msgstr "2015 Tokyo スタッフ (ありがとう!)"
 
+msgid "2015 Tokyo, Japan"
+msgstr "2015 Tokyo, Japan"
+
 msgid "2015 Vancouver Staff (Thank You!)"
 msgstr "2015 Vancouver スタッフ (ありがとう!)"
+
+msgid "2015 Vancouver, Canada"
+msgstr "2015 Vancouver, Canada"
 
 msgid "32,255 people"
 msgstr "32,255 人"
@@ -504,6 +516,12 @@ msgstr ""
 "多くのユーザーに影響するデータ破壊や障害、回避方法あり。重要な機能の障害、回"
 "避方法なし"
 
+msgid "Date"
+msgstr "日付"
+
+msgid "Date: February 18, 2016 (Thu)"
+msgstr "日付: 2016年2月18日 (木)"
+
 msgid "Day 1: How OpenStack is made"
 msgstr "1 日目: OpenStack はどのように作られているか"
 
@@ -539,6 +557,9 @@ msgstr "OpenStack コミュニティーのチームにより作成されるア�
 
 msgid "Describe why a change is being made"
 msgstr "なぜ変更されるのかを説明します。"
+
+msgid "Description"
+msgstr "説明"
 
 msgid "Determine the project's social groups"
 msgstr "プロジェクトの社会的なグループを判断する。"
@@ -789,6 +810,9 @@ msgstr "機能提案の凍結"
 msgid "Feature-frozen"
 msgstr "機能の凍結"
 
+msgid "February 2 - 3, 2015 (Mon - Tue)"
+msgstr "2015 年 2 月 2 - 3 日 (月 - 火)"
+
 msgid "Feedback and comments"
 msgstr "フィードバックとコメント"
 
@@ -850,6 +874,11 @@ msgid ""
 "Team"
 msgstr ""
 "Liberty 以降、統合プロジェクトはリリース管理チームにより管理されているもの"
+
+msgid ""
+"For more information about the past trainings and local upstream trainings, "
+"see :doc:`upstream-archives`."
+msgstr "これまでの開催の詳細は :doc:`upstream-archives` を参照してください。"
 
 msgid "For more information, see :doc:`upstream-details`."
 msgstr "詳細は :doc:`upstream-details` を参照してください。"
@@ -980,6 +1009,9 @@ msgstr "IRC ミーティング"
 msgid "IRC meetings list"
 msgstr "IRC ミーティング一覧"
 
+msgid "Ian Y. Choi (training, assistant, mentoring)"
+msgstr "Ian Y. Choi (training, assistant, mentoring)"
+
 msgid ""
 "If contributing code, being technically proficient enough to carry out "
 "simple bug fixes in the project"
@@ -1070,14 +1102,29 @@ msgstr "Invalid"
 msgid "Irena Berezovsky (assistant, mentor, english)"
 msgstr "Irena Berezovsky (assistant, mentor, english)"
 
+msgid "Japan OpenStack User Group has held the Upstream Training in Japan."
+msgstr "日本OpenStackユーザ会は、日本版 Upstream Training を開催してきました。"
+
 msgid "Jenkins"
 msgstr "Jenkins"
+
+msgid "Jieun Kim (assistant)"
+msgstr "Jieun Kim (assistant)"
 
 msgid "Join irc.freenode.net#upstream-university"
 msgstr "irc.freenode.net#upstream-university に参加してください。"
 
 msgid "Julie Pichon (training, mentoring, assistant, english)"
 msgstr "Julie Pichon (training, mentoring, assistant, english)"
+
+msgid "July 9 - 10, 2015 (Thu - Fri)"
+msgstr "2015 年 7 月 9 - 10 日 (木 - 金)"
+
+msgid "Jungsu Han (assistant, mentoring)"
+msgstr "Jungsu Han (assistant, mentoring)"
+
+msgid "Junsik Shin (assistant, mentoring)"
+msgstr "Junsik Shin (assistant, mentoring)"
 
 msgid "KATO Tomoyuki (assistant, Japanese)"
 msgstr "KATO Tomoyuki (assistant, Japanese)"
@@ -1146,6 +1193,9 @@ msgid ""
 msgstr ""
 "各測定項目に対して、コントリビューション予定のモジュールにおいて最も影響力の"
 "ある 3 社と個人 3 名を一覧化してください。"
+
+msgid "Local Upstream Trainings"
+msgstr "ローカル Upstream Trainings"
 
 msgid "Local and upstream"
 msgstr "ローカルとアップストリーム"
@@ -1234,6 +1284,25 @@ msgstr "コードの機能変更と空白の変更の混在"
 msgid "Module contributors"
 msgstr "モジュールのコントリビューター"
 
+msgid "More information: http://openstackdays.com/archive/2015/feature/"
+msgstr "詳細: http://openstackdays.com/archive/2015/feature/"
+
+msgid "More information: http://sdndev.net/10"
+msgstr "詳細: http://sdndev.net/10"
+
+msgid ""
+"More information: http://www.meetup.com/Japan-OpenStack-User-Group/"
+"events/223005607/"
+msgstr ""
+"詳細: http://www.meetup.com/Japan-OpenStack-User-Group/events/223005607/"
+
+msgid ""
+"More information: http://www.openstack.org/blog/2014/11/openstack-upstream-"
+"training-in-japan/"
+msgstr ""
+"詳細: http://www.openstack.org/blog/2014/11/openstack-upstream-training-in-"
+"japan/"
+
 msgid "More than 20 million lines of code"
 msgstr "2,000 万行以上のコード"
 
@@ -1250,6 +1319,9 @@ msgstr "最新リリース (\"Liberty\") の統計:"
 
 msgid "Motions"
 msgstr "動議"
+
+msgid "Namgon Lucas Kim (assistant, mentoring)"
+msgstr "Namgon Lucas Kim (assistant, mentoring)"
 
 msgid "New"
 msgstr "New"
@@ -1307,6 +1379,9 @@ msgstr "トピックについて学び始めることに適していません"
 
 msgid "Objectives"
 msgstr "目的"
+
+msgid "October 10 - 11, 2014 (Fri - Sat)"
+msgstr "2014 年 10 月 10 - 11 日 (金 - 土)"
 
 msgid "Old way of adding new Projects"
 msgstr "新規プロジェクトを追加する古い方法"
@@ -1648,6 +1723,9 @@ msgstr "あなたのコントリビューションについて友人にメール
 msgid "Sending large new features in a single giant commit."
 msgstr "巨大なコミットにおける新機能の大規模な追加"
 
+msgid "Seoul, Korea"
+msgstr "韓国 ソウル"
+
 msgid ""
 "Sessions are proposed on an open document (generally an Etherpad) and "
 "discussed at team meetings."
@@ -1749,6 +1827,9 @@ msgstr "Stefano Maffulli (training, mentoring, assistant, english)"
 msgid "Step down considerately"
 msgstr "思慮深く辞退する"
 
+msgid "Stephan Ahn (training, assistant, mentoring)"
+msgstr "Stephan Ahn (training, assistant, mentoring)"
+
 msgid "Stop adding features and concentrate on bug fixes"
 msgstr "機能の追加の停止、バグ修正への集中"
 
@@ -1765,6 +1846,9 @@ msgid "Successfully contribute one real world patch to an OpenStack component"
 msgstr ""
 "OpenStack コンポーネントへのパッチのコントリビューションを実際に 1 つ成功させ"
 "る"
+
+msgid "Sungjin Kang (training, assistant, mentoring)"
+msgstr "Sungjin Kang (training, assistant, mentoring)"
 
 msgid "Superseded by *Big tent* approach with `tags`"
 msgstr "*Big tent* というアプローチと `タグ` により引き継がれた "
@@ -2007,6 +2091,9 @@ msgstr "LEGO 演習の時間"
 msgid "Timeframe"
 msgstr "時間枠"
 
+msgid "Tokyo, Japan"
+msgstr "日本 東京"
+
 msgid "Translations / i18n issues."
 msgstr "翻訳 / i18n 関連の問題。"
 
@@ -2052,6 +2139,9 @@ msgstr "UpgradeImpact"
 
 msgid "Upstream"
 msgstr "アップストリーム"
+
+msgid "Upstream Training in Japan"
+msgstr "日本ローカル Upstream Training"
 
 msgid "Upstream project : a lego town"
 msgstr "アップストリームプロジェクト：レゴタウン"
@@ -2343,6 +2433,13 @@ msgid ""
 msgstr ""
 "`Austin Upstream Training 向け Etherpad <https://etherpad.openstack.org/p/"
 "upstream-training-austin>`_"
+
+msgid ""
+"`Etherpad for Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
+"p/upstream-training-korea-2016>`_"
+msgstr ""
+"`Etherpad for Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
+"p/upstream-training-korea-2016>`_"
 
 msgid ""
 "`Git Commit Good Practice <https://wiki.openstack.org/wiki/"
