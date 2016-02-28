@@ -5,16 +5,17 @@ OpenStack Upstream Training Archives
 We held the first OpenStack Upstream Training in Atlanta,
 before OpenStack Summit Atlanta 2014.
 Since Atlanta, we have held the training before every OpenStack Summit.
-Also, some user groups hold the local upstream training in their country.
+Besides this "official" event, some user groups hold the local
+Upstream trainings.
 
-We are appreciating all staffs, especially Loic Dachary, Stefano Maffulli,
-and Tim Freund who lead the training respectively.
+A big thank you to everyone that has made this possible, especially
+Loic Dachary, Stefano Maffulli, and Tim Freund who lead the trainings.
 
 2015 Tokyo, Japan
 =================
 
-2015 Tokyo Staff (Thank You!)
------------------------------
+Staff
+-----
 
 * Tim Freund (training, mentoring, assistant, english)
 * Chris Ricker (training, mentoring, assistant, english)
@@ -28,8 +29,8 @@ and Tim Freund who lead the training respectively.
 2015 Vancouver, Canada
 ======================
 
-2015 Vancouver Staff (Thank You!)
----------------------------------
+Staff
+-----
 
 * Tim Freund (training, assistant, english)
 * Chris Ricker (training, mentoring, assistant, english)
@@ -48,8 +49,8 @@ and Tim Freund who lead the training respectively.
 `OpenStack Upstream Training in Paris
 <http://www.openstack.org/blog/2014/08/openstack-upstream-training-in-paris/>`_.
 
-2014 Paris Staff (Thank You!)
------------------------------
+Staff
+-----
 
 * Stefano Maffulli (training, mentoring, assistant, english)
 * Loic Dachary (training, mentoring, assistant, french, english)
@@ -77,10 +78,10 @@ and Tim Freund who lead the training respectively.
 `OpenStack Upstream Training in Atlanta A Big Success
 <http://www.openstack.org/blog/2014/05/openstack-upstream-training-in-atlanta-a-big-success/>`_.
 
-2014 Atlanta Staff (Thank You!)
--------------------------------
+Staff
+-----
 
-* Loic Dachary (training, mentoring, assistant, french, english)
+* Loic Dachary (training, mentoring, assistant, french, english) - lead
 * Chris Ricker (training, mentoring, assistant, english)
 * Xavier Antoviaque (training, mentoring, assistant, french, english)
 * Rodolphe Quiedeville (training, mentoring, assistant, french)
