@@ -51,6 +51,7 @@ How to prepare
   Alternatively, you can use your virtual machine on a public cloud.
 * Check that you can ssh from your laptop to the virtual machine
 * Check that :command:`apt-get install` works on the virtual machine
+* Read and complete the :doc:`irc` guide.
 * Get in touch with the team upstream-training@openstack.org to pick
   a contribution to work on.
 
