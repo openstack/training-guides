@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-27 06:18+0000\n"
+"POT-Creation-Date: 2016-03-06 06:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -243,270 +243,258 @@ msgstr ""
 msgid ""
 "We held the first OpenStack Upstream Training in Atlanta, before OpenStack "
 "Summit Atlanta 2014. Since Atlanta, we have held the training before every "
-"OpenStack Summit. Also, some user groups hold the local upstream training in "
-"their country."
+"OpenStack Summit. Besides this \"official\" event, some user groups hold the "
+"local Upstream trainings."
 msgstr ""
 
-#: ../../upstream-archives.rst:10
+#: ../../upstream-archives.rst:11
 msgid ""
-"We are appreciating all staffs, especially Loic Dachary, Stefano Maffulli, "
-"and Tim Freund who lead the training respectively."
+"A big thank you to everyone that has made this possible, especially Loic "
+"Dachary, Stefano Maffulli, and Tim Freund who lead the trainings."
 msgstr ""
 
-#: ../../upstream-archives.rst:14
+#: ../../upstream-archives.rst:15
 msgid "2015 Tokyo, Japan"
 msgstr ""
 
-#: ../../upstream-archives.rst:17
-msgid "2015 Tokyo Staff (Thank You!)"
-msgstr ""
-
-#: ../../upstream-archives.rst:19
+#: ../../upstream-archives.rst:20
 msgid "Tim Freund (training, mentoring, assistant, english)"
 msgstr ""
 
-#: ../../upstream-archives.rst:20 ../../upstream-archives.rst:35
-#: ../../upstream-archives.rst:56 ../../upstream-archives.rst:84
+#: ../../upstream-archives.rst:21 ../../upstream-archives.rst:36
+#: ../../upstream-archives.rst:57 ../../upstream-archives.rst:85
 msgid "Chris Ricker (training, mentoring, assistant, english)"
 msgstr ""
 
-#: ../../upstream-archives.rst:21
+#: ../../upstream-archives.rst:22
 msgid "Loïc Dachary (Training, mentoring, assistant, english and french)"
 msgstr ""
 
-#: ../../upstream-archives.rst:22
+#: ../../upstream-archives.rst:23
 msgid "Shinobu KINJO (mentoring, assistant, japanese)"
 msgstr ""
 
-#: ../../upstream-archives.rst:23
+#: ../../upstream-archives.rst:24
 msgid "Cleber Rosa (mentoring, assistant, portuguese)"
 msgstr ""
 
-#: ../../upstream-archives.rst:24
+#: ../../upstream-archives.rst:25
 msgid "Rohit Agarwalla (assistant)"
 msgstr ""
 
-#: ../../upstream-archives.rst:25 ../../upstream-archives.rst:41
+#: ../../upstream-archives.rst:26 ../../upstream-archives.rst:42
 msgid "KATO Tomoyuki (assistant, Japanese)"
 msgstr ""
 
-#: ../../upstream-archives.rst:26 ../../upstream-archives.rst:42
+#: ../../upstream-archives.rst:27 ../../upstream-archives.rst:43
 msgid "macJack (assistant, English, Chinese)"
 msgstr ""
 
-#: ../../upstream-archives.rst:29
+#: ../../upstream-archives.rst:30
 msgid "2015 Vancouver, Canada"
 msgstr ""
 
-#: ../../upstream-archives.rst:32
-msgid "2015 Vancouver Staff (Thank You!)"
-msgstr ""
-
-#: ../../upstream-archives.rst:34
+#: ../../upstream-archives.rst:35
 msgid "Tim Freund (training, assistant, english)"
 msgstr ""
 
-#: ../../upstream-archives.rst:36 ../../upstream-archives.rst:63
+#: ../../upstream-archives.rst:37 ../../upstream-archives.rst:64
 msgid "Sylvain Bauza (assistant, mentoring, training, french, english)"
 msgstr ""
 
-#: ../../upstream-archives.rst:37
+#: ../../upstream-archives.rst:38
 msgid "Lana Brindley (assistant, mentoring, English)"
 msgstr ""
 
-#: ../../upstream-archives.rst:38
+#: ../../upstream-archives.rst:39
 msgid "Rossella Sblendido (assistant, Italian, English)"
 msgstr ""
 
-#: ../../upstream-archives.rst:39 ../../upstream-archives.rst:68
+#: ../../upstream-archives.rst:40 ../../upstream-archives.rst:69
 msgid "Victoria Martínez de la Cruz (assistant, english)"
 msgstr ""
 
-#: ../../upstream-archives.rst:40 ../../upstream-archives.rst:72
+#: ../../upstream-archives.rst:41 ../../upstream-archives.rst:73
 msgid "Takashi Torii (assistant, japanese)"
 msgstr ""
 
-#: ../../upstream-archives.rst:43 ../../upstream-archives.rst:60
+#: ../../upstream-archives.rst:44 ../../upstream-archives.rst:61
 msgid "François Bureau (assistant, french, english)"
 msgstr ""
 
-#: ../../upstream-archives.rst:46
+#: ../../upstream-archives.rst:47
 msgid "2014 Paris, France"
 msgstr ""
 
-#: ../../upstream-archives.rst:48
+#: ../../upstream-archives.rst:49
 msgid ""
 "`OpenStack Upstream Training in Paris <http://www.openstack.org/blog/2014/08/"
 "openstack-upstream-training-in-paris/>`_."
 msgstr ""
 
-#: ../../upstream-archives.rst:52
-msgid "2014 Paris Staff (Thank You!)"
-msgstr ""
-
-#: ../../upstream-archives.rst:54
+#: ../../upstream-archives.rst:55
 msgid "Stefano Maffulli (training, mentoring, assistant, english)"
 msgstr ""
 
-#: ../../upstream-archives.rst:55 ../../upstream-archives.rst:83
+#: ../../upstream-archives.rst:56
 msgid "Loic Dachary (training, mentoring, assistant, french, english)"
 msgstr ""
 
-#: ../../upstream-archives.rst:57 ../../upstream-archives.rst:85
+#: ../../upstream-archives.rst:58 ../../upstream-archives.rst:86
 msgid "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 msgstr ""
 
-#: ../../upstream-archives.rst:58 ../../upstream-archives.rst:86
+#: ../../upstream-archives.rst:59 ../../upstream-archives.rst:87
 msgid "Rodolphe Quiedeville (training, mentoring, assistant, french)"
 msgstr ""
 
-#: ../../upstream-archives.rst:59
+#: ../../upstream-archives.rst:60
 msgid "Edouard Thuleau (assistant, french, english)"
 msgstr ""
 
-#: ../../upstream-archives.rst:61 ../../upstream-archives.rst:88
+#: ../../upstream-archives.rst:62 ../../upstream-archives.rst:89
 msgid "Sahid Ferdjaoui (assistant, french, english)"
 msgstr ""
 
-#: ../../upstream-archives.rst:62
+#: ../../upstream-archives.rst:63
 msgid "Christophe Sauthier (training, assistant, mentoring, french, english)"
 msgstr ""
 
-#: ../../upstream-archives.rst:64
+#: ../../upstream-archives.rst:65
 msgid "Julie Pichon (training, mentoring, assistant, english)"
 msgstr ""
 
-#: ../../upstream-archives.rst:65
+#: ../../upstream-archives.rst:66
 msgid "Adrien Cunin (mentoring, assistant, french, english)"
 msgstr ""
 
-#: ../../upstream-archives.rst:66
+#: ../../upstream-archives.rst:67
 msgid "Tim Freund (assistant, english)"
 msgstr ""
 
-#: ../../upstream-archives.rst:67
+#: ../../upstream-archives.rst:68
 msgid "Syed Armani (training, mentoring, assistant, english)"
 msgstr ""
 
-#: ../../upstream-archives.rst:69
+#: ../../upstream-archives.rst:70
 msgid "Cindy Pallares (assistant, english)"
 msgstr ""
 
-#: ../../upstream-archives.rst:70
+#: ../../upstream-archives.rst:71
 msgid "Irena Berezovsky (assistant, mentor, english)"
 msgstr ""
 
-#: ../../upstream-archives.rst:71
+#: ../../upstream-archives.rst:72
 msgid "Haikel Guemar (assistant, mentor, french, english)"
 msgstr ""
 
-#: ../../upstream-archives.rst:75
+#: ../../upstream-archives.rst:76
 msgid "2014 Atlanta, USA"
 msgstr ""
 
-#: ../../upstream-archives.rst:77
+#: ../../upstream-archives.rst:78
 msgid ""
 "`OpenStack Upstream Training in Atlanta A Big Success <http://www.openstack."
 "org/blog/2014/05/openstack-upstream-training-in-atlanta-a-big-success/>`_."
 msgstr ""
 
-#: ../../upstream-archives.rst:81
-msgid "2014 Atlanta Staff (Thank You!)"
+#: ../../upstream-archives.rst:84
+msgid "Loic Dachary (training, mentoring, assistant, french, english) - lead"
 msgstr ""
 
-#: ../../upstream-archives.rst:87
+#: ../../upstream-archives.rst:88
 msgid "Edouard THULEAU (assistant, french, english)"
 msgstr ""
 
-#: ../../upstream-archives.rst:91
+#: ../../upstream-archives.rst:92
 msgid "Local Upstream Trainings"
 msgstr ""
 
-#: ../../upstream-archives.rst:94
+#: ../../upstream-archives.rst:95
 msgid "Seoul, Korea"
 msgstr ""
 
-#: ../../upstream-archives.rst:96
+#: ../../upstream-archives.rst:97
 msgid "Date: February 18, 2016 (Thu)"
 msgstr ""
 
-#: ../../upstream-archives.rst:97
+#: ../../upstream-archives.rst:98
 msgid ""
 "`Etherpad for Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
 "p/upstream-training-korea-2016>`_"
 msgstr ""
 
-#: ../../upstream-archives.rst:99
+#: ../../upstream-archives.rst:100
 msgid "More information: http://sdndev.net/10"
 msgstr ""
 
-#: ../../upstream-archives.rst:102
+#: ../../upstream-archives.rst:103
 msgid "Ian Y. Choi (training, assistant, mentoring)"
 msgstr ""
 
-#: ../../upstream-archives.rst:103
+#: ../../upstream-archives.rst:104
 msgid "Stephan Ahn (training, assistant, mentoring)"
 msgstr ""
 
-#: ../../upstream-archives.rst:104
+#: ../../upstream-archives.rst:105
 msgid "Sungjin Kang (training, assistant, mentoring)"
 msgstr ""
 
-#: ../../upstream-archives.rst:105
+#: ../../upstream-archives.rst:106
 msgid "Namgon Lucas Kim (assistant, mentoring)"
 msgstr ""
 
-#: ../../upstream-archives.rst:106
+#: ../../upstream-archives.rst:107
 msgid "Junsik Shin (assistant, mentoring)"
 msgstr ""
 
-#: ../../upstream-archives.rst:107
+#: ../../upstream-archives.rst:108
 msgid "Jungsu Han (assistant, mentoring)"
 msgstr ""
 
-#: ../../upstream-archives.rst:108
+#: ../../upstream-archives.rst:109
 msgid "Jieun Kim (assistant)"
 msgstr ""
 
-#: ../../upstream-archives.rst:111
+#: ../../upstream-archives.rst:112
 msgid "Tokyo, Japan"
 msgstr ""
 
-#: ../../upstream-archives.rst:113
+#: ../../upstream-archives.rst:114
 msgid "Japan OpenStack User Group has held the Upstream Training in Japan."
 msgstr ""
 
-#: ../../upstream-archives.rst:118
+#: ../../upstream-archives.rst:119
 msgid "Date"
 msgstr ""
 
-#: ../../upstream-archives.rst:119
+#: ../../upstream-archives.rst:120
 msgid "Description"
 msgstr ""
 
-#: ../../upstream-archives.rst:120
+#: ../../upstream-archives.rst:121
 msgid "July 9 - 10, 2015 (Thu - Fri)"
 msgstr ""
 
-#: ../../upstream-archives.rst:121
+#: ../../upstream-archives.rst:122
 msgid ""
 "More information: http://www.meetup.com/Japan-OpenStack-User-Group/"
 "events/223005607/"
 msgstr ""
 
-#: ../../upstream-archives.rst:123
+#: ../../upstream-archives.rst:124
 msgid "February 2 - 3, 2015 (Mon - Tue)"
 msgstr ""
 
-#: ../../upstream-archives.rst:124
+#: ../../upstream-archives.rst:125
 msgid "More information: http://openstackdays.com/archive/2015/feature/"
 msgstr ""
 
-#: ../../upstream-archives.rst:125
+#: ../../upstream-archives.rst:126
 msgid "October 10 - 11, 2014 (Fri - Sat)"
 msgstr ""
 
-#: ../../upstream-archives.rst:126
+#: ../../upstream-archives.rst:127
 msgid ""
 "More information: http://www.openstack.org/blog/2014/11/openstack-upstream-"
 "training-in-japan/"

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-26 08:00+0000\n"
+"POT-Creation-Date: 2016-02-28 22:36+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -54,26 +54,14 @@ msgstr "2013.2 ブランチとタグ"
 msgid "2013.2.4 preparation"
 msgstr "2013.2.4 準備"
 
-msgid "2014 Atlanta Staff (Thank You!)"
-msgstr "2014 Atlanta スタッフ (ありがとう!)"
-
 msgid "2014 Atlanta, USA"
 msgstr "2014 Atlanta, USA"
-
-msgid "2014 Paris Staff (Thank You!)"
-msgstr "2014 Paris スタッフ (ありがとう!)"
 
 msgid "2014 Paris, France"
 msgstr "2014 Paris, France"
 
-msgid "2015 Tokyo Staff (Thank You!)"
-msgstr "2015 Tokyo スタッフ (ありがとう!)"
-
 msgid "2015 Tokyo, Japan"
 msgstr "2015 Tokyo, Japan"
-
-msgid "2015 Vancouver Staff (Thank You!)"
-msgstr "2015 Vancouver スタッフ (ありがとう!)"
 
 msgid "2015 Vancouver, Canada"
 msgstr "2015 Vancouver, Canada"
@@ -2169,24 +2157,6 @@ msgstr "ボランティア"
 
 msgid "Voters for a given program PTL"
 msgstr "指定されたプロジェクトの PTL の投票者"
-
-msgid ""
-"We are appreciating all staffs, especially Loic Dachary, Stefano Maffulli, "
-"and Tim Freund who lead the training respectively."
-msgstr ""
-"私たちは、すべてのスタッフ、とくに、それぞれのトレーニングをリードした Loic "
-"Dachary、Stefano Maffulli、Tim Freund に感謝しています。"
-
-msgid ""
-"We held the first OpenStack Upstream Training in Atlanta, before OpenStack "
-"Summit Atlanta 2014. Since Atlanta, we have held the training before every "
-"OpenStack Summit. Also, some user groups hold the local upstream training in "
-"their country."
-msgstr ""
-"はじめての OpenStack Upstream Training は、OpenStack Summit Atlanta 2014 の直"
-"前にアトランタで開催されました。アトランタ以降、毎回 OpenStack Summit  の直前"
-"にトレーニングを開催してきました。また、いくつかのユーザーグループは、それぞ"
-"れの国でローカルなアップストリームトレーニングを開催しています。"
 
 msgid ""
 "We've designed a training program to help professional developers negotiate "
