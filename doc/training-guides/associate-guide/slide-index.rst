@@ -10,6 +10,7 @@ Modules
 =======
 
 - `Getting started <01-getting-started.html>`_
+- `Using with horizon <03-using-with-horizon.html>`_
 - `OpenStack networking <07-associate-network-node.html>`_
 - `OpenStack compute <compute-overview.html>`_
 
