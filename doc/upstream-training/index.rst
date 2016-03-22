@@ -60,7 +60,7 @@ How to prepare
 Staff
 =====
 
-Tim Freund will lead the next training in Austin, in English. Tools and
+Marton Kiss will lead the next training in Austin, in English. Tools and
 processes for mentors and staff are kept on the `admin
 <https://wiki.openstack.org/wiki/OpenStack_Upstream_Training/Admin>`_ page.
 
