@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-06 06:15+0000\n"
+"POT-Creation-Date: 2016-03-24 06:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -107,128 +107,385 @@ msgid "Check that :command:`apt-get install` works on the virtual machine"
 msgstr ""
 
 #: ../../index.rst:54
+msgid "Read and complete the :doc:`irc` guide."
+msgstr ""
+
+#: ../../index.rst:55
 msgid ""
 "Get in touch with the team upstream-training@openstack.org to pick a "
 "contribution to work on."
 msgstr ""
 
-#: ../../index.rst:57
+#: ../../index.rst:58
 msgid ""
 "`Etherpad for Austin Upstream Training <https://etherpad.openstack.org/p/"
 "upstream-training-austin>`_"
 msgstr ""
 
-#: ../../index.rst:61
+#: ../../index.rst:62
 msgid "Staff"
 msgstr ""
 
-#: ../../index.rst:63
+#: ../../index.rst:64
 msgid ""
-"Tim Freund will lead the next training in Austin, in English. Tools and "
+"Marton Kiss will lead the next training in Austin, in English. Tools and "
 "processes for mentors and staff are kept on the `admin <https://wiki."
 "openstack.org/wiki/OpenStack_Upstream_Training/Admin>`_ page."
 msgstr ""
 
-#: ../../index.rst:67
+#: ../../index.rst:68
 msgid ""
 "**Still looking for help: please** `register <https://openstackfoundation."
 "formstack.com/forms/mentoring>`_"
 msgstr ""
 
-#: ../../index.rst:70
+#: ../../index.rst:71
 msgid ""
 "For more information about the past trainings and local upstream trainings, "
 "see :doc:`upstream-archives`."
 msgstr ""
 
-#: ../../index.rst:74
+#: ../../index.rst:75
 msgid "Outline and online slide index"
 msgstr ""
 
-#: ../../index.rst:77
+#: ../../index.rst:78
 msgid "How OpenStack is made"
 msgstr ""
 
-#: ../../index.rst:79
+#: ../../index.rst:80
 msgid "`Release cycle <01-release-cycle.html>`_"
 msgstr ""
 
-#: ../../index.rst:80
+#: ../../index.rst:81
 msgid "`Relevant actors <02-relevant-actors.html>`_"
 msgstr ""
 
-#: ../../index.rst:81
+#: ../../index.rst:82
 msgid "`OpenStack Governance <03-technical-committee.html>`_"
 msgstr ""
 
-#: ../../index.rst:82
+#: ../../index.rst:83
 msgid "`OpenStack \"Big Tent\" and tags <04-program-ecosystem.html>`_"
 msgstr ""
 
-#: ../../index.rst:83
+#: ../../index.rst:84
 msgid "`OpenStack Design Summit <05-design-summit.html>`_"
 msgstr ""
 
-#: ../../index.rst:84
+#: ../../index.rst:85
 msgid "`IRC meetings <06-irc-meetings.html>`_"
 msgstr ""
 
-#: ../../index.rst:87
+#: ../../index.rst:88
 msgid "Workflow of an OpenStack contribution and tools"
 msgstr ""
 
-#: ../../index.rst:89
+#: ../../index.rst:90
 msgid "`devstack.org <11-devstack.html>`_"
 msgstr ""
 
-#: ../../index.rst:90
+#: ../../index.rst:91
 msgid "`How to contribute <12-howtocontribute.html>`_"
 msgstr ""
 
-#: ../../index.rst:91
+#: ../../index.rst:92
 msgid "`launchpad.net <13-launchpad.html>`_"
 msgstr ""
 
-#: ../../index.rst:92
+#: ../../index.rst:93
 msgid "`review.openstack.org <14-gerrit.html>`_"
 msgstr ""
 
-#: ../../index.rst:93
+#: ../../index.rst:94
 msgid "`Branching model <15-branching-model.html>`_"
 msgstr ""
 
-#: ../../index.rst:94
+#: ../../index.rst:95
 msgid "`Reviewing <16-reviewing.html>`_"
 msgstr ""
 
-#: ../../index.rst:95
+#: ../../index.rst:96
 msgid "`Commit messages <17-commit-message.html>`_"
 msgstr ""
 
-#: ../../index.rst:96
+#: ../../index.rst:97
 msgid "`Jenkins <18-jenkins.html>`_"
 msgstr ""
 
-#: ../../index.rst:99
+#: ../../index.rst:100
 msgid "The Contribution Process"
 msgstr ""
 
-#: ../../index.rst:101
+#: ../../index.rst:102
 msgid ""
 "`Overview of the contribution process <19-training-contribution-process."
 "html>`_"
 msgstr ""
 
-#: ../../index.rst:103
+#: ../../index.rst:104
 msgid ""
 "`Lego applied to Free Software contributions <20-training-agile-for-"
 "contributors.html>`_"
 msgstr ""
 
-#: ../../index.rst:106
+#: ../../index.rst:107
 msgid ""
 "`Complete index in slide format only <http://docs.openstack.org/upstream-"
 "training/slide-index.html>`_"
+msgstr ""
+
+#: ../../irc.rst:3
+msgid "Setup IRC"
+msgstr ""
+
+#: ../../irc.rst:6
+msgid "Linux"
+msgstr ""
+
+#: ../../irc.rst:9 ../../irc.rst:107
+msgid "Install an IRC Program"
+msgstr ""
+
+#: ../../irc.rst:10
+msgid "We'll install an IRC program called Hexchat."
+msgstr ""
+
+#: ../../irc.rst:12
+msgid ""
+"For a linux distrubtions like Debian, Ubuntu, or Mint open a terminal and "
+"type::"
+msgstr ""
+
+#: ../../irc.rst:17
+msgid ""
+"For a linux distrubtions like Redhat, Fedora 21 or earlier, or Centos open a "
+"terminal and type::"
+msgstr ""
+
+#: ../../irc.rst:22
+msgid "For Fedora 22 or later open a terminal and type::"
+msgstr ""
+
+#: ../../irc.rst:26
+msgid "Now open the hexchat program just like you would for any linux program."
+msgstr ""
+
+#: ../../irc.rst:30
+msgid "Edit Nick Name Settings"
+msgstr ""
+
+#: ../../irc.rst:31
+msgid ""
+"Lets first fill out the **Nick name** and **User name** field with our "
+"choice of a nickname:"
+msgstr ""
+
+#: ../../irc.rst:33
+msgid ""
+"From the list of **Networks** you should see Freenode. Select that and click "
+"'edit'."
+msgstr ""
+
+#: ../../irc.rst:40
+msgid "Edit Server Settings"
+msgstr ""
+
+#: ../../irc.rst:41
+msgid "Click the **edit** button and"
+msgstr ""
+
+#: ../../irc.rst:42
+msgid ""
+"Make sure that **Use SSL for all the servers on this network** is checked."
+msgstr ""
+
+#: ../../irc.rst:48 ../../irc.rst:133
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../irc.rst:49
+msgid ""
+"If you get a notice that the nick name is already taken, quit and go back to "
+"the first set of steps to pick a different nickname."
+msgstr ""
+
+#: ../../irc.rst:54 ../../irc.rst:146
+msgid "Register Your Nick Name"
+msgstr ""
+
+#: ../../irc.rst:55
+msgid ""
+"If all goes well we should get a dialog window indicating the connection to "
+"freenode has completed, and what to do next.. For now we'll select "
+"\"Nothing, I'll join a channel later.\""
+msgstr ""
+
+#: ../../irc.rst:61 ../../irc.rst:150
+msgid ""
+"When you login to the server for the first time with your nickname, its "
+"being used by you, but it's still not registered yet."
+msgstr ""
+
+#: ../../irc.rst:64 ../../irc.rst:153
+msgid ""
+"In order to register we need to send a message to nickserv on freenode, "
+"which is a bot that allows us to register and identify ourselves as the "
+"owner of a nick name."
+msgstr ""
+
+#: ../../irc.rst:68
+msgid ""
+"Type the following to register your nick name with nickserv replacing "
+"**mysecretpassword** and **test@domain.com** with your own password and "
+"email address::"
+msgstr ""
+
+#: ../../irc.rst:76 ../../irc.rst:170
+msgid ""
+"If all goes well you should receive a message back instantly that the nick "
+"name is registered by you and an activation email will be sent to the email "
+"address you provided."
+msgstr ""
+
+#: ../../irc.rst:83 ../../irc.rst:176
+msgid "Auto-Login On Connecting To Freenode"
+msgstr ""
+
+#: ../../irc.rst:84
+msgid ""
+"In order to identify ourselves that we own the nick name upon logging in, we "
+"need to tell Hexchat to communicate our password over upon connecting."
+msgstr ""
+
+#: ../../irc.rst:87
+msgid ""
+"Click **Hexchat** from the menu and then click **Network List**. We will see "
+"a familiar first screen of servers listed. Make sure freenode is highlighted "
+"and click **edit**."
+msgstr ""
+
+#: ../../irc.rst:90
+msgid ""
+"In the **Password** put in the password we picked in the previous step and "
+"click close."
+msgstr ""
+
+#: ../../irc.rst:97 ../../irc.rst:189
+msgid "Done"
+msgstr ""
+
+#: ../../irc.rst:98
+msgid ""
+"Congratulations you're now ready to communicate with the OpenStack community "
+"and have a registered nick name on Freenode! From here on out when you "
+"connect to Freenode with Hexchat you will be identified with your nickname."
+msgstr ""
+
+#: ../../irc.rst:104
+msgid "Mac OS"
+msgstr ""
+
+#: ../../irc.rst:108
+msgid "We'll install an IRC program called Colloquy."
+msgstr ""
+
+#: ../../irc.rst:110
+msgid "Go to http://colloquy.info and follow the download link."
+msgstr ""
+
+#: ../../irc.rst:111
+msgid ""
+"From your downloads folder, drag the Colloquy application icon to your "
+"applications folder to install."
+msgstr ""
+
+#: ../../irc.rst:116
+msgid "Add A New Connection"
+msgstr ""
+
+#: ../../irc.rst:117
+msgid ""
+"Lets first fill out the **Nickname** and **User name** field with our choice "
+"of a nickname:"
+msgstr ""
+
+#: ../../irc.rst:119
+msgid "For the **Chat server** type in **irc.freenode.net**."
+msgstr ""
+
+#: ../../irc.rst:120
+msgid ""
+"For the **Chat Server Port** type in **6697** and check the **SSL "
+"Connection** box."
+msgstr ""
+
+#: ../../irc.rst:126
+msgid ""
+"If all goes well in the second window we should see our our new connection "
+"and our client connected."
+msgstr ""
+
+#: ../../irc.rst:135
+msgid "Click **cancel**."
+msgstr ""
+
+#: ../../irc.rst:136
+msgid "Click the **info** icon."
+msgstr ""
+
+#: ../../irc.rst:137
+msgid "Type in a different user/nick name as shown in the previous step."
+msgstr ""
+
+#: ../../irc.rst:138
+msgid ""
+"Click **disconnect** and click **connect** to retry connecting with the new "
+"nick name."
+msgstr ""
+
+#: ../../irc.rst:139
+msgid "If you get a notice that the nick name is already taken"
+msgstr ""
+
+#: ../../irc.rst:147
+msgid ""
+"If all goes well we should be connected and no pop ups as indicted in the "
+"previous step's Troubleshooting section."
+msgstr ""
+
+#: ../../irc.rst:157
+msgid "Click the **message user** icon and type::"
+msgstr ""
+
+#: ../../irc.rst:161
+msgid ""
+"A message dialog window will come up. Type the following to register your "
+"nick name with nickserv replacing **mysecretpassword** and **test@domain."
+"com** with your own password and email address::"
+msgstr ""
+
+#: ../../irc.rst:177
+msgid ""
+"In order to identify ourselves that we own the nick name upon logging in, we "
+"need to tell Colloquy to communicate our password over upon connecting."
+msgstr ""
+
+#: ../../irc.rst:180
+msgid ""
+"Going back to your connection window, highlight your freenode connection and "
+"click the **info** icon."
+msgstr ""
+
+#: ../../irc.rst:182
+msgid "In the **Password** field type your password."
+msgstr ""
+
+#: ../../irc.rst:190
+msgid ""
+"Congratulations you're now ready to communicate with the OpenStack community "
+"and have a registered nick name on Freenode! From here on out when you "
+"connect to Freenode with Colloquy you will be identified with your nickname."
 msgstr ""
 
 #: ../../upstream-archives.rst:0
