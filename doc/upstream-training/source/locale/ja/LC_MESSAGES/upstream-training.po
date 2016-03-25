@@ -8,8 +8,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-03-07 04:32+0000\n"
-"Last-Translator: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>\n"
+"PO-Revision-Date: 2016-03-25 02:58+0000\n"
+"Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
 "X-Generator: Zanata 3.7.3\n"
@@ -372,6 +372,15 @@ msgstr "明確な導入"
 msgid "Cleber Rosa (mentoring, assistant, portuguese)"
 msgstr "Cleber Rosa (mentoring, assistant, portuguese)"
 
+msgid "Click **cancel**."
+msgstr "**cancel** をクリックします。"
+
+msgid "Click the **edit** button and"
+msgstr "「edit」ボタンをクリックします。"
+
+msgid "Click the **info** icon."
+msgstr "**info** アイコンをクリックします。"
+
 msgid "Close, daily co-operation between business people and developers"
 msgstr "密接、ビジネス人と開発者の日共同作業"
 
@@ -668,6 +677,12 @@ msgstr "探索しやすくする"
 msgid "Easier to revert"
 msgstr "元に戻しやすく (revert) する"
 
+msgid "Edit Nick Name Settings"
+msgstr "ニックネーム設定の編集"
+
+msgid "Edit Server Settings"
+msgstr "サーバー設定の編集"
+
 msgid "Edouard THULEAU (assistant, french, english)"
 msgstr "Edouard THULEAU (assistant, french, english)"
 
@@ -864,11 +879,28 @@ msgstr "バグ修正への注力"
 msgid "Focus on what we want to do for the next one"
 msgstr "次に実行したいことに注力する"
 
+msgid "For Fedora 22 or later open a terminal and type::"
+msgstr "Fedora 22 以降の場合、ターミナルを開いて次のとおり入力します。::"
+
 msgid ""
 "For Liberty integrated projects are those managed by the Release Management "
 "Team"
 msgstr ""
 "Liberty 以降、統合プロジェクトはリリース管理チームにより管理されているもの"
+
+msgid ""
+"For a linux distrubtions like Debian, Ubuntu, or Mint open a terminal and "
+"type::"
+msgstr ""
+"Debian、Ubuntu、Mint などの Linux ディストリビューションの場合、ターミナルを"
+"開いて次のとおり入力します。::"
+
+msgid ""
+"For a linux distrubtions like Redhat, Fedora 21 or earlier, or Centos open a "
+"terminal and type::"
+msgstr ""
+"Red Hat、Fedora 21 以前などの Linux ディストリビューションの場合、ターミナル"
+"を開いて次のとおり入力します。::"
 
 msgid ""
 "For more information about the past trainings and local upstream trainings, "
@@ -877,6 +909,16 @@ msgstr "これまでの開催の詳細は :doc:`upstream-archives` を参照し�
 
 msgid "For more information, see :doc:`upstream-details`."
 msgstr "詳細は :doc:`upstream-details` を参照してください。"
+
+msgid ""
+"For the **Chat Server Port** type in **6697** and check the **SSL "
+"Connection** box."
+msgstr ""
+"**Chat Server Port** に **6697** を入力して、**SSL Connection** をチェックし"
+"ます。"
+
+msgid "For the **Chat server** type in **irc.freenode.net**."
+msgstr "**Chat server** に **irc.freenode.net** を入力します。"
 
 msgid "Forbidden"
 msgstr "禁止"
@@ -1046,6 +1088,9 @@ msgstr "In Progress"
 msgid "In house version"
 msgstr "インハウスバージョン"
 
+msgid "In the **Password** field type your password."
+msgstr "**Password** フィールドにパスワードを入力します。"
+
 msgid "Incompatible config file changes"
 msgstr "互換性のない設定ファイルの変更"
 
@@ -1075,6 +1120,9 @@ msgstr "インフラストラクチャー"
 
 msgid "Inline comments"
 msgstr "インラインコメント"
+
+msgid "Install an IRC Program"
+msgstr "IRC プログラムのインストール"
 
 msgid "Install git review"
 msgstr "git review のインストール"
@@ -1176,6 +1224,9 @@ msgstr "ブループリントへのリンク"
 msgid "Link to the bug report"
 msgstr "バグレポートへのリンク"
 
+msgid "Linux"
+msgstr "Linux"
+
 msgid "List of approved tags"
 msgstr "承認済みタグの一覧"
 
@@ -1213,6 +1264,14 @@ msgstr "Loïc Dachary (Training, mentoring, assistant, english and french)"
 msgid "Lunch menu meeting"
 msgstr "ランチメニューミーティング"
 
+msgid "Mac OS"
+msgstr "Mac OS"
+
+msgid ""
+"Make sure that **Use SSL for all the servers on this network** is checked."
+msgstr ""
+"きちんと **Use SSL for all the servers on this network** をチェックします。"
+
 msgid "Make sure you have a wifi enabled laptop with you."
 msgstr "Wi-FI を有効にしていることを確認してください。"
 
@@ -1233,6 +1292,16 @@ msgid ""
 msgstr ""
 "特定の SERIES (grizzly, havana...) に対して潜在的なバックポートを目標とされた"
 "バグ"
+
+msgid ""
+"Marton Kiss will lead the next training in Austin, in English. Tools and "
+"processes for mentors and staff are kept on the `admin <https://wiki."
+"openstack.org/wiki/OpenStack_Upstream_Training/Admin>`_ page."
+msgstr ""
+"Marton Kiss さんが次回の Austin トレーニングをリードします。コースは英語で行"
+"われます。メンターやスタッフ向けのツールやプロセスは `admin <https://wiki."
+"openstack.org/wiki/OpenStack_Upstream_Training/Admin>`_ ページにまとめられて"
+"います。"
 
 msgid "Master the technical tools"
 msgstr "技術的なツールの習熟"
@@ -1374,6 +1443,9 @@ msgstr "実際のバグではなく、改善提案"
 
 msgid "Not suitable to start learning about a topic"
 msgstr "トピックについて学び始めることに適していません"
+
+msgid "Now open the hexchat program just like you would for any linux program."
+msgstr "他の Linux プログラムと同じように、hexchat プログラムを開きます。"
 
 msgid "Objectives"
 msgstr "目的"
@@ -1587,6 +1659,9 @@ msgstr "ピアレビューのために Gerrit へのプッシュ"
 msgid "Quantify the delta"
 msgstr "差分の定量化"
 
+msgid "Read and complete the :doc:`irc` guide."
+msgstr ":doc:`irc` ガイドを参照して、完了しておいてください。"
+
 msgid "Read the actual code and the actual documentation"
 msgstr "実際のコードやドキュメントの参照"
 
@@ -1603,6 +1678,9 @@ msgstr "ポリシーの参照"
 
 msgid "Recheck bug #XXX"
 msgstr "バグ #XXX の再確認"
+
+msgid "Register Your Nick Name"
+msgstr "ニックネームの登録"
 
 msgid "Regressions and integration issues"
 msgstr "リグレッションと統合の問題"
@@ -1733,6 +1811,9 @@ msgstr ""
 
 msgid "Set a target milestone"
 msgstr "目標マイルストーンの設定"
+
+msgid "Setup IRC"
+msgstr "IRC のセットアップ"
 
 msgid "Shinobu KINJO (mentoring, assistant, japanese)"
 msgstr "Shinobu KINJO (mentoring, assistant, japanese)"
@@ -2091,6 +2172,9 @@ msgstr "Triaged"
 msgid "Triggered on every commit"
 msgstr "すべてのコミットにおいて実行"
 
+msgid "Troubleshooting"
+msgstr "トラブルシューティング"
+
 msgid "Try to get attention at least four times"
 msgstr "少なくとも 4 回は注目を得ようとする"
 
@@ -2168,6 +2252,9 @@ msgstr ""
 "前にアトランタで開催されました。アトランタ以降、毎回 OpenStack Summit  の直前"
 "にトレーニングを開催してきました。この「公式」イベントに加えて、いくつかの"
 "ユーザーグループは、ローカルなアップストリームトレーニングを開催しています。"
+
+msgid "We'll install an IRC program called Hexchat."
+msgstr "Hexchat IRC プログラムをインストールします。"
 
 msgid ""
 "We've designed a training program to help professional developers negotiate "
