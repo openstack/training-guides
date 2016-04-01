@@ -65,7 +65,7 @@ Complete list of supported plugins https://wiki.openstack.org/wiki/Neutron_Plugi
 .. note::
 
    Plugin list taken from:
-   http://docs.openstack.org/admin-guide-cloud/networking_config-plugins.html
+   http://docs.openstack.org/admin-guide/networking_config-plugins.html
 
    - Big Switch, Floodlight REST Proxy:
      http://www.openflowhub.org/display/floodlightcontroller/Quantum+REST+Proxy+Plugin
