@@ -31,8 +31,7 @@ sphinx-build -j $NUMBER_OF_CORES -b slides -b gettext ${DIRECTORY}/source/ \
     ${DIRECTORY}/source/locale/
 # build upstream landing page index.html
 sphinx-build -j $NUMBER_OF_CORES -b html -b gettext ${DIRECTORY}/ \
-    ${DIRECTORY}/source/locale/ \
-    ${DIRECTORY}/index.rst ${DIRECTORY}/upstream-details.rst
+    ${DIRECTORY}/source/locale/
 
 # check all language translation resouce
 for locale in `find ${DIRECTORY}/source/locale/ -maxdepth 1 -type d` ; do
@@ -73,8 +72,7 @@ for locale in `find ${DIRECTORY}/source/locale/ -maxdepth 1 -type d` ; do
     # build upstream landing page index.html
     sphinx-build -j $NUMBER_OF_CORES -b html -D language=${language} \
         -d "${DIRECTORY}/build/slides.doctrees" \
-        ${DIRECTORY}/ ${DIRECTORY}/build/slides/ \
-        ${DIRECTORY}/index.rst ${DIRECTORY}/upstream-details.rst
+        ${DIRECTORY}/ ${DIRECTORY}/build/slides/
 
     # move built guide to publish directory
     mkdir -p publish-docs/${language}/${DOCNAME}/
