@@ -52,6 +52,7 @@ How to prepare
 * Check that you can ssh from your laptop to the virtual machine
 * Check that :command:`apt-get install` works on the virtual machine
 * Read and complete the :doc:`irc` guide.
+* Read and complete the :doc:`accounts` guide.
 * Read and complete the :doc:`git` guide.
 * Get in touch with the team upstream-training@openstack.org to pick
   a contribution to work on.
