@@ -5,11 +5,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-23 09:49+0000\n"
+"POT-Creation-Date: 2016-03-31 22:24+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-03-23 03:14+0000\n"
+"PO-Revision-Date: 2016-04-05 02:22+0000\n"
 "Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
@@ -91,6 +91,15 @@ msgstr ""
 "이를 가능하게 한 모든 분들, 그리고 특별히 트레이닝을 진행한 Loic Dachary, "
 "Stefano Maffulli, 그리고 Tim Freund에게 큰 감사를 드립니다."
 
+msgid ""
+"A message dialog window will come up. Type the following to register your "
+"nick name with nickserv replacing **mysecretpassword** and **test@domain."
+"com** with your own password and email address::"
+msgstr ""
+"메시지 다이얼로그 창이 나타날 것입니다. **mysecretpassword** 및 "
+"**test@domain.com** 를 사용하고자 하는 암호 및 이메일 주소로 변경하도록 "
+"nickserv에 닉네임을 등록합니다."
+
 msgid "A sample presentation is given by the teacher, as an example"
 msgstr "선생님에 의해 주어진 샘플 발표를, 예시로 합니다"
 
@@ -123,6 +132,9 @@ msgstr "Active Technical Contributor (ATC)"
 
 msgid "Active and diverse team of contributors"
 msgstr "활발한지 그리고 컨트리뷰터에 대한 팀의 다양성"
+
+msgid "Add A New Connection"
+msgstr "새 연결 추가"
 
 msgid ""
 "Add a \"Call for Help\" to the minutes. Use this command when you need to "
@@ -232,6 +244,9 @@ msgstr "할당자: 수정 중에 있는 개발자"
 
 msgid "At the Design Summit"
 msgstr "Design Summit에서"
+
+msgid "Auto-Login On Connecting To Freenode"
+msgstr "Freenode 연결에 대한 자동 로그인"
 
 msgid "Bad workflow"
 msgstr "나쁜 작업 흐름"
@@ -374,6 +389,34 @@ msgstr "명확히 소개합니다"
 msgid "Cleber Rosa (mentoring, assistant, portuguese)"
 msgstr "Cleber Rosa (멘토링, 조교, 포르투갈어)"
 
+msgid ""
+"Click **Hexchat** from the menu and then click **Network List**. We will see "
+"a familiar first screen of servers listed. Make sure freenode is highlighted "
+"and click **edit**."
+msgstr ""
+"메뉴에서 **Hexchat** 을 클릭하고 **Network List** 를 클릭합니다. 서버 목록이 "
+"있는 친숙한 화면을 볼 수 있을 것입니다. freenode가 강조되어 있는지 확인하고 "
+"**edit** 를 클릭합니다."
+
+msgid "Click **cancel**."
+msgstr "**cancel** 를 클릭합니다."
+
+msgid ""
+"Click **disconnect** and click **connect** to retry connecting with the new "
+"nick name."
+msgstr ""
+"**disconnect** 클릭 및 **connect** 를 클릭하여 새로운 닉네임으로 접속을 재시"
+"도합니다."
+
+msgid "Click the **edit** button and"
+msgstr "**edit** 버튼을 클릭하고"
+
+msgid "Click the **info** icon."
+msgstr "**info** 아이콘을 클릭합니다."
+
+msgid "Click the **message user** icon and type::"
+msgstr "**message user** 아이콘을 클릭하고 입력합니다::"
+
 msgid "Close, daily co-operation between business people and developers"
 msgstr "비즈니스 구성원 및 개발자 간의 가까운, 매일 공동 작업"
 
@@ -419,11 +462,32 @@ msgstr "비교"
 msgid "Completed Blueprints"
 msgstr "완료된 Blueprint"
 
+msgid "Configure Git"
+msgstr "Git 구성"
+
 msgid "Confirmed"
 msgstr "Confirmed"
 
 msgid "Confirming & prioritizing"
 msgstr "확인 & 우선 순위 정하기"
+
+msgid ""
+"Congratulations you're now ready to communicate with the OpenStack community "
+"and have a registered nick name on Freenode! From here on out when you "
+"connect to Freenode with Colloquy you will be identified with your nickname."
+msgstr ""
+"축하합니다. OpenStack 커뮤니티와 의사소통할 수 있는 준비가 되었으며 닉네임이 "
+"Freenode에 등록되었습니다! 이제부터 Freenode로 Colloquy를 통해 연결하면 사용"
+"하는 닉네임이 식별되어 있을 것입니다."
+
+msgid ""
+"Congratulations you're now ready to communicate with the OpenStack community "
+"and have a registered nick name on Freenode! From here on out when you "
+"connect to Freenode with Hexchat you will be identified with your nickname."
+msgstr ""
+"축하합니다. OpenStack 커뮤니티와 의사소통할 수 있는 준비가 되었으며 닉네임이 "
+"Freenode에 등록되었습니다! 이제부터 Freenode로 Hexchat를 통해 연결하면 사용하"
+"는 닉 네임이 식별되어 있을 것입니다."
 
 msgid "Continuous attention to technical excellence and good design"
 msgstr "기술적인 우수성 및 좋은 설계에 대한 지속적인 관심"
@@ -619,6 +683,9 @@ msgstr ""
 "수행해야 할 항목으로 회의록에 기록합니다. 해당 줄에는 닉네임과, 해당 항목이 "
 "할당된 대상을 포함합니다. (닉네임은 대소문자를 구별합니다)"
 
+msgid "Done"
+msgstr "완료"
+
 msgid "Draft inline comments"
 msgstr "인라인 코멘트 초안"
 
@@ -671,7 +738,10 @@ msgid "Easier to revert"
 msgstr "되돌리기 쉽습니다"
 
 msgid "Edit Nick Name Settings"
-msgstr "닉 네임 설정 수정"
+msgstr "닉네임 설정 편집"
+
+msgid "Edit Server Settings"
+msgstr "서버 설정 편집"
 
 msgid "Edouard THULEAU (assistant, french, english)"
 msgstr "Edouard THULEAU (조교, 프랑스어, 영어)"
@@ -880,6 +950,26 @@ msgid ""
 msgstr "Liberty에서 통합 프로젝트는 릴리즈 관리 팀에 의해 관리가 이루어집니다"
 
 msgid ""
+"For Linux distributions like Debian, Ubuntu, or Mint open a terminal and "
+"type::"
+msgstr ""
+"Debian, Ubuntu, 또는 Mint와 같은 Linux 배포판의 경우 터미널을 열고 입력합니"
+"다::"
+
+msgid ""
+"For Linux distributions like Redhat, Fedora 21 or earlier, or Centos open a "
+"terminal and type::"
+msgstr ""
+"Redhat, Fedora 21, 또는 Centos와 같은 Linux 배포판의 경우 터미널을 열고 입력"
+"합니다::"
+
+msgid "For Mac OS:"
+msgstr "Mac OS의 경우:"
+
+msgid "For Mac OS::"
+msgstr "Mac OS의 경우::"
+
+msgid ""
 "For a linux distrubtions like Debian, Ubuntu, or Mint open a terminal and "
 "type::"
 msgstr ""
@@ -903,6 +993,19 @@ msgstr ""
 msgid "For more information, see :doc:`upstream-details`."
 msgstr "보다 자세한 정보는, :doc:`upstream-details` 를 살펴봅니다."
 
+msgid "For openSUSE 12.2 and later open a terminal and type::"
+msgstr "openSUSE 12.2 및 이후 버전의 경우 터미널을 열고 입력합니다::"
+
+msgid ""
+"For the **Chat Server Port** type in **6697** and check the **SSL "
+"Connection** box."
+msgstr ""
+"**Chat Server Port** 타입에는 **6697** 를 입력하고 **SSL Connection** 상자를 "
+"선택합니다."
+
+msgid "For the **Chat server** type in **irc.freenode.net**."
+msgstr "**Chat server** 에서 **irc.freenode.net** 을 입력합니다."
+
 msgid "Forbidden"
 msgstr "금지되는 사항"
 
@@ -914,6 +1017,20 @@ msgstr "자유 소프트웨어 컨트리뷰터"
 
 msgid "From easy to difficult"
 msgstr "쉬운 것에서 어려운 것까지"
+
+msgid ""
+"From the list of **Networks** you should see Freenode. Select that and click "
+"'edit'."
+msgstr ""
+"**Networks** 목록에서 Freenode를 볼 수 있을 것입니다. 이를 선택하고 'edit' "
+"를 클릭합니다."
+
+msgid ""
+"From your downloads folder, drag the Colloquy application icon to your "
+"applications folder to install."
+msgstr ""
+"다운로드 폴더에서, Colloquy 응용프로그램 아이콘을 응용프로그램 폴더에 드래그"
+"하여 설치합니다."
 
 msgid ""
 "Fully rendered http://governance.openstack.org/reference/projects/index.html"
@@ -955,6 +1072,22 @@ msgstr "닉/이메일을 알려지도록 하기"
 
 msgid "Getting attention"
 msgstr "주목 받기"
+
+msgid "Go to http://colloquy.info and follow the download link."
+msgstr "http://colloquy.info 에 접속하여 다운로드 링크를 따라갑니다."
+
+msgid ""
+"Go to the Git `download page <https://git-scm.com/downloads>`_ and click "
+"**Mac OS X**."
+msgstr ""
+"Git `다운로드 페이지 <https://git-scm.com/downloads>`_ 에 방문하여 **Mac OS "
+"X** 를 클릭합니다."
+
+msgid ""
+"Going back to your connection window, highlight your freenode connection and "
+"click the **info** icon."
+msgstr ""
+"연결 창으로 돌아가, freenode 연결을 강조시킨 후 **info** 아이콘을 클릭합니다."
 
 msgid "Good workflow"
 msgstr "좋은 작업 흐름"
@@ -1033,6 +1166,37 @@ msgid "Ian Y. Choi (training, assistant, mentoring)"
 msgstr "Ian Y. Choi (교육, 조교, 멘토링)"
 
 msgid ""
+"If all goes well in the second window we should see our our new connection "
+"and our client connected."
+msgstr ""
+"정상 동작한다면 두 번째 창에서 새로운 연결 및 클라이언트가 연결되어 있음을 "
+"볼 수 있을 것입니다."
+
+msgid ""
+"If all goes well we should be connected and no pop ups as indicted in the "
+"previous step's Troubleshooting section."
+msgstr ""
+"정상 동작한다면 연결되어 있을 것이며 이전 단계에서의 문제 해결 섹션에서 살펴"
+"본 팝업이 없을 것입니다."
+
+msgid ""
+"If all goes well we should get a dialog window indicating the connection to "
+"freenode has completed, and what to do next.. For now we'll select "
+"\"Nothing, I'll join a channel later.\""
+msgstr ""
+"잘 동작한다면 freenode 접속을 완료하였음을 가리키는 다이얼로그 창을 볼 수 있"
+"으며, 할 다음 작업으로, 지금은 \"Nothing, I'll join a channel later.\" 를 선"
+"택합니다."
+
+msgid ""
+"If all goes well you should receive a message back instantly that the nick "
+"name is registered by you and an activation email will be sent to the email "
+"address you provided."
+msgstr ""
+"정상적으로 동작하면 해당 닉네임이 등록되었으며 활성화 이메일이 입력한 이메일 "
+"주소로 발송되었다는 응답 메시지를 바로 볼 수 있을 것입니다."
+
+msgid ""
 "If contributing code, being technically proficient enough to carry out "
 "simple bug fixes in the project"
 msgstr ""
@@ -1043,6 +1207,24 @@ msgid ""
 "If contributing documentation, being able to produce documents in the "
 "project's chosen infrastructure"
 msgstr "문서 기여는 프로젝트에서 선택한 인프라에서 문서를 작업할 수 있습니다"
+
+msgid ""
+"If you don't have pip installed already, follow the `installation "
+"documentation <https://pip.pypa.io/en/stable/installing/#installing-with-get-"
+"pip-py>`_ for pip."
+msgstr ""
+"pip를 아직 설치하지 않은 경우, pip에 대해 `설치 문서 <https://pip.pypa.io/en/"
+"stable/installing/#installing-with-get-pip-py>`_ 를 따릅니다."
+
+msgid "If you get a notice that the nick name is already taken"
+msgstr "해당 닉네임이 이미 선택되었다는 공지를 받은 경우"
+
+msgid ""
+"If you get a notice that the nick name is already taken, quit and go back to "
+"the first set of steps to pick a different nickname."
+msgstr ""
+"해당 닉네임이 이미 선택되었다는 공지를 받은 경우, 다른 닉네임을 선택하기 위"
+"해 처음 일련의 절차로 다시 돌아갑니다."
 
 msgid ""
 "If your contribution is on behalf of a company, have your managers sign the "
@@ -1069,6 +1251,37 @@ msgstr "In Progress"
 
 msgid "In house version"
 msgstr "인 하우스 버전"
+
+msgid ""
+"In order to identify ourselves that we own the nick name upon logging in, we "
+"need to tell Colloquy to communicate our password over upon connecting."
+msgstr ""
+"소유한 닉네임으로 로그인시 식별하기 위해, Colloquy가 연결이 이루어질 때 해당 "
+"암호를 주고 받도록 설정할 필요가 있습니다."
+
+msgid ""
+"In order to identify ourselves that we own the nick name upon logging in, we "
+"need to tell Hexchat to communicate our password over upon connecting."
+msgstr ""
+"소유한 닉네임으로 로그인 시 식별하기 위해, Hexchat이 연결이 이루어질 때 해당 "
+"암호를 주고 받도록 설정할 필요가 있습니다."
+
+msgid ""
+"In order to register we need to send a message to nickserv on freenode, "
+"which is a bot that allows us to register and identify ourselves as the "
+"owner of a nick name."
+msgstr ""
+"등록을 하기 위해, 사용자 등록 및 닉네임의 소유자 식별을 허용하는 메시지를 "
+"freenode 상의 nickserv에 보낼 필요가 있습니다."
+
+msgid "In the **Password** field type your password."
+msgstr "**Password** 필드에 암호를 입력합니다."
+
+msgid ""
+"In the **Password** put in the password we picked in the previous step and "
+"click close."
+msgstr ""
+"**Password** 에 이전 단계에서 선택했던 암호를 입력하고 닫기를 클릭합니다."
 
 msgid "Incompatible config file changes"
 msgstr "호환되지 않는 구성 파일 변경 사항"
@@ -1105,6 +1318,9 @@ msgstr "IRC 프로그램 설치"
 
 msgid "Install git review"
 msgstr "git review 설치"
+
+msgid "Installing git-review"
+msgstr "git-review 설치하기"
 
 msgid "Institutional members: Platinum and Gold sponsors"
 msgstr "기관 멤버 : 플래티늄과 골드 스폰서"
@@ -1173,6 +1389,9 @@ msgstr "좋은 워크 플로우와 나쁜 워크 플로우를 구별하는 것�
 msgid "Learn what's local and what's upstream"
 msgstr "로컬에 있는 것과 upstream에 있는 것을 배웁니다"
 
+msgid "Learning Git"
+msgstr "Git 학습"
+
 msgid "Learning about the project"
 msgstr "프로젝트에 대해 배우기"
 
@@ -1191,6 +1410,18 @@ msgstr ""
 
 msgid "Lego town"
 msgstr "Lego 마을"
+
+msgid ""
+"Lets first fill out the **Nick name** and **User name** field with our "
+"choice of a nickname:"
+msgstr ""
+"먼저 선택한 닉네임과 함께 **Nick name** 및 **User name** 필드를 채웁니다:"
+
+msgid ""
+"Lets first fill out the **Nickname** and **User name** field with our choice "
+"of a nickname:"
+msgstr ""
+"선택한 닉네임과 함께 **Nickname** 및 **User name** 필드를 먼저 채웁니다."
 
 msgid "Like sprints, small groups of people work on specific themes"
 msgstr "Sprint와 같이, 작은 그룹의 구성원이 구체적인 테마에 대해 작업합니다"
@@ -1243,6 +1474,14 @@ msgstr "Loïc Dachary (교육, 멘토링, 조교, 영어 및 프랑스어)"
 
 msgid "Lunch menu meeting"
 msgstr "점심 메뉴 회의"
+
+msgid "Mac OS"
+msgstr "Mac OS"
+
+msgid ""
+"Make sure that **Use SSL for all the servers on this network** is checked."
+msgstr ""
+"**Use SSL for all the servers on this network** 이 체크되었는지 확인합니다."
 
 msgid "Make sure you have a wifi enabled laptop with you."
 msgstr "Wifi를 사용할 수 있는 노트북을 가지고 와야 합니다."
@@ -1434,6 +1673,15 @@ msgid ""
 msgstr ""
 "릴리즈에 치명적인 버그들이 수정되면, 프로젝트에 대한 첫 릴리즈 후보를 생성합"
 "니다 (RC1)"
+
+msgid ""
+"Once you have Git installed you need to configure it. Open your terminal "
+"application and issue the following commands putting in your first/last name "
+"and email address. This is how your contributions will be identified::"
+msgstr ""
+"Git를 설치한 다음에는 구성을 할 필요가 있습니다. 터미널 응용프로그램을 열고 "
+"성/이름 및 이메일 주소와 함께 다음 명령어를 실행합니다. 이를 통해 컨트리뷰션"
+"이 식별됩니다::"
 
 msgid ""
 "Online section: 10 one-hour individual mentoring sessions over a period of 4 "
@@ -1628,6 +1876,9 @@ msgstr "상호 리뷰를 위한 Gerrit push"
 msgid "Quantify the delta"
 msgstr "Delta 정량화"
 
+msgid "Read and complete the :doc:`git` guide."
+msgstr ":doc:`git` 가이드를 읽고 완료합니다."
+
 msgid "Read and complete the :doc:`irc` guide."
 msgstr ":doc:`irc` 가이드를 읽고 완료합니다."
 
@@ -1646,6 +1897,9 @@ msgstr "규칙 읽기"
 
 msgid "Recheck bug #XXX"
 msgstr "Bug #XXX 재확인"
+
+msgid "Register Your Nick Name"
+msgstr "닉네임을 등록합니다"
 
 msgid "Regressions and integration issues"
 msgstr "퇴행과 통합 이슈"
@@ -1777,8 +2031,14 @@ msgstr ""
 msgid "Set a target milestone"
 msgstr "대상 마일스톤을 정하기"
 
+msgid "Setup For Mac OS & Linux"
+msgstr "Mac OS & Linux를 위한 셋업"
+
 msgid "Setup IRC"
 msgstr "IRC 셋업"
+
+msgid "Setup and Learn GIT"
+msgstr "GIT 셋업 및 학습"
 
 msgid "Shinobu KINJO (mentoring, assistant, japanese)"
 msgstr "Shinobu KINJO (멘토링, 조교, 일본어)"
@@ -2024,6 +2284,13 @@ msgstr "버그가 재현 가능하거나 실제 버그로 확인되었습니다"
 msgid "The building blocks to achieve OpenStack's mission"
 msgstr "OpenStack 임무를 달성하기 위해 짓고자 하는 블록"
 
+msgid ""
+"The downloaded file should be a dmg in your downloads folder. Open that dmg "
+"file and follow the instructions on screen."
+msgstr ""
+"다운로드한 파일은 다운로드 폴더 내 dmg일 것입니다. 해당 dmg 파일을 열고 화면 "
+"상의 지시를 따릅니다."
+
 msgid "The first commit line is the most important."
 msgstr "첫 커밋 줄은 가장 중요합니다."
 
@@ -2134,11 +2401,25 @@ msgstr "Triaged"
 msgid "Triggered on every commit"
 msgstr "모든 커밋에 대해 작동됨"
 
+msgid "Troubleshooting"
+msgstr "문제 해결"
+
 msgid "Try to get attention at least four times"
 msgstr "적어도 네 번 이상 관심을 얻고자 시도하기"
 
 msgid "Twist the contribution to ease backporting"
 msgstr "Backport를 완화하기 이해 컨트리뷰션을 돌리기"
+
+msgid "Type in a different user/nick name as shown in the previous step."
+msgstr "이전 단계에서 보여진 것과 다른 사용자/닉네임을 입력합니다."
+
+msgid ""
+"Type the following to register your nick name with nickserv replacing "
+"**mysecretpassword** and **test@domain.com** with your own password and "
+"email address::"
+msgstr ""
+"다음을 입력하여 **mysecretpassword** 및 **test@domain.com** 를 사용하고자 하"
+"는 암호 및 이메일 주소로 변경하도록 nickserv에 닉네임을 등록합니다."
 
 msgid "Types of sessions"
 msgstr "세션 유형"
@@ -2212,6 +2493,12 @@ msgstr ""
 "개최하였습니다. \"공식\" 이벤트 뿐만 아니라, 몇몇 사용자 그룹은 로컬 "
 "Upstream training을 개최합니다."
 
+msgid "We'll first install git."
+msgstr "먼저 git를 설치할 것입니다."
+
+msgid "We'll install an IRC program called Colloquy."
+msgstr "Colloquy 라는 IRC 프로그램을 설치할 것입니다."
+
 msgid "We'll install an IRC program called Hexchat."
 msgstr "Hexchat이라는 IRC 프로그램을 설치할 것입니다."
 
@@ -2279,6 +2566,13 @@ msgstr "확실하지 않을 때에는, 도움을 요청합니다"
 
 msgid "When we disagree, we consult others"
 msgstr "비동의가 있을 때, 다른 구성원과 상의합니다"
+
+msgid ""
+"When you login to the server for the first time with your nickname, its "
+"being used by you, but it's still not registered yet."
+msgstr ""
+"처음으로 닉네임과 함께 서버에 로그인할 때에는, 사용 중이지만 아직 등록된 상태"
+"는 아닙니다."
 
 msgid ""
 "Where developers meet face to face to finalize planning for the next release "
@@ -2351,6 +2645,13 @@ msgstr "사용자 스토리 작성"
 
 msgid "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 msgstr "Xavier Antoviaque (교육, 멘토링, 조교, 프랑스어, 영어)"
+
+msgid ""
+"You can use `Git Immersion <http://gitimmersion.com/lab_02.html>`_ to work "
+"through tutorials for learning git."
+msgstr ""
+"Git를 학습하기 위해 `Git 몰입 <http://gitimmersion.com/lab_02.html>`_ 을 튜토"
+"리얼을 겪는 데 사용할 수 있습니다."
 
 msgid "Your management"
 msgstr "대상 관리"
@@ -2959,6 +3260,13 @@ msgstr "git config --global user.name \"Firstname Lastname\""
 
 msgid "git review -s"
 msgstr "git review -s"
+
+msgid ""
+"git-review adds a subcommand to git that handles working with Gerrit, the "
+"code review system used by OpenStack."
+msgstr ""
+"git-review는 OpenStack에 의해 사용되는 코드 리뷰 시스템인 Gerrit과 함께 동작"
+"하도록 다루는 git의 서브 명령어를 추가합니다."
 
 msgid ""
 "guiding principles\" used by the Foundation Board to determine how "

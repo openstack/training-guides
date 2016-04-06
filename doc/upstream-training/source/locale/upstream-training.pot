@@ -8,13 +8,103 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-24 06:18+0000\n"
+"POT-Creation-Date: 2016-04-06 06:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: ../../git.rst:3
+msgid "Setup and Learn GIT"
+msgstr ""
+
+#: ../../git.rst:6
+msgid "Setup For Mac OS & Linux"
+msgstr ""
+
+#: ../../git.rst:8
+msgid "We'll first install git."
+msgstr ""
+
+#: ../../git.rst:10
+msgid "For Mac OS:"
+msgstr ""
+
+#: ../../git.rst:12
+msgid ""
+"Go to the Git `download page <https://git-scm.com/downloads>`_ and click "
+"**Mac OS X**."
+msgstr ""
+
+#: ../../git.rst:14
+msgid ""
+"The downloaded file should be a dmg in your downloads folder. Open that dmg "
+"file and follow the instructions on screen."
+msgstr ""
+
+#: ../../git.rst:17 ../../git.rst:58
+msgid ""
+"For Linux distributions like Debian, Ubuntu, or Mint open a terminal and "
+"type::"
+msgstr ""
+
+#: ../../git.rst:21 ../../git.rst:62
+msgid ""
+"For Linux distributions like Redhat, Fedora 21 or earlier, or Centos open a "
+"terminal and type::"
+msgstr ""
+
+#: ../../git.rst:26 ../../git.rst:67
+msgid "For Fedora 22 or later open a terminal and type::"
+msgstr ""
+
+#: ../../git.rst:30 ../../git.rst:71
+msgid "For openSUSE 12.2 and later open a terminal and type::"
+msgstr ""
+
+#: ../../git.rst:35
+msgid "Configure Git"
+msgstr ""
+
+#: ../../git.rst:37
+msgid ""
+"Once you have Git installed you need to configure it. Open your terminal "
+"application and issue the following commands putting in your first/last name "
+"and email address. This is how your contributions will be identified::"
+msgstr ""
+
+#: ../../git.rst:45
+msgid "Installing git-review"
+msgstr ""
+
+#: ../../git.rst:47
+msgid ""
+"git-review adds a subcommand to git that handles working with Gerrit, the "
+"code review system used by OpenStack."
+msgstr ""
+
+#: ../../git.rst:50
+msgid "For Mac OS::"
+msgstr ""
+
+#: ../../git.rst:54
+msgid ""
+"If you don't have pip installed already, follow the `installation "
+"documentation <https://pip.pypa.io/en/stable/installing/#installing-with-get-"
+"pip-py>`_ for pip."
+msgstr ""
+
+#: ../../git.rst:77
+msgid "Learning Git"
+msgstr ""
+
+#: ../../git.rst:79
+msgid ""
+"You can use `Git Immersion <http://gitimmersion.com/lab_02.html>`_ to work "
+"through tutorials for learning git."
+msgstr ""
 
 #: ../../index.rst:3
 msgid "OpenStack Upstream Training"
@@ -111,125 +201,129 @@ msgid "Read and complete the :doc:`irc` guide."
 msgstr ""
 
 #: ../../index.rst:55
+msgid "Read and complete the :doc:`git` guide."
+msgstr ""
+
+#: ../../index.rst:56
 msgid ""
 "Get in touch with the team upstream-training@openstack.org to pick a "
 "contribution to work on."
 msgstr ""
 
-#: ../../index.rst:58
+#: ../../index.rst:59
 msgid ""
 "`Etherpad for Austin Upstream Training <https://etherpad.openstack.org/p/"
 "upstream-training-austin>`_"
 msgstr ""
 
-#: ../../index.rst:62
+#: ../../index.rst:63
 msgid "Staff"
 msgstr ""
 
-#: ../../index.rst:64
+#: ../../index.rst:65
 msgid ""
 "Marton Kiss will lead the next training in Austin, in English. Tools and "
 "processes for mentors and staff are kept on the `admin <https://wiki."
 "openstack.org/wiki/OpenStack_Upstream_Training/Admin>`_ page."
 msgstr ""
 
-#: ../../index.rst:68
+#: ../../index.rst:69
 msgid ""
 "**Still looking for help: please** `register <https://openstackfoundation."
 "formstack.com/forms/mentoring>`_"
 msgstr ""
 
-#: ../../index.rst:71
+#: ../../index.rst:72
 msgid ""
 "For more information about the past trainings and local upstream trainings, "
 "see :doc:`upstream-archives`."
 msgstr ""
 
-#: ../../index.rst:75
+#: ../../index.rst:76
 msgid "Outline and online slide index"
 msgstr ""
 
-#: ../../index.rst:78
+#: ../../index.rst:79
 msgid "How OpenStack is made"
 msgstr ""
 
-#: ../../index.rst:80
+#: ../../index.rst:81
 msgid "`Release cycle <01-release-cycle.html>`_"
 msgstr ""
 
-#: ../../index.rst:81
+#: ../../index.rst:82
 msgid "`Relevant actors <02-relevant-actors.html>`_"
 msgstr ""
 
-#: ../../index.rst:82
+#: ../../index.rst:83
 msgid "`OpenStack Governance <03-technical-committee.html>`_"
 msgstr ""
 
-#: ../../index.rst:83
+#: ../../index.rst:84
 msgid "`OpenStack \"Big Tent\" and tags <04-program-ecosystem.html>`_"
 msgstr ""
 
-#: ../../index.rst:84
+#: ../../index.rst:85
 msgid "`OpenStack Design Summit <05-design-summit.html>`_"
 msgstr ""
 
-#: ../../index.rst:85
+#: ../../index.rst:86
 msgid "`IRC meetings <06-irc-meetings.html>`_"
 msgstr ""
 
-#: ../../index.rst:88
+#: ../../index.rst:89
 msgid "Workflow of an OpenStack contribution and tools"
 msgstr ""
 
-#: ../../index.rst:90
+#: ../../index.rst:91
 msgid "`devstack.org <11-devstack.html>`_"
 msgstr ""
 
-#: ../../index.rst:91
+#: ../../index.rst:92
 msgid "`How to contribute <12-howtocontribute.html>`_"
 msgstr ""
 
-#: ../../index.rst:92
+#: ../../index.rst:93
 msgid "`launchpad.net <13-launchpad.html>`_"
 msgstr ""
 
-#: ../../index.rst:93
+#: ../../index.rst:94
 msgid "`review.openstack.org <14-gerrit.html>`_"
 msgstr ""
 
-#: ../../index.rst:94
+#: ../../index.rst:95
 msgid "`Branching model <15-branching-model.html>`_"
 msgstr ""
 
-#: ../../index.rst:95
+#: ../../index.rst:96
 msgid "`Reviewing <16-reviewing.html>`_"
 msgstr ""
 
-#: ../../index.rst:96
+#: ../../index.rst:97
 msgid "`Commit messages <17-commit-message.html>`_"
 msgstr ""
 
-#: ../../index.rst:97
+#: ../../index.rst:98
 msgid "`Jenkins <18-jenkins.html>`_"
 msgstr ""
 
-#: ../../index.rst:100
+#: ../../index.rst:101
 msgid "The Contribution Process"
 msgstr ""
 
-#: ../../index.rst:102
+#: ../../index.rst:103
 msgid ""
 "`Overview of the contribution process <19-training-contribution-process."
 "html>`_"
 msgstr ""
 
-#: ../../index.rst:104
+#: ../../index.rst:105
 msgid ""
 "`Lego applied to Free Software contributions <20-training-agile-for-"
 "contributors.html>`_"
 msgstr ""
 
-#: ../../index.rst:107
+#: ../../index.rst:108
 msgid ""
 "`Complete index in slide format only <http://docs.openstack.org/upstream-"
 "training/slide-index.html>`_"
@@ -261,10 +355,6 @@ msgstr ""
 msgid ""
 "For a linux distrubtions like Redhat, Fedora 21 or earlier, or Centos open a "
 "terminal and type::"
-msgstr ""
-
-#: ../../irc.rst:22
-msgid "For Fedora 22 or later open a terminal and type::"
 msgstr ""
 
 #: ../../irc.rst:26
