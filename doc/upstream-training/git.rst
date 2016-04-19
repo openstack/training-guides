@@ -11,6 +11,7 @@ Git
 
 What is it?
 -----------
+
 Git is a free and open source distributed version control system that the
 OpenStack community uses to manage changes to source code.
 
@@ -22,8 +23,14 @@ Mac OS
 
 #. Go to the Git `download page <https://git-scm.com/downloads>`_ and click
    **Mac OS X**.
+
 #. The downloaded file should be a dmg in your downloads folder. Open that dmg
    file and follow the instructions on screen.
+
+If you use the package manager `Homebrew <http://brew.sh>`_, open a terminal
+and type::
+
+    brew install git
 
 Linux
 ^^^^^
@@ -32,7 +39,7 @@ For distributions like Debian, Ubuntu, or Mint open a terminal and type::
 
   sudo apt-get install git
 
-For distributions like Redhat, Fedora 21 or earlier, or Centos open a terminal
+For distributions like RedHat, Fedora 21 or earlier, or CentOS open a terminal
 and type::
 
   sudo yum install git
@@ -41,7 +48,7 @@ For Fedora 22 or later open a terminal and type::
 
   sudo dnf install git
 
-For openSUSE 12.2 and later open a terminal and type::
+For SUSE distributions open a terminal and type::
 
   sudo zypper in git
 
@@ -60,6 +67,7 @@ Git Review
 
 What is it?
 -----------
+
 Git review is tool maintained by the OpenStack community. It adds an additional
 sub-command to git like so::
 
@@ -90,7 +98,7 @@ For distributions like Debian, Ubuntu, or Mint open a terminal and type::
 
   sudo apt-get install git-review
 
-For distributions like Redhat, Fedora 21 or earlier, or Centos open a terminal
+For distributions like RedHat, Fedora 21 or earlier, or CentOS open a terminal
 and type::
 
   sudo yum install git-review
@@ -99,7 +107,7 @@ For Fedora 22 or later open a terminal and type::
 
   sudo dnf install git-review
 
-For openSUSE 12.2 and later open a terminal and type::
+For SUSE distributions open a terminal and type::
 
   sudo zypper in python-git-review
 
@@ -117,9 +125,9 @@ settings <https://review.openstack.org/#/settings/>`_.
 Setup SSH Keys
 ==============
 
-
 What are they?
 --------------
+
 In order to push things to `Gerrit <https://review.openstack.org>`_ we need to
 have a way to identify ourselves. We will do this using ssh keys which allows
 us to have our machine we're pushing a change from to perform
@@ -140,6 +148,7 @@ problem replying to Gerrit during the challenge-response authentication.
 
 Check For Existing Keys
 -----------------------
+
 Open your terminal program and type::
 
   ls -la ~/.ssh
@@ -156,6 +165,7 @@ If you don't see .pub extension file, you need to generate keys.
 
 Generate SSH Keys
 -----------------
+
 Assuming you weren't able to find keys in your ~/.ssh directory, you can
 generate keys by going into your terminal program and typing::
 
@@ -178,6 +188,7 @@ Copy Public Key
 
 Mac OS & Linux
 ^^^^^^^^^^^^^^
+
 From your terminal type::
 
   cat ~/.ssh/id_rsa.pub
@@ -186,6 +197,7 @@ Highlight and copy the output.
 
 Import Public Key Into Gerrit
 -----------------------------
+
 #. Go to `Gerrit's SSH Public Keys settings
    <https://review.openstack.org/#/settings/ssh-keys>`_.
 #. Click the 'Add Key' button.
