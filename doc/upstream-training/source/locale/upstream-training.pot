@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-06 06:01+0000\n"
+"POT-Creation-Date: 2016-04-19 06:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,91 +16,463 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: ../../accounts.rst:3
+msgid "Account Setup"
+msgstr ""
+
+#: ../../accounts.rst:6
+msgid "Setup Launchpad"
+msgstr ""
+
+#: ../../accounts.rst:9
+msgid "What is Launchpad?"
+msgstr ""
+
+#: ../../accounts.rst:10
+msgid ""
+"Launchpad is how the OpenStack community does tracking for things like bug "
+"reports. This account is also how we will identify ourselves in OpenStack's "
+"code review system."
+msgstr ""
+
+#: ../../accounts.rst:15 ../../accounts.rst:38 ../../accounts.rst:70
+msgid "Sign Up"
+msgstr ""
+
+#: ../../accounts.rst:16
+msgid ""
+"Go to the `Launchpad login or create account page <https://launchpad.net/"
+"+login>`_"
+msgstr ""
+
+#: ../../accounts.rst:18
+msgid "Click the **I am a new Ubuntu One user**."
+msgstr ""
+
+#: ../../accounts.rst:19
+msgid ""
+"Fill in your email address, name, password, and accepting the terms of "
+"services."
+msgstr ""
+
+#: ../../accounts.rst:26
+msgid "Setup OpenStack Foundation Account"
+msgstr ""
+
+#: ../../accounts.rst:29
+msgid "What is the OpenStack Foundation Account?"
+msgstr ""
+
+#: ../../accounts.rst:30
+msgid "Allows you to:"
+msgstr ""
+
+#: ../../accounts.rst:32
+msgid "Make code contributions."
+msgstr ""
+
+#: ../../accounts.rst:33
+msgid "Vote in elections."
+msgstr ""
+
+#: ../../accounts.rst:34
+msgid "Run for elected positions in the OpenStack project."
+msgstr ""
+
+#: ../../accounts.rst:35
+msgid "Submit presentations to OpenStack conferences."
+msgstr ""
+
+#: ../../accounts.rst:41
+msgid ""
+"Make sure to use the same email address you'll want to use for code "
+"contributions since it's important later that these match up."
+msgstr ""
+
+#: ../../accounts.rst:44
+msgid ""
+"Go to the `OpenStack Foundation sign up page <https://www.openstack.org/"
+"join>`_."
+msgstr ""
+
+#: ../../accounts.rst:46
+msgid "Under individual members, click the **Foundation Member** button."
+msgstr ""
+
+#: ../../accounts.rst:47
+msgid ""
+"Read through the presented individual member terms of service and our "
+"`Community Code of Conduct <https://www.openstack.org/legal/community-code-"
+"of-conduct/>`_."
+msgstr ""
+
+#: ../../accounts.rst:50
+msgid "Complete the application."
+msgstr ""
+
+#: ../../accounts.rst:56
+msgid "Setup Gerrit Account"
+msgstr ""
+
+#: ../../accounts.rst:59
+msgid "What is Gerrit?"
+msgstr ""
+
+#: ../../accounts.rst:60
+msgid ""
+"This is the review system the OpenStack community uses. Here are just some "
+"of the things we use Gerrit for reviewing:"
+msgstr ""
+
+#: ../../accounts.rst:63
+msgid "`Code <http://git.openstack.org/cgit>`_"
+msgstr ""
+
+#: ../../accounts.rst:64
+msgid "`Specifications <http://specs.openstack.org>`_"
+msgstr ""
+
+#: ../../accounts.rst:65
+msgid "`Translations <http://git.openstack.org/cgit/openstack/i18n/tree/>`_"
+msgstr ""
+
+#: ../../accounts.rst:66
+msgid ""
+"`Use cases for features <http://specs.openstack.org/openstack/openstack-user-"
+"stories/>`_"
+msgstr ""
+
+#: ../../accounts.rst:71
+msgid ""
+"Visit `OpenStack's Gerrit page <https://review.openstack.org>`_ and click "
+"the **sign in** link."
+msgstr ""
+
+#: ../../accounts.rst:73
+msgid ""
+"You will be prompted to select a username. You can enter the same one you "
+"did for launchpad, or something else."
+msgstr ""
+
+#: ../../accounts.rst:78
+msgid ""
+"From here on out when you sign into Gerrit, you'll be prompted to enter your "
+"your Launchpad login info. This is because Gerrit uses it as an OpenID "
+"single sign on."
+msgstr ""
+
+#: ../../accounts.rst:84
+msgid "Individual Contributor License Agreement"
+msgstr ""
+
+#: ../../accounts.rst:87
+msgid "What is it?"
+msgstr ""
+
+#: ../../accounts.rst:88
+msgid ""
+"An agreement to clarify intellectual property license granted with "
+"contributions from a person or entity. `Preview the full agreement <https://"
+"review.openstack.org/static/cla.html>`_."
+msgstr ""
+
+#: ../../accounts.rst:93
+msgid "Signing it"
+msgstr ""
+
+#: ../../accounts.rst:96
+msgid "Individual Contributors"
+msgstr ""
+
+#: ../../accounts.rst:98 ../../accounts.rst:107
+msgid ""
+"In Gerrit's `settings <https://review.openstack.org/#/settings/agreements>`_ "
+"click the **New Contributor Agreement** link and sign the agreement."
+msgstr ""
+
+#: ../../accounts.rst:104
+msgid "Contributors From a Company or Organization"
+msgstr ""
+
+#: ../../accounts.rst:105
+msgid "If you are contributing on behalf of a company or organization."
+msgstr ""
+
+#: ../../accounts.rst:109
+msgid ""
+"An employer of the company or organization needs to sign the `Corporate "
+"Contributor License Agreement <https://secure.echosign.com/public/hostedForm?"
+"formid=56JUVGT95E78X5>`_."
+msgstr ""
+
+#: ../../accounts.rst:117
+msgid ""
+"Employers can update the list of authorized employees by filling out and "
+"signing an `Updated Schedule A Form <https://openstack.echosign.com/public/"
+"hostedForm?formid=56JUVP6K4Z6P4C>`_."
+msgstr ""
+
+#: ../../accounts.rst:123
+msgid "Contributors From the U.S. Government"
+msgstr ""
+
+#: ../../accounts.rst:124
+msgid ""
+"Someone of authority needs to sign the `U.S. Government Contributor License "
+"Agreement <https://wiki.openstack.org/wiki/GovernmentCLA>`_. Contact the "
+"`OpenStack Foundation <mailto:communitymngr@openstack.org>`_ to initiate "
+"this process."
+msgstr ""
+
 #: ../../git.rst:3
 msgid "Setup and Learn GIT"
 msgstr ""
 
-#: ../../git.rst:6
-msgid "Setup For Mac OS & Linux"
-msgstr ""
-
-#: ../../git.rst:8
-msgid "We'll first install git."
+#: ../../git.rst:7
+msgid "This section assumes you have completed :doc:`accounts` guide."
 msgstr ""
 
 #: ../../git.rst:10
-msgid "For Mac OS:"
+msgid "Git"
 msgstr ""
 
-#: ../../git.rst:12
+#: ../../git.rst:14
+msgid ""
+"Git is a free and open source distributed version control system that the "
+"OpenStack community uses to manage changes to source code."
+msgstr ""
+
+#: ../../git.rst:18 ../../git.rst:73
+msgid "Installation"
+msgstr ""
+
+#: ../../git.rst:21 ../../git.rst:76
+msgid "Mac OS"
+msgstr ""
+
+#: ../../git.rst:23
 msgid ""
 "Go to the Git `download page <https://git-scm.com/downloads>`_ and click "
 "**Mac OS X**."
 msgstr ""
 
-#: ../../git.rst:14
+#: ../../git.rst:25
 msgid ""
 "The downloaded file should be a dmg in your downloads folder. Open that dmg "
 "file and follow the instructions on screen."
 msgstr ""
 
-#: ../../git.rst:17 ../../git.rst:58
-msgid ""
-"For Linux distributions like Debian, Ubuntu, or Mint open a terminal and "
-"type::"
+#: ../../git.rst:29 ../../git.rst:87
+msgid "Linux"
 msgstr ""
 
-#: ../../git.rst:21 ../../git.rst:62
+#: ../../git.rst:31 ../../git.rst:89
 msgid ""
-"For Linux distributions like Redhat, Fedora 21 or earlier, or Centos open a "
+"For distributions like Debian, Ubuntu, or Mint open a terminal and type::"
+msgstr ""
+
+#: ../../git.rst:35 ../../git.rst:93
+msgid ""
+"For distributions like Redhat, Fedora 21 or earlier, or Centos open a "
 "terminal and type::"
 msgstr ""
 
-#: ../../git.rst:26 ../../git.rst:67
+#: ../../git.rst:40 ../../git.rst:98
 msgid "For Fedora 22 or later open a terminal and type::"
 msgstr ""
 
-#: ../../git.rst:30 ../../git.rst:71
+#: ../../git.rst:44 ../../git.rst:102
 msgid "For openSUSE 12.2 and later open a terminal and type::"
 msgstr ""
 
-#: ../../git.rst:35
+#: ../../git.rst:49
 msgid "Configure Git"
 msgstr ""
 
-#: ../../git.rst:37
+#: ../../git.rst:51
 msgid ""
 "Once you have Git installed you need to configure it. Open your terminal "
 "application and issue the following commands putting in your first/last name "
 "and email address. This is how your contributions will be identified::"
 msgstr ""
 
-#: ../../git.rst:45
-msgid "Installing git-review"
+#: ../../git.rst:59
+msgid "Git Review"
 msgstr ""
 
-#: ../../git.rst:47
+#: ../../git.rst:63
 msgid ""
-"git-review adds a subcommand to git that handles working with Gerrit, the "
-"code review system used by OpenStack."
+"Git review is tool maintained by the OpenStack community. It adds an "
+"additional sub-command to git like so::"
 msgstr ""
 
-#: ../../git.rst:50
-msgid "For Mac OS::"
+#: ../../git.rst:68
+msgid ""
+"When you have changes in an OpenStack project repository, you can use this "
+"sub-command to have the changes posted to :doc:`gerrit` so that they can be "
+"reviewed."
 msgstr ""
 
-#: ../../git.rst:54
+#: ../../git.rst:78
+msgid "In a terminal type::"
+msgstr ""
+
+#: ../../git.rst:82
 msgid ""
 "If you don't have pip installed already, follow the `installation "
 "documentation <https://pip.pypa.io/en/stable/installing/#installing-with-get-"
 "pip-py>`_ for pip."
 msgstr ""
 
-#: ../../git.rst:77
+#: ../../git.rst:107
+msgid "Configuration"
+msgstr ""
+
+#: ../../git.rst:109
+msgid ""
+"Git review assumes the user you're running it as is the same as your Gerrit "
+"username. If it's not, you can tell it by setting this git config setting::"
+msgstr ""
+
+#: ../../git.rst:114
+msgid ""
+"If you don't know what your Gerrit username is, you can check the `Gerrit "
+"settings <https://review.openstack.org/#/settings/>`_."
+msgstr ""
+
+#: ../../git.rst:118
+msgid "Setup SSH Keys"
+msgstr ""
+
+#: ../../git.rst:122
+msgid "What are they?"
+msgstr ""
+
+#: ../../git.rst:123
+msgid ""
+"In order to push things to `Gerrit <https://review.openstack.org>`_ we need "
+"to have a way to identify ourselves. We will do this using ssh keys which "
+"allows us to have our machine we're pushing a change from to perform a "
+"`challenge-response authentication <https://en.wikipedia.org/wiki/Challenge-"
+"response_authentication>`_ with the Gerrit server."
+msgstr ""
+
+#: ../../git.rst:130
+msgid "SSH keys are always generated in pairs:"
+msgstr ""
+
+#: ../../git.rst:132
+msgid "**Private key** - Only known to you and it should be safely guarded."
+msgstr ""
+
+#: ../../git.rst:133
+msgid ""
+"**Public key** - Can be shared freely with any SSH server you wish to "
+"connect to."
+msgstr ""
+
+#: ../../git.rst:136
+msgid ""
+"In summary, we will be generating these keys, and providing the Gerrit "
+"server with your public key. With your system holding the private key, it "
+"will have no problem replying to Gerrit during the challenge-response "
+"authentication."
+msgstr ""
+
+#: ../../git.rst:142
+msgid "Check For Existing Keys"
+msgstr ""
+
+#: ../../git.rst:143
+msgid "Open your terminal program and type::"
+msgstr ""
+
+#: ../../git.rst:147
+msgid "Typically public key filenames will look like:"
+msgstr ""
+
+#: ../../git.rst:149
+msgid "id_dsa.pub"
+msgstr ""
+
+#: ../../git.rst:150
+msgid "id_ecdsa.pub"
+msgstr ""
+
+#: ../../git.rst:151
+msgid "id_ed25519.pub"
+msgstr ""
+
+#: ../../git.rst:152
+msgid "id_rsa.pub"
+msgstr ""
+
+#: ../../git.rst:154
+msgid "If you don't see .pub extension file, you need to generate keys."
+msgstr ""
+
+#: ../../git.rst:158
+msgid "Generate SSH Keys"
+msgstr ""
+
+#: ../../git.rst:159
+msgid ""
+"Assuming you weren't able to find keys in your ~/.ssh directory, you can "
+"generate keys by going into your terminal program and typing::"
+msgstr ""
+
+#: ../../git.rst:164
+msgid ""
+"When you're prompted to \"Enter a file in which to save the key\" press "
+"Enter. This accepts the default location::"
+msgstr ""
+
+#: ../../git.rst:169
+msgid ""
+"At the prompt, type a secure a passphase, you may enter one or press Enter "
+"to have no passphase::"
+msgstr ""
+
+#: ../../git.rst:177
+msgid "Copy Public Key"
+msgstr ""
+
+#: ../../git.rst:180
+msgid "Mac OS & Linux"
+msgstr ""
+
+#: ../../git.rst:181
+msgid "From your terminal type::"
+msgstr ""
+
+#: ../../git.rst:185
+msgid "Highlight and copy the output."
+msgstr ""
+
+#: ../../git.rst:188
+msgid "Import Public Key Into Gerrit"
+msgstr ""
+
+#: ../../git.rst:189
+msgid ""
+"Go to `Gerrit's SSH Public Keys settings <https://review.openstack.org/#/"
+"settings/ssh-keys>`_."
+msgstr ""
+
+#: ../../git.rst:191
+msgid "Click the 'Add Key' button."
+msgstr ""
+
+#: ../../git.rst:192
+msgid ""
+"Paste the public key into the **Add SSH Public Key** text box and click Add."
+msgstr ""
+
+#: ../../git.rst:195
 msgid "Learning Git"
 msgstr ""
 
-#: ../../git.rst:79
+#: ../../git.rst:197
 msgid ""
 "You can use `Git Immersion <http://gitimmersion.com/lab_02.html>`_ to work "
 "through tutorials for learning git."
@@ -201,129 +573,133 @@ msgid "Read and complete the :doc:`irc` guide."
 msgstr ""
 
 #: ../../index.rst:55
-msgid "Read and complete the :doc:`git` guide."
+msgid "Read and complete the :doc:`accounts` guide."
 msgstr ""
 
 #: ../../index.rst:56
+msgid "Read and complete the :doc:`git` guide."
+msgstr ""
+
+#: ../../index.rst:57
 msgid ""
 "Get in touch with the team upstream-training@openstack.org to pick a "
 "contribution to work on."
 msgstr ""
 
-#: ../../index.rst:59
+#: ../../index.rst:60
 msgid ""
 "`Etherpad for Austin Upstream Training <https://etherpad.openstack.org/p/"
 "upstream-training-austin>`_"
 msgstr ""
 
-#: ../../index.rst:63
+#: ../../index.rst:64
 msgid "Staff"
 msgstr ""
 
-#: ../../index.rst:65
+#: ../../index.rst:66
 msgid ""
 "Marton Kiss will lead the next training in Austin, in English. Tools and "
 "processes for mentors and staff are kept on the `admin <https://wiki."
 "openstack.org/wiki/OpenStack_Upstream_Training/Admin>`_ page."
 msgstr ""
 
-#: ../../index.rst:69
+#: ../../index.rst:70
 msgid ""
 "**Still looking for help: please** `register <https://openstackfoundation."
 "formstack.com/forms/mentoring>`_"
 msgstr ""
 
-#: ../../index.rst:72
+#: ../../index.rst:73
 msgid ""
 "For more information about the past trainings and local upstream trainings, "
 "see :doc:`upstream-archives`."
 msgstr ""
 
-#: ../../index.rst:76
+#: ../../index.rst:77
 msgid "Outline and online slide index"
 msgstr ""
 
-#: ../../index.rst:79
+#: ../../index.rst:80
 msgid "How OpenStack is made"
 msgstr ""
 
-#: ../../index.rst:81
+#: ../../index.rst:82
 msgid "`Release cycle <01-release-cycle.html>`_"
 msgstr ""
 
-#: ../../index.rst:82
+#: ../../index.rst:83
 msgid "`Relevant actors <02-relevant-actors.html>`_"
 msgstr ""
 
-#: ../../index.rst:83
+#: ../../index.rst:84
 msgid "`OpenStack Governance <03-technical-committee.html>`_"
 msgstr ""
 
-#: ../../index.rst:84
+#: ../../index.rst:85
 msgid "`OpenStack \"Big Tent\" and tags <04-program-ecosystem.html>`_"
 msgstr ""
 
-#: ../../index.rst:85
+#: ../../index.rst:86
 msgid "`OpenStack Design Summit <05-design-summit.html>`_"
 msgstr ""
 
-#: ../../index.rst:86
+#: ../../index.rst:87
 msgid "`IRC meetings <06-irc-meetings.html>`_"
 msgstr ""
 
-#: ../../index.rst:89
+#: ../../index.rst:90
 msgid "Workflow of an OpenStack contribution and tools"
 msgstr ""
 
-#: ../../index.rst:91
+#: ../../index.rst:92
 msgid "`devstack.org <11-devstack.html>`_"
 msgstr ""
 
-#: ../../index.rst:92
+#: ../../index.rst:93
 msgid "`How to contribute <12-howtocontribute.html>`_"
 msgstr ""
 
-#: ../../index.rst:93
+#: ../../index.rst:94
 msgid "`launchpad.net <13-launchpad.html>`_"
 msgstr ""
 
-#: ../../index.rst:94
+#: ../../index.rst:95
 msgid "`review.openstack.org <14-gerrit.html>`_"
 msgstr ""
 
-#: ../../index.rst:95
+#: ../../index.rst:96
 msgid "`Branching model <15-branching-model.html>`_"
 msgstr ""
 
-#: ../../index.rst:96
+#: ../../index.rst:97
 msgid "`Reviewing <16-reviewing.html>`_"
 msgstr ""
 
-#: ../../index.rst:97
+#: ../../index.rst:98
 msgid "`Commit messages <17-commit-message.html>`_"
 msgstr ""
 
-#: ../../index.rst:98
+#: ../../index.rst:99
 msgid "`Jenkins <18-jenkins.html>`_"
 msgstr ""
 
-#: ../../index.rst:101
+#: ../../index.rst:102
 msgid "The Contribution Process"
 msgstr ""
 
-#: ../../index.rst:103
+#: ../../index.rst:104
 msgid ""
 "`Overview of the contribution process <19-training-contribution-process."
 "html>`_"
 msgstr ""
 
-#: ../../index.rst:105
+#: ../../index.rst:106
 msgid ""
 "`Lego applied to Free Software contributions <20-training-agile-for-"
 "contributors.html>`_"
 msgstr ""
 
-#: ../../index.rst:108
+#: ../../index.rst:109
 msgid ""
 "`Complete index in slide format only <http://docs.openstack.org/upstream-"
 "training/slide-index.html>`_"
@@ -331,10 +707,6 @@ msgstr ""
 
 #: ../../irc.rst:3
 msgid "Setup IRC"
-msgstr ""
-
-#: ../../irc.rst:6
-msgid "Linux"
 msgstr ""
 
 #: ../../irc.rst:9 ../../irc.rst:107
@@ -470,10 +842,6 @@ msgid ""
 "Congratulations you're now ready to communicate with the OpenStack community "
 "and have a registered nick name on Freenode! From here on out when you "
 "connect to Freenode with Hexchat you will be identified with your nickname."
-msgstr ""
-
-#: ../../irc.rst:104
-msgid "Mac OS"
 msgstr ""
 
 #: ../../irc.rst:108
