@@ -4,11 +4,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-31 22:24+0000\n"
+"POT-Creation-Date: 2016-04-19 14:32+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-04-19 01:13+0000\n"
+"PO-Revision-Date: 2016-04-19 02:47+0000\n"
 "Last-Translator: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -117,6 +117,9 @@ msgstr "要約"
 
 msgid "Accept the rules"
 msgstr "ルール遵守"
+
+msgid "Account Setup"
+msgstr "アカウントのセットアップ"
 
 msgid "Acknowledge the language barrier"
 msgstr "言語障壁の認識"
@@ -329,6 +332,9 @@ msgstr ""
 "簡単に修正できるバグ。初心者が OpenStack 開発において、ワークフローに慣れ、初"
 "めてコードに触れるために理想的なもの"
 
+msgid "Build the presentation"
+msgstr "プレゼンスライドのビルド"
+
 msgid "Building karma"
 msgstr "カルマの構築"
 
@@ -396,6 +402,9 @@ msgid ""
 msgstr ""
 "新しいニックネームを用いて再接続するために、**disconnect** をクリックして "
 "**connect** をクリックします。"
+
+msgid "Click the **I am a new Ubuntu One user**."
+msgstr "**I am a new Ubuntu One user** をクリックします。"
 
 msgid "Click the **edit** button and"
 msgstr "「edit」ボタンをクリックします。"
@@ -929,26 +938,6 @@ msgstr ""
 "Liberty 以降、統合プロジェクトはリリース管理チームにより管理されているもの"
 
 msgid ""
-"For Linux distributions like Debian, Ubuntu, or Mint open a terminal and "
-"type::"
-msgstr ""
-"Debian、Ubuntu、Mint などの Linux ディストリビューションの場合、ターミナルを"
-"開き、次のように入力します。"
-
-msgid ""
-"For Linux distributions like Redhat, Fedora 21 or earlier, or Centos open a "
-"terminal and type::"
-msgstr ""
-"Red Hat、Fedora 21 以前、CentOS 以前などの Linux ディストリビューションの場"
-"合、ターミナルを開き、次のように入力します。"
-
-msgid "For Mac OS:"
-msgstr "Mac OS の場合:"
-
-msgid "For Mac OS::"
-msgstr "Mac OS の場合::"
-
-msgid ""
 "For a linux distrubtions like Debian, Ubuntu, or Mint open a terminal and "
 "type::"
 msgstr ""
@@ -969,9 +958,6 @@ msgstr "これまでの開催の詳細は :doc:`upstream-archives` を参照し�
 
 msgid "For more information, see :doc:`upstream-details`."
 msgstr "詳細は :doc:`upstream-details` を参照してください。"
-
-msgid "For openSUSE 12.2 and later open a terminal and type::"
-msgstr "openSUSE 12.2 以降の場合、ターミナルを開き、次のように入力します。"
 
 msgid ""
 "For the **Chat Server Port** type in **6697** and check the **SSL "
@@ -1049,6 +1035,12 @@ msgstr "よく知られたニックネームやアドレスの取得"
 msgid "Getting attention"
 msgstr "注目を集める"
 
+msgid "Git"
+msgstr "Git"
+
+msgid "Git Review"
+msgstr "Git Review"
+
 msgid "Go to http://colloquy.info and follow the download link."
 msgstr "http://colloquy.info をアクセスして、ダウンロードリンクに従います。"
 
@@ -1058,6 +1050,13 @@ msgid ""
 msgstr ""
 "Git `ダウンロードページ <https://git-scm.com/downloads>`_ をアクセスして、"
 "**Mac OS X** をクリックします。"
+
+msgid ""
+"Go to the `Launchpad login or create account page <https://launchpad.net/"
+"+login>`_"
+msgstr ""
+"`Launchpad login or create account page <https://launchpad.net/+login>`_ をア"
+"クセスします。"
 
 msgid "Good workflow"
 msgstr "良いワークフロー"
@@ -1233,8 +1232,11 @@ msgstr "IRC プログラムのインストール"
 msgid "Install git review"
 msgstr "git review のインストール"
 
-msgid "Installing git-review"
-msgstr "git-review のインストール"
+msgid "Install tox"
+msgstr "tox のインストール"
+
+msgid "Install tox using pip::"
+msgstr "pip を使用して tox をインストールします。::"
 
 msgid "Institutional members: Platinum and Gold sponsors"
 msgstr "組織メンバー：プラチナスポンサーおよびゴールドスポンサー"
@@ -1949,11 +1951,11 @@ msgstr ""
 msgid "Set a target milestone"
 msgstr "目標マイルストーンの設定"
 
-msgid "Setup For Mac OS & Linux"
-msgstr "Mac OS & Linux 向けセットアップ"
-
 msgid "Setup IRC"
 msgstr "IRC のセットアップ"
+
+msgid "Setup Launchpad"
+msgstr "Launchpad のセットアップ"
 
 msgid "Setup and Learn GIT"
 msgstr "Git のセットアップと学習"
@@ -1963,6 +1965,9 @@ msgstr "Shinobu KINJO (mentoring, assistant, japanese)"
 
 msgid "Sign In"
 msgstr "サインイン"
+
+msgid "Sign Up"
+msgstr "サインアップ"
 
 msgid "Sign the Individual agreement"
 msgstr "個人アグリーメントの署名"
@@ -1976,6 +1981,9 @@ msgstr "シンプルさ（行っていない作業量の最大化手法）が最
 
 msgid "Sizing the task difficulty"
 msgstr "タスクの複雑さの見積"
+
+msgid "Slides for Upstream Training"
+msgstr "Upstream Training のスライド"
 
 msgid "Small issue with an easy workaround. Any other insignificant bug"
 msgstr "簡単な回避方法のある軽微な問題。その他の重要ではないバグ"
@@ -2406,9 +2414,6 @@ msgstr ""
 "にトレーニングを開催してきました。この「公式」イベントに加えて、いくつかの"
 "ユーザーグループは、ローカルなアップストリームトレーニングを開催しています。"
 
-msgid "We'll first install git."
-msgstr "最初に Git をインストールします。"
-
 msgid "We'll install an IRC program called Colloquy."
 msgstr "Colloquy IRC プログラムをインストールします。"
 
@@ -2440,6 +2445,9 @@ msgstr "マイルストーン公開日の前週"
 
 msgid "Welcome changing requirements, even late in development"
 msgstr "変更要求の歓迎、開発終了間近でも"
+
+msgid "What is Launchpad?"
+msgstr "Launchpad とは何か?"
 
 msgid "What is OpenStack?"
 msgstr "OpenStack とは何か?"
@@ -2602,6 +2610,9 @@ msgstr "`ブランチモデル <15-branching-model.html>`_"
 
 msgid "`Bugs <https://wiki.openstack.org/wiki/Bugs>`_"
 msgstr "`バグ <https://wiki.openstack.org/wiki/Bugs>`_"
+
+msgid "`Code <http://git.openstack.org/cgit>`_"
+msgstr "`コード <http://git.openstack.org/cgit>`_"
 
 msgid ""
 "`Code Review <http://docs.openstack.org/infra/manual/developers.html#code-"
@@ -2932,6 +2943,9 @@ msgstr ""
 "`ユニットテストの実行 <http://docs.openstack.org/infra/manual/developers."
 "html#running-unit-tests>`_"
 
+msgid "`Specifications <http://specs.openstack.org>`_"
+msgstr "`スペック <http://specs.openstack.org>`_"
+
 msgid "`Stable branch <https://wiki.openstack.org/wiki/StableBranch>`_"
 msgstr "`安定ブランチ <https://wiki.openstack.org/wiki/StableBranch>`_"
 
@@ -2975,12 +2989,22 @@ msgid ""
 msgstr ""
 "`Training guides <https://wiki.openstack.org/wiki/Training-guides#How_To>`_"
 
+msgid "`Translations <http://git.openstack.org/cgit/openstack/i18n/tree/>`_"
+msgstr "`翻訳 <http://git.openstack.org/cgit/openstack/i18n/tree/>`_"
+
 msgid ""
 "`Understanding the DefCore Guidelines <https://git.openstack.org/cgit/"
 "openstack/defcore>`_"
 msgstr ""
 "`DefCore ガイドラインの理解 <https://git.openstack.org/cgit/openstack/"
 "defcore>`_"
+
+msgid ""
+"`Use cases for features <http://specs.openstack.org/openstack/openstack-user-"
+"stories/>`_"
+msgstr ""
+"`機能のユースケース <http://specs.openstack.org/openstack/openstack-user-"
+"stories/>`_"
 
 msgid ""
 "``#action`` - Document an action item in the minutes. Include any nicknames "
@@ -3177,13 +3201,6 @@ msgstr "git config --global user.name \"Firstname Lastname\""
 
 msgid "git review -s"
 msgstr "git review -s"
-
-msgid ""
-"git-review adds a subcommand to git that handles working with Gerrit, the "
-"code review system used by OpenStack."
-msgstr ""
-"git-review は git にサブコマンドを追加します。OpenStack により使用されている"
-"コードレビューシステム Gerrit を処理します。"
 
 msgid ""
 "guiding principles\" used by the Foundation Board to determine how "

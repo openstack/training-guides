@@ -8,13 +8,50 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-19 06:32+0000\n"
+"POT-Creation-Date: 2016-04-20 06:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: ../../README.rst:2
+msgid "Slides for Upstream Training"
+msgstr ""
+
+#: ../../README.rst:4
+msgid ""
+"The files are based on teaching material provided originally by Loic Dachary "
+"as ODP files. Converted to RST text in order to be converted by Hieroglyph "
+"in convenient HTML5 slides."
+msgstr ""
+
+#: ../../README.rst:9
+msgid "Install tox"
+msgstr ""
+
+#: ../../README.rst:11
+msgid "Install tox using pip::"
+msgstr ""
+
+#: ../../README.rst:16
+msgid "Build the presentation"
+msgstr ""
+
+#: ../../README.rst:18
+msgid "Build the presention using tox::"
+msgstr ""
+
+#: ../../README.rst:22
+msgid ""
+"You should be able to see the slides at the given location: ``training-"
+"guides/doc/upstream-training/build/slides``."
+msgstr ""
+
+#: ../../README.rst:25
+msgid "These are HTML5 slides and should open with any modern web browser."
+msgstr ""
 
 #: ../../accounts.rst:3
 msgid "Account Setup"
@@ -236,119 +273,125 @@ msgstr ""
 msgid "Git"
 msgstr ""
 
-#: ../../git.rst:14
+#: ../../git.rst:15
 msgid ""
 "Git is a free and open source distributed version control system that the "
 "OpenStack community uses to manage changes to source code."
 msgstr ""
 
-#: ../../git.rst:18 ../../git.rst:73
+#: ../../git.rst:19 ../../git.rst:81
 msgid "Installation"
 msgstr ""
 
-#: ../../git.rst:21 ../../git.rst:76
+#: ../../git.rst:22 ../../git.rst:84
 msgid "Mac OS"
 msgstr ""
 
-#: ../../git.rst:23
+#: ../../git.rst:24
 msgid ""
 "Go to the Git `download page <https://git-scm.com/downloads>`_ and click "
 "**Mac OS X**."
 msgstr ""
 
-#: ../../git.rst:25
+#: ../../git.rst:27
 msgid ""
 "The downloaded file should be a dmg in your downloads folder. Open that dmg "
 "file and follow the instructions on screen."
 msgstr ""
 
-#: ../../git.rst:29 ../../git.rst:87
+#: ../../git.rst:30
+msgid ""
+"If you use the package manager `Homebrew <http://brew.sh>`_, open a terminal "
+"and type::"
+msgstr ""
+
+#: ../../git.rst:36 ../../git.rst:95
 msgid "Linux"
 msgstr ""
 
-#: ../../git.rst:31 ../../git.rst:89
+#: ../../git.rst:38 ../../git.rst:97
 msgid ""
 "For distributions like Debian, Ubuntu, or Mint open a terminal and type::"
 msgstr ""
 
-#: ../../git.rst:35 ../../git.rst:93
+#: ../../git.rst:42 ../../git.rst:101
 msgid ""
-"For distributions like Redhat, Fedora 21 or earlier, or Centos open a "
+"For distributions like RedHat, Fedora 21 or earlier, or CentOS open a "
 "terminal and type::"
 msgstr ""
 
-#: ../../git.rst:40 ../../git.rst:98
+#: ../../git.rst:47 ../../git.rst:106
 msgid "For Fedora 22 or later open a terminal and type::"
 msgstr ""
 
-#: ../../git.rst:44 ../../git.rst:102
-msgid "For openSUSE 12.2 and later open a terminal and type::"
+#: ../../git.rst:51 ../../git.rst:110
+msgid "For SUSE distributions open a terminal and type::"
 msgstr ""
 
-#: ../../git.rst:49
+#: ../../git.rst:56
 msgid "Configure Git"
 msgstr ""
 
-#: ../../git.rst:51
+#: ../../git.rst:58
 msgid ""
 "Once you have Git installed you need to configure it. Open your terminal "
 "application and issue the following commands putting in your first/last name "
 "and email address. This is how your contributions will be identified::"
 msgstr ""
 
-#: ../../git.rst:59
+#: ../../git.rst:66
 msgid "Git Review"
 msgstr ""
 
-#: ../../git.rst:63
+#: ../../git.rst:71
 msgid ""
 "Git review is tool maintained by the OpenStack community. It adds an "
 "additional sub-command to git like so::"
 msgstr ""
 
-#: ../../git.rst:68
+#: ../../git.rst:76
 msgid ""
 "When you have changes in an OpenStack project repository, you can use this "
 "sub-command to have the changes posted to :doc:`gerrit` so that they can be "
 "reviewed."
 msgstr ""
 
-#: ../../git.rst:78
+#: ../../git.rst:86
 msgid "In a terminal type::"
 msgstr ""
 
-#: ../../git.rst:82
+#: ../../git.rst:90
 msgid ""
 "If you don't have pip installed already, follow the `installation "
 "documentation <https://pip.pypa.io/en/stable/installing/#installing-with-get-"
 "pip-py>`_ for pip."
 msgstr ""
 
-#: ../../git.rst:107
+#: ../../git.rst:115
 msgid "Configuration"
 msgstr ""
 
-#: ../../git.rst:109
+#: ../../git.rst:117
 msgid ""
 "Git review assumes the user you're running it as is the same as your Gerrit "
 "username. If it's not, you can tell it by setting this git config setting::"
 msgstr ""
 
-#: ../../git.rst:114
+#: ../../git.rst:122
 msgid ""
 "If you don't know what your Gerrit username is, you can check the `Gerrit "
 "settings <https://review.openstack.org/#/settings/>`_."
 msgstr ""
 
-#: ../../git.rst:118
+#: ../../git.rst:126
 msgid "Setup SSH Keys"
 msgstr ""
 
-#: ../../git.rst:122
+#: ../../git.rst:129
 msgid "What are they?"
 msgstr ""
 
-#: ../../git.rst:123
+#: ../../git.rst:131
 msgid ""
 "In order to push things to `Gerrit <https://review.openstack.org>`_ we need "
 "to have a way to identify ourselves. We will do this using ssh keys which "
@@ -357,21 +400,21 @@ msgid ""
 "response_authentication>`_ with the Gerrit server."
 msgstr ""
 
-#: ../../git.rst:130
+#: ../../git.rst:138
 msgid "SSH keys are always generated in pairs:"
 msgstr ""
 
-#: ../../git.rst:132
+#: ../../git.rst:140
 msgid "**Private key** - Only known to you and it should be safely guarded."
 msgstr ""
 
-#: ../../git.rst:133
+#: ../../git.rst:141
 msgid ""
 "**Public key** - Can be shared freely with any SSH server you wish to "
 "connect to."
 msgstr ""
 
-#: ../../git.rst:136
+#: ../../git.rst:144
 msgid ""
 "In summary, we will be generating these keys, and providing the Gerrit "
 "server with your public key. With your system holding the private key, it "
@@ -379,100 +422,100 @@ msgid ""
 "authentication."
 msgstr ""
 
-#: ../../git.rst:142
+#: ../../git.rst:150
 msgid "Check For Existing Keys"
 msgstr ""
 
-#: ../../git.rst:143
+#: ../../git.rst:152
 msgid "Open your terminal program and type::"
 msgstr ""
 
-#: ../../git.rst:147
+#: ../../git.rst:156
 msgid "Typically public key filenames will look like:"
 msgstr ""
 
-#: ../../git.rst:149
+#: ../../git.rst:158
 msgid "id_dsa.pub"
 msgstr ""
 
-#: ../../git.rst:150
+#: ../../git.rst:159
 msgid "id_ecdsa.pub"
 msgstr ""
 
-#: ../../git.rst:151
+#: ../../git.rst:160
 msgid "id_ed25519.pub"
 msgstr ""
 
-#: ../../git.rst:152
+#: ../../git.rst:161
 msgid "id_rsa.pub"
 msgstr ""
 
-#: ../../git.rst:154
+#: ../../git.rst:163
 msgid "If you don't see .pub extension file, you need to generate keys."
 msgstr ""
 
-#: ../../git.rst:158
+#: ../../git.rst:167
 msgid "Generate SSH Keys"
 msgstr ""
 
-#: ../../git.rst:159
+#: ../../git.rst:169
 msgid ""
 "Assuming you weren't able to find keys in your ~/.ssh directory, you can "
 "generate keys by going into your terminal program and typing::"
 msgstr ""
 
-#: ../../git.rst:164
+#: ../../git.rst:174
 msgid ""
 "When you're prompted to \"Enter a file in which to save the key\" press "
 "Enter. This accepts the default location::"
 msgstr ""
 
-#: ../../git.rst:169
+#: ../../git.rst:179
 msgid ""
 "At the prompt, type a secure a passphase, you may enter one or press Enter "
 "to have no passphase::"
 msgstr ""
 
-#: ../../git.rst:177
+#: ../../git.rst:187
 msgid "Copy Public Key"
 msgstr ""
 
-#: ../../git.rst:180
+#: ../../git.rst:190
 msgid "Mac OS & Linux"
 msgstr ""
 
-#: ../../git.rst:181
+#: ../../git.rst:192
 msgid "From your terminal type::"
 msgstr ""
 
-#: ../../git.rst:185
+#: ../../git.rst:196
 msgid "Highlight and copy the output."
 msgstr ""
 
-#: ../../git.rst:188
+#: ../../git.rst:199
 msgid "Import Public Key Into Gerrit"
 msgstr ""
 
-#: ../../git.rst:189
+#: ../../git.rst:201
 msgid ""
 "Go to `Gerrit's SSH Public Keys settings <https://review.openstack.org/#/"
 "settings/ssh-keys>`_."
 msgstr ""
 
-#: ../../git.rst:191
+#: ../../git.rst:203
 msgid "Click the 'Add Key' button."
 msgstr ""
 
-#: ../../git.rst:192
+#: ../../git.rst:204
 msgid ""
 "Paste the public key into the **Add SSH Public Key** text box and click Add."
 msgstr ""
 
-#: ../../git.rst:195
+#: ../../git.rst:207
 msgid "Learning Git"
 msgstr ""
 
-#: ../../git.rst:197
+#: ../../git.rst:209
 msgid ""
 "You can use `Git Immersion <http://gitimmersion.com/lab_02.html>`_ to work "
 "through tutorials for learning git."
