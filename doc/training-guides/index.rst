@@ -20,6 +20,7 @@ Associate Guide - Modules
 -------------------------
 
 * `Getting started <associate-guide/01-getting-started.html>`_
+* `Using with horizon <associate-guide/03-using-with-horizon.html>`_
 * `OpenStack networking <associate-guide/07-associate-network-node.html>`_
 * `OpenStack compute <associate-guide/compute-overview.html>`_
 
