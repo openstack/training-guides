@@ -42,6 +42,18 @@ Technical Committee Members
 
 .. image:: ./_assets/03-01-TC2.png
 
+The role of the User Committee
+==============================
+
+- Consolidate user requirements and present these to the management
+  board and technical committee
+- Provide guidance for the development teams where user feedback is requested
+- Track OpenStack deployments and usage, helping to share user stories
+  and experiences
+- Work with the user groups worldwide to keep the OpenStack community vibrant
+  and informed
+- https://www.openstack.org/foundation/user-committee/
+
 OpenStack Project Teams
 =======================
 
