@@ -11,14 +11,15 @@ The OpenStack Community
 
 - Created by a large growing community
 
-  - 32,255 people
-  - 555 supporting companies
+  - 40,497 people
+  - 596 supporting companies
+  - 179 countries
   - More than 20 million lines of code
 
-- Most recent ("Liberty") release stats:
+- Most recent ("Mitaka") release stats:
 
-  - 1,933 developers
-  - 164 different companies
+  - 2,336 developers
+  - 345 different organizations
   - More than 20,000 patches
 
 Relevant actors
