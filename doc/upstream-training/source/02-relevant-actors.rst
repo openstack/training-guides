@@ -30,24 +30,7 @@ Relevant actors
 Relevance metrics
 =================
 
-.. rst-class:: colleft
-
-- CI votes
-- Commits
-- Completed Blueprints
-- Drafted Blueprints
-- Emails
-- Filed Bugs
-- Lines of code
-- Patch Sets
-- Person-day effort
-- Resolved Bugs
-- Reviews
-
-.. rst-class:: colright
-
 .. image:: ./_assets/02-02-relevance-metrics.png
-   :height: 500 px
 
 Company snapshot
 ================
