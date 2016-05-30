@@ -9,13 +9,26 @@ Besides this "official" event, some user groups hold the local
 Upstream trainings.
 
 A big thank you to everyone that has made this possible, especially
-Loic Dachary, Stefano Maffulli, and Tim Freund who lead the trainings.
+Loic Dachary, Stefano Maffulli, Tim Freund, and Marton Kiss
+who lead the trainings.
+
+2016 Austin, USA
+================
+
+**Staff**
+
+* Marton Kiss (training, mentoring, assistant)
+* Ildiko Vancsa - ildikov - Telemetry (mentoring, assistant)
+* Mark Korondi (mentoring, assistant)
+* Victoria Martinez de la Cruz - vkmc - Trove/Zaqar (mentoring, assistant)
+* Christian Berendt - Installation (mentoring, assistant)
+* Lana Brindley - Docs (mentoring, assistant)
+* Swami Redydy (mentoring, assistant)
 
 2015 Tokyo, Japan
 =================
 
-Staff
------
+**Staff**
 
 * Tim Freund (training, mentoring, assistant, english)
 * Chris Ricker (training, mentoring, assistant, english)
@@ -29,8 +42,7 @@ Staff
 2015 Vancouver, Canada
 ======================
 
-Staff
------
+**Staff**
 
 * Tim Freund (training, assistant, english)
 * Chris Ricker (training, mentoring, assistant, english)
@@ -49,8 +61,7 @@ Staff
 `OpenStack Upstream Training in Paris
 <http://www.openstack.org/blog/2014/08/openstack-upstream-training-in-paris/>`_.
 
-Staff
------
+**Staff**
 
 * Stefano Maffulli (training, mentoring, assistant, english)
 * Loic Dachary (training, mentoring, assistant, french, english)
@@ -78,8 +89,7 @@ Staff
 `OpenStack Upstream Training in Atlanta A Big Success
 <http://www.openstack.org/blog/2014/05/openstack-upstream-training-in-atlanta-a-big-success/>`_.
 
-Staff
------
+**Staff**
 
 * Loic Dachary (training, mentoring, assistant, french, english) - lead
 * Chris Ricker (training, mentoring, assistant, english)

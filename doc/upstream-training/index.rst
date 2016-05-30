@@ -5,12 +5,12 @@ OpenStack Upstream Training
 Abstract
 ========
 
-With over 2000 developers from 80 different companies worldwide, OpenStack is
-one of the largest collaborative software-development projects. Because of its
-size, it is characterized by a huge diversity in social norms and technical
-conventions. These can significantly slow down the speed at which newcomers
-are successful at integrating their own roadmap into that of the OpenStack
-project.
+With over 2,000 developers from over 300 different organizations worldwide,
+OpenStack is one of the largest collaborative software-development projects.
+Because of its size, it is characterized by a huge diversity in social norms
+and technical conventions.
+These can significantly slow down the speed at which newcomers are successful
+at integrating their own roadmap into that of the OpenStack project.
 
 We've designed a training program to help professional developers negotiate
 this hurdle. It shows them how to ensure their bug fix or feature is accepted
@@ -27,11 +27,11 @@ For more information, see :doc:`upstream-details`.
 When & Where to get OpenStack Upstream Training
 ===============================================
 
-The next session of the OpenStack Upstream Training will be held in Austin,
-before the OpenStack Summit Austin 2016.
+The next session of the OpenStack Upstream Training will be held in Barcelona,
+before the OpenStack Summit Barcelona 2016.
 
-**Saturday, April 23, 2016 at 9:30 AM to 5:00 PM - Sunday, April 24, 2016 at
-9:30 AM to 5:00 PM (UTC-05:00)**
+.. **Saturday, October 22, 2016 at 9:30 AM to 5:00 PM - Sunday, October 23,
+   2016 at 9:30 AM to 5:00 PM (local time)**
 
 `Students and mentors can register here
 <https://openstackfoundation.formstack.com/forms/mentoring>`_.
