@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-19 14:32+0000\n"
+"POT-Creation-Date: 2016-05-30 13:38+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -29,27 +29,14 @@ msgid "(RC2), with bugs targeted to it"
 msgstr "프로젝트에 대한 버그를 목표로 한 (RC2)"
 
 msgid ""
-"**Saturday, April 23, 2016 at 9:30 AM to 5:00 PM - Sunday, April 24, 2016 at "
-"9:30 AM to 5:00 PM (UTC-05:00)**"
-msgstr ""
-"**2016년 4월 23일 토요일, 9:30 AM 부터 5:00 PM 까지 - 2016년 4월 24일 일요"
-"일, 9:30 AM 부터 5:00 PM 까지 (UTC-05:00)**"
-
-msgid ""
 "**Still looking for help: please** `register <https://openstackfoundation."
 "formstack.com/forms/mentoring>`_"
 msgstr ""
 "**여전히 도움을 찾고 있습니다:** `등록 <https://openstackfoundation."
 "formstack.com/forms/mentoring>`_ 해 주세요"
 
-msgid "1,933 developers"
-msgstr "1,933 명의 개발자"
-
 msgid "15 minutes building"
 msgstr "15분 동안의 만들기"
-
-msgid "164 different companies"
-msgstr "164 개의 서로 다른 회사"
 
 msgid "2013.2 branch and tags"
 msgstr "2013.2 브랜치 및 태그"
@@ -69,9 +56,6 @@ msgstr "2015년 일본, 도쿄"
 msgid "2015 Vancouver, Canada"
 msgstr "2015년 캐나다, 벤쿠버"
 
-msgid "32,255 people"
-msgstr "32,255 명"
-
 msgid "4 weeks, Design Summit on the third week"
 msgstr "4주, 3번째 주에 대한 Design Summit"
 
@@ -80,16 +64,6 @@ msgstr "5분 동안의 계획"
 
 msgid "5 minutes review"
 msgstr "5분 동안의 리뷰"
-
-msgid "555 supporting companies"
-msgstr "555 지원 회사"
-
-msgid ""
-"A big thank you to everyone that has made this possible, especially Loic "
-"Dachary, Stefano Maffulli, and Tim Freund who lead the trainings."
-msgstr ""
-"이를 가능하게 한 모든 분들, 그리고 특별히 트레이닝을 진행한 Loic Dachary, "
-"Stefano Maffulli, 그리고 Tim Freund에게 큰 감사를 드립니다."
 
 msgid ""
 "A message dialog window will come up. Type the following to register your "
@@ -338,9 +312,6 @@ msgstr "karma 생성"
 msgid "CEO : 1"
 msgstr "CEO : 1"
 
-msgid "CI votes"
-msgstr "CI 투표"
-
 msgid "Candidacy for the corresponding program PTL election"
 msgstr "대응하는 프로그램에 대한 PTL 선거에 대한 입후보 자격"
 
@@ -429,9 +400,6 @@ msgstr "코드가 말하는 것 : Gource 실행"
 msgid "Commit messages"
 msgstr "커밋 메시지"
 
-msgid "Commits"
-msgstr "커밋"
-
 msgid "Committed a change over the last two 6-month release cycles"
 msgstr "최근 두 개의 6개월 릴리즈 주기에 걸쳐 변경 사항을 제출"
 
@@ -458,9 +426,6 @@ msgstr "회사 스냅샷"
 
 msgid "Compare"
 msgstr "비교"
-
-msgid "Completed Blueprints"
-msgstr "완료된 Blueprint"
 
 msgid "Configure Git"
 msgstr "Git 구성"
@@ -689,9 +654,6 @@ msgstr "완료"
 msgid "Draft inline comments"
 msgstr "인라인 코멘트 초안"
 
-msgid "Drafted Blueprints"
-msgstr "Blueprint 초안"
-
 msgid "Drive the program goals"
 msgstr "프로그램 목표 진행"
 
@@ -748,9 +710,6 @@ msgstr "Edouard THULEAU (조교, 프랑스어, 영어)"
 
 msgid "Edouard Thuleau (assistant, french, english)"
 msgstr "Edouard Thuleau (조교, 프랑스어, 영어)"
-
-msgid "Emails"
-msgstr "이메일"
 
 msgid "End on time"
 msgstr "정시에 종료합니다"
@@ -894,9 +853,6 @@ msgstr "찾은 버그 모두 모으기"
 
 msgid "File new blueprints and/or specs"
 msgstr "새로운 blueprint 그리고/또는 spec을 묶기"
-
-msgid "Filed Bugs"
-msgstr "수집된 버그"
 
 msgid "Find a solution that needs to be agreed upon"
 msgstr "동의를 필요로 하는 해결책을 찾습니다"
@@ -1400,9 +1356,6 @@ msgstr ""
 msgid "Like sprints, small groups of people work on specific themes"
 msgstr "Sprint와 같이, 작은 그룹의 구성원이 구체적인 테마에 대해 작업합니다"
 
-msgid "Lines of code"
-msgstr "코드 라인"
-
 msgid "Link to the blueprint"
 msgstr "Blueprint에 링크"
 
@@ -1565,9 +1518,6 @@ msgid "Most of the projects now manage blueprints on a git repo called specs"
 msgstr ""
 "프로젝트 중 대부분은 이제 spec으로 불리는 git 저장소에 대한 blueprint에서 관"
 "리합니다"
-
-msgid "Most recent (\"Liberty\") release stats:"
-msgstr "가장 최근 (\"Liberty\") 릴리즈 통계:"
 
 msgid "Motions"
 msgstr "움직임"
@@ -1756,9 +1706,6 @@ msgstr "PTL은 프로젝트 트랙 내 세션을 투표합니다"
 msgid "Parallelizing"
 msgstr "평행"
 
-msgid "Patch Sets"
-msgstr "패치 set"
-
 msgid "People sitting in the inner circle lead the discussion"
 msgstr "원 안에 앉아있는 구성원이 토론을 진행합니다"
 
@@ -1770,9 +1717,6 @@ msgstr "프로젝트 별 태그"
 
 msgid "Perform the smaller tasks"
 msgstr "보다 작은 작업을 수행합니다"
-
-msgid "Person-day effort"
-msgstr " Person-day 효과"
 
 msgid "Planning : Design"
 msgstr "계획: 설계"
@@ -1917,9 +1861,6 @@ msgstr "프로젝트 팀에 대한 임시 회의로 예약됩니다"
 msgid "Resolve technical disputes"
 msgstr "기술 논쟁 해결"
 
-msgid "Resolved Bugs"
-msgstr "해결된 버그"
-
 msgid "Respect the election process"
 msgstr "선거 과정을 존중합니다"
 
@@ -1940,9 +1881,6 @@ msgstr "통합 리뷰"
 
 msgid "Reviewing"
 msgstr "리뷰하기"
-
-msgid "Reviews"
-msgstr "리뷰"
 
 msgid "Rodolphe Quiedeville (training, mentoring, assistant, french)"
 msgstr "Rodolphe Quiedeville (교육, 멘토링, 조교, 프랑스어)"
@@ -2276,13 +2214,6 @@ msgid ""
 "The milestone we need to fix the bug for, or the milestone/version it was "
 "fixed in."
 msgstr "버그 수정을 필요로 하는 마일스톤, 또는 수정되었던 마일스톤/버전"
-
-msgid ""
-"The next session of the OpenStack Upstream Training will be held in Austin, "
-"before the OpenStack Summit Austin 2016."
-msgstr ""
-"다음 OpenStack Upstream Training 세션은 Austin에서 OpenStack Summit Austin "
-"2016 전에 개최 예정입니다."
 
 msgid "The official list of projects is in the `governance` repository"
 msgstr "공식 프로젝트 목록은 `governance` 저장소 내에 있습니다"

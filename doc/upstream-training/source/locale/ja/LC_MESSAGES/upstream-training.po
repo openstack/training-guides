@@ -4,11 +4,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-19 14:32+0000\n"
+"POT-Creation-Date: 2016-05-30 13:38+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-04-19 02:47+0000\n"
+"PO-Revision-Date: 2016-05-30 06:58+0000\n"
 "Last-Translator: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -28,25 +28,20 @@ msgid "(RC2), with bugs targeted to it"
 msgstr "(RC2)、それを目標にしたバグ"
 
 msgid ""
-"**Saturday, April 23, 2016 at 9:30 AM to 5:00 PM - Sunday, April 24, 2016 at "
-"9:30 AM to 5:00 PM (UTC-05:00)**"
-msgstr "**2016年4月23～24日（土・日）午前 9:30 ～ 午後 5:00 PM (UTC-05:00)**"
-
-msgid ""
 "**Still looking for help: please** `register <https://openstackfoundation."
 "formstack.com/forms/mentoring>`_"
 msgstr ""
 "**まだお手伝いを探しています: どうぞ** `登録 <https://openstackfoundation."
 "formstack.com/forms/mentoring>`_ してください。"
 
-msgid "1,933 developers"
-msgstr "1,933 人の開発者"
-
 msgid "15 minutes building"
 msgstr "構築 15 分間"
 
-msgid "164 different companies"
-msgstr "164 社の企業"
+msgid "179 countries"
+msgstr "179 か国"
+
+msgid "2,336 developers"
+msgstr "2,336 人の開発者"
 
 msgid "2013.2 branch and tags"
 msgstr "2013.2 ブランチとタグ"
@@ -66,11 +61,14 @@ msgstr "2015 Tokyo, Japan"
 msgid "2015 Vancouver, Canada"
 msgstr "2015 Vancouver, Canada"
 
-msgid "32,255 people"
-msgstr "32,255 人"
+msgid "345 different organizations"
+msgstr "345 の組織"
 
 msgid "4 weeks, Design Summit on the third week"
 msgstr "4 週間、3 週目にサミット"
+
+msgid "40,497 people"
+msgstr "40,497 人"
 
 msgid "5 minutes planning"
 msgstr "計画 5 分間"
@@ -78,15 +76,8 @@ msgstr "計画 5 分間"
 msgid "5 minutes review"
 msgstr "レビュー 5 分間"
 
-msgid "555 supporting companies"
-msgstr "555 サポート企業"
-
-msgid ""
-"A big thank you to everyone that has made this possible, especially Loic "
-"Dachary, Stefano Maffulli, and Tim Freund who lead the trainings."
-msgstr ""
-"私たちは、このイベントを実現させたすべての方々、とくにトレーニングをリードし"
-"た Loic Dachary、Stefano Maffulli、Tim Freund に感謝しています。"
+msgid "596 supporting companies"
+msgstr "596 サポート企業"
 
 msgid ""
 "A message dialog window will come up. Type the following to register your "
@@ -183,7 +174,7 @@ msgid "Alignment with OpenStack mission"
 msgstr "OpenStack のミッションとの整合性"
 
 msgid "All externally visible strings must be frozen"
-msgstr "外部から参照できる文字列は凍結する必要があります"
+msgstr "外部から参照できる文字列は凍結する必要がある"
 
 msgid "Analyze the reasons for an increased delta"
 msgstr "増加した差分の原因の分析"
@@ -335,14 +326,14 @@ msgstr ""
 msgid "Build the presentation"
 msgstr "プレゼンスライドのビルド"
 
+msgid "Build the presention using tox::"
+msgstr "tox を使用して、プレゼン資料をビルドします。::"
+
 msgid "Building karma"
 msgstr "カルマの構築"
 
 msgid "CEO : 1"
 msgstr "CEO : 1"
-
-msgid "CI votes"
-msgstr "CI 投票"
 
 msgid "Candidacy for the corresponding program PTL election"
 msgstr "対応するプロジェクトの PTL 選挙への立候補"
@@ -403,6 +394,9 @@ msgstr ""
 "新しいニックネームを用いて再接続するために、**disconnect** をクリックして "
 "**connect** をクリックします。"
 
+msgid "Click the 'Add Key' button."
+msgstr "「Add Key」ボタンをクリックします。"
+
 msgid "Click the **I am a new Ubuntu One user**."
 msgstr "**I am a new Ubuntu One user** をクリックします。"
 
@@ -426,9 +420,6 @@ msgstr "コードは語る : Gource の実行"
 
 msgid "Commit messages"
 msgstr "コミットメッセージ"
-
-msgid "Commits"
-msgstr "コミット"
 
 msgid "Committed a change over the last two 6-month release cycles"
 msgstr "過去 2 回の 6 か月サイクルにおける変更のコミット"
@@ -457,8 +448,8 @@ msgstr "企業の活動状況"
 msgid "Compare"
 msgstr "比較"
 
-msgid "Completed Blueprints"
-msgstr "ブループリント完了数"
+msgid "Configuration"
+msgstr "設定"
 
 msgid "Configure Git"
 msgstr "Git の設定"
@@ -477,6 +468,12 @@ msgstr ""
 "おめでとう！OpenStack コミュニティーとコミュニケーションする準備ができまし"
 "た。Freenode に登録されたニックネームを持ちました。次回から、Colloquy を用い"
 "て接続するとき、あなたのニックネームで識別されます。"
+
+msgid ""
+"Consolidate user requirements and present these to the management board and "
+"technical committee"
+msgstr ""
+"ユーザーの要望を集め、それらをボード会議や TC(技術委員会) に説明します。"
 
 msgid "Continuous attention to technical excellence and good design"
 msgstr "技術的な精錬と良い設計に関する継続的な注意"
@@ -500,7 +497,10 @@ msgid "Controversial : 1"
 msgstr "議論好きの人 : 1"
 
 msgid "Coordinated collection of software from a few dozen related projects"
-msgstr "関連する数十のプロジェクトからなる協調したソフトウェア群"
+msgstr "関連する数十のプロジェクトからなる、協調されたソフトウェア群"
+
+msgid "Copy Public Key"
+msgstr "公開鍵のコピー"
 
 msgid "Core (or What is OpenStack)"
 msgstr "コア (OpenStack とは何か)"
@@ -534,13 +534,13 @@ msgid "Create the corresponding blueprint"
 msgstr "対応するブループリントの作成"
 
 msgid "Created by a large growing community"
-msgstr "大きく成長しているコミュニティーにより作成されています"
+msgstr "大きく成長しているコミュニティーにより作成されている"
 
 msgid "Created too much pressure to `integrate`"
 msgstr "強すぎる `統合` へのプレッシャーを生み出した"
 
 msgid "Creates other committees for day-to-day leadership"
-msgstr "日々のリーダーシップのために、他の委員会を作成します"
+msgstr "日々のリーダーシップのために、他の委員会を作成する"
 
 msgid "Critical"
 msgstr "Critical (クリティカル)"
@@ -678,9 +678,6 @@ msgstr "完了"
 msgid "Draft inline comments"
 msgstr "ドラフトのインラインコメント"
 
-msgid "Drafted Blueprints"
-msgstr "ブループリントドラフト数"
-
 msgid "Drive the program goals"
 msgstr "プログラムの目標の推進"
 
@@ -702,7 +699,7 @@ msgid ""
 "openstack.org/reference/projects"
 msgstr ""
 "各プロジェクトチームは http://governance.openstack.org/reference/projects に"
-"リリースポリシーを公開しています。"
+"リリースポリシーを公開している"
 
 msgid ""
 "Each student group prepares a presentation describing: * the contribution "
@@ -737,9 +734,6 @@ msgstr "Edouard THULEAU (assistant, french, english)"
 
 msgid "Edouard Thuleau (assistant, french, english)"
 msgstr "Edouard Thuleau (assistant, french, english)"
-
-msgid "Emails"
-msgstr "メール数"
 
 msgid "End on time"
 msgstr "時間厳守"
@@ -884,9 +878,6 @@ msgstr "見つけたすべてのバグを投稿する"
 msgid "File new blueprints and/or specs"
 msgstr "新規ブループリントおよびスペックの登録"
 
-msgid "Filed Bugs"
-msgstr "バグ報告数"
-
 msgid "Find a solution that needs to be agreed upon"
 msgstr "合意する必要のあるソリューションの検討"
 
@@ -906,7 +897,7 @@ msgid "Fix Released"
 msgstr "Fix Released"
 
 msgid "Fix as many bugs as you can"
-msgstr "できる限り多くのバグの修正"
+msgstr "できる限り多くのバグを修正する"
 
 msgid ""
 "Fix for the bug would make OpenStack more resilient to future security "
@@ -937,6 +928,10 @@ msgid ""
 msgstr ""
 "Liberty 以降、統合プロジェクトはリリース管理チームにより管理されているもの"
 
+msgid "For SUSE distributions open a terminal and type::"
+msgstr ""
+"SUSE ディストリビューションの場合、ターミナルを開き、次のように入力します。"
+
 msgid ""
 "For a linux distrubtions like Debian, Ubuntu, or Mint open a terminal and "
 "type::"
@@ -950,6 +945,19 @@ msgid ""
 msgstr ""
 "Red Hat、Fedora 21 以前などの Linux ディストリビューションの場合、ターミナル"
 "を開いて次のとおり入力します。::"
+
+msgid ""
+"For distributions like Debian, Ubuntu, or Mint open a terminal and type::"
+msgstr ""
+"Debian、Ubuntu、Mint などのディストリビューションの場合、ターミナルを開き、次"
+"のように入力します。"
+
+msgid ""
+"For distributions like RedHat, Fedora 21 or earlier, or CentOS open a "
+"terminal and type::"
+msgstr ""
+"Red Hat、Fedora 21 以前、CentOS 以前などのディストリビューションの場合、ター"
+"ミナルを開き、次のように入力します。"
 
 msgid ""
 "For more information about the past trainings and local upstream trainings, "
@@ -1002,6 +1010,9 @@ msgstr "一覧: http://governance.openstack.org/reference/projects/index.html"
 msgid "GIT commit message structure"
 msgstr "GIT コミットメッセージの構造"
 
+msgid "Generate SSH Keys"
+msgstr "SSH 鍵の生成"
+
 msgid ""
 "Gerrit Documentation: `Gerrit Code Review - A Quick Introduction <https://"
 "review.openstack.org/Documentation/intro-quick.html>`_"
@@ -1040,6 +1051,13 @@ msgstr "Git"
 
 msgid "Git Review"
 msgstr "Git Review"
+
+msgid ""
+"Go to `Gerrit's SSH Public Keys settings <https://review.openstack.org/#/"
+"settings/ssh-keys>`_."
+msgstr ""
+"`Gerrit の SSH 公開鍵の設定 <https://review.openstack.org/#/settings/ssh-"
+"keys>`_ ページをアクセスします。"
 
 msgid "Go to http://colloquy.info and follow the download link."
 msgstr "http://colloquy.info をアクセスして、ダウンロードリンクに従います。"
@@ -1187,6 +1205,9 @@ msgstr "実装 : 凍結"
 msgid "Implementations that are Core can use OpenStack trademark (OpenStack™)"
 msgstr "コアサービスの実装は OpenStack の商標 (OpenStack™) を使用できます"
 
+msgid "Import Public Key Into Gerrit"
+msgstr "Public Key の Gerrit へのインポート"
+
 msgid "In Progress"
 msgstr "In Progress"
 
@@ -1237,6 +1258,9 @@ msgstr "tox のインストール"
 
 msgid "Install tox using pip::"
 msgstr "pip を使用して tox をインストールします。::"
+
+msgid "Installation"
+msgstr "インストール"
 
 msgid "Institutional members: Platinum and Gold sponsors"
 msgstr "組織メンバー：プラチナスポンサーおよびゴールドスポンサー"
@@ -1311,7 +1335,7 @@ msgid "Learning about the project"
 msgstr "プロジェクトについて知る"
 
 msgid "Led by a board of directors"
-msgstr "役員会により指揮されています"
+msgstr "役員会により指揮されている"
 
 msgid "Lego applied to Free Software contributions"
 msgstr "フリーソフトウェアのコントリビューションに適用する LEGO"
@@ -1342,9 +1366,6 @@ msgstr ""
 
 msgid "Like sprints, small groups of people work on specific themes"
 msgstr "スプリントのように、少人数グループが特定のテーマに取り組む"
-
-msgid "Lines of code"
-msgstr "コード行数"
 
 msgid "Link to the blueprint"
 msgstr "ブループリントへのリンク"
@@ -1394,6 +1415,9 @@ msgstr "ランチメニューミーティング"
 
 msgid "Mac OS"
 msgstr "Mac OS"
+
+msgid "Mac OS & Linux"
+msgstr "Mac OS & Linux"
 
 msgid ""
 "Make sure that **Use SSL for all the servers on this network** is checked."
@@ -1509,8 +1533,8 @@ msgstr ""
 "ほとんどのプロジェクトは、specs という git リポジトリーにおいてブループリント"
 "を管理している"
 
-msgid "Most recent (\"Liberty\") release stats:"
-msgstr "最新リリース (\"Liberty\") の統計:"
+msgid "Most recent (\"Mitaka\") release stats:"
+msgstr "最新リリース (\"Mitaka\") の統計:"
 
 msgid "Motions"
 msgstr "動議"
@@ -1528,7 +1552,7 @@ msgid "New features"
 msgstr "新機能"
 
 msgid "New features will not be accepted, only fixes"
-msgstr "新機能は受け付けられません、修正のみです"
+msgstr "新機能は受け付けられない、修正のみ"
 
 msgid "New release-critical bugs"
 msgstr "リリースに致命的な新規バグ"
@@ -1564,7 +1588,7 @@ msgstr ""
 "インストーミングのセッションです。"
 
 msgid "Not even proposals for features will be accepted"
-msgstr "機能の提案は受け付けられない"
+msgstr "機能の提案は受け付けない"
 
 msgid "Not really a bug, but a suggested improvement"
 msgstr "実際のバグではなく、改善提案"
@@ -1622,7 +1646,7 @@ msgstr "議題に集中した、オープンな議論、チェアーによる整
 
 msgid "Open source software for creating private and public clouds"
 msgstr ""
-"プライベートクラウドとパブリッククラウドを作成するオープンソースソフトウェア"
+"プライベートクラウドやパブリッククラウドを作成するオープンソースソフトウェア"
 
 msgid "OpenStack \"Big Tent\" and tags"
 msgstr "OpenStack ビッグテント およびタグ"
@@ -1650,7 +1674,7 @@ msgid "OpenStack Project Teams"
 msgstr "OpenStack プロジェクトチーム"
 
 msgid "OpenStack Release Cycle"
-msgstr "OpenStack リリースサイクル"
+msgstr "リリースサイクル"
 
 msgid "OpenStack Upstream Training"
 msgstr "OpenStack Upstream Training"
@@ -1668,7 +1692,7 @@ msgid "Optional external references"
 msgstr "オプションの外部参照"
 
 msgid "Other projects may have different schedules"
-msgstr "他のプロジェクトは別のスケジュールを持ちます"
+msgstr "他のプロジェクトは別のスケジュールを持つ"
 
 msgid "Other release candidates"
 msgstr "他のリリース候補版"
@@ -1701,9 +1725,6 @@ msgstr "PTL はプロジェクトのトラックにおけるセッションに�
 msgid "Parallelizing"
 msgstr "並列化"
 
-msgid "Patch Sets"
-msgstr "パッチセット数"
-
 msgid "People sitting in the inner circle lead the discussion"
 msgstr "円の内側に座っている人が議論をリードする"
 
@@ -1716,9 +1737,6 @@ msgstr "プロジェクトごとのタグ"
 msgid "Perform the smaller tasks"
 msgstr "より小さな作業を実行する。"
 
-msgid "Person-day effort"
-msgstr "参加人日"
-
 msgid "Planning : Design"
 msgstr "計画 : 設計"
 
@@ -1729,7 +1747,7 @@ msgid "Planning : Target"
 msgstr "計画 : 目標"
 
 msgid "Planning stage is at the start of a cycle"
-msgstr "計画する段階はサイクルの初期段階です"
+msgstr "計画段階はサイクルの初期"
 
 msgid "Play with your network"
 msgstr "あなたの知り合いを一緒に作業する。"
@@ -1774,14 +1792,17 @@ msgid ""
 "Projects are teams of people focused on implementing a specific aspect of "
 "OpenStack"
 msgstr ""
-"プロジェクトは、OpenStack の特定の機能を実装することに注力する人々のチームで"
-"す。"
+"OpenStack の特定の機能を実装することに注力する人々のチーム (プロジェクト)"
 
 msgid "Projects must have an open reference implementation"
 msgstr "プロジェクトは、オープンなリファレンス実装を持つ必要がある"
 
 msgid "Proposing a session"
 msgstr "セッションの提案"
+
+msgid ""
+"Provide guidance for the development teams where user feedback is requested"
+msgstr "ユーザーのフィードバックが必要な開発チームをガイドします。"
 
 msgid "Published collectively as the OpenStack release"
 msgstr "OpenStack リリースとして、まとめて公開される"
@@ -1863,9 +1884,6 @@ msgstr "プロジェクトチームのアドホックなミーティングのた
 msgid "Resolve technical disputes"
 msgstr "技術的な論争の解決"
 
-msgid "Resolved Bugs"
-msgstr "バグ解決数"
-
 msgid "Respect the election process"
 msgstr "選挙プロセスに敬意を示す"
 
@@ -1887,9 +1905,6 @@ msgstr "一元レビュー"
 msgid "Reviewing"
 msgstr "レビュー"
 
-msgid "Reviews"
-msgstr "レビュー数"
-
 msgid "Rodolphe Quiedeville (training, mentoring, assistant, french)"
 msgstr "Rodolphe Quiedeville (training, mentoring, assistant, french)"
 
@@ -1910,6 +1925,9 @@ msgstr "Sahid Ferdjaoui (assistant, french, english)"
 
 msgid "Same as APC"
 msgstr "APC と同じ"
+
+msgid "Schedule: http://eavesdrop.openstack.org/"
+msgstr "スケジュール: http://eavesdrop.openstack.org/"
 
 msgid "Scrum Master : 1"
 msgstr "スクラムマスター : 1"
@@ -1956,6 +1974,9 @@ msgstr "IRC のセットアップ"
 
 msgid "Setup Launchpad"
 msgstr "Launchpad のセットアップ"
+
+msgid "Setup SSH Keys"
+msgstr "SSH 鍵のセットアップ"
 
 msgid "Setup and Learn GIT"
 msgstr "Git のセットアップと学習"
@@ -2139,7 +2160,7 @@ msgstr ""
 "産するための *プロセス* を使用する人々のチーム"
 
 msgid "Technical Committee"
-msgstr "技術委員会 (TC)"
+msgstr "技術委員会 (TC: Technical Committee)"
 
 msgid "Technical Committee Members"
 msgstr "Technical Committee のメンバー"
@@ -2179,11 +2200,10 @@ msgid ""
 "technical decisions, and generally has oversight over the OpenStack project "
 "entirely."
 msgstr ""
-"Technical Committee (TC) は、すべての OpenStack プロジェクトに対して、技術的"
-"なリーダーシップをとります。OpenStack の理想 (オープン性、透明性、共通性、統"
-"合、品質) を確実にし、複数のプロジェクトに影響する問題を判断し、技術的な判断"
-"に対する最終的な審判委員会を形成し、一般的に OpenStack プロジェクト全体にわた"
-"り監督します。"
+"TC は、すべての OpenStack プロジェクトに対して、技術的なリーダーシップをと"
+"る。OpenStack の理想 (オープン性、透明性、共通性、統合、品質) を確実にし、複"
+"数のプロジェクトに影響する問題を判断し、技術的な判断に対する最終的な審判委員"
+"会を形成し、一般的に OpenStack プロジェクト全体にわたり監督する。"
 
 msgid ""
 "The Technical Committee reviews Working Groups interested in becoming "
@@ -2235,13 +2255,6 @@ msgstr ""
 "バグを修正する必要のあるマイルストーン、または修正されたマイルストーンやバー"
 "ジョン"
 
-msgid ""
-"The next session of the OpenStack Upstream Training will be held in Austin, "
-"before the OpenStack Summit Austin 2016."
-msgstr ""
-"次回 OpenStack Upstream Training は、OpenStack Summit Austin 2016 の直前に"
-"オースティンで開催されます。"
-
 msgid "The official list of projects is in the `governance` repository"
 msgstr "公式なプロジェクトの一覧は `governance` リポジトリーにあります"
 
@@ -2261,6 +2274,9 @@ msgstr "役割は隠されています"
 msgid "The role of the Technical Committee"
 msgstr "Technical Committee の役割"
 
+msgid "The role of the User Committee"
+msgstr "User Committee の役割"
+
 msgid ""
 "The students make a virtual contribution simulation using Lego bricks as "
 "props, with the goal of expanding a Lego town, built by upstream. They are "
@@ -2279,6 +2295,9 @@ msgstr ""
 "受講者は、テンプレートを使用して、コントリビューション計画に関する 5 分間の発"
 "表を準備します。"
 
+msgid "These are HTML5 slides and should open with any modern web browser."
+msgstr "HTML5 のスライドがあり、最近のブラウザーで開けます。"
+
 msgid "Things to avoid"
 msgstr "避けるべきこと"
 
@@ -2289,7 +2308,7 @@ msgid "Think about the answer"
 msgstr "回答の考慮"
 
 msgid "This helps the i18n and Documentation projects"
-msgstr "これは I18n と Documentation プロジェクトに役立ちます"
+msgstr "I18n と Documentation プロジェクトに役立つ"
 
 msgid "This is a valid issue, but it is the way it should be"
 msgstr "これは有効な問題であるが、行うべき方法である"
@@ -2321,6 +2340,13 @@ msgstr "時間枠"
 msgid "Tokyo, Japan"
 msgstr "日本 東京"
 
+msgid ""
+"Track OpenStack deployments and usage, helping to share user stories and "
+"experiences"
+msgstr ""
+"OpenStack の導入状況を把握し、ユーザーストーリーや経験を共有する支援をしま"
+"す。"
+
 msgid "Translations / i18n issues."
 msgstr "翻訳 / i18n 関連の問題。"
 
@@ -2345,6 +2371,9 @@ msgstr "前の手順にあるとおり、別のユーザー名とニックネー
 msgid "Types of sessions"
 msgstr "セッション種別"
 
+msgid "Typically public key filenames will look like:"
+msgstr "公開鍵の一般的なファイル名:"
+
 msgid "Ubuntu or Fedora"
 msgstr "Ubuntu または Fedora"
 
@@ -2364,8 +2393,8 @@ msgid ""
 "Until Kilo \"integrated release\" meant a date when all the projects are "
 "released at the end of the development cycles"
 msgstr ""
-"Kilo までは、「統合リリース」はすべてのプロジェクトが開発サイクルの最後にリ"
-"リースされる日付を意味した"
+"Kilo 以前、「統合リリース」はすべてのプロジェクトが開発サイクルの最後にリリー"
+"スされる日付を意味した"
 
 msgid "UpgradeImpact"
 msgstr "UpgradeImpact"
@@ -2386,7 +2415,7 @@ msgid "Used the same processes and tools as the main OpenStack projects"
 msgstr "主要な OpenStack プロジェクトと同じプロセスとツールが使用されます"
 
 msgid "User Committee"
-msgstr "ユーザー委員会"
+msgstr "ユーザー委員会 (UC: User Committee)"
 
 msgid "Vendors may substitute alternate implementations"
 msgstr "ベンダーは代替実装により置き換える可能性がある"
@@ -2567,6 +2596,13 @@ msgid ""
 msgstr ""
 "Git を学習するチュートリアルとして、`Git Immersion <http://gitimmersion.com/"
 "lab_02.html>`_ を使用できます。"
+
+msgid ""
+"You should be able to see the slides at the given location: ``training-"
+"guides/doc/upstream-training/build/slides``."
+msgstr ""
+"スライドが指定された場所 ``training-guides/doc/upstream-training/build/"
+"slides`` にあります。"
 
 msgid "Your management"
 msgstr "あなたの管理者"
@@ -3258,6 +3294,9 @@ msgstr "https://wiki.openstack.org/wiki/Design_Summit/Planning"
 msgid "https://wiki.openstack.org/wiki/GitCommitMessages"
 msgstr "https://wiki.openstack.org/wiki/GitCommitMessages"
 
+msgid "https://wiki.openstack.org/wiki/Meetings"
+msgstr "https://wiki.openstack.org/wiki/Meetings"
+
 msgid "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
 msgstr "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
 
@@ -3267,11 +3306,26 @@ msgstr "https://wiki.openstack.org/wiki/Summit/Liberty"
 msgid "https://www.openstack.org/foundation/tech-committee/"
 msgstr "https://www.openstack.org/foundation/tech-committee/"
 
+msgid "https://www.openstack.org/foundation/user-committee/"
+msgstr "https://www.openstack.org/foundation/user-committee/"
+
 msgid "https://www.openstack.org/join/"
 msgstr "https://www.openstack.org/join/"
 
 msgid "i18n"
 msgstr "i18n"
+
+msgid "id_dsa.pub"
+msgstr "id_dsa.pub"
+
+msgid "id_ecdsa.pub"
+msgstr "id_ecdsa.pub"
+
+msgid "id_ed25519.pub"
+msgstr "id_ed25519.pub"
+
+msgid "id_rsa.pub"
+msgstr "id_rsa.pub"
 
 msgid "invite reviewers"
 msgstr "レビューアーの招待"

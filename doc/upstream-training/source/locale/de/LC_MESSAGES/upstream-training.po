@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-23 09:49+0000\n"
+"POT-Creation-Date: 2016-05-30 13:38+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -28,27 +28,14 @@ msgid "(RC2), with bugs targeted to it"
 msgstr "(RC2), mit Fehlern ausgerichtet"
 
 msgid ""
-"**Saturday, April 23, 2016 at 9:30 AM to 5:00 PM - Sunday, April 24, 2016 at "
-"9:30 AM to 5:00 PM (UTC-05:00)**"
-msgstr ""
-"**Sonnabend, 23. 04.  2016  09:30 - 17:00 - Sonntag. 24.04 09:30 - 17:00 "
-"(UTC-05:00)**"
-
-msgid ""
 "**Still looking for help: please** `register <https://openstackfoundation."
 "formstack.com/forms/mentoring>`_"
 msgstr ""
 "**Wir suchen weiter Unterstützung: Bitte ** `anmelden <https://"
 "openstackfoundation.formstack.com/forms/mentoring>`_"
 
-msgid "1,933 developers"
-msgstr "1.933 Entwickler"
-
 msgid "15 minutes building"
 msgstr "15 Minuten bauen"
-
-msgid "164 different companies"
-msgstr "164 unterschiedliche Unternehmen"
 
 msgid "2013.2 branch and tags"
 msgstr "2013.2 Branch und Tags"
@@ -68,9 +55,6 @@ msgstr "2015 Tokio, Japan"
 msgid "2015 Vancouver, Canada"
 msgstr "2015 Vancouver, Canada"
 
-msgid "32,255 people"
-msgstr "32,255 Menschen"
-
 msgid "4 weeks, Design Summit on the third week"
 msgstr "4 Wochen, Design Summit in der dritten Woche"
 
@@ -79,16 +63,6 @@ msgstr "5 Minuten planen"
 
 msgid "5 minutes review"
 msgstr "5 Minuten überprüfen"
-
-msgid "555 supporting companies"
-msgstr "555 unterstützende Firmen"
-
-msgid ""
-"A big thank you to everyone that has made this possible, especially Loic "
-"Dachary, Stefano Maffulli, and Tim Freund who lead the trainings."
-msgstr ""
-"Grosser Dank an alle, die das möglich gemacht haben, insbesondere Loic "
-"Dachary, Stefano Maffulli, und Tim Freund als Trainingsleiter."
 
 msgid "A sample presentation is given by the teacher, as an example"
 msgstr "Eine Beispiel-Präsentation wird vom Lehrer gehalten."
@@ -335,9 +309,6 @@ msgstr "Karma aufbauen"
 msgid "CEO : 1"
 msgstr "CEO : 1"
 
-msgid "CI votes"
-msgstr "CI Wahlen"
-
 msgid "Candidacy for the corresponding program PTL election"
 msgstr "Kandidatur für das entsprechende Programm PTL Wahl"
 
@@ -405,9 +376,6 @@ msgstr "Code spricht : Gource ausführen"
 msgid "Commit messages"
 msgstr "Commit Nachricht"
 
-msgid "Commits"
-msgstr "Commits"
-
 msgid "Committed a change over the last two 6-month release cycles"
 msgstr ""
 "Eine Änderung in den letzten zwei 6-Monat-Versionszyklen übergeben haben"
@@ -435,9 +403,6 @@ msgstr "Unternehmensprofil"
 
 msgid "Compare"
 msgstr "Vergleichen"
-
-msgid "Completed Blueprints"
-msgstr "Fertiggestellte Blueprints"
 
 msgid "Confirmed"
 msgstr "Bestätigt"
@@ -648,9 +613,6 @@ msgstr ""
 msgid "Draft inline comments"
 msgstr "Entwurf Inline-Kommentare"
 
-msgid "Drafted Blueprints"
-msgstr "Entwurfene Blueprints"
-
 msgid "Drive the program goals"
 msgstr "Die Programmziele treiben"
 
@@ -702,9 +664,6 @@ msgstr "Edouard THULEAU (Assistant, französisch, englisch)"
 
 msgid "Edouard Thuleau (assistant, french, english)"
 msgstr "Edouard Thuleau (Assistent, französisch, englisch)"
-
-msgid "Emails"
-msgstr "E-Mails"
 
 msgid "End on time"
 msgstr "Ende rechtzeitig"
@@ -856,9 +815,6 @@ msgstr "Fehler einreichen über alles was man finden kann"
 
 msgid "File new blueprints and/or specs"
 msgstr "Dateien neuer Blueprints/Spezifikationen"
-
-msgid "Filed Bugs"
-msgstr "Gefundene Fehler"
 
 msgid "Find a solution that needs to be agreed upon"
 msgstr "Eine Lösung finden, die vereinbart werden muss"
@@ -1214,9 +1170,6 @@ msgstr "Lego Stadt"
 msgid "Like sprints, small groups of people work on specific themes"
 msgstr "Wie Sprints, kleine Gruppe von Leuten arbeitet an speziellen Themen"
 
-msgid "Lines of code"
-msgstr "Zeilen von Code"
-
 msgid "Link to the blueprint"
 msgstr "Link zum Blueprint"
 
@@ -1363,9 +1316,6 @@ msgstr "Mehr als 20.000 Patche"
 msgid "Most of the projects now manage blueprints on a git repo called specs"
 msgstr ""
 "Die meisten Projekte verwalten Blueprints in einem Git-Repo namens specs"
-
-msgid "Most recent (\"Liberty\") release stats:"
-msgstr "Mehr zu (\"Liberty\") Version in Zahlen:"
 
 msgid "Motions"
 msgstr "Bewegung"
@@ -1547,9 +1497,6 @@ msgstr "PTLs  stimmen ab für SItzungen in Projektbahnen"
 msgid "Parallelizing"
 msgstr "Paralellisieren"
 
-msgid "Patch Sets"
-msgstr "Patch-Sets"
-
 msgid "People sitting in the inner circle lead the discussion"
 msgstr "Personen im inneren Kreis leiten die Diskussion"
 
@@ -1561,9 +1508,6 @@ msgstr "Pro Projektmarke"
 
 msgid "Perform the smaller tasks"
 msgstr "kleine Aufgaben durchführen"
-
-msgid "Person-day effort"
-msgstr "Aufwand Personentage "
 
 msgid "Planning : Design"
 msgstr "Planen : Design"
@@ -1703,9 +1647,6 @@ msgstr "Reserviert für ad-hoc Meetings von Projektteams"
 msgid "Resolve technical disputes"
 msgstr "Technische Konflikte lösen"
 
-msgid "Resolved Bugs"
-msgstr "Gelöste Fehler"
-
 msgid "Respect the election process"
 msgstr "Respekt vor dem Auswahlprozess"
 
@@ -1726,9 +1667,6 @@ msgstr "einheitlich überprüfen"
 
 msgid "Reviewing"
 msgstr "Überprüfen"
-
-msgid "Reviews"
-msgstr "Überprüfung"
 
 msgid "Rodolphe Quiedeville (training, mentoring, assistant, french)"
 msgstr "Rodolphe Quiedeville (Training, Mentoring, Assistent, französisch)"
@@ -2062,13 +2000,6 @@ msgid ""
 msgstr ""
 "Den Meilenstein, den wir zur Fehlerbehebung brauchen, oder Meilenstein/"
 "Version in der es behoben ist."
-
-msgid ""
-"The next session of the OpenStack Upstream Training will be held in Austin, "
-"before the OpenStack Summit Austin 2016."
-msgstr ""
-"Die nächste Sitzung von OpenStack Upstream Training wird in Austin vor dem "
-"OpenStack Summit Austin 2016 abgehalten."
 
 msgid "The official list of projects is in the `governance` repository"
 msgstr "Die offizielle Liste aller Projekte ist im `Verwaltungs` - Verzeichnis"
