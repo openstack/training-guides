@@ -341,10 +341,12 @@ Contribution Planning (2 hours)
   their planned contribution
 * A sample presentation is given by the teacher, as an example
 * Each student group prepares a presentation describing:
+
   * the contribution they plan to work on during the online sessions
   * how they will engage with the Upstream
   * how it contributes to the company's agenda
   * and whom they will be working with
+
 * Each student group presents its slides to the class
 
 Etherpad
