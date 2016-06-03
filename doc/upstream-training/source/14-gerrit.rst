@@ -37,7 +37,7 @@ git config
 Install git review
 ==================
 
-- apt-get / yum / pip install … git review
+- apt / yum / pip install … git review
 
 .. image:: ./_assets/14-05-install.png
 
