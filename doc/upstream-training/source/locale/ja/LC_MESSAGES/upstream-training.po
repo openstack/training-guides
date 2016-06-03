@@ -4,11 +4,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-30 13:38+0000\n"
+"POT-Creation-Date: 2016-05-31 07:30+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-05-30 06:58+0000\n"
+"PO-Revision-Date: 2016-06-03 05:09+0000\n"
 "Last-Translator: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -26,6 +26,17 @@ msgstr "#info"
 
 msgid "(RC2), with bugs targeted to it"
 msgstr "(RC2)、それを目標にしたバグ"
+
+msgid "**Private key** - Only known to you and it should be safely guarded."
+msgstr "**秘密鍵** - 自分だけが持っていて、安全に保護すべきです。"
+
+msgid ""
+"**Public key** - Can be shared freely with any SSH server you wish to "
+"connect to."
+msgstr "**公開鍵** - 接続したい SSH サーバーと自由に共有できます。"
+
+msgid "**Staff**"
+msgstr "**スタッフ**"
 
 msgid ""
 "**Still looking for help: please** `register <https://openstackfoundation."
@@ -61,6 +72,9 @@ msgstr "2015 Tokyo, Japan"
 msgid "2015 Vancouver, Canada"
 msgstr "2015 Vancouver, Canada"
 
+msgid "2016 Austin, USA"
+msgstr "2016 Austin, USA"
+
 msgid "345 different organizations"
 msgstr "345 の組織"
 
@@ -78,6 +92,14 @@ msgstr "レビュー 5 分間"
 
 msgid "596 supporting companies"
 msgstr "596 サポート企業"
+
+msgid ""
+"A big thank you to everyone that has made this possible, especially Loic "
+"Dachary, Stefano Maffulli, Tim Freund, and Marton Kiss who lead the "
+"trainings."
+msgstr ""
+"私たちは、このイベントを実現させたすべての方々、とくにトレーニングをリードし"
+"た Loic Dachary、Stefano Maffulli、Tim Freund、Marton Kiss に感謝しています。"
 
 msgid ""
 "A message dialog window will come up. Type the following to register your "
@@ -175,6 +197,15 @@ msgstr "OpenStack のミッションとの整合性"
 
 msgid "All externally visible strings must be frozen"
 msgstr "外部から参照できる文字列は凍結する必要がある"
+
+msgid ""
+"An employer of the company or organization needs to sign the `Corporate "
+"Contributor License Agreement <https://secure.echosign.com/public/hostedForm?"
+"formid=56JUVGT95E78X5>`_."
+msgstr ""
+"企業や組織の従業員は `Corporate Contributor License Agreement <https://"
+"secure.echosign.com/public/hostedForm?formid=56JUVGT95E78X5>`_ に署名する必要"
+"があります。"
 
 msgid "Analyze the reasons for an increased delta"
 msgstr "増加した差分の原因の分析"
@@ -350,6 +381,9 @@ msgstr "外部 HTTP API の変更"
 msgid "Changes to the notification definitions"
 msgstr "通知の定義の変更"
 
+msgid "Check For Existing Keys"
+msgstr "既存の鍵の確認"
+
 msgid "Check that :command:`apt-get install` works on the virtual machine"
 msgstr ""
 "仮想マシンにおいて :command:`apt-get install` できることを確認してください。"
@@ -368,6 +402,9 @@ msgstr "質問の選択"
 
 msgid "Chris Ricker (training, mentoring, assistant, english)"
 msgstr "Chris Ricker (training, mentoring, assistant, english)"
+
+msgid "Christian Berendt - Installation (mentoring, assistant)"
+msgstr "Christian Berendt - Installation (mentoring, assistant)"
 
 msgid "Christophe Sauthier (training, assistant, mentoring, french, english)"
 msgstr "Christophe Sauthier (training, assistant, mentoring, french, english)"
@@ -448,6 +485,9 @@ msgstr "企業の活動状況"
 msgid "Compare"
 msgstr "比較"
 
+msgid "Complete the application."
+msgstr "登録を完了します。"
+
 msgid "Configuration"
 msgstr "設定"
 
@@ -468,6 +508,15 @@ msgstr ""
 "おめでとう！OpenStack コミュニティーとコミュニケーションする準備ができまし"
 "た。Freenode に登録されたニックネームを持ちました。次回から、Colloquy を用い"
 "て接続するとき、あなたのニックネームで識別されます。"
+
+msgid ""
+"Congratulations you're now ready to communicate with the OpenStack community "
+"and have a registered nick name on Freenode! From here on out when you "
+"connect to Freenode with Hexchat you will be identified with your nickname."
+msgstr ""
+"おめでとう！OpenStack コミュニティーとコミュニケーションする準備ができまし"
+"た。Freenode に登録されたニックネームを持ちました。次回から、Hexchat を用いて"
+"接続するとき、あなたのニックネームで識別されます。"
 
 msgid ""
 "Consolidate user requirements and present these to the management board and "
@@ -492,6 +541,12 @@ msgstr "コントリビューションのシミュレーション (2 時間)"
 
 msgid "Contributor meetups"
 msgstr "コントリビューターミートアップ"
+
+msgid "Contributors From a Company or Organization"
+msgstr "企業や組織からの貢献者"
+
+msgid "Contributors From the U.S. Government"
+msgstr "U.S. Government からの貢献者"
 
 msgid "Controversial : 1"
 msgstr "議論好きの人 : 1"
@@ -734,6 +789,15 @@ msgstr "Edouard THULEAU (assistant, french, english)"
 
 msgid "Edouard Thuleau (assistant, french, english)"
 msgstr "Edouard Thuleau (assistant, french, english)"
+
+msgid ""
+"Employers can update the list of authorized employees by filling out and "
+"signing an `Updated Schedule A Form <https://openstack.echosign.com/public/"
+"hostedForm?formid=56JUVP6K4Z6P4C>`_."
+msgstr ""
+"雇用者は、`Updated Schedule A Form <https://openstack.echosign.com/public/"
+"hostedForm?formid=56JUVP6K4Z6P4C>`_ を埋めて、署名することにより、許可された"
+"従業員の一覧を更新できます。"
 
 msgid "End on time"
 msgstr "時間厳守"
@@ -1003,6 +1067,9 @@ msgstr ""
 "Colloquy アプリケーションアイコンをダウンロードフォルダーからインストールする"
 "アプリケーションフォルダーにドラッグします。"
 
+msgid "From your terminal type::"
+msgstr "端末から次のとおり入力します。::"
+
 msgid ""
 "Fully rendered http://governance.openstack.org/reference/projects/index.html"
 msgstr "一覧: http://governance.openstack.org/reference/projects/index.html"
@@ -1053,6 +1120,20 @@ msgid "Git Review"
 msgstr "Git Review"
 
 msgid ""
+"Git is a free and open source distributed version control system that the "
+"OpenStack community uses to manage changes to source code."
+msgstr ""
+"Git は、フリーでオープンソースの分散バージョン管理システムです。OpenStack は"
+"ソースコードの変更を管理するために使用しています。"
+
+msgid ""
+"Git review is tool maintained by the OpenStack community. It adds an "
+"additional sub-command to git like so::"
+msgstr ""
+"Git review は OpenStack コミュニティーによりメンテナンスされているツールで"
+"す。Git に次のようなサブコマンドを追加します。::"
+
+msgid ""
 "Go to `Gerrit's SSH Public Keys settings <https://review.openstack.org/#/"
 "settings/ssh-keys>`_."
 msgstr ""
@@ -1075,6 +1156,13 @@ msgid ""
 msgstr ""
 "`Launchpad login or create account page <https://launchpad.net/+login>`_ をア"
 "クセスします。"
+
+msgid ""
+"Go to the `OpenStack Foundation sign up page <https://www.openstack.org/"
+"join>`_."
+msgstr ""
+"`OpenStack Foundation のサインインページ <https://www.openstack.org/join>`_ "
+"にアクセスします。"
 
 msgid "Good workflow"
 msgstr "良いワークフロー"
@@ -1167,6 +1255,9 @@ msgstr ""
 "ドキュメントにコントリビューションする場合、プロジェクトが使用している環境に"
 "おいてドキュメントを生成できること。"
 
+msgid "If you are contributing on behalf of a company or organization."
+msgstr "企業や組織の役割として貢献する場合。"
+
 msgid ""
 "If you don't have pip installed already, follow the `installation "
 "documentation <https://pip.pypa.io/en/stable/installing/#installing-with-get-"
@@ -1175,6 +1266,16 @@ msgstr ""
 "まだ pip をインストールしていない場合、pip の `インストールドキュメント "
 "<https://pip.pypa.io/en/stable/installing/#installing-with-get-pip-py>`_ に"
 "従ってください。"
+
+msgid ""
+"If you don't know what your Gerrit username is, you can check the `Gerrit "
+"settings <https://review.openstack.org/#/settings/>`_."
+msgstr ""
+"お使いの Gerrit ユーザー名がわからない場合、`Gerrit 設定 <https://review."
+"openstack.org/#/settings/>`_ を確認してください。"
+
+msgid "If you don't see .pub extension file, you need to generate keys."
+msgstr ".pub ファイルがなければ、鍵を生成する必要があります。"
 
 msgid "If you get a notice that the nick name is already taken"
 msgstr "ニックネームがすでに使用されていることに気がついた場合、"
@@ -1187,11 +1288,21 @@ msgstr ""
 "クネームを選択してください。"
 
 msgid ""
+"If you use the package manager `Homebrew <http://brew.sh>`_, open a terminal "
+"and type::"
+msgstr ""
+"`Homebrew <http://brew.sh>`_ パッケージマネージャーを使用する場合、端末を開"
+"き、次のとおり入力します。::"
+
+msgid ""
 "If your contribution is on behalf of a company, have your managers sign the "
 "Corporate Contributor License Agreement"
 msgstr ""
 "あなたのコントリビューションが企業活動ならば、マネージャーに Corporate "
 "Contributor License Agreement に署名してもらってください"
+
+msgid "Ildiko Vancsa - ildikov - Telemetry (mentoring, assistant)"
+msgstr "Ildiko Vancsa - ildikov - Telemetry (mentoring, assistant)"
 
 msgid "Impact was not assessed yet"
 msgstr "影響がまだ確認されていない"
@@ -1208,8 +1319,19 @@ msgstr "コアサービスの実装は OpenStack の商標 (OpenStack™) を使
 msgid "Import Public Key Into Gerrit"
 msgstr "Public Key の Gerrit へのインポート"
 
+msgid ""
+"In Gerrit's `settings <https://review.openstack.org/#/settings/agreements>`_ "
+"click the **New Contributor Agreement** link and sign the agreement."
+msgstr ""
+"Gerrit の `settings <https://review.openstack.org/#/settings/agreements>`_ に"
+"おいて、**New Contributor Agreement** リンクをクリックして、同意書に署名しま"
+"す。"
+
 msgid "In Progress"
 msgstr "In Progress"
+
+msgid "In a terminal type::"
+msgstr "端末において、次のとおり入力します。::"
 
 msgid "In house version"
 msgstr "インハウスバージョン"
@@ -1222,6 +1344,12 @@ msgstr "互換性のない設定ファイルの変更"
 
 msgid "Incomplete"
 msgstr "Incomplete"
+
+msgid "Individual Contributor License Agreement"
+msgstr "Individual Contributor License Agreement"
+
+msgid "Individual Contributors"
+msgstr "個人コントリビューター"
 
 msgid "Individual members: all of us"
 msgstr "個人メンバー：私たち全員"
@@ -1318,6 +1446,9 @@ msgstr "議論を活発にして、議題に集中します"
 
 msgid "Lana Brindley (assistant, mentoring, English)"
 msgstr "Lana Brindley (assistant, mentoring, English)"
+
+msgid "Lana Brindley - Docs (mentoring, assistant)"
+msgstr "Lana Brindley - Docs (mentoring, assistant)"
 
 msgid "Last published release candidate"
 msgstr "最後に公開されたリリース候補版"
@@ -1438,12 +1569,18 @@ msgstr ""
 "地図や場所の詳細は、決まり次第ここに掲載します。Sum のメイン会場付近を予定し"
 "ていますが、部屋割りが最終決定していません。"
 
+msgid "Mark Korondi (mentoring, assistant)"
+msgstr "Mark Korondi (mentoring, assistant)"
+
 msgid ""
 "Mark the bug as a potential backport target to a specific SERIES (grizzly, "
 "havana...)"
 msgstr ""
 "特定の SERIES (grizzly, havana...) に対して潜在的なバックポートを目標とされた"
 "バグ"
+
+msgid "Marton Kiss (training, mentoring, assistant)"
+msgstr "Marton Kiss (training, mentoring, assistant)"
 
 msgid ""
 "Marton Kiss will lead the next training in Austin, in English. Tools and "
@@ -1648,6 +1785,9 @@ msgid "Open source software for creating private and public clouds"
 msgstr ""
 "プライベートクラウドやパブリッククラウドを作成するオープンソースソフトウェア"
 
+msgid "Open your terminal program and type::"
+msgstr "端末ソフトウェアを開いて、次のとおり入力します。::"
+
 msgid "OpenStack \"Big Tent\" and tags"
 msgstr "OpenStack ビッグテント およびタグ"
 
@@ -1816,6 +1956,9 @@ msgstr "ピアレビューのために Gerrit へのプッシュ"
 msgid "Quantify the delta"
 msgstr "差分の定量化"
 
+msgid "Read and complete the :doc:`accounts` guide."
+msgstr ":doc:`accounts` ガイドを参照して、完了しておいてください。"
+
 msgid "Read and complete the :doc:`git` guide."
 msgstr ":doc:`git` ガイドを参照して、完了しておいてください。"
 
@@ -1920,6 +2063,9 @@ msgstr "SERIES-backport-potential"
 msgid "SERIES-rc-potential"
 msgstr "SERIES-rc-potential"
 
+msgid "SSH keys are always generated in pairs:"
+msgstr "SSH 鍵は必ずペアで生成されます。"
+
 msgid "Sahid Ferdjaoui (assistant, french, english)"
 msgstr "Sahid Ferdjaoui (assistant, french, english)"
 
@@ -1969,11 +2115,17 @@ msgstr ""
 msgid "Set a target milestone"
 msgstr "目標マイルストーンの設定"
 
+msgid "Setup Gerrit Account"
+msgstr "Gerrit アカウントのセットアップ"
+
 msgid "Setup IRC"
 msgstr "IRC のセットアップ"
 
 msgid "Setup Launchpad"
 msgstr "Launchpad のセットアップ"
+
+msgid "Setup OpenStack Foundation Account"
+msgstr "OpenStack Foundation アカウントのセットアップ"
 
 msgid "Setup SSH Keys"
 msgstr "SSH 鍵のセットアップ"
@@ -1995,6 +2147,9 @@ msgstr "個人アグリーメントの署名"
 
 msgid "Signed agreement"
 msgstr "署名済みアグリーメント"
+
+msgid "Signing it"
+msgstr "サイン（署名）"
 
 msgid ""
 "Simplicity- The art of maximizing the amount of work not done - is essential"
@@ -2112,6 +2267,9 @@ msgstr "不信の停止"
 
 msgid "Sustainable development, able to maintain a constant pace"
 msgstr "持続可能な開発、一定ペースを維持可能"
+
+msgid "Swami Redydy (mentoring, assistant)"
+msgstr "Swami Redydy (mentoring, assistant)"
 
 msgid "Syed Armani (training, mentoring, assistant, english)"
 msgstr "Syed Armani (training, mentoring, assistant, english)"
@@ -2255,6 +2413,13 @@ msgstr ""
 "バグを修正する必要のあるマイルストーン、または修正されたマイルストーンやバー"
 "ジョン"
 
+msgid ""
+"The next session of the OpenStack Upstream Training will be held in "
+"Barcelona, before the OpenStack Summit Barcelona 2016."
+msgstr ""
+"次回 OpenStack Upstream Training は、OpenStack Summit Barcelona 2016 の直前に"
+"バルセロナで開催されます。"
+
 msgid "The official list of projects is in the `governance` repository"
 msgstr "公式なプロジェクトの一覧は `governance` リポジトリーにあります"
 
@@ -2318,6 +2483,10 @@ msgstr "これは有効な問題ですが、修正しないつもりです。"
 
 msgid "This is not a bug"
 msgstr "バグではないと判断された状態"
+
+msgid "This section assumes you have completed :doc:`accounts` guide."
+msgstr ""
+"このセクションは :doc:`accounts` ガイドを完了していることを仮定しています。"
 
 msgid "This will need to match your preferred email address in Gerrit."
 msgstr "これは Gerrit の優先メールアドレスと一致する必要がある"
@@ -2423,8 +2592,20 @@ msgstr "ベンダーは代替実装により置き換える可能性がある"
 msgid "Verbose or terse?"
 msgstr "冗長か簡潔か?"
 
+msgid ""
+"Victoria Martinez de la Cruz - vkmc - Trove/Zaqar (mentoring, assistant)"
+msgstr ""
+"Victoria Martinez de la Cruz - vkmc - Trove/Zaqar (mentoring, assistant)"
+
 msgid "Victoria Martínez de la Cruz (assistant, english)"
 msgstr "Victoria Martínez de la Cruz (assistant, english)"
+
+msgid ""
+"Visit `OpenStack's Gerrit page <https://review.openstack.org>`_ and click "
+"the **sign in** link."
+msgstr ""
+"`OpenStack の Gerrit ページ <https://review.openstack.org>`_ を開き、**sign "
+"in** リンクをクリックします。"
 
 msgid "Volunteers"
 msgstr "ボランティア"
@@ -2475,11 +2656,23 @@ msgstr "マイルストーン公開日の前週"
 msgid "Welcome changing requirements, even late in development"
 msgstr "変更要求の歓迎、開発終了間近でも"
 
+msgid "What are they?"
+msgstr "これらは何か?"
+
+msgid "What is Gerrit?"
+msgstr "Gerrit とは何か?"
+
 msgid "What is Launchpad?"
 msgstr "Launchpad とは何か?"
 
 msgid "What is OpenStack?"
 msgstr "OpenStack とは何か?"
+
+msgid "What is it?"
+msgstr "これは何か?"
+
+msgid "What is the OpenStack Foundation Account?"
+msgstr "OpenStack Foundation アカウントとは何か?"
 
 msgid "What kind of project do you want to contribute to?"
 msgstr "どの種類のプロジェクトに貢献したいですか?"
@@ -2516,6 +2709,13 @@ msgid "When we disagree, we consult others"
 msgstr "合意できないとき、他の人に相談する"
 
 msgid ""
+"When you're prompted to \"Enter a file in which to save the key\" press "
+"Enter. This accepts the default location::"
+msgstr ""
+"「Enter a file in which to save the key」が表示された場合、Enter キーを押して"
+"ください。これは既定の場所を受け付けます。::"
+
+msgid ""
 "Where developers meet face to face to finalize planning for the next release "
 "cycle."
 msgstr ""
@@ -2536,6 +2736,20 @@ msgstr "Wishlist (要望)"
 
 msgid "With our peers"
 msgstr "仲間と一緒に"
+
+msgid ""
+"With over 2,000 developers from over 300 different organizations worldwide, "
+"OpenStack is one of the largest collaborative software-development projects. "
+"Because of its size, it is characterized by a huge diversity in social norms "
+"and technical conventions. These can significantly slow down the speed at "
+"which newcomers are successful at integrating their own roadmap into that of "
+"the OpenStack project."
+msgstr ""
+"OpenStack は、最も巨大なコラボレーション型ソフトウェア開発プロジェクトの 1 つ"
+"です。世界中の 300 以上の組織から 2,000 人を超える開発者が参加しています。そ"
+"の規模によりもたらされる、社会規範や技術的な習慣における多様性が特徴的です。"
+"新規参入者が自身のロードマップと OpenStack プロジェクトとの統合を成功するまで"
+"に、かなり時間がかかってしまう可能性があります。"
 
 msgid ""
 "With over 2000 developers from 80 different companies worldwide, OpenStack "
