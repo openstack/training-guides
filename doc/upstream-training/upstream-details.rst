@@ -255,24 +255,81 @@ Overview of the contribution process
 * Work in parallel
 * Archive and collect
 
-Agile for Contributors (15 min)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Lego applied to Free Software contributions (15 min)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Lego applied to Free Software contributions
 (`slides <20-training-agile-for-contributors.html>`__)
 
-* Apply agile
-* Who is the customer?
-* Company & Upstream product owner
-* Sprint review presentation to Upstream
+These slides prepare students for the Lego activity, and ensure they
+understand the metaphors in use. The Lego in the exercise represents the
+code of a software project, in this case OpenStack. The students all take
+on roles that represent various facets of the OpenStack community, including
+upstream roles like Foundation and TCT, and contributors like corporations,
+and individual free agents.
+
+The group is split into their new 'teams' at this stage. Facilitators can
+choose any way they prefer to do this (selecting teams, or allowing students
+to self-select). The recommended numbers are in the slides, but can be
+changed to suit the number of participants in the room. For a very large
+group, consider separating into two 'communities', which then have to
+fit their streets together (use the metaphor of an API for this) to
+complete the session. Give each person a nametag to wear, with their first
+name and their role written on it. For free agents, don't disclose who
+is distracted, controversial, or agreeable. The community will need to
+work this out on their own.
 
 Contribution Simulation (2 hour)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The students make a virtual contribution simulation using Lego bricks as
-props, with the goal of expanding a Lego town, built by upstream. They are
-divided into teams; the teacher is by turns the product owner in the company
-and the upstream.
+Ahead of time: ensure the existing Lego buildings are set out on a table,
+but not connected to each other. All the unsorted bricks should be available
+in several smaller boxes in a different part of the room, for participants
+to use. There is no need to display the boxes or instruction manuals.
+
+Once the students are separated into their new roles, and have an
+understanding of the project, begin the timer for the first sprint. During
+the five minutes planning time, encourage each group to get together and
+think about their project. If possible, give each group a corner of the room
+and access to a whiteboard or flipchart. For companies, ensure the CEO sets
+a direction, and the team are on board. For upstream, have them think about
+the community standards they want to set. Free agent contributors can get
+straight to work during this phase.
+
+Suggestions:
+
+* Companies: big industrial items like a shopping mall, carpark, energy
+  plant, datacenter, hospital.
+
+* Free agents: community items items like vegetable patches, bicycle paths,
+  public artworks, playgrounds. For the controversial agent, problematic
+  items such as a jail, skate bowl, dog park.
+
+* Upstream: consider guidelines around consistency in the bricks used, how to
+  connect the road and sidewalk between the buildings, the kinds of
+  buildings they should request the community to make, and the things they
+  simply will not accept.
+
+Start the timer for building time, and allow everyone to start work. During
+each building phase, have mentors wander around the groups listening in and
+making suggestions, without actually doing any of the work or giving answers.
+In your interactions with the students, do not be afraid to provoke some
+issues. For example, bring up the idea of an API (a way of connecting the
+buildings to each other) with individual companies, but don't mention it
+to upstream, so that upstream are finally faced with the challenge of
+standardizing the API. You could also, in the second or third sprint,
+encourage one group to call a midcycle to sort the problem out.
+
+During the final five minutes of the sprint (review time), ask everyone to
+take their hands off the Lego, and gather around the in-progress street. At
+this stage, upstream get to vote on the changes, and anything rejected gets
+sent back to the contributing group to be fixed. Ensure upstream give good
+reasons for rejections, along with suggestions for improvement. Encourage
+Upstream to reject a few things early on, to try and ensure contributors
+understand the need to have Foundation on board before they throw something
+over the wall.
+
+At the end of the four sprints, ensure you take a group photo!
 
 Contribution Planning (2 hours)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
