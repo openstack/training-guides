@@ -6,86 +6,85 @@ Lego applied to Free Software contributions
    :class: fill
    :width: 100%
 
-Agile manifesto
-===============
-
-- Customer satisfaction by rapid delivery of useful software
-- Welcome changing requirements, even late in development
-- Working software is delivered frequently (weeks rather than months)
-- Working software is the principal measure of progress
-- Sustainable development, able to maintain a constant pace
-- Close, daily co-operation between business people and developers
-
-Agile manifesto (cont.)
+Fitting it all together
 =======================
 
-- Face-to-face conversation is the best form of communication (co-location)
-- Projects are built around motivated individuals, who should be trusted
-- Continuous attention to technical excellence and good design
-- Simplicity- The art of maximizing the amount of work not done - is essential
-- Self-organizing teams
-- Regular adaptation to changing circumstances
+- Building software in a community looks really complicated
+- To understand how it all fits together, we use a hands on example
+- In this example, we use Lego to represent a software project
+- We will take on roles to show how each community member interacts
+- Hopefully we end up with a unique Lego creation!
 
-Applying agile
-==============
+Using Lego to represent the community
+=====================================
 
-- Finding Roles : Product Owner, Scrum Master and Team Member
-- No person has an ideal role
-- The role is hidden
-- Discovering the roles is an ongoing work
+- Like any software project, there are:
 
-Lego town
-=========
+  - Developers
+  - Managers
+  - Product owners
 
-- Upstream project : a lego town
-- Company deadline : lego exhibition
-- Epic: become a major contributor and demonstrate the company skills during
-  the exhibition
+- Like OpenStack, there are:
 
-Upstream
-========
+  - Foundation, technical committee, and board members
+  - PTLs
+  - Core team
+  - Companies
+  - Free agents
+
+Your mission, should you choose to accept it
+============================================
+
+Build a street out of Lego. All buildings must be connected by road and
+sidewalk. The Foundation, TC, and Board must approve the overall design
+of the street.
+
+Aim to become a major contributor and demonstrate your mad skills!
+
+Choosing roles - Upstream
+=========================
 
 - Board : 1
 - Technical committee : 1
 - PTL : 1
 - Core : 5
 
-Company
-=======
+Choosing roles - Companies
+==========================
+
+- 3-4 different companies
+
+Each company has:
 
 - CEO : 1
-- Product owner : 1
-- Scrum Master : 1
-- Team members : 5
+- Team members : 3-5
 
-Free Software contributors
-==========================
+Choosing roles - Free agent contributors
+========================================
 
 - Distracted : 1
 - Controversial : 1
-- Agreeable : X
+- Agreeable : 2-3
 
-Epic
-====
-
-- Discuss with the product owner
-- Write user stories
-
-Sprint
+Timing
 ======
 
-- 5 minutes planning
-- 15 minutes building
-- 5 minutes review
+- Four sprints of 30 mins:
 
-.. image:: ./_assets/20-01-sprint.png
-  :width: 90%
+  - 5 mins planning
+  - 20 mins building
+  - 5 mins review
 
 Communication
 =============
 
-Diplomacy
-=========
+- Be polite, be helpful
+- Listen when people talk
+- Be true to your role
+- If you feel the community needs consensus, call a midcycle!
 
-Time to play with Legos
-=======================
+Let's play!
+===========
+
+.. image:: ./_assets/Lego_Austin.jpg
+  :width: 100%
