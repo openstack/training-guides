@@ -37,7 +37,7 @@ Linux
 
 For distributions like Debian, Ubuntu, or Mint open a terminal and type::
 
-  sudo apt-get install git
+  sudo apt install git
 
 For distributions like RedHat, Fedora 21 or earlier, or CentOS open a terminal
 and type::
@@ -96,7 +96,7 @@ Linux
 
 For distributions like Debian, Ubuntu, or Mint open a terminal and type::
 
-  sudo apt-get install git-review
+  sudo apt install git-review
 
 For distributions like RedHat, Fedora 21 or earlier, or CentOS open a terminal
 and type::

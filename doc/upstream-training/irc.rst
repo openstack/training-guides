@@ -12,7 +12,7 @@ We'll install an IRC program called Hexchat.
 For a linux distrubtions like Debian, Ubuntu, or Mint open a terminal and
 type::
 
-  sudo apt-get install hexchat
+  sudo apt install hexchat
 
 For a linux distrubtions like Redhat, Fedora 21 or earlier, or Centos open
 a terminal and type::

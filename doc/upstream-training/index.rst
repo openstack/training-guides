@@ -50,7 +50,7 @@ How to prepare
   4+ GB of RAM.
   Alternatively, you can use your virtual machine on a public cloud.
 * Check that you can ssh from your laptop to the virtual machine
-* Check that :command:`apt-get install` works on the virtual machine
+* Check that :command:`apt install` works on the virtual machine
 * Read and complete the :doc:`irc` guide.
 * Read and complete the :doc:`accounts` guide.
 * Read and complete the :doc:`git` guide.
