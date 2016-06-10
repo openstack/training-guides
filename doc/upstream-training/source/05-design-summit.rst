@@ -64,7 +64,17 @@ Types of sessions
 List of sessions
 ================
 
-- https://mitakadesignsummit.sched.org/overview/type/design+summit
+- Newton
+
+  * https://www.openstack.org/summit/austin-2016/summit-schedule/#day=2016-04-29
+
+- Mitaka
+
+  * https://mitakadesignsummit.sched.org/#2015-10-30
+
+- Liberty
+
+  * https://libertydesignsummit.sched.org/overview/type/design+summit
 
 Selection of sessions
 =====================
