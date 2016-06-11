@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-31 07:30+0000\n"
+"POT-Creation-Date: 2016-06-07 08:54+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -50,9 +50,6 @@ msgstr ""
 "**Sto ancora cercando aiuto: per favore** `regitrati <https://"
 "openstackfoundation.formstack.com/forms/mentoring>`_"
 
-msgid "15 minutes building"
-msgstr "15 minuti di costruzione"
-
 msgid "179 countries"
 msgstr "179 paesi"
 
@@ -88,12 +85,6 @@ msgstr "4 seetimane, il Design Summit alla terza settimana"
 
 msgid "40,497 people"
 msgstr "40,497 persone"
-
-msgid "5 minutes planning"
-msgstr "5 minuti di pianificazione"
-
-msgid "5 minutes review"
-msgstr "5 minuti di revisione"
 
 msgid "596 supporting companies"
 msgstr "596 aziende di supporto"
@@ -193,18 +184,6 @@ msgstr "Dopo l'ultimo milestone"
 msgid "Agenda"
 msgstr "Programma"
 
-msgid "Agile for Contributors (15 min)"
-msgstr "Agile per collaboratori (15 minuti)"
-
-msgid "Agile manifesto"
-msgstr "Manifesto di Agile"
-
-msgid "Agile manifesto (cont.)"
-msgstr "Manifesto Agile (cont.)"
-
-msgid "Agreeable : X"
-msgstr "Piacevole : X"
-
 msgid "Alignment with OpenStack mission"
 msgstr "L'allineamento con la missione di OpenStack"
 
@@ -241,10 +220,6 @@ msgstr "RIspondi domande"
 msgid "Answering questions"
 msgstr "Rispondere a domande"
 
-#, fuzzy
-msgid "Apply agile"
-msgstr "Applica agile"
-
 msgid "Apply for individual membership and sign the CLA"
 msgstr "Fai domanda per la qualifica di membro individuale e firma il CLA"
 
@@ -254,9 +229,6 @@ msgstr "Applica la contribuzione su trunk"
 
 msgid "Apply them very diligently"
 msgstr "Applicali molto diligentemente"
-
-msgid "Applying agile"
-msgstr "Applicare Agile"
 
 msgid "Appropriate Fixes"
 msgstr "Correzioni appropriate"
@@ -432,11 +404,6 @@ msgstr "Modifiche alle definizioni di notificazione"
 msgid "Check For Existing Keys"
 msgstr "Controlla le chiavi esitenti"
 
-msgid "Check that :command:`apt-get install` works on the virtual machine"
-msgstr ""
-"Controlla che: il comando: `apt-get install` funziona sulla tua macchina "
-"virtuale"
-
 msgid "Check that you can ssh from your laptop to the virtual machine"
 msgstr ""
 "Controlla di poter accedere con ssh dal tuo portatile alla macchina virtuale"
@@ -508,10 +475,6 @@ msgstr "Clicca sull'icona **info**."
 msgid "Click the **message user** icon and type::"
 msgstr "Clicca sull'icona di **messaggia utente** e digita::"
 
-msgid "Close, daily co-operation between business people and developers"
-msgstr ""
-"Cooperazione da vicino e giornaliera tra uomini d'affari e sviluppatori"
-
 msgid "Code of conduct"
 msgstr "Codice di condotta"
 
@@ -532,15 +495,6 @@ msgstr "Communicazione"
 
 msgid "Companies"
 msgstr "Aziende"
-
-msgid "Company"
-msgstr "Azienda"
-
-msgid "Company & Upstream product owner"
-msgstr "Azienda e proprietario del prodotto Upstream"
-
-msgid "Company deadline : lego exhibition"
-msgstr "Scadenza dell'azienda : mostra lego"
 
 msgid "Company employees"
 msgstr "Dipendenti di aziende"
@@ -590,9 +544,6 @@ msgid ""
 msgstr ""
 "Consolidare le esigenze degli utenti e presentare queste al consiglio di "
 "amministrazione e comitato tecnico"
-
-msgid "Continuous attention to technical excellence and good design"
-msgstr "Attenzione continua all'eccellenza tecnica ebuon disegno"
 
 msgid "Contributing blueprints"
 msgstr "Contribuire blueprint"
@@ -673,9 +624,6 @@ msgid "Current tags describe how projects are released and team diversity"
 msgstr ""
 "I tag attuali descrivono come i progetti vengono rilasciati e la diversità "
 "del team"
-
-msgid "Customer satisfaction by rapid delivery of useful software"
-msgstr "La soddisfazione del cliente con la consegna veloce di software utile"
 
 msgid "DB schema changes"
 msgstr "Modifiche allo schema del DB"
@@ -765,18 +713,12 @@ msgstr "DIplomazia"
 msgid "Disagree"
 msgstr "dissaccordo"
 
-msgid "Discovering the roles is an ongoing work"
-msgstr "Scoprire i ruoli è un lavoro continuo"
-
 msgid "Discuss upcoming features for the next release cycle"
 msgstr ""
 "Discutere delle prossime funzionalità per il prossimo cliclo di rilascio"
 
 msgid "Discuss with non upstream"
 msgstr "Discuti con chi non è upstream"
-
-msgid "Discuss with the product owner"
-msgstr "Discutere con il proprietario del progetto"
 
 msgid "Discussing the architecture"
 msgstr "Discutere l'architettura"
@@ -834,17 +776,6 @@ msgstr ""
 "Ogni pagina del gruppo del progetto mostra la propria politica di rilascio "
 "su http://governance.openstack.org/reference/projects"
 
-msgid ""
-"Each student group prepares a presentation describing: * the contribution "
-"they plan to work on during the online sessions * how they will engage with "
-"the Upstream * how it contributes to the company's agenda * and whom they "
-"will be working with"
-msgstr ""
-"Ciascun gruppo di studenti prepara una presentazione descrivendo: * la "
-"contribuzione alla quale intendono lavorare durante le sessioni online * il "
-"modo in cui si impegneranno all'Upstream * come ciò contribuisce al "
-"programma dell'azienda * e con chi staranno lavorando"
-
 msgid "Each student group presents its slides to the class"
 msgstr "Ciascun gruppo di studenti presenta le proprie diapositive alla classe"
 
@@ -889,16 +820,6 @@ msgstr "Impegnati subito"
 
 msgid "Ensure sufficient information to decide whether to review."
 msgstr "Assicura informazioni sufficienti per decidere se fare la revisione."
-
-msgid "Epic"
-msgstr "Epico"
-
-msgid ""
-"Epic: become a major contributor and demonstrate the company skills during "
-"the exhibition"
-msgstr ""
-"Epico: diventare un collaboratore importante e dimostrare alla compagnia "
-"abilità durante la mostra"
 
 msgid "Error report"
 msgstr "Segnalazione di errore"
@@ -979,12 +900,6 @@ msgstr ""
 msgid "Explain what you do"
 msgstr "Spiega cosa fai"
 
-msgid ""
-"Face-to-face conversation is the best form of communication (co-location)"
-msgstr ""
-"La conversazione faccia a faccia è la miglior forma di comunicazione "
-"(colocazione)"
-
 msgid "Face-to-face section: 2 days"
 msgstr "Sezione faccia a faccia: 2 giorni"
 
@@ -1042,11 +957,6 @@ msgstr ""
 
 msgid "Find a solution that needs to be agreed upon"
 msgstr "Trova una soluzione che necessita di essere concordata"
-
-#, fuzzy
-msgid "Finding Roles : Product Owner, Scrum Master and Team Member"
-msgstr ""
-"Trovare ruoli : proprietario del progetto, Scru master e membro del team"
 
 msgid "First day"
 msgstr "Primo giorno"
@@ -1152,9 +1062,6 @@ msgstr "Proibito"
 
 msgid "François Bureau (assistant, french, english)"
 msgstr "François Bureau (assistente, francese, inglese)"
-
-msgid "Free Software contributors"
-msgstr "Collaboratori di software libero"
 
 msgid "From easy to difficult"
 msgstr "Dal facile al difficile"
@@ -1715,9 +1622,6 @@ msgstr ""
 "Lego applicato a contribuzioni di software libero (`slides <20-training-"
 "agile-for-contributors.html>`__)"
 
-msgid "Lego town"
-msgstr "CIttà di Lego"
-
 msgid ""
 "Lets first fill out the **Nick name** and **User name** field with our "
 "choice of a nickname:"
@@ -1957,9 +1861,6 @@ msgstr "Nessuna flamewar"
 msgid "No mics."
 msgstr "Niente microfoni."
 
-msgid "No person has an ideal role"
-msgstr "Nessuno ha un ruolo ideale"
-
 msgid "No predefined agenda."
 msgstr "Nessun programma predefinito."
 
@@ -2163,9 +2064,6 @@ msgstr "prerequisiti "
 msgid "Prioritize bugs / bug triage"
 msgstr "Dai la priorità ai bug/ conferma di bug"
 
-msgid "Product owner : 1"
-msgstr "Proprietario del progetto : 1"
-
 msgid "Project Team Leads (PTLs)"
 msgstr "leader del team di progetto(PTLs)"
 
@@ -2187,11 +2085,6 @@ msgstr "I bacelli del progetto"
 
 msgid "Project pulse"
 msgstr "Impulso del progetto"
-
-msgid "Projects are built around motivated individuals, who should be trusted"
-msgstr ""
-"I progetti vengono costruiti intorno alle persone motivate, che dovrebbero "
-"essere attendibili"
 
 msgid ""
 "Projects are teams of people focused on implementing a specific aspect of "
@@ -2264,9 +2157,6 @@ msgstr "Registra il tuo nickname"
 
 msgid "Regressions and integration issues"
 msgstr "Regressioni e problemi di integrazione"
-
-msgid "Regular adaptation to changing circumstances"
-msgstr "Adattamento regolare alla modificazione di circostanze"
 
 msgid "Regular reviewer"
 msgstr "Revisore Normale "
@@ -2355,10 +2245,6 @@ msgstr "Così come APC"
 msgid "Schedule: http://eavesdrop.openstack.org/"
 msgstr "Programma: http://eavesdrop.openstack.org/"
 
-#, fuzzy
-msgid "Scrum Master : 1"
-msgstr "Scrum master"
-
 msgid "Second day"
 msgstr "Secondo giorno"
 
@@ -2373,9 +2259,6 @@ msgstr "Selezione delle sessioni"
 
 msgid "Self-contained"
 msgstr "Autosufficiente"
-
-msgid "Self-organizing teams"
-msgstr "Auto-organizzare i gruppi"
 
 msgid "Send e-mails to friends about your contributions"
 msgstr "Invia e-mails agli amici riguardanti le tue contribuzioni"
@@ -2432,12 +2315,6 @@ msgstr "Contratto firmato"
 msgid "Signing it"
 msgstr "Firmarlo"
 
-msgid ""
-"Simplicity- The art of maximizing the amount of work not done - is essential"
-msgstr ""
-"Semplicità- L'arte di massimizzare la quantità di lavoro non fatto - è "
-"essenziale"
-
 msgid "Sizing the task difficulty"
 msgstr "Misurare la difficoltà dell'incarico"
 
@@ -2480,12 +2357,6 @@ msgstr "Accelerare l'accettazione"
 
 msgid "Splitting a task"
 msgstr "Dividere un incarico"
-
-msgid "Sprint"
-msgstr "Sprint"
-
-msgid "Sprint review presentation to Upstream"
-msgstr "Presentazione veloce di Upstream"
 
 msgid "Stable branches"
 msgstr "rami stabili "
@@ -2565,9 +2436,6 @@ msgstr "Servizi di supporto come Common Libraries (\"Oslo\")"
 msgid "Suspension of disbelief"
 msgstr "Sospensione dell'incredulità"
 
-msgid "Sustainable development, able to maintain a constant pace"
-msgstr "Lo sviluppo sostenibile, in grado di mantenere un ritmo costante "
-
 msgid "Swami Redydy (mentoring, assistant)"
 msgstr "Swami Redydy (tutoraggio, assistenza)"
 
@@ -2608,9 +2476,6 @@ msgstr "Prendere la mano al progetto"
 
 msgid "Target Audience"
 msgstr "Target di riferimento"
-
-msgid "Team members : 5"
-msgstr "Membri del team : 5 "
 
 msgid ""
 "Teams of people using tools (code repository, bug tracker, etc) and "
@@ -2750,26 +2615,11 @@ msgstr ""
 msgid "The release, or milestone, or commit ID"
 msgstr "Il rilascio, o milestone, o L'ID del commit"
 
-msgid "The role is hidden"
-msgstr "Il ruolo è nascosto"
-
 msgid "The role of the Technical Committee"
 msgstr "Il ruolo del comitato tecnico"
 
 msgid "The role of the User Committee"
 msgstr "Il ruolo del comitato di utenti"
-
-#, fuzzy
-msgid ""
-"The students make a virtual contribution simulation using Lego bricks as "
-"props, with the goal of expanding a Lego town, built by upstream. They are "
-"divided into teams; the teacher is by turns the product owner in the company "
-"and the upstream."
-msgstr ""
-"GLi studenti fanno una simulazione di contribuzione virtuale utilizzando "
-"blocchi di Lego come supporto, con l'obiettivo di espandera la città Lego, "
-"costruito da upstream. Vengono divisi in gruppi; il professore è di volta in "
-"volta il proprietario del prodotto nell'azienda e l'upstream."
 
 msgid ""
 "The students use template slides to prepare a 5-minute presentation of their "
@@ -2826,9 +2676,6 @@ msgstr "Tim Freund (formazione, assistente, inglese)"
 
 msgid "Tim Freund (training, mentoring, assistant, english)"
 msgstr "Tim Freund (formazione, tutoraggio, assistente, inglese)"
-
-msgid "Time to play with Legos"
-msgstr "Ora di giocare con i Lego"
 
 msgid "Timeframe"
 msgstr "Lasso di tempo"
@@ -2911,14 +2758,8 @@ msgstr ""
 msgid "UpgradeImpact"
 msgstr "UpgradeImpact"
 
-msgid "Upstream"
-msgstr "Upstream"
-
 msgid "Upstream Training in Japan"
 msgstr "Upstream Training in Giappone"
-
-msgid "Upstream project : a lego town"
-msgstr "Progetto upstream : una città di lego"
 
 msgid "Used as-is as the final release"
 msgstr "Usato come-è come la versione finale"
@@ -3004,9 +2845,6 @@ msgstr ""
 
 msgid "Weeks before the milestone publication date"
 msgstr "Settimane prima della publicazione della data del milestone"
-
-msgid "Welcome changing requirements, even late in development"
-msgstr "Sono benvenute richieste di modifiche, anche a tarda fase di sviluppo"
 
 msgid "What are they?"
 msgstr "Che cosa sono?"
@@ -3094,9 +2932,6 @@ msgstr ""
 msgid "While waiting for input"
 msgstr "Nell'attesa di input"
 
-msgid "Who is the customer?"
-msgstr "Chi è il cliente?"
-
 msgid "Who's behind it?"
 msgstr "Chi c'è dietro?"
 
@@ -3168,19 +3003,8 @@ msgstr ""
 "Workflow di una collaborazione ad OpenStack e strumenti (3h includendo 2h di "
 "esercizi)"
 
-msgid "Working software is delivered frequently (weeks rather than months)"
-msgstr ""
-"Software funzionante viene consegnato frequentemente (settimane inveci di "
-"mesi)"
-
-msgid "Working software is the principal measure of progress"
-msgstr "Software funzionante è la misura principale del progresso"
-
 msgid "Write documentation"
 msgstr "Scrivi documentazione"
-
-msgid "Write user stories"
-msgstr "Scrivere storie degli utenti"
 
 msgid "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 msgstr ""
@@ -3784,9 +3608,6 @@ msgstr "aggiungi un errore e fallo corrispondere al messaggio di Jenkins"
 msgid "anyone doing Gerrit code review can act as the stick"
 msgstr ""
 "Chiunque stia facendo revisione di codice Gerrit può agire come bastone"
-
-msgid "apt-get / yum / pip install … git review"
-msgstr "apt-get / yum / pip install … git review"
 
 msgid "ask a core developer or bug supervisor => Status: Triaged"
 msgstr ""

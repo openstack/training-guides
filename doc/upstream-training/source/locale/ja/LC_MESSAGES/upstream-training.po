@@ -4,11 +4,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-31 07:30+0000\n"
+"POT-Creation-Date: 2016-06-07 08:54+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-06-03 05:09+0000\n"
+"PO-Revision-Date: 2016-06-10 07:35+0000\n"
 "Last-Translator: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -45,14 +45,14 @@ msgstr ""
 "**まだお手伝いを探しています: どうぞ** `登録 <https://openstackfoundation."
 "formstack.com/forms/mentoring>`_ してください。"
 
-msgid "15 minutes building"
-msgstr "構築 15 分間"
-
 msgid "179 countries"
 msgstr "179 か国"
 
 msgid "2,336 developers"
 msgstr "2,336 人の開発者"
+
+msgid "20 mins building"
+msgstr "20 分間の組み立て"
 
 msgid "2013.2 branch and tags"
 msgstr "2013.2 ブランチとタグ"
@@ -75,6 +75,9 @@ msgstr "2015 Vancouver, Canada"
 msgid "2016 Austin, USA"
 msgstr "2016 Austin, USA"
 
+msgid "3-4 different companies"
+msgstr "3-4 社のカンパニー"
+
 msgid "345 different organizations"
 msgstr "345 の組織"
 
@@ -84,11 +87,11 @@ msgstr "4 週間、3 週目にサミット"
 msgid "40,497 people"
 msgstr "40,497 人"
 
-msgid "5 minutes planning"
-msgstr "計画 5 分間"
+msgid "5 mins planning"
+msgstr "5 分間の計画"
 
-msgid "5 minutes review"
-msgstr "レビュー 5 分間"
+msgid "5 mins review"
+msgstr "5 分間のレビュー"
 
 msgid "596 supporting companies"
 msgstr "596 サポート企業"
@@ -180,17 +183,8 @@ msgstr "最終マイルストーンの後"
 msgid "Agenda"
 msgstr "アジェンダ"
 
-msgid "Agile for Contributors (15 min)"
-msgstr "コントリビューター向けのアジャイル (15 分)"
-
-msgid "Agile manifesto"
-msgstr "アジャイルマニフェスト"
-
-msgid "Agile manifesto (cont.)"
-msgstr "アジャイルマニフェスト (続き)"
-
-msgid "Agreeable : X"
-msgstr "感じのよい人 : X"
+msgid "Agreeable : 2-3"
+msgstr "感じのよい人: 2-3"
 
 msgid "Alignment with OpenStack mission"
 msgstr "OpenStack のミッションとの整合性"
@@ -216,9 +210,6 @@ msgstr "質問への回答"
 msgid "Answering questions"
 msgstr "質問への回答"
 
-msgid "Apply agile"
-msgstr "アジャイルの適用"
-
 msgid "Apply for individual membership and sign the CLA"
 msgstr "個人メンバー登録および CLA の署名"
 
@@ -227,9 +218,6 @@ msgstr "trunk へのコントリビューションの実施"
 
 msgid "Apply them very diligently"
 msgstr "非常にこつこつと適用する"
-
-msgid "Applying agile"
-msgstr "アジャイルの適用"
 
 msgid "Appropriate Fixes"
 msgstr "適切な修正"
@@ -295,8 +283,14 @@ msgstr "思いやりをもつ"
 msgid "Be engaged with your network"
 msgstr "あなたの知り合いと関わる"
 
+msgid "Be polite, be helpful"
+msgstr "礼儀正しく、親切に"
+
 msgid "Be respectful"
 msgstr "敬意を持つ"
+
+msgid "Be true to your role"
+msgstr "役割に忠実である"
 
 msgid "Being able to read and write English at a technical level"
 msgstr "技術レベルの英語を読み書きできること"
@@ -384,9 +378,9 @@ msgstr "通知の定義の変更"
 msgid "Check For Existing Keys"
 msgstr "既存の鍵の確認"
 
-msgid "Check that :command:`apt-get install` works on the virtual machine"
+msgid "Check that :command:`apt install` works on the virtual machine"
 msgstr ""
-"仮想マシンにおいて :command:`apt-get install` できることを確認してください。"
+"仮想マシンにおいて :command:`apt install` できることを確認してください。"
 
 msgid "Check that you can ssh from your laptop to the virtual machine"
 msgstr "ノート PC から仮想マシンに SSH できることを確認してください"
@@ -399,6 +393,15 @@ msgstr "すべての情報を集める場所の選択"
 
 msgid "Choosing a question"
 msgstr "質問の選択"
+
+msgid "Choosing roles - Companies"
+msgstr "役割の選択 - カンパニー"
+
+msgid "Choosing roles - Free agent contributors"
+msgstr "役割の選択 - フリーエージェントのコントリビューター"
+
+msgid "Choosing roles - Upstream"
+msgstr "役割の選択 - アップストリーム"
 
 msgid "Chris Ricker (training, mentoring, assistant, english)"
 msgstr "Chris Ricker (training, mentoring, assistant, english)"
@@ -446,9 +449,6 @@ msgstr "**info** アイコンをクリックします。"
 msgid "Click the **message user** icon and type::"
 msgstr "**message user** アイコンをクリックして、次のとおり入力します。::"
 
-msgid "Close, daily co-operation between business people and developers"
-msgstr "密接、ビジネス人と開発者の日共同作業"
-
 msgid "Code of conduct"
 msgstr "行動規範"
 
@@ -466,15 +466,6 @@ msgstr "コミュニケーション"
 
 msgid "Companies"
 msgstr "企業"
-
-msgid "Company"
-msgstr "企業"
-
-msgid "Company & Upstream product owner"
-msgstr "カンパニーとアップストリームのプロダクトオーナー"
-
-msgid "Company deadline : lego exhibition"
-msgstr "企業の締め切り：レゴ展示会"
 
 msgid "Company employees"
 msgstr "企業の従業員"
@@ -524,9 +515,6 @@ msgid ""
 msgstr ""
 "ユーザーの要望を集め、それらをボード会議や TC(技術委員会) に説明します。"
 
-msgid "Continuous attention to technical excellence and good design"
-msgstr "技術的な精錬と良い設計に関する継続的な注意"
-
 msgid "Contributing blueprints"
 msgstr "ブループリントへの貢献"
 
@@ -572,6 +560,9 @@ msgstr "コアレビューアー"
 msgid "Core services such as Block Storage (\"Cinder\")"
 msgstr "Block Storage (\"Cinder\") などのコアサービス"
 
+msgid "Core team"
+msgstr "コアチーム"
+
 msgid "Corporate driven"
 msgstr "企業主導"
 
@@ -604,9 +595,6 @@ msgid "Current tags describe how projects are released and team diversity"
 msgstr ""
 "現在のタグは、プロジェクトがどのようにリリースされ、チームの多様性になってい"
 "るかを説明します"
-
-msgid "Customer satisfaction by rapid delivery of useful software"
-msgstr "役立つソフトウェアの迅速な提供による顧客満足度"
 
 msgid "DB schema changes"
 msgstr "DB スキーマの変更"
@@ -690,17 +678,11 @@ msgstr "交渉"
 msgid "Disagree"
 msgstr "反対"
 
-msgid "Discovering the roles is an ongoing work"
-msgstr "役割の把握は進行中です"
-
 msgid "Discuss upcoming features for the next release cycle"
 msgstr "次のリリースサイクルに向けて新しい機能を議論します"
 
 msgid "Discuss with non upstream"
 msgstr "アップストリーム以外との議論"
-
-msgid "Discuss with the product owner"
-msgstr "プロダクトオーナーとの議論"
 
 msgid "Discussing the architecture"
 msgstr "アーキテクチャーの議論"
@@ -749,22 +731,15 @@ msgstr ""
 msgid "Each choice made must have a rationale"
 msgstr "各選択肢は理論的根拠を持つ必要があります"
 
+msgid "Each company has:"
+msgstr "各カンパニー:"
+
 msgid ""
 "Each project team page shows its release policy on http://governance."
 "openstack.org/reference/projects"
 msgstr ""
 "各プロジェクトチームは http://governance.openstack.org/reference/projects に"
 "リリースポリシーを公開している"
-
-msgid ""
-"Each student group prepares a presentation describing: * the contribution "
-"they plan to work on during the online sessions * how they will engage with "
-"the Upstream * how it contributes to the company's agenda * and whom they "
-"will be working with"
-msgstr ""
-"各受講者のグループは、プレゼンテーションを準備します。記載内容: オンライン"
-"セッション中に取り組むコントリビューション計画、アップストリームとどのように"
-"つながるか、企業活動にコントリビューションする方法、一緒に取り組む人"
 
 msgid "Each student group presents its slides to the class"
 msgstr "各受講者は、自身のスライドをクラスに発表します"
@@ -810,15 +785,6 @@ msgstr "迅速な関わり"
 
 msgid "Ensure sufficient information to decide whether to review."
 msgstr "レビューできるかどうかを判断するために十分な情報を確認します。"
-
-msgid "Epic"
-msgstr "概略"
-
-msgid ""
-"Epic: become a major contributor and demonstrate the company skills during "
-"the exhibition"
-msgstr ""
-"概略：主要コントリビューターになり、展示会期間中に企業のスキルを示します"
 
 msgid "Error report"
 msgstr "エラー報告"
@@ -895,10 +861,6 @@ msgstr "演習: 他の launchpad バグの参照および自身のものの改�
 msgid "Explain what you do"
 msgstr "何をしているかを説明する"
 
-msgid ""
-"Face-to-face conversation is the best form of communication (co-location)"
-msgstr "対面の会話が最高のコミュニケーション (同じ場所)"
-
 msgid "Face-to-face section: 2 days"
 msgstr "集合教育: 2 日間"
 
@@ -944,9 +906,6 @@ msgstr "新規ブループリントおよびスペックの登録"
 
 msgid "Find a solution that needs to be agreed upon"
 msgstr "合意する必要のあるソリューションの検討"
-
-msgid "Finding Roles : Product Owner, Scrum Master and Team Member"
-msgstr "役割の割り当て：プロダクトオーナー、スクラムマスター、チームメンバー"
 
 msgid "First day"
 msgstr "1 日目"
@@ -1044,11 +1003,14 @@ msgstr "**Chat server** に **irc.freenode.net** を入力します。"
 msgid "Forbidden"
 msgstr "禁止"
 
+msgid "Four sprints of 30 mins:"
+msgstr "4 回の 30 分スプリント:"
+
 msgid "François Bureau (assistant, french, english)"
 msgstr "François Bureau (assistant, french, english)"
 
-msgid "Free Software contributors"
-msgstr "個人ソフトウェア開発者"
+msgid "Free agents"
+msgstr "フリーエージェント"
 
 msgid "From easy to difficult"
 msgstr "簡単なものから難しいものへ"
@@ -1277,6 +1239,9 @@ msgstr ""
 msgid "If you don't see .pub extension file, you need to generate keys."
 msgstr ".pub ファイルがなければ、鍵を生成する必要があります。"
 
+msgid "If you feel the community needs consensus, call a midcycle!"
+msgstr "コンセンサスが必要と感じた場合、ミッドサイクルを開こう!"
+
 msgid "If you get a notice that the nick name is already taken"
 msgstr "ニックネームがすでに使用されていることに気がついた場合、"
 
@@ -1478,8 +1443,8 @@ msgstr ""
 "フリーソフトウェアのコントリビューションに適用する LEGO (`スライド <20-"
 "training-agile-for-contributors.html>`__)"
 
-msgid "Lego town"
-msgstr "レゴタウン"
+msgid "Let's play!"
+msgstr "さあ、始めよう!"
 
 msgid ""
 "Lets first fill out the **Nick name** and **User name** field with our "
@@ -1519,6 +1484,9 @@ msgid ""
 msgstr ""
 "各測定項目に対して、コントリビューション予定のモジュールにおいて最も影響力の"
 "ある 3 社と個人 3 名を一覧化してください。"
+
+msgid "Listen when people talk"
+msgstr "人が話しているときは聞く"
 
 msgid "Local Upstream Trainings"
 msgstr "ローカル Upstream Trainings"
@@ -1705,9 +1673,6 @@ msgstr "罵り合いなし"
 
 msgid "No mics."
 msgstr "マイクなし。"
-
-msgid "No person has an ideal role"
-msgstr "理想的な役割はありません"
 
 msgid "No predefined agenda."
 msgstr "事前の議題なし。"
@@ -1901,9 +1866,6 @@ msgstr "事前要件"
 msgid "Prioritize bugs / bug triage"
 msgstr "バグの優先度付け、バグトリアージ"
 
-msgid "Product owner : 1"
-msgstr "プロダクトオーナー : 1"
-
 msgid "Project Team Leads (PTLs)"
 msgstr "Project Team Lead (PTL)"
 
@@ -1924,9 +1886,6 @@ msgstr "プロジェクトポッド"
 
 msgid "Project pulse"
 msgstr "プロジェクト活動状況"
-
-msgid "Projects are built around motivated individuals, who should be trusted"
-msgstr "信頼できる、やる気のある個人の周りにつくられたプロジェクト"
 
 msgid ""
 "Projects are teams of people focused on implementing a specific aspect of "
@@ -1987,9 +1946,6 @@ msgstr "ニックネームの登録"
 
 msgid "Regressions and integration issues"
 msgstr "リグレッションと統合の問題"
-
-msgid "Regular adaptation to changing circumstances"
-msgstr "状況変化への定期的な適用"
 
 msgid "Regular reviewer"
 msgstr "通常のレビューアー"
@@ -2075,9 +2031,6 @@ msgstr "APC と同じ"
 msgid "Schedule: http://eavesdrop.openstack.org/"
 msgstr "スケジュール: http://eavesdrop.openstack.org/"
 
-msgid "Scrum Master : 1"
-msgstr "スクラムマスター : 1"
-
 msgid "Second day"
 msgstr "2 日目"
 
@@ -2092,9 +2045,6 @@ msgstr "セッションの選択"
 
 msgid "Self-contained"
 msgstr "自己完結"
-
-msgid "Self-organizing teams"
-msgstr "自己組織化されたチーム"
 
 msgid "Send e-mails to friends about your contributions"
 msgstr "あなたのコントリビューションについて友人にメールする"
@@ -2151,10 +2101,6 @@ msgstr "署名済みアグリーメント"
 msgid "Signing it"
 msgstr "サイン（署名）"
 
-msgid ""
-"Simplicity- The art of maximizing the amount of work not done - is essential"
-msgstr "シンプルさ（行っていない作業量の最大化手法）が最も肝要"
-
 msgid "Sizing the task difficulty"
 msgstr "タスクの複雑さの見積"
 
@@ -2184,12 +2130,6 @@ msgstr "受け入れのスピード"
 
 msgid "Splitting a task"
 msgstr "タスクの分割"
-
-msgid "Sprint"
-msgstr "スプリント"
-
-msgid "Sprint review presentation to Upstream"
-msgstr "アップストリームへのレビュープレゼンテーション"
 
 msgid "Stable branches"
 msgstr "安定版 (stable) ブランチ"
@@ -2253,6 +2193,9 @@ msgstr ""
 "OpenStack コンポーネントへのパッチのコントリビューションを実際に 1 つ成功させ"
 "る"
 
+msgid "Suggestions:"
+msgstr "推奨:"
+
 msgid "Sungjin Kang (training, assistant, mentoring)"
 msgstr "Sungjin Kang (training, assistant, mentoring)"
 
@@ -2264,9 +2207,6 @@ msgstr "共通ライブラリー (\"Oslo\") などのサポートサービス"
 
 msgid "Suspension of disbelief"
 msgstr "不信の停止"
-
-msgid "Sustainable development, able to maintain a constant pace"
-msgstr "持続可能な開発、一定ペースを維持可能"
 
 msgid "Swami Redydy (mentoring, assistant)"
 msgstr "Swami Redydy (mentoring, assistant)"
@@ -2307,8 +2247,8 @@ msgstr "プロジェクトの活動状況を取得します。"
 msgid "Target Audience"
 msgstr "想定対象者"
 
-msgid "Team members : 5"
-msgstr "チームメンバー : 5"
+msgid "Team members : 3-5"
+msgstr "チームメンバー : 3-5"
 
 msgid ""
 "Teams of people using tools (code repository, bug tracker, etc) and "
@@ -2433,25 +2373,11 @@ msgstr ""
 msgid "The release, or milestone, or commit ID"
 msgstr "リリース、マイルストーン、コミット ID"
 
-msgid "The role is hidden"
-msgstr "役割は隠されています"
-
 msgid "The role of the Technical Committee"
 msgstr "Technical Committee の役割"
 
 msgid "The role of the User Committee"
 msgstr "User Committee の役割"
-
-msgid ""
-"The students make a virtual contribution simulation using Lego bricks as "
-"props, with the goal of expanding a Lego town, built by upstream. They are "
-"divided into teams; the teacher is by turns the product owner in the company "
-"and the upstream."
-msgstr ""
-"受講者は、LEGO を用いてコントリビューションのシミュレーションを行います。アッ"
-"プストリームにより開発された LEGO タウンの拡張を目標とします。チームに分けら"
-"れます。講師はカンパニーとアップストリームのプロダクトオーナーを交互に行いま"
-"す。"
 
 msgid ""
 "The students use template slides to prepare a 5-minute presentation of their "
@@ -2500,11 +2426,11 @@ msgstr "Tim Freund (training, assistant, english)"
 msgid "Tim Freund (training, mentoring, assistant, english)"
 msgstr "Tim Freund (training, mentoring, assistant, english)"
 
-msgid "Time to play with Legos"
-msgstr "LEGO 演習の時間"
-
 msgid "Timeframe"
 msgstr "時間枠"
+
+msgid "Timing"
+msgstr "タイミング"
 
 msgid "Tokyo, Japan"
 msgstr "日本 東京"
@@ -2568,14 +2494,8 @@ msgstr ""
 msgid "UpgradeImpact"
 msgstr "UpgradeImpact"
 
-msgid "Upstream"
-msgstr "アップストリーム"
-
 msgid "Upstream Training in Japan"
 msgstr "日本ローカル Upstream Training"
-
-msgid "Upstream project : a lego town"
-msgstr "アップストリームプロジェクト：レゴタウン"
 
 msgid "Used as-is as the final release"
 msgstr "最終リリースとして、そのまま使われる"
@@ -2653,9 +2573,6 @@ msgstr ""
 msgid "Weeks before the milestone publication date"
 msgstr "マイルストーン公開日の前週"
 
-msgid "Welcome changing requirements, even late in development"
-msgstr "変更要求の歓迎、開発終了間近でも"
-
 msgid "What are they?"
 msgstr "これらは何か?"
 
@@ -2725,9 +2642,6 @@ msgstr ""
 msgid "While waiting for input"
 msgstr "反応待ちの間"
 
-msgid "Who is the customer?"
-msgstr "お客様は誰か?"
-
 msgid "Who's behind it?"
 msgstr "誰が後ろについているか?"
 
@@ -2789,17 +2703,8 @@ msgstr ""
 "OpenStack コントリビューションのワークフローとツール (3 時間、2 時間の演習を"
 "含む)"
 
-msgid "Working software is delivered frequently (weeks rather than months)"
-msgstr "動作するソフトウェアの頻繁な提供 (月単位よりは週単位)"
-
-msgid "Working software is the principal measure of progress"
-msgstr "動作するソフトウェアが進行状況の主要な指標です"
-
 msgid "Write documentation"
 msgstr "ドキュメントの作成"
-
-msgid "Write user stories"
-msgstr "ユーザーストーリーの書き出し"
 
 msgid "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 msgstr "Xavier Antoviaque (training, mentoring, assistant, french, english)"
@@ -3378,8 +3283,8 @@ msgstr "エラーを追加して、Jenkins のメッセージと対応づけて�
 msgid "anyone doing Gerrit code review can act as the stick"
 msgstr "Gerrit コードレビューをしている誰でも指揮をとれる (stick)"
 
-msgid "apt-get / yum / pip install … git review"
-msgstr "apt-get / yum / pip install … git review"
+msgid "apt / yum / pip install … git review"
+msgstr "apt / yum / pip install … git review"
 
 msgid "ask a core developer or bug supervisor => Status: Triaged"
 msgstr ""

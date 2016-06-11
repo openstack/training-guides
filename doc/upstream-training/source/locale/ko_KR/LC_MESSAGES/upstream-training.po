@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-30 13:38+0000\n"
+"POT-Creation-Date: 2016-06-07 08:54+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -35,9 +35,6 @@ msgstr ""
 "**여전히 도움을 찾고 있습니다:** `등록 <https://openstackfoundation."
 "formstack.com/forms/mentoring>`_ 해 주세요"
 
-msgid "15 minutes building"
-msgstr "15분 동안의 만들기"
-
 msgid "2013.2 branch and tags"
 msgstr "2013.2 브랜치 및 태그"
 
@@ -58,12 +55,6 @@ msgstr "2015년 캐나다, 벤쿠버"
 
 msgid "4 weeks, Design Summit on the third week"
 msgstr "4주, 3번째 주에 대한 Design Summit"
-
-msgid "5 minutes planning"
-msgstr "5분 동안의 계획"
-
-msgid "5 minutes review"
-msgstr "5분 동안의 리뷰"
 
 msgid ""
 "A message dialog window will come up. Type the following to register your "
@@ -141,18 +132,6 @@ msgstr "마지막 마일스톤 이후"
 msgid "Agenda"
 msgstr "안건"
 
-msgid "Agile for Contributors (15 min)"
-msgstr "컨트리뷰터를 위한 애자일 (15분)"
-
-msgid "Agile manifesto"
-msgstr "애자일 선언"
-
-msgid "Agile manifesto (cont.)"
-msgstr "애자일 선언 (계속)"
-
-msgid "Agreeable : X"
-msgstr "동의하는 자 : X"
-
 msgid "Alignment with OpenStack mission"
 msgstr "OpenStack 임무와 부합하는지 여부"
 
@@ -168,9 +147,6 @@ msgstr "질문에 대한 답변"
 msgid "Answering questions"
 msgstr "질문에 답하기"
 
-msgid "Apply agile"
-msgstr "애자일 적용"
-
 msgid "Apply for individual membership and sign the CLA"
 msgstr "개인 멤버쉽으로 가입을 신청하고 CLA에 서명합니다"
 
@@ -179,9 +155,6 @@ msgstr "컨트리뷰션을 trunk에 적용하기"
 
 msgid "Apply them very diligently"
 msgstr "매우 부지런하게 적용하기"
-
-msgid "Applying agile"
-msgstr "애자일 적용"
 
 msgid "Appropriate Fixes"
 msgstr "적절한 수정"
@@ -327,9 +300,6 @@ msgstr "외부 HTTP API에 대한 변경 사항"
 msgid "Changes to the notification definitions"
 msgstr "Notification 정의에 대한 변경 사항"
 
-msgid "Check that :command:`apt-get install` works on the virtual machine"
-msgstr ":command:`apt-get install` 명령이 가상 머신에서 동작하는지 확인합니다."
-
 msgid "Check that you can ssh from your laptop to the virtual machine"
 msgstr "노트북에서 ssh를 사용하여 가상 머신으로 접속이 가능한지 확인합니다."
 
@@ -388,9 +358,6 @@ msgstr "**info** 아이콘을 클릭합니다."
 msgid "Click the **message user** icon and type::"
 msgstr "**message user** 아이콘을 클릭하고 입력합니다::"
 
-msgid "Close, daily co-operation between business people and developers"
-msgstr "비즈니스 구성원 및 개발자 간의 가까운, 매일 공동 작업"
-
 msgid "Code of conduct"
 msgstr "윤리 강령"
 
@@ -408,15 +375,6 @@ msgstr "의사소통"
 
 msgid "Companies"
 msgstr "회사"
-
-msgid "Company"
-msgstr "회사"
-
-msgid "Company & Upstream product owner"
-msgstr "회사 & Upstream 제품 소유자"
-
-msgid "Company deadline : lego exhibition"
-msgstr "회사 마감일 : Lego 전시"
 
 msgid "Company employees"
 msgstr "회사 근로자"
@@ -453,9 +411,6 @@ msgstr ""
 "축하합니다. OpenStack 커뮤니티와 의사소통할 수 있는 준비가 되었으며 닉네임이 "
 "Freenode에 등록되었습니다! 이제부터 Freenode로 Hexchat를 통해 연결하면 사용하"
 "는 닉 네임이 식별되어 있을 것입니다."
-
-msgid "Continuous attention to technical excellence and good design"
-msgstr "기술적인 우수성 및 좋은 설계에 대한 지속적인 관심"
 
 msgid "Contributing blueprints"
 msgstr "Blueprint에 기여하기"
@@ -525,9 +480,6 @@ msgid "Current tags describe how projects are released and team diversity"
 msgstr ""
 "현재 (지정된) 태그는 프로젝트가 어떻게 릴리즈 되는지 그리고 팀의 다양성을 설"
 "명합니다"
-
-msgid "Customer satisfaction by rapid delivery of useful software"
-msgstr "유용한 소프트웨어에 대한 빠른 전달을 통한 고객 만족"
 
 msgid "DB schema changes"
 msgstr "DB 스키마 변경 사항"
@@ -611,17 +563,11 @@ msgstr "외교"
 msgid "Disagree"
 msgstr "비동의"
 
-msgid "Discovering the roles is an ongoing work"
-msgstr "역할 발견은 진행이 되고 있는 작업입니다"
-
 msgid "Discuss upcoming features for the next release cycle"
 msgstr "다음 릴리즈 주기를 위한 곧 있을 기능을 토론합니다"
 
 msgid "Discuss with non upstream"
 msgstr "Upstream이 아닌 부분과 토론"
-
-msgid "Discuss with the product owner"
-msgstr "제품 소유자와의 토론"
 
 msgid "Discussing the architecture"
 msgstr "설계 구조에 대해 토론하기"
@@ -677,16 +623,6 @@ msgstr ""
 "각 프로젝트 팀 페이지에서는 해당 릴리즈 정책을 http://governance.openstack."
 "org/reference/projects 에서 보여줍니다"
 
-msgid ""
-"Each student group prepares a presentation describing: * the contribution "
-"they plan to work on during the online sessions * how they will engage with "
-"the Upstream * how it contributes to the company's agenda * and whom they "
-"will be working with"
-msgstr ""
-"각 학생 그룹은 * 온라인 세션 동안 작업하고자 계획하는 컨트리뷰션, * Upstream"
-"에 어떻게 참여할 것인지, * 회사의 안건에 어떻게 기여할 것인지 * 그리고 누가 "
-"작업을 할지 로 설명이 이루어진 발표를 준비합니다"
-
 msgid "Each student group presents its slides to the class"
 msgstr "각 학생 그룹은 수업에 대한 슬라이드를 발표합니다"
 
@@ -722,14 +658,6 @@ msgstr "바로 참여"
 
 msgid "Ensure sufficient information to decide whether to review."
 msgstr "검토 여부를 결정하기에 충분한 정보를 확인합니다."
-
-msgid "Epic"
-msgstr "Epic"
-
-msgid ""
-"Epic: become a major contributor and demonstrate the company skills during "
-"the exhibition"
-msgstr "Epic: 주요 컨트리뷰터가 되어 전시회 동안 회사의 스킬을 선보이기"
 
 msgid "Error report"
 msgstr "오류 보고"
@@ -805,10 +733,6 @@ msgstr "실습: 다른 launchpad 버그를 리뷰하고 개선합니다"
 msgid "Explain what you do"
 msgstr "행하는 것을 설명하기"
 
-msgid ""
-"Face-to-face conversation is the best form of communication (co-location)"
-msgstr "얼굴을 마주하는 대화는 의사 소통의 가장 좋은 형태 (공동 공간)"
-
 msgid "Face-to-face section: 2 days"
 msgstr "오프라인 세션: 2일"
 
@@ -856,9 +780,6 @@ msgstr "새로운 blueprint 그리고/또는 spec을 묶기"
 
 msgid "Find a solution that needs to be agreed upon"
 msgstr "동의를 필요로 하는 해결책을 찾습니다"
-
-msgid "Finding Roles : Product Owner, Scrum Master and Team Member"
-msgstr "역할 찾기 : 제품 소유자, Scrum 마스터, 팀 구성원"
 
 msgid "First day"
 msgstr "첫 날"
@@ -944,9 +865,6 @@ msgstr "금지되는 사항"
 
 msgid "François Bureau (assistant, french, english)"
 msgstr "François Bureau (조교, 프랑스어, 영어)"
-
-msgid "Free Software contributors"
-msgstr "자유 소프트웨어 컨트리뷰터"
 
 msgid "From easy to difficult"
 msgstr "쉬운 것에서 어려운 것까지"
@@ -1338,9 +1256,6 @@ msgstr ""
 "자유 소프트웨어 컨트리뷰션을 적용한 Lego (`슬라이드 <20-training-agile-for-"
 "contributors.html>`__)"
 
-msgid "Lego town"
-msgstr "Lego 마을"
-
 msgid ""
 "Lets first fill out the **Nick name** and **User name** field with our "
 "choice of a nickname:"
@@ -1552,9 +1467,6 @@ msgstr "상호 비방이 없음"
 msgid "No mics."
 msgstr "마이크 없음"
 
-msgid "No person has an ideal role"
-msgstr "안성맞춤인 역할을 가진 구성원은 없습니다"
-
 msgid "No predefined agenda."
 msgstr "미리 정해진 의제는 없습니다"
 
@@ -1742,9 +1654,6 @@ msgstr "선행조건"
 msgid "Prioritize bugs / bug triage"
 msgstr "버그 우선 순위 / 버그 분류"
 
-msgid "Product owner : 1"
-msgstr "제품 소유자 : 1"
-
 msgid "Project Team Leads (PTLs)"
 msgstr "Project Team Leads (PTLs)"
 
@@ -1765,9 +1674,6 @@ msgstr "프로젝트 팟"
 
 msgid "Project pulse"
 msgstr "프로젝트 펄스"
-
-msgid "Projects are built around motivated individuals, who should be trusted"
-msgstr "프로젝트는 신뢰할 수 있는, 동기 부여가 된 개인 중심으로 구축됨"
 
 msgid ""
 "Projects are teams of people focused on implementing a specific aspect of "
@@ -1821,9 +1727,6 @@ msgstr "닉네임을 등록합니다"
 
 msgid "Regressions and integration issues"
 msgstr "퇴행과 통합 이슈"
-
-msgid "Regular adaptation to changing circumstances"
-msgstr "변화하는 환경에 대한 규칙적인 적응"
 
 msgid "Regular reviewer"
 msgstr "일반 검토자"
@@ -1903,9 +1806,6 @@ msgstr "Sahid Ferdjaoui (조교, 프랑스어, 영어)"
 msgid "Same as APC"
 msgstr "APC와 동일합니다"
 
-msgid "Scrum Master : 1"
-msgstr "Scrum 마스터 : 1"
-
 msgid "Second day"
 msgstr "두 번째 날"
 
@@ -1920,9 +1820,6 @@ msgstr "세션 선택"
 
 msgid "Self-contained"
 msgstr "Self-contained"
-
-msgid "Self-organizing teams"
-msgstr "자기 조직화된 팀"
 
 msgid "Send e-mails to friends about your contributions"
 msgstr "컨트리뷰션에 관해 친구들에게 이메일을 보내기"
@@ -1961,10 +1858,6 @@ msgstr "개인 약관에 서명"
 msgid "Signed agreement"
 msgstr "약관에 동의함"
 
-msgid ""
-"Simplicity- The art of maximizing the amount of work not done - is essential"
-msgstr "아직 완료되지 않은 작업 분량을 최대화하는 기술을 단순화하는 것은 필수"
-
 msgid "Sizing the task difficulty"
 msgstr "작업에 대한 크기 측정은 어렵습니다"
 
@@ -1991,12 +1884,6 @@ msgstr "수용에 대한 속도를 높이기"
 
 msgid "Splitting a task"
 msgstr "작업을 쪼개기"
-
-msgid "Sprint"
-msgstr "스프린트"
-
-msgid "Sprint review presentation to Upstream"
-msgstr "Upstream에 대한 리뷰 발표 스프린트"
 
 msgid "Stable branches"
 msgstr "안정 브랜치"
@@ -2070,9 +1957,6 @@ msgstr "공통 라이브러리 (\"Oslo\")와 같은 지원 서비스"
 msgid "Suspension of disbelief"
 msgstr "불신에 대한 자발적 유예"
 
-msgid "Sustainable development, able to maintain a constant pace"
-msgstr "일정 속도를 유지할 수 있는, 지속 가능한 개발"
-
 msgid "Syed Armani (training, mentoring, assistant, english)"
 msgstr "Syed Armani (교육, 멘토링, 조교, 영어)"
 
@@ -2108,9 +1992,6 @@ msgstr "프로젝트의 리듬을 이해합니다"
 
 msgid "Target Audience"
 msgstr "대상 청중"
-
-msgid "Team members : 5"
-msgstr "팀 구성원 : 5"
 
 msgid ""
 "Teams of people using tools (code repository, bug tracker, etc) and "
@@ -2228,22 +2109,8 @@ msgstr ""
 msgid "The release, or milestone, or commit ID"
 msgstr "릴리즈, 마일스톤, 또는 커밋 ID"
 
-msgid "The role is hidden"
-msgstr "역할은 숨겨져 있습니다"
-
 msgid "The role of the Technical Committee"
 msgstr "Technical Committee 역할"
-
-msgid ""
-"The students make a virtual contribution simulation using Lego bricks as "
-"props, with the goal of expanding a Lego town, built by upstream. They are "
-"divided into teams; the teacher is by turns the product owner in the company "
-"and the upstream."
-msgstr ""
-"학생들은 소도구로 Lego 벽돌을 사용한 가상으로 컨트리뷰션하는 시뮬레이션을 "
-"upstream에 의해 지어진 Lego 마을을 확장하는 목표와 함께 수행합니다. 여러 팀으"
-"로 구분됩니다; 선생님은 회사 및 upstream 내에서 교대로 제품에 대한 소유자가 "
-"됩니다."
 
 msgid ""
 "The students use template slides to prepare a 5-minute presentation of their "
@@ -2284,9 +2151,6 @@ msgstr "Tim Freund (교육, 조교, 영어)"
 
 msgid "Tim Freund (training, mentoring, assistant, english)"
 msgstr "Tim Freund (교육, 멘토링, 조교, 영어)"
-
-msgid "Time to play with Legos"
-msgstr "Lego와 함께 놀 시간"
 
 msgid "Timeframe"
 msgstr "기간"
@@ -2351,14 +2215,8 @@ msgstr ""
 msgid "UpgradeImpact"
 msgstr "UpgradeImpact"
 
-msgid "Upstream"
-msgstr "Upstream"
-
 msgid "Upstream Training in Japan"
 msgstr "일본에서의 Upstream Training"
-
-msgid "Upstream project : a lego town"
-msgstr "Upstream 프로젝트 : Lego 마을"
 
 msgid "Used as-is as the final release"
 msgstr "최종 릴리즈와 같이 그대로 사용"
@@ -2426,9 +2284,6 @@ msgstr ""
 msgid "Weeks before the milestone publication date"
 msgstr "마일스톤에 대한 발표 일자 이전 몇 주"
 
-msgid "Welcome changing requirements, even late in development"
-msgstr "늦은 개발 중이더라도, 요구 사항 변화를 환영"
-
 msgid "What is OpenStack?"
 msgstr "OpenStack이 무엇인가?"
 
@@ -2481,9 +2336,6 @@ msgstr "개발자들이 대면하여 다음 릴리즈 주기를 위한 계획을
 msgid "While waiting for input"
 msgstr "입력을 기다리는 동안"
 
-msgid "Who is the customer?"
-msgstr "누가 고객인가?"
-
 msgid "Who's behind it?"
 msgstr "누가 이 뒤에 있는가?"
 
@@ -2530,17 +2382,8 @@ msgid ""
 msgstr ""
 "OpenStack 컨트리뷰션과 도구에 대한 작업 흐르 (2시간 실습을 포함한 3시간)"
 
-msgid "Working software is delivered frequently (weeks rather than months)"
-msgstr "작업 중인 소프트웨어를 자주 전달 (월별 기간 보다는 주별 기간)"
-
-msgid "Working software is the principal measure of progress"
-msgstr "작업 중인 소프트웨어는 진행 사항에 대한 주요 측정 지표임"
-
 msgid "Write documentation"
 msgstr "문서 기록"
-
-msgid "Write user stories"
-msgstr "사용자 스토리 작성"
 
 msgid "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 msgstr "Xavier Antoviaque (교육, 멘토링, 조교, 프랑스어, 영어)"
@@ -3087,9 +2930,6 @@ msgstr "오류를 추가하고 jenkins 메시지에 대응시켜 봅니다"
 
 msgid "anyone doing Gerrit code review can act as the stick"
 msgstr "Gerrit 코드 리뷰를 수행하는 누구라도 지휘봉과 같은 행동이 가능합니다"
-
-msgid "apt-get / yum / pip install … git review"
-msgstr "apt-get / yum / pip install … git review"
 
 msgid "ask a core developer or bug supervisor => Status: Triaged"
 msgstr "핵심 개발자 또는 버그 감독자에게 문의 => 상태: Triaged"
