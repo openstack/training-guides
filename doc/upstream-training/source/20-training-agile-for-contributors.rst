@@ -30,7 +30,7 @@ Using Lego to represent the community
   - PTLs
   - Core team
   - Companies
-  - Free agents
+  - Unaffiliated contributors (free agents)
 
 Your mission, should you choose to accept it
 ============================================
@@ -49,6 +49,8 @@ Choosing roles - Upstream
 - PTL : 1
 - Core : 5
 
+Upstream is responsible for the finished product.
+
 Choosing roles - Companies
 ==========================
 
@@ -59,12 +61,16 @@ Each company has:
 - CEO : 1
 - Team members : 3-5
 
+Companies have to deliver value to their stakeholders.
+
 Choosing roles - Free agent contributors
 ========================================
 
 - Distracted : 1
 - Controversial : 1
 - Agreeable : 2-3
+
+Each individual sets their own objective.
 
 Timing
 ======
