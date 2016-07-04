@@ -45,10 +45,6 @@ for locale in `find ${DIRECTORY}/source/locale/ -maxdepth 1 -type d` ; do
 
     # prepare all translation resources
     for pot in ${DIRECTORY}/source/locale/*.pot ; do
-        # skip master translation resource itself
-        if [ ${pot} = "${DIRECTORY}/source/locale/${DOCNAME}.pot" ] ; then
-            continue
-        fi
         # get filename
         potname=$(basename $pot)
         resname=${potname%.pot}
@@ -86,8 +82,5 @@ for locale in `find ${DIRECTORY}/source/locale/ -maxdepth 1 -type d` ; do
     git checkout -- ${DIRECTORY}/source/locale/${language}/LC_MESSAGES/${DOCNAME}.po
 done
 
-# remove newly created files
-git clean -f -q ${DIRECTORY}/source/locale/*.pot
-# revert changes to po file
-git reset -q ${DIRECTORY}/source/locale/${DOCNAME}.pot
-git checkout -- ${DIRECTORY}/source/locale/${DOCNAME}.pot
+# remove newly created pot files
+rm -f ${DIRECTORY}/source/locale/*.pot
