@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-07 08:54+0000\n"
+"POT-Creation-Date: 2016-06-17 08:50+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2792,9 +2792,6 @@ msgstr "http://review.openstack.org"
 
 msgid "https://etherpad.openstack.org/p/upstream-training-vancouver"
 msgstr "https://etherpad.openstack.org/p/upstream-training-vancouver"
-
-msgid "https://mitakadesignsummit.sched.org/overview/type/design+summit"
-msgstr "https://mitakadesignsummit.sched.org/overview/type/design+summit"
 
 msgid "https://review.openstack.org/#/settings/ssh-keys"
 msgstr "https://review.openstack.org/#/settings/ssh-keys"

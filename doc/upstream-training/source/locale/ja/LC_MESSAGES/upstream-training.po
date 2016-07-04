@@ -4,11 +4,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-07 08:54+0000\n"
+"POT-Creation-Date: 2016-06-17 08:50+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-06-10 07:35+0000\n"
+"PO-Revision-Date: 2016-07-04 12:27+0000\n"
 "Last-Translator: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1003,14 +1003,14 @@ msgstr "**Chat server** に **irc.freenode.net** を入力します。"
 msgid "Forbidden"
 msgstr "禁止"
 
+msgid "Foundation, technical committee, and board members"
+msgstr "Foundation、TC、ボードメンバー"
+
 msgid "Four sprints of 30 mins:"
 msgstr "4 回の 30 分スプリント:"
 
 msgid "François Bureau (assistant, french, english)"
 msgstr "François Bureau (assistant, french, english)"
-
-msgid "Free agents"
-msgstr "フリーエージェント"
 
 msgid "From easy to difficult"
 msgstr "簡単なものから難しいものへ"
@@ -1460,6 +1460,9 @@ msgstr ""
 "まずお使いのニックネームを **Nickname** と **User name** のフィールドを入力し"
 "てください。"
 
+msgid "Liberty"
+msgstr "Liberty"
+
 msgid "Like sprints, small groups of people work on specific themes"
 msgstr "スプリントのように、少人数グループが特定のテーマに取り組む"
 
@@ -1528,6 +1531,9 @@ msgstr "Wi-FI を有効にしていることを確認してください。"
 
 msgid "Manage day-to-day operations"
 msgstr "日々の活動の管理"
+
+msgid "Managers"
+msgstr "マネージャー"
 
 msgid ""
 "Maps and location information will be posted here once details are "
@@ -1598,6 +1604,9 @@ msgstr "雑音を気にする"
 
 msgid "Mingle"
 msgstr "混合"
+
+msgid "Mitaka"
+msgstr "Mitaka"
 
 msgid "Mixing two unrelated functional changes."
 msgstr "関連性のない 2 つの機能的な変更の混在"
@@ -1821,6 +1830,9 @@ msgstr ""
 msgid "PTL : 1"
 msgstr "PTL : 1"
 
+msgid "PTLs"
+msgstr "PTL"
+
 msgid "PTLs triage the submitted blueprints and set priority"
 msgstr "投稿ブループリントの PTL による確認と優先度付け"
 
@@ -1865,6 +1877,9 @@ msgstr "事前要件"
 
 msgid "Prioritize bugs / bug triage"
 msgstr "バグの優先度付け、バグトリアージ"
+
+msgid "Product owners"
+msgstr "プロダクトオーナー"
 
 msgid "Project Team Leads (PTLs)"
 msgstr "Project Team Lead (PTL)"
@@ -2193,9 +2208,6 @@ msgstr ""
 "OpenStack コンポーネントへのパッチのコントリビューションを実際に 1 つ成功させ"
 "る"
 
-msgid "Suggestions:"
-msgstr "推奨:"
-
 msgid "Sungjin Kang (training, assistant, mentoring)"
 msgstr "Sungjin Kang (training, assistant, mentoring)"
 
@@ -2472,6 +2484,9 @@ msgstr "公開鍵の一般的なファイル名:"
 msgid "Ubuntu or Fedora"
 msgstr "Ubuntu または Fedora"
 
+msgid "Unaffiliated contributors (free agents)"
+msgstr "無所属のコントリビューター (フリーエージェント)"
+
 msgid "Undefined"
 msgstr "Undefined (未定義)"
 
@@ -2529,6 +2544,9 @@ msgstr ""
 
 msgid "Volunteers"
 msgstr "ボランティア"
+
+msgid "Vote in elections."
+msgstr "選挙への投票。"
 
 msgid "Voters for a given program PTL"
 msgstr "指定されたプロジェクトの PTL の投票者"
@@ -3392,8 +3410,11 @@ msgstr "http://review.openstack.org"
 msgid "https://etherpad.openstack.org/p/upstream-training-vancouver"
 msgstr "https://etherpad.openstack.org/p/upstream-training-vancouver"
 
-msgid "https://mitakadesignsummit.sched.org/overview/type/design+summit"
-msgstr "https://mitakadesignsummit.sched.org/overview/type/design+summit"
+msgid "https://libertydesignsummit.sched.org/overview/type/design+summit"
+msgstr "https://libertydesignsummit.sched.org/overview/type/design+summit"
+
+msgid "https://mitakadesignsummit.sched.org/#2015-10-30"
+msgstr "https://mitakadesignsummit.sched.org/#2015-10-30"
 
 msgid "https://review.openstack.org/#/settings/ssh-keys"
 msgstr "https://review.openstack.org/#/settings/ssh-keys"
