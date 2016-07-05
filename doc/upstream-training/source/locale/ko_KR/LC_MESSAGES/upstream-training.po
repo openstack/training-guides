@@ -5,11 +5,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-17 08:50+0000\n"
+"POT-Creation-Date: 2016-07-04 11:02+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-04-05 02:22+0000\n"
+"PO-Revision-Date: 2016-07-05 12:04+0000\n"
 "Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
@@ -35,6 +35,12 @@ msgstr ""
 "**여전히 도움을 찾고 있습니다:** `등록 <https://openstackfoundation."
 "formstack.com/forms/mentoring>`_ 해 주세요"
 
+msgid "179 countries"
+msgstr "179 개 국가"
+
+msgid "2,336 developers"
+msgstr "개발자 2,336 명"
+
 msgid "2013.2 branch and tags"
 msgstr "2013.2 브랜치 및 태그"
 
@@ -52,6 +58,9 @@ msgstr "2015년 일본, 도쿄"
 
 msgid "2015 Vancouver, Canada"
 msgstr "2015년 캐나다, 벤쿠버"
+
+msgid "2016 Austin, USA"
+msgstr "2016 미국 Austin"
 
 msgid "4 weeks, Design Summit on the third week"
 msgstr "4주, 3번째 주에 대한 Design Summit"
@@ -85,6 +94,9 @@ msgstr "요약"
 
 msgid "Accept the rules"
 msgstr "규칙 적용"
+
+msgid "Account Setup"
+msgstr "계정 셋업"
 
 msgid "Acknowledge the language barrier"
 msgstr "언어 장벽을 인정"
@@ -279,6 +291,9 @@ msgstr ""
 "수정하기 쉬운 버그로, 초심자가 작업 흐름에 친숙해지고 OpenStack 개발에 있어 "
 "코드에 처음 접하는데 이상적"
 
+msgid "Build the presentation"
+msgstr "프리젠테이션 빌드하기"
+
 msgid "Building karma"
 msgstr "karma 생성"
 
@@ -315,6 +330,9 @@ msgstr "질문 선택"
 msgid "Chris Ricker (training, mentoring, assistant, english)"
 msgstr "Chris Ricker (교육, 멘토링, 조교, 영어)"
 
+msgid "Christian Berendt - Installation (mentoring, assistant)"
+msgstr "Christian Berendt - Installation (멘토링, 조교)"
+
 msgid "Christophe Sauthier (training, assistant, mentoring, french, english)"
 msgstr "Christophe Sauthier (교육, 조교, 멘토링, 프랑스어, 영어)"
 
@@ -348,6 +366,9 @@ msgid ""
 msgstr ""
 "**disconnect** 클릭 및 **connect** 를 클릭하여 새로운 닉네임으로 접속을 재시"
 "도합니다."
+
+msgid "Click the **I am a new Ubuntu One user**."
+msgstr "**I am a new Ubuntu One user** 를 클릭합니다."
 
 msgid "Click the **edit** button and"
 msgstr "**edit** 버튼을 클릭하고"
@@ -1084,6 +1105,9 @@ msgstr ""
 "회사를 대신하는 컨트리뷰션인 경우, 회사 관리자가 기업 컨트리뷰터 라이선스 약"
 "관에 서명해야 합니다"
 
+msgid "Ildiko Vancsa - ildikov - Telemetry (mentoring, assistant)"
+msgstr "Ildiko Vancsa - ildikov - Telemetry (멘토링, 조교)"
+
 msgid "Impact was not assessed yet"
 msgstr "영향에 대해 아직 평가되지 않았음"
 
@@ -1170,6 +1194,12 @@ msgstr "IRC 프로그램 설치"
 msgid "Install git review"
 msgstr "git review 설치"
 
+msgid "Install tox"
+msgstr "tox 설치하기"
+
+msgid "Install tox using pip::"
+msgstr "pip를 사용하여 tox를 설치합니다::"
+
 msgid "Institutional members: Platinum and Gold sponsors"
 msgstr "기관 멤버 : 플래티늄과 골드 스폰서"
 
@@ -1228,6 +1258,9 @@ msgstr "토론을 활발히 그리고 주제에 대한 토론으로 유지합니
 msgid "Lana Brindley (assistant, mentoring, English)"
 msgstr "Lana Brindley (조교, 멘토링, 영어)"
 
+msgid "Lana Brindley - Docs (mentoring, assistant)"
+msgstr "Lana Brindley - Docs (멘토링, 조교)"
+
 msgid "Last published release candidate"
 msgstr "마지막 발행된 릴리즈 후보"
 
@@ -1249,6 +1282,9 @@ msgstr "이사회가 주도합니다."
 msgid "Lego applied to Free Software contributions"
 msgstr "자유 소프트웨어 컨트리뷰션을 적용한 Lego"
 
+msgid "Lego applied to Free Software contributions (15 min)"
+msgstr "자유 소프트웨어 컨트리뷰션을 적용한 Lego (15분)"
+
 msgid ""
 "Lego applied to Free Software contributions (`slides <20-training-agile-for-"
 "contributors.html>`__)"
@@ -1267,6 +1303,9 @@ msgid ""
 "of a nickname:"
 msgstr ""
 "선택한 닉네임과 함께 **Nickname** 및 **User name** 필드를 먼저 채웁니다."
+
+msgid "Liberty"
+msgstr "Liberty"
 
 msgid "Like sprints, small groups of people work on specific themes"
 msgstr "Sprint와 같이, 작은 그룹의 구성원이 구체적인 테마에 대해 작업합니다"
@@ -1320,6 +1359,9 @@ msgstr "점심 메뉴 회의"
 msgid "Mac OS"
 msgstr "Mac OS"
 
+msgid "Mac OS & Linux"
+msgstr "Mac OS & Linux"
+
 msgid ""
 "Make sure that **Use SSL for all the servers on this network** is checked."
 msgstr ""
@@ -1339,12 +1381,18 @@ msgstr ""
 "지도와 위치 정보는 세부 사항이 확정되는대로 여기에 공지됩니다. Summit 장소와 "
 "가까운 데에서 개최될 것이지만, 공간 배정이 아직 확정되지 않았습니다."
 
+msgid "Mark Korondi (mentoring, assistant)"
+msgstr "Mark Korondi (멘토링, 조교)"
+
 msgid ""
 "Mark the bug as a potential backport target to a specific SERIES (grizzly, "
 "havana...)"
 msgstr ""
 "해당 버그를 구체적인 SERIES (grizzly, havana...) 를 대상으로 하여 가능성있는 "
 "backport로 마킹"
+
+msgid "Marton Kiss (training, mentoring, assistant)"
+msgstr "Marton Kiss (교육, 멘토링, 조교)"
 
 msgid ""
 "Marton Kiss will lead the next training in Austin, in English. Tools and "
@@ -1393,6 +1441,9 @@ msgstr "소음을 꺼립니다"
 
 msgid "Mingle"
 msgstr "어울리기"
+
+msgid "Mitaka"
+msgstr "Mitaka"
 
 msgid "Mixing two unrelated functional changes."
 msgstr "두 개의 서로 관계가 없는 기능적 변경 사항을 혼합"
@@ -1454,6 +1505,9 @@ msgstr "새로운 기능이 수용되지 않고 버그만 수용될 수 있음"
 
 msgid "New release-critical bugs"
 msgstr "새로운 릴리즈에 치명적인 버그"
+
+msgid "Newton"
+msgstr "Newton"
 
 msgid "No agreement"
 msgstr "약관 동의를 하지 않음"
@@ -1806,6 +1860,9 @@ msgstr "Sahid Ferdjaoui (조교, 프랑스어, 영어)"
 msgid "Same as APC"
 msgstr "APC와 동일합니다"
 
+msgid "Schedule: http://eavesdrop.openstack.org/"
+msgstr "일정: http://eavesdrop.openstack.org/"
+
 msgid "Second day"
 msgstr "두 번째 날"
 
@@ -1843,6 +1900,9 @@ msgstr "대상 마일스톤을 정하기"
 msgid "Setup IRC"
 msgstr "IRC 셋업"
 
+msgid "Setup Launchpad"
+msgstr "Launchpad 셋업"
+
 msgid "Setup and Learn GIT"
 msgstr "GIT 셋업 및 학습"
 
@@ -1852,6 +1912,9 @@ msgstr "Shinobu KINJO (멘토링, 조교, 일본어)"
 msgid "Sign In"
 msgstr "로그인"
 
+msgid "Sign Up"
+msgstr "회원 가입"
+
 msgid "Sign the Individual agreement"
 msgstr "개인 약관에 서명"
 
@@ -1860,6 +1923,9 @@ msgstr "약관에 동의함"
 
 msgid "Sizing the task difficulty"
 msgstr "작업에 대한 크기 측정은 어렵습니다"
+
+msgid "Slides for Upstream Training"
+msgstr "Upstream Training 슬라이드"
 
 msgid "Small issue with an easy workaround. Any other insignificant bug"
 msgstr "쉬운 해결책이 있는 작은 문제. 기타 사소한 버그"
@@ -1956,6 +2022,9 @@ msgstr "공통 라이브러리 (\"Oslo\")와 같은 지원 서비스"
 
 msgid "Suspension of disbelief"
 msgstr "불신에 대한 자발적 유예"
+
+msgid "Swami Redydy (mentoring, assistant)"
+msgstr "Swami Redydy (멘토링, 조교)"
 
 msgid "Syed Armani (training, mentoring, assistant, english)"
 msgstr "Syed Armani (교육, 멘토링, 조교, 영어)"
@@ -2233,6 +2302,10 @@ msgstr "벤더는 대안에 따른 구현으로 대체할 수 있습니다"
 msgid "Verbose or terse?"
 msgstr "장황한지 또는 간결한지?"
 
+msgid ""
+"Victoria Martinez de la Cruz - vkmc - Trove/Zaqar (mentoring, assistant)"
+msgstr "Victoria Martinez de la Cruz - vkmc - Trove/Zaqar (멘토링, 조교)"
+
 msgid "Victoria Martínez de la Cruz (assistant, english)"
 msgstr "Victoria Martínez de la Cruz (조교, 영어)"
 
@@ -2283,6 +2356,9 @@ msgstr ""
 
 msgid "Weeks before the milestone publication date"
 msgstr "마일스톤에 대한 발표 일자 이전 몇 주"
+
+msgid "What is Launchpad?"
+msgstr "Launchpad란?"
 
 msgid "What is OpenStack?"
 msgstr "OpenStack이 무엇인가?"
@@ -2437,6 +2513,9 @@ msgstr "`브랜칭 모델 <15-branching-model.html>`_"
 
 msgid "`Bugs <https://wiki.openstack.org/wiki/Bugs>`_"
 msgstr "`버그 <https://wiki.openstack.org/wiki/Bugs>`_"
+
+msgid "`Code <http://git.openstack.org/cgit>`_"
+msgstr "`코드 <http://git.openstack.org/cgit>`_"
 
 msgid ""
 "`Code Review <http://docs.openstack.org/infra/manual/developers.html#code-"
@@ -2760,6 +2839,9 @@ msgstr ""
 "`단위 테스트 실행 <http://docs.openstack.org/infra/manual/developers."
 "html#running-unit-tests>`_"
 
+msgid "`Specifications <http://specs.openstack.org>`_"
+msgstr "`스펙 <http://specs.openstack.org>`_"
+
 msgid "`Stable branch <https://wiki.openstack.org/wiki/StableBranch>`_"
 msgstr "`Stable 브랜치 <https://wiki.openstack.org/wiki/StableBranch>`_"
 
@@ -2803,11 +2885,21 @@ msgid ""
 msgstr ""
 "`트레이닝 가이드 <https://wiki.openstack.org/wiki/Training-guides#How_To>`_"
 
+msgid "`Translations <http://git.openstack.org/cgit/openstack/i18n/tree/>`_"
+msgstr "`번역 <http://git.openstack.org/cgit/openstack/i18n/tree/>`_"
+
 msgid ""
 "`Understanding the DefCore Guidelines <https://git.openstack.org/cgit/"
 "openstack/defcore>`_"
 msgstr ""
 "`DefCore 가이드라인 이해 <https://git.openstack.org/cgit/openstack/defcore>`_"
+
+msgid ""
+"`Use cases for features <http://specs.openstack.org/openstack/openstack-user-"
+"stories/>`_"
+msgstr ""
+"`기능에 대한 유스케이스 <http://specs.openstack.org/openstack/openstack-user-"
+"stories/>`_"
 
 msgid ""
 "``#action`` - Document an action item in the minutes. Include any nicknames "
@@ -2931,6 +3023,9 @@ msgstr "오류를 추가하고 jenkins 메시지에 대응시켜 봅니다"
 msgid "anyone doing Gerrit code review can act as the stick"
 msgstr "Gerrit 코드 리뷰를 수행하는 누구라도 지휘봉과 같은 행동이 가능합니다"
 
+msgid "apt / yum / pip install … git review"
+msgstr "apt / yum / pip install … git review"
+
 msgid "ask a core developer or bug supervisor => Status: Triaged"
 msgstr "핵심 개발자 또는 버그 감독자에게 문의 => 상태: Triaged"
 
@@ -3035,6 +3130,12 @@ msgstr "http://review.openstack.org"
 msgid "https://etherpad.openstack.org/p/upstream-training-vancouver"
 msgstr "https://etherpad.openstack.org/p/upstream-training-vancouver"
 
+msgid "https://libertydesignsummit.sched.org/overview/type/design+summit"
+msgstr "https://libertydesignsummit.sched.org/overview/type/design+summit"
+
+msgid "https://mitakadesignsummit.sched.org/#2015-10-30"
+msgstr "https://mitakadesignsummit.sched.org/#2015-10-30"
+
 msgid "https://review.openstack.org/#/settings/ssh-keys"
 msgstr "https://review.openstack.org/#/settings/ssh-keys"
 
@@ -3053,6 +3154,9 @@ msgstr "https://wiki.openstack.org/wiki/Design_Summit/Planning"
 msgid "https://wiki.openstack.org/wiki/GitCommitMessages"
 msgstr "https://wiki.openstack.org/wiki/GitCommitMessages"
 
+msgid "https://wiki.openstack.org/wiki/Meetings"
+msgstr "https://wiki.openstack.org/wiki/Meetings"
+
 msgid "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
 msgstr "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
 
@@ -3065,8 +3169,22 @@ msgstr "https://www.openstack.org/foundation/tech-committee/"
 msgid "https://www.openstack.org/join/"
 msgstr "https://www.openstack.org/join/"
 
+msgid ""
+"https://www.openstack.org/summit/austin-2016/summit-schedule/#day=2016-04-29"
+msgstr ""
+"https://www.openstack.org/summit/austin-2016/summit-schedule/#day=2016-04-29"
+
 msgid "i18n"
 msgstr "i18n"
+
+msgid "id_ecdsa.pub"
+msgstr "id_ecdsa.pub"
+
+msgid "id_ed25519.pub"
+msgstr "id_ed25519.pub"
+
+msgid "id_rsa.pub"
+msgstr "id_rsa.pub"
 
 msgid "invite reviewers"
 msgstr "검토자 초대"
