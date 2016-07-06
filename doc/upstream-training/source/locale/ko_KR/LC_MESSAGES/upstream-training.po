@@ -5,11 +5,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-04 11:02+0000\n"
+"POT-Creation-Date: 2016-07-05 13:04+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-07-05 12:04+0000\n"
+"PO-Revision-Date: 2016-07-05 02:51+0000\n"
 "Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
@@ -28,6 +28,18 @@ msgstr "#info"
 msgid "(RC2), with bugs targeted to it"
 msgstr "프로젝트에 대한 버그를 목표로 한 (RC2)"
 
+msgid "**Private key** - Only known to you and it should be safely guarded."
+msgstr "**비밀키** - 사용자만 알고 있으며 안전하게 보호되어져야 합니다."
+
+msgid ""
+"**Public key** - Can be shared freely with any SSH server you wish to "
+"connect to."
+msgstr ""
+"**공개키** - 접속하고자 하는 임의의 SSH 서버에 자유롭게 공유 가능합니다."
+
+msgid "**Staff**"
+msgstr "**스태프**"
+
 msgid ""
 "**Still looking for help: please** `register <https://openstackfoundation."
 "formstack.com/forms/mentoring>`_"
@@ -40,6 +52,9 @@ msgstr "179 개 국가"
 
 msgid "2,336 developers"
 msgstr "개발자 2,336 명"
+
+msgid "20 mins building"
+msgstr "20분 동안 만들기"
 
 msgid "2013.2 branch and tags"
 msgstr "2013.2 브랜치 및 태그"
@@ -62,8 +77,34 @@ msgstr "2015년 캐나다, 벤쿠버"
 msgid "2016 Austin, USA"
 msgstr "2016 미국 Austin"
 
+msgid "3-4 different companies"
+msgstr "3-4 개의 서로 다른 회사"
+
+msgid "345 different organizations"
+msgstr "345 개의 서로 다른 회사"
+
 msgid "4 weeks, Design Summit on the third week"
 msgstr "4주, 3번째 주에 대한 Design Summit"
+
+msgid "40,497 people"
+msgstr "40,497 명"
+
+msgid "5 mins planning"
+msgstr "5분 동안 계획하기"
+
+msgid "5 mins review"
+msgstr "5분 동안 리뷰하기"
+
+msgid "596 supporting companies"
+msgstr "596 지원 회사"
+
+msgid ""
+"A big thank you to everyone that has made this possible, especially Loic "
+"Dachary, Stefano Maffulli, Tim Freund, and Marton Kiss who lead the "
+"trainings."
+msgstr ""
+"이를 가능하게 한 모든 분들, 그리고 특별히 트레이닝을 진행한 Loic Dachary, "
+"Stefano Maffulli, Tim Freund, 그리고 Marton Kiss에게 큰 감사를 드립니다."
 
 msgid ""
 "A message dialog window will come up. Type the following to register your "
@@ -144,11 +185,38 @@ msgstr "마지막 마일스톤 이후"
 msgid "Agenda"
 msgstr "안건"
 
+msgid "Agreeable : 2-3"
+msgstr "동의하는 자 : 2-3"
+
+msgid "Aim to become a major contributor and demonstrate your mad skills!"
+msgstr "주요 컨트리뷰터가 되어 열광하는 기술을 입증하는 것을 목표로 합니다!"
+
 msgid "Alignment with OpenStack mission"
 msgstr "OpenStack 임무와 부합하는지 여부"
 
 msgid "All externally visible strings must be frozen"
 msgstr "모든 외부적으로 보이는 문자열이 프리징 됩니다."
+
+msgid "Allows you to:"
+msgstr "다음을 가능하게 합니다:"
+
+msgid ""
+"An agreement to clarify intellectual property license granted with "
+"contributions from a person or entity. `Preview the full agreement <https://"
+"review.openstack.org/static/cla.html>`_."
+msgstr ""
+"어떤 사람 또는 주체로부터 컨트리뷰션 부여에서 지적 재산권 라이선스를 명확화하"
+"는 약관입니다. `전체 약관 미리보기 <https://review.openstack.org/static/cla."
+"html>`_"
+
+msgid ""
+"An employer of the company or organization needs to sign the `Corporate "
+"Contributor License Agreement <https://secure.echosign.com/public/hostedForm?"
+"formid=56JUVGT95E78X5>`_."
+msgstr ""
+"회사 또는 기관 고용주가 `Corporate Contributor License Agreement <https://"
+"secure.echosign.com/public/hostedForm?formid=56JUVGT95E78X5>`_ 에 서명할 필요"
+"가 있습니다."
 
 msgid "Analyze the reasons for an increased delta"
 msgstr "증가된 Delta에 대한 이유를 분석하기"
@@ -201,8 +269,25 @@ msgstr "Assigned To"
 msgid "Assignee: the developer working on the fix"
 msgstr "할당자: 수정 중에 있는 개발자"
 
+msgid ""
+"Assuming you weren't able to find keys in your ~/.ssh directory, you can "
+"generate keys by going into your terminal program and typing::"
+msgstr ""
+"~/.ssh 디렉토리에서 키를 찾을 수 없다는 가정하에, 터미널 프로그램으로 이동하"
+"여 다음을 입력하여 키를 생성할 수 있습니다::"
+
 msgid "At the Design Summit"
 msgstr "Design Summit에서"
+
+msgid "At the end of the four sprints, ensure you take a group photo!"
+msgstr "네 번째 sprint 마지막에, 단체 사진을 찍을 수 있도록 합니다!"
+
+msgid ""
+"At the prompt, type a secure a passphase, you may enter one or press Enter "
+"to have no passphase::"
+msgstr ""
+"보안을 갖춘 passphrase를 입력하는 프롬프트에서, 입력하거나 또는 passphrase를 "
+"사용하지 않기 위해 엔터키를 입력할 수도 있습니다::"
 
 msgid "Auto-Login On Connecting To Freenode"
 msgstr "Freenode 연결에 대한 자동 로그인"
@@ -232,8 +317,14 @@ msgstr "배려하기"
 msgid "Be engaged with your network"
 msgstr "네트워크에 속하기"
 
+msgid "Be polite, be helpful"
+msgstr "예의를 갖추고, 서로 도웁니다"
+
 msgid "Be respectful"
 msgstr "존경하기"
+
+msgid "Be true to your role"
+msgstr "역할에 대해 진실성을 가집니다"
 
 msgid "Being able to read and write English at a technical level"
 msgstr "영어로된 기술 용어를 읽고 쓸 수 있는 레벨"
@@ -294,6 +385,9 @@ msgstr ""
 msgid "Build the presentation"
 msgstr "프리젠테이션 빌드하기"
 
+msgid "Build the presention using tox::"
+msgstr "tox를 사용한 프리젠테이션 빌드하기:: "
+
 msgid "Building karma"
 msgstr "karma 생성"
 
@@ -315,6 +409,12 @@ msgstr "외부 HTTP API에 대한 변경 사항"
 msgid "Changes to the notification definitions"
 msgstr "Notification 정의에 대한 변경 사항"
 
+msgid "Check For Existing Keys"
+msgstr "기존 키 확인"
+
+msgid "Check that :command:`apt install` works on the virtual machine"
+msgstr ":command:`apt install` 명령이 가상 머신에서 동작하는지 확인합니다."
+
 msgid "Check that you can ssh from your laptop to the virtual machine"
 msgstr "노트북에서 ssh를 사용하여 가상 머신으로 접속이 가능한지 확인합니다."
 
@@ -326,6 +426,15 @@ msgstr "모든 정보를 모을 한 장소를 선택하기"
 
 msgid "Choosing a question"
 msgstr "질문 선택"
+
+msgid "Choosing roles - Companies"
+msgstr "역할 선택 - 회사"
+
+msgid "Choosing roles - Free agent contributors"
+msgstr "역할 선택 - 자유로운 에이전트 컨트리뷰터"
+
+msgid "Choosing roles - Upstream"
+msgstr "역할 선택 - 업스트림"
 
 msgid "Chris Ricker (training, mentoring, assistant, english)"
 msgstr "Chris Ricker (교육, 멘토링, 조교, 영어)"
@@ -367,6 +476,9 @@ msgstr ""
 "**disconnect** 클릭 및 **connect** 를 클릭하여 새로운 닉네임으로 접속을 재시"
 "도합니다."
 
+msgid "Click the 'Add Key' button."
+msgstr "'키 추가' 버튼을 클릭합니다."
+
 msgid "Click the **I am a new Ubuntu One user**."
 msgstr "**I am a new Ubuntu One user** 를 클릭합니다."
 
@@ -397,6 +509,9 @@ msgstr "의사소통"
 msgid "Companies"
 msgstr "회사"
 
+msgid "Companies have to deliver value to their stakeholders."
+msgstr "기업은 이해 관계자들에게 가치를 제공해야합니다."
+
 msgid "Company employees"
 msgstr "회사 근로자"
 
@@ -405,6 +520,12 @@ msgstr "회사 스냅샷"
 
 msgid "Compare"
 msgstr "비교"
+
+msgid "Complete the application."
+msgstr "지원서를 완료합니다."
+
+msgid "Configuration"
+msgstr "구성"
 
 msgid "Configure Git"
 msgstr "Git 구성"
@@ -448,11 +569,20 @@ msgstr "컨트리뷰션 시뮬레이션 (2시간)"
 msgid "Contributor meetups"
 msgstr "컨트리뷰터 밋업"
 
+msgid "Contributors From a Company or Organization"
+msgstr "기업 또는 기관 컨트리뷰터"
+
+msgid "Contributors From the U.S. Government"
+msgstr "미국 정부 컨트리뷰터"
+
 msgid "Controversial : 1"
 msgstr "논쟁의 소지가 있는 자 : 1"
 
 msgid "Coordinated collection of software from a few dozen related projects"
 msgstr "수십 개의 관련 프로젝트로부터의 소프트웨어 대해 서로 조화되는 집합"
+
+msgid "Copy Public Key"
+msgstr "공개키 복사"
 
 msgid "Core (or What is OpenStack)"
 msgstr "Core (혹은 OpenStack은 무엇인가)"
@@ -468,6 +598,9 @@ msgstr "핵심 검토자"
 
 msgid "Core services such as Block Storage (\"Cinder\")"
 msgstr "블록 스토리지 (\"Cinder\")와 같은 핵심 서비스"
+
+msgid "Core team"
+msgstr "코어 팀"
 
 msgid "Corporate driven"
 msgstr "기업에 의해 주도"
@@ -637,12 +770,21 @@ msgstr ""
 msgid "Each choice made must have a rationale"
 msgstr "각 만들어진 선택에는 근거가 있어야 합니다"
 
+msgid "Each company has:"
+msgstr "각 기업은 다음을 갖습니다:"
+
+msgid "Each individual sets their own objective."
+msgstr "각 개인은 각자 목표를 설정합니다."
+
 msgid ""
 "Each project team page shows its release policy on http://governance."
 "openstack.org/reference/projects"
 msgstr ""
 "각 프로젝트 팀 페이지에서는 해당 릴리즈 정책을 http://governance.openstack."
 "org/reference/projects 에서 보여줍니다"
+
+msgid "Each student group prepares a presentation describing:"
+msgstr "각 학생 그룹은 다음을 설명하는 프리젠테이션을 준비합니다:"
 
 msgid "Each student group presents its slides to the class"
 msgstr "각 학생 그룹은 수업에 대한 슬라이드를 발표합니다"
@@ -667,6 +809,15 @@ msgstr "Edouard THULEAU (조교, 프랑스어, 영어)"
 
 msgid "Edouard Thuleau (assistant, french, english)"
 msgstr "Edouard Thuleau (조교, 프랑스어, 영어)"
+
+msgid ""
+"Employers can update the list of authorized employees by filling out and "
+"signing an `Updated Schedule A Form <https://openstack.echosign.com/public/"
+"hostedForm?formid=56JUVP6K4Z6P4C>`_."
+msgstr ""
+"고용주는 `Updated Schedule A Form <https://openstack.echosign.com/public/"
+"hostedForm?formid=56JUVP6K4Z6P4C>`_ 을 채우고 서명함으로써 권한이 있는 근로"
+"자 목록을 업데이트할 수 있습니다."
 
 msgid "End on time"
 msgstr "정시에 종료합니다"
@@ -799,6 +950,11 @@ msgstr "찾은 버그 모두 모으기"
 msgid "File new blueprints and/or specs"
 msgstr "새로운 blueprint 그리고/또는 spec을 묶기"
 
+msgid ""
+"Fill in your email address, name, password, and accepting the terms of "
+"services."
+msgstr "이메일 주소, 이름, 암호를 채우고 서비스 약관에 동의합니다."
+
 msgid "Find a solution that needs to be agreed upon"
 msgstr "동의를 필요로 하는 해결책을 찾습니다"
 
@@ -847,6 +1003,9 @@ msgid ""
 "Team"
 msgstr "Liberty에서 통합 프로젝트는 릴리즈 관리 팀에 의해 관리가 이루어집니다"
 
+msgid "For SUSE distributions open a terminal and type::"
+msgstr "SUSE 배포판의 경우 터미널을 열고 입력합니다::"
+
 msgid ""
 "For a linux distrubtions like Debian, Ubuntu, or Mint open a terminal and "
 "type::"
@@ -860,6 +1019,18 @@ msgid ""
 msgstr ""
 "Redhat, Fedora 21 또는 이전 버전, 또는 Centos와 같은 리눅스 배포판에 대하여 "
 "터미널을 열고 입력합니다::"
+
+msgid ""
+"For distributions like Debian, Ubuntu, or Mint open a terminal and type::"
+msgstr ""
+"Debian, Ubuntu, 또는 Mint와 같은 배포판의 경우 터미널을 열고 입력합니다::"
+
+msgid ""
+"For distributions like RedHat, Fedora 21 or earlier, or CentOS open a "
+"terminal and type::"
+msgstr ""
+"RedHat, Fedora 21 이나 이전, 또는 CentOS와 같은 배포판의 경우 터미널을 열고 "
+"입력합니다::"
 
 msgid ""
 "For more information about the past trainings and local upstream trainings, "
@@ -884,11 +1055,25 @@ msgstr "**Chat server** 에서 **irc.freenode.net** 을 입력합니다."
 msgid "Forbidden"
 msgstr "금지되는 사항"
 
+msgid "Foundation, technical committee, and board members"
+msgstr "Foundation, 기술 위원회, 그리고 보드 구성원"
+
+msgid "Four sprints of 30 mins:"
+msgstr "30 분 단위의 sprint 4번:"
+
 msgid "François Bureau (assistant, french, english)"
 msgstr "François Bureau (조교, 프랑스어, 영어)"
 
 msgid "From easy to difficult"
 msgstr "쉬운 것에서 어려운 것까지"
+
+msgid ""
+"From here on out when you sign into Gerrit, you'll be prompted to enter your "
+"your Launchpad login info. This is because Gerrit uses it as an OpenID "
+"single sign on."
+msgstr ""
+"Gerrit에 로그인하고자 할 때 여기에서는 Gerrit이 OpenID 싱글 사인 온으로 사용"
+"하기 때문에, Launchpad 로그인 정보를 입력하는 프롬프트가 나타날 것입니다."
 
 msgid ""
 "From the list of **Networks** you should see Freenode. Select that and click "
@@ -904,6 +1089,9 @@ msgstr ""
 "다운로드 폴더에서, Colloquy 응용프로그램 아이콘을 응용프로그램 폴더에 드래그"
 "하여 설치합니다."
 
+msgid "From your terminal type::"
+msgstr "터미널에서 입력합니다::"
+
 msgid ""
 "Fully rendered http://governance.openstack.org/reference/projects/index.html"
 msgstr ""
@@ -911,6 +1099,9 @@ msgstr ""
 
 msgid "GIT commit message structure"
 msgstr "GIT 커밋 메시지 구조"
+
+msgid "Generate SSH Keys"
+msgstr "SSH 키 생성하기"
 
 msgid ""
 "Gerrit Documentation: `Gerrit Code Review - A Quick Introduction <https://"
@@ -945,6 +1136,41 @@ msgstr "닉/이메일을 알려지도록 하기"
 msgid "Getting attention"
 msgstr "주목 받기"
 
+msgid "Git"
+msgstr "Git"
+
+msgid "Git Review"
+msgstr "Git Review"
+
+msgid ""
+"Git is a free and open source distributed version control system that the "
+"OpenStack community uses to manage changes to source code."
+msgstr ""
+"Git는 무료이며 오픈 소스인 분산 버전 제어 시스템으로, OpenStack 커뮤니티에서"
+"는 소스 코드에 대한 변화를 관리하기 위해 사용합니다."
+
+msgid ""
+"Git review assumes the user you're running it as is the same as your Gerrit "
+"username. If it's not, you can tell it by setting this git config setting::"
+msgstr ""
+"Git review는 Gerrit 사용자 이름과 동일한 사용자 이름으로 실행하고 있다고 가정"
+"합니다. 그렇지 않을 경우, git config 설정에서 설정을 함으로써 명시 가능합니"
+"다::"
+
+msgid ""
+"Git review is tool maintained by the OpenStack community. It adds an "
+"additional sub-command to git like so::"
+msgstr ""
+"Git review는 OpenStack 커뮤니티에서 유지보수하고 있는 도구입니다. 다음과 같"
+"이 git에 부가적인 서브 명령어를 추가합니다::"
+
+msgid ""
+"Go to `Gerrit's SSH Public Keys settings <https://review.openstack.org/#/"
+"settings/ssh-keys>`_."
+msgstr ""
+"`Gerrit SSH 공개키 설정 <https://review.openstack.org/#/settings/ssh-keys>`_ "
+"으로 이동합니다."
+
 msgid "Go to http://colloquy.info and follow the download link."
 msgstr "http://colloquy.info 에 접속하여 다운로드 링크를 따라갑니다."
 
@@ -954,6 +1180,20 @@ msgid ""
 msgstr ""
 "Git `다운로드 페이지 <https://git-scm.com/downloads>`_ 에 방문하여 **Mac OS "
 "X** 를 클릭합니다."
+
+msgid ""
+"Go to the `Launchpad login or create account page <https://launchpad.net/"
+"+login>`_"
+msgstr ""
+"`Launchpad 로그인 또는 계정 생성 페이지 <https://launchpad.net/+login>`_ 로 "
+"이동합니다."
+
+msgid ""
+"Go to the `OpenStack Foundation sign up page <https://www.openstack.org/"
+"join>`_."
+msgstr ""
+"`OpenStack Foundation 회원 가입 페이지 <https://www.openstack.org/join>`_ 로 "
+"이동합니다."
 
 msgid ""
 "Going back to your connection window, highlight your freenode connection and "
@@ -994,6 +1234,9 @@ msgstr ""
 
 msgid "High"
 msgstr "High"
+
+msgid "Highlight and copy the output."
+msgstr "결과를 (드래그하여) 강조한 후 복사합니다."
 
 msgid "Horizontal teams such as Documentation"
 msgstr "문서화와 같은 수평적인 팀"
@@ -1080,6 +1323,9 @@ msgid ""
 "project's chosen infrastructure"
 msgstr "문서 기여는 프로젝트에서 선택한 인프라에서 문서를 작업할 수 있습니다"
 
+msgid "If you are contributing on behalf of a company or organization."
+msgstr "회사 또는 기관에 소속되어 컨트리뷰션할 경우에 해당합니다."
+
 msgid ""
 "If you don't have pip installed already, follow the `installation "
 "documentation <https://pip.pypa.io/en/stable/installing/#installing-with-get-"
@@ -1087,6 +1333,19 @@ msgid ""
 msgstr ""
 "pip를 아직 설치하지 않은 경우, pip에 대해 `설치 문서 <https://pip.pypa.io/en/"
 "stable/installing/#installing-with-get-pip-py>`_ 를 따릅니다."
+
+msgid ""
+"If you don't know what your Gerrit username is, you can check the `Gerrit "
+"settings <https://review.openstack.org/#/settings/>`_."
+msgstr ""
+"Gerrit 사용자 이름을 모르는 경우, `Gerrit settings <https://review.openstack."
+"org/#/settings/>`_ 에서 확인 가능합니다."
+
+msgid "If you don't see .pub extension file, you need to generate keys."
+msgstr ".pub 확장자 파일을 볼 수 없는 경우, 키를 생성할 필요가 있습니다."
+
+msgid "If you feel the community needs consensus, call a midcycle!"
+msgstr "커뮤니티에서 합의를 필요로 하는 경우, 중반 단계가 필요하다고 외칩니다!"
 
 msgid "If you get a notice that the nick name is already taken"
 msgstr "해당 닉네임이 이미 선택되었다는 공지를 받은 경우"
@@ -1097,6 +1356,13 @@ msgid ""
 msgstr ""
 "해당 닉네임이 이미 선택되었다는 공지를 받은 경우, 다른 닉네임을 선택하기 위"
 "해 처음 일련의 절차로 다시 돌아갑니다."
+
+msgid ""
+"If you use the package manager `Homebrew <http://brew.sh>`_, open a terminal "
+"and type::"
+msgstr ""
+"패키지 관리자 `Homebrew <http://brew.sh>`_ 를 사용하는 경우에는, 터미널을 열"
+"고 입력합니다::"
 
 msgid ""
 "If your contribution is on behalf of a company, have your managers sign the "
@@ -1121,8 +1387,21 @@ msgid "Implementations that are Core can use OpenStack trademark (OpenStack™)"
 msgstr ""
 "Core에 해당하는 구현은 OpenStack 상표 (OpenStack™)를 사용할 수 있습니다"
 
+msgid "Import Public Key Into Gerrit"
+msgstr "공개키를 Gerrit에 가져오기"
+
+msgid ""
+"In Gerrit's `settings <https://review.openstack.org/#/settings/agreements>`_ "
+"click the **New Contributor Agreement** link and sign the agreement."
+msgstr ""
+"Gerrit `settings <https://review.openstack.org/#/settings/agreements>`_ 에서 "
+"**New Contributor Agreement** 링크를 클릭하고 약관에 서명합니다."
+
 msgid "In Progress"
 msgstr "In Progress"
+
+msgid "In a terminal type::"
+msgstr "터미널에서 입력합니다::"
 
 msgid "In house version"
 msgstr "인 하우스 버전"
@@ -1142,12 +1421,34 @@ msgstr ""
 "암호를 주고 받도록 설정할 필요가 있습니다."
 
 msgid ""
+"In order to push things to `Gerrit <https://review.openstack.org>`_ we need "
+"to have a way to identify ourselves. We will do this using ssh keys which "
+"allows us to have our machine we're pushing a change from to perform a "
+"`challenge-response authentication <https://en.wikipedia.org/wiki/Challenge-"
+"response_authentication>`_ with the Gerrit server."
+msgstr ""
+"`Gerrit <https://review.openstack.org>`_ 에 푸시하기 위해 신원을 확인할 방법"
+"이 필요합니다. Gerrit 서버와 `시도 응답 인증 <https://en.wikipedia.org/wiki/"
+"Challenge-response_authentication>`_ 을 수행하여 변경사항을 머신에 푸시하는 "
+"것을 ssh 키를 통해 가능하게 합니다."
+
+msgid ""
 "In order to register we need to send a message to nickserv on freenode, "
 "which is a bot that allows us to register and identify ourselves as the "
 "owner of a nick name."
 msgstr ""
 "등록을 하기 위해, 사용자 등록 및 닉네임의 소유자 식별을 허용하는 메시지를 "
 "freenode 상의 nickserv에 보낼 필요가 있습니다."
+
+msgid ""
+"In summary, we will be generating these keys, and providing the Gerrit "
+"server with your public key. With your system holding the private key, it "
+"will have no problem replying to Gerrit during the challenge-response "
+"authentication."
+msgstr ""
+"요약하면, 해당 키를 생성하고, Gerrit 서버에 공개키를 제공할 것입니다. 대상 시"
+"스템이 비밀키를 가지고 있는 한, 시도 응답 인증 동안 Gerrit에서 응답이 오는 "
+"데 문제가 없을 것입니다."
 
 msgid "In the **Password** field type your password."
 msgstr "**Password** 필드에 암호를 입력합니다."
@@ -1163,6 +1464,12 @@ msgstr "호환되지 않는 구성 파일 변경 사항"
 
 msgid "Incomplete"
 msgstr "Incomplete"
+
+msgid "Individual Contributor License Agreement"
+msgstr "개인 컨트리뷰터 라이선스 동의"
+
+msgid "Individual Contributors"
+msgstr "개인 컨트리뷰터"
 
 msgid "Individual members: all of us"
 msgstr "개인 멤버 : 우리 모두"
@@ -1199,6 +1506,9 @@ msgstr "tox 설치하기"
 
 msgid "Install tox using pip::"
 msgstr "pip를 사용하여 tox를 설치합니다::"
+
+msgid "Installation"
+msgstr "설치하기"
 
 msgid "Institutional members: Platinum and Gold sponsors"
 msgstr "기관 멤버 : 플래티늄과 골드 스폰서"
@@ -1264,6 +1574,15 @@ msgstr "Lana Brindley - Docs (멘토링, 조교)"
 msgid "Last published release candidate"
 msgstr "마지막 발행된 릴리즈 후보"
 
+msgid ""
+"Launchpad is how the OpenStack community does tracking for things like bug "
+"reports. This account is also how we will identify ourselves in OpenStack's "
+"code review system."
+msgstr ""
+"Launchpad는 OpenStack 커뮤니티가 버그 리포팅과 같은 것들에 대해 어떻게 추적하"
+"는지를 보여줍니다. 해당 계정은 또한 OpenStack 코드 리뷰 시스템에서 인증하는"
+"데 사용됩니다."
+
 msgid "Learn what distinguishes good work flow from bad work flow"
 msgstr "좋은 워크 플로우와 나쁜 워크 플로우를 구별하는 것을 배웁니다"
 
@@ -1292,6 +1611,9 @@ msgstr ""
 "자유 소프트웨어 컨트리뷰션을 적용한 Lego (`슬라이드 <20-training-agile-for-"
 "contributors.html>`__)"
 
+msgid "Let's play!"
+msgstr "진행합시다!"
+
 msgid ""
 "Lets first fill out the **Nick name** and **User name** field with our "
 "choice of a nickname:"
@@ -1306,6 +1628,12 @@ msgstr ""
 
 msgid "Liberty"
 msgstr "Liberty"
+
+msgid "Like OpenStack, there are:"
+msgstr "OpenStack 처럼, 다음이 있습니다:"
+
+msgid "Like any software project, there are:"
+msgstr "임의의 소프트웨어 프로젝트와 비슷하게, 다음이 있습니다:"
 
 msgid "Like sprints, small groups of people work on specific themes"
 msgstr "Sprint와 같이, 작은 그룹의 구성원이 구체적인 테마에 대해 작업합니다"
@@ -1331,6 +1659,9 @@ msgid ""
 msgstr ""
 "기여하고자 계획하는 모듈에 대해 만들어지는 가장 영향력있는 회사 및 개인을 각 "
 "지표 값마다 세 개씩 목록화합니다."
+
+msgid "Listen when people talk"
+msgstr "사람들이 이야기할 때 경청합니다"
 
 msgid "Local Upstream Trainings"
 msgstr "로컬 업스트림 트레이닝"
@@ -1362,16 +1693,29 @@ msgstr "Mac OS"
 msgid "Mac OS & Linux"
 msgstr "Mac OS & Linux"
 
+msgid "Make code contributions."
+msgstr "코드 컨트리뷰션하기."
+
 msgid ""
 "Make sure that **Use SSL for all the servers on this network** is checked."
 msgstr ""
 "**Use SSL for all the servers on this network** 이 체크되었는지 확인합니다."
+
+msgid ""
+"Make sure to use the same email address you'll want to use for code "
+"contributions since it's important later that these match up."
+msgstr ""
+"코드 컨트리뷰션에 사용하고자 하는 이메일 주소와 동일한 주소를 사용하는지 확인"
+"합니다. 서로 일치시키는 것이 나중에 중요해 집니다."
 
 msgid "Make sure you have a wifi enabled laptop with you."
 msgstr "Wifi를 사용할 수 있는 노트북을 가지고 와야 합니다."
 
 msgid "Manage day-to-day operations"
 msgstr "일상적인 운영 관리"
+
+msgid "Managers"
+msgstr "매니저"
 
 msgid ""
 "Maps and location information will be posted here once details are "
@@ -1485,6 +1829,9 @@ msgstr ""
 "프로젝트 중 대부분은 이제 spec으로 불리는 git 저장소에 대한 blueprint에서 관"
 "리합니다"
 
+msgid "Most recent (\"Mitaka\") release stats:"
+msgstr "가장 최근 (\"Mitaka\") 릴리즈 통계:"
+
 msgid "Motions"
 msgstr "움직임"
 
@@ -1596,6 +1943,9 @@ msgstr "자유 토론으로, 의자를 동심원의 고리 형태로 조직합�
 msgid "Open source software for creating private and public clouds"
 msgstr "사설 및 공용 클라우드를 생성하기 위한 오픈 소스 소프트웨어"
 
+msgid "Open your terminal program and type::"
+msgstr "터미널 프로그램을 열고 입력합니다::"
+
 msgid "OpenStack \"Big Tent\" and tags"
 msgstr "OpenStack \"Big Tent\"와 태그"
 
@@ -1663,6 +2013,9 @@ msgstr ""
 msgid "PTL : 1"
 msgstr "PTL: 1"
 
+msgid "PTLs"
+msgstr "PTL"
+
 msgid "PTLs triage the submitted blueprints and set priority"
 msgstr "PTL은 제출된 blueprint를 구분하고 우선 순위를 정하기"
 
@@ -1671,6 +2024,12 @@ msgstr "PTL은 프로젝트 트랙 내 세션을 투표합니다"
 
 msgid "Parallelizing"
 msgstr "평행"
+
+msgid ""
+"Paste the public key into the **Add SSH Public Key** text box and click Add."
+msgstr ""
+"공개키를 **Add SSH Public Key** 텍스트 상자에 붙여넣기한 후 추가를 클릭합니"
+"다."
 
 msgid "People sitting in the inner circle lead the discussion"
 msgstr "원 안에 앉아있는 구성원이 토론을 진행합니다"
@@ -1707,6 +2066,9 @@ msgstr "선행조건"
 
 msgid "Prioritize bugs / bug triage"
 msgstr "버그 우선 순위 / 버그 분류"
+
+msgid "Product owners"
+msgstr "프로젝트 소유자"
 
 msgid "Project Team Leads (PTLs)"
 msgstr "Project Team Leads (PTLs)"
@@ -1754,6 +2116,9 @@ msgstr "상호 리뷰를 위한 Gerrit push"
 msgid "Quantify the delta"
 msgstr "Delta 정량화"
 
+msgid "Read and complete the :doc:`accounts` guide."
+msgstr ":doc:`accounts` 가이드를 읽고 완료합니다."
+
 msgid "Read and complete the :doc:`git` guide."
 msgstr ":doc:`git` 가이드를 읽고 완료합니다."
 
@@ -1772,6 +2137,14 @@ msgstr ""
 
 msgid "Read the policy"
 msgstr "규칙 읽기"
+
+msgid ""
+"Read through the presented individual member terms of service and our "
+"`Community Code of Conduct <https://www.openstack.org/legal/community-code-"
+"of-conduct/>`_."
+msgstr ""
+"제시된 개인 구성원 서비스 약관 및 `Community Code of Conduct <https://www."
+"openstack.org/legal/community-code-of-conduct/>`_ 전반을 읽어봅니다."
 
 msgid "Recheck bug #XXX"
 msgstr "Bug #XXX 재확인"
@@ -1848,11 +2221,17 @@ msgstr "Rohit Agarwalla (조교)"
 msgid "Rossella Sblendido (assistant, Italian, English)"
 msgstr "Rossella Sblendido (조교, 이탈리아어, 영어)"
 
+msgid "Run for elected positions in the OpenStack project."
+msgstr "OpenStack 프로젝트 내에서 선출로 정해지는 자리에 지원하기."
+
 msgid "SERIES-backport-potential"
 msgstr "SERIES-backport-potential"
 
 msgid "SERIES-rc-potential"
 msgstr "SERIES-rc-potential"
+
+msgid "SSH keys are always generated in pairs:"
+msgstr "SSH 키는 항상 쌍으로 생성됩니다:"
 
 msgid "Sahid Ferdjaoui (assistant, french, english)"
 msgstr "Sahid Ferdjaoui (조교, 프랑스어, 영어)"
@@ -1897,11 +2276,20 @@ msgstr ""
 msgid "Set a target milestone"
 msgstr "대상 마일스톤을 정하기"
 
+msgid "Setup Gerrit Account"
+msgstr "Gerrit 계정 셋업"
+
 msgid "Setup IRC"
 msgstr "IRC 셋업"
 
 msgid "Setup Launchpad"
 msgstr "Launchpad 셋업"
+
+msgid "Setup OpenStack Foundation Account"
+msgstr "OpenStack Foundation 계정 셋업"
+
+msgid "Setup SSH Keys"
+msgstr "SSH 키 셋업"
 
 msgid "Setup and Learn GIT"
 msgstr "GIT 셋업 및 학습"
@@ -1920,6 +2308,9 @@ msgstr "개인 약관에 서명"
 
 msgid "Signed agreement"
 msgstr "약관에 동의함"
+
+msgid "Signing it"
+msgstr "서명하기"
 
 msgid "Sizing the task difficulty"
 msgstr "작업에 대한 크기 측정은 어렵습니다"
@@ -1941,6 +2332,17 @@ msgstr "사회화된 또는 엄격할 정도로 전문적인지?"
 
 msgid "Software, documentation, release management etc"
 msgstr "소프트웨어, 문서, 릴리즈 관리 등"
+
+msgid ""
+"Someone of authority needs to sign the `U.S. Government Contributor License "
+"Agreement <https://wiki.openstack.org/wiki/GovernmentCLA>`_. Contact the "
+"`OpenStack Foundation <mailto:communitymngr@openstack.org>`_ to initiate "
+"this process."
+msgstr ""
+"몇몇 기관에서는 `U.S. Government Contributor License Agreement <https://wiki."
+"openstack.org/wiki/GovernmentCLA>`_ 에 대한 서명을 필요로 합니다. `OpenStack "
+"Foundation <mailto:communitymngr@openstack.org>`_ 와 연락하여 해당 과정을 진"
+"행합니다."
 
 msgid "Speed up the acceptance"
 msgstr "수용을 가속화합니다"
@@ -2005,6 +2407,9 @@ msgstr "문자열 프리징"
 msgid "Structural split of changes"
 msgstr "변화 사항에 대한 구조적인 파편"
 
+msgid "Submit presentations to OpenStack conferences."
+msgstr "OpenStack 컨퍼런스에 프리젠테이션 제출하기."
+
 msgid "Subset of the Foundation Individual Member"
 msgstr "Foundation 개별 구성원 중의 부분 집합"
 
@@ -2061,6 +2466,9 @@ msgstr "프로젝트의 리듬을 이해합니다"
 
 msgid "Target Audience"
 msgstr "대상 청중"
+
+msgid "Team members : 3-5"
+msgstr "팀 구성원: 3-5"
 
 msgid ""
 "Teams of people using tools (code repository, bug tracker, etc) and "
@@ -2150,6 +2558,15 @@ msgstr ""
 "다운로드한 파일은 다운로드 폴더 내 dmg일 것입니다. 해당 dmg 파일을 열고 화면 "
 "상의 지시를 따릅니다."
 
+msgid ""
+"The files are based on teaching material provided originally by Loic Dachary "
+"as ODP files. Converted to RST text in order to be converted by Hieroglyph "
+"in convenient HTML5 slides."
+msgstr ""
+"해당 파일은  본래 Loic Dachary 께서 ODP 파일 형태로 제공하였던 강의 자료를 기"
+"반으로 합니다. 편리한 HTML5 슬라이드 형태로 Hieroglyph를 사용하여 변환하기 위"
+"해 RST 텍스트로 전환하였습니다."
+
 msgid "The first commit line is the most important."
 msgstr "첫 커밋 줄은 가장 중요합니다."
 
@@ -2164,6 +2581,13 @@ msgid ""
 "The milestone we need to fix the bug for, or the milestone/version it was "
 "fixed in."
 msgstr "버그 수정을 필요로 하는 마일스톤, 또는 수정되었던 마일스톤/버전"
+
+msgid ""
+"The next session of the OpenStack Upstream Training will be held in "
+"Barcelona, before the OpenStack Summit Barcelona 2016."
+msgstr ""
+"다음 OpenStack Upstream Training 세션은 Barcelona에서 OpenStack Summit "
+"Barcelona 2016 전에 개최 예정입니다."
 
 msgid "The official list of projects is in the `governance` repository"
 msgstr "공식 프로젝트 목록은 `governance` 저장소 내에 있습니다"
@@ -2181,12 +2605,36 @@ msgstr "릴리즈, 마일스톤, 또는 커밋 ID"
 msgid "The role of the Technical Committee"
 msgstr "Technical Committee 역할"
 
+msgid "The role of the User Committee"
+msgstr "사용자 위원회 역할"
+
 msgid ""
 "The students use template slides to prepare a 5-minute presentation of their "
 "planned contribution"
 msgstr ""
 "학생들은 템플릿 슬라이드를 사용하여 계획된 컨트리뷰션에 대한 5분 발표를 준비"
 "합니다"
+
+msgid "These are HTML5 slides and should open with any modern web browser."
+msgstr ""
+"HTML5 슬라이드로 되어 있으며 최신 웹 브라우저 어디에서나 잘 열릴 것입니다."
+
+msgid ""
+"These slides prepare students for the Lego activity, and ensure they "
+"understand the metaphors in use. The Lego in the exercise represents the "
+"code of a software project, in this case OpenStack. The students all take on "
+"roles that represent various facets of the OpenStack community, including "
+"upstream roles like Foundation and TCT, and contributors like corporations, "
+"and unaffiliated individuals animated by unknown motives (free agents)."
+msgstr ""
+"이 슬라이드는 참가자들이 Lego 활동을 위해 준비가 된 상태로 만들고, 사용하는 "
+"그 내부에서 내포하고 있는 것을 이해하는지를 보장합니다. Lego 실습은 소프트웨"
+"어 프로젝트에 대한 코드를 나타내며, 이 경우에서는 OpenStack 입니다. 학생은 운"
+"동의 레고이 경우 OpenStack은의 소프트웨어 프로젝트의 코드를 나타냅니다. 참가"
+"자들은 Foundation과 TCT, 그리고 컨트리뷰터와 같은 업스트림 역할, 그리고 소속"
+"이 되어 있지 않은 개인은 알려지지 않은 동기 (자유로운 에이전트) 역할을 하는 "
+"것과 같은 업스트립 역할을 포함하여 다양한 측면을 나타내는 역할을 모두 수행할 "
+"것입니다."
 
 msgid "Things to avoid"
 msgstr "피해야 할 사항"
@@ -2209,6 +2657,16 @@ msgstr "유효한 문제이지만, 수정하는 것을 의도하지 않습니다
 msgid "This is not a bug"
 msgstr "버그가 아닙니다"
 
+msgid ""
+"This is the review system the OpenStack community uses. Here are just some "
+"of the things we use Gerrit for reviewing:"
+msgstr ""
+"OpenStack 커뮤니티가 사용하는 리뷰 시스템입니다. Gerrit을 사용하여 리뷰를 대"
+"해 다음과 같은 것들을 할 수 있습니다:"
+
+msgid "This section assumes you have completed :doc:`accounts` guide."
+msgstr "이 섹션에서는 :doc:`accounts` 가이드를 완료했다고 가정합니다."
+
 msgid "This will need to match your preferred email address in Gerrit."
 msgstr "Gerrit에서 선호하는 이메일 주소와 일치시킬 필요가 있습니다"
 
@@ -2223,6 +2681,9 @@ msgstr "Tim Freund (교육, 멘토링, 조교, 영어)"
 
 msgid "Timeframe"
 msgstr "기간"
+
+msgid "Timing"
+msgstr "시간분배"
 
 msgid "Tokyo, Japan"
 msgstr "일본, 도쿄"
@@ -2259,11 +2720,20 @@ msgstr ""
 msgid "Types of sessions"
 msgstr "세션 유형"
 
+msgid "Typically public key filenames will look like:"
+msgstr "보통 공개키 파일 이름은 다음과 같습니다:"
+
 msgid "Ubuntu or Fedora"
 msgstr "Ubuntu나 Fedora"
 
+msgid "Unaffiliated contributors (free agents)"
+msgstr "소속이 되어 있지 않은 컨트리뷰터 (자유로운 에이전트)"
+
 msgid "Undefined"
 msgstr "Undefined"
+
+msgid "Under individual members, click the **Foundation Member** button."
+msgstr "개인 구성원 부분에서, **Foundation Member** 버튼을 클릭합니다."
 
 msgid "Understand the OpenStack contribution workflow and social norms"
 msgstr "OpenStack 컨트리뷰션 작업 흐름과 사회 규범 이해하기"
@@ -2287,6 +2757,9 @@ msgstr "UpgradeImpact"
 msgid "Upstream Training in Japan"
 msgstr "일본에서의 Upstream Training"
 
+msgid "Upstream is responsible for the finished product."
+msgstr "업스트림은 완성된 제품에 대한 책임을 갖습니다."
+
 msgid "Used as-is as the final release"
 msgstr "최종 릴리즈와 같이 그대로 사용"
 
@@ -2309,8 +2782,18 @@ msgstr "Victoria Martinez de la Cruz - vkmc - Trove/Zaqar (멘토링, 조교)"
 msgid "Victoria Martínez de la Cruz (assistant, english)"
 msgstr "Victoria Martínez de la Cruz (조교, 영어)"
 
+msgid ""
+"Visit `OpenStack's Gerrit page <https://review.openstack.org>`_ and click "
+"the **sign in** link."
+msgstr ""
+"`OpenStack Gerrit 페이지 <https://review.openstack.org>`_ 페이지에 방문하여 "
+"**sign in** 링크를 클릭합니다."
+
 msgid "Volunteers"
 msgstr "자원 봉사자"
+
+msgid "Vote in elections."
+msgstr "선거에서 투표하기."
 
 msgid "Voters for a given program PTL"
 msgstr "주어진 프로그램 PTL을 위한 투표자"
@@ -2357,11 +2840,23 @@ msgstr ""
 msgid "Weeks before the milestone publication date"
 msgstr "마일스톤에 대한 발표 일자 이전 몇 주"
 
+msgid "What are they?"
+msgstr "어떤 것일까요?"
+
+msgid "What is Gerrit?"
+msgstr "Gerrit이란?"
+
 msgid "What is Launchpad?"
 msgstr "Launchpad란?"
 
 msgid "What is OpenStack?"
 msgstr "OpenStack이 무엇인가?"
+
+msgid "What is it?"
+msgstr "이것은 무엇입니까?"
+
+msgid "What is the OpenStack Foundation Account?"
+msgstr "OpenStack Foundation 계정이란?"
 
 msgid "What kind of project do you want to contribute to?"
 msgstr "어떤 프로젝트에 기여하고 싶은가?"
@@ -2398,11 +2893,26 @@ msgid "When we disagree, we consult others"
 msgstr "비동의가 있을 때, 다른 구성원과 상의합니다"
 
 msgid ""
+"When you have changes in an OpenStack project repository, you can use this "
+"sub-command to have the changes posted to :doc:`gerrit` so that they can be "
+"reviewed."
+msgstr ""
+"OpenStack 프로젝트 저장소 내 변경을 갖고 있는 경우, 다음 서브 명령어를 사용하"
+"여 변경사항을 :doc:`gerrit` 에 게시하여 리뷰가 가능해집니다."
+
+msgid ""
 "When you login to the server for the first time with your nickname, its "
 "being used by you, but it's still not registered yet."
 msgstr ""
 "처음으로 닉네임과 함께 서버에 로그인할 때에는, 사용 중이지만 아직 등록된 상태"
 "는 아닙니다."
+
+msgid ""
+"When you're prompted to \"Enter a file in which to save the key\" press "
+"Enter. This accepts the default location::"
+msgstr ""
+"\"키를 저장할 파일 이름을 입력합니다\" 프롬프트가 등장하면 엔터키를 입력합니"
+"다. 기본 위치를 허용합니다::"
 
 msgid ""
 "Where developers meet face to face to finalize planning for the next release "
@@ -2420,6 +2930,20 @@ msgstr "Wishlist"
 
 msgid "With our peers"
 msgstr "상호간"
+
+msgid ""
+"With over 2,000 developers from over 300 different organizations worldwide, "
+"OpenStack is one of the largest collaborative software-development projects. "
+"Because of its size, it is characterized by a huge diversity in social norms "
+"and technical conventions. These can significantly slow down the speed at "
+"which newcomers are successful at integrating their own roadmap into that of "
+"the OpenStack project."
+msgstr ""
+"전 세계 300개의 다른 기관으로부터 2,000 명 이상의 개발자와 함께, OpenStack은 "
+"가장 커다란 서로 협력하는 소프트웨어 개발 프로젝트 중 하나입니다. 이러한 크기"
+"로 인하여, 사회적 규범 및 기술적인 관계에 있어 거대한 다양성으로 특징이 지어"
+"지고 있습니다. 이러한 것들로 인해 새로 온 사람들이 OpenStack 프로젝트에 통합"
+"됨에 따른 변화의 속도가 확연히 줄어들 수 있습니다."
 
 msgid ""
 "With over 2000 developers from 80 different companies worldwide, OpenStack "
@@ -2468,8 +2992,22 @@ msgid ""
 "You can use `Git Immersion <http://gitimmersion.com/lab_02.html>`_ to work "
 "through tutorials for learning git."
 msgstr ""
-"Git를 학습하기 위해 `Git 몰입 <http://gitimmersion.com/lab_02.html>`_ 을 튜토"
-"리얼을 겪는 데 사용할 수 있습니다."
+"Git를 학습하기 위한 튜토리얼을 전반적으로 살펴보기 위해 `Git 몰입 <http://"
+"gitimmersion.com/lab_02.html>`_ 을 사용할 수 있습니다."
+
+msgid ""
+"You should be able to see the slides at the given location: ``training-"
+"guides/doc/upstream-training/build/slides``."
+msgstr ""
+"슬라이드를 주어진 위치인 ``training-guides/doc/upstream-training/build/"
+"slides`` 에서 살펴볼 수 있을 것입니다."
+
+msgid ""
+"You will be prompted to select a username. You can enter the same one you "
+"did for launchpad, or something else."
+msgstr ""
+"사용자 이름을 선택하는 프롬프트가 나타날 것입니다. launchpad에서 사용했던 것"
+"과 동일한 사용자 이름을 입력 가능하며, 또는 다른 것도 가능합니다."
 
 msgid "Your management"
 msgstr "대상 관리"
@@ -3020,6 +3558,9 @@ msgstr "activity.openstack.org"
 msgid "add an error and match it to the jenkins message"
 msgstr "오류를 추가하고 jenkins 메시지에 대응시켜 봅니다"
 
+msgid "and whom they will be working with"
+msgstr "그리고 같이 일하고자 하는 대상"
+
 msgid "anyone doing Gerrit code review can act as the stick"
 msgstr "Gerrit 코드 리뷰를 수행하는 누구라도 지휘봉과 같은 행동이 가능합니다"
 
@@ -3102,6 +3643,12 @@ msgstr ""
 "OpenStack에 대한 상업적인 구현이 상표를 사용하도록 승인 가능한지에 대한 결정"
 "을 하기 위하여 Foundation 이사회에서 사용하는 원칙을 가이드"
 
+msgid "how it contributes to the company's agenda"
+msgstr "기업 목표에 어떻게 기여할 것인지에 대한 방법"
+
+msgid "how they will engage with the Upstream"
+msgstr "업스트림에 어떻게 참여할 것인지에 대한 방법"
+
 msgid "http://docs.openstack.org/infra/manual/developers.html#account-setup"
 msgstr "http://docs.openstack.org/infra/manual/developers.html#account-setup"
 
@@ -3166,6 +3713,9 @@ msgstr "https://wiki.openstack.org/wiki/Summit/Liberty"
 msgid "https://www.openstack.org/foundation/tech-committee/"
 msgstr "https://www.openstack.org/foundation/tech-committee/"
 
+msgid "https://www.openstack.org/foundation/user-committee/"
+msgstr "https://www.openstack.org/foundation/user-committee/"
+
 msgid "https://www.openstack.org/join/"
 msgstr "https://www.openstack.org/join/"
 
@@ -3176,6 +3726,9 @@ msgstr ""
 
 msgid "i18n"
 msgstr "i18n"
+
+msgid "id_dsa.pub"
+msgstr "id_dsa.pub"
 
 msgid "id_ecdsa.pub"
 msgstr "id_ecdsa.pub"
@@ -3257,6 +3810,9 @@ msgstr "security"
 
 msgid "the code is self-evident/self-documenting."
 msgstr "코드만으로 자명하고 설명적으로 되어 있습니다."
+
+msgid "the contribution they plan to work on during the online sessions"
+msgstr "온라인 세션동안 작업하고자 계획하는 컨트리뷰션"
 
 msgid "the reviewer has access to external web services/site."
 msgstr "검토자는 외부 웹 서비스/사이트에 대한 접근을 갖고 있습니다."
