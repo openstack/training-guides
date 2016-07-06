@@ -167,9 +167,10 @@ Generate SSH Keys
 -----------------
 
 Assuming you weren't able to find keys in your ~/.ssh directory, you can
-generate keys by going into your terminal program and typing::
+generate a new ssh key using the provided email as a label by going into
+your terminal program and typing::
 
-  ssh-keygen -t rsa -b 4096 "your_email@example.com"
+  ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 When you're prompted to "Enter a file in which to save the key" press Enter.
 This accepts the default location::
