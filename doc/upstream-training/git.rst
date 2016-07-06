@@ -176,8 +176,8 @@ This accepts the default location::
 
   Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
 
-At the prompt, type a secure a passphase, you may enter one or press Enter to
-have no passphase::
+At the prompt, type a secure a passphrase, you may enter one or press Enter to
+have no passphrase::
 
   Enter passphrase (empty for no passphrase): [Type a passphrase]
   Enter same passphrase again: [Type passphrase again]

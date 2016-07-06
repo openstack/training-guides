@@ -58,7 +58,7 @@ Duration
 Infrastructure
 ==============
 
-- `ready to use devstack VM <https://wiki.openstack.org/wiki/OpenStack_Upstream_Training/Setup_DevStack>`_
+- `ready to use DevStack VM <https://wiki.openstack.org/wiki/OpenStack_Upstream_Training/Setup_DevStack>`_
   for participants with network connectivity but troubles with their laptop
 
 Course Outline
@@ -100,7 +100,7 @@ How OpenStack is made (3h including 1h30 exercises)
 
 * Relevant actors (`slides <02-relevant-actors.html>`__)
 
-  * `commiters <http://www.stackalytics.com/?release=kilo&metric=commits&project_type=integrated&module=&company=&user_id=>`_
+  * `committers <http://www.stackalytics.com/?release=kilo&metric=commits&project_type=integrated&module=&company=&user_id=>`_
     companies
   * `commiters <http://www.stackalytics.com/?release=kilo&metric=commits&project_type=integrated&module=&company=&user_id=>`_
     individuals (bottom of the page)
@@ -161,7 +161,7 @@ How OpenStack is made (3h including 1h30 exercises)
 Workflow of an OpenStack contribution and tools (3h including 2h exercises)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* `devstack <http://docs.openstack.org/developer/devstack/>`_
+* `DevStack <http://docs.openstack.org/developer/devstack/>`_
   (`slides <11-devstack.html>`__)
 
   * Ubuntu or Fedora
@@ -311,11 +311,11 @@ this option to one of them, see what happens.
 Suggestions of projects to work on:
 
 * Companies: big industrial items like a shopping mall, carpark, energy
-  plant, datacenter, hospital.
+  plant, datacenter, and hospital.
 
-* Free agents: community items items like vegetable patches, bicycle paths,
+* Free agents: community items like vegetable patches, bicycle paths,
   public artworks, playgrounds. For the controversial agent, problematic
-  items such as a jail, skate bowl, dog park.
+  items such as a jail, skate bowl, and dog park.
 
 * Upstream: consider guidelines around consistency in the bricks used, how to
   connect the road and sidewalk between the buildings, the kinds of
