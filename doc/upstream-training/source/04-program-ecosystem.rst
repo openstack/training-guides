@@ -6,16 +6,6 @@ OpenStack "Big Tent" and tags
    :class: fill
    :width: 100%
 
-Old way of adding new Projects
-==============================
-
-.. image:: ./_assets/04-02-lifecycle.png
-  :width: 100%
-
-- Created too much pressure to `integrate`
-- Did not scale
-- Superseded by *Big tent* approach with `tags`
-
 OpenStack Project Teams
 =======================
 
