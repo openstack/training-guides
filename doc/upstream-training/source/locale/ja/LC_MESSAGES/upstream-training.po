@@ -1,15 +1,16 @@
 # KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>, 2015. #zanata
 # KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>, 2016. #zanata
+# Yoshiki Eguchi <yoshiki.eguchi@gmail.com>, 2016. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-06 22:42+0000\n"
+"POT-Creation-Date: 2016-07-07 10:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-07-07 02:51+0000\n"
-"Last-Translator: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>\n"
+"PO-Revision-Date: 2016-07-07 02:28+0000\n"
+"Last-Translator: Yoshiki Eguchi <yoshiki.eguchi@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
 "X-Generator: Zanata 3.7.3\n"
@@ -191,6 +192,18 @@ msgstr "OpenStack のミッションとの整合性"
 
 msgid "All externally visible strings must be frozen"
 msgstr "外部から参照できる文字列は凍結する必要がある"
+
+msgid "Allows you to:"
+msgstr "以下のようなことが可能になります:"
+
+msgid ""
+"An agreement to clarify intellectual property license granted with "
+"contributions from a person or entity. `Preview the full agreement <https://"
+"review.openstack.org/static/cla.html>`_."
+msgstr ""
+"個人やエンティティーのコントリビューションについての、知財のライセンスを明示"
+"したアグリーメントです。 `Preview the full agreement <https://review."
+"openstack.org/static/cla.html>`_"
 
 msgid ""
 "An employer of the company or organization needs to sign the `Corporate "
@@ -582,9 +595,6 @@ msgstr "対応するブループリントの作成"
 msgid "Created by a large growing community"
 msgstr "大きく成長しているコミュニティーにより作成されている"
 
-msgid "Created too much pressure to `integrate`"
-msgstr "強すぎる `統合` へのプレッシャーを生み出した"
-
 msgid "Creates other committees for day-to-day leadership"
 msgstr "日々のリーダーシップのために、他の委員会を作成する"
 
@@ -668,9 +678,6 @@ msgstr "開発者は、たいてい読み、ときどき書く"
 
 msgid "Development/trunk version"
 msgstr "開発バージョン"
-
-msgid "Did not scale"
-msgstr "スケールしない"
 
 msgid "Diplomacy"
 msgstr "交渉"
@@ -904,6 +911,11 @@ msgstr "見つけたすべてのバグを投稿する"
 msgid "File new blueprints and/or specs"
 msgstr "新規ブループリントおよびスペックの登録"
 
+msgid ""
+"Fill in your email address, name, password, and accepting the terms of "
+"services."
+msgstr "メールアドレス、名前、パスワードを入力し、利用規約に同意をします。"
+
 msgid "Find a solution that needs to be agreed upon"
 msgstr "合意する必要のあるソリューションの検討"
 
@@ -1017,6 +1029,14 @@ msgid "From easy to difficult"
 msgstr "簡単なものから難しいものへ"
 
 msgid ""
+"From here on out when you sign into Gerrit, you'll be prompted to enter your "
+"your Launchpad login info. This is because Gerrit uses it as an OpenID "
+"single sign on."
+msgstr ""
+"Gerrit にサインインすると、 Launchpad のログイン情報の入力を促されます。これ"
+"は Gerrit が OpenID シングルサインオンを用いるためです。"
+
+msgid ""
 "From the list of **Networks** you should see Freenode. Select that and click "
 "'edit'."
 msgstr ""
@@ -1117,7 +1137,7 @@ msgid ""
 "Go to the `Launchpad login or create account page <https://launchpad.net/"
 "+login>`_"
 msgstr ""
-"`Launchpad login or create account page <https://launchpad.net/+login>`_ をア"
+"`Launchpad login or create account page <https://launchpad.net/+login>`_ にア"
 "クセスします。"
 
 msgid ""
@@ -1419,6 +1439,15 @@ msgstr "Lana Brindley - Docs (mentoring, assistant)"
 msgid "Last published release candidate"
 msgstr "最後に公開されたリリース候補版"
 
+msgid ""
+"Launchpad is how the OpenStack community does tracking for things like bug "
+"reports. This account is also how we will identify ourselves in OpenStack's "
+"code review system."
+msgstr ""
+"Launchpad は、 OpenStack コミュニティーがバグ報告などを記録するためのもので"
+"す。また、そのアカウントは OpenStack のコードレビューシステムで、我々を識別す"
+"るためのものです。"
+
 msgid "Learn what distinguishes good work flow from bad work flow"
 msgstr "良いワークフローと悪いワークフローの違いを学習します。"
 
@@ -1522,10 +1551,20 @@ msgstr "Mac OS"
 msgid "Mac OS & Linux"
 msgstr "Mac OS & Linux"
 
+msgid "Make code contributions."
+msgstr "コードのコントリビューション。"
+
 msgid ""
 "Make sure that **Use SSL for all the servers on this network** is checked."
 msgstr ""
 "きちんと **Use SSL for all the servers on this network** をチェックします。"
+
+msgid ""
+"Make sure to use the same email address you'll want to use for code "
+"contributions since it's important later that these match up."
+msgstr ""
+"メールアドレスが、コードのコントリビューションに使いたいアドレスと同一である"
+"ことを確認してください。この一致は後に重要になります。"
 
 msgid "Make sure you have a wifi enabled laptop with you."
 msgstr "Wi-FI を有効にしていることを確認してください。"
@@ -1717,9 +1756,6 @@ msgstr "目的"
 msgid "October 10 - 11, 2014 (Fri - Sat)"
 msgstr "2014 年 10 月 10 - 11 日 (金 - 土)"
 
-msgid "Old way of adding new Projects"
-msgstr "新規プロジェクトを追加する古い方法"
-
 msgid ""
 "Once all the release-critical bugs are fixed, we produce the first release "
 "candidate for that project (RC1)"
@@ -1910,7 +1946,7 @@ msgstr ""
 "OpenStack の特定の機能を実装することに注力する人々のチーム (プロジェクト)"
 
 msgid "Projects must have an open reference implementation"
-msgstr "プロジェクトは、オープンなリファレンス実装を持つ必要がある"
+msgstr "プロジェクトは、オープンなリファレンス実装を持つ必要があります"
 
 msgid "Proposing a session"
 msgstr "セッションの提案"
@@ -1953,6 +1989,14 @@ msgstr ""
 
 msgid "Read the policy"
 msgstr "ポリシーの参照"
+
+msgid ""
+"Read through the presented individual member terms of service and our "
+"`Community Code of Conduct <https://www.openstack.org/legal/community-code-"
+"of-conduct/>`_."
+msgstr ""
+"現在の個人メンバー用の規約と、我々の  `Community Code of Conduct <https://"
+"www.openstack.org/legal/community-code-of-conduct/>`_ に目を通してください。"
 
 msgid "Recheck bug #XXX"
 msgstr "バグ #XXX の再確認"
@@ -2028,6 +2072,9 @@ msgstr "Rohit Agarwalla (assistant)"
 
 msgid "Rossella Sblendido (assistant, Italian, English)"
 msgstr "Rossella Sblendido (assistant, Italian, English)"
+
+msgid "Run for elected positions in the OpenStack project."
+msgstr "OpenStack プロジェクトの、選挙を行うポジションへの立候補。"
 
 msgid "SERIES-backport-potential"
 msgstr "SERIES-backport-potential"
@@ -2138,6 +2185,17 @@ msgstr "社交的か厳格なプロフェッショナルか?"
 msgid "Software, documentation, release management etc"
 msgstr "ソフトウェア、ドキュメント、リリース管理など"
 
+msgid ""
+"Someone of authority needs to sign the `U.S. Government Contributor License "
+"Agreement <https://wiki.openstack.org/wiki/GovernmentCLA>`_. Contact the "
+"`OpenStack Foundation <mailto:communitymngr@openstack.org>`_ to initiate "
+"this process."
+msgstr ""
+"権限を持つ誰かが  `U.S. Government Contributor License Agreement <https://"
+"wiki.openstack.org/wiki/GovernmentCLA>`_ に署名をする必要があります。 処理を"
+"開始するために、 `OpenStack Foundation <mailto:communitymngr@openstack."
+"org>`  に連絡をしてください。"
+
 msgid "Speed up the acceptance"
 msgstr "受け入れを高速化する。"
 
@@ -2160,7 +2218,7 @@ msgid ""
 "Stackforge was used for new unofficial projects, but retired on Aug 2015"
 msgstr ""
 "Stackforge は、非公式の新規プロジェクトのために使用されました。2015年8月に廃"
-"止されました。"
+"止されました"
 
 msgid "Staff"
 msgstr "スタッフ"
@@ -2201,6 +2259,9 @@ msgstr "ストリングフリーズ"
 msgid "Structural split of changes"
 msgstr "変更の構造的な分割"
 
+msgid "Submit presentations to OpenStack conferences."
+msgstr "OpenStack カンファレンスへのプレゼンテーションの提出。"
+
 msgid "Subset of the Foundation Individual Member"
 msgstr "Foundation Individual Member の一部分"
 
@@ -2211,9 +2272,6 @@ msgstr ""
 
 msgid "Sungjin Kang (training, assistant, mentoring)"
 msgstr "Sungjin Kang (training, assistant, mentoring)"
-
-msgid "Superseded by *Big tent* approach with `tags`"
-msgstr "*Big tent* というアプローチと `タグ` により引き継がれた "
 
 msgid "Supporting services such as Common Libraries (\"Oslo\")"
 msgstr "共通ライブラリー (\"Oslo\") などのサポートサービス"
@@ -2280,7 +2338,7 @@ msgid "Technical committee : 1"
 msgstr "技術委員会 (TC) : 1"
 
 msgid "Tests can be remotely or self-administered"
-msgstr "テストはリモートか自己管理にて実行できます。"
+msgstr "テストはリモートか自己管理にて実行できます"
 
 msgid "The Contribution Process"
 msgstr "コントリビューションの流れ"
@@ -2423,6 +2481,13 @@ msgstr "これは有効な問題ですが、修正しないつもりです。"
 msgid "This is not a bug"
 msgstr "バグではないと判断された状態"
 
+msgid ""
+"This is the review system the OpenStack community uses. Here are just some "
+"of the things we use Gerrit for reviewing:"
+msgstr ""
+"OpenStack コミュニティで利用しているレビューシステムです。以下に、 Gerrit で"
+"レビューしているいくつかの項目を挙げます:"
+
 msgid "This section assumes you have completed :doc:`accounts` guide."
 msgstr ""
 "このセクションは :doc:`accounts` ガイドを完了していることを仮定しています。"
@@ -2490,6 +2555,9 @@ msgstr "無所属のコントリビューター (フリーエージェント)"
 msgid "Undefined"
 msgstr "Undefined (未定義)"
 
+msgid "Under individual members, click the **Foundation Member** button."
+msgstr "個人メンバーは、**Foundation Member** ボタンをクリックしてください。"
+
 msgid "Understand the OpenStack contribution workflow and social norms"
 msgstr "OpenStack のコントリビューションのワークフローと社会規範の理解"
 
@@ -2522,7 +2590,7 @@ msgid "User Committee"
 msgstr "ユーザー委員会 (UC: User Committee)"
 
 msgid "Vendors may substitute alternate implementations"
-msgstr "ベンダーは代替実装により置き換える可能性がある"
+msgstr "ベンダーは代替実装により置き換える可能性があります"
 
 msgid "Verbose or terse?"
 msgstr "冗長か簡潔か?"
@@ -2747,6 +2815,12 @@ msgid ""
 msgstr ""
 "スライドが指定された場所 ``training-guides/doc/upstream-training/build/"
 "slides`` にあります。"
+
+msgid ""
+"You will be prompted to select a username. You can enter the same one you "
+"did for launchpad, or something else."
+msgstr ""
+"ユーザ名の選択が促されます。 launchpad などと同じ名前を入力しても構いません。"
 
 msgid "Your management"
 msgstr "あなたの管理者"
@@ -3223,14 +3297,6 @@ msgstr "`バグ修正 <https://wiki.openstack.org/wiki/Bugs#Bugfixing>`_"
 msgid ""
 "`commiters <http://www.stackalytics.com/?"
 "release=kilo&metric=commits&project_type=integrated&module=&company=&user_id=>`_ "
-"companies"
-msgstr ""
-"企業別 `コミット <http://www.stackalytics.com/?"
-"release=kilo&metric=commits&project_type=integrated&module=&company=&user_id=>`_"
-
-msgid ""
-"`commiters <http://www.stackalytics.com/?"
-"release=kilo&metric=commits&project_type=integrated&module=&company=&user_id=>`_ "
 "individuals (bottom of the page)"
 msgstr ""
 "個人別 `コミット <http://www.stackalytics.com/?"
@@ -3249,13 +3315,6 @@ msgid ""
 msgstr ""
 "`デバッグ <https://wiki.openstack.org/wiki/Bugs#Debugging_.28optional.29>`_"
 
-msgid ""
-"`devstack <http://docs.openstack.org/developer/devstack/>`_ (`slides <11-"
-"devstack.html>`__)"
-msgstr ""
-"`devstack <http://docs.openstack.org/developer/devstack/>`_ (`スライド <11-"
-"devstack.html>`__)"
-
 msgid "`devstack.org <11-devstack.html>`_"
 msgstr "`devstack.org <11-devstack.html>`_"
 
@@ -3271,15 +3330,6 @@ msgid ""
 msgstr ""
 "`最小設定 <http://docs.openstack.org/developer/devstack/configuration."
 "html#minimal-configuration>`_"
-
-msgid ""
-"`ready to use devstack VM <https://wiki.openstack.org/wiki/"
-"OpenStack_Upstream_Training/Setup_DevStack>`_ for participants with network "
-"connectivity but troubles with their laptop"
-msgstr ""
-"参加者は `devstack 仮想マシンの使用準備 <https://wiki.openstack.org/wiki/"
-"OpenStack_Upstream_Training/Setup_DevStack>`_ とネットワーク接続ができている"
-"が、ノート PC に問題がある"
 
 msgid "`reporting a bug <https://wiki.openstack.org/wiki/Bugs#Reporting>`_"
 msgstr "`バグ報告 <https://wiki.openstack.org/wiki/Bugs#Reporting>`_"
