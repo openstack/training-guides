@@ -36,6 +36,9 @@ to provision resources through a web interface.
       computing resources: networks for transfer, servers for storage, and
       applications or services for completing tasks.
 
+    - The supported web interface in OpenStack includes both the interaction
+      with a graphical web interface and a web interface through REST APIs.
+
 Official Programs
 =================
 
@@ -50,7 +53,7 @@ Release Cycle
 
 - Coordinated 6-month release cycle with frequent development milestones
 
-  - Current development release: https://wiki.openstack.org/wiki/Release_Cycle
+  - Current development release: http://docs.openstack.org/project-team-guide/release-management.html
 
 - The Release Cycle
 
@@ -75,6 +78,24 @@ Governance
   achieve the OpenStack Mission by Protecting, Empowering, and Promoting
   OpenStack software and the community around it, including users, developers
   and the entire ecosystem.
+
+Core and Optional Services
+==========================
+
+- Core services are official OpenStack projects and essential in every
+  OpenStack-powered product or cloud, center around compute (virtualization),
+  networking, storage (block and object), identity, and image.
+
+  - Nova, Neutron, Swift, Cinder, Keystone, and Glance
+
+- Optional services are also official OpenStack projects but not necessarily
+  need to operate OpenStack depending on use cases.
+
+- See the list of all core and optional services on OpenStack project navigator
+  : http://www.openstack.org/software/project-navigator/
+
+- This Associate Guide focuses on six core services and Horizon, an optional
+  service which provides graphical web interfaces to OpenStack services.
 
 Conceptual Architecture
 =======================
