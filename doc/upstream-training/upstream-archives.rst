@@ -128,6 +128,9 @@ Japan OpenStack User Group has held the Upstream Training in Japan.
 
    * - Date
      - Description
+   * - July 6 - 7, 2016 (Wed - Thu)
+     - More information:
+       http://www.meetup.com/Japan-OpenStack-User-Group/events/231744095/
    * - July 9 - 10, 2015 (Thu - Fri)
      - More information:
        http://www.meetup.com/Japan-OpenStack-User-Group/events/223005607/
