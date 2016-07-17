@@ -5,11 +5,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-14 09:55+0000\n"
+"POT-Creation-Date: 2016-07-15 10:29+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-07-14 12:50+0000\n"
+"PO-Revision-Date: 2016-07-16 03:22+0000\n"
 "Last-Translator: Yoshiki Eguchi <yoshiki.eguchi@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -288,6 +288,9 @@ msgstr ""
 msgid "At the Design Summit"
 msgstr "デザインサミットにおいて"
 
+msgid "At the end of the four sprints, ensure you take a group photo!"
+msgstr "4回のスプリントが終わったら、グループ写真を撮ることを忘れずに !"
+
 msgid ""
 "At the prompt, type a secure a passphrase, you may enter one or press Enter "
 "to have no passphrase::"
@@ -396,6 +399,9 @@ msgstr "tox を使用して、プレゼン資料をビルドします。::"
 
 msgid "Building karma"
 msgstr "カルマの構築"
+
+msgid "Building software in a community looks really complicated"
+msgstr "コミュニティーでソフトウェアを作成することは、とても複雑に見えます"
 
 msgid "CEO : 1"
 msgstr "CEO : 1"
@@ -778,6 +784,24 @@ msgstr ""
 "SERIES のリリース前期間中に、リリースに致命的となる潜在的なブロックポイントと"
 "してバグに印を付ける"
 
+msgid ""
+"During the final five minutes of the sprint (review time), ask everyone to "
+"take their hands off the Lego, and gather around the in-progress street. At "
+"this stage, upstream get to vote on the changes, and anything rejected gets "
+"sent back to the contributing group to be fixed. Ensure upstream give good "
+"reasons for rejections, along with suggestions for improvement. Encourage "
+"Upstream to reject a few things early on, to try and ensure contributors "
+"understand the need to have Foundation on board before they throw something "
+"over the wall."
+msgstr ""
+"スプリントの最後の5分間（レビューの時間）には、全員に LEGO から手を離してもら"
+"い、未完成のストリートに集まってもらいます。このステージでは、アップストリー"
+"ムは、変更について採決し、拒否した点についてコントリビューションをしているグ"
+"ループに修正を依頼します。アップストリームが、拒否した良い理由と、改善のため"
+"の意見を与えていることを確認してください。最初はいくつか拒否をおこなうように"
+"アップストリームに促し、コントリビューターが、何かを壁の向こうに投げ入れるに"
+"は Foundation との協力が必要であると理解していることを、試して確かめます。"
+
 msgid "Each choice made must have a rationale"
 msgstr "各選択肢は理論的根拠を持つ必要があります"
 
@@ -790,6 +814,10 @@ msgid ""
 msgstr ""
 "各プロジェクトチームは http://governance.openstack.org/reference/projects に"
 "リリースポリシーを公開している"
+
+msgid "Each student group prepares a presentation describing:"
+msgstr ""
+"各受講者グループが、以下のような説明を行うプレゼンテーションを準備します : "
 
 msgid "Each student group presents its slides to the class"
 msgstr "各受講者は、自身のスライドをクラスに発表します"
@@ -1261,6 +1289,9 @@ msgstr "High (高)"
 msgid "Highlight and copy the output."
 msgstr "出力をハイライトして、コピーします。"
 
+msgid "Hopefully we end up with a unique Lego creation!"
+msgstr "ユニークな Lego が創って終わることができますように!"
+
 msgid "Horizontal teams such as Documentation"
 msgstr "Documentation などの横断的なチーム"
 
@@ -1490,6 +1521,24 @@ msgstr ""
 "**Password** に、前のステップで登録したパスワードを入力し、 close をクリック"
 "します。"
 
+msgid "In this example, we use Lego to represent a software project"
+msgstr "この例では、ソフトウェアプロジェクトの代わりに Lego を使います"
+
+msgid ""
+"In your interactions with the students, do not be afraid to provoke some "
+"issues. For example, bring up the idea of an API (a way of connecting the "
+"buildings to each other) with individual companies, but don't mention it to "
+"upstream, so that upstream are finally faced with the challenge of "
+"standardizing the API. You could also, in the second or third sprint, "
+"encourage one group to call for a meeting off the sprint cycle to sort the "
+"problem out."
+msgstr ""
+"受講者と関わる際に、いくつかの課題を引き起こすことを恐れないでください。たと"
+"えば、企業がそれぞれ API (それぞれの建物を接続するための方法）を考えたもの"
+"の、アップストリームに説明せず、それによって結局 API の標準化の問題に直面した"
+"場合、あなたは2番目か3番目のスプリントで、1グループをミーティングに呼び、スプ"
+"リントサイクルから外して、問題を整理するよう奨めることができます。"
+
 msgid "Incompatible config file changes"
 msgstr "互換性のない設定ファイルの変更"
 
@@ -1573,6 +1622,9 @@ msgstr "irc.freenode.net#upstream-university に参加してください。"
 
 msgid "Julie Pichon (training, mentoring, assistant, english)"
 msgstr "Julie Pichon (training, mentoring, assistant, english)"
+
+msgid "July 6 - 7, 2016 (Wed - Thu)"
+msgstr "2016 年 7 月 6 - 7 日 (水 - 木 )"
 
 msgid "July 9 - 10, 2015 (Thu - Fri)"
 msgstr "2015 年 7 月 9 - 10 日 (木 - 金)"
@@ -1838,6 +1890,12 @@ msgstr ""
 "詳細: http://www.meetup.com/Japan-OpenStack-User-Group/events/223005607/"
 
 msgid ""
+"More information: http://www.meetup.com/Japan-OpenStack-User-Group/"
+"events/231744095/"
+msgstr ""
+"詳細: http://www.meetup.com/Japan-OpenStack-User-Group/events/231744095/"
+
+msgid ""
 "More information: http://www.openstack.org/blog/2014/11/openstack-upstream-"
 "training-in-japan/"
 msgstr ""
@@ -1878,6 +1936,9 @@ msgstr "新機能は受け付けられない、修正のみ"
 
 msgid "New release-critical bugs"
 msgstr "リリースに致命的な新規バグ"
+
+msgid "Newton"
+msgstr "Newton"
 
 msgid "No agreement"
 msgstr "アグリーメントなし"
@@ -2438,6 +2499,22 @@ msgstr "同じ領域で作業する人のグループから始める"
 msgid "Start on time"
 msgstr "時間通りの開始"
 
+msgid ""
+"Start the timer for building time, and allow everyone to start work. During "
+"each building phase, have mentors wander around the groups listening in and "
+"making suggestions, without actually doing any of the work or giving "
+"answers. The role of the mentors is to ask questions to orient the "
+"conversations among the teams. For example, during the first sprint it is "
+"common that the CEO and the PTL will face incompatibility of their plans. "
+"Mentors should ask the teams how to address those issues."
+msgstr ""
+"組み立てを行う時間のタイマーを開始し、全員に作業を始めることを許可します。組"
+"み立てのフェーズでは毎回、メンターは各グループの近くを歩き回り、話を聞き、意"
+"見をします。実際の作業に関わったり、答えを与えたりは行いません。メンターの役"
+"割はチーム間の対話に関わる質問を行うことです。たとえば、最初のスプリントでは"
+"たいてい CEO と PTL は計画との不一致に直面します。メンターはチームに、課題に"
+"どう取り組むかを聞くべきです。"
+
 msgid "Status: Fix Committed"
 msgstr "状態: 修正コミット済み (Fix Committed)"
 
@@ -2756,6 +2833,10 @@ msgstr "時間枠"
 msgid "Timing"
 msgstr "タイミング"
 
+msgid "To understand how it all fits together, we use a hands on example"
+msgstr ""
+"全てがどう組み合わさっているのか理解するため、例としてハンズオンを行います"
+
 msgid "Tokyo, Japan"
 msgstr "日本 東京"
 
@@ -2895,6 +2976,11 @@ msgstr ""
 "前にアトランタで開催されました。アトランタ以降、毎回 OpenStack Summit  の直前"
 "にトレーニングを開催してきました。この「公式」イベントに加えて、いくつかの"
 "ユーザーグループは、ローカルなアップストリームトレーニングを開催しています。"
+
+msgid "We will take on roles to show how each community member interacts"
+msgstr ""
+"我々は、コミュニティーメンバー同士がどう影響し合うかを見るために、各自役割を"
+"引き受けます"
 
 msgid "We'll install an IRC program called Colloquy."
 msgstr "Colloquy IRC プログラムをインストールします。"
@@ -3661,6 +3747,9 @@ msgstr "activity.openstack.org"
 msgid "add an error and match it to the jenkins message"
 msgstr "エラーを追加して、Jenkins のメッセージと対応づけてください。"
 
+msgid "and whom they will be working with"
+msgstr "そして、誰と一緒に作業をするか"
+
 msgid "anyone doing Gerrit code review can act as the stick"
 msgstr "Gerrit コードレビューをしている誰でも指揮をとれる (stick)"
 
@@ -3745,6 +3834,12 @@ msgstr ""
 "OpenStack の商用実装が商標を使用する権利があるかどうかを判断するために "
 "Foundation Board により使用される、ガイドとなる原則"
 
+msgid "how it contributes to the company's agenda"
+msgstr "企業の指針に対してどうコントリビュートするか"
+
+msgid "how they will engage with the Upstream"
+msgstr "どのようにアップストリームと関わるか"
+
 msgid "http://docs.openstack.org/infra/manual/developers.html#account-setup"
 msgstr "http://docs.openstack.org/infra/manual/developers.html#account-setup"
 
@@ -3814,6 +3909,11 @@ msgstr "https://www.openstack.org/foundation/user-committee/"
 
 msgid "https://www.openstack.org/join/"
 msgstr "https://www.openstack.org/join/"
+
+msgid ""
+"https://www.openstack.org/summit/austin-2016/summit-schedule/#day=2016-04-29"
+msgstr ""
+"https://www.openstack.org/summit/austin-2016/summit-schedule/#day=2016-04-29"
 
 msgid "i18n"
 msgstr "i18n"
@@ -3901,6 +4001,9 @@ msgstr "security"
 
 msgid "the code is self-evident/self-documenting."
 msgstr "コードは、それ自身が明白である、自己ドキュメント化している"
+
+msgid "the contribution they plan to work on during the online sessions"
+msgstr "オンラインセッション中に手がけようとしているコントリビューションの計画"
 
 msgid "the reviewer has access to external web services/site."
 msgstr "レビューアーは外部の Web サービスやサイトにアクセスできる"
