@@ -5,11 +5,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-15 10:29+0000\n"
+"POT-Creation-Date: 2016-07-17 10:24+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-07-16 03:22+0000\n"
+"PO-Revision-Date: 2016-07-17 02:33+0000\n"
 "Last-Translator: Yoshiki Eguchi <yoshiki.eguchi@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -197,6 +197,10 @@ msgstr ""
 "を確認してください。受講者が使うためのバラバラのブロックは、いくつかの小さな"
 "箱に入って部屋の別の場所に置いておきます。箱を見せる必要はありません。取扱説"
 "明書も必要ありません。"
+
+msgid "Aim to become a major contributor and demonstrate your mad skills!"
+msgstr ""
+"メジャーなコントリビューターを目指し、あなたのヤバいスキルを見せつけましょう!"
 
 msgid "Alignment with OpenStack mission"
 msgstr "OpenStack のミッションとの整合性"
@@ -391,6 +395,15 @@ msgstr ""
 "簡単に修正できるバグ。初心者が OpenStack 開発において、ワークフローに慣れ、初"
 "めてコードに触れるために理想的なもの"
 
+msgid ""
+"Build a street out of Lego. All buildings must be connected by road and "
+"sidewalk. The Foundation, TC, and Board must approve the overall design of "
+"the street."
+msgstr ""
+"Lego による街並みを組み立てます。すべての建物は道路/歩道と繋げなくてはいけま"
+"せん。 Foundation 、 技術委員会 (TC) 、 ボードは街並みの全体的なデザインにつ"
+"いて、承認を行う必要があります。"
+
 msgid "Build the presentation"
 msgstr "プレゼンスライドのビルド"
 
@@ -521,6 +534,9 @@ msgstr "コミュニケーション"
 
 msgid "Companies"
 msgstr "企業"
+
+msgid "Companies have to deliver value to their stakeholders."
+msgstr "企業はステークホルダーに価値を届ける責任を持ちます。"
 
 msgid ""
 "Companies: big industrial items like a shopping mall, carpark, energy plant, "
@@ -795,8 +811,8 @@ msgid ""
 "over the wall."
 msgstr ""
 "スプリントの最後の5分間（レビューの時間）には、全員に LEGO から手を離してもら"
-"い、未完成のストリートに集まってもらいます。このステージでは、アップストリー"
-"ムは、変更について採決し、拒否した点についてコントリビューションをしているグ"
+"い、未完成の街並みに集まってもらいます。このステージでは、アップストリーム"
+"は、変更について採決し、拒否した点についてコントリビューションをしているグ"
 "ループに修正を依頼します。アップストリームが、拒否した良い理由と、改善のため"
 "の意見を与えていることを確認してください。最初はいくつか拒否をおこなうように"
 "アップストリームに促し、コントリビューターが、何かを壁の向こうに投げ入れるに"
@@ -807,6 +823,9 @@ msgstr "各選択肢は理論的根拠を持つ必要があります"
 
 msgid "Each company has:"
 msgstr "各カンパニー:"
+
+msgid "Each individual sets their own objective."
+msgstr "個人はそれぞれ、自信の目的を設定します。"
 
 msgid ""
 "Each project team page shows its release policy on http://governance."
@@ -995,6 +1014,9 @@ msgstr "1 日目"
 
 msgid "Fishbowl sessions"
 msgstr "フィッシュボールセッション"
+
+msgid "Fitting it all together"
+msgstr "全てを組み合わせる"
 
 msgid "Fix Committed"
 msgstr "Fix Committed"
@@ -1712,6 +1734,13 @@ msgstr ""
 
 msgid "Liberty"
 msgstr "Liberty"
+
+msgid "Like OpenStack, there are:"
+msgstr "OpenStack のように、以下のような関係者もいます : "
+
+msgid "Like any software project, there are:"
+msgstr ""
+"あらゆるソフトウェアプロジェクトのように、以下のような関係者がいます : "
 
 msgid "Like sprints, small groups of people work on specific themes"
 msgstr "スプリントのように、少人数グループが特定のテーマに取り組む"
@@ -2696,6 +2725,15 @@ msgstr ""
 "ダウンロードしたファイルは、ダウンロードフォルダーに dmg となっています。そ"
 "の dmg ファイルを開き、画面の指示に従ってください。"
 
+msgid ""
+"The files are based on teaching material provided originally by Loic Dachary "
+"as ODP files. Converted to RST text in order to be converted by Hieroglyph "
+"in convenient HTML5 slides."
+msgstr ""
+"このファイルは、もともと教育用資料として Loic Dachary が ODP ファイルとして提"
+"供した資料が基となっています。  Hieroglyph により使いやすいHTML5 スライドに変"
+"換するため、 RST テキストに変換されています。"
+
 msgid "The first commit line is the most important."
 msgstr "コミットの 1 行目はもっとも重要です。"
 
@@ -2720,9 +2758,9 @@ msgstr ""
 "チーム分けするかを決めることができます（チームを選ぶ、受講者に自分で選ばせる"
 "など）。推奨するメンバー数はこのスライドにありますが、参加者の数によって適宜"
 "変更して構いません。とても大きなグループでは、2つの「コミュニティー」に分ける"
-"ことを検討します。この際、セッションを完遂するためそれぞれのストリートも適切"
-"に調整する必要があります。より多くのコミュニティーを持つ場合、各チームの作業"
-"の結果に `相互運用性`  を持たせるため、高いレベルの調整が求められます。"
+"ことを検討します。この際、セッションを完遂するためそれぞれの街並みも適切に調"
+"整する必要があります。より多くのコミュニティーを持つ場合、各チームの作業の結"
+"果に `相互運用性`  を持たせるため、高いレベルの調整が求められます。"
 
 msgid ""
 "The milestone we need to fix the bug for, or the milestone/version it was "
@@ -2915,6 +2953,9 @@ msgstr "UpgradeImpact"
 msgid "Upstream Training in Japan"
 msgstr "日本ローカル Upstream Training"
 
+msgid "Upstream is responsible for the finished product."
+msgstr "アップストリームは完成した製品に責任を持ちます。"
+
 msgid ""
 "Upstream: consider guidelines around consistency in the bricks used, how to "
 "connect the road and sidewalk between the buildings, the kinds of buildings "
@@ -2935,6 +2976,9 @@ msgstr "主要な OpenStack プロジェクトと同じプロセスとツール�
 
 msgid "User Committee"
 msgstr "ユーザー委員会 (UC: User Committee)"
+
+msgid "Using Lego to represent the community"
+msgstr "Legoによるコミュニティーの再現"
 
 msgid "Vendors may substitute alternate implementations"
 msgstr "ベンダーは代替実装により置き換える可能性があります"
@@ -3192,6 +3236,9 @@ msgstr ""
 
 msgid "Your management"
 msgstr "あなたの管理者"
+
+msgid "Your mission, should you choose to accept it"
+msgstr "あなたのミッション : 許容するかを決めてください"
 
 msgid ""
 "`\"Big Tent\" and tags <http://governance.openstack.org/reference/new-"
