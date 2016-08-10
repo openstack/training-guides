@@ -72,7 +72,7 @@ Dashboard - Overview
   - Top-level row shows the username that you logged in with
   - Also access Settings or Sign Out of the Web interface
 
-.. image:: ../figures/image14.png
+.. image:: ../figures/horizon-main-dashboard.png
 
 Dashboard - Project tab
 =======================
@@ -169,7 +169,7 @@ Add security group rules (cont)
   - The Dashboard shows the security groups that are available for this
     project.
 
-.. image:: ../figures/image25.png
+.. image:: ../figures/horizon-secgroup-list.png
 
 Add security group rules (cont)
 ===============================
@@ -177,7 +177,7 @@ Add security group rules (cont)
   - Select the default security group and click Edit Rules
   - The Security Group Rules page appears:
 
-.. image:: ../figures/image15.png
+.. image:: ../figures/horizon-secgroup-edit.png
 
 Add keypairs
 ============
@@ -210,14 +210,14 @@ OpenStack Dashboard - Instances
   - Launch an instance from a volume
   - Create instance snapshots
 
-.. image:: ../figures/image00.png
+.. image:: ../figures/horizon-instances.png
 
 OpenStack Dashboard - Actions
 =============================
 
 - Control the state of an instance
 
-.. image:: ../figures/image30.png
+.. image:: ../figures/horizon-actions.png
 
 OpenStack Dashboard - Track Usage
 =================================
@@ -225,7 +225,7 @@ OpenStack Dashboard - Track Usage
 - Use the Dashboard's Overview category to track usage of instances for each
   project.
 
-.. image:: ../figures/image14.png
+.. image:: ../figures/horizon-main-dashboard.png
 
 OpenStack Dashboard - Track Usage (cont)
 ========================================

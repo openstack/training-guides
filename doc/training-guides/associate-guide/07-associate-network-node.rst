@@ -145,7 +145,7 @@ Typically at least **four** distinct **physical** data center **networks**:
 OpenStack Networking - Connectivity
 ===================================
 
-.. image:: ../figures/image33.png
+.. image:: ../figures/network-connectivity.png
 
 
 OpenStack Networking Concepts
@@ -175,7 +175,7 @@ OpenStack Networking Concepts (cont)
 OpenStack Networking Concepts (cont)
 ====================================
 
-.. image:: ../figures/image49.png
+.. image:: ../figures/network-concept.png
 
 Managing Networks - CLI
 =======================
