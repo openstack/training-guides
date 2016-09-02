@@ -6,180 +6,93 @@ Overview of the contribution process
    :class: fill
    :width: 100%
 
-Project pulse
-=============
-
-- Code speaks : run Gource
-- How many contributors?
-- How old is the project?
-- When was the last update?
-- etc.
-
-.. note::
-
-    - Gource (gource.io): software version control visualization
-
-Who's behind it?
-==================
-
-- Individuals
-- Companies
-- What's their incentive?
-
-Project as social groups
-=========================
-
-- Group of friends
-- Company employees
-- Corporate driven
-- Volunteers
-
-Assess your approach
+Picking Your Project
 ====================
 
-- Verbose or terse?
-- Socialize or strictly professional?
-- Habits: online relationships?
-- Acknowledge the language barrier
+- Each project has its own purpose
+- Each project has its own culture
+- Does your company want you to work on something specific?
 
-Engage immediately
-==================
-
-- Discuss with non upstream
-- Get your nick/e-mail known
-- Mingle
-
-Be engaged with your network
+Getting to Know Your Project
 ============================
 
-- Ask people you know, about the project
-- Send e-mails to friends about your contributions
-- IM friends about contributions
-- Ask about their contribution experience
-- Ask if they know someone with similar experiences
+- Clone and be familiar with the code
 
-Smaller tasks
-=============
+.. code-block:: console
 
-- Sizing the task difficulty
-- Splitting a task
-- Seeking agreement on the split
+   git clone git://git.openstack.org/openstack/<your_project>
 
-Choosing a question
-===================
+- Example:
 
-- Think about the answer
-- Find a solution that needs to be agreed upon
-- Ask the question and propose your solution
+.. code-block:: console
 
-Code of conduct
-===============
+   git clone git://git.openstack.org/openstack/training-guides
 
-- Be considerate
-- Be respectful
-- Be collaborative
-- When we disagree, we consult others
-- When we are unsure, we ask for help
-- Step down considerately
-- Respect the election process
 
-Disagree
-========
+- Run the tests
+- Join the project's the IRC channel
+  https://wiki.openstack.org/wiki/IRC
+- Look at open reviews
+- Join the openstack-dev mailing list
 
-- Suspension of disbelief
-- Accept the rules
-- No flamewars
-- No enemies
+Interacting with the Project
+============================
 
-Understanding the conventions
+- Talking in the IRC channel
+- Follow and participate in project related mail threads in the mailing list
+- Attending regular meetings
+- Filing, fixing, and triaging bugs
+- Filing a blueprint/spec
+- Implementing a blueprint/spec
+
+General Contribution Workflow
 =============================
 
-- Read the policy
-- Read the code/documentation guidelines
-- Read the actual code and the actual documentation
-- Apply them very diligently
+- Pick a task (bug, trivial fix, documentation, implementation)
+- Make a new branch in your local repository
 
-Explain what you do
+  git checkout -b name_whatever_you_want
+- Make code changes
+- Update and add tests (unit, functional, etc.)
+- Run tests (unit, functional, etc.)
+- Create your commit
+    - Add files to your commit
+    - Commit added files and explain changes in the commit message
+- Push upstream for review
+
+Your Patch Upstream
 ===================
 
-- Link to the blueprint
-- Link to the bug report
-- What the work does
-- Each choice made must have a rationale
+- Jenkins and vendor CIs will review your patch
+- Community members will review your patch
+- Reply to comments
+- Make changes and push new patchsets
+- Resolve merge conflicts
 
-Prepare the backport
-====================
-
-- Apply the contribution to trunk
-- Think about backporting
-- Twist the contribution to ease backporting
-
-Local and upstream
-==================
-
-- Development/trunk version
-- Stable version
-- In house version
-
-Good workflow
-=============
-
-.. image:: ./_assets/19-01-goodworkflow.png
-
-Bad workflow
-============
-
-.. image:: ./_assets/19-02-badworkflow.png
-
-Quantify the delta
-==================
-
-- Measure the delta with upstream
-- Compare
-- Analyze the reasons for an increased delta
-
-Speeding the acceptance
+Speeding the Acceptance
 =======================
 
-- People skills
-- Diplomacy
-- Communication
-- Getting attention
+- Be on top of people's comments
+    - Be patient
+    - Be communicative
+    - Be collaborative
 
-Timeframe
-=========
+REMEMBER: This is open source.
+Things happen on the community's schedule, not yours.
 
-- Engage daily
-- Ask for attention weekly
-- Try to get attention at least four times
-
-Building karma
+Building Karma
 ==============
 
-- While waiting for input
-- Fix the web site
+- Review other's code
 - Fix the documentation
 - Answer questions
+- Attend the meetings
 
-Parallelizing
-=============
+Build Your Network
+==================
 
-- Work
-- Karma missions
-- Learning about the project
-
-From easy to difficult
-======================
-
-- Answering questions
-- Contributing code/documentation
-- Contributing blueprints
-- Discussing the architecture
-- Influence the project governance
-
-Archive and collect
-===================
-
-- Log IM channels
-- Keep links to e-mail archives
-- Choose one place to gather all information
+- Personal message or talk in the channel to people
+- Ask people you know about the project
+- Ask people about their contributions
+- Ask people about their contribution experience
+- Pay attention to who is an expert in what area
