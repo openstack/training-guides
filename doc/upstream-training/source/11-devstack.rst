@@ -12,12 +12,6 @@ devstack.org
 .. image:: ./_assets/11-01-devstack.png
    :width: 100%
 
-rejoin-stack.sh
-===============
-
-.. image:: ./_assets/11-02-rejoin-stack.png
-  :width: 75%
-
 http://localhost/
 =================
 
