@@ -6,18 +6,6 @@ OpenStack Release Cycle
    :class: fill
    :width: 100%
 
-What is OpenStack?
-==================
-
-- Open source software for creating private and public clouds
-- Coordinated collection of software from a few dozen related projects
-- Projects are teams of people focused on implementing a specific aspect
-  of OpenStack
-
-  - Core services such as Block Storage ("Cinder")
-  - Supporting services such as Common Libraries ("Oslo")
-  - Horizontal teams such as Documentation
-
 What makes a release
 ====================
 

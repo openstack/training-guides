@@ -72,6 +72,7 @@ Introduction
 
 * A week before Day 1: choice of a contribution, via email, with each
   participant
+* Day 1: Introduction
 * Day 1: How OpenStack is made
 * Day 1: Learn and practice Git, Gerrit, IRC
 
@@ -79,6 +80,13 @@ Introduction
 * Day 2: Lego contribution simulation
 * Day 2: Individual presentation of the contribution plan
 * Day 2: Online mentoring
+
+Introduction
+~~~~~~~~~~~~
+
+* `Training introduction <00-00-introduction.html>`__
+* `OpenStack as software <00-01-openstack-as-software.html>`__
+* `OpenStack as a community <00-02-openstack-as-community.html>`__
 
 How OpenStack is made (3h including 1h30 exercises)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

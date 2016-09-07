@@ -76,6 +76,13 @@ see :doc:`upstream-archives`.
 Outline and online slide index
 ==============================
 
+Introduction
+------------
+
+* `Introduction <00-00-introduction.html>`_
+* `Introducing OpenStack as a Software <00-01-openstack-as-software.html>`_
+* `Introducing OpenStack as a Community <00-02-openstack-as-community.html>`_
+
 How OpenStack is made
 ---------------------
 
