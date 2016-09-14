@@ -29,4 +29,5 @@ OpenStack Upstream Training
  * `Commit messages <17-commit-message.html>`_
  * `Jenkins <18-jenkins.html>`_
  * `Overview of the contribution process <19-training-contribution-process.html>`_
- * `Lego applied to Free Software contributions <20-training-agile-for-contributors.html>`_
+ * `Guide to SetUp and Push First Patch <20-setup-and-first-patch.html>`_
+ * `Lego applied to Free Software contributions <21-training-agile-for-contributors.html>`_

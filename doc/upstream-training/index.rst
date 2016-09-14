@@ -116,8 +116,10 @@ The Contribution Process
 
 * `Overview of the contribution process
   <19-training-contribution-process.html>`_
+* `Guide to SetUp and Push First Patch
+  <20-setup-and-first-patch.html>`_
 * `Lego applied to Free Software contributions
-  <20-training-agile-for-contributors.html>`_
+  <21-training-agile-for-contributors.html>`_
 
 `Complete index in slide format only
 <http://docs.openstack.org/upstream-training/slide-index.html>`_
