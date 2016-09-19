@@ -76,6 +76,12 @@ see :doc:`upstream-archives`.
 Outline and online slide index
 ==============================
 
+.. tip:: Slides are made with `Hieroglyph <http://hieroglyph.io>`_.
+   To skim through slides quickly to find something, or jump ahead or back,
+   use *Slide table* (press :command:`t` in the browser). Some slides
+   include additional explanation in the *Presenter notes* (press
+   :command:`c` to see them).
+
 Introduction
 ------------
 
