@@ -20,18 +20,17 @@ Getting to Know Your Project
 
 .. code-block:: console
 
-   git clone git://git.openstack.org/openstack/<your_project>
+   $ git clone git://git.openstack.org/openstack/<your_project>
 
 - Example:
 
 .. code-block:: console
 
-   git clone git://git.openstack.org/openstack/training-guides
-
+   $ git clone git://git.openstack.org/openstack/training-guides
 
 - Run the tests
-- Join the project's the IRC channel
-  https://wiki.openstack.org/wiki/IRC
+- Join the project's IRC channel
+    - https://wiki.openstack.org/wiki/IRC
 - Look at open reviews
 - Join the openstack-dev mailing list
 
@@ -39,7 +38,8 @@ Interacting with the Project
 ============================
 
 - Talking in the IRC channel
-- Follow and participate in project related mail threads in the mailing list
+- Following and participating in project related mail threads
+  in the mailing list
 - Attending regular meetings
 - Filing, fixing, and triaging bugs
 - Filing a blueprint/spec
@@ -51,10 +51,17 @@ General Contribution Workflow
 - Pick a task (bug, trivial fix, documentation, implementation)
 - Make a new branch in your local repository
 
-  git checkout -b name_whatever_you_want
+.. code-block:: console
+
+   $ git checkout -b name_whatever_you_want
+
 - Make code changes
 - Update and add tests (unit, functional, etc.)
 - Run tests (unit, functional, etc.)
+
+General Contribution Workflow
+=============================
+
 - Create your commit
     - Add files to your commit
     - Commit added files and explain changes in the commit message
