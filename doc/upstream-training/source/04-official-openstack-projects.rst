@@ -6,18 +6,11 @@ Official OpenStack projects
    :class: fill
    :width: 100%
 
-OpenStack Project Teams
-=======================
-- The building blocks to achieve OpenStack's mission
-- Using the same tools (code repository, bug tracker, etc) and coordinated
-  processes to produce a number of deliverables
-- Teams in OpenStack can be freely created as they are needed
-- Teams of official projects are under the authority of the Technical Commitee
 
 Official OpenStack projects
 ===========================
-- Official OpenStack projects have to  fullfill the requirements of official
-  OpenStack projects
+- `Requirements <https://governance.openstack.org/reference/new-projects-requirements.html>`_
+  for official OpenStack projects
 - Projects are evolving themselves and also sustain for one collaborative
   framework, OpenStack
 
@@ -30,24 +23,24 @@ Official OpenStack projects
 
 Benefits of being an Official OpenStack project
 ===============================================
- - Contributors of an OpenStack project
-
-  - Get to vote in the Technical Commitee election
-  - Can publish to docs.openstack.org and developer.openstack.org
-  - Get space on OpenStack Summits and Project Team Gatherings (PTG)
+- Contributors get to vote in the Technical Commitee election
+- Can publish to docs.openstack.org and developer.openstack.org
+- The teams get space on OpenStack Summits and Project Team Gatherings (PTG)
+- Get marketing from the OpenStack Foundation
+- Can participate in common programs, like mentoring and internship to help
+  with on boarding
+- Get guidance from community members and leaders
+- Its activities are under the oversight of the TC
 
  .. note::
 
   - PTG: https://www.openstack.org/ptg/
-
-Benefits of being an Official OpenStack project
-===============================================
-   - Contributors of an OpenStack project
-
-    - Get marketing from the OpenStack Foundation
-    - Get access to Foundation programs, like mentoring and internship to help
-      with on boarding
-    - Get guidance from community members and leaders
+  - `Mentoring <https://wiki.openstack.org/wiki/Mentors>`_ is run by the Women
+    of OpenStack group, where mentees are guided through the OpenStack processes.
+  - The OpenStack Foundation participates in internship programs as
+    `Outreachy <https://wiki.openstack.org/wiki/Outreachy>`_.
+  - Official OpenStack projects can participate by offering topics and mentors
+    for the interns who sign up for this program.
 
 Requirements of Official OpenStack projects
 ===========================================

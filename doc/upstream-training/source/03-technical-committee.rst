@@ -59,11 +59,18 @@ OpenStack Project Teams
 
 Project Teams are teams of *people* using *tools* (code repository,
 bug tracker, etc) and coordinated *processes* to produce a number of
-*deliverables*, in order to achieve a clearly stated *objective*.
+*deliverables*, in order to achieve a clearly stated *objective* according to
+OpenStack's mission.
 
-- The official list of projects is in the `governance` repository
-   - http://git.openstack.org/cgit/openstack/governance/tree/reference/projects.yaml
-- Fully rendered http://governance.openstack.org/reference/projects/index.html
+- Teams in OpenStack can be freely created as they are needed
+- Teams of official projects are under the authority of the Technical Commitee
+- The official list of projects:
+
+  - http://governance.openstack.org/reference/projects/
+
+.. note::
+
+  - Source file is hosted in the `governance repository <http://git.openstack.org/cgit/openstack/governance/tree/reference/projects.yaml>`_
 
 Meetings
 ========
