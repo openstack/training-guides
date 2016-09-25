@@ -22,6 +22,28 @@ The OpenStack Community
   - 345 different organizations
   - More than 20,000 patches
 
+Stackalytics
+============
+
+- Provides transparent and meaningful statistics regarding contributions
+  to both OpenStack itself and projects related to OpenStack
+
+  - Transparency: the community can have confidence that all calculations
+    are correct and fair
+  - Meaningful: anyone may submit a correction that will adjust the influence
+    of appropriate statistical data
+
+- Collects and processes development activity data and makes it
+  possible to visualize it in a convenient web dashboard
+
+- http://stackalytics.com
+
+ .. note::
+
+  - Stackalytics Wiki: https://wiki.openstack.org/wiki/Stackalytics
+  - Stackalytics site is being migrated to http://stackalytics.openstack.org
+    by OpenStack Infrastructure team.
+
 Relevant actors
 ===============
 
@@ -51,10 +73,19 @@ Module contributors
 .. image:: ./_assets/02-05-module-contributors.png
   :width: 95%
 
+Module - more views
+===================
+
+- Open reviews, contribution for the latest 30 or 90 days,
+  activity report, etc.
+
+.. image:: ./_assets/stackalytics-module-open-reviews.png
+  :width: 95%
+
 OpenStack Activity - Dashboard
 ==============================
 
-activity.openstack.org
+http://activity.openstack.org
 
 .. image:: ./_assets/02-07-activity-dashboard.png
   :width: 100%
@@ -62,7 +93,7 @@ activity.openstack.org
 OpenStack Activity - Other Metrics
 ==================================
 
-activity.openstack.org
+http://activity.openstack.org
 
 .. image:: ./_assets/02-08-activity-metrics.png
   :width: 100%
@@ -73,8 +104,14 @@ Your management
 .. image:: ./_assets/02-06-your-management.jpg
   :width: 55%
 
+.. note::
+
+  - https://en.wikipedia.org/wiki/Christine_Lagarde
+
 Exercise
 ========
 
-List three companies and individuals that have been the most influential in
-the making of the module you plan to contribute to, for each metric value.
+- List three companies and individuals that have been the most influential in
+  the making of the module you plan to contribute to, for each metric value.
+- Discuss which metrics are more or less influential to make a module
+  vitalize and successful.
