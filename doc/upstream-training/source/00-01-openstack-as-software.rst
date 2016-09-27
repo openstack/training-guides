@@ -37,7 +37,7 @@ The OpenStack Package
 OpenStack from Telecom/NFV perspective
 ======================================
 
-- NFV = Network Function Virtualisation
+- NFV = Network Function Virtualization
 
 .. image:: ./_assets/etsi-nfv-arch-framework.png
    :width: 75%
@@ -47,10 +47,10 @@ OpenStack from Telecom/NFV perspective
 
 - Virtual Infrastructure Manager (VIM) + NFV Infratsructure (NFVI)
 
-  - Most of the OpenStack Services
+  - Most of the OpenStack services
 
 - Virtual Network Functions Manager (VNFM)
 
-  - Heat
-  - Murano
-  - Mistral
+  - Orchestration service
+  - Application Catalog service
+  - Workflow service

@@ -11,7 +11,7 @@ About the training
 
 - It is about
 
-  - Open Collaboration
+  - Open collaboration
   - Learn about the community
   - Learn how to participate in OpenStack
   - Interactive, hands-on class
