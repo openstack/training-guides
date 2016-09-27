@@ -26,7 +26,7 @@ The OpenStack Package
 - Flexibility
 
   - Core services (Compute, Networking, Block and Object Storage, etc.)
-  - Lego: build as you need
+  - Building Blocks: build as you need
 
 - REST APIs
 - Software Development Kits (SDKs)
