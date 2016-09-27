@@ -36,4 +36,6 @@ Core reviewer
 Exercise
 ========
 
-push a wip or draft and invite reviewers
+Review three patches in the sandbox environment. Try to find things to make
+comments on even if they are just asking a question and not pointing out an
+issue, don't just +1 three different patches.
