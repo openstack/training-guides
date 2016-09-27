@@ -18,8 +18,8 @@ IRC meetings list
 .. image:: ./_assets/06-02-irc-meetings-list.png
   :width: 100%
 
-- https://wiki.openstack.org/wiki/Meetings
-- Schedule: http://eavesdrop.openstack.org/
+- IRC meetings: http://eavesdrop.openstack.org/
+- Others: https://wiki.openstack.org/wiki/Meetings
 
 Meeting agenda
 ==============
