@@ -74,8 +74,8 @@ sub-command to git like so::
   git review
 
 When you have changes in an OpenStack project repository, you can use this
-sub-command to have the changes posted to :doc:`gerrit` so that they can be
-reviewed.
+sub-command to have the changes posted to
+`Gerrit <https://review.openstack.org/>`__ so that they can be reviewed.
 
 Installation
 ------------

@@ -2,6 +2,20 @@
 OpenStack Upstream Training
 ===========================
 
+.. All documents in the source directory must occur in some toctree directive.
+   Otherwise Sphinx will emit a warning if it finds a file that is not
+   included. Documents which belong to no toctree should be added to the
+   hidden toctree below.
+
+.. toctree::
+   :hidden:
+
+   upstream-details
+   irc
+   accounts
+   git
+   upstream-archives
+
 Abstract
 ========
 
@@ -121,5 +135,4 @@ The Contribution Process
 * `Lego applied to Free Software contributions
   <21-training-agile-for-contributors.html>`_
 
-`Complete index in slide format only
-<http://docs.openstack.org/upstream-training/slide-index.html>`_
+`Complete index in slide format only <slide-index.html>`_
