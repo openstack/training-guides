@@ -28,19 +28,13 @@ When & Where to get OpenStack Upstream Training
 ===============================================
 
 The next session of the OpenStack Upstream Training will be held in Barcelona,
-before the OpenStack Summit Barcelona 2016.
+before the OpenStack Summit Barcelona 2016:
 
-.. **Saturday, October 22, 2016 at 9:30 AM to 5:00 PM - Sunday, October 23,
-   2016 at 9:30 AM to 5:00 PM (local time)**
+**Sunday, October 23, 2016 at 1:00 p.m. to 5:00 p.m.
+- Monday, October 24, 2016 at 10:00 a.m. to 4:00 p.m. (local time)**
 
-`Students and mentors can register here
-<https://openstackfoundation.formstack.com/forms/mentoring>`_.
-
-Maps and location information will be posted here once details are finalized.
-We will be in or near the main Summit venue, but our room assignments are not
-yet finalized.
-
-Bring a laptop with wifi, and 4+ GB RAM Ubuntu virtual machine
+For more information and registration, see the `OpenStack Academy page
+<https://www.openstack.org/summit/barcelona-2016/openstack-academy/>`_.
 
 How to prepare
 ==============
