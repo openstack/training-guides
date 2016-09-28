@@ -22,7 +22,9 @@ Four "open"s
 - Open Design
 - Open Development
 - Open Community
-- Find more information on the `Governance wiki <http://governance.openstack.org/reference/opens.html>`_
+- More information: Governance page
+
+  - http://governance.openstack.org/reference/opens.html
 
 Framework
 =========
@@ -40,7 +42,7 @@ Framework
 
   - Wiki
   - IRC
-  - etherpad
+  - Etherpad
 
 Life in and around OpenStack
 ============================
