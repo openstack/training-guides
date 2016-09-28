@@ -57,14 +57,20 @@ How to prepare
 Staff
 =====
 
-Marton Kiss will lead the next training in Austin, in English. Tools and
-processes for mentors and staff are kept on the `admin
-<https://wiki.openstack.org/wiki/OpenStack_Upstream_Training/Admin>`_ page.
+The trainers for the upcoming training in Barcelona:
 
-**Still looking for help: please**
-`register <https://openstackfoundation.formstack.com/forms/mentoring>`_
+Ildiko Vancsa, Kendall Nelson, Mark Korondi, and Marton Kiss
 
-For more information about the past trainings and local upstream trainings,
+We would like to make as many matches before the Barcelona Summit as we can
+so you can meet with your mentee/mentor there if you are both attending.
+
+`Sign-up to get involved here
+<https://openstackfoundation.formstack.com/forms/mentor_mentee_signup_pre_barcelona>`__.
+
+Archives
+========
+
+For more information about the past trainings and the local upstream trainings,
 see :doc:`upstream-archives`.
 
 Outline and online slide index
