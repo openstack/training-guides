@@ -16,21 +16,6 @@ Commit messages
 - Developers read mostly, write occasionally
 - https://wiki.openstack.org/wiki/GitCommitMessages
 
-Structural split of changes
-===========================
-
-- Small means quicker & easier
-- Easier to revert
-- Easier to bisect
-- Easier to browse
-
-Things to avoid
-===============
-
-- Mixing whitespace changes with functional code changes.
-- Mixing two unrelated functional changes.
-- Sending large new features in a single giant commit.
-
 Bad: two independent changes
 =============================
 
@@ -46,40 +31,45 @@ Good: new API + new feature
 
 .. image:: ./_assets/17-03-good.png
 
+Contents of a Commit Message (Summary Line)
+===========================================
+
+- Limited to 50 characters
+- Succinctly describes patch content
+
+Contents of a Commit Message (Body)
+===================================
+
+- Lines limited to 72 characters
+- Explaination of issue being solved and why it should be fixed
+- Explain how problem is solved
+- Other possible content
+    - Does it improve code structure?
+    - Does it fix limitations of the current code?
+    - References to other relevant patches?
+
 Do not assume ...
 =================
 
-- the reviewer understands what the original problem was.
-- the reviewer has access to external web services/site.
-- the code is self-evident/self-documenting.
-
-Information in commit messages (1/2)
-====================================
-
-- Describe why a change is being made
-- Read the commit message to see if it hints at improved code structure.
-- Ensure sufficient information to decide whether to review.
-
-Information in commit messages (2/2)
-====================================
-
-- Describe any limitations of the current code.
-- Do not include patch set-specific comments.
-- The first commit line is the most important.
+- The reviewer understands what the original problem was
+- The reviewer has access to external web services/site
+- The code is self-evident/self-documenting
 
 Required external references
 ============================
 
 - Change-id
-- Bug
-- blueprint
+- Bug (Partial-Bug, Related-Bug, Closes-Bug)
+- Blueprint (Partial-Implements, Implements)
 
 Optional external references
 ============================
 
 - DocImpact
+- APIImpact
 - SecurityImpact
 - UpgradeImpact
+- Depends-On
 
 GIT commit message structure
 ============================
