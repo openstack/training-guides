@@ -75,6 +75,11 @@ Sign Up
 
 .. note::
 
+   Choose and type your username carefully.
+   Once it is set, you cannot change the username.
+
+.. note::
+
   From here on out when you sign into Gerrit, you'll be prompted to enter your
   your Launchpad login info. This is because Gerrit uses it as an OpenID single
   sign on.
