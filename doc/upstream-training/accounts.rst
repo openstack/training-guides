@@ -130,3 +130,43 @@ Contributors From the U.S. Government
    Agreement <https://wiki.openstack.org/wiki/GovernmentCLA>`_. Contact the
    `OpenStack Foundation <mailto:communitymngr@openstack.org>`_ to initiate
    this process.
+
+Contact Information
+===================
+
+What is it?
+-----------
+
+You need to register your contact information including your full name, email
+address and offline contact information.
+
+Your full name and email address will be public and the email address needs to
+match the email address which you plan to use in your commits.
+
+The other contact information including postal address and phone numbers will
+be kept confidential and is only used as a fallback record in the unlikely
+event the OpenStack Foundation needs to reach you directly over code
+contribution related matters.
+
+This contact information can be easily updated later if desired, but make sure
+the primary email address always matches the one you set for your OpenStack
+Foundation Membership. Otherwise, Gerrit will give you an error message and
+refuse to accept your contact information.
+
+Register Contact Information
+----------------------------
+
+#. Visit `Contact Information
+   <https://review.openstack.org/#/settings/contact>`__
+   in Gerrit's settings.
+#. Fill your contact information and click 'Save Changes'.
+#. Once your contact information is saved successfully,
+   you will see the line **"Contact information last updated ...."**
+   just above the forms of mailing address.
+
+.. image:: ./source/_assets/tools/account-setup/4.png
+
+.. note::
+
+   If you do not register your contact information,
+   you cannot upload your any changes to Gerrit.
