@@ -12,44 +12,51 @@ Introduction
 .. toctree::
    :maxdepth: 1
 
-   00-00-introduction.rst
-   00-01-openstack-as-software.rst
-   00-02-openstack-as-community.rst
+   intro-introduction.rst
+   intro-openstack-as-software.rst
+   intro-openstack-as-community.rst
 
-How OpenStack is made
+How OpenStack is Made
 =====================
 
 .. toctree::
    :maxdepth: 1
 
-   01-release-cycle.rst
-   02-relevant-actors
-   03-technical-committee
-   04-official-openstack-projects
-   05-design-summit
-   06-irc-meetings
+   howitsmade-official-projects.rst
+   howitsmade-design-summit.rst
+   howitsmade-relevant-actors.rst
+   howitsmade-release-cycle.rst
+   howitsmade-technical-committee.rst
+   howitsmade-irc-meetings.rst
+   branching-model.rst
 
-Workflow of an OpenStack contribution and tools
+Workflow and Tools for Participation
 ===============================================
 
 .. toctree::
    :maxdepth: 1
 
-   11-devstack
-   12-howtocontribute
-   13-launchpad
-   14-gerrit
-   15-branching-model
-   16-reviewing
-   17-commit-message
-   18-jenkins
+   workflow-training-contribution-process.rst
+   workflow-howtocontribute.rst
+   workflow-launchpad.rst
+   workflow-gerrit.rst
+   workflow-reviewing.rst
+   workflow-commit-message.rst
+   workflow-jenkins.rst
+   workflow-setup-and-first-patch.rst
 
-The Contribution Process
-========================
+Code Deep Dive
+==============
 
 .. toctree::
    :maxdepth: 1
 
-   19-training-contribution-process
-   20-setup-and-first-patch
-   21-training-agile-for-contributors
+   code-devstack.rst
+
+Archive
+=======
+
+.. toctree::
+   :maxdepth: 1
+
+   archive-training-agile-for-contributors.rst

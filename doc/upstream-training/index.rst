@@ -99,40 +99,42 @@ Outline and online slide index
 Introduction
 ------------
 
-* `Introduction <00-00-introduction.html>`_
-* `Introducing OpenStack as a Software <00-01-openstack-as-software.html>`_
-* `Introducing OpenStack as a Community <00-02-openstack-as-community.html>`_
+* `Introduction <intro-introduction.html>`_
+* `Introducing OpenStack as a Software <intro-openstack-as-software.html>`_
+* `Introducing OpenStack as a Community <intro-openstack-as-community.html>`_
 
-How OpenStack is made
+How OpenStack is Made
 ---------------------
 
-* `Release cycle <01-release-cycle.html>`_
-* `Relevant actors <02-relevant-actors.html>`_
-* `OpenStack Governance <03-technical-committee.html>`_
-* `Official OpenStack projects <04-official-openstack-projects.html>`_
-* `OpenStack Design Summit <05-design-summit.html>`_
-* `IRC meetings <06-irc-meetings.html>`_
+* `Official OpenStack projects <howitsmade-official-projects.html>`_
+* `OpenStack Design Summit <howitsmade-design-summit.html>`_
+* `Relevant actors <howitsmade-relevant-actors.html>`_
+* `Release cycle <howitsmade-release-cycle.html>`_
+* `OpenStack Governance <howitsmade-technical-committee.html>`_
+* `IRC meetings <howitsmade-irc-meetings.html>`_
 
-Workflow of an OpenStack contribution and tools
------------------------------------------------
-
-* `devstack.org <11-devstack.html>`_
-* `How to contribute <12-howtocontribute.html>`_
-* `launchpad.net <13-launchpad.html>`_
-* `review.openstack.org <14-gerrit.html>`_
-* `Branching model <15-branching-model.html>`_
-* `Reviewing <16-reviewing.html>`_
-* `Commit messages <17-commit-message.html>`_
-* `Jenkins <18-jenkins.html>`_
-
-The Contribution Process
-------------------------
+Workflow and Tools for Participation
+------------------------------------
 
 * `Overview of the contribution process
-  <19-training-contribution-process.html>`_
+  <workflow-training-contribution-process.html>`_
+* `How to Contribute <workflow-howtocontribute.html>`_
+* `Tracking <workflow-launchpad.html>`_
+* `Gerrit <workflow-gerrit.html>`_
+* `Reviewing <workflow-reviewing.html>`_
+* `Commit Messages <workflow-commit-message.html>`_
+* `Jenkins <workflow-jenkins.html>`_
 * `Guide to SetUp and Push First Patch
-  <20-setup-and-first-patch.html>`_
+  <workflow-setup-and-first-patch.html>`_
+
+Code Deep Dive
+--------------
+* `devstack.org <code-devstack.html>`_
+
+Archive
+-------
 * `Lego applied to Free Software contributions
-  <21-training-agile-for-contributors.html>`_
+  <archive-training-agile-for-contributors.html>`_
+
 
 `Complete index in slide format only <slide-index.html>`_
