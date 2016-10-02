@@ -4,11 +4,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-28 03:20+0000\n"
+"POT-Creation-Date: 2016-09-29 10:17+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-03-12 07:33+0000\n"
+"PO-Revision-Date: 2016-10-01 09:39+0000\n"
 "Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -26,13 +26,6 @@ msgstr "#info"
 
 msgid "(RC2), with bugs targeted to it"
 msgstr "(RC2), mit Fehlern ausgerichtet"
-
-msgid ""
-"**Still looking for help: please** `register <https://openstackfoundation."
-"formstack.com/forms/mentoring>`_"
-msgstr ""
-"**Wir suchen weiter Unterstützung: Bitte ** `anmelden <https://"
-"openstackfoundation.formstack.com/forms/mentoring>`_"
 
 msgid "2013.2 branch and tags"
 msgstr "2013.2 Branch und Tags"
@@ -367,16 +360,10 @@ msgstr "Tag 2: Die Theorie des Beitragens"
 msgid "Debugging"
 msgstr "Debugging"
 
-msgid "Describe any limitations of the current code."
-msgstr "Beschreiben Sie jede Limitierung des derzeitigen Codes"
-
 msgid "Describe the output produced by the OpenStack community teams"
 msgstr ""
 "Beschreiben SIe die Ergebnisse, die von den OpenStack Communityteams "
 "erbracht wurden"
-
-msgid "Describe why a change is being made"
-msgstr "Beschreiben, warum die Änderung gemacht wurde"
 
 msgid "Description"
 msgstr "Beschreibung"
@@ -401,9 +388,6 @@ msgstr "Zerfahren: 1"
 
 msgid "Do not assume ..."
 msgstr "Nehmen Sie nicht an ..."
-
-msgid "Do not include patch set-specific comments."
-msgstr "Verwenden Sie keine Patch-Set-spezifischen Kommentare."
 
 msgid "Do you work at a company?"
 msgstr "Arbeiten Sie für eine Firma?"
@@ -435,6 +419,9 @@ msgstr ""
 "Während der SERIES Vorversionsperiode den Fehler als potentiellen versions-"
 "kritischen Blocker markieren"
 
+msgid "Each company has:"
+msgstr "Jede Firma hat: "
+
 msgid ""
 "Each project team page shows its release policy on http://governance."
 "openstack.org/reference/projects"
@@ -444,15 +431,6 @@ msgstr ""
 
 msgid "Each student group presents its slides to the class"
 msgstr "Jede Teilnehmergruppe präsentiert die Folien der Klasse."
-
-msgid "Easier to bisect"
-msgstr "Leichter zu halbieren"
-
-msgid "Easier to browse"
-msgstr "Leichter zu blättern"
-
-msgid "Easier to revert"
-msgstr "Leichter zurückzusetzen"
 
 msgid "Edouard THULEAU (assistant, french, english)"
 msgstr "Edouard THULEAU (Assistant, französisch, englisch)"
@@ -465,10 +443,6 @@ msgstr "Ende rechtzeitig"
 
 msgid "Engage immediately"
 msgstr "Sofort engagieren"
-
-msgid "Ensure sufficient information to decide whether to review."
-msgstr ""
-"Stellen SIe sicher, ob die Informationen für eine Überprüfung ausreichen."
 
 msgid "Error report"
 msgstr "Fehlereport"
@@ -633,13 +607,6 @@ msgid ""
 msgstr ""
 "Liberty integrierte Projekte werden verwaltet vom Release Management Team"
 
-msgid ""
-"For more information about the past trainings and local upstream trainings, "
-"see :doc:`upstream-archives`."
-msgstr ""
-"Für mehr Informationen von den letzten Trainings schauen Sie auf  :doc:"
-"`upstream-details`."
-
 msgid "For more information, see :doc:`upstream-details`."
 msgstr "Für mehr Informationen schauen Sie auf  :doc:`upstream-details`."
 
@@ -774,12 +741,6 @@ msgstr "Einzelmitglieder: alle von uns"
 
 msgid "Individual snapshot"
 msgstr "Einzelprofil"
-
-msgid "Information in commit messages (1/2)"
-msgstr "Information in der Commit-Nachricht (1/2)"
-
-msgid "Information in commit messages (2/2)"
-msgstr "Information in der Commit-Nachricht (2/2)"
 
 msgid "Infrastructure"
 msgstr "Infrastruktur"
@@ -945,12 +906,6 @@ msgstr "Meilensein: der Meilenstein in dem der Fehler behoben ist"
 
 msgid "Mind the noise"
 msgstr "Vermeide Lärm"
-
-msgid "Mixing two unrelated functional changes."
-msgstr "Vermischen von 2 beziehungslosen funktionalen Änderungen."
-
-msgid "Mixing whitespace changes with functional code changes."
-msgstr "Vermischen von Leerzeichenänderungen mit funktionalen Code-Änderungen"
 
 msgid "Module contributors"
 msgstr "Module Mitwirkende"
@@ -1188,11 +1143,6 @@ msgstr "Zu Gerrit gepuscht für Peer Überprüfung"
 msgid "Quantify the delta"
 msgstr "Quantifizierung des Deltas"
 
-msgid "Read the commit message to see if it hints at improved code structure."
-msgstr ""
-"Lesen Sie die Commit-Nachricht, um Hinweise auf die verbesserten Code-"
-"Struktur zu finden"
-
 msgid "Recheck bug #XXX"
 msgstr "Recheck bug #XXX"
 
@@ -1283,9 +1233,6 @@ msgstr "Auswahl von Sitzungen"
 msgid "Self-contained"
 msgstr "In sich geschlossen"
 
-msgid "Sending large new features in a single giant commit."
-msgstr "Senden von grossen neuen Funktionen in einem einzigen grossen Commit."
-
 msgid "Seoul, Korea"
 msgstr "Seoul, Korea"
 
@@ -1315,9 +1262,6 @@ msgid "Small issue with an easy workaround. Any other insignificant bug"
 msgstr ""
 "Kleiner Fehler mit einfachem Workaround. Jede anderen nichtsignifikanten "
 "Fehler"
-
-msgid "Small means quicker & easier"
-msgstr "Klein meint schneller & einfacher"
 
 msgid "Speed up the acceptance"
 msgstr "Aktzeptanz erhöhen."
@@ -1355,9 +1299,6 @@ msgstr ""
 
 msgid "String freeze"
 msgstr "Zeichenkettensperre"
-
-msgid "Structural split of changes"
-msgstr "Strukturelle Aufzeilung der Änderungen"
 
 msgid "Subset of the Foundation Individual Member"
 msgstr "Teilgruppe der Stiftung Einelmitglieder"
@@ -1470,9 +1411,6 @@ msgstr "Der Fehler wurde gerade erstellt"
 msgid "The bug was reproduced or confirmed as a genuine bug"
 msgstr "Der Fehler wurde vom Original-Fehler reproduziert oder bestätigt"
 
-msgid "The first commit line is the most important."
-msgstr "Die erste Commit-Zeile ist die wichtigste."
-
 msgid ""
 "The fix is included in the milestone-proposed branch, a past milestone or a "
 "past release"
@@ -1506,9 +1444,6 @@ msgid ""
 msgstr ""
 "Die Teilnehmer benutzen Folienvorlagen um eine 5-Minuten-Präsentation über "
 "ihren geplanten Beitrag zu erstellen."
-
-msgid "Things to avoid"
-msgstr "Dinge zu vermeiden"
 
 msgid "This helps the i18n and Documentation projects"
 msgstr "Das hilft dem I18N- und Dokumentationsprojekt"
@@ -2205,9 +2140,6 @@ msgstr "jeder der Gerrit Code überprüft, kann als Peitsche handeln"
 msgid "ask a core developer or bug supervisor => Status: Triaged"
 msgstr "Einen Kernentwickler oder Bug Supervisor fragen => Status: Ausgewählt"
 
-msgid "blueprint"
-msgstr "blueprint"
-
 msgid "carrot by alerting people to the benefits"
 msgstr "Zuckerbrot zur Aufmerksamkeit über die Vorteile"
 
@@ -2353,9 +2285,6 @@ msgstr "optional wenn einfach"
 msgid "patchset diffs"
 msgstr "patchset diffs"
 
-msgid "push a wip or draft and invite reviewers"
-msgstr "Einen WIP oder Entwurf hochladen und Überprüfer einladen"
-
 msgid "quality of the OpenStack git history"
 msgstr "Qualität der OpenStack git history"
 
@@ -2384,15 +2313,6 @@ msgstr "Unit-Tests laufen lassen"
 
 msgid "security"
 msgstr "Sicherheit"
-
-msgid "the code is self-evident/self-documenting."
-msgstr "der Code ist selbsterklärend/selbstdokumentiert"
-
-msgid "the reviewer has access to external web services/site."
-msgstr "der Überprüfer hat Zugriff zu externen Webdiensten/-siten."
-
-msgid "the reviewer understands what the original problem was."
-msgstr "der Überprüfer versteht, was das originale Problem war."
 
 msgid "upload an ssh key"
 msgstr "SSH-Schlüssel hochladen"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-28 03:20+0000\n"
+"POT-Creation-Date: 2016-09-29 10:17+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -40,13 +40,6 @@ msgstr ""
 
 msgid "**Staff**"
 msgstr "**스태프**"
-
-msgid ""
-"**Still looking for help: please** `register <https://openstackfoundation."
-"formstack.com/forms/mentoring>`_"
-msgstr ""
-"**여전히 도움을 찾고 있습니다:** `등록 <https://openstackfoundation."
-"formstack.com/forms/mentoring>`_ 해 주세요"
 
 msgid "179 countries"
 msgstr "179 개 국가"
@@ -605,14 +598,8 @@ msgstr "2일차: 컨트리뷰션에 대한 이론"
 msgid "Debugging"
 msgstr "디버깅"
 
-msgid "Describe any limitations of the current code."
-msgstr "현재 코드에 대한 제한 사항을 설명합니다."
-
 msgid "Describe the output produced by the OpenStack community teams"
 msgstr "OpenStack 커뮤니티 팀에 의해 만들어진 결과를 설명합니다"
-
-msgid "Describe why a change is being made"
-msgstr "왜 변경 사항을 만들었는지를 설명"
 
 msgid "Description"
 msgstr "설명"
@@ -637,9 +624,6 @@ msgstr "주의를 빼앗기는 자 : 1"
 
 msgid "Do not assume ..."
 msgstr "가정하지 말아야 할 것"
-
-msgid "Do not include patch set-specific comments."
-msgstr "Patch set에 대한 코멘트를 포함하지 않습니다."
 
 msgid "Do you work at a company?"
 msgstr "회사에서 일하는 경우"
@@ -709,15 +693,6 @@ msgstr "각 학생 그룹은 다음을 설명하는 프리젠테이션을 준비
 msgid "Each student group presents its slides to the class"
 msgstr "각 학생 그룹은 수업에 대한 슬라이드를 발표합니다"
 
-msgid "Easier to bisect"
-msgstr "양분하기 쉽습니다"
-
-msgid "Easier to browse"
-msgstr "살펴보기 쉽습니다"
-
-msgid "Easier to revert"
-msgstr "되돌리기 쉽습니다"
-
 msgid "Edit Nick Name Settings"
 msgstr "닉네임 설정 편집"
 
@@ -744,9 +719,6 @@ msgstr "정시에 종료합니다"
 
 msgid "Engage immediately"
 msgstr "바로 참여"
-
-msgid "Ensure sufficient information to decide whether to review."
-msgstr "검토 여부를 결정하기에 충분한 정보를 확인합니다."
 
 msgid "Error report"
 msgstr "오류 보고"
@@ -945,13 +917,6 @@ msgid ""
 msgstr ""
 "RedHat, Fedora 21 이나 이전, 또는 CentOS와 같은 배포판의 경우 터미널을 열고 "
 "입력합니다::"
-
-msgid ""
-"For more information about the past trainings and local upstream trainings, "
-"see :doc:`upstream-archives`."
-msgstr ""
-"지난 교육 및 각 로컬에서 개최된 upstream training에 관한 보다 자세한 정보"
-"는, :doc:`upstream-archives` 를 살펴봅니다."
 
 msgid "For more information, see :doc:`upstream-details`."
 msgstr "보다 자세한 정보는, :doc:`upstream-details` 를 살펴봅니다."
@@ -1385,12 +1350,6 @@ msgstr "개인 멤버 : 우리 모두"
 msgid "Individual snapshot"
 msgstr "개별 스냅샷"
 
-msgid "Information in commit messages (1/2)"
-msgstr "커밋 메시지 내 정보 (1/2)"
-
-msgid "Information in commit messages (2/2)"
-msgstr "커밋 메시지 내 정보 (2/2)"
-
 msgid "Infrastructure"
 msgstr "인프라"
 
@@ -1611,15 +1570,6 @@ msgstr ""
 msgid "Marton Kiss (training, mentoring, assistant)"
 msgstr "Marton Kiss (교육, 멘토링, 조교)"
 
-msgid ""
-"Marton Kiss will lead the next training in Austin, in English. Tools and "
-"processes for mentors and staff are kept on the `admin <https://wiki."
-"openstack.org/wiki/OpenStack_Upstream_Training/Admin>`_ page."
-msgstr ""
-"Marton Kiss께서 다음 교육을 Austin에서 영어로 진행할 것입니다. 멘터 및 스태프"
-"를 위한 도구 및 프로세스는 `admin <https://wiki.openstack.org/wiki/"
-"OpenStack_Upstream_Training/Admin>`_ 페이지에 유지됩니다."
-
 msgid "Master the technical tools"
 msgstr "기술 툴 마스터하기"
 
@@ -1655,12 +1605,6 @@ msgstr "소음을 꺼립니다"
 
 msgid "Mitaka"
 msgstr "Mitaka"
-
-msgid "Mixing two unrelated functional changes."
-msgstr "두 개의 서로 관계가 없는 기능적 변경 사항을 혼합"
-
-msgid "Mixing whitespace changes with functional code changes."
-msgstr "공백 변경 사항과 기능적 코드 변경 사항을 혼합"
 
 msgid "Module contributors"
 msgstr "모듈 컨트리뷰터"
@@ -1982,10 +1926,6 @@ msgstr ":doc:`git` 가이드를 읽고 완료합니다."
 msgid "Read and complete the :doc:`irc` guide."
 msgstr ":doc:`irc` 가이드를 읽고 완료합니다."
 
-msgid "Read the commit message to see if it hints at improved code structure."
-msgstr ""
-"개선된 코드 구조에서 힌트가 있는지를 확인하기 위해 커밋 메시지를 읽습니다."
-
 msgid ""
 "Read through the presented individual member terms of service and our "
 "`Community Code of Conduct <https://www.openstack.org/legal/community-code-"
@@ -2081,9 +2021,6 @@ msgstr "Sahid Ferdjaoui (조교, 프랑스어, 영어)"
 msgid "Same as APC"
 msgstr "APC와 동일합니다"
 
-msgid "Schedule: http://eavesdrop.openstack.org/"
-msgstr "일정: http://eavesdrop.openstack.org/"
-
 msgid "Second day"
 msgstr "두 번째 날"
 
@@ -2095,9 +2032,6 @@ msgstr "세션 선택"
 
 msgid "Self-contained"
 msgstr "Self-contained"
-
-msgid "Sending large new features in a single giant commit."
-msgstr "커다란 새로운 기능을 거대한 단일 커밋으로 전송"
 
 msgid "Seoul, Korea"
 msgstr "한국, 서울"
@@ -2153,9 +2087,6 @@ msgstr "Upstream Training 슬라이드"
 
 msgid "Small issue with an easy workaround. Any other insignificant bug"
 msgstr "쉬운 해결책이 있는 작은 문제. 기타 사소한 버그"
-
-msgid "Small means quicker & easier"
-msgstr "작다는 것은 보다 빠르고 쉽다는 것을 의미합니다"
 
 msgid ""
 "Someone of authority needs to sign the `U.S. Government Contributor License "
@@ -2219,9 +2150,6 @@ msgstr "기능 추가를 중지하고 버그 수정에 집중합니다"
 
 msgid "String freeze"
 msgstr "문자열 프리징"
-
-msgid "Structural split of changes"
-msgstr "변화 사항에 대한 구조적인 파편"
 
 msgid "Submit presentations to OpenStack conferences."
 msgstr "OpenStack 컨퍼런스에 프리젠테이션 제출하기."
@@ -2357,9 +2285,6 @@ msgstr ""
 "반으로 합니다. 편리한 HTML5 슬라이드 형태로 Hieroglyph를 사용하여 변환하기 위"
 "해 RST 텍스트로 전환하였습니다."
 
-msgid "The first commit line is the most important."
-msgstr "첫 커밋 줄은 가장 중요합니다."
-
 msgid ""
 "The fix is included in the milestone-proposed branch, a past milestone or a "
 "past release"
@@ -2432,9 +2357,6 @@ msgstr ""
 "이 되어 있지 않은 개인은 알려지지 않은 동기 (자유로운 에이전트) 역할을 하는 "
 "것과 같은 업스트림 역할을 포함하여 다양한 측면을 나타내는 역할을 모두 수행할 "
 "것입니다."
-
-msgid "Things to avoid"
-msgstr "피해야 할 사항"
 
 msgid "This helps the i18n and Documentation projects"
 msgstr "이는 i18n과 문서화 프로젝트를 돕습니다"
@@ -3334,9 +3256,6 @@ msgstr "apt / yum / pip install … git review"
 msgid "ask a core developer or bug supervisor => Status: Triaged"
 msgstr "핵심 개발자 또는 버그 감독자에게 문의 => 상태: Triaged"
 
-msgid "blueprint"
-msgstr "blueprint"
-
 msgid "carrot by alerting people to the benefits"
 msgstr "구성원에게 이점을 알림으로써 주는 일종의 보상"
 
@@ -3445,9 +3364,6 @@ msgstr "https://wiki.openstack.org/wiki/Design_Summit/Planning"
 msgid "https://wiki.openstack.org/wiki/GitCommitMessages"
 msgstr "https://wiki.openstack.org/wiki/GitCommitMessages"
 
-msgid "https://wiki.openstack.org/wiki/Meetings"
-msgstr "https://wiki.openstack.org/wiki/Meetings"
-
 msgid "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
 msgstr "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
 
@@ -3516,9 +3432,6 @@ msgstr "직관적인 경우에는 선택적"
 msgid "patchset diffs"
 msgstr "patchset diff"
 
-msgid "push a wip or draft and invite reviewers"
-msgstr "wip 또는 draft를 push하고 검토자를 초대하기"
-
 msgid "quality of the OpenStack git history"
 msgstr "OpenStack git 이력에 대한 품질"
 
@@ -3549,17 +3462,8 @@ msgstr "단위 테스트 실행"
 msgid "security"
 msgstr "security"
 
-msgid "the code is self-evident/self-documenting."
-msgstr "코드만으로 자명하고 설명적으로 되어 있습니다."
-
 msgid "the contribution they plan to work on during the online sessions"
 msgstr "온라인 세션동안 작업하고자 계획하는 컨트리뷰션"
-
-msgid "the reviewer has access to external web services/site."
-msgstr "검토자는 외부 웹 서비스/사이트에 대한 접근을 갖고 있습니다."
-
-msgid "the reviewer understands what the original problem was."
-msgstr "검토자는 근원 문제가 무엇인지를 이해하고 있습니다."
 
 msgid "upload an ssh key"
 msgstr "ssh 키 업로드"

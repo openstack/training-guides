@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-28 03:20+0000\n"
+"POT-Creation-Date: 2016-09-29 10:17+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -39,13 +39,6 @@ msgstr "**公開鍵** - 接続したい SSH サーバーと自由に共有でき
 
 msgid "**Staff**"
 msgstr "**スタッフ**"
-
-msgid ""
-"**Still looking for help: please** `register <https://openstackfoundation."
-"formstack.com/forms/mentoring>`_"
-msgstr ""
-"**まだお手伝いを探しています: どうぞ** `登録 <https://openstackfoundation."
-"formstack.com/forms/mentoring>`_ してください。"
 
 msgid "179 countries"
 msgstr "179 か国"
@@ -608,14 +601,8 @@ msgstr "2 日目: コントリビューションの理論"
 msgid "Debugging"
 msgstr "デバッグ"
 
-msgid "Describe any limitations of the current code."
-msgstr "現在のコードにある何かしらの制限を説明します。"
-
 msgid "Describe the output produced by the OpenStack community teams"
 msgstr "OpenStack コミュニティーのチームにより作成されるアウトプットの説明"
-
-msgid "Describe why a change is being made"
-msgstr "なぜ変更されるのかを説明します。"
 
 msgid "Description"
 msgstr "説明"
@@ -640,9 +627,6 @@ msgstr "気が散っている人 : 1"
 
 msgid "Do not assume ..."
 msgstr "前提をおかない ..."
-
-msgid "Do not include patch set-specific comments."
-msgstr "パッチセット固有のコメントを含めない。"
 
 msgid "Do you work at a company?"
 msgstr "会社に勤めていますか?"
@@ -714,15 +698,6 @@ msgstr ""
 msgid "Each student group presents its slides to the class"
 msgstr "各受講者は、自身のスライドをクラスに発表します"
 
-msgid "Easier to bisect"
-msgstr "調査しやすく (bisect) する"
-
-msgid "Easier to browse"
-msgstr "探索しやすくする"
-
-msgid "Easier to revert"
-msgstr "元に戻しやすく (revert) する"
-
 msgid "Edit Nick Name Settings"
 msgstr "ニックネーム設定の編集"
 
@@ -749,9 +724,6 @@ msgstr "時間厳守"
 
 msgid "Engage immediately"
 msgstr "迅速な関わり"
-
-msgid "Ensure sufficient information to decide whether to review."
-msgstr "レビューできるかどうかを判断するために十分な情報を確認します。"
 
 msgid "Error report"
 msgstr "エラー報告"
@@ -951,11 +923,6 @@ msgid ""
 msgstr ""
 "Red Hat、Fedora 21 以前、CentOS 以前などのディストリビューションの場合、ター"
 "ミナルを開き、次のように入力します。"
-
-msgid ""
-"For more information about the past trainings and local upstream trainings, "
-"see :doc:`upstream-archives`."
-msgstr "これまでの開催の詳細は :doc:`upstream-archives` を参照してください。"
 
 msgid "For more information, see :doc:`upstream-details`."
 msgstr "詳細は :doc:`upstream-details` を参照してください。"
@@ -1397,12 +1364,6 @@ msgstr "個人メンバー：私たち全員"
 msgid "Individual snapshot"
 msgstr "個人のスナップショット"
 
-msgid "Information in commit messages (1/2)"
-msgstr "コミットメッセージの情報 (1/2)"
-
-msgid "Information in commit messages (2/2)"
-msgstr "コミットメッセージの情報 (2/2)"
-
 msgid "Infrastructure"
 msgstr "インフラストラクチャー"
 
@@ -1625,16 +1586,6 @@ msgstr ""
 msgid "Marton Kiss (training, mentoring, assistant)"
 msgstr "Marton Kiss (training, mentoring, assistant)"
 
-msgid ""
-"Marton Kiss will lead the next training in Austin, in English. Tools and "
-"processes for mentors and staff are kept on the `admin <https://wiki."
-"openstack.org/wiki/OpenStack_Upstream_Training/Admin>`_ page."
-msgstr ""
-"Marton Kiss さんが次回の Austin トレーニングをリードします。コースは英語で行"
-"われます。メンターやスタッフ向けのツールやプロセスは `admin <https://wiki."
-"openstack.org/wiki/OpenStack_Upstream_Training/Admin>`_ ページにまとめられて"
-"います。"
-
 msgid "Master the technical tools"
 msgstr "技術的なツールの習熟"
 
@@ -1670,12 +1621,6 @@ msgstr "雑音を気にする"
 
 msgid "Mitaka"
 msgstr "Mitaka"
-
-msgid "Mixing two unrelated functional changes."
-msgstr "関連性のない 2 つの機能的な変更の混在"
-
-msgid "Mixing whitespace changes with functional code changes."
-msgstr "コードの機能変更と空白の変更の混在"
 
 msgid "Module contributors"
 msgstr "モジュールのコントリビューター"
@@ -1996,11 +1941,6 @@ msgstr ":doc:`git` ガイドを参照して、完了しておいてください�
 msgid "Read and complete the :doc:`irc` guide."
 msgstr ":doc:`irc` ガイドを参照して、完了しておいてください。"
 
-msgid "Read the commit message to see if it hints at improved code structure."
-msgstr ""
-"改善されたコードの構造におけるヒントを参照するために、コミットメッセージを読"
-"む"
-
 msgid ""
 "Read through the presented individual member terms of service and our "
 "`Community Code of Conduct <https://www.openstack.org/legal/community-code-"
@@ -2097,9 +2037,6 @@ msgstr "Sahid Ferdjaoui (assistant, french, english)"
 msgid "Same as APC"
 msgstr "APC と同じ"
 
-msgid "Schedule: http://eavesdrop.openstack.org/"
-msgstr "スケジュール: http://eavesdrop.openstack.org/"
-
 msgid "Second day"
 msgstr "2 日目"
 
@@ -2111,9 +2048,6 @@ msgstr "セッションの選択"
 
 msgid "Self-contained"
 msgstr "自己完結"
-
-msgid "Sending large new features in a single giant commit."
-msgstr "巨大なコミットにおける新機能の大規模な追加"
 
 msgid "Seoul, Korea"
 msgstr "韓国 ソウル"
@@ -2169,9 +2103,6 @@ msgstr "Upstream Training のスライド"
 
 msgid "Small issue with an easy workaround. Any other insignificant bug"
 msgstr "簡単な回避方法のある軽微な問題。その他の重要ではないバグ"
-
-msgid "Small means quicker & easier"
-msgstr "小さいことは、より早くてより簡単になることを意味します"
 
 msgid ""
 "Someone of authority needs to sign the `U.S. Government Contributor License "
@@ -2235,9 +2166,6 @@ msgstr "機能の追加の停止、バグ修正への集中"
 
 msgid "String freeze"
 msgstr "ストリングフリーズ"
-
-msgid "Structural split of changes"
-msgstr "変更の構造的な分割"
 
 msgid "Submit presentations to OpenStack conferences."
 msgstr "OpenStack カンファレンスへのプレゼンテーションの提出"
@@ -2373,9 +2301,6 @@ msgstr ""
 "供した資料が基となっています。  Hieroglyph により使いやすいHTML5 スライドに変"
 "換するため、 RST テキストに変換されています。"
 
-msgid "The first commit line is the most important."
-msgstr "コミットの 1 行目はもっとも重要です。"
-
 msgid ""
 "The fix is included in the milestone-proposed branch, a past milestone or a "
 "past release"
@@ -2449,9 +2374,6 @@ msgstr ""
 "Foundation や TCT といったアップストリームの役割、企業や不明な動機で活動する"
 "無所属の個人（フリーエージェント）といったコントリビューターの役割も含まれま"
 "す。"
-
-msgid "Things to avoid"
-msgstr "避けるべきこと"
 
 msgid "This helps the i18n and Documentation projects"
 msgstr "I18n と Documentation プロジェクトに役立つ"
@@ -3386,9 +3308,6 @@ msgid "ask a core developer or bug supervisor => Status: Triaged"
 msgstr ""
 "コア開発者やバグスーパーバイザーによる確認 ⇒ 状態: トリアージド (Triaged)"
 
-msgid "blueprint"
-msgstr "ブループリント"
-
 msgid "carrot by alerting people to the benefits"
 msgstr "人々に有益性を知らせることによる報酬 (carrot)"
 
@@ -3498,9 +3417,6 @@ msgstr "https://wiki.openstack.org/wiki/Design_Summit/Planning"
 msgid "https://wiki.openstack.org/wiki/GitCommitMessages"
 msgstr "https://wiki.openstack.org/wiki/GitCommitMessages"
 
-msgid "https://wiki.openstack.org/wiki/Meetings"
-msgstr "https://wiki.openstack.org/wiki/Meetings"
-
 msgid "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
 msgstr "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
 
@@ -3569,9 +3485,6 @@ msgstr "複雑でなければオプション"
 msgid "patchset diffs"
 msgstr "パッチセットの差分"
 
-msgid "push a wip or draft and invite reviewers"
-msgstr "WIP かドラフトをプッシュして、レビューアーを招待します"
-
 msgid "quality of the OpenStack git history"
 msgstr "OpenStack git 履歴の品質"
 
@@ -3602,17 +3515,8 @@ msgstr "ユニットテストの実行"
 msgid "security"
 msgstr "security"
 
-msgid "the code is self-evident/self-documenting."
-msgstr "コードは、それ自身が明白である、自己ドキュメント化している"
-
 msgid "the contribution they plan to work on during the online sessions"
 msgstr "オンラインセッション中に手がけようとしているコントリビューションの計画"
-
-msgid "the reviewer has access to external web services/site."
-msgstr "レビューアーは外部の Web サービスやサイトにアクセスできる"
-
-msgid "the reviewer understands what the original problem was."
-msgstr "レビューアーは元の問題が何かを理解している"
 
 msgid "upload an ssh key"
 msgstr "SSH 鍵のアップロード"

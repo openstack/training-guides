@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-28 03:20+0000\n"
+"POT-Creation-Date: 2016-09-29 10:17+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -43,13 +43,6 @@ msgstr ""
 
 msgid "**Staff**"
 msgstr "**Staff**"
-
-msgid ""
-"**Still looking for help: please** `register <https://openstackfoundation."
-"formstack.com/forms/mentoring>`_"
-msgstr ""
-"**Sto ancora cercando aiuto: per favore** `regitrati <https://"
-"openstackfoundation.formstack.com/forms/mentoring>`_"
 
 msgid "179 countries"
 msgstr "179 paesi"
@@ -548,14 +541,8 @@ msgstr "Giorno 2: La teoria della collaborazione"
 msgid "Debugging"
 msgstr "IL debugging"
 
-msgid "Describe any limitations of the current code."
-msgstr "Descrivi ogni limitazione del codice attuale."
-
 msgid "Describe the output produced by the OpenStack community teams"
 msgstr "Descrivi l'output prodotto dai gruppi della comunità OpenStack"
-
-msgid "Describe why a change is being made"
-msgstr "Descrivi perchè viene fatta una modifica"
 
 msgid "Description"
 msgstr "Descrizione"
@@ -583,10 +570,6 @@ msgstr "Distratto : 1"
 
 msgid "Do not assume ..."
 msgstr "Non assumere ..."
-
-#, fuzzy
-msgid "Do not include patch set-specific comments."
-msgstr "Non includere commenti relativi al set di patch."
 
 msgid "Do you work at a company?"
 msgstr "Lavori in un'azienda?"
@@ -631,15 +614,6 @@ msgstr ""
 msgid "Each student group presents its slides to the class"
 msgstr "Ciascun gruppo di studenti presenta le proprie diapositive alla classe"
 
-msgid "Easier to bisect"
-msgstr "Facile da dividere"
-
-msgid "Easier to browse"
-msgstr "Facile da cercare"
-
-msgid "Easier to revert"
-msgstr "Facile da riprestinare"
-
 msgid "Edit Nick Name Settings"
 msgstr "Modifica le configurazioni del nick name"
 
@@ -666,9 +640,6 @@ msgstr "Fine del tempo"
 
 msgid "Engage immediately"
 msgstr "Impegnati subito"
-
-msgid "Ensure sufficient information to decide whether to review."
-msgstr "Assicura informazioni sufficienti per decidere se fare la revisione."
 
 msgid "Error report"
 msgstr "Segnalazione di errore"
@@ -879,13 +850,6 @@ msgid ""
 msgstr ""
 "Per distribuzioni come RedHat, Fedora 21 o precedenti, o CentOS apri un "
 "terminale e digita::"
-
-msgid ""
-"For more information about the past trainings and local upstream trainings, "
-"see :doc:`upstream-archives`."
-msgstr ""
-"Per maggiori informazioni riguardo i tutoraggi e gli upstream trainings "
-"locali precedenti, dai un'occhiata a :doc:`upstream-archives`."
 
 msgid "For more information, see :doc:`upstream-details`."
 msgstr "Per maggiori informazioni, dai un'occhiata a :doc:`upstream-details`."
@@ -1285,12 +1249,6 @@ msgstr "Singoli membri: tutti noi"
 msgid "Individual snapshot"
 msgstr "Snapshot individuale"
 
-msgid "Information in commit messages (1/2)"
-msgstr "Informazione nei messaggi di commit (1/2)"
-
-msgid "Information in commit messages (2/2)"
-msgstr "Informazione nei messaggi di commit (2/2)"
-
 msgid "Infrastructure"
 msgstr "Infrastruttura"
 
@@ -1496,15 +1454,6 @@ msgstr ""
 msgid "Marton Kiss (training, mentoring, assistant)"
 msgstr "Marton Kiss (formazione, tutoraggio, assistenza)"
 
-msgid ""
-"Marton Kiss will lead the next training in Austin, in English. Tools and "
-"processes for mentors and staff are kept on the `admin <https://wiki."
-"openstack.org/wiki/OpenStack_Upstream_Training/Admin>`_ page."
-msgstr ""
-"Martin Kiss guiderà il prossimo training ad Austin, in inglese. Gli "
-"strumenti e processi per i mentori e staff sono tenuti sul sito `admin "
-"<https://wiki.openstack.org/wiki/OpenStack_Upstream_Training/Admin>`_"
-
 msgid "Master the technical tools"
 msgstr "Padroneggia gli strumenti tecnici"
 
@@ -1537,12 +1486,6 @@ msgstr "Milestone: Milestone nel quale il bug è stato corretto"
 
 msgid "Mind the noise"
 msgstr "Fare attenzione al rumore"
-
-msgid "Mixing two unrelated functional changes."
-msgstr "Mischiare due modifiche funzionali non collegate fra di loro."
-
-msgid "Mixing whitespace changes with functional code changes."
-msgstr "Mischiare modifiche di spazio con modifiche di codice funzionale."
 
 #, fuzzy
 msgid "Module contributors"
@@ -1825,11 +1768,6 @@ msgstr "Leggi e completa il :doc: guida `git`"
 msgid "Read and complete the :doc:`irc` guide."
 msgstr "Leggi e completa il :doc: guida `irc`."
 
-msgid "Read the commit message to see if it hints at improved code structure."
-msgstr ""
-"Leggi il messaggio di commit per vedere se accenna a una migliore struttura "
-"del codice."
-
 msgid ""
 "Read through the presented individual member terms of service and our "
 "`Community Code of Conduct <https://www.openstack.org/legal/community-code-"
@@ -1925,9 +1863,6 @@ msgstr "Sahid Ferdjaoui (assistente, francese, inglese)"
 msgid "Same as APC"
 msgstr "Così come APC"
 
-msgid "Schedule: http://eavesdrop.openstack.org/"
-msgstr "Programma: http://eavesdrop.openstack.org/"
-
 msgid "Second day"
 msgstr "Secondo giorno"
 
@@ -1939,9 +1874,6 @@ msgstr "Selezione delle sessioni"
 
 msgid "Self-contained"
 msgstr "Autosufficiente"
-
-msgid "Sending large new features in a single giant commit."
-msgstr "Inviare nuove grandi funzionalità in un singolo commit gigante."
 
 msgid "Seoul, Korea"
 msgstr "Seoul, Korea"
@@ -2000,9 +1932,6 @@ msgstr ""
 "Piccolo problema con una semplice soluzione. Qualsiasi altro bug poco "
 "significanti"
 
-msgid "Small means quicker & easier"
-msgstr "Piccolo segnifica più veloce & più facile"
-
 msgid ""
 "Someone of authority needs to sign the `U.S. Government Contributor License "
 "Agreement <https://wiki.openstack.org/wiki/GovernmentCLA>`_. Contact the "
@@ -2049,9 +1978,6 @@ msgstr "Smetti di aggiungere feature e concentrati sulla correzione di bug"
 
 msgid "String freeze"
 msgstr "Le stringhe si fermano"
-
-msgid "Structural split of changes"
-msgstr "Divisione strutturale delle modifiche"
 
 msgid "Submit presentations to OpenStack conferences."
 msgstr "Inviare presentazioni alle conferenze di OpenStack."
@@ -2189,9 +2115,6 @@ msgstr ""
 "come file ODP. Convertiti in testo RST per essere convertiti da Hieroglyph "
 "in convenienti slide in HTML5."
 
-msgid "The first commit line is the most important."
-msgstr "La prima riga di codice è la più importante."
-
 msgid ""
 "The fix is included in the milestone-proposed branch, a past milestone or a "
 "past release"
@@ -2233,9 +2156,6 @@ msgid "These are HTML5 slides and should open with any modern web browser."
 msgstr ""
 "Queste sono slide in HTML5 e dovrebbero aprirsi con qualsisi browser web "
 "moderno."
-
-msgid "Things to avoid"
-msgstr "Cose da evitare"
 
 msgid "This helps the i18n and Documentation projects"
 msgstr "Questo aiuta i18n ed i progetti di documentazione "
@@ -3113,9 +3033,6 @@ msgstr ""
 "chiedi ad uno sviluppatore principale o al supervisore di bug => Stato: "
 "Confermato"
 
-msgid "blueprint"
-msgstr "blueprint"
-
 msgid "check for duplicates"
 msgstr "Controlla i duplicati"
 
@@ -3210,9 +3127,6 @@ msgstr "https://wiki.openstack.org/wiki/Design_Summit/Planning"
 msgid "https://wiki.openstack.org/wiki/GitCommitMessages"
 msgstr "https://wiki.openstack.org/wiki/GitCommitMessages"
 
-msgid "https://wiki.openstack.org/wiki/Meetings"
-msgstr "https://wiki.openstack.org/wiki/Meetings"
-
 msgid "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
 msgstr "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
 
@@ -3274,10 +3188,6 @@ msgstr "opzionale se lineare"
 msgid "patchset diffs"
 msgstr "patchset diffs"
 
-msgid "push a wip or draft and invite reviewers"
-msgstr ""
-"fai il push di un lavoro in corso oppure una bozza ed invita dei revisori"
-
 msgid "quality of the OpenStack git history"
 msgstr "qualità della git history di OpenStack"
 
@@ -3307,15 +3217,6 @@ msgstr "eseguire test unitari"
 
 msgid "security"
 msgstr "sicurezza"
-
-msgid "the code is self-evident/self-documenting."
-msgstr "Il codice è evidente/auto-documentante."
-
-msgid "the reviewer has access to external web services/site."
-msgstr "il revisore ha accesso a servizi web/siti esterni."
-
-msgid "the reviewer understands what the original problem was."
-msgstr "il revisore capisce quale era il proble di origine."
 
 msgid "upload an ssh key"
 msgstr "carica una chiave ssh"
