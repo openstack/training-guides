@@ -9,17 +9,21 @@ OpenStack Training Guides - Associate Guide
 Modules
 =======
 
-- `Getting started <01-getting-started.html>`_
-- `Using with horizon <03-using-with-horizon.html>`_
-- `Using with CLI <04-using-with-cli.html>`_
-- `OpenStack networking <07-associate-network-node.html>`_
-- `OpenStack compute <compute-overview.html>`_
+.. toctree::
+   :maxdepth: 1
+
+   01-getting-started.rst
+   Using with horizon <03-using-with-horizon.rst>
+   Using with CLI <04-using-with-cli.rst>
+   OpenStack Networking <07-associate-network-node.rst>
+   OpenStack Compute <compute-overview.rst>
 
 
 Quizzes
 =======
 
-- `Getting started quiz <02-getting-started-quiz.html>`_
-- `Compute node <06-compute-node-quiz.html>`_
+.. toctree::
+   :maxdepth: 1
 
-
+   Getting started quiz <02-getting-started-quiz.rst>
+   Compute node <06-compute-node-quiz.rst>

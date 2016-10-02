@@ -5,6 +5,14 @@ Getting started quiz
    :class: fill
    :width: 100%
 
+.. We use notes/02-getting-started by including it.
+   To avoid sphinx warning, we need to have it in some toctree.
+
+.. toctree::
+   :hidden:
+
+   notes/02-getting-started.rst
+
 Getting started quiz questions
 ------------------------------
 
