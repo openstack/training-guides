@@ -24,6 +24,9 @@ else
     NUMBER_OF_CORES=2
 fi
 
+# This marker is needed for infra publishing
+MARKER_TEXT="Project: $ZUUL_PROJECT Ref: $ZUUL_REFNAME Build: $ZUUL_UUID"
+
 # upstream-training contains the HTML and slides contents
 
 # build upstream-training slides
@@ -73,6 +76,7 @@ for locale in `find ${DIRECTORY}/source/locale/ -maxdepth 1 -type d` ; do
     # move built guide to publish directory
     mkdir -p publish-docs/${language}/${DOCNAME}/
     rsync -a ${DIRECTORY}/build/slides/ publish-docs/${language}/${DOCNAME}/
+    echo $MARKER_TEXT > publish-docs/${language}/${DOCNAME}/.root-marker
 
     # remove newly created files
     git clean -f -q ${DIRECTORY}/source/locale/${language}/LC_MESSAGES/*.po
