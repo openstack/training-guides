@@ -6,28 +6,50 @@ OpenStack Upstream Training
    :class: fill
    :width: 100%
 
-.. slide::
+Introduction
+============
 
- * `OpenStack Release Cycle <01-release-cycle.html>`_
- * `Relevant actors <02-relevant-actors.html>`_
- * `OpenStack Governance <03-technical-committee.html>`_
- * `OpenStack "Big Tent" and tags <04-program-ecosystem.html>`_
- * `OpenStack Design Summit <05-design-summit.html>`_
- * `IRC meetings <06-irc-meetings.html>`_
+.. toctree::
+   :maxdepth: 1
 
-.. slide::
+   00-00-introduction.rst
+   00-01-openstack-as-software.rst
+   00-02-openstack-as-community.rst
 
- * `devstack.org <11-devstack.html>`_
- * `How to contribute <12-howtocontribute.html>`_
- * `launchpad.net <13-launchpad.html>`_
- * `review.openstack.org <14-gerrit.html>`_
+How OpenStack is made
+=====================
 
-.. slide::
+.. toctree::
+   :maxdepth: 1
 
- * `Branching model <15-branching-model.html>`_
- * `Reviewing <16-reviewing.html>`_
- * `Commit messages <17-commit-message.html>`_
- * `Jenkins <18-jenkins.html>`_
- * `Overview of the contribution process <19-training-contribution-process.html>`_
- * `Guide to SetUp and Push First Patch <20-setup-and-first-patch.html>`_
- * `Lego applied to Free Software contributions <21-training-agile-for-contributors.html>`_
+   01-release-cycle.rst
+   02-relevant-actors
+   03-technical-committee
+   04-official-openstack-projects
+   05-design-summit
+   06-irc-meetings
+
+Workflow of an OpenStack contribution and tools
+===============================================
+
+.. toctree::
+   :maxdepth: 1
+
+   11-devstack
+   12-howtocontribute
+   13-launchpad
+   14-gerrit
+   15-branching-model
+   16-reviewing
+   17-commit-message
+   18-jenkins
+
+The Contribution Process
+========================
+
+.. toctree::
+   :maxdepth: 1
+
+   19-training-contribution-process
+   20-setup-and-first-patch
+   21-training-agile-for-contributors
