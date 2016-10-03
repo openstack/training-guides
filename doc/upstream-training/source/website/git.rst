@@ -91,6 +91,21 @@ If you don't have pip installed already, follow the `installation documentation
 <https://pip.pypa.io/en/stable/installing/#installing-with-get-pip-py>`_ for
 pip.
 
+.. note::
+
+  Mac OS X El Capitan and macOS Sierra users might see an error
+  message like "Operation not permitted" when installing with the command.
+  In this case, there are two options to successfully install git-review.
+
+  Option 1: install using pip with more options::
+
+    pip install --install-option '--install-data=/usr/local' git-review
+
+  Option 2: Use the package manager `Homebrew <http://brew.sh>`_,
+  and type in a terminal::
+
+    brew install git-review
+
 Linux
 ^^^^^^
 
