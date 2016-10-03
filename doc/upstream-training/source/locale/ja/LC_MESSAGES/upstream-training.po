@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-29 10:17+0000\n"
+"POT-Creation-Date: 2016-10-02 17:58+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-09-27 03:25+0000\n"
+"PO-Revision-Date: 2016-10-02 05:54+0000\n"
 "Last-Translator: Akihiro Motoki <amotoki@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -123,6 +123,9 @@ msgid ""
 "participant"
 msgstr "開催 1 週間前: 各受講者によるコントリビューションの選択、メール経由"
 
+msgid "About the training"
+msgstr "トレーニングについて"
+
 msgid "Abstract"
 msgstr "概要"
 
@@ -156,6 +159,9 @@ msgid ""
 msgstr ""
 "参考情報を議事録に追加します。参加者は、重要な発言が議事録に記録されるよう、"
 "これを自由に使用すべきです。"
+
+msgid "Add files"
+msgstr "ファイルを追加します"
 
 msgid "Adrien Cunin (mentoring, assistant, french, english)"
 msgstr "Adrien Cunin (mentoring, assistant, french, english)"
@@ -445,6 +451,9 @@ msgstr "**info** アイコンをクリックします。"
 msgid "Click the **message user** icon and type::"
 msgstr "**message user** アイコンをクリックして、次のとおり入力します。::"
 
+msgid "Commit files and write commit message"
+msgstr "ファイルをコミットし、コミットメッセージを書きます"
+
 msgid "Commit messages"
 msgstr "コミットメッセージ"
 
@@ -478,6 +487,9 @@ msgstr "設定"
 
 msgid "Configure Git"
 msgstr "Git の設定"
+
+msgid "Configure your workspace"
+msgstr "作業場所を設定しましょう"
 
 msgid "Confirmed"
 msgstr "Confirmed"
@@ -580,11 +592,20 @@ msgstr "日付"
 msgid "Date: February 18, 2016 (Thu)"
 msgstr "日付: 2016年2月18日 (木)"
 
+msgid "Day 1"
+msgstr "1 日目"
+
 msgid "Day 1: How OpenStack is made"
 msgstr "1 日目: OpenStack はどのように作られているか"
 
+msgid "Day 1: Introduction"
+msgstr "1 日目: はじめに"
+
 msgid "Day 1: Learn and practice Git, Gerrit, IRC"
 msgstr "1 日目: Git、Gerrit、IRC の学習と習熟"
+
+msgid "Day 2"
+msgstr "2 日目"
 
 msgid "Day 2: Individual presentation of the contribution plan"
 msgstr "2 日目: コントリビューション計画の個人発表"
@@ -1549,6 +1570,9 @@ msgstr "Mac OS"
 msgid "Mac OS & Linux"
 msgstr "Mac OS & Linux"
 
+msgid "Make changes"
+msgstr "変更を行います"
+
 msgid "Make code contributions."
 msgstr "コードのコントリビューション"
 
@@ -1831,6 +1855,9 @@ msgstr "OpenStack Upstream Training アーカイブ"
 msgid "OpenStack Upstream Training Details"
 msgstr "OpenStack Upstream Training 詳細"
 
+msgid "OpenStack Upstream Training Introductions"
+msgstr "OpenStack Upstream Training の紹介"
+
 msgid "Opinion"
 msgstr "Opinion"
 
@@ -2022,6 +2049,9 @@ msgstr "Rossella Sblendido (assistant, Italian, English)"
 msgid "Run for elected positions in the OpenStack project."
 msgstr "OpenStack プロジェクトの、選挙が行われるポジションへの立候補"
 
+msgid "Run unit tests"
+msgstr "ユニットテストを実行します"
+
 msgid "SERIES-backport-potential"
 msgstr "SERIES-backport-potential"
 
@@ -2061,6 +2091,9 @@ msgstr ""
 
 msgid "Set a target milestone"
 msgstr "目標マイルストーンの設定"
+
+msgid "Setup & First Patch"
+msgstr "環境設定と最初のパッチ"
 
 msgid "Setup Gerrit Account"
 msgstr "Gerrit アカウントのセットアップ"
@@ -2929,6 +2962,9 @@ msgid ""
 msgstr ""
 "`ソフトウェアとしての OpenStack の紹介 <00-01-openstack-as-software.html>`_"
 
+msgid "`Introduction <00-00-introduction.html>`_"
+msgstr "`はじめに <00-00-introduction.html>`_"
+
 msgid ""
 "`Jenkins (Automated testing) <http://docs.openstack.org/infra/manual/"
 "developers.html#automated-testing>`_ (`slides <18-jenkins.html>`__)"
@@ -2943,6 +2979,13 @@ msgid ""
 "`Launchpad <https://help.launchpad.net/>`_ (`slides <13-launchpad.html>`__)"
 msgstr ""
 "`Launchpad <https://help.launchpad.net/>`_ (`slides <13-launchpad.html>`__)"
+
+msgid ""
+"`Lego applied to Free Software contributions <21-training-agile-for-"
+"contributors.html>`_"
+msgstr ""
+"`フリーソフトウェアのコントリビューションに適用する LEGO <21-training-agile-"
+"for-contributors.html>`_"
 
 msgid ""
 "`Liberty Summit Etherpads <https://wiki.openstack.org/wiki/Design_Summit/"
@@ -3169,6 +3212,9 @@ msgid ""
 msgstr ""
 "`Training guides <https://wiki.openstack.org/wiki/Training-guides#How_To>`_"
 
+msgid "`Training introduction <00-00-introduction.html>`__"
+msgstr "`トレーニングの紹介 <00-00-introduction.html>`__"
+
 msgid "`Translations <http://git.openstack.org/cgit/openstack/i18n/tree/>`_"
 msgstr "`翻訳 <http://git.openstack.org/cgit/openstack/i18n/tree/>`_"
 
@@ -3348,6 +3394,9 @@ msgstr "gerrit パッチセットの履歴"
 msgid "gerrit workflow"
 msgstr "gerrit ワークフロー"
 
+msgid "git checkout -b <branch_name>"
+msgstr "git checkout -b <branch_name>"
+
 msgid "git checkout -b TOPIC-BRANCH"
 msgstr "git checkout -b TOPIC-BRANCH"
 
@@ -3358,13 +3407,16 @@ msgid "git commit --amend"
 msgstr "git commit --amend"
 
 msgid "git config"
-msgstr "git 設定"
+msgstr "git config"
 
 msgid "git config --global user.email \"your_email@youremail.com\""
 msgstr "git config --global user.email \"your_email@youremail.com\""
 
 msgid "git config --global user.name \"Firstname Lastname\""
 msgstr "git config --global user.name \"Firstname Lastname\""
+
+msgid "git review"
+msgstr "git review"
 
 msgid "git review -s"
 msgstr "git review -s"
@@ -3417,6 +3469,9 @@ msgstr "https://wiki.openstack.org/wiki/Design_Summit/Planning"
 msgid "https://wiki.openstack.org/wiki/GitCommitMessages"
 msgstr "https://wiki.openstack.org/wiki/GitCommitMessages"
 
+msgid "https://wiki.openstack.org/wiki/IRC"
+msgstr "https://wiki.openstack.org/wiki/IRC"
+
 msgid "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
 msgstr "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
 
@@ -3451,6 +3506,9 @@ msgstr "id_ed25519.pub"
 
 msgid "id_rsa.pub"
 msgstr "id_rsa.pub"
+
+msgid "install git review"
+msgstr "git review のインストール"
 
 msgid "invite reviewers"
 msgstr "レビューアーの招待"
