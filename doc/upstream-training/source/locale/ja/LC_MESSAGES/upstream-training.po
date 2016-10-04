@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-02 17:58+0000\n"
+"POT-Creation-Date: 2016-10-03 15:02+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-10-02 05:54+0000\n"
+"PO-Revision-Date: 2016-10-04 04:49+0000\n"
 "Last-Translator: Akihiro Motoki <amotoki@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -39,6 +39,16 @@ msgstr "**公開鍵** - 接続したい SSH サーバーと自由に共有でき
 
 msgid "**Staff**"
 msgstr "**スタッフ**"
+
+msgid ""
+"**Sunday, October 23, 2016 at 1:00 p.m. to 5:00 p.m. - Monday, October 24, "
+"2016 at 10:00 a.m. to 4:00 p.m. (local time)**"
+msgstr ""
+"**2016 年 10 月 23 日(日) 午後 1:00 〜 午後 5:00、 10 月 24 日 (月) 午前 "
+"10:00 〜 午後 4:00 (現地時間)**"
+
+msgid "..."
+msgstr "..."
 
 msgid "179 countries"
 msgstr "179 か国"
@@ -161,7 +171,16 @@ msgstr ""
 "これを自由に使用すべきです。"
 
 msgid "Add files"
-msgstr "ファイルを追加します"
+msgstr "ファイルの追加"
+
+msgid ""
+"Add your details to the class etherpad (Specified on the actual training)"
+msgstr ""
+"各自の詳細をクラスの etherpad に記入してください (etherpad は実際のトレーニン"
+"グで指定されます)"
+
+msgid "Additional services built upon IaaS"
+msgstr "IaaS 上に構築されるサービス群"
 
 msgid "Adrien Cunin (mentoring, assistant, french, english)"
 msgstr "Adrien Cunin (mentoring, assistant, french, english)"
@@ -174,6 +193,9 @@ msgstr "最終マイルストーンの後"
 
 msgid "Agenda"
 msgstr "アジェンダ"
+
+msgid "Agile"
+msgstr "アジャイル"
 
 msgid "Agreeable : 2-3"
 msgstr "感じのよい人: 2-3"
@@ -220,6 +242,9 @@ msgstr ""
 msgid "Answer questions"
 msgstr "質問への回答"
 
+msgid "Application Catalog service"
+msgstr "Application Catalog サービス"
+
 msgid "Apply for individual membership and sign the CLA"
 msgstr "個人メンバー登録および CLA の署名"
 
@@ -228,6 +253,15 @@ msgstr "適切な修正"
 
 msgid "Archive and collect"
 msgstr "記録保管所と収集"
+
+msgid "Archives"
+msgstr "これまでの Upstream Training"
+
+msgid "Areas of interest"
+msgstr "興味のある分野"
+
+msgid "Ask questions during the class"
+msgstr "トレーニング中の質問に使います"
 
 msgid "Assess your approach"
 msgstr "自身のアプローチの評価"
@@ -259,6 +293,12 @@ msgid ""
 msgstr ""
 "プロンプトで、セキュリティのためのパスフレーズを入力します。パスフレーズを入"
 "力しない場合は、そのまま Enter キーを押します。"
+
+msgid "Attendees"
+msgstr "参加者"
+
+msgid "Attending regular meetings"
+msgstr "定期ミーティングに参加する"
 
 msgid "Auto-Login On Connecting To Freenode"
 msgstr "Frenode 接続時の自動ログイン"
@@ -359,6 +399,9 @@ msgstr "コミュニティーでソフトウェアを作成することは、と
 msgid "CEO : 1"
 msgstr "CEO : 1"
 
+msgid "CI"
+msgstr "CI"
+
 msgid "Candidacy for the corresponding program PTL election"
 msgstr "対応するプロジェクトの PTL 選挙への立候補"
 
@@ -386,6 +429,13 @@ msgstr "ノート PC から仮想マシンに SSH できることを確認して
 
 msgid "Choose a question"
 msgstr "質問の選択"
+
+msgid ""
+"Choose and type your username carefully. Once it is set, you cannot change "
+"the username."
+msgstr ""
+"ユーザー名の選択と入力は注意して行ってください。一度設定すると、ユーザー名は"
+"変更できません。"
 
 msgid "Choosing roles - Companies"
 msgstr "役割の選択 - カンパニー"
@@ -451,8 +501,17 @@ msgstr "**info** アイコンをクリックします。"
 msgid "Click the **message user** icon and type::"
 msgstr "**message user** アイコンをクリックして、次のとおり入力します。::"
 
+msgid "Clone and be familiar with the code"
+msgstr "コードを取得し、中身を知りましょう"
+
+msgid "Code"
+msgstr "コード"
+
+msgid "Collaboration tools"
+msgstr "コラボレーションツール"
+
 msgid "Commit files and write commit message"
-msgstr "ファイルをコミットし、コミットメッセージを書きます"
+msgstr "ファイルのコミットとコミットメッセージの作成"
 
 msgid "Commit messages"
 msgstr "コミットメッセージ"
@@ -489,7 +548,7 @@ msgid "Configure Git"
 msgstr "Git の設定"
 
 msgid "Configure your workspace"
-msgstr "作業場所を設定しましょう"
+msgstr "作業場所の設定"
 
 msgid "Confirmed"
 msgstr "Confirmed"
@@ -521,6 +580,9 @@ msgid ""
 msgstr ""
 "ユーザーの要望を集め、それらをボード会議や TC (技術委員会) に説明します"
 
+msgid "Contact Information"
+msgstr "連絡先情報"
+
 msgid "Contribution Planning (2 hours)"
 msgstr "コントリビューション計画 (2 時間)"
 
@@ -548,11 +610,17 @@ msgstr "コア : 5"
 msgid "Core reviewer"
 msgstr "コアレビューアー"
 
+msgid "Core services (Compute, Networking, Block and Object Storage, etc.)"
+msgstr "コアサービス (Compute, Networking, Block, Object Storage など)"
+
 msgid "Core team"
 msgstr "コアチーム"
 
 msgid "Course Outline"
 msgstr "コース概要"
+
+msgid "Create & push a Work in Progress (WIP) to the sandbox"
+msgstr "作業中のパッチ (Work in Progress; WIP) の作成と sandbox への投稿"
 
 msgid ""
 "Create a virtual machine on your laptop with Ubuntu 14.04 installed and 4+ "
@@ -640,11 +708,20 @@ msgstr "開発者"
 msgid "Developers read mostly, write occasionally"
 msgstr "開発者は、たいてい読み、ときどき書く"
 
+msgid "Different level of experience"
+msgstr "経験レベルが異なる人"
+
+msgid "Discuss the answers with the class"
+msgstr "意見をクラスで議論しましょう"
+
 msgid "Discuss upcoming features for the next release cycle"
 msgstr "次のリリースサイクルに向けて新しい機能を議論します"
 
 msgid "Distracted : 1"
 msgstr "気が散っている人 : 1"
+
+msgid "Distributions"
+msgstr "ディストリビューション"
 
 msgid "Do not assume ..."
 msgstr "前提をおかない ..."
@@ -661,6 +738,17 @@ msgid ""
 msgstr ""
 "アクション項目を議事録に記録します。発言に任意のニックネームを含めると、その"
 "項目がその人に割り当てられます（ニックネームは大文字小文字を区別します）。"
+
+msgid "Documentation"
+msgstr "ドキュメント"
+
+msgid "Documentation frameworks"
+msgstr "ドキュメントのフレームワーク"
+
+msgid "Does your company want you to work on something specific?"
+msgstr ""
+"あなたの会社があなたに取り組んでもらいたいと思っているプロジェクトはあります"
+"か？"
 
 msgid "Done"
 msgstr "完了"
@@ -705,6 +793,12 @@ msgstr "各カンパニー:"
 msgid "Each individual sets their own objective."
 msgstr "個人はそれぞれ、自信の目的を設定します。"
 
+msgid "Each project has its own culture"
+msgstr "各プロジェクトにはそれぞれの文化があります"
+
+msgid "Each project has its own purpose"
+msgstr "各プロジェクトにはそれぞれの目的があります"
+
 msgid ""
 "Each project team page shows its release policy on http://governance."
 "openstack.org/reference/projects"
@@ -718,6 +812,9 @@ msgstr ""
 
 msgid "Each student group presents its slides to the class"
 msgstr "各受講者は、自身のスライドをクラスに発表します"
+
+msgid "Ecosystem for collaboration"
+msgstr "コラボレーションのためのエコシステム"
 
 msgid "Edit Nick Name Settings"
 msgstr "ニックネーム設定の編集"
@@ -755,8 +852,17 @@ msgstr "Etherpad"
 msgid "Etherpads"
 msgstr "Etherpad"
 
+msgid "Events"
+msgstr "イベント"
+
+msgid "Example:"
+msgstr "例:"
+
 msgid "Exercise"
 msgstr "演習"
+
+msgid "Exercise - Collect items with your group to the two questions below:"
+msgstr "演習 - 以下の 2 つの質問に関してグループで意見を集めましょう"
 
 msgid ""
 "Exercise: Add a session proposal regarding your contribution in an etherpad, "
@@ -818,6 +924,9 @@ msgstr "演習: ドラフトのコミットメッセージの相互レビュー"
 msgid "Exercise: review other launchpad bugs and improve yours"
 msgstr "演習: 他の launchpad バグの参照および自身のものの改善"
 
+msgid "Experience with OpenStack if any"
+msgstr "OpenStack の経験 (なくても構いません)"
+
 msgid "Explain what you do"
 msgstr "何をしているかを説明する"
 
@@ -864,10 +973,19 @@ msgstr "見つけたすべてのバグを投稿する"
 msgid "File new blueprints and/or specs"
 msgstr "新規ブループリントおよびスペックの登録"
 
+msgid "Filing a blueprint/spec"
+msgstr "blueprint や spec を登録する"
+
+msgid "Filing, fixing, and triaging bugs"
+msgstr "バグの登録、修正、仕分けを行う"
+
 msgid ""
 "Fill in your email address, name, password, and accepting the terms of "
 "services."
 msgstr "メールアドレス、名前、パスワードを入力し、利用規約に同意をします。"
+
+msgid "Fill your contact information and click 'Save Changes'."
+msgstr "あなたの連絡先情報を入力して、 'Save Changes' をクリックします。"
 
 msgid "First day"
 msgstr "1 日目"
@@ -898,11 +1016,20 @@ msgstr "OpenStack の運用を非常に容易にするバグ修正。"
 msgid "Fix the documentation"
 msgstr "ドキュメントの修正"
 
+msgid "Flexibility"
+msgstr "柔軟性"
+
 msgid "Focus on bug-fixing"
 msgstr "バグ修正への注力"
 
 msgid "Focus on what we want to do for the next one"
 msgstr "次に実行したいことに注力"
+
+msgid ""
+"Following and participating in project related mail threads in the mailing "
+"list"
+msgstr ""
+"メーリングリストのプロジェクトに関連するメールスレッドを読み、議論に参加する"
 
 msgid "For Fedora 22 or later open a terminal and type::"
 msgstr "Fedora 22 以降の場合、ターミナルを開いて次のとおり入力します。::"
@@ -945,6 +1072,21 @@ msgstr ""
 "Red Hat、Fedora 21 以前、CentOS 以前などのディストリビューションの場合、ター"
 "ミナルを開き、次のように入力します。"
 
+msgid ""
+"For more information about the past trainings and the local upstream "
+"trainings, see :doc:`upstream-archives`."
+msgstr ""
+"これまでのトレーニングや地域毎の Upstream Training の情報は、 :doc:`upstream-"
+"archives` にあります。"
+
+msgid ""
+"For more information and registration, see the `OpenStack Academy page "
+"<https://www.openstack.org/summit/barcelona-2016/openstack-academy/>`_."
+msgstr ""
+"詳しい情報と登録方法については `OpenStack Academy のページ <https://www."
+"openstack.org/summit/barcelona-2016/openstack-academy/>`_ を参照してくださ"
+"い。"
+
 msgid "For more information, see :doc:`upstream-details`."
 msgstr "詳細は :doc:`upstream-details` を参照してください。"
 
@@ -961,11 +1103,20 @@ msgstr "**Chat server** に **irc.freenode.net** を入力します。"
 msgid "Forbidden"
 msgstr "禁止"
 
+msgid "Form groups of 4 (Actual group size depends on the class size)"
+msgstr "4 人のグループを作ります (実際の人数はクラスのサイズ次第)"
+
 msgid "Foundation, technical committee, and board members"
 msgstr "Foundation、TC、ボードメンバー"
 
+msgid "Four \"open\"s"
+msgstr "4 つの「オープン」"
+
 msgid "Four sprints of 30 mins:"
 msgstr "4 回の 30 分スプリント:"
+
+msgid "Framework"
+msgstr "フレームワーク"
 
 msgid "François Bureau (assistant, french, english)"
 msgstr "François Bureau (assistant, french, english)"
@@ -978,6 +1129,9 @@ msgstr ""
 "フリーエージェント : 菜園、自転車道、公共のアートワーク、遊び場など、コミュニ"
 "ティーに関わる施設。物議をかもすエージェントは、牢屋やスケートボウル、ドッグ"
 "パークなどの問題ある施設。"
+
+msgid "Freenode"
+msgstr "Freenode"
 
 msgid ""
 "From here on out when you sign into Gerrit, you'll be prompted to enter your "
@@ -1036,6 +1190,9 @@ msgstr ""
 
 msgid "Get the code for the targeted contribution"
 msgstr "コントリビューション予定のコードの取得"
+
+msgid "Getting to Know Your Project"
+msgstr "プロジェクトを知ろう"
 
 msgid "Git"
 msgstr "Git"
@@ -1122,6 +1279,9 @@ msgstr "Governance/TechnicalCommittee#Meeting"
 msgid "Haikel Guemar (assistant, mentor, french, english)"
 msgstr "Haikel Guemar (assistant, mentor, french, english)"
 
+msgid "Have one mentor sit together with each group"
+msgstr "各グループにメンターが 1 人入ります"
+
 msgid ""
 "Having at least 8 hours a week to dedicate to the project, be it through "
 "programming or through interacting with the community"
@@ -1154,8 +1314,20 @@ msgstr "コントリビューション方法"
 msgid "How to contribute (`slides <14-gerrit.html>`__)"
 msgstr "貢献方法 (`スライド <14-gerrit.html>`__)"
 
+msgid "How to deploy OpenStack"
+msgstr "OpenStack のデプロイ方法"
+
 msgid "How to prepare"
 msgstr "準備方法"
+
+msgid "How to prepare for different exams"
+msgstr "他の試験に向けた準備"
+
+msgid "How to use OpenStack"
+msgstr "OpenStack の使い方"
+
+msgid "IRC"
+msgstr "IRC"
 
 msgid "IRC meetings"
 msgstr "IRC ミーティング"
@@ -1216,6 +1388,12 @@ msgid "If you are contributing on behalf of a company or organization."
 msgstr "企業や組織の役割として貢献する場合。"
 
 msgid ""
+"If you do not register your contact information, you cannot upload your any "
+"changes to Gerrit."
+msgstr ""
+"連絡先情報を登録していない場合、 Gerrit に変更をアップロードできません。"
+
+msgid ""
 "If you don't have pip installed already, follow the `installation "
 "documentation <https://pip.pypa.io/en/stable/installing/#installing-with-get-"
 "pip-py>`_ for pip."
@@ -1264,6 +1442,9 @@ msgstr ""
 msgid "Ildiko Vancsa - ildikov - Telemetry (mentoring, assistant)"
 msgstr "Ildiko Vancsa - ildikov - Telemetry (mentoring, assistant)"
 
+msgid "Ildiko Vancsa, Kendall Nelson, Mark Korondi, and Marton Kiss"
+msgstr "Ildiko Vancsa, Kendall Nelson, Mark Korondi, Marton Kiss"
+
 msgid "Impact was not assessed yet"
 msgstr "影響がまだ確認されていない"
 
@@ -1275,6 +1456,9 @@ msgstr "実装 : 凍結"
 
 msgid "Implementations that are Core can use OpenStack trademark (OpenStack™)"
 msgstr "コアサービスの実装は OpenStack の商標 (OpenStack™) を使用できます"
+
+msgid "Implementing a blueprint/spec"
+msgstr "blueprint や spec を実装する"
 
 msgid "Import Public Key Into Gerrit"
 msgstr "Public Key の Gerrit へのインポート"
@@ -1388,6 +1572,12 @@ msgstr "個人のスナップショット"
 msgid "Infrastructure"
 msgstr "インフラストラクチャー"
 
+msgid "Infrastructure as a Service (IaaS)"
+msgstr "Infrastructure as a Service (IaaS)"
+
+msgid "Infrastructure for"
+msgstr "さまざまなインフラ"
+
 msgid "Inline comments"
 msgstr "インラインコメント"
 
@@ -1412,7 +1602,16 @@ msgstr "組織メンバー：プラチナスポンサーおよびゴールドス
 msgid "Integrated projects were also tested together at the gate"
 msgstr "統合プロジェクトは、ゲートで一緒にテストされていた"
 
+msgid "Interacting with the Project"
+msgstr "プロジェクトに関わろう"
+
+msgid "Interactive, hands-on class"
+msgstr "対話型のハンズオン"
+
 msgid "Introduction"
+msgstr "はじめに"
+
+msgid "Introductions"
 msgstr "はじめに"
 
 msgid "Invalid"
@@ -1420,6 +1619,12 @@ msgstr "Invalid"
 
 msgid "Irena Berezovsky (assistant, mentor, english)"
 msgstr "Irena Berezovsky (assistant, mentor, english)"
+
+msgid "It is about"
+msgstr "ここで扱うこと"
+
+msgid "It is not about"
+msgstr "ここでは扱わないこと"
 
 msgid "Japan OpenStack User Group has held the Upstream Training in Japan."
 msgstr "日本OpenStackユーザ会は、日本版 Upstream Training を開催してきました。"
@@ -1433,6 +1638,15 @@ msgstr "Jieun Kim (assistant)"
 msgid "Join irc.freenode.net#upstream-university"
 msgstr "irc.freenode.net#upstream-university に参加してください。"
 
+msgid "Join the #openstack-101 channel"
+msgstr "#openstack-101 チャンネルに参加してください"
+
+msgid "Join the openstack-dev mailing list"
+msgstr "openstack-dev メーリングリストに参加する"
+
+msgid "Join the project's IRC channel"
+msgstr "プロジェクトの IRC チャンネルに参加する"
+
 msgid "Julie Pichon (training, mentoring, assistant, english)"
 msgstr "Julie Pichon (training, mentoring, assistant, english)"
 
@@ -1441,6 +1655,9 @@ msgstr "2016 年 7 月 6 - 7 日 (水 - 木 )"
 
 msgid "July 9 - 10, 2015 (Thu - Fri)"
 msgstr "2015 年 7 月 9 - 10 日 (木 - 金)"
+
+msgid "Jump on IRC"
+msgstr "IRC に入ろう"
 
 msgid "Jungsu Han (assistant, mentoring)"
 msgstr "Jungsu Han (assistant, mentoring)"
@@ -1472,6 +1689,12 @@ msgstr ""
 "す。また、そのアカウントは OpenStack のコードレビューシステムで、我々を識別す"
 "るためのものです。"
 
+msgid "Learn about the community"
+msgstr "コミュニティーについて学びます"
+
+msgid "Learn how to participate in OpenStack"
+msgstr "OpenStack に参加する方法を学びます"
+
 msgid "Learn what distinguishes good work flow from bad work flow"
 msgstr "良いワークフローと悪いワークフローの違いを学習する。"
 
@@ -1497,6 +1720,9 @@ msgstr ""
 "フリーソフトウェアのコントリビューションを適用した LEGO (`スライド <20-"
 "training-agile-for-contributors.html>`__)"
 
+msgid "Let's get started!!!"
+msgstr "さあ、始めましょう!"
+
 msgid "Let's play!"
 msgstr "さあ、始めよう!"
 
@@ -1517,9 +1743,14 @@ msgstr ""
 msgid "Liberty"
 msgstr "Liberty"
 
+msgid "Life in and around OpenStack"
+msgstr "OpenStack にまつわる活動"
+
+#, fuzzy
 msgid "Like OpenStack, there are:"
 msgstr "OpenStack のように、以下のような関係者もいます : "
 
+#, fuzzy
 msgid "Like any software project, there are:"
 msgstr ""
 "あらゆるソフトウェアプロジェクトのように、以下のような関係者がいます : "
@@ -1555,6 +1786,9 @@ msgstr "Loic Dachary (training, mentoring, assistant, french, english)"
 msgid "Loic Dachary (training, mentoring, assistant, french, english) - lead"
 msgstr "Loic Dachary (training, mentoring, assistant, french, english) - lead"
 
+msgid "Look at open reviews"
+msgstr "レビュー中の変更を見る"
+
 msgid "Low"
 msgstr "Low (低)"
 
@@ -1571,7 +1805,7 @@ msgid "Mac OS & Linux"
 msgstr "Mac OS & Linux"
 
 msgid "Make changes"
-msgstr "変更を行います"
+msgstr "何らかの変更"
 
 msgid "Make code contributions."
 msgstr "コードのコントリビューション"
@@ -1628,8 +1862,14 @@ msgstr "ミーティングアジェンダ"
 msgid "Meetings"
 msgstr "ミーティング"
 
+msgid "Mentors/helpers"
+msgstr "メンター/助手"
+
 msgid "Merged in the master branch first"
 msgstr "まず master ブランチにマージされる"
+
+msgid "Methodologies"
+msgstr "手法"
 
 msgid "Milestone"
 msgstr "マイルストーン"
@@ -1643,11 +1883,17 @@ msgstr "マイルストーン (Milestone): バグが修正されたマイルス�
 msgid "Mind the noise"
 msgstr "雑音を気にする"
 
+msgid "Mission"
+msgstr "ミッション"
+
 msgid "Mitaka"
 msgstr "Mitaka"
 
 msgid "Module contributors"
 msgstr "モジュールのコントリビューター"
+
+msgid "More information: Governance page"
+msgstr "詳しい情報は Governance のページにあります"
 
 msgid "More information: http://openstackdays.com/archive/2015/feature/"
 msgstr "詳細: http://openstackdays.com/archive/2015/feature/"
@@ -1680,6 +1926,9 @@ msgstr "2,000 万行以上のコード"
 msgid "More than 20,000 patches"
 msgstr "20,000 以上のパッチ"
 
+msgid "Most of the OpenStack services"
+msgstr "ほとんどの OpenStack サービス"
+
 msgid "Most of the projects now manage blueprints on a git repo called specs"
 msgstr ""
 "ほとんどのプロジェクトは、specs という git リポジトリーにおいてブループリント"
@@ -1690,6 +1939,12 @@ msgstr "最新リリース (\"Mitaka\") の統計:"
 
 msgid "Motions"
 msgstr "動議"
+
+msgid "NFV = Network Function Virtualization"
+msgstr "NFV = Network Function Virtualization (ネットワーク機能の仮想化)"
+
+msgid "Name, current role, company"
+msgstr "名前、現在の役割、会社"
 
 msgid "Namgon Lucas Kim (assistant, mentoring)"
 msgstr "Namgon Lucas Kim (assistant, mentoring)"
@@ -1802,22 +2057,33 @@ msgstr ""
 "を開き、以下のコマンドにあなたの姓、名、電子メールを入力します。"
 
 msgid ""
+"Once your contact information is saved successfully, you will see the line **"
+"\"Contact information last updated ....\"** just above the forms of mailing "
+"address."
+msgstr ""
+"連絡先情報の保存に成功すると、郵便での住所 (mailing address) の入力欄のすぐ上"
+"に **\"Contact information last updated ...\"** という行が表示されます。"
+
+msgid ""
 "Online section: 10 one-hour individual mentoring sessions over a period of 4 "
 "to 10 weeks"
 msgstr ""
 "オンラインセッション: 4 ～ 10 週間にわたる 10 回の 1 時間の個人メンタリング"
 
 msgid "Open Community"
-msgstr "オープンコミュニティー"
+msgstr "オープンなコミュニティー"
 
 msgid "Open Design"
-msgstr "オープン設計"
+msgstr "オープンな設計"
 
 msgid "Open Development"
-msgstr "オープン開発"
+msgstr "オープンな開発"
 
 msgid "Open Source"
 msgstr "オープンソース"
+
+msgid "Open collaboration"
+msgstr "オープンコラボレーション"
 
 msgid "Open discussions, chairs organized in concentric rings"
 msgstr "議題に集中した、オープンな議論、チェアーによる整理"
@@ -1825,11 +2091,17 @@ msgstr "議題に集中した、オープンな議論、チェアーによる整
 msgid "Open your terminal program and type::"
 msgstr "端末ソフトウェアを開いて、次のとおり入力します。::"
 
+msgid "OpenStack"
+msgstr "OpenStack"
+
 msgid "OpenStack Activity - Dashboard"
 msgstr "OpenStack 活動状況 - ダッシュボード"
 
 msgid "OpenStack Activity - Other Metrics"
 msgstr "OpenStack 活動状況 - その他の項目"
+
+msgid "OpenStack Days"
+msgstr "OpenStack Days"
 
 msgid "OpenStack Design Summit"
 msgstr "OpenStack Design Summit"
@@ -1858,11 +2130,32 @@ msgstr "OpenStack Upstream Training 詳細"
 msgid "OpenStack Upstream Training Introductions"
 msgstr "OpenStack Upstream Training の紹介"
 
+msgid "OpenStack and Agile"
+msgstr "OpenStack とアジャイル"
+
+msgid "OpenStack as Community"
+msgstr "コミュニティーとしての OpenStack"
+
+msgid "OpenStack as Software"
+msgstr "ソフトウェアとしての OpenStack"
+
+msgid "OpenStack as a Community"
+msgstr "コミュニティーとしての OpenStack"
+
+msgid "OpenStack from Telecom/NFV perspective"
+msgstr "テレコム/NFV 観点での OpenStack"
+
+msgid "Operators' meet ups"
+msgstr "オペレーター meet up"
+
 msgid "Opinion"
 msgstr "Opinion"
 
 msgid "Optional external references"
 msgstr "オプションの外部参照"
+
+msgid "Orchestration service"
+msgstr "Orchestration サービス"
 
 msgid "Other projects may have different schedules"
 msgstr "他のプロジェクトは別のスケジュールを持つ"
@@ -1883,6 +2176,9 @@ msgstr ""
 "コントリビューションの流れの概要 (`スライド <19-training-contribution-"
 "process.html>`__)"
 
+msgid "PTG: https://www.openstack.org/ptg/"
+msgstr "PTG: https://www.openstack.org/ptg/"
+
 msgid "PTL : 1"
 msgstr "PTL : 1"
 
@@ -1895,6 +2191,9 @@ msgstr "投稿ブループリントの PTL による確認と優先度付け"
 msgid "PTLs vote for sessions in project tracks"
 msgstr "PTL はプロジェクトのトラックにおけるセッションに投票する"
 
+msgid "Packaging"
+msgstr "パッケージ"
+
 msgid ""
 "Paste the public key into the **Add SSH Public Key** text box and click Add."
 msgstr ""
@@ -1904,11 +2203,17 @@ msgstr ""
 msgid "People sitting in the inner circle lead the discussion"
 msgstr "円の内側に座っている人が議論をリードする"
 
+msgid "People with similar area of interest"
+msgstr "興味分野が近い人"
+
 msgid "Per project tags"
 msgstr "プロジェクトごとのタグ"
 
 msgid "Perform the smaller tasks"
 msgstr "より小さな作業を実行する。"
+
+msgid "Picking Your Project"
+msgstr "プロジェクトを選びましょう"
 
 msgid "Planning : Design"
 msgstr "計画 : 設計"
@@ -1943,12 +2248,18 @@ msgstr "Project Team Lead (PTL)"
 msgid "Project pods"
 msgstr "プロジェクトポッド"
 
+msgid "Projects under a \"Big Tent\""
+msgstr "\"Big Tent\" 配下のプロジェクト"
+
 msgid "Proposing a session"
 msgstr "セッションの提案"
 
 msgid ""
 "Provide guidance for the development teams where user feedback is requested"
 msgstr "ユーザーのフィードバックが必要な開発チームをガイドします"
+
+msgid "Public/Private cloud"
+msgstr "パブリッククラウド/プライベートクラウド"
 
 msgid "Published collectively as the OpenStack release"
 msgstr "OpenStack リリースとして、まとめて公開される"
@@ -1958,6 +2269,9 @@ msgstr "ピアレビューのために Gerrit にプッシュする"
 
 msgid "Quantify the delta"
 msgstr "差分の定量化"
+
+msgid "REST APIs"
+msgstr "REST API"
 
 msgid "Read and complete the :doc:`accounts` guide."
 msgstr ":doc:`accounts` ガイドを参照して、完了しておいてください。"
@@ -1979,6 +2293,9 @@ msgstr ""
 
 msgid "Recheck bug #XXX"
 msgstr "バグ #XXX の再確認"
+
+msgid "Register Contact Information"
+msgstr "連絡先情報の登録"
 
 msgid "Register Your Nick Name"
 msgstr "ニックネームの登録"
@@ -2002,10 +2319,10 @@ msgid "Relevance metrics"
 msgstr "関連する指標"
 
 msgid "Relevant actors"
-msgstr "関係者"
+msgstr "OpenStack に関わっている人々"
 
 msgid "Relevant actors (`slides <02-relevant-actors.html>`__)"
-msgstr "関係者 (`slides <02-relevant-actors.html>`__)"
+msgstr "OpenStack に関わっている人々 (`slides <02-relevant-actors.html>`__)"
 
 msgid "Repeated as many times as necessary"
 msgstr "必要な回数だけ繰り返される"
@@ -2049,8 +2366,11 @@ msgstr "Rossella Sblendido (assistant, Italian, English)"
 msgid "Run for elected positions in the OpenStack project."
 msgstr "OpenStack プロジェクトの、選挙が行われるポジションへの立候補"
 
+msgid "Run the tests"
+msgstr "ユニットテストを実行する"
+
 msgid "Run unit tests"
-msgstr "ユニットテストを実行します"
+msgstr "ユニットテストの実行"
 
 msgid "SERIES-backport-potential"
 msgstr "SERIES-backport-potential"
@@ -2066,6 +2386,9 @@ msgstr "Sahid Ferdjaoui (assistant, french, english)"
 
 msgid "Same as APC"
 msgstr "APC と同じ"
+
+msgid "Say a few words about yourself"
+msgstr "簡単に自己紹介をしましょう"
 
 msgid "Second day"
 msgstr "2 日目"
@@ -2131,11 +2454,29 @@ msgstr "署名済みアグリーメント"
 msgid "Signing it"
 msgstr "サイン（署名）"
 
+msgid "Sit together"
+msgstr "一緒に座りましょう"
+
+msgid ""
+"Slides are made with `Hieroglyph <http://hieroglyph.io>`_. To skim through "
+"slides quickly to find something, or jump ahead or back, use *Slide table* "
+"(press :command:`t` in the browser). Some slides include additional "
+"explanation in the *Presenter notes* (press :command:`c` to see them)."
+msgstr ""
+"スライドは `Hieroglyph <http://hieroglyph.io>`_ で作成されています。スライド"
+"をざっと見て何かを探したり、スライドを前後にジャンプするには、 *テーブルのス"
+"ライド* を使います (ブラウザーで :command:`t` を押します)。スライドにある補足"
+"説明は *プレゼンターノート* で参照できます (参照するには :command:`c` を押し"
+"ます)。"
+
 msgid "Slides for Upstream Training"
 msgstr "Upstream Training のスライド"
 
 msgid "Small issue with an easy workaround. Any other insignificant bug"
 msgstr "簡単な回避方法のある軽微な問題。その他の重要ではないバグ"
+
+msgid "Software Development Kits (SDKs)"
+msgstr "ソフトウェア開発キット (SDK)"
 
 msgid ""
 "Someone of authority needs to sign the `U.S. Government Contributor License "
@@ -2153,6 +2494,9 @@ msgstr "受け入れを高速化する。"
 
 msgid "Stable branches"
 msgstr "安定版 (stable) ブランチ"
+
+msgid "Stackalytics Wiki: https://wiki.openstack.org/wiki/Stackalytics"
+msgstr "Stackalytics Wiki: https://wiki.openstack.org/wiki/Stackalytics"
 
 msgid "Staff"
 msgstr "スタッフ"
@@ -2214,6 +2558,9 @@ msgstr ""
 msgid "Suggestions of projects to work on:"
 msgstr "取り組むプロジェクトの提案 : "
 
+msgid "Summits"
+msgstr "サミット"
+
 msgid "Sungjin Kang (training, assistant, mentoring)"
 msgstr "Sungjin Kang (training, assistant, mentoring)"
 
@@ -2229,6 +2576,12 @@ msgstr "Sylvain Bauza (assistant, mentoring, training, french, english)"
 msgid "System administrators"
 msgstr "システム管理者"
 
+msgid "TBD when the blocks are ready"
+msgstr "未決定。時間割が決まったら作成予定。"
+
+msgid "TBD, when the blocks are ready"
+msgstr "未決定。時間割が決まったら作成予定。"
+
 msgid "TC seats are elected by ATC"
 msgstr "TC は ATC により投票されます"
 
@@ -2237,6 +2590,9 @@ msgstr "TC は、クロスプロジェクトと他のプロジェクトのトラ
 
 msgid "Tables informally available for new/small teams"
 msgstr "新しい小さなチーム向けに非公式に利用できるテーブル"
+
+msgid "Tags can be proposed by anyone"
+msgstr "タグは誰でも提案できます。"
 
 msgid "Tags describing OpenStack Projects"
 msgstr "OpenStack プロジェクトを説明するタグ"
@@ -2250,11 +2606,17 @@ msgstr "譲歩する"
 msgid "Take the pulse of the project"
 msgstr "プロジェクトの活動状況を取得する。"
 
+msgid "Talking in the IRC channel"
+msgstr "IRC チャンネルで会話する"
+
 msgid "Target Audience"
 msgstr "想定対象者"
 
 msgid "Team members : 3-5"
 msgstr "チームメンバー : 3-5"
+
+msgid "Team up"
+msgstr "チーム構成"
 
 msgid "Technical Committee"
 msgstr "技術委員会 (TC: Technical Committee)"
@@ -2265,8 +2627,14 @@ msgstr "Technical Committee のメンバー"
 msgid "Technical committee : 1"
 msgstr "技術委員会 (TC) : 1"
 
+msgid "Testing"
+msgstr "テスト"
+
 msgid "Tests can be remotely or self-administered"
 msgstr "テストはリモートか自己管理にて実行できます"
+
+msgid "Text based chat"
+msgstr "テキストベースのチャット"
 
 msgid "The Contribution Process"
 msgstr "コントリビューションの流れ"
@@ -2367,6 +2735,27 @@ msgstr ""
 "ジョン"
 
 msgid ""
+"The next session of the OpenStack Upstream Training will be held in "
+"Barcelona, before the OpenStack Summit Barcelona 2016:"
+msgstr ""
+"次回 OpenStack Upstream Training は、OpenStack Summit Barcelona 2016 の直前に"
+"バルセロナで開催されます。"
+
+msgid "The official list of projects:"
+msgstr "プロジェクトの公式な一覧"
+
+msgid ""
+"The other contact information including postal address and phone numbers "
+"will be kept confidential and is only used as a fallback record in the "
+"unlikely event the OpenStack Foundation needs to reach you directly over "
+"code contribution related matters."
+msgstr ""
+"郵便の住所、電話番号などのオフラインの連絡先は秘密情報として扱われ、この情報"
+"は、めったにありませんが OpenStack Foundation がコードコントリビューションに"
+"関連する事項であなたに直接連絡を取る必要がある場合の最終手段として使用されま"
+"す。"
+
+msgid ""
 "The person currently working to fix this bug. Must be set by In progress "
 "stage."
 msgstr ""
@@ -2389,6 +2778,9 @@ msgstr ""
 "受講者は、テンプレートを使用して、コントリビューション計画に関する 5 分間の発"
 "表を準備します。"
 
+msgid "The trainers for the upcoming training in Barcelona:"
+msgstr "次回のバルセロナでのトレーニングの講師:"
+
 msgid "These are HTML5 slides and should open with any modern web browser."
 msgstr "HTML5 のスライドがあり、最近のブラウザーで開けます。"
 
@@ -2407,6 +2799,17 @@ msgstr ""
 "Foundation や TCT といったアップストリームの役割、企業や不明な動機で活動する"
 "無所属の個人（フリーエージェント）といったコントリビューターの役割も含まれま"
 "す。"
+
+msgid ""
+"This contact information can be easily updated later if desired, but make "
+"sure the primary email address always matches the one you set for your "
+"OpenStack Foundation Membership. Otherwise, Gerrit will give you an error "
+"message and refuse to accept your contact information."
+msgstr ""
+"連絡先情報は後から必要なときに簡単に更新できますが、メインのメールアドレスが "
+"OpenStack Foundation Membership で設定したメールアドレスと必ず一致するように"
+"してください。さもないと、 Gerrit ではエラーメッセージが表示され、連絡先情報"
+"は受理されません。"
 
 msgid "This helps the i18n and Documentation projects"
 msgstr "I18n と Documentation プロジェクトに役立つ"
@@ -2446,6 +2849,19 @@ msgstr "Tim Freund (training, mentoring, assistant, english)"
 msgid "Timing"
 msgstr "タイミング"
 
+msgid ""
+"To produce the ubiquitous Open Source Cloud Computing platform that will "
+"meet the needs of public and private clouds regardless of size, by being "
+"simple to implement and massively scalable."
+msgstr ""
+"To produce the ubiquitous Open Source Cloud Computing platform that will "
+"meet the needs of public and private clouds regardless of size, by being "
+"simple to implement and massively scalable.\n"
+"\n"
+"規模によらず、パブリッククラウドやプライベートクラウドの要求を満たす、ユビキ"
+"タスなオープンソースのクラウドコンピューティングプラットフォームを、シンプル"
+"な実装と大規模なスケーラビリティーで実現する。"
+
 msgid "To understand how it all fits together, we use a hands on example"
 msgstr ""
 "全てがどう組み合わさっているのか理解するため、例としてハンズオンを行います"
@@ -2458,6 +2874,9 @@ msgid ""
 "experiences"
 msgstr ""
 "OpenStack の導入状況を把握し、ユーザーストーリーや経験を共有する支援をします"
+
+msgid "Trainers"
+msgstr "講師"
 
 msgid "Translations / i18n issues."
 msgstr "翻訳 / i18n 関連の問題。"
@@ -2536,17 +2955,29 @@ msgstr ""
 "建物の種類、単純に許可しないものなどの検討。自分たちが完成した建物に責任を持"
 "つことを理解させるようにします。"
 
+msgid "Use it for exercises"
+msgstr "このチャンネルを練習に使ってください"
+
 msgid "Used as-is as the final release"
 msgstr "最終リリースとして、そのまま使われる"
 
 msgid "User Committee"
 msgstr "ユーザー委員会 (UC: User Committee)"
 
+msgid "User groups"
+msgstr "ユーザーグループ"
+
 msgid "Using Lego to represent the community"
 msgstr "Legoによるコミュニティーの再現"
 
+msgid "Various use cases including Enterprise/Telecom/etc."
+msgstr "エンタープライズ/テレコムなどさまざまなユースケース"
+
 msgid "Vendors may substitute alternate implementations"
 msgstr "ベンダーは代替実装により置き換える可能性があります"
+
+msgid "Version control"
+msgstr "バージョン管理"
 
 msgid ""
 "Victoria Martinez de la Cruz - vkmc - Trove/Zaqar (mentoring, assistant)"
@@ -2555,6 +2986,19 @@ msgstr ""
 
 msgid "Victoria Martínez de la Cruz (assistant, english)"
 msgstr "Victoria Martínez de la Cruz (assistant, english)"
+
+msgid "Virtual Infrastructure Manager (VIM) + NFV Infratsructure (NFVI)"
+msgstr "Virtual Infrastructure Manager (VIM) + NFV Infratsructure (NFVI)"
+
+msgid "Virtual Network Functions Manager (VNFM)"
+msgstr "Virtual Network Functions Manager (VNFM)"
+
+msgid ""
+"Visit `Contact Information <https://review.openstack.org/#/settings/"
+"contact>`__ in Gerrit's settings."
+msgstr ""
+"Gerrit 設定の `Contact Information <https://review.openstack.org/#/settings/"
+"contact>`__ を開きます。"
 
 msgid ""
 "Visit `OpenStack's Gerrit page <https://review.openstack.org>`_ and click "
@@ -2568,6 +3012,9 @@ msgstr "選挙への投票"
 
 msgid "Voters for a given program PTL"
 msgstr "指定されたプロジェクトの PTL の投票者"
+
+msgid "We are new age people with some good old technology around"
+msgstr "私たちは新世代の人間ですが、優れた古い技術を活用しています"
 
 msgid ""
 "We held the first OpenStack Upstream Training in Atlanta, before OpenStack "
@@ -2678,6 +3125,22 @@ msgstr ""
 "開発者が顔を合わせて、次のリリースサイクルに向けて最終的に計画するところで"
 "す。"
 
+msgid "Who's familiar with the term?"
+msgstr "この言葉をよく知っている人はいますか？"
+
+msgid "Why Agile methodologies are a good fit to a community like OpenStack?"
+msgstr ""
+"なぜアジャイルの手法が OpenStack のようなコミュニティーにうまく合うのか？"
+
+msgid "Why they are not a good fit?"
+msgstr "なぜうまく合わないのか？"
+
+msgid "Why you're attending the course? What are your expectations?"
+msgstr "なぜこのトレーニングに参加しているのか？何を期待しているか？"
+
+msgid "Wiki"
+msgstr "Wiki"
+
 msgid "Wishlist"
 msgstr "Wishlist (要望)"
 
@@ -2740,6 +3203,12 @@ msgstr ""
 "OpenStack コントリビューションのワークフローとツール (3 時間、2 時間の演習を"
 "含む)"
 
+msgid "Workflow service"
+msgstr "Workflow サービス"
+
+msgid "Working groups"
+msgstr "ワーキンググループ"
+
 msgid "Write documentation"
 msgstr "ドキュメントの作成"
 
@@ -2754,6 +3223,13 @@ msgstr ""
 "lab_02.html>`_ を使用できます。"
 
 msgid ""
+"You need to register your contact information including your full name, "
+"email address and offline contact information."
+msgstr ""
+"氏名、電子メールアドレス、オフラインでの連絡先などの連絡先情報を登録する必要"
+"があります。"
+
+msgid ""
 "You should be able to see the slides at the given location: ``training-"
 "guides/doc/upstream-training/build/slides``."
 msgstr ""
@@ -2766,6 +3242,13 @@ msgid ""
 msgstr ""
 "ユーザ名の選択を求められます。 launchpad などと同じ名前を入力しても構いませ"
 "ん。"
+
+msgid ""
+"Your full name and email address will be public and the email address needs "
+"to match the email address which you plan to use in your commits."
+msgstr ""
+"氏名と電子メールアドレスは公開されます。電子メールアドレスは、コミットで使用"
+"予定のメールアドレスと一致している必要があります。"
 
 msgid "Your management"
 msgstr "あなたの管理者"
@@ -2908,6 +3391,9 @@ msgid ""
 msgstr ""
 "`Git review installation <http://docs.openstack.org/infra/manual/developers."
 "html#installing-git-review>`_"
+
+msgid "`Guide to SetUp and Push First Patch <20-setup-and-first-patch.html>`_"
+msgstr "`環境設定と最初のパッチの投稿 <20-setup-and-first-patch.html>`_"
 
 msgid "`How to contribute <12-howtocontribute.html>`_"
 msgstr "`コントリビューション方法 <12-howtocontribute.html>`_"
@@ -3161,7 +3647,7 @@ msgstr ""
 "`リリース日 <https://wiki.openstack.org/wiki/Release_Cycle#Release_day>`_"
 
 msgid "`Relevant actors <02-relevant-actors.html>`_"
-msgstr "`関係者 <02-relevant-actors.html>`_"
+msgstr "`OpenStack に関わっている人々 <02-relevant-actors.html>`_"
 
 msgid "`Reviewing <16-reviewing.html>`_"
 msgstr "`レビュー <16-reviewing.html>`_"
@@ -3172,6 +3658,13 @@ msgid ""
 msgstr ""
 "`ユニットテストの実行 <http://docs.openstack.org/infra/manual/developers."
 "html#running-unit-tests>`_"
+
+msgid ""
+"`Sign-up to get involved here <https://openstackfoundation.formstack.com/"
+"forms/mentor_mentee_signup_pre_barcelona>`__."
+msgstr ""
+"`ここで登録してください <https://openstackfoundation.formstack.com/forms/"
+"mentor_mentee_signup_pre_barcelona>`__ 。"
 
 msgid "`Specifications <http://specs.openstack.org>`_"
 msgstr "`スペック <http://specs.openstack.org>`_"
@@ -3427,8 +3920,17 @@ msgstr "企業の指針に対してどうコントリビュートするか"
 msgid "how they will engage with the Upstream"
 msgstr "どのようにアップストリームと関わるか"
 
+msgid "http://activity.openstack.org"
+msgstr "http://activity.openstack.org"
+
 msgid "http://docs.openstack.org/infra/manual/developers.html#account-setup"
 msgstr "http://docs.openstack.org/infra/manual/developers.html#account-setup"
+
+msgid "http://governance.openstack.org/reference/opens.html"
+msgstr "http://governance.openstack.org/reference/opens.html"
+
+msgid "http://governance.openstack.org/reference/projects/"
+msgstr "http://governance.openstack.org/reference/projects/"
 
 msgid "http://governance.openstack.org/reference/tags/index.html"
 msgstr "http://governance.openstack.org/reference/tags/index.html"
@@ -3441,6 +3943,15 @@ msgstr "http://localhost/"
 
 msgid "http://review.openstack.org"
 msgstr "http://review.openstack.org"
+
+msgid "http://stackalytics.com"
+msgstr "http://stackalytics.com"
+
+msgid "http://webchat.freenode.net/?channels=openstack,openstack-101"
+msgstr "http://webchat.freenode.net/?channels=openstack,openstack-101"
+
+msgid "https://en.wikipedia.org/wiki/Christine_Lagarde"
+msgstr "https://en.wikipedia.org/wiki/Christine_Lagarde"
 
 msgid "https://etherpad.openstack.org/p/upstream-training-vancouver"
 msgstr "https://etherpad.openstack.org/p/upstream-training-vancouver"

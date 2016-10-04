@@ -6,12 +6,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2014.11.01\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-29 10:17+0000\n"
+"POT-Creation-Date: 2016-10-03 15:02+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-08-23 12:34+0000\n"
-"Last-Translator: Jun-Sik Shin <jsshin@smartx.kr>\n"
+"PO-Revision-Date: 2016-10-03 07:26+0000\n"
+"Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
 "X-Generator: Zanata 3.7.3\n"
@@ -40,6 +40,13 @@ msgstr ""
 
 msgid "**Staff**"
 msgstr "**스태프**"
+
+msgid ""
+"**Sunday, October 23, 2016 at 1:00 p.m. to 5:00 p.m. - Monday, October 24, "
+"2016 at 10:00 a.m. to 4:00 p.m. (local time)**"
+msgstr ""
+"**2016년 10월 23일 일요일, 1:00 p.m. 부터 5:00 p.m. 까지 - 2016년 10월 24일 "
+"월요일, 10:00 a.m. 부터 4:00 p.m. 까지 (현지 시각)**"
 
 msgid "179 countries"
 msgstr "179 개 국가"
@@ -124,6 +131,9 @@ msgid ""
 "participant"
 msgstr "1일차 1주일 전: 각 대상자와 함께 이메일을 통한 컨트리뷰션 사항 선택"
 
+msgid "About the training"
+msgstr "트레이닝에 관하여"
+
 msgid "Abstract"
 msgstr "요약"
 
@@ -157,6 +167,10 @@ msgid ""
 msgstr ""
 "정보성 항목을 회의록에 추가합니다. 이야기하고자 하는 중요한 사항에 대해서는 "
 "이를 자유롭게 사용하여, 회의록에 기록될 수 있도록 합니다."
+
+msgid ""
+"Add your details to the class etherpad (Specified on the actual training)"
+msgstr "본인 세부 사항을 etherpad에 추가합니다 (실제 트레이닝에서 명시)"
 
 msgid "Adrien Cunin (mentoring, assistant, french, english)"
 msgstr "Adrien Cunin (멘토링, 조교, 프랑스어, 영어)"
@@ -223,6 +237,12 @@ msgstr "적절한 수정"
 msgid "Archive and collect"
 msgstr "보관 및 수집"
 
+msgid "Archives"
+msgstr "아카이브"
+
+msgid "Areas of interest"
+msgstr "관심 분야"
+
 msgid "Assess your approach"
 msgstr "접근 방식에 대한 평가"
 
@@ -252,6 +272,9 @@ msgid ""
 msgstr ""
 "보안을 갖춘 passphrase를 입력하는 프롬프트에서, 입력하거나 또는 passphrase를 "
 "사용하지 않기 위해 엔터키를 입력할 수도 있습니다::"
+
+msgid "Attendees"
+msgstr "참석자"
 
 msgid "Auto-Login On Connecting To Freenode"
 msgstr "Freenode 연결에 대한 자동 로그인"
@@ -377,6 +400,13 @@ msgstr "노트북에서 ssh를 사용하여 가상 머신으로 접속이 가능
 
 msgid "Choose a question"
 msgstr "질문을 선택합니다"
+
+msgid ""
+"Choose and type your username carefully. Once it is set, you cannot change "
+"the username."
+msgstr ""
+"사용자 이름을 신중하게 선택 및 입력합니다. 한 번 설명되면, 사용자 이름을 바"
+"꿀 수 없습니다."
 
 msgid "Choosing roles - Companies"
 msgstr "역할 선택 - 회사"
@@ -577,11 +607,20 @@ msgstr "일자"
 msgid "Date: February 18, 2016 (Thu)"
 msgstr "일자: 2016년 2월 18일 (목)"
 
+msgid "Day 1"
+msgstr "1일차"
+
 msgid "Day 1: How OpenStack is made"
 msgstr "1일차: OpenStack은 어떻게 만들어지는가"
 
+msgid "Day 1: Introduction"
+msgstr "1일차: 개요"
+
 msgid "Day 1: Learn and practice Git, Gerrit, IRC"
 msgstr "1일차: Git, Gerrit, IRC 학습 및 실습"
+
+msgid "Day 2"
+msgstr "2일차"
 
 msgid "Day 2: Individual presentation of the contribution plan"
 msgstr "2일차: 컨트리뷰션 계획에 대한 개인별 발표"
@@ -615,6 +654,9 @@ msgstr "개발자"
 
 msgid "Developers read mostly, write occasionally"
 msgstr "개발자는 대부분 읽어보고, 가끔 작성합니다"
+
+msgid "Different level of experience"
+msgstr "서로 다른 경험 수준"
 
 msgid "Discuss upcoming features for the next release cycle"
 msgstr "다음 릴리즈 주기를 위한 곧 있을 기능을 토론합니다"
@@ -791,6 +833,9 @@ msgstr "실습: draft로 있는 각자 메시지를 리뷰하기"
 msgid "Exercise: review other launchpad bugs and improve yours"
 msgstr "실습: 다른 launchpad 버그를 리뷰하고 개선합니다"
 
+msgid "Experience with OpenStack if any"
+msgstr "있는 경우, OpenStack 경험"
+
 msgid "Explain what you do"
 msgstr "행하는 것을 설명하기"
 
@@ -918,6 +963,20 @@ msgstr ""
 "RedHat, Fedora 21 이나 이전, 또는 CentOS와 같은 배포판의 경우 터미널을 열고 "
 "입력합니다::"
 
+msgid ""
+"For more information about the past trainings and the local upstream "
+"trainings, see :doc:`upstream-archives`."
+msgstr ""
+"지난 교육 및 각 로컬에서 개최된 upstream training에 관한 보다 자세한 정보"
+"는, :doc:`upstream-archives` 를 살펴봅니다."
+
+msgid ""
+"For more information and registration, see the `OpenStack Academy page "
+"<https://www.openstack.org/summit/barcelona-2016/openstack-academy/>`_."
+msgstr ""
+"보다 자세한 정보 및 등록에 관해서는 `OpenStack Academy page <https://www."
+"openstack.org/summit/barcelona-2016/openstack-academy/>`_ 를 살펴봅니다."
+
 msgid "For more information, see :doc:`upstream-details`."
 msgstr "보다 자세한 정보는, :doc:`upstream-details` 를 살펴봅니다."
 
@@ -933,6 +992,9 @@ msgstr "**Chat server** 에서 **irc.freenode.net** 을 입력합니다."
 
 msgid "Forbidden"
 msgstr "금지되는 사항"
+
+msgid "Form groups of 4 (Actual group size depends on the class size)"
+msgstr "4 명으로 그룹 구성 (그룹 크기는 수업 크기에 따라 달라질 수 있습니다)"
 
 msgid "Foundation, technical committee, and board members"
 msgstr "Foundation, 기술 위원회, 그리고 이사회 구성원"
@@ -951,6 +1013,9 @@ msgstr ""
 "자유로운 에이전트: 작은 채소밭, 자전거 도로, 공용 미술품, 놀이터와 같은 커뮤"
 "니티 항목. 논쟁을 발생시키는 에이전트에 대해서는 감옥, 스케이트장, 그리고 강"
 "아지 공원."
+
+msgid "Freenode"
+msgstr "Freenode"
 
 msgid ""
 "From here on out when you sign into Gerrit, you'll be prompted to enter your "
@@ -1094,6 +1159,9 @@ msgstr "Governance/TechnicalCommittee#Meeting"
 msgid "Haikel Guemar (assistant, mentor, french, english)"
 msgstr "Haikel Guemar (조교, 멘터, 프랑스어, 영어)"
 
+msgid "Have one mentor sit together with each group"
+msgstr "멘토 1명이 각 그룹과 합께 앉습니다"
+
 msgid ""
 "Having at least 8 hours a week to dedicate to the project, be it through "
 "programming or through interacting with the community"
@@ -1125,8 +1193,20 @@ msgstr "기여 방법"
 msgid "How to contribute (`slides <14-gerrit.html>`__)"
 msgstr "기여 방법 (`슬라이드 <14-gerrit.html>`__)"
 
+msgid "How to deploy OpenStack"
+msgstr "OpenStack을 배포하는 방법"
+
 msgid "How to prepare"
 msgstr "준비 방법"
+
+msgid "How to prepare for different exams"
+msgstr "다른 시험을 준비하는 방법"
+
+msgid "How to use OpenStack"
+msgstr "OpenStack을 사용하는 방법"
+
+msgid "IRC"
+msgstr "IRC"
 
 msgid "IRC meetings"
 msgstr "IRC 회의"
@@ -1230,6 +1310,9 @@ msgstr ""
 
 msgid "Ildiko Vancsa - ildikov - Telemetry (mentoring, assistant)"
 msgstr "Ildiko Vancsa - ildikov - Telemetry (멘토링, 조교)"
+
+msgid "Ildiko Vancsa, Kendall Nelson, Mark Korondi, and Marton Kiss"
+msgstr "Ildiko Vancsa, Kendall Nelson, Mark Korondi, 그리고 Marton Kiss"
 
 msgid "Impact was not assessed yet"
 msgstr "영향에 대해 아직 평가되지 않았음"
@@ -1377,7 +1460,13 @@ msgstr "기관 멤버 : 플래티늄과 골드 스폰서"
 msgid "Integrated projects were also tested together at the gate"
 msgstr "통합 프로젝트는 또한 게이트에서 서로 테스트가 이루어졌습니다"
 
+msgid "Interactive, hands-on class"
+msgstr "인터렉티브, 핸즈 온 수업"
+
 msgid "Introduction"
+msgstr "소개"
+
+msgid "Introductions"
 msgstr "소개"
 
 msgid "Invalid"
@@ -1385,6 +1474,12 @@ msgstr "Invalid"
 
 msgid "Irena Berezovsky (assistant, mentor, english)"
 msgstr "Irena Berezovsky (조교, 멘터, 영어)"
+
+msgid "It is about"
+msgstr "다음과 관련되어 있습니다"
+
+msgid "It is not about"
+msgstr "다음과 관련되어 있지 않습니다"
 
 msgid "Japan OpenStack User Group has held the Upstream Training in Japan."
 msgstr ""
@@ -1407,6 +1502,9 @@ msgstr "2016년 7월 6 - 7일 (수 - 목)"
 
 msgid "July 9 - 10, 2015 (Thu - Fri)"
 msgstr "2015년 7월 9 - 10일 (목 - 금)"
+
+msgid "Jump on IRC"
+msgstr "IRC로 뛰어오기"
 
 msgid "Jungsu Han (assistant, mentoring)"
 msgstr "Jungsu Han (조교, 멘토링)"
@@ -1438,6 +1536,12 @@ msgstr ""
 "는지를 보여줍니다. 해당 계정은 또한 OpenStack 코드 리뷰 시스템에서 인증하는"
 "데 사용됩니다."
 
+msgid "Learn about the community"
+msgstr "커뮤니티에 관하여 배우기"
+
+msgid "Learn how to participate in OpenStack"
+msgstr "OpenStack에 참여하는 법을 배우기"
+
 msgid "Learn what distinguishes good work flow from bad work flow"
 msgstr "좋은 워크 플로우와 나쁜 워크 플로우를 구별하는 것을 배웁니다"
 
@@ -1462,6 +1566,9 @@ msgid ""
 msgstr ""
 "자유 소프트웨어 컨트리뷰션을 적용한 Lego (`슬라이드 <20-training-agile-for-"
 "contributors.html>`__)"
+
+msgid "Let's get started!!!"
+msgstr "시작합니다!!!"
 
 msgid "Let's play!"
 msgstr "진행합시다!"
@@ -1588,6 +1695,9 @@ msgstr "회의 안건"
 msgid "Meetings"
 msgstr "회의"
 
+msgid "Mentors/helpers"
+msgstr "멘토/도움"
+
 msgid "Merged in the master branch first"
 msgstr "master 브랜치에 처음 병합됩니다"
 
@@ -1652,6 +1762,9 @@ msgstr "가장 최근 (\"Mitaka\") 릴리즈 통계:"
 
 msgid "Motions"
 msgstr "움직임"
+
+msgid "Name, current role, company"
+msgstr "이름, 현재 역할, 회사"
 
 msgid "Namgon Lucas Kim (assistant, mentoring)"
 msgstr "Namgon Lucas Kim (조교, 멘토링)"
@@ -1780,6 +1893,9 @@ msgstr "개방형 개발"
 msgid "Open Source"
 msgstr "오픈 소스"
 
+msgid "Open collaboration"
+msgstr "개방형 협업"
+
 msgid "Open discussions, chairs organized in concentric rings"
 msgstr "자유 토론으로, 의자를 동심원의 고리 형태로 조직합니다"
 
@@ -1815,6 +1931,9 @@ msgstr "OpenStack Upstream Training 보관"
 
 msgid "OpenStack Upstream Training Details"
 msgstr "OpenStack Upstream Training 세부 사항"
+
+msgid "OpenStack Upstream Training Introductions"
+msgstr "OpenStack Upstream Training 소개"
 
 msgid "Opinion"
 msgstr "Opinion"
@@ -1861,6 +1980,9 @@ msgstr ""
 
 msgid "People sitting in the inner circle lead the discussion"
 msgstr "원 안에 앉아있는 구성원이 토론을 진행합니다"
+
+msgid "People with similar area of interest"
+msgstr "비슷한 관심 분야 사람"
 
 msgid "Per project tags"
 msgstr "프로젝트 별 태그"
@@ -2021,6 +2143,9 @@ msgstr "Sahid Ferdjaoui (조교, 프랑스어, 영어)"
 msgid "Same as APC"
 msgstr "APC와 동일합니다"
 
+msgid "Say a few words about yourself"
+msgstr "본인에 관해 몇몇 단어를 이야기해 봅니다"
+
 msgid "Second day"
 msgstr "두 번째 날"
 
@@ -2081,6 +2206,20 @@ msgstr "약관에 동의함"
 
 msgid "Signing it"
 msgstr "서명하기"
+
+msgid "Sit together"
+msgstr "서로 앉기"
+
+msgid ""
+"Slides are made with `Hieroglyph <http://hieroglyph.io>`_. To skim through "
+"slides quickly to find something, or jump ahead or back, use *Slide table* "
+"(press :command:`t` in the browser). Some slides include additional "
+"explanation in the *Presenter notes* (press :command:`c` to see them)."
+msgstr ""
+"슬라이드는 `Hieroglyph <http://hieroglyph.io>`_ 로 만들어졌습니다. 슬라이드"
+"를 빠르게 살펴보거나 무엇인가 찾기 또는 앞뒤로 이동하기 위해서는 *슬라이드 테"
+"이블* (브라우저에서 :command:`t` 입력) 을 사용합니다. 몇몇 슬라이드에는 부가"
+"적인 설명이 *발표자 노트* (살펴보려면 :command:`c` 입력)에 포함되어 있습니다."
 
 msgid "Slides for Upstream Training"
 msgstr "Upstream Training 슬라이드"
@@ -2178,6 +2317,12 @@ msgstr "Sylvain Bauza (조교, 멘토링, 교육, 프랑스어, 영어)"
 msgid "System administrators"
 msgstr "시스템 관리자"
 
+msgid "TBD when the blocks are ready"
+msgstr "준비가 된 이후 결정 예정"
+
+msgid "TBD, when the blocks are ready"
+msgstr "준비가 된 이후 결정 예정"
+
 msgid "TC seats are elected by ATC"
 msgstr "TC 자리는 ATC에 의해 선발됩니다"
 
@@ -2205,6 +2350,9 @@ msgstr "대상 청중"
 msgid "Team members : 3-5"
 msgstr "팀 구성원: 3-5"
 
+msgid "Team up"
+msgstr "팀 구성"
+
 msgid "Technical Committee"
 msgstr "Technical Committee"
 
@@ -2216,6 +2364,9 @@ msgstr "기술 위원회: 1"
 
 msgid "Tests can be remotely or self-administered"
 msgstr "테스트는 원격으로 또는 자가 관리가 이루어질 수 있습니다"
+
+msgid "Text based chat"
+msgstr "텍스트 기반 채팅"
 
 msgid "The Contribution Process"
 msgstr "컨트리뷰션 프로세스"
@@ -2315,6 +2466,13 @@ msgid ""
 msgstr "버그 수정을 필요로 하는 마일스톤, 또는 수정되었던 마일스톤/버전"
 
 msgid ""
+"The next session of the OpenStack Upstream Training will be held in "
+"Barcelona, before the OpenStack Summit Barcelona 2016:"
+msgstr ""
+"다음 OpenStack Upstream Training 세션은 Barcelona에서 OpenStack Summit "
+"Barcelona 2016 전에 개최 예정입니다:"
+
+msgid ""
 "The person currently working to fix this bug. Must be set by In progress "
 "stage."
 msgstr ""
@@ -2336,6 +2494,9 @@ msgid ""
 msgstr ""
 "학생들은 템플릿 슬라이드를 사용하여 계획된 컨트리뷰션에 대한 5분 발표를 준비"
 "합니다"
+
+msgid "The trainers for the upcoming training in Barcelona:"
+msgstr "다가오는 Barcelona 에서 트레이닝 진행자는 다음과 같습니다:"
 
 msgid "These are HTML5 slides and should open with any modern web browser."
 msgstr ""
@@ -2409,6 +2570,9 @@ msgid ""
 msgstr ""
 "OpenStack 배포 및 사용량을 추적하여 사용자 스토리 및 경험을 공유하도록 돕습니"
 "다"
+
+msgid "Trainers"
+msgstr "트레이너"
 
 msgid "Translations / i18n issues."
 msgstr "번역 / i18n 이슈."
@@ -2532,6 +2696,13 @@ msgid "We will take on roles to show how each community member interacts"
 msgstr ""
 "각 커뮤니티 구성원이 어떻게 상호 작용하는지를 보여주는 역할을 수행할 것입니다"
 
+msgid ""
+"We would like to make as many matches before the Barcelona Summit as we can "
+"so you can meet with your mentee/mentor there if you are both attending."
+msgstr ""
+"Barcelona Summit 이전에 가능한 많은 매치가 이루어져 멘티와 멘토가 모두 참석하"
+"는 경우 서로 만날 수 있도록 만들고 싶습니다."
+
 msgid "We'll install an IRC program called Colloquy."
 msgstr "Colloquy 라는 IRC 프로그램을 설치할 것입니다."
 
@@ -2623,6 +2794,9 @@ msgid ""
 "Where developers meet face to face to finalize planning for the next release "
 "cycle."
 msgstr "개발자들이 대면하여 다음 릴리즈 주기를 위한 계획을 확정짓는 장소"
+
+msgid "Why you're attending the course? What are your expectations?"
+msgstr "이 코스에 참석하계된 이유는 무엇입니까? 어떤 것을 기대하고 있습니까?"
 
 msgid "Wishlist"
 msgstr "Wishlist"
@@ -2851,6 +3025,9 @@ msgstr ""
 "`Git review 설치 <http://docs.openstack.org/infra/manual/developers."
 "html#installing-git-review>`_"
 
+msgid "`Guide to SetUp and Push First Patch <20-setup-and-first-patch.html>`_"
+msgstr "`첫 패치에 대한 셋업 및 푸시 가이드 <20-setup-and-first-patch.html>`_"
+
 msgid "`How to contribute <12-howtocontribute.html>`_"
 msgstr "`기여 방법 <12-howtocontribute.html>`_"
 
@@ -2892,6 +3069,17 @@ msgstr ""
 "Release_Cycle#Implementation_.28Milestone_iterations.29>`_"
 
 msgid ""
+"`Introducing OpenStack as a Community <00-02-openstack-as-community.html>`_"
+msgstr "`커뮤니티로서의 OpenStack 소개 <00-02-openstack-as-community.html>`_"
+
+msgid ""
+"`Introducing OpenStack as a Software <00-01-openstack-as-software.html>`_"
+msgstr "`소프트웨어로서의 OpenStack 소개 <00-01-openstack-as-software.html>`_"
+
+msgid "`Introduction <00-00-introduction.html>`_"
+msgstr "`소개 <00-00-introduction.html>`_"
+
+msgid ""
 "`Jenkins (Automated testing) <http://docs.openstack.org/infra/manual/"
 "developers.html#automated-testing>`_ (`slides <18-jenkins.html>`__)"
 msgstr ""
@@ -2905,6 +3093,13 @@ msgid ""
 "`Launchpad <https://help.launchpad.net/>`_ (`slides <13-launchpad.html>`__)"
 msgstr ""
 "`Launchpad <https://help.launchpad.net/>`_ (`슬라이드 <13-launchpad.html>`__)"
+
+msgid ""
+"`Lego applied to Free Software contributions <21-training-agile-for-"
+"contributors.html>`_"
+msgstr ""
+"`자유 소프트웨어 컨트리뷰션을 적용한 Lego <21-training-agile-for-"
+"contributors.html>`_"
 
 msgid ""
 "`Liberty Summit Etherpads <https://wiki.openstack.org/wiki/Design_Summit/"
@@ -2942,6 +3137,9 @@ msgstr ""
 "`ODP 슬라이드 <http://dachary.org/loic/openstack-training/training-student-"
 "project-sample.odp>`_ `PDF 슬라이드 <http://dachary.org/loic/openstack-"
 "training/training-student-project-sample.pdf>`_"
+
+msgid "`Official OpenStack projects <04-official-openstack-projects.html>`_"
+msgstr "`공식 OpenStack 프로젝트 <04-official-openstack-projects.html>`_"
 
 msgid "`OpenStack Design Summit <05-design-summit.html>`_"
 msgstr "`OpenStack Design Summit <05-design-summit.html>`_"
@@ -2993,6 +3191,12 @@ msgid ""
 msgstr ""
 "`OpenStack Upstream Training in Paris <http://www.openstack.org/blog/2014/08/"
 "openstack-upstream-training-in-paris/>`_."
+
+msgid "`OpenStack as a community <00-02-openstack-as-community.html>`__"
+msgstr "`커뮤니티로서의 OpenStack <00-02-openstack-as-community.html>`__"
+
+msgid "`OpenStack as software <00-01-openstack-as-software.html>`__"
+msgstr "`소프트웨어로서의 OpenStack <00-01-openstack-as-software.html>`__"
 
 msgid ""
 "`Other release candidates <https://wiki.openstack.org/wiki/"
@@ -3080,6 +3284,13 @@ msgstr ""
 "`단위 테스트 실행 <http://docs.openstack.org/infra/manual/developers."
 "html#running-unit-tests>`_"
 
+msgid ""
+"`Sign-up to get involved here <https://openstackfoundation.formstack.com/"
+"forms/mentor_mentee_signup_pre_barcelona>`__."
+msgstr ""
+"`참여하려면 이 부분을 작성합니다  <https://openstackfoundation.formstack.com/"
+"forms/mentor_mentee_signup_pre_barcelona>`__."
+
 msgid "`Specifications <http://specs.openstack.org>`_"
 msgstr "`스펙 <http://specs.openstack.org>`_"
 
@@ -3118,6 +3329,9 @@ msgid ""
 "`Training guides <https://wiki.openstack.org/wiki/Training-guides#How_To>`_"
 msgstr ""
 "`트레이닝 가이드 <https://wiki.openstack.org/wiki/Training-guides#How_To>`_"
+
+msgid "`Training introduction <00-00-introduction.html>`__"
+msgstr "`트레이닝 소개 <00-00-introduction.html>`__"
 
 msgid "`Translations <http://git.openstack.org/cgit/openstack/i18n/tree/>`_"
 msgstr "`번역 <http://git.openstack.org/cgit/openstack/i18n/tree/>`_"
