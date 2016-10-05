@@ -41,7 +41,7 @@ Contents of a Commit Message (Body)
 ===================================
 
 - Lines limited to 72 characters
-- Explaination of issue being solved and why it should be fixed
+- Explanation of issue being solved and why it should be fixed
 - Explain how problem is solved
 - Other possible content
     - Does it improve code structure?

@@ -15,7 +15,7 @@ Install tox using pip::
 Build the presentation
 ----------------------
 
-Build the presention using tox::
+Build the presentation using tox::
 
     tox -e upstream-slides
 

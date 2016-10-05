@@ -63,7 +63,7 @@ bug tracker, etc) and coordinated *processes* to produce a number of
 OpenStack's mission.
 
 - Teams in OpenStack can be freely created as they are needed
-- Teams of official projects are under the authority of the Technical Commitee
+- Teams of official projects are under the authority of the Technical Committee
 - The official list of projects:
 
   - http://governance.openstack.org/reference/projects/

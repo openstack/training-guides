@@ -45,7 +45,7 @@ OpenStack from Telecom/NFV perspective
 OpenStack from Telecom/NFV perspective
 ======================================
 
-- Virtual Infrastructure Manager (VIM) + NFV Infratsructure (NFVI)
+- Virtual Infrastructure Manager (VIM) + NFV Infrastructure (NFVI)
 
   - Most of the OpenStack services
 

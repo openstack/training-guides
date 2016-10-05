@@ -9,12 +9,12 @@ Install an IRC Program
 ----------------------
 We'll install an IRC program called Hexchat.
 
-For a linux distrubtions like Debian, Ubuntu, or Mint open a terminal and
+For a linux distributions like Debian, Ubuntu, or Mint open a terminal and
 type::
 
   sudo apt install hexchat
 
-For a linux distrubtions like Redhat, Fedora 21 or earlier, or Centos open
+For a linux distributions like Redhat, Fedora 21 or earlier, or CentOS open
 a terminal and type::
 
   sudo yum install hexchat

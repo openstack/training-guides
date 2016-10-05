@@ -273,7 +273,7 @@ These slides prepare students for the Lego activity, and ensure they
 understand the metaphors in use. The Lego in the exercise represents the
 code of a software project, in this case OpenStack. The students all take
 on roles that represent various facets of the OpenStack community, including
-upstream roles like Foundation and TCT, and contributors like corporations,
+upstream roles like Foundation and TC, and contributors like corporations,
 and unaffiliated individuals animated by unknown motives (free agents).
 
 The group is split into their new 'teams' at this stage. Facilitators can

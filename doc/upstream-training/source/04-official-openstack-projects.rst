@@ -23,7 +23,7 @@ Official OpenStack projects
 
 Benefits of being an Official OpenStack project
 ===============================================
-- Contributors get to vote in the Technical Commitee election
+- Contributors get to vote in the Technical Committee election
 - Can publish to docs.openstack.org and developer.openstack.org
 - The teams get space on OpenStack Summits and Project Team Gatherings (PTG)
 - Get marketing from the OpenStack Foundation
