@@ -1,6 +1,6 @@
-===============
-Relevant actors
-===============
+=======
+Metrics
+=======
 
 .. image:: ./_assets/os_background.png
    :class: fill
@@ -55,23 +55,17 @@ Relevance metrics
 
 .. image:: ./_assets/02-02-relevance-metrics.png
 
-Company snapshot
-================
-
-.. image:: ./_assets/02-03-company-snapshot.png
-  :width: 100%
-
-Individual snapshot
-===================
-
-.. image:: ./_assets/02-04-individual-snapshot.png
-  :width: 100%
-
 Module contributors
 ===================
 
 .. image:: ./_assets/02-05-module-contributors.png
   :width: 95%
+
+Exercise 1
+==========
+Look up the project you are most interested in and find the three most active
+core reviewers (people that would be good to know for review help and getting
+your patches merged).
 
 Module - more views
 ===================
@@ -98,20 +92,8 @@ http://activity.openstack.org
 .. image:: ./_assets/02-08-activity-metrics.png
   :width: 100%
 
-Your management
-===============
+Exercise 2
+==========
 
-.. image:: ./_assets/02-06-your-management.jpg
-  :width: 55%
-
-.. note::
-
-  - https://en.wikipedia.org/wiki/Christine_Lagarde
-
-Exercise
-========
-
-- List three companies and individuals that have been the most influential in
-  the making of the module you plan to contribute to, for each metric value.
-- Discuss which metrics are more or less influential to make a module
-  vitalize and successful.
+For the cores you found earlier, figure out what time zone they
+are probably in.

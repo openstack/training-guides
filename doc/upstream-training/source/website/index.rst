@@ -108,7 +108,7 @@ How OpenStack is Made
 
 * `Official OpenStack projects <howitsmade-official-projects.html>`_
 * `OpenStack Design Summit <howitsmade-design-summit.html>`_
-* `Relevant actors <howitsmade-relevant-actors.html>`_
+* `Metrics <howitsmade-metrics.html>`_
 * `Release cycle <howitsmade-release-cycle.html>`_
 * `OpenStack Governance <howitsmade-technical-committee.html>`_
 * `IRC meetings <howitsmade-irc-meetings.html>`_

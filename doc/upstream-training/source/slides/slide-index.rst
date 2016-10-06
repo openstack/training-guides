@@ -24,7 +24,7 @@ How OpenStack is Made
 
    howitsmade-official-projects.rst
    howitsmade-design-summit.rst
-   howitsmade-relevant-actors.rst
+   howitsmade-metrics.rst
    howitsmade-release-cycle.rst
    howitsmade-technical-committee.rst
    howitsmade-irc-meetings.rst
