@@ -47,9 +47,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'OpenStack Training Guides'
-bug_tag = u'training-guides'
-copyright = u'2014-2016, OpenStack contributors'
+project = u'Upstream Training Guide'
+bug_tag = u'upstream'
+copyright = u'2014-2015, OpenStack contributors'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -66,7 +66,7 @@ release = '0.0.1'
 #   bug_tag: Tag for categorizing the bug. Must be set manually.
 #   bug_project: Project to file bugs against.
 # These variables are passed to the logabug code via html_context.
-giturl = u'http://git.openstack.org/cgit/openstack/training-guides/tree/doc/training-guides/'
+giturl = u'http://git.openstack.org/cgit/openstack/training-guides/tree/doc/upstream-training/'
 git_cmd = "/usr/bin/git log | head -n1 | cut -f2 -d' '"
 gitsha = os.popen(git_cmd).read().strip('\n')
 html_context = {"gitsha": gitsha, "bug_tag": bug_tag,
@@ -84,7 +84,7 @@ html_context = {"gitsha": gitsha, "bug_tag": bug_tag,
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['associate-guide', 'build']
+exclude_patterns = []
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -120,7 +120,9 @@ html_theme = 'openstackdocs'
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-# html_theme_options = {}
+html_theme_options = {
+    'sidebar_mode': 'toc',
+}
 
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = [openstackdocstheme.get_html_theme_path()]
@@ -196,7 +198,7 @@ html_show_sourcelink = False
 # html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'training-guides'
+htmlhelp_basename = 'upstream-training'
 
 # If true, publish source files
 html_copy_source = False
@@ -218,7 +220,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    ('index', 'OpenStackTrainingGuides.tex', u'OpenStack Training Guides',
+    ('index', 'UpstreamTrainingGuide.tex', u'Upstream Training Guide',
      u'OpenStack contributors', 'manual'),
 ]
 
@@ -248,7 +250,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'openstack-training-guides', u'OpenStack Training Guides',
+    ('index', 'upstream-training-guide', u'Upstream Training Guide',
      [u'OpenStack contributors'], 1)
 ]
 
@@ -262,9 +264,9 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    ('index', 'OpenStackTrainingGuides', u'OpenStack Training Guides',
-     u'OpenStack contributors', 'OpenStackTrainingGuides',
-     'This guide offers OpenStack software training.',
+    ('index', 'UpstreamTrainingGuide', u'Upstream Training Guide',
+     u'OpenStack contributors', 'UpstreamTrainingGuide',
+     'This guide shows how to work with the OpenStack upstream.',
      'Miscellaneous'),
 ]
 
@@ -281,4 +283,4 @@ texinfo_documents = [
 # texinfo_no_detailmenu = False
 
 # -- Options for Internationalization output ------------------------------
-locale_dirs = ['source/locale/']
+locale_dirs = ['../locale/']

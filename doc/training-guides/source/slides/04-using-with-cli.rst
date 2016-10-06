@@ -2,7 +2,7 @@
 Using OpenStack Command-Line Interface
 ======================================
 
-.. figure:: ../figures/os_background.png
+.. figure:: figures/os_background.png
    :class: fill
    :width: 100%
 

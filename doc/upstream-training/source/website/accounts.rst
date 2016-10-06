@@ -19,7 +19,7 @@ Sign Up
 #. Fill in your email address, name, password, and accepting the terms of
    services.
 
-.. image:: ./source/_assets/tools/account-setup/1.png
+.. image:: _assets/account-setup/1.png
 
 
 Setup OpenStack Foundation Account
@@ -49,7 +49,7 @@ Sign Up
    <https://www.openstack.org/legal/community-code-of-conduct/>`_.
 #. Complete the application.
 
-.. image:: ./source/_assets/tools/account-setup/2.png
+.. image:: _assets/account-setup/2.png
 
 
 Setup Gerrit Account
@@ -103,7 +103,7 @@ Individual Contributors
 #. In Gerrit's `settings <https://review.openstack.org/#/settings/agreements>`_
    click the **New Contributor Agreement** link and sign the agreement.
 
-.. image:: ./source/_assets/tools/account-setup/3.png
+.. image:: _assets/account-setup/3.png
 
 Contributors From a Company or Organization
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -115,7 +115,7 @@ If you are contributing on behalf of a company or organization.
    Contributor License Agreement
    <https://secure.echosign.com/public/hostedForm?formid=56JUVGT95E78X5>`_.
 
-.. image:: ./source/_assets/tools/account-setup/3.png
+.. image:: _assets/account-setup/3.png
 
 .. note::
 
@@ -164,7 +164,7 @@ Register Contact Information
    you will see the line **"Contact information last updated ...."**
    just above the forms of mailing address.
 
-.. image:: ./source/_assets/tools/account-setup/4.png
+.. image:: _assets/account-setup/4.png
 
 .. note::
 
