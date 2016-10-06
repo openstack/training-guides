@@ -2,9 +2,9 @@
 # Frank Kloeker <eumel@arcor.de>, 2016. #zanata
 msgid ""
 msgstr ""
-"Project-Id-Version: Upstream Training Guide 2014.11.01\n"
+"Project-Id-Version: Upstream Training Guide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-03 15:02+0000\n"
+"POT-Creation-Date: 2016-10-06 01:32+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -213,12 +213,6 @@ msgstr ""
 "Fehler, die leicht zu beheben sind, ideal für Anfänger, um sich mit dem "
 "Arbeitsablauf vertraut zu machen und den ersten Kontakt mit dem Code in der "
 "Openstack-Entwicklung zu machen."
-
-msgid "Build the presentation"
-msgstr "Baue die Präsentation"
-
-msgid "Build the presention using tox::"
-msgstr "Baue die Präsentation mit tox::"
 
 msgid "CEO : 1"
 msgstr "CEO : 1"
@@ -694,9 +688,6 @@ msgstr ""
 msgid "High"
 msgstr "Hoch"
 
-msgid "How OpenStack is made"
-msgstr "Wie Openstack gemacht ist"
-
 msgid "How OpenStack is made (3h including 1h30 exercises)"
 msgstr "Wie OpenStack gemacht ist (3 Stunden incl. 1,5 Stunden Übungen)"
 
@@ -779,12 +770,6 @@ msgstr "Inline-Kommentare"
 
 msgid "Install git review"
 msgstr "Installieren git review"
-
-msgid "Install tox"
-msgstr "Installiere tox"
-
-msgid "Install tox using pip::"
-msgstr "Installiere tox mit pip::"
 
 msgid "Institutional members: Platinum and Gold sponsors"
 msgstr "Institutionelle Mitglieder: Platin- und Gold-Sponsoren"
@@ -1313,9 +1298,6 @@ msgstr "Die Individualvereinbarung unterzeichnen"
 msgid "Signed agreement"
 msgstr "Unterzeichnete Vereinbarung"
 
-msgid "Slides for Upstream Training"
-msgstr "Folien für Upstream-Training"
-
 msgid "Small issue with an easy workaround. Any other insignificant bug"
 msgstr ""
 "Kleiner Fehler mit einfachem Workaround. Jede anderen nichtsignifikanten "
@@ -1414,9 +1396,6 @@ msgstr "Technischer Ausschuss : 1"
 msgid "Tests can be remotely or self-administered"
 msgstr "Tests können entfernt oder selbstadministriert durchgeführt werden"
 
-msgid "The Contribution Process"
-msgstr "Der Beitrage-Prozess"
-
 msgid "The Contribution Process (1 hour)"
 msgstr "Der Beitrags-Prozess (1 Stunde)"
 
@@ -1470,15 +1449,6 @@ msgid "The bug was reproduced or confirmed as a genuine bug"
 msgstr "Der Fehler wurde vom Original-Fehler reproduziert oder bestätigt"
 
 msgid ""
-"The files are based on teaching material provided originally by Loic Dachary "
-"as ODP files. Converted to RST text in order to be converted by Hieroglyph "
-"in convenient HTML5 slides."
-msgstr ""
-"DIe Dateien basieren auf dem Trainingsmaterial, zur Verfügung gestellt von "
-"Loic Dachary als ODP Dateien. Konvertiert zu RST Text durch Hieroglyph im "
-"HTML5 Format."
-
-msgid ""
 "The fix is included in the milestone-proposed branch, a past milestone or a "
 "past release"
 msgstr ""
@@ -1511,10 +1481,6 @@ msgid ""
 msgstr ""
 "Die Teilnehmer benutzen Folienvorlagen um eine 5-Minuten-Präsentation über "
 "ihren geplanten Beitrag zu erstellen."
-
-msgid "These are HTML5 slides and should open with any modern web browser."
-msgstr ""
-"Es sind HTML5-Folien und sollten mit jedem modernen Browser zu öffnen sein."
 
 msgid "This helps the i18n and Documentation projects"
 msgstr "Das hilft dem I18N- und Dokumentationsprojekt"
@@ -1699,9 +1665,6 @@ msgstr "Fehlerbehebung ist in Arbeit, Fehler ist jemandem zugewiesen"
 msgid "Work sessions"
 msgstr "Arbeitssitzung"
 
-msgid "Workflow of an OpenStack contribution and tools"
-msgstr "Arbeitsablauf eines OpenStack Beitrages und Werkzeuge"
-
 msgid ""
 "Workflow of an OpenStack contribution and tools (3h including 2h exercises)"
 msgstr ""
@@ -1714,13 +1677,6 @@ msgstr "Dokumentation schreiben"
 msgid "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 msgstr ""
 "Xavier Antoviaque (Training, Mentoring, Assistent, französisch, englisch)"
-
-msgid ""
-"You should be able to see the slides at the given location: ``training-"
-"guides/doc/upstream-training/build/slides``."
-msgstr ""
-"Sie sollten die Folien hier finden: ``training-guides/doc/upstream-training/"
-"build/slides``."
 
 msgid "Your management"
 msgstr "Ihr Management"
@@ -1759,9 +1715,6 @@ msgstr "`Blueprints <https://wiki.openstack.org/wiki/Blueprints>`_"
 msgid "`Branch model <https://wiki.openstack.org/wiki/Branch_Model>`_"
 msgstr "`Branch Modell <https://wiki.openstack.org/wiki/Branch_Model>`_"
 
-msgid "`Branching model <15-branching-model.html>`_"
-msgstr "`Branching Modell <15-branching-model.html>`_"
-
 msgid "`Bugs <https://wiki.openstack.org/wiki/Bugs>`_"
 msgstr "`Bugs <https://wiki.openstack.org/wiki/Bugs>`_"
 
@@ -1771,9 +1724,6 @@ msgid ""
 msgstr ""
 "`Code Überprüfung <http://docs.openstack.org/infra/manual/developers."
 "html#code-review>`_ (`slides <16-reviewing.html>`__)"
-
-msgid "`Commit messages <17-commit-message.html>`_"
-msgstr "`Commit messages <17-commit-message.html>`_"
 
 msgid ""
 "`Complete index in slide format only <http://docs.openstack.org/upstream-"
@@ -1849,9 +1799,6 @@ msgstr ""
 "`Git review installation <http://docs.openstack.org/infra/manual/developers."
 "html#installing-git-review>`_"
 
-msgid "`How to contribute <12-howtocontribute.html>`_"
-msgstr "`Wie etwas beitragen <12-howtocontribute.html>`_"
-
 msgid ""
 "`How to create a project <http://docs.openstack.org/infra/manual/creators."
 "html>`_"
@@ -1874,9 +1821,6 @@ msgid ""
 msgstr ""
 "`IRC Services <http://docs.openstack.org/infra/system-config/irc.html>`_"
 
-msgid "`IRC meetings <06-irc-meetings.html>`_"
-msgstr "`IRC meetings <06-irc-meetings.html>`_"
-
 msgid ""
 "`IRC meetings <https://wiki.openstack.org/wiki/Meetings>`_ (`slides <06-irc-"
 "meetings.html>`__)"
@@ -1897,9 +1841,6 @@ msgid ""
 msgstr ""
 "`Jenkins (Automatisiertes Testen) <http://docs.openstack.org/infra/manual/"
 "developers.html#automated-testing>`_ (`slides <18-jenkins.html>`__)"
-
-msgid "`Jenkins <18-jenkins.html>`_"
-msgstr "`Jenkins <18-jenkins.html>`_"
 
 msgid ""
 "`Launchpad <https://help.launchpad.net/>`_ (`slides <13-launchpad.html>`__)"
@@ -1942,12 +1883,6 @@ msgstr ""
 "`ODP slides <http://dachary.org/loic/openstack-training/training-student-"
 "project-sample.odp>`_ `PDF slides <http://dachary.org/loic/openstack-"
 "training/training-student-project-sample.pdf>`_"
-
-msgid "`OpenStack Design Summit <05-design-summit.html>`_"
-msgstr "`OpenStack Design Summit <05-design-summit.html>`_"
-
-msgid "`OpenStack Governance <03-technical-committee.html>`_"
-msgstr "`OpenStack Verwaltung  <03-technical-committee.html>`_"
 
 msgid ""
 "`OpenStack Governance <http://governance.openstack.org/>`_ (`slides <03-"
@@ -2002,12 +1937,6 @@ msgstr ""
 "Release_Cycle#Other_release_candidates>`_"
 
 msgid ""
-"`Overview of the contribution process <19-training-contribution-process."
-"html>`_"
-msgstr ""
-"`Überblick des Beitrage-Prozess <19-training-contribution-process.html>`_"
-
-msgid ""
 "`PTLs <http://governance.openstack.org/reference/charter.html#project-team-"
 "leads>`_"
 msgstr ""
@@ -2055,9 +1984,6 @@ msgstr ""
 "`Versionskandidaten 1 <https://wiki.openstack.org/wiki/"
 "Release_Cycle#Release_candidate_1>`_"
 
-msgid "`Release cycle <01-release-cycle.html>`_"
-msgstr "`Versions-Zyklen <01-release-cycle.html>`_"
-
 msgid ""
 "`Release cycle <https://wiki.openstack.org/wiki/Release_Cycle>`_ (`slides "
 "<01-release-cycle.html>`__)"
@@ -2069,12 +1995,6 @@ msgid ""
 "`Release day <https://wiki.openstack.org/wiki/Release_Cycle#Release_day>`_"
 msgstr ""
 "`Versionstag <https://wiki.openstack.org/wiki/Release_Cycle#Release_day>`_"
-
-msgid "`Relevant actors <02-relevant-actors.html>`_"
-msgstr "`Relevante Akteure <02-relevant-actors.html>`_"
-
-msgid "`Reviewing <16-reviewing.html>`_"
-msgstr "`Reviewing <16-reviewing.html>`_"
 
 msgid ""
 "`Running unit tests <http://docs.openstack.org/infra/manual/developers."
@@ -2184,12 +2104,6 @@ msgstr ""
 "`Fehler untersuchen <https://wiki.openstack.org/wiki/"
 "Bugs#Debugging_.28optional.29>`_"
 
-msgid "`devstack.org <11-devstack.html>`_"
-msgstr "`devstack.org <11-devstack.html>`_"
-
-msgid "`launchpad.net <13-launchpad.html>`_"
-msgstr "`launchpad.net <13-launchpad.html>`_"
-
 msgid "`meetbot <http://wiki.debian.org/MeetBot>`_"
 msgstr "`meetbot <http://wiki.debian.org/MeetBot>`_"
 
@@ -2202,9 +2116,6 @@ msgstr ""
 
 msgid "`reporting a bug <https://wiki.openstack.org/wiki/Bugs#Reporting>`_"
 msgstr "`Melden eines Bug <https://wiki.openstack.org/wiki/Bugs#Reporting>`_"
-
-msgid "`review.openstack.org <14-gerrit.html>`_"
-msgstr "`review.openstack.org <14-gerrit.html>`_"
 
 msgid "a blueprint is a description of a solution"
 msgstr "ein Blueprint ist die Beschreibung einer Lösung"

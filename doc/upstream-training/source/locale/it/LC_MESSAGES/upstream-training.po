@@ -3,9 +3,9 @@
 # Remo Mattei <remo@rm.ht>, 2016. #zanata
 msgid ""
 msgstr ""
-"Project-Id-Version: Upstream Training Guide 2014.11.01\n"
+"Project-Id-Version: Upstream Training Guide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-29 10:17+0000\n"
+"POT-Creation-Date: 2016-10-06 01:32+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -293,12 +293,6 @@ msgstr ""
 "Bug che sono semplici da risolvere, ideali per i principianti per prendere "
 "confidenza con il flusso di lavoro e per avere il loro primo contatto con il "
 "codice nello sviluppo OpenStack."
-
-msgid "Build the presentation"
-msgstr "Crea la presentazione"
-
-msgid "Build the presention using tox::"
-msgstr "Crea la presentazione utilizzando tox::"
 
 msgid "CEO : 1"
 msgstr "CEO :1"
@@ -825,20 +819,6 @@ msgid "For SUSE distributions open a terminal and type::"
 msgstr "Per  distribuzioni di SUSE apri un terminale e digita::"
 
 msgid ""
-"For a linux distrubtions like Debian, Ubuntu, or Mint open a terminal and "
-"type::"
-msgstr ""
-"Per distribuzioni linux come Debian, Ubuntu, o Mint apri un terminale e "
-"digita::"
-
-msgid ""
-"For a linux distrubtions like Redhat, Fedora 21 or earlier, or Centos open a "
-"terminal and type::"
-msgstr ""
-"Per distribuzioni linux come Redhat, Fedora 21 o precedenti, oppure Centos "
-"apri un terminale e digita::"
-
-msgid ""
 "For distributions like Debian, Ubuntu, or Mint open a terminal and type::"
 msgstr ""
 "Per distribuzioni come Debian, Ubuntu, oppure MInt apri un terminale e "
@@ -1017,9 +997,6 @@ msgstr "Alto"
 
 msgid "Highlight and copy the output."
 msgstr "Evidenzia e copia l'output."
-
-msgid "How OpenStack is made"
-msgstr "Come è fatto OpenStack"
 
 msgid "How OpenStack is made (3h including 1h30 exercises)"
 msgstr "Come è fatto OpenStack (3 ore includendo 1h30 di esercizi)"
@@ -1260,12 +1237,6 @@ msgstr "Installa un programma di IRC"
 
 msgid "Install git review"
 msgstr "Installa git review"
-
-msgid "Install tox"
-msgstr "Installa tox"
-
-msgid "Install tox using pip::"
-msgstr "Installa tox usando pip::"
 
 msgid "Installation"
 msgstr "Installazione"
@@ -1924,9 +1895,6 @@ msgstr "Contratto firmato"
 msgid "Signing it"
 msgstr "Firmarlo"
 
-msgid "Slides for Upstream Training"
-msgstr "Le slide per l'Upstream Training"
-
 msgid "Small issue with an easy workaround. Any other insignificant bug"
 msgstr ""
 "Piccolo problema con una semplice soluzione. Qualsiasi altro bug poco "
@@ -2044,9 +2012,6 @@ msgid "Tests can be remotely or self-administered"
 msgstr ""
 "I test possono essere amministrati a distanza oppure auto-amministrati "
 
-msgid "The Contribution Process"
-msgstr "Il processo di collaborazione"
-
 msgid "The Contribution Process (1 hour)"
 msgstr "Il processo di contribuzione (1 ora )"
 
@@ -2107,15 +2072,6 @@ msgstr ""
 "Apri quel file dmg e segui le istruzioni sullo schermo."
 
 msgid ""
-"The files are based on teaching material provided originally by Loic Dachary "
-"as ODP files. Converted to RST text in order to be converted by Hieroglyph "
-"in convenient HTML5 slides."
-msgstr ""
-"I file si basano su del materiale di insegnamento fornito da Loic Dachary "
-"come file ODP. Convertiti in testo RST per essere convertiti da Hieroglyph "
-"in convenienti slide in HTML5."
-
-msgid ""
 "The fix is included in the milestone-proposed branch, a past milestone or a "
 "past release"
 msgstr ""
@@ -2151,11 +2107,6 @@ msgid ""
 msgstr ""
 "Gli studenti usano dei modelli di diapositive per preparare una "
 "presentaziode di 5 minuti della loro contribuzione prevista."
-
-msgid "These are HTML5 slides and should open with any modern web browser."
-msgstr ""
-"Queste sono slide in HTML5 e dovrebbero aprirsi con qualsisi browser web "
-"moderno."
 
 msgid "This helps the i18n and Documentation projects"
 msgstr "Questo aiuta i18n ed i progetti di documentazione "
@@ -2371,16 +2322,6 @@ msgstr ""
 "Quando firmi per la qualifica di membro della fondazione, assicurati di dare "
 "lo stesso indirizzo email che userai per le contribuzioni di codice."
 
-#, fuzzy
-msgid ""
-"When you have changes in an OpenStack project repository, you can use this "
-"sub-command to have the changes posted to :doc:`gerrit` so that they can be "
-"reviewed."
-msgstr ""
-"Quando hai delle modifiche in un repository di un progetto di OpenStack, "
-"puoi usare questo sub-comando per pubblicare queste modifiche su :doc:"
-"`gerrit` in modo che questi vengano revisionati."
-
 msgid ""
 "When you login to the server for the first time with your nickname, its "
 "being used by you, but it's still not registered yet."
@@ -2458,9 +2399,6 @@ msgstr ""
 "Lavora con i gruppi di utenti di tutto il mondo per mantenere la comunità di "
 "OpenStack risonante e informata"
 
-msgid "Workflow of an OpenStack contribution and tools"
-msgstr "Workflow di una collaborazione di OpenStack e strumenti"
-
 msgid ""
 "Workflow of an OpenStack contribution and tools (3h including 2h exercises)"
 msgstr ""
@@ -2480,13 +2418,6 @@ msgid ""
 msgstr ""
 "Puoi utilizzare `Git Immersion <http://gitimmersion.com/lab_02.html>`_ per "
 "lavorare attraverso tutoriali per imparare git,"
-
-msgid ""
-"You should be able to see the slides at the given location: ``training-"
-"guides/doc/upstream-training/build/slides``."
-msgstr ""
-"Dovresti essere in grado di vedere le slide nel seguente percorso: "
-"``training-guides/doc/upstream-training/build/slides``."
 
 msgid ""
 "You will be prompted to select a username. You can enter the same one you "
@@ -2533,9 +2464,6 @@ msgid "`Branch model <https://wiki.openstack.org/wiki/Branch_Model>`_"
 msgstr ""
 "`Modello di ramificazione <https://wiki.openstack.org/wiki/Branch_Model>`_"
 
-msgid "`Branching model <15-branching-model.html>`_"
-msgstr "`Modello ri ramificazione <15-branching-model.html>`_"
-
 msgid "`Bugs <https://wiki.openstack.org/wiki/Bugs>`_"
 msgstr "`Bugs <https://wiki.openstack.org/wiki/Bugs>`_"
 
@@ -2548,9 +2476,6 @@ msgid ""
 msgstr ""
 "`Revisione del codice <http://docs.openstack.org/infra/manual/developers."
 "html#code-review>`_ (`slides <16-reviewing.html>`__)"
-
-msgid "`Commit messages <17-commit-message.html>`_"
-msgstr "`Commit messages <17-commit-message.html>`_"
 
 msgid ""
 "`Complete index in slide format only <http://docs.openstack.org/upstream-"
@@ -2630,9 +2555,6 @@ msgstr ""
 "`Installazione di git review <http://docs.openstack.org/infra/manual/"
 "developers.html#installing-git-review>`_"
 
-msgid "`How to contribute <12-howtocontribute.html>`_"
-msgstr "`Come contribuire <12-howtocontribute.html>`_"
-
 msgid ""
 "`How to create a project <http://docs.openstack.org/infra/manual/creators."
 "html>`_"
@@ -2656,9 +2578,6 @@ msgid ""
 msgstr ""
 "`Servizi di IRC <http://docs.openstack.org/infra/system-config/irc.html>`_"
 
-msgid "`IRC meetings <06-irc-meetings.html>`_"
-msgstr "`Riunioni su IRC  <06-irc-meetings.html>`_"
-
 msgid ""
 "`IRC meetings <https://wiki.openstack.org/wiki/Meetings>`_ (`slides <06-irc-"
 "meetings.html>`__)"
@@ -2679,9 +2598,6 @@ msgid ""
 msgstr ""
 "`Jenkins (test automatizzati) <http://docs.openstack.org/infra/manual/"
 "developers.html#automated-testing>`_ (`slides <18-jenkins.html>`__)"
-
-msgid "`Jenkins <18-jenkins.html>`_"
-msgstr "`Jenkins <18-jenkins.html>`_"
 
 msgid ""
 "`Launchpad <https://help.launchpad.net/>`_ (`slides <13-launchpad.html>`__)"
@@ -2724,12 +2640,6 @@ msgstr ""
 "`Diapositive ODP <http://dachary.org/loic/openstack-training/training-"
 "student-project-sample.odp>`_ `PDF slides <http://dachary.org/loic/openstack-"
 "training/training-student-project-sample.pdf>`_"
-
-msgid "`OpenStack Design Summit <05-design-summit.html>`_"
-msgstr "`La Design Summit di OpenStack <05-design-summit.html>`_"
-
-msgid "`OpenStack Governance <03-technical-committee.html>`_"
-msgstr "Gestione di OpenStack  <03-technical-committee.html>`_"
 
 msgid ""
 "`OpenStack Governance <http://governance.openstack.org/>`_ (`slides <03-"
@@ -2785,13 +2695,6 @@ msgstr ""
 "Release_Cycle#Other_release_candidates>`_"
 
 msgid ""
-"`Overview of the contribution process <19-training-contribution-process."
-"html>`_"
-msgstr ""
-"`Panoramica del processo di contribuzione <19-training-contribution-process."
-"html>`_"
-
-msgid ""
 "`PTLs <http://governance.openstack.org/reference/charter.html#project-team-"
 "leads>`_"
 msgstr ""
@@ -2840,9 +2743,6 @@ msgstr ""
 "Candidato 1 di rlascio <https://wiki.openstack.org/wiki/"
 "Release_Cycle#Release_candidate_1>`_"
 
-msgid "`Release cycle <01-release-cycle.html>`_"
-msgstr "Ciclo di rilascio  <01-release-cycle.html>`_"
-
 msgid ""
 "`Release cycle <https://wiki.openstack.org/wiki/Release_Cycle>`_ (`slides "
 "<01-release-cycle.html>`__)"
@@ -2855,13 +2755,6 @@ msgid ""
 msgstr ""
 "Giorno del rilascio <https://wiki.openstack.org/wiki/"
 "Release_Cycle#Release_day>`_"
-
-#, fuzzy
-msgid "`Relevant actors <02-relevant-actors.html>`_"
-msgstr "Attori rilevanti <02-relevant-actors.html>`_"
-
-msgid "`Reviewing <16-reviewing.html>`_"
-msgstr "`Revisione <16-reviewing.html>`_"
 
 msgid ""
 "`Running unit tests <http://docs.openstack.org/infra/manual/developers."
@@ -2985,12 +2878,6 @@ msgstr ""
 "`Fare il debug <https://wiki.openstack.org/wiki/"
 "Bugs#Debugging_.28optional.29>`_"
 
-msgid "`devstack.org <11-devstack.html>`_"
-msgstr "`devstack.org <11-devstack.html>`_"
-
-msgid "`launchpad.net <13-launchpad.html>`_"
-msgstr "`launchpad.net <13-launchpad.html>`_"
-
 msgid "`meetbot <http://wiki.debian.org/MeetBot>`_"
 msgstr "`meetbot <http://wiki.debian.org/MeetBot>`_"
 
@@ -3003,9 +2890,6 @@ msgstr ""
 
 msgid "`reporting a bug <https://wiki.openstack.org/wiki/Bugs#Reporting>`_"
 msgstr "`Reportare un bug <https://wiki.openstack.org/wiki/Bugs#Reporting>`_ "
-
-msgid "`review.openstack.org <14-gerrit.html>`_"
-msgstr "`review.openstack.org <14-gerrit.html>`_"
 
 msgid "a blueprint is a description of a solution"
 msgstr "un blueprint è una descrizione di una soluzione"
