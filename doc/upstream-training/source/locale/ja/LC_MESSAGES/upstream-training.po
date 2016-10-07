@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-06 01:32+0000\n"
+"POT-Creation-Date: 2016-10-06 10:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-10-05 03:05+0000\n"
+"PO-Revision-Date: 2016-10-06 02:43+0000\n"
 "Last-Translator: Akihiro Motoki <amotoki@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -273,6 +273,9 @@ msgstr "個人メンバーに登録し、 CLA に署名してください"
 
 msgid "Appropriate Fixes"
 msgstr "適切な修正"
+
+msgid "Archive"
+msgstr "アーカイブ"
 
 msgid "Archive and collect"
 msgstr "記録保管所と収集"
@@ -576,6 +579,9 @@ msgstr "コードを取得し、中身を知りましょう"
 msgid "Code"
 msgstr "コード"
 
+msgid "Code Deep Dive"
+msgstr "コード Deep Dive"
+
 msgid "Collaboration tools"
 msgstr "コラボレーションツール"
 
@@ -679,6 +685,10 @@ msgstr "企業や組織からの貢献者"
 
 msgid "Contributors From the U.S. Government"
 msgstr "U.S. Government からの貢献者"
+
+msgid "Contributors get to vote in the Technical Committee election"
+msgstr ""
+"プロジェクトのコントリビューターは Technical Committee の選挙に投票できます"
 
 msgid "Controversial : 1"
 msgstr "議論好きの人 : 1"
@@ -1057,6 +1067,9 @@ msgstr "どのように問題が解決されるのかの説明"
 msgid "Explain what you do"
 msgstr "何をしているかを説明する"
 
+msgid "Explanation of issue being solved and why it should be fixed"
+msgstr "解決される問題の説明、なぜ修正すべきなのか"
+
 msgid "Face-to-face section: 2 days"
 msgstr "集合教育: 2 日間"
 
@@ -1171,6 +1184,20 @@ msgstr ""
 msgid "For SUSE distributions open a terminal and type::"
 msgstr ""
 "SUSE ディストリビューションの場合、ターミナルを開き、次のように入力します。"
+
+msgid ""
+"For a linux distributions like Debian, Ubuntu, or Mint open a terminal and "
+"type::"
+msgstr ""
+"Debian、Ubuntu、Mint などの Linux ディストリビューションの場合、ターミナルを"
+"開き、次のように入力します。"
+
+msgid ""
+"For a linux distributions like Redhat, Fedora 21 or earlier, or CentOS open "
+"a terminal and type::"
+msgstr ""
+"Red Hat、Fedora 21 以前、CentOS 以前などの Linux ディストリビューションの場"
+"合、ターミナルを開き、次のように入力します。"
 
 msgid ""
 "For distributions like Debian, Ubuntu, or Mint open a terminal and type::"
@@ -1434,6 +1461,9 @@ msgstr "出力をハイライトして、コピーします。"
 
 msgid "Hopefully we end up with a unique Lego creation!"
 msgstr "ユニークな LEGO が創って終わることができますように!"
+
+msgid "How OpenStack is Made"
+msgstr "OpenStack はどのように作られているか"
 
 msgid "How OpenStack is made (3h including 1h30 exercises)"
 msgstr ""
@@ -2924,6 +2954,10 @@ msgstr "チーム構成"
 msgid "Teams in OpenStack can be freely created as they are needed"
 msgstr "OpenStack のチームは必要に応じて自由に作成できます。"
 
+msgid ""
+"Teams of official projects are under the authority of the Technical Committee"
+msgstr "公式プロジェクトのチームは Technical Committee の権限の元におかれます"
+
 msgid "Technical Committee"
 msgstr "技術委員会 (TC: Technical Committee)"
 
@@ -3113,6 +3147,22 @@ msgid "The trainers for the upcoming training in Barcelona:"
 msgstr "次回のバルセロナでのトレーニングの講師:"
 
 msgid ""
+"These slides prepare students for the Lego activity, and ensure they "
+"understand the metaphors in use. The Lego in the exercise represents the "
+"code of a software project, in this case OpenStack. The students all take on "
+"roles that represent various facets of the OpenStack community, including "
+"upstream roles like Foundation and TC, and contributors like corporations, "
+"and unaffiliated individuals animated by unknown motives (free agents)."
+msgstr ""
+"このスライドでは、受講者に LEGO 活動の準備をしてもらい、何のメタファーである"
+"かを理解してもらいます。演習における LEGO はソフトウェアプロジェクトにおける"
+"コードを表しており、このケースでは OpenStack にあたります。全ての受講者は "
+"OpenStack コミュニティーにおけるさまざまな相の役割を担います。これには "
+"Foundation や TC といったアップストリームの役割、企業や不明な動機で活動する無"
+"所属の個人（フリーエージェント）といったコントリビューターの役割も含まれま"
+"す。"
+
+msgid ""
 "This contact information can be easily updated later if desired, but make "
 "sure the primary email address always matches the one you set for your "
 "OpenStack Foundation Membership. Otherwise, Gerrit will give you an error "
@@ -3300,6 +3350,9 @@ msgstr ""
 
 msgid "Victoria Martínez de la Cruz (assistant, english)"
 msgstr "Victoria Martínez de la Cruz (assistant, english)"
+
+msgid "Virtual Infrastructure Manager (VIM) + NFV Infrastructure (NFVI)"
+msgstr "Virtual Infrastructure Manager (VIM) + NFV Infratsructure (NFVI)"
 
 msgid "Virtual Network Functions Manager (VNFM)"
 msgstr "Virtual Network Functions Manager (VNFM)"
@@ -3512,6 +3565,9 @@ msgstr ""
 "世界中のユーザーグループと協働して、OpenStack コミュニティーを活気に満ちて、"
 "見識を保ちます"
 
+msgid "Workflow and Tools for Participation"
+msgstr "参加するための流れとツール"
+
 msgid ""
 "Workflow of an OpenStack contribution and tools (3h including 2h exercises)"
 msgstr ""
@@ -3614,6 +3670,9 @@ msgstr ""
 "`コードレビュー <http://docs.openstack.org/infra/manual/developers.html#code-"
 "review>`_ (`スライド <16-reviewing.html>`__)"
 
+msgid "`Commit Messages <workflow-commit-message.html>`_"
+msgstr "`コミットメッセージ <workflow-commit-message.html>`_"
+
 msgid ""
 "`Complete index in slide format only <http://docs.openstack.org/upstream-"
 "training/slide-index.html>`_"
@@ -3686,6 +3745,9 @@ msgstr ""
 "`Etherpad for Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
 "p/upstream-training-korea-2016>`_"
 
+msgid "`Gerrit <workflow-gerrit.html>`_"
+msgstr "`Gerrit <workflow-gerrit.html>`_"
+
 msgid ""
 "`Git Commit Good Practice <https://wiki.openstack.org/wiki/"
 "GitCommitMessages>`_"
@@ -3699,6 +3761,13 @@ msgid ""
 msgstr ""
 "`Git review installation <http://docs.openstack.org/infra/manual/developers."
 "html#installing-git-review>`_"
+
+msgid ""
+"`Guide to SetUp and Push First Patch <workflow-setup-and-first-patch.html>`_"
+msgstr "`環境設定と最初のパッチの投稿 <workflow-setup-and-first-patch.html>`_"
+
+msgid "`How to Contribute <workflow-howtocontribute.html>`_"
+msgstr "`コントリビューション方法 <workflow-howtocontribute.html>`_"
 
 msgid ""
 "`How to create a project <http://docs.openstack.org/infra/manual/creators."
@@ -3722,6 +3791,9 @@ msgid ""
 msgstr ""
 "`IRC サービス <http://docs.openstack.org/infra/system-config/irc.html>`_"
 
+msgid "`IRC meetings <howitsmade-irc-meetings.html>`_"
+msgstr "`IRC ミーティング <howitsmade-irc-meetings.html>`_"
+
 msgid ""
 "`IRC meetings <https://wiki.openstack.org/wiki/Meetings>`_ (`slides <06-irc-"
 "meetings.html>`__)"
@@ -3737,16 +3809,40 @@ msgstr ""
 "Release_Cycle#Implementation_.28Milestone_iterations.29>`_"
 
 msgid ""
+"`Introducing OpenStack as a Community <intro-openstack-as-community.html>`_"
+msgstr ""
+"`コミュニティーとしての OpenStack の紹介 <intro-openstack-as-community."
+"html>`_"
+
+msgid ""
+"`Introducing OpenStack as a Software <intro-openstack-as-software.html>`_"
+msgstr ""
+"`ソフトウェアとしての OpenStack の紹介 <intro-openstack-as-software.html>`_"
+
+msgid "`Introduction <intro-introduction.html>`_"
+msgstr "`はじめに <intro-introduction.html>`_"
+
+msgid ""
 "`Jenkins (Automated testing) <http://docs.openstack.org/infra/manual/"
 "developers.html#automated-testing>`_ (`slides <18-jenkins.html>`__)"
 msgstr ""
 "`Jenkins (自動テスト) <http://docs.openstack.org/infra/manual/developers."
 "html#automated-testing>`_ (`スライド <18-jenkins.html>`__)"
 
+msgid "`Jenkins <workflow-jenkins.html>`_"
+msgstr "`Jenkins <workflow-jenkins.html>`_"
+
 msgid ""
 "`Launchpad <https://help.launchpad.net/>`_ (`slides <13-launchpad.html>`__)"
 msgstr ""
 "`Launchpad <https://help.launchpad.net/>`_ (`slides <13-launchpad.html>`__)"
+
+msgid ""
+"`Lego applied to Free Software contributions <archive-training-agile-for-"
+"contributors.html>`_"
+msgstr ""
+"`LEGO のフリーソフトウェアのコントリビューションへの応用 <archive-training-"
+"agile-for-contributors.html>`_"
 
 msgid ""
 "`Liberty Summit Etherpads <https://wiki.openstack.org/wiki/Design_Summit/"
@@ -3784,6 +3880,15 @@ msgstr ""
 "`ODP スライド <http://dachary.org/loic/openstack-training/training-student-"
 "project-sample.odp>`_ `PDF スライド <http://dachary.org/loic/openstack-"
 "training/training-student-project-sample.pdf>`_"
+
+msgid "`Official OpenStack projects <howitsmade-official-projects.html>`_"
+msgstr "`OpenStack 公式プロジェクト <howitsmade-official-projects.html>`_"
+
+msgid "`OpenStack Design Summit <howitsmade-design-summit.html>`_"
+msgstr "`OpenStack Design Summit <howitsmade-design-summit.html>`_"
+
+msgid "`OpenStack Governance <howitsmade-technical-committee.html>`_"
+msgstr "`OpenStack ガバナンス <howitsmade-technical-committee.html>`_"
 
 msgid ""
 "`OpenStack Governance <http://governance.openstack.org/>`_ (`slides <03-"
@@ -3845,6 +3950,13 @@ msgstr ""
 "Release_Cycle#Other_release_candidates>`_"
 
 msgid ""
+"`Overview of the contribution process <workflow-training-contribution-"
+"process.html>`_"
+msgstr ""
+"`コントリビューションの流れの概要 <workflow-training-contribution-process."
+"html>`_"
+
+msgid ""
 "`PTLs <http://governance.openstack.org/reference/charter.html#project-team-"
 "leads>`_"
 msgstr ""
@@ -3891,6 +4003,9 @@ msgstr ""
 "`リリース候補版 1 <https://wiki.openstack.org/wiki/"
 "Release_Cycle#Release_candidate_1>`_"
 
+msgid "`Release cycle <howitsmade-release-cycle.html>`_"
+msgstr "`リリースサイクル <howitsmade-release-cycle.html>`_"
+
 msgid ""
 "`Release cycle <https://wiki.openstack.org/wiki/Release_Cycle>`_ (`slides "
 "<01-release-cycle.html>`__)"
@@ -3903,12 +4018,18 @@ msgid ""
 msgstr ""
 "`リリース日 <https://wiki.openstack.org/wiki/Release_Cycle#Release_day>`_"
 
+msgid "`Relevant actors <howitsmade-relevant-actors.html>`_"
+msgstr "`OpenStack に関わっている人々 <howitsmade-relevant-actors.html>`_"
+
 msgid ""
 "`Requirements <https://governance.openstack.org/reference/new-projects-"
 "requirements.html>`_ for official OpenStack projects"
 msgstr ""
 "OpenStack 公式プロジェクトの `要件 <https://governance.openstack.org/"
 "reference/new-projects-requirements.html>`__"
+
+msgid "`Reviewing <workflow-reviewing.html>`_"
+msgstr "`レビュー <workflow-reviewing.html>`_"
 
 msgid ""
 "`Running unit tests <http://docs.openstack.org/infra/manual/developers."
@@ -3957,6 +4078,9 @@ msgid ""
 msgstr ""
 "`Technical Committee の役割 <http://governance.openstack.org/reference/"
 "charter.html#mission>`_"
+
+msgid "`Tracking <workflow-launchpad.html>`_"
+msgstr "`活動のトラッキング <workflow-launchpad.html>`_"
 
 msgid ""
 "`Training guides <https://wiki.openstack.org/wiki/Training-guides#How_To>`_"
@@ -4045,6 +4169,9 @@ msgid ""
 "`debugging <https://wiki.openstack.org/wiki/Bugs#Debugging_.28optional.29>`_"
 msgstr ""
 "`デバッグ <https://wiki.openstack.org/wiki/Bugs#Debugging_.28optional.29>`_"
+
+msgid "`devstack.org <code-devstack.html>`_"
+msgstr "`devstack.org <code-devstack.html>`_"
 
 msgid "`meetbot <http://wiki.debian.org/MeetBot>`_"
 msgstr "`meetbot <http://wiki.debian.org/MeetBot>`_"
