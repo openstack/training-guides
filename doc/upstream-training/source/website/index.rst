@@ -129,10 +129,14 @@ Workflow and Tools for Participation
 
 Code Deep Dive
 --------------
+
 * `devstack.org <code-devstack.html>`_
 
-Archive
--------
+Archive of additional training activities
+-----------------------------------------
+
+.. note:: Activities listed here are not realised at every Upstream training.
+
 * `Lego applied to Free Software contributions
   <archive-training-agile-for-contributors.html>`_
 
