@@ -10,159 +10,172 @@ What makes a release
 ====================
 
 - A way to coordinate the development of multiple projects
-- Until Kilo "integrated release" meant a date when all the projects
-  are released at the end of the development cycles
-- Integrated projects were also tested together at the gate
-- For Liberty integrated projects are those managed by the Release
-  Management Team
-- Other projects may have different schedules
+- Release process is managed by the Release Management team
+- Release models
 
-  - Each project team page shows its release policy on
-    http://governance.openstack.org/reference/projects
+  - *Common cycle with development milestones*
+  - Common cycle with intermediary release
+  - Trailing the common cycle
+  - Independent release model
 
-Planning : Design
+.. note::
+
+  - Release management description:
+    http://docs.openstack.org/project-team-guide/release-management.html
+  - The training concentrates on the common cycle with the development
+    milestones as that is what most students will face with. The other types
+    should be described with examples.
+
+Exercise
+========
+
+- Look up the release schedule for the current and past two OpenStack
+  release cycles
+- Identify common caracteristics of these cycles
+
+  - Milestones
+  - Deadlines
+  - etc.
+
+- Describe a release cycle based on the information you found
+
+Common cycle with development milestones
+========================================
+
+- A coordinated way for projects to periodically create their deliverables
+  including testing and documentation
+- Every cycle includes
+
+  - Planning and design activities
+  - Implementation work
+
+    - New features
+    - Bug fixes
+    - Testing
+    - Documentation
+
+  - Release preparation
+  - Release
+
+Planning - Design
 =================
 
-.. rst-class:: colleft
+- Design activity is a continuous effort
+- Planning for a release cycle starts at the end of the previous cycle
+- It depends on each project how to organise the work at each cycle
 
-- Planning stage is at the start of a cycle
-- Take a step back
-- Focus on what we want to do for the next one
+  - Spec/blueprint freeze
+  - Prioritising items
 
-.. rst-class:: colright
+- Generic intention behind planning
 
-.. image:: ./_assets/01-01-release.png
+  - Take a step back
+  - Focus on what we want to do for the next one
 
-Planning : Discuss
+Planning - Discuss
 ==================
 
-.. rst-class:: colleft
+- Prepare your idea for the public
 
-- With our peers
-- Feedback and comments
-- Create the corresponding blueprint
-- 4 weeks, Design Summit on the third week
+  - Discuss with your peers
+  - Work on feedback and comments
 
-.. rst-class:: colright
+- Capture your idea in a spec/blueprint
 
-.. image:: ./_assets/01-01-release.png
-
-Planning : Target
+Planning - Target
 =================
 
-.. rst-class:: colleft
+- Submit the blueprints and/or specs
+- Identify a target milestone
 
-- File new blueprints and/or specs
-- Set a target milestone
-- When in the cycle they intend to complete it
-- PTLs triage the submitted blueprints and set priority
+  - When in the cycle you intend to complete it
+  - Project team helps you to identify the target milestone and register it
+    in the tracking tool
 
-.. rst-class:: colright
-
-.. image:: ./_assets/01-01-release.png
-
-Implementation : Milestone
-==========================
-
-.. rst-class:: colleft
-
-- Pushed to Gerrit for peer review
-- Weeks before the milestone publication date
-- Milestone-proposed branch
-- Feature-frozen
-
-.. rst-class:: colright
-
-.. image:: ./_assets/01-01-release.png
-
-Implementation : freezes
-========================
-
-.. rst-class:: colleft
-
+- The priority of the work item is set by the project team members or lead
 - Feature proposal freeze
 
-  - Not even proposals for features will be accepted
-  - Focus on bug-fixing
+  - The deadline for proposing new ideas for a release cycle
+  - The exact date depends on the projects
 
+Exercise
+========
+
+- Find feature proposal deadlines in the current release schedule
+
+Implementation
+==============
+
+- When your blueprint/spec is accepted
+
+  - Push code to Gerrit for review
+  - Upload your code as early as possible in the release cycle
+
+- Deadlines for the code to get merged
+
+  - Depends on the priority of your work item
+  - Set by each project team
+
+Implementation - Milestone
+==========================
+
+- Three development milestones during a release cycle
+- Make useful reference points in time to organize the development cycle
+- Milestones are tagged in the repository using b1, b2 and b3
+- Overall feature freeze is the third milestone
+
+Implementation - Freezes
+========================
+
+- Freeze dates depend on the type of activity
 - Feature freeze
 
-  - New features will not be accepted, only fixes
+  - Code for new features will not be accepted
+  - Bug fixing activities are still ongoing
+  - More focus on testing
 
 - String freeze
 
   - All externally visible strings must be frozen
-  - This helps the i18n and Documentation projects
-
-.. rst-class:: colright
-
-.. image:: ./_assets/01-01-release.png
+  - This helps the I18n and Documentation projects
 
 Release Candidates
 ==================
 
-.. rst-class:: colleft
-
 - After the last milestone
+- Code stabilization period
+- Main activities
 
-  - File bugs about everything you find
+  - Test the code and file bugs
   - Prioritize bugs / bug triage
-  - Write documentation
-  - Fix as many bugs as you can
 
-.. rst-class:: colright
+    - Get critical and high priority bugs fixed on the first place
+    - Fix as many bugs as possible
 
-.. image:: ./_assets/01-01-release.png
+  - Finalize documentation
 
 Release candidate 1
 ===================
 
-.. rst-class:: colleft
-
-- Between the last milestone and the RC1
-
-  - Stop adding features and concentrate on bug fixes
-  - Once all the release-critical bugs are fixed, we produce the first release
-    candidate for that project (RC1)
-  - Used as-is as the final release
-
-
-.. rst-class:: colright
-
-.. image:: ./_assets/01-01-release.png
+- Cut when all the release-critical bugs are fixed
+- stable/release branch
+- master branch is open for development
+- Used as-is as the final release
 
 Other release candidates
 ========================
-
-.. rst-class:: colleft
 
 - Regressions and integration issues
 
   - New release-critical bugs
 
-- (RC2), with bugs targeted to it
+- (RC2, RC3, ...), with bugs targeted to it
 
-  - Merged in the master branch first
+  - Merged in the master branch first and then cherry-picked to stable
   - Repeated as many times as necessary
-
-.. rst-class:: colright
-
-.. image:: ./_assets/01-01-release.png
 
 Release day
 ===========
 
-.. rst-class:: colleft
-
 - Last published release candidate
 - Published collectively as the OpenStack release
-
-.. rst-class:: colright
-
-.. image:: ./_assets/01-01-release.png
-
-Exercise
-========
-
-Based on the Kilo release schedule, find the URL of a document or a patch
-that belongs to each of the steps.
