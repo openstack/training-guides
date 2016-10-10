@@ -1,7 +1,7 @@
 Getting started quiz
 ====================
 
-.. image:: ../figures/os_background.png
+.. image:: figures/os_background.png
    :class: fill
    :width: 100%
 
@@ -56,7 +56,7 @@ Getting started quiz questions
 Answers
 =======
 
-.. image:: ../figures/os_background.png
+.. image:: figures/os_background.png
    :class: fill
    :width: 100%
 

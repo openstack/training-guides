@@ -1,7 +1,7 @@
 Compute node quiz
 =================
 
-.. image:: ../figures/os_background.png
+.. image:: figures/os_background.png
    :class: fill
    :width: 100%
 
@@ -65,7 +65,7 @@ Compute node quiz questions
 Answers
 =======
 
-.. image:: ../figures/os_background.png
+.. image:: figures/os_background.png
    :class: fill
    :width: 100%
 

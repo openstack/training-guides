@@ -2,7 +2,7 @@
 Network node
 ============
 
-.. figure:: ../figures/os_background.png
+.. figure:: figures/os_background.png
    :class: fill
    :width: 100%
 
@@ -145,7 +145,7 @@ Typically at least **four** distinct **physical** data center **networks**:
 OpenStack Networking - Connectivity
 ===================================
 
-.. image:: ../figures/network-connectivity.png
+.. image:: figures/network-connectivity.png
 
 
 OpenStack Networking Concepts
@@ -175,7 +175,7 @@ OpenStack Networking Concepts (cont)
 OpenStack Networking Concepts (cont)
 ====================================
 
-.. image:: ../figures/network-concept.png
+.. image:: figures/network-concept.png
 
 Managing Networks - CLI
 =======================

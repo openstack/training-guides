@@ -30,10 +30,10 @@ MARKER_TEXT="Project: $ZUUL_PROJECT Ref: $ZUUL_REFNAME Build: $ZUUL_UUID"
 # upstream-training contains the HTML and slides contents
 
 # build upstream-training slides
-sphinx-build -j $NUMBER_OF_CORES -b slides -b gettext ${DIRECTORY}/source/ \
+sphinx-build -j $NUMBER_OF_CORES -b slides -b gettext ${DIRECTORY}/source/slides \
     ${DIRECTORY}/source/locale/
 # build upstream landing page index.html
-sphinx-build -j $NUMBER_OF_CORES -b html -b gettext ${DIRECTORY}/ \
+sphinx-build -j $NUMBER_OF_CORES -b html -b gettext ${DIRECTORY}/source/website \
     ${DIRECTORY}/source/locale/
 
 # check all language translation resouce
@@ -67,11 +67,11 @@ for locale in `find ${DIRECTORY}/source/locale/ -maxdepth 1 -type d` ; do
     # build upstream-training slides
     sphinx-build -j $NUMBER_OF_CORES -b slides -D language=${language} \
         -d "${DIRECTORY}/build/slides.doctrees" \
-        ${DIRECTORY}/source/ ${DIRECTORY}/build/slides/
+        ${DIRECTORY}/source/slides ${DIRECTORY}/build/slides/
     # build upstream landing page index.html
     sphinx-build -j $NUMBER_OF_CORES -b html -D language=${language} \
         -d "${DIRECTORY}/build/slides.doctrees" \
-        ${DIRECTORY}/ ${DIRECTORY}/build/slides/
+        ${DIRECTORY}/source/website ${DIRECTORY}/build/slides/
 
     # move built guide to publish directory
     mkdir -p publish-docs/${language}/${DOCNAME}/

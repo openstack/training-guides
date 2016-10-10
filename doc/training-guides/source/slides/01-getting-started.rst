@@ -2,7 +2,7 @@
 Getting started
 ===============
 
-.. figure:: ../figures/os_background.png
+.. figure:: figures/os_background.png
    :class: fill
    :width: 100%
 
@@ -59,7 +59,7 @@ Release Cycle
 
   - Made of four major stages: Planning, Implementation, Pre-release, Release
 
-.. image:: ../figures/community-heartbeats.png
+.. image:: figures/community-heartbeats.png
 
 *Community Heartbeat*
 
@@ -111,7 +111,7 @@ Conceptual Architecture
 Conceptual Architecture (cont)
 ==============================
 
-.. image:: ../figures/conceptual-arch.jpg
+.. image:: figures/conceptual-arch.jpg
 
 *Conceptual Diagram*
 
@@ -139,7 +139,7 @@ Conceptual Architecture (cont)
 Logical Architecture
 ====================
 
-.. image:: ../figures/arch-havana-logical-v1.jpg
+.. image:: figures/arch-havana-logical-v1.jpg
 
 *Logical diagram*
 
@@ -166,7 +166,7 @@ Dashboard (horizon)
 - Provides an end user and administrator interface to OpenStack services.
 - A modular Django web application
 
-.. image:: ../figures/horizon-essex.jpg
+.. image:: figures/horizon-essex.jpg
   :width: 75%
 
 .. note::
