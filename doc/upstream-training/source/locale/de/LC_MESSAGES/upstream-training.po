@@ -4,11 +4,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-07 10:03+0000\n"
+"POT-Creation-Date: 2016-10-09 09:43+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-10-08 09:57+0000\n"
+"PO-Revision-Date: 2016-10-09 08:33+0000\n"
 "Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -114,6 +114,15 @@ msgstr "Alle extern sichtbaren Zeichenketten sind gesperrt"
 
 msgid "Allows you to:"
 msgstr "Ihnen erlaubt:"
+
+msgid ""
+"An agreement to clarify intellectual property license granted with "
+"contributions from a person or entity. `Preview the full agreement <https://"
+"review.openstack.org/static/cla.html>`_."
+msgstr ""
+"Eine Vereinbarung zur Klärung der Lizenz für geistiges Eigentum, die mit "
+"Beiträgen einer Person oder Einrichtung entsteht. `Vorschau der vollen "
+"Vereinbarung <https://review.openstack.org/static/cla.html>`_."
 
 msgid "Answer questions"
 msgstr "Fragen beantworten"
@@ -240,6 +249,13 @@ msgstr ""
 msgid "Choose a question"
 msgstr "Eine Frage wählen"
 
+msgid ""
+"Choose and type your username carefully. Once it is set, you cannot change "
+"the username."
+msgstr ""
+"Seien Sie vorsichtig bei der Eingabe des Benutzernamens. Einmal gesetzt kann "
+"er nicht mehr geändert werden."
+
 msgid "Chris Ricker (training, mentoring, assistant, english)"
 msgstr "Chris Ricker (Training, Mentoring, Assistent, englisch)"
 
@@ -279,6 +295,9 @@ msgstr "Firmen"
 
 msgid "Company snapshot"
 msgstr "Unternehmensprofil"
+
+msgid "Complete the application."
+msgstr "Antrag vervollständigen"
 
 msgid "Confirmed"
 msgstr "Bestätigt"
@@ -632,6 +651,15 @@ msgstr "Verboten"
 msgid "François Bureau (assistant, french, english)"
 msgstr "François Bureau (Assistent, französisch, englisch)"
 
+msgid ""
+"From here on out when you sign into Gerrit, you'll be prompted to enter your "
+"your Launchpad login info. This is because Gerrit uses it as an OpenID "
+"single sign on."
+msgstr ""
+"Wenn Sie sich in Gerrit anmelden wollen, werden Sie von jetzt an zur "
+"Launchpad Anmeldung weitergeleitet, weil Gerrit es als OpenID Einmalige "
+"Anmeldung verwendet."
+
 msgid "GIT commit message structure"
 msgstr "GIT Commit-Nachricht-Sruktur"
 
@@ -762,6 +790,12 @@ msgstr "Inkompatible Änderungen an Konfigurationsdateien"
 
 msgid "Incomplete"
 msgstr "Unvollständig"
+
+msgid "Individual Contributor License Agreement"
+msgstr "Individual Contributor License Agreement"
+
+msgid "Individual Contributors"
+msgstr "Individual Contributors"
 
 msgid "Individual members: all of us"
 msgstr "Einzelmitglieder: alle von uns"
@@ -1188,6 +1222,14 @@ msgstr "Zu Gerrit gepuscht für Peer Überprüfung"
 msgid "Quantify the delta"
 msgstr "Quantifizierung des Deltas"
 
+msgid ""
+"Read through the presented individual member terms of service and our "
+"`Community Code of Conduct <https://www.openstack.org/legal/community-code-"
+"of-conduct/>`_."
+msgstr ""
+"Lesen Sie sich die Nutzungsbedingungen durch und den  `Community Code of "
+"Conduct <https://www.openstack.org/legal/community-code-of-conduct/>`_."
+
 msgid "Recheck bug #XXX"
 msgstr "Recheck bug #XXX"
 
@@ -1294,6 +1336,9 @@ msgstr ""
 msgid "Set a target milestone"
 msgstr "Setzen eines Zielmeilensteins"
 
+msgid "Setup Gerrit Account"
+msgstr "Gerrit Konto einrichten"
+
 msgid "Setup Launchpad"
 msgstr "Einrichtung Launchpad"
 
@@ -1314,6 +1359,9 @@ msgstr "Die Individualvereinbarung unterzeichnen"
 
 msgid "Signed agreement"
 msgstr "Unterzeichnete Vereinbarung"
+
+msgid "Signing it"
+msgstr "Unterzeichnen Sie es"
 
 msgid "Small issue with an easy workaround. Any other insignificant bug"
 msgstr ""
@@ -1515,6 +1563,13 @@ msgstr ""
 msgid "This is not a bug"
 msgstr "Das ist kein Fehler"
 
+msgid ""
+"This is the review system the OpenStack community uses. Here are just some "
+"of the things we use Gerrit for reviewing:"
+msgstr ""
+"Es ist ein Überprüfungssystem der OpenStack-Gemeinschaft. Hier sind einige "
+"Dinge für die Gerrit benutzt wird:"
+
 msgid "This will need to match your preferred email address in Gerrit."
 msgstr ""
 "Dies wird benötigt, um Ihre beforzugte E-Mail-Adresse in Gerrit zu verwenden."
@@ -1549,6 +1604,10 @@ msgstr "Ubuntu oder Fedora"
 msgid "Undefined"
 msgstr "undefinier"
 
+msgid "Under individual members, click the **Foundation Member** button."
+msgstr ""
+"Unter individuelle Mitglieder drücken Sie den  **Foundation Member** Button."
+
 msgid "Understand the OpenStack contribution workflow and social norms"
 msgstr "Verstehen Sie die OpenStack Beitragung und soziale Normen"
 
@@ -1579,6 +1638,13 @@ msgstr "Lieferanten wechseln möglicherweise auf alternative Implementierungen"
 
 msgid "Victoria Martínez de la Cruz (assistant, english)"
 msgstr "Victoria Martínez de la Cruz (Assistant, englisch)"
+
+msgid ""
+"Visit `OpenStack's Gerrit page <https://review.openstack.org>`_ and click "
+"the **sign in** link."
+msgstr ""
+"Besuchen SIe die `OpenStack's Gerrit Seite <https://review.openstack.org>`_ "
+"und kllicken Sie den **sign in** link."
 
 msgid "Vote in elections."
 msgstr "Abstimmen bei Wahlen."
@@ -1620,8 +1686,14 @@ msgstr ""
 msgid "Weeks before the milestone publication date"
 msgstr "Wochen vor dem Veröffentllichungsdatum"
 
+msgid "What is Gerrit?"
+msgstr "Was ist Gerrit?"
+
 msgid "What is Launchpad?"
 msgstr "Was ist Launchpad?"
+
+msgid "What is it?"
+msgstr "Was ist das?"
 
 msgid "What is the OpenStack Foundation Account?"
 msgstr "Was ist der OpenStack Foundation Account?"
@@ -1698,6 +1770,13 @@ msgid "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 msgstr ""
 "Xavier Antoviaque (Training, Mentoring, Assistent, französisch, englisch)"
 
+msgid ""
+"You will be prompted to select a username. You can enter the same one you "
+"did for launchpad, or something else."
+msgstr ""
+"Sie werden aufgefordert, einen Benutzernamen zu wählen. Sie können denselben "
+"verwenden wie in Launchpad oder einen anderen."
+
 msgid "Your management"
 msgstr "Ihr Management"
 
@@ -1737,6 +1816,9 @@ msgstr "`Branch Modell <https://wiki.openstack.org/wiki/Branch_Model>`_"
 
 msgid "`Bugs <https://wiki.openstack.org/wiki/Bugs>`_"
 msgstr "`Bugs <https://wiki.openstack.org/wiki/Bugs>`_"
+
+msgid "`Code <http://git.openstack.org/cgit>`_"
+msgstr "`Code <http://git.openstack.org/cgit>`_"
 
 msgid ""
 "`Code Review <http://docs.openstack.org/infra/manual/developers.html#code-"
@@ -2023,6 +2105,9 @@ msgstr ""
 "`Unit-Tests laufen lassen<http://docs.openstack.org/infra/manual/developers."
 "html#running-unit-tests>`_"
 
+msgid "`Specifications <http://specs.openstack.org>`_"
+msgstr "`Spekificationen <http://specs.openstack.org>`_"
+
 msgid "`Stable branch <https://wiki.openstack.org/wiki/StableBranch>`_"
 msgstr "`Stabiler Branch <https://wiki.openstack.org/wiki/StableBranch>`_"
 
@@ -2060,12 +2145,22 @@ msgstr ""
 "`Training Anleitungen <https://wiki.openstack.org/wiki/Training-"
 "guides#How_To>`_"
 
+msgid "`Translations <http://git.openstack.org/cgit/openstack/i18n/tree/>`_"
+msgstr "`Übersetzungen <http://git.openstack.org/cgit/openstack/i18n/tree/>`_"
+
 msgid ""
 "`Understanding the DefCore Guidelines <https://git.openstack.org/cgit/"
 "openstack/defcore>`_"
 msgstr ""
 "`Verstehen der  DefCore Richtlinien <https://git.openstack.org/cgit/"
 "openstack/defcore>`_"
+
+msgid ""
+"`Use cases for features <http://specs.openstack.org/openstack/openstack-user-"
+"stories/>`_"
+msgstr ""
+"`Fallbeispiele für Funktionen <http://specs.openstack.org/openstack/"
+"openstack-user-stories/>`_"
 
 msgid ""
 "``#action`` - Document an action item in the minutes. Include any nicknames "
