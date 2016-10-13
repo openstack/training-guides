@@ -126,6 +126,7 @@ Workflow and Tools for Participation
 * `Guide to SetUp and Push First Patch
   <workflow-setup-and-first-patch.html>`_
 * `Using Sandbox for Practice <workflow-using-sandbox.html>`_
+* `Closing Exercise  <workflow-closing-exercise.html>`_
 
 Code Deep Dive
 --------------
