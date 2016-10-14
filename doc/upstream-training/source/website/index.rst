@@ -125,6 +125,7 @@ Workflow and Tools for Participation
 * `Jenkins <workflow-jenkins.html>`_
 * `Guide to SetUp and Push First Patch
   <workflow-setup-and-first-patch.html>`_
+* `Using Sandbox for Practice <workflow-using-sandbox.html>`_
 
 Code Deep Dive
 --------------

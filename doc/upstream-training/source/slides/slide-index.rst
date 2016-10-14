@@ -32,7 +32,7 @@ How OpenStack is Made
    branching-model.rst
 
 Workflow and Tools for Participation
-===============================================
+====================================
 
 .. toctree::
    :maxdepth: 1
@@ -45,6 +45,7 @@ Workflow and Tools for Participation
    workflow-commit-message.rst
    workflow-jenkins.rst
    workflow-setup-and-first-patch.rst
+   workflow-using-sandbox.rst
 
 Code Deep Dive
 ==============
