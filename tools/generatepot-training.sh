@@ -29,9 +29,11 @@ rm -f ${DIRECTORY}/source/locale/$DOCNAME.pot
 
 # upstream-training contains the HTML and slides contents
 
-sphinx-build -j $NUMBER_OF_CORES -b html -b gettext ${DIRECTORY}/ \
+# build upstream-training slides
+sphinx-build -j $NUMBER_OF_CORES -b slides -b gettext ${DIRECTORY}/source/slides \
     ${DIRECTORY}/source/locale/
-sphinx-build -j $NUMBER_OF_CORES -b slides -b gettext ${DIRECTORY}/source/ \
+# build upstream landing page index.html
+sphinx-build -j $NUMBER_OF_CORES -b html -b gettext ${DIRECTORY}/source/website \
     ${DIRECTORY}/source/locale/
 
 # Take care of deleting all temporary files so that
