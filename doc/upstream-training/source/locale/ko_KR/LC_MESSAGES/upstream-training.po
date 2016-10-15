@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-10 10:04+0000\n"
+"POT-Creation-Date: 2016-10-14 09:58+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,9 +25,6 @@ msgstr "#help"
 
 msgid "#info"
 msgstr "#info"
-
-msgid "(RC2), with bugs targeted to it"
-msgstr "프로젝트에 대한 버그를 목표로 한 (RC2)"
 
 msgid "**Private key** - Only known to you and it should be safely guarded."
 msgstr "**비밀키** - 사용자만 알고 있으며 안전하게 보호되어져야 합니다."
@@ -86,9 +83,6 @@ msgstr "3-4 개의 서로 다른 회사"
 
 msgid "345 different organizations"
 msgstr "345 개의 서로 다른 회사"
-
-msgid "4 weeks, Design Summit on the third week"
-msgstr "4주, 3번째 주에 대한 Design Summit"
 
 msgid "40,497 people"
 msgstr "40,497 명"
@@ -317,13 +311,6 @@ msgstr "안 좋은: 새로운 기능 및 리팩토링"
 msgid "Bad: two independent changes"
 msgstr "안 좋은: 두 개의 독립적인 변경 사항"
 
-msgid ""
-"Based on the Kilo release schedule, find the URL of a document or a patch "
-"that belongs to each of the steps."
-msgstr ""
-"Kilo 릴리즈 일정에 기반하여, 각 단계에 속하는 문서 또는 패치에 대한 URL을 찾"
-"습니다."
-
 msgid "Be collaborative"
 msgstr "공동으로 협력하기"
 
@@ -338,9 +325,6 @@ msgstr "영어로된 기술 용어를 읽고 쓸 수 있는 레벨"
 
 msgid "Benefits of being an Official OpenStack project"
 msgstr "공식 OpenStack 프로젝트에 속하고 있을 때 이점"
-
-msgid "Between the last milestone and the RC1"
-msgstr "마지막 마일스톤과 RC1 사이"
 
 msgid "Big Tent is a code name for the official OpenStack projects"
 msgstr "Big Tent는 공식 OpenStack 프로젝트에 대한 코드명입니다"
@@ -556,9 +540,6 @@ msgstr ""
 "회사: 쇼핑몰, 자동차 주차장, 에너지 발전소, 데이터센터, 그리고 병원과 같은 커"
 "다란 산업 아이템"
 
-msgid "Company snapshot"
-msgstr "회사 스냅샷"
-
 msgid "Complete the application."
 msgstr "지원서를 완료합니다."
 
@@ -659,9 +640,6 @@ msgid ""
 msgstr ""
 "노트북에 Ubuntu 12.04 또는 14.04가 설치하고 4GB 이상 램을 가진 가상 머신을 생"
 "성합니다. 대안으로, 공용 클라우드에서의 가상 머신을 사용할 수 있습니다."
-
-msgid "Create the corresponding blueprint"
-msgstr "이에 대응하는 blueprint 생성"
 
 msgid "Created by a large growing community"
 msgstr "커다랗게 성장하는 공동체에 의해 만들어졌습니다"
@@ -824,13 +802,6 @@ msgstr "각 기업은 다음을 갖습니다:"
 msgid "Each individual sets their own objective."
 msgstr "각 개인은 각자 목표를 설정합니다."
 
-msgid ""
-"Each project team page shows its release policy on http://governance."
-"openstack.org/reference/projects"
-msgstr ""
-"각 프로젝트 팀 페이지에서는 해당 릴리즈 정책을 http://governance.openstack."
-"org/reference/projects 에서 보여줍니다"
-
 msgid "Each student group prepares a presentation describing:"
 msgstr "각 학생 그룹은 다음을 설명하는 프리젠테이션을 준비합니다:"
 
@@ -977,23 +948,11 @@ msgstr "기능 프리징"
 msgid "Feature proposal freeze"
 msgstr "제안된 기능 프리징하기"
 
-msgid "Feature-frozen"
-msgstr "기능 프리징"
-
 msgid "February 2 - 3, 2015 (Mon - Tue)"
 msgstr "2015년 2월 2 - 3일 (월 - 화)"
 
-msgid "Feedback and comments"
-msgstr "피드백 및 코멘트"
-
 msgid "Figure out who's behind it"
 msgstr "누가 해당 프로젝트의 배경에 있는지 파악합니다"
-
-msgid "File bugs about everything you find"
-msgstr "찾은 버그 모두 모으기"
-
-msgid "File new blueprints and/or specs"
-msgstr "새로운 blueprint 그리고/또는 spec을 묶기"
 
 msgid ""
 "Fill in your email address, name, password, and accepting the terms of "
@@ -1018,9 +977,6 @@ msgstr "Fix Committed"
 msgid "Fix Released"
 msgstr "Fix Released"
 
-msgid "Fix as many bugs as you can"
-msgstr "가능한 많은 버그 수정"
-
 msgid ""
 "Fix for the bug would make OpenStack more resilient to future security "
 "issues."
@@ -1037,19 +993,11 @@ msgstr "문서 수정"
 msgid "Flexibility"
 msgstr "유연성"
 
-msgid "Focus on bug-fixing"
-msgstr "버그 수정에 집중"
-
 msgid "Focus on what we want to do for the next one"
 msgstr "다음 릴리즈에 대해 무엇을 하고 싶은지에 대해 집중하기"
 
 msgid "For Fedora 22 or later open a terminal and type::"
 msgstr "Fedora 22 또는 이후 버전에 대하여 터미널을 열고 입력합니다::"
-
-msgid ""
-"For Liberty integrated projects are those managed by the Release Management "
-"Team"
-msgstr "Liberty에서 통합 프로젝트는 릴리즈 관리 팀에 의해 관리가 이루어집니다"
 
 msgid "For SUSE distributions open a terminal and type::"
 msgstr "SUSE 배포판의 경우 터미널을 열고 입력합니다::"
@@ -1470,12 +1418,6 @@ msgstr "Ildiko Vancsa, Kendall Nelson, Mark Korondi, 그리고 Marton Kiss"
 msgid "Impact was not assessed yet"
 msgstr "영향에 대해 아직 평가되지 않았음"
 
-msgid "Implementation : Milestone"
-msgstr "구현 : 마일스톤"
-
-msgid "Implementation : freezes"
-msgstr "구현: 프리징하기"
-
 msgid "Implementations that are Core can use OpenStack trademark (OpenStack™)"
 msgstr ""
 "Core에 해당하는 구현은 OpenStack 상표 (OpenStack™)를 사용할 수 있습니다"
@@ -1583,9 +1525,6 @@ msgstr "개인 컨트리뷰터"
 msgid "Individual members: all of us"
 msgstr "개인 멤버 : 우리 모두"
 
-msgid "Individual snapshot"
-msgstr "개별 스냅샷"
-
 msgid "Individuals and interactions over processes and tools"
 msgstr "프로세스 및 도구와 함께하는 개인 및 상호작용"
 
@@ -1612,9 +1551,6 @@ msgstr "설치하기"
 
 msgid "Institutional members: Platinum and Gold sponsors"
 msgstr "기관 멤버 : 플래티늄과 골드 스폰서"
-
-msgid "Integrated projects were also tested together at the gate"
-msgstr "통합 프로젝트는 또한 게이트에서 서로 테스트가 이루어졌습니다"
 
 msgid "Interactive, hands-on class"
 msgstr "인터렉티브, 핸즈 온 수업"
@@ -1768,13 +1704,6 @@ msgstr "승인된 태그 목록"
 msgid "List of sessions"
 msgstr "세션 목록"
 
-msgid ""
-"List three companies and individuals that have been the most influential in "
-"the making of the module you plan to contribute to, for each metric value."
-msgstr ""
-"기여하고자 계획하는 모듈에 대해 만들어지는 가장 영향력있는 회사 및 개인을 각 "
-"지표 값마다 세 개씩 목록화합니다."
-
 msgid "Listen when people talk"
 msgstr "사람들이 이야기할 때 경청합니다"
 
@@ -1866,17 +1795,11 @@ msgstr "회의"
 msgid "Mentors/helpers"
 msgstr "멘토/도움"
 
-msgid "Merged in the master branch first"
-msgstr "master 브랜치에 처음 병합됩니다"
-
 msgid "Methodologies"
 msgstr "방법론"
 
 msgid "Milestone"
 msgstr "Milestone"
-
-msgid "Milestone-proposed branch"
-msgstr "마일스톤에 제안되는 브랜치"
 
 msgid "Milestone: Milestone the bug was fixed in"
 msgstr "마일스톤: 버그가 수정된 마일스톤"
@@ -1967,9 +1890,6 @@ msgstr "새 약관 동의"
 msgid "New features"
 msgstr "새로운 기능"
 
-msgid "New features will not be accepted, only fixes"
-msgstr "새로운 기능이 수용되지 않고 버그만 수용될 수 있음"
-
 msgid "New release-critical bugs"
 msgstr "새로운 릴리즈에 치명적인 버그"
 
@@ -1997,9 +1917,6 @@ msgstr ""
 "전통적인 발표자와 청중으로 된 컨퍼런스는 아닙니다 - 공동으로 브레인스토밍하"
 "는 세션에 더 가깝습니다"
 
-msgid "Not even proposals for features will be accepted"
-msgstr "기능에 대한 제안이 수용되지 않을 수도 있음"
-
 msgid "Not really a bug, but a suggested improvement"
 msgstr "실제 버그는 아니지만, 개선으로 제안됨"
 
@@ -2017,13 +1934,6 @@ msgstr "2014년 10월 10 - 11일 (금 - 토)"
 
 msgid "Official OpenStack projects"
 msgstr "공식 OpenStack 프로젝트"
-
-msgid ""
-"Once all the release-critical bugs are fixed, we produce the first release "
-"candidate for that project (RC1)"
-msgstr ""
-"릴리즈에 치명적인 버그들이 수정되면, 프로젝트에 대한 첫 릴리즈 후보를 생성합"
-"니다 (RC1)"
 
 msgid ""
 "Once the students are separated into their new roles, and have an "
@@ -2180,9 +2090,6 @@ msgstr ""
 msgid "Orchestration service"
 msgstr "Orchestration 서비스"
 
-msgid "Other projects may have different schedules"
-msgstr "다른 프로젝트들은 서로 다른 일정을 가질 수 있습니다"
-
 msgid "Other release candidates"
 msgstr "다른 릴리즈 후보"
 
@@ -2211,9 +2118,6 @@ msgstr "PTL: 1"
 msgid "PTLs"
 msgstr "PTL"
 
-msgid "PTLs triage the submitted blueprints and set priority"
-msgstr "PTL은 제출된 blueprint를 구분하고 우선 순위를 정하기"
-
 msgid "PTLs vote for sessions in project tracks"
 msgstr "PTL은 프로젝트 트랙 내 세션을 투표합니다"
 
@@ -2240,18 +2144,6 @@ msgstr "보다 작은 작업을 수행합니다"
 
 msgid "Picking Your Project"
 msgstr "프로젝트를 고릅니다"
-
-msgid "Planning : Design"
-msgstr "계획: 설계"
-
-msgid "Planning : Discuss"
-msgstr "계획: 토론"
-
-msgid "Planning : Target"
-msgstr "계획: 대상"
-
-msgid "Planning stage is at the start of a cycle"
-msgstr "계획 단계는 주기에서 시작점에 해당합니다"
 
 msgid "Play with your network"
 msgstr "네트워크와 함께 즐겨봅니다"
@@ -2299,9 +2191,6 @@ msgstr "공용/사설 클라우드"
 
 msgid "Published collectively as the OpenStack release"
 msgstr "OpenStack 릴리즈처럼 모아서 발행합니다"
-
-msgid "Pushed to Gerrit for peer review"
-msgstr "상호 리뷰를 위한 Gerrit push"
 
 msgid "Quantify the delta"
 msgstr "Delta 정량화"
@@ -2460,9 +2349,6 @@ msgstr ""
 "세션은 개방된 문서 (일반적으로 Etherpad)에 제안되어 있고 팀 회의에서 토론이 "
 "이루어집니다"
 
-msgid "Set a target milestone"
-msgstr "대상 마일스톤을 정하기"
-
 msgid "Setup & First Patch"
 msgstr "셋업 & 첫 패치"
 
@@ -2601,9 +2487,6 @@ msgstr "Stefano Maffulli (교육, 멘토링, 조교, 영어)"
 
 msgid "Stephan Ahn (training, assistant, mentoring)"
 msgstr "Stephan Ahn (교육, 조교, 멘토링)"
-
-msgid "Stop adding features and concentrate on bug fixes"
-msgstr "기능 추가를 중지하고 버그 수정에 집중합니다"
 
 msgid "String freeze"
 msgstr "문자열 프리징"
@@ -2869,9 +2752,6 @@ msgstr ""
 "렇지 않으면, Gerrit이 오류 메시지를 보여주며 연락처 정보 허용을 거부할 것입니"
 "다."
 
-msgid "This helps the i18n and Documentation projects"
-msgstr "이는 i18n과 문서화 프로젝트를 돕습니다"
-
 msgid "This is a valid issue, but it is the way it should be"
 msgstr "유효한 문제이지만, 현 상태로 있어야 합니다"
 
@@ -2981,13 +2861,6 @@ msgstr "OpenStack 컨트리뷰션 작업 흐름과 사회 규범 이해하기"
 
 msgid "Understand the conventions"
 msgstr "통용 규칙을 이해합니다"
-
-msgid ""
-"Until Kilo \"integrated release\" meant a date when all the projects are "
-"released at the end of the development cycles"
-msgstr ""
-"Kilo 까지 \"통합 릴리즈\" 는 프로젝트에 대한 개발 주기가 완료되어 릴리즈되는 "
-"시점에 대한 일자를 의미하였습니다"
 
 msgid "UpgradeImpact"
 msgstr "UpgradeImpact"
@@ -3117,9 +2990,6 @@ msgstr ""
 "생들은 개별 온라인 세션으로부터 그들이 가질 수 있는 남은 문제를 해결하는데 도"
 "와주기 위한 이점을 얻습니다."
 
-msgid "Weeks before the milestone publication date"
-msgstr "마일스톤에 대한 발표 일자 이전 몇 주"
-
 msgid "What are they?"
 msgstr "어떤 것일까요?"
 
@@ -3143,9 +3013,6 @@ msgstr "릴리즈를 이루는 것들"
 
 msgid "When & Where to get OpenStack Upstream Training"
 msgstr "OpenStack Upstream Training을 언제 & 어디서 받는가"
-
-msgid "When in the cycle they intend to complete it"
-msgstr "주기 내에서 언제 완료하고자 하는가"
 
 msgid ""
 "When signing up for Foundation Membership, make sure to give the same email "
@@ -3199,9 +3066,6 @@ msgstr "Wiki"
 
 msgid "Wishlist"
 msgstr "Wishlist"
-
-msgid "With our peers"
-msgstr "상호간"
 
 msgid ""
 "With over 2,000 developers from over 300 different organizations worldwide, "
@@ -3263,9 +3127,6 @@ msgstr "워킹 그룹"
 
 msgid "Working software over comprehensive documentation"
 msgstr "전반적인 문서화와 함께 하는 동작하는 소프트웨어"
-
-msgid "Write documentation"
-msgstr "문서 기록"
 
 msgid "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 msgstr "Xavier Antoviaque (교육, 멘토링, 조교, 프랑스어, 영어)"
@@ -3696,9 +3557,6 @@ msgid ""
 msgstr ""
 "`릴리즈 일자 <https://wiki.openstack.org/wiki/Release_Cycle#Release_day>`_"
 
-msgid "`Relevant actors <howitsmade-relevant-actors.html>`_"
-msgstr "`관련 구성원 <howitsmade-relevant-actors.html>`_"
-
 msgid ""
 "`Requirements <https://governance.openstack.org/reference/new-projects-"
 "requirements.html>`_ for official OpenStack projects"
@@ -3923,6 +3781,9 @@ msgstr "devstack.org"
 msgid "documentation"
 msgstr "documentation"
 
+msgid "etc."
+msgstr "기타"
+
 msgid "file it against the proper OpenStack project"
 msgstr "적절한 OpenStack 프로젝트에 대해 모으기"
 
@@ -4002,9 +3863,6 @@ msgstr "http://stackalytics.com"
 
 msgid "http://webchat.freenode.net/?channels=openstack,openstack-101"
 msgstr "http://webchat.freenode.net/?channels=openstack,openstack-101"
-
-msgid "https://en.wikipedia.org/wiki/Christine_Lagarde"
-msgstr "https://en.wikipedia.org/wiki/Christine_Lagarde"
 
 msgid "https://etherpad.openstack.org/p/upstream-training-vancouver"
 msgstr "https://etherpad.openstack.org/p/upstream-training-vancouver"

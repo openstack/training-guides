@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-06 01:32+0000\n"
+"POT-Creation-Date: 2016-10-14 09:58+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,10 +24,6 @@ msgstr "#help"
 
 msgid "#info"
 msgstr "#info"
-
-#, fuzzy
-msgid "(RC2), with bugs targeted to it"
-msgstr "(RC2), con bug mirati su di esso"
 
 msgid "**Private key** - Only known to you and it should be safely guarded."
 msgstr ""
@@ -73,9 +69,6 @@ msgstr "Austin 2016, USA"
 
 msgid "345 different organizations"
 msgstr "345 organizzazioni diverse"
-
-msgid "4 weeks, Design Summit on the third week"
-msgstr "4 seetimane, il Design Summit alla terza settimana"
 
 msgid "40,497 people"
 msgstr "40,497 persone"
@@ -226,21 +219,11 @@ msgstr "Sbagliato: nuova funzionalità e refactor"
 msgid "Bad: two independent changes"
 msgstr "Sbagliato: due modifiche indipendenti"
 
-msgid ""
-"Based on the Kilo release schedule, find the URL of a document or a patch "
-"that belongs to each of the steps."
-msgstr ""
-"Basandoti sul programma di rilascio di Kilo, trova l'URL di un documento o "
-"di un patch che appartiene a ciascuno dei seguenti passaggi."
-
 msgid "Be collaborative"
 msgstr "Essere collaborativo"
 
 msgid "Being able to read and write English at a technical level"
 msgstr "Essere in grado di leggere e scrivere l'inglese ad un livello tecnico"
-
-msgid "Between the last milestone and the RC1"
-msgstr "Tra il milestone precedente e l'RC1"
 
 msgid "Blueprint"
 msgstr "Blueprint"
@@ -398,9 +381,6 @@ msgstr "Communicazione"
 msgid "Companies"
 msgstr "Aziende"
 
-msgid "Company snapshot"
-msgstr "Snapshot dell'azienda"
-
 msgid "Complete the application."
 msgstr "Completa la domanda."
 
@@ -478,9 +458,6 @@ msgstr ""
 "Crea una macchina virtuale sul tuo portatile con Ubuntu 14.04 installato e "
 "4+ GB of RAM. In alternativa, puoi usare la tua macchina virtuale su un "
 "cloud pubblico."
-
-msgid "Create the corresponding blueprint"
-msgstr "Creare il blueprint corrispondente"
 
 msgid "Created by a large growing community"
 msgstr "Creata da una vasta communità in crescita"
@@ -597,13 +574,6 @@ msgid ""
 msgstr ""
 "Durante il periodo di pre-rilascio delle SERIES, segna il bug come un "
 "potenziale rilascio di blocker critico"
-
-msgid ""
-"Each project team page shows its release policy on http://governance."
-"openstack.org/reference/projects"
-msgstr ""
-"Ogni pagina del gruppo del progetto mostra la propria politica di rilascio "
-"su http://governance.openstack.org/reference/projects"
 
 msgid "Each student group presents its slides to the class"
 msgstr "Ciascun gruppo di studenti presenta le proprie diapositive alla classe"
@@ -743,24 +713,11 @@ msgstr "Feature ferma"
 msgid "Feature proposal freeze"
 msgstr "proposta di feature ferma"
 
-msgid "Feature-frozen"
-msgstr "Feature-ferma"
-
 msgid "February 2 - 3, 2015 (Mon - Tue)"
 msgstr "2 - 3 Febbraio, 2015 (Lun - Mar)"
 
-msgid "Feedback and comments"
-msgstr "Feedback e commenti"
-
 msgid "Figure out who's behind it"
 msgstr "Capisci chi c'è dietro "
-
-msgid "File bugs about everything you find"
-msgstr "Archivia bug di tutto quello che trovi"
-
-#, fuzzy
-msgid "File new blueprints and/or specs"
-msgstr "File new blueprints and/or specs"
 
 msgid ""
 "Fill in your email address, name, password, and accepting the terms of "
@@ -781,9 +738,6 @@ msgstr "E' stato fatto il commit della correzione"
 msgid "Fix Released"
 msgstr "Correzione rilasciata"
 
-msgid "Fix as many bugs as you can"
-msgstr "Correggi tutti i bug che puoi"
-
 msgid ""
 "Fix for the bug would make OpenStack more resilient to future security "
 "issues."
@@ -799,21 +753,11 @@ msgstr ""
 msgid "Fix the documentation"
 msgstr "Correggi la documentazione"
 
-msgid "Focus on bug-fixing"
-msgstr "Concentrazione sulla correzione di bug"
-
 msgid "Focus on what we want to do for the next one"
 msgstr "Cocentrarsi su cosa vogliamo fare per prossimo"
 
 msgid "For Fedora 22 or later open a terminal and type::"
 msgstr "Per Fedora 22 o versioni più recenti  apri un terminale e digita::"
-
-msgid ""
-"For Liberty integrated projects are those managed by the Release Management "
-"Team"
-msgstr ""
-"Per Liberty i progetti integrati sono quelli gestiti dal gruppo di gestione "
-"di rilascio"
 
 msgid "For SUSE distributions open a terminal and type::"
 msgstr "Per  distribuzioni di SUSE apri un terminale e digita::"
@@ -1120,12 +1064,6 @@ msgstr "Ildiko Vancsa - ildikov - Telemetria (tutoraggio, assistenza)"
 msgid "Impact was not assessed yet"
 msgstr "L'impatto non è stato ancora valutato"
 
-msgid "Implementation : Milestone"
-msgstr "Implementazione: MIestone"
-
-msgid "Implementation : freezes"
-msgstr "Implementazione: si ferma"
-
 msgid "Implementations that are Core can use OpenStack trademark (OpenStack™)"
 msgstr ""
 "Le implementazioni che sono Core possono utilizzare il marchio di OpenStack  "
@@ -1223,9 +1161,6 @@ msgstr "Singoli collaboratori "
 msgid "Individual members: all of us"
 msgstr "Singoli membri: tutti noi"
 
-msgid "Individual snapshot"
-msgstr "Snapshot individuale"
-
 msgid "Infrastructure"
 msgstr "Infrastruttura"
 
@@ -1243,9 +1178,6 @@ msgstr "Installazione"
 
 msgid "Institutional members: Platinum and Gold sponsors"
 msgstr "Membri istituzionali: sponsor Platino e Oro"
-
-msgid "Integrated projects were also tested together at the gate"
-msgstr "I progetti integrati venivano anche testati insieme nel gate "
 
 msgid "Introduction"
 msgstr "Introduzione"
@@ -1356,14 +1288,6 @@ msgstr "Elenco dei tag approvati"
 msgid "List of sessions"
 msgstr "Elenco di sessioni"
 
-#, fuzzy
-msgid ""
-"List three companies and individuals that have been the most influential in "
-"the making of the module you plan to contribute to, for each metric value."
-msgstr ""
-"Elenca tre aziende ed individui che sono stati più influenti nella crazione "
-"del modulo al quale hai intenzione di contribuire, per ogni valore metrico."
-
 msgid "Local Upstream Trainings"
 msgstr "Upstream Training Locali"
 
@@ -1443,14 +1367,8 @@ msgstr "Programma delle riunioni"
 msgid "Meetings"
 msgstr "Riunioni"
 
-msgid "Merged in the master branch first"
-msgstr "Fusi nel primo ramo principale"
-
 msgid "Milestone"
 msgstr "Milestone"
-
-msgid "Milestone-proposed branch"
-msgstr "Ramo del milestone proposto"
 
 msgid "Milestone: Milestone the bug was fixed in"
 msgstr "Milestone: Milestone nel quale il bug è stato corretto"
@@ -1511,9 +1429,6 @@ msgstr "Il nuovo accordo"
 msgid "New features"
 msgstr "Nuove feature"
 
-msgid "New features will not be accepted, only fixes"
-msgstr "Le nuove feature non verranno accettate, solo le correzioni"
-
 msgid "New release-critical bugs"
 msgstr "Nuovi bug critici di rilascio"
 
@@ -1540,9 +1455,6 @@ msgstr ""
 "Non una classica conferenza con presentatore e pubblico - più simile una "
 "sessione  di brainstorming collaborativo"
 
-msgid "Not even proposals for features will be accepted"
-msgstr "neanche le proposte di feature verranno accettate"
-
 msgid "Not really a bug, but a suggested improvement"
 msgstr "Non un bug vero e proprio, ma un miglioramento consigliato"
 
@@ -1559,13 +1471,6 @@ msgstr "Obiettivi"
 
 msgid "October 10 - 11, 2014 (Fri - Sat)"
 msgstr "10 - 11 Ottobre, 2014 (Ven - Sab)"
-
-msgid ""
-"Once all the release-critical bugs are fixed, we produce the first release "
-"candidate for that project (RC1)"
-msgstr ""
-"Una volta che tutti i bug critici di rilascio vengono corretti, produciamo "
-"il promo candidato di rilascio per quel progetto (RC1) "
 
 msgid ""
 "Once you have Git installed you need to configure it. Open your terminal "
@@ -1637,9 +1542,6 @@ msgstr "Opinione"
 msgid "Optional external references"
 msgstr "Referenze esterne opzionali"
 
-msgid "Other projects may have different schedules"
-msgstr "Altri progetti possono avere programmi diversi"
-
 msgid "Other release candidates"
 msgstr "Alti candidati di rilascio"
 
@@ -1660,9 +1562,6 @@ msgstr ""
 msgid "PTL : 1"
 msgstr "PTL :1"
 
-msgid "PTLs triage the submitted blueprints and set priority"
-msgstr "I PTL confermano i blueprint presentati e impostano le priorità"
-
 msgid "PTLs vote for sessions in project tracks"
 msgstr "Voto PTL per sessioni in tracce di progetto"
 
@@ -1680,18 +1579,6 @@ msgstr "Per i tag di progetto"
 
 msgid "Perform the smaller tasks"
 msgstr "Esegui il compito più piccolo"
-
-msgid "Planning : Design"
-msgstr "Pianificazione: Design"
-
-msgid "Planning : Discuss"
-msgstr "Pianificazione: Discutere"
-
-msgid "Planning : Target"
-msgstr "Pianificazione : Obiettivo"
-
-msgid "Planning stage is at the start of a cycle"
-msgstr "La fase di pianificazione è all'inizio del ciclo"
 
 msgid "Play with your network"
 msgstr "Gioca con il tuo network"
@@ -1722,10 +1609,6 @@ msgstr ""
 
 msgid "Published collectively as the OpenStack release"
 msgstr "Pubblicato collettivamente come il rilascio di OpenStack"
-
-#, fuzzy
-msgid "Pushed to Gerrit for peer review"
-msgstr "Pubblicato su Gerrit per il review dei colleghi"
 
 msgid "Quantify the delta"
 msgstr "Quantificare il delta"
@@ -1856,9 +1739,6 @@ msgstr ""
 "Le sessioni vengono proposte su un documento aperto (di solito un Etherpad) "
 "e vengono discusse alle riunioni di gruppo."
 
-msgid "Set a target milestone"
-msgstr "Imposta un traguardo"
-
 msgid "Setup Gerrit Account"
 msgstr "Configura l'account di Gerrit"
 
@@ -1940,9 +1820,6 @@ msgstr "Stefano Maffulli (formazione, tutoraggio, assistente, inglese)"
 
 msgid "Stephan Ahn (training, assistant, mentoring)"
 msgstr "Stephan Ahn (formazione, assistente, tutoraggio)"
-
-msgid "Stop adding features and concentrate on bug fixes"
-msgstr "Smetti di aggiungere feature e concentrati sulla correzione di bug"
 
 msgid "String freeze"
 msgstr "Le stringhe si fermano"
@@ -2108,9 +1985,6 @@ msgstr ""
 "Gli studenti usano dei modelli di diapositive per preparare una "
 "presentaziode di 5 minuti della loro contribuzione prevista."
 
-msgid "This helps the i18n and Documentation projects"
-msgstr "Questo aiuta i18n ed i progetti di documentazione "
-
 msgid "This is a valid issue, but it is the way it should be"
 msgstr "Questo è un problema valido, ma è così che deve essere"
 
@@ -2202,13 +2076,6 @@ msgstr "Comprendi il workflow di collaborazioni di OpenStack e norme sociali"
 msgid "Understand the conventions"
 msgstr "Comprendi le convenzioni"
 
-msgid ""
-"Until Kilo \"integrated release\" meant a date when all the projects are "
-"released at the end of the development cycles"
-msgstr ""
-"Fino a Kilo \"rilascio integrato\" significava una data in cui tutti i "
-"progetti venivano rilasciati alla fine dei cicli di sviluppo"
-
 msgid "UpgradeImpact"
 msgstr "UpgradeImpact"
 
@@ -2285,9 +2152,6 @@ msgstr ""
 "possono godere di sessioni online individuali per aiutarli a risolvere "
 "qualsiasi altro problema essi possano avere."
 
-msgid "Weeks before the milestone publication date"
-msgstr "Settimane prima della publicazione della data del milestone"
-
 msgid "What are they?"
 msgstr "Che cosa sono?"
 
@@ -2311,9 +2175,6 @@ msgstr "Cosa rende un rilascio"
 
 msgid "When & Where to get OpenStack Upstream Training"
 msgstr "Quando e Dove avere l'OpenStack Upstream Training"
-
-msgid "When in the cycle they intend to complete it"
-msgstr "Quando intendono completarlo nel ciclo"
 
 msgid ""
 "When signing up for Foundation Membership, make sure to give the same email "
@@ -2345,9 +2206,6 @@ msgstr ""
 
 msgid "Wishlist"
 msgstr "Lista dei desideri"
-
-msgid "With our peers"
-msgstr "Con i nostri colleghi"
 
 msgid ""
 "With over 2,000 developers from over 300 different organizations worldwide, "
@@ -2404,9 +2262,6 @@ msgid ""
 msgstr ""
 "Workflow di una collaborazione ad OpenStack e strumenti (3h includendo 2h di "
 "esercizi)"
-
-msgid "Write documentation"
-msgstr "Scrivi documentazione"
 
 msgid "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 msgstr ""
@@ -2941,6 +2796,9 @@ msgstr "devstack.org"
 
 msgid "documentation"
 msgstr "documentazione"
+
+msgid "etc."
+msgstr "ecc."
 
 msgid "file it against the proper OpenStack project"
 msgstr "Archivialo contro il giusto progetto OpenStack "
