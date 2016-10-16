@@ -4,11 +4,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-14 09:58+0000\n"
+"POT-Creation-Date: 2016-10-15 09:43+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-10-14 10:28+0000\n"
+"PO-Revision-Date: 2016-10-15 04:12+0000\n"
 "Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -23,6 +23,15 @@ msgstr "#help"
 
 msgid "#info"
 msgstr "#info"
+
+msgid "179 countries"
+msgstr "179 Länder"
+
+msgid "2,336 developers"
+msgstr "2,336 Entwickler"
+
+msgid "20 mins building"
+msgstr "20 min arbeiten"
 
 msgid "2013.2 branch and tags"
 msgstr "2013.2 Branch und Tags"
@@ -44,6 +53,21 @@ msgstr "2015 Vancouver, Canada"
 
 msgid "3-4 different companies"
 msgstr "3-4 verschiedene Firmen"
+
+msgid "345 different organizations"
+msgstr "345 unterschiedliche Organisationen"
+
+msgid "40,497 people"
+msgstr "40,497 Leute"
+
+msgid "5 mins planning"
+msgstr "5 min planen"
+
+msgid "5 mins review"
+msgstr "5 min überprüfen"
+
+msgid "596 supporting companies"
+msgstr "596 unterstützende Firmen"
 
 msgid "A sample presentation is given by the teacher, as an example"
 msgstr "Eine Beispiel-Präsentation wird vom Lehrer gehalten."
@@ -105,6 +129,9 @@ msgstr "Nach dem letzten Meilenstein"
 
 msgid "Agenda"
 msgstr "Agenda"
+
+msgid "Agreeable : 2-3"
+msgstr "Zustimmende: 2-3"
 
 msgid "Aim to become a major contributor and demonstrate your mad skills!"
 msgstr ""
@@ -168,6 +195,12 @@ msgstr "Schlecht: zwei unabhängige Änderungen"
 
 msgid "Be collaborative"
 msgstr "kooperativ sein"
+
+msgid "Be polite, be helpful"
+msgstr "Sei höflich, sei hilfsbereit"
+
+msgid "Be true to your role"
+msgstr "Sei treu zu Deiner Rolle"
 
 msgid "Being able to read and write English at a technical level"
 msgstr ""
@@ -302,6 +335,13 @@ msgstr "Cleber Rosa (Mentoring, Assistent, Portugiesisch)"
 
 msgid "Click the **I am a new Ubuntu One user**."
 msgstr "Klicke auf **Ich bin ein neuer Ubuntu One Benutzer**."
+
+msgid ""
+"Collects and processes development activity data and makes it possible to "
+"visualize it in a convenient web dashboard"
+msgstr ""
+"Sammelt und verarbeitet Daten über Aktivitäten der Entwickler und macht sie "
+"auf einer Webseite sichtbar"
 
 msgid "Commit messages"
 msgstr "Commit Nachricht"
@@ -501,6 +541,9 @@ msgstr ""
 msgid "Each company has:"
 msgstr "Jede Firma hat: "
 
+msgid "Each individual sets their own objective."
+msgstr "Jeder Teilnehmer verfolgt sein eigenes Ziel."
+
 msgid "Each student group presents its slides to the class"
 msgstr "Jede Teilnehmergruppe präsentiert die Folien der Klasse."
 
@@ -674,6 +717,9 @@ msgstr "Verboten"
 msgid "Foundation, technical committee, and board members"
 msgstr "Stiftung, Technisches Komitee und Vorstandsmitglieder"
 
+msgid "Four sprints of 30 mins:"
+msgstr "Für Sprints von 30 Minuten:"
+
 msgid "François Bureau (assistant, french, english)"
 msgstr "François Bureau (Assistent, französisch, englisch)"
 
@@ -776,6 +822,9 @@ msgstr "IRC Meetings"
 msgid "IRC meetings list"
 msgstr "IRC Meetings Liste"
 
+msgid "IRC meetings: http://eavesdrop.openstack.org/"
+msgstr "IRC Meetings: http://eavesdrop.openstack.org/"
+
 msgid "Ian Y. Choi (training, assistant, mentoring)"
 msgstr "Ian Y. Choi (Training, Assistent, Mentoring)"
 
@@ -792,6 +841,9 @@ msgid ""
 msgstr ""
 "Wenn Dokumentation beigesteuert wird, in der Lage sein, Dokumente in der "
 "gegebenen Infrastruktur zu liefern."
+
+msgid "If you feel the community needs consensus, call a midcycle!"
+msgstr "Wenn die Gemeinschaft einen Konsens brauch, rufe einen Midcycle aus!"
 
 msgid ""
 "If your contribution is on behalf of a company, have your managers sign the "
@@ -924,6 +976,12 @@ msgstr ""
 "Lego angewandt zu Freien Software Beiträgen (`slides <20-training-agile-for-"
 "contributors.html>`__)"
 
+msgid "Let's play!"
+msgstr "Lass uns spielen!"
+
+msgid "Liberty"
+msgstr "Liberty"
+
 msgid "Like OpenStack, there are:"
 msgstr "In OpenStack sind da:"
 
@@ -938,6 +996,9 @@ msgstr "Liste der bestätigten Schlagworte"
 
 msgid "List of sessions"
 msgstr "Liste der Sitzungen"
+
+msgid "Listen when people talk"
+msgstr "Hör zu wenn Leute etwas sagen"
 
 msgid "Local Upstream Trainings"
 msgstr "Lokale Upstream Trainings"
@@ -1004,6 +1065,9 @@ msgstr "Meeting-Agenda"
 msgid "Meetings"
 msgstr "Meetings"
 
+msgid "Metrics"
+msgstr "Metrisch"
+
 msgid "Milestone"
 msgstr "Meilenstein"
 
@@ -1012,6 +1076,9 @@ msgstr "Meilensein: der Meilenstein in dem der Fehler behoben ist"
 
 msgid "Mind the noise"
 msgstr "Vermeide Lärm"
+
+msgid "Mitaka"
+msgstr "Mitaka"
 
 msgid "Module contributors"
 msgstr "Module Beiträger"
@@ -1046,6 +1113,9 @@ msgid "Most of the projects now manage blueprints on a git repo called specs"
 msgstr ""
 "Die meisten Projekte verwalten Blueprints in einem Git-Repo namens specs"
 
+msgid "Most recent (\"Mitaka\") release stats:"
+msgstr "Mehr Statustiken zum (\"Mitaka\")-Release:"
+
 msgid "Motions"
 msgstr "Bewegung"
 
@@ -1063,6 +1133,9 @@ msgstr "Neue Funktionen"
 
 msgid "New release-critical bugs"
 msgstr "Neue versionskritische Fehler"
+
+msgid "Newton"
+msgstr "Newton"
 
 msgid "No agreement"
 msgstr "Keine Vereinbarung"
@@ -1197,6 +1270,9 @@ msgstr "Optionale externe Referenzen"
 msgid "Other release candidates"
 msgstr "Andere Versionskandidaten"
 
+msgid "Others: https://wiki.openstack.org/wiki/Meetings"
+msgstr "Andere: https://wiki.openstack.org/wiki/Meetings"
+
 msgid "Outline and online slide index"
 msgstr "Gliederung und Online-Inhaltsverzeichnis"
 
@@ -1251,6 +1327,13 @@ msgstr "Projekt Pods"
 
 msgid "Proposing a session"
 msgstr "Eine Sitzung vorschlagen"
+
+msgid ""
+"Provides transparent and meaningful statistics regarding contributions to "
+"both OpenStack itself and projects related to OpenStack"
+msgstr ""
+"Stellt transparente und sinnvolle Statistiken über Beiträge zu OpenStack "
+"selber und Projekten in Beziehung zu OpenStack dar."
 
 msgid "Published collectively as the OpenStack release"
 msgstr "Gemeinsam veröffentlicht als OpenStack-Version"
@@ -1417,6 +1500,12 @@ msgstr "Aktzeptanz erhöhen."
 
 msgid "Stable branches"
 msgstr "Stabile Branches"
+
+msgid "Stackalytics"
+msgstr "Stackalytics"
+
+msgid "Stackalytics Wiki: https://wiki.openstack.org/wiki/Stackalytics"
+msgstr "Stackalytics Wiki: https://wiki.openstack.org/wiki/Stackalytics"
 
 msgid "Staff"
 msgstr "Lehrpersonal"
@@ -1638,6 +1727,9 @@ msgstr "Tim Freund (Training, Assistent, englisch)"
 
 msgid "Tim Freund (training, mentoring, assistant, english)"
 msgstr "Tim Freund (Training, Mentoring, Assistent, englisch)"
+
+msgid "Timing"
+msgstr "Zeitliche Koordinierung"
 
 msgid "To understand how it all fits together, we use a hands on example"
 msgstr ""
@@ -2395,8 +2487,17 @@ msgstr "http://localhost/"
 msgid "http://review.openstack.org"
 msgstr "http://review.openstack.org"
 
+msgid "http://stackalytics.com"
+msgstr "http://stackalytics.com"
+
 msgid "https://etherpad.openstack.org/p/upstream-training-vancouver"
 msgstr "https://etherpad.openstack.org/p/upstream-training-vancouver"
+
+msgid "https://libertydesignsummit.sched.org/overview/type/design+summit"
+msgstr "https://libertydesignsummit.sched.org/overview/type/design+summit"
+
+msgid "https://mitakadesignsummit.sched.org/#2015-10-30"
+msgstr "https://mitakadesignsummit.sched.org/#2015-10-30"
 
 msgid "https://review.openstack.org/#/settings/ssh-keys"
 msgstr "https://review.openstack.org/#/settings/ssh-keys"
@@ -2427,6 +2528,11 @@ msgstr "https://www.openstack.org/foundation/tech-committee/"
 
 msgid "https://www.openstack.org/join/"
 msgstr "https://www.openstack.org/join/"
+
+msgid ""
+"https://www.openstack.org/summit/austin-2016/summit-schedule/#day=2016-04-29"
+msgstr ""
+"https://www.openstack.org/summit/austin-2016/summit-schedule/#day=2016-04-29"
 
 msgid "i18n"
 msgstr "i18n"

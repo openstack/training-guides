@@ -6,16 +6,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-14 09:58+0000\n"
+"POT-Creation-Date: 2016-10-15 09:43+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-10-12 12:27+0000\n"
-"Last-Translator: Jun-Sik Shin <jsshin@smartx.kr>\n"
+"PO-Revision-Date: 2016-10-15 11:25+0000\n"
+"Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
 "X-Generator: Zanata 3.7.3\n"
 "Plural-Forms: nplurals=1; plural=0\n"
+
+msgid ""
+"\"Guiding principles\" used by the Foundation Board to determine how "
+"commercial implementations of OpenStack can be granted use of the trademark"
+msgstr ""
+"OpenStack에 대한 상업적인 구현이 상표를 사용하도록 승인 가능한지에 대한 결정"
+"을 하기 위하여 Foundation 이사회에서 사용하는 \"원칙을 가이드\" 합니다"
 
 msgid "#action"
 msgstr "#action"
@@ -25,6 +32,9 @@ msgstr "#help"
 
 msgid "#info"
 msgstr "#info"
+
+msgid "(RC2, RC3, ...), with bugs targeted to it"
+msgstr "(RC2, RC3, ...)으로, 버그와 함께 개발을 대상으로 합니다"
 
 msgid "**Private key** - Only known to you and it should be safely guarded."
 msgstr "**비밀키** - 사용자만 알고 있으며 안전하게 보호되어져야 합니다."
@@ -44,6 +54,9 @@ msgid ""
 msgstr ""
 "**2016년 10월 23일 일요일, 1:00 p.m. 부터 5:00 p.m. 까지 - 2016년 10월 24일 "
 "월요일, 10:00 a.m. 부터 4:00 p.m. 까지 (현지 시각)**"
+
+msgid "*Common cycle with development milestones*"
+msgstr "*개발 마일스톤을 가지고 있는 공통 주기*"
 
 msgid "..."
 msgstr "..."
@@ -105,6 +118,13 @@ msgstr ""
 "Stefano Maffulli, Tim Freund, 그리고 Marton Kiss에게 큰 감사를 드립니다."
 
 msgid ""
+"A coordinated way for projects to periodically create their deliverables "
+"including testing and documentation"
+msgstr ""
+"테스팅 및 문서화를 포함하여 산출물을 주기적으로 생성하는 프로젝트에 대한 조"
+"정 방식"
+
+msgid ""
 "A message dialog window will come up. Type the following to register your "
 "nick name with nickserv replacing **mysecretpassword** and **test@domain."
 "com** with your own password and email address::"
@@ -112,6 +132,9 @@ msgstr ""
 "메시지 다이얼로그 창이 나타날 것입니다. **mysecretpassword** 및 "
 "**test@domain.com** 를 사용하고자 하는 암호 및 이메일 주소로 변경하도록 "
 "nickserv에 닉네임을 등록합니다."
+
+msgid "A project is aligned with the OpenStack Mission if"
+msgstr "프로젝트는 다음과 같은 경우 OpenStack 임무와 나란히 합니다"
 
 msgid "A sample presentation is given by the teacher, as an example"
 msgstr "선생님에 의해 주어진 샘플 발표를, 예시로 합니다"
@@ -149,6 +172,10 @@ msgstr "Active Project Contributor (APC)"
 msgid "Active Technical Contributor (ATC)"
 msgstr "Active Technical Contributor (ATC)"
 
+msgid "Activities listed here are not realised at every Upstream training."
+msgstr ""
+"여기에 나열된 활동은 모든 업스트림 트레이닝에서 설명이 이루어지지는 않습니다."
+
 msgid "Add A New Connection"
 msgstr "새 연결 추가"
 
@@ -173,6 +200,9 @@ msgstr ""
 
 msgid "Add files"
 msgstr "파일을 추가합니다"
+
+msgid "Add files to your commit"
+msgstr "파일을 커밋에 추가합니다"
 
 msgid ""
 "Add your details to the class etherpad (Specified on the actual training)"
@@ -212,6 +242,11 @@ msgstr ""
 
 msgid "Aim to become a major contributor and demonstrate your mad skills!"
 msgstr "주요 컨트리뷰터가 되어 열광하는 기술을 입증하는 것을 목표로 합니다!"
+
+msgid ""
+"Align with the OpenStack Mission and follow the OpenStack way, the four opens"
+msgstr ""
+"OpenStack 임무와 나란히 함께 하고, OpenStack 방식인 네 가지 개방성을 따릅니다"
 
 msgid "All externally visible strings must be frozen"
 msgstr "모든 외부적으로 보이는 문자열이 프리징 됩니다."
@@ -254,14 +289,29 @@ msgstr "개인 멤버쉽으로 가입을 신청하고 CLA에 서명합니다"
 msgid "Appropriate Fixes"
 msgstr "적절한 수정"
 
+msgid "Archive"
+msgstr "보관"
+
 msgid "Archive and collect"
 msgstr "보관 및 수집"
+
+msgid "Archive of additional training activities"
+msgstr "부가적인 트레이닝 활동에 대한 아카이브"
 
 msgid "Archives"
 msgstr "아카이브"
 
 msgid "Areas of interest"
 msgstr "관심 분야"
+
+msgid "Ask people about their contribution experience"
+msgstr "사람들에게 컨트리뷰션 경험에 관해 물어봅니다"
+
+msgid "Ask people about their contributions"
+msgstr "사람들에게 컨트리뷰션에 관해 물어봅니다"
+
+msgid "Ask people you know about the project"
+msgstr "아는 사람들에게 프로젝트에 대해 물어봅니다"
 
 msgid "Ask questions during the class"
 msgstr "수업 중 질문을 합니다"
@@ -302,6 +352,9 @@ msgstr "미팅에 참석합니다"
 msgid "Attendees"
 msgstr "참석자"
 
+msgid "Attending regular meetings"
+msgstr "정기 미팅에 참석합니다"
+
 msgid "Auto-Login On Connecting To Freenode"
 msgstr "Freenode 연결에 대한 자동 로그인"
 
@@ -314,11 +367,26 @@ msgstr "안 좋은: 두 개의 독립적인 변경 사항"
 msgid "Be collaborative"
 msgstr "공동으로 협력하기"
 
+msgid "Be communicative"
+msgstr "의사소통을 합니다"
+
+msgid "Be on top of people's comments"
+msgstr "구성원의 코멘트 위에 있도록 합니다"
+
+msgid "Be patient"
+msgstr "인내심을 갖습니다"
+
 msgid "Be polite, be helpful"
 msgstr "예의를 갖추고, 서로 도웁니다"
 
 msgid "Be true to your role"
 msgstr "역할에 대해 진실성을 가집니다"
+
+msgid ""
+"Being OpenStack Core Implementation means passing all \"must-pass\" tests"
+msgstr ""
+"OpenStack Core 구현체가 되었음은 \"반드시 통과\" 하는 테스트를 통과했다는 것"
+"을 의미합니다"
 
 msgid "Being able to read and write English at a technical level"
 msgstr "영어로된 기술 용어를 읽고 쓸 수 있는 레벨"
@@ -350,8 +418,14 @@ msgstr "Bug"
 msgid "Bug (Partial-Bug, Related-Bug, Closes-Bug)"
 msgstr "버그 (Partial-Bug, Related-Bug, Closes-Bug)"
 
+msgid "Bug fixes"
+msgstr "버그 수정"
+
 msgid "Bug fixing"
 msgstr "버그 수정"
+
+msgid "Bug fixing activities are still ongoing"
+msgstr "버그 수정 활동은 여전히 계속됩니다"
 
 msgid "Bug importance"
 msgstr "버그 중요성"
@@ -408,11 +482,21 @@ msgstr "CEO : 1"
 msgid "CI"
 msgstr "CI"
 
+msgid ""
+"Can participate in common programs, like mentoring and internship to help "
+"with on boarding"
+msgstr ""
+"(OpenStack에) 승선하도록 돕는 멘토링 및 인턴쉽과 같은 공통 프로그램에 참여 가"
+"능합니다"
+
 msgid "Can publish to docs.openstack.org and developer.openstack.org"
 msgstr "docs.openstack.org 및 developer.openstack.org에 출판할 수 있습니다"
 
 msgid "Candidacy for the corresponding program PTL election"
 msgstr "대응하는 프로그램에 대한 PTL 선거에 대한 입후보 자격"
+
+msgid "Capture your idea in a spec/blueprint"
+msgstr "생각을 스펙/블루프린트로 정리합니다"
 
 msgid "Change-id"
 msgstr "Change-id"
@@ -509,11 +593,33 @@ msgstr "**info** 아이콘을 클릭합니다."
 msgid "Click the **message user** icon and type::"
 msgstr "**message user** 아이콘을 클릭하고 입력합니다::"
 
+msgid "Clone and be familiar with the code"
+msgstr "코드를 클론하여 친숙해 집니다"
+
 msgid "Code"
 msgstr "코드"
 
+msgid "Code Deep Dive"
+msgstr "코드 파헤치기"
+
+msgid "Code for new features will not be accepted"
+msgstr "새로운 기능에 대한 코드는 수락되지 않을 것입니다"
+
+msgid "Code stabilization period"
+msgstr "코드 안정화 기간"
+
 msgid "Collaboration tools"
 msgstr "협업 도구"
+
+msgid ""
+"Collects and processes development activity data and makes it possible to "
+"visualize it in a convenient web dashboard"
+msgstr ""
+"개발 활동 데이터를 수집 및 처리하여 편리한 웹 대시보드로 시각화 가능하도록 합"
+"니다"
+
+msgid "Commit added files and explain changes in the commit message"
+msgstr "추가된 파일을 커밋하고 커밋 메시지 내에 변경 사항을 설명합니다"
 
 msgid "Commit files and write commit message"
 msgstr "파일을 커밋하고 커밋 메시지를 작성합니다"
@@ -524,8 +630,17 @@ msgstr "커밋 메시지"
 msgid "Committed a change over the last two 6-month release cycles"
 msgstr "최근 두 개의 6개월 릴리즈 주기에 걸쳐 변경 사항을 제출"
 
+msgid "Common cycle with development milestones"
+msgstr "개발 마일스톤을 가진 릴리즈 주기"
+
+msgid "Common cycle with intermediary release"
+msgstr "중간 단계 릴리즈를 가진 공통 주기"
+
 msgid "Communication"
 msgstr "의사소통"
+
+msgid "Community members will review your patch"
+msgstr "커뮤니티 구성원이 패치를 리뷰할 것입니다"
 
 msgid "Companies"
 msgstr "회사"
@@ -585,6 +700,12 @@ msgstr ""
 msgid "Contact Information"
 msgstr "연락처 정보"
 
+msgid "Contents of a Commit Message (Body)"
+msgstr "커밋 메시지 내용 (본문)"
+
+msgid "Contents of a Commit Message (Summary Line)"
+msgstr "커밋 메시지에 대한 내용 (요약 줄)"
+
 msgid "Contribution Planning (2 hours)"
 msgstr "컨트리뷰션 계획 (2시간)"
 
@@ -599,6 +720,9 @@ msgstr "기업 또는 기관 컨트리뷰터"
 
 msgid "Contributors From the U.S. Government"
 msgstr "미국 정부 컨트리뷰터"
+
+msgid "Contributors get to vote in the Technical Committee election"
+msgstr "컨트리뷰터는 기술 위원회 선거에서 투표권을 얻습니다"
 
 msgid "Controversial : 1"
 msgstr "논쟁을 발생시키는 자 : 1"
@@ -641,6 +765,9 @@ msgstr ""
 "노트북에 Ubuntu 12.04 또는 14.04가 설치하고 4GB 이상 램을 가진 가상 머신을 생"
 "성합니다. 대안으로, 공용 클라우드에서의 가상 머신을 사용할 수 있습니다."
 
+msgid "Create your commit"
+msgstr "커밋을 생성합니다"
+
 msgid "Created by a large growing community"
 msgstr "커다랗게 성장하는 공동체에 의해 만들어졌습니다"
 
@@ -653,8 +780,18 @@ msgstr "Critical"
 msgid "Customer collaboration over contract negotiation"
 msgstr "계약 및 협상과 함께 하는 고객과의 협업"
 
+msgid "Cut when all the release-critical bugs are fixed"
+msgstr "릴리즈에 치명적인 모든 버그가 수정되는 시점을 구분합니다"
+
 msgid "DB schema changes"
 msgstr "DB 스키마 변경 사항"
+
+msgid ""
+"Dashboard (horizon) and DevStack provide plugin interface for easy "
+"integration"
+msgstr ""
+"대시보드 (horizon) 및 DevStack은 쉬운 통합을 위한 플러그인 인터페이스를 제공"
+"합니다"
 
 msgid "Data corruption / complete failure affecting most users, no workaround"
 msgstr "대부분 사용자에 영향을 미치는 데이터 손상 / 완전한 실패, 해결책이 없음"
@@ -699,17 +836,35 @@ msgstr "2일차: 온라인 멘토링"
 msgid "Day 2: The theory of contribution"
 msgstr "2일차: 컨트리뷰션에 대한 이론"
 
+msgid "Deadlines"
+msgstr "마감 기한"
+
+msgid "Deadlines for the code to get merged"
+msgstr "코드가 머지되기 위한 마감 기한"
+
 msgid "Debugging"
 msgstr "디버깅"
 
+msgid "DefCore (or what cloud can be labeled as OpenStack)"
+msgstr "DefCore (또는 어떤 클라우드를 OpenStack으로 라벨링할 수 있는가)"
+
+msgid "Depends on the priority of your work item"
+msgstr "작업 항목에 대한 우선 순위에 의존합니다"
+
 msgid "Depends-On"
 msgstr "Depends-On"
+
+msgid "Describe a release cycle based on the information you found"
+msgstr "찾은 정보에 기반하여 릴리즈 주기를 설명합니다"
 
 msgid "Describe the output produced by the OpenStack community teams"
 msgstr "OpenStack 커뮤니티 팀에 의해 만들어진 결과를 설명합니다"
 
 msgid "Description"
 msgstr "설명"
+
+msgid "Design activity is a continuous effort"
+msgstr "설계 활동은 지속적인 노력에 해당합니다"
 
 msgid "Determine the project's social groups"
 msgstr "프로젝트에 대한 사회 집단을 규정해 봅니다"
@@ -731,6 +886,9 @@ msgstr "답변을 수업에서 토론합니다"
 
 msgid "Discuss upcoming features for the next release cycle"
 msgstr "다음 릴리즈 주기를 위한 곧 있을 기능을 토론합니다"
+
+msgid "Discuss with your peers"
+msgstr "동료와 함께 토론합니다"
 
 msgid "Distracted : 1"
 msgstr "주의를 빼앗기는 자 : 1"
@@ -759,6 +917,15 @@ msgstr "문서화"
 
 msgid "Documentation frameworks"
 msgstr "문서화 프레임워크"
+
+msgid "Does it fix limitations of the current code?"
+msgstr "현재 코드에 대한 한계점을 수정하는가?"
+
+msgid "Does it improve code structure?"
+msgstr "코드 구조를 개선하는가?"
+
+msgid "Does your company want you to work on something specific?"
+msgstr "속해있는 회사가 구체적인 무엇인가를 하기를 원합니까?"
 
 msgid "Done"
 msgstr "완료"
@@ -802,6 +969,12 @@ msgstr "각 기업은 다음을 갖습니다:"
 msgid "Each individual sets their own objective."
 msgstr "각 개인은 각자 목표를 설정합니다."
 
+msgid "Each project has its own culture"
+msgstr "각 프로젝트는 각 문화를 갖고 있습니다"
+
+msgid "Each project has its own purpose"
+msgstr "각 프로젝트는 각 목적을 가지고 있습니다"
+
 msgid "Each student group prepares a presentation describing:"
 msgstr "각 학생 그룹은 다음을 설명하는 프리젠테이션을 준비합니다:"
 
@@ -838,6 +1011,9 @@ msgstr "정시에 종료합니다"
 msgid "Engage immediately"
 msgstr "바로 참여"
 
+msgid "Ensure basic interoperability with the rest of OpenStack"
+msgstr "나머지 OpenStack과의 기본적인 상호운용성을 보장합니다"
+
 msgid "Error report"
 msgstr "오류 보고"
 
@@ -850,11 +1026,23 @@ msgstr "Etherpad"
 msgid "Events"
 msgstr "이벤트"
 
+msgid "Every cycle includes"
+msgstr "모든 주기는 다음을 포함합니다"
+
+msgid "Example:"
+msgstr "예시:"
+
 msgid "Exercise"
 msgstr "실습"
 
 msgid "Exercise - Collect items with your group to the two questions below:"
 msgstr "실습 - 아래 두 가지 질문에 대한 항목을 그룹에서 함께 찾아봅니다:"
+
+msgid "Exercise 1"
+msgstr "실습 1"
+
+msgid "Exercise 2"
+msgstr "실습 2"
 
 msgid ""
 "Exercise: Add a session proposal regarding your contribution in an etherpad, "
@@ -918,8 +1106,14 @@ msgstr "실습: 다른 launchpad 버그를 리뷰하고 개선합니다"
 msgid "Experience with OpenStack if any"
 msgstr "있는 경우, OpenStack 경험"
 
+msgid "Explain how problem is solved"
+msgstr "문제를 어떻게 해결하는지를 설명합니다"
+
 msgid "Explain what you do"
 msgstr "행하는 것을 설명하기"
+
+msgid "Explanation of issue being solved and why it should be fixed"
+msgstr "해결하고자 하는 이슈에 및 왜 수정이 되어야 하는지에 대한 설명"
 
 msgid "Face-to-face section: 2 days"
 msgstr "오프라인 세션: 2일"
@@ -954,6 +1148,12 @@ msgstr "2015년 2월 2 - 3일 (월 - 화)"
 msgid "Figure out who's behind it"
 msgstr "누가 해당 프로젝트의 배경에 있는지 파악합니다"
 
+msgid "Filing a blueprint/spec"
+msgstr "블루프린트/스펙 제출"
+
+msgid "Filing, fixing, and triaging bugs"
+msgstr "버그에 대한 제출, 수정 및 구분"
+
 msgid ""
 "Fill in your email address, name, password, and accepting the terms of "
 "services."
@@ -961,6 +1161,12 @@ msgstr "이메일 주소, 이름, 암호를 채우고 서비스 약관에 동의
 
 msgid "Fill your contact information and click 'Save Changes'."
 msgstr "연락처 정보를 채우고 'Save Changes' 을 클릭합니다."
+
+msgid "Finalize documentation"
+msgstr "문서화를 마무리합니다"
+
+msgid "Find feature proposal deadlines in the current release schedule"
+msgstr "현재 릴리즈 일정에서 기능 제안 마감 기한을 찾아봅니다"
 
 msgid "First day"
 msgstr "첫 날"
@@ -976,6 +1182,9 @@ msgstr "Fix Committed"
 
 msgid "Fix Released"
 msgstr "Fix Released"
+
+msgid "Fix as many bugs as possible"
+msgstr "가능한 많은 버그를 수정합니다"
 
 msgid ""
 "Fix for the bug would make OpenStack more resilient to future security "
@@ -995,6 +1204,11 @@ msgstr "유연성"
 
 msgid "Focus on what we want to do for the next one"
 msgstr "다음 릴리즈에 대해 무엇을 하고 싶은지에 대해 집중하기"
+
+msgid ""
+"Following and participating in project related mail threads in the mailing "
+"list"
+msgstr "메일링리스트에서 프로젝트와 관련된 메일 스레드를 따라간 후 참여하기"
 
 msgid "For Fedora 22 or later open a terminal and type::"
 msgstr "Fedora 22 또는 이후 버전에 대하여 터미널을 열고 입력합니다::"
@@ -1055,6 +1269,13 @@ msgstr ""
 msgid "For the **Chat server** type in **irc.freenode.net**."
 msgstr "**Chat server** 에서 **irc.freenode.net** 을 입력합니다."
 
+msgid ""
+"For the cores you found earlier, figure out what time zone they are probably "
+"in."
+msgstr ""
+"이전에 찾은 코어 (리뷰어)에 대해, 그들이 어떤 표준 시간대에 속하는지를 알아봅"
+"니다."
+
 msgid "Forbidden"
 msgstr "금지되는 사항"
 
@@ -1087,6 +1308,9 @@ msgstr ""
 
 msgid "Freenode"
 msgstr "Freenode"
+
+msgid "Freeze dates depend on the type of activity"
+msgstr "프리징 일자는 활동 유형에 의존합니다"
 
 msgid ""
 "From here on out when you sign into Gerrit, you'll be prompted to enter your "
@@ -1123,8 +1347,14 @@ msgstr ""
 msgid "GIT commit message structure"
 msgstr "GIT 커밋 메시지 구조"
 
+msgid "General Contribution Workflow"
+msgstr "일반적인 컨트리뷰션 워크플로우"
+
 msgid "Generate SSH Keys"
 msgstr "SSH 키 생성하기"
+
+msgid "Generic intention behind planning"
+msgstr "계획에 내재되어 있는 일반적인 목적"
 
 msgid ""
 "Gerrit Documentation: `Gerrit Code Review - A Quick Introduction <https://"
@@ -1143,6 +1373,9 @@ msgstr ""
 msgid "Gerrit will automatically set the status"
 msgstr "Gerrit이 상태를 자동으로 설정할 것입니다"
 
+msgid "Get critical and high priority bugs fixed on the first place"
+msgstr "치명적이고 중요도가 높은 버그를 첫 번째로 수정합니다"
+
 msgid "Get guidance from community members and leaders"
 msgstr "커뮤니티 구성원 및 리더로부터 가이드를 받습니다"
 
@@ -1158,6 +1391,9 @@ msgstr "OpenStack Foundation으로부터 마케팅을 얻습니다"
 
 msgid "Get the code for the targeted contribution"
 msgstr "컨트리뷰션하고자 하는 대상에 대한 코드를 가져옵니다"
+
+msgid "Getting to Know Your Project"
+msgstr "프로젝트에 친숙해지기"
 
 msgid "Git"
 msgstr "Git"
@@ -1248,6 +1484,9 @@ msgstr "Governance/TechnicalCommittee#Meeting"
 msgid "Haikel Guemar (assistant, mentor, french, english)"
 msgstr "Haikel Guemar (조교, 멘터, 프랑스어, 영어)"
 
+msgid "Have an active team of one or more contributors"
+msgstr "한 명 이상의 컨트리뷰터로 구성된 활발한 팀을 갖습니다"
+
 msgid "Have one mentor sit together with each group"
 msgstr "멘토 1명이 각 그룹과 합께 앉습니다"
 
@@ -1311,6 +1550,12 @@ msgstr "IRC 미팅: http://eavesdrop.openstack.org/"
 
 msgid "Ian Y. Choi (training, assistant, mentoring)"
 msgstr "Ian Y. Choi (교육, 조교, 멘토링)"
+
+msgid "Identify a target milestone"
+msgstr "대상 마일스톤을 파악합니다"
+
+msgid "Identify common caracteristics of these cycles"
+msgstr "해당 주기에 대해 공통의 특성을 식별해 봅니다"
 
 msgid ""
 "If all goes well in the second window we should see our our new connection "
@@ -1418,9 +1663,24 @@ msgstr "Ildiko Vancsa, Kendall Nelson, Mark Korondi, 그리고 Marton Kiss"
 msgid "Impact was not assessed yet"
 msgstr "영향에 대해 아직 평가되지 않았음"
 
+msgid "Implementation"
+msgstr "구현"
+
+msgid "Implementation - Freezes"
+msgstr "구현 - 프리징"
+
+msgid "Implementation - Milestone"
+msgstr "구현 - 마일스톤"
+
+msgid "Implementation work"
+msgstr "구현 작업"
+
 msgid "Implementations that are Core can use OpenStack trademark (OpenStack™)"
 msgstr ""
 "Core에 해당하는 구현은 OpenStack 상표 (OpenStack™)를 사용할 수 있습니다"
+
+msgid "Implementing a blueprint/spec"
+msgstr "블루프린트/스펙 구현"
 
 msgid "Import Public Key Into Gerrit"
 msgstr "공개키를 Gerrit에 가져오기"
@@ -1516,6 +1776,9 @@ msgstr "호환되지 않는 구성 파일 변경 사항"
 msgid "Incomplete"
 msgstr "Incomplete"
 
+msgid "Independent release model"
+msgstr "독립 릴리즈 모델"
+
 msgid "Individual Contributor License Agreement"
 msgstr "개인 컨트리뷰터 라이선스 동의"
 
@@ -1552,6 +1815,9 @@ msgstr "설치하기"
 msgid "Institutional members: Platinum and Gold sponsors"
 msgstr "기관 멤버 : 플래티늄과 골드 스폰서"
 
+msgid "Interacting with the Project"
+msgstr "프로젝트와 상호작용"
+
 msgid "Interactive, hands-on class"
 msgstr "인터렉티브, 핸즈 온 수업"
 
@@ -1567,11 +1833,20 @@ msgstr "Invalid"
 msgid "Irena Berezovsky (assistant, mentor, english)"
 msgstr "Irena Berezovsky (조교, 멘터, 영어)"
 
+msgid "It depends on each project how to organise the work at each cycle"
+msgstr "각 주기에 대한 작업을 구성하는 방식은 각 프로젝트에 의존합니다"
+
 msgid "It is about"
 msgstr "다음과 관련되어 있습니다"
 
 msgid "It is not about"
 msgstr "다음과 관련되어 있지 않습니다"
+
+msgid "It is the projects decision to follow the OpenStack release"
+msgstr "OpenStack 릴리즈를 따르는 결정은 프로젝트에서 합니다"
+
+msgid "Its activities are under the oversight of the TC"
+msgstr "활동은 TC 에 의한 관리 감독에 기반하여 이루어집니다"
 
 msgid "Japan OpenStack User Group has held the Upstream Training in Japan."
 msgstr ""
@@ -1579,6 +1854,9 @@ msgstr ""
 
 msgid "Jenkins"
 msgstr "Jenkins"
+
+msgid "Jenkins and vendor CIs will review your patch"
+msgstr "Jenkins 및 벤더 CI에서 패치를 리뷰할 것입니다"
 
 msgid "Jieun Kim (assistant)"
 msgstr "Jieun Kim (조교)"
@@ -1588,6 +1866,12 @@ msgstr "irc.freenode.net#upstream-university 에 참여합니다"
 
 msgid "Join the #openstack-101 channel"
 msgstr "#openstack-101 채널에 들어옵니다"
+
+msgid "Join the openstack-dev mailing list"
+msgstr "openstack-dev 메일링리스트에 가입합니다"
+
+msgid "Join the project's IRC channel"
+msgstr "프로젝트 IRC 채널에 참여합니다"
 
 msgid "Julie Pichon (training, mentoring, assistant, english)"
 msgstr "Julie Pichon (교육, 멘토링, 조교, 영어)"
@@ -1695,6 +1979,12 @@ msgstr "임의의 소프트웨어 프로젝트와 비슷하게, 다음이 있습
 msgid "Like sprints, small groups of people work on specific themes"
 msgstr "Sprint와 같이, 작은 그룹의 구성원이 구체적인 테마에 대해 작업합니다"
 
+msgid "Limited to 50 characters"
+msgstr "50 글자로 제한됩니다"
+
+msgid "Lines limited to 72 characters"
+msgstr "72 문자로 제한된 여러 줄"
+
 msgid "Linux"
 msgstr "Linux"
 
@@ -1716,6 +2006,23 @@ msgstr "Loic Dachary (교육, 멘토링, 조교, 프랑스어, 영어)"
 msgid "Loic Dachary (training, mentoring, assistant, french, english) - lead"
 msgstr "Loic Dachary (교육, 멘토링, 조교, 프랑스어, 영어) - 진행"
 
+msgid "Look at open reviews"
+msgstr "열려있는 리뷰를 살펴봅니다"
+
+msgid ""
+"Look up the project you are most interested in and find the three most "
+"active core reviewers (people that would be good to know for review help and "
+"getting your patches merged)."
+msgstr ""
+"가장 관심있는 프로젝트를 찾은 후 가장 활발한 핵심 검토자 (리뷰 도움 및 패치"
+"를 병합을 위해 알면 좋은 사람들) 3명을 찾습니다."
+
+msgid ""
+"Look up the release schedule for the current and past two OpenStack release "
+"cycles"
+msgstr ""
+"현재 및 지난 두 개의 OpenStack 릴리즈 주기에 대한 릴리즈 일정을 찾아봅니다"
+
 msgid "Low"
 msgstr "Low"
 
@@ -1731,8 +2038,29 @@ msgstr "Mac OS"
 msgid "Mac OS & Linux"
 msgstr "Mac OS & Linux"
 
+msgid ""
+"Mac OS X El Capitan and macOS Sierra users might see an error message like "
+"\"Operation not permitted\" when installing with the command. In this case, "
+"there are two options to successfully install git-review."
+msgstr ""
+"Mac OS El Capitan 및 macOS Sierra 사용자는 해당 명령어로 설치하는 경우 "
+"\"Operation not permitted\" 와 같은 오류 메시지를 볼 수 있을 것입니다. 해당 "
+"경우에는, git-review를 성공적으로 설치하기 위한 두 가지 옵션이 있습니다."
+
+msgid "Main activities"
+msgstr "주 활동"
+
+msgid "Make a new branch in your local repository"
+msgstr "로컬 저장소 내 새로운 브랜치를 만듭니다"
+
 msgid "Make changes"
 msgstr "변경 사항을 만듭니다"
+
+msgid "Make changes and push new patchsets"
+msgstr "변경사항을 만들고 새로운 패치셋을 푸시합니다"
+
+msgid "Make code changes"
+msgstr "코드 변경사항을 만듭니다"
 
 msgid "Make code contributions."
 msgstr "코드 컨트리뷰션하기."
@@ -1751,6 +2079,9 @@ msgstr ""
 
 msgid "Make sure you have a wifi enabled laptop with you."
 msgstr "Wifi를 사용할 수 있는 노트북을 가지고 와야 합니다."
+
+msgid "Make useful reference points in time to organize the development cycle"
+msgstr "개발 주기를 구성하기 위해 시간 내에서 유용한 레퍼런스 지점을 만듭니다"
 
 msgid "Manage day-to-day operations"
 msgstr "일상적인 운영 관리"
@@ -1780,8 +2111,18 @@ msgstr "기술 툴 마스터하기"
 msgid "Maximize karma"
 msgstr "karma를 최대화해 봅니다"
 
+msgid ""
+"Meaningful: anyone may submit a correction that will adjust the influence of "
+"appropriate statistical data"
+msgstr ""
+"의미있는: 누구나 통계 자료에 대한 영향력을 적절하게 조정하는 수정안을 제출 가"
+"능합니다"
+
 msgid "Medium"
 msgstr "Medium"
+
+msgid "Meet any policies that the TC requires from all projects"
+msgstr "모든 프로젝트로부터 TC가 요구하는 정책들을 충족합니다"
 
 msgid "Meetbot"
 msgstr "Meetbot"
@@ -1795,14 +2136,28 @@ msgstr "회의"
 msgid "Mentors/helpers"
 msgstr "멘토/도움"
 
+msgid "Merged in the master branch first and then cherry-picked to stable"
+msgstr ""
+"master 브랜치에서 먼저 머지가 된 이후 stable로 cherry-pick이 이루어집니다"
+
 msgid "Methodologies"
 msgstr "방법론"
+
+msgid "Metrics"
+msgstr "지표"
 
 msgid "Milestone"
 msgstr "Milestone"
 
 msgid "Milestone: Milestone the bug was fixed in"
 msgstr "마일스톤: 버그가 수정된 마일스톤"
+
+msgid "Milestones"
+msgstr "마일스톤"
+
+msgid "Milestones are tagged in the repository using b1, b2 and b3"
+msgstr ""
+"마일스톤은 저장소 내에서 b1, b2, 그리고 b3를 사용해 태깅이 이루어집니다"
 
 msgid "Mind the noise"
 msgstr "소음을 꺼립니다"
@@ -1821,6 +2176,9 @@ msgstr "모듈 - 더 많은 뷰"
 
 msgid "Module contributors"
 msgstr "모듈 컨트리뷰터"
+
+msgid "More focus on testing"
+msgstr "테스팅에 보다 초점을 맞춥니다"
 
 msgid "More information: Governance page"
 msgstr "자세한 정보: Governance 페이지"
@@ -1934,6 +2292,13 @@ msgstr "2014년 10월 10 - 11일 (금 - 토)"
 
 msgid "Official OpenStack projects"
 msgstr "공식 OpenStack 프로젝트"
+
+msgid ""
+"Official OpenStack projects can participate by offering topics and mentors "
+"for the interns who sign up for this program."
+msgstr ""
+"공식 OpenStack 프로젝트는 해당 프로그램에 가입한 인턴에게 주제 및 멘터를 권함"
+"으로써 참여할 수 있습니다."
 
 msgid ""
 "Once the students are separated into their new roles, and have an "
@@ -2077,6 +2442,16 @@ msgstr "운영자 밋업"
 msgid "Opinion"
 msgstr "Opinion"
 
+msgid "Option 1: install using pip with more options::"
+msgstr "옵션 1: 보다 많은 옵션과 함께 pip를 사용하여 설치합니다::"
+
+msgid ""
+"Option 2: Use the package manager `Homebrew <http://brew.sh>`_, and type in "
+"a terminal::"
+msgstr ""
+"옵션 2: `Homebrew <http://brew.sh>`_ 패키지 관리자를 사용하는 것으로, 터미널"
+"에 입력합니다::"
+
 msgid "Optional external references"
 msgstr "선택적 외부 레퍼런스"
 
@@ -2090,6 +2465,9 @@ msgstr ""
 msgid "Orchestration service"
 msgstr "Orchestration 서비스"
 
+msgid "Other possible content"
+msgstr "다른 가능한 내용"
+
 msgid "Other release candidates"
 msgstr "다른 릴리즈 후보"
 
@@ -2098,6 +2476,9 @@ msgstr "그 외: https://wiki.openstack.org/wiki/Meetings"
 
 msgid "Outline and online slide index"
 msgstr "목차 및 온라인 슬라이드 색인"
+
+msgid "Overall feature freeze is the third milestone"
+msgstr "전반적인 기능 프리징은 세 번째 마일스톤에 해당합니다"
 
 msgid "Overview of the contribution process"
 msgstr "컨트리뷰션 프로세스 개요"
@@ -2125,10 +2506,20 @@ msgid "Packaging"
 msgstr "패키징"
 
 msgid ""
+"Participate in any goals specified by the TC, as defined by OpenStack-wide "
+"Goals"
+msgstr ""
+"OpenStack 영역 목표로 정의되어 있는 TC에 의해 구체화된 임의의 목표에 참여합니"
+"다"
+
+msgid ""
 "Paste the public key into the **Add SSH Public Key** text box and click Add."
 msgstr ""
 "공개키를 **Add SSH Public Key** 텍스트 상자에 붙여넣기한 후 추가를 클릭합니"
 "다."
+
+msgid "Pay attention to who is an expert in what area"
+msgstr "특정 영역에 누가 전문가인지를 귀기울여 봅니다"
 
 msgid "People sitting in the inner circle lead the discussion"
 msgstr "원 안에 앉아있는 구성원이 토론을 진행합니다"
@@ -2142,8 +2533,29 @@ msgstr "프로젝트 별 태그"
 msgid "Perform the smaller tasks"
 msgstr "보다 작은 작업을 수행합니다"
 
+msgid "Personal message or talk in the channel to people"
+msgstr "개인 메시지 또는 채널 내 대화를 사람들과 합니다"
+
+msgid "Pick a task (bug, trivial fix, documentation, implementation)"
+msgstr "작업을 고릅니다 (버그, 단순한 수정, 문서화, 구현)"
+
 msgid "Picking Your Project"
 msgstr "프로젝트를 고릅니다"
+
+msgid "Planning - Design"
+msgstr "계획 - 설계"
+
+msgid "Planning - Discuss"
+msgstr "계획 - 토론"
+
+msgid "Planning - Target"
+msgstr "계획 - 대상"
+
+msgid "Planning and design activities"
+msgstr "계획 및 설계 활동"
+
+msgid "Planning for a release cycle starts at the end of the previous cycle"
+msgstr "릴리즈 주기에 대한 계획인 이전 주기 끝 부분 시점에서 시작합니다"
 
 msgid "Play with your network"
 msgstr "네트워크와 함께 즐겨봅니다"
@@ -2151,8 +2563,14 @@ msgstr "네트워크와 함께 즐겨봅니다"
 msgid "Prepare the backport"
 msgstr "Backport 준비"
 
+msgid "Prepare your idea for the public"
+msgstr "생각을 대중에게 (이야기할 수 있도록) 준비합니다"
+
 msgid "Prerequisites"
 msgstr "선행조건"
+
+msgid "Prioritising items"
+msgstr "아이템 중요도 구분"
 
 msgid "Prioritize bugs / bug triage"
 msgstr "버그 우선 순위 / 버그 분류"
@@ -2176,6 +2594,22 @@ msgstr ""
 msgid "Project pods"
 msgstr "프로젝트 팟"
 
+msgid ""
+"Project team helps you to identify the target milestone and register it in "
+"the tracking tool"
+msgstr ""
+"프로젝트 팀은 대상 마일스톤을 식별하고 추적 도구에 등록하도록 도와줍니다"
+
+msgid "Projects APIs are documented within the project"
+msgstr "프로젝트 API는 해당 프로젝트 내에 문서화되어 있습니다"
+
+msgid ""
+"Projects are evolving themselves and also sustain for one collaborative "
+"framework, OpenStack"
+msgstr ""
+"프로젝트는 하나의 집합적인 프레임워크인 OpenStack을 위해 점차 진화하고 있으"
+"며 또한 지속해 나가고 있습니다."
+
 msgid "Projects under a \"Big Tent\""
 msgstr "\"Big Tent\" 내 프로젝트"
 
@@ -2186,14 +2620,34 @@ msgid ""
 "Provide guidance for the development teams where user feedback is requested"
 msgstr "사용자 피드백을 요청하는 개발 팀에 대한 가이드를 제공합니다"
 
+msgid ""
+"Provides transparent and meaningful statistics regarding contributions to "
+"both OpenStack itself and projects related to OpenStack"
+msgstr ""
+"OpenStack 자체 및 OpenStack과 관련된 프로젝트 기여에 관한 투명하고 의미있는 "
+"통계를 제공합니다"
+
 msgid "Public/Private cloud"
 msgstr "공용/사설 클라우드"
 
 msgid "Published collectively as the OpenStack release"
 msgstr "OpenStack 릴리즈처럼 모아서 발행합니다"
 
+msgid "Push code to Gerrit for review"
+msgstr "코드를 리뷰를 위해 Gerrit에 푸시합니다"
+
+msgid "Push upstream for review"
+msgstr "리뷰를 위해 업스트림에 푸시합니다"
+
 msgid "Quantify the delta"
 msgstr "Delta 정량화"
+
+msgid ""
+"REMEMBER: This is open source. Things happen on the community's schedule, "
+"not yours."
+msgstr ""
+"기억할 점: 여기는 오픈 소스입니다. 여러분보다는 커뮤니티 일정에 상에서 일어납"
+"니다."
 
 msgid "REST APIs"
 msgstr "REST API"
@@ -2218,6 +2672,9 @@ msgstr ""
 msgid "Recheck bug #XXX"
 msgstr "Bug #XXX 재확인"
 
+msgid "References to other relevant patches?"
+msgstr "다른 적절한 패치를 레퍼런스하는가?"
+
 msgid "Register Contact Information"
 msgstr "연락처 정보 등록"
 
@@ -2230,6 +2687,9 @@ msgstr "퇴행과 통합 이슈"
 msgid "Regular reviewer"
 msgstr "일반 검토자"
 
+msgid "Release"
+msgstr "릴리즈"
+
 msgid "Release Candidates"
 msgstr "릴리즈 대상"
 
@@ -2238,6 +2698,22 @@ msgstr "릴리즈 후보 1"
 
 msgid "Release day"
 msgstr "릴리즈 일자"
+
+msgid ""
+"Release management description: http://docs.openstack.org/project-team-guide/"
+"release-management.html"
+msgstr ""
+"릴리즈 관리 설명: http://docs.openstack.org/project-team-guide/release-"
+"management.html"
+
+msgid "Release models"
+msgstr "릴리즈 모델"
+
+msgid "Release preparation"
+msgstr "릴리즈 준비"
+
+msgid "Release process is managed by the Release Management team"
+msgstr "릴리즈 절차는 릴리즈 관리 팀에 의해 관리가 이루어집니다"
 
 msgid "Relevance metrics"
 msgstr "관련 지표"
@@ -2250,6 +2726,9 @@ msgstr "관련 구성원 (`슬라이드 <02-relevant-actors.html>`__)"
 
 msgid "Repeated as many times as necessary"
 msgstr "필요로 할 때에는 여러 번 반복됩니다"
+
+msgid "Reply to comments"
+msgstr "코멘트에 응답합니다"
 
 msgid "Required external references"
 msgstr "필수 외부 레퍼런스"
@@ -2267,6 +2746,9 @@ msgstr "공식 OpenStack 프로젝트에 대한 요구 사항"
 msgid "Reserved for ad-hoc meetings of project teams"
 msgstr "프로젝트 팀에 대한 임시 회의로 예약됩니다"
 
+msgid "Resolve merge conflicts"
+msgstr "머지 conflict를 해결합니다"
+
 msgid "Resolve technical disputes"
 msgstr "기술 논쟁 해결"
 
@@ -2275,6 +2757,10 @@ msgstr "계획을 따르면서 변화에 응답하기"
 
 msgid "Review"
 msgstr "리뷰"
+
+msgid ""
+"Review a patch out in the sandbox repository and invite other reviewers."
+msgstr "sandbox 저장소에 올라온 패치를 리뷰하고 다른 검토자를 초대합니다."
 
 msgid "Review each other’s commit messages on the draft"
 msgstr "서로 다른 구성원의 커밋 메시지를 초안으로 검토합니다"
@@ -2287,6 +2773,15 @@ msgstr "다른 lanuchpad 버그를 검토하고 개선합니다."
 
 msgid "Review other's code"
 msgstr "다른 사람의 코드를 리뷰합니다"
+
+msgid ""
+"Review three patches in the sandbox environment. Try to find things to make "
+"comments on even if they are just asking a question and not pointing out an "
+"issue, don't just +1 three different patches."
+msgstr ""
+"sandbox 환경에 있는 세 개의 패치를 리뷰합니다. 비록 단순히 질문을 하거나 이슈"
+"를 지적할지라도 조언을 남기기 위한 항목을 찾아보도록 노력하며, 세 개의 패치"
+"에 단순히 +1를 하지 않습니다."
 
 msgid "Review unified"
 msgstr "통합 리뷰"
@@ -2305,6 +2800,12 @@ msgstr "Rossella Sblendido (조교, 이탈리아어, 영어)"
 
 msgid "Run for elected positions in the OpenStack project."
 msgstr "OpenStack 프로젝트 내에서 선출로 정해지는 자리에 지원하기."
+
+msgid "Run tests (unit, functional, etc.)"
+msgstr "테스트를 실행합니다 (단위, 기능 등)"
+
+msgid "Run the tests"
+msgstr "테스트를 실행합니다"
 
 msgid "Run unit tests"
 msgstr "유닛 테스트를 실행합니다"
@@ -2348,6 +2849,9 @@ msgid ""
 msgstr ""
 "세션은 개방된 문서 (일반적으로 Etherpad)에 제안되어 있고 팀 회의에서 토론이 "
 "이루어집니다"
+
+msgid "Set by each project team"
+msgstr "각 프로젝트 팀에 의해 설정됩니다"
 
 msgid "Setup & First Patch"
 msgstr "셋업 & 첫 패치"
@@ -2429,8 +2933,14 @@ msgstr ""
 "소스 파일은 `governance repository <http://git.openstack.org/cgit/openstack/"
 "governance/tree/reference/projects.yaml>`_ 에 호스팅되어 있습니다"
 
+msgid "Spec/blueprint freeze"
+msgstr "스펙/블루프린트 프리징"
+
 msgid "Speed up the acceptance"
 msgstr "수용을 가속화합니다"
+
+msgid "Speeding the Acceptance"
+msgstr "수용을 보다 빠르게 하기"
 
 msgid "Stable branches"
 msgstr "안정 브랜치"
@@ -2494,11 +3004,20 @@ msgstr "문자열 프리징"
 msgid "Submit presentations to OpenStack conferences."
 msgstr "OpenStack 컨퍼런스에 프리젠테이션 제출하기."
 
+msgid "Submit the blueprints and/or specs"
+msgstr "블루프린트 그리고/또는 스펙을 제출합니다"
+
+msgid "Submit to the TC oversight"
+msgstr "TC 관리 감독이 이루어지도록 제출합니다"
+
 msgid "Subset of the Foundation Individual Member"
 msgstr "Foundation 개별 구성원 중의 부분 집합"
 
 msgid "Successfully contribute one real world patch to an OpenStack component"
 msgstr "실제 존재하는 패치 하나를 OpenStack 구성요소에 성공적으로 기여하기"
+
+msgid "Succinctly describes patch content"
+msgstr "간결하게 패치 내용을 설명합니다"
 
 msgid "Suggestions of projects to work on:"
 msgstr "작업하고자 하는 프로젝트 제안:"
@@ -2551,6 +3070,9 @@ msgstr "한 발짝 되돌아가기"
 msgid "Take the pulse of the project"
 msgstr "프로젝트의 리듬을 이해합니다"
 
+msgid "Talking in the IRC channel"
+msgstr "IRC 채널에서 대화"
+
 msgid "Target Audience"
 msgstr "대상 청중"
 
@@ -2563,6 +3085,13 @@ msgstr "팀 구성원: 3-5"
 msgid "Team up"
 msgstr "팀 구성"
 
+msgid "Teams in OpenStack can be freely created as they are needed"
+msgstr "OpenStack 내 팀은 필요로 할 때 자유롭게 생성 가능합니다"
+
+msgid ""
+"Teams of official projects are under the authority of the Technical Committee"
+msgstr "공식 프로젝트 팀은 기술 위원회의 권위 하에 있습니다"
+
 msgid "Technical Committee"
 msgstr "Technical Committee"
 
@@ -2571,6 +3100,12 @@ msgstr "기술 위원회 구성원"
 
 msgid "Technical committee : 1"
 msgstr "기술 위원회: 1"
+
+msgid "Test the code and file bugs"
+msgstr "코드를 테스트하고 버그를 제출합니다"
+
+msgid "Testable on its own"
+msgstr "자체를 기반으로 테스트 가능"
 
 msgid "Testing"
 msgstr "테스팅"
@@ -2584,8 +3119,21 @@ msgstr "텍스트 기반 채팅"
 msgid "The Contribution Process (1 hour)"
 msgstr "컨트리뷰션 프로세스 (1시간)"
 
+msgid "The Implementation is a subset of the whole project"
+msgstr "구현체는 전체 프로젝트 중 부분 집합입니다"
+
+msgid "The Implementation must have an open reference implementation"
+msgstr "구현체는 개방형 레퍼런스에 따른 구현을 가지도록 해야 합니다"
+
 msgid "The OpenStack Community"
 msgstr "OpenStack 커뮤니티"
+
+msgid ""
+"The OpenStack Foundation participates in internship programs as `Outreachy "
+"<https://wiki.openstack.org/wiki/Outreachy>`_."
+msgstr ""
+"OpenStack Foundation은 `Outreachy <https://wiki.openstack.org/wiki/"
+"Outreachy>`_ 와 같은 인턴쉽 프로그램에 참여합니다."
 
 msgid "The OpenStack Package"
 msgstr "OpenStack 패키지"
@@ -2633,12 +3181,21 @@ msgstr "버그가 방금 생성되었습니다"
 msgid "The bug was reproduced or confirmed as a genuine bug"
 msgstr "버그가 재현 가능하거나 실제 버그로 확인되었습니다"
 
+msgid "The code is self-evident/self-documenting"
+msgstr "코드는 자체가 명료함을 보이고 자체가 문서에 해당합니다."
+
+msgid "The deadline for proposing new ideas for a release cycle"
+msgstr "릴리즈 주기에 대해 새로운 아이디어를 제안하는 것에 대한 마감 기한"
+
 msgid ""
 "The downloaded file should be a dmg in your downloads folder. Open that dmg "
 "file and follow the instructions on screen."
 msgstr ""
 "다운로드한 파일은 다운로드 폴더 내 dmg일 것입니다. 해당 dmg 파일을 열고 화면 "
 "상의 지시를 따릅니다."
+
+msgid "The exact date depends on the projects"
+msgstr "정확한 일자는 프로젝트에 의존합니다"
 
 msgid ""
 "The fix is included in the milestone-proposed branch, a past milestone or a "
@@ -2700,8 +3257,19 @@ msgstr ""
 "현재 해당 버그 수정에 대한 작업을 하고 있음. In progress 상태로 두어야 합니"
 "다."
 
+msgid ""
+"The priority of the work item is set by the project team members or lead"
+msgstr ""
+"작업 항목에 대한 우선 순위는 프로젝트 팀 구성원 또는 리더에 의해 설정됩니다"
+
 msgid "The release, or milestone, or commit ID"
 msgstr "릴리즈, 마일스톤, 또는 커밋 ID"
+
+msgid "The reviewer has access to external web services/site"
+msgstr "검토자는 외부 웹 서비스/사이트에 대한 액세스를 갖습니다"
+
+msgid "The reviewer understands what the original problem was"
+msgstr "검토자는 원 문제가 무엇이었는지를 이해합니다"
 
 msgid "The role of the Technical Committee"
 msgstr "Technical Committee 역할"
@@ -2723,6 +3291,14 @@ msgstr ""
 
 msgid "The trainers for the upcoming training in Barcelona:"
 msgstr "다가오는 Barcelona 에서 트레이닝 진행자는 다음과 같습니다:"
+
+msgid ""
+"The training concentrates on the common cycle with the development "
+"milestones as that is what most students will face with. The other types "
+"should be described with examples."
+msgstr ""
+"본 트레이닝은 학생들이 가장 많이 직면할 개발 마일스톤에 대한 공통 주기에 집중"
+"합니다. 다른 유형은 예제와 함께 설명이 이루어질 것입니다."
 
 msgid ""
 "These slides prepare students for the Lego activity, and ensure they "
@@ -2752,6 +3328,9 @@ msgstr ""
 "렇지 않으면, Gerrit이 오류 메시지를 보여주며 연락처 정보 허용을 거부할 것입니"
 "다."
 
+msgid "This helps the I18n and Documentation projects"
+msgstr "이는 I18n 및 문서화 프로젝트를 도와줍니다"
+
 msgid "This is a valid issue, but it is the way it should be"
 msgstr "유효한 문제이지만, 현 상태로 있어야 합니다"
 
@@ -2773,6 +3352,9 @@ msgstr "이 섹션에서는 :doc:`accounts` 가이드를 완료했다고 가정�
 
 msgid "This will need to match your preferred email address in Gerrit."
 msgstr "Gerrit에서 선호하는 이메일 주소와 일치시킬 필요가 있습니다"
+
+msgid "Three development milestones during a release cycle"
+msgstr "릴리즈 주기 내 세 개발 마일스톤"
 
 msgid "Tim Freund (assistant, english)"
 msgstr "Tim Freund (조교, 영어)"
@@ -2812,11 +3394,20 @@ msgstr ""
 "OpenStack 배포 및 사용량을 추적하여 사용자 스토리 및 경험을 공유하도록 돕습니"
 "다"
 
+msgid "Trailing the common cycle"
+msgstr "공통 주기를 종료"
+
 msgid "Trainers"
 msgstr "트레이너"
 
 msgid "Translations / i18n issues."
 msgstr "번역 / i18n 이슈."
+
+msgid ""
+"Transparency: the community can have confidence that all calculations are "
+"correct and fair"
+msgstr ""
+"투명성: 커뮤니티는 모든 계산이 정확하고 공평하다는 확신을 가질 수 있습니다"
 
 msgid "Triaged"
 msgstr "Triaged"
@@ -2862,8 +3453,14 @@ msgstr "OpenStack 컨트리뷰션 작업 흐름과 사회 규범 이해하기"
 msgid "Understand the conventions"
 msgstr "통용 규칙을 이해합니다"
 
+msgid "Update and add tests (unit, functional, etc.)"
+msgstr "업데이트하고 테스트를 추가합니다 (단위, 기능 등)"
+
 msgid "UpgradeImpact"
 msgstr "UpgradeImpact"
+
+msgid "Upload your code as early as possible in the release cycle"
+msgstr "릴리즈 주기에서 코드를 가능한 일찍 업로드합니다"
 
 msgid "Upstream Training in Japan"
 msgstr "일본에서의 Upstream Training"
@@ -2913,6 +3510,9 @@ msgstr "Victoria Martinez de la Cruz - vkmc - Trove/Zaqar (멘토링, 조교)"
 
 msgid "Victoria Martínez de la Cruz (assistant, english)"
 msgstr "Victoria Martínez de la Cruz (조교, 영어)"
+
+msgid "Virtual Infrastructure Manager (VIM) + NFV Infrastructure (NFVI)"
+msgstr "Virtual Infrastructure Manager (VIM) + NFV Infrastructure (NFVI)"
 
 msgid "Virtual Network Functions Manager (VNFM)"
 msgstr "Virtual Network Functions Manager (VNFM)"
@@ -3014,6 +3614,9 @@ msgstr "릴리즈를 이루는 것들"
 msgid "When & Where to get OpenStack Upstream Training"
 msgstr "OpenStack Upstream Training을 언제 & 어디서 받는가"
 
+msgid "When in the cycle you intend to complete it"
+msgstr "목적으로 하는 주기 내에 완료하고자 할 때"
+
 msgid ""
 "When signing up for Foundation Membership, make sure to give the same email "
 "address you’ll use for code contributions."
@@ -3043,6 +3646,9 @@ msgid ""
 msgstr ""
 "\"키를 저장할 파일 이름을 입력합니다\" 프롬프트가 등장하면 엔터키를 입력합니"
 "다. 기본 위치를 허용합니다::"
+
+msgid "When your blueprint/spec is accepted"
+msgstr "블루프린트/스펙이 수락되었을 때"
 
 msgid ""
 "Where developers meet face to face to finalize planning for the next release "
@@ -3101,6 +3707,9 @@ msgstr "Won't Fix"
 msgid "Work in parallel"
 msgstr "병렬로 작업합니다"
 
+msgid "Work on feedback and comments"
+msgstr "피드백 및 조언을 합니다"
+
 msgid "Work on the fix is in progress, bug has an assignee"
 msgstr "수정이 진행 중인 상태로 작업 중이고, 버그에 대한 할당자가 있습니다"
 
@@ -3113,6 +3722,9 @@ msgid ""
 msgstr ""
 "OpenStack 커뮤니티를 지속적으로 생동감있고 알릴 수 있도록 전세계 사용자 그룹"
 "과 함께 작업합니다"
+
+msgid "Workflow and Tools for Participation"
+msgstr "준비를 위한 워크플로우 및 도구"
 
 msgid ""
 "Workflow of an OpenStack contribution and tools (3h including 2h exercises)"
@@ -3151,6 +3763,9 @@ msgid ""
 msgstr ""
 "사용자 이름을 선택하는 프롬프트가 나타날 것입니다. launchpad에서 사용했던 것"
 "과 동일한 사용자 이름을 입력 가능하며, 또는 다른 것도 가능합니다."
+
+msgid "Your Patch Upstream"
+msgstr "패치 업스트림"
 
 msgid ""
 "Your full name and email address will be public and the email address needs "
@@ -3408,6 +4023,17 @@ msgstr ""
 "Meetings#Technical_Committee_meeting>`_"
 
 msgid ""
+"`Mentoring <https://wiki.openstack.org/wiki/Mentors>`_ is run by the Women "
+"of OpenStack group, where mentees are guided through the OpenStack processes."
+msgstr ""
+"`멘토링 <https://wiki.openstack.org/wiki/Mentors>`_ 은 Women of OpenStack "
+"group에 의해 운영되며, 이 곳에서 멘티들은 OpenStack 프로세스에 따라 가이드를 "
+"받습니다."
+
+msgid "`Metrics <howitsmade-metrics.html>`_"
+msgstr "`지표 <howitsmade-metrics.html>`_"
+
+msgid ""
 "`ODP slides <http://dachary.org/loic/openstack-training/training-student-"
 "project-sample.odp>`_ `PDF slides <http://dachary.org/loic/openstack-"
 "training/training-student-project-sample.pdf>`_"
@@ -3615,6 +4241,9 @@ msgstr ""
 "`Technical Committee 역할 <http://governance.openstack.org/reference/charter."
 "html#mission>`_"
 
+msgid "`Tracking <workflow-launchpad.html>`_"
+msgstr "`추적하기  <workflow-launchpad.html>`_"
+
 msgid ""
 "`Training guides <https://wiki.openstack.org/wiki/Training-guides#How_To>`_"
 msgstr ""
@@ -3781,6 +4410,13 @@ msgstr "devstack.org"
 msgid "documentation"
 msgstr "documentation"
 
+msgid ""
+"ensures basic interoperability with the rest of OpenStack: User-facing API "
+"services should support Keystone for discovery and authentication"
+msgstr ""
+"나머지 OpenStack과의 기본적인 상호운용성을 보장합니다: 사용자에게 보이는 API "
+"서비스는 검색 및 인증을 위해 Keystone을 지원해야 합니다"
+
 msgid "etc."
 msgstr "기타"
 
@@ -3822,6 +4458,9 @@ msgstr "git review"
 
 msgid "git review -s"
 msgstr "git review -s"
+
+msgid "have a clear and defined scope."
+msgstr "명료하고 정의된 영역을 가집니다."
 
 msgid "how it contributes to the company's agenda"
 msgstr "기업 목표에 어떻게 기여할 것인지에 대한 방법"
@@ -3891,6 +4530,9 @@ msgstr "https://wiki.openstack.org/wiki/Design_Summit/Planning"
 msgid "https://wiki.openstack.org/wiki/GitCommitMessages"
 msgstr "https://wiki.openstack.org/wiki/GitCommitMessages"
 
+msgid "https://wiki.openstack.org/wiki/IRC"
+msgstr "https://wiki.openstack.org/wiki/IRC"
+
 msgid "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
 msgstr "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
 
@@ -3947,6 +4589,9 @@ msgstr "low-hanging-fruit"
 msgid "macJack (assistant, English, Chinese)"
 msgstr "macJack (조교, 영어, 중국어)"
 
+msgid "master branch is open for development"
+msgstr "master 브랜치는 개발을 위해 개방되어 있습니다"
+
 msgid "milestone or release branch"
 msgstr "마일스톤 또는 릴리즈 브랜치"
 
@@ -3961,6 +4606,13 @@ msgstr "직관적인 경우에는 선택적"
 
 msgid "patchset diffs"
 msgstr "patchset diff"
+
+msgid ""
+"provides a cloud infrastructure service or should directly build on an "
+"existing OpenStack cloud infrastructure service"
+msgstr ""
+"클라우드 인프라 서비스를 제공하거나 기본 OpenStack 클라우드 인프라 서비스 위"
+"에 직접 만들어져야 합니다"
 
 msgid "quality of the OpenStack git history"
 msgstr "OpenStack git 이력에 대한 품질"
@@ -3991,6 +4643,9 @@ msgstr "단위 테스트 실행"
 
 msgid "security"
 msgstr "security"
+
+msgid "stable/release branch"
+msgstr "stable/release 브랜치"
 
 msgid "the contribution they plan to work on during the online sessions"
 msgstr "온라인 세션동안 작업하고자 계획하는 컨트리뷰션"
