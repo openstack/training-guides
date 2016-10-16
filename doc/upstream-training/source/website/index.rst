@@ -44,8 +44,8 @@ When & Where to get OpenStack Upstream Training
 The next session of the OpenStack Upstream Training will be held in Barcelona,
 before the OpenStack Summit Barcelona 2016:
 
-**Sunday, October 23, 2016 at 1:00 p.m. to 5:00 p.m.
-- Monday, October 24, 2016 at 10:00 a.m. to 4:00 p.m. (local time)**
+**Sunday, October 23, 2016 at 1:00 p.m. to 6:00 p.m.
+- Monday, October 24, 2016 at 09:00 a.m. to 6:00 p.m. (local time)**
 
 For more information and registration, see the `OpenStack Academy page
 <https://www.openstack.org/summit/barcelona-2016/openstack-academy/>`_.
@@ -54,19 +54,24 @@ How to prepare
 ==============
 
 * Make sure you have a wifi enabled laptop with you.
-* Create a virtual machine on your laptop with Ubuntu 14.04 installed and
-  4+ GB of RAM.
-  Alternatively, you can use your virtual machine on a public cloud.
-* Check that you can ssh from your laptop to the virtual machine
-* Check that :command:`apt install` works on the virtual machine
-* Read and complete the :doc:`irc` guide.
-* Read and complete the :doc:`accounts` guide.
-* Read and complete the :doc:`git` guide.
-* Get in touch with the team upstream-training@openstack.org to pick
-  a contribution to work on.
+* Prepared virtual machine image with a development environment:
 
-`Etherpad for Austin Upstream Training
-<https://etherpad.openstack.org/p/upstream-training-austin>`_
+  * Image and instructions: https://github.com/kmARC/openstack-training-virtual-environment/
+
+* Prepare an environment by yourself from scratch:
+
+  * Create a virtual machine on your laptop with Ubuntu 14.04 installed and
+    6+ GB of RAM.
+  * Alternatively, you can use your virtual machine on a public cloud.
+  * Check that you can ssh from your laptop to the virtual machine
+  * Check that :command:`apt install` works on the virtual machine
+  * Read and complete the :doc:`irc` guide.
+  * Read and complete the :doc:`git` guide.
+
+* Read and complete the :doc:`accounts` guide.
+
+`Etherpad for Barcelona Upstream Training
+<https://etherpad.openstack.org/p/upstream-training-barcelona>`_
 
 Staff
 =====
@@ -74,12 +79,6 @@ Staff
 The trainers for the upcoming training in Barcelona:
 
 Ildiko Vancsa, Kendall Nelson, Mark Korondi, and Marton Kiss
-
-We would like to make as many matches before the Barcelona Summit as we can
-so you can meet with your mentee/mentor there if you are both attending.
-
-`Sign-up to get involved here
-<https://openstackfoundation.formstack.com/forms/mentor_mentee_signup_pre_barcelona>`__.
 
 Archives
 ========
