@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-14 09:58+0000\n"
+"POT-Creation-Date: 2016-10-17 03:52+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,15 +24,6 @@ msgstr ""
 "OpenStack の商用実装が商標を使用する権利があるかどうかを判断するために "
 "Foundation Board により使用される「ガイドとなる原則」"
 
-msgid "#action"
-msgstr "#action"
-
-msgid "#help"
-msgstr "#help"
-
-msgid "#info"
-msgstr "#info"
-
 msgid "**Private key** - Only known to you and it should be safely guarded."
 msgstr "**秘密鍵** - 自分だけが持っていて、安全に保護すべきです。"
 
@@ -43,13 +34,6 @@ msgstr "**公開鍵** - 接続したい SSH サーバーと自由に共有でき
 
 msgid "**Staff**"
 msgstr "**スタッフ**"
-
-msgid ""
-"**Sunday, October 23, 2016 at 1:00 p.m. to 5:00 p.m. - Monday, October 24, "
-"2016 at 10:00 a.m. to 4:00 p.m. (local time)**"
-msgstr ""
-"**2016 年 10 月 23 日(日) 午後 1:00 〜 午後 5:00、 10 月 24 日 (月) 午前 "
-"10:00 〜 午後 4:00 (現地時間)**"
 
 msgid "..."
 msgstr "..."
@@ -161,24 +145,9 @@ msgstr "Active Technical Contributor (ATC)"
 msgid "Add A New Connection"
 msgstr "新しい接続の追加"
 
-msgid ""
-"Add a \"Call for Help\" to the minutes. Use this command when you need to "
-"recruit someone to do a task. (Counter-intuitively, this doesn't provide "
-"help on the bot)"
-msgstr ""
-"議事録に「手助け募集」を追加します。作業を実行する人を募集するときに、このコ"
-"マンドを使用します。直観に反して、これはボットを手助けしません。"
-
 msgid "Add a session proposal regarding your contribution in an etherpad"
 msgstr ""
 "Etherpad にコントリビューションに関するセッションの提案を追加してください。"
-
-msgid ""
-"Add an info item to the minutes. People should liberally use this for "
-"important things they say, so that they can be logged in the minutes."
-msgstr ""
-"参考情報を議事録に追加します。参加者は、重要な発言が議事録に記録されるよう、"
-"これを自由に使用すべきです。"
 
 msgid "Add files"
 msgstr "ファイルの追加"
@@ -719,13 +688,6 @@ msgstr "コース概要"
 msgid "Create & push a Work in Progress (WIP) to the sandbox"
 msgstr "作業中のパッチ (Work in Progress; WIP) の作成と sandbox への投稿"
 
-msgid ""
-"Create a virtual machine on your laptop with Ubuntu 14.04 installed and 4+ "
-"GB of RAM. Alternatively, you can use your virtual machine on a public cloud."
-msgstr ""
-"4 GB 以上ののメモリを搭載したノート PC に Ubuntu 14.04 の仮想マシンを作成して"
-"ください。代わりに、パブリッククラウドの仮想マシンを使用することもできます。"
-
 msgid "Create your commit"
 msgstr "コミットを作成します"
 
@@ -844,13 +806,6 @@ msgstr "会社に勤めていますか?"
 
 msgid "DocImpact"
 msgstr "DocImpact"
-
-msgid ""
-"Document an action item in the minutes. Include any nicknames in the line, "
-"and the item will be assigned to them. (nicknames are case-sensitive)"
-msgstr ""
-"アクション項目を議事録に記録します。発言に任意のニックネームを含めると、その"
-"項目がその人に割り当てられます（ニックネームは大文字小文字を区別します）。"
 
 msgid "Documentation"
 msgstr "ドキュメント"
@@ -1290,13 +1245,6 @@ msgstr "Gerrit が自動的に状態を変更します"
 msgid "Get guidance from community members and leaders"
 msgstr "コミュニティーメンバーやリーダーからの助言をもらえます"
 
-msgid ""
-"Get in touch with the team upstream-training@openstack.org to pick a "
-"contribution to work on."
-msgstr ""
-"取り組むコントリビューションを決めて、チーム upstream-training@openstack.org "
-"に連絡してください。"
-
 msgid "Get marketing from the OpenStack Foundation"
 msgstr "OpenStack Foundation によるマーケティングが受けられます"
 
@@ -1451,12 +1399,6 @@ msgstr "OpenStack の使い方"
 
 msgid "IRC"
 msgstr "IRC"
-
-msgid "IRC meetings"
-msgstr "IRC ミーティング"
-
-msgid "IRC meetings list"
-msgstr "IRC ミーティング一覧"
 
 msgid "IRC meetings: http://eavesdrop.openstack.org/"
 msgstr "IRC ミーティング: http://eavesdrop.openstack.org/"
@@ -1755,9 +1697,6 @@ msgstr "Jenkins やベンダー CI があなたのパッチをレビューしま
 msgid "Jieun Kim (assistant)"
 msgstr "Jieun Kim (assistant)"
 
-msgid "Join irc.freenode.net#upstream-university"
-msgstr "irc.freenode.net#upstream-university に参加してください。"
-
 msgid "Join the #openstack-101 channel"
 msgstr "#openstack-101 チャンネルに参加してください"
 
@@ -1912,9 +1851,6 @@ msgstr "Low (低)"
 msgid "Loïc Dachary (Training, mentoring, assistant, english and french)"
 msgstr "Loïc Dachary (Training, mentoring, assistant, english and french)"
 
-msgid "Lunch menu meeting"
-msgstr "ランチメニューミーティング"
-
 msgid "Mac OS"
 msgstr "Mac OS"
 
@@ -1989,12 +1925,6 @@ msgstr "Medium (中)"
 
 msgid "Meet any policies that the TC requires from all projects"
 msgstr "TC がすべてのプロジェクトが満たすことを要求している方針を満たす"
-
-msgid "Meetbot"
-msgstr "Meetbot"
-
-msgid "Meeting agenda"
-msgstr "ミーティングアジェンダ"
 
 msgid "Meetings"
 msgstr "ミーティング"
@@ -3305,13 +3235,6 @@ msgstr ""
 "我々は、コミュニティーメンバー同士がどう影響し合うかを見るために、各自役割を"
 "引き受けます"
 
-msgid ""
-"We would like to make as many matches before the Barcelona Summit as we can "
-"so you can meet with your mentee/mentor there if you are both attending."
-msgstr ""
-"バルセロナサミットの前にできるだけ多くの受講者とメンターの組み合わせを決め"
-"て、両方が参加した場合は実際に顔を合わせられるようにしたいと思っています。"
-
 msgid "We'll install an IRC program called Colloquy."
 msgstr "Colloquy IRC プログラムをインストールします。"
 
@@ -3632,13 +3555,6 @@ msgstr ""
 "い。`"
 
 msgid ""
-"`Etherpad for Austin Upstream Training <https://etherpad.openstack.org/p/"
-"upstream-training-austin>`_"
-msgstr ""
-"`Austin Upstream Training 向け Etherpad <https://etherpad.openstack.org/p/"
-"upstream-training-austin>`_"
-
-msgid ""
 "`Etherpad for Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
 "p/upstream-training-korea-2016>`_"
 msgstr ""
@@ -3690,9 +3606,6 @@ msgid ""
 "`IRC Services <http://docs.openstack.org/infra/system-config/irc.html>`_"
 msgstr ""
 "`IRC サービス <http://docs.openstack.org/infra/system-config/irc.html>`_"
-
-msgid "`IRC meetings <howitsmade-irc-meetings.html>`_"
-msgstr "`IRC ミーティング <howitsmade-irc-meetings.html>`_"
 
 msgid ""
 "`IRC meetings <https://wiki.openstack.org/wiki/Meetings>`_ (`slides <06-irc-"
@@ -3941,13 +3854,6 @@ msgid ""
 msgstr ""
 "`ユニットテストの実行 <http://docs.openstack.org/infra/manual/developers."
 "html#running-unit-tests>`_"
-
-msgid ""
-"`Sign-up to get involved here <https://openstackfoundation.formstack.com/"
-"forms/mentor_mentee_signup_pre_barcelona>`__."
-msgstr ""
-"`ここで登録してください <https://openstackfoundation.formstack.com/forms/"
-"mentor_mentee_signup_pre_barcelona>`__ 。"
 
 msgid "`Specifications <http://specs.openstack.org>`_"
 msgstr "`スペック <http://specs.openstack.org>`_"

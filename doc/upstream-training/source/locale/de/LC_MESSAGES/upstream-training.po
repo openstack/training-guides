@@ -1,34 +1,26 @@
 # Frank Kloeker <eumel@arcor.de>, 2015. #zanata
+# Andreas Jaeger <jaegerandi@gmail.com>, 2016. #zanata
 # Frank Kloeker <eumel@arcor.de>, 2016. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-15 09:43+0000\n"
+"POT-Creation-Date: 2016-10-17 03:52+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-10-15 04:12+0000\n"
-"Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
+"PO-Revision-Date: 2016-10-16 08:53+0000\n"
+"Last-Translator: Andreas Jaeger <jaegerandi@gmail.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
 "X-Generator: Zanata 3.7.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-msgid "#action"
-msgstr "#action"
-
-msgid "#help"
-msgstr "#help"
-
-msgid "#info"
-msgstr "#info"
-
 msgid "179 countries"
 msgstr "179 Länder"
 
 msgid "2,336 developers"
-msgstr "2,336 Entwickler"
+msgstr "2.336 Entwickler"
 
 msgid "20 mins building"
 msgstr "20 min arbeiten"
@@ -51,6 +43,9 @@ msgstr "2015 Tokio, Japan"
 msgid "2015 Vancouver, Canada"
 msgstr "2015 Vancouver, Canada"
 
+msgid "2016 Austin, USA"
+msgstr "2016 Austin, USA"
+
 msgid "3-4 different companies"
 msgstr "3-4 verschiedene Firmen"
 
@@ -58,7 +53,7 @@ msgid "345 different organizations"
 msgstr "345 unterschiedliche Organisationen"
 
 msgid "40,497 people"
-msgstr "40,497 Leute"
+msgstr "40.497 Leute"
 
 msgid "5 mins planning"
 msgstr "5 min planen"
@@ -97,26 +92,10 @@ msgstr "Aktiver Projektbeiträger (APC)"
 msgid "Active Technical Contributor (ATC)"
 msgstr "Aktiver Technischer Beiträger (ATC)"
 
-msgid ""
-"Add a \"Call for Help\" to the minutes. Use this command when you need to "
-"recruit someone to do a task. (Counter-intuitively, this doesn't provide "
-"help on the bot)"
-msgstr ""
-"Fügt einen \"Aufruf zur Hilfe\" ins Protokoll. Benutzen SIe das Kommando, "
-"wenn Sie Unterstützung in einer Aufgabe benötigen. (Zähler intiutiv, wird "
-"vom Bot nicht unterstützt)"
-
 msgid "Add a session proposal regarding your contribution in an etherpad"
 msgstr ""
 "Fügen Sie einen Sitzungsvorschlag entsprechend Ihres Beitrages in ein "
 "Etherpad"
-
-msgid ""
-"Add an info item to the minutes. People should liberally use this for "
-"important things they say, so that they can be logged in the minutes."
-msgstr ""
-" Fügt eine Informationsmeldung zum Protokoll. Die Funktion sollte sparsam "
-"verwendet werden für wichtige DInge."
 
 msgid "Adrien Cunin (mentoring, assistant, french, english)"
 msgstr "Adrien Cunin (Mentoring, Assistent, französisch, englisch)"
@@ -389,6 +368,9 @@ msgstr "Beiträger geben ihre Stimme ab bei der Wahl zum Technischen Komitee"
 msgid "Controversial : 1"
 msgstr "Kontrovers: 1"
 
+msgid "Copy Public Key"
+msgstr "Kopiere öffentliche Schlüssel"
+
 msgid "Core : 5"
 msgstr "Core : 5"
 
@@ -400,14 +382,6 @@ msgstr "Kernteam"
 
 msgid "Course Outline"
 msgstr "Kursinhalt"
-
-msgid ""
-"Create a virtual machine on your laptop with Ubuntu 14.04 installed and 4+ "
-"GB of RAM. Alternatively, you can use your virtual machine on a public cloud."
-msgstr ""
-"Erstellen Sie eine virtuelle Maschine auf Ihrem Laptop mit Ubuntu 14.04 und "
-"mindestens 4 GB RAM-Speicher. Alternativ kann man eine virtuelle Maschine in "
-"einer Public Cloud benutzen."
 
 msgid "Created by a large growing community"
 msgstr "Erstellt von einer schnell wachsenden Gemeinschaft"
@@ -494,14 +468,6 @@ msgstr "Arbeiten Sie für eine Firma?"
 
 msgid "DocImpact"
 msgstr "DocImpact"
-
-msgid ""
-"Document an action item in the minutes. Include any nicknames in the line, "
-"and the item will be assigned to them. (nicknames are case-sensitive)"
-msgstr ""
-"Dokumentiert einen Aktionspunkt im Protokoll. Zusammen mit einem Nickname in "
-"einer Zeile wird der Aktionspunkt zugewiesen (Gross-/Kleinschreibung wird "
-"bei Nicknamen unterschieden)"
 
 msgid "Draft inline comments"
 msgstr "Entwurf Inline-Kommentare"
@@ -718,7 +684,7 @@ msgid "Foundation, technical committee, and board members"
 msgstr "Stiftung, Technisches Komitee und Vorstandsmitglieder"
 
 msgid "Four sprints of 30 mins:"
-msgstr "Für Sprints von 30 Minuten:"
+msgstr "Vier Sprints von je 30 Minuten:"
 
 msgid "François Bureau (assistant, french, english)"
 msgstr "François Bureau (Assistent, französisch, englisch)"
@@ -734,6 +700,9 @@ msgstr ""
 
 msgid "GIT commit message structure"
 msgstr "GIT Commit-Nachricht-Sruktur"
+
+msgid "Generate SSH Keys"
+msgstr "Erzeuge SSH Schlüssel"
 
 msgid ""
 "Gerrit Documentation: `Gerrit Code Review - A Quick Introduction <https://"
@@ -751,13 +720,6 @@ msgstr ""
 
 msgid "Gerrit will automatically set the status"
 msgstr "Gerrit wird den Status automatisch setzen"
-
-msgid ""
-"Get in touch with the team upstream-training@openstack.org to pick a "
-"contribution to work on."
-msgstr ""
-"Kommen SIe in Kontakt mit upstream-training@openstack.org , um ein "
-"Arbeitspaket abzuholen."
 
 msgid "Get the code for the targeted contribution"
 msgstr "Hier der Code für den gezielten Beitrag"
@@ -815,12 +777,6 @@ msgstr "Wie Beitragen (`slides <14-gerrit.html>`__)"
 
 msgid "How to prepare"
 msgstr "Wie sich vorbereiten"
-
-msgid "IRC meetings"
-msgstr "IRC Meetings"
-
-msgid "IRC meetings list"
-msgstr "IRC Meetings Liste"
 
 msgid "IRC meetings: http://eavesdrop.openstack.org/"
 msgstr "IRC Meetings: http://eavesdrop.openstack.org/"
@@ -921,11 +877,11 @@ msgstr "Jenkins"
 msgid "Jieun Kim (assistant)"
 msgstr "Jieun Kim (Assistent)"
 
-msgid "Join irc.freenode.net#upstream-university"
-msgstr "Betrete irc.freenode.net#upstream-university"
-
 msgid "Julie Pichon (training, mentoring, assistant, english)"
 msgstr "Julie Pichon (Training, Mentoring, Assistent, englisch)"
+
+msgid "July 6 - 7, 2016 (Wed - Thu)"
+msgstr "6. - 7. Juli 2016 (Mi-Do)"
 
 msgid "July 9 - 10, 2015 (Thu - Fri)"
 msgstr "09.-10.07.2015 (Di-Fr)"
@@ -1018,8 +974,8 @@ msgid "Loïc Dachary (Training, mentoring, assistant, english and french)"
 msgstr ""
 "Loïc Dachary (Training, Mentoring, Assistent, Englisch und Französisch)"
 
-msgid "Lunch menu meeting"
-msgstr "Mittagsmenü-Meeting"
+msgid "Mac OS & Linux"
+msgstr "Mac OS & Linux"
 
 msgid "Make code contributions."
 msgstr "Erstellen von Code-Beiträgen"
@@ -1055,12 +1011,6 @@ msgstr "Karma maximieren."
 
 msgid "Medium"
 msgstr "Mittel"
-
-msgid "Meetbot"
-msgstr "Meetbot"
-
-msgid "Meeting agenda"
-msgstr "Meeting-Agenda"
 
 msgid "Meetings"
 msgstr "Meetings"
@@ -1107,7 +1057,7 @@ msgid "More than 20 million lines of code"
 msgstr "Mehr als 20 Millionen Zeilen Code"
 
 msgid "More than 20,000 patches"
-msgstr "Mehr als 20.000 Patche"
+msgstr "Mehr als 20.000 Patches"
 
 msgid "Most of the projects now manage blueprints on a git repo called specs"
 msgstr ""
@@ -2023,18 +1973,14 @@ msgid "`Each APC/ATC in the class should add a URL to the etherpad proving it`"
 msgstr "`Jeder APC/ATC in der Klasse sollte eine URL ins Etherpad beitragen`"
 
 msgid ""
-"`Etherpad for Austin Upstream Training <https://etherpad.openstack.org/p/"
-"upstream-training-austin>`_"
-msgstr ""
-"`Etherpad für Austin Upstream Training <https://etherpad.openstack.org/p/"
-"upstream-training-austin>`_"
-
-msgid ""
 "`Etherpad for Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
 "p/upstream-training-korea-2016>`_"
 msgstr ""
 "`Etherpad für Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
 "p/upstream-training-korea-2016>`_"
+
+msgid "`Gerrit <workflow-gerrit.html>`_"
+msgstr "`Gerrit <workflow-gerrit.html>`_"
 
 msgid ""
 "`Git Commit Good Practice <https://wiki.openstack.org/wiki/"
@@ -2085,12 +2031,18 @@ msgstr ""
 "`Implementierung (Milestone-Iterationen <https://wiki.openstack.org/wiki/"
 "Release_Cycle#Implementation_.28Milestone_iterations.29>`_"
 
+msgid "`Introduction <intro-introduction.html>`_"
+msgstr "`Einführung <intro-introduction.html>`_"
+
 msgid ""
 "`Jenkins (Automated testing) <http://docs.openstack.org/infra/manual/"
 "developers.html#automated-testing>`_ (`slides <18-jenkins.html>`__)"
 msgstr ""
 "`Jenkins (Automatisiertes Testen) <http://docs.openstack.org/infra/manual/"
 "developers.html#automated-testing>`_ (`slides <18-jenkins.html>`__)"
+
+msgid "`Jenkins <workflow-jenkins.html>`_"
+msgstr "`Jenkins <workflow-jenkins.html>`_"
 
 msgid ""
 "`Launchpad <https://help.launchpad.net/>`_ (`slides <13-launchpad.html>`__)"
@@ -2374,6 +2326,9 @@ msgstr ""
 "`Fehler untersuchen <https://wiki.openstack.org/wiki/"
 "Bugs#Debugging_.28optional.29>`_"
 
+msgid "`devstack.org <code-devstack.html>`_"
+msgstr "`devstack.org <code-devstack.html>`_"
+
 msgid "`meetbot <http://wiki.debian.org/MeetBot>`_"
 msgstr "`meetbot <http://wiki.debian.org/MeetBot>`_"
 
@@ -2536,6 +2491,18 @@ msgstr ""
 
 msgid "i18n"
 msgstr "i18n"
+
+msgid "id_dsa.pub"
+msgstr "id_dsa.pub"
+
+msgid "id_ecdsa.pub"
+msgstr "id_ecdsa.pub"
+
+msgid "id_ed25519.pub"
+msgstr "id_ed25519.pub"
+
+msgid "id_rsa.pub"
+msgstr "id_rsa.pub"
 
 msgid "invite reviewers"
 msgstr "Überprüfer einladen"

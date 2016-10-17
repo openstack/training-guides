@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-14 09:58+0000\n"
+"POT-Creation-Date: 2016-10-17 03:52+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,15 +15,6 @@ msgstr ""
 "Language: it\n"
 "X-Generator: Zanata 3.7.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-
-msgid "#action"
-msgstr "#action"
-
-msgid "#help"
-msgstr "#help"
-
-msgid "#info"
-msgstr "#info"
 
 msgid "**Private key** - Only known to you and it should be safely guarded."
 msgstr ""
@@ -128,27 +119,10 @@ msgstr "Collaboratore Tecnico Attivo (ATC)"
 msgid "Add A New Connection"
 msgstr "Aggiungi un nuovo collegamento"
 
-msgid ""
-"Add a \"Call for Help\" to the minutes. Use this command when you need to "
-"recruit someone to do a task. (Counter-intuitively, this doesn't provide "
-"help on the bot)"
-msgstr ""
-"Aggiungi un \"Chiedi aiuto\" ai minuti. Usa questo comando quando devi "
-"reclutare qualcuno per fare un compito. (Contro-intuitivamente, questo non "
-"fornisce aiuto sul bot)"
-
 msgid "Add a session proposal regarding your contribution in an etherpad"
 msgstr ""
 "Aggiungi una proposta di sessione riguardantee la tua contribuzione in un "
 "etherpad"
-
-msgid ""
-"Add an info item to the minutes. People should liberally use this for "
-"important things they say, so that they can be logged in the minutes."
-msgstr ""
-"Aggiungi una voce di info ai minuti. Le persone dovrebbero utilizzarla "
-"liberamente per le cose importanti che dicono, in modo che possano essere "
-"registrate in minuti."
 
 msgid "Adrien Cunin (mentoring, assistant, french, english)"
 msgstr "Adrien Cunin (tutoraggio, assistente, francese, inglese)"
@@ -451,14 +425,6 @@ msgstr "Revisore principale"
 msgid "Course Outline"
 msgstr "Schema del corso"
 
-msgid ""
-"Create a virtual machine on your laptop with Ubuntu 14.04 installed and 4+ "
-"GB of RAM. Alternatively, you can use your virtual machine on a public cloud."
-msgstr ""
-"Crea una macchina virtuale sul tuo portatile con Ubuntu 14.04 installato e "
-"4+ GB of RAM. In alternativa, puoi usare la tua macchina virtuale su un "
-"cloud pubblico."
-
 msgid "Created by a large growing community"
 msgstr "Creata da una vasta communità in crescita"
 
@@ -547,14 +513,6 @@ msgstr "Lavori in un'azienda?"
 
 msgid "DocImpact"
 msgstr "DocImpact"
-
-msgid ""
-"Document an action item in the minutes. Include any nicknames in the line, "
-"and the item will be assigned to them. (nicknames are case-sensitive)"
-msgstr ""
-"Documenta una voce di azione nei minuti. Includi qualsiasi nickname sulla "
-"riga, e la voce verrà assegnata a loro. (i nickname tengono conto del "
-"maiuscolo e minuscolo)"
 
 msgid "Done"
 msgstr "Completato"
@@ -843,13 +801,6 @@ msgstr ""
 msgid "Gerrit will automatically set the status"
 msgstr "Gerrit imposterà  lo stato automaticamente"
 
-msgid ""
-"Get in touch with the team upstream-training@openstack.org to pick a "
-"contribution to work on."
-msgstr ""
-"Mettiti in contatto con il gruppo upstream-training@openstack.org per "
-"prendere una collaborazione su cui lavorare."
-
 msgid "Get the code for the targeted contribution"
 msgstr "Ottieni il codice per la data contribuzione "
 
@@ -956,12 +907,6 @@ msgstr "Come contribuire (`diapositive <14-gerrit.html>`__)"
 
 msgid "How to prepare"
 msgstr "Come prepararsi"
-
-msgid "IRC meetings"
-msgstr "Incontri su IRC"
-
-msgid "IRC meetings list"
-msgstr "Elenco degli incontri su IRC"
 
 msgid "Ian Y. Choi (training, assistant, mentoring)"
 msgstr "Ian Y. Choi (formazione, assistente, tutoraggio)"
@@ -1199,9 +1144,6 @@ msgstr "Jenkins"
 msgid "Jieun Kim (assistant)"
 msgstr "Jieun Kim (assistente)"
 
-msgid "Join irc.freenode.net#upstream-university"
-msgstr "Join irc.freenode.net#upstream-university"
-
 msgid "Julie Pichon (training, mentoring, assistant, english)"
 msgstr "Julie Pichon (formazione, tutoraggio, assistente, inglese)"
 
@@ -1304,9 +1246,6 @@ msgstr "Basso"
 msgid "Loïc Dachary (Training, mentoring, assistant, english and french)"
 msgstr "Loïc Dachary (formazione, tutoraggio, assistente, inglese e francese)"
 
-msgid "Lunch menu meeting"
-msgstr "Riunione sul menù del pranzo"
-
 msgid "Mac OS"
 msgstr "Sistema Operativo Mac OS"
 
@@ -1357,12 +1296,6 @@ msgstr "Massimizza il karma"
 
 msgid "Medium"
 msgstr "Medio"
-
-msgid "Meetbot"
-msgstr "Meetbot"
-
-msgid "Meeting agenda"
-msgstr "Programma delle riunioni"
 
 msgid "Meetings"
 msgstr "Riunioni"
@@ -2381,13 +2314,6 @@ msgid "`Each APC/ATC in the class should add a URL to the etherpad proving it`"
 msgstr ""
 "`Ciascun APC/ATC nella classe dovrebbe aggiungere un URL all'etherpad "
 "provandolo`"
-
-msgid ""
-"`Etherpad for Austin Upstream Training <https://etherpad.openstack.org/p/"
-"upstream-training-austin>`_"
-msgstr ""
-"`Etherpad per l'Upstream Training ad Austin<https://etherpad.openstack.org/p/"
-"upstream-training-austin>`_"
 
 msgid ""
 "`Etherpad for Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
