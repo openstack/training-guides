@@ -131,6 +131,7 @@ Code Deep Dive
 --------------
 
 * `Demo environment <code-devstack.html>`_
+* `Code exercises <code-exercises.html>`_
 
 Archive of additional training activities
 -----------------------------------------
