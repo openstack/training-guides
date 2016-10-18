@@ -75,4 +75,6 @@ Jump on IRC
 
   - Ask questions during the class
   - Use it for exercises
-  - http://webchat.freenode.net/?channels=openstack,openstack-101
+  - Use your IRC client or Web IRC:
+
+    http://webchat.freenode.net/?channels=openstack-101
