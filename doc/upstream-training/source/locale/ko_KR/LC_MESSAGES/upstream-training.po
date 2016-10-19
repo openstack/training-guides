@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-17 03:52+0000\n"
+"POT-Creation-Date: 2016-10-18 22:47+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -163,9 +163,6 @@ msgstr ""
 msgid "Add A New Connection"
 msgstr "새 연결 추가"
 
-msgid "Add a session proposal regarding your contribution in an etherpad"
-msgstr "컨트리뷰션에 관한 세션 제안을 etherpad에 추가합니다"
-
 msgid "Add files"
 msgstr "파일을 추가합니다"
 
@@ -300,9 +297,6 @@ msgid ""
 msgstr ""
 "~/.ssh 디렉토리에서 키를 찾을 수 없다는 가정하에, 터미널 프로그램으로 이동한 "
 "후 주어진 이메일을 라벨로 사용하여 새로운 ssh 키를 생성할 수 있습니다::"
-
-msgid "At the Design Summit"
-msgstr "Design Summit에서"
 
 msgid "At the end of the four sprints, ensure you take a group photo!"
 msgstr "네 번째 sprint 마지막에, 단체 사진을 찍을 수 있도록 합니다!"
@@ -520,9 +514,6 @@ msgstr "Cindy Pallares (조교, 영어)"
 
 msgid "Claiming OpenStack requiring use of designated upstream code"
 msgstr "OpenStack을 주장하기 위해서는 지정된 업스트림 코드 사용이 필수입니다"
-
-msgid "Clear introductions"
-msgstr "명확히 소개합니다"
 
 msgid "Cleber Rosa (mentoring, assistant, portuguese)"
 msgstr "Cleber Rosa (멘토링, 조교, 포르투갈어)"
@@ -958,9 +949,6 @@ msgstr ""
 "고용주는 `Updated Schedule A Form <https://openstack.echosign.com/public/"
 "hostedForm?formid=56JUVP6K4Z6P4C>`_ 을 채우고 서명함으로써 권한이 있는 근로"
 "자 목록을 업데이트할 수 있습니다."
-
-msgid "End on time"
-msgstr "정시에 종료합니다"
 
 msgid "Engage immediately"
 msgstr "바로 참여"
@@ -1832,9 +1820,6 @@ msgstr "Junsik Shin (조교, 멘토링)"
 msgid "KATO Tomoyuki (assistant, Japanese)"
 msgstr "KATO Tomoyuki (조교, 일본어)"
 
-msgid "Keep the discussion lively and on-topic"
-msgstr "토론을 활발히 그리고 주제에 대한 토론으로 유지합니다"
-
 msgid "Lana Brindley (assistant, mentoring, English)"
 msgstr "Lana Brindley (조교, 멘토링, 영어)"
 
@@ -1901,9 +1886,6 @@ msgid ""
 "of a nickname:"
 msgstr ""
 "선택한 닉네임과 함께 **Nickname** 및 **User name** 필드를 먼저 채웁니다."
-
-msgid "Liberty"
-msgstr "Liberty"
 
 msgid "Life in and around OpenStack"
 msgstr "OpenStack 내부 및 주변에서 이루어지는 일"
@@ -2088,17 +2070,11 @@ msgid "Milestones are tagged in the repository using b1, b2 and b3"
 msgstr ""
 "마일스톤은 저장소 내에서 b1, b2, 그리고 b3를 사용해 태깅이 이루어집니다"
 
-msgid "Mind the noise"
-msgstr "소음을 꺼립니다"
-
 msgid "Mission"
 msgstr "임무"
 
 msgid "Mission (https://wiki.openstack.org/wiki/Main_Page)"
 msgstr "임무 (https://wiki.openstack.org/wiki/Main_Page)"
-
-msgid "Mitaka"
-msgstr "Mitaka"
 
 msgid "Module - more views"
 msgstr "모듈 - 더 많은 뷰"
@@ -2179,9 +2155,6 @@ msgstr "새로운 기능"
 
 msgid "New release-critical bugs"
 msgstr "새로운 릴리즈에 치명적인 버그"
-
-msgid "Newton"
-msgstr "Newton"
 
 msgid "No agreement"
 msgstr "약관 동의를 하지 않음"
@@ -2428,9 +2401,6 @@ msgstr "PTL: 1"
 msgid "PTLs"
 msgstr "PTL"
 
-msgid "PTLs vote for sessions in project tracks"
-msgstr "PTL은 프로젝트 트랙 내 세션을 투표합니다"
-
 msgid "Packaging"
 msgstr "패키징"
 
@@ -2520,9 +2490,6 @@ msgstr ""
 "소, 버그 트래커 등) 및 조정된 *프로세스* 에 따라 명확히 서술된 *목표* 를 달성"
 "하기 위해 다수의 *산출물* 을 생성하는 팀입니다."
 
-msgid "Project pods"
-msgstr "프로젝트 팟"
-
 msgid ""
 "Project team helps you to identify the target milestone and register it in "
 "the tracking tool"
@@ -2541,9 +2508,6 @@ msgstr ""
 
 msgid "Projects under a \"Big Tent\""
 msgstr "\"Big Tent\" 내 프로젝트"
-
-msgid "Proposing a session"
-msgstr "세션 제안"
 
 msgid ""
 "Provide guidance for the development teams where user feedback is requested"
@@ -2763,21 +2727,11 @@ msgstr "두 번째 날"
 msgid "SecurityImpact"
 msgstr "SecurityImpact"
 
-msgid "Selection of sessions"
-msgstr "세션 선택"
-
 msgid "Self-contained"
 msgstr "Self-contained"
 
 msgid "Seoul, Korea"
 msgstr "한국, 서울"
-
-msgid ""
-"Sessions are proposed on an open document (generally an Etherpad) and "
-"discussed at team meetings."
-msgstr ""
-"세션은 개방된 문서 (일반적으로 Etherpad)에 제안되어 있고 팀 회의에서 토론이 "
-"이루어집니다"
 
 msgid "Set by each project team"
 msgstr "각 프로젝트 팀에 의해 설정됩니다"
@@ -2890,9 +2844,6 @@ msgstr ""
 msgid "Staff"
 msgstr "스태프"
 
-msgid "Start on time"
-msgstr "정시에 시작합니다"
-
 msgid ""
 "Start the timer for building time, and allow everyone to start work. During "
 "each building phase, have mentors wander around the groups listening in and "
@@ -2977,12 +2928,6 @@ msgstr "준비가 된 이후 결정 예정"
 
 msgid "TC seats are elected by ATC"
 msgstr "TC 자리는 ATC에 의해 선발됩니다"
-
-msgid "TC votes for sessions in cross-project and other-projects tracks"
-msgstr "TC는 서로 연관된 프로젝트 및 다른 프로젝트 트랙 내 세션을 투표합니다"
-
-msgid "Tables informally available for new/small teams"
-msgstr "새로운/작은 팀을 위해 사용 가능한 비공식 테이블"
 
 msgid "Tags can be proposed by anyone"
 msgstr "태그는 모든 사람에 의해 제안이 이루어질 수 있습니다"
@@ -3957,9 +3902,6 @@ msgstr ""
 msgid "`Official OpenStack projects <howitsmade-official-projects.html>`_"
 msgstr "`공식 OpenStack 프로젝트 <howitsmade-official-projects.html>`_"
 
-msgid "`OpenStack Design Summit <howitsmade-design-summit.html>`_"
-msgstr "`OpenStack Design Summit <howitsmade-design-summit.html>`_"
-
 msgid "`OpenStack Governance <howitsmade-technical-committee.html>`_"
 msgstr "`OpenStack 관리 방식 <howitsmade-technical-committee.html>`_"
 
@@ -4411,12 +4353,6 @@ msgstr "http://webchat.freenode.net/?channels=openstack,openstack-101"
 msgid "https://etherpad.openstack.org/p/upstream-training-vancouver"
 msgstr "https://etherpad.openstack.org/p/upstream-training-vancouver"
 
-msgid "https://libertydesignsummit.sched.org/overview/type/design+summit"
-msgstr "https://libertydesignsummit.sched.org/overview/type/design+summit"
-
-msgid "https://mitakadesignsummit.sched.org/#2015-10-30"
-msgstr "https://mitakadesignsummit.sched.org/#2015-10-30"
-
 msgid "https://review.openstack.org/#/settings/ssh-keys"
 msgstr "https://review.openstack.org/#/settings/ssh-keys"
 
@@ -4429,9 +4365,6 @@ msgstr "https://wiki.openstack.org/wiki/Blueprints#Nova"
 msgid "https://wiki.openstack.org/wiki/BugTags"
 msgstr "https://wiki.openstack.org/wiki/BugTags"
 
-msgid "https://wiki.openstack.org/wiki/Design_Summit/Planning"
-msgstr "https://wiki.openstack.org/wiki/Design_Summit/Planning"
-
 msgid "https://wiki.openstack.org/wiki/GitCommitMessages"
 msgstr "https://wiki.openstack.org/wiki/GitCommitMessages"
 
@@ -4441,9 +4374,6 @@ msgstr "https://wiki.openstack.org/wiki/IRC"
 msgid "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
 msgstr "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
 
-msgid "https://wiki.openstack.org/wiki/Summit/Liberty"
-msgstr "https://wiki.openstack.org/wiki/Summit/Liberty"
-
 msgid "https://www.openstack.org/foundation/tech-committee/"
 msgstr "https://www.openstack.org/foundation/tech-committee/"
 
@@ -4452,11 +4382,6 @@ msgstr "https://www.openstack.org/foundation/user-committee/"
 
 msgid "https://www.openstack.org/join/"
 msgstr "https://www.openstack.org/join/"
-
-msgid ""
-"https://www.openstack.org/summit/austin-2016/summit-schedule/#day=2016-04-29"
-msgstr ""
-"https://www.openstack.org/summit/austin-2016/summit-schedule/#day=2016-04-29"
 
 msgid "i18n"
 msgstr "i18n"

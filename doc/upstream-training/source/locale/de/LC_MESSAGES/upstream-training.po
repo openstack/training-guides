@@ -1,16 +1,17 @@
 # Frank Kloeker <eumel@arcor.de>, 2015. #zanata
 # Andreas Jaeger <jaegerandi@gmail.com>, 2016. #zanata
 # Frank Kloeker <eumel@arcor.de>, 2016. #zanata
+# Robert Simai <robert.simai@suse.com>, 2016. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-17 03:52+0000\n"
+"POT-Creation-Date: 2016-10-18 22:47+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-10-16 08:53+0000\n"
-"Last-Translator: Andreas Jaeger <jaegerandi@gmail.com>\n"
+"PO-Revision-Date: 2016-10-18 12:05+0000\n"
+"Last-Translator: Robert Simai <robert.simai@suse.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
 "X-Generator: Zanata 3.7.3\n"
@@ -92,11 +93,6 @@ msgstr "Aktiver Projektbeiträger (APC)"
 msgid "Active Technical Contributor (ATC)"
 msgstr "Aktiver Technischer Beiträger (ATC)"
 
-msgid "Add a session proposal regarding your contribution in an etherpad"
-msgstr ""
-"Fügen Sie einen Sitzungsvorschlag entsprechend Ihres Beitrages in ein "
-"Etherpad"
-
 msgid "Adrien Cunin (mentoring, assistant, french, english)"
 msgstr "Adrien Cunin (Mentoring, Assistent, französisch, englisch)"
 
@@ -162,9 +158,6 @@ msgstr "Zugewiesen zu"
 
 msgid "Assignee: the developer working on the fix"
 msgstr "Zugewiesener: der Entwickler, der an der Behebung arbeitet"
-
-msgid "At the Design Summit"
-msgstr "Auf dem Design Summit"
 
 msgid "Bad: new feature and refactor"
 msgstr "Schlecht: neue Funktion und Refactoring"
@@ -305,9 +298,6 @@ msgid "Claiming OpenStack requiring use of designated upstream code"
 msgstr ""
 "Die Behauptung, Openstack erfordert die Verwendung bezeichneten Upstream-"
 "Codes"
-
-msgid "Clear introductions"
-msgstr "Klare Anweisungen"
 
 msgid "Cleber Rosa (mentoring, assistant, portuguese)"
 msgstr "Cleber Rosa (Mentoring, Assistent, Portugiesisch)"
@@ -519,9 +509,6 @@ msgstr "Edouard THULEAU (Assistant, französisch, englisch)"
 msgid "Edouard Thuleau (assistant, french, english)"
 msgstr "Edouard Thuleau (Assistent, französisch, englisch)"
 
-msgid "End on time"
-msgstr "Ende rechtzeitig"
-
 msgid "Engage immediately"
 msgstr "Sofort engagieren"
 
@@ -536,6 +523,12 @@ msgstr "Etherpads"
 
 msgid "Exercise"
 msgstr "Übung"
+
+msgid "Exercise 1"
+msgstr "Übung 1"
+
+msgid "Exercise 2"
+msgstr "Übung 2"
 
 msgid ""
 "Exercise: Add a session proposal regarding your contribution in an etherpad, "
@@ -778,6 +771,18 @@ msgstr "Wie Beitragen (`slides <14-gerrit.html>`__)"
 msgid "How to prepare"
 msgstr "Wie sich vorbereiten"
 
+msgid "IRC Channels"
+msgstr "IRC-Kanäle"
+
+msgid "IRC Logs"
+msgstr "IRC Logs"
+
+msgid "IRC Meetings"
+msgstr "IRC Meetings"
+
+msgid "IRC Meetings List"
+msgstr "IRC Meetinglisten"
+
 msgid "IRC meetings: http://eavesdrop.openstack.org/"
 msgstr "IRC Meetings: http://eavesdrop.openstack.org/"
 
@@ -895,9 +900,6 @@ msgstr "Junsik Shin (Assistent, Mentoring)"
 msgid "KATO Tomoyuki (assistant, Japanese)"
 msgstr "KATO Tomoyuki (Assistent, Japanisch)"
 
-msgid "Keep the discussion lively and on-topic"
-msgstr "Führe die Diskussion lebendig und am Thema"
-
 msgid "Lana Brindley (assistant, mentoring, English)"
 msgstr "Lana Brindley (Assistent, Mentoring, Englisch)"
 
@@ -934,9 +936,6 @@ msgstr ""
 
 msgid "Let's play!"
 msgstr "Lass uns spielen!"
-
-msgid "Liberty"
-msgstr "Liberty"
 
 msgid "Like OpenStack, there are:"
 msgstr "In OpenStack sind da:"
@@ -976,6 +975,9 @@ msgstr ""
 
 msgid "Mac OS & Linux"
 msgstr "Mac OS & Linux"
+
+msgid "Mailing Lists"
+msgstr "Mailinglisten"
 
 msgid "Make code contributions."
 msgstr "Erstellen von Code-Beiträgen"
@@ -1023,12 +1025,6 @@ msgstr "Meilenstein"
 
 msgid "Milestone: Milestone the bug was fixed in"
 msgstr "Meilensein: der Meilenstein in dem der Fehler behoben ist"
-
-msgid "Mind the noise"
-msgstr "Vermeide Lärm"
-
-msgid "Mitaka"
-msgstr "Mitaka"
 
 msgid "Module contributors"
 msgstr "Module Beiträger"
@@ -1083,9 +1079,6 @@ msgstr "Neue Funktionen"
 
 msgid "New release-critical bugs"
 msgstr "Neue versionskritische Fehler"
-
-msgid "Newton"
-msgstr "Newton"
 
 msgid "No agreement"
 msgstr "Keine Vereinbarung"
@@ -1242,9 +1235,6 @@ msgstr "PTL : 1"
 msgid "PTLs"
 msgstr "PTLs"
 
-msgid "PTLs vote for sessions in project tracks"
-msgstr "PTLs  stimmen ab für SItzungen in Projektbahnen"
-
 msgid "People sitting in the inner circle lead the discussion"
 msgstr "Personen im inneren Kreis leiten die Diskussion"
 
@@ -1271,12 +1261,6 @@ msgstr "Product Owner"
 
 msgid "Project Team Leads (PTLs)"
 msgstr "Projektgruppenmitglied (PTLs)"
-
-msgid "Project pods"
-msgstr "Projekt Pods"
-
-msgid "Proposing a session"
-msgstr "Eine Sitzung vorschlagen"
 
 msgid ""
 "Provides transparent and meaningful statistics regarding contributions to "
@@ -1386,21 +1370,11 @@ msgstr "Zweiter Tag"
 msgid "SecurityImpact"
 msgstr "SecurityImpact"
 
-msgid "Selection of sessions"
-msgstr "Auswahl von Sitzungen"
-
 msgid "Self-contained"
 msgstr "In sich geschlossen"
 
 msgid "Seoul, Korea"
 msgstr "Seoul, Korea"
-
-msgid ""
-"Sessions are proposed on an open document (generally an Etherpad) and "
-"discussed at team meetings."
-msgstr ""
-"Sitzungen werden in einem offenen Dokument vorgeschlagen (üblicherweise "
-"Etherpad) und in einem Team-Meeting diskutiert."
 
 msgid "Setup Gerrit Account"
 msgstr "Gerrit Konto einrichten"
@@ -1460,9 +1434,6 @@ msgstr "Stackalytics Wiki: https://wiki.openstack.org/wiki/Stackalytics"
 msgid "Staff"
 msgstr "Lehrpersonal"
 
-msgid "Start on time"
-msgstr "Beginne rechtzeitig"
-
 msgid "Status: Fix Committed"
 msgstr "Status: behoben committed"
 
@@ -1507,14 +1478,6 @@ msgstr "Systemadministratoren"
 
 msgid "TC seats are elected by ATC"
 msgstr "TC Sitze werden gewählt durch die ATC"
-
-msgid "TC votes for sessions in cross-project and other-projects tracks"
-msgstr ""
-"TC stimmen ab für Sitzungen in übergreifenden Projekten und andere Projekte-"
-"Bahnen"
-
-msgid "Tables informally available for new/small teams"
-msgstr "Tische zwanglos zusammengestellt für neue/kleine Teams"
 
 msgid "Tags describing OpenStack Projects"
 msgstr "Schlagworte beschreiben OpenStack Projekte"
@@ -1824,6 +1787,9 @@ msgid ""
 msgstr ""
 "Wo Entwickler sich Angesicht zu Angesicht treffen, um die Planung zum "
 "nächsten Versionszyklus abzuschliessen."
+
+msgid "Wiki Pages"
+msgstr "Wiki-Seiten"
 
 msgid "Wishlist"
 msgstr "Wunschliste"
@@ -2430,6 +2396,9 @@ msgstr "git review -s"
 msgid "http://docs.openstack.org/infra/manual/developers.html#account-setup"
 msgstr "http://docs.openstack.org/infra/manual/developers.html#account-setup"
 
+msgid "http://eavesdrop.openstack.org/"
+msgstr "http://eavesdrop.openstack.org/"
+
 msgid "http://governance.openstack.org/reference/tags/index.html"
 msgstr "http://governance.openstack.org/reference/tags/index.html"
 
@@ -2448,12 +2417,6 @@ msgstr "http://stackalytics.com"
 msgid "https://etherpad.openstack.org/p/upstream-training-vancouver"
 msgstr "https://etherpad.openstack.org/p/upstream-training-vancouver"
 
-msgid "https://libertydesignsummit.sched.org/overview/type/design+summit"
-msgstr "https://libertydesignsummit.sched.org/overview/type/design+summit"
-
-msgid "https://mitakadesignsummit.sched.org/#2015-10-30"
-msgstr "https://mitakadesignsummit.sched.org/#2015-10-30"
-
 msgid "https://review.openstack.org/#/settings/ssh-keys"
 msgstr "https://review.openstack.org/#/settings/ssh-keys"
 
@@ -2466,28 +2429,17 @@ msgstr "https://wiki.openstack.org/wiki/Blueprints#Nova"
 msgid "https://wiki.openstack.org/wiki/BugTags"
 msgstr "https://wiki.openstack.org/wiki/BugTags"
 
-msgid "https://wiki.openstack.org/wiki/Design_Summit/Planning"
-msgstr "https://wiki.openstack.org/wiki/Design_Summit/Planning"
-
 msgid "https://wiki.openstack.org/wiki/GitCommitMessages"
 msgstr "https://wiki.openstack.org/wiki/GitCommitMessages"
 
 msgid "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
 msgstr "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
 
-msgid "https://wiki.openstack.org/wiki/Summit/Liberty"
-msgstr "https://wiki.openstack.org/wiki/Summit/Liberty"
-
 msgid "https://www.openstack.org/foundation/tech-committee/"
 msgstr "https://www.openstack.org/foundation/tech-committee/"
 
 msgid "https://www.openstack.org/join/"
 msgstr "https://www.openstack.org/join/"
-
-msgid ""
-"https://www.openstack.org/summit/austin-2016/summit-schedule/#day=2016-04-29"
-msgstr ""
-"https://www.openstack.org/summit/austin-2016/summit-schedule/#day=2016-04-29"
 
 msgid "i18n"
 msgstr "i18n"
