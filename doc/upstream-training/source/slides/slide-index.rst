@@ -23,13 +23,10 @@ How OpenStack is Made
    :maxdepth: 1
 
    howitsmade-official-projects.rst
-   howitsmade-events.rst
-   howitsmade-metrics.rst
-   howitsmade-events.rst
-   howitsmade-release-cycle.rst
    howitsmade-governance.rst
+   howitsmade-release-cycle.rst
    howitsmade-communication.rst
-   branching-model.rst
+   howitsmade-events.rst
 
 Workflow and Tools for Participation
 ====================================
@@ -44,6 +41,7 @@ Workflow and Tools for Participation
    workflow-reviewing.rst
    workflow-commit-message.rst
    workflow-jenkins.rst
+   workflow-metrics.rst
    workflow-setup-and-first-patch.rst
    workflow-using-sandbox.rst
 
@@ -54,6 +52,7 @@ Code Deep Dive
    :maxdepth: 1
 
    code-devstack.rst
+   branching-model.rst
 
 Archive
 =======

@@ -22,16 +22,58 @@ About the training
   - How to deploy OpenStack
   - How to prepare for different exams
 
-Agenda
-======
+Agenda - Day 1
+==============
 
-- Day 1
+- Introduction
 
-  - TBD, when the blocks are ready
+  - Introducing OpenStack as a Software
+  - Introducing OpenStack as a Community
 
-- Day 2
+- How OpenStack is made
 
-  - TBD when the blocks are ready
+  - Official OpenStack projects
+  - OpenStack Governance
+  - Release cycle
+  - Communication
+  - Events
+
+- Development environment setup
+
+Agenda - Day 2, morning
+=======================
+
+- Workflow of an OpenStack contribution and tools
+
+  - Overview of the contribution process
+  - Registration and accounts
+  - Tracking
+  - Gerrit
+  - Reviewing
+  - Commit Messages
+  - Jenkins
+  - Metrics
+  - UC/WG intro
+
+Agenda - Day 2, afternoon
+=========================
+
+- Workflow of an OpenStack contribution and tools
+
+  - Guide to SetUp and Push First Patch
+  - Using Sandbox for Practice
+
+- Parallel modules
+
+  - Code deep dive
+
+    - Devstack
+    - Exercises
+
+  - Docco deep dive
+  - WG deep dive
+
+- Closing exercise
 
 Introductions
 =============

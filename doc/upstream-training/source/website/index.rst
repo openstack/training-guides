@@ -106,11 +106,10 @@ How OpenStack is Made
 ---------------------
 
 * `Official OpenStack projects <howitsmade-official-projects.html>`_
-* `OpenStack Events <howitsmade-events.html>`_
-* `Metrics <howitsmade-metrics.html>`_
-* `Release cycle <howitsmade-release-cycle.html>`_
 * `OpenStack Governance <howitsmade-governance.html>`_
+* `Release cycle <howitsmade-release-cycle.html>`_
 * `Communication <howitsmade-communication.html>`_
+* `OpenStack Events <howitsmade-events.html>`_
 
 Workflow and Tools for Participation
 ------------------------------------
@@ -123,6 +122,7 @@ Workflow and Tools for Participation
 * `Reviewing <workflow-reviewing.html>`_
 * `Commit Messages <workflow-commit-message.html>`_
 * `Jenkins <workflow-jenkins.html>`_
+* `Metrics <workflow-metrics.html>`_
 * `Guide to SetUp and Push First Patch
   <workflow-setup-and-first-patch.html>`_
 * `Using Sandbox for Practice <workflow-using-sandbox.html>`_
