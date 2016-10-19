@@ -27,7 +27,7 @@ How OpenStack is Made
    howitsmade-metrics.rst
    howitsmade-events.rst
    howitsmade-release-cycle.rst
-   howitsmade-technical-committee.rst
+   howitsmade-governance.rst
    howitsmade-communication.rst
    branching-model.rst
 

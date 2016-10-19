@@ -109,7 +109,7 @@ How OpenStack is Made
 * `OpenStack Events <howitsmade-events.html>`_
 * `Metrics <howitsmade-metrics.html>`_
 * `Release cycle <howitsmade-release-cycle.html>`_
-* `OpenStack Governance <howitsmade-technical-committee.html>`_
+* `OpenStack Governance <howitsmade-governance.html>`_
 * `Communication <howitsmade-communication.html>`_
 
 Workflow and Tools for Participation
