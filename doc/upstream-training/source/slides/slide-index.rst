@@ -38,7 +38,7 @@ Workflow and Tools for Participation
    :maxdepth: 1
 
    workflow-training-contribution-process.rst
-   workflow-howtocontribute.rst
+   workflow-reg-and-accounts.rst
    workflow-launchpad.rst
    workflow-gerrit.rst
    workflow-reviewing.rst

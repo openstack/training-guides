@@ -117,7 +117,7 @@ Workflow and Tools for Participation
 
 * `Overview of the contribution process
   <workflow-training-contribution-process.html>`_
-* `How to Contribute <workflow-howtocontribute.html>`_
+* `Registration and accounts <workflow-reg-and-accounts.html>`_
 * `Tracking <workflow-launchpad.html>`_
 * `Gerrit <workflow-gerrit.html>`_
 * `Reviewing <workflow-reviewing.html>`_
@@ -130,7 +130,7 @@ Workflow and Tools for Participation
 Code Deep Dive
 --------------
 
-* `devstack.org <code-devstack.html>`_
+* `Demo environment <code-devstack.html>`_
 
 Archive of additional training activities
 -----------------------------------------

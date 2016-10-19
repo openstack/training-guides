@@ -1,6 +1,6 @@
-============
-devstack.org
-============
+================
+Demo environment
+================
 
 .. image:: ./_assets/os_background.png
    :class: fill

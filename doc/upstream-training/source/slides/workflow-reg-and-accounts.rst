@@ -1,6 +1,6 @@
-=================
-How to contribute
-=================
+=========================
+Registration and Accounts
+=========================
 
 .. image:: ./_assets/os_background.png
    :class: fill
