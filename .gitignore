@@ -24,11 +24,3 @@ boxes/*
 .*.swp
 .bak
 /.project
-
-# Labs artifacts
-labs/autostart
-labs/img
-labs/log
-labs/wbatch
-labs/lib/vagrant-ssh-keys
-labs/test_tmp/
