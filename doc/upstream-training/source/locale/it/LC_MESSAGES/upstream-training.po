@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-17 03:52+0000\n"
+"POT-Creation-Date: 2016-10-18 22:47+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -119,11 +119,6 @@ msgstr "Collaboratore Tecnico Attivo (ATC)"
 msgid "Add A New Connection"
 msgstr "Aggiungi un nuovo collegamento"
 
-msgid "Add a session proposal regarding your contribution in an etherpad"
-msgstr ""
-"Aggiungi una proposta di sessione riguardantee la tua contribuzione in un "
-"etherpad"
-
 msgid "Adrien Cunin (mentoring, assistant, french, english)"
 msgstr "Adrien Cunin (tutoraggio, assistente, francese, inglese)"
 
@@ -180,9 +175,6 @@ msgstr "Assegnato a"
 
 msgid "Assignee: the developer working on the fix"
 msgstr "Assegnatario: lo sviluppatore che lavora su una correzione"
-
-msgid "At the Design Summit"
-msgstr "Alla Design Summit"
 
 msgid "Auto-Login On Connecting To Freenode"
 msgstr "Fai l'accesso automatico collegandoti a Freenode"
@@ -299,9 +291,6 @@ msgstr "Cindy Pallares (assistente, inglese)"
 #, fuzzy
 msgid "Claiming OpenStack requiring use of designated upstream code"
 msgstr "Claiming OpenStack richiede l'uso di codice upstream designato"
-
-msgid "Clear introductions"
-msgstr "Introduzioni chiare"
 
 msgid "Cleber Rosa (mentoring, assistant, portuguese)"
 msgstr "Cleber Rosa (tutoraggio, assistente, portoghese)"
@@ -556,9 +545,6 @@ msgstr ""
 "I datori di lavoro possono aggiornare la lista dei lavoratori autorizzati "
 "compilando e firmando un `Updated Schedule A Form <https://openstack."
 "echosign.com/public/hostedForm?formid=56JUVP6K4Z6P4C>`_"
-
-msgid "End on time"
-msgstr "Fine del tempo"
 
 msgid "Engage immediately"
 msgstr "Impegnati subito"
@@ -1159,9 +1145,6 @@ msgstr "Junsik Shin (assistente, tutoraggio)"
 msgid "KATO Tomoyuki (assistant, Japanese)"
 msgstr "KATO Tomoyuki (assistente, giapponese)"
 
-msgid "Keep the discussion lively and on-topic"
-msgstr "Mantieni la discussione attiva ed in tema"
-
 msgid "Lana Brindley (assistant, mentoring, English)"
 msgstr "Lana Brindley (assistente, tutoraggio, inglese)"
 
@@ -1305,9 +1288,6 @@ msgstr "Milestone"
 
 msgid "Milestone: Milestone the bug was fixed in"
 msgstr "Milestone: Milestone nel quale il bug è stato corretto"
-
-msgid "Mind the noise"
-msgstr "Fare attenzione al rumore"
 
 #, fuzzy
 msgid "Module contributors"
@@ -1495,9 +1475,6 @@ msgstr ""
 msgid "PTL : 1"
 msgstr "PTL :1"
 
-msgid "PTLs vote for sessions in project tracks"
-msgstr "Voto PTL per sessioni in tracce di progetto"
-
 msgid ""
 "Paste the public key into the **Add SSH Public Key** text box and click Add."
 msgstr ""
@@ -1527,12 +1504,6 @@ msgstr "Dai la priorità ai bug/ conferma di bug"
 
 msgid "Project Team Leads (PTLs)"
 msgstr "leader del team di progetto(PTLs)"
-
-msgid "Project pods"
-msgstr "I bacelli del progetto"
-
-msgid "Proposing a session"
-msgstr "Proporre una sessione"
 
 msgid ""
 "Provide guidance for the development teams where user feedback is requested"
@@ -1656,21 +1627,11 @@ msgstr "Secondo giorno"
 msgid "SecurityImpact"
 msgstr "SecurityImpact"
 
-msgid "Selection of sessions"
-msgstr "Selezione delle sessioni"
-
 msgid "Self-contained"
 msgstr "Autosufficiente"
 
 msgid "Seoul, Korea"
 msgstr "Seoul, Korea"
-
-msgid ""
-"Sessions are proposed on an open document (generally an Etherpad) and "
-"discussed at team meetings."
-msgstr ""
-"Le sessioni vengono proposte su un documento aperto (di solito un Etherpad) "
-"e vengono discusse alle riunioni di gruppo."
 
 msgid "Setup Gerrit Account"
 msgstr "Configura l'account di Gerrit"
@@ -1733,9 +1694,6 @@ msgstr "rami stabili "
 msgid "Staff"
 msgstr "Staff"
 
-msgid "Start on time"
-msgstr "Iniziare in tempo"
-
 msgid "Status: Fix Committed"
 msgstr "Stato: Correzione fatta"
 
@@ -1785,14 +1743,6 @@ msgstr "Amministratori di sistema"
 
 msgid "TC seats are elected by ATC"
 msgstr "I posti di TC vengono eletti da ATC"
-
-#, fuzzy
-msgid "TC votes for sessions in cross-project and other-projects tracks"
-msgstr "Voti TC per sessioni in tracce di cross-project e other-project"
-
-#, fuzzy
-msgid "Tables informally available for new/small teams"
-msgstr "Tavoli disponibili informalmente per i gruppi nuovi/piccoli"
 
 msgid "Tags describing OpenStack Projects"
 msgstr "I tag che descrivono i progetti di OpenStack"
@@ -2789,17 +2739,11 @@ msgstr "https://wiki.openstack.org/wiki/Blueprints#Nova"
 msgid "https://wiki.openstack.org/wiki/BugTags"
 msgstr "https://wiki.openstack.org/wiki/BugTags"
 
-msgid "https://wiki.openstack.org/wiki/Design_Summit/Planning"
-msgstr "https://wiki.openstack.org/wiki/Design_Summit/Planning"
-
 msgid "https://wiki.openstack.org/wiki/GitCommitMessages"
 msgstr "https://wiki.openstack.org/wiki/GitCommitMessages"
 
 msgid "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
 msgstr "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
-
-msgid "https://wiki.openstack.org/wiki/Summit/Liberty"
-msgstr "https://wiki.openstack.org/wiki/Summit/Liberty"
 
 msgid "https://www.openstack.org/foundation/tech-committee/"
 msgstr "https://www.openstack.org/foundation/tech-committee/"
