@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-18 22:47+0000\n"
+"POT-Creation-Date: 2016-10-19 14:56+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -226,14 +226,6 @@ msgstr "Lo stato del bug"
 msgid "Bug tags"
 msgstr "Tag dei bug"
 
-#, fuzzy
-msgid ""
-"Bug triagers, technical documentation writers, etc can exceptionally apply "
-"for ATC"
-msgstr ""
-"Chi conferma i bug, gli scrittori di documentazione tecnica, ecc possono "
-"applicare eccezionalmente per essere ATC"
-
 msgid ""
 "Bugs that are easy to fix, ideal for beginners to get familiar with the "
 "workflow and to have their first contact with the code in OpenStack "
@@ -245,9 +237,6 @@ msgstr ""
 
 msgid "CEO : 1"
 msgstr "CEO :1"
-
-msgid "Candidacy for the corresponding program PTL election"
-msgstr "Candidatura per l'elezione del programma di PTL corrispondente"
 
 msgid "Change-id"
 msgstr "Change-id"
@@ -377,13 +366,6 @@ msgstr ""
 "hai un nick name registrato su Freenode! D'ora in avanti quando ti colleghi "
 "a Freenode con Hexchat sarai identificato con il tuo nickname."
 
-msgid ""
-"Consolidate user requirements and present these to the management board and "
-"technical committee"
-msgstr ""
-"Consolidare le esigenze degli utenti e presentare queste al consiglio di "
-"amministrazione e comitato tecnico"
-
 msgid "Contribution Planning (2 hours)"
 msgstr "Piano di contribuzione (2 ore)"
 
@@ -416,10 +398,6 @@ msgstr "Schema del corso"
 
 msgid "Created by a large growing community"
 msgstr "Creata da una vasta communità in crescita"
-
-#, fuzzy
-msgid "Creates other committees for day-to-day leadership"
-msgstr "Crea altri comitati per la direzione di giorno per giorno"
 
 msgid "Critical"
 msgstr "Critico"
@@ -860,9 +838,6 @@ msgstr ""
 msgid "Good: new API + new feature"
 msgstr "Corretto: nuova API + nuova funzionalità"
 
-msgid "Governance/TechnicalCommittee#Meeting"
-msgstr "Governance/TechnicalCommittee#Meeting"
-
 msgid "Haikel Guemar (assistant, mentor, french, english)"
 msgstr "Haikel Guemar (assistente, mentore, francese, inglese)"
 
@@ -884,9 +859,6 @@ msgstr "Come è fatto OpenStack (3 ore includendo 1h30 di esercizi)"
 
 msgid "How does it work?"
 msgstr "Come funziona?"
-
-msgid "How to contribute"
-msgstr "Come contribuire"
 
 msgid "How to contribute (`slides <14-gerrit.html>`__)"
 msgstr "Come contribuire (`diapositive <14-gerrit.html>`__)"
@@ -1173,9 +1145,6 @@ msgstr "Impara cosa è locale e cosa è upstream"
 msgid "Learning Git"
 msgstr "Imparando GIt"
 
-msgid "Led by a board of directors"
-msgstr "Condotto da un consiglio di amministratori"
-
 msgid "Lego applied to Free Software contributions"
 msgstr "Lego applicato a contribuzioni di Software Libero "
 
@@ -1280,9 +1249,6 @@ msgstr "Massimizza il karma"
 msgid "Medium"
 msgstr "Medio"
 
-msgid "Meetings"
-msgstr "Riunioni"
-
 msgid "Milestone"
 msgstr "Milestone"
 
@@ -1326,9 +1292,6 @@ msgstr ""
 
 msgid "Most recent (\"Mitaka\") release stats:"
 msgstr "Statistiche del rilascio più recente (\"MItaka\"):"
-
-msgid "Motions"
-msgstr "Movimenti"
 
 msgid "Namgon Lucas Kim (assistant, mentoring)"
 msgstr "Namgon Lucas Kim (assistente, tutoraggio)"
@@ -1505,12 +1468,6 @@ msgstr "Dai la priorità ai bug/ conferma di bug"
 msgid "Project Team Leads (PTLs)"
 msgstr "leader del team di progetto(PTLs)"
 
-msgid ""
-"Provide guidance for the development teams where user feedback is requested"
-msgstr ""
-"Fornire orientamento ai team di sviluppatori dove viene richiesto il "
-"feedback di utente"
-
 msgid "Published collectively as the OpenStack release"
 msgstr "Pubblicato collettivamente come il rilascio di OpenStack"
 
@@ -1618,9 +1575,6 @@ msgstr "Le chiavi SSH sono sempre generate a coppie:"
 msgid "Sahid Ferdjaoui (assistant, french, english)"
 msgstr "Sahid Ferdjaoui (assistente, francese, inglese)"
 
-msgid "Same as APC"
-msgstr "Così come APC"
-
 msgid "Second day"
 msgstr "Secondo giorno"
 
@@ -1718,9 +1672,6 @@ msgstr "Le stringhe si fermano"
 msgid "Submit presentations to OpenStack conferences."
 msgstr "Inviare presentazioni alle conferenze di OpenStack."
 
-msgid "Subset of the Foundation Individual Member"
-msgstr "Sottoinsieme del singolo membro della fondazione"
-
 msgid "Successfully contribute one real world patch to an OpenStack component"
 msgstr ""
 "Contribuisci con successo un patch vero e proprio in un componente di "
@@ -1741,9 +1692,6 @@ msgstr "Sylvain Bauza (assistente, tutoraggio, formazione, francese, inglese)"
 msgid "System administrators"
 msgstr "Amministratori di sistema"
 
-msgid "TC seats are elected by ATC"
-msgstr "I posti di TC vengono eletti da ATC"
-
 msgid "Tags describing OpenStack Projects"
 msgstr "I tag che descrivono i progetti di OpenStack"
 
@@ -1762,9 +1710,6 @@ msgstr "Target di riferimento"
 msgid "Technical Committee"
 msgstr "Comitato tecnico"
 
-msgid "Technical Committee Members"
-msgstr "Membri del comitato tecnico"
-
 msgid "Technical committee : 1"
 msgstr "Comitato tecnico :1"
 
@@ -1777,34 +1722,6 @@ msgstr "Il processo di contribuzione (1 ora )"
 
 msgid "The OpenStack Community"
 msgstr "La communità OpenStack"
-
-msgid ""
-"The TC seats are elected by the Active Technical Contributors (\"ATC\"), "
-"which are a subset of the Foundation Individual Members. Individual Members "
-"who committed a change to a repository under any of the official OpenStack "
-"programs (as defined above) over the last two 6-month release cycles are "
-"automatically considered an ATC."
-msgstr ""
-"I posti di TC vengono eletti di Collaboratori Tecnici Attivi(\"ATC\"), che "
-"sono un sottoinsieme dei singoli membri della fondazione. I singoli membri "
-"che hanno fatto il commit di una modifica su un repository sotto uno dei "
-"programmi ufficiali OpenStack (come definito sopra)  nel corso degli ultimi "
-"due cicli di 6 mesi vengono automaticamente considerati ATC."
-
-msgid ""
-"The Technical Committee (\"TC\") is tasked with providing technical "
-"leadership over all the OpenStack projects. It enforces OpenStack ideals "
-"(Openness, Transparency, Commonality, Integration, Quality), decides on "
-"issues affecting multiple programs, forms an ultimate appeals board for "
-"technical decisions, and generally has oversight over the OpenStack project "
-"entirely."
-msgstr ""
-"Il Comitato Tecnico (\"TC\") ha il compito di fornire una leadership tecnica "
-"su tutti i progetti OpenStack. Esso fa rispettare gli ideali di OpenStack "
-"(Apertura, Trasparenza, Comunanza, Integrazione, Qualità), decide su "
-"questioni che interessano diversi programmi, costituisce un ultimo bordo di "
-"appello per le decisioni tecniche, e generalmente ha la supervisione su "
-"tutto il progetto OpenStack."
 
 msgid "The branch containing the fix was merged into master"
 msgstr "La branca contenente la correzione è stata unita nel ramo principale"
@@ -1855,12 +1772,6 @@ msgstr ""
 msgid "The release, or milestone, or commit ID"
 msgstr "Il rilascio, o milestone, o L'ID del commit"
 
-msgid "The role of the Technical Committee"
-msgstr "Il ruolo del comitato tecnico"
-
-msgid "The role of the User Committee"
-msgstr "Il ruolo del comitato di utenti"
-
 msgid ""
 "The students use template slides to prepare a 5-minute presentation of their "
 "planned contribution"
@@ -1902,13 +1813,6 @@ msgstr "Tim Freund (formazione, tutoraggio, assistente, inglese)"
 
 msgid "Tokyo, Japan"
 msgstr "Tokyo, Giappone"
-
-msgid ""
-"Track OpenStack deployments and usage, helping to share user stories and "
-"experiences"
-msgstr ""
-"Traccia le implementazioni e usi di OPenStack, aiutando a condividere le "
-"storie ed esperienze degli utenti"
 
 msgid "Translations / i18n issues."
 msgstr "Traduzioni/ problemi di i18n"
@@ -1991,9 +1895,6 @@ msgstr ""
 
 msgid "Vote in elections."
 msgstr "Votare alle elezioni."
-
-msgid "Voters for a given program PTL"
-msgstr "Gli elettori di un determinato programma di PTL"
 
 msgid ""
 "We held the first OpenStack Upstream Training in Atlanta, before OpenStack "
@@ -2134,13 +2035,6 @@ msgid "Work sessions"
 msgstr "Sessioni di lavoro"
 
 msgid ""
-"Work with the user groups worldwide to keep the OpenStack community vibrant "
-"and informed"
-msgstr ""
-"Lavora con i gruppi di utenti di tutto il mondo per mantenere la comunità di "
-"OpenStack risonante e informata"
-
-msgid ""
 "Workflow of an OpenStack contribution and tools (3h including 2h exercises)"
 msgstr ""
 "Workflow di una collaborazione ad OpenStack e strumenti (3h includendo 2h di "
@@ -2259,11 +2153,6 @@ msgstr ""
 msgid "`Documentation <https://wiki.openstack.org/wiki/Documentation/HowTo>`_"
 msgstr ""
 "`Documentazione <https://wiki.openstack.org/wiki/Documentation/HowTo>`_"
-
-msgid "`Each APC/ATC in the class should add a URL to the etherpad proving it`"
-msgstr ""
-"`Ciascun APC/ATC nella classe dovrebbe aggiungere un URL all'etherpad "
-"provandolo`"
 
 msgid ""
 "`Etherpad for Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
@@ -2742,14 +2631,8 @@ msgstr "https://wiki.openstack.org/wiki/BugTags"
 msgid "https://wiki.openstack.org/wiki/GitCommitMessages"
 msgstr "https://wiki.openstack.org/wiki/GitCommitMessages"
 
-msgid "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
-msgstr "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
-
 msgid "https://www.openstack.org/foundation/tech-committee/"
 msgstr "https://www.openstack.org/foundation/tech-committee/"
-
-msgid "https://www.openstack.org/foundation/user-committee/"
-msgstr "https://www.openstack.org/foundation/user-committee/"
 
 msgid "https://www.openstack.org/join/"
 msgstr "https://www.openstack.org/join/"
@@ -2802,12 +2685,6 @@ msgstr "patchset diffs"
 
 msgid "quality of the OpenStack git history"
 msgstr "qualità della git history di OpenStack"
-
-msgid ""
-"read tc.2014-04-01-20.03.log.html and briefly comment on keystone document"
-msgstr ""
-"leggi tc.2014-04-01-20.03.log.html e commenta brevemente sul documento "
-"keystone"
 
 msgid "reproduced the issue => Status: Confirmed"
 msgstr "riprodotto il problema => Stato: Confermato"

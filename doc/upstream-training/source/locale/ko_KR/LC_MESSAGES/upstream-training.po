@@ -1,17 +1,18 @@
 # Ian Y. Choi <ianyrchoi@gmail.com>, 2015. #zanata
 # Sungjin Kang <gang.sungjin@gmail.com>, 2015. #zanata
+# Eunseop Shin <kairos9603@gmail.com>, 2016. #zanata
 # Ian Y. Choi <ianyrchoi@gmail.com>, 2016. #zanata
 # Jun-Sik Shin <jsshin@smartx.kr>, 2016. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-18 22:47+0000\n"
+"POT-Creation-Date: 2016-10-19 14:56+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-10-15 11:25+0000\n"
-"Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
+"PO-Revision-Date: 2016-10-20 12:15+0000\n"
+"Last-Translator: Eunseop Shin <kairos9603@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
 "X-Generator: Zanata 3.7.3\n"
@@ -405,11 +406,6 @@ msgid "Bug tags"
 msgstr "버그 태그"
 
 msgid ""
-"Bug triagers, technical documentation writers, etc can exceptionally apply "
-"for ATC"
-msgstr "버그 구분, 기술 문서 작업 등은 예외적으로 ATC에 지원할 수 있습니다"
-
-msgid ""
 "Bugs that are easy to fix, ideal for beginners to get familiar with the "
 "workflow and to have their first contact with the code in OpenStack "
 "development."
@@ -453,9 +449,6 @@ msgstr ""
 
 msgid "Can publish to docs.openstack.org and developer.openstack.org"
 msgstr "docs.openstack.org 및 developer.openstack.org에 출판할 수 있습니다"
-
-msgid "Candidacy for the corresponding program PTL election"
-msgstr "대응하는 프로그램에 대한 PTL 선거에 대한 입후보 자격"
 
 msgid "Capture your idea in a spec/blueprint"
 msgstr "생각을 스펙/블루프린트로 정리합니다"
@@ -650,12 +643,6 @@ msgstr ""
 "Freenode에 등록되었습니다! 이제부터 Freenode로 Hexchat를 통해 연결하면 사용하"
 "는 닉 네임이 식별되어 있을 것입니다."
 
-msgid ""
-"Consolidate user requirements and present these to the management board and "
-"technical committee"
-msgstr ""
-"사용자 요구사항을 통합하고 이를 관리 위원회 및 기술 위원회에 제시합니다"
-
 msgid "Contact Information"
 msgstr "연락처 정보"
 
@@ -722,9 +709,6 @@ msgstr "커밋을 생성합니다"
 
 msgid "Created by a large growing community"
 msgstr "커다랗게 성장하는 공동체에 의해 만들어졌습니다"
-
-msgid "Creates other committees for day-to-day leadership"
-msgstr "일상에서의 리더십을 위한 다른 committee 생성"
 
 msgid "Critical"
 msgstr "Critical"
@@ -799,6 +783,9 @@ msgstr "디버깅"
 
 msgid "DefCore (or what cloud can be labeled as OpenStack)"
 msgstr "DefCore (또는 어떤 클라우드를 OpenStack으로 라벨링할 수 있는가)"
+
+msgid "Demo environment"
+msgstr "데모 환경"
 
 msgid "Depends on the priority of your work item"
 msgstr "작업 항목에 대한 우선 순위에 의존합니다"
@@ -913,6 +900,12 @@ msgstr "각 기업은 다음을 갖습니다:"
 
 msgid "Each individual sets their own objective."
 msgstr "각 개인은 각자 목표를 설정합니다."
+
+msgid "Each project and working group also has its own wiki page"
+msgstr "각 프로젝트와 워킹그룹은 또한 각 위키페이지를 가지고 있습니다."
+
+msgid "Each project and working group has its own channel"
+msgstr "각 프로젝트와 워킹그룹은 각 채널을 가지고 있습니다."
 
 msgid "Each project has its own culture"
 msgstr "각 프로젝트는 각 문화를 갖고 있습니다"
@@ -1292,6 +1285,9 @@ msgstr "GIT 커밋 메시지 구조"
 msgid "General Contribution Workflow"
 msgstr "일반적인 컨트리뷰션 워크플로우"
 
+msgid "General discussion around what's going on in a project"
+msgstr "프로젝트가 어떻게 돌아가는 지에 관한 일반적인 토론"
+
 msgid "Generate SSH Keys"
 msgstr "SSH 키 생성하기"
 
@@ -1410,11 +1406,11 @@ msgid ""
 msgstr ""
 "연결 창으로 돌아가, freenode 연결을 강조시킨 후 **info** 아이콘을 클릭합니다."
 
+msgid "Good place to get questions answered"
+msgstr "질문의 답을 얻기 위한 좋은 공간"
+
 msgid "Good: new API + new feature"
 msgstr "좋은: 새로운 API + 새로운 기능"
-
-msgid "Governance/TechnicalCommittee#Meeting"
-msgstr "Governance/TechnicalCommittee#Meeting"
 
 msgid "Haikel Guemar (assistant, mentor, french, english)"
 msgstr "Haikel Guemar (조교, 멘터, 프랑스어, 영어)"
@@ -1453,9 +1449,6 @@ msgstr "어떤 식으로 운영되는가?"
 msgid "How projects are released"
 msgstr "어떻게 프로젝트가 릴리즈되는가"
 
-msgid "How to contribute"
-msgstr "기여 방법"
-
 msgid "How to contribute (`slides <14-gerrit.html>`__)"
 msgstr "기여 방법 (`슬라이드 <14-gerrit.html>`__)"
 
@@ -1473,6 +1466,18 @@ msgstr "OpenStack을 사용하는 방법"
 
 msgid "IRC"
 msgstr "IRC"
+
+msgid "IRC Channels"
+msgstr "IRC 채널"
+
+msgid "IRC Logs"
+msgstr "IRC 로그"
+
+msgid "IRC Meetings"
+msgstr "IRC 회의"
+
+msgid "IRC Meetings List"
+msgstr "IRC 회의 리스트"
 
 msgid "IRC meetings: http://eavesdrop.openstack.org/"
 msgstr "IRC 미팅: http://eavesdrop.openstack.org/"
@@ -1793,6 +1798,12 @@ msgstr "Jieun Kim (조교)"
 msgid "Join the #openstack-101 channel"
 msgstr "#openstack-101 채널에 들어옵니다"
 
+msgid ""
+"Join the channel of the project(s) you are interested in and find the logs "
+"from the most recent meeting."
+msgstr ""
+"관심있는 프로젝트의 채널에 참여하세요 그리고 최신 회의 로그를 찾아보세요 ."
+
 msgid "Join the openstack-dev mailing list"
 msgstr "openstack-dev 메일링리스트에 가입합니다"
 
@@ -1852,9 +1863,6 @@ msgstr "로컬에 있는 것과 upstream에 있는 것을 배웁니다"
 
 msgid "Learning Git"
 msgstr "Git 학습"
-
-msgid "Led by a board of directors"
-msgstr "이사회가 주도합니다."
 
 msgid "Lego applied to Free Software contributions"
 msgstr "자유 소프트웨어 컨트리뷰션을 적용한 Lego"
@@ -1920,6 +1928,9 @@ msgstr "사람들이 이야기할 때 경청합니다"
 msgid "Local Upstream Trainings"
 msgstr "로컬 업스트림 트레이닝"
 
+msgid "Logs of meetings are archived so that they can be referenced later on"
+msgstr "회의 로그는 저장됨으로 나중에 참고자료로 사용될 수 있습니다."
+
 msgid "Loic Dachary (training, mentoring, assistant, french, english)"
 msgstr "Loic Dachary (교육, 멘토링, 조교, 프랑스어, 영어)"
 
@@ -1963,6 +1974,9 @@ msgstr ""
 "Mac OS El Capitan 및 macOS Sierra 사용자는 해당 명령어로 설치하는 경우 "
 "\"Operation not permitted\" 와 같은 오류 메시지를 볼 수 있을 것입니다. 해당 "
 "경우에는, git-review를 성공적으로 설치하기 위한 두 가지 옵션이 있습니다."
+
+msgid "Mailing Lists"
+msgstr "메일링 리스트"
 
 msgid "Main activities"
 msgstr "주 활동"
@@ -2041,8 +2055,8 @@ msgstr "Medium"
 msgid "Meet any policies that the TC requires from all projects"
 msgstr "모든 프로젝트로부터 TC가 요구하는 정책들을 충족합니다"
 
-msgid "Meetings"
-msgstr "회의"
+msgid "Meeting channels (#openstack-meeting, #openstack-meeting-cp, etc.)"
+msgstr "회의 채널 (#openstack-meeting, #openstack-meeting-cp, 등.)"
 
 msgid "Mentors/helpers"
 msgstr "멘토/도움"
@@ -2131,9 +2145,6 @@ msgstr ""
 
 msgid "Most recent (\"Mitaka\") release stats:"
 msgstr "가장 최근 (\"Mitaka\") 릴리즈 통계:"
-
-msgid "Motions"
-msgstr "움직임"
 
 msgid "NFV = Network Function Virtualization"
 msgstr "NFV = Network Function Virtualization"
@@ -2252,6 +2263,9 @@ msgid ""
 msgstr ""
 "연락처 정보를 성공적으로 채운 다음에는, 이메일 주소 폼 바로 위에 **\"Contact "
 "information last updated ....\"** 를 볼 수 있을 것입니다."
+
+msgid "Online Communication"
+msgstr "온라인 의사소통"
 
 msgid ""
 "Online section: 10 one-hour individual mentoring sessions over a period of 4 "
@@ -2481,16 +2495,6 @@ msgid "Project Team Leads (PTLs)"
 msgstr "Project Team Leads (PTLs)"
 
 msgid ""
-"Project Teams are teams of *people* using *tools* (code repository, bug "
-"tracker, etc) and coordinated *processes* to produce a number of "
-"*deliverables*, in order to achieve a clearly stated *objective* according "
-"to OpenStack's mission."
-msgstr ""
-"프로젝트 팀은 *구성원* 이 OpenStack 임무와 일치하는 상태로 *도구* (코드 저장"
-"소, 버그 트래커 등) 및 조정된 *프로세스* 에 따라 명확히 서술된 *목표* 를 달성"
-"하기 위해 다수의 *산출물* 을 생성하는 팀입니다."
-
-msgid ""
 "Project team helps you to identify the target milestone and register it in "
 "the tracking tool"
 msgstr ""
@@ -2508,10 +2512,6 @@ msgstr ""
 
 msgid "Projects under a \"Big Tent\""
 msgstr "\"Big Tent\" 내 프로젝트"
-
-msgid ""
-"Provide guidance for the development teams where user feedback is requested"
-msgstr "사용자 피드백을 요청하는 개발 팀에 대한 가이드를 제공합니다"
 
 msgid ""
 "Provides transparent and meaningful statistics regarding contributions to "
@@ -2715,9 +2715,6 @@ msgstr "SSH 키는 항상 쌍으로 생성됩니다:"
 msgid "Sahid Ferdjaoui (assistant, french, english)"
 msgstr "Sahid Ferdjaoui (조교, 프랑스어, 영어)"
 
-msgid "Same as APC"
-msgstr "APC와 동일합니다"
-
 msgid "Say a few words about yourself"
 msgstr "본인에 관해 몇몇 단어를 이야기해 봅니다"
 
@@ -2890,9 +2887,6 @@ msgstr "블루프린트 그리고/또는 스펙을 제출합니다"
 msgid "Submit to the TC oversight"
 msgstr "TC 관리 감독이 이루어지도록 제출합니다"
 
-msgid "Subset of the Foundation Individual Member"
-msgstr "Foundation 개별 구성원 중의 부분 집합"
-
 msgid "Successfully contribute one real world patch to an OpenStack component"
 msgstr "실제 존재하는 패치 하나를 OpenStack 구성요소에 성공적으로 기여하기"
 
@@ -2926,9 +2920,6 @@ msgstr "준비가 된 이후 결정 예정"
 msgid "TBD, when the blocks are ready"
 msgstr "준비가 된 이후 결정 예정"
 
-msgid "TC seats are elected by ATC"
-msgstr "TC 자리는 ATC에 의해 선발됩니다"
-
 msgid "Tags can be proposed by anyone"
 msgstr "태그는 모든 사람에 의해 제안이 이루어질 수 있습니다"
 
@@ -2943,6 +2934,9 @@ msgstr "한 발짝 되돌아가기"
 
 msgid "Take the pulse of the project"
 msgstr "프로젝트의 리듬을 이해합니다"
+
+msgid "Talking in IRC Channels & Meetings"
+msgstr "IRC 채널에서 말하거나 만나는 것 "
 
 msgid "Talking in the IRC channel"
 msgstr "IRC 채널에서 대화"
@@ -2962,15 +2956,8 @@ msgstr "팀 구성"
 msgid "Teams in OpenStack can be freely created as they are needed"
 msgstr "OpenStack 내 팀은 필요로 할 때 자유롭게 생성 가능합니다"
 
-msgid ""
-"Teams of official projects are under the authority of the Technical Committee"
-msgstr "공식 프로젝트 팀은 기술 위원회의 권위 하에 있습니다"
-
 msgid "Technical Committee"
 msgstr "Technical Committee"
-
-msgid "Technical Committee Members"
-msgstr "기술 위원회 구성원"
 
 msgid "Technical committee : 1"
 msgstr "기술 위원회: 1"
@@ -3012,31 +2999,6 @@ msgstr ""
 msgid "The OpenStack Package"
 msgstr "OpenStack 패키지"
 
-msgid ""
-"The TC seats are elected by the Active Technical Contributors (\"ATC\"), "
-"which are a subset of the Foundation Individual Members. Individual Members "
-"who committed a change to a repository under any of the official OpenStack "
-"programs (as defined above) over the last two 6-month release cycles are "
-"automatically considered an ATC."
-msgstr ""
-"TC 자리는 Foundation 개별 구성원에 대한 부분 집합인 Active Technical "
-"Contributors (\"ATC\") 에 의해 선발됩니다. 최근 두 6개월 간의 릴리즈 주기에 "
-"걸쳐 (위에 정의된) 임의의 공식 OpenStack 프로그램 내 저장소에 변경 사항을 커"
-"밋한 개별 구성원은 자동으로 ATC로 간주됩니다."
-
-msgid ""
-"The Technical Committee (\"TC\") is tasked with providing technical "
-"leadership over all the OpenStack projects. It enforces OpenStack ideals "
-"(Openness, Transparency, Commonality, Integration, Quality), decides on "
-"issues affecting multiple programs, forms an ultimate appeals board for "
-"technical decisions, and generally has oversight over the OpenStack project "
-"entirely."
-msgstr ""
-"Technical Committee (\"TC\")는 모든 OpenStack 프로젝트에 걸쳐 기술 리더쉽을 "
-"제공하는 일을 합니다. OpenStack 이상 (개방성, 투명성, 공유성, 통합, 품질)을 "
-"강화하고, 여러 프로그램에 미치는 이슈를 결정하고, 기술적인 결정을 위해 이사회"
-"에 근본적으로 호소하며, 일반적으론 모든 OpenStack 프로젝트 감독을 수행합니다."
-
 msgid "The branch containing the fix was merged into master"
 msgstr "수정을 포함하는 브랜치가 master에 병합되었습니다"
 
@@ -3057,6 +3019,9 @@ msgstr "버그가 재현 가능하거나 실제 버그로 확인되었습니다"
 
 msgid "The code is self-evident/self-documenting"
 msgstr "코드는 자체가 명료함을 보이고 자체가 문서에 해당합니다."
+
+msgid "The common syntax: #openstack-<name-of-project>"
+msgstr "일반적인 구문:  #openstack-<name-of-project>"
 
 msgid "The deadline for proposing new ideas for a release cycle"
 msgstr "릴리즈 주기에 대해 새로운 아이디어를 제안하는 것에 대한 마감 기한"
@@ -3144,12 +3109,6 @@ msgstr "검토자는 외부 웹 서비스/사이트에 대한 액세스를 갖�
 
 msgid "The reviewer understands what the original problem was"
 msgstr "검토자는 원 문제가 무엇이었는지를 이해합니다"
-
-msgid "The role of the Technical Committee"
-msgstr "Technical Committee 역할"
-
-msgid "The role of the User Committee"
-msgstr "사용자 위원회 역할"
 
 msgid ""
 "The students use template slides to prepare a 5-minute presentation of their "
@@ -3260,13 +3219,6 @@ msgstr ""
 
 msgid "Tokyo, Japan"
 msgstr "일본, 도쿄"
-
-msgid ""
-"Track OpenStack deployments and usage, helping to share user stories and "
-"experiences"
-msgstr ""
-"OpenStack 배포 및 사용량을 추적하여 사용자 스토리 및 경험을 공유하도록 돕습니"
-"다"
 
 msgid "Trailing the common cycle"
 msgstr "공통 주기를 종료"
@@ -3408,8 +3360,8 @@ msgstr ""
 msgid "Vote in elections."
 msgstr "선거에서 투표하기."
 
-msgid "Voters for a given program PTL"
-msgstr "주어진 프로그램 PTL을 위한 투표자"
+msgid "Ways to Communicate in OpenStack"
+msgstr "OpenStack에서 의사소통 하는 법"
 
 msgid "We are new age people with some good old technology around"
 msgstr "우리는 새로운 세대에 있으면서 좋은 오래된 기술을 활용하고 있습니다"
@@ -3537,6 +3489,9 @@ msgstr "이 코스에 참석하계된 이유는 무엇입니까? 어떤 것을 �
 msgid "Wiki"
 msgstr "Wiki"
 
+msgid "Wiki Pages"
+msgstr "위키 페이지"
+
 msgid "Wishlist"
 msgstr "Wishlist"
 
@@ -3582,13 +3537,6 @@ msgstr "수정이 진행 중인 상태로 작업 중이고, 버그에 대한 할
 
 msgid "Work sessions"
 msgstr "워크 세션"
-
-msgid ""
-"Work with the user groups worldwide to keep the OpenStack community vibrant "
-"and informed"
-msgstr ""
-"OpenStack 커뮤니티를 지속적으로 생동감있고 알릴 수 있도록 전세계 사용자 그룹"
-"과 함께 작업합니다"
 
 msgid "Workflow and Tools for Participation"
 msgstr "준비를 위한 워크플로우 및 도구"
@@ -3750,9 +3698,6 @@ msgstr ""
 msgid "`Documentation <https://wiki.openstack.org/wiki/Documentation/HowTo>`_"
 msgstr "`문서화 <https://wiki.openstack.org/wiki/Documentation/HowTo>`_"
 
-msgid "`Each APC/ATC in the class should add a URL to the etherpad proving it`"
-msgstr "`수업 내 각 APC/ATC 는 etherpad에 증명을 위한 URL을 추가합니다`"
-
 msgid ""
 "`Etherpad for Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
 "p/upstream-training-korea-2016>`_"
@@ -3780,9 +3725,6 @@ msgid ""
 "`Guide to SetUp and Push First Patch <workflow-setup-and-first-patch.html>`_"
 msgstr ""
 "`첫 패치에 대한 셋업 및 푸시 가이드 <workflow-setup-and-first-patch.html>`_"
-
-msgid "`How to Contribute <workflow-howtocontribute.html>`_"
-msgstr "`기여 방법 <workflow-howtocontribute.html>`_"
 
 msgid ""
 "`How to create a project <http://docs.openstack.org/infra/manual/creators."
@@ -3901,9 +3843,6 @@ msgstr ""
 
 msgid "`Official OpenStack projects <howitsmade-official-projects.html>`_"
 msgstr "`공식 OpenStack 프로젝트 <howitsmade-official-projects.html>`_"
-
-msgid "`OpenStack Governance <howitsmade-technical-committee.html>`_"
-msgstr "`OpenStack 관리 방식 <howitsmade-technical-committee.html>`_"
 
 msgid ""
 "`OpenStack Governance <http://governance.openstack.org/>`_ (`slides <03-"
@@ -4178,9 +4117,6 @@ msgid ""
 msgstr ""
 "`디버깅 <https://wiki.openstack.org/wiki/Bugs#Debugging_.28optional.29>`_"
 
-msgid "`devstack.org <code-devstack.html>`_"
-msgstr "`devstack.org <code-devstack.html>`_"
-
 msgid "`meetbot <http://wiki.debian.org/MeetBot>`_"
 msgstr "`meetbot <http://wiki.debian.org/MeetBot>`_"
 
@@ -4321,6 +4257,9 @@ msgstr "http://activity.openstack.org"
 msgid "http://docs.openstack.org/infra/manual/developers.html#account-setup"
 msgstr "http://docs.openstack.org/infra/manual/developers.html#account-setup"
 
+msgid "http://eavesdrop.openstack.org/"
+msgstr "http://eavesdrop.openstack.org/"
+
 msgid ""
 "http://governance.openstack.org/reference/new-projects-requirements.html"
 msgstr ""
@@ -4347,9 +4286,6 @@ msgstr "http://review.openstack.org"
 msgid "http://stackalytics.com"
 msgstr "http://stackalytics.com"
 
-msgid "http://webchat.freenode.net/?channels=openstack,openstack-101"
-msgstr "http://webchat.freenode.net/?channels=openstack,openstack-101"
-
 msgid "https://etherpad.openstack.org/p/upstream-training-vancouver"
 msgstr "https://etherpad.openstack.org/p/upstream-training-vancouver"
 
@@ -4371,14 +4307,11 @@ msgstr "https://wiki.openstack.org/wiki/GitCommitMessages"
 msgid "https://wiki.openstack.org/wiki/IRC"
 msgstr "https://wiki.openstack.org/wiki/IRC"
 
-msgid "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
-msgstr "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
+msgid "https://wiki.openstack.org/wiki/Main_Page"
+msgstr "https://wiki.openstack.org/wiki/Main_Page"
 
 msgid "https://www.openstack.org/foundation/tech-committee/"
 msgstr "https://www.openstack.org/foundation/tech-committee/"
-
-msgid "https://www.openstack.org/foundation/user-committee/"
-msgstr "https://www.openstack.org/foundation/user-committee/"
 
 msgid "https://www.openstack.org/join/"
 msgstr "https://www.openstack.org/join/"
@@ -4446,12 +4379,6 @@ msgstr ""
 
 msgid "quality of the OpenStack git history"
 msgstr "OpenStack git 이력에 대한 품질"
-
-msgid ""
-"read tc.2014-04-01-20.03.log.html and briefly comment on keystone document"
-msgstr ""
-"tc.2014-04-01-20.03.log.html 을 읽고 keystone 문서에 대해 간략히 견해를 밝힙"
-"니다"
 
 msgid "reproduced the issue => Status: Confirmed"
 msgstr "문제 재현됨 => 상태: Confirmed"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-18 22:47+0000\n"
+"POT-Creation-Date: 2016-10-19 14:56+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -383,12 +383,6 @@ msgid "Bug tags"
 msgstr "バグのタグ"
 
 msgid ""
-"Bug triagers, technical documentation writers, etc can exceptionally apply "
-"for ATC"
-msgstr ""
-"バグトリアージ者、技術ドキュメント執筆者などは、例外的に ATC に応募できます。"
-
-msgid ""
 "Bugs that are easy to fix, ideal for beginners to get familiar with the "
 "workflow and to have their first contact with the code in OpenStack "
 "development."
@@ -426,9 +420,6 @@ msgstr "CI"
 msgid "Can publish to docs.openstack.org and developer.openstack.org"
 msgstr ""
 "docs.openstack.org と developer.openstack.org でドキュメントを公開できます"
-
-msgid "Candidacy for the corresponding program PTL election"
-msgstr "対応するプロジェクトの PTL 選挙への立候補"
 
 msgid "Change-id"
 msgstr "Change-id"
@@ -610,12 +601,6 @@ msgstr ""
 "た。Freenode に登録されたニックネームを持ちました。次回から、Hexchat を用いて"
 "接続するとき、あなたのニックネームで識別されます。"
 
-msgid ""
-"Consolidate user requirements and present these to the management board and "
-"technical committee"
-msgstr ""
-"ユーザーの要望を集め、それらをボード会議や TC (技術委員会) に説明します"
-
 msgid "Contact Information"
 msgstr "連絡先情報"
 
@@ -683,9 +668,6 @@ msgstr "コミットを作成します"
 
 msgid "Created by a large growing community"
 msgstr "大きく成長しているコミュニティーにより作成されている"
-
-msgid "Creates other committees for day-to-day leadership"
-msgstr "日々のリーダーシップのために、他の委員会を作成する"
 
 msgid "Critical"
 msgstr "Critical (クリティカル)"
@@ -1325,9 +1307,6 @@ msgstr ""
 msgid "Good: new API + new feature"
 msgstr "良い例: 新 API と新機能"
 
-msgid "Governance/TechnicalCommittee#Meeting"
-msgstr "Governance/TechnicalCommittee#Meeting"
-
 msgid "Haikel Guemar (assistant, mentor, french, english)"
 msgstr "Haikel Guemar (assistant, mentor, french, english)"
 
@@ -1365,9 +1344,6 @@ msgstr "どのように動作するか?"
 
 msgid "How projects are released"
 msgstr "プロジェクトのリリース形態"
-
-msgid "How to contribute"
-msgstr "コントリビューション方法"
 
 msgid "How to contribute (`slides <14-gerrit.html>`__)"
 msgstr "貢献方法 (`スライド <14-gerrit.html>`__)"
@@ -1747,9 +1723,6 @@ msgstr "何がローカルか、何がアップストリームかを学習する
 msgid "Learning Git"
 msgstr "Git の学習"
 
-msgid "Led by a board of directors"
-msgstr "役員会 (ボード) により指揮されている"
-
 msgid "Lego applied to Free Software contributions"
 msgstr "LEGO のフリーソフトウェアのコントリビューションへの応用"
 
@@ -1907,9 +1880,6 @@ msgstr "Medium (中)"
 msgid "Meet any policies that the TC requires from all projects"
 msgstr "TC がすべてのプロジェクトが満たすことを要求している方針を満たす"
 
-msgid "Meetings"
-msgstr "ミーティング"
-
 msgid "Mentors/helpers"
 msgstr "メンター/助手"
 
@@ -1978,9 +1948,6 @@ msgstr ""
 
 msgid "Most recent (\"Mitaka\") release stats:"
 msgstr "最新リリース (\"Mitaka\") の統計:"
-
-msgid "Motions"
-msgstr "動議"
 
 msgid "NFV = Network Function Virtualization"
 msgstr "NFV = Network Function Virtualization (ネットワーク機能の仮想化)"
@@ -2287,17 +2254,6 @@ msgstr "プロダクトオーナー"
 msgid "Project Team Leads (PTLs)"
 msgstr "Project Team Lead (PTL)"
 
-msgid ""
-"Project Teams are teams of *people* using *tools* (code repository, bug "
-"tracker, etc) and coordinated *processes* to produce a number of "
-"*deliverables*, in order to achieve a clearly stated *objective* according "
-"to OpenStack's mission."
-msgstr ""
-"プロジェクトチームは、OpenStack のミッションに基づき、明確に宣言された *目的"
-"* を達成するために集まった *人々* のチームで、*ツール* (コードリポジトリー、"
-"バグ追跡システムなど) を使い、さまざまな成果物を生み出すための整理された *手"
-"順* にしたがって活動します。"
-
 msgid "Projects APIs are documented within the project"
 msgstr "プロジェクトの API ドキュメントは各プロジェクトで作成されます"
 
@@ -2310,10 +2266,6 @@ msgstr ""
 
 msgid "Projects under a \"Big Tent\""
 msgstr "\"Big Tent\" 配下のプロジェクト"
-
-msgid ""
-"Provide guidance for the development teams where user feedback is requested"
-msgstr "ユーザーのフィードバックが必要な開発チームをガイドします"
 
 msgid ""
 "Provides transparent and meaningful statistics regarding contributions to "
@@ -2499,9 +2451,6 @@ msgstr "SSH 鍵は必ずペアで生成されます。"
 msgid "Sahid Ferdjaoui (assistant, french, english)"
 msgstr "Sahid Ferdjaoui (assistant, french, english)"
 
-msgid "Same as APC"
-msgstr "APC と同じ"
-
 msgid "Say a few words about yourself"
 msgstr "簡単に自己紹介をしましょう"
 
@@ -2666,9 +2615,6 @@ msgstr "OpenStack カンファレンスへのプレゼンテーションの提�
 msgid "Submit to the TC oversight"
 msgstr "TC の監視の元に入る"
 
-msgid "Subset of the Foundation Individual Member"
-msgstr "Foundation Individual Member の一部分"
-
 msgid "Successfully contribute one real world patch to an OpenStack component"
 msgstr ""
 "OpenStack コンポーネントへのパッチのコントリビューションを実際に 1 つ成功させ"
@@ -2704,9 +2650,6 @@ msgstr "未決定。時間割が決まったら作成予定。"
 msgid "TBD, when the blocks are ready"
 msgstr "未決定。時間割が決まったら作成予定。"
 
-msgid "TC seats are elected by ATC"
-msgstr "TC は ATC により投票されます"
-
 msgid "Tags can be proposed by anyone"
 msgstr "タグは誰でも提案できます。"
 
@@ -2740,15 +2683,8 @@ msgstr "チーム構成"
 msgid "Teams in OpenStack can be freely created as they are needed"
 msgstr "OpenStack のチームは必要に応じて自由に作成できます。"
 
-msgid ""
-"Teams of official projects are under the authority of the Technical Committee"
-msgstr "公式プロジェクトのチームは Technical Committee の権限の元におかれます"
-
 msgid "Technical Committee"
 msgstr "技術委員会 (TC: Technical Committee)"
-
-msgid "Technical Committee Members"
-msgstr "Technical Committee のメンバー"
 
 msgid "Technical committee : 1"
 msgstr "技術委員会 (TC) : 1"
@@ -2786,31 +2722,6 @@ msgstr ""
 
 msgid "The OpenStack Package"
 msgstr "OpenStack のパッケージ"
-
-msgid ""
-"The TC seats are elected by the Active Technical Contributors (\"ATC\"), "
-"which are a subset of the Foundation Individual Members. Individual Members "
-"who committed a change to a repository under any of the official OpenStack "
-"programs (as defined above) over the last two 6-month release cycles are "
-"automatically considered an ATC."
-msgstr ""
-"TC の座席は、Active Technical Contributors (ATC) により投票されます。ATC は "
-"Foundation Individual Members の一部分です。過去の 2 回の6 か月リリースサイク"
-"ルにおいて (上で定義された) OpenStack 公式プロジェクトの何らかのリポジトリー"
-"に変更をコミットした、個人メンバーは自動的に ATC と見なされます。"
-
-msgid ""
-"The Technical Committee (\"TC\") is tasked with providing technical "
-"leadership over all the OpenStack projects. It enforces OpenStack ideals "
-"(Openness, Transparency, Commonality, Integration, Quality), decides on "
-"issues affecting multiple programs, forms an ultimate appeals board for "
-"technical decisions, and generally has oversight over the OpenStack project "
-"entirely."
-msgstr ""
-"TC は、すべての OpenStack プロジェクトに対して、技術的なリーダーシップをと"
-"る。OpenStack の理想 (オープン性、透明性、共通性、統合、品質) を確実にし、複"
-"数のプロジェクトに影響する問題を判断し、技術的な判断に対する最終的な審判委員"
-"会を形成し、一般的に OpenStack プロジェクト全体にわたり監督する。"
 
 msgid "The branch containing the fix was merged into master"
 msgstr "この修正を含むブランチが master にマージされました"
@@ -2910,12 +2821,6 @@ msgstr "レビューアーは外部のウェブサービスやサイトにアク
 msgid "The reviewer understands what the original problem was"
 msgstr "レビューアーは元の問題が何かを理解している"
 
-msgid "The role of the Technical Committee"
-msgstr "Technical Committee の役割"
-
-msgid "The role of the User Committee"
-msgstr "User Committee の役割"
-
 msgid ""
 "The students use template slides to prepare a 5-minute presentation of their "
 "planned contribution"
@@ -3012,12 +2917,6 @@ msgstr ""
 
 msgid "Tokyo, Japan"
 msgstr "日本 東京"
-
-msgid ""
-"Track OpenStack deployments and usage, helping to share user stories and "
-"experiences"
-msgstr ""
-"OpenStack の導入状況を把握し、ユーザーストーリーや経験を共有する支援をします"
 
 msgid "Trainers"
 msgstr "講師"
@@ -3156,9 +3055,6 @@ msgstr ""
 
 msgid "Vote in elections."
 msgstr "選挙への投票"
-
-msgid "Voters for a given program PTL"
-msgstr "指定されたプロジェクトの PTL の投票者"
 
 msgid "We are new age people with some good old technology around"
 msgstr "私たちは新世代の人間ですが、優れた古い技術を活用しています"
@@ -3325,13 +3221,6 @@ msgstr "バグ修正が進行中で、担当者が付いている状態"
 msgid "Work sessions"
 msgstr "ワークセッション"
 
-msgid ""
-"Work with the user groups worldwide to keep the OpenStack community vibrant "
-"and informed"
-msgstr ""
-"世界中のユーザーグループと協働して、OpenStack コミュニティーを活気に満ちて、"
-"見識を保ちます"
-
 msgid "Workflow and Tools for Participation"
 msgstr "参加するための流れとツール"
 
@@ -3493,11 +3382,6 @@ msgstr ""
 msgid "`Documentation <https://wiki.openstack.org/wiki/Documentation/HowTo>`_"
 msgstr "`Documentation <https://wiki.openstack.org/wiki/Documentation/HowTo>`_"
 
-msgid "`Each APC/ATC in the class should add a URL to the etherpad proving it`"
-msgstr ""
-"`クラスにいる APC / ATC は、それを証明する URL を etherpad に追加してくださ"
-"い。`"
-
 msgid ""
 "`Etherpad for Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
 "p/upstream-training-korea-2016>`_"
@@ -3525,9 +3409,6 @@ msgstr ""
 msgid ""
 "`Guide to SetUp and Push First Patch <workflow-setup-and-first-patch.html>`_"
 msgstr "`環境設定と最初のパッチの投稿 <workflow-setup-and-first-patch.html>`_"
-
-msgid "`How to Contribute <workflow-howtocontribute.html>`_"
-msgstr "`コントリビューション方法 <workflow-howtocontribute.html>`_"
 
 msgid ""
 "`How to create a project <http://docs.openstack.org/infra/manual/creators."
@@ -3640,9 +3521,6 @@ msgstr ""
 
 msgid "`Official OpenStack projects <howitsmade-official-projects.html>`_"
 msgstr "`OpenStack 公式プロジェクト <howitsmade-official-projects.html>`_"
-
-msgid "`OpenStack Governance <howitsmade-technical-committee.html>`_"
-msgstr "`OpenStack ガバナンス <howitsmade-technical-committee.html>`_"
 
 msgid ""
 "`OpenStack Governance <http://governance.openstack.org/>`_ (`slides <03-"
@@ -3921,9 +3799,6 @@ msgid ""
 msgstr ""
 "`デバッグ <https://wiki.openstack.org/wiki/Bugs#Debugging_.28optional.29>`_"
 
-msgid "`devstack.org <code-devstack.html>`_"
-msgstr "`devstack.org <code-devstack.html>`_"
-
 msgid "`meetbot <http://wiki.debian.org/MeetBot>`_"
 msgstr "`meetbot <http://wiki.debian.org/MeetBot>`_"
 
@@ -4092,9 +3967,6 @@ msgstr "http://review.openstack.org"
 msgid "http://stackalytics.com"
 msgstr "http://stackalytics.com"
 
-msgid "http://webchat.freenode.net/?channels=openstack,openstack-101"
-msgstr "http://webchat.freenode.net/?channels=openstack,openstack-101"
-
 msgid "https://etherpad.openstack.org/p/upstream-training-vancouver"
 msgstr "https://etherpad.openstack.org/p/upstream-training-vancouver"
 
@@ -4116,14 +3988,8 @@ msgstr "https://wiki.openstack.org/wiki/GitCommitMessages"
 msgid "https://wiki.openstack.org/wiki/IRC"
 msgstr "https://wiki.openstack.org/wiki/IRC"
 
-msgid "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
-msgstr "https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting"
-
 msgid "https://www.openstack.org/foundation/tech-committee/"
 msgstr "https://www.openstack.org/foundation/tech-committee/"
-
-msgid "https://www.openstack.org/foundation/user-committee/"
-msgstr "https://www.openstack.org/foundation/user-committee/"
 
 msgid "https://www.openstack.org/join/"
 msgstr "https://www.openstack.org/join/"
@@ -4188,12 +4054,6 @@ msgstr ""
 
 msgid "quality of the OpenStack git history"
 msgstr "OpenStack git 履歴の品質"
-
-msgid ""
-"read tc.2014-04-01-20.03.log.html and briefly comment on keystone document"
-msgstr ""
-"tc.2014-04-01-20.03.log.html を読み、keystone ドキュメントに簡潔にコメントし"
-"てください"
 
 msgid "reproduced the issue => Status: Confirmed"
 msgstr "再現された問題 => 状態: 確認済み (Confirmed)"
