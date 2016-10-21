@@ -135,7 +135,7 @@ Code Deep Dive
 Archive of additional training activities
 -----------------------------------------
 
-.. note:: Activities listed here are not realised at every Upstream training.
+.. note:: Activities listed here are not realized at every Upstream training.
 
 * `Lego applied to Free Software contributions
   <archive-training-agile-for-contributors.html>`_

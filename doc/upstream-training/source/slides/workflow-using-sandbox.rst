@@ -44,7 +44,7 @@ Learning example with two Sandboxes
   - Reviewing the revised patch and merging the patch
 
  .. note::
-  - Try to emphazise the synergy of using repository integration
+  - Try to emphasize the synergy of using repository integration
     with bug management to students!
 
 Sandbox Launchpad Bug list
@@ -99,7 +99,7 @@ Bug Assigned
 
 - (Other people will think that someone working on the bug.)
 
-.. image:: ./_assets/sandbox-lp-assignnee-changed.png
+.. image:: ./_assets/sandbox-lp-assignee-changed.png
   :width: 80%
   :align: center
 
