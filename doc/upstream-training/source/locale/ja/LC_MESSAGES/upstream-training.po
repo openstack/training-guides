@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-19 14:56+0000\n"
+"POT-Creation-Date: 2016-10-20 21:46+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -168,9 +168,6 @@ msgstr "変更が受け入れられた後"
 
 msgid "After the last milestone"
 msgstr "最終マイルストーンの後"
-
-msgid "Agenda"
-msgstr "アジェンダ"
 
 msgid "Agile"
 msgstr "アジャイル"
@@ -701,9 +698,6 @@ msgstr "日付"
 msgid "Date: February 18, 2016 (Thu)"
 msgstr "日付: 2016年2月18日 (木)"
 
-msgid "Day 1"
-msgstr "1 日目"
-
 msgid "Day 1: How OpenStack is made"
 msgstr "1 日目: OpenStack はどのように作られているか"
 
@@ -712,9 +706,6 @@ msgstr "1 日目: はじめに"
 
 msgid "Day 1: Learn and practice Git, Gerrit, IRC"
 msgstr "1 日目: Git、Gerrit、IRC の学習と習熟"
-
-msgid "Day 2"
-msgstr "2 日目"
 
 msgid "Day 2: Individual presentation of the contribution plan"
 msgstr "2 日目: コントリビューション計画の個人発表"
@@ -1333,6 +1324,9 @@ msgid "Hopefully we end up with a unique Lego creation!"
 msgstr "ユニークな LEGO が創って終わることができますように!"
 
 msgid "How OpenStack is Made"
+msgstr "OpenStack はどのように作られているか"
+
+msgid "How OpenStack is made"
 msgstr "OpenStack はどのように作られているか"
 
 msgid "How OpenStack is made (3h including 1h30 exercises)"
@@ -2644,12 +2638,6 @@ msgstr "Sylvain Bauza (assistant, mentoring, training, french, english)"
 msgid "System administrators"
 msgstr "システム管理者"
 
-msgid "TBD when the blocks are ready"
-msgstr "未決定。時間割が決まったら作成予定。"
-
-msgid "TBD, when the blocks are ready"
-msgstr "未決定。時間割が決まったら作成予定。"
-
 msgid "Tags can be proposed by anyone"
 msgstr "タグは誰でも提案できます。"
 
@@ -3223,6 +3211,9 @@ msgstr "ワークセッション"
 
 msgid "Workflow and Tools for Participation"
 msgstr "参加するための流れとツール"
+
+msgid "Workflow of an OpenStack contribution and tools"
+msgstr "OpenStack コントリビューションのワークフローとツール"
 
 msgid ""
 "Workflow of an OpenStack contribution and tools (3h including 2h exercises)"

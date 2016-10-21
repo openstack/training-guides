@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-19 14:56+0000\n"
+"POT-Creation-Date: 2016-10-20 21:46+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -101,9 +101,6 @@ msgstr "Nachdem die Änderung akzeptiert wurde"
 
 msgid "After the last milestone"
 msgstr "Nach dem letzten Meilenstein"
-
-msgid "Agenda"
-msgstr "Agenda"
 
 msgid "Agreeable : 2-3"
 msgstr "Zustimmende: 2-3"
@@ -739,6 +736,9 @@ msgstr "Hoch"
 
 msgid "Hopefully we end up with a unique Lego creation!"
 msgstr "Am Ende haben wir hoffentlich eine einzigartige Lego-Kreation!"
+
+msgid "How OpenStack is made"
+msgstr "Wie Openstack gemacht ist"
 
 msgid "How OpenStack is made (3h including 1h30 exercises)"
 msgstr "Wie OpenStack gemacht ist (3 Stunden incl. 1,5 Stunden Übungen)"
@@ -1746,6 +1746,9 @@ msgstr "Fehlerbehebung ist in Arbeit, Fehler ist jemandem zugewiesen"
 
 msgid "Work sessions"
 msgstr "Arbeitssitzung"
+
+msgid "Workflow of an OpenStack contribution and tools"
+msgstr "Arbeitsablauf eines OpenStack Beitrages und Werkzeuge"
 
 msgid ""
 "Workflow of an OpenStack contribution and tools (3h including 2h exercises)"
