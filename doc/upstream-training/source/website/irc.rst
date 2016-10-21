@@ -2,12 +2,12 @@
 Setup IRC
 #########
 
-Linux
-======
+Linux & Windows
+===============
 
 Install an IRC Program
 ----------------------
-We'll install an IRC program called Hexchat.
+We will install an IRC program called Hexchat.
 
 For a Linux distributions like Debian, Ubuntu, or Mint open a terminal and
 type::
@@ -22,6 +22,11 @@ a terminal and type::
 For Fedora 22 or later open a terminal and type::
 
   sudo dnf install hexchat
+
+For Windows environment, download latest Hexchat installation binary from
+`Hexchat download <https://hexchat.github.io/downloads.html>`__ and
+install it.
+You will probably also need extra components shown just under Hexchat.
 
 Now open the hexchat program just like you would for any Linux program.
 
