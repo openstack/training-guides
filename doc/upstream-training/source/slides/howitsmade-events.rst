@@ -18,7 +18,7 @@ OpenStack Days
 
 - Regional 'Mini-Summit'
 - Hosted annually by local OpenStack User Groups and companies
-- Endorsed by the foundation
+- Endorsed by the Foundation
 - Growing in number (26 in 2016)
 
 Exercise 1
@@ -82,12 +82,15 @@ How does it work?
 =================
 
 - Not a classic conference with presenter and audience
+
   - more like a collaborative brainstorming session
+
 - Discuss upcoming features for the next release cycle
 - Not suitable to start learning about a topic
 
 .. image:: ./_assets/05-02-design-summit.png
-  :width: 90%
+  :width: 50%
+  :align: center
 
 Etherpads
 =========
@@ -117,6 +120,7 @@ List of sessions
 ================
 
 - Ocata
+
   * https://www.openstack.org/summit/barcelona-2016/summit-schedule/
 
 Forum
