@@ -67,7 +67,7 @@ Agenda - Day 2, afternoon
 
   - Code deep dive
 
-    - Devstack
+    - DevStack
     - Exercises
 
   - Docco deep dive

@@ -9,12 +9,12 @@ Install an IRC Program
 ----------------------
 We'll install an IRC program called Hexchat.
 
-For a linux distributions like Debian, Ubuntu, or Mint open a terminal and
+For a Linux distributions like Debian, Ubuntu, or Mint open a terminal and
 type::
 
   sudo apt install hexchat
 
-For a linux distributions like Redhat, Fedora 21 or earlier, or CentOS open
+For a Linux distributions like Redhat, Fedora 21 or earlier, or CentOS open
 a terminal and type::
 
   sudo yum install hexchat
@@ -23,7 +23,7 @@ For Fedora 22 or later open a terminal and type::
 
   sudo dnf install hexchat
 
-Now open the hexchat program just like you would for any linux program.
+Now open the hexchat program just like you would for any Linux program.
 
 
 Edit Nick Name Settings

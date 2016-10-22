@@ -14,7 +14,7 @@ OpenStack Foundation
 
   - Individual members: all of us
   - Institutional members: Platinum and Gold sponsors
-  - Further supporting companies and organisations
+  - Further supporting companies and organizations
 
 - Multi-layer group of leadership
 
@@ -25,7 +25,7 @@ OpenStack Foundation
 Board of Directors
 ==================
 
-- Startegic and financial oversight
+- Strategic and financial oversight
 - Representatives are elected from
 
   - Platinum member companies
@@ -54,8 +54,8 @@ Technical Committee ("TC")
 
   - https://www.openstack.org/foundation/tech-committee/
 
-User Committe ("UC")
-====================
+User Committee ("UC")
+=====================
 
 - Represents OpenStack users
 - Gathers feedback and consolidates requirements

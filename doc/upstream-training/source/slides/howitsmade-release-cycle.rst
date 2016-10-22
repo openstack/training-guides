@@ -31,7 +31,7 @@ Exercise
 
 - Look up the release schedule for the current and past two OpenStack
   release cycles
-- Identify common caracteristics of these cycles
+- Identify common characteristics of these cycles
 
   - Milestones
   - Deadlines
@@ -62,10 +62,10 @@ Planning - Design
 
 - Design activity is a continuous effort
 - Planning for a release cycle starts at the end of the previous cycle
-- It depends on each project how to organise the work at each cycle
+- It depends on each project how to organize the work at each cycle
 
   - Spec/blueprint freeze
-  - Prioritising items
+  - Prioritizing items
 
 - Generic intention behind planning
 
