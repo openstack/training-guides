@@ -52,6 +52,7 @@ Code Deep Dive
    :maxdepth: 1
 
    code-devstack.rst
+   code-exercises.rst
    branching-model.rst
 
 Archive
