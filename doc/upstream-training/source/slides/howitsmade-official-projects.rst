@@ -131,3 +131,5 @@ Exercise
 ========
 
 What kind of project do you want to contribute to?
+
+Write it on Etherpad.
