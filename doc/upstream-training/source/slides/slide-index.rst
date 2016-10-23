@@ -44,6 +44,7 @@ Workflow and Tools for Participation
    workflow-metrics.rst
    workflow-setup-and-first-patch.rst
    workflow-using-sandbox.rst
+   workflow-closing-exercise.rst
 
 Code Deep Dive
 ==============
