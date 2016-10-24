@@ -6,17 +6,20 @@ Closing Exercises
    :class: fill
    :width: 100%
 
-Exercise 1
-==========
+Exercise: Step 1
+================
 
-Create an .rst file with an outline of a 5 day trip to Spain.
-Include activities and times and any other details you think
-would help you sell the trip to someone.
+- Decide a country your group would like to visit with other groups
+  for sightseeing.
+- Design an 5-day travel itinerary with attractive places, foods, and
+  activities.
+- Create a draft .rst file with an outline for the itinerary.
 
-Submit the patch to the sandbox when you're finished.
+Create a new commit with the .rst file in openstack-dev/sandbox repository
+and submit the commit to Gerrit when you are finished.
 
-Example Itinerary
-=================
+Example Itinerary: Spain
+========================
 
 - Day 1
 
@@ -34,3 +37,35 @@ Example Itinerary
 - Day 5
 
   - 7:00 Day Trip to Madrid
+
+Exercise: Step 2
+================
+
+- Open an *upstream training* IRC meeting and make consensus
+  from various travel plans.
+
+- Example of IRC meeting commands:
+
+  - Do not change meeting name: *upstream training*.
+    The meeting name is reserved for upstream training activities.
+
+.. code-block:: console
+
+  #startmeeting upstream training
+  #topic Spain tour
+  #startvote Day 2: Cava & Winery Tour vs. Barcelona downtown
+  #endvote
+  #endmeeting
+
+Revise the original patch according to discussion results.
+
+Exercise: Step 3 and more
+=========================
+
+- Add bugs or write reviews the itinerary from other groups.
+- Include concrete activities and times and any other details
+  your group think as a blueprint.
+
+  - Register a blueprint
+    : https://blueprints.launchpad.net/openstack-dev-sandbox
+  - Use "Implements: [blueprint name]" in commit messages
