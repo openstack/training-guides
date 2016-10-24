@@ -7,17 +7,28 @@ Registration and Accounts
    :width: 100%
 
 
-http://launchpad.net/
-=====================
+Accounts
+========
 
-.. image:: ./_assets/12-01-launchpad-net.png
-  :width: 75%
+- OpenStack Foundation Account
+
+  - code contributions, wiki, vote, presentations
+
+- Launchpad
+
+  - bug tracking, blueprints
 
 https://www.openstack.org/join/
 ===============================
 
 .. image:: ./_assets/12-join-openstack-org.png
   :width: 100%
+
+http://launchpad.net/
+=====================
+
+.. image:: ./_assets/12-01-launchpad-net.png
+  :width: 75%
 
 http://review.openstack.org
 ===========================

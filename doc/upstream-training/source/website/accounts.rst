@@ -2,26 +2,6 @@
 Account Setup
 #############
 
-Setup Launchpad
-===============
-
-What is Launchpad?
-------------------
-Launchpad is how the OpenStack community does tracking for things like bug
-reports. This account is also how we will identify ourselves in OpenStack's
-code review system.
-
-Sign Up
--------
-#. Go to the `Launchpad login or create account page
-   <https://launchpad.net/+login>`_
-#. Click the **I am a new Ubuntu One user**.
-#. Fill in your email address, name, password, and accepting the terms of
-   services.
-
-.. image:: _assets/account-setup/1.png
-
-
 Setup OpenStack Foundation Account
 ==================================
 
@@ -50,6 +30,26 @@ Sign Up
 #. Complete the application.
 
 .. image:: _assets/account-setup/2.png
+
+
+Setup Launchpad
+===============
+
+What is Launchpad?
+------------------
+Launchpad is how the OpenStack community does tracking for things like bug
+reports. This account is also how we will identify ourselves in OpenStack's
+code review system.
+
+Sign Up
+-------
+#. Go to the `Launchpad login or create account page
+   <https://launchpad.net/+login>`_
+#. Click the **I am a new Ubuntu One user**.
+#. Fill in your email address, name, password, and accepting the terms of
+   services.
+
+.. image:: _assets/account-setup/1.png
 
 
 Setup Gerrit Account
