@@ -56,6 +56,15 @@ Code Deep Dive
    code-exercises.rst
    branching-model.rst
 
+Documentation Deep Dive
+=======================
+
+.. toctree::
+   :maxdepth: 1
+
+
+   docs.rst
+
 Archive
 =======
 
