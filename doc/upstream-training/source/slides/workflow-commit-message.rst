@@ -75,8 +75,3 @@ GIT commit message structure
 ============================
 
 .. image:: ./_assets/17-04-commit-message.png
-
-Exercise
-========
-
-Review each other’s commit messages on the draft
