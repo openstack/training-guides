@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-21 09:17+0000\n"
+"POT-Creation-Date: 2016-10-23 19:19+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -157,10 +157,6 @@ msgstr "Active Project Contributor (APC)"
 
 msgid "Active Technical Contributor (ATC)"
 msgstr "Active Technical Contributor (ATC)"
-
-msgid "Activities listed here are not realised at every Upstream training."
-msgstr ""
-"여기에 나열된 활동은 모든 업스트림 트레이닝에서 설명이 이루어지지는 않습니다."
 
 msgid "Add A New Connection"
 msgstr "새 연결 추가"
@@ -743,6 +739,9 @@ msgstr "일자"
 msgid "Date: February 18, 2016 (Thu)"
 msgstr "일자: 2016년 2월 18일 (목)"
 
+msgid "Day 1"
+msgstr "1일차"
+
 msgid "Day 1: How OpenStack is made"
 msgstr "1일차: OpenStack은 어떻게 만들어지는가"
 
@@ -751,6 +750,9 @@ msgstr "1일차: 소개"
 
 msgid "Day 1: Learn and practice Git, Gerrit, IRC"
 msgstr "1일차: Git, Gerrit, IRC 학습 및 실습"
+
+msgid "Day 2"
+msgstr "2일차"
 
 msgid "Day 2: Individual presentation of the contribution plan"
 msgstr "2일차: 컨트리뷰션 계획에 대한 개인별 발표"
@@ -1144,20 +1146,6 @@ msgid "For SUSE distributions open a terminal and type::"
 msgstr "SUSE 배포판의 경우 터미널을 열고 입력합니다::"
 
 msgid ""
-"For a linux distributions like Debian, Ubuntu, or Mint open a terminal and "
-"type::"
-msgstr ""
-"Debian, Ubuntu, 또는 Mint와 같은 Linux 배포판의 경우 터미널을 열고 입력합니"
-"다::"
-
-msgid ""
-"For a linux distributions like Redhat, Fedora 21 or earlier, or CentOS open "
-"a terminal and type::"
-msgstr ""
-"Redhat, Fedora 21, 또는 Centos와 같은 Linux 배포판의 경우 터미널을 열고 입력"
-"합니다::"
-
-msgid ""
 "For distributions like Debian, Ubuntu, or Mint open a terminal and type::"
 msgstr ""
 "Debian, Ubuntu, 또는 Mint와 같은 배포판의 경우 터미널을 열고 입력합니다::"
@@ -1314,9 +1302,6 @@ msgstr "커뮤니티 구성원 및 리더로부터 가이드를 받습니다"
 
 msgid "Get marketing from the OpenStack Foundation"
 msgstr "OpenStack Foundation으로부터 마케팅을 얻습니다"
-
-msgid "Get the code for the targeted contribution"
-msgstr "컨트리뷰션하고자 하는 대상에 대한 코드를 가져옵니다"
 
 msgid "Getting to Know Your Project"
 msgstr "프로젝트에 친숙해지기"
@@ -1490,9 +1475,6 @@ msgstr "Ian Y. Choi (교육, 조교, 멘토링)"
 
 msgid "Identify a target milestone"
 msgstr "대상 마일스톤을 파악합니다"
-
-msgid "Identify common caracteristics of these cycles"
-msgstr "해당 주기에 대해 공통의 특성을 식별해 봅니다"
 
 msgid ""
 "If all goes well in the second window we should see our our new connection "
@@ -1769,9 +1751,6 @@ msgstr "Invalid"
 
 msgid "Irena Berezovsky (assistant, mentor, english)"
 msgstr "Irena Berezovsky (조교, 멘터, 영어)"
-
-msgid "It depends on each project how to organise the work at each cycle"
-msgstr "각 주기에 대한 작업을 구성하는 방식은 각 프로젝트에 의존합니다"
 
 msgid "It is about"
 msgstr "다음과 관련되어 있습니다"
@@ -2191,21 +2170,11 @@ msgid ""
 "OpenStack"
 msgstr "OpenStack을 \"개발, 지원, 보호, 홍보\" 하기 위해 만들어진 비영리 재단"
 
-msgid ""
-"Not a classic conference with presenter and audience - more like a "
-"collaborative brainstorming session"
-msgstr ""
-"전통적인 발표자와 청중으로 된 컨퍼런스는 아닙니다 - 공동으로 브레인스토밍하"
-"는 세션에 더 가깝습니다"
-
 msgid "Not really a bug, but a suggested improvement"
 msgstr "실제 버그는 아니지만, 개선으로 제안됨"
 
 msgid "Not suitable to start learning about a topic"
 msgstr "주제에 관해 배우기를 시작하는 데에는 적합하지 않습니다"
-
-msgid "Now open the hexchat program just like you would for any linux program."
-msgstr "이제 임의의 linux 프로그램과 마찬가지로 hexchat 프로그램을 엽니다."
 
 msgid "Objectives"
 msgstr "목표"
@@ -2491,9 +2460,6 @@ msgstr "생각을 대중에게 (이야기할 수 있도록) 준비합니다"
 
 msgid "Prerequisites"
 msgstr "선행조건"
-
-msgid "Prioritising items"
-msgstr "아이템 중요도 구분"
 
 msgid "Prioritize bugs / bug triage"
 msgstr "버그 우선 순위 / 버그 분류"
@@ -3388,9 +3354,6 @@ msgstr ""
 msgid "We'll install an IRC program called Colloquy."
 msgstr "Colloquy 라는 IRC 프로그램을 설치할 것입니다."
 
-msgid "We'll install an IRC program called Hexchat."
-msgstr "Hexchat이라는 IRC 프로그램을 설치할 것입니다."
-
 msgid ""
 "We've designed a training program to help professional developers negotiate "
 "this hurdle. It shows them how to ensure their bug fix or feature is "
@@ -4190,9 +4153,6 @@ msgstr "버그를 수정하는 방법을 결정하는 것"
 
 msgid "developer work on a fix"
 msgstr "개발자가 수정 중에 있음"
-
-msgid "devstack.org"
-msgstr "devstack.org"
 
 msgid "documentation"
 msgstr "documentation"

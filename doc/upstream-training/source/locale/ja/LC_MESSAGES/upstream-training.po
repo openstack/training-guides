@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-20 21:46+0000\n"
+"POT-Creation-Date: 2016-10-23 19:19+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -698,6 +698,9 @@ msgstr "日付"
 msgid "Date: February 18, 2016 (Thu)"
 msgstr "日付: 2016年2月18日 (木)"
 
+msgid "Day 1"
+msgstr "1 日目"
+
 msgid "Day 1: How OpenStack is made"
 msgstr "1 日目: OpenStack はどのように作られているか"
 
@@ -706,6 +709,9 @@ msgstr "1 日目: はじめに"
 
 msgid "Day 1: Learn and practice Git, Gerrit, IRC"
 msgstr "1 日目: Git、Gerrit、IRC の学習と習熟"
+
+msgid "Day 2"
+msgstr "2 日目"
 
 msgid "Day 2: Individual presentation of the contribution plan"
 msgstr "2 日目: コントリビューション計画の個人発表"
@@ -1057,20 +1063,6 @@ msgstr ""
 "SUSE ディストリビューションの場合、ターミナルを開き、次のように入力します。"
 
 msgid ""
-"For a linux distributions like Debian, Ubuntu, or Mint open a terminal and "
-"type::"
-msgstr ""
-"Debian、Ubuntu、Mint などの Linux ディストリビューションの場合、ターミナルを"
-"開き、次のように入力します。"
-
-msgid ""
-"For a linux distributions like Redhat, Fedora 21 or earlier, or CentOS open "
-"a terminal and type::"
-msgstr ""
-"Red Hat、Fedora 21 以前、CentOS 以前などの Linux ディストリビューションの場"
-"合、ターミナルを開き、次のように入力します。"
-
-msgid ""
 "For distributions like Debian, Ubuntu, or Mint open a terminal and type::"
 msgstr ""
 "Debian、Ubuntu、Mint などのディストリビューションの場合、ターミナルを開き、次"
@@ -1207,9 +1199,6 @@ msgstr "コミュニティーメンバーやリーダーからの助言をもら
 
 msgid "Get marketing from the OpenStack Foundation"
 msgstr "OpenStack Foundation によるマーケティングが受けられます"
-
-msgid "Get the code for the targeted contribution"
-msgstr "コントリビューション予定のコードの取得"
 
 msgid "Getting to Know Your Project"
 msgstr "プロジェクトを知ろう"
@@ -1978,21 +1967,11 @@ msgid ""
 "OpenStack"
 msgstr "OpenStack を「開発、支援、保護、促進」するために作成された非営利団体"
 
-msgid ""
-"Not a classic conference with presenter and audience - more like a "
-"collaborative brainstorming session"
-msgstr ""
-"昔ながらの発表者と参加者によるコンファレンスではありません。より協調的なブレ"
-"インストーミングのセッションです。"
-
 msgid "Not really a bug, but a suggested improvement"
 msgstr "実際のバグではなく、改善提案"
 
 msgid "Not suitable to start learning about a topic"
 msgstr "トピックについて学び始めることに適していません"
-
-msgid "Now open the hexchat program just like you would for any linux program."
-msgstr "他の Linux プログラムと同じように、hexchat プログラムを開きます。"
 
 msgid "Objectives"
 msgstr "目的"
@@ -3066,9 +3045,6 @@ msgstr ""
 msgid "We'll install an IRC program called Colloquy."
 msgstr "Colloquy IRC プログラムをインストールします。"
 
-msgid "We'll install an IRC program called Hexchat."
-msgstr "Hexchat IRC プログラムをインストールします。"
-
 msgid ""
 "We've designed a training program to help professional developers negotiate "
 "this hurdle. It shows them how to ensure their bug fix or feature is "
@@ -3861,9 +3837,6 @@ msgstr "バグ修正方法の判断"
 
 msgid "developer work on a fix"
 msgstr "開発者は修正に取り組む"
-
-msgid "devstack.org"
-msgstr "devstack.org"
 
 msgid "documentation"
 msgstr "documentation"
