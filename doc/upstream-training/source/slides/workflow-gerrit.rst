@@ -43,8 +43,3 @@ patchset diffs
 
 .. image:: ./_assets/14-17-patchset-diffs.png
   :width: 100%
-
-Exercise
-========
-
-Review a patch out in the sandbox repository and invite other reviewers.
