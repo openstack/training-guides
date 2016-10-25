@@ -41,13 +41,16 @@ For more information, see :doc:`upstream-details`.
 When & Where to get OpenStack Upstream Training
 ===============================================
 
-The next session of the OpenStack Upstream Training will be held in Barcelona,
-before the OpenStack Summit Barcelona 2016:
+OpenStack Upstream Training in Barcelona has ended.
+The next session of the OpenStack Upstream Training will be held in Boston,
+just before the `OpenStack Summit Boston 2017
+<https://www.openstack.org/summit/boston-2017/>`_.
 
-**Sunday, October 23, 2016 at 1:00 p.m. to 6:00 p.m.
-- Monday, October 24, 2016 at 09:00 a.m. to 6:00 p.m. (local time)**
+.. **Sunday, October 23, 2016 at 1:00 p.m. to 6:00 p.m.
+.. - Monday, October 24, 2016 at 09:00 a.m. to 6:00 p.m. (local time)**
 
-For more information and registration, see the `OpenStack Academy page
+For more information about the last session of the OpenStack Upstream Training
+in Barcelona, see the `OpenStack Academy page
 <https://www.openstack.org/summit/barcelona-2016/openstack-academy/>`_.
 
 How to prepare
