@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-23 19:19+0000\n"
+"POT-Creation-Date: 2016-10-25 03:18+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1286,9 +1286,6 @@ msgstr "Technische Konflikte lösen"
 
 msgid "Review"
 msgstr "Überprüfung"
-
-msgid "Review each other’s commit messages on the draft"
-msgstr "Überprüfen jeder Commit-Nachricht im Entwurf"
 
 msgid "Review in gerrit"
 msgstr "Überprüfen in Gerrit"
