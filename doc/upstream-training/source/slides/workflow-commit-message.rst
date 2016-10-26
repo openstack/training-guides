@@ -34,8 +34,10 @@ Good: new API + new feature
 Contents of a Commit Message (Summary Line)
 ===========================================
 
-- Limited to 50 characters
 - Succinctly describes patch content
+- Verb in the present tense and object
+- Limited to 50 characters
+- Should not end with a period
 
 Contents of a Commit Message (Body)
 ===================================
@@ -44,6 +46,7 @@ Contents of a Commit Message (Body)
 - Explanation of issue being solved and why it should be fixed
 - Explain how problem is solved
 - Other possible content
+
     - Does it improve code structure?
     - Does it fix limitations of the current code?
     - References to other relevant patches?
