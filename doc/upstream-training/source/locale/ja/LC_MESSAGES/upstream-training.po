@@ -4,14 +4,14 @@
 # Yoshiki Eguchi <yoshiki.eguchi@gmail.com>, 2016. #zanata
 msgid ""
 msgstr ""
-"Project-Id-Version: Upstream Training Guide 0.0.1\n"
+"Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-25 03:18+0000\n"
+"POT-Creation-Date: 2016-10-28 00:08+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-10-10 12:49+0000\n"
-"Last-Translator: Akihiro Motoki <amotoki@gmail.com>\n"
+"PO-Revision-Date: 2016-10-31 09:44+0000\n"
+"Last-Translator: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
 "X-Generator: Zanata 3.7.3\n"
@@ -94,6 +94,9 @@ msgstr ""
 "私たちは、このイベントを実現させたすべての方々、とくにトレーニングをリードし"
 "た Loic Dachary、Stefano Maffulli、Tim Freund、Marton Kiss に感謝しています。"
 
+msgid "A bunch of scripts to build a full OpenStack environment"
+msgstr "完全な OpenStack 環境を構築するためのスクリプト群"
+
 msgid ""
 "A message dialog window will come up. Type the following to register your "
 "nick name with nickserv replacing **mysecretpassword** and **test@domain."
@@ -121,6 +124,9 @@ msgid ""
 "participant"
 msgstr "開催 1 週間前: 各受講者によるコントリビューションの選択、メール経由"
 
+msgid "API"
+msgstr "API"
+
 msgid "APIImpact"
 msgstr "APIImpact"
 
@@ -135,6 +141,9 @@ msgstr "概要"
 
 msgid "Account Setup"
 msgstr "アカウントのセットアップ"
+
+msgid "Accounts"
+msgstr "アカウント"
 
 msgid "Active Project Contributor (APC)"
 msgstr "Active Project Contributor (APC)"
@@ -373,6 +382,9 @@ msgstr "ドキュメント関連のバグ、ドキュメントに影響するも
 msgid "Bug report"
 msgstr "バグ報告"
 
+msgid "Bug reports"
+msgstr "バグ報告"
+
 msgid "Bug status"
 msgstr "バグのステータス"
 
@@ -568,6 +580,9 @@ msgstr "登録を完了します。"
 msgid "Configuration"
 msgstr "設定"
 
+msgid "Configuration Reference and CLI Reference"
+msgstr "Configuration Reference and CLI Reference"
+
 msgid "Configure Git"
 msgstr "Git の設定"
 
@@ -612,6 +627,9 @@ msgstr "コントリビューション計画 (2 時間)"
 
 msgid "Contribution Simulation (2 hour)"
 msgstr "コントリビューションのシミュレーション (2 時間)"
+
+msgid "Contributor guide"
+msgstr "Contributor guide"
 
 msgid "Contributor meetups"
 msgstr "コントリビューターミートアップ"
@@ -731,6 +749,9 @@ msgstr "デバッグ"
 msgid "DefCore (or what cloud can be labeled as OpenStack)"
 msgstr "DefCore (どのクラウドが OpenStack と名乗ることができるか)"
 
+msgid "Demo environment"
+msgstr "デモ環境"
+
 msgid "Depends-On"
 msgstr "Depends-On"
 
@@ -745,6 +766,9 @@ msgstr "プロジェクトの社会的なグループを判断する。"
 
 msgid "Determine the time frame"
 msgstr "時間軸の判断"
+
+msgid "DevStack"
+msgstr "DevStack"
 
 msgid "Developers"
 msgstr "開発者"
@@ -1082,14 +1106,6 @@ msgstr ""
 "これまでのトレーニングや地域毎の Upstream Training の情報は、 :doc:`upstream-"
 "archives` にあります。"
 
-msgid ""
-"For more information and registration, see the `OpenStack Academy page "
-"<https://www.openstack.org/summit/barcelona-2016/openstack-academy/>`_."
-msgstr ""
-"詳しい情報と登録方法については `OpenStack Academy のページ <https://www."
-"openstack.org/summit/barcelona-2016/openstack-academy/>`_ を参照してくださ"
-"い。"
-
 msgid "For more information, see :doc:`upstream-details`."
 msgstr "詳細は :doc:`upstream-details` を参照してください。"
 
@@ -1306,6 +1322,9 @@ msgstr ""
 msgid "High"
 msgstr "High (高)"
 
+msgid "High Availability Guide"
+msgstr "High Availability Guide"
+
 msgid "Highlight and copy the output."
 msgstr "出力をハイライトして、コピーします。"
 
@@ -1343,8 +1362,14 @@ msgstr "他の試験に向けた準備"
 msgid "How to use OpenStack"
 msgstr "OpenStack の使い方"
 
+msgid "Hypervisor Tuning Guide"
+msgstr "Hypervisor Tuning Guide"
+
 msgid "IRC"
 msgstr "IRC"
+
+msgid "IRC Channels"
+msgstr "IRC チャンネル"
 
 msgid "IRC meetings: http://eavesdrop.openstack.org/"
 msgstr "IRC ミーティング: http://eavesdrop.openstack.org/"
@@ -1598,6 +1623,9 @@ msgstr "git review のインストール"
 msgid "Installation"
 msgstr "インストール"
 
+msgid "Installs services from source"
+msgstr "ソースからサービスのインストール"
+
 msgid "Institutional members: Platinum and Gold sponsors"
 msgstr "組織メンバー：プラチナスポンサーおよびゴールドスポンサー"
 
@@ -1682,6 +1710,12 @@ msgstr "Lana Brindley - Docs (mentoring, assistant)"
 msgid "Last published release candidate"
 msgstr "最後に公開されたリリース候補版"
 
+msgid "Launchpad"
+msgstr "Launchpad"
+
+msgid "Launchpad (openstack-dev-sandbox)"
+msgstr "Launchpad (openstack-dev-sandbox)"
+
 msgid ""
 "Launchpad is how the OpenStack community does tracking for things like bug "
 "reports. This account is also how we will identify ourselves in OpenStack's "
@@ -1761,6 +1795,9 @@ msgstr "1 行は 72 文字以内にします"
 msgid "Linux"
 msgstr "Linux"
 
+msgid "Linux & Windows"
+msgstr "Linux & Windows"
+
 msgid "List of approved tags"
 msgstr "承認済みタグの一覧"
 
@@ -1793,6 +1830,9 @@ msgstr "Mac OS"
 
 msgid "Mac OS & Linux"
 msgstr "Mac OS & Linux"
+
+msgid "Mailing Lists"
+msgstr "メーリングリスト"
 
 msgid "Make a new branch in your local repository"
 msgstr "手元のリポジトリーで新しいブランチを作成します"
@@ -1865,6 +1905,9 @@ msgstr "TC がすべてのプロジェクトが満たすことを要求してい
 
 msgid "Mentors/helpers"
 msgstr "メンター/助手"
+
+msgid "Merged!"
+msgstr "マージ!"
 
 msgid "Methodologies"
 msgstr "手法"
@@ -2033,6 +2076,9 @@ msgstr ""
 "連絡先情報の保存に成功すると、郵便での住所 (mailing address) の入力欄のすぐ上"
 "に **\"Contact information last updated ...\"** という行が表示されます。"
 
+msgid "Online Communication"
+msgstr "オンラインコミュニケーション"
+
 msgid ""
 "Online section: 10 one-hour individual mentoring sessions over a period of 4 "
 "to 10 weeks"
@@ -2084,6 +2130,9 @@ msgstr "OpenStack Design Summit"
 
 msgid "OpenStack Foundation"
 msgstr "OpenStack Foundation"
+
+msgid "OpenStack Foundation Account"
+msgstr "OpenStack Foundation Account"
 
 msgid "OpenStack Governance"
 msgstr "OpenStack ガバナンス"
@@ -2139,6 +2188,9 @@ msgstr ""
 
 msgid "Orchestration service"
 msgstr "Orchestration サービス"
+
+msgid "Other"
+msgstr "その他"
 
 msgid "Other possible content"
 msgstr "その他記載する可能性があるものとしては、"
@@ -2415,6 +2467,12 @@ msgstr "SSH 鍵は必ずペアで生成されます。"
 msgid "Sahid Ferdjaoui (assistant, french, english)"
 msgstr "Sahid Ferdjaoui (assistant, french, english)"
 
+msgid "Sandbox Launchpad"
+msgstr "Sandbox Launchpad"
+
+msgid "Sandbox repository"
+msgstr "Sandbox リポジトリー"
+
 msgid "Say a few words about yourself"
 msgstr "簡単に自己紹介をしましょう"
 
@@ -2469,8 +2527,14 @@ msgstr "署名済みアグリーメント"
 msgid "Signing it"
 msgstr "サイン（署名）"
 
+msgid "Single and multi node setup"
+msgstr "シングルノード・マルチノードのセットアップ"
+
 msgid "Sit together"
 msgstr "一緒に座りましょう"
+
+msgid "Sites"
+msgstr "サイト"
 
 msgid ""
 "Slides are made with `Hieroglyph <http://hieroglyph.io>`_. To skim through "
@@ -2510,6 +2574,9 @@ msgid ""
 msgstr ""
 "ソースファイルは `governance リポジトリー <http://git.openstack.org/cgit/"
 "openstack/governance/tree/reference/projects.yaml>`_ に置かれています。"
+
+msgid "Specialty teams"
+msgstr "専門チーム"
 
 msgid "Speed up the acceptance"
 msgstr "受け入れを高速化する。"
@@ -2742,13 +2809,6 @@ msgstr ""
 "バグを修正する必要のあるマイルストーン、または修正されたマイルストーンやバー"
 "ジョン"
 
-msgid ""
-"The next session of the OpenStack Upstream Training will be held in "
-"Barcelona, before the OpenStack Summit Barcelona 2016:"
-msgstr ""
-"次回 OpenStack Upstream Training は、OpenStack Summit Barcelona 2016 の直前に"
-"バルセロナで開催されます。"
-
 msgid "The official list of projects:"
 msgstr "プロジェクトの公式な一覧"
 
@@ -2876,6 +2936,9 @@ msgstr ""
 msgid "Tokyo, Japan"
 msgstr "日本 東京"
 
+msgid "Tox"
+msgstr "Tox"
+
 msgid "Trainers"
 msgstr "講師"
 
@@ -2940,6 +3003,9 @@ msgstr "テストの更新や追加を行います (ユニットテスト、機�
 
 msgid "UpgradeImpact"
 msgstr "UpgradeImpact"
+
+msgid "Uploading a new patchset"
+msgstr "新しいパッチセットのアップロード"
 
 msgid "Upstream Training in Japan"
 msgstr "日本ローカル Upstream Training"
@@ -3132,6 +3198,9 @@ msgstr "なぜこのトレーニングに参加しているのか？何を期待
 
 msgid "Wiki"
 msgstr "Wiki"
+
+msgid "Wiki Pages"
+msgstr "Wiki ページ"
 
 msgid "Wishlist"
 msgstr "Wishlist (要望)"
@@ -3339,6 +3408,9 @@ msgstr ""
 
 msgid "`Documentation <https://wiki.openstack.org/wiki/Documentation/HowTo>`_"
 msgstr "`Documentation <https://wiki.openstack.org/wiki/Documentation/HowTo>`_"
+
+msgid "`Documentation Deep Dive <docs.html>`_"
+msgstr "`Documentation ディープダイブ <docs.html>`_"
 
 msgid ""
 "`Etherpad for Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
@@ -3725,6 +3797,24 @@ msgstr "``cd devstack; ./stack.sh``"
 msgid "``git clone https://git.openstack.org/openstack-dev/devstack``"
 msgstr "``git clone https://git.openstack.org/openstack-dev/devstack``"
 
+msgid "``openstack-doc-tools``"
+msgstr "``openstack-doc-tools``"
+
+msgid "``openstack-manuals``"
+msgstr "``openstack-manuals``"
+
+msgid "``openstackdocstheme``"
+msgstr "``openstackdocstheme``"
+
+msgid "``security-doc``"
+msgstr "``security-doc``"
+
+msgid "``training-guides``"
+msgstr "``training-guides``"
+
+msgid "``training-labs``"
+msgstr "``training-labs``"
+
 msgid "`bugfixing <https://wiki.openstack.org/wiki/Bugs#Bugfixing>`_"
 msgstr "`バグ修正 <https://wiki.openstack.org/wiki/Bugs#Bugfixing>`_"
 
@@ -3816,6 +3906,9 @@ msgstr "重複を確認する"
 msgid "checkout the latest stable branch"
 msgstr "最新の stable ブランチのチェックアウト"
 
+msgid "code contributions, wiki, vote, presentations"
+msgstr "コード貢献、Wiki、投票、プレゼン"
+
 msgid ""
 "core developer or a member of the project bug supervision team => "
 "Importance: <Bug impact>"
@@ -3893,6 +3986,15 @@ msgstr "どのようにアップストリームと関わるか"
 msgid "http://activity.openstack.org"
 msgstr "http://activity.openstack.org"
 
+msgid "http://developer.openstack.org"
+msgstr "http://developer.openstack.org"
+
+msgid "http://docs.openstack.org"
+msgstr "http://docs.openstack.org"
+
+msgid "http://docs.openstack.org/contributor-guide/index.html"
+msgstr "http://docs.openstack.org/contributor-guide/index.html"
+
 msgid "http://docs.openstack.org/infra/manual/developers.html#account-setup"
 msgstr "http://docs.openstack.org/infra/manual/developers.html#account-setup"
 
@@ -3922,8 +4024,23 @@ msgstr "http://review.openstack.org"
 msgid "http://stackalytics.com"
 msgstr "http://stackalytics.com"
 
+msgid "https://bugs.launchpad.net/openstack-api-site"
+msgstr "https://bugs.launchpad.net/openstack-api-site"
+
+msgid "https://bugs.launchpad.net/openstack-dev-sandbox"
+msgstr "https://bugs.launchpad.net/openstack-dev-sandbox"
+
+msgid "https://bugs.launchpad.net/openstack-manuals"
+msgstr "https://bugs.launchpad.net/openstack-manuals"
+
 msgid "https://etherpad.openstack.org/p/upstream-training-vancouver"
 msgstr "https://etherpad.openstack.org/p/upstream-training-vancouver"
+
+msgid "https://git.openstack.org/cgit/openstack-dev/sandbox"
+msgstr "https://git.openstack.org/cgit/openstack-dev/sandbox"
+
+msgid "https://launchpad.net/openstack-dev-sandbox"
+msgstr "https://launchpad.net/openstack-dev-sandbox"
 
 msgid "https://review.openstack.org/#/settings/ssh-keys"
 msgstr "https://review.openstack.org/#/settings/ssh-keys"
