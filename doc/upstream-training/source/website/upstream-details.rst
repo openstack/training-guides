@@ -84,15 +84,10 @@ Introduction
 Introduction
 ~~~~~~~~~~~~
 
-* `Training introduction <00-00-introduction.html>`__
-* `OpenStack as software <00-01-openstack-as-software.html>`__
-* `OpenStack as a community <00-02-openstack-as-community.html>`__
-
 How OpenStack is made (3h including 1h30 exercises)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * `Release cycle <https://wiki.openstack.org/wiki/Release_Cycle>`_
-  (`slides <01-release-cycle.html>`__)
 
   * `Planning (Design, Discuss and Target) <https://wiki.openstack.org/wiki/Release_Cycle#Planning_.28Design.2C_Discuss_and_Target.29>`_
   * `Implementation (Milestone iterations <https://wiki.openstack.org/wiki/Release_Cycle#Implementation_.28Milestone_iterations.29>`_
@@ -106,7 +101,7 @@ How OpenStack is made (3h including 1h30 exercises)
     find the URL of a document or a patch that belongs to each of the above
     steps.
 
-* Relevant actors (`slides <02-relevant-actors.html>`__)
+* Relevant actors
 
   * `committers <http://www.stackalytics.com/?release=kilo&metric=commits&project_type=integrated&module=&company=&user_id=>`_
     companies
@@ -115,7 +110,6 @@ How OpenStack is made (3h including 1h30 exercises)
   * Your management
 
 * `OpenStack Governance <http://governance.openstack.org/>`_
-  (`slides <03-technical-committee.html>`__)
 
   * `Technical Committee <http://governance.openstack.org/reference/charter.html>`_
   * `The role of the Technical Committee <http://governance.openstack.org/reference/charter.html#mission>`_
@@ -130,7 +124,6 @@ How OpenStack is made (3h including 1h30 exercises)
   * Exercise: each APC / ATC in the class add a URL to the etherpad proving it
 
 * `"Big Tent" and tags <http://governance.openstack.org/reference/new-projects-requirements.html>`_
-  (`slides <04-program-ecosystem.html>`__)
 
   * `OpenStack Project Teams <http://governance.openstack.org/reference/projects/index.html>`__
   * `List of approved tags <http://governance.openstack.org/reference/tags/index.html>`_
@@ -140,7 +133,6 @@ How OpenStack is made (3h including 1h30 exercises)
   * Exercise: What kind of Program do you contribute to ?
 
 * `Design summits <https://wiki.openstack.org/wiki/Design_Summit>`_
-  (`slides <05-design-summit.html>`__)
 
   * `Propose sessions <https://wiki.openstack.org/wiki/Design_Summit/Planning>`_
   * `List of sessions <https://libertydesignsummit.sched.org/overview/type/design+summit#.VVeYTt-uNNw>`_
@@ -149,7 +141,6 @@ How OpenStack is made (3h including 1h30 exercises)
     etherpad, review two proposals
 
 * `IRC meetings <https://wiki.openstack.org/wiki/Meetings>`_
-  (`slides <06-irc-meetings.html>`__)
 
   * `IRC Services <http://docs.openstack.org/infra/system-config/irc.html>`_
   * `meetbot <http://wiki.debian.org/MeetBot>`_
@@ -170,7 +161,6 @@ Workflow of an OpenStack contribution and tools (3h including 2h exercises)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * `DevStack <http://docs.openstack.org/developer/devstack/>`_
-  (`slides <11-devstack.html>`__)
 
   * Ubuntu or Fedora
   * ``git clone https://git.openstack.org/openstack-dev/devstack``
@@ -179,14 +169,13 @@ Workflow of an OpenStack contribution and tools (3h including 2h exercises)
   * Exercise: get the code for the targeted contribution
 
 * `How_To_Contribute URL <https://wiki.openstack.org/wiki/How_To_Contribute>`_
-  (`slides <12-howtocontribute.html>`__)
 
   * `Puppet <https://wiki.openstack.org/wiki/Puppet#Contributing_to_the_modules>`_
   * `Documentation <https://wiki.openstack.org/wiki/Documentation/HowTo>`_
   * `Training guides <https://wiki.openstack.org/wiki/Training-guides#How_To>`_
   * Exercise: Apply for individual membership and sign the CLA
 
-* `Launchpad <https://help.launchpad.net/>`_ (`slides <13-launchpad.html>`__)
+* `Launchpad <https://help.launchpad.net/>`_
 
   * `Blueprints <https://wiki.openstack.org/wiki/Blueprints>`_
   * `Bugs <https://wiki.openstack.org/wiki/Bugs>`_
@@ -200,7 +189,6 @@ Workflow of an OpenStack contribution and tools (3h including 2h exercises)
   * Exercise: review other launchpad bugs and improve yours
 
 * How to contribute
-  (`slides <14-gerrit.html>`__)
 
   * `Developer’s Guide <http://docs.openstack.org/infra/manual/developers.html>`_
   * `Account setup <http://docs.openstack.org/infra/manual/developers.html#account-setup>`_
@@ -212,16 +200,13 @@ Workflow of an OpenStack contribution and tools (3h including 2h exercises)
   * Exercise: push a WIP or draft and invite reviewers
 
 * Branching model
-  (`slides <15-branching-model.html>`__)
 
   * `Branch model <https://wiki.openstack.org/wiki/Branch_Model>`_
   * `Stable branch <https://wiki.openstack.org/wiki/StableBranch>`_
   * Exercise: checkout the latest stable branch
 
 * `Code Review <http://docs.openstack.org/infra/manual/developers.html#code-review>`_
-  (`slides <16-reviewing.html>`__)
 * `Peer Review <http://docs.openstack.org/infra/manual/developers.html#peer-review>`_
-  (`slides <17-commit-message.html>`__)
 
   * `Git Commit Good Practice <https://wiki.openstack.org/wiki/GitCommitMessages>`_
   * Gerrit Documentation: `Gerrit Code Review - A Quick Introduction <https://review.openstack.org/Documentation/intro-quick.html>`_
@@ -229,7 +214,6 @@ Workflow of an OpenStack contribution and tools (3h including 2h exercises)
   * Exercise: review each other messages on the draft
 
 * `Jenkins (Automated testing) <http://docs.openstack.org/infra/manual/developers.html#automated-testing>`_
-  (`slides <18-jenkins.html>`__)
 
   * Exercise: add an error and match it to the Jenkins message
 
@@ -240,7 +224,6 @@ The Contribution Process (1 hour)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Overview of the contribution process
-(`slides <19-training-contribution-process.html>`__)
 
 * Take the pulse of the project
 * Figure out who's behind it
@@ -267,7 +250,6 @@ Lego applied to Free Software contributions (15 min)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Lego applied to Free Software contributions
-(`slides <20-training-agile-for-contributors.html>`__)
 
 These slides prepare students for the Lego activity, and ensure they
 understand the metaphors in use. The Lego in the exercise represents the
