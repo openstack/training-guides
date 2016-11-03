@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-01 09:04+0000\n"
+"POT-Creation-Date: 2016-11-02 09:00+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-11-02 02:41+0000\n"
+"PO-Revision-Date: 2016-11-03 01:57+0000\n"
 "Last-Translator: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -203,7 +203,10 @@ msgid "Agenda - Day 1"
 msgstr "アジェンダ - 1 日目"
 
 msgid "Agenda - Day 2, afternoon"
-msgstr "アジェンダ - 2 日目、午後"
+msgstr "アジェンダ - 2 日目 午後"
+
+msgid "Agenda - Day 2, morning"
+msgstr "アジェンダ - 2 日目 午前"
 
 msgid "Agile"
 msgstr "アジャイル"
@@ -592,6 +595,9 @@ msgstr "コード"
 msgid "Code Deep Dive"
 msgstr "コード Deep Dive"
 
+msgid "Code deep dive"
+msgstr "コードディープダイブ"
+
 msgid "Collaboration tools"
 msgstr "コラボレーションツール"
 
@@ -888,7 +894,7 @@ msgid "DocImpact"
 msgstr "DocImpact"
 
 msgid "Docco deep dive"
-msgstr "Docco ディープダイブ"
+msgstr "ドキュメントディープダイブ"
 
 msgid "Documentation"
 msgstr "ドキュメント"
@@ -1249,7 +1255,7 @@ msgid "Forbidden"
 msgstr "禁止"
 
 msgid "Form groups of 4 (Actual group size depends on the class size)"
-msgstr "4 人のグループを作ります (実際の人数はクラスのサイズ次第)"
+msgstr "4 人グループを作ります (人数はクラスの参加者数次第)"
 
 msgid "Forum"
 msgstr "フォーラム"
@@ -1349,7 +1355,7 @@ msgid "Gerrit will automatically set the status"
 msgstr "Gerrit が自動的に状態を変更します"
 
 msgid "Get guidance from community members and leaders"
-msgstr "コミュニティーメンバーやリーダーからの助言をもらえます"
+msgstr "コミュニティーメンバーやリーダーから助言をもらえます"
 
 msgid "Get marketing from the OpenStack Foundation"
 msgstr "OpenStack Foundation によるマーケティングが受けられます"
@@ -1498,7 +1504,7 @@ msgid "How to contribute (`slides <14-gerrit.html>`__)"
 msgstr "貢献方法 (`スライド <14-gerrit.html>`__)"
 
 msgid "How to deploy OpenStack"
-msgstr "OpenStack のデプロイ方法"
+msgstr "OpenStack のインストール方法"
 
 msgid "How to prepare"
 msgstr "準備方法"
@@ -1806,6 +1812,12 @@ msgstr "プロジェクトに関わろう"
 msgid "Interactive, hands-on class"
 msgstr "対話型のハンズオン"
 
+msgid "Introducing OpenStack as a Community"
+msgstr "コミュニティーとしての OpenStack 概要"
+
+msgid "Introducing OpenStack as a Software"
+msgstr "ソフトウェアとしての OpenStack 概要"
+
 msgid "Introduction"
 msgstr "はじめに"
 
@@ -1828,7 +1840,7 @@ msgid "It is the projects decision to follow the OpenStack release"
 msgstr "リリースを OpenStack リリースに合わせるかはプロジェクトが決定できます"
 
 msgid "Its activities are under the oversight of the TC"
-msgstr "活動は TC の監視下におかれます"
+msgstr "活動は TC の監督下におかれます"
 
 msgid "Japan OpenStack User Group has held the Upstream Training in Japan."
 msgstr "日本OpenStackユーザ会は、日本版 Upstream Training を開催してきました。"
@@ -1897,10 +1909,10 @@ msgstr ""
 "るためのものです。"
 
 msgid "Learn about the community"
-msgstr "コミュニティーについて学びます"
+msgstr "コミュニティーについて"
 
 msgid "Learn how to participate in OpenStack"
-msgstr "OpenStack に参加する方法を学びます"
+msgstr "OpenStack に参加する方法"
 
 msgid "Learn what distinguishes good work flow from bad work flow"
 msgstr "良いワークフローと悪いワークフローの違いを学習する。"
@@ -2364,7 +2376,7 @@ msgid "OpenStack Upstream Training Details"
 msgstr "OpenStack Upstream Training 詳細"
 
 msgid "OpenStack Upstream Training Introductions"
-msgstr "OpenStack Upstream Training の紹介"
+msgstr "OpenStack Upstream Training 概要"
 
 msgid "OpenStack and Agile"
 msgstr "OpenStack とアジャイル"
@@ -2442,6 +2454,9 @@ msgstr "PTL"
 
 msgid "Packaging"
 msgstr "パッケージ"
+
+msgid "Parallel modules"
+msgstr "並行モジュール"
 
 msgid "Part of the OpenStack project's functional testing"
 msgstr "OpenStack プロジェクトの機能テストの一部"
@@ -2602,6 +2617,9 @@ msgstr "連絡先情報の登録"
 msgid "Register Your Nick Name"
 msgstr "ニックネームの登録"
 
+msgid "Registration and accounts"
+msgstr "登録およびアカウント"
+
 msgid "Regressions and integration issues"
 msgstr "リグレッションと統合の問題"
 
@@ -2628,6 +2646,9 @@ msgstr "リリースモデル"
 
 msgid "Release preparation"
 msgstr "リリース準備"
+
+msgid "Release process is managed by the Release Management team"
+msgstr "リリースプロセスは Release Management チームにより管理される"
 
 msgid "Relevance metrics"
 msgstr "関連する指標"
@@ -2748,7 +2769,7 @@ msgid "Sandbox repository"
 msgstr "Sandbox リポジトリー"
 
 msgid "Say a few words about yourself"
-msgstr "簡単に自己紹介をしましょう"
+msgstr "簡単に自己紹介しましょう"
 
 msgid "Second day"
 msgstr "2 日目"
@@ -2936,7 +2957,7 @@ msgid "Submit the blueprints and/or specs"
 msgstr "ブループリントやスペックの提出"
 
 msgid "Submit to the TC oversight"
-msgstr "TC の監視の元に入る"
+msgstr "TC の監督の元に入る"
 
 msgid "Successfully contribute one real world patch to an OpenStack component"
 msgstr ""
@@ -3246,6 +3267,9 @@ msgstr "日本 東京"
 msgid "Tox"
 msgstr "Tox"
 
+msgid "Tracking"
+msgstr "トラッキング"
+
 msgid "Trainers"
 msgstr "講師"
 
@@ -3350,6 +3374,9 @@ msgstr ""
 msgid "Use it for exercises"
 msgstr "このチャンネルを練習に使ってください"
 
+msgid "Use your IRC client or Web IRC:"
+msgstr "お使いの IRC クライアントか Web IRC を使用します"
+
 msgid "Used as"
 msgstr "以下に使用される"
 
@@ -3376,6 +3403,9 @@ msgstr "LEGO によるコミュニティーの再現"
 
 msgid "Using Linux 'screen'"
 msgstr "Linux の 'screen' の利用"
+
+msgid "Using Sandbox for Practice"
+msgstr "Sandbox を使用した実践"
 
 msgid "Various use cases including Enterprise/Telecom/etc."
 msgstr "エンタープライズ/テレコム向けなどさまざまなユースケース"
@@ -3613,6 +3643,9 @@ msgstr "ワーキンググループ"
 msgid "Working software over comprehensive documentation"
 msgstr "包括的なドキュメントよりも動作するソフトウェアを"
 
+msgid "Write it on Etherpad."
+msgstr "Etherpad に書いてください。"
+
 msgid "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 msgstr "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 
@@ -3826,13 +3859,12 @@ msgstr ""
 msgid ""
 "`Introducing OpenStack as a Community <intro-openstack-as-community.html>`_"
 msgstr ""
-"`コミュニティーとしての OpenStack の紹介 <intro-openstack-as-community."
-"html>`_"
+"`コミュニティーとしての OpenStack 概要 <intro-openstack-as-community.html>`_"
 
 msgid ""
 "`Introducing OpenStack as a Software <intro-openstack-as-software.html>`_"
 msgstr ""
-"`ソフトウェアとしての OpenStack の紹介 <intro-openstack-as-software.html>`_"
+"`ソフトウェアとしての OpenStack 概要 <intro-openstack-as-software.html>`_"
 
 msgid "`Introduction <intro-introduction.html>`_"
 msgstr "`はじめに <intro-introduction.html>`_"
@@ -3888,6 +3920,14 @@ msgstr ""
 "Meetings#Technical_Committee_meeting>`_"
 
 msgid ""
+"`Mentoring <https://wiki.openstack.org/wiki/Mentors>`_ is run by the Women "
+"of OpenStack group, where mentees are guided through the OpenStack processes."
+msgstr ""
+"`メンタリング <https://wiki.openstack.org/wiki/Mentors>`_ は\n"
+" Women of OpenStack グループにより実施されます。参加者は OpenStack プロセス全"
+"体についてガイドを受けます。"
+
+msgid ""
 "`ODP slides <http://dachary.org/loic/openstack-training/training-student-"
 "project-sample.odp>`_ `PDF slides <http://dachary.org/loic/openstack-"
 "training/training-student-project-sample.pdf>`_"
@@ -3898,6 +3938,9 @@ msgstr ""
 
 msgid "`Official OpenStack projects <howitsmade-official-projects.html>`_"
 msgstr "`OpenStack 公式プロジェクト <howitsmade-official-projects.html>`_"
+
+msgid "`OpenStack Governance <howitsmade-governance.html>`_"
+msgstr "`OpenStack ガバナンス <howitsmade-governance.html>`_"
 
 msgid ""
 "`OpenStack Governance <http://governance.openstack.org/>`_ (`slides <03-"
