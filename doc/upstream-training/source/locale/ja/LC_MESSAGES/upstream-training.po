@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-02 09:00+0000\n"
+"POT-Creation-Date: 2016-11-03 11:10+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -408,9 +408,6 @@ msgstr "Board of directors"
 
 msgid "Branching model"
 msgstr "ブランチモデル"
-
-msgid "Branching model (`slides <15-branching-model.html>`__)"
-msgstr "ブランチモデル (`スライド <15-branching-model.html>`__)"
 
 msgid "Bug"
 msgstr "バグ"
@@ -1500,8 +1497,8 @@ msgstr "どのように動作するか?"
 msgid "How projects are released"
 msgstr "プロジェクトのリリース形態"
 
-msgid "How to contribute (`slides <14-gerrit.html>`__)"
-msgstr "貢献方法 (`スライド <14-gerrit.html>`__)"
+msgid "How to contribute"
+msgstr "コントリビューション方法"
 
 msgid "How to deploy OpenStack"
 msgstr "OpenStack のインストール方法"
@@ -1928,13 +1925,6 @@ msgstr "LEGO のフリーソフトウェアのコントリビューションへ�
 
 msgid "Lego applied to Free Software contributions (15 min)"
 msgstr "LEGO のフリーソフトウェアのコントリビューションへの応用 (15分)"
-
-msgid ""
-"Lego applied to Free Software contributions (`slides <20-training-agile-for-"
-"contributors.html>`__)"
-msgstr ""
-"LEGO のフリーソフトウェアのコントリビューションの応用 (`スライド <20-"
-"training-agile-for-contributors.html>`__)"
 
 msgid "Let's get started!!!"
 msgstr "さあ、始めましょう!"
@@ -2436,13 +2426,6 @@ msgstr "概要およびスライドインデックス"
 msgid "Overview of the contribution process"
 msgstr "コントリビューションの流れの概要"
 
-msgid ""
-"Overview of the contribution process (`slides <19-training-contribution-"
-"process.html>`__)"
-msgstr ""
-"コントリビューションの流れの概要 (`スライド <19-training-contribution-"
-"process.html>`__)"
-
 msgid "PTG: https://www.openstack.org/ptg/"
 msgstr "PTG: https://www.openstack.org/ptg/"
 
@@ -2655,9 +2638,6 @@ msgstr "関連する指標"
 
 msgid "Relevant actors"
 msgstr "OpenStack に関わっている人々"
-
-msgid "Relevant actors (`slides <02-relevant-actors.html>`__)"
-msgstr "OpenStack に関わっている人々 (`slides <02-relevant-actors.html>`__)"
 
 msgid "Repeated as many times as necessary"
 msgstr "必要な回数だけ繰り返される"
@@ -3687,13 +3667,6 @@ msgid "Your mission, should you choose to accept it"
 msgstr "あなたのミッション : 許容するかを決めてください"
 
 msgid ""
-"`\"Big Tent\" and tags <http://governance.openstack.org/reference/new-"
-"projects-requirements.html>`_ (`slides <04-program-ecosystem.html>`__)"
-msgstr ""
-"`ビッグテントとタグ <http://governance.openstack.org/reference/new-projects-"
-"requirements.html>`_ (`slides <04-program-ecosystem.html>`__)"
-
-msgid ""
 "`APC <http://governance.openstack.org/reference/charter.html#voters-for-ptl-"
 "seats-apc>`_"
 msgstr ""
@@ -3726,13 +3699,6 @@ msgstr "`バグ <https://wiki.openstack.org/wiki/Bugs>`_"
 msgid "`Code <http://git.openstack.org/cgit>`_"
 msgstr "`コード <http://git.openstack.org/cgit>`_"
 
-msgid ""
-"`Code Review <http://docs.openstack.org/infra/manual/developers.html#code-"
-"review>`_ (`slides <16-reviewing.html>`__)"
-msgstr ""
-"`コードレビュー <http://docs.openstack.org/infra/manual/developers.html#code-"
-"review>`_ (`スライド <16-reviewing.html>`__)"
-
 msgid "`Commit Messages <workflow-commit-message.html>`_"
 msgstr "`コミットメッセージ <workflow-commit-message.html>`_"
 
@@ -3759,20 +3725,6 @@ msgid ""
 msgstr ""
 "`クロスリポジトリーの依存関係 <http://docs.openstack.org/infra/manual/"
 "developers.html#cross-repository-dependencies>`_"
-
-msgid ""
-"`Design summits <https://wiki.openstack.org/wiki/Design_Summit>`_ (`slides "
-"<05-design-summit.html>`__)"
-msgstr ""
-"`デザインサミット <https://wiki.openstack.org/wiki/Design_Summit>`_ (`スライ"
-"ド <05-design-summit.html>`__)"
-
-msgid ""
-"`DevStack <http://docs.openstack.org/developer/devstack/>`_ (`slides <11-"
-"devstack.html>`__)"
-msgstr ""
-"`DevStack <http://docs.openstack.org/developer/devstack/>`_ (`slides <11-"
-"devstack.html>`__)"
 
 msgid ""
 "`Developer’s Guide <http://docs.openstack.org/infra/manual/developers.html>`_"
@@ -3827,13 +3779,6 @@ msgstr ""
 "`プロジェクトの作成方法 <http://docs.openstack.org/infra/manual/creators."
 "html>`_"
 
-msgid ""
-"`How_To_Contribute URL <https://wiki.openstack.org/wiki/How_To_Contribute>`_ "
-"(`slides <12-howtocontribute.html>`__)"
-msgstr ""
-"`コントリビューション方法の URL <https://wiki.openstack.org/wiki/"
-"How_To_Contribute>`_ (`slides <12-howtocontribute.html>`__)"
-
 msgid "`IRC Logs <http://eavesdrop.openstack.org/irclogs/>`_"
 msgstr "`IRC ログ <http://eavesdrop.openstack.org/irclogs/>`_"
 
@@ -3841,13 +3786,6 @@ msgid ""
 "`IRC Services <http://docs.openstack.org/infra/system-config/irc.html>`_"
 msgstr ""
 "`IRC サービス <http://docs.openstack.org/infra/system-config/irc.html>`_"
-
-msgid ""
-"`IRC meetings <https://wiki.openstack.org/wiki/Meetings>`_ (`slides <06-irc-"
-"meetings.html>`__)"
-msgstr ""
-"`IRC ミーティング <https://wiki.openstack.org/wiki/Meetings>`_ (`スライド "
-"<06-irc-meetings.html>`__)"
 
 msgid ""
 "`Implementation (Milestone iterations <https://wiki.openstack.org/wiki/"
@@ -3869,20 +3807,8 @@ msgstr ""
 msgid "`Introduction <intro-introduction.html>`_"
 msgstr "`はじめに <intro-introduction.html>`_"
 
-msgid ""
-"`Jenkins (Automated testing) <http://docs.openstack.org/infra/manual/"
-"developers.html#automated-testing>`_ (`slides <18-jenkins.html>`__)"
-msgstr ""
-"`Jenkins (自動テスト) <http://docs.openstack.org/infra/manual/developers."
-"html#automated-testing>`_ (`スライド <18-jenkins.html>`__)"
-
 msgid "`Jenkins <workflow-jenkins.html>`_"
 msgstr "`Jenkins <workflow-jenkins.html>`_"
-
-msgid ""
-"`Launchpad <https://help.launchpad.net/>`_ (`slides <13-launchpad.html>`__)"
-msgstr ""
-"`Launchpad <https://help.launchpad.net/>`_ (`slides <13-launchpad.html>`__)"
 
 msgid ""
 "`Lego applied to Free Software contributions <archive-training-agile-for-"
@@ -3942,13 +3868,6 @@ msgstr "`OpenStack 公式プロジェクト <howitsmade-official-projects.html>`
 msgid "`OpenStack Governance <howitsmade-governance.html>`_"
 msgstr "`OpenStack ガバナンス <howitsmade-governance.html>`_"
 
-msgid ""
-"`OpenStack Governance <http://governance.openstack.org/>`_ (`slides <03-"
-"technical-committee.html>`__)"
-msgstr ""
-"`OpenStack ガバナンス <http://governance.openstack.org/>`_ (`slides <03-"
-"technical-committee.html>`__)"
-
 msgid "`OpenStack IRC channels <https://wiki.openstack.org/wiki/IRC>`_"
 msgstr "`OpenStack IRC チャンネル <https://wiki.openstack.org/wiki/IRC>`_"
 
@@ -3987,13 +3906,6 @@ msgstr ""
 "`OpenStack Upstream Training in Paris <http://www.openstack.org/blog/2014/08/"
 "openstack-upstream-training-in-paris/>`_."
 
-msgid "`OpenStack as a community <00-02-openstack-as-community.html>`__"
-msgstr ""
-"`コミュニティーとしての OpenStack <00-02-openstack-as-community.html>`__"
-
-msgid "`OpenStack as software <00-01-openstack-as-software.html>`__"
-msgstr "`ソフトウェアとしての OpenStack <00-01-openstack-as-software.html>`__"
-
 msgid ""
 "`Other release candidates <https://wiki.openstack.org/wiki/"
 "Release_Cycle#Other_release_candidates>`_"
@@ -4014,13 +3926,6 @@ msgid ""
 msgstr ""
 "`PTL <http://governance.openstack.org/reference/charter.html#project-team-"
 "leads>`_"
-
-msgid ""
-"`Peer Review <http://docs.openstack.org/infra/manual/developers.html#peer-"
-"review>`_ (`slides <17-commit-message.html>`__)"
-msgstr ""
-"`相互レビュー <http://docs.openstack.org/infra/manual/developers.html#peer-"
-"review>`_ (`スライド <17-commit-message.html>`__)"
 
 msgid ""
 "`Planning (Design, Discuss and Target) <https://wiki.openstack.org/wiki/"
@@ -4064,13 +3969,6 @@ msgstr ""
 
 msgid "`Release cycle <howitsmade-release-cycle.html>`_"
 msgstr "`リリースサイクル <howitsmade-release-cycle.html>`_"
-
-msgid ""
-"`Release cycle <https://wiki.openstack.org/wiki/Release_Cycle>`_ (`slides "
-"<01-release-cycle.html>`__)"
-msgstr ""
-"`リリースサイクル <https://wiki.openstack.org/wiki/Release_Cycle>`_ (`スライ"
-"ド <01-release-cycle.html>`__)"
 
 msgid ""
 "`Release day <https://wiki.openstack.org/wiki/Release_Cycle#Release_day>`_"
@@ -4135,9 +4033,6 @@ msgid ""
 "`Training guides <https://wiki.openstack.org/wiki/Training-guides#How_To>`_"
 msgstr ""
 "`Training guides <https://wiki.openstack.org/wiki/Training-guides#How_To>`_"
-
-msgid "`Training introduction <00-00-introduction.html>`__"
-msgstr "`トレーニングの紹介 <00-00-introduction.html>`__"
 
 msgid "`Translations <http://git.openstack.org/cgit/openstack/i18n/tree/>`_"
 msgstr "`翻訳 <http://git.openstack.org/cgit/openstack/i18n/tree/>`_"
