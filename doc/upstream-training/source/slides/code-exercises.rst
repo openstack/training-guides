@@ -26,7 +26,7 @@ LOG message exercise
 Testing
 =======
 
-- Test suits
+- Test suites
 
   - Unit
   - Functional

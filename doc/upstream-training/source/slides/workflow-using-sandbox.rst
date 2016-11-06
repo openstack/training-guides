@@ -356,7 +356,7 @@ Publish comment reply
   :width: 80%
   :align: center
 
-- (Ensure that your commment is being shown in History.)
+- (Ensure that your comment is being shown in History.)
 
 .. image:: ./_assets/sandbox-gerrit-comment-publish-result.png
   :width: 80%
