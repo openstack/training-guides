@@ -8,11 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-03 11:10+0000\n"
+"POT-Creation-Date: 2016-11-04 16:41+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-11-03 02:24+0000\n"
+"PO-Revision-Date: 2016-11-06 06:35+0000\n"
 "Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
@@ -787,6 +787,13 @@ msgstr "개발 마일스톤을 가진 릴리즈 주기"
 msgid "Common cycle with intermediary release"
 msgstr "중간 단계 릴리즈를 가진 공통 주기"
 
+msgid ""
+"Common place to have people in a project collaborate on larger projects and "
+"planning of events"
+msgstr ""
+"프로젝트 내 사람들과 보다 큰 프로젝트를 위한 협력을 하고 이벤트를 계획하는 공"
+"통의 장소"
+
 msgid "Commonality"
 msgstr "공통성"
 
@@ -1013,6 +1020,11 @@ msgstr "코드가 머지되기 위한 마감 기한"
 msgid "Debugging"
 msgstr "디버깅"
 
+msgid ""
+"Decide a country your group would like to visit with other groups for "
+"sightseeing."
+msgstr "다른 그룹과 함께 여행을 위해 참석하고자 하는 국가를 결정합니다"
+
 msgid "Dedicated and detailed technical discussions"
 msgstr "집중된 그리고 자세한 기술적인 토론이 있습니다"
 
@@ -1039,6 +1051,11 @@ msgstr "설명"
 
 msgid "Design activity is a continuous effort"
 msgstr "설계 활동은 지속적인 노력에 해당합니다"
+
+msgid ""
+"Design an 5-day travel itinerary with attractive places, foods, and "
+"activities."
+msgstr "매력적인 장소, 음식 및 활동을 포함하는 5일간 여행 여정을 설계합니다."
 
 msgid "Determine the project's social groups"
 msgstr "프로젝트에 대한 사회 집단을 규정해 봅니다"
@@ -1845,6 +1862,9 @@ msgstr ""
 "적어도 일주일동안 8시간을 투자하여, 프로그래밍을 하거나 커뮤니티와 상호작용"
 "을 통해 프로젝트에 참여해봅니다"
 
+msgid "Held by local groups to celebrate another year of OpenStack"
+msgstr "로컬 그룹에서 개최되며 또 다른 OpenStack 년도를 축하합니다"
+
 msgid "High"
 msgstr "High"
 
@@ -1859,6 +1879,9 @@ msgstr "내역 상태"
 
 msgid "Hopefully we end up with a unique Lego creation!"
 msgstr "바라건대 독특한 Lego 생성과 함께 마쳤으면 합니다!"
+
+msgid "Hosted annually by local OpenStack User Groups and companies"
+msgstr "로컬 OpenStack 사용자 그룹 및 회사에 의해 매년 개최가 이루어집니다"
 
 msgid "How OpenStack is Made"
 msgstr "OpenStack은 어떻게 만들어지는가"
@@ -1919,6 +1942,9 @@ msgstr "Ian Y. Choi (교육, 조교, 멘토링)"
 
 msgid "Identify a target milestone"
 msgstr "대상 마일스톤을 파악합니다"
+
+msgid "Identify common characteristics of these cycles"
+msgstr "해당 주기에서의 공통된 특성을 식별합니다"
 
 msgid ""
 "If all goes well in the second window we should see our our new connection "
@@ -2238,6 +2264,9 @@ msgstr "동료를 검토자로 초대합니다"
 msgid "Irena Berezovsky (assistant, mentor, english)"
 msgstr "Irena Berezovsky (조교, 멘터, 영어)"
 
+msgid "It depends on each project how to organize the work at each cycle"
+msgstr "각 주기에 대한 작업을 구성하는 방식은 각 프로젝트에 의존합니다"
+
 msgid "It is about"
 msgstr "다음과 관련되어 있습니다"
 
@@ -2418,6 +2447,20 @@ msgstr "Loic Dachary (교육, 멘토링, 조교, 프랑스어, 영어) - 진행"
 
 msgid "Look at open reviews"
 msgstr "열려있는 리뷰를 살펴봅니다"
+
+msgid ""
+"Look through the list of mailing lists and subscribe to at least one that "
+"would be most helpful for you and then locate where the archives for that ML "
+"are."
+msgstr ""
+"메일링리스트 목록을 살펴보고 가장 도움이 될 것이라고 생각하는 적어도 하나를 "
+"구독한 후 해당 ML 보관이 어디에 위치하는지를 찾아봅니다."
+
+msgid ""
+"Look up an OpenStack Days event close to where you live that you would be "
+"interested in attending"
+msgstr ""
+"거주하는 곳과 가까우며 참석 의향이 있는 OpenStack Days 이벤트를 찾아봅니다"
 
 msgid "Look up the location and dates of the first PTG"
 msgstr "첫 PTG에 대한 위치 및 날짜를 찾아봅니다"
@@ -2679,6 +2722,13 @@ msgstr "새로운 릴리즈에 치명적인 버그"
 
 msgid "No agreement"
 msgstr "약관 동의를 하지 않음"
+
+msgid ""
+"No master list of etherpads - harder to find what you are looking for "
+"without having looked at it before or without asking for the URL"
+msgstr ""
+"Etherpad 주 목록이 없습니다 - 이전에 살펴보지 않았거나 해당 URL을 묻지 않는 "
+"한 찾기 어려울 것입니다"
 
 msgid "No mics."
 msgstr "마이크 없음"
@@ -3326,14 +3376,8 @@ msgstr "다른 lanuchpad 버그를 검토하고 개선합니다."
 msgid "Review other's code"
 msgstr "다른 사람의 코드를 리뷰합니다"
 
-msgid ""
-"Review three patches in the sandbox environment. Try to find things to make "
-"comments on even if they are just asking a question and not pointing out an "
-"issue, don't just +1 three different patches."
-msgstr ""
-"sandbox 환경에 있는 세 개의 패치를 리뷰합니다. 비록 단순히 질문을 하거나 이슈"
-"를 지적할지라도 조언을 남기기 위한 항목을 찾아보도록 노력하며, 세 개의 패치"
-"에 단순히 +1를 하지 않습니다."
+msgid "Review three patches in the sandbox environment:"
+msgstr "Sandbox 환경 내 패치 3개를 검토합니다:"
 
 msgid "Review unified"
 msgstr "통합 리뷰"
@@ -4045,6 +4089,14 @@ msgstr "모든 커밋에 대해 작동됨"
 msgid "Troubleshooting"
 msgstr "문제 해결"
 
+msgid ""
+"Try to find things to make comments on even if they are just asking a "
+"question and not pointing out an issue, don't just +1 three different "
+"patches."
+msgstr ""
+"비록 단순히 질문을 하거나 이슈를 지적할지라도 조언을 남기기 위한 항목을 찾아"
+"보도록 노력하며, 세 개의 패치에 단순히 +1를 하지 않습니다."
+
 msgid "Type in a different user/nick name as shown in the previous step."
 msgstr "이전 단계에서 보여진 것과 다른 사용자/닉네임을 입력합니다."
 
@@ -4220,6 +4272,12 @@ msgstr "선거에서 투표하기."
 
 msgid "WG deep dive"
 msgstr "WG 파헤치기"
+
+msgid ""
+"Way for people to communicate to a larger group than those that are on IRC"
+msgstr ""
+"IRC에서와 달리 보다 큰 그룹과 의사소통하고자 하는 사람들에게 적합한 방식입니"
+"다"
 
 msgid "Ways to Communicate in OpenStack"
 msgstr "OpenStack에서 의사소통 하는 법"
@@ -5206,6 +5264,10 @@ msgstr "http://docs.openstack.org/infra/manual/developers.html#account-setup"
 
 msgid "http://docs.openstack.org/infra/manual/sandbox.html"
 msgstr "http://docs.openstack.org/infra/manual/sandbox.html"
+
+msgid "http://docs.openstack.org/upstream-training/workflow-using-sandbox.html"
+msgstr ""
+"http://docs.openstack.org/upstream-training/workflow-using-sandbox.html"
 
 msgid "http://eavesdrop.openstack.org/"
 msgstr "http://eavesdrop.openstack.org/"
