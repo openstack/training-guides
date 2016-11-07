@@ -8,11 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-04 16:41+0000\n"
+"POT-Creation-Date: 2016-11-07 00:50+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-11-06 06:35+0000\n"
+"PO-Revision-Date: 2016-11-06 06:38+0000\n"
 "Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
@@ -34,9 +34,6 @@ msgstr "(업로드 이전 로그 메시지를 확인하는 것은 언제나 좋�
 
 msgid "(Draft comments are not visible to others.)"
 msgstr "(댓글 초안은 다른 사람들에게 보이지 않습니다.)"
-
-msgid "(Ensure that your commment is being shown in History.)"
-msgstr "(댓글이 내역에 보이는지 확인합니다.)"
 
 msgid "(Find reviewer by Gerrit username or e-mail address.)"
 msgstr "(Gerrit 사용자 이름 또는 이메일 주소로 검토자를 찾습니다.)"
@@ -1834,6 +1831,9 @@ msgstr ""
 msgid "Good: new API + new feature"
 msgstr "좋은: 새로운 API + 새로운 기능"
 
+msgid "Great repository to begin your OpenStack learning"
+msgstr "OpenStack 학습을 시작하기 위한 훌륭한 저장소입니다"
+
 msgid "Group exercise"
 msgstr "그룹 실습"
 
@@ -2943,6 +2943,10 @@ msgstr "커뮤니티로서의 OpenStack"
 msgid "OpenStack from Telecom/NFV perspective"
 msgstr "통신사/NFV 관점에서의 OpenStack"
 
+msgid "OpenStack has a sandbox repository for learning and testing purposes"
+msgstr ""
+"OpenStack은 학습 및 테스트 목적을 위해 sandbox 저장소를 보유하고 있습니다"
+
 msgid "Openness"
 msgstr "개방성"
 
@@ -3774,9 +3778,6 @@ msgstr "기술 리더쉽"
 msgid "Test coverage exercise"
 msgstr "테스트 범위 실습"
 
-msgid "Test suits"
-msgstr "테스트 집합"
-
 msgid "Test the code and file bugs"
 msgstr "코드를 테스트하고 버그를 제출합니다"
 
@@ -4025,6 +4026,12 @@ msgstr "Tim Freund (교육, 멘토링, 조교, 영어)"
 msgid "Timing"
 msgstr "시간분배"
 
+msgid ""
+"To manage and track the reported bugs and issues related with openstack-dev/"
+"sandbox repository"
+msgstr ""
+"openstack-dev/sandbox 저장소와 관련이 있는 보고된 버그 및 이슈를 추석 및 관리"
+
 msgid "To notify working status on the bug to others"
 msgstr "버그에 대한 작업 상태를 다른 사람에게 알립니다"
 
@@ -4088,6 +4095,13 @@ msgstr "모든 커밋에 대해 작동됨"
 
 msgid "Troubleshooting"
 msgstr "문제 해결"
+
+msgid ""
+"Try to emphasize the synergy of using repository integration with bug "
+"management to students!"
+msgstr ""
+"버그 관리와 함께 통합적으로 저장소를 사용하였을 때의 시너지를 강조하고자 시도"
+"합니다!"
 
 msgid ""
 "Try to find things to make comments on even if they are just asking a "
@@ -4221,6 +4235,13 @@ msgstr "Linux 'screen' 사용"
 
 msgid "Using Sandbox for Practice"
 msgstr "연습을 위한 Sandbox"
+
+msgid ""
+"Using Sandbox repository and Launchpad, next number of slides will show the "
+"following steps:"
+msgstr ""
+"Sandbox 저장소 및 Launchpad를 사용하여 다음 여러 슬라이드에서는 아래 단계를 "
+"보여줄 것입니다:"
 
 msgid "Using the common tools (code repository, bug tracker, CI system, etc.)"
 msgstr "공통 도구 (코드 저장소, 버그 트래커, CI 시스템 등)를 사용합니다"
