@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-07 00:50+0000\n"
+"POT-Creation-Date: 2016-11-08 09:18+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-11-03 01:57+0000\n"
+"PO-Revision-Date: 2016-11-09 11:56+0000\n"
 "Last-Translator: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1322,8 +1322,14 @@ msgstr "機能"
 msgid "GIT commit message structure"
 msgstr "GIT コミットメッセージの構造"
 
+msgid "Gathers feedback and consolidates requirements"
+msgstr "フィードバックを集めて、要件をまとめる"
+
 msgid "General Contribution Workflow"
 msgstr "一般的なコントリビューションの流れ"
+
+msgid "General discussion around what's going on in a project"
+msgstr "プロジェクトで推進している事項の議論全般"
 
 msgid "Generate SSH Keys"
 msgstr "SSH 鍵の生成"
@@ -1444,17 +1450,26 @@ msgstr ""
 msgid "Gold member companies"
 msgstr "ゴールドメンバー企業"
 
+msgid "Good place to get questions answered"
+msgstr "質問の答えを得るために適した場所"
+
 msgid "Good: new API + new feature"
 msgstr "良い例: 新 API と新機能"
 
 msgid "Group exercise"
 msgstr "グループ演習"
 
+msgid "Growing in number (26 in 2016)"
+msgstr "増加中 (2016 年は 26 回)"
+
 msgid "Guide to SetUp and Push First Patch"
 msgstr "環境設定と最初のパッチの投稿"
 
 msgid "Haikel Guemar (assistant, mentor, french, english)"
 msgstr "Haikel Guemar (assistant, mentor, french, english)"
+
+msgid "Handles cross-project related topics and issues"
+msgstr "クロスプロジェクト関連の話題や問題を取り扱う"
 
 msgid "Have an active team of one or more contributors"
 msgstr "1 人以上のコントリビューターがいる活動中のチームである"
@@ -2085,6 +2100,10 @@ msgstr "Medium (中)"
 msgid "Meet any policies that the TC requires from all projects"
 msgstr "TC がすべてのプロジェクトが満たすことを要求している方針を満たす"
 
+msgid "Meeting channels (#openstack-meeting, #openstack-meeting-cp, etc.)"
+msgstr ""
+"ミーティングチャンネル (#openstack-meeting, #openstack-meeting-cp など)"
+
 msgid "Mentors/helpers"
 msgstr "メンター/助手"
 
@@ -2487,6 +2506,9 @@ msgstr "計画 - 議論"
 
 msgid "Planning - Target"
 msgstr "計画 - 目標"
+
+msgid "Planning and design activities"
+msgstr "計画と設計の活動内容"
 
 msgid "Platinum member companies"
 msgstr "プラチナメンバー企業"
@@ -3001,6 +3023,9 @@ msgstr "Technical Committee (\"TC\")"
 msgid "Technical committee : 1"
 msgstr "技術委員会 (TC) : 1"
 
+msgid "Technical leadership"
+msgstr "技術的なリーダーシップ"
+
 msgid "Test the code and file bugs"
 msgstr "コードのテスト、バグの登録"
 
@@ -3062,6 +3087,9 @@ msgstr "バグが再現する、または本当にバグであると確認され
 
 msgid "The code is self-evident/self-documenting"
 msgstr "コードは自明である、それ自体で説明になっている"
+
+msgid "The common syntax: #openstack-<name-of-project>"
+msgstr "一般的な形式: #openstack-<name-of-project>"
 
 msgid ""
 "The downloaded file should be a dmg in your downloads folder. Open that dmg "
@@ -3421,6 +3449,9 @@ msgstr "WG ディープダイブ"
 msgid ""
 "Way for people to communicate to a larger group than those that are on IRC"
 msgstr "IRC よりも大きなグループとコミュニケーションする手段"
+
+msgid "Ways to Communicate in OpenStack"
+msgstr "OpenStack におけるコミュニケーション方法"
 
 msgid "We are new age people with some good old technology around"
 msgstr "私たちは新世代の人間ですが、優れた古い技術を活用しています"
