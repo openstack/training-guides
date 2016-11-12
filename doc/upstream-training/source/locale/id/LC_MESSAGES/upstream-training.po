@@ -1,0 +1,3918 @@
+# suhartono <cloudsuhartono@gmail.com>, 2016. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: Upstream Training Guide 2016.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-11 09:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-11-11 10:58+0000\n"
+"Last-Translator: suhartono <cloudsuhartono@gmail.com>\n"
+"Language-Team: Indonesian\n"
+"Language: id\n"
+"X-Generator: Zanata 3.7.3\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+msgid ""
+"\"Guiding principles\" used by the Foundation Board to determine how "
+"commercial implementations of OpenStack can be granted use of the trademark"
+msgstr ""
+"\"Guiding principles\" digunakan oleh Foundation Board untuk menentukan "
+"bagaimana komersial implementasi dari OpenStack dapat diberikan ke "
+"penggunaan merek dagang"
+
+msgid "(As an example, a new file has been created using cat command.)"
+msgstr ""
+"(Sebagai contoh, sebuah file baru telah dibuat menggunakan perintah cat.)"
+
+msgid "(Checking log message before uploading is always a nice idea.)"
+msgstr "(Memeriksa pesan log sebelum upload merupakan ide yang bagus.)"
+
+msgid "(Draft comments are not visible to others.)"
+msgstr "(Draft komentar tidak terlihat oleh orang lain.)"
+
+msgid "(Ensure that your comment is being shown in History.)"
+msgstr "(Pastikan bahwa komentar Anda sedang ditampilkan dalam Riwayat.)"
+
+msgid "(Find reviewer by Gerrit username or e-mail address.)"
+msgstr "(Cari pengulas senior dengan username Gerrit atau alamat email.)"
+
+msgid "(Other people will think that someone working on the bug.)"
+msgstr "(Orang lain akan berpikir bahwa seseorang sedang bekerja pada bug.)"
+
+msgid "(Please also change your commit message if needed.)"
+msgstr "(Silakan juga mengubah pesan commit Anda jika diperlukan.)"
+
+msgid "(RC2, RC3, ...), with bugs targeted to it"
+msgstr "(RC2, RC3, ...), dengan bug yang ditargetkan untuk itu"
+
+msgid "(Real bug report needs detail descriptions.)"
+msgstr "(Laporan bug nyata membutuhkan deskripsi rinci.)"
+
+msgid "(Review invitation letter has been sent by e-mail.)"
+msgstr "(Surat undangan pengulasan telah dikirim melalui email.)"
+
+msgid "**Private key** - Only known to you and it should be safely guarded."
+msgstr "**Private key** - Hanya diketahui Anda dan itu harus aman dijaga."
+
+msgid ""
+"**Public key** - Can be shared freely with any SSH server you wish to "
+"connect to."
+msgstr ""
+"**Public key** - Bisa berbagi secara bebas dengan semua  server SSH dimana "
+"Anda ingin terhubung."
+
+msgid "*Common cycle with development milestones*"
+msgstr "*Common cycle with development milestones*"
+
+msgid "..."
+msgstr "..."
+
+msgid "13:45 Sagrada Familia"
+msgstr "13:45 Sagrada Familia"
+
+msgid "15:00 Overnight in Ibiza"
+msgstr "15:00 Bermalam di Ibiza"
+
+msgid "179 countries"
+msgstr "179 negara"
+
+msgid "19:45 Barcelona FC Game"
+msgstr "19:45 Barcelona FC Game"
+
+msgid "2,336 developers"
+msgstr "2,336 pengembang"
+
+msgid "20 mins building"
+msgstr "20 mins bangunan"
+
+msgid "2013.2 branch and tags"
+msgstr "2013.2 branch dan tags"
+
+msgid "2013.2.4 preparation"
+msgstr "2013.2.4 persiapan"
+
+msgid "2016 was 6th birthday of OpenStack"
+msgstr "2016 adalah hari ulang tahun ke-6 dari OpenStack"
+
+msgid "3-4 different companies"
+msgstr "3-4 perusahaan yang berbeda"
+
+msgid "345 different organizations"
+msgstr "345 organisasi yang berbeda"
+
+msgid "40,497 people"
+msgstr "40,497 masyarakat"
+
+msgid "5 mins planning"
+msgstr "5 mins perencanaan"
+
+msgid "5 mins review"
+msgstr "5 mins ulasan"
+
+msgid "596 supporting companies"
+msgstr "596 perusahaan penunjang"
+
+msgid "7:00 Day Trip to Madrid"
+msgstr "7:00 Hari perjalanan ke Madrid"
+
+msgid "7:45 Cava & Winery Tour"
+msgstr "7:45 Wisata Cava & Winery"
+
+msgid "A bunch of scripts to build a full OpenStack environment"
+msgstr "Sekelompok script untuk membangun lingkungan OpenStack penuh"
+
+msgid ""
+"A coordinated way for projects to periodically create their deliverables "
+"including testing and documentation"
+msgstr ""
+"Sebuah cara yang terkoordinasi untuk proyek secara berkala membuat kiriman "
+"mereka termasuk pengujian dan dokumentasi"
+
+msgid "A gathering of projects teams and contributors"
+msgstr "Sebuah pertemuan tim proyek dan kontributor"
+
+msgid "A project is aligned with the OpenStack Mission if"
+msgstr "Sebuah proyek sejajar dengan misi OpenStack jika"
+
+msgid "A subset of tests are chosen by the Foundation as \"must-pass\""
+msgstr "Sebuah subset tes dipilih oleh Foundation sebagai \"must-pass\""
+
+msgid "A way to coordinate the development of multiple projects"
+msgstr "Sebuah cara untuk mengkoordinasikan pengembangan beberapa proyek"
+
+msgid "API"
+msgstr "API"
+
+msgid "APIImpact"
+msgstr "APIImpact"
+
+msgid "About software, documentation, release management etc"
+msgstr "Tentang perangkat lunak, dokumentasi, manajemen rilis dll"
+
+msgid "About the training"
+msgstr "Tentang pelatihan"
+
+msgid "Access the terminals the installed services are running in"
+msgstr "Mengakses terminal layanan yang terinstal sedang berjalan "
+
+msgid "Account Setup"
+msgstr "Account Setup (pengaturan akun)"
+
+msgid "Accounts"
+msgstr "Accounts (akun)"
+
+msgid "Active Project Contributor (APC)"
+msgstr "Active Project Contributor (APC) (kontributor proyek aktif)"
+
+msgid "Active Technical Contributor (ATC)"
+msgstr "Active Technical Contributor (ATC) (kontributor teknis aktif)"
+
+msgid "Actively contributing to one or more OpenStack projects"
+msgstr "Aktif memberikan kontribusi untuk satu atau lebih proyek OpenStack"
+
+msgid ""
+"Add a few extra LOG.debug() lines to one of the methods of the API call you "
+"chose in the previous exercise"
+msgstr ""
+"Tambahkan beberapa tambahan baris LOG.debug() ke salah satu metode panggilan "
+"API yang Anda pilih dalam latihan sebelumnya"
+
+msgid "Add bugs or write reviews the itinerary from other groups."
+msgstr ""
+"Tambahkan bug atau menulis ulasan rencana perjalanan dari kelompok lain."
+
+msgid "Add files"
+msgstr "Tambahkan file"
+
+msgid "Add files to your commit"
+msgstr "Tambahkan file untuk komitmen Anda"
+
+msgid "Add the file and commit"
+msgstr "Tambahkan file dan komit"
+
+msgid ""
+"Add your details to the class etherpad (Specified on the actual training)"
+msgstr ""
+"Tambahkan rincian Anda ke EtherPad kelas (Ditentukan pada pelatihan yang "
+"sebenarnya)"
+
+msgid "Added as Reviewer"
+msgstr "Ditambahkan sebagai Pengulas"
+
+msgid "Additional services built upon IaaS"
+msgstr "Layanan tambahan dibangun di atas IaaS"
+
+msgid "After the change is accepted"
+msgstr "Setelah perubahan diterima"
+
+msgid "After the last milestone"
+msgstr "Setelah tonggak terakhir"
+
+msgid "Agenda - Day 1"
+msgstr "Agenda - Hari 1"
+
+msgid "Agenda - Day 2, afternoon"
+msgstr "Agenda - Hari 2, sore"
+
+msgid "Agenda - Day 2, morning"
+msgstr "Agenda - Hari 2, pagi"
+
+msgid "Agile"
+msgstr "Tangkas"
+
+msgid "Agreeable : 2-3"
+msgstr "Agreeable : 2-3"
+
+msgid "Aim to become a major contributor and demonstrate your mad skills!"
+msgstr ""
+"Bertujuan untuk menjadi kontributor utama dan menunjukkan keterampilan gila "
+"(mad skills) Anda!"
+
+msgid ""
+"Align with the OpenStack Mission and follow the OpenStack way, the four opens"
+msgstr ""
+"Sejajar dengan misi OpenStack dan mengikuti cara OpenStack, ada empat terbuka"
+
+msgid "All emails are archived"
+msgstr "Semua email diarsipkan"
+
+msgid "All externally visible strings must be frozen"
+msgstr "Semua string yang terlihat secara eksternal harus dibekukan"
+
+msgid ""
+"All projects: http://governance.openstack.org/reference/projects/index.html"
+msgstr ""
+"Semua proyek: http://governance.openstack.org/reference/projects/index.html"
+
+msgid "Allows you to:"
+msgstr "Memungkinkan Anda untuk:"
+
+msgid "Also ATC"
+msgstr "Also ATC (juga Active Technical Contributor)"
+
+msgid "Amending the commit"
+msgstr "Mengubah komit"
+
+msgid ""
+"An agreement to clarify intellectual property license granted with "
+"contributions from a person or entity. `Preview the full agreement <https://"
+"review.openstack.org/static/cla.html>`_."
+msgstr ""
+"Kesepakatan untuk memperjelas lisensi kekayaan intelektual yang diberikan "
+"dengan kontribusi dari orang atau badan. `Preview the full agreement "
+"<https://review.openstack.org/static/cla.html>`_."
+
+msgid ""
+"An employer of the company or organization needs to sign the `Corporate "
+"Contributor License Agreement <https://secure.echosign.com/public/hostedForm?"
+"formid=56JUVGT95E78X5>`_."
+msgstr ""
+"Majikan dari perusahaan atau organisasi perlu untuk menandatangani  "
+"`Corporate Contributor License Agreement <https://secure.echosign.com/public/"
+"hostedForm?formid=56JUVGT95E78X5>`_."
+
+msgid "Answer questions"
+msgstr "Jawab pertanyaan"
+
+msgid "Answering reviewer's comment(s) is a good manner."
+msgstr "Menjawab komentar pengulas adalah cara yang baik."
+
+msgid "Application Catalog service"
+msgstr "Layanan Application Catalog"
+
+msgid "Apply for ATC role"
+msgstr "Melamar untuk peran ATC (Active Technical Contributor)"
+
+msgid "Apply for individual membership and sign the CLA"
+msgstr ""
+"Ajukan permohonan keanggotaan individu dan menandatangani CLA (Contributor "
+"License Agreement)"
+
+msgid "Appropriate Fixes"
+msgstr "Appropriate Fixes (perbaikan yang tepat)"
+
+msgid "Archive"
+msgstr "Archive (arsip)"
+
+msgid "Areas of interest"
+msgstr "Bidang minat"
+
+msgid "Ask a mentor to break the *tested* code of one test case"
+msgstr "Meminta mentor untuk memecahkan kode *tested* untuk satu batu ujian"
+
+msgid "Ask people about their contribution experience"
+msgstr "Bertanya pada orang tentang pengalaman kontribusinya"
+
+msgid "Ask people about their contributions"
+msgstr "Bertanya pada orang tentang kontribusinya"
+
+msgid "Ask people you know about the project"
+msgstr "Bertanya pada orang yang tahu tentang proyek"
+
+msgid "Ask questions during the class"
+msgstr "Mengajukan pertanyaan selama kelas"
+
+msgid "Assigned To"
+msgstr "Assigned To (ditugaskan untuk)"
+
+msgid "Assignee: the developer working on the fix"
+msgstr "Assignee: pengembang bekerja pada perbaikan"
+
+msgid ""
+"Assuming you weren't able to find keys in your ~/.ssh directory, you can "
+"generate a new ssh key using the provided email as a label by going into "
+"your terminal program and typing::"
+msgstr ""
+"Dengan asumsi Anda tidak dapat menemukan kunci di  ~/.ssh directory, Anda "
+"dapat membuat kunci ssh baru menggunakan email yang diberikan sebagai label "
+"dengan cara masuk ke program terminal dan mengetiknya ::"
+
+msgid ""
+"At the prompt, type a secure a passphrase, you may enter one or press Enter "
+"to have no passphrase::"
+msgstr ""
+"Pada prompt, ketiklah kata sandi yang aman, Anda dapat memasukkan satu atau "
+"tekan Enter untuk tidak memiliki passphrase ::"
+
+msgid "Attend the meetings"
+msgstr "Menghadiri pertemuan"
+
+msgid "Attendees"
+msgstr "Peserta"
+
+msgid "Attending regular meetings"
+msgstr "Menghadiri pertemuan rutin"
+
+msgid "Attends project meetings"
+msgstr "Menghadiri pertemuan proyek"
+
+msgid "Bad: new feature and refactor"
+msgstr "Buruk: fitur baru dan refactor"
+
+msgid "Bad: two independent changes"
+msgstr "Buruk: dua perubah bebas"
+
+msgid "Be collaborative"
+msgstr "Jadilah kolaboratif"
+
+msgid "Be communicative"
+msgstr "Harap komunikatif"
+
+msgid "Be on top of people's comments"
+msgstr "Berada di atas komentar orang"
+
+msgid "Be patient"
+msgstr "Harap sabar"
+
+msgid "Be polite, be helpful"
+msgstr "Bersikaplah sopan, membantu"
+
+msgid "Be true to your role"
+msgstr "Benar untuk peran Anda"
+
+msgid ""
+"Being OpenStack Core Implementation means passing all \"must-pass\" tests"
+msgstr "Implementasi inti OpenStack berarti melewatkan semua tes \"must-pass\""
+
+msgid "Benefits of being an Official OpenStack project"
+msgstr "Manfaat menjadi proyek OpenStack resmi"
+
+msgid ""
+"Better entry point for new contributors finding their place in the community"
+msgstr ""
+"Pintu masuk yang baik bagi kontributor baru menemukan tempat mereka di "
+"masyarakat"
+
+msgid "Big Tent is a code name for the official OpenStack projects"
+msgstr "Big Tent adalah nama kode untuk proyek OpenStack resmi"
+
+msgid "Blueprint"
+msgstr "Blueprint"
+
+msgid "Blueprint (Partial-Implements, Implements)"
+msgstr "Blueprint (Partial-Implements, Implements)"
+
+msgid "Board : 1"
+msgstr "Board : 1"
+
+msgid "Board of Directors"
+msgstr "Dewan direksi"
+
+msgid "Board of directors"
+msgstr "Dewan direksi"
+
+msgid "Branching model"
+msgstr "Pencabangan model"
+
+msgid "Bug"
+msgstr "Bug (kesalahan)"
+
+msgid "Bug (Partial-Bug, Related-Bug, Closes-Bug)"
+msgstr "Bug (Partial-Bug, Related-Bug, Closes-Bug)"
+
+msgid "Bug Assigned"
+msgstr "Bug Assigned (bug yang ditetapkan)"
+
+msgid "Bug Assigning"
+msgstr "Bug Assigning"
+
+msgid "Bug Report Submission"
+msgstr "Bug Report Submission (penyampaian laporan bug)"
+
+msgid "Bug fixes"
+msgstr "Perbaikan kesalahan"
+
+msgid "Bug fixing"
+msgstr "Perbaikan bug"
+
+msgid "Bug fixing activities are still ongoing"
+msgstr "Kegiatan perbaikan bug masih berlangsung"
+
+msgid "Bug importance"
+msgstr "Pentingnya bug"
+
+msgid "Bug is about documentation or has an impact on documentation."
+msgstr "Bug adalah tentang dokumentasi atau memiliki dampak pada dokumentasi."
+
+msgid "Bug report"
+msgstr "Laporan bug"
+
+msgid "Bug reports"
+msgstr "Laporan bug"
+
+msgid "Bug status"
+msgstr "Status bug"
+
+msgid "Bug tags"
+msgstr "Bug tags"
+
+msgid "Bug triagers"
+msgstr "Triagers kesalahan"
+
+msgid ""
+"Bugs that are easy to fix, ideal for beginners to get familiar with the "
+"workflow and to have their first contact with the code in OpenStack "
+"development."
+msgstr ""
+"Bug yang mudah untuk diperbaiki, ideal bagi pemula untuk mendapatkan "
+"pemahaman dengan alur kerja dan memiliki kontak pertama mereka dengan kode "
+"dalam pengembangan OpenStack."
+
+msgid "Build Your Network"
+msgstr "Build Your Network (membangun jaringan Anda)"
+
+msgid ""
+"Build a street out of Lego. All buildings must be connected by road and "
+"sidewalk. The Foundation, TC, and Board must approve the overall design of "
+"the street."
+msgstr ""
+"Membangun jalan keluar dari Lego. Semua bangunan harus terhubung oleh jalan "
+"dan trotoar. Yayasan, Technical Committee, dan Dewan harus menyetujui desain "
+"keseluruhan dari jalan."
+
+msgid "Building Blocks: build as you need"
+msgstr "Blok bangunan: membangun yang Anda butuhkan"
+
+msgid "Building Karma"
+msgstr "Building Karma (pembangunan Karma)"
+
+msgid "Building documentation"
+msgstr "Dokumentasi pembangunan"
+
+msgid "Building software in a community looks really complicated"
+msgstr "Pembangunan perangkat lunak dalam komunitas terlihat benar-benar rumit"
+
+msgid "CEO : 1"
+msgstr "CEO : 1"
+
+msgid "CI"
+msgstr "CI (continuous integration)"
+
+msgid ""
+"Can participate in common programs, like mentoring and internship to help "
+"with on boarding"
+msgstr ""
+"Dapatkah berpartisipasi dalam program umum (common program), seperti "
+"mentoring dan magang (internship) untuk membantu dengan di asrama"
+
+msgid "Can publish to docs.openstack.org and developer.openstack.org"
+msgstr ""
+"Dapatkah mempublikasikan ke docs.openstack.org dan developer.openstack.org"
+
+msgid "Capture your idea in a spec/blueprint"
+msgstr "Menangkap ide Anda di spesifikasi / cetak biru"
+
+msgid "Change-id"
+msgstr "Change-id (perubahan-id)"
+
+msgid "Changes to Nova's internal AMQP API"
+msgstr "Perubahan API AMQP intern Nova"
+
+msgid "Changes to the external HTTP APIs"
+msgstr "Perubahan API HTTP eksternal"
+
+msgid "Changes to the notification definitions"
+msgstr "Perubahan definisi pemberitahuan"
+
+msgid "Check For Existing Keys"
+msgstr "Check For Existing Keys (periksa kunci yang ada)"
+
+msgid "Check peer's Review"
+msgstr "Periksa ulasan rekan"
+
+msgid "Check whether the tests failed or not"
+msgstr "Periksa apakah tes gagal atau tidak"
+
+msgid "Checking work status"
+msgstr "Memeriksa status pekerjaan"
+
+msgid ""
+"Choose a service and issue an API call or use its client to verify "
+"functionality"
+msgstr ""
+"Pilih layanan dan keluarkan panggilan API atau gunakan klien untuk "
+"memverifikasi fungsionalitas"
+
+msgid ""
+"Choose and type your username carefully. Once it is set, you cannot change "
+"the username."
+msgstr ""
+"Memilih dan ketik username Anda dengan hati-hati. Setelah diatur, Anda tidak "
+"dapat mengubah nama pengguna."
+
+msgid "Choosing roles - Companies"
+msgstr "Memilih peran - Perusahaan"
+
+msgid "Choosing roles - Free agent contributors"
+msgstr "Memilih peran - kontributor agent bebas"
+
+msgid "Choosing roles - Upstream"
+msgstr "Memilih peran - Hulu (Upstream)"
+
+msgid "Claiming OpenStack requiring use of designated upstream code"
+msgstr "Mengklaim OpenStack membutuhkan penggunaan kode hulu yang ditunjuk"
+
+msgid "Cleaning up activities are needed"
+msgstr "Pembersihan kegiatan diperlukan"
+
+msgid ""
+"Click 'Reply' and write your message, or just 'Done' for \"Done\" message."
+msgstr ""
+"Klik  'Reply' dan tulis pesan Anda, atau hanya 'Done' untuk pesan 'Done'."
+
+msgid "Click the 'Add Key' button."
+msgstr "Klik tombol 'Add Key'."
+
+msgid "Click the **I am a new Ubuntu One user**."
+msgstr "Klik **I am a new Ubuntu One user**."
+
+msgid "Clone and be familiar with the code"
+msgstr "Mengkloning dan mengenal kode"
+
+msgid "Closing Exercises"
+msgstr "Closing Exercises (latihan penutupan)"
+
+msgid "Closing exercise"
+msgstr "Penutupan latihan"
+
+msgid "Code"
+msgstr "Kode"
+
+msgid "Code deep dive"
+msgstr "Mempelajari lebih dalam tentang kode"
+
+msgid "Code for new features will not be accepted"
+msgstr "Kode untuk fitur baru tidak akan diterima"
+
+msgid ""
+"Code or documentation contribution to any of the official project "
+"repositories"
+msgstr "Kontribusi kode dan dokumentasi ke salah satu repositori proyek resmi"
+
+msgid "Code stabilization period"
+msgstr "Periode stabilisasi kode"
+
+msgid "Code-Review -1/0/+1 is for all OpenStack reviewers"
+msgstr "Code-Review -1/0/+1 adalah untuk semua pengulas OpenStack"
+
+msgid "Code-Review -2/+2 is for core reviewers (Sandbox repository is open)"
+msgstr ""
+"Code-Review -2/+2 adalah untuk pengulas inti (repositori Sandbox terbuka)"
+
+msgid "Collaboration tools"
+msgstr "Alat kolaborasi"
+
+msgid ""
+"Collects and processes development activity data and makes it possible to "
+"visualize it in a convenient web dashboard"
+msgstr ""
+"Mengumpulkan dan memproses data aktivitas pengembangan dan memungkinkan "
+"untuk memvisualisasikan dalam dasbor web mudah digunakan"
+
+msgid "Comment on the open review"
+msgstr "Komentar hasil penelahaan terbuka"
+
+msgid "Comment reply"
+msgstr "Komentar balasan"
+
+msgid "Commenting"
+msgstr "Mengomentari"
+
+msgid "Commit Messages"
+msgstr "Commit Messages (komit pesan)"
+
+msgid "Commit added files and explain changes in the commit message"
+msgstr ""
+"Komit file yang ditambahkan dan menjelaskan perubahan dalam pesan komit"
+
+msgid "Commit files and write commit message"
+msgstr "Komit file dan menulis pesan commit"
+
+msgid "Commit log message"
+msgstr "Komit pesan log"
+
+msgid "Commit messages"
+msgstr "Pesan komit"
+
+msgid "Committed a change over the last two 6-month release cycles"
+msgstr "Berkomitmen perubahan selama dua 6 bulan terakhir siklus rilis"
+
+msgid "Common cycle with development milestones"
+msgstr "Siklus umum dengan tonggak pembangunan"
+
+msgid "Common cycle with intermediary release"
+msgstr "Siklus umum dengan rilis perantara"
+
+msgid ""
+"Common place to have people in a project collaborate on larger projects and "
+"planning of events"
+msgstr ""
+"Tempat umum untuk memiliki orang di proyek berkolaborasi pada proyek besar "
+"dan perencanaan acara"
+
+msgid "Commonality"
+msgstr "Commonality (kesamaan)"
+
+msgid "Communication"
+msgstr "Communication (komunikasi)"
+
+msgid "Community members will review your patch"
+msgstr "Anggota masyarakat akan meninjau patch Anda"
+
+msgid "Companies"
+msgstr "Companies (perusahaan)"
+
+msgid "Companies have to deliver value to their stakeholders."
+msgstr "Perusahaan harus memberikan nilai kepada stakeholder mereka."
+
+msgid "Complete the application."
+msgstr "Melengkapi permohonan aplikasi."
+
+msgid "Configuration"
+msgstr "Konfigurasi"
+
+msgid "Configuration Reference and CLI Reference"
+msgstr "Referensi konfigurasi dan referensi CLI"
+
+msgid "Configure Git"
+msgstr "Konfigurasi Git"
+
+msgid "Configure your workspace"
+msgstr "Mengkonfigurasi ruang kerja Anda"
+
+msgid "Confirmed"
+msgstr "Confirmed"
+
+msgid "Confirming & prioritizing"
+msgstr "Mengkonfirmasikan & memprioritaskan"
+
+msgid "Contents of a Commit Message (Body)"
+msgstr "Isi dari pesan komit (badan)"
+
+msgid "Contents of a Commit Message (Summary Line)"
+msgstr "Isi dari pesan komit (baris rangkuman)"
+
+msgid "Contributor guide"
+msgstr "Panduan kontributor"
+
+msgid "Contributor meetups"
+msgstr "Pertemuan informal kontributor"
+
+msgid "Contributors From a Company or Organization"
+msgstr "Contributors From a Company or Organization"
+
+msgid "Contributors From the U.S. Government"
+msgstr "Contributors From the U.S. Government"
+
+msgid "Contributors get to vote in the Technical Committee election"
+msgstr ""
+"Kontributor mendapatkan suara dalam pemilihan Technical Committee (komite "
+"teknis)"
+
+msgid "Controversial : 1"
+msgstr "Controversial : 1"
+
+msgid "Copy Public Key"
+msgstr "Copy Public Key"
+
+msgid "Core : 5"
+msgstr "Core : 5"
+
+msgid "Core and Optional Services"
+msgstr "Core and Optional Services (layanan inti dan opsional)"
+
+msgid "Core reviewer"
+msgstr "Pengulas inti"
+
+msgid "Core services (Compute, Networking, Block and Object Storage, etc.)"
+msgstr "Layanan inti (Compute, Networking, Block and Object Storage, etc.)"
+
+msgid ""
+"Core services are OpenStack projects and essential in every OpenStack-"
+"powered IaaS cloud or product"
+msgstr ""
+"Layanan inti adalah proyek OpenStack dan penting dalam setiap OpenStack-"
+"Powered Cloud IaaS atau produk"
+
+msgid "Core team"
+msgstr "Core team (tim inti)"
+
+msgid "Create & push a Work in Progress (WIP) to the sandbox"
+msgstr "Buat & mendorong Work in Progress (WIP) ke sandbox"
+
+msgid "Create a draft .rst file with an outline for the itinerary."
+msgstr "Buat file .rst draft dengan garis besar untuk rencana perjalanan."
+
+msgid ""
+"Create a new commit with the .rst file in openstack-dev/sandbox repository "
+"and submit the commit to Gerrit when you are finished."
+msgstr ""
+"Buat komit baru dengan file .rst di repositori openstack-dev/sandbox dan "
+"menyerahkan komitmen ke Gerrit setelah Anda selesai."
+
+msgid "Create your commit"
+msgstr "Buat komit Anda"
+
+msgid "Created by a large growing community"
+msgstr "Dibuat oleh komunitas yang tumbuh besar"
+
+msgid "Critical"
+msgstr "Critical"
+
+msgid "Current branch name information"
+msgstr "Informasi nama cabang saat ini"
+
+msgid "Customer collaboration over contract negotiation"
+msgstr "Kolaborasi pelanggan melalui negosiasi kontrak"
+
+msgid "Cut when all the release-critical bugs are fixed"
+msgstr "Potong ketika semua bug release-critical diperbaiki"
+
+msgid "DB schema changes"
+msgstr "Perubahan skema DB"
+
+msgid ""
+"Dashboard (horizon) and DevStack provide plugin interface for easy "
+"integration"
+msgstr ""
+"Dashboard (horizon) dan DevStack menyediakan antarmuka plugin untuk "
+"integrasi yang mudah"
+
+msgid "Data corruption / complete failure affecting most users, no workaround"
+msgstr ""
+"Korupsi data / kegagalan total mempengaruhi sebagian besar pengguna, tidak "
+"ada solusi"
+
+msgid ""
+"Data corruption / complete failure affecting most users, with workaround. "
+"Failure of a significant feature, no workaround"
+msgstr ""
+"Korupsi data / kegagalan total mempengaruhi sebagian besar pengguna, tidak "
+"ada solusi.  Kegagalan fitur yang penting, tidak ada solusi"
+
+msgid "Day 1"
+msgstr "Hari 1"
+
+msgid "Day 2"
+msgstr "Hari 2"
+
+msgid "Day 3-4"
+msgstr "Hari 3-4"
+
+msgid "Day 5"
+msgstr "Hari 5"
+
+msgid "Deadlines"
+msgstr "Deadlines (batas waktu)"
+
+msgid "Deadlines for the code to get merged"
+msgstr "Batas waktu kode untuk bisa digabung"
+
+msgid "Debugging"
+msgstr "Debugging"
+
+msgid ""
+"Decide a country your group would like to visit with other groups for "
+"sightseeing."
+msgstr ""
+"Tentukan negara dimana kelompok Anda ingin mengunjungi dengan kelompok lain "
+"untuk tamasya."
+
+msgid "Dedicated and detailed technical discussions"
+msgstr "Diskusi teknis khusus dan rinci"
+
+msgid "DefCore (or what cloud can be labeled as OpenStack)"
+msgstr "DefCore (atau apa yang cloud dapat diberi label sebagai OpenStack)"
+
+msgid "Demo environment"
+msgstr "Lingkungan demo"
+
+msgid "Depends on the priority of your work item"
+msgstr "Tergantung pada prioritas item pekerjaan Anda"
+
+msgid "Depends-On"
+msgstr "Depends-On"
+
+msgid "Describe a release cycle based on the information you found"
+msgstr "Menggambarkan siklus rilis berdasarkan informasi yang Anda temukan"
+
+msgid "Describe the output produced by the OpenStack community teams"
+msgstr "Mendeskripsikan keluaran yang dihasilkan oleh tim komunitas OpenStack"
+
+msgid "Design activity is a continuous effort"
+msgstr "Kegiatan perancangan adalah upaya terus menerus"
+
+msgid ""
+"Design an 5-day travel itinerary with attractive places, foods, and "
+"activities."
+msgstr ""
+"Merancang jadwal perjalanan 5-hari dengan tempat menarik, makanan, dan "
+"kegiatan."
+
+msgid "DevStack"
+msgstr "DevStack"
+
+msgid "DevStack exercise"
+msgstr "Latihan DevStack"
+
+msgid ""
+"Develop and maintain tools and processes to ensure quality, accurate "
+"documentation."
+msgstr ""
+"Mengembangkan dan memelihara alat dan proses untuk memastikan kualitas, "
+"dokumentasi yang akurat."
+
+msgid "Developers"
+msgstr "Developers (pengembang)"
+
+msgid "Developers read mostly, write occasionally"
+msgstr "Pengembang sering membaca, menulis kadang kala"
+
+msgid "Development environment setup"
+msgstr "Penyiapan lingkungan pengembangan"
+
+msgid "Different level of experience"
+msgstr "Tingkat pengalaman yang berbeda"
+
+msgid "Discuss the answers with the class"
+msgstr "Mendiskusikan jawaban dengan kelas"
+
+msgid "Discuss upcoming features for the next release cycle"
+msgstr "Diskusikan fitur yang akan datang untuk siklus rilis berikutnya"
+
+msgid "Discuss with your peers"
+msgstr "Diskusikan dengan rekan Anda"
+
+msgid "Distracted : 1"
+msgstr "Distracted : 1"
+
+msgid "Distributions"
+msgstr "Distributions (distribusi)"
+
+msgid "Do not assume ..."
+msgstr "Jangan menganggap ..."
+
+msgid ""
+"Do not be frustrated! We can revise the current patchset to address comments."
+msgstr ""
+"Jangan frustrasi! Kami dapat merevisi patchset saat ini untuk mengatasi "
+"komentar."
+
+msgid ""
+"Do not change meeting name: *upstream training*. The meeting name is "
+"reserved for upstream training activities."
+msgstr ""
+"Jangan mengubah nama memenuhi: *upstream training*.  Nama rapat dicadangkan "
+"untuk kegiatan pelatihan hulu."
+
+msgid "Do you work at a company?"
+msgstr "Apakah Anda bekerja di sebuah perusahaan?"
+
+msgid "DocImpact"
+msgstr "DocImpact"
+
+msgid "Docco deep dive"
+msgstr "Mempelajari lebih dalam tentang Docco"
+
+msgid "Documentation"
+msgstr "Dokumentasi"
+
+msgid "Documentation Deep Dive"
+msgstr "Documentation Deep Dive"
+
+msgid "Documentation frameworks"
+msgstr "Kerangka dokumentasi"
+
+msgid "Documentation: http://docs.openstack.org/developer/devstack/"
+msgstr "Dokumentasi: http://docs.openstack.org/developer/devstack/"
+
+msgid "Does it fix limitations of the current code?"
+msgstr "Apakah itu memperbaiki keterbatasan kode saat ini?"
+
+msgid "Does it improve code structure?"
+msgstr "Apakah itu memperbaiki struktur kode?"
+
+msgid "Does your company want you to work on something specific?"
+msgstr ""
+"Apakah perusahaan Anda mengiinginkan Anda untuk bekerja pada sesuatu yang "
+"spesifik?"
+
+msgid "Draft comment publishment"
+msgstr "Draft komentar yang Diterbitkan"
+
+msgid "Draft comment was saved"
+msgstr "Draft komentar itu disimpan"
+
+msgid "Draft inline comments"
+msgstr "Rancang komentar inline"
+
+msgid "Drive the program goals"
+msgstr "Mendorong mencapai sasaran program"
+
+msgid ""
+"During the SERIES pre-release period, mark the bug as a potential release-"
+"critical blocker"
+msgstr ""
+"Selama periode SERIES pra-rilis, menandai bug sebagai bloker release-"
+"critical potensi"
+
+msgid ""
+"During upstream training, do not worry about this! Upstream training leaders "
+"will clean up after the training is finished."
+msgstr ""
+"Selama pelatihan hulu, jangan khawatir tentang hal ini! pemimpin pelatihan "
+"hulu akan membersihkan setelah pelatihan selesai."
+
+msgid "Each company has:"
+msgstr "Setiap perusahaan memiliki:"
+
+msgid "Each individual sets their own objective."
+msgstr "Setiap individu menetapkan tujuan mereka sendiri."
+
+msgid "Each project and working group also has its own wiki page"
+msgstr "Setiap proyek dan kelompok kerja juga memiliki halaman wiki sendiri"
+
+msgid "Each project and working group has its own channel"
+msgstr "Setiap proyek dan kelompok bekerja memiliki saluran sendiri"
+
+msgid "Each project has its own culture"
+msgstr "Setiap proyek memiliki budaya sendiri"
+
+msgid "Each project has its own purpose"
+msgstr "Setiap proyek memiliki tujuan sendiri"
+
+msgid "Ecosystem for collaboration"
+msgstr "Ekosistem untuk kolaborasi"
+
+msgid "Elected from and by the group of APC's"
+msgstr "Dipilih dari dan oleh kelompok APC"
+
+msgid ""
+"Employers can update the list of authorized employees by filling out and "
+"signing an `Updated Schedule A Form <https://openstack.echosign.com/public/"
+"hostedForm?formid=56JUVP6K4Z6P4C>`_."
+msgstr ""
+"Pengusaha dapat memperbarui daftar karyawan yang berwenang dengan mengisi "
+"dan menandatangani  `Updated Schedule A Form <https://openstack.echosign.com/"
+"public/hostedForm?formid=56JUVP6K4Z6P4C>`_."
+
+msgid "Endorsed by the Foundation"
+msgstr "Endorsed by the Foundation (disahkan oleh Yayasan)"
+
+msgid "Enforces OpenStack ideals"
+msgstr "Menegakkan OpenStack yang ideal"
+
+msgid "Ensure basic interoperability with the rest of OpenStack"
+msgstr "Memastikan interoperabilitas dasar dengan seluruh OpenStack"
+
+msgid ""
+"Ensure you have the DevStack repository cloned to the VM you would like to "
+"use it"
+msgstr ""
+"Pastikan Anda memiliki repositori DevStack kloning ke VM dimana Anda ingin "
+"menggunakannya"
+
+msgid "Error report"
+msgstr "Laporan kesalahan"
+
+msgid "Etherpad"
+msgstr "Etherpad"
+
+msgid "Etherpads"
+msgstr "Etherpads"
+
+msgid "Events"
+msgstr "Acara"
+
+msgid "Every cycle includes"
+msgstr "Setiap siklus meliputi"
+
+msgid "Example Itinerary: Spain"
+msgstr "Contoh rencana perjalanan: Spanyol"
+
+msgid "Example of IRC meeting commands:"
+msgstr "Contoh perintah pertemuan IRC:"
+
+msgid "Example:"
+msgstr "Contoh:"
+
+msgid "Executing \"git review\" command will submit the amended commit."
+msgstr ""
+"Mengeksekusi perintah \"git review\" akan mengirimkan komit yang diubah"
+
+msgid "Exercise"
+msgstr "Latihan"
+
+msgid "Exercise - Collect items with your group to the two questions below:"
+msgstr ""
+"Latihan - Kumpulkan item dengan kelompok Anda untuk dua pertanyaan di bawah "
+"ini:"
+
+msgid "Exercise 1"
+msgstr "Latihan 1"
+
+msgid "Exercise 2"
+msgstr "Latihan 2"
+
+msgid "Exercise 3"
+msgstr "Latihan 3"
+
+msgid "Exercise: Step 1"
+msgstr "Latihan: Langkah 1"
+
+msgid "Exercise: Step 2"
+msgstr "Latihan: Langkah 2"
+
+msgid "Exercise: Step 3 and more"
+msgstr "Latihan: Langkah 3 dan selanjutnya"
+
+msgid "Exercises"
+msgstr "Latihan"
+
+msgid "Experience with OpenStack if any"
+msgstr "Pengalaman dengan OpenStack jika ada"
+
+msgid "Explain how problem is solved"
+msgstr "Menjelaskan bagaimana masalah itu dipecahkan"
+
+msgid "Explain what it means if they didn't"
+msgstr "Jelaskan apa artinya jika mereka tidak berjalan"
+
+msgid "Explanation of issue being solved and why it should be fixed"
+msgstr "Penjelasan isu yang sedang dipecahkan dan mengapa itu harus diperbaiki"
+
+msgid ""
+"Failure of a significant feature, with workaround. Failure of a fringe "
+"feature, no workaround"
+msgstr ""
+"Kegagalan fitur yang penting, dengan solusi. Kegagalan fitur pinggiran "
+"(fringe), tidak ada solusi"
+
+msgid "False errors"
+msgstr "Laporan kesalahan"
+
+msgid "Feature freeze"
+msgstr "Pembekuan fitur"
+
+msgid "Feature proposal freeze"
+msgstr "Pembekuan usulan fitur"
+
+msgid "File status working in the repository"
+msgstr "Status file sedang bekerja di repositori"
+
+msgid "Filing a blueprint/spec"
+msgstr "Mengajukan cetak biru / spek"
+
+msgid "Filing, fixing, and triaging bugs"
+msgstr "Mengajukan, memperbaiki, memprioritaskan bug"
+
+msgid ""
+"Fill in your email address, name, password, and accepting the terms of "
+"services."
+msgstr ""
+"Isi alamat email Anda, nama, password, dan menerima persyaratan layanan."
+
+msgid "Fill your contact information and click 'Save Changes'."
+msgstr "Isi informasi kontak Anda dan klik 'Save Changes'."
+
+msgid "Finalize documentation"
+msgstr "Finalisasi dokumentasi"
+
+msgid "Find an open review which is less complex and download the patch"
+msgstr "Cari kajian terbuka yang kurang kompleks dan download patch"
+
+msgid "Find feature proposal deadlines in the current release schedule"
+msgstr "Cari batas waktu usulan fitur di jadwal rilis terkini"
+
+msgid ""
+"Find out what parameters were passed to that method by using the LOG messages"
+msgstr ""
+"Cari tahu apa parameter yang dilewatkan ke metode yang menggunakan pesan LOG"
+
+msgid ""
+"Find out what the modification is by running the test and analyzing the test "
+"output"
+msgstr ""
+"Cari tahu apa modifikasi yang dijalankan tes dan penganalisaan output ujian"
+
+msgid "Find the current members of the Board of Directors, TC and UC"
+msgstr ""
+"Cari anggota Dewan Direktur, Technical Committee dan User Committee saat ini"
+
+msgid "Fishbowl sessions"
+msgstr "Sesi akuarium"
+
+msgid "Fitting it all together"
+msgstr "Pemasangan itu semuanya bersama-sama"
+
+msgid "Fix Committed"
+msgstr "Fix Committed"
+
+msgid "Fix Released"
+msgstr "Fix Released"
+
+msgid "Fix as many bugs as possible"
+msgstr "Perbaiki bug sebanyak mungkin"
+
+msgid ""
+"Fix for the bug would make OpenStack more resilient to future security "
+"issues."
+msgstr ""
+"Perbaikan bug akan membuat OpenStack lebih tahan terhadap isu keamanan di "
+"masa depan."
+
+msgid "Fix for the bug would significantly ease OpenStack operation."
+msgstr "Perbaiki bug akan secara signifikan mengurangi operasi OpenStack."
+
+msgid "Fix the documentation"
+msgstr "Perbaiki dokumentasi"
+
+msgid "Flexibility"
+msgstr "Flexibility (keluwesan)"
+
+msgid "Focus on what we want to do for the next one"
+msgstr "Fokus pada apa yang ingin kita lakukan untuk pekerjaan yang berikutnya"
+
+msgid ""
+"Following and participating in project related mail threads in the mailing "
+"list"
+msgstr ""
+"Ikut dan berpartisipasi dalam rangkaian surat proyek terkait dalam milis"
+
+msgid "For Fedora 22 or later open a terminal and type::"
+msgstr "Untuk Fedora 22 atau lebih baru buka terminal dan ketik::"
+
+msgid "For SUSE distributions open a terminal and type::"
+msgstr "Untuk distribusi SUSE buka terminal dan ketik::"
+
+msgid ""
+"For distributions like Debian, Ubuntu, or Mint open a terminal and type::"
+msgstr ""
+"Untuk distribusi seperti Debian, Ubuntu, atau Mint buka terminal dan ketik::"
+
+msgid ""
+"For distributions like RedHat, Fedora 21 or earlier, or CentOS open a "
+"terminal and type::"
+msgstr ""
+"Untuk distribusi seperti Red Hat, Fedora 21 atau sebelumnya, atau CentOS "
+"buka terminal dan ketik::"
+
+msgid ""
+"For further commands see the `User's Manual <https://www.gnu.org/software/"
+"screen/manual/screen.html>`_"
+msgstr ""
+"Untuk perintah lebih lanjut lihat  `User's Manual <https://www.gnu.org/"
+"software/screen/manual/screen.html>`_"
+
+msgid ""
+"For the cores you found earlier, figure out what time zone they are probably "
+"in."
+msgstr ""
+"Untuk inti dimana Anda temukan sebelumnya, mencari tahu apa zona waktu "
+"dimana mereka mungkin berada."
+
+msgid "Forbidden"
+msgstr "Forbidden (terlarang)"
+
+msgid "Form groups of 4 (Actual group size depends on the class size)"
+msgstr ""
+"Membentuk kelompok 4 (ukuran kelompok sebenarnya tergantung pada ukuran "
+"kelas)"
+
+msgid "Forum"
+msgstr "Forum"
+
+msgid "Foundation, technical committee, and board members"
+msgstr "Yayasan, panitia teknis, dan anggota dewan"
+
+msgid "Four \"open\"s"
+msgstr "Empat \"open\"s"
+
+msgid "Four sprints of 30 mins:"
+msgstr "Empat semangat 30 menit:"
+
+msgid "Framework"
+msgstr "Kerangka kerja"
+
+msgid "Freenode"
+msgstr "Freenode"
+
+msgid "Freeze dates depend on the type of activity"
+msgstr "tanggal pembekuan tergantung pada tipe kegiatan"
+
+msgid ""
+"From here on out when you sign into Gerrit, you'll be prompted to enter your "
+"your Launchpad login info. This is because Gerrit uses it as an OpenID "
+"single sign on."
+msgstr ""
+"Dari sini dapat keluar ketika Anda masuk ke Gerrit, Anda akan diminta untuk "
+"memasukkan info Launchpad login Anda. Hal ini karena Gerrit menggunakannya "
+"sebagai  OpenID single sign on."
+
+msgid "From your terminal type::"
+msgstr "Dari terminal Anda ketik ::"
+
+msgid ""
+"Full list of Official OpenStack projects: http://governance.openstack.org/"
+"reference/tags/type_service.html#tag-type-service"
+msgstr ""
+"Daftar lengkap proyek OpenStack resmi: http://governance.openstack.org/"
+"reference/tags/type_service.html#tag-type-service"
+
+msgid "Functional"
+msgstr "Functional (fungsional)"
+
+msgid "Further details are in a later session"
+msgstr "Rincian lebih lanjut di sesi kemudian"
+
+msgid "Further supporting companies and organizations"
+msgstr "Perusahaan dan organisasi pendukung lebih jauh "
+
+msgid "GIT commit message structure"
+msgstr "Struktur pesan komit GIT"
+
+msgid "Gathers feedback and consolidates requirements"
+msgstr "Mengumpulkan umpan balik dan mengkonsolidasikan persyaratan"
+
+msgid "General Contribution Workflow"
+msgstr "General Contribution Workflow (alur kerja kontribusi umum)"
+
+msgid "General discussion around what's going on in a project"
+msgstr "Diskusi umum di sekitar apa yang sedang terjadi dalam proyek"
+
+msgid "Generally has information about who the PTL and cores are"
+msgstr ""
+"Umumnya hal ini memiliki informasi tentang siapa Project Team Leader (PTL) "
+"dan corenya"
+
+msgid "Generate SSH Keys"
+msgstr "Generate SSH Keys (membuat kunci SSH)"
+
+msgid "Generic intention behind planning"
+msgstr "Keinginan generik di belakang perencanaan"
+
+msgid "Gerrit"
+msgstr "Gerrit"
+
+msgid "Gerrit (openstack-dev/sandbox repository)"
+msgstr "Gerrit (openstack-dev/sandbox repository)"
+
+msgid "Gerrit will automatically set the status"
+msgstr "Gerrit secara otomatis akan mengatur status"
+
+msgid "Get critical and high priority bugs fixed on the first place"
+msgstr ""
+"Dapatkan bug kritis dan tinggi prioritas ditetapkan pada tempat pertama"
+
+msgid "Get guidance from community members and leaders"
+msgstr "Mendapatkan bimbingan dari para anggota dan para pemimpin komunitas"
+
+msgid "Get marketing from the OpenStack Foundation"
+msgstr "Dapatkan pemasaran dari OpenStack Foundation"
+
+msgid "Get to know the code"
+msgstr "Kenali kode"
+
+msgid "Getting to Know Your Project"
+msgstr "Getting to Know Your Project"
+
+msgid "Git"
+msgstr "Git"
+
+msgid "Git Review"
+msgstr "Git Review (ulasan Git)"
+
+msgid ""
+"Git is a free and open source distributed version control system that the "
+"OpenStack community uses to manage changes to source code."
+msgstr ""
+"Git merupakan sistem kontrol versi yang didistribusikan  sumber terbuka dan "
+"gratis dimana komunitas OpenStack menggunakan untuk mengelola perubahan kode "
+"sumber."
+
+msgid ""
+"Git review assumes the user you're running it as is the same as your Gerrit "
+"username. If it's not, you can tell it by setting this git config setting::"
+msgstr ""
+"Git review mengasumsikan pengguna dimana Anda menjalankan sama dengan Gerrit "
+"username Anda. Jika tidak, Anda bisa mengatakan itu dengan menetapkan "
+"pengaturan config git ini::"
+
+msgid ""
+"Git review is tool maintained by the OpenStack community. It adds an "
+"additional sub-command to git like so::"
+msgstr ""
+"Ulasan Git adalah alat dikelola oleh masyarakat OpenStack. Ia menambahkan "
+"sub-perintah tambahan ke git seperti begitu ::"
+
+msgid "Global Events and Releases"
+msgstr "Global Events and Releases (acara global dan pers)"
+
+msgid ""
+"Go to `Gerrit's SSH Public Keys settings <https://review.openstack.org/#/"
+"settings/ssh-keys>`_."
+msgstr ""
+"Pergilah ke `Gerrit's SSH Public Keys settings <https://review.openstack.org/"
+"#/settings/ssh-keys>`_."
+
+msgid ""
+"Go to the Git `download page <https://git-scm.com/downloads>`_ and click "
+"**Mac OS X**."
+msgstr ""
+"Kunjungi Git `download page <https://git-scm.com/downloads>`_ dan klik **Mac "
+"OS X**."
+
+msgid ""
+"Go to the `Launchpad login or create account page <https://launchpad.net/"
+"+login>`_"
+msgstr ""
+"Pergi ke `Launchpad login or create account page <https://launchpad.net/"
+"+login>`_"
+
+msgid ""
+"Go to the `OpenStack Foundation sign up page <https://www.openstack.org/"
+"join>`_."
+msgstr ""
+"Pergi ke `OpenStack Foundation sign up page <https://www.openstack.org/"
+"join>`_."
+
+msgid ""
+"Goals (http://governance.openstack.org/goals/index.html#release-cycle-goals)"
+msgstr ""
+"Sasaran (http://governance.openstack.org/goals/index.html#release-cycle-"
+"goals)"
+
+msgid "Gold member companies"
+msgstr "Perusahaan anggota Gold"
+
+msgid "Good manners on Sandbox"
+msgstr "Sopan santun di Sandbox"
+
+msgid "Good place to get questions answered"
+msgstr "Tempat yang baik untuk mendapatkan pertanyaan dijawab"
+
+msgid ""
+"Good source of info about when and in what channel regular meetings are held"
+msgstr ""
+"Sumber bagus info tentang kapan dan apa saluran pertemuan rutin diadakan"
+
+msgid "Good: new API + new feature"
+msgstr "Baik: API baru + fitur baru"
+
+msgid "Great repository to begin your OpenStack learning"
+msgstr "Repositori besar untuk memulai belajar OpenStack Anda"
+
+msgid "Group exercise"
+msgstr "Latihan kelompok"
+
+msgid "Growing in number (26 in 2016)"
+msgstr "Tumbuh dalam jumlah (26 dalam tahun 2016)"
+
+msgid "Guide to SetUp and Push First Patch"
+msgstr "Panduan untuk pemasangan dan Push First Patch"
+
+msgid "Handles cross-project related topics and issues"
+msgstr "Menangani topik dan isu lintas-proyek yang berhubungan"
+
+msgid "Have an active team of one or more contributors"
+msgstr "Memiliki tim yang aktif dari satu atau lebih kontributor"
+
+msgid "Have one mentor sit together with each group"
+msgstr "Memiliki satu mentor duduk bersama dengan masing-masing kelompok"
+
+msgid "Held by local groups to celebrate another year of OpenStack"
+msgstr ""
+"Yang diselenggarakan oleh kelompok lokal untuk merayakan satu tahun lagi "
+"dari OpenStack"
+
+msgid "High"
+msgstr "High"
+
+msgid "High Availability Guide"
+msgstr "Panduan ketersediaan tinggi"
+
+msgid "Highlight and copy the output."
+msgstr "Sorot dan copy output."
+
+msgid "History status"
+msgstr "Status riwayat"
+
+msgid "Hopefully we end up with a unique Lego creation!"
+msgstr "Mudah-mudahan kita berakhir dengan penciptaan Lego yang unik!"
+
+msgid "Hosted annually by local OpenStack User Groups and companies"
+msgstr ""
+"Setiap tahun tuan rumah difasilitasi oleh OpenStack User Groups lokal dan "
+"perusahaan"
+
+msgid "How OpenStack is made"
+msgstr "Bagaimana OpenStack dibuat"
+
+msgid "How does it work?"
+msgstr "Bagaimana cara kerjanya?"
+
+msgid "How projects are released"
+msgstr "Bagaimana proyek dilepaskan"
+
+msgid "How to deploy OpenStack"
+msgstr "Cara mengerahkan OpenStack"
+
+msgid "How to prepare for different exams"
+msgstr "Cara mempersiapkan berbagai ujian "
+
+msgid "How to use OpenStack"
+msgstr "Cara menggunakan OpenStack"
+
+msgid "However, please keep in mind that it is on your own responsibility."
+msgstr "Namun, harap diingat bahwa itu adalah tanggung jawab Anda sendiri."
+
+msgid "Hypervisor Tuning Guide"
+msgstr "Hypervisor Tuning Guide (panduan penyetelan hypervisor)"
+
+msgid "IRC"
+msgstr "IRC (Internet Relay Chat)"
+
+msgid "IRC Channels"
+msgstr "IRC Channels (saluran IRC)"
+
+msgid "IRC Logs"
+msgstr "IRC Logs"
+
+msgid "IRC Meetings"
+msgstr "IRC Meetings (rapat IRC)"
+
+msgid "IRC Meetings List"
+msgstr "IRC Meetings List (daftar rapat IRC)"
+
+msgid "IRC meetings: http://eavesdrop.openstack.org/"
+msgstr "IRC meetings: http://eavesdrop.openstack.org/"
+
+msgid "Identify a target milestone"
+msgstr "Mengidentifikasi tonggak sasaran"
+
+msgid "Identify common characteristics of these cycles"
+msgstr "Mengidentifikasi karakteristik umum dari siklus ini"
+
+msgid "If you are contributing on behalf of a company or organization."
+msgstr "Jika Anda berkontribusi atas nama sebuah perusahaan atau organisasi."
+
+msgid ""
+"If you do not register your contact information, you cannot upload your any "
+"changes to Gerrit."
+msgstr ""
+"Jika Anda tidak mendaftarkan informasi kontak Anda, Anda tidak dapat meng-"
+"upload perubahan Anda apapun ke Gerrit."
+
+msgid ""
+"If you don't have pip installed already, follow the `installation "
+"documentation <https://pip.pypa.io/en/stable/installing/#installing-with-get-"
+"pip-py>`_ for pip."
+msgstr ""
+"Jika Anda tidak memiliki pip sudah terpasang, ikuti  `installation "
+"documentation <https://pip.pypa.io/en/stable/installing/#installing-with-get-"
+"pip-py>`_ untuk pip."
+
+msgid ""
+"If you don't know what your Gerrit username is, you can check the `Gerrit "
+"settings <https://review.openstack.org/#/settings/>`_."
+msgstr ""
+"Jika Anda tidak tahu apa nama Gerrit Anda, Anda dapat memeriksa  `Gerrit "
+"settings <https://review.openstack.org/#/settings/>`_."
+
+msgid "If you don't see .pub extension file, you need to generate keys."
+msgstr ""
+"Jika Anda tidak melihat ekstensi file .pub, Anda perlu untuk menghasilkan "
+"kunci."
+
+msgid "If you feel the community needs consensus, call a midcycle!"
+msgstr "Jika Anda merasa kebutuhan masyarakat konsensus, sebut midcycle!"
+
+msgid ""
+"If you use the package manager `Homebrew <http://brew.sh>`_, open a terminal "
+"and type::"
+msgstr ""
+"Jika Anda menggunakan manajer paket `Homebrew <http://brew.sh>`_, buka "
+"terminal dan ketik::"
+
+msgid ""
+"If your contribution is on behalf of a company, have your managers sign the "
+"Corporate Contributor License Agreement"
+msgstr ""
+"Jika kontribusi Anda adalah atas nama perusahaan, silahkan manajer Anda "
+"menandatangani Corporate Contributor License Agreement"
+
+msgid "Impact was not assessed yet"
+msgstr "Dampak belum dinilai"
+
+msgid "Implementation"
+msgstr "Implementation (pelaksanaan)"
+
+msgid "Implementation - Freezes"
+msgstr "Implementation - Freezes (implementasi - pembekuan)"
+
+msgid "Implementation - Milestone"
+msgstr "Implementation - Milestone (implementasi - tonggak)"
+
+msgid "Implementation work"
+msgstr "Pelaksanaan pekerjaan"
+
+msgid "Implementations that are Core can use OpenStack trademark (OpenStack™)"
+msgstr ""
+"Implementasi yang inti (core) dapat menggunakan OpenStack merek dagang "
+"(OpenStack ™)"
+
+msgid "Implementing a blueprint/spec"
+msgstr "Menerapkan cetak biru / spek"
+
+msgid "Import Public Key Into Gerrit"
+msgstr "Impor Public Key ke Gerrit"
+
+msgid ""
+"In Gerrit's `settings <https://review.openstack.org/#/settings/agreements>`_ "
+"click the **New Contributor Agreement** link and sign the agreement."
+msgstr ""
+"Dalam Gerrit `settings <https://review.openstack.org/#/settings/"
+"agreements>`_ klik link **New Contributor Agreement** dan menandatangani "
+"perjanjian."
+
+msgid "In Progress"
+msgstr "In Progress"
+
+msgid "In a terminal type::"
+msgstr "Di terminal ketik::"
+
+msgid ""
+"In order to push things to `Gerrit <https://review.openstack.org>`_ we need "
+"to have a way to identify ourselves. We will do this using ssh keys which "
+"allows us to have our machine we're pushing a change from to perform a "
+"`challenge-response authentication <https://en.wikipedia.org/wiki/Challenge-"
+"response_authentication>`_ with the Gerrit server."
+msgstr ""
+"Dalam rangka mendorong hal untuk `Gerrit <https://review.openstack.org>`_ "
+"kita perlu memiliki cara untuk mengidentifikasi diri kita sendiri. Kami akan "
+"melakukan ini dengan menggunakan kunci ssh yang memungkinkan kita untuk "
+"memiliki komputer kita kita mendorong perubahan dari untuk melakukan "
+"`challenge-response authentication <https://en.wikipedia.org/wiki/Challenge-"
+"response_authentication>`_ dengan server Gerrit."
+
+msgid ""
+"In summary, we will be generating these keys, and providing the Gerrit "
+"server with your public key. With your system holding the private key, it "
+"will have no problem replying to Gerrit during the challenge-response "
+"authentication."
+msgstr ""
+"Singkatnya, kita akan menghasilkan kunci ini, dan menyediakan server Gerrit "
+"dengan kunci publik Anda. Dengan sistem anda memegang kunci pribadi, itu "
+"tidak akan memiliki masalah membalas Gerrit selama otentikasi challenge-"
+"response"
+
+msgid "In this example, we use Lego to represent a software project"
+msgstr ""
+"Dalam contoh ini, kita menggunakan Lego untuk mewakili sebuah proyek software"
+
+msgid ""
+"Include concrete activities and times and any other details your group think "
+"as a blueprint."
+msgstr ""
+"Masukkan kegiatan konkrit dan waktu dan rincian lainnya dari pemikiran "
+"kelompok Anda sebagai cetak biru (blueprint)."
+
+msgid ""
+"Includes the deletion of uploaded files on Sandbox repository and change of "
+"bug status in Launchpad to \"Invalid\", \"Won't Fix\", or \"Fix Released\""
+msgstr ""
+"Termasuk penghapusan file upload di repositori Sandbox dan perubahan status "
+"bug di Launchpad untuk \"Invalid\", \"Won't Fix\", atau \"Fix Released\""
+
+msgid "Incompatible config file changes"
+msgstr "Perubahan file konfigurasi tidak kompatibel"
+
+msgid "Incomplete"
+msgstr "Incomplete"
+
+msgid "Independent release model"
+msgstr "Model rilis independen"
+
+msgid "Individual Contributor License Agreement"
+msgstr "Individual Contributor License Agreement"
+
+msgid "Individual Contributors"
+msgstr "Kontributor individu"
+
+msgid "Individual Foundation members"
+msgstr "Anggota Yayasan individu"
+
+msgid "Individual members: all of us"
+msgstr "Anggota individu: kita semua"
+
+msgid "Individuals and interactions over processes and tools"
+msgstr "Individu dan interaksi selama proses dan peralatan"
+
+msgid "Infrastructure as a Service (IaaS)"
+msgstr "Infrastructure as a Service (IaaS)"
+
+msgid "Infrastructure for"
+msgstr "Infrastruktur untuk"
+
+msgid "Inline comments"
+msgstr "Komentar inline"
+
+msgid "Install git review"
+msgstr "Instal git review"
+
+msgid "Installation"
+msgstr "Installation (pemasangan)"
+
+msgid "Installation guides"
+msgstr "Panduan instalasi"
+
+msgid "Installs services from source"
+msgstr "Menginstal layanan dari sumber"
+
+msgid "Institutional members: Platinum and Gold sponsors"
+msgstr "Anggota kelembagaan: sponsor Platinum dan Emas"
+
+msgid "Integration"
+msgstr "Integration (integrasi)"
+
+msgid "Interacting with the Project"
+msgstr "Berinteraksi dengan Proyek"
+
+msgid "Interactive, hands-on class"
+msgstr "Kelas langsung, interaktif"
+
+msgid "Introducing OpenStack as a Community"
+msgstr "Memperkenalkan OpenStack sebagai komunitas"
+
+msgid "Introducing OpenStack as a Software"
+msgstr "Memperkenalkan OpenStack sebagai software "
+
+msgid "Introductions"
+msgstr "Pengantar"
+
+msgid "Invalid"
+msgstr "Invalid"
+
+msgid "Invite peer as Reviewer"
+msgstr "Undang rekan kerja sebagai Pengulas"
+
+msgid "It depends on each project how to organize the work at each cycle"
+msgstr ""
+"Hal ini tergantung pada setiap proyek bagaimana mengatur pekerjaan pada "
+"setiap siklus"
+
+msgid "It is about"
+msgstr "Ini tentang"
+
+msgid "It is not about"
+msgstr "Ini bukan tentang"
+
+msgid "It is the projects decision to follow the OpenStack release"
+msgstr "Ini adalah keputusan proyek untuk mengikuti rilis OpenStack"
+
+msgid "Its activities are under the oversight of the TC"
+msgstr "Kegiatannya berada di bawah pengawasan dari Technical Committee"
+
+msgid "Jenkins"
+msgstr "Jenkins"
+
+msgid "Jenkins and vendor CIs will review your patch"
+msgstr "Jenkins dan vendor CI akan meninjau patch Anda"
+
+msgid "Join the #openstack-101 channel"
+msgstr "Bergabung dengan # openstack-101 channel"
+
+msgid ""
+"Join the channel of the project(s) you are interested in and find the logs "
+"from the most recent meeting."
+msgstr ""
+"Bergabung dengan saluran proyek yang Anda tertarik dan menemukan log dari "
+"pertemuan terbaru."
+
+msgid "Join the openstack-dev mailing list"
+msgstr "Bergabung dengan openstack-dev mailing list"
+
+msgid "Join the project's IRC channel"
+msgstr "Bergabung saluran IRC proyek"
+
+msgid "Jump on IRC"
+msgstr "Langsung di IRC"
+
+msgid "LOG message exercise"
+msgstr "Latihan pesan LOG"
+
+msgid "Last published release candidate"
+msgstr "Kandidat rilis yang dipublikasikan terakhir"
+
+msgid "Launchpad"
+msgstr "Launchpad"
+
+msgid "Launchpad (openstack-dev-sandbox)"
+msgstr "Launchpad (openstack-dev-sandbox)"
+
+msgid ""
+"Launchpad is how the OpenStack community does tracking for things like bug "
+"reports. This account is also how we will identify ourselves in OpenStack's "
+"code review system."
+msgstr ""
+"Launchpad adalah bagaimana masyarakat OpenStack melakukan pelacakan untuk "
+"hal-hal seperti laporan bug. Akun ini juga mengetahui bagaimana kita akan "
+"mengidentifikasi diri di sistem pengkajian kode OpenStack."
+
+msgid "Learn about the community"
+msgstr "Pelajari tentang masyarakat"
+
+msgid "Learn how to participate in OpenStack"
+msgstr "Pelajari cara untuk berpartisipasi dalam OpenStack"
+
+msgid "Learning example with two Sandboxes"
+msgstr "Belajar contoh dengan dua Sandboxes (kotak pasir)"
+
+msgid "Lego applied to Free Software contributions"
+msgstr "Lego yang diterapkan untuk kontribusi Free Software"
+
+msgid "Let's get started!!!"
+msgstr "Mari kita mulai !!!"
+
+msgid "Let's play!"
+msgstr "Mari main!"
+
+msgid "Life in and around OpenStack"
+msgstr "Hidup di dalam dan sekitar OpenStack"
+
+msgid "Like OpenStack, there are:"
+msgstr "Seperti OpenStack, ada:"
+
+msgid "Like any software project, there are:"
+msgstr "Seperti proyek software, ada:"
+
+msgid "Like sprints, small groups of people work on specific themes"
+msgstr ""
+"Seperti sprint (lomba lari pendek), kelompok kecil orang bekerja pada tema "
+"tertentu"
+
+msgid "Limited to 50 characters"
+msgstr "Terbatas sampai 50 karakter"
+
+msgid "Lines limited to 72 characters"
+msgstr "Baris terbatas sampai 72 karakter"
+
+msgid "Linux"
+msgstr "Linux"
+
+msgid "List of approved tags"
+msgstr "Daftar tag disetujui"
+
+msgid "List of sessions"
+msgstr "Daftar sesi"
+
+msgid "Listen when people talk"
+msgstr "Mendengarkan ketika orang berbicara"
+
+msgid "Local branch creation"
+msgstr "Penciptaan cabang lokal"
+
+msgid "Logs of meetings are archived so that they can be referenced later on"
+msgstr "Log pertemuan diarsipkan sehingga mereka dapat dirujuk nanti"
+
+msgid "Look at open reviews"
+msgstr "Lihat ulasan terbuka"
+
+msgid ""
+"Look through the list of mailing lists and subscribe to at least one that "
+"would be most helpful for you and then locate where the archives for that ML "
+"are."
+msgstr ""
+"Melihat melalui daftar milis dan berlangganan setidaknya satu yang akan "
+"sangat membantu untuk Anda dan kemudian menemukan dimana arsip untuk ML"
+
+msgid ""
+"Look up an OpenStack Days event close to where you live that you would be "
+"interested in attending"
+msgstr ""
+"Mencari sebuah acara OpenStack Days dekat dengan tempat tinggal Anda dimana "
+"Anda akan tertarik untuk menghadiri"
+
+msgid "Look up the location and dates of the first PTG"
+msgstr "Pencarian lokasi dan tanggal dari PTG (project team gathering) pertama"
+
+msgid ""
+"Look up the project you are most interested in and find the three most "
+"active core reviewers (people that would be good to know for review help and "
+"getting your patches merged)."
+msgstr ""
+"Mencari proyek yang paling tertarik dan menemukan tiga pengulas inti yang "
+"paling aktif (masyarakat akan baik untuk mengetahui untuk bantuan ulasan dan "
+"mendapatkan patch gabungan Anda)."
+
+msgid ""
+"Look up the release schedule for the current and past two OpenStack release "
+"cycles"
+msgstr ""
+"Mencari jadwal rilis untuk dua siklus rilis OpenStack saat ini dan masa lalu"
+
+msgid ""
+"Look up when the next meeting is for the channel you joined and where the "
+"meeting is (#openstack-meeting, #openstack-meeting-3, etc)."
+msgstr ""
+"Lihatlah kapan pertemuan berikutnya dan dimana saluran Anda untuk bergabung "
+"dan dimana pertemuan seperti ini (#openstack-meeting, #openstack-meeting-3, "
+"etc)."
+
+msgid "Low"
+msgstr "Low"
+
+msgid "Mac OS"
+msgstr "Mac OS"
+
+msgid "Mac OS & Linux"
+msgstr "Mac OS & Linux"
+
+msgid ""
+"Mac OS X El Capitan and macOS Sierra users might see an error message like "
+"\"Operation not permitted\" when installing with the command. In this case, "
+"there are two options to successfully install git-review."
+msgstr ""
+"Pengguna Mac OS X El Capitan dan MacOS Sierra mungkin melihat pesan error "
+"seperti  \"Operation not permitted\" ketika menginstal dengan perintah. "
+"Dalam hal ini, ada dua pilihan untuk berhasil menginstal  git-review."
+
+msgid "Mailing Lists"
+msgstr "Mailing Lists (milis)"
+
+msgid "Mailing Lists (ML)"
+msgstr "Mailing Lists (ML)"
+
+msgid "Main activities"
+msgstr "Aktivitas utama"
+
+msgid "Make a new branch in your local repository"
+msgstr "Membuat cabang baru di repositori lokal Anda"
+
+msgid "Make changes"
+msgstr "Membuat perubahan"
+
+msgid "Make changes and push new patchsets"
+msgstr "Melakukan perubahan dan mendorong patchset baru"
+
+msgid "Make code changes"
+msgstr "Membuat perubahan kode"
+
+msgid "Make code contributions."
+msgstr "Membuat kontribusi kode."
+
+msgid ""
+"Make sure to use the same email address you'll want to use for code "
+"contributions since it's important later that these match up."
+msgstr ""
+"Pastikan untuk menggunakan alamat email yang sama Anda akan ingin "
+"menggunakan untuk kontribusi kode karena itu penting kemudian bahwa ini ada "
+"kecocokan."
+
+msgid "Make useful reference points in time to organize the development cycle"
+msgstr ""
+"Membuat titik referensi berguna dalam waktu untuk mengatur siklus "
+"pengembangan"
+
+msgid "Manage day-to-day operations"
+msgstr "Mengelola operasi sehari-hari"
+
+msgid "Managers"
+msgstr "Managers (manajer)"
+
+msgid "Manifesto for Agile Software Development"
+msgstr "Manifesto untuk pengembangan perangkat lunak tangkas"
+
+msgid ""
+"Mark the bug as a potential backport target to a specific SERIES (grizzly, "
+"havana...)"
+msgstr ""
+"Menandai bug sebagai target backport potensial untuk SERIES tertentu "
+"(grizzly, havana ...)"
+
+msgid ""
+"Meaningful: anyone may submit a correction that will adjust the influence of "
+"appropriate statistical data"
+msgstr ""
+"Bermakna: siapa pun dapat mengajukan koreksi yang akan menyesuaikan dampak "
+"data statistik yang sesuai"
+
+msgid "Medium"
+msgstr "Medium"
+
+msgid "Meet any policies that the TC requires from all projects"
+msgstr "Memenuhi semua kebijakan dimana TC membuatnya dari semua proyek"
+
+msgid "Meeting channels (#openstack-meeting, #openstack-meeting-cp, etc.)"
+msgstr "Meeting channels (#openstack-meeting, #openstack-meeting-cp, etc.)"
+
+msgid "Mentors/helpers"
+msgstr "Mentor / pembantu"
+
+msgid "Merged in the master branch first and then cherry-picked to stable"
+msgstr "Digabung ke cabang master pertama dan kemudian cherry-picked ke stabil"
+
+msgid "Merged!"
+msgstr "Merged! (digabung)"
+
+msgid "Methodologies"
+msgstr "Metodologi"
+
+msgid "Metrics"
+msgstr "Metrics (metrik)"
+
+msgid "Milestone"
+msgstr "Milestone (tonggak)"
+
+msgid "Milestone: Milestone the bug was fixed in"
+msgstr "Tonggak: Tonggak dimana bug itu telah diperbaiki"
+
+msgid "Milestones"
+msgstr "Milestones (tonggak)"
+
+msgid "Milestones are tagged in the repository using b1, b2 and b3"
+msgstr "Tonggak diberi tag dalam repositori menggunakan b1, b2 dan b3"
+
+msgid "Mission"
+msgstr "Mission (tugas)"
+
+msgid "Mission (https://wiki.openstack.org/wiki/Main_Page)"
+msgstr "Mission (https://wiki.openstack.org/wiki/Main_Page)"
+
+msgid "Module - more views"
+msgstr "Modul - lebih banyak tampilan"
+
+msgid "Module contributors"
+msgstr "Kontributor modul"
+
+msgid "More focus on testing"
+msgstr "Lebih fokus pada pengujian"
+
+msgid "More information: Governance page"
+msgstr "Informasi lebih lanjut: halaman Governance"
+
+msgid "More than 20 million lines of code"
+msgstr "Lebih dari 20 juta baris kode"
+
+msgid "More than 20,000 patches"
+msgstr "Lebih dari 20,000 patches"
+
+msgid "More than 40 different ML's"
+msgstr "Lebih dari 40 ML yang berbeda"
+
+msgid "More user focused discussion to collect feedback for developers"
+msgstr ""
+"Lebih banyak diskusi user terfokus untuk mengumpulkan umpan balik bagi  "
+"pengembang"
+
+msgid "Most of the OpenStack services"
+msgstr "Sebagian besar layanan OpenStack"
+
+msgid "Most of the projects now manage blueprints on a git repo called specs"
+msgstr ""
+"Sebagian besar proyek sekarang mengelola cetak biru (blueprints) pada git "
+"repo disebut spesifikasi (specs)"
+
+msgid "Most recent (\"Mitaka\") release stats:"
+msgstr "Terbaru (\"Mitaka\") rilis statistik:"
+
+msgid "Multi-layer group of leadership"
+msgstr "Kelompok kepemimpinan multi-layer"
+
+msgid "NFV = Network Function Virtualization"
+msgstr "NFV = Network Function Virtualization"
+
+msgid "Name, current role, company"
+msgstr "Nama, peran saat ini, perusahaan"
+
+msgid "Networking Guide"
+msgstr "Panduan jaringan"
+
+msgid "New"
+msgstr "New"
+
+msgid "New agreement"
+msgstr "New agreement (kesepakatan baru)"
+
+msgid "New features"
+msgstr "Fitur baru"
+
+msgid "New patchset was recorded in Gerrit."
+msgstr "P9atchset baru tercatat di Gerrit."
+
+msgid "New release-critical bugs"
+msgstr "Bug release-critical baru"
+
+msgid "No agreement"
+msgstr "No agreement (tidak ada kesepakatan)"
+
+msgid ""
+"No master list of etherpads - harder to find what you are looking for "
+"without having looked at it before or without asking for the URL"
+msgstr ""
+"Tidak ada daftar master etherpads - sulit untuk menemukan apa yang Anda cari "
+"tanpa melihat itu sebelum atau tanpa meminta URL"
+
+msgid "No mics."
+msgstr "Tidak ada mikrofon."
+
+msgid "No predefined agenda."
+msgstr "Tidak ada agenda yang telah ditetapkan."
+
+msgid ""
+"Nonprofit foundation created to \"develop, support, protect, and promote\" "
+"OpenStack"
+msgstr ""
+"Yayasan non Profit diciptakan untuk \"mengembangkan, dukungan, melindungi, "
+"dan mempromosikan\" OpenStack"
+
+msgid "Not a classic conference with presenter and audience"
+msgstr "Tidak konferensi klasik dengan presenter dan audiens"
+
+msgid "Not good as an entry point"
+msgstr "Tidak baik sebagai titik masuk"
+
+msgid "Not really a bug, but a suggested improvement"
+msgstr "Tidak benar-benar bug, tetapi perbaikan yang disarankan"
+
+msgid "Not suitable to start learning about a topic"
+msgstr "Tidak cocok untuk mulai belajar tentang topik"
+
+msgid "Ocata"
+msgstr "Ocata"
+
+msgid "Official OpenStack projects"
+msgstr "Proyek OpenStack resmi"
+
+msgid ""
+"Official OpenStack projects can participate by offering topics and mentors "
+"for the interns who sign up for this program."
+msgstr ""
+"Proyek OpenStack resmi dapat berpartisipasi dengan menawarkan topik dan "
+"mentor untuk magang yang mendaftar untuk program ini."
+
+msgid ""
+"Once you have Git installed you need to configure it. Open your terminal "
+"application and issue the following commands putting in your first/last name "
+"and email address. This is how your contributions will be identified::"
+msgstr ""
+"Setelah Anda memiliki Git terinstal, anda perlu mengkonfigurasinya. Buka "
+"aplikasi terminal dan menjalankan perintah berikut memasukan nama awal/akhir "
+"dan email alamat Anda. Ini adalah bagaimana kontribusi Anda akan "
+"diidentifikasi::"
+
+msgid ""
+"Once your contact information is saved successfully, you will see the line **"
+"\"Contact information last updated ....\"** just above the forms of mailing "
+"address."
+msgstr ""
+"Setelah informasi kontak Anda disimpan berhasil, Anda akan melihat garis **"
+"\"Contact information last updated ....\"** tepat di atas bentuk alamat."
+
+msgid "Online Communication"
+msgstr "Komunikasi secara online"
+
+msgid "Open Community"
+msgstr "Open Community"
+
+msgid "Open Design"
+msgstr "Open Design"
+
+msgid "Open Development"
+msgstr "Open Development"
+
+msgid "Open Source"
+msgstr "Open Source"
+
+msgid ""
+"Open an *upstream training* IRC meeting and make consensus from various "
+"travel plans."
+msgstr ""
+"Buka pertemuan IRC  *upstream training* IRC dan membuat konsensus dari "
+"berbagai rencana perjalanan."
+
+msgid "Open collaboration"
+msgstr "Terbuka kolaborasi"
+
+msgid "Open discussions, chairs organized in concentric rings"
+msgstr "Diskusi terbuka, kursi diatur berbentuk cincin konsentris"
+
+msgid ""
+"Open reviews, contribution for the latest 30 or 90 days, activity report, "
+"etc."
+msgstr ""
+"Ulasan terbuka, kontribusi untuk 30 atau 90 hari terakhir, laporan "
+"aktivitas, dll"
+
+msgid "Open your terminal program and type::"
+msgstr "Buka program terminal Anda dan ketik::"
+
+msgid "OpenStack"
+msgstr "OpenStack"
+
+msgid "OpenStack Activity - Dashboard"
+msgstr "OpenStack Activity - Dashboard"
+
+msgid "OpenStack Activity - Other Metrics"
+msgstr "OpenStack Activity - Metrics Lainnya"
+
+msgid "OpenStack Birthday Celebration"
+msgstr "OpenStack Birthday Celebration (perayaan ulang tahun OpenStack)"
+
+msgid "OpenStack Days"
+msgstr "OpenStack Days (hari OpenStack)"
+
+msgid "OpenStack Design Summit"
+msgstr ""
+"OpenStack Design Summit (Konferensi Tingkat Tinggi / KTT perancangan "
+"OpenStack)"
+
+msgid "OpenStack Documentation"
+msgstr "Dokumentasi OpenStack"
+
+msgid "OpenStack Events"
+msgstr "OpenStack Events (kegiatan OpenStack)"
+
+msgid "OpenStack Foundation"
+msgstr "OpenStack Foundation (yayasan OpenStack)"
+
+msgid "OpenStack Foundation Account"
+msgstr "OpenStack Foundation Account (akun OpenStack Foundation)"
+
+msgid "OpenStack Governance"
+msgstr "OpenStack Governance (tata kelola OpenStack)"
+
+msgid "OpenStack Project Teams"
+msgstr "Tim proyek OpenStack"
+
+msgid "OpenStack Release Cycle"
+msgstr "OpenStack Release Cycle (siklus rilis OpenStack)"
+
+msgid "OpenStack Upstream Training Introductions"
+msgstr "Pengenalan pelatihan hulu OpenStack"
+
+msgid "OpenStack and Agile"
+msgstr "OpenStack and Agile (openstack dan ketangkasan)"
+
+msgid "OpenStack as Community"
+msgstr "OpenStack sebagai komunitas"
+
+msgid "OpenStack as Software"
+msgstr "OpenStack as Software (openstack sebagai perangkat lunak)"
+
+msgid "OpenStack as a Community"
+msgstr "OpenStack sebagai komunitas"
+
+msgid "OpenStack from Telecom/NFV perspective"
+msgstr "OpenStack dari perspektif Telecom/NFV"
+
+msgid "OpenStack has a sandbox repository for learning and testing purposes"
+msgstr ""
+"OpenStack memiliki repositori sandbox untuk tujuan pembelajaran dan pengujian"
+
+msgid "Openness"
+msgstr "Openness (keterbukaan)"
+
+msgid "Operations and Architecture Design guides"
+msgstr "Panduan operasi dan desain arsitektur"
+
+msgid "Operators' meet ups"
+msgstr "Pertemuan operator"
+
+msgid "Opinion"
+msgstr "Opinion"
+
+msgid "Option 1: install using pip with more options::"
+msgstr "Opsi 1: install menggunakan pip dengan lebih banyak pilihan ::"
+
+msgid ""
+"Option 2: Use the package manager `Homebrew <http://brew.sh>`_, and type in "
+"a terminal::"
+msgstr ""
+"Opsi 2: Gunakan manajer paket `Homebrew <http://brew.sh>`_, dan ketik di "
+"terminal ::"
+
+msgid "Optional external references"
+msgstr "Referensi eksternal opsional"
+
+msgid ""
+"Optional services are also OpenStack projects but not necessarily need to "
+"operate OpenStack depending on use cases"
+msgstr ""
+"Layanan opsional juga proyek OpenStack tetapi tidak perlu untuk beroperasi "
+"OpenStack tergantung pada kasus penggunaan"
+
+msgid "Orchestration service"
+msgstr "Layanan Orchestration"
+
+msgid "Other possible content"
+msgstr "Konten lain yang mungkin"
+
+msgid "Other release candidates"
+msgstr "Kandidat rilis lainnya"
+
+msgid "Others: https://wiki.openstack.org/wiki/Meetings"
+msgstr "Lainnya: https://wiki.openstack.org/wiki/Meetings"
+
+msgid "Overall feature freeze is the third milestone"
+msgstr "Secara keseluruhan pembekuan fitur adalah tonggak ketiga"
+
+msgid "Oversight over the OpenStack projects"
+msgstr "Pengawasan atas proyek OpenStack"
+
+msgid "Overview of the contribution process"
+msgstr "Ikhtisar proses kontribusi"
+
+msgid "PTG: https://www.openstack.org/ptg/"
+msgstr "PTG (Project Teams Gathering): https://www.openstack.org/ptg/"
+
+msgid "PTL : 1"
+msgstr "PTL : 1"
+
+msgid "PTLs"
+msgstr "PTLs"
+
+msgid "Packaging"
+msgstr "Packaging (pengemasan)"
+
+msgid "Parallel modules"
+msgstr "Modul paralel"
+
+msgid "Part of the OpenStack project's functional testing"
+msgstr "Bagian dari uji fungsional proyek OpenStack"
+
+msgid ""
+"Participate in any goals specified by the TC, as defined by OpenStack-wide "
+"Goals"
+msgstr ""
+"Berpartisipasi dalam target yang ditetapkan oleh Technical Committee (TC), "
+"seperti yang didefinisikan oleh OpenStack-wide Goals"
+
+msgid "Participates in project related mail threads on the mailing lists"
+msgstr "Berpartisipasi dalam proyek terkait rangkaian email di milis"
+
+msgid ""
+"Paste the public key into the **Add SSH Public Key** text box and click Add."
+msgstr ""
+"Tempel kunci publik ke dalam kotak teks **Add SSH Public Key**  dan klik Add."
+
+msgid "Pay attention to who is an expert in what area"
+msgstr "Perhatikan ahli di bidang apa"
+
+msgid "People sitting in the inner circle lead the discussion"
+msgstr "Orang yang duduk di dalam lingkaran memimpin diskusi"
+
+msgid "People with similar area of interest"
+msgstr "Orang dengan kemiripan kepentingan"
+
+msgid "Per project tags"
+msgstr "Per tag proyek"
+
+msgid "Personal message or talk in the channel to people"
+msgstr "Pesan pribadi atau berbicara dalam saluran untuk orang"
+
+msgid "Pick a task (bug, trivial fix, documentation, implementation)"
+msgstr "Memilih tugas (bug, perbaikan biasa, dokumentasi, implementasi)"
+
+msgid "Picking Your Project"
+msgstr "Picking Your Project"
+
+msgid "Planning - Design"
+msgstr "Perencanaan - Perancangan"
+
+msgid "Planning - Discuss"
+msgstr "Planning - Discuss (perencanaan - diskusikan)"
+
+msgid "Planning - Target"
+msgstr "Planning - Target (perencanaan - sasaran)"
+
+msgid "Planning and design activities"
+msgstr "Kegiatan perencanaan dan perancangan"
+
+msgid "Planning for a release cycle starts at the end of the previous cycle"
+msgstr "Perencanaan untuk siklus rilis dimulai pada akhir siklus sebelumnya"
+
+msgid "Platinum member companies"
+msgstr "Perusahaan anggota Platinum"
+
+msgid ""
+"Please create a few logical and different changes and submit new patchsets "
+"to those few changes in Sandbox repository for one bug in Launchpad."
+msgstr ""
+"Silahkan buat beberapa perubahan logis dan berbeda dan menyerahkan patchsets "
+"baru untuk beberapa perubahan dalam repositori Sandbox untuk satu bug di "
+"Launchpad."
+
+msgid ""
+"Please do not let students create 10 or more changes. (This is not the "
+"intention of Sandboxes!)"
+msgstr ""
+"Jangan biarkan siswa membuat 10 atau lebih perubahan. (Ini bukan maksud "
+"Sandboxes!)"
+
+msgid "Prepare your idea for the public"
+msgstr "Siapkan ide Anda untuk publik"
+
+msgid "Prioritize bugs / bug triage"
+msgstr "Prioritaskan bug / bug triage"
+
+msgid "Prioritizing items"
+msgstr "Memprioritaskan item"
+
+msgid "Produce *deliverables* to achieve a clearly stated *objective*"
+msgstr ""
+"Menghasilkan *deliverables* untuk mencapai *objective* yang dinyatakan jelas"
+
+msgid "Product owners"
+msgstr "Product owners (pemilik produk)"
+
+msgid "Project Team Gathering (PTG)"
+msgstr "Project Team Gathering (PTG) (pertemuan tim proyek)"
+
+msgid "Project Team Leads (PTLs)"
+msgstr "Project Team Leads (PTLs) (pemimpin) tim proyek"
+
+msgid ""
+"Project team helps you to identify the target milestone and register it in "
+"the tracking tool"
+msgstr ""
+"Tim proyek membantu Anda untuk mengidentifikasi tonggak target dan "
+"mendaftarkannya di alat pelacakan"
+
+msgid "Projects APIs are documented within the project"
+msgstr "Proyek API didokumentasikan dalam proyek"
+
+msgid ""
+"Projects are evolving themselves and also sustain for one collaborative "
+"framework, OpenStack"
+msgstr ""
+"Proyek berkembang sendiri dan juga mempertahankan untuk satu kerangka kerja "
+"kolaboratif, OpenStack"
+
+msgid "Projects under a \"Big Tent\""
+msgstr "Proyek di bawah \"Big Tent\""
+
+msgid "Provide documentation for core OpenStack projects to promote OpenStack."
+msgstr ""
+"Menyediakan dokumentasi untuk proyek inti OpenStack untuk mempromosikan "
+"OpenStack."
+
+msgid "Provides"
+msgstr "Menyediakan"
+
+msgid ""
+"Provides transparent and meaningful statistics regarding contributions to "
+"both OpenStack itself and projects related to OpenStack"
+msgstr ""
+"Menyediakan statistik transparan dan bermakna mengenai kontribusi untuk "
+"OpenStack sendiri maupun proyek yang terkait dengan OpenStack"
+
+msgid "Public/Private cloud"
+msgstr "Public/Private cloud"
+
+msgid "Publish comment"
+msgstr "Mempublikasikan komentar"
+
+msgid "Publish comment reply"
+msgstr "Mempublikasikan komentar balasan"
+
+msgid "Published collectively as the OpenStack release"
+msgstr "Diterbitkan secara kolektif sebagai rilis OpenStack"
+
+msgid "Push code to Gerrit for review"
+msgstr "Mendorong kode ke Gerrit untuk ulasan"
+
+msgid "Push upstream for review"
+msgstr "Mendorong hulu untuk ulasan"
+
+msgid "Quality"
+msgstr "Quality (kualitas)"
+
+msgid ""
+"REMEMBER: This is open source. Things happen on the community's schedule, "
+"not yours."
+msgstr ""
+"INGAT: Ini adalah open source. Sesuatu terjadi pada kegiatan masyarakat, "
+"bukan milikmu."
+
+msgid "REST APIs"
+msgstr "REST API"
+
+msgid ""
+"Read through the presented individual member terms of service and our "
+"`Community Code of Conduct <https://www.openstack.org/legal/community-code-"
+"of-conduct/>`_."
+msgstr ""
+"Baca melalui persyaratan layanan anggota individual yang disajikan dan kami "
+"`Community Code of Conduct <https://www.openstack.org/legal/community-code-"
+"of-conduct/>`_."
+
+msgid "Reading review invitation"
+msgstr "Membaca undangan pengulasan"
+
+msgid "Reading the bug description and assigning her/himself to fix the bug"
+msgstr "Membaca deskripsi bug dan menugaskan dia/dirinya untuk memperbaiki bug"
+
+msgid "Recheck bug #XXX"
+msgstr "Periksa ulang bug #XXX"
+
+msgid "References to other relevant patches?"
+msgstr "Referensi untuk patch lain yang relevan?"
+
+msgid "Regional 'Mini-Summit'"
+msgstr "Regional 'Mini-Summit'"
+
+msgid "Regional Events"
+msgstr "Regional Events (Kegiatan Regional)"
+
+msgid "Register Contact Information"
+msgstr "Register Contact Information"
+
+msgid ""
+"Register a blueprint : https://blueprints.launchpad.net/openstack-dev-sandbox"
+msgstr ""
+"Mendaftar cetak biru : https://blueprints.launchpad.net/openstack-dev-sandbox"
+
+msgid "Registration and Accounts"
+msgstr "Registration and Accounts (pendaftaran dan akun)"
+
+msgid "Registration and accounts"
+msgstr "Pendaftaran dan akun"
+
+msgid "Regressions and integration issues"
+msgstr "Isu regresi dan integrasi"
+
+msgid "Regular reviewer"
+msgstr "Pengulas biasa"
+
+msgid "Release"
+msgstr "Melepaskan"
+
+msgid "Release Candidates"
+msgstr "Kandidat rilis"
+
+msgid "Release candidate 1"
+msgstr "Release candidate 1"
+
+msgid "Release cycle"
+msgstr "Siklus rilis"
+
+msgid "Release day"
+msgstr "Hari rilis"
+
+msgid ""
+"Release management description: http://docs.openstack.org/project-team-guide/"
+"release-management.html"
+msgstr ""
+"Melepaskan deskripsi manajemen: http://docs.openstack.org/project-team-guide/"
+"release-management.html"
+
+msgid "Release models"
+msgstr "Model rilis"
+
+msgid "Release preparation"
+msgstr "Persiapan rilis"
+
+msgid "Release process is managed by the Release Management team"
+msgstr "Proses rilis dikelola oleh tim manajemen rilis"
+
+msgid "Relevance metrics"
+msgstr "Metrik relevansi"
+
+msgid "Remove the code changes and run the tests"
+msgstr "Keluarkan perubahan kode dan jalankan tes"
+
+msgid "Repeated as many times as necessary"
+msgstr "Diulang sebanyak yang diperlukan"
+
+msgid "Replacement for Design Summit at future Summits"
+msgstr "Pengganti Perancangan KTT di KTT masa depan"
+
+msgid "Reply to comments"
+msgstr "Membalas komentar"
+
+msgid "Report a bug - Details"
+msgstr "Laporkan bug - Rincian"
+
+msgid "Report a bug - Summary"
+msgstr "Laporkan bug - Ringkasan"
+
+msgid "Reporting a bug on Launchpad"
+msgstr "Melaporkan bug di Launchpad"
+
+msgid "Repositories"
+msgstr "Repositories (repositori)"
+
+msgid "Representatives are elected from"
+msgstr "Perwakilan dipilih"
+
+msgid "Represents OpenStack users"
+msgstr "Merepresentasikan pengguna OpenStack"
+
+msgid "Required external references"
+msgstr "Referensi eksternal yang diperlukan"
+
+msgid ""
+"Requirements (http://governance.openstack.org/reference/new-projects-"
+"requirements.html)"
+msgstr ""
+"Persyaratan (http://governance.openstack.org/reference/new-projects-"
+"requirements.html)"
+
+msgid "Requirements of Official OpenStack projects"
+msgstr "Persyaratan proyek OpenStack resmi"
+
+msgid "Reserved for ad-hoc meetings of project teams"
+msgstr "Dicadangkan untuk pertemuan ad-hoc dari tim proyek"
+
+msgid "Resolve merge conflicts"
+msgstr "Menyelesaikan konflik penggabungan"
+
+msgid "Resolve technical disputes"
+msgstr "Menyelesaikan sengketa teknis"
+
+msgid "Responding to change over following a plan"
+msgstr "Menanggapi perubahan selama mengikuti rencana"
+
+msgid ""
+"Restart the corresponding service in your DevStack environment and find the "
+"new message in the logs"
+msgstr ""
+"Restart layanan yang sesuai di lingkungan DevStack Anda dan temukan pesan "
+"baru di log"
+
+msgid "Results will be accumulated in History."
+msgstr "Hasil akan terakumulasi dalam Riwayat."
+
+msgid "Review"
+msgstr "Ulasan"
+
+msgid "Review Score & Results"
+msgstr "Review Score & Results"
+
+msgid "Review again"
+msgstr "Tinjau lagi"
+
+msgid "Review in gerrit"
+msgstr "Ulasan di Gerrit"
+
+msgid "Review invitation letter"
+msgstr "Surat undangan pengulasan"
+
+msgid "Review other launchpad bugs and improve yours."
+msgstr "Tinjau bug launchpad lain dan tingkatkan tinjauan Anda."
+
+msgid "Review other's code"
+msgstr "Mengulas kode milik lain"
+
+msgid "Review three patches in the sandbox environment:"
+msgstr "Mengulas tiga patch di lingkungan sandbox:"
+
+msgid "Review unified"
+msgstr "Mengulas terpadu"
+
+msgid "Reviewing"
+msgstr "Reviewing (mengkaji)"
+
+msgid "Reviewing the patch and giving feedback with comment"
+msgstr "Meninjau patch dan memberikan umpan balik dengan komentar"
+
+msgid "Reviewing the revised patch and merging the patch"
+msgstr "Peninjauan patch yang direvisi dan penggabungan patch"
+
+msgid "Reviewing with comment"
+msgstr "Mengulas dengan komentar"
+
+msgid "Revise the original patch according to discussion results."
+msgstr "Merevisi patch asli menurut hasil diskusi."
+
+msgid "Revising file(s)"
+msgstr "Meninjau file"
+
+msgid "Run for elected positions in the OpenStack project."
+msgstr "Jalankan untuk posisi terpilih dalam proyek OpenStack."
+
+msgid "Run one test case"
+msgstr "Menjalankan satu batu ujian"
+
+msgid "Run only one test class and not the whole suite"
+msgstr "Hanya menjalankan satu kelas tes dan bukannya seluruh suite"
+
+msgid "Run tests (unit, functional, etc.)"
+msgstr "Menjalankan tes (unit, fungsional, dll)"
+
+msgid "Run the tests"
+msgstr "Menjalankan tes"
+
+msgid "Run unit tests"
+msgstr "Jalankan tes unit"
+
+msgid "SERIES-backport-potential"
+msgstr "SERIES-backport-potential"
+
+msgid "SERIES-rc-potential"
+msgstr "SERIES-rc-potential"
+
+msgid "SSH keys are always generated in pairs:"
+msgstr "Kunci SSH selalu dihasilkan berpasangan:"
+
+msgid "Sandbox Launchpad"
+msgstr "Sandbox Launchpad"
+
+msgid "Sandbox Launchpad Bug list"
+msgstr "Daftar Sandbox Launchpad Bug"
+
+msgid "Sandbox Status"
+msgstr "Status Sandbox"
+
+msgid "Sandbox repository"
+msgstr "Repositori Sandbox"
+
+msgid "Say a few words about yourself"
+msgstr "Mengatakan beberapa kata tentang diri Anda"
+
+msgid "Score status"
+msgstr "Status skor"
+
+msgid "Score will reflect reviewer's opinion."
+msgstr "Skor akan mencerminkan opini pengkaji."
+
+msgid "Security Guide"
+msgstr "Panduan keamanan"
+
+msgid "SecurityImpact"
+msgstr "SecurityImpact"
+
+msgid "Seeing new comment"
+msgstr "Melihat komentar baru"
+
+msgid "Seeing review score with written comments"
+msgstr "Melihat skor kajian dengan komentar tertulis"
+
+msgid "Self-contained"
+msgstr "Serba lengkap"
+
+msgid "Service terminals"
+msgstr "Terminal layanan"
+
+msgid "Set by each project team"
+msgstr "Ditetapkan oleh masing-masing tim proyek"
+
+msgid "Setup & First Patch"
+msgstr "Setup & First Patch"
+
+msgid "Setup Gerrit Account"
+msgstr "Setup Gerrit Account"
+
+msgid "Setup Launchpad"
+msgstr "Pengaturan Launchpad"
+
+msgid "Setup OpenStack Foundation Account"
+msgstr "Pengaturan OpenStack Foundation Account"
+
+msgid "Setup SSH Keys"
+msgstr "Setup SSH Keys"
+
+msgid "Setup and Learn GIT"
+msgstr "Penyiapan dan Belajar GIT"
+
+msgid "Should not end with a period"
+msgstr "Sebaiknya tidak diakhiri dengan titik"
+
+msgid "Sign In"
+msgstr "Sign In (masuk)"
+
+msgid "Sign Up"
+msgstr "Sign Up (mendaftar)"
+
+msgid "Sign the Individual agreement"
+msgstr "Menandatangani perjanjian Individu"
+
+msgid "Signed agreement"
+msgstr "Perjanjian ditandatangani"
+
+msgid "Signing it"
+msgstr "Menandatanganinya"
+
+msgid ""
+"Since the written comment is in the previous patchset, select patchset 1, "
+"and choose the file which has comment(s)."
+msgstr ""
+"Karena komentar yang ditulis berada dalam patchset sebelumnya, pilih "
+"patchset 1, dan pilih file yang memiliki komentar."
+
+msgid "Single and multi node setup"
+msgstr "Tunggal dan multi pengaturan nodus"
+
+msgid "Sit together"
+msgstr "Duduk bersama"
+
+msgid "Sites"
+msgstr "Sites (situs)"
+
+msgid "Small issue with an easy workaround. Any other insignificant bug"
+msgstr "Masalah kecil dengan solusi yang mudah. Bug signifikan lainnya"
+
+msgid "Smaller scale than OpenStack Days Events"
+msgstr "Skala yang lebih kecil dari kegiatan OpenStack Days"
+
+msgid "Software Development Kits (SDKs)"
+msgstr "Software Development Kits (SDKs)"
+
+msgid "Software package that provides a cloud platform for"
+msgstr "Paket perangkat lunak yang menyediakan platform cloud"
+
+msgid ""
+"Some are more development focused while others are more user and ops focused"
+msgstr ""
+"Beberapa merupakan pembangunan yang lebih terfokus sementara yang lain lebih "
+"terfokus pada pengguna dan operacional."
+
+msgid ""
+"Someone of authority needs to sign the `U.S. Government Contributor License "
+"Agreement <https://wiki.openstack.org/wiki/GovernmentCLA>`_. Contact the "
+"`OpenStack Foundation <mailto:communitymngr@openstack.org>`_ to initiate "
+"this process."
+msgstr ""
+"Seseorang dari otoritas perlu menandatangani `U.S. Government Contributor "
+"License Agreement <https://wiki.openstack.org/wiki/GovernmentCLA>`_. Contact "
+"the `OpenStack Foundation <mailto:communitymngr@openstack.org>`_ untuk "
+"memulai proses ini."
+
+msgid ""
+"Source file is hosted in the `governance repository <http://git.openstack."
+"org/cgit/openstack/governance/tree/reference/projects.yaml>`_"
+msgstr ""
+"Sumber file host di `governance repository <http://git.openstack.org/cgit/"
+"openstack/governance/tree/reference/projects.yaml>`_"
+
+msgid "Spec/blueprint freeze"
+msgstr "Spesifikasi/cetak biru membeku"
+
+msgid "Specialty teams"
+msgstr "Tim khusus"
+
+msgid "Speeding the Acceptance"
+msgstr "Mempercepat penerimaan"
+
+msgid "Stable branches"
+msgstr "Stable branches (cabang stabil)"
+
+msgid "Stackalytics"
+msgstr "Stackalytics"
+
+msgid "Stackalytics Wiki: https://wiki.openstack.org/wiki/Stackalytics"
+msgstr "Stackalytics Wiki: https://wiki.openstack.org/wiki/Stackalytics"
+
+msgid ""
+"Stackalytics site is being migrated to http://stackalytics.openstack.org by "
+"OpenStack Infrastructure team."
+msgstr ""
+"Situs Stackalytics sedang bermigrasi ke http://stackalytics.openstack.org "
+"oleh tim Infrastruktur OpenStack."
+
+msgid "Staff"
+msgstr "Staff"
+
+msgid "Start DevStack in a VM on your laptop or in public cloud"
+msgstr "Mulai DevStack di VM pada laptop atau di cloud publik"
+
+msgid "Start work from latest patchset"
+msgstr "Mulai bekerja dari patchset terbaru"
+
+msgid "Status: Fix Committed"
+msgstr "Status: Fix Committed"
+
+msgid "Status: Fix Released"
+msgstr "Status: Fix Released"
+
+msgid "Status: In progress"
+msgstr "Status: In progress"
+
+msgid "Status: New"
+msgstr "Status: New (baru)"
+
+msgid "Strategic and financial oversight"
+msgstr "Pengawasan strategis dan keuangan"
+
+msgid "String freeze"
+msgstr "Pembekuan string"
+
+msgid "Submit presentations to OpenStack conferences."
+msgstr "Kirim presentasi ke OpenStack konferensi."
+
+msgid "Submit the blueprints and/or specs"
+msgstr "Mengajukan cetak biru dan / atau spesifikasi"
+
+msgid "Submit to the TC oversight"
+msgstr "Menyerahkan kepada pengawasan TC"
+
+msgid "Subset of the Foundation Individual Members"
+msgstr ""
+"Subset of the Foundation Individual Members (Himpunan bagian dari anggota "
+"individu yayasan)"
+
+msgid "Successful bug report submission"
+msgstr "Penyampaian laporan bug sukses"
+
+msgid "Succinctly describes patch content"
+msgstr "Ringkas menjelaskan konten Patch"
+
+msgid "Summits"
+msgstr "Pertemuan puncak"
+
+msgid "TC seats are elected from and by the group of ATC's"
+msgstr ""
+"Kursi Technical Committee (TC) dipilih dari dan oleh kelompok ATC (Active "
+"Technical Contributor)"
+
+msgid "Tags can be proposed by anyone"
+msgstr "Tag dapat diajukan oleh siapa pun"
+
+msgid "Tags describing OpenStack Projects"
+msgstr "Tags menggambarkan proyek OpenStack"
+
+msgid "Take a step back"
+msgstr "Mengambil langkah mundur"
+
+msgid "Talking in IRC Channels & Meetings"
+msgstr "Berbicara di IRC Channels & Meetings"
+
+msgid "Talking in the IRC channel"
+msgstr "Berbicara dalam saluran IRC"
+
+msgid "Team diversity"
+msgstr "Keragaman tim"
+
+msgid "Team members : 3-5"
+msgstr "Anggota tim : 3-5"
+
+msgid "Team up"
+msgstr "Bekerja sama"
+
+msgid "Teams in OpenStack can be freely created as they are needed"
+msgstr "Tim dalam OpenStack dapat dibuat bebas sebagaimana mereka dibutuhkan"
+
+msgid "Teams of official projects are under the authority of the TC"
+msgstr "Tim proyek resmi berada di bawah kewenangan Technical Committee"
+
+msgid "Teams of people who"
+msgstr "Tim dari orang yang"
+
+msgid "Technical Committee"
+msgstr "Komite Teknik"
+
+msgid "Technical Committee (\"TC\")"
+msgstr "Technical Committee (\"TC\")"
+
+msgid "Technical committee : 1"
+msgstr "Technical committee : 1"
+
+msgid "Technical documentation writers"
+msgstr "Penulis dokumentasi teknis"
+
+msgid "Technical leadership"
+msgstr "Kepemimpinan teknis"
+
+msgid "Test coverage exercise"
+msgstr "Latihan cakupan tes"
+
+msgid "Test suites"
+msgstr "Rangkaian pengujian"
+
+msgid "Test the code and file bugs"
+msgstr "Menguji kode dan bug file"
+
+msgid "Testable on its own"
+msgstr "Diuji sendiri"
+
+msgid "Testing"
+msgstr "Testing (pengujian)"
+
+msgid "Testing exercise"
+msgstr "Latihan pengujian"
+
+msgid "Testing framework"
+msgstr "Kerangka pengujian"
+
+msgid "Tests can be remotely or self-administered"
+msgstr "Tes dapat dikelola sendiri atau jarak jauh"
+
+msgid "Text based chat"
+msgstr "Obrolan berdasarkan teks"
+
+msgid "The Gerrit review will be merged by +1 in Workflow"
+msgstr "Kajian Gerrit akan digabung dengan +1 dalam Workflow"
+
+msgid "The Implementation is a subset of the whole project"
+msgstr "Implementasi adalah bagian dari keseluruhan proyek"
+
+msgid "The Implementation must have an open reference implementation"
+msgstr "Implementasi harus memiliki implementasi referensi terbuka"
+
+msgid "The OpenStack Community"
+msgstr "OpenStack Community (komunitas openstack)"
+
+msgid ""
+"The OpenStack Foundation participates in internship programs as `Outreachy "
+"<https://wiki.openstack.org/wiki/Outreachy>`_."
+msgstr ""
+"OpenStack Foundation berpartisipasi dalam program magang sebagai `Outreachy "
+"<https://wiki.openstack.org/wiki/Outreachy>`_."
+
+msgid "The OpenStack Package"
+msgstr "The OpenStack Package (paket openstack)"
+
+msgid "The branch containing the fix was merged into master"
+msgstr "Cabang yang berisi perbaikan dilebur menjadi Master"
+
+msgid ""
+"The bug comments contain a full analysis on how to properly fix the issue"
+msgstr ""
+"Komentar bug berisi analisis lengkap tentang bagaimana cara benar "
+"memperbaiki masalah"
+
+msgid "The bug is waiting on input from the reporter"
+msgstr "Bug tersebut menunggu masukan dari pelapor"
+
+msgid "The bug was just created"
+msgstr "Bug baru saja dibuat"
+
+msgid "The bug was reproduced or confirmed as a genuine bug"
+msgstr "Bug direproduksi atau dikonfirmasi sebagai bug asli"
+
+msgid "The code is self-evident/self-documenting"
+msgstr "Kode ini self-evident/self-documenting"
+
+msgid "The common syntax: #openstack-<name-of-project>"
+msgstr "The common syntax: #openstack-<name-of-project>"
+
+msgid "The deadline for proposing new ideas for a release cycle"
+msgstr "Batas waktu untuk mengusulkan ide baru untuk siklus rilis"
+
+msgid ""
+"The downloaded file should be a dmg in your downloads folder. Open that dmg "
+"file and follow the instructions on screen."
+msgstr ""
+"File yang didownload harus dmg di folder download Anda. Membuka file dmg dan "
+"ikuti petunjuk di layar."
+
+msgid "The exact date depends on the projects"
+msgstr "Tanggal yang tepat tergantung pada proyek"
+
+msgid ""
+"The fix is included in the milestone-proposed branch, a past milestone or a "
+"past release"
+msgstr ""
+"Cara mengatasinya termasuk dalam cabang milestone-proposed, tonggak "
+"(milestone) masa lalu atau rilis terakhir"
+
+msgid "The four opens"
+msgstr "Empat terbuka"
+
+msgid ""
+"The milestone we need to fix the bug for, or the milestone/version it was "
+"fixed in."
+msgstr ""
+"Tonggak dimana kita harus memperbaiki bug, atau tonggak/versi dimana hal itu "
+"telah diperbaiki"
+
+msgid "The official list of projects:"
+msgstr "Daftar proyek resmi:"
+
+msgid ""
+"The other contact information including postal address and phone numbers "
+"will be kept confidential and is only used as a fallback record in the "
+"unlikely event the OpenStack Foundation needs to reach you directly over "
+"code contribution related matters."
+msgstr ""
+"Informasi kontak lainnya termasuk alamat pos dan nomor telepon akan dijaga "
+"kerahasiaannya dan hanya digunakan sebagai catatan fallback dalam kejadian "
+"yang tidak diinginkan dimana OpenStack Foundation perlu menghubungi Anda "
+"langsung di atas kode kontribusi terkait hal."
+
+msgid ""
+"The person currently working to fix this bug. Must be set by In progress "
+"stage."
+msgstr ""
+"Orang saat ini bekerja untuk memperbaiki bug. Harus ditetapkan oleh pada "
+"tahap sedang berlangsung."
+
+msgid ""
+"The priority of the work item is set by the project team members or lead"
+msgstr "Prioritas item pekerjaan diatur oleh anggota tim proyek atau pemimpin"
+
+msgid "The release, or milestone, or commit ID"
+msgstr "Rilis, atau tonggak, atau melakukan komitmen ID"
+
+msgid "The reviewer has access to external web services/site"
+msgstr "Pengkaji memiliki akses ke eksternal layanan web / situs"
+
+msgid "The reviewer understands what the original problem was"
+msgstr "Pengkaji mengerti apa masalah aslinya"
+
+msgid ""
+"The teams get space on OpenStack Summits and Project Team Gatherings (PTG)"
+msgstr ""
+"Tim mendapatkan ruang pada OpenStack Summits dan Project Team Gathering (PTG)"
+
+msgid ""
+"The training concentrates on the common cycle with the development "
+"milestones as that is what most students will face with. The other types "
+"should be described with examples."
+msgstr ""
+"Pelatihan ini berkonsentrasi pada siklus umum dengan tonggak pembangunan "
+"seperti itulah dimana kebanyakan siswa akan menghadapi itu. Jenis lain "
+"pelatihan harus dijelaskan dengan contoh."
+
+msgid ""
+"This contact information can be easily updated later if desired, but make "
+"sure the primary email address always matches the one you set for your "
+"OpenStack Foundation Membership. Otherwise, Gerrit will give you an error "
+"message and refuse to accept your contact information."
+msgstr ""
+"Informasi kontak ini dapat dengan mudah diperbarui nanti jika diinginkan, "
+"tapi pastikan alamat email utama selalu cocok dengan yang Anda tetapkan "
+"untuk OpenStack Foundation Membership Anda. Jika tidak, Gerrit akan "
+"memberikan pesan kesalahan dan menolak untuk menerima informasi kontak Anda."
+
+msgid ""
+"This guide provides detailed instructions on the contribution workflow and "
+"conventions to be considered by all documentation contributors."
+msgstr ""
+"Panduan ini memberikan petunjuk rinci tentang alur kerja kontribusi dan "
+"konvensi yang harus dipertimbangkan oleh semua kontributor dokumentasi."
+
+msgid "This helps the I18n and Documentation projects"
+msgstr "Ini membantu i18n dan proyek Dokumentasi"
+
+msgid "This is a valid issue, but it is the way it should be"
+msgstr "Ini adalah isu yang valid, tetapi itu adalah cara yang seharusnya"
+
+msgid "This is a valid issue, but we don't intend to fix that"
+msgstr ""
+"Ini adalah masalah yang valid, tetapi kami tidak berniat untuk memperbaikinya"
+
+msgid "This is not a bug"
+msgstr "Ini bukan bug"
+
+msgid ""
+"This is the review system the OpenStack community uses. Here are just some "
+"of the things we use Gerrit for reviewing:"
+msgstr ""
+"Ini adalah sistem pengulasan dimana  komunitas OpenStack menggunakannya. "
+"Berikut adalah beberapa hal dimana kita mengunakan Gerrit untuk pengulasan:"
+
+msgid "This section assumes you have completed :doc:`accounts` guide."
+msgstr ""
+"Bagian ini mengasumsikan Anda telah menyelesaikan panduan :doc:`accounts`."
+
+msgid "This will need to match your preferred email address in Gerrit."
+msgstr "Ini menjadi perlu untuk mencocokkan alamat email Anda di Gerrit."
+
+msgid "Three development milestones during a release cycle"
+msgstr "Tiga tahap perkembangan selama siklus rilis"
+
+msgid "Timing"
+msgstr "Pemilihan waktu"
+
+msgid ""
+"To manage and track the reported bugs and issues related with openstack-dev/"
+"sandbox repository"
+msgstr ""
+"Untuk mengelola dan melacak bug yangdilaporkan dan isu terkait dengan "
+"repositori openstack-dev/sandbox"
+
+msgid "To notify working status on the bug to others"
+msgstr "Untuk memberitahukan status kerja dari bug kepada orang lain"
+
+msgid ""
+"To produce the ubiquitous Open Source Cloud Computing platform that will "
+"meet the needs of public and private clouds regardless of size, by being "
+"simple to implement and massively scalable."
+msgstr ""
+"Untuk menghasilkan platform Open Source Cloud Computing di mana-mana yang "
+"akan memenuhi kebutuhan cloud publik dan private tanpa memandang ukurannya, "
+"dengan cara sederhana untuk menerapkan dan berskala besar."
+
+msgid "To understand how it all fits together, we use a hands on example"
+msgstr ""
+"Untuk memahami bagaimana semua itu cocok untuk bersama-sama, kita membantu "
+"dengan contoh"
+
+msgid "Tox"
+msgstr "Tox"
+
+msgid "Tracking"
+msgstr "Tracking (pelacakan)"
+
+msgid "Trailing the common cycle"
+msgstr "Dalam Periode siklus umum"
+
+msgid "Trainers"
+msgstr "Pelatih"
+
+msgid "Training guides"
+msgstr "Panduan pelatihan"
+
+msgid "Training labs"
+msgstr "Laboratorium pelatihan"
+
+msgid "Translations / i18n issues."
+msgstr "Isu terjemahan / i18n."
+
+msgid "Transparency"
+msgstr "Transparency (transparansi)"
+
+msgid ""
+"Transparency: the community can have confidence that all calculations are "
+"correct and fair"
+msgstr ""
+"Transparansi: masyarakat dapat memiliki keyakinan bahwa semua perhitungan "
+"yang benar dan adil"
+
+msgid "Treat documentation like OpenStack code."
+msgstr "Buat dokumentasi seperti kode OpenStack."
+
+msgid "Triaged"
+msgstr "Triaged"
+
+msgid "Triggered on every commit"
+msgstr "Dipicu untuk setiap komit"
+
+msgid ""
+"Try to emphasize the synergy of using repository integration with bug "
+"management to students!"
+msgstr ""
+"Cobalah untuk menekankan sinergi menggunakan integrasi repositori dengan "
+"manajemen bug untuk siswa !"
+
+msgid ""
+"Try to find things to make comments on even if they are just asking a "
+"question and not pointing out an issue, don't just +1 three different "
+"patches."
+msgstr ""
+"Cobalah untuk menemukan hal-hal untuk membuat komentar bahkan jika mereka "
+"hanya mengajukan pertanyaan dan tidak menunjukkan isu, jangan hanya +1 tiga "
+"patch yang berbeda."
+
+msgid "Types of sessions"
+msgstr "Tipe sesi"
+
+msgid "Typically public key filenames will look like:"
+msgstr "Nama file kunci publik biasanya akan terlihat seperti:"
+
+msgid "UC/WG intro"
+msgstr "Pengantar UC/WG"
+
+msgid "Unaffiliated contributors (free agents)"
+msgstr ""
+"Unaffiliated contributors (free agents) (kontributor yang tidak terafiliasi "
+"- agen bebas)"
+
+msgid "Undefined"
+msgstr "Tidak terdefinisi"
+
+msgid "Under individual members, click the **Foundation Member** button."
+msgstr "Di bawah masing-masing anggota, klik tombol **Foundation Member**."
+
+msgid "Unit"
+msgstr "Unit (satuan)"
+
+msgid "Update and add tests (unit, functional, etc.)"
+msgstr "Memperbarui dan menambahkan tes (unit, fungsional, dll)"
+
+msgid "UpgradeImpact"
+msgstr "UpgradeImpact"
+
+msgid "Upload your code as early as possible in the release cycle"
+msgstr "Upload kode Anda sedini mungkin dalam siklus rilis"
+
+msgid "Uploading a new patchset"
+msgstr "Mengunggah patchset baru"
+
+msgid "Uploading a patch and inviting a peer as a reviewer"
+msgstr "Meng-upload patch dan mengundang rekan sebagai pengkaji"
+
+msgid "Uploading a revised patch with comment"
+msgstr "Meng-upload sebuah patch yang direvisi dengan komentar"
+
+msgid "Uploading to Gerrit"
+msgstr "Meng-upload ke Gerrit"
+
+msgid "Upstream is responsible for the finished product."
+msgstr "Hulu bertanggung jawab untuk produk jadi."
+
+msgid "Use \"Implements: [blueprint name]\" in commit messages"
+msgstr "Gunakan \"Implements: [blueprint name]\" pada pesan komit"
+
+msgid "Use command 'screen -x' to see the running services"
+msgstr "Gunakan perintah 'screen -x' untuk melihat layanan yang berjalan"
+
+msgid "Use it for exercises"
+msgstr "Menggunakannya untuk latihan"
+
+msgid "Use your IRC client or Web IRC:"
+msgstr "Menggunakan klien IRC atau Web IRC:"
+
+msgid "Used as"
+msgstr "Digunakan sebagai"
+
+msgid "Used as-is as the final release"
+msgstr "Digunakan as-is sebagai rilis final"
+
+msgid "Useful for participants if they are already working with a project team"
+msgstr "Berguna untuk peserta jika mereka sudah bekerja dengan tim proyek"
+
+msgid "User Committee"
+msgstr "Komite pengguna"
+
+msgid "User Committee (\"UC\")"
+msgstr "User Committee (\"UC\")"
+
+msgid "User Group Meetups"
+msgstr "User Group Meetups (meetups kelompok pengguna)"
+
+msgid "User groups"
+msgstr "Kelompok pengguna"
+
+msgid "User guides"
+msgstr "Panduan pengguna"
+
+msgid "Using Lego to represent the community"
+msgstr "Menggunakan Lego untuk mewakili masyarakat"
+
+msgid "Using Linux 'screen'"
+msgstr "Penggunaan Linux 'screen'"
+
+msgid "Using Sandbox for Practice"
+msgstr "Menggunakan Sandbox untuk praktek"
+
+msgid ""
+"Using Sandbox repository and Launchpad, next number of slides will show the "
+"following steps:"
+msgstr ""
+"Menggunakan Sandbox repositori dan Launchpad, nomor slide berikutnya akan "
+"menunjukkan langkah-langkah berikut:"
+
+msgid "Using the common tools (code repository, bug tracker, CI system, etc.)"
+msgstr ""
+"Menggunakan alat umum (repositori kode, pelacak kesalahan, sistem CI, dll.)"
+
+msgid "Validate the services are running"
+msgstr "Validasi layanan yang berjalan"
+
+msgid "Various use cases including Enterprise/Telecom/etc."
+msgstr "Berbagai kasus penggunaan termasuk Kewirausahaan / Telecom / etc."
+
+msgid "Vendors may substitute alternate implementations"
+msgstr "Vendor dapat mengganti implementasi alternatif"
+
+msgid "Verb in the present tense and object"
+msgstr "Kata kerja dalam  present tense dan obyek"
+
+msgid "Version control"
+msgstr "kontrol versi"
+
+msgid "Virtual Infrastructure Manager (VIM) + NFV Infrastructure (NFVI)"
+msgstr "Virtual Infrastructure Manager (VIM) + NFV Infrastructure (NFVI)"
+
+msgid "Virtual Network Functions Manager (VNFM)"
+msgstr "Virtual Network Functions Manager (VNFM)"
+
+msgid ""
+"Visit `Contact Information <https://review.openstack.org/#/settings/"
+"contact>`__ in Gerrit's settings."
+msgstr ""
+"Kunjungi `Contact Information <https://review.openstack.org/#/settings/"
+"contact>`__ dalam pengaturan Gerrit ini."
+
+msgid ""
+"Visit `OpenStack's Gerrit page <https://review.openstack.org>`_ and click "
+"the **sign in** link."
+msgstr ""
+"Mengunjungi `OpenStack's Gerrit page <https://review.openstack.org>`_ dan "
+"klik link  **sign in**."
+
+msgid "Vote in elections."
+msgstr "Memilih dalam pemilihan."
+
+msgid "WG deep dive"
+msgstr "Mempelajari lebih dalam tentang WG"
+
+msgid ""
+"Way for people to communicate to a larger group than those that are on IRC"
+msgstr ""
+"Cara bagi orang untuk berkomunikasi dengan kelompok yang lebih besar "
+"daripada mereka yang ada di IRC"
+
+msgid "Ways to Communicate in OpenStack"
+msgstr "Cara berkomunikasi di OpenStack"
+
+msgid "We are new age people with some good old technology around"
+msgstr ""
+"Kami adalah orang zaman baru dengan beberapa teknologi lama yang baik di "
+"sekitar kami"
+
+msgid "We have seen in `Commit Messages <workflow-commit-message.html#9>`__"
+msgstr ""
+"Kita telah melihat di `Commit Messages <workflow-commit-message.html#9>`__"
+
+msgid "We have seen in `Gerrit <workflow-gerrit.html#5>`__"
+msgstr "Kita telah melihat di `Gerrit <workflow-gerrit.html#5>`__"
+
+msgid ""
+"We have seen in `Overview of the contribution process <workflow-training-"
+"contribution-process.html#4>`_"
+msgstr ""
+"Kita telah melihat di `Overview of the contribution process <workflow-"
+"training-contribution-process.html#4>`_"
+
+msgid ""
+"We have seen in `Overview of the contribution process <workflow-training-"
+"contribution-process.html#5>`__ and `Setup & First patch <workflow-setup-and-"
+"first-patch.html#8>`__"
+msgstr ""
+"Kita telah melihat di `Overview of the contribution process <workflow-"
+"training-contribution-process.html#5>`__ dan `Setup & First patch <workflow-"
+"setup-and-first-patch.html#8>`__"
+
+msgid ""
+"We have seen in `Setup & First Patch <workflow-setup-and-first-patch."
+"html#8>`__"
+msgstr ""
+"Kita telah melihat di `Setup & First Patch <workflow-setup-and-first-patch."
+"html#8>`__"
+
+msgid "We will take on roles to show how each community member interacts"
+msgstr ""
+"Kami akan mengambil peran untuk menunjukkan bagaimana setiap berinteraksi "
+"anggota masyarakat"
+
+msgid "What are they?"
+msgstr "Apakah mereka?"
+
+msgid "What is Gerrit?"
+msgstr "Apakah Gerrit?"
+
+msgid "What is Launchpad?"
+msgstr "Apakah Launchpad?"
+
+msgid "What is it?"
+msgstr "Apa itu?"
+
+msgid "What is the OpenStack Foundation Account?"
+msgstr "Apakah OpenStack Foundation Account?"
+
+msgid "What kind of project do you want to contribute to?"
+msgstr "Apa jenis proyek yang Anda ingin berkontribusi?"
+
+msgid "What makes a release"
+msgstr "Apa yang membuat rilis"
+
+msgid "When in the cycle you intend to complete it"
+msgstr "Ketika dalam siklus Anda berniat untuk menyelesaikannya"
+
+msgid ""
+"When signing up for Foundation Membership, make sure to give the same email "
+"address you’ll use for code contributions."
+msgstr ""
+"Ketika mendaftar untuk Foundation Membership, pastikan untuk memberikan "
+"alamat email yang sama akan Anda gunakan untuk kontribusi kode."
+
+msgid ""
+"When you have changes in an OpenStack project repository, you can use this "
+"sub-command to have the changes posted to `Gerrit <https://review.openstack."
+"org/>`__ so that they can be reviewed."
+msgstr ""
+"Bila Anda memiliki perubahan dalam repositori proyek OpenStack, Anda dapat "
+"menggunakan sub-perintah ini untuk memiliki perubahan diposting ke `Gerrit "
+"<https://review.openstack.org/>`__ sehingga mereka dapat ditinjau."
+
+msgid ""
+"When you're prompted to \"Enter a file in which to save the key\" press "
+"Enter. This accepts the default location::"
+msgstr ""
+"Ketika Anda diminta untuk \"Enter a file in which to save the key\" tekan "
+"Enter. Ini menerima lokasi default::"
+
+msgid "When your blueprint/spec is accepted"
+msgstr "Ketika cetak biru/spesifikasi Anda diterima"
+
+msgid ""
+"Where developers meet face to face to finalize planning for the next release "
+"cycle."
+msgstr ""
+"Dimana pengembang bertatap muka untuk menyelesaikan perencanaan untuk siklus "
+"rilis berikutnya."
+
+msgid "Who's familiar with the term?"
+msgstr "Siapa akrab dengan istilah?"
+
+msgid "Why Agile methodologies are a good fit to a community like OpenStack?"
+msgstr ""
+"Mengapa metodologi Agile adalah cocok untuk sebuah komunitas seperti "
+"OpenStack?"
+
+msgid "Why they are not a good fit?"
+msgstr "Mengapa mereka tidak cocok?"
+
+msgid "Why you're attending the course? What are your expectations?"
+msgstr "Mengapa Anda menghadiri kursus? Apa harapan Anda?"
+
+msgid "Wiki"
+msgstr "Wiki"
+
+msgid "Wiki Pages"
+msgstr "Wiki Pages (halaman wiki)"
+
+msgid "Wishlist"
+msgstr "Wishlist"
+
+msgid "Won't Fix"
+msgstr "Won't Fix"
+
+msgid "Work on feedback and comments"
+msgstr "Bekerja pada umpan balik dan komentar"
+
+msgid "Work on the fix is in progress, bug has an assignee"
+msgstr ""
+"Bekerja pada perbaikan sedang berlangsung, bug memiliki wakil (assignee)"
+
+msgid "Work sessions"
+msgstr "Sesi kerja"
+
+msgid "Work towards OpenStack's mission"
+msgstr "Bekerja mencapai misi OpenStack ini"
+
+msgid "Workflow of an OpenStack contribution and tools"
+msgstr "Alur kerja dari kontribusi OpenStack dan peralatan"
+
+msgid "Workflow service"
+msgstr "Layanan Workflow"
+
+msgid "Working for commit"
+msgstr "Bekerja untuk komit"
+
+msgid "Working groups"
+msgstr "Kelompok kerja"
+
+msgid "Working software over comprehensive documentation"
+msgstr "Software bekerja atas dokumentasi yang komprehensif"
+
+msgid "Write it on Etherpad."
+msgstr "Menulis di EtherPad."
+
+msgid "Writing 'Related-Bug: #[Bug number in Lanuchpad]' on message content"
+msgstr "Penulisan 'Related-Bug: #[Bug number in Lanuchpad]' pada isi pesan"
+
+msgid ""
+"You need to register your contact information including your full name, "
+"email address and offline contact information."
+msgstr ""
+"Anda harus mendaftar informasi kontak Anda, termasuk nama lengkap Anda, "
+"alamat email dan informasi kontak offline."
+
+msgid ""
+"You will be prompted to select a username. You can enter the same one you "
+"did for launchpad, or something else."
+msgstr ""
+"Anda akan diminta untuk memilih username. Anda dapat memasukkan satu "
+"username yang sama Anda lakukan untuk launchpad, atau username yang lain."
+
+msgid "Your Patch Upstream"
+msgstr "Patch hulu Anda"
+
+msgid ""
+"Your full name and email address will be public and the email address needs "
+"to match the email address which you plan to use in your commits."
+msgstr ""
+"Nama lengkap dan alamat email Anda akan terlihat publik dan alamat email "
+"harus sesuai dengan alamat email yang Anda rencanakan untuk menggunakan "
+"dalam komit Anda."
+
+msgid "Your mission, should you choose to accept it"
+msgstr "Misi Anda, sebaiknya Anda memilih untuk menerimanya"
+
+msgid "`Code <http://git.openstack.org/cgit>`_"
+msgstr "`Code <http://git.openstack.org/cgit>`_"
+
+msgid ""
+"`Mentoring <https://wiki.openstack.org/wiki/Mentors>`_ is run by the Women "
+"of OpenStack group, where mentees are guided through the OpenStack processes."
+msgstr ""
+"`Mentoring <https://wiki.openstack.org/wiki/Mentors>`_ dijalankan oleh "
+"kelompok Women of OpenStack, di mana mentees dipandu melalui proses "
+"OpenStack."
+
+msgid ""
+"`Principles behind the manifesto <http://agilemanifesto.org/principles."
+"html>`_"
+msgstr ""
+"`Principles behind the manifesto <http://agilemanifesto.org/principles."
+"html>`_"
+
+msgid ""
+"`Requirements <https://governance.openstack.org/reference/new-projects-"
+"requirements.html>`_ for official OpenStack projects"
+msgstr ""
+"`Requirements <https://governance.openstack.org/reference/new-projects-"
+"requirements.html>`_ for official OpenStack projects"
+
+msgid "`Specifications <http://specs.openstack.org>`_"
+msgstr "`Specifications <http://specs.openstack.org>`_"
+
+msgid "`Translations <http://git.openstack.org/cgit/openstack/i18n/tree/>`_"
+msgstr "`Translations <http://git.openstack.org/cgit/openstack/i18n/tree/>`_"
+
+msgid ""
+"`Use cases for features <http://specs.openstack.org/openstack/openstack-user-"
+"stories/>`_"
+msgstr ""
+"`Use cases for features <http://specs.openstack.org/openstack/openstack-user-"
+"stories/>`_"
+
+msgid "``docs-specs``"
+msgstr "``docs-specs``"
+
+msgid "``openstack-doc-tools``"
+msgstr "``openstack-doc-tools``"
+
+msgid "``openstack-manuals``"
+msgstr "``openstack-manuals``"
+
+msgid "``openstackdocstheme``"
+msgstr "``openstackdocstheme``"
+
+msgid "``security-doc``"
+msgstr "``security-doc``"
+
+msgid "``training-guides``"
+msgstr "``training-guides``"
+
+msgid "``training-labs``"
+msgstr "``training-labs``"
+
+msgid "a blueprint is a description of a solution"
+msgstr "cetak biru tentang deskripsi dari solusi"
+
+msgid "a description"
+msgstr "sebuah deskripsi"
+
+msgid "a forum for listing and planning specifications for work to be done"
+msgstr ""
+"Forum untuk daftar dan perencanaan spesifikasi untuk pekerjaan yang harus "
+"dilakukan"
+
+msgid "a title"
+msgstr "sebuah judul"
+
+msgid "add an error and match it to the jenkins message"
+msgstr "menambahkan kesalahan dan mencocokkannya dengan pesan Jenkins"
+
+msgid "anyone doing Gerrit code review can act as the stick"
+msgstr ""
+"Setiap yang melakukan ulasan kode Gerrit dapat bertindak sebagai kemudi "
+"(stick)"
+
+msgid "apt / yum / pip install … git review"
+msgstr "apt / yum / pip install … git review"
+
+msgid "ask a core developer or bug supervisor => Status: Triaged"
+msgstr "meminta pengembang inti atau atasan bug => Status: Triaged"
+
+msgid "bug tracking, blueprints"
+msgstr "pelacakan bug, cetak biru (blueprint)"
+
+msgid "carrot by alerting people to the benefits"
+msgstr "Wortel sebagai peringatan orang mengambil manfaat"
+
+msgid "check for duplicates"
+msgstr "memeriksa duplikat"
+
+msgid "checkout the latest stable branch"
+msgstr "pemeriksaan cabang stabil terbaru"
+
+msgid "code contributions, wiki, vote, presentations"
+msgstr "kontribusi kode, wiki, suara, presentasi"
+
+msgid ""
+"core developer or a member of the project bug supervision team => "
+"Importance: <Bug impact>"
+msgstr ""
+"Pengembang inti atau anggota dari tim pengawasan bug proyek => Importance: "
+"<Bug impact>"
+
+msgid "determining how to fix the bug"
+msgstr "menentukan bagaimana memperbaiki bug"
+
+msgid "developer work on a fix"
+msgstr "pengembang bekerja pada perbaikan"
+
+msgid "documentation"
+msgstr "dokumentasi"
+
+msgid ""
+"ensures basic interoperability with the rest of OpenStack: User-facing API "
+"services should support Keystone for discovery and authentication"
+msgstr ""
+"memastikan interoperabilitas dasar dengan seluruh OpenStack: layanan API "
+"user-facing harus mendukung Keystone untuk penemuan dan otentikasi"
+
+msgid "etc."
+msgstr "etc. (dan lain lain)"
+
+msgid "file it against the proper OpenStack project"
+msgstr "File dimana itu bertentangan dengan proyek OpenStack yang tepat"
+
+msgid "fix is already on master"
+msgstr "perbaikan sudah pada master"
+
+msgid "from git master by default"
+msgstr "dari master git secara default"
+
+msgid "from stable branches by configuration, e.g. stable/newton"
+msgstr "dari cabang stabil dengan konfigurasi, misalnya stabil / newton"
+
+msgid "gerrit patchset history"
+msgstr "sejarah patchset Gerrit"
+
+msgid "gerrit workflow"
+msgstr "Alur kerja Gerrit"
+
+msgid "git checkout -b <branch_name>"
+msgstr "git checkout -b <branch_name>"
+
+msgid "git checkout -b TOPIC-BRANCH"
+msgstr "git checkout -b TOPIC-BRANCH"
+
+msgid "git clone"
+msgstr "git clone"
+
+msgid "git commit --amend"
+msgstr "git commit --amend"
+
+msgid "git config"
+msgstr "git config"
+
+msgid "git config --global user.email \"your_email@youremail.com\""
+msgstr "git config --global user.email \"your_email@youremail.com\""
+
+msgid "git config --global user.name \"Firstname Lastname\""
+msgstr "git config --global user.name \"Firstname Lastname\""
+
+msgid "git review"
+msgstr "git review"
+
+msgid "git review -s"
+msgstr "git review -s"
+
+msgid "have a clear and defined scope."
+msgstr "memiliki ruang lingkup yang jelas dan terdefinisikan."
+
+msgid "http://activity.openstack.org"
+msgstr "http://activity.openstack.org"
+
+msgid "http://developer.openstack.org"
+msgstr "http://developer.openstack.org"
+
+msgid "http://docs.openstack.org"
+msgstr "http://docs.openstack.org"
+
+msgid "http://docs.openstack.org/contributor-guide/docs-builds.html"
+msgstr "http://docs.openstack.org/contributor-guide/docs-builds.html"
+
+msgid "http://docs.openstack.org/contributor-guide/index.html"
+msgstr "http://docs.openstack.org/contributor-guide/index.html"
+
+msgid "http://docs.openstack.org/infra/manual/developers.html#account-setup"
+msgstr "http://docs.openstack.org/infra/manual/developers.html#account-setup"
+
+msgid "http://docs.openstack.org/infra/manual/sandbox.html"
+msgstr "http://docs.openstack.org/infra/manual/sandbox.html"
+
+msgid "http://docs.openstack.org/upstream-training/workflow-using-sandbox.html"
+msgstr ""
+"http://docs.openstack.org/upstream-training/workflow-using-sandbox.html"
+
+msgid "http://eavesdrop.openstack.org/"
+msgstr "http://eavesdrop.openstack.org/"
+
+msgid ""
+"http://governance.openstack.org/reference/new-projects-requirements.html"
+msgstr ""
+"http://governance.openstack.org/reference/new-projects-requirements.html"
+
+msgid "http://governance.openstack.org/reference/opens.html"
+msgstr "http://governance.openstack.org/reference/opens.html"
+
+msgid "http://governance.openstack.org/reference/projects/"
+msgstr "http://governance.openstack.org/reference/projects/"
+
+msgid "http://governance.openstack.org/reference/tags/index.html"
+msgstr "http://governance.openstack.org/reference/tags/index.html"
+
+msgid "http://launchpad.net/"
+msgstr "http://launchpad.net/"
+
+msgid "http://lists.openstack.org/cgi-bin/mailman/listinfo"
+msgstr "http://lists.openstack.org/cgi-bin/mailman/listinfo"
+
+msgid "http://localhost/"
+msgstr "http://localhost/"
+
+msgid "http://review.openstack.org"
+msgstr "http://review.openstack.org"
+
+msgid "http://stackalytics.com"
+msgstr "http://stackalytics.com"
+
+msgid "http://webchat.freenode.net/?channels=openstack-101"
+msgstr "http://webchat.freenode.net/?channels=openstack-101"
+
+msgid "https://bugs.launchpad.net/openstack-api-site"
+msgstr "https://bugs.launchpad.net/openstack-api-site"
+
+msgid "https://bugs.launchpad.net/openstack-dev-sandbox"
+msgstr "https://bugs.launchpad.net/openstack-dev-sandbox"
+
+msgid "https://bugs.launchpad.net/openstack-dev-sandbox/+filebug"
+msgstr "https://bugs.launchpad.net/openstack-dev-sandbox/+filebug"
+
+msgid "https://bugs.launchpad.net/openstack-manuals"
+msgstr "https://bugs.launchpad.net/openstack-manuals"
+
+msgid "https://git.openstack.org/cgit/openstack-dev/sandbox"
+msgstr "https://git.openstack.org/cgit/openstack-dev/sandbox"
+
+msgid "https://groups.openstack.org/"
+msgstr "https://groups.openstack.org/"
+
+msgid "https://launchpad.net/openstack-dev-sandbox"
+msgstr "https://launchpad.net/openstack-dev-sandbox"
+
+msgid "https://review.openstack.org/#/settings/ssh-keys"
+msgstr "https://review.openstack.org/#/settings/ssh-keys"
+
+msgid "https://wiki.openstack.org/wiki/Blueprints#Neutron"
+msgstr "https://wiki.openstack.org/wiki/Blueprints#Neutron"
+
+msgid "https://wiki.openstack.org/wiki/Blueprints#Nova"
+msgstr "https://wiki.openstack.org/wiki/Blueprints#Nova"
+
+msgid "https://wiki.openstack.org/wiki/BugTags"
+msgstr "https://wiki.openstack.org/wiki/BugTags"
+
+msgid "https://wiki.openstack.org/wiki/GitCommitMessages"
+msgstr "https://wiki.openstack.org/wiki/GitCommitMessages"
+
+msgid "https://wiki.openstack.org/wiki/IRC"
+msgstr "https://wiki.openstack.org/wiki/IRC"
+
+msgid "https://wiki.openstack.org/wiki/Main_Page"
+msgstr "https://wiki.openstack.org/wiki/Main_Page"
+
+msgid "https://www.openstack.org/foundation/tech-committee/"
+msgstr "https://www.openstack.org/foundation/tech-committee/"
+
+msgid "https://www.openstack.org/join/"
+msgstr "https://www.openstack.org/join/"
+
+msgid "https://www.openstack.org/summit/barcelona-2016/summit-schedule/"
+msgstr "https://www.openstack.org/summit/barcelona-2016/summit-schedule/"
+
+msgid "i18n"
+msgstr "i18n"
+
+msgid "id_dsa.pub"
+msgstr "id_dsa.pub"
+
+msgid "id_ecdsa.pub"
+msgstr "id_ecdsa.pub"
+
+msgid "id_ed25519.pub"
+msgstr "id_ed25519.pub"
+
+msgid "id_rsa.pub"
+msgstr "id_rsa.pub"
+
+msgid "install git review"
+msgstr "instal git review"
+
+msgid "invite reviewers"
+msgstr "mengundang pengulas"
+
+msgid "lacking information => Status: Incomplete"
+msgstr "informasi kurang => Status: Tidak lengkap"
+
+msgid "launchpad.net"
+msgstr "launchpad.net"
+
+msgid "longer-form go on a wiki page"
+msgstr "longer-form go pada halaman wiki"
+
+msgid "low-hanging-fruit"
+msgstr "low-hanging-fruit"
+
+msgid "master branch is open for development"
+msgstr "cabang master terbuka untuk pengembangan"
+
+msgid "milestone or release branch"
+msgstr "tonggak atau cabang rilis"
+
+msgid "more like a collaborative brainstorming session"
+msgstr "lebih seperti sesi curah pendapat kerjasama"
+
+msgid "nvie inspired"
+msgstr "nvie yang terinspirasi"
+
+msgid "ops"
+msgstr "ops"
+
+msgid "optional if straightforward"
+msgstr "opsional jika lugas"
+
+msgid "patchset diffs"
+msgstr "perbedaan suntingan patchset"
+
+msgid ""
+"provides a cloud infrastructure service or should directly build on an "
+"existing OpenStack cloud infrastructure service"
+msgstr ""
+"menyediakan layanan infrastruktur cloud atau harus langsung membangun "
+"layanan infrastruktur cloud OpenStack yang ada"
+
+msgid "quality of the OpenStack git history"
+msgstr "Kualitas sejarah git OpenStack"
+
+msgid "reproduced the issue => Status: Confirmed"
+msgstr "direproduksi isu => Status: Confirmed (dipastikan)"
+
+msgid "review the commit message, not just the code"
+msgstr "Mengkaji pesan komit, bukan hanya kode"
+
+msgid "review.openstack.org"
+msgstr "review.openstack.org"
+
+msgid "reviewed, accepted, and has landed in master"
+msgstr "Diulasan, diterima, dan telah mendarat di master"
+
+msgid "risk of regression"
+msgstr "risiko regresi"
+
+msgid "running unit tests"
+msgstr "menjalankan tes unit"
+
+msgid "security"
+msgstr "keamanan"
+
+msgid "stable/release branch"
+msgstr "cabang stabil / release"
+
+msgid "upload an ssh key"
+msgstr "meng-upload kunci ssh"
+
+msgid "user visible benefit"
+msgstr "manfaat terlihat pengguna"
