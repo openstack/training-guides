@@ -3,11 +3,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-11 09:17+0000\n"
+"POT-Creation-Date: 2016-11-12 09:15+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-11-11 10:58+0000\n"
+"PO-Revision-Date: 2016-11-14 04:15+0000\n"
 "Last-Translator: suhartono <cloudsuhartono@gmail.com>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -154,6 +154,9 @@ msgstr "Tentang perangkat lunak, dokumentasi, manajemen rilis dll"
 msgid "About the training"
 msgstr "Tentang pelatihan"
 
+msgid "Abstract"
+msgstr "Abstrak"
+
 msgid "Access the terminals the installed services are running in"
 msgstr "Mengakses terminal layanan yang terinstal sedang berjalan "
 
@@ -252,6 +255,11 @@ msgstr "Memungkinkan Anda untuk:"
 msgid "Also ATC"
 msgstr "Also ATC (juga Active Technical Contributor)"
 
+msgid "Alternatively, you can use your virtual machine on a public cloud."
+msgstr ""
+"Atau alternative, Anda dapat menggunakan mesin virtual Anda pada public "
+"cloud."
+
 msgid "Amending the commit"
 msgstr "Mengubah komit"
 
@@ -295,6 +303,9 @@ msgstr "Appropriate Fixes (perbaikan yang tepat)"
 
 msgid "Archive"
 msgstr "Archive (arsip)"
+
+msgid "Archives"
+msgstr "Arsip"
 
 msgid "Areas of interest"
 msgstr "Bidang minat"
@@ -522,6 +533,12 @@ msgstr "Check For Existing Keys (periksa kunci yang ada)"
 msgid "Check peer's Review"
 msgstr "Periksa ulasan rekan"
 
+msgid "Check that :command:`apt install` works on the virtual machine"
+msgstr "Periksa ini :command:`apt install` bekerja pada mesin virtual"
+
+msgid "Check that you can ssh from your laptop to the virtual machine"
+msgstr "Periksa bahwa Anda bisa ssh dari laptop Anda ke mesin virtual"
+
 msgid "Check whether the tests failed or not"
 msgstr "Periksa apakah tes gagal atau tidak"
 
@@ -688,6 +705,9 @@ msgstr "Confirmed"
 msgid "Confirming & prioritizing"
 msgstr "Mengkonfirmasikan & memprioritaskan"
 
+msgid "Contact Information"
+msgstr "Kontak informasi"
+
 msgid "Contents of a Commit Message (Body)"
 msgstr "Isi dari pesan komit (badan)"
 
@@ -751,6 +771,13 @@ msgid ""
 msgstr ""
 "Buat komit baru dengan file .rst di repositori openstack-dev/sandbox dan "
 "menyerahkan komitmen ke Gerrit setelah Anda selesai."
+
+msgid ""
+"Create a virtual machine on your laptop with Ubuntu 14.04 installed and 6+ "
+"GB of RAM."
+msgstr ""
+"Buat mesin virtual pada laptop Anda dengan Ubuntu 14.04 terinstal dan 6+ GB "
+"of RAM."
 
 msgid "Create your commit"
 msgstr "Buat komit Anda"
@@ -1207,6 +1234,25 @@ msgstr ""
 "software/screen/manual/screen.html>`_"
 
 msgid ""
+"For more information about the last session of the OpenStack Upstream "
+"Training in Barcelona, see the `OpenStack Academy page <https://www."
+"openstack.org/summit/barcelona-2016/openstack-academy/>`_."
+msgstr ""
+"Untuk informasi lebih lanjut tentang sesi terakhir dari OpenStack Upstream "
+"Training di Barcelona, lihat `OpenStack Academy page <https://www.openstack."
+"org/summit/barcelona-2016/openstack-academy/>`_."
+
+msgid ""
+"For more information about the past trainings and the local upstream "
+"trainings, see :doc:`upstream-archives`."
+msgstr ""
+"Untuk informasi lebih lanjut tentang pelatihan masa lalu dan pelatihan hulu "
+"lokal, lihat :doc:`upstream-archives`."
+
+msgid "For more information, see :doc:`upstream-details`."
+msgstr "Untuk informasi lebih lanjut, lihat :doc:`upstream-details`."
+
+msgid ""
 "For the cores you found earlier, figure out what time zone they are probably "
 "in."
 msgstr ""
@@ -1447,6 +1493,9 @@ msgstr ""
 "Setiap tahun tuan rumah difasilitasi oleh OpenStack User Groups lokal dan "
 "perusahaan"
 
+msgid "How OpenStack is Made"
+msgstr "Bagaimana OpenStack dibuat"
+
 msgid "How OpenStack is made"
 msgstr "Bagaimana OpenStack dibuat"
 
@@ -1458,6 +1507,9 @@ msgstr "Bagaimana proyek dilepaskan"
 
 msgid "How to deploy OpenStack"
 msgstr "Cara mengerahkan OpenStack"
+
+msgid "How to prepare"
+msgstr "Bagaimana mempersiapkan"
 
 msgid "How to prepare for different exams"
 msgstr "Cara mempersiapkan berbagai ujian "
@@ -1542,6 +1594,16 @@ msgid ""
 msgstr ""
 "Jika kontribusi Anda adalah atas nama perusahaan, silahkan manajer Anda "
 "menandatangani Corporate Contributor License Agreement"
+
+msgid "Ildiko Vancsa, Kendall Nelson, Mark Korondi, and Marton Kiss"
+msgstr "Ildiko Vancsa, Kendall Nelson, Mark Korondi, and Marton Kiss"
+
+msgid ""
+"Image and instructions: https://github.com/kmARC/openstack-training-virtual-"
+"environment/"
+msgstr ""
+"Image dan instruksi: https://github.com/kmARC/openstack-training-virtual-"
+"environment/"
 
 msgid "Impact was not assessed yet"
 msgstr "Dampak belum dinilai"
@@ -1689,6 +1751,9 @@ msgstr "Memperkenalkan OpenStack sebagai komunitas"
 msgid "Introducing OpenStack as a Software"
 msgstr "Memperkenalkan OpenStack sebagai software "
 
+msgid "Introduction"
+msgstr "Pengantar"
+
 msgid "Introductions"
 msgstr "Pengantar"
 
@@ -1766,6 +1831,9 @@ msgstr "Pelajari tentang masyarakat"
 
 msgid "Learn how to participate in OpenStack"
 msgstr "Pelajari cara untuk berpartisipasi dalam OpenStack"
+
+msgid "Learning Git"
+msgstr "Pembelajaran Git"
 
 msgid "Learning example with two Sandboxes"
 msgstr "Belajar contoh dengan dua Sandboxes (kotak pasir)"
@@ -1910,6 +1978,9 @@ msgstr ""
 "Pastikan untuk menggunakan alamat email yang sama Anda akan ingin "
 "menggunakan untuk kontribusi kode karena itu penting kemudian bahwa ini ada "
 "kecocokan."
+
+msgid "Make sure you have a wifi enabled laptop with you."
+msgstr "Pastikan bahwa Anda memiliki laptop wifi diaktifkan dengan Anda."
 
 msgid "Make useful reference points in time to organize the development cycle"
 msgstr ""
@@ -2190,8 +2261,22 @@ msgstr "Tim proyek OpenStack"
 msgid "OpenStack Release Cycle"
 msgstr "OpenStack Release Cycle (siklus rilis OpenStack)"
 
+msgid "OpenStack Upstream Training"
+msgstr "OpenStack Upstream Training (pelatihanOpen Stack Upstream)"
+
 msgid "OpenStack Upstream Training Introductions"
 msgstr "Pengenalan pelatihan hulu OpenStack"
+
+msgid ""
+"OpenStack Upstream Training in Barcelona has ended. The next session of the "
+"OpenStack Upstream Training will be held in Boston, just before the "
+"`OpenStack Summit Boston 2017 <https://www.openstack.org/summit/boston-2017/"
+">`_."
+msgstr ""
+"OpenStack Upstream Training di Barcelona telah berakhir. Sesi berikutnya "
+"dari OpenStack Upstream Training akan diselenggarakan di Boston, sebelum "
+"`OpenStack Summit Boston 2017 <https://www.openstack.org/summit/boston-2017/"
+">`_."
 
 msgid "OpenStack and Agile"
 msgstr "OpenStack and Agile (openstack dan ketangkasan)"
@@ -2352,8 +2437,14 @@ msgstr ""
 "Jangan biarkan siswa membuat 10 atau lebih perubahan. (Ini bukan maksud "
 "Sandboxes!)"
 
+msgid "Prepare an environment by yourself from scratch:"
+msgstr "Siapkan sendiri lingkungan dari awal:"
+
 msgid "Prepare your idea for the public"
 msgstr "Siapkan ide Anda untuk publik"
+
+msgid "Prepared virtual machine image with a development environment:"
+msgstr "Image mesin virtual disiapkan dengan lingkungan pengembangan:"
 
 msgid "Prioritize bugs / bug triage"
 msgstr "Prioritaskan bug / bug triage"
@@ -2439,6 +2530,15 @@ msgstr ""
 
 msgid "REST APIs"
 msgstr "REST API"
+
+msgid "Read and complete the :doc:`accounts` guide."
+msgstr "Baca dan selesaikan panduan :doc:`accounts`."
+
+msgid "Read and complete the :doc:`git` guide."
+msgstr "Baca dan selesaikan panduan :doc:`git`."
+
+msgid "Read and complete the :doc:`irc` guide."
+msgstr "Baca dan selesaikan panduan :doc:`irc`."
 
 msgid ""
 "Read through the presented individual member terms of service and our "
@@ -2752,6 +2852,18 @@ msgstr "Duduk bersama"
 msgid "Sites"
 msgstr "Sites (situs)"
 
+msgid ""
+"Slides are made with `Hieroglyph <http://hieroglyph.io>`_. To skim through "
+"slides quickly to find something, or jump ahead or back, use *Slide table* "
+"(press :command:`t` in the browser). Some slides include additional "
+"explanation in the *Presenter notes* (press :command:`c` to see them)."
+msgstr ""
+"Slide dibuat dengan `Hieroglyph <http://hieroglyph.io>`_. Untuk melihat "
+"secara sekilas slide cepat untuk menemukan sesuatu, atau melompat ke depan "
+"atau belakang, menggunakan *Slide table* (press :command:`t` in the "
+"browser). Beberapa slide termasuk penjelasan tambahan di *Presenter notes* "
+"(press :command:`c` untuk melihat mereka)."
+
 msgid "Small issue with an easy workaround. Any other insignificant bug"
 msgstr "Masalah kecil dengan solusi yang mudah. Bug signifikan lainnya"
 
@@ -3057,6 +3169,9 @@ msgid ""
 "The teams get space on OpenStack Summits and Project Team Gatherings (PTG)"
 msgstr ""
 "Tim mendapatkan ruang pada OpenStack Summits dan Project Team Gathering (PTG)"
+
+msgid "The trainers for the upcoming training in Barcelona:"
+msgstr "Para pelatih untuk pelatihan mendatang di Barcelona:"
 
 msgid ""
 "The training concentrates on the common cycle with the development "
@@ -3391,6 +3506,29 @@ msgstr ""
 "Kami akan mengambil peran untuk menunjukkan bagaimana setiap berinteraksi "
 "anggota masyarakat"
 
+msgid ""
+"We've designed a training program to help professional developers negotiate "
+"this hurdle. It shows them how to ensure their bug fix or feature is "
+"accepted in the OpenStack project in a minimum amount of time. The "
+"educational program requires students to work on real-life bug fixes or new "
+"features during two days of real-life classes and online mentoring, until "
+"the work is accepted by OpenStack. The live two-day class teaches them to "
+"navigate the intricacies of the project's technical tools and social "
+"interactions. In a followup session, the students benefit from individual "
+"online sessions to help them resolve any remaining problems they might have."
+msgstr ""
+"Kami telah merancang program pelatihan untuk membantu pengembang profesional "
+"bernegosiasi rintangan ini. Ini menunjukkan mereka bagaimana untuk "
+"memastikan memperbaiki bug atau fitur diterima proyek OpenStack dalam jumlah "
+"minimal waktu. Program pendidikan memerlukan siswa untuk bekerja pada "
+"kehidupan nyata perbaikan bug (real-life bug fixes) atau fitur baru selama "
+"dua hari dari kelas kehidupan nyata (real-life classes) dan mentoring "
+"online, sampai pekerjaan diterima oleh OpenStack.  Kelas dua hari langsung "
+"(live two-day class) mengajarkan mereka untuk menavigasi seluk-beluk alat "
+"teknis proyek dan interaksi sosial. Dalam sesi tindak lanjut, para siswa "
+"mendapatkan keuntungan dari sesi online individu untuk membantu mereka "
+"mengatasi setiap masalah tersisa dimana mereka mungkin milikinya. "
+
 msgid "What are they?"
 msgstr "Apakah mereka?"
 
@@ -3411,6 +3549,11 @@ msgstr "Apa jenis proyek yang Anda ingin berkontribusi?"
 
 msgid "What makes a release"
 msgstr "Apa yang membuat rilis"
+
+msgid "When & Where to get OpenStack Upstream Training"
+msgstr ""
+"Kapan & Dimana untuk mendapatkan OpenStack Hulu Pelatihan (OpenStack "
+"Upstream Training)"
 
 msgid "When in the cycle you intend to complete it"
 msgstr "Ketika dalam siklus Anda berniat untuk menyelesaikannya"
@@ -3471,6 +3614,21 @@ msgstr "Wiki Pages (halaman wiki)"
 msgid "Wishlist"
 msgstr "Wishlist"
 
+msgid ""
+"With over 2,000 developers from over 300 different organizations worldwide, "
+"OpenStack is one of the largest collaborative software-development projects. "
+"Because of its size, it is characterized by a huge diversity in social norms "
+"and technical conventions. These can significantly slow down the speed at "
+"which newcomers are successful at integrating their own roadmap into that of "
+"the OpenStack project."
+msgstr ""
+"Dengan lebih dari 2.000 pengembang dari lebih dari 300 organisasi yang "
+"berbeda di seluruh dunia, OpenStack adalah salah satu proyek pengembangan "
+"software kolaboratif terbesar. Karena ukurannya, hal itu ditandai dengan "
+"keragaman besar dalam norma-norma sosial dan konvensi teknis. Ini dapat "
+"secara signifikan memperlambat kecepatan dimana pendatang baru berhasil "
+"mengintegrasikan roadmap mereka sendiri ke dalam proyek OpenStack."
+
 msgid "Won't Fix"
 msgstr "Won't Fix"
 
@@ -3486,6 +3644,9 @@ msgstr "Sesi kerja"
 
 msgid "Work towards OpenStack's mission"
 msgstr "Bekerja mencapai misi OpenStack ini"
+
+msgid "Workflow and Tools for Participation"
+msgstr "Alur kerja dan Alat untuk Partisipasi"
 
 msgid "Workflow of an OpenStack contribution and tools"
 msgstr "Alur kerja dari kontribusi OpenStack dan peralatan"
@@ -3507,6 +3668,13 @@ msgstr "Menulis di EtherPad."
 
 msgid "Writing 'Related-Bug: #[Bug number in Lanuchpad]' on message content"
 msgstr "Penulisan 'Related-Bug: #[Bug number in Lanuchpad]' pada isi pesan"
+
+msgid ""
+"You can use `Git Immersion <http://gitimmersion.com/lab_02.html>`_ to work "
+"through tutorials for learning git."
+msgstr ""
+"Kamu dapat memakai `Git Immersion <http://gitimmersion.com/lab_02.html>`_ "
+"untuk bekerja melalui tutorial untuk pembelajaran git."
 
 msgid ""
 "You need to register your contact information including your full name, "
@@ -3539,6 +3707,43 @@ msgstr "Misi Anda, sebaiknya Anda memilih untuk menerimanya"
 msgid "`Code <http://git.openstack.org/cgit>`_"
 msgstr "`Code <http://git.openstack.org/cgit>`_"
 
+msgid "`Commit Messages <workflow-commit-message.html>`_"
+msgstr "`Commit Messages <workflow-commit-message.html>`_"
+
+msgid "`Communication <howitsmade-communication.html>`_"
+msgstr "`Communication <howitsmade-communication.html>`_"
+
+msgid ""
+"`Etherpad for Barcelona Upstream Training <https://etherpad.openstack.org/p/"
+"upstream-training-barcelona>`_"
+msgstr ""
+"`Etherpad for Barcelona Upstream Training <https://etherpad.openstack.org/p/"
+"upstream-training-barcelona>`_"
+
+msgid "`Gerrit <workflow-gerrit.html>`_"
+msgstr "`Gerrit <workflow-gerrit.html>`_"
+
+msgid ""
+"`Guide to SetUp and Push First Patch <workflow-setup-and-first-patch.html>`_"
+msgstr ""
+"`Guide to SetUp and Push First Patch <workflow-setup-and-first-patch.html>`_"
+
+msgid ""
+"`Introducing OpenStack as a Community <intro-openstack-as-community.html>`_"
+msgstr ""
+"`Introducing OpenStack as a Community <intro-openstack-as-community.html>`_"
+
+msgid ""
+"`Introducing OpenStack as a Software <intro-openstack-as-software.html>`_"
+msgstr ""
+"`Introducing OpenStack as a Software <intro-openstack-as-software.html>`_"
+
+msgid "`Introduction <intro-introduction.html>`_"
+msgstr "`Introduction <intro-introduction.html>`_"
+
+msgid "`Jenkins <workflow-jenkins.html>`_"
+msgstr "`Jenkins <workflow-jenkins.html>`_"
+
 msgid ""
 "`Mentoring <https://wiki.openstack.org/wiki/Mentors>`_ is run by the Women "
 "of OpenStack group, where mentees are guided through the OpenStack processes."
@@ -3547,6 +3752,25 @@ msgstr ""
 "kelompok Women of OpenStack, di mana mentees dipandu melalui proses "
 "OpenStack."
 
+msgid "`Metrics <workflow-metrics.html>`_"
+msgstr "`Metrics <workflow-metrics.html>`_"
+
+msgid "`Official OpenStack projects <howitsmade-official-projects.html>`_"
+msgstr "`Official OpenStack projects <howitsmade-official-projects.html>`_"
+
+msgid "`OpenStack Events <howitsmade-events.html>`_"
+msgstr "`OpenStack Events <howitsmade-events.html>`_"
+
+msgid "`OpenStack Governance <howitsmade-governance.html>`_"
+msgstr "`OpenStack Governance <howitsmade-governance.html>`_"
+
+msgid ""
+"`Overview of the contribution process <workflow-training-contribution-"
+"process.html>`_"
+msgstr ""
+"`Overview of the contribution process <workflow-training-contribution-"
+"process.html>`_"
+
 msgid ""
 "`Principles behind the manifesto <http://agilemanifesto.org/principles."
 "html>`_"
@@ -3554,15 +3778,27 @@ msgstr ""
 "`Principles behind the manifesto <http://agilemanifesto.org/principles."
 "html>`_"
 
+msgid "`Registration and accounts <workflow-reg-and-accounts.html>`_"
+msgstr "`Registration and accounts <workflow-reg-and-accounts.html>`_"
+
+msgid "`Release cycle <howitsmade-release-cycle.html>`_"
+msgstr "`Release cycle <howitsmade-release-cycle.html>`_"
+
 msgid ""
 "`Requirements <https://governance.openstack.org/reference/new-projects-"
 "requirements.html>`_ for official OpenStack projects"
 msgstr ""
 "`Requirements <https://governance.openstack.org/reference/new-projects-"
 "requirements.html>`_ for official OpenStack projects"
+
+msgid "`Reviewing <workflow-reviewing.html>`_"
+msgstr "`Reviewing <workflow-reviewing.html>`_"
 
 msgid "`Specifications <http://specs.openstack.org>`_"
 msgstr "`Specifications <http://specs.openstack.org>`_"
+
+msgid "`Tracking <workflow-launchpad.html>`_"
+msgstr "`Tracking <workflow-launchpad.html>`_"
 
 msgid "`Translations <http://git.openstack.org/cgit/openstack/i18n/tree/>`_"
 msgstr "`Translations <http://git.openstack.org/cgit/openstack/i18n/tree/>`_"
