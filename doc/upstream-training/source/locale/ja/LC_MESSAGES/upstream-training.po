@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-08 09:18+0000\n"
+"POT-Creation-Date: 2016-11-14 09:26+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-11-09 11:56+0000\n"
+"PO-Revision-Date: 2016-11-17 04:21+0000\n"
 "Last-Translator: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1839,6 +1839,9 @@ msgstr "はじめに"
 msgid "Invalid"
 msgstr "Invalid"
 
+msgid "Invite peer as Reviewer"
+msgstr "レビューアとしての招待"
+
 msgid "Irena Berezovsky (assistant, mentor, english)"
 msgstr "Irena Berezovsky (assistant, mentor, english)"
 
@@ -1969,7 +1972,7 @@ msgstr "OpenStack と同じく、以下のようなプレイヤーもいます :
 
 msgid "Like any software project, there are:"
 msgstr ""
-"あらゆるソフトウェアプロジェクトと同じく、以下のようなプレイヤーがいます : "
+"あらゆるソフトウェアプロジェクトと同じく、以下のようなプレイヤーがいます :"
 
 msgid "Like sprints, small groups of people work on specific themes"
 msgstr "スプリントのように、少人数グループが特定のテーマに取り組む"
@@ -2622,6 +2625,9 @@ msgstr "連絡先情報の登録"
 msgid "Register Your Nick Name"
 msgstr "ニックネームの登録"
 
+msgid "Registration and Accounts"
+msgstr "登録およびアカウント"
+
 msgid "Registration and accounts"
 msgstr "登録およびアカウント"
 
@@ -2645,6 +2651,13 @@ msgstr "リリースサイクル"
 
 msgid "Release day"
 msgstr "リリース日"
+
+msgid ""
+"Release management description: http://docs.openstack.org/project-team-guide/"
+"release-management.html"
+msgstr ""
+"リリースマネジメント概要: http://docs.openstack.org/project-team-guide/"
+"release-management.html"
 
 msgid "Release models"
 msgstr "リリースモデル"
@@ -2716,6 +2729,9 @@ msgstr "他の launchpad バグを参照して、自身のものを改善して�
 msgid "Review other's code"
 msgstr "他の人のコードをレビューする"
 
+msgid "Review three patches in the sandbox environment:"
+msgstr "sandbox 環境にあるパッチを 3 つレビューしてください。"
+
 msgid "Review unified"
 msgstr "一元レビュー"
 
@@ -2757,6 +2773,12 @@ msgstr "Sahid Ferdjaoui (assistant, french, english)"
 
 msgid "Sandbox Launchpad"
 msgstr "Sandbox Launchpad"
+
+msgid "Sandbox Launchpad Bug list"
+msgstr "Sandbox Launchpad バグリスト"
+
+msgid "Sandbox Status"
+msgstr "Sandbox のステータス"
 
 msgid "Sandbox repository"
 msgstr "Sandbox リポジトリー"
@@ -3348,6 +3370,9 @@ msgstr "UpgradeImpact"
 
 msgid "Uploading a new patchset"
 msgstr "新しいパッチセットのアップロード"
+
+msgid "Uploading to Gerrit"
+msgstr "Gerrit へのアップロード"
 
 msgid "Upstream Training in Japan"
 msgstr "日本ローカル Upstream Training"
@@ -4204,6 +4229,9 @@ msgid "ask a core developer or bug supervisor => Status: Triaged"
 msgstr ""
 "コア開発者やバグスーパーバイザーによる確認 ⇒ 状態: トリアージド (Triaged)"
 
+msgid "bug tracking, blueprints"
+msgstr "バグ管理、ブループリント"
+
 msgid "carrot by alerting people to the benefits"
 msgstr "人々に有益性を知らせることによる報酬 (carrot)"
 
@@ -4313,6 +4341,10 @@ msgstr "http://docs.openstack.org/contributor-guide/index.html"
 
 msgid "http://docs.openstack.org/infra/manual/developers.html#account-setup"
 msgstr "http://docs.openstack.org/infra/manual/developers.html#account-setup"
+
+msgid "http://docs.openstack.org/upstream-training/workflow-using-sandbox.html"
+msgstr ""
+"http://docs.openstack.org/upstream-training/workflow-using-sandbox.html"
 
 msgid "http://eavesdrop.openstack.org/"
 msgstr "http://eavesdrop.openstack.org/"
