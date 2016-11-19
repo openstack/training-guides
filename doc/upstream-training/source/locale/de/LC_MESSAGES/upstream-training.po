@@ -6,16 +6,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-10 09:22+0000\n"
+"POT-Creation-Date: 2016-11-17 09:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-11-10 02:31+0000\n"
+"PO-Revision-Date: 2016-11-18 04:34+0000\n"
 "Last-Translator: Robert Simai <robert.simai@suse.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
 "X-Generator: Zanata 3.7.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgid "..."
+msgstr "..."
 
 msgid "179 countries"
 msgstr "179 Länder"
@@ -137,6 +140,11 @@ msgstr "Alle E-mails werden archiviert"
 msgid "All externally visible strings must be frozen"
 msgstr "Alle extern sichtbaren Zeichenketten sind gesperrt"
 
+msgid ""
+"All projects: http://governance.openstack.org/reference/projects/index.html"
+msgstr ""
+"Alle Projekte: http://governance.openstack.org/reference/projects/index.html"
+
 msgid "Allows you to:"
 msgstr "Ihnen erlaubt:"
 
@@ -224,6 +232,12 @@ msgstr "Blueprint"
 
 msgid "Board : 1"
 msgstr "Board : 1"
+
+msgid "Board of Directors"
+msgstr "Verwaltungsrat"
+
+msgid "Board of directors"
+msgstr "Verwaltungsrat"
 
 msgid "Branching model"
 msgstr "Branching-Modell"
@@ -439,6 +453,9 @@ msgstr "Kopiere öffentliche Schlüssel"
 msgid "Core : 5"
 msgstr "Core : 5"
 
+msgid "Core and Optional Services"
+msgstr "Kern- und optionale Dienste"
+
 msgid "Core reviewer"
 msgstr "Kernüberprüfer"
 
@@ -616,6 +633,9 @@ msgstr "Edouard Thuleau (Assistent, französisch, englisch)"
 
 msgid "Elected from and by the group of APC's"
 msgstr "Gewählt aus der und durch die Gruppe der APCs"
+
+msgid "Endorsed by the Foundation"
+msgstr "Von der Foundation empfohlen"
 
 msgid "Enforces OpenStack ideals"
 msgstr "Durchsetzen der OpenStack Ideale"
@@ -834,6 +854,13 @@ msgstr ""
 "Launchpad Anmeldung weitergeleitet, weil Gerrit es als OpenID Einmalige "
 "Anmeldung verwendet."
 
+msgid ""
+"Full list of Official OpenStack projects: http://governance.openstack.org/"
+"reference/tags/type_service.html#tag-type-service"
+msgstr ""
+"Vollständige Liste der offiziellen OpenStack Projekte: http://governance."
+"openstack.org/reference/tags/type_service.html#tag-type-service"
+
 msgid "Functional"
 msgstr "Functional"
 
@@ -897,6 +924,9 @@ msgid ""
 msgstr ""
 "Ziele (http://governance.openstack.org/goals/index.html#release-cycle-goals)"
 
+msgid "Gold member companies"
+msgstr "Gold Mitgliedsfirmen"
+
 msgid "Good place to get questions answered"
 msgstr "Eine gute Anlaufstelle, um Antworten auf Fragen zu bekommen"
 
@@ -905,6 +935,9 @@ msgstr "Gut: neue API + neue Funktion"
 
 msgid "Group exercise"
 msgstr "Gruppen-Übung"
+
+msgid "Growing in number (26 in 2016)"
+msgstr "Wachsende Zahl (26 in 2016)"
 
 msgid "Haikel Guemar (assistant, mentor, french, english)"
 msgstr "Haikel Guemar (Assistent, Mentor, französisch, englisch)"
@@ -1279,6 +1312,9 @@ msgstr "Mehr Statustiken zum (\"Mitaka\")-Release:"
 msgid "Namgon Lucas Kim (assistant, mentoring)"
 msgstr "Namgon Lucas Kim (Assistent, Mentoring)"
 
+msgid "Networking Guide"
+msgstr "Netzwerkanleitung"
+
 msgid "New"
 msgstr "Neu"
 
@@ -1450,6 +1486,9 @@ msgstr "Andere: https://wiki.openstack.org/wiki/Meetings"
 msgid "Outline and online slide index"
 msgstr "Gliederung und Online-Inhaltsverzeichnis"
 
+msgid "Oversight over the OpenStack projects"
+msgstr "Aufsicht der OpenStack Projekte"
+
 msgid "Overview of the contribution process"
 msgstr "Überblick über den Beitragsprozess"
 
@@ -1479,6 +1518,9 @@ msgstr "Planen - Diskutieren"
 
 msgid "Planning - Target"
 msgstr "Planung - Ziel"
+
+msgid "Platinum member companies"
+msgstr "Platin Mitgliedsfirmen"
 
 msgid "Play with your network"
 msgstr "Spielen Sie mit Ihrem Netzwerk."
@@ -1511,6 +1553,9 @@ msgid "Provide documentation for core OpenStack projects to promote OpenStack."
 msgstr ""
 "Stellen Sie Dokumentation für OpenStack Kernprojekte bereit, um OpenStack zu "
 "fördern."
+
+msgid "Provides"
+msgstr "Bietet"
 
 msgid ""
 "Provides transparent and meaningful statistics regarding contributions to "
@@ -1587,6 +1632,9 @@ msgstr "Ersatz für den Design Summit in zukünftigen Summits"
 msgid "Repositories"
 msgstr "Repositories"
 
+msgid "Representatives are elected from"
+msgstr "Repräsentanten werde gewählt aus"
+
 msgid "Represents OpenStack users"
 msgstr "Repräsentiert OpenStack Benutzer"
 
@@ -1653,6 +1701,9 @@ msgstr "Sahid Ferdjaoui (Assistent, französisch, englisch)"
 
 msgid "Second day"
 msgstr "Zweiter Tag"
+
+msgid "Security Guide"
+msgstr "Sicherheitsanleitung"
 
 msgid "SecurityImpact"
 msgstr "SecurityImpact"
@@ -1757,6 +1808,9 @@ msgstr "Stefano Maffulli (Training, Mentoring, Assistent, englisch)"
 msgid "Stephan Ahn (training, assistant, mentoring)"
 msgstr "Stephan Ahn (Training, Assistent, Mentoring)"
 
+msgid "Strategic and financial oversight"
+msgstr "Strategische und finanzielle Aufsicht"
+
 msgid "String freeze"
 msgstr "Zeichenkettensperre"
 
@@ -1783,6 +1837,9 @@ msgstr "Systemadministratoren"
 
 msgid "TC seats are elected from and by the group of ATC's"
 msgstr "TC werden aus und durch die Gruppe der ATCs gewählt"
+
+msgid "Tags can be proposed by anyone"
+msgstr "Tags können von jedem vorgeschlagen werden"
 
 msgid "Tags describing OpenStack Projects"
 msgstr "Schlagworte beschreiben OpenStack Projekte"
@@ -1817,6 +1874,9 @@ msgstr "Teams von Leuten, die"
 
 msgid "Technical Committee"
 msgstr "Technischer Ausschuss"
+
+msgid "Technical Committee (\"TC\")"
+msgstr "Technisches Komitee (\"TC\")"
 
 msgid "Technical committee : 1"
 msgstr "Technischer Ausschuss : 1"
@@ -1980,6 +2040,12 @@ msgstr "Tokio, Japan"
 msgid "Tox"
 msgstr "Tox"
 
+msgid "Training guides"
+msgstr "Trainingsanleitungen"
+
+msgid "Training labs"
+msgstr "Training Labs"
+
 msgid "Translations / i18n issues."
 msgstr "Übersetzungs / i18n Probleme."
 
@@ -2049,6 +2115,9 @@ msgstr "User Komitee (\"UC\")"
 
 msgid "User Group Meetups"
 msgstr "Usergroup Treffen"
+
+msgid "User guides"
+msgstr "Benutzeranleitungen"
 
 msgid "Using Lego to represent the community"
 msgstr "Lego benutzen um die Gemeinschaft zu repräsentieren"
