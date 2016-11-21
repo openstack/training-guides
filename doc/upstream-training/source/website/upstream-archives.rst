@@ -9,8 +9,32 @@ Besides this "official" event, some user groups hold the local
 Upstream trainings.
 
 A big thank you to everyone that has made this possible, especially
-Loic Dachary, Stefano Maffulli, Tim Freund, and Marton Kiss
+Loic Dachary, Stefano Maffulli, Tim Freund, Marton Kiss, and Ildikó Váncsa
 who lead the trainings.
+
+2016 Barcelona, Spain
+=====================
+
+`What’s new with OpenStack Upstream Training
+<http://superuser.openstack.org/articles/openstack-upstream-training-revamp/>`_.
+
+**Mentors**
+
+* Ildikó Váncsa – The OpenStack Foundation
+* Márk Korondi – IBM Research Zürich
+* Kendall Nelson – The OpenStack Foundation
+* Victoria Martinez de la Cruz – Red Hat
+* Márton Kiss – Aptira
+* Jay Bryant – IBM
+* Patrick East – PureStorage
+* Xing Yang – Dell EMC
+* Ghanshyam Mann – NEC
+* Gergely Csatári – Nokia
+* Melvin Hillsman – OSIC
+* Christian Berendt – B1 Systems GmbH
+* Anne Gentle – Cisco
+* Jirayut Nimsaeng- Kaidee
+* Kato Tomoyuki- Fujitsu
 
 2016 Austin, USA
 ================
