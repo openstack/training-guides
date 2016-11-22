@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-14 09:26+0000\n"
+"POT-Creation-Date: 2016-11-19 12:44+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-11-17 04:21+0000\n"
+"PO-Revision-Date: 2016-11-22 03:58+0000\n"
 "Last-Translator: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -23,6 +23,12 @@ msgid ""
 msgstr ""
 "OpenStack の商用実装が商標を使用する権利があるかどうかを判断するために "
 "Foundation Board により使用される「ガイドとなる原則」"
+
+msgid "(Draft comments are not visible to others.)"
+msgstr "(コメントのドラフトは他者から見えません)"
+
+msgid "(Please also change your commit message if needed.)"
+msgstr "(必要に応じてコミットメッセージも変更してください)"
 
 msgid "**Private key** - Only known to you and it should be safely guarded."
 msgstr "**秘密鍵** - 自分だけが持っていて、安全に保護すべきです。"
@@ -172,6 +178,9 @@ msgstr "Active Project Contributor (APC)"
 msgid "Active Technical Contributor (ATC)"
 msgstr "Active Technical Contributor (ATC)"
 
+msgid "Activities listed here are not realized at every Upstream training."
+msgstr "ここにある内容は必ずしも毎回実施されるわけではありません。"
+
 msgid "Add A New Connection"
 msgstr "新しい接続の追加"
 
@@ -249,6 +258,9 @@ msgstr ""
 msgid "Allows you to:"
 msgstr "以下のようなことが可能になります:"
 
+msgid "Amending the commit"
+msgstr "コミットの差し替え"
+
 msgid ""
 "An agreement to clarify intellectual property license granted with "
 "contributions from a person or entity. `Preview the full agreement <https://"
@@ -284,6 +296,9 @@ msgstr "アーカイブ"
 
 msgid "Archive and collect"
 msgstr "記録保管所と収集"
+
+msgid "Archive of additional training activities"
+msgstr "他のトレーニング活動のアーカイブ"
 
 msgid "Archives"
 msgstr "これまでの Upstream Training"
@@ -499,12 +514,18 @@ msgstr "通知の定義の変更"
 msgid "Check For Existing Keys"
 msgstr "既存の鍵の確認"
 
+msgid "Check peer's Review"
+msgstr "お互いのレビューの確認"
+
 msgid "Check that :command:`apt install` works on the virtual machine"
 msgstr ""
 "仮想マシンにおいて :command:`apt install` できることを確認してください。"
 
 msgid "Check that you can ssh from your laptop to the virtual machine"
 msgstr "ノート PC から仮想マシンに SSH できることを確認してください"
+
+msgid "Check whether the tests failed or not"
+msgstr "テストの成否を確認する"
 
 msgid "Choose a question"
 msgstr "質問の選択"
@@ -539,6 +560,9 @@ msgstr "Cindy Pallares (assistant, english)"
 
 msgid "Claiming OpenStack requiring use of designated upstream code"
 msgstr "指示されたアップストリームのコードの使用を要求する OpenStack の主張"
+
+msgid "Cleaning up activities are needed"
+msgstr "クリーンアップ処理が必要になります"
 
 msgid "Cleber Rosa (mentoring, assistant, portuguese)"
 msgstr "Cleber Rosa (mentoring, assistant, portuguese)"
@@ -604,6 +628,12 @@ msgid ""
 msgstr ""
 "開発活動のデータを収集、加工し、それを便利なウェブダッシュボードで可視化しま"
 "す。"
+
+msgid "Comment on the open review"
+msgstr "オープンなレビューにコメントする"
+
+msgid "Comment reply"
+msgstr "返信コメント"
 
 msgid "Commit Messages"
 msgstr "コミットメッセージ"
@@ -919,6 +949,9 @@ msgstr ""
 msgid "Done"
 msgstr "完了"
 
+msgid "Draft comment was saved"
+msgstr "コメントのドラフトが保存されました"
+
 msgid "Draft inline comments"
 msgstr "ドラフトのインラインコメント"
 
@@ -1025,6 +1058,11 @@ msgstr "IRC ミーティングコマンドの例:"
 
 msgid "Example:"
 msgstr "例:"
+
+msgid "Executing \"git review\" command will submit the amended commit."
+msgstr ""
+"「git review」コマンドを実行することにより、差し替えたコミットが投稿されま"
+"す。"
 
 msgid "Exercise"
 msgstr "演習"
@@ -1214,6 +1252,29 @@ msgstr "Fedora 22 以降の場合、ターミナルを開いて次のとおり�
 msgid "For SUSE distributions open a terminal and type::"
 msgstr ""
 "SUSE ディストリビューションの場合、ターミナルを開き、次のように入力します。"
+
+msgid ""
+"For Windows environment, download latest Hexchat installation binary from "
+"`Hexchat download <https://hexchat.github.io/downloads.html>`__ and install "
+"it. You will probably also need extra components shown just under Hexchat."
+msgstr ""
+"Windows 環境の場合、最新の Hexchat を `Hexchat download <https://hexchat."
+"github.io/downloads.html>`__ からダウンロードしてインストールします。Hexchat "
+"の中に示されている追加コンポーネントも必要になるかもしれません。"
+
+msgid ""
+"For a Linux distributions like Debian, Ubuntu, or Mint open a terminal and "
+"type::"
+msgstr ""
+"Debian、Ubuntu、Mint などの Linux ディストリビューションの場合、ターミナルを"
+"開き、次のように入力します。"
+
+msgid ""
+"For a Linux distributions like Redhat, Fedora 21 or earlier, or CentOS open "
+"a terminal and type::"
+msgstr ""
+"Red Hat、Fedora 21 以前、CentOS 以前などの Linux ディストリビューションの場"
+"合、ターミナルを開き、次のように入力します。"
 
 msgid ""
 "For distributions like Debian, Ubuntu, or Mint open a terminal and type::"
@@ -1450,6 +1511,9 @@ msgstr ""
 msgid "Gold member companies"
 msgstr "ゴールドメンバー企業"
 
+msgid "Good manners on Sandbox"
+msgstr "Sandbox における良い慣習"
+
 msgid "Good place to get questions answered"
 msgstr "質問の答えを得るために適した場所"
 
@@ -1492,6 +1556,9 @@ msgstr "High Availability Guide"
 
 msgid "Highlight and copy the output."
 msgstr "出力をハイライトして、コピーします。"
+
+msgid "History status"
+msgstr "履歴の状態"
 
 msgid "Hopefully we end up with a unique Lego creation!"
 msgstr "ユニークな LEGO が創って終わることができますように!"
@@ -2216,6 +2283,9 @@ msgstr "新規アグリーメント"
 msgid "New features"
 msgstr "新機能"
 
+msgid "New patchset was recorded in Gerrit."
+msgstr "新しいパッチセットが Gerrit に記録されます。"
+
 msgid "New release-critical bugs"
 msgstr "リリースに致命的な新規バグ"
 
@@ -2238,6 +2308,9 @@ msgstr "実際のバグではなく、改善提案"
 
 msgid "Not suitable to start learning about a topic"
 msgstr "トピックについて学び始めることに適していません"
+
+msgid "Now open the hexchat program just like you would for any Linux program."
+msgstr "他の Linux プログラムと同じように、hexchat プログラムを開きます。"
 
 msgid "Objectives"
 msgstr "目的"
@@ -2566,6 +2639,9 @@ msgstr ""
 msgid "Public/Private cloud"
 msgstr "パブリッククラウド/プライベートクラウド向け"
 
+msgid "Publish comment"
+msgstr "コメントの公開"
+
 msgid "Published collectively as the OpenStack release"
 msgstr "OpenStack リリースとして、まとめて公開される"
 
@@ -2624,6 +2700,11 @@ msgstr "連絡先情報の登録"
 
 msgid "Register Your Nick Name"
 msgstr "ニックネームの登録"
+
+msgid ""
+"Register a blueprint : https://blueprints.launchpad.net/openstack-dev-sandbox"
+msgstr ""
+"ブループリントの登録 : https://blueprints.launchpad.net/openstack-dev-sandbox"
 
 msgid "Registration and Accounts"
 msgstr "登録およびアカウント"
@@ -2717,8 +2798,17 @@ msgstr "技術的な論争の解決"
 msgid "Responding to change over following a plan"
 msgstr "計画の遵守よりも変化への対応を"
 
+msgid "Results will be accumulated in History."
+msgstr "結果は履歴に蓄積されます。"
+
 msgid "Review"
 msgstr "レビュー"
+
+msgid "Review Score & Results"
+msgstr "レビュースコアと結果"
+
+msgid "Review again"
+msgstr "再レビュー"
 
 msgid "Review in gerrit"
 msgstr "gerrit におけるレビュー"
@@ -2786,6 +2876,12 @@ msgstr "Sandbox リポジトリー"
 msgid "Say a few words about yourself"
 msgstr "簡単に自己紹介しましょう"
 
+msgid "Score status"
+msgstr "スコアの状態"
+
+msgid "Score will reflect reviewer's opinion."
+msgstr "スコアはレビューアーの意見が反映されます。"
+
 msgid "Second day"
 msgstr "2 日目"
 
@@ -2794,6 +2890,9 @@ msgstr "セキュリティーガイド"
 
 msgid "SecurityImpact"
 msgstr "SecurityImpact"
+
+msgid "Seeing new comment"
+msgstr "新しいコメントの参照"
 
 msgid "Self-contained"
 msgstr "自己完結"
@@ -3047,6 +3146,9 @@ msgstr "技術委員会 (TC) : 1"
 
 msgid "Technical leadership"
 msgstr "技術的なリーダーシップ"
+
+msgid "Test suites"
+msgstr "テストコード"
 
 msgid "Test the code and file bugs"
 msgstr "コードのテスト、バグの登録"
@@ -3482,6 +3584,12 @@ msgid "We are new age people with some good old technology around"
 msgstr "私たちは新世代の人間ですが、優れた古い技術を活用しています"
 
 msgid ""
+"We have seen in `Setup & First Patch <workflow-setup-and-first-patch."
+"html#8>`__"
+msgstr ""
+"`環境設定と最初のパッチ <workflow-setup-and-first-patch.html#8>`__ があります"
+
+msgid ""
 "We held the first OpenStack Upstream Training in Atlanta, before OpenStack "
 "Summit Atlanta 2014. Since Atlanta, we have held the training before every "
 "OpenStack Summit. Besides this \"official\" event, some user groups hold the "
@@ -3491,6 +3599,9 @@ msgstr ""
 "前にアトランタで開催されました。アトランタ以降、毎回 OpenStack Summit  の直前"
 "にトレーニングを開催してきました。この「公式」イベントに加えて、いくつかの"
 "ユーザーグループは、ローカルなアップストリームトレーニングを開催しています。"
+
+msgid "We will install an IRC program called Hexchat."
+msgstr "Hexchat という名前の IRC クライアントをインストールします。"
 
 msgid "We will take on roles to show how each community member interacts"
 msgstr ""
@@ -3711,6 +3822,13 @@ msgid "Your mission, should you choose to accept it"
 msgstr "あなたのミッション : 許容するかを決めてください"
 
 msgid ""
+"`\"Big Tent\" and tags <http://governance.openstack.org/reference/new-"
+"projects-requirements.html>`_"
+msgstr ""
+"`ビッグテントとタグ <http://governance.openstack.org/reference/new-projects-"
+"requirements.html>`_"
+
+msgid ""
 "`APC <http://governance.openstack.org/reference/charter.html#voters-for-ptl-"
 "seats-apc>`_"
 msgstr ""
@@ -3740,11 +3858,27 @@ msgstr "`ブランチモデル <https://wiki.openstack.org/wiki/Branch_Model>`_"
 msgid "`Bugs <https://wiki.openstack.org/wiki/Bugs>`_"
 msgstr "`バグ <https://wiki.openstack.org/wiki/Bugs>`_"
 
+msgid "`Closing Exercise  <workflow-closing-exercise.html>`_"
+msgstr "`最後の演習  <workflow-closing-exercise.html>`_"
+
 msgid "`Code <http://git.openstack.org/cgit>`_"
 msgstr "`コード <http://git.openstack.org/cgit>`_"
 
+msgid ""
+"`Code Review <http://docs.openstack.org/infra/manual/developers.html#code-"
+"review>`_"
+msgstr ""
+"`コードレビュー <http://docs.openstack.org/infra/manual/developers.html#code-"
+"review>`_"
+
+msgid "`Code exercises <code-exercises.html>`_"
+msgstr "`コードの演習 <code-exercises.html>`_"
+
 msgid "`Commit Messages <workflow-commit-message.html>`_"
 msgstr "`コミットメッセージ <workflow-commit-message.html>`_"
+
+msgid "`Communication <howitsmade-communication.html>`_"
+msgstr "`コミュニケーション <howitsmade-communication.html>`_"
 
 msgid ""
 "`Complete index in slide format only <http://docs.openstack.org/upstream-"
@@ -3769,6 +3903,15 @@ msgid ""
 msgstr ""
 "`クロスリポジトリーの依存関係 <http://docs.openstack.org/infra/manual/"
 "developers.html#cross-repository-dependencies>`_"
+
+msgid "`Demo environment <code-devstack.html>`_"
+msgstr "`デモ環境 <code-devstack.html>`_"
+
+msgid "`Design summits <https://wiki.openstack.org/wiki/Design_Summit>`_"
+msgstr "`デザインサミット <https://wiki.openstack.org/wiki/Design_Summit>`_"
+
+msgid "`DevStack <http://docs.openstack.org/developer/devstack/>`_"
+msgstr "`DevStack <http://docs.openstack.org/developer/devstack/>`_"
 
 msgid ""
 "`Developer’s Guide <http://docs.openstack.org/infra/manual/developers.html>`_"
@@ -3823,6 +3966,12 @@ msgstr ""
 "`プロジェクトの作成方法 <http://docs.openstack.org/infra/manual/creators."
 "html>`_"
 
+msgid ""
+"`How_To_Contribute URL <https://wiki.openstack.org/wiki/How_To_Contribute>`_"
+msgstr ""
+"`コントリビューション方法の URL <https://wiki.openstack.org/wiki/"
+"How_To_Contribute>`_"
+
 msgid "`IRC Logs <http://eavesdrop.openstack.org/irclogs/>`_"
 msgstr "`IRC ログ <http://eavesdrop.openstack.org/irclogs/>`_"
 
@@ -3830,6 +3979,9 @@ msgid ""
 "`IRC Services <http://docs.openstack.org/infra/system-config/irc.html>`_"
 msgstr ""
 "`IRC サービス <http://docs.openstack.org/infra/system-config/irc.html>`_"
+
+msgid "`IRC meetings <https://wiki.openstack.org/wiki/Meetings>`_"
+msgstr "`IRC ミーティング <https://wiki.openstack.org/wiki/Meetings>`_"
 
 msgid ""
 "`Implementation (Milestone iterations <https://wiki.openstack.org/wiki/"
@@ -3851,8 +4003,18 @@ msgstr ""
 msgid "`Introduction <intro-introduction.html>`_"
 msgstr "`はじめに <intro-introduction.html>`_"
 
+msgid ""
+"`Jenkins (Automated testing) <http://docs.openstack.org/infra/manual/"
+"developers.html#automated-testing>`_"
+msgstr ""
+"`Jenkins (自動テスト) <http://docs.openstack.org/infra/manual/developers."
+"html#automated-testing>`_"
+
 msgid "`Jenkins <workflow-jenkins.html>`_"
 msgstr "`Jenkins <workflow-jenkins.html>`_"
+
+msgid "`Launchpad <https://help.launchpad.net/>`_"
+msgstr "`Launchpad <https://help.launchpad.net/>`_"
 
 msgid ""
 "`Lego applied to Free Software contributions <archive-training-agile-for-"
@@ -3897,6 +4059,9 @@ msgstr ""
 " Women of OpenStack グループにより実施されます。参加者は OpenStack プロセス全"
 "体についてガイドを受けます。"
 
+msgid "`Metrics <workflow-metrics.html>`_"
+msgstr "`メトリクス <workflow-metrics.html>`_"
+
 msgid ""
 "`ODP slides <http://dachary.org/loic/openstack-training/training-student-"
 "project-sample.odp>`_ `PDF slides <http://dachary.org/loic/openstack-"
@@ -3909,8 +4074,14 @@ msgstr ""
 msgid "`Official OpenStack projects <howitsmade-official-projects.html>`_"
 msgstr "`OpenStack 公式プロジェクト <howitsmade-official-projects.html>`_"
 
+msgid "`OpenStack Events <howitsmade-events.html>`_"
+msgstr "`OpenStack イベント <howitsmade-events.html>`_"
+
 msgid "`OpenStack Governance <howitsmade-governance.html>`_"
 msgstr "`OpenStack ガバナンス <howitsmade-governance.html>`_"
+
+msgid "`OpenStack Governance <http://governance.openstack.org/>`_"
+msgstr "`OpenStack ガバナンス <http://governance.openstack.org/>`_"
 
 msgid "`OpenStack IRC channels <https://wiki.openstack.org/wiki/IRC>`_"
 msgstr "`OpenStack IRC チャンネル <https://wiki.openstack.org/wiki/IRC>`_"
@@ -3972,6 +4143,13 @@ msgstr ""
 "leads>`_"
 
 msgid ""
+"`Peer Review <http://docs.openstack.org/infra/manual/developers.html#peer-"
+"review>`_"
+msgstr ""
+"`相互レビュー <http://docs.openstack.org/infra/manual/developers.html#peer-"
+"review>`_"
+
+msgid ""
 "`Planning (Design, Discuss and Target) <https://wiki.openstack.org/wiki/"
 "Release_Cycle#Planning_.28Design.2C_Discuss_and_Target.29>`_"
 msgstr ""
@@ -4004,6 +4182,9 @@ msgstr ""
 "`Puppet <https://wiki.openstack.org/wiki/"
 "Puppet#Contributing_to_the_modules>`_"
 
+msgid "`Registration and accounts <workflow-reg-and-accounts.html>`_"
+msgstr "`登録およびアカウント <workflow-reg-and-accounts.html>`_"
+
 msgid ""
 "`Release candidate 1 <https://wiki.openstack.org/wiki/"
 "Release_Cycle#Release_candidate_1>`_"
@@ -4013,6 +4194,9 @@ msgstr ""
 
 msgid "`Release cycle <howitsmade-release-cycle.html>`_"
 msgstr "`リリースサイクル <howitsmade-release-cycle.html>`_"
+
+msgid "`Release cycle <https://wiki.openstack.org/wiki/Release_Cycle>`_"
+msgstr "`リリースサイクル <https://wiki.openstack.org/wiki/Release_Cycle>`_"
 
 msgid ""
 "`Release day <https://wiki.openstack.org/wiki/Release_Cycle#Release_day>`_"
@@ -4094,6 +4278,9 @@ msgid ""
 msgstr ""
 "`機能のユースケース <http://specs.openstack.org/openstack/openstack-user-"
 "stories/>`_"
+
+msgid "`Using Sandbox for Practice <workflow-using-sandbox.html>`_"
+msgstr "`Sandbox を使用した実践 <workflow-using-sandbox.html>`_"
 
 msgid ""
 "``#action`` - Document an action item in the minutes. Include any nicknames "
