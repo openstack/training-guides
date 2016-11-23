@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-19 12:44+0000\n"
+"POT-Creation-Date: 2016-11-22 09:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-11-21 10:50+0000\n"
+"PO-Revision-Date: 2016-11-22 01:34+0000\n"
 "Last-Translator: Robert Simai <robert.simai@suse.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -329,6 +329,9 @@ msgstr ""
 "erschlossen sein. Die Stiftung, Technisches Komitee und der Vorstand müssen "
 "das Design der Strasse genehmigen."
 
+msgid "Building documentation"
+msgstr "Baudokumentation"
+
 msgid "Building software in a community looks really complicated"
 msgstr ""
 "Es sieht sehr kompliziert aus, Software in der Gemeinschaft zu entwickeln"
@@ -345,6 +348,9 @@ msgstr ""
 
 msgid "Can publish to docs.openstack.org and developer.openstack.org"
 msgstr "Veröffentlichung auf docs.openstack.org und developer.openstack.org"
+
+msgid "Capture your idea in a spec/blueprint"
+msgstr "Halten Sie Ihre Idee un einem Spec oder Blueprint fest"
 
 msgid "Change-id"
 msgstr "Change-ID"
@@ -497,6 +503,9 @@ msgstr "Beitragsplanung (2 Stunden)"
 msgid "Contribution Simulation (2 hour)"
 msgstr "Beitragssimmulation (2 Stunden)"
 
+msgid "Contributor guide"
+msgstr "Mitarbeiteranleitung"
+
 msgid "Contributor meetups"
 msgstr "Beiträger Meetings"
 
@@ -623,6 +632,13 @@ msgstr "DevStack"
 msgid "DevStack exercise"
 msgstr "DevStack Übung"
 
+msgid ""
+"Develop and maintain tools and processes to ensure quality, accurate "
+"documentation."
+msgstr ""
+"Entwicklung und Wartung von Werkzeugen und Prozessen, um qualitativ "
+"hochwertige und genaue Dokumentation sicherzustellen."
+
 msgid "Developers"
 msgstr "Entwickler"
 
@@ -631,6 +647,9 @@ msgstr "Entwickler lesen meistens, schreiben gelegentlich"
 
 msgid "Discuss upcoming features for the next release cycle"
 msgstr "Diskutieren über neue Funktionen im nächsten Versionszyklus"
+
+msgid "Discuss with your peers"
+msgstr "Diskutieren Sie mit Ihren Kollegen"
 
 msgid "Distracted : 1"
 msgstr "Zerfahren: 1"
@@ -727,6 +746,10 @@ msgstr "Durchsetzen der OpenStack Ideale"
 msgid "Engage immediately"
 msgstr "Sofort engagieren"
 
+msgid "Ensure basic interoperability with the rest of OpenStack"
+msgstr ""
+"Sicherstellen grundsätzlicher Zusammenarbeit mit dem Rest von OpenStack"
+
 msgid ""
 "Ensure you have the DevStack repository cloned to the VM you would like to "
 "use it"
@@ -742,6 +765,9 @@ msgstr "Etherpad"
 
 msgid "Etherpads"
 msgstr "Etherpads"
+
+msgid "Every cycle includes"
+msgstr "Jeder Zyklus enthält"
 
 msgid "Exercise"
 msgstr "Übung"
@@ -867,11 +893,23 @@ msgid "Fill your contact information and click 'Save Changes'."
 msgstr ""
 "Tragen Sie Ihre Kontaktinformationen ein und klicken Sie 'Save Changes'."
 
+msgid "Find an open review which is less complex and download the patch"
+msgstr ""
+"Finden Sie eine weniger komplexe offene Review und laden Sie den Patch "
+"herunter"
+
 msgid ""
 "Find out what parameters were passed to that method by using the LOG messages"
 msgstr ""
 "Finden Sie durch Lognachrichten heraus, welche Parameter der Methode "
 "übergeben wurden"
+
+msgid ""
+"Find out what the modification is by running the test and analyzing the test "
+"output"
+msgstr ""
+"Finden Sie durch das laufen lassen des Tests und Analyse der Ausgabe heraus, "
+"welches die Änderung ist"
 
 msgid "Find the current members of the Board of Directors, TC and UC"
 msgstr "Auffinden der aktuellen Board of Directors Mitglieder, TC und UC"
@@ -1002,6 +1040,9 @@ msgstr "Sammelt Feedback und konsolidiert Anforderungen"
 msgid "General discussion around what's going on in a project"
 msgstr "Allgemeine Diskussionen, was im Projekt vor sich geht"
 
+msgid "Generally has information about who the PTL and cores are"
+msgstr "Hat im Allgemeinen Informationen darüber, wer PTL und Cores sind"
+
 msgid "Generate SSH Keys"
 msgstr "Erzeuge SSH Schlüssel"
 
@@ -1079,6 +1120,12 @@ msgstr "Gold Mitgliedsfirmen"
 msgid "Good place to get questions answered"
 msgstr "Eine gute Anlaufstelle, um Antworten auf Fragen zu bekommen"
 
+msgid ""
+"Good source of info about when and in what channel regular meetings are held"
+msgstr ""
+"Gute Quelle von Informationen über wann und in welchem Kanal reguläre "
+"Meetings gehalten werden"
+
 msgid "Good: new API + new feature"
 msgstr "Gut: neue API + neue Funktion"
 
@@ -1127,6 +1174,9 @@ msgstr "Wie OpenStack gemacht ist (3 Stunden incl. 1,5 Stunden Übungen)"
 
 msgid "How does it work?"
 msgstr "Wie funktioniert es?"
+
+msgid "How projects are released"
+msgstr "Wie Projekte released werden"
 
 msgid "How to contribute"
 msgstr "Wie beitragen"
@@ -1320,6 +1370,12 @@ msgstr "ungültig"
 msgid "Irena Berezovsky (assistant, mentor, english)"
 msgstr "Irena Berezovsky (Assistent, Mentor, englisch)"
 
+msgid "It depends on each project how to organize the work at each cycle"
+msgstr "Es hängt vom Projekt ab, wie die Arbeit im Zyklus organisiert wird"
+
+msgid "It is the projects decision to follow the OpenStack release"
+msgstr "Es ist die Entscheidung des Projekts, dem OpenStack Release zu folgen"
+
 msgid "Japan OpenStack User Group has held the Upstream Training in Japan."
 msgstr ""
 "Japan OpenStack User Group hat das Upstream Training in Japan abgehalten."
@@ -1329,6 +1385,13 @@ msgstr "Jenkins"
 
 msgid "Jieun Kim (assistant)"
 msgstr "Jieun Kim (Assistent)"
+
+msgid ""
+"Join the channel of the project(s) you are interested in and find the logs "
+"from the most recent meeting."
+msgstr ""
+"Treten Sie dem Kanal des Projekts, an dem Sie interessiert sind, bei und "
+"finden Sie die Logs des aktuellsten Meetings."
 
 msgid "Julie Pichon (training, mentoring, assistant, english)"
 msgstr "Julie Pichon (Training, Mentoring, Assistent, englisch)"
@@ -1808,6 +1871,12 @@ msgstr "Planen - Diskutieren"
 msgid "Planning - Target"
 msgstr "Planung - Ziel"
 
+msgid "Planning and design activities"
+msgstr "Planungs- und Designaktivitäten"
+
+msgid "Planning for a release cycle starts at the end of the previous cycle"
+msgstr "Planung eines Releasezyklus startet am Ende des vorhergehenden Zyklus"
+
 msgid "Platinum member companies"
 msgstr "Platin Mitgliedsfirmen"
 
@@ -1825,6 +1894,9 @@ msgstr "Vorbedingungen"
 
 msgid "Prioritize bugs / bug triage"
 msgstr "Fehler priorisieren/Fehler sichten"
+
+msgid "Prioritizing items"
+msgstr "Priorisierung der Punkte"
 
 msgid "Produce *deliverables* to achieve a clearly stated *objective*"
 msgstr "*Ergebnisse* produzieren, um klar beschriebene *Ziele* zu erreichen"
@@ -1858,6 +1930,9 @@ msgstr ""
 
 msgid "Published collectively as the OpenStack release"
 msgstr "Gemeinsam veröffentlicht als OpenStack-Version"
+
+msgid "Push code to Gerrit for review"
+msgstr "Pushen des Codes nach Gerrit zur Review"
 
 msgid "Quality"
 msgstr "Qualität"
@@ -1964,6 +2039,13 @@ msgstr "Reserviert für ad-hoc Meetings von Projektteams"
 msgid "Resolve technical disputes"
 msgstr "Technische Konflikte lösen"
 
+msgid ""
+"Restart the corresponding service in your DevStack environment and find the "
+"new message in the logs"
+msgstr ""
+"Starten Sie den entsprechenden Dienst in Ihrer DevStack Umgebung neu und "
+"finden Sie die neuen Nachrichten in den Logs"
+
 msgid "Review"
 msgstr "Überprüfung"
 
@@ -2023,6 +2105,9 @@ msgstr "In sich geschlossen"
 
 msgid "Seoul, Korea"
 msgstr "Seoul, Korea"
+
+msgid "Service terminals"
+msgstr "Dienst Terminals"
 
 msgid "Setup Gerrit Account"
 msgstr "Gerrit Konto einrichten"
@@ -2089,6 +2174,9 @@ msgstr ""
 "Die Quelldatei ist wird im `governance repository <http://git.openstack.org/"
 "cgit/openstack/governance/tree/reference/projects.yaml>` gehostet_"
 
+msgid "Specialty teams"
+msgstr "Spezialitätenteams"
+
 msgid "Speed up the acceptance"
 msgstr "Aktzeptanz erhöhen."
 
@@ -2135,6 +2223,12 @@ msgstr "Zeichenkettensperre"
 
 msgid "Submit presentations to OpenStack conferences."
 msgstr "Präsentationen einreichen zu OpenStack K-nferenzen"
+
+msgid "Submit the blueprints and/or specs"
+msgstr "Übermitteln Sie die die Blueprints oder Specs"
+
+msgid "Submit to the TC oversight"
+msgstr "Zur TC Aufsicht übermitteln"
 
 msgid "Subset of the Foundation Individual Members"
 msgstr "Untergruppe der Foundation Individual Members"
@@ -2183,6 +2277,9 @@ msgstr "Kommunikation in IRC-Kanälen & Meetings"
 
 msgid "Target Audience"
 msgstr "Zielgruppe"
+
+msgid "Team diversity"
+msgstr "Teamvielfalt"
 
 msgid "Team members : 3-5"
 msgstr "Teammitglieder: 3-5"
@@ -2507,6 +2604,10 @@ msgstr ""
 msgid "Vote in elections."
 msgstr "Abstimmen bei Wahlen."
 
+msgid ""
+"Way for people to communicate to a larger group than those that are on IRC"
+msgstr "Weg für Leute mit einer größeren Gruppe zu kommunizieren, als im IRC"
+
 msgid "Ways to Communicate in OpenStack"
 msgstr "Wege der Kommunikation in OpenStack"
 
@@ -2588,6 +2689,9 @@ msgstr ""
 "Wenn Sie aufgefordert werden \"Enter a file in which to save the key\" "
 "drücken Sie Enter. Dies ermöglicht den Standardort::"
 
+msgid "When your blueprint/spec is accepted"
+msgstr "Wenn Ihr Bluebrint oder Spec akzeptiert wurde"
+
 msgid ""
 "Where developers meet face to face to finalize planning for the next release "
 "cycle."
@@ -2622,6 +2726,9 @@ msgstr "Wird nicht repariert"
 msgid "Work in parallel"
 msgstr "Parallel arbeiten"
 
+msgid "Work on feedback and comments"
+msgstr "Arbeiten Sie an Rückmeldungen und Kommentaren"
+
 msgid "Work on the fix is in progress, bug has an assignee"
 msgstr "Fehlerbehebung ist in Arbeit, Fehler ist jemandem zugewiesen"
 
@@ -2642,6 +2749,9 @@ msgid ""
 msgstr ""
 "Arbeitsablauf eines OpenStack Beitrages und Werkzeuge  (3 Stunden incl. 2 "
 "Stunden Übungen)"
+
+msgid "Write it on Etherpad."
+msgstr "Schreiben Sie es ins Etherpad."
 
 msgid "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 msgstr ""
