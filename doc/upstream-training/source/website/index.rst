@@ -79,7 +79,8 @@ How to prepare
 Staff
 =====
 
-The trainers for the upcoming training in Barcelona:
+The trainers have led the training in Barcelona and will lead the next training
+in Boston, in English:
 
 Ildiko Vancsa, Kendall Nelson, Mark Korondi, and Marton Kiss
 
