@@ -26,15 +26,18 @@ and technical conventions.
 These can significantly slow down the speed at which newcomers are successful
 at integrating their own roadmap into that of the OpenStack project.
 
-We've designed a training program to help professional developers negotiate
-this hurdle. It shows them how to ensure their bug fix or feature is accepted
-in the OpenStack project in a minimum amount of time. The educational program
-requires students to work on real-life bug fixes or new features during two
-days of real-life classes and online mentoring, until the work is accepted by
-OpenStack. The live two-day class teaches them to navigate the intricacies of
-the project's technical tools and social interactions. In a followup session,
-the students benefit from individual online sessions to help them resolve any
-remaining problems they might have.
+We've designed a training program to share knowledge about the different ways
+of contributing to OpenStack like providing new features, writing
+documentation, participating in working groups, and so forth. The educational
+program is built on the principle of open collaboration and will teach the
+students how to find information and navigate the intricacies of the
+project’s technical tools and social interactions in order to get their
+contributions accepted. The live one and a half day class is focusing on
+hands-on practice like the students can use a prepared development
+environment to learn how to test, prepare and upload new code snippets or
+documentation for review. The attendees are also given the opportunity to
+join a mentoring program to get further help and guidance on their journey
+to become an active and successful member of the OpenStack community.
 
 For more information, see :doc:`upstream-details`.
 
