@@ -140,6 +140,7 @@ Code Deep Dive
 
 * `Demo environment <code-devstack.html>`_
 * `Code exercises <code-exercises.html>`_
+* `Branching model <branching-model.html>`_
 
 Other
 -----------------------
