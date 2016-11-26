@@ -8,12 +8,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-07 09:29+0000\n"
+"POT-Creation-Date: 2016-11-23 15:19+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-11-08 05:29+0000\n"
-"Last-Translator: Jun-Sik Shin <jsshin@smartx.kr>\n"
+"PO-Revision-Date: 2016-11-26 01:49+0000\n"
+"Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
 "X-Generator: Zanata 3.7.3\n"
@@ -55,6 +55,9 @@ msgstr "(실제 버그 보고는 구체적인 설명을 필요로 합니다.)"
 
 msgid "(Review invitation letter has been sent by e-mail.)"
 msgstr "(리뷰 초대장 편지가 이메일에 의해 전송되었습니다.)"
+
+msgid "**Mentors**"
+msgstr "**멘터**"
 
 msgid "**Private key** - Only known to you and it should be safely guarded."
 msgstr "**비밀키** - 사용자만 알고 있으며 안전하게 보호되어져야 합니다."
@@ -113,6 +116,9 @@ msgstr "2015년 캐나다, 벤쿠버"
 msgid "2016 Austin, USA"
 msgstr "2016 미국 Austin"
 
+msgid "2016 Barcelona, Spain"
+msgstr "2016 스페인 Barcelona"
+
 msgid "2016 was 6th birthday of OpenStack"
 msgstr "2016년은 OpenStack 여섯 번째 생일이었습니다"
 
@@ -142,11 +148,12 @@ msgstr "7:45 카바 & 와이너리 투어"
 
 msgid ""
 "A big thank you to everyone that has made this possible, especially Loic "
-"Dachary, Stefano Maffulli, Tim Freund, and Marton Kiss who lead the "
-"trainings."
+"Dachary, Stefano Maffulli, Tim Freund, Marton Kiss, and Ildikó Váncsa who "
+"lead the trainings."
 msgstr ""
 "이를 가능하게 한 모든 분들, 그리고 특별히 트레이닝을 진행한 Loic Dachary, "
-"Stefano Maffulli, Tim Freund, 그리고 Marton Kiss에게 큰 감사를 드립니다."
+"Stefano Maffulli, Tim Freund, Marton Kiss, 그리고 Ildikó Váncsa에게 큰 감사"
+"를 드립니다."
 
 msgid "A bunch of scripts to build a full OpenStack environment"
 msgstr "전체 OpenStack 환경을 만들기 위한 스크립트 모음"
@@ -340,6 +347,9 @@ msgstr ""
 "회사 또는 기관 고용주가 `Corporate Contributor License Agreement <https://"
 "secure.echosign.com/public/hostedForm?formid=56JUVGT95E78X5>`_ 에 서명할 필요"
 "가 있습니다."
+
+msgid "Anne Gentle – Cisco"
+msgstr "Anne Gentle – Cisco"
 
 msgid "Answer questions"
 msgstr "질문에 대한 답변"
@@ -651,6 +661,9 @@ msgstr "Chris Ricker (교육, 멘토링, 조교, 영어)"
 
 msgid "Christian Berendt - Installation (mentoring, assistant)"
 msgstr "Christian Berendt - Installation (멘토링, 조교)"
+
+msgid "Christian Berendt – B1 Systems GmbH"
+msgstr "Christian Berendt – B1 Systems GmbH"
 
 msgid "Christophe Sauthier (training, assistant, mentoring, french, english)"
 msgstr "Christophe Sauthier (교육, 조교, 멘토링, 프랑스어, 영어)"
@@ -1695,6 +1708,9 @@ msgstr "SSH 키 생성하기"
 msgid "Generic intention behind planning"
 msgstr "계획에 내재되어 있는 일반적인 목적"
 
+msgid "Gergely Csatári – Nokia"
+msgstr "Gergely Csatári – Nokia"
+
 msgid "Gerrit"
 msgstr "Gerrit"
 
@@ -1732,6 +1748,9 @@ msgstr "코드에 대해 알아가기"
 
 msgid "Getting to Know Your Project"
 msgstr "프로젝트에 친숙해지기"
+
+msgid "Ghanshyam Mann – NEC"
+msgstr "Ghanshyam Mann – NEC"
 
 msgid "Git"
 msgstr "Git"
@@ -2052,6 +2071,9 @@ msgstr "Ildiko Vancsa - ildikov - Telemetry (멘토링, 조교)"
 msgid "Ildiko Vancsa, Kendall Nelson, Mark Korondi, and Marton Kiss"
 msgstr "Ildiko Vancsa, Kendall Nelson, Mark Korondi, 그리고 Marton Kiss"
 
+msgid "Ildikó Váncsa – The OpenStack Foundation"
+msgstr "Ildikó Váncsa – The OpenStack Foundation"
+
 msgid ""
 "Image and instructions: https://github.com/kmARC/openstack-training-virtual-"
 "environment/"
@@ -2286,6 +2308,9 @@ msgid "Japan OpenStack User Group has held the Upstream Training in Japan."
 msgstr ""
 "일본 OpenStack 유저 그룹은 일본에서 업스트림 트레이닝을 개최하였습니다."
 
+msgid "Jay Bryant – IBM"
+msgstr "Jay Bryant – IBM"
+
 msgid "Jenkins"
 msgstr "Jenkins"
 
@@ -2294,6 +2319,9 @@ msgstr "Jenkins 및 벤더 CI에서 패치를 리뷰할 것입니다"
 
 msgid "Jieun Kim (assistant)"
 msgstr "Jieun Kim (조교)"
+
+msgid "Jirayut Nimsaeng- Kaidee"
+msgstr "Jirayut Nimsaeng- Kaidee"
 
 msgid "Join the #openstack-101 channel"
 msgstr "#openstack-101 채널에 들어옵니다"
@@ -2330,6 +2358,12 @@ msgstr "Junsik Shin (조교, 멘토링)"
 
 msgid "KATO Tomoyuki (assistant, Japanese)"
 msgstr "KATO Tomoyuki (조교, 일본어)"
+
+msgid "Kato Tomoyuki- Fujitsu"
+msgstr "Kato Tomoyuki- Fujitsu"
+
+msgid "Kendall Nelson – The OpenStack Foundation"
+msgstr "Kendall Nelson – The OpenStack Foundation"
 
 msgid "LOG message exercise"
 msgstr "LOG 메시지 실습"
@@ -2596,6 +2630,9 @@ msgstr "모든 프로젝트로부터 TC가 요구하는 정책들을 충족합�
 msgid "Meeting channels (#openstack-meeting, #openstack-meeting-cp, etc.)"
 msgstr "회의 채널 (#openstack-meeting, #openstack-meeting-cp, 등.)"
 
+msgid "Melvin Hillsman – OSIC"
+msgstr "Melvin Hillsman – OSIC"
+
 msgid "Mentors/helpers"
 msgstr "멘토/도움"
 
@@ -2695,6 +2732,12 @@ msgstr "가장 최근 (\"Mitaka\") 릴리즈 통계:"
 
 msgid "Multi-layer group of leadership"
 msgstr "여러 계층 그룹으로 구성된 리더십"
+
+msgid "Márk Korondi – IBM Research Zürich"
+msgstr "Márk Korondi – IBM Research Zürich"
+
+msgid "Márton Kiss – Aptira"
+msgstr "Márton Kiss – Aptira"
 
 msgid "NFV = Network Function Virtualization"
 msgstr "NFV = Network Function Virtualization"
@@ -3042,6 +3085,9 @@ msgid ""
 msgstr ""
 "공개키를 **Add SSH Public Key** 텍스트 상자에 붙여넣기한 후 추가를 클릭합니"
 "다."
+
+msgid "Patrick East – PureStorage"
+msgstr "Patrick East – PureStorage"
 
 msgid "Pay attention to who is an expert in what area"
 msgstr "특정 영역에 누가 전문가인지를 귀기울여 봅니다"
@@ -3946,8 +3992,12 @@ msgid ""
 msgstr ""
 "팀은 OpenStack Summits 및 Project Team Gatherings (PTG) 에서 공간을 얻습니다"
 
-msgid "The trainers for the upcoming training in Barcelona:"
-msgstr "다가오는 Barcelona 에서 트레이닝 진행자는 다음과 같습니다:"
+msgid ""
+"The trainers have led the training in Barcelona and will lead the next "
+"training in Boston, in English:"
+msgstr ""
+"다음 진행자께서 Barcelona에서 트레이닝을 개최하였으며 다음 트레이닝은 Boston"
+"에서 영어로 개최 예정입니다:"
 
 msgid ""
 "The training concentrates on the common cycle with the development "
@@ -4271,6 +4321,9 @@ msgid ""
 "Victoria Martinez de la Cruz - vkmc - Trove/Zaqar (mentoring, assistant)"
 msgstr "Victoria Martinez de la Cruz - vkmc - Trove/Zaqar (멘토링, 조교)"
 
+msgid "Victoria Martinez de la Cruz – Red Hat"
+msgstr "Victoria Martinez de la Cruz – Red Hat"
+
 msgid "Victoria Martínez de la Cruz (assistant, english)"
 msgstr "Victoria Martínez de la Cruz (조교, 영어)"
 
@@ -4547,6 +4600,9 @@ msgstr "메시지 내용에 'Related-Bug: #[Lanuchpad 버그 번호]' 작성"
 
 msgid "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 msgstr "Xavier Antoviaque (교육, 멘토링, 조교, 프랑스어, 영어)"
+
+msgid "Xing Yang – Dell EMC"
+msgstr "Xing Yang – Dell EMC"
 
 msgid ""
 "You can use `Git Immersion <http://gitimmersion.com/lab_02.html>`_ to work "
@@ -5043,6 +5099,13 @@ msgstr ""
 
 msgid "`Using Sandbox for Practice <workflow-using-sandbox.html>`_"
 msgstr "`연습을 위한 Sandbox <workflow-using-sandbox.html>`_"
+
+msgid ""
+"`What’s new with OpenStack Upstream Training <http://superuser.openstack.org/"
+"articles/openstack-upstream-training-revamp/>`_."
+msgstr ""
+"`OpenStack Upstream Training에서 새로운 점 <http://superuser.openstack.org/"
+"articles/openstack-upstream-training-revamp/>`_."
 
 msgid ""
 "``#action`` - Document an action item in the minutes. Include any nicknames "
