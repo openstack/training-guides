@@ -10,87 +10,70 @@ Team and repository tags
 OpenStack Training Guides
 +++++++++++++++++++++++++
 
-This repository contains open source training manuals that can be
-used to learn about the OpenStack project.
+This repository contains open source training material that can be
+used to learn about using and different ways of contributing to OpenStack
+(Upstream training).
 
 For more details, see the `OpenStack Training Guides wiki page
 <https://wiki.openstack.org/wiki/Training-guides>`_.
 
-It includes these guides:
+It includes:
 
- * Associate Guide
- * Operator Guide
- * Developer Guide
+ * Upstream training
+ * Training guides (draft)
 
-
-Prerequisites
-=============
-`Apache Maven <http://maven.apache.org/>`_ must be installed to build the
-documentation.
-
-To install Maven 3 for Ubuntu 12.04 and later, and Debian wheezy and later::
-
-    apt-get install maven
-
-On Fedora 20 and later::
-
-    yum install maven
+Both guides include a set of slides used in the training events.
 
 Building
 ========
-The different guides are in subdirectories of the
-``doc/`` directory.
 
-To build the guides, look for a ``pom.xml`` file within a subdirectory,
-then run the ``mvn`` command in that directory. For example::
+Various manuals are in subdirectories of the ``doc/`` directory.
 
-    cd doc/training-guides/
-    mvn clean generate-sources
+Guides
+------
 
-The generated PDF documentation file is::
+All guides are in the RST format. You can use ``tox`` to prepare
+virtual environment and build all guides::
 
-    doc/training-guides/target/docbkx/webhelp/training-guides/training-guides.pdf
+    $ tox
 
-The root of the generated HTML documentation is::
+You can find the root of the generated HTML documentation at::
 
-    doc/training-guides/target/docbkx/webhelp/training-guides/content/index.html
+    doc/upstream-training/build/slides/index.html
+    doc/training-guides/build/slides/index.html
+
 
 Testing of changes and building of the manual
 =============================================
 
-Install the python tox package and run ``tox`` from the top-level
+Install the Python tox package and run ``tox`` from the top-level
 directory to use the same tests that are done as part of our Jenkins
 gating jobs.
 
 If you like to run individual tests, run:
 
- * ``tox -e checkniceness`` - to run the niceness tests
- * ``tox -e checksyntax`` - to run syntax checks
- * ``tox -e checkdeletions`` - to check that no deleted files are referenced
- * ``tox -e checkbuild`` - to actually build the manual
-
-tox will use the openstack-doc-tools package for execution of these
-tests.
-
+ * ``tox -e checkbuild`` - to actually build all guides
+ * ``tox -e upstream-slides`` - build the Upstream training
+ * ``tox -e training-slides`` - build the Training guides
 
 Contributing
 ============
 
 Our community welcomes all people interested in open source cloud
 computing, and encourages you to join the `OpenStack Foundation
-<http://www.openstack.org/join>`_.
+<https://www.openstack.org/join>`_.
 
 The best way to get involved with the community is to talk with others
 online or at a meet up and offer contributions through our processes,
-the `OpenStack wiki <http://wiki.openstack.org>`_, blogs, or on IRC at
+the `OpenStack wiki <https://wiki.openstack.org>`_, blogs, or on IRC at
 ``#openstack`` on ``irc.freenode.net``.
 
 We welcome all types of contributions, from blueprint designs to
 documentation to testing to deployment scripts.
 
 If you would like to contribute to the documents, please see the
-`Documentation HowTo <https://wiki.openstack.org/wiki/Documentation/HowTo>`_.
-
+`OpenStack Documentation Contributor Guide
+<http://docs.openstack.org/contributor-guide/>`_.
 
 Bugs
 ====
@@ -100,7 +83,10 @@ Bugs should be filed on Launchpad, not GitHub:
    https://bugs.launchpad.net/openstack-training-guides
 
 
-Installing
-==========
-Refer to http://docs.openstack.org to see where these documents are published
-and to learn more about the OpenStack project.
+Published guides
+================
+
+Guides are published at:
+
+ * http://docs.openstack.org/upstream-training/
+ * http://docs.openstack.org/draft/training-guides/
