@@ -6,16 +6,35 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-23 15:19+0000\n"
+"POT-Creation-Date: 2016-11-27 08:59+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-11-22 01:34+0000\n"
+"PO-Revision-Date: 2016-11-28 10:56+0000\n"
 "Last-Translator: Robert Simai <robert.simai@suse.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
 "X-Generator: Zanata 3.7.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgid "(Checking log message before uploading is always a nice idea.)"
+msgstr ""
+"(Lognachrichten vor dem hochladen zu überprüfen ist immer eine gute Idee.)"
+
+msgid "(Draft comments are not visible to others.)"
+msgstr "(Kommentarentwürfe sind nicht für andere sichtbar.)"
+
+msgid "(Find reviewer by Gerrit username or e-mail address.)"
+msgstr "(Reviewer durch Gerrit Benutzername oder E-mail Adresse finden.)"
+
+msgid "(Other people will think that someone working on the bug.)"
+msgstr "(andere Personen nehmen an, dass an dem Bug gearbeitet wird.)"
+
+msgid "(Review invitation letter has been sent by e-mail.)"
+msgstr "(Review Einladung wurde als E-mail verschickt.)"
+
+msgid "**Mentors**"
+msgstr "**Mentoren**"
 
 msgid "**Private key** - Only known to you and it should be safely guarded."
 msgstr ""
@@ -30,6 +49,9 @@ msgstr ""
 
 msgid "**Staff**"
 msgstr "**Staff**"
+
+msgid "*Common cycle with development milestones*"
+msgstr "*Gemeinsamer Zyklus mit Entwicklungsmeilensteinen*"
 
 msgid "..."
 msgstr "..."
@@ -63,6 +85,9 @@ msgstr "2015 Vancouver, Canada"
 
 msgid "2016 Austin, USA"
 msgstr "2016 Austin, USA"
+
+msgid "2016 Barcelona, Spain"
+msgstr "2016 Barcelona, Spanien"
 
 msgid "2016 was 6th birthday of OpenStack"
 msgstr "2016 war der 6. Geburtstag von OpenStack"
@@ -113,6 +138,9 @@ msgstr ""
 msgid "API"
 msgstr "API"
 
+msgid "About the training"
+msgstr "Über das Training"
+
 msgid "Abstract"
 msgstr "Zusammenfassung"
 
@@ -134,6 +162,19 @@ msgstr "Aktive Mitarbeit zu einem oder mehrerem OpenStack Projekten"
 msgid "Add A New Connection"
 msgstr "Neue Verbindung hinzufügen"
 
+msgid ""
+"Add a few extra LOG.debug() lines to one of the methods of the API call you "
+"chose in the previous exercise"
+msgstr ""
+"Fügen Sie ein paar extra LOG.debug() Zeilen zu einer der Methoden des API "
+"Aufrufs hinzu, den Sie in der letzten Übung ausgewählt hatten"
+
+msgid "Add the file and commit"
+msgstr "Datei hinzufügen und committen"
+
+msgid "Added as Reviewer"
+msgstr "als Reviewer hinzugefügt"
+
 msgid "Adrien Cunin (mentoring, assistant, french, english)"
 msgstr "Adrien Cunin (Mentoring, Assistent, französisch, englisch)"
 
@@ -142,6 +183,15 @@ msgstr "Nachdem die Änderung akzeptiert wurde"
 
 msgid "After the last milestone"
 msgstr "Nach dem letzten Meilenstein"
+
+msgid "Agenda - Day 1"
+msgstr "Agenda - Tag 1"
+
+msgid "Agenda - Day 2, afternoon"
+msgstr "Agenda - Tag 2, Nachmittag"
+
+msgid "Agenda - Day 2, morning"
+msgstr "Agenda - Tag 2, Morgen"
 
 msgid "Agreeable : 2-3"
 msgstr "Zustimmende: 2-3"
@@ -191,8 +241,14 @@ msgstr ""
 "die`Lizenzvereinbarung Kooperationsbeiträger <https://secure.echosign.com/"
 "public/hostedForm?formid=56JUVGT95E78X5>`_."
 
+msgid "Anne Gentle – Cisco"
+msgstr "Anne Gentle – Cisco"
+
 msgid "Answer questions"
 msgstr "Fragen beantworten"
+
+msgid "Answering reviewer's comment(s) is a good manner."
+msgstr "Die Kommentare eines Reviewers zu beantworten gehört zum guten Ton."
 
 msgid "Apply for ATC role"
 msgstr "Anwendung der ATC Rolle"
@@ -235,6 +291,9 @@ msgid ""
 msgstr ""
 "Am Prompt tippen Sie eine sichere Passphrase. Sie können auch einfach Enter "
 "drücken, um keine Passphrase zu verwenden::"
+
+msgid "Attending regular meetings"
+msgstr "Regelmäßige Meetings besuchen"
 
 msgid "Attends project meetings"
 msgstr "Teilnahme an Projektmeeetings"
@@ -282,6 +341,15 @@ msgstr "Branching-Modell"
 
 msgid "Bug"
 msgstr "Fehler"
+
+msgid "Bug Assigned"
+msgstr "Bug zugewiesen"
+
+msgid "Bug Assigning"
+msgstr "Bug Zuweisung"
+
+msgid "Bug Report Submission"
+msgstr "Anlage Bugreport"
 
 msgid "Bug fixes"
 msgstr "Fehlerkorrekturen"
@@ -412,6 +480,9 @@ msgstr "Chris Ricker (Training, Mentoring, Assistent, englisch)"
 msgid "Christian Berendt - Installation (mentoring, assistant)"
 msgstr "Christian Berendt - Installation (Mentoring, Assistent)"
 
+msgid "Christian Berendt – B1 Systems GmbH"
+msgstr "Christian Berendt – B1 Systems GmbH"
+
 msgid "Christophe Sauthier (training, assistant, mentoring, french, english)"
 msgstr ""
 "Christophe Sauthier (Training, Assistent, Mentoring, französisch, englisch)"
@@ -424,6 +495,9 @@ msgstr ""
 "Die Behauptung, Openstack erfordert die Verwendung bezeichneten Upstream-"
 "Codes"
 
+msgid "Cleaning up activities are needed"
+msgstr "Aktivitäten zur Bereinigung sind nötig"
+
 msgid "Cleber Rosa (mentoring, assistant, portuguese)"
 msgstr "Cleber Rosa (Mentoring, Assistent, Portugiesisch)"
 
@@ -432,6 +506,9 @@ msgstr "Klicken Sie den 'Add Key' Knopf."
 
 msgid "Click the **I am a new Ubuntu One user**."
 msgstr "Klicke auf **Ich bin ein neuer Ubuntu One Benutzer**."
+
+msgid "Code for new features will not be accepted"
+msgstr "Code für neue Funktionen wird nicht akzeptiert"
 
 msgid ""
 "Code or documentation contribution to any of the official project "
@@ -453,12 +530,34 @@ msgstr ""
 msgid "Comment on the open review"
 msgstr "Kommentieren der offenen Review"
 
+msgid "Comment reply"
+msgstr "Antwort auf Kommentare"
+
+msgid "Commenting"
+msgstr "Kommentieren"
+
+msgid "Commit log message"
+msgstr "Lognachricht committen"
+
 msgid "Commit messages"
 msgstr "Commit Nachricht"
 
 msgid "Committed a change over the last two 6-month release cycles"
 msgstr ""
 "Eine Änderung in den letzten zwei 6-Monat-Versionszyklen übergeben haben"
+
+msgid "Common cycle with development milestones"
+msgstr "Gemeinsamer Zyklus mit Entwicklungsmeilensteinen"
+
+msgid "Common cycle with intermediary release"
+msgstr "Gemeinsamer Zyklus mit Zwischenreleases"
+
+msgid ""
+"Common place to have people in a project collaborate on larger projects and "
+"planning of events"
+msgstr ""
+"Üblicher Ort, an dem Projektteilnehmer an größeren Projekten "
+"zusammenarbeiten oder Veranstaltungen planen"
 
 msgid "Commonality"
 msgstr "Gemeinsamkeit"
@@ -496,6 +595,9 @@ msgstr "Bestätigt"
 
 msgid "Confirming & prioritizing"
 msgstr "Bestätigen & Priorisieren"
+
+msgid "Contact Information"
+msgstr "Kontaktinformationen"
 
 msgid "Contribution Planning (2 hours)"
 msgstr "Beitragsplanung (2 Stunden)"
@@ -545,6 +647,9 @@ msgid ""
 msgstr ""
 "Erzeugen einer virtuellen Maschine auf dem Laptop mit Installation von "
 "Ubuntu 14.04 und 6+ GB RAM."
+
+msgid "Create your commit"
+msgstr "Commit erstellen"
 
 msgid "Created by a large growing community"
 msgstr "Erstellt von einer schnell wachsenden Gemeinschaft"
@@ -597,6 +702,9 @@ msgstr "Tag 2: Die Theorie des Beitragens"
 msgid "Deadlines"
 msgstr "Stichtage"
 
+msgid "Deadlines for the code to get merged"
+msgstr "Fristen für das Mergen von Code"
+
 msgid "Debugging"
 msgstr "Debugging"
 
@@ -608,6 +716,9 @@ msgstr "DefCore (oder was kann als OpenStack bezeichnet werden)"
 
 msgid "Demo environment"
 msgstr "Demo Umgebung"
+
+msgid "Depends on the priority of your work item"
+msgstr "Hängen von den Prioritäten der Arbeitsaufgaben ab"
 
 msgid "Describe the output produced by the OpenStack community teams"
 msgstr ""
@@ -669,8 +780,14 @@ msgstr "Dokumentation"
 msgid "Documentation: http://docs.openstack.org/developer/devstack/"
 msgstr "Dokumentation: http://docs.openstack.org/developer/devstack/"
 
+msgid "Does your company want you to work on something specific?"
+msgstr "Möchte Ihre Firma, dass Sie an etwas bestimmten arbeiten?"
+
 msgid "Done"
 msgstr "Fertig"
+
+msgid "Draft comment was saved"
+msgstr "Kommentarentwurf wurde gespeichert"
 
 msgid "Draft inline comments"
 msgstr "Entwurf Inline-Kommentare"
@@ -719,6 +836,12 @@ msgstr "Jedes Projekt und jede Arbeitsgruppe hat ihre eigene Wiki-Seite"
 msgid "Each project and working group has its own channel"
 msgstr "Jedes Projekt und jede Arbeitsgruppe hat ihren eigenen Kanal"
 
+msgid "Each project has its own culture"
+msgstr "Jedes Projekt hat seine eigene Kultur"
+
+msgid "Each project has its own purpose"
+msgstr "Jedes Projekt hat einen eigenen Zweck"
+
 msgid "Each student group prepares a presentation describing:"
 msgstr "Jeder Student bereitet eine Präsentation vor, die beschreibt:"
 
@@ -728,6 +851,9 @@ msgstr "Jede Teilnehmergruppe präsentiert die Folien der Klasse."
 msgid "Edit Nick Name Settings"
 msgstr "Einstellungen Spitznamen bearbeiten"
 
+msgid "Edit Server Settings"
+msgstr "Servereinstellungen bearbeiten"
+
 msgid "Edouard THULEAU (assistant, french, english)"
 msgstr "Edouard THULEAU (Assistant, französisch, englisch)"
 
@@ -736,6 +862,15 @@ msgstr "Edouard Thuleau (Assistent, französisch, englisch)"
 
 msgid "Elected from and by the group of APC's"
 msgstr "Gewählt aus der und durch die Gruppe der APCs"
+
+msgid ""
+"Employers can update the list of authorized employees by filling out and "
+"signing an `Updated Schedule A Form <https://openstack.echosign.com/public/"
+"hostedForm?formid=56JUVP6K4Z6P4C>`_."
+msgstr ""
+"Arbeitgeber können die Liste der autorisierten Mitarbeiter ausfüllen und "
+"das`aktualisierte Formular  <https://openstack.echosign.com/public/"
+"hostedForm?formid=56JUVP6K4Z6P4C>`_ unterschreiben."
 
 msgid "Endorsed by the Foundation"
 msgstr "Von der Foundation empfohlen"
@@ -768,6 +903,9 @@ msgstr "Etherpads"
 
 msgid "Every cycle includes"
 msgstr "Jeder Zyklus enthält"
+
+msgid "Example:"
+msgstr "Beispiel:"
 
 msgid "Exercise"
 msgstr "Übung"
@@ -882,6 +1020,9 @@ msgstr "02.-03.02.2015 (Mo-Di)"
 msgid "Figure out who's behind it"
 msgstr "Herausfinden wer dahinter steckt."
 
+msgid "Filing, fixing, and triaging bugs"
+msgstr "Eingeben, beseitigen und vorqualifizieren von Bugs"
+
 msgid ""
 "Fill in your email address, name, password, and accepting the terms of "
 "services."
@@ -946,6 +1087,13 @@ msgstr "Dokumentation reparieren"
 msgid "Focus on what we want to do for the next one"
 msgstr "Auf den nächsten Schritt konzentrieren"
 
+msgid ""
+"Following and participating in project related mail threads in the mailing "
+"list"
+msgstr ""
+"Folgen und teilnehmen an projektbezogenen Maildiskussionen auf dem "
+"Mailinglisten"
+
 msgid "For Fedora 22 or later open a terminal and type::"
 msgstr "Für Fedora 22 oder später öffnen Sie ein Terminal und tippen::"
 
@@ -1006,6 +1154,9 @@ msgstr "Vier Sprints von je 30 Minuten:"
 msgid "François Bureau (assistant, french, english)"
 msgstr "François Bureau (Assistent, französisch, englisch)"
 
+msgid "Freeze dates depend on the type of activity"
+msgstr "Fristen hängen von der Art der Aktivität ab"
+
 msgid ""
 "From here on out when you sign into Gerrit, you'll be prompted to enter your "
 "your Launchpad login info. This is because Gerrit uses it as an OpenID "
@@ -1031,6 +1182,9 @@ msgstr "Functional"
 msgid "Further details are in a later session"
 msgstr "Mehr Details in einer späteren Sitzung"
 
+msgid "Further supporting companies and organizations"
+msgstr "Weitere unterstützende Firmen und Organisationen"
+
 msgid "GIT commit message structure"
 msgstr "GIT Commit-Nachricht-Sruktur"
 
@@ -1045,6 +1199,12 @@ msgstr "Hat im Allgemeinen Informationen darüber, wer PTL und Cores sind"
 
 msgid "Generate SSH Keys"
 msgstr "Erzeuge SSH Schlüssel"
+
+msgid "Gergely Csatári – Nokia"
+msgstr "Gergely Csatári – Nokia"
+
+msgid "Gerrit (openstack-dev/sandbox repository)"
+msgstr "Gerrit (openstack-dev/sandbox repository)"
 
 msgid ""
 "Gerrit Documentation: `Gerrit Code Review - A Quick Introduction <https://"
@@ -1072,11 +1232,20 @@ msgstr "Erhalten Marketing von der OpenStack Foundation"
 msgid "Get to know the code"
 msgstr "Kennenlernen des Codes"
 
+msgid "Getting to Know Your Project"
+msgstr "Lernen Sie Ihr Projekt kennen"
+
+msgid "Ghanshyam Mann – NEC"
+msgstr "Ghanshyam Mann – NEC"
+
 msgid "Git"
 msgstr "Git"
 
 msgid "Git Review"
 msgstr "Git Review"
+
+msgid "Global Events and Releases"
+msgstr "Globale Veranstaltungen und Releases"
 
 msgid ""
 "Go to `Gerrit's SSH Public Keys settings <https://review.openstack.org/#/"
@@ -1181,8 +1350,17 @@ msgstr "Wie Projekte released werden"
 msgid "How to contribute"
 msgstr "Wie beitragen"
 
+msgid "How to deploy OpenStack"
+msgstr "wie man OpenStack ausrollt"
+
 msgid "How to prepare"
 msgstr "Wie sich vorbereiten"
+
+msgid "How to prepare for different exams"
+msgstr "wie man sich auf andere Prüfungen vorbereitet"
+
+msgid "How to use OpenStack"
+msgstr "wie man OpenStack verwendet"
 
 msgid "Hypervisor Tuning Guide"
 msgstr "Hypervisor Tuning Guide"
@@ -1219,6 +1397,9 @@ msgstr ""
 "Wenn Dokumentation beigesteuert wird, in der Lage sein, Dokumente in der "
 "gegebenen Infrastruktur zu liefern."
 
+msgid "If you are contributing on behalf of a company or organization."
+msgstr "Wenn Sie im Namen einer Firma oder Organisation mitarbeiten."
+
 msgid ""
 "If you do not register your contact information, you cannot upload your any "
 "changes to Gerrit."
@@ -1251,6 +1432,10 @@ msgstr ""
 msgid "If you feel the community needs consensus, call a midcycle!"
 msgstr "Wenn die Gemeinschaft einen Konsens brauch, rufe einen Midcycle aus!"
 
+msgid "If you get a notice that the nick name is already taken"
+msgstr ""
+"Falls Sie eine Nachricht erhalten, dass der Spitzname bereits belegt ist"
+
 msgid ""
 "If you use the package manager `Homebrew <http://brew.sh>`_, open a terminal "
 "and type::"
@@ -1270,6 +1455,9 @@ msgstr "Ildiko Vancsa - ildikov - Telemetry (Mentoring, Assistent)"
 
 msgid "Ildiko Vancsa, Kendall Nelson, Mark Korondi, and Marton Kiss"
 msgstr "Ildiko Vancsa, Kendall Nelson, Mark Korondi und Marton Kiss"
+
+msgid "Ildikó Váncsa – The OpenStack Foundation"
+msgstr "Ildikó Váncsa – The OpenStack Foundation"
 
 msgid ""
 "Image and instructions: https://github.com/kmARC/openstack-training-virtual-"
@@ -1315,6 +1503,9 @@ msgstr "In Arbeit"
 msgid "In a terminal type::"
 msgstr "In einem Terminal, tippen Sie: "
 
+msgid "In the **Password** field type your password."
+msgstr "Geben Sie Ihr Passwort im **Password** Feld ein."
+
 msgid "In this example, we use Lego to represent a software project"
 msgstr ""
 "In diesem Beispiel benutzen wir Lego zur Präsentierung eines Softwareprojekts"
@@ -1325,11 +1516,17 @@ msgstr "Inkompatible Änderungen an Konfigurationsdateien"
 msgid "Incomplete"
 msgstr "Unvollständig"
 
+msgid "Independent release model"
+msgstr "Unabhängiges Releasemodell"
+
 msgid "Individual Contributor License Agreement"
 msgstr "Lizenzvereinbarung für Individuelle Beiträger"
 
 msgid "Individual Contributors"
 msgstr "Individuelle Beiträger"
+
+msgid "Individual Foundation members"
+msgstr "Individuelle Stiftungsmitglieder"
 
 msgid "Individual members: all of us"
 msgstr "Einzelmitglieder: alle von uns"
@@ -1361,17 +1558,32 @@ msgstr "Institutionelle Mitglieder: Platin- und Gold-Sponsoren"
 msgid "Integration"
 msgstr "Integration"
 
+msgid "Interacting with the Project"
+msgstr "Interaktion mit dem Projekt"
+
+msgid "Interactive, hands-on class"
+msgstr "interaktiv, praktisch in der Gruppe"
+
 msgid "Introduction"
 msgstr "Vorstellung"
 
 msgid "Invalid"
 msgstr "ungültig"
 
+msgid "Invite peer as Reviewer"
+msgstr "Kollege als Reviewer einladen"
+
 msgid "Irena Berezovsky (assistant, mentor, english)"
 msgstr "Irena Berezovsky (Assistent, Mentor, englisch)"
 
 msgid "It depends on each project how to organize the work at each cycle"
 msgstr "Es hängt vom Projekt ab, wie die Arbeit im Zyklus organisiert wird"
+
+msgid "It is about"
+msgstr "Es geht um"
+
+msgid "It is not about"
+msgstr "Es geht nicht um"
 
 msgid "It is the projects decision to follow the OpenStack release"
 msgstr "Es ist die Entscheidung des Projekts, dem OpenStack Release zu folgen"
@@ -1380,11 +1592,17 @@ msgid "Japan OpenStack User Group has held the Upstream Training in Japan."
 msgstr ""
 "Japan OpenStack User Group hat das Upstream Training in Japan abgehalten."
 
+msgid "Jay Bryant – IBM"
+msgstr "Jay Bryant – IBM"
+
 msgid "Jenkins"
 msgstr "Jenkins"
 
 msgid "Jieun Kim (assistant)"
 msgstr "Jieun Kim (Assistent)"
+
+msgid "Jirayut Nimsaeng- Kaidee"
+msgstr "Jirayut Nimsaeng- Kaidee"
 
 msgid ""
 "Join the channel of the project(s) you are interested in and find the logs "
@@ -1392,6 +1610,12 @@ msgid ""
 msgstr ""
 "Treten Sie dem Kanal des Projekts, an dem Sie interessiert sind, bei und "
 "finden Sie die Logs des aktuellsten Meetings."
+
+msgid "Join the openstack-dev mailing list"
+msgstr "Der openstack-dev Mailingliste beitreten"
+
+msgid "Join the project's IRC channel"
+msgstr "Dem Projekt-IRC-Kanal beitreten"
 
 msgid "Julie Pichon (training, mentoring, assistant, english)"
 msgstr "Julie Pichon (Training, Mentoring, Assistent, englisch)"
@@ -1411,6 +1635,12 @@ msgstr "Junsik Shin (Assistent, Mentoring)"
 msgid "KATO Tomoyuki (assistant, Japanese)"
 msgstr "KATO Tomoyuki (Assistent, Japanisch)"
 
+msgid "Kato Tomoyuki- Fujitsu"
+msgstr "Kato Tomoyuki- Fujitsu"
+
+msgid "Kendall Nelson – The OpenStack Foundation"
+msgstr "Kendall Nelson – The OpenStack Foundation"
+
 msgid "LOG message exercise"
 msgstr "Lognachricht-Übung"
 
@@ -1423,6 +1653,9 @@ msgstr "Lana Brindley - Docs (Mentoring, Assistent)"
 msgid "Last published release candidate"
 msgstr "Letzter veröffentlichter Versionskandidat"
 
+msgid "Launchpad (openstack-dev-sandbox)"
+msgstr "Launchpad (openstack-dev-sandbox)"
+
 msgid ""
 "Launchpad is how the OpenStack community does tracking for things like bug "
 "reports. This account is also how we will identify ourselves in OpenStack's "
@@ -1430,6 +1663,12 @@ msgid ""
 msgstr ""
 "In Launchpad verfolgt die OpenStack Gemeinschaft Dinge wie Fehlerreports. "
 "Mit dem Account kann man sich auch am OpenStack Code Review System anmelden."
+
+msgid "Learn about the community"
+msgstr "lernen über die Gemeinschaft"
+
+msgid "Learn how to participate in OpenStack"
+msgstr "lernen, wie man in OpenStack mitarbeitet"
 
 msgid "Learn what distinguishes good work flow from bad work flow"
 msgstr ""
@@ -1474,6 +1713,9 @@ msgstr "Hör zu wenn Leute etwas sagen"
 msgid "Local Upstream Trainings"
 msgstr "Lokale Upstream Trainings"
 
+msgid "Local branch creation"
+msgstr "Erstellen eines lokalen Branches"
+
 msgid "Logs of meetings are archived so that they can be referenced later on"
 msgstr ""
 "Logs der Meetings werden archiviert und können später referenziert werden"
@@ -1485,6 +1727,19 @@ msgid "Loic Dachary (training, mentoring, assistant, french, english) - lead"
 msgstr ""
 "Loic Dachary (Training, Mentoring, Assistent, französisch, englisch) - "
 "Leitung"
+
+msgid "Look at open reviews"
+msgstr "Offene Reviews ansehen"
+
+msgid "Look up the location and dates of the first PTG"
+msgstr "Nachsehen von Ort und Datum des ersten PTG"
+
+msgid ""
+"Look up the release schedule for the current and past two OpenStack release "
+"cycles"
+msgstr ""
+"Nachsehen der Release-Planung des aktuellen so wie der vergangenen zwei "
+"Releasezyklen"
 
 msgid "Low"
 msgstr "Niedrig"
@@ -1507,6 +1762,12 @@ msgstr "Mailinglisten (ML)"
 
 msgid "Main activities"
 msgstr "Hauptaktivitäten"
+
+msgid "Make a new branch in your local repository"
+msgstr "Erstellen Sie einen neuen Branch in Ihrem lokalen Repository"
+
+msgid "Make code changes"
+msgstr "Codeänderungen vornehmen"
 
 msgid "Make code contributions."
 msgstr "Erstellen von Code-Beiträgen"
@@ -1549,8 +1810,17 @@ msgstr "Karma maximieren."
 msgid "Medium"
 msgstr "Mittel"
 
+msgid "Meet any policies that the TC requires from all projects"
+msgstr "Erfüllen aller Richtlinien, die der TC von allen Projekten verlangt"
+
 msgid "Meeting channels (#openstack-meeting, #openstack-meeting-cp, etc.)"
 msgstr "Meeting-Kanäle (#openstack-meeting, #openstack-meeting-cp, etc.)"
+
+msgid "Melvin Hillsman – OSIC"
+msgstr "Melvin Hillsman – OSIC"
+
+msgid "Merged!"
+msgstr "Merged!"
 
 msgid "Metrics"
 msgstr "Metrisch"
@@ -1563,6 +1833,9 @@ msgstr "Meilensein: der Meilenstein in dem der Fehler behoben ist"
 
 msgid "Milestones"
 msgstr "Meilensteine"
+
+msgid "Milestones are tagged in the repository using b1, b2 and b3"
+msgstr "Meilensteine werden im Repository mit b1, b2 und b3 markiert"
 
 msgid "Mission"
 msgstr "Mission"
@@ -1609,12 +1882,23 @@ msgstr "Mehr als 20.000 Patches"
 msgid "More than 40 different ML's"
 msgstr "Mehr als 40 verschiedene MLs"
 
+msgid "More user focused discussion to collect feedback for developers"
+msgstr ""
+"Mehr auf den Benutzer bezogene Diskussion um Feedback für Entwickler zu "
+"sammeln"
+
 msgid "Most of the projects now manage blueprints on a git repo called specs"
 msgstr ""
 "Die meisten Projekte verwalten Blueprints in einem Git-Repo namens specs"
 
 msgid "Most recent (\"Mitaka\") release stats:"
 msgstr "Mehr Statustiken zum (\"Mitaka\")-Release:"
+
+msgid "Márk Korondi – IBM Research Zürich"
+msgstr "Márk Korondi – IBM Research Zürich"
+
+msgid "Márton Kiss – Aptira"
+msgstr "Márton Kiss – Aptira"
 
 msgid "Namgon Lucas Kim (assistant, mentoring)"
 msgstr "Namgon Lucas Kim (Assistent, Mentoring)"
@@ -1637,6 +1921,13 @@ msgstr "Neue versionskritische Fehler"
 msgid "No agreement"
 msgstr "Keine Vereinbarung"
 
+msgid ""
+"No master list of etherpads - harder to find what you are looking for "
+"without having looked at it before or without asking for the URL"
+msgstr ""
+"Keine Übersicht aller Etherpads - macht es schwieriger das Gewünschte zu "
+"finden ohne nach der URL zu fragen"
+
 msgid "No mics."
 msgstr "Keine Mikrofone."
 
@@ -1649,6 +1940,9 @@ msgid ""
 msgstr ""
 "Gemeinnützige Stiftung gegründet zum \"Entwickeln, Unterstützen, Beschützen, "
 "und Bewerben\" von OpenStack"
+
+msgid "Not a classic conference with presenter and audience"
+msgstr "Keine klassische Konferenz mit Präsentator und Publikum"
 
 msgid "Not good as an entry point"
 msgstr "Kein guter Einstiegspunkt"
@@ -1743,6 +2037,9 @@ msgstr "Offene Entwicklung"
 msgid "Open Source"
 msgstr "Offene Quellen"
 
+msgid "Open collaboration"
+msgstr "offene Zusammenarbeit"
+
 msgid "Open discussions, chairs organized in concentric rings"
 msgstr "Offene Diskussionen, Stühle in konzentrischen Ringen organisiert"
 
@@ -1791,6 +2088,9 @@ msgstr "OpenStack Upstream Training Archiv"
 msgid "OpenStack Upstream Training Details"
 msgstr "OpenStack Upstream Training Details"
 
+msgid "OpenStack Upstream Training Introductions"
+msgstr "OpenStack Upstream Training Einführung"
+
 msgid ""
 "OpenStack Upstream Training in Barcelona has ended. The next session of the "
 "OpenStack Upstream Training will be held in Boston, just before the "
@@ -1803,6 +2103,9 @@ msgstr ""
 
 msgid "Openness"
 msgstr "Offenheit"
+
+msgid "Operations and Architecture Design guides"
+msgstr "Betriebs- und Architektur-Designanleitungen"
 
 msgid "Opinion"
 msgstr "Meinung"
@@ -1832,6 +2135,10 @@ msgstr "Andere: https://wiki.openstack.org/wiki/Meetings"
 msgid "Outline and online slide index"
 msgstr "Gliederung und Online-Inhaltsverzeichnis"
 
+msgid "Overall feature freeze is the third milestone"
+msgstr ""
+"Allgemeine Sperrfrist für neue Funktionen beginnt mit dem dritten Meilenstein"
+
 msgid "Oversight over the OpenStack projects"
 msgstr "Aufsicht der OpenStack Projekte"
 
@@ -1847,11 +2154,17 @@ msgstr "PTL : 1"
 msgid "PTLs"
 msgstr "PTLs"
 
+msgid "Part of the OpenStack project's functional testing"
+msgstr "Teil des funktionalen Testings von OpenStack"
+
 msgid ""
 "Paste the public key into the **Add SSH Public Key** text box and click Add."
 msgstr ""
 "Fügen Sie den öffentlichen Schlüssel in die **Add SSH Public Key** Textbox "
 "ein und klicken Sie \"Add\"."
+
+msgid "Patrick East – PureStorage"
+msgstr "Patrick East – PureStorage"
 
 msgid "People sitting in the inner circle lead the discussion"
 msgstr "Personen im inneren Kreis leiten die Diskussion"
@@ -1861,6 +2174,9 @@ msgstr "Pro Projektmarke"
 
 msgid "Perform the smaller tasks"
 msgstr "kleine Aufgaben durchführen"
+
+msgid "Picking Your Project"
+msgstr "Wählen Sie Ihr Projekt"
 
 msgid "Planning - Design"
 msgstr "Planung - Design"
@@ -1928,11 +2244,20 @@ msgstr ""
 "Stellt transparente und sinnvolle Statistiken über Beiträge zu OpenStack "
 "selber und Projekten in Beziehung zu OpenStack dar."
 
+msgid "Publish comment"
+msgstr "Kommentar veröffentlichen"
+
+msgid "Publish comment reply"
+msgstr "Kommentarantwort veröffentlichen"
+
 msgid "Published collectively as the OpenStack release"
 msgstr "Gemeinsam veröffentlicht als OpenStack-Version"
 
 msgid "Push code to Gerrit for review"
 msgstr "Pushen des Codes nach Gerrit zur Review"
+
+msgid "Push upstream for review"
+msgstr "Upstream-Review anstoßen"
 
 msgid "Quality"
 msgstr "Qualität"
@@ -1956,6 +2281,9 @@ msgid ""
 msgstr ""
 "Lesen Sie sich die Nutzungsbedingungen durch und den  `Community Code of "
 "Conduct <https://www.openstack.org/legal/community-code-of-conduct/>`_."
+
+msgid "Reading review invitation"
+msgstr "Review-Einladung lesen"
 
 msgid "Recheck bug #XXX"
 msgstr "Recheck bug #XXX"
@@ -1989,6 +2317,13 @@ msgstr "Versionskandidat 1"
 
 msgid "Release day"
 msgstr "Versionstag"
+
+msgid ""
+"Release management description: http://docs.openstack.org/project-team-guide/"
+"release-management.html"
+msgstr ""
+"Release Management Beschreibung: http://docs.openstack.org/project-team-"
+"guide/release-management.html"
 
 msgid "Release models"
 msgstr "Release Modelle"
@@ -2049,8 +2384,14 @@ msgstr ""
 msgid "Review"
 msgstr "Überprüfung"
 
+msgid "Review again"
+msgstr "wiederholte Review"
+
 msgid "Review in gerrit"
 msgstr "Überprüfen in Gerrit"
+
+msgid "Review invitation letter"
+msgstr "Review-Einladung"
 
 msgid "Review other launchpad bugs and improve yours."
 msgstr "Überprüfen Sie anderer Launchpad-Fehler und verbessern Sie Ihre."
@@ -2060,6 +2401,9 @@ msgstr "einheitlich überprüfen"
 
 msgid "Reviewing"
 msgstr "Überprüfen"
+
+msgid "Reviewing with comment"
+msgstr "Review mit Kommentar"
 
 msgid "Rodolphe Quiedeville (training, mentoring, assistant, french)"
 msgstr "Rodolphe Quiedeville (Training, Mentoring, Assistent, französisch)"
@@ -2079,6 +2423,9 @@ msgstr "Einen Testcase laufen lassen"
 msgid "Run only one test class and not the whole suite"
 msgstr "Nur einen Test laufen lassen und nicht die ganze Suite"
 
+msgid "Run the tests"
+msgstr "Tests laufen lassen"
+
 msgid "SERIES-backport-potential"
 msgstr "SERIES-backport-Potential"
 
@@ -2090,6 +2437,9 @@ msgstr "SSH-Schlüssel werden immer paarweise erzeugt:"
 
 msgid "Sahid Ferdjaoui (assistant, french, english)"
 msgstr "Sahid Ferdjaoui (Assistent, französisch, englisch)"
+
+msgid "Sandbox Status"
+msgstr "Sandbox Status"
 
 msgid "Second day"
 msgstr "Zweiter Tag"
@@ -2108,6 +2458,9 @@ msgstr "Seoul, Korea"
 
 msgid "Service terminals"
 msgstr "Dienst Terminals"
+
+msgid "Set by each project team"
+msgstr "Werden von jedem Projektteam gesetzt"
 
 msgid "Setup Gerrit Account"
 msgstr "Gerrit Konto einrichten"
@@ -2155,6 +2508,9 @@ msgid "Small issue with an easy workaround. Any other insignificant bug"
 msgstr ""
 "Kleiner Fehler mit einfachem Workaround. Jede anderen nichtsignifikanten "
 "Fehler"
+
+msgid "Smaller scale than OpenStack Days Events"
+msgstr "Kleinerer Rahmen als OpenStack Tagesveranstaltungen"
 
 msgid ""
 "Someone of authority needs to sign the `U.S. Government Contributor License "
@@ -2233,6 +2589,9 @@ msgstr "Zur TC Aufsicht übermitteln"
 msgid "Subset of the Foundation Individual Members"
 msgstr "Untergruppe der Foundation Individual Members"
 
+msgid "Successful bug report submission"
+msgstr "Erfolgreiche Anlage Bugreport"
+
 msgid "Successfully contribute one real world patch to an OpenStack component"
 msgstr "Erfolgreicher Beitrag an echten Korrekturen von OpenStack Komponenten"
 
@@ -2274,6 +2633,9 @@ msgstr "Den Puls des Projekts nehmen."
 
 msgid "Talking in IRC Channels & Meetings"
 msgstr "Kommunikation in IRC-Kanälen & Meetings"
+
+msgid "Talking in the IRC channel"
+msgstr "Sprechen im IRC-Kanal"
 
 msgid "Target Audience"
 msgstr "Zielgruppe"
@@ -2363,12 +2725,18 @@ msgstr "Der Fehler wurde vom Original-Fehler reproduziert oder bestätigt"
 msgid "The common syntax: #openstack-<name-of-project>"
 msgstr "Der allgemeine Syntax: #openstack-<name-des-projekts>"
 
+msgid "The deadline for proposing new ideas for a release cycle"
+msgstr "Die Frist zum vorschlagen neuer Ideen zu einem Releasezyklus"
+
 msgid ""
 "The downloaded file should be a dmg in your downloads folder. Open that dmg "
 "file and follow the instructions on screen."
 msgstr ""
 "Die heruntergeladene Datei solle ein \"dmg\" in Ihrem Download-Ordner sein. "
 "Öffnen Sie die dmg-Datei und folgen Sie den Anleitungen auf dem Bildschirm."
+
+msgid "The exact date depends on the projects"
+msgstr "Das genaue Datum hängt von den Projekten ab"
 
 msgid ""
 "The fix is included in the milestone-proposed branch, a past milestone or a "
@@ -2452,6 +2820,9 @@ msgid "This will need to match your preferred email address in Gerrit."
 msgstr ""
 "Dies wird benötigt, um Ihre beforzugte E-Mail-Adresse in Gerrit zu verwenden."
 
+msgid "Three development milestones during a release cycle"
+msgstr "Drei Entwicklungsmeilensteine währen eines Reelasezyklus"
+
 msgid "Tim Freund (assistant, english)"
 msgstr "Tim Freund (Assistent, englisch)"
 
@@ -2463,6 +2834,9 @@ msgstr "Tim Freund (Training, Mentoring, Assistent, englisch)"
 
 msgid "Timing"
 msgstr "Zeitliche Koordinierung"
+
+msgid "To notify working status on the bug to others"
+msgstr "Um den Bearbeitungszustand eines Bugreports an andere zu melden"
 
 msgid "To understand how it all fits together, we use a hands on example"
 msgstr ""
@@ -2529,6 +2903,12 @@ msgstr "Unit"
 msgid "UpgradeImpact"
 msgstr "UpgradeImpact"
 
+msgid "Upload your code as early as possible in the release cycle"
+msgstr "Laden Sie Ihren Code so bald wie möglich im Releasezyklus hoch"
+
+msgid "Uploading to Gerrit"
+msgstr "In Gerrit hochladen"
+
 msgid "Upstream Training in Japan"
 msgstr "Upstream Training in Japan"
 
@@ -2580,6 +2960,9 @@ msgid ""
 "Victoria Martinez de la Cruz - vkmc - Trove/Zaqar (mentoring, assistant)"
 msgstr ""
 "Victoria Martinez de la Cruz - vkmc - Trove/Zaqar (Mentoring, Assistent)"
+
+msgid "Victoria Martinez de la Cruz – Red Hat"
+msgstr "Victoria Martinez de la Cruz – Red Hat"
 
 msgid "Victoria Martínez de la Cruz (assistant, english)"
 msgstr "Victoria Martínez de la Cruz (Assistant, englisch)"
@@ -2754,6 +3137,9 @@ msgid "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 msgstr ""
 "Xavier Antoviaque (Training, Mentoring, Assistent, französisch, englisch)"
 
+msgid "Xing Yang – Dell EMC"
+msgstr "Xing Yang – Dell EMC"
+
 msgid ""
 "You can use `Git Immersion <http://gitimmersion.com/lab_02.html>`_ to work "
 "through tutorials for learning git."
@@ -2773,6 +3159,13 @@ msgstr "Ihr Management"
 
 msgid "Your mission, should you choose to accept it"
 msgstr "Ihre Mission, falls Sie sie annehmen, ist"
+
+msgid ""
+"`\"Big Tent\" and tags <http://governance.openstack.org/reference/new-"
+"projects-requirements.html>`_"
+msgstr ""
+"`\"Big Tent\" und Tags <http://governance.openstack.org/reference/new-"
+"projects-requirements.html>`_"
 
 msgid ""
 "`APC <http://governance.openstack.org/reference/charter.html#voters-for-ptl-"
@@ -2914,6 +3307,11 @@ msgid ""
 msgstr ""
 "`Wie wird ein Projekt erstellt <http://docs.openstack.org/infra/manual/"
 "creators.html>`_"
+
+msgid ""
+"`How_To_Contribute URL <https://wiki.openstack.org/wiki/How_To_Contribute>`_"
+msgstr ""
+"`Wie man mitwirkt URL <https://wiki.openstack.org/wiki/How_To_Contribute>`_"
 
 msgid "`IRC Logs <http://eavesdrop.openstack.org/irclogs/>`_"
 msgstr "`IRC Logs <http://eavesdrop.openstack.org/irclogs/>`_"
@@ -3418,6 +3816,9 @@ msgstr "http://docs.openstack.org/contributor-guide/index.html"
 msgid "http://docs.openstack.org/infra/manual/developers.html#account-setup"
 msgstr "http://docs.openstack.org/infra/manual/developers.html#account-setup"
 
+msgid "http://docs.openstack.org/infra/manual/sandbox.html"
+msgstr "http://docs.openstack.org/infra/manual/sandbox.html"
+
 msgid "http://eavesdrop.openstack.org/"
 msgstr "http://eavesdrop.openstack.org/"
 
@@ -3477,6 +3878,9 @@ msgstr "https://wiki.openstack.org/wiki/BugTags"
 msgid "https://wiki.openstack.org/wiki/GitCommitMessages"
 msgstr "https://wiki.openstack.org/wiki/GitCommitMessages"
 
+msgid "https://wiki.openstack.org/wiki/IRC"
+msgstr "https://wiki.openstack.org/wiki/IRC"
+
 msgid "https://wiki.openstack.org/wiki/Main_Page"
 msgstr "https://wiki.openstack.org/wiki/Main_Page"
 
@@ -3522,8 +3926,14 @@ msgstr "tief hängende Früchte"
 msgid "macJack (assistant, English, Chinese)"
 msgstr "macJack (Assistent, Englisch, Chinesisch)"
 
+msgid "master branch is open for development"
+msgstr "Master Branch ist für Entwicklung geöffnet"
+
 msgid "milestone or release branch"
 msgstr "Meilenstein oder Versions-Branch"
+
+msgid "more like a collaborative brainstorming session"
+msgstr "mehr ein gemeinsames Brainstorming"
 
 msgid "nvie inspired"
 msgstr "nvie inspiriert"
