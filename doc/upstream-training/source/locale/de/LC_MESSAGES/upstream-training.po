@@ -6,12 +6,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-27 08:59+0000\n"
+"POT-Creation-Date: 2016-11-29 10:21+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-11-28 10:56+0000\n"
-"Last-Translator: Robert Simai <robert.simai@suse.com>\n"
+"PO-Revision-Date: 2016-12-01 09:42+0000\n"
+"Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
 "Language-Team: German\n"
 "Language: de\n"
 "X-Generator: Zanata 3.7.3\n"
@@ -201,6 +201,12 @@ msgstr ""
 "Das Ziel ein bedeutender Beiträger zu werden und Deine tollen Fähigkeiten zu "
 "demonstrieren!"
 
+msgid ""
+"Align with the OpenStack Mission and follow the OpenStack way, the four opens"
+msgstr ""
+"Richten Sie sich nach der OpenStack-Mission und folgen Sie den OpenStack-"
+"Weg, die vier \"open\""
+
 msgid "All emails are archived"
 msgstr "Alle E-mails werden archiviert"
 
@@ -320,6 +326,12 @@ msgstr ""
 
 msgid "Benefits of being an Official OpenStack project"
 msgstr "Nutzen eines offiziellen OpenStack Projekts"
+
+msgid ""
+"Better entry point for new contributors finding their place in the community"
+msgstr ""
+"Besserer Einstieg für Mitwirkende, um ihren Platz in der Gemeinschaft zu "
+"finden"
 
 msgid "Big Tent is a code name for the official OpenStack projects"
 msgstr "Big Tent ist ein Codename für die offiziellen OpenStack Projekte"
@@ -659,6 +671,13 @@ msgstr "Kritisch"
 
 msgid "DB schema changes"
 msgstr "DB Schemaänderungen"
+
+msgid ""
+"Dashboard (horizon) and DevStack provide plugin interface for easy "
+"integration"
+msgstr ""
+"Dashboard (horizon) und DevStack stellen Schnittstellen für einfache "
+"Integration zur Verfügung"
 
 msgid "Data corruption / complete failure affecting most users, no workaround"
 msgstr ""
@@ -1320,6 +1339,9 @@ msgstr ""
 "8 Stunden pro Woche Zeit haben für das Projekt, durch Programmierung oder "
 "Interaktion mit der Gemeinschaft."
 
+msgid "Held by local groups to celebrate another year of OpenStack"
+msgstr "Zelebrierung des Jahrestages von OpenStack durch lokale Gruppen"
+
 msgid "High"
 msgstr "Hoch"
 
@@ -1331,6 +1353,9 @@ msgstr "Markieren und kopieren Sie die Ausgabe."
 
 msgid "Hopefully we end up with a unique Lego creation!"
 msgstr "Am Ende haben wir hoffentlich eine einzigartige Lego-Kreation!"
+
+msgid "Hosted annually by local OpenStack User Groups and companies"
+msgstr "Veranstaltungen von OpenStack User Groups und Firmen"
 
 msgid "How OpenStack is Made"
 msgstr "Wie Openstack gemacht ist"
@@ -1588,6 +1613,9 @@ msgstr "Es geht nicht um"
 msgid "It is the projects decision to follow the OpenStack release"
 msgstr "Es ist die Entscheidung des Projekts, dem OpenStack Release zu folgen"
 
+msgid "Its activities are under the oversight of the TC"
+msgstr "Die Aktivitäten stehen unter der Aufsicht des TC"
+
 msgid "Japan OpenStack User Group has held the Upstream Training in Japan."
 msgstr ""
 "Japan OpenStack User Group hat das Upstream Training in Japan abgehalten."
@@ -1731,6 +1759,19 @@ msgstr ""
 msgid "Look at open reviews"
 msgstr "Offene Reviews ansehen"
 
+msgid ""
+"Look through the list of mailing lists and subscribe to at least one that "
+"would be most helpful for you and then locate where the archives for that ML "
+"are."
+msgstr ""
+"Schauen Sie durch die Übersicht der Mailinglisten und melden sich wenigstens "
+"an einer an, die am besten Ihren Zielen entspricht."
+
+msgid ""
+"Look up an OpenStack Days event close to where you live that you would be "
+"interested in attending"
+msgstr "Schauen Sie nach Veranstaltungen \"OpenStack Days\" in Ihrer Nähe"
+
 msgid "Look up the location and dates of the first PTG"
 msgstr "Nachsehen von Ort und Datum des ersten PTG"
 
@@ -1740,6 +1781,13 @@ msgid ""
 msgstr ""
 "Nachsehen der Release-Planung des aktuellen so wie der vergangenen zwei "
 "Releasezyklen"
+
+msgid ""
+"Look up when the next meeting is for the channel you joined and where the "
+"meeting is (#openstack-meeting, #openstack-meeting-3, etc)."
+msgstr ""
+"Schauen Sie nach, wann das nächste Meeting für Ihren Kanal ist und wo es "
+"stattfindet (#openstack-meeting, #openstack-meeting-3, etc)."
 
 msgid "Low"
 msgstr "Niedrig"
@@ -1806,6 +1854,13 @@ msgstr "Meistern Sie die technischen Werkzeuge"
 
 msgid "Maximize karma"
 msgstr "Karma maximieren."
+
+msgid ""
+"Meaningful: anyone may submit a correction that will adjust the influence of "
+"appropriate statistical data"
+msgstr ""
+"Sinnvoll: Jeder kann eine Korrektur vorlegen, die den Einfluss der "
+"entsprechenden statistischen Daten anpasst"
 
 msgid "Medium"
 msgstr "Mittel"
@@ -1894,11 +1949,17 @@ msgstr ""
 msgid "Most recent (\"Mitaka\") release stats:"
 msgstr "Mehr Statustiken zum (\"Mitaka\")-Release:"
 
+msgid "Multi-layer group of leadership"
+msgstr "Mehrschichtige Gruppenführung"
+
 msgid "Márk Korondi – IBM Research Zürich"
 msgstr "Márk Korondi – IBM Research Zürich"
 
 msgid "Márton Kiss – Aptira"
 msgstr "Márton Kiss – Aptira"
+
+msgid "Name, current role, company"
+msgstr "Name, derzeitige Rolle, Firma"
 
 msgid "Namgon Lucas Kim (assistant, mentoring)"
 msgstr "Namgon Lucas Kim (Assistent, Mentoring)"
@@ -1968,6 +2029,14 @@ msgstr "10.-11.10. 2014 (Fr-Sa)"
 
 msgid "Official OpenStack projects"
 msgstr "Offizielle OpenStack Projekte"
+
+msgid ""
+"Official OpenStack projects can participate by offering topics and mentors "
+"for the interns who sign up for this program."
+msgstr ""
+"Offizielle OpenStack-Projekte können teilnehmen, indem sie Themen und "
+"Mentoren für die Praktikanten anbieten, die sich für dieses Programm "
+"anmelden."
 
 msgid ""
 "Once the students are separated into their new roles, and have an "
@@ -2158,6 +2227,16 @@ msgid "Part of the OpenStack project's functional testing"
 msgstr "Teil des funktionalen Testings von OpenStack"
 
 msgid ""
+"Participate in any goals specified by the TC, as defined by OpenStack-wide "
+"Goals"
+msgstr ""
+"Nehmen Sie teil an den von dem TC festgelegten Zielen, sowie OpenStack-weit "
+"definierte Ziele"
+
+msgid "Participates in project related mail threads on the mailing lists"
+msgstr "Teilnahme an projektbezogenen Mail-Threads auf den Mailinglisten"
+
+msgid ""
 "Paste the public key into the **Add SSH Public Key** text box and click Add."
 msgstr ""
 "Fügen Sie den öffentlichen Schlüssel in die **Add SSH Public Key** Textbox "
@@ -2228,6 +2307,12 @@ msgstr "Projektgruppenmitglied (PTLs)"
 
 msgid "Projects APIs are documented within the project"
 msgstr "Projekt-APIs sind im Rahmen des Projekts dokumentiert"
+
+msgid ""
+"Projects are evolving themselves and also sustain for one collaborative "
+"framework, OpenStack"
+msgstr ""
+"Projekte entwickeln sich und entwickeln ein gemeinsames Framework, OpenStack"
 
 msgid "Provide documentation for core OpenStack projects to promote OpenStack."
 msgstr ""
@@ -2513,6 +2598,12 @@ msgid "Smaller scale than OpenStack Days Events"
 msgstr "Kleinerer Rahmen als OpenStack Tagesveranstaltungen"
 
 msgid ""
+"Some are more development focused while others are more user and ops focused"
+msgstr ""
+"Einige sind mehr entwicklungsorientiert, während andere mehr fokussiert sind "
+"an Benutzer oder Operator"
+
+msgid ""
 "Someone of authority needs to sign the `U.S. Government Contributor License "
 "Agreement <https://wiki.openstack.org/wiki/GovernmentCLA>`_. Contact the "
 "`OpenStack Foundation <mailto:communitymngr@openstack.org>`_ to initiate "
@@ -2680,6 +2771,9 @@ msgstr "Test-Suites"
 msgid "Test the code and file bugs"
 msgstr "Testen des Codes und berichten von Fehlern"
 
+msgid "Testable on its own"
+msgstr "Auf eigene Faus testbar"
+
 msgid "Testing"
 msgstr "Testen"
 
@@ -2703,6 +2797,13 @@ msgstr "Die Implementierung muss eine offene Referenzimplementierung haben"
 
 msgid "The OpenStack Community"
 msgstr "Die OpenStack Gemeinschaft"
+
+msgid ""
+"The OpenStack Foundation participates in internship programs as `Outreachy "
+"<https://wiki.openstack.org/wiki/Outreachy>`_."
+msgstr ""
+"Die OpenStack Foundation nimmt an Praktikumsprogrammen teil wie `Outreachy "
+"<https://wiki.openstack.org/wiki/Outreachy>`_."
 
 msgid "The branch containing the fix was merged into master"
 msgstr "Der Branch, der den Fix enthält, wurde in den Master gemerged"
@@ -2744,6 +2845,9 @@ msgid ""
 msgstr ""
 "Der Fix ist in im Meilenstein-vorgeschlagenen Branch enthalten, ein "
 "vorheriger Meilenstein oder eine letzte Veröffentlichung"
+
+msgid "The four opens"
+msgstr "Die vier \"open\""
 
 msgid ""
 "The milestone we need to fix the bug for, or the milestone/version it was "
@@ -2793,6 +2897,14 @@ msgstr ""
 "Gemeinschaft repräsentieren, einschließlich Upstream-Rollen wie Foundation "
 "und TC sowie Mitwirkende wie Unternehmen und unverbundene Individuen, die "
 "von unbekannten Motiven (freie Agenten) belebt werden."
+
+msgid ""
+"This guide provides detailed instructions on the contribution workflow and "
+"conventions to be considered by all documentation contributors."
+msgstr ""
+"Dieses Handbuch enthält detaillierte Anweisungen für den Beitragsablauf und "
+"die Konventionen, die von allen Mitarbeitern zu Dokumentationen zu "
+"berücksichtigen sind."
 
 msgid "This is a valid issue, but it is the way it should be"
 msgstr "Dies ist ein gültiges Problem, aber es ist der Weg, wie es sein sollte"
@@ -2859,6 +2971,13 @@ msgstr "Übersetzungs / i18n Probleme."
 
 msgid "Transparency"
 msgstr "Transparenz"
+
+msgid ""
+"Transparency: the community can have confidence that all calculations are "
+"correct and fair"
+msgstr ""
+"Transparenz: Die Gemeinschaft kann das Vertrauen haben, dass alle "
+"Berechnungen korrekt und fair sind"
 
 msgid "Treat documentation like OpenStack code."
 msgstr "Behandeln Sie Dokumentation wie OpenStack Code."
@@ -3392,6 +3511,13 @@ msgstr ""
 "`Meetings <https://wiki.openstack.org/wiki/"
 "Meetings#Technical_Committee_meeting>`_"
 
+msgid ""
+"`Mentoring <https://wiki.openstack.org/wiki/Mentors>`_ is run by the Women "
+"of OpenStack group, where mentees are guided through the OpenStack processes."
+msgstr ""
+"`Mentoring <https://wiki.openstack.org/wiki/Mentors>`_ läuft in der Women of "
+"OpenStack Gruppe, wo Mentees durch den OpenStack Process geleitet werden."
+
 msgid "`Metrics <workflow-metrics.html>`_"
 msgstr "`Metriken <workflow-metrics.html>`_"
 
@@ -3749,6 +3875,14 @@ msgstr "Entwickler arbeitet an der Behebung"
 
 msgid "documentation"
 msgstr "Dokumentation"
+
+msgid ""
+"ensures basic interoperability with the rest of OpenStack: User-facing API "
+"services should support Keystone for discovery and authentication"
+msgstr ""
+"Stellt die grundlegende Interoperabilität mit dem Rest von OpenStack sicher: "
+"Benutzerbezogene API-Dienste sollten Keystone für Discovery und "
+"Authentifizierung unterstützen"
 
 msgid "etc."
 msgstr "etc."
