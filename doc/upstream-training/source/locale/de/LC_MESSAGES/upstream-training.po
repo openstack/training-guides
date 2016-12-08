@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-05 09:06+0000\n"
+"POT-Creation-Date: 2016-12-06 09:02+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-12-05 11:06+0000\n"
+"PO-Revision-Date: 2016-12-07 02:20+0000\n"
 "Last-Translator: Robert Simai <robert.simai@suse.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -63,8 +63,17 @@ msgstr "*Gemeinsamer Zyklus mit Entwicklungsmeilensteinen*"
 msgid "..."
 msgstr "..."
 
+msgid "13:45 Sagrada Familia"
+msgstr "13:45 Sagrada Familia"
+
+msgid "15:00 Overnight in Ibiza"
+msgstr "15:00 über Nacht nach Ibiza"
+
 msgid "179 countries"
 msgstr "179 Länder"
+
+msgid "19:45 Barcelona FC Game"
+msgstr "19:45 Barcelona FC Game"
 
 msgid "2,336 developers"
 msgstr "2.336 Entwickler"
@@ -119,6 +128,9 @@ msgstr "596 unterstützende Firmen"
 
 msgid "7:00 Day Trip to Madrid"
 msgstr "7:00 Tagestrip nach Madrid"
+
+msgid "7:45 Cava & Winery Tour"
+msgstr "7:45 Cava & Winery Tour"
 
 msgid "A bunch of scripts to build a full OpenStack environment"
 msgstr "Eine Sammlung von Skripten zur Erstellung einer OpenStack-Umgebung"
@@ -372,6 +384,12 @@ msgstr "Schlecht: zwei unabhängige Änderungen"
 msgid "Be collaborative"
 msgstr "kooperativ sein"
 
+msgid "Be communicative"
+msgstr "Kommunikativ sein"
+
+msgid "Be patient"
+msgstr "Geduld haben"
+
 msgid "Be polite, be helpful"
 msgstr "Sei höflich, sei hilfsbereit"
 
@@ -479,6 +497,9 @@ msgstr ""
 "Baue eine Strasse aus Lego. Alle Gebäude müssen mit Strasse und Fussweg "
 "erschlossen sein. Die Stiftung, Technisches Komitee und der Vorstand müssen "
 "das Design der Strasse genehmigen."
+
+msgid "Building Blocks: build as you need"
+msgstr "Bausteine: bauen, wie benötigt"
 
 msgid "Building Karma"
 msgstr "Karma aufbauen"
@@ -754,6 +775,9 @@ msgstr "Kern- und optionale Dienste"
 msgid "Core reviewer"
 msgstr "Kernüberprüfer"
 
+msgid "Core services (Compute, Networking, Block and Object Storage, etc.)"
+msgstr "Core-Dienste (Compute, Netzwerk, Block und Objektspeicher, etc.)"
+
 msgid ""
 "Core services are OpenStack projects and essential in every OpenStack-"
 "powered IaaS cloud or product"
@@ -766,6 +790,10 @@ msgstr "Kernteam"
 
 msgid "Course Outline"
 msgstr "Kursinhalt"
+
+msgid "Create a draft .rst file with an outline for the itinerary."
+msgstr ""
+"Erstellen Sie eine .rst Entwurfsdatei mit einer Beschreibung des Reiseplans."
 
 msgid ""
 "Create a virtual machine on your laptop with Ubuntu 14.04 installed and 6+ "
@@ -818,6 +846,9 @@ msgstr "Datum"
 msgid "Date: February 18, 2016 (Thu)"
 msgstr "Datum: 18.02.2016 "
 
+msgid "Day 1"
+msgstr "Tag 1"
+
 msgid "Day 1: How OpenStack is made"
 msgstr "Tag 1: Wie OpenStack gemacht ist"
 
@@ -826,6 +857,9 @@ msgstr "Tag 1: Einführung"
 
 msgid "Day 1: Learn and practice Git, Gerrit, IRC"
 msgstr "Tag 1: Git, Gerrit, IRC lernen und praktisch anwenden"
+
+msgid "Day 2"
+msgstr "Tag 2"
 
 msgid "Day 2: Individual presentation of the contribution plan"
 msgstr "Tag 2: Individuelle Präsentation des Beitragsplans"
@@ -839,6 +873,12 @@ msgstr "Tag 2: Online-Mentoring"
 msgid "Day 2: The theory of contribution"
 msgstr "Tag 2: Die Theorie des Beitragens"
 
+msgid "Day 3-4"
+msgstr "Tag 3-4"
+
+msgid "Day 5"
+msgstr "Tag 5"
+
 msgid "Deadlines"
 msgstr "Stichtage"
 
@@ -847,6 +887,13 @@ msgstr "Fristen für das Mergen von Code"
 
 msgid "Debugging"
 msgstr "Debugging"
+
+msgid ""
+"Decide a country your group would like to visit with other groups for "
+"sightseeing."
+msgstr ""
+"Entscheiden Sie sich für ein Land, das Ihre Gruppe zusammen mit anderen "
+"Gruppen besichtigen möchte."
 
 msgid "Dedicated and detailed technical discussions"
 msgstr "Dedizierte und detaillierte technische Diskussionen"
@@ -875,6 +922,13 @@ msgstr "Beschreibung"
 
 msgid "Design activity is a continuous effort"
 msgstr "Designaktivität ist ein kontinuierlicher Aufwand"
+
+msgid ""
+"Design an 5-day travel itinerary with attractive places, foods, and "
+"activities."
+msgstr ""
+"Entwerfen Sie einen 5-Tage Reiseplan mit interessanten Orten, Essen und "
+"Aktivitäten."
 
 msgid "Determine the project's social groups"
 msgstr "Soziale Gruppen des Projekts ermitteln."
@@ -1089,6 +1143,9 @@ msgstr "Ereignisse"
 msgid "Every cycle includes"
 msgstr "Jeder Zyklus enthält"
 
+msgid "Example Itinerary: Spain"
+msgstr "Reiseplan Beispiel: Spanien"
+
 msgid "Example of IRC meeting commands:"
 msgstr "Beispiele von IRC-Meeting Kommandos:"
 
@@ -1097,6 +1154,11 @@ msgstr "Beispiel:"
 
 msgid "Exercise"
 msgstr "Übung"
+
+msgid "Exercise - Collect items with your group to the two questions below:"
+msgstr ""
+"Übung - Sammeln Sie zu den zwei unten stehenden Fragen Punkte mit Ihrer "
+"Gruppe:"
 
 msgid "Exercise 1"
 msgstr "Übung 1"
@@ -1975,6 +2037,9 @@ msgstr "Lernen, was ist lokal und was ist Upstream"
 msgid "Learning Git"
 msgstr "Git lernen"
 
+msgid "Learning example with two Sandboxes"
+msgstr "Lernbeispiel mit zwei Sandboxes"
+
 msgid "Lego applied to Free Software contributions"
 msgstr "Lego angewandt zu Freien Software Beiträgen"
 
@@ -2820,6 +2885,18 @@ msgstr "Wiederholen so oft wie nötig"
 msgid "Replacement for Design Summit at future Summits"
 msgstr "Ersatz für den Design Summit in zukünftigen Summits"
 
+msgid "Reply to comments"
+msgstr "Auf Kommentare antworten"
+
+msgid "Report a bug - Details"
+msgstr "Einen Bug berichten - Details"
+
+msgid "Report a bug - Summary"
+msgstr "Einen Bug berichten - Zusammenfassung"
+
+msgid "Reporting a bug on Launchpad"
+msgstr "Einen Bug in Launchpad berichten"
+
 msgid "Repositories"
 msgstr "Repositories"
 
@@ -2921,6 +2998,9 @@ msgstr "SSH-Schlüssel werden immer paarweise erzeugt:"
 msgid "Sahid Ferdjaoui (assistant, french, english)"
 msgstr "Sahid Ferdjaoui (Assistent, französisch, englisch)"
 
+msgid "Sandbox Launchpad"
+msgstr "Sandbox Launchpad"
+
 msgid "Sandbox Status"
 msgstr "Sandbox Status"
 
@@ -2935,6 +3015,9 @@ msgstr "Sicherheitsanleitung"
 
 msgid "SecurityImpact"
 msgstr "SecurityImpact"
+
+msgid "Seeing new comment"
+msgstr "Neue Kommentare wahrnehmen"
 
 msgid "Self-contained"
 msgstr "In sich geschlossen"
@@ -3006,6 +3089,9 @@ msgstr "Kleinerer Rahmen als OpenStack Tagesveranstaltungen"
 
 msgid "Software Development Kits (SDKs)"
 msgstr "Software Development Kits (SDKs)"
+
+msgid "Software package that provides a cloud platform for"
+msgstr "Softwarepaket, dass eine Cloudplattform bietet für"
 
 msgid ""
 "Some are more development focused while others are more user and ops focused"
@@ -3483,6 +3569,9 @@ msgstr "UpgradeImpact"
 msgid "Upload your code as early as possible in the release cycle"
 msgstr "Laden Sie Ihren Code so bald wie möglich im Releasezyklus hoch"
 
+msgid "Uploading a new patchset"
+msgstr "Ein neues Patchset hochladen"
+
 msgid "Uploading to Gerrit"
 msgstr "In Gerrit hochladen"
 
@@ -3542,6 +3631,9 @@ msgstr ""
 msgid "Validate the services are running"
 msgstr "Validieren der laufenden Dienste"
 
+msgid "Various use cases including Enterprise/Telecom/etc."
+msgstr "Verschiedene Anwendungsfälle einschließlich Enterprise/Telekom/etc."
+
 msgid "Vendors may substitute alternate implementations"
 msgstr "Lieferanten wechseln möglicherweise auf alternative Implementierungen"
 
@@ -3561,6 +3653,9 @@ msgstr "Victoria Martinez de la Cruz – Red Hat"
 
 msgid "Victoria Martínez de la Cruz (assistant, english)"
 msgstr "Victoria Martínez de la Cruz (Assistant, englisch)"
+
+msgid "Virtual Infrastructure Manager (VIM) + NFV Infrastructure (NFVI)"
+msgstr "Virtual Infrastructure Manager (VIM) + NFV Infrastructure (NFVI)"
 
 msgid "Virtual Network Functions Manager (VNFM)"
 msgstr "Virtual Network Functions Manager (VNFM)"
@@ -4375,6 +4470,9 @@ msgstr "apt / yum / pip install … git review"
 msgid "ask a core developer or bug supervisor => Status: Triaged"
 msgstr "Einen Kernentwickler oder Bug Supervisor fragen => Status: Ausgewählt"
 
+msgid "bug tracking, blueprints"
+msgstr "Bugtracking, Blueprints"
+
 msgid "carrot by alerting people to the benefits"
 msgstr "Zuckerbrot zur Aufmerksamkeit über die Vorteile"
 
@@ -4465,6 +4563,9 @@ msgstr "wie dies der Firmenagenda dient"
 msgid "how they will engage with the Upstream"
 msgstr "wie sie sich bei Upstream einbringen wollen"
 
+msgid "http://activity.openstack.org"
+msgstr "http://activity.openstack.org"
+
 msgid "http://developer.openstack.org"
 msgstr "http://developer.openstack.org"
 
@@ -4525,14 +4626,23 @@ msgstr "http://webchat.freenode.net/?channels=openstack-101"
 msgid "https://bugs.launchpad.net/openstack-api-site"
 msgstr "https://bugs.launchpad.net/openstack-api-site"
 
+msgid "https://bugs.launchpad.net/openstack-dev-sandbox"
+msgstr "https://bugs.launchpad.net/openstack-dev-sandbox"
+
 msgid "https://bugs.launchpad.net/openstack-manuals"
 msgstr "https://bugs.launchpad.net/openstack-manuals"
 
 msgid "https://etherpad.openstack.org/p/upstream-training-vancouver"
 msgstr "https://etherpad.openstack.org/p/upstream-training-vancouver"
 
+msgid "https://git.openstack.org/cgit/openstack-dev/sandbox"
+msgstr "https://git.openstack.org/cgit/openstack-dev/sandbox"
+
 msgid "https://groups.openstack.org/"
 msgstr "https://groups.openstack.org/"
+
+msgid "https://launchpad.net/openstack-dev-sandbox"
+msgstr "https://launchpad.net/openstack-dev-sandbox"
 
 msgid "https://review.openstack.org/#/settings/ssh-keys"
 msgstr "https://review.openstack.org/#/settings/ssh-keys"
