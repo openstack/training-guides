@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-23 15:19+0000\n"
+"POT-Creation-Date: 2016-12-08 09:17+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-11-22 03:58+0000\n"
+"PO-Revision-Date: 2016-12-09 07:26+0000\n"
 "Last-Translator: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -29,6 +29,9 @@ msgstr "(コメントのドラフトは他者から見えません)"
 
 msgid "(Please also change your commit message if needed.)"
 msgstr "(必要に応じてコミットメッセージも変更してください)"
+
+msgid "**Mentors**"
+msgstr "**メンター**"
 
 msgid "**Private key** - Only known to you and it should be safely guarded."
 msgstr "**秘密鍵** - 自分だけが持っていて、安全に保護すべきです。"
@@ -82,6 +85,9 @@ msgstr "2015 Vancouver, Canada"
 
 msgid "2016 Austin, USA"
 msgstr "2016 Austin, USA"
+
+msgid "2016 Barcelona, Spain"
+msgstr "2016 Barcelona, Spain"
 
 msgid "2016 was 6th birthday of OpenStack"
 msgstr "2016年は OpenStack 6 周年"
@@ -157,6 +163,9 @@ msgstr "トレーニングについて"
 
 msgid "Abstract"
 msgstr "概要"
+
+msgid "Access the terminals the installed services are running in"
+msgstr "インストールしたサービスが動作しているターミナルにアクセスします"
 
 msgid "Account Setup"
 msgstr "アカウントのセットアップ"
@@ -271,11 +280,17 @@ msgstr ""
 "secure.echosign.com/public/hostedForm?formid=56JUVGT95E78X5>`_ に署名する必要"
 "があります。"
 
+msgid "Anne Gentle – Cisco"
+msgstr "Anne Gentle – Cisco"
+
 msgid "Answer questions"
 msgstr "質問へ答える"
 
 msgid "Application Catalog service"
 msgstr "Application Catalog サービス"
+
+msgid "Apply for ATC role"
+msgstr "ATC ロールへの登録"
 
 msgid "Apply for individual membership and sign the CLA"
 msgstr "個人メンバーに登録し、 CLA に署名してください"
@@ -297,6 +312,10 @@ msgstr "これまでの Upstream Training"
 
 msgid "Areas of interest"
 msgstr "興味のある分野"
+
+msgid "Ask a mentor to break the *tested* code of one test case"
+msgstr ""
+"どれかテストコードの「テスト済み」コードを壊すようメンターにお願いします"
 
 msgid "Ask people about their contribution experience"
 msgstr "コントリビューションの経験について聞いてみましょう"
@@ -446,6 +465,9 @@ msgstr "バグのステータス"
 msgid "Bug tags"
 msgstr "バグのタグ"
 
+msgid "Bug triagers"
+msgstr "バグトリアージ者"
+
 msgid ""
 "Bugs that are easy to fix, ideal for beginners to get familiar with the "
 "workflow and to have their first contact with the code in OpenStack "
@@ -543,6 +565,9 @@ msgstr "Chris Ricker (training, mentoring, assistant, english)"
 
 msgid "Christian Berendt - Installation (mentoring, assistant)"
 msgstr "Christian Berendt - Installation (mentoring, assistant)"
+
+msgid "Christian Berendt – B1 Systems GmbH"
+msgstr "Christian Berendt – B1 Systems GmbH"
 
 msgid "Christophe Sauthier (training, assistant, mentoring, french, english)"
 msgstr "Christophe Sauthier (training, assistant, mentoring, french, english)"
@@ -1282,6 +1307,13 @@ msgstr ""
 "ミナルを開き、次のように入力します。"
 
 msgid ""
+"For further commands see the `User's Manual <https://www.gnu.org/software/"
+"screen/manual/screen.html>`_"
+msgstr ""
+"その他のコマンドは `User's Manual <https://www.gnu.org/software/screen/"
+"manual/screen.html>`_ を参照してください。"
+
+msgid ""
 "For more information about the past trainings and the local upstream "
 "trainings, see :doc:`upstream-archives`."
 msgstr ""
@@ -1387,6 +1419,9 @@ msgstr "プロジェクトで推進している事項の議論全般"
 msgid "Generate SSH Keys"
 msgstr "SSH 鍵の生成"
 
+msgid "Gergely Csatári – Nokia"
+msgstr "Gergely Csatári – Nokia"
+
 msgid "Gerrit"
 msgstr "Gerrit"
 
@@ -1416,8 +1451,14 @@ msgstr "コミュニティーメンバーやリーダーから助言をもらえ
 msgid "Get marketing from the OpenStack Foundation"
 msgstr "OpenStack Foundation によるマーケティングが受けられます"
 
+msgid "Get to know the code"
+msgstr "コードをよく知る"
+
 msgid "Getting to Know Your Project"
 msgstr "プロジェクトを知ろう"
+
+msgid "Ghanshyam Mann – NEC"
+msgstr "Ghanshyam Mann – NEC"
 
 msgid "Git"
 msgstr "Git"
@@ -1717,6 +1758,9 @@ msgstr "Ildiko Vancsa - ildikov - Telemetry (mentoring, assistant)"
 msgid "Ildiko Vancsa, Kendall Nelson, Mark Korondi, and Marton Kiss"
 msgstr "Ildiko Vancsa, Kendall Nelson, Mark Korondi, Marton Kiss"
 
+msgid "Ildikó Váncsa – The OpenStack Foundation"
+msgstr "Ildikó Váncsa – The OpenStack Foundation"
+
 msgid "Impact was not assessed yet"
 msgstr "影響がまだ確認されていない"
 
@@ -1829,6 +1873,9 @@ msgstr "互換性のない設定ファイルの変更"
 msgid "Incomplete"
 msgstr "Incomplete"
 
+msgid "Independent release model"
+msgstr "独立リリースモデル"
+
 msgid "Individual Contributor License Agreement"
 msgstr "Individual Contributor License Agreement"
 
@@ -1919,6 +1966,9 @@ msgstr "活動は TC の監督下におかれます"
 msgid "Japan OpenStack User Group has held the Upstream Training in Japan."
 msgstr "日本OpenStackユーザ会は、日本版 Upstream Training を開催してきました。"
 
+msgid "Jay Bryant – IBM"
+msgstr "Jay Bryant – IBM"
+
 msgid "Jenkins"
 msgstr "Jenkins"
 
@@ -1927,6 +1977,9 @@ msgstr "Jenkins やベンダー CI があなたのパッチをレビューしま
 
 msgid "Jieun Kim (assistant)"
 msgstr "Jieun Kim (assistant)"
+
+msgid "Jirayut Nimsaeng- Kaidee"
+msgstr "Jirayut Nimsaeng- Kaidee"
 
 msgid "Join the #openstack-101 channel"
 msgstr "#openstack-101 チャンネルに参加してください"
@@ -1957,6 +2010,15 @@ msgstr "Junsik Shin (assistant, mentoring)"
 
 msgid "KATO Tomoyuki (assistant, Japanese)"
 msgstr "KATO Tomoyuki (assistant, Japanese)"
+
+msgid "Kato Tomoyuki- Fujitsu"
+msgstr "Kato Tomoyuki- Fujitsu"
+
+msgid "Kendall Nelson – The OpenStack Foundation"
+msgstr "Kendall Nelson – The OpenStack Foundation"
+
+msgid "LOG message exercise"
+msgstr "LOG メッセージの演習"
 
 msgid "Lana Brindley (assistant, mentoring, English)"
 msgstr "Lana Brindley (assistant, mentoring, English)"
@@ -2166,6 +2228,9 @@ msgid "Meeting channels (#openstack-meeting, #openstack-meeting-cp, etc.)"
 msgstr ""
 "ミーティングチャンネル (#openstack-meeting, #openstack-meeting-cp など)"
 
+msgid "Melvin Hillsman – OSIC"
+msgstr "Melvin Hillsman – OSIC"
+
 msgid "Mentors/helpers"
 msgstr "メンター/助手"
 
@@ -2253,6 +2318,12 @@ msgstr "最新リリース (\"Mitaka\") の統計:"
 
 msgid "Multi-layer group of leadership"
 msgstr "複数階層のリーダーシップのグループ"
+
+msgid "Márk Korondi – IBM Research Zürich"
+msgstr "Márk Korondi – IBM Research Zürich"
+
+msgid "Márton Kiss – Aptira"
+msgstr "Márton Kiss – Aptira"
 
 msgid "NFV = Network Function Virtualization"
 msgstr "NFV = Network Function Virtualization (ネットワーク機能の仮想化)"
@@ -2542,6 +2613,9 @@ msgstr ""
 "**Add SSH Public Key** テキストボックスに公開鍵をペーストし、 Add をクリック"
 "します。"
 
+msgid "Patrick East – PureStorage"
+msgstr "Patrick East – PureStorage"
+
 msgid "Pay attention to who is an expert in what area"
 msgstr "誰がどの領域が得意なのかを意識しましょう"
 
@@ -2636,6 +2710,9 @@ msgstr "コメントの公開"
 
 msgid "Published collectively as the OpenStack release"
 msgstr "OpenStack リリースとして、まとめて公開される"
+
+msgid "Push code to Gerrit for review"
+msgstr "レビューのためにコードを Gerrit にプッシュします"
 
 msgid "Push upstream for review"
 msgstr "パッチをアップストリームに投稿し、レビューに出します"
@@ -2756,6 +2833,9 @@ msgstr "今後のサミットにおけるデザインサミットの代替"
 msgid "Reply to comments"
 msgstr "コメントに応答します"
 
+msgid "Report a bug - Summary"
+msgstr "バグ報告 - 概要"
+
 msgid "Repositories"
 msgstr "リポジトリー"
 
@@ -2831,6 +2911,9 @@ msgstr "Rossella Sblendido (assistant, Italian, English)"
 
 msgid "Run for elected positions in the OpenStack project."
 msgstr "OpenStack プロジェクトの、選挙が行われるポジションへの立候補"
+
+msgid "Run one test case"
+msgstr "どれかテストケースを実行する"
 
 msgid "Run tests (unit, functional, etc.)"
 msgstr "テストを実行します (ユニットテスト、機能テストなど)"
@@ -2918,6 +3001,9 @@ msgstr "Git のセットアップと学習"
 
 msgid "Shinobu KINJO (mentoring, assistant, japanese)"
 msgstr "Shinobu KINJO (mentoring, assistant, japanese)"
+
+msgid "Should not end with a period"
+msgstr "ピリオドで終わらない"
 
 msgid "Sign In"
 msgstr "サインイン"
@@ -3015,6 +3101,9 @@ msgstr ""
 
 msgid "Staff"
 msgstr "スタッフ"
+
+msgid "Start DevStack in a VM on your laptop or in public cloud"
+msgstr "お使いの端末かパブリッククラウドの VM において DevStack を実行します"
 
 msgid ""
 "Start the timer for building time, and allow everyone to start work. During "
@@ -3136,8 +3225,14 @@ msgstr "Technical Committee (\"TC\")"
 msgid "Technical committee : 1"
 msgstr "技術委員会 (TC) : 1"
 
+msgid "Technical documentation writers"
+msgstr "技術ドキュメント執筆者"
+
 msgid "Technical leadership"
 msgstr "技術的なリーダーシップ"
+
+msgid "Test coverage exercise"
+msgstr "テストカバレージの演習"
 
 msgid "Test suites"
 msgstr "テストコード"
@@ -3213,6 +3308,9 @@ msgid ""
 msgstr ""
 "ダウンロードしたファイルは、ダウンロードフォルダーの dmg ファイルです。その "
 "dmg ファイルを開き、画面の指示に従ってください。"
+
+msgid "The exact date depends on the projects"
+msgstr "厳密な日付はプロジェクトにより異なります"
 
 msgid ""
 "The fix is included in the milestone-proposed branch, a past milestone or a "
@@ -3483,6 +3581,9 @@ msgstr ""
 "建物の種類、単純に許可しないものなどの検討。自分たちが完成した建物に責任を持"
 "つことを理解させるようにします。"
 
+msgid "Use command 'screen -x' to see the running services"
+msgstr "「screen -x」コマンドを使用して、実行中のサービスを参照します"
+
 msgid "Use it for exercises"
 msgstr "このチャンネルを練習に使ってください"
 
@@ -3519,11 +3620,17 @@ msgstr "Linux の 'screen' の利用"
 msgid "Using Sandbox for Practice"
 msgstr "Sandbox を使用した実践"
 
+msgid "Validate the services are running"
+msgstr "実行中のサービスを検証します"
+
 msgid "Various use cases including Enterprise/Telecom/etc."
 msgstr "エンタープライズ/テレコム向けなどさまざまなユースケース"
 
 msgid "Vendors may substitute alternate implementations"
 msgstr "ベンダーは代替実装により置き換える可能性があります"
+
+msgid "Verb in the present tense and object"
+msgstr "動詞の現在形＋目的語"
 
 msgid "Version control"
 msgstr "バージョン管理"
@@ -3532,6 +3639,9 @@ msgid ""
 "Victoria Martinez de la Cruz - vkmc - Trove/Zaqar (mentoring, assistant)"
 msgstr ""
 "Victoria Martinez de la Cruz - vkmc - Trove/Zaqar (mentoring, assistant)"
+
+msgid "Victoria Martinez de la Cruz – Red Hat"
+msgstr "Victoria Martinez de la Cruz – Red Hat"
 
 msgid "Victoria Martínez de la Cruz (assistant, english)"
 msgstr "Victoria Martínez de la Cruz (assistant, english)"
@@ -3772,6 +3882,9 @@ msgstr "Etherpad に書いてください。"
 
 msgid "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 msgstr "Xavier Antoviaque (training, mentoring, assistant, french, english)"
+
+msgid "Xing Yang – Dell EMC"
+msgstr "Xing Yang – Dell EMC"
 
 msgid ""
 "You can use `Git Immersion <http://gitimmersion.com/lab_02.html>`_ to work "
@@ -4272,6 +4385,13 @@ msgid "`Using Sandbox for Practice <workflow-using-sandbox.html>`_"
 msgstr "`Sandbox を使用した実践 <workflow-using-sandbox.html>`_"
 
 msgid ""
+"`What’s new with OpenStack Upstream Training <http://superuser.openstack.org/"
+"articles/openstack-upstream-training-revamp/>`_."
+msgstr ""
+"`What’s new with OpenStack Upstream Training <http://superuser.openstack.org/"
+"articles/openstack-upstream-training-revamp/>`_."
+
+msgid ""
 "``#action`` - Document an action item in the minutes. Include any nicknames "
 "in the line, and the item will be assigned to them. (nicknames are case-"
 "sensitive)"
@@ -4517,6 +4637,9 @@ msgstr "http://docs.openstack.org/contributor-guide/index.html"
 
 msgid "http://docs.openstack.org/infra/manual/developers.html#account-setup"
 msgstr "http://docs.openstack.org/infra/manual/developers.html#account-setup"
+
+msgid "http://docs.openstack.org/infra/manual/sandbox.html"
+msgstr "http://docs.openstack.org/infra/manual/sandbox.html"
 
 msgid "http://docs.openstack.org/upstream-training/workflow-using-sandbox.html"
 msgstr ""
