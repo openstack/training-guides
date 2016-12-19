@@ -3,11 +3,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-23 15:19+0000\n"
+"POT-Creation-Date: 2016-12-09 09:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-11-14 04:15+0000\n"
+"PO-Revision-Date: 2016-12-19 07:37+0000\n"
 "Last-Translator: suhartono <cloudsuhartono@gmail.com>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -53,6 +53,9 @@ msgstr "(Laporan bug nyata membutuhkan deskripsi rinci.)"
 msgid "(Review invitation letter has been sent by e-mail.)"
 msgstr "(Surat undangan pengulasan telah dikirim melalui email.)"
 
+msgid "**Mentors**"
+msgstr "**Mentors**"
+
 msgid "**Private key** - Only known to you and it should be safely guarded."
 msgstr "**Private key** - Hanya diketahui Anda dan itu harus aman dijaga."
 
@@ -62,6 +65,9 @@ msgid ""
 msgstr ""
 "**Public key** - Bisa berbagi secara bebas dengan semua  server SSH dimana "
 "Anda ingin terhubung."
+
+msgid "**Staff**"
+msgstr "**Staff**"
 
 msgid "*Common cycle with development milestones*"
 msgstr "*Common cycle with development milestones*"
@@ -93,6 +99,24 @@ msgstr "2013.2 branch dan tags"
 msgid "2013.2.4 preparation"
 msgstr "2013.2.4 persiapan"
 
+msgid "2014 Atlanta, USA"
+msgstr "2014 Atlanta, USA"
+
+msgid "2014 Paris, France"
+msgstr "2014 Paris, France"
+
+msgid "2015 Tokyo, Japan"
+msgstr "2015 Tokyo, Japan"
+
+msgid "2015 Vancouver, Canada"
+msgstr "2015 Vancouver, Canada"
+
+msgid "2016 Austin, USA"
+msgstr "2016 Austin, USA"
+
+msgid "2016 Barcelona, Spain"
+msgstr "2016 Barcelona, Spain (spanyol)"
+
 msgid "2016 was 6th birthday of OpenStack"
 msgstr "2016 adalah hari ulang tahun ke-6 dari OpenStack"
 
@@ -120,6 +144,15 @@ msgstr "7:00 Hari perjalanan ke Madrid"
 msgid "7:45 Cava & Winery Tour"
 msgstr "7:45 Wisata Cava & Winery"
 
+msgid ""
+"A big thank you to everyone that has made this possible, especially Loic "
+"Dachary, Stefano Maffulli, Tim Freund, Marton Kiss, and Ildikó Váncsa who "
+"lead the trainings."
+msgstr ""
+"Ucapan terima kasih kepada semua orang yang telah membuat ini menjadi "
+"kenyataan, terutama Loic Dachary, Stefano Maffulli, Tim Freund, Marton Cium, "
+"dan Ildiko Váncsa yang memimpin pelatihan."
+
 msgid "A bunch of scripts to build a full OpenStack environment"
 msgstr "Sekelompok script untuk membangun lingkungan OpenStack penuh"
 
@@ -133,6 +166,15 @@ msgstr ""
 msgid "A gathering of projects teams and contributors"
 msgstr "Sebuah pertemuan tim proyek dan kontributor"
 
+msgid ""
+"A message dialog window will come up. Type the following to register your "
+"nick name with nickserv replacing **mysecretpassword** and **test@domain."
+"com** with your own password and email address::"
+msgstr ""
+"Sebuah jendela dialog pesan akan muncul. Ketik berikut untuk mendaftarkan "
+"nama julukan Anda dengan nickserv mengganti **mysecretpassword** dan "
+"**test@domain.com** dengan password dan alamat email Anda sendiri ::"
+
 msgid "A project is aligned with the OpenStack Mission if"
 msgstr "Sebuah proyek sejajar dengan misi OpenStack jika"
 
@@ -141,6 +183,13 @@ msgstr "Sebuah subset tes dipilih oleh Foundation sebagai \"must-pass\""
 
 msgid "A way to coordinate the development of multiple projects"
 msgstr "Sebuah cara untuk mengkoordinasikan pengembangan beberapa proyek"
+
+msgid ""
+"A week before Day 1: choice of a contribution, via email, with each "
+"participant"
+msgstr ""
+"Seminggu sebelum Hari 1: Pilihan kontribusi, melalui email, dengan masing-"
+"masing peserta"
 
 msgid "API"
 msgstr "API"
@@ -175,6 +224,14 @@ msgstr "Active Technical Contributor (ATC) (kontributor teknis aktif)"
 msgid "Actively contributing to one or more OpenStack projects"
 msgstr "Aktif memberikan kontribusi untuk satu atau lebih proyek OpenStack"
 
+msgid "Activities listed here are not realized at every Upstream training."
+msgstr ""
+"Kegiatan yang tercantum di sini tidak memperlihatkan pada setiap pelatihan "
+"Upstream (hulu)."
+
+msgid "Add A New Connection"
+msgstr "Add A New Connection (tambahkan koneksi baru) "
+
 msgid ""
 "Add a few extra LOG.debug() lines to one of the methods of the API call you "
 "chose in the previous exercise"
@@ -206,6 +263,9 @@ msgstr "Ditambahkan sebagai Pengulas"
 
 msgid "Additional services built upon IaaS"
 msgstr "Layanan tambahan dibangun di atas IaaS"
+
+msgid "Adrien Cunin (mentoring, assistant, french, english)"
+msgstr "Adrien Cunin (mentoring, assistant, french, english)"
 
 msgid "After the change is accepted"
 msgstr "Setelah perubahan diterima"
@@ -281,6 +341,9 @@ msgstr ""
 "`Corporate Contributor License Agreement <https://secure.echosign.com/public/"
 "hostedForm?formid=56JUVGT95E78X5>`_."
 
+msgid "Anne Gentle – Cisco"
+msgstr "Anne Gentle – Cisco"
+
 msgid "Answer questions"
 msgstr "Jawab pertanyaan"
 
@@ -303,6 +366,9 @@ msgstr "Appropriate Fixes (perbaikan yang tepat)"
 
 msgid "Archive"
 msgstr "Archive (arsip)"
+
+msgid "Archive of additional training activities"
+msgstr "Arsip kegiatan pelatihan tambahan"
 
 msgid "Archives"
 msgstr "Arsip"
@@ -359,6 +425,9 @@ msgstr "Menghadiri pertemuan rutin"
 msgid "Attends project meetings"
 msgstr "Menghadiri pertemuan proyek"
 
+msgid "Auto-Login On Connecting To Freenode"
+msgstr "Auto-Login On Connecting To Freenode"
+
 msgid "Bad: new feature and refactor"
 msgstr "Buruk: fitur baru dan refactor"
 
@@ -386,6 +455,9 @@ msgstr "Benar untuk peran Anda"
 msgid ""
 "Being OpenStack Core Implementation means passing all \"must-pass\" tests"
 msgstr "Implementasi inti OpenStack berarti melewatkan semua tes \"must-pass\""
+
+msgid "Being able to read and write English at a technical level"
+msgstr "Mampu membaca dan menulis bahasa Inggris di tingkat teknis"
 
 msgid "Benefits of being an Official OpenStack project"
 msgstr "Manfaat menjadi proyek OpenStack resmi"
@@ -568,22 +640,68 @@ msgstr "Memilih peran - kontributor agent bebas"
 msgid "Choosing roles - Upstream"
 msgstr "Memilih peran - Hulu (Upstream)"
 
+msgid "Chris Ricker (training, mentoring, assistant, english)"
+msgstr "Chris Ricker (training, mentoring, assistant, english)"
+
+msgid "Christian Berendt - Installation (mentoring, assistant)"
+msgstr "Christian Berendt - Installation (mentoring, assistant)"
+
+msgid "Christian Berendt – B1 Systems GmbH"
+msgstr "Christian Berendt – B1 Systems GmbH"
+
+msgid "Christophe Sauthier (training, assistant, mentoring, french, english)"
+msgstr "Christophe Sauthier (training, assistant, mentoring, french, english)"
+
+msgid "Cindy Pallares (assistant, english)"
+msgstr "Cindy Pallares (assistant, english)"
+
 msgid "Claiming OpenStack requiring use of designated upstream code"
 msgstr "Mengklaim OpenStack membutuhkan penggunaan kode hulu yang ditunjuk"
 
 msgid "Cleaning up activities are needed"
 msgstr "Pembersihan kegiatan diperlukan"
 
+msgid "Cleber Rosa (mentoring, assistant, portuguese)"
+msgstr "Cleber Rosa (mentoring, assistant, portuguese)"
+
 msgid ""
 "Click 'Reply' and write your message, or just 'Done' for \"Done\" message."
 msgstr ""
 "Klik  'Reply' dan tulis pesan Anda, atau hanya 'Done' untuk pesan 'Done'."
+
+msgid ""
+"Click **Hexchat** from the menu and then click **Network List**. We will see "
+"a familiar first screen of servers listed. Make sure freenode is highlighted "
+"and click **edit**."
+msgstr ""
+"Klik **Hexchat** dari menu dan kemudian klik **Network List**. Kita akan "
+"melihat layar pertama server terdaftar secara familiar. Pastikan freenode "
+"disorot dan klik **edit**."
+
+msgid "Click **cancel**."
+msgstr "Klik **cancel**."
+
+msgid ""
+"Click **disconnect** and click **connect** to retry connecting with the new "
+"nick name."
+msgstr ""
+"Klik **disconnect** dan klik **connect**  untuk mencoba menghubungkan dengan "
+"nama julukan baru."
 
 msgid "Click the 'Add Key' button."
 msgstr "Klik tombol 'Add Key'."
 
 msgid "Click the **I am a new Ubuntu One user**."
 msgstr "Klik **I am a new Ubuntu One user**."
+
+msgid "Click the **edit** button and"
+msgstr "Klik tombol **edit** dan"
+
+msgid "Click the **info** icon."
+msgstr "Klik icon **info**."
+
+msgid "Click the **message user** icon and type::"
+msgstr "Klik ikon **message user** dan ketik ::"
 
 msgid "Clone and be familiar with the code"
 msgstr "Mengkloning dan mengenal kode"
@@ -596,6 +714,9 @@ msgstr "Penutupan latihan"
 
 msgid "Code"
 msgstr "Kode"
+
+msgid "Code Deep Dive"
+msgstr "Code Deep Dive"
 
 msgid "Code deep dive"
 msgstr "Mempelajari lebih dalam tentang kode"
@@ -705,6 +826,26 @@ msgstr "Confirmed"
 msgid "Confirming & prioritizing"
 msgstr "Mengkonfirmasikan & memprioritaskan"
 
+msgid ""
+"Congratulations you're now ready to communicate with the OpenStack community "
+"and have a registered nick name on Freenode! From here on out when you "
+"connect to Freenode with Colloquy you will be identified with your nickname."
+msgstr ""
+"Selamat Anda sekarang siap untuk berkomunikasi dengan masyarakat OpenStack "
+"dan memiliki nama julukan terdaftar di Freenode! Dari sini kemudian  keluar "
+"setelah Anda terhubung ke Freenode dengan Colloquy, Anda akan diidentifikasi "
+"dengan nama julukan Anda."
+
+msgid ""
+"Congratulations you're now ready to communicate with the OpenStack community "
+"and have a registered nick name on Freenode! From here on out when you "
+"connect to Freenode with Hexchat you will be identified with your nickname."
+msgstr ""
+"Selamat Anda sekarang siap untuk berkomunikasi dengan masyarakat OpenStack "
+"dan memiliki nama alias terdaftar di Freenode! Dari sini kemudian  keluar "
+"estelar Anda terhubung ke Freenode dengan Hexchat, Anda akan diidentifikasi "
+"dengan nama julukan Anda."
+
 msgid "Contact Information"
 msgstr "Kontak informasi"
 
@@ -758,6 +899,9 @@ msgstr ""
 
 msgid "Core team"
 msgstr "Core team (tim inti)"
+
+msgid "Course Outline"
+msgstr "Course Outline (garis besar mata pelajaran)"
 
 msgid "Create & push a Work in Progress (WIP) to the sandbox"
 msgstr "Buat & mendorong Work in Progress (WIP) ke sandbox"
@@ -819,11 +963,38 @@ msgstr ""
 "Korupsi data / kegagalan total mempengaruhi sebagian besar pengguna, tidak "
 "ada solusi.  Kegagalan fitur yang penting, tidak ada solusi"
 
+msgid "Date"
+msgstr "Date"
+
+msgid "Date: February 18, 2016 (Thu)"
+msgstr "Date: February 18, 2016 (Thu)"
+
 msgid "Day 1"
 msgstr "Hari 1"
 
+msgid "Day 1: How OpenStack is made"
+msgstr "Hari 1: Bagaimana OpenStack dibuat"
+
+msgid "Day 1: Introduction"
+msgstr "Hari 1: Pendahuluan"
+
+msgid "Day 1: Learn and practice Git, Gerrit, IRC"
+msgstr "Hari 1: Belajar dan berlatih Git, Gerrit, IRC"
+
 msgid "Day 2"
 msgstr "Hari 2"
+
+msgid "Day 2: Individual presentation of the contribution plan"
+msgstr "Hari 2: Presentasi rencana kontribusi secara individu"
+
+msgid "Day 2: Lego contribution simulation"
+msgstr "Hari 2: Simulasi kontribusi Lego"
+
+msgid "Day 2: Online mentoring"
+msgstr "Hari 2: Mentoring online"
+
+msgid "Day 2: The theory of contribution"
+msgstr "Hari 2: Teori kontribusi"
 
 msgid "Day 3-4"
 msgstr "Hari 3-4"
@@ -867,6 +1038,9 @@ msgstr "Menggambarkan siklus rilis berdasarkan informasi yang Anda temukan"
 
 msgid "Describe the output produced by the OpenStack community teams"
 msgstr "Mendeskripsikan keluaran yang dihasilkan oleh tim komunitas OpenStack"
+
+msgid "Description"
+msgstr "Description"
 
 msgid "Design activity is a continuous effort"
 msgstr "Kegiatan perancangan adalah upaya terus menerus"
@@ -966,6 +1140,9 @@ msgstr ""
 "Apakah perusahaan Anda mengiinginkan Anda untuk bekerja pada sesuatu yang "
 "spesifik?"
 
+msgid "Done"
+msgstr "Done (selesai)"
+
 msgid "Draft comment publishment"
 msgstr "Draft komentar yang Diterbitkan"
 
@@ -977,6 +1154,9 @@ msgstr "Rancang komentar inline"
 
 msgid "Drive the program goals"
 msgstr "Mendorong mencapai sasaran program"
+
+msgid "Duration"
+msgstr "Duration (lamanya)"
 
 msgid ""
 "During the SERIES pre-release period, mark the bug as a potential release-"
@@ -1012,6 +1192,18 @@ msgstr "Setiap proyek memiliki tujuan sendiri"
 
 msgid "Ecosystem for collaboration"
 msgstr "Ekosistem untuk kolaborasi"
+
+msgid "Edit Nick Name Settings"
+msgstr "Mengedit pengaturan Nick Name (nama julukan)"
+
+msgid "Edit Server Settings"
+msgstr "Mengedit pengaturan Server"
+
+msgid "Edouard THULEAU (assistant, french, english)"
+msgstr "Edouard THULEAU (assistant, french, english)"
+
+msgid "Edouard Thuleau (assistant, french, english)"
+msgstr "Edouard Thuleau (assistant, french, english)"
 
 msgid "Elected from and by the group of APC's"
 msgstr "Dipilih dari dan oleh kelompok APC"
@@ -1095,6 +1287,32 @@ msgstr "Latihan: Langkah 2"
 msgid "Exercise: Step 3 and more"
 msgstr "Latihan: Langkah 3 dan selanjutnya"
 
+msgid ""
+"Exercise: based on the `Kilo release schedule <https://wiki.openstack.org/"
+"wiki/Kilo_Release_Schedule>`_ find the URL of a document or a patch that "
+"belongs to each of the above steps."
+msgstr ""
+"Latihan: berdasarkan `Kilo release schedule <https://wiki.openstack.org/wiki/"
+"Kilo_Release_Schedule>`_ menemukan URL dari dokumen atau patch yang dimiliki "
+"masing-masing langkah di atas."
+
+msgid ""
+"Exercise: each APC / ATC in the class add a URL to the etherpad proving it"
+msgstr ""
+"Latihan: setiap APC / ATC dalam kelas menambahkan URL ke EtherPad yang "
+"membuktikan itu"
+
+msgid ""
+"Exercise: read `archived <http://eavesdrop.openstack.org/meetings/tc/2014/"
+"tc.2014-04-01-20.03.log.html>`_ and briefly comment on `keystone document "
+"<https://etherpad.openstack.org/p/keystone-incubation-integration-"
+"requirements>`_"
+msgstr ""
+"Latihan: baca `archived <http://eavesdrop.openstack.org/meetings/tc/2014/"
+"tc.2014-04-01-20.03.log.html>`_ and briefly comment on `keystone document "
+"<https://etherpad.openstack.org/p/keystone-incubation-integration-"
+"requirements>`_"
+
 msgid "Exercises"
 msgstr "Latihan"
 
@@ -1110,6 +1328,9 @@ msgstr "Jelaskan apa artinya jika mereka tidak berjalan"
 msgid "Explanation of issue being solved and why it should be fixed"
 msgstr "Penjelasan isu yang sedang dipecahkan dan mengapa itu harus diperbaiki"
 
+msgid "Face-to-face section: 2 days"
+msgstr "Bagian Face-to-face: 2 hari"
+
 msgid ""
 "Failure of a significant feature, with workaround. Failure of a fringe "
 "feature, no workaround"
@@ -1120,11 +1341,21 @@ msgstr ""
 msgid "False errors"
 msgstr "Laporan kesalahan"
 
+msgid ""
+"Faster integration of the companies product roadmap into the OpenStack "
+"release cycle"
+msgstr ""
+"Integrasi roadmap produk perusahaan lebih cepat ke dalam siklus rilis "
+"OpenStack"
+
 msgid "Feature freeze"
 msgstr "Pembekuan fitur"
 
 msgid "Feature proposal freeze"
 msgstr "Pembekuan usulan fitur"
+
+msgid "February 2 - 3, 2015 (Mon - Tue)"
+msgstr "2-3 Februari 2015 (Senin - Selasa)"
 
 msgid "File status working in the repository"
 msgstr "Status file sedang bekerja di repositori"
@@ -1167,6 +1398,9 @@ msgstr ""
 msgid "Find the current members of the Board of Directors, TC and UC"
 msgstr ""
 "Cari anggota Dewan Direktur, Technical Committee dan User Committee saat ini"
+
+msgid "First day"
+msgstr "Hari pertama"
 
 msgid "Fishbowl sessions"
 msgstr "Sesi akuarium"
@@ -1215,6 +1449,30 @@ msgid "For SUSE distributions open a terminal and type::"
 msgstr "Untuk distribusi SUSE buka terminal dan ketik::"
 
 msgid ""
+"For Windows environment, download latest Hexchat installation binary from "
+"`Hexchat download <https://hexchat.github.io/downloads.html>`__ and install "
+"it. You will probably also need extra components shown just under Hexchat."
+msgstr ""
+"For Windows environment, download latest Hexchat installation binary from "
+"`Hexchat download <https://hexchat.github.io/downloads.html>`__ dan "
+"menginstalnya. Anda mungkin akan juga perlu komponen tambahan yang "
+"ditampilkan di bawah Hexchat."
+
+msgid ""
+"For a Linux distributions like Debian, Ubuntu, or Mint open a terminal and "
+"type::"
+msgstr ""
+"Untuk distribusi Linux seperti Debian, Ubuntu, atau Mint buka terminal dan "
+"ketik ::"
+
+msgid ""
+"For a Linux distributions like Redhat, Fedora 21 or earlier, or CentOS open "
+"a terminal and type::"
+msgstr ""
+"Untuk distribusi Linux seperti Redhat, Fedora 21 atau sebelumnya, atau "
+"CentOS buka terminal dan ketik ::"
+
+msgid ""
 "For distributions like Debian, Ubuntu, or Mint open a terminal and type::"
 msgstr ""
 "Untuk distribusi seperti Debian, Ubuntu, atau Mint buka terminal dan ketik::"
@@ -1253,6 +1511,16 @@ msgid "For more information, see :doc:`upstream-details`."
 msgstr "Untuk informasi lebih lanjut, lihat :doc:`upstream-details`."
 
 msgid ""
+"For the **Chat Server Port** type in **6697** and check the **SSL "
+"Connection** box."
+msgstr ""
+"Untuk **Chat Server Port** , ketik **6697** and tandai cek pada kotak **SSL "
+"Connection**."
+
+msgid "For the **Chat server** type in **irc.freenode.net**."
+msgstr "Untuk **Chat server**,  ketik **irc.freenode.net**."
+
+msgid ""
 "For the cores you found earlier, figure out what time zone they are probably "
 "in."
 msgstr ""
@@ -1282,6 +1550,9 @@ msgstr "Empat semangat 30 menit:"
 msgid "Framework"
 msgstr "Kerangka kerja"
 
+msgid "François Bureau (assistant, french, english)"
+msgstr "François Bureau (assistant, french, english)"
+
 msgid "Freenode"
 msgstr "Freenode"
 
@@ -1296,6 +1567,20 @@ msgstr ""
 "Dari sini dapat keluar ketika Anda masuk ke Gerrit, Anda akan diminta untuk "
 "memasukkan info Launchpad login Anda. Hal ini karena Gerrit menggunakannya "
 "sebagai  OpenID single sign on."
+
+msgid ""
+"From the list of **Networks** you should see Freenode. Select that and click "
+"'edit'."
+msgstr ""
+"Dari daftar **Networks**  Anda akan melihat Freenode. Pilih itu dan klik "
+"'edit'."
+
+msgid ""
+"From your downloads folder, drag the Colloquy application icon to your "
+"applications folder to install."
+msgstr ""
+"Dari folder download Anda, seret ikon aplikasi Colloquy ke folder aplikasi "
+"Anda untuk menginstal."
 
 msgid "From your terminal type::"
 msgstr "Dari terminal Anda ketik ::"
@@ -1339,6 +1624,9 @@ msgstr "Generate SSH Keys (membuat kunci SSH)"
 msgid "Generic intention behind planning"
 msgstr "Keinginan generik di belakang perencanaan"
 
+msgid "Gergely Csatári – Nokia"
+msgstr "Gergely Csatári – Nokia"
+
 msgid "Gerrit"
 msgstr "Gerrit"
 
@@ -1363,6 +1651,9 @@ msgstr "Kenali kode"
 
 msgid "Getting to Know Your Project"
 msgstr "Getting to Know Your Project"
+
+msgid "Ghanshyam Mann – NEC"
+msgstr "Ghanshyam Mann – NEC"
 
 msgid "Git"
 msgstr "Git"
@@ -1403,6 +1694,9 @@ msgstr ""
 "Pergilah ke `Gerrit's SSH Public Keys settings <https://review.openstack.org/"
 "#/settings/ssh-keys>`_."
 
+msgid "Go to http://colloquy.info and follow the download link."
+msgstr "Pergi ke http://colloquy.info dan ikuti link download."
+
 msgid ""
 "Go to the Git `download page <https://git-scm.com/downloads>`_ and click "
 "**Mac OS X**."
@@ -1429,6 +1723,13 @@ msgid ""
 msgstr ""
 "Sasaran (http://governance.openstack.org/goals/index.html#release-cycle-"
 "goals)"
+
+msgid ""
+"Going back to your connection window, highlight your freenode connection and "
+"click the **info** icon."
+msgstr ""
+"Kembali ke jendela koneksi Anda, sorot koneksi freenode Anda dan klik ikon "
+"**info**."
 
 msgid "Gold member companies"
 msgstr "Perusahaan anggota Gold"
@@ -1459,6 +1760,9 @@ msgstr "Tumbuh dalam jumlah (26 dalam tahun 2016)"
 msgid "Guide to SetUp and Push First Patch"
 msgstr "Panduan untuk pemasangan dan Push First Patch"
 
+msgid "Haikel Guemar (assistant, mentor, french, english)"
+msgstr "Haikel Guemar (assistant, mentor, french, english)"
+
 msgid "Handles cross-project related topics and issues"
 msgstr "Menangani topik dan isu lintas-proyek yang berhubungan"
 
@@ -1467,6 +1771,13 @@ msgstr "Memiliki tim yang aktif dari satu atau lebih kontributor"
 
 msgid "Have one mentor sit together with each group"
 msgstr "Memiliki satu mentor duduk bersama dengan masing-masing kelompok"
+
+msgid ""
+"Having at least 8 hours a week to dedicate to the project, be it through "
+"programming or through interacting with the community"
+msgstr ""
+"Memiliki minimal 8 jam seminggu untuk mendedikasikan untuk proyek, baik "
+"melalui pemrograman atau melalui berinteraksi dengan masyarakat"
 
 msgid "Held by local groups to celebrate another year of OpenStack"
 msgstr ""
@@ -1498,6 +1809,9 @@ msgstr "Bagaimana OpenStack dibuat"
 
 msgid "How OpenStack is made"
 msgstr "Bagaimana OpenStack dibuat"
+
+msgid "How OpenStack is made (3h including 1h30 exercises)"
+msgstr "Bagaimana OpenStack dibuat (3jam termasuk latihan 1jam 30menit)"
 
 msgid "How does it work?"
 msgstr "Bagaimana cara kerjanya?"
@@ -1541,11 +1855,61 @@ msgstr "IRC Meetings List (daftar rapat IRC)"
 msgid "IRC meetings: http://eavesdrop.openstack.org/"
 msgstr "IRC meetings: http://eavesdrop.openstack.org/"
 
+msgid "Ian Y. Choi (training, assistant, mentoring)"
+msgstr "Ian Y. Choi (training, assistant, mentoring)"
+
 msgid "Identify a target milestone"
 msgstr "Mengidentifikasi tonggak sasaran"
 
 msgid "Identify common characteristics of these cycles"
 msgstr "Mengidentifikasi karakteristik umum dari siklus ini"
+
+msgid ""
+"If all goes well in the second window we should see our our new connection "
+"and our client connected."
+msgstr ""
+"Jika semua berjalan dengan baik di jendela kedua dimana kita harus melihat  "
+"koneksi baru itu, dan klien kita terhubung."
+
+msgid ""
+"If all goes well we should be connected and no pop ups as indicted in the "
+"previous step's Troubleshooting section."
+msgstr ""
+"Jika semua berjalan dengan baik kita harus terhubung dan tidak ada pop up "
+"seperti diindikasikan di bagian Pemecahan Masalah pada langkah sebelumnya."
+
+msgid ""
+"If all goes well we should get a dialog window indicating the connection to "
+"freenode has completed, and what to do next.. For now we'll select "
+"\"Nothing, I'll join a channel later.\""
+msgstr ""
+"Jika semua berjalan dengan baik kita harus mendapatkan jendela dialog yang "
+"menunjukkan koneksi ke freenode telah selesai, dan apa yang harus dilakukan "
+"selanjutnya .. Untuk saat ini kami akan pilih \"Nothing, I'll join a channel "
+"later.\""
+
+msgid ""
+"If all goes well you should receive a message back instantly that the nick "
+"name is registered by you and an activation email will be sent to the email "
+"address you provided."
+msgstr ""
+"Jika semua berjalan dengan baik Anda harus menerima pesan kembali langsung "
+"bahwa nama julukan terdaftar oleh Anda dan email aktivasi akan dikirim ke "
+"alamat email yang Anda berikan."
+
+msgid ""
+"If contributing code, being technically proficient enough to carry out "
+"simple bug fixes in the project"
+msgstr ""
+"Jika akan kontribusi kode, secara teknis cukup mahir untuk melaksanakan "
+"perbaikan bug sederhana dalam proyek"
+
+msgid ""
+"If contributing documentation, being able to produce documents in the "
+"project's chosen infrastructure"
+msgstr ""
+"Jika akan kontribusi dokumentasi, mampu menghasilkan dokumen dalam "
+"infrastruktur yang dipilih proyek"
 
 msgid "If you are contributing on behalf of a company or organization."
 msgstr "Jika Anda berkontribusi atas nama sebuah perusahaan atau organisasi."
@@ -1581,6 +1945,17 @@ msgstr ""
 msgid "If you feel the community needs consensus, call a midcycle!"
 msgstr "Jika Anda merasa kebutuhan masyarakat konsensus, sebut midcycle!"
 
+msgid "If you get a notice that the nick name is already taken"
+msgstr "Jika Anda mendapatkan pemberitahuan bahwa nama julukan sudah diambil"
+
+msgid ""
+"If you get a notice that the nick name is already taken, quit and go back to "
+"the first set of steps to pick a different nickname."
+msgstr ""
+"Jika Anda mendapatkan pemberitahuan bahwa nama julukan sudah diambil, "
+"berhenti dan kembali ke set pertama langkah-langkah itu untuk memilih nama "
+"julukan yang berbeda."
+
 msgid ""
 "If you use the package manager `Homebrew <http://brew.sh>`_, open a terminal "
 "and type::"
@@ -1595,8 +1970,14 @@ msgstr ""
 "Jika kontribusi Anda adalah atas nama perusahaan, silahkan manajer Anda "
 "menandatangani Corporate Contributor License Agreement"
 
+msgid "Ildiko Vancsa - ildikov - Telemetry (mentoring, assistant)"
+msgstr "Ildiko Vancsa - ildikov - Telemetry (mentoring, assistant)"
+
 msgid "Ildiko Vancsa, Kendall Nelson, Mark Korondi, and Marton Kiss"
 msgstr "Ildiko Vancsa, Kendall Nelson, Mark Korondi, and Marton Kiss"
+
+msgid "Ildikó Váncsa – The OpenStack Foundation"
+msgstr "Ildikó Váncsa – The OpenStack Foundation"
 
 msgid ""
 "Image and instructions: https://github.com/kmARC/openstack-training-virtual-"
@@ -1646,6 +2027,22 @@ msgid "In a terminal type::"
 msgstr "Di terminal ketik::"
 
 msgid ""
+"In order to identify ourselves that we own the nick name upon logging in, we "
+"need to tell Colloquy to communicate our password over upon connecting."
+msgstr ""
+"Untuk mengidentifikasi diri kita bahwa kita memiliki nama nick pada login, "
+"kita perlu memberitahu Colloquy untuk berkomunikasi password kita lebih "
+"melalui penghubung."
+
+msgid ""
+"In order to identify ourselves that we own the nick name upon logging in, we "
+"need to tell Hexchat to communicate our password over upon connecting."
+msgstr ""
+"Untuk mengidentifikasi diri kita bahwa kita memiliki nama julukan pada "
+"login, kita perlu memberitahu Hexchat untuk berkomunikasi password kita "
+"melawati perhubungan. "
+
+msgid ""
 "In order to push things to `Gerrit <https://review.openstack.org>`_ we need "
 "to have a way to identify ourselves. We will do this using ssh keys which "
 "allows us to have our machine we're pushing a change from to perform a "
@@ -1660,6 +2057,15 @@ msgstr ""
 "response_authentication>`_ dengan server Gerrit."
 
 msgid ""
+"In order to register we need to send a message to nickserv on freenode, "
+"which is a bot that allows us to register and identify ourselves as the "
+"owner of a nick name."
+msgstr ""
+"Untuk mendaftarkan kita perlu mengirim pesan ke NickServ pada freenode, yang "
+"merupakan bot yang memungkinkan kita untuk mendaftar dan mengidentifikasi "
+"diri sebagai pemilik nama julukan."
+
+msgid ""
 "In summary, we will be generating these keys, and providing the Gerrit "
 "server with your public key. With your system holding the private key, it "
 "will have no problem replying to Gerrit during the challenge-response "
@@ -1669,6 +2075,16 @@ msgstr ""
 "dengan kunci publik Anda. Dengan sistem anda memegang kunci pribadi, itu "
 "tidak akan memiliki masalah membalas Gerrit selama otentikasi challenge-"
 "response"
+
+msgid "In the **Password** field type your password."
+msgstr "Dalam field **Password** ketik sandi Anda."
+
+msgid ""
+"In the **Password** put in the password we picked in the previous step and "
+"click close."
+msgstr ""
+"Dalam **Password*** masukkan ke dalam password dimana kita memilih pada "
+"langkah sebelumnya dan klik close."
 
 msgid "In this example, we use Lego to represent a software project"
 msgstr ""
@@ -1712,6 +2128,9 @@ msgstr "Anggota individu: kita semua"
 msgid "Individuals and interactions over processes and tools"
 msgstr "Individu dan interaksi selama proses dan peralatan"
 
+msgid "Infrastructure"
+msgstr "Infrastruktur"
+
 msgid "Infrastructure as a Service (IaaS)"
 msgstr "Infrastructure as a Service (IaaS)"
 
@@ -1720,6 +2139,9 @@ msgstr "Infrastruktur untuk"
 
 msgid "Inline comments"
 msgstr "Komentar inline"
+
+msgid "Install an IRC Program"
+msgstr "Menginstal Program IRC"
 
 msgid "Install git review"
 msgstr "Instal git review"
@@ -1763,6 +2185,9 @@ msgstr "Invalid"
 msgid "Invite peer as Reviewer"
 msgstr "Undang rekan kerja sebagai Pengulas"
 
+msgid "Irena Berezovsky (assistant, mentor, english)"
+msgstr "Irena Berezovsky (assistant, mentor, english)"
+
 msgid "It depends on each project how to organize the work at each cycle"
 msgstr ""
 "Hal ini tergantung pada setiap proyek bagaimana mengatur pekerjaan pada "
@@ -1780,11 +2205,24 @@ msgstr "Ini adalah keputusan proyek untuk mengikuti rilis OpenStack"
 msgid "Its activities are under the oversight of the TC"
 msgstr "Kegiatannya berada di bawah pengawasan dari Technical Committee"
 
+msgid "Japan OpenStack User Group has held the Upstream Training in Japan."
+msgstr ""
+"Japan OpenStack User Group telah mengadakan Upstream Training di Japan."
+
+msgid "Jay Bryant – IBM"
+msgstr "Jay Bryant – IBM"
+
 msgid "Jenkins"
 msgstr "Jenkins"
 
 msgid "Jenkins and vendor CIs will review your patch"
 msgstr "Jenkins dan vendor CI akan meninjau patch Anda"
+
+msgid "Jieun Kim (assistant)"
+msgstr "Jieun Kim (assistant)"
+
+msgid "Jirayut Nimsaeng- Kaidee"
+msgstr "Jirayut Nimsaeng- Kaidee"
 
 msgid "Join the #openstack-101 channel"
 msgstr "Bergabung dengan # openstack-101 channel"
@@ -1802,11 +2240,41 @@ msgstr "Bergabung dengan openstack-dev mailing list"
 msgid "Join the project's IRC channel"
 msgstr "Bergabung saluran IRC proyek"
 
+msgid "Julie Pichon (training, mentoring, assistant, english)"
+msgstr "Julie Pichon (training, mentoring, assistant, english)"
+
+msgid "July 6 - 7, 2016 (Wed - Thu)"
+msgstr "July 6 - 7, 2016 (Wed - Thu)"
+
+msgid "July 9 - 10, 2015 (Thu - Fri)"
+msgstr "July 9 - 10, 2015 (Thu - Fri)"
+
 msgid "Jump on IRC"
 msgstr "Langsung di IRC"
 
+msgid "Jungsu Han (assistant, mentoring)"
+msgstr "Jungsu Han (assistant, mentoring)"
+
+msgid "Junsik Shin (assistant, mentoring)"
+msgstr "Junsik Shin (assistant, mentoring)"
+
+msgid "KATO Tomoyuki (assistant, Japanese)"
+msgstr "KATO Tomoyuki (assistant, Japanese)"
+
+msgid "Kato Tomoyuki- Fujitsu"
+msgstr "Kato Tomoyuki- Fujitsu"
+
+msgid "Kendall Nelson – The OpenStack Foundation"
+msgstr "Kendall Nelson – The OpenStack Foundation"
+
 msgid "LOG message exercise"
 msgstr "Latihan pesan LOG"
+
+msgid "Lana Brindley (assistant, mentoring, English)"
+msgstr "Lana Brindley (assistant, mentoring, English)"
+
+msgid "Lana Brindley - Docs (mentoring, assistant)"
+msgstr "Lana Brindley - Docs (mentoring, assistant)"
 
 msgid "Last published release candidate"
 msgstr "Kandidat rilis yang dipublikasikan terakhir"
@@ -1847,6 +2315,20 @@ msgstr "Mari kita mulai !!!"
 msgid "Let's play!"
 msgstr "Mari main!"
 
+msgid ""
+"Lets first fill out the **Nick name** and **User name** field with our "
+"choice of a nickname:"
+msgstr ""
+"Mari kita pertama mengisi field **Nick name** dan **User name** dengan "
+"pilihan nama julukan (nickname):"
+
+msgid ""
+"Lets first fill out the **Nickname** and **User name** field with our choice "
+"of a nickname:"
+msgstr ""
+"Mari kita pertama mengisi field **Nickname** dan **User name** dengan "
+"pilihan kami julukan:"
+
 msgid "Life in and around OpenStack"
 msgstr "Hidup di dalam dan sekitar OpenStack"
 
@@ -1870,6 +2352,9 @@ msgstr "Baris terbatas sampai 72 karakter"
 msgid "Linux"
 msgstr "Linux"
 
+msgid "Linux & Windows"
+msgstr "Linux & Windows"
+
 msgid "List of approved tags"
 msgstr "Daftar tag disetujui"
 
@@ -1879,11 +2364,20 @@ msgstr "Daftar sesi"
 msgid "Listen when people talk"
 msgstr "Mendengarkan ketika orang berbicara"
 
+msgid "Local Upstream Trainings"
+msgstr "Local Upstream Trainings"
+
 msgid "Local branch creation"
 msgstr "Penciptaan cabang lokal"
 
 msgid "Logs of meetings are archived so that they can be referenced later on"
 msgstr "Log pertemuan diarsipkan sehingga mereka dapat dirujuk nanti"
+
+msgid "Loic Dachary (training, mentoring, assistant, french, english)"
+msgstr "Loic Dachary (training, mentoring, assistant, french, english)"
+
+msgid "Loic Dachary (training, mentoring, assistant, french, english) - lead"
+msgstr "Loic Dachary (training, mentoring, assistant, french, english) - lead"
 
 msgid "Look at open reviews"
 msgstr "Lihat ulasan terbuka"
@@ -1932,6 +2426,9 @@ msgstr ""
 msgid "Low"
 msgstr "Low"
 
+msgid "Loïc Dachary (Training, mentoring, assistant, english and french)"
+msgstr "Loïc Dachary (Training, mentoring, assistant, english and french)"
+
 msgid "Mac OS"
 msgstr "Mac OS"
 
@@ -1972,6 +2469,11 @@ msgid "Make code contributions."
 msgstr "Membuat kontribusi kode."
 
 msgid ""
+"Make sure that **Use SSL for all the servers on this network** is checked."
+msgstr ""
+"Pastikan **Use SSL for all the servers on this network** ini diperiksa."
+
+msgid ""
 "Make sure to use the same email address you'll want to use for code "
 "contributions since it's important later that these match up."
 msgstr ""
@@ -1996,12 +2498,21 @@ msgstr "Managers (manajer)"
 msgid "Manifesto for Agile Software Development"
 msgstr "Manifesto untuk pengembangan perangkat lunak tangkas"
 
+msgid "Mark Korondi (mentoring, assistant)"
+msgstr "Mark Korondi (mentoring, assistant)"
+
 msgid ""
 "Mark the bug as a potential backport target to a specific SERIES (grizzly, "
 "havana...)"
 msgstr ""
 "Menandai bug sebagai target backport potensial untuk SERIES tertentu "
 "(grizzly, havana ...)"
+
+msgid "Marton Kiss (training, mentoring, assistant)"
+msgstr "Marton Kiss (training, mentoring, assistant)"
+
+msgid "Master the technical tools"
+msgstr "Menguasai alat-alat teknis"
 
 msgid ""
 "Meaningful: anyone may submit a correction that will adjust the influence of "
@@ -2018,6 +2529,9 @@ msgstr "Memenuhi semua kebijakan dimana TC membuatnya dari semua proyek"
 
 msgid "Meeting channels (#openstack-meeting, #openstack-meeting-cp, etc.)"
 msgstr "Meeting channels (#openstack-meeting, #openstack-meeting-cp, etc.)"
+
+msgid "Melvin Hillsman – OSIC"
+msgstr "Melvin Hillsman – OSIC"
 
 msgid "Mentors/helpers"
 msgstr "Mentor / pembantu"
@@ -2064,6 +2578,33 @@ msgstr "Lebih fokus pada pengujian"
 msgid "More information: Governance page"
 msgstr "Informasi lebih lanjut: halaman Governance"
 
+msgid "More information: http://openstackdays.com/archive/2015/feature/"
+msgstr "Informasi lebih lanjut: http://openstackdays.com/archive/2015/feature/"
+
+msgid "More information: http://sdndev.net/10"
+msgstr "More information: http://sdndev.net/10"
+
+msgid ""
+"More information: http://www.meetup.com/Japan-OpenStack-User-Group/"
+"events/223005607/"
+msgstr ""
+"Informasi lebih lanjut: http://www.meetup.com/Japan-OpenStack-User-Group/"
+"events/223005607/"
+
+msgid ""
+"More information: http://www.meetup.com/Japan-OpenStack-User-Group/"
+"events/231744095/"
+msgstr ""
+"More information: http://www.meetup.com/Japan-OpenStack-User-Group/"
+"events/231744095/"
+
+msgid ""
+"More information: http://www.openstack.org/blog/2014/11/openstack-upstream-"
+"training-in-japan/"
+msgstr ""
+"Informasi lebih lanjut: http://www.openstack.org/blog/2014/11/openstack-"
+"upstream-training-in-japan/"
+
 msgid "More than 20 million lines of code"
 msgstr "Lebih dari 20 juta baris kode"
 
@@ -2092,11 +2633,20 @@ msgstr "Terbaru (\"Mitaka\") rilis statistik:"
 msgid "Multi-layer group of leadership"
 msgstr "Kelompok kepemimpinan multi-layer"
 
+msgid "Márk Korondi – IBM Research Zürich"
+msgstr "Márk Korondi – IBM Research Zürich"
+
+msgid "Márton Kiss – Aptira"
+msgstr "Márton Kiss – Aptira"
+
 msgid "NFV = Network Function Virtualization"
 msgstr "NFV = Network Function Virtualization"
 
 msgid "Name, current role, company"
 msgstr "Nama, peran saat ini, perusahaan"
+
+msgid "Namgon Lucas Kim (assistant, mentoring)"
+msgstr "Namgon Lucas Kim (assistant, mentoring)"
 
 msgid "Networking Guide"
 msgstr "Panduan jaringan"
@@ -2151,8 +2701,19 @@ msgstr "Tidak benar-benar bug, tetapi perbaikan yang disarankan"
 msgid "Not suitable to start learning about a topic"
 msgstr "Tidak cocok untuk mulai belajar tentang topik"
 
+msgid "Now open the hexchat program just like you would for any Linux program."
+msgstr ""
+"Sekarang buka program hexchat sama seperti yang Anda lakukan untuk setiap "
+"program Linux."
+
+msgid "Objectives"
+msgstr "Objectives (sasaran)"
+
 msgid "Ocata"
 msgstr "Ocata"
+
+msgid "October 10 - 11, 2014 (Fri - Sat)"
+msgstr "10-11 Oktober 2014 (Jumat - Sabtu)"
 
 msgid "Official OpenStack projects"
 msgstr "Proyek OpenStack resmi"
@@ -2184,6 +2745,12 @@ msgstr ""
 
 msgid "Online Communication"
 msgstr "Komunikasi secara online"
+
+msgid ""
+"Online section: 10 one-hour individual mentoring sessions over a period of 4 "
+"to 10 weeks"
+msgstr ""
+"Bagian Online: 10 one-hour sesi mentoring individu selama 4 sampai 10 minggu"
 
 msgid "Open Community"
 msgstr "Open Community"
@@ -2264,6 +2831,12 @@ msgstr "OpenStack Release Cycle (siklus rilis OpenStack)"
 msgid "OpenStack Upstream Training"
 msgstr "OpenStack Upstream Training (pelatihanOpen Stack Upstream)"
 
+msgid "OpenStack Upstream Training Archives"
+msgstr "OpenStack Upstream Training Archives (arsip pelatihan hulu OpenStack)"
+
+msgid "OpenStack Upstream Training Details"
+msgstr "Rincian OpenStack Upstream Training"
+
 msgid "OpenStack Upstream Training Introductions"
 msgstr "Pengenalan pelatihan hulu OpenStack"
 
@@ -2332,6 +2905,9 @@ msgstr ""
 msgid "Orchestration service"
 msgstr "Layanan Orchestration"
 
+msgid "Other"
+msgstr "Lainnya"
+
 msgid "Other possible content"
 msgstr "Konten lain yang mungkin"
 
@@ -2340,6 +2916,9 @@ msgstr "Kandidat rilis lainnya"
 
 msgid "Others: https://wiki.openstack.org/wiki/Meetings"
 msgstr "Lainnya: https://wiki.openstack.org/wiki/Meetings"
+
+msgid "Outline and online slide index"
+msgstr "Indeks slide secara outline dan online"
 
 msgid "Overall feature freeze is the third milestone"
 msgstr "Secara keseluruhan pembekuan fitur adalah tonggak ketiga"
@@ -2382,6 +2961,9 @@ msgid ""
 "Paste the public key into the **Add SSH Public Key** text box and click Add."
 msgstr ""
 "Tempel kunci publik ke dalam kotak teks **Add SSH Public Key**  dan klik Add."
+
+msgid "Patrick East – PureStorage"
+msgstr "Patrick East – PureStorage"
 
 msgid "Pay attention to who is an expert in what area"
 msgstr "Perhatikan ahli di bidang apa"
@@ -2445,6 +3027,9 @@ msgstr "Siapkan ide Anda untuk publik"
 
 msgid "Prepared virtual machine image with a development environment:"
 msgstr "Image mesin virtual disiapkan dengan lingkungan pengembangan:"
+
+msgid "Prerequisites"
+msgstr "Prasyarat"
 
 msgid "Prioritize bugs / bug triage"
 msgstr "Prioritaskan bug / bug triage"
@@ -2570,6 +3155,9 @@ msgstr "Regional Events (Kegiatan Regional)"
 msgid "Register Contact Information"
 msgstr "Register Contact Information"
 
+msgid "Register Your Nick Name"
+msgstr "Daftar nama julukan Anda"
+
 msgid ""
 "Register a blueprint : https://blueprints.launchpad.net/openstack-dev-sandbox"
 msgstr ""
@@ -2620,6 +3208,9 @@ msgstr "Proses rilis dikelola oleh tim manajemen rilis"
 
 msgid "Relevance metrics"
 msgstr "Metrik relevansi"
+
+msgid "Relevant actors"
+msgstr "Aktor yang relevan"
 
 msgid "Remove the code changes and run the tests"
 msgstr "Keluarkan perubahan kode dan jalankan tes"
@@ -2731,6 +3322,15 @@ msgstr "Merevisi patch asli menurut hasil diskusi."
 msgid "Revising file(s)"
 msgstr "Meninjau file"
 
+msgid "Rodolphe Quiedeville (training, mentoring, assistant, french)"
+msgstr "Rodolphe Quiedeville (training, mentoring, assistant, french)"
+
+msgid "Rohit Agarwalla (assistant)"
+msgstr "Rohit Agarwalla (assistant)"
+
+msgid "Rossella Sblendido (assistant, Italian, English)"
+msgstr "Rossella Sblendido (assistant, Italian, English)"
+
 msgid "Run for elected positions in the OpenStack project."
 msgstr "Jalankan untuk posisi terpilih dalam proyek OpenStack."
 
@@ -2757,6 +3357,9 @@ msgstr "SERIES-rc-potential"
 
 msgid "SSH keys are always generated in pairs:"
 msgstr "Kunci SSH selalu dihasilkan berpasangan:"
+
+msgid "Sahid Ferdjaoui (assistant, french, english)"
+msgstr "Sahid Ferdjaoui (assistant, french, english)"
 
 msgid "Sandbox Launchpad"
 msgstr "Sandbox Launchpad"
@@ -2794,6 +3397,9 @@ msgstr "Melihat skor kajian dengan komentar tertulis"
 msgid "Self-contained"
 msgstr "Serba lengkap"
 
+msgid "Seoul, Korea"
+msgstr "Seoul, Korea"
+
 msgid "Service terminals"
 msgstr "Terminal layanan"
 
@@ -2806,6 +3412,9 @@ msgstr "Setup & First Patch"
 msgid "Setup Gerrit Account"
 msgstr "Setup Gerrit Account"
 
+msgid "Setup IRC"
+msgstr "Pengaturan IRC"
+
 msgid "Setup Launchpad"
 msgstr "Pengaturan Launchpad"
 
@@ -2817,6 +3426,9 @@ msgstr "Setup SSH Keys"
 
 msgid "Setup and Learn GIT"
 msgstr "Penyiapan dan Belajar GIT"
+
+msgid "Shinobu KINJO (mentoring, assistant, japanese)"
+msgstr "Shinobu KINJO (mentoring, assistant, japanese)"
 
 msgid "Should not end with a period"
 msgstr "Sebaiknya tidak diakhiri dengan titik"
@@ -2946,6 +3558,12 @@ msgstr "Status: In progress"
 msgid "Status: New"
 msgstr "Status: New (baru)"
 
+msgid "Stefano Maffulli (training, mentoring, assistant, english)"
+msgstr "Stefano Maffulli (training, mentoring, assistant, english)"
+
+msgid "Stephan Ahn (training, assistant, mentoring)"
+msgstr "Stephan Ahn (training, assistant, mentoring)"
+
 msgid "Strategic and financial oversight"
 msgstr "Pengawasan strategis dan keuangan"
 
@@ -2969,11 +3587,29 @@ msgstr ""
 msgid "Successful bug report submission"
 msgstr "Penyampaian laporan bug sukses"
 
+msgid "Successfully contribute one real world patch to an OpenStack component"
+msgstr "Berhasil menyumbang satu patch dunia nyata untuk komponen OpenStack"
+
 msgid "Succinctly describes patch content"
 msgstr "Ringkas menjelaskan konten Patch"
 
 msgid "Summits"
 msgstr "Pertemuan puncak"
+
+msgid "Sungjin Kang (training, assistant, mentoring)"
+msgstr "Sungjin Kang (training, assistant, mentoring)"
+
+msgid "Swami Redydy (mentoring, assistant)"
+msgstr "Swami Redydy (mentoring, assistant)"
+
+msgid "Syed Armani (training, mentoring, assistant, english)"
+msgstr "Syed Armani (training, mentoring, assistant, english)"
+
+msgid "Sylvain Bauza (assistant, mentoring, training, french, english)"
+msgstr "Sylvain Bauza (assistant, mentoring, training, french, english)"
+
+msgid "System administrators"
+msgstr "Administrator sistem"
 
 msgid "TC seats are elected from and by the group of ATC's"
 msgstr ""
@@ -2986,6 +3622,9 @@ msgstr "Tag dapat diajukan oleh siapa pun"
 msgid "Tags describing OpenStack Projects"
 msgstr "Tags menggambarkan proyek OpenStack"
 
+msgid "Takashi Torii (assistant, japanese)"
+msgstr "Takashi Torii (assistant, japanese)"
+
 msgid "Take a step back"
 msgstr "Mengambil langkah mundur"
 
@@ -2994,6 +3633,9 @@ msgstr "Berbicara di IRC Channels & Meetings"
 
 msgid "Talking in the IRC channel"
 msgstr "Berbicara dalam saluran IRC"
+
+msgid "Target Audience"
+msgstr "Target Audience (khalayak target)"
 
 msgid "Team diversity"
 msgstr "Keragaman tim"
@@ -3171,6 +3813,13 @@ msgstr ""
 "Tim mendapatkan ruang pada OpenStack Summits dan Project Team Gathering (PTG)"
 
 msgid ""
+"The trainers have led the training in Barcelona and will lead the next "
+"training in Boston, in English:"
+msgstr ""
+"Para pelatih telah memimpin pelatihan di Barcelona dan akan memimpin "
+"pelatihan berikutnya di Boston, dalam bahasa Inggris:"
+
+msgid ""
 "The training concentrates on the common cycle with the development "
 "milestones as that is what most students will face with. The other types "
 "should be described with examples."
@@ -3227,6 +3876,15 @@ msgstr "Ini menjadi perlu untuk mencocokkan alamat email Anda di Gerrit."
 msgid "Three development milestones during a release cycle"
 msgstr "Tiga tahap perkembangan selama siklus rilis"
 
+msgid "Tim Freund (assistant, english)"
+msgstr "Tim Freund (assistant, english)"
+
+msgid "Tim Freund (training, assistant, english)"
+msgstr "Tim Freund (training, assistant, english)"
+
+msgid "Tim Freund (training, mentoring, assistant, english)"
+msgstr "Tim Freund (training, mentoring, assistant, english)"
+
 msgid "Timing"
 msgstr "Pemilihan waktu"
 
@@ -3253,6 +3911,9 @@ msgid "To understand how it all fits together, we use a hands on example"
 msgstr ""
 "Untuk memahami bagaimana semua itu cocok untuk bersama-sama, kita membantu "
 "dengan contoh"
+
+msgid "Tokyo, Japan"
+msgstr "Tokyo, Japan"
 
 msgid "Tox"
 msgstr "Tox"
@@ -3294,6 +3955,9 @@ msgstr "Triaged"
 msgid "Triggered on every commit"
 msgstr "Dipicu untuk setiap komit"
 
+msgid "Troubleshooting"
+msgstr "Troubleshooting (penyelesaian masalah)"
+
 msgid ""
 "Try to emphasize the synergy of using repository integration with bug "
 "management to students!"
@@ -3309,6 +3973,20 @@ msgstr ""
 "Cobalah untuk menemukan hal-hal untuk membuat komentar bahkan jika mereka "
 "hanya mengajukan pertanyaan dan tidak menunjukkan isu, jangan hanya +1 tiga "
 "patch yang berbeda."
+
+msgid "Type in a different user/nick name as shown in the previous step."
+msgstr ""
+"Ketik nama julukan/pengguna yang berbeda seperti yang ditunjukkan pada "
+"langkah sebelumnya."
+
+msgid ""
+"Type the following to register your nick name with nickserv replacing "
+"**mysecretpassword** and **test@domain.com** with your own password and "
+"email address::"
+msgstr ""
+"Ketik berikut untuk mendaftarkan nama julukan Anda dengan nickserv "
+"menggantikan **mysecretpassword** dan **test@domain.com** dengan password "
+"dan alamat email Anda sendiri ::"
 
 msgid "Types of sessions"
 msgstr "Tipe sesi"
@@ -3329,6 +4007,9 @@ msgstr "Tidak terdefinisi"
 
 msgid "Under individual members, click the **Foundation Member** button."
 msgstr "Di bawah masing-masing anggota, klik tombol **Foundation Member**."
+
+msgid "Understand the OpenStack contribution workflow and social norms"
+msgstr "Memahami alur kerja kontribusi OpenStack dan norma-norma sosial"
 
 msgid "Unit"
 msgstr "Unit (satuan)"
@@ -3353,6 +4034,9 @@ msgstr "Meng-upload sebuah patch yang direvisi dengan komentar"
 
 msgid "Uploading to Gerrit"
 msgstr "Meng-upload ke Gerrit"
+
+msgid "Upstream Training in Japan"
+msgstr "Upstream Training in Japan (pelatihan hulu di Jepang)"
 
 msgid "Upstream is responsible for the finished product."
 msgstr "Hulu bertanggung jawab untuk produk jadi."
@@ -3428,6 +4112,17 @@ msgstr "Kata kerja dalam  present tense dan obyek"
 msgid "Version control"
 msgstr "kontrol versi"
 
+msgid ""
+"Victoria Martinez de la Cruz - vkmc - Trove/Zaqar (mentoring, assistant)"
+msgstr ""
+"Victoria Martinez de la Cruz - vkmc - Trove/Zaqar (mentoring, assistant)"
+
+msgid "Victoria Martinez de la Cruz – Red Hat"
+msgstr "Victoria Martinez de la Cruz – Red Hat"
+
+msgid "Victoria Martínez de la Cruz (assistant, english)"
+msgstr "Victoria Martínez de la Cruz (assistant, english)"
+
 msgid "Virtual Infrastructure Manager (VIM) + NFV Infrastructure (NFVI)"
 msgstr "Virtual Infrastructure Manager (VIM) + NFV Infrastructure (NFVI)"
 
@@ -3498,10 +4193,27 @@ msgstr ""
 "Kita telah melihat di `Setup & First Patch <workflow-setup-and-first-patch."
 "html#8>`__"
 
+msgid ""
+"We held the first OpenStack Upstream Training in Atlanta, before OpenStack "
+"Summit Atlanta 2014. Since Atlanta, we have held the training before every "
+"OpenStack Summit. Besides this \"official\" event, some user groups hold the "
+"local Upstream trainings."
+msgstr ""
+"Kami mengadakan OpenStack Upstream Training yang pertama di Atlanta, sebelum "
+"OpenStack Summit Atlanta 2014. Sejak Atlanta, kami telah mengadakan "
+"pelatihan sebelum setiap OpenStack Summit. Selain itu acara \"official\", "
+"beberapa kelompok pengguna mengadakan pelatihan Upstream lokal."
+
+msgid "We will install an IRC program called Hexchat."
+msgstr "Kami akan menginstal program IRC disebut Hexchat."
+
 msgid "We will take on roles to show how each community member interacts"
 msgstr ""
 "Kami akan mengambil peran untuk menunjukkan bagaimana setiap berinteraksi "
 "anggota masyarakat"
+
+msgid "We'll install an IRC program called Colloquy."
+msgstr "Kami akan menginstal program IRC disebut Colloquy."
 
 msgid ""
 "We've designed a training program to help professional developers negotiate "
@@ -3525,6 +4237,35 @@ msgstr ""
 "teknis proyek dan interaksi sosial. Dalam sesi tindak lanjut, para siswa "
 "mendapatkan keuntungan dari sesi online individu untuk membantu mereka "
 "mengatasi setiap masalah tersisa dimana mereka mungkin milikinya. "
+
+msgid ""
+"We've designed a training program to share knowledge about the different "
+"ways of contributing to OpenStack like providing new features, writing "
+"documentation, participating in working groups, and so forth. The "
+"educational program is built on the principle of open collaboration and will "
+"teach the students how to find information and navigate the intricacies of "
+"the project’s technical tools and social interactions in order to get their "
+"contributions accepted. The live one and a half day class is focusing on "
+"hands-on practice like the students can use a prepared development "
+"environment to learn how to test, prepare and upload new code snippets or "
+"documentation for review. The attendees are also given the opportunity to "
+"join a mentoring program to get further help and guidance on their journey "
+"to become an active and successful member of the OpenStack community."
+msgstr ""
+"Kami telah merancang program pelatihan untuk berbagi pengetahuan tentang "
+"cara-cara yang berbeda berkontribusi untuk OpenStack seperti menyediakan "
+"fitur baru, menulis dokumentasi, berpartisipasi dalam kelompok kerja, dan "
+"sebagainya. Program pendidikan ini dibangun di atas prinsip kolaborasi "
+"terbuka dan akan mengajarkan siswa bagaimana untuk menemukan informasi dan "
+"menavigasi seluk-beluk alat teknis proyek dan interaksi sosial dalam rangka "
+"untuk mendapatkan kontribusi mereka diterima. Kelas langsung satu dan "
+"setengah hari berfokus pada thands-on practice seperti siswa dapat "
+"menggunakan lingkungan pengembangan siap untuk belajar bagaimana untuk "
+"menguji, mempersiapkan dan meng-upload potongan kode baru atau dokumentasi "
+"untuk ulasan. Para peserta juga diberi kesempatan untuk mengikuti program "
+"mentoring untuk mendapatkan bantuan lebih lanjut dan bimbingan dalam "
+"perjalanan mereka untuk menjadi anggota aktif dan sukses dari komunitas "
+"OpenStack."
 
 msgid "What are they?"
 msgstr "Apakah mereka?"
@@ -3570,6 +4311,13 @@ msgstr ""
 "Bila Anda memiliki perubahan dalam repositori proyek OpenStack, Anda dapat "
 "menggunakan sub-perintah ini untuk memiliki perubahan diposting ke `Gerrit "
 "<https://review.openstack.org/>`__ sehingga mereka dapat ditinjau."
+
+msgid ""
+"When you login to the server for the first time with your nickname, its "
+"being used by you, but it's still not registered yet."
+msgstr ""
+"Ketika Anda login ke server untuk pertama kalinya dengan nama julukan Anda, "
+"yang sedang digunakan oleh Anda, tetapi masih belum terdaftar."
 
 msgid ""
 "When you're prompted to \"Enter a file in which to save the key\" press "
@@ -3626,6 +4374,21 @@ msgstr ""
 "secara signifikan memperlambat kecepatan dimana pendatang baru berhasil "
 "mengintegrasikan roadmap mereka sendiri ke dalam proyek OpenStack."
 
+msgid ""
+"With over 2000 developers from 80 different companies worldwide, OpenStack "
+"is one of the largest collaborative software-development projects. Because "
+"of its size, it is characterized by a huge diversity in social norms and "
+"technical conventions. These can significantly slow down the speed at which "
+"newcomers are successful at integrating their own roadmap into that of the "
+"OpenStack project."
+msgstr ""
+"Dengan lebih dari 2000 pengembang dari 80 perusahaan yang berbeda di seluruh "
+"dunia, OpenStack adalah salah satu proyek pengembangan software kolaboratif "
+"terbesar. Karena ukurannya, hal itu ditandai dengan keragaman besar dalam "
+"norma-norma sosial dan konvensi teknis. Ini dapat secara signifikan "
+"memperlambat kecepatan dimana pendatang baru berhasil mengintegrasikan "
+"roadmap mereka sendiri ke dalam proyek OpenStack."
+
 msgid "Won't Fix"
 msgstr "Won't Fix"
 
@@ -3666,6 +4429,12 @@ msgstr "Menulis di EtherPad."
 msgid "Writing 'Related-Bug: #[Bug number in Lanuchpad]' on message content"
 msgstr "Penulisan 'Related-Bug: #[Bug number in Lanuchpad]' pada isi pesan"
 
+msgid "Xavier Antoviaque (training, mentoring, assistant, french, english)"
+msgstr "Xavier Antoviaque (training, mentoring, assistant, french, english)"
+
+msgid "Xing Yang – Dell EMC"
+msgstr "Xing Yang – Dell EMC"
+
 msgid ""
 "You can use `Git Immersion <http://gitimmersion.com/lab_02.html>`_ to work "
 "through tutorials for learning git."
@@ -3698,11 +4467,44 @@ msgstr ""
 "harus sesuai dengan alamat email yang Anda rencanakan untuk menggunakan "
 "dalam komit Anda."
 
+msgid "Your management"
+msgstr "Pimpinan Anda"
+
 msgid "Your mission, should you choose to accept it"
 msgstr "Misi Anda, sebaiknya Anda memilih untuk menerimanya"
 
+msgid ""
+"`\"Big Tent\" and tags <http://governance.openstack.org/reference/new-"
+"projects-requirements.html>`_"
+msgstr ""
+"`\"Big Tent\" dan label <http://governance.openstack.org/reference/new-"
+"projects-requirements.html>`_"
+
+msgid ""
+"`APC <http://governance.openstack.org/reference/charter.html#voters-for-ptl-"
+"seats-apc>`_"
+msgstr ""
+"`APC <http://governance.openstack.org/reference/charter.html#voters-for-ptl-"
+"seats-apc>`_"
+
+msgid ""
+"`ATC <http://governance.openstack.org/reference/charter.html#voters-for-tc-"
+"seats-atc>`_"
+msgstr ""
+"`ATC <http://governance.openstack.org/reference/charter.html#voters-for-tc-"
+"seats-atc>`_"
+
+msgid "`Branching model <branching-model.html>`_"
+msgstr "`Branching model <branching-model.html>`_"
+
+msgid "`Closing Exercise  <workflow-closing-exercise.html>`_"
+msgstr "`Closing Exercise  <workflow-closing-exercise.html>`_"
+
 msgid "`Code <http://git.openstack.org/cgit>`_"
 msgstr "`Code <http://git.openstack.org/cgit>`_"
+
+msgid "`Code exercises <code-exercises.html>`_"
+msgstr "`Code exercises <code-exercises.html>`_"
 
 msgid "`Commit Messages <workflow-commit-message.html>`_"
 msgstr "`Commit Messages <workflow-commit-message.html>`_"
@@ -3710,12 +4512,28 @@ msgstr "`Commit Messages <workflow-commit-message.html>`_"
 msgid "`Communication <howitsmade-communication.html>`_"
 msgstr "`Communication <howitsmade-communication.html>`_"
 
+msgid "`Complete index in slide format only <slide-index.html>`_"
+msgstr "`Complete index in slide format only <slide-index.html>`_"
+
+msgid "`Demo environment <code-devstack.html>`_"
+msgstr "`Demo environment <code-devstack.html>`_"
+
+msgid "`Documentation Deep Dive <docs.html>`_"
+msgstr "`Documentation Deep Dive <docs.html>`_"
+
 msgid ""
 "`Etherpad for Barcelona Upstream Training <https://etherpad.openstack.org/p/"
 "upstream-training-barcelona>`_"
 msgstr ""
 "`Etherpad for Barcelona Upstream Training <https://etherpad.openstack.org/p/"
 "upstream-training-barcelona>`_"
+
+msgid ""
+"`Etherpad for Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
+"p/upstream-training-korea-2016>`_"
+msgstr ""
+"`Etherpad for Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
+"p/upstream-training-korea-2016>`_"
 
 msgid "`Gerrit <workflow-gerrit.html>`_"
 msgstr "`Gerrit <workflow-gerrit.html>`_"
@@ -3724,6 +4542,13 @@ msgid ""
 "`Guide to SetUp and Push First Patch <workflow-setup-and-first-patch.html>`_"
 msgstr ""
 "`Guide to SetUp and Push First Patch <workflow-setup-and-first-patch.html>`_"
+
+msgid ""
+"`Implementation (Milestone iterations <https://wiki.openstack.org/wiki/"
+"Release_Cycle#Implementation_.28Milestone_iterations.29>`_"
+msgstr ""
+"`Implementation (Milestone iterations <https://wiki.openstack.org/wiki/"
+"Release_Cycle#Implementation_.28Milestone_iterations.29>`_"
 
 msgid ""
 "`Introducing OpenStack as a Community <intro-openstack-as-community.html>`_"
@@ -3740,6 +4565,20 @@ msgstr "`Introduction <intro-introduction.html>`_"
 
 msgid "`Jenkins <workflow-jenkins.html>`_"
 msgstr "`Jenkins <workflow-jenkins.html>`_"
+
+msgid ""
+"`Lego applied to Free Software contributions <archive-training-agile-for-"
+"contributors.html>`_"
+msgstr ""
+"`Lego applied to Free Software contributions <archive-training-agile-for-"
+"contributors.html>`_"
+
+msgid ""
+"`Meetings <https://wiki.openstack.org/wiki/"
+"Meetings#Technical_Committee_meeting>`_"
+msgstr ""
+"`Meetings <https://wiki.openstack.org/wiki/"
+"Meetings#Technical_Committee_meeting>`_"
 
 msgid ""
 "`Mentoring <https://wiki.openstack.org/wiki/Mentors>`_ is run by the Women "
@@ -3761,12 +4600,78 @@ msgstr "`OpenStack Events <howitsmade-events.html>`_"
 msgid "`OpenStack Governance <howitsmade-governance.html>`_"
 msgstr "`OpenStack Governance <howitsmade-governance.html>`_"
 
+msgid "`OpenStack Governance <http://governance.openstack.org/>`_"
+msgstr "`OpenStack Governance <http://governance.openstack.org/>`_"
+
+msgid ""
+"`OpenStack Project Teams <http://governance.openstack.org/reference/charter."
+"html#openstack-project-teams>`_"
+msgstr ""
+"`OpenStack Project Teams <http://governance.openstack.org/reference/charter."
+"html#openstack-project-teams>`_"
+
+msgid ""
+"`OpenStack Project Teams <http://governance.openstack.org/reference/projects/"
+"index.html>`__"
+msgstr ""
+"`OpenStack Project Teams <http://governance.openstack.org/reference/projects/"
+"index.html>`__"
+
+msgid ""
+"`OpenStack Project Teams list <http://governance.openstack.org/reference/"
+"projects/index.html>`_"
+msgstr ""
+"`OpenStack Project Teams list <http://governance.openstack.org/reference/"
+"projects/index.html>`_"
+
+msgid ""
+"`OpenStack Upstream Training in Atlanta A Big Success <http://www.openstack."
+"org/blog/2014/05/openstack-upstream-training-in-atlanta-a-big-success/>`_."
+msgstr ""
+"`OpenStack Upstream Training in Atlanta A Big Success <http://www.openstack."
+"org/blog/2014/05/openstack-upstream-training-in-atlanta-a-big-success/>`_."
+
+msgid ""
+"`OpenStack Upstream Training in Paris <http://www.openstack.org/blog/2014/08/"
+"openstack-upstream-training-in-paris/>`_."
+msgstr ""
+"`OpenStack Upstream Training in Paris <http://www.openstack.org/blog/2014/08/"
+"openstack-upstream-training-in-paris/>`_."
+
+msgid ""
+"`Other release candidates <https://wiki.openstack.org/wiki/"
+"Release_Cycle#Other_release_candidates>`_"
+msgstr ""
+"`Other release candidates <https://wiki.openstack.org/wiki/"
+"Release_Cycle#Other_release_candidates>`_"
+
 msgid ""
 "`Overview of the contribution process <workflow-training-contribution-"
 "process.html>`_"
 msgstr ""
 "`Overview of the contribution process <workflow-training-contribution-"
 "process.html>`_"
+
+msgid ""
+"`PTLs <http://governance.openstack.org/reference/charter.html#project-team-"
+"leads>`_"
+msgstr ""
+"`PTLs <http://governance.openstack.org/reference/charter.html#project-team-"
+"leads>` _"
+
+msgid ""
+"`Planning (Design, Discuss and Target) <https://wiki.openstack.org/wiki/"
+"Release_Cycle#Planning_.28Design.2C_Discuss_and_Target.29>`_"
+msgstr ""
+"`Planning (Design, Discuss and Target) <https://wiki.openstack.org/wiki/"
+"Release_Cycle#Planning_.28Design.2C_Discuss_and_Target.29>`_"
+
+msgid ""
+"`Pre-release (Release Candidates dance) <https://wiki.openstack.org/wiki/"
+"Release_Cycle#Pre-release_.28Release_Candidates_dance.29>`_"
+msgstr ""
+"`Pre-release (Release Candidates dance) <https://wiki.openstack.org/wiki/"
+"Release_Cycle#Pre-release_.28Release_Candidates_dance.29>`_"
 
 msgid ""
 "`Principles behind the manifesto <http://agilemanifesto.org/principles."
@@ -3778,8 +4683,23 @@ msgstr ""
 msgid "`Registration and accounts <workflow-reg-and-accounts.html>`_"
 msgstr "`Registration and accounts <workflow-reg-and-accounts.html>`_"
 
+msgid ""
+"`Release candidate 1 <https://wiki.openstack.org/wiki/"
+"Release_Cycle#Release_candidate_1>`_"
+msgstr ""
+"`Release candidate 1 <https://wiki.openstack.org/wiki/"
+"Release_Cycle#Release_candidate_1>`_"
+
 msgid "`Release cycle <howitsmade-release-cycle.html>`_"
 msgstr "`Release cycle <howitsmade-release-cycle.html>`_"
+
+msgid "`Release cycle <https://wiki.openstack.org/wiki/Release_Cycle>`_"
+msgstr "`Release cycle <https://wiki.openstack.org/wiki/Release_Cycle>`_"
+
+msgid ""
+"`Release day <https://wiki.openstack.org/wiki/Release_Cycle#Release_day>`_"
+msgstr ""
+"`Release day <https://wiki.openstack.org/wiki/Release_Cycle#Release_day>`_"
 
 msgid ""
 "`Requirements <https://governance.openstack.org/reference/new-projects-"
@@ -3794,6 +4714,20 @@ msgstr "`Reviewing <workflow-reviewing.html>`_"
 msgid "`Specifications <http://specs.openstack.org>`_"
 msgstr "`Specifications <http://specs.openstack.org>`_"
 
+msgid ""
+"`Technical Committee <http://governance.openstack.org/reference/charter."
+"html>`_"
+msgstr ""
+"`Technical Committee <http://governance.openstack.org/reference/charter."
+"html>`_"
+
+msgid ""
+"`The role of the Technical Committee <http://governance.openstack.org/"
+"reference/charter.html#mission>`_"
+msgstr ""
+"`The role of the Technical Committee <http://governance.openstack.org/"
+"reference/charter.html#mission>`_"
+
 msgid "`Tracking <workflow-launchpad.html>`_"
 msgstr "`Tracking <workflow-launchpad.html>`_"
 
@@ -3806,6 +4740,16 @@ msgid ""
 msgstr ""
 "`Use cases for features <http://specs.openstack.org/openstack/openstack-user-"
 "stories/>`_"
+
+msgid "`Using Sandbox for Practice <workflow-using-sandbox.html>`_"
+msgstr "`Using Sandbox for Practice <workflow-using-sandbox.html>`_"
+
+msgid ""
+"`What’s new with OpenStack Upstream Training <http://superuser.openstack.org/"
+"articles/openstack-upstream-training-revamp/>`_."
+msgstr ""
+"`What’s new with OpenStack Upstream Training <http://superuser.openstack.org/"
+"articles/openstack-upstream-training-revamp/>`_."
 
 msgid "``docs-specs``"
 msgstr "``docs-specs``"
@@ -3827,6 +4771,32 @@ msgstr "``training-guides``"
 
 msgid "``training-labs``"
 msgstr "``training-labs``"
+
+msgid ""
+"`commiters <http://www.stackalytics.com/?"
+"release=kilo&metric=commits&project_type=integrated&module=&company=&user_id=>`_ "
+"individuals (bottom of the page)"
+msgstr ""
+"Individu (bawah halaman) `Commiters <http://www.stackalytics.com/?"
+"release=kilo&metric=commits&project_type=integrated&module=&company=&user_id=>` "
+"_ "
+
+msgid ""
+"`committers <http://www.stackalytics.com/?"
+"release=kilo&metric=commits&project_type=integrated&module=&company=&user_id=>`_ "
+"companies"
+msgstr ""
+"Perusahaan `committers <http://www.stackalytics.com/?"
+"release=kilo&metric=commits&project_type=integrated&module=&company=&user_id=>`_"
+
+msgid ""
+"`ready to use DevStack VM <https://wiki.openstack.org/wiki/"
+"OpenStack_Upstream_Training/Setup_DevStack>`_ for participants with network "
+"connectivity but troubles with their laptop"
+msgstr ""
+"`ready to use DevStack VM <https://wiki.openstack.org/wiki/"
+"OpenStack_Upstream_Training/Setup_DevStack>`_ for participants with network "
+"connectivity but troubles with their laptop"
 
 msgid "a blueprint is a description of a solution"
 msgstr "cetak biru tentang deskripsi dari solusi"
@@ -4088,6 +5058,9 @@ msgstr "longer-form go pada halaman wiki"
 
 msgid "low-hanging-fruit"
 msgstr "low-hanging-fruit"
+
+msgid "macJack (assistant, English, Chinese)"
+msgstr "macJack (assistant, English, Chinese)"
 
 msgid "master branch is open for development"
 msgstr "cabang master terbuka untuk pengembangan"
