@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-06 09:02+0000\n"
+"POT-Creation-Date: 2016-12-19 09:11+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-12-07 02:20+0000\n"
+"PO-Revision-Date: 2016-12-19 10:29+0000\n"
 "Last-Translator: Robert Simai <robert.simai@suse.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -36,6 +36,12 @@ msgstr "(Reviewer durch Gerrit Benutzername oder E-mail Adresse finden.)"
 
 msgid "(Other people will think that someone working on the bug.)"
 msgstr "(andere Personen nehmen an, dass an dem Bug gearbeitet wird.)"
+
+msgid "(Please also change your commit message if needed.)"
+msgstr "(bitte ändern Sie falls nötig auch die Commit-Nachricht)"
+
+msgid "(RC2, RC3, ...), with bugs targeted to it"
+msgstr "(RC2, RC3, ...), mit zugehörigen Bugs"
 
 msgid "(Review invitation letter has been sent by e-mail.)"
 msgstr "(Review Einladung wurde als E-mail verschickt.)"
@@ -281,6 +287,9 @@ msgid "Alternatively, you can use your virtual machine on a public cloud."
 msgstr ""
 "Als Alternative können Sie Ihre virtuelle Maschine in einer öffentlichen "
 "Cloud verwenden."
+
+msgid "Amending the commit"
+msgstr "Den Commit ändern"
 
 msgid ""
 "An agreement to clarify intellectual property license granted with "
@@ -2041,7 +2050,7 @@ msgid "Learning example with two Sandboxes"
 msgstr "Lernbeispiel mit zwei Sandboxes"
 
 msgid "Lego applied to Free Software contributions"
-msgstr "Lego angewandt zu Freien Software Beiträgen"
+msgstr "Lego angewandt auf Beiträge zu freier Software"
 
 msgid "Let's get started!!!"
 msgstr "Los geht's!!!"
@@ -2482,6 +2491,13 @@ msgstr "offene Zusammenarbeit"
 msgid "Open discussions, chairs organized in concentric rings"
 msgstr "Offene Diskussionen, Stühle in konzentrischen Ringen organisiert"
 
+msgid ""
+"Open reviews, contribution for the latest 30 or 90 days, activity report, "
+"etc."
+msgstr ""
+"Öffnen von Reviews, Beiträgen der letzten 30 oder 90 Tage, Aktivitätsreport "
+"u.s.w."
+
 msgid "Open your terminal program and type::"
 msgstr "Öffnen Sie Ihr Terminal und tippen::"
 
@@ -2566,6 +2582,9 @@ msgstr "Offenheit"
 
 msgid "Operations and Architecture Design guides"
 msgstr "Betriebs- und Architektur-Designanleitungen"
+
+msgid "Operators' meet ups"
+msgstr "Betreiber Meetups"
 
 msgid "Opinion"
 msgstr "Meinung"
@@ -2959,6 +2978,13 @@ msgstr "Überprüfen"
 msgid "Reviewing with comment"
 msgstr "Review mit Kommentar"
 
+msgid "Revise the original patch according to discussion results."
+msgstr ""
+"Revidieren Sie den Originalpatch, entsprechend der Diskussionsergebnisse."
+
+msgid "Revising file(s)"
+msgstr "Dateien revidieren"
+
 msgid "Rodolphe Quiedeville (training, mentoring, assistant, french)"
 msgstr "Rodolphe Quiedeville (Training, Mentoring, Assistent, französisch)"
 
@@ -3337,6 +3363,9 @@ msgstr "Der Fehler wurde gerade erstellt"
 msgid "The bug was reproduced or confirmed as a genuine bug"
 msgstr "Der Fehler wurde vom Original-Fehler reproduziert oder bestätigt"
 
+msgid "The code is self-evident/self-documenting"
+msgstr "Der Code ist sich selbst-bestätigend oder selbsterklärend"
+
 msgid "The common syntax: #openstack-<name-of-project>"
 msgstr "Der allgemeine Syntax: #openstack-<name-des-projekts>"
 
@@ -3388,6 +3417,12 @@ msgstr ""
 
 msgid "The release, or milestone, or commit ID"
 msgstr "Die Version, oder Meilenstein, oder Commit-ID"
+
+msgid "The reviewer has access to external web services/site"
+msgstr "Der Reviewer hat Zugriff auf externe Webdienste oder Sites"
+
+msgid "The reviewer understands what the original problem was"
+msgstr "Der Reviewer versteht, was das originale Problem war"
 
 msgid ""
 "The students use template slides to prepare a 5-minute presentation of their "
@@ -3580,6 +3615,9 @@ msgstr "Upstream Training in Japan"
 
 msgid "Upstream is responsible for the finished product."
 msgstr "Upstream ist zuständig für das fertige Produkt."
+
+msgid "Use \"Implements: [blueprint name]\" in commit messages"
+msgstr "Verwenden von \"Implements: [blueprint name]\" in Commit-Nachrichten"
 
 msgid "Use command 'screen -x' to see the running services"
 msgstr "Verwenden des Kommandos 'screen -x' um die laufenden Dienste zu sehen"
@@ -4628,6 +4666,9 @@ msgstr "https://bugs.launchpad.net/openstack-api-site"
 
 msgid "https://bugs.launchpad.net/openstack-dev-sandbox"
 msgstr "https://bugs.launchpad.net/openstack-dev-sandbox"
+
+msgid "https://bugs.launchpad.net/openstack-dev-sandbox/+filebug"
+msgstr "https://bugs.launchpad.net/openstack-dev-sandbox/+filebug"
 
 msgid "https://bugs.launchpad.net/openstack-manuals"
 msgstr "https://bugs.launchpad.net/openstack-manuals"
