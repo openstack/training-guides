@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-21 09:06+0000\n"
+"POT-Creation-Date: 2017-01-10 09:21+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-01-09 10:39+0000\n"
+"PO-Revision-Date: 2017-01-10 10:34+0000\n"
 "Last-Translator: Robert Simai <robert.simai@suse.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -350,6 +350,15 @@ msgstr "Interessensgebiete"
 msgid "Ask a mentor to break the *tested* code of one test case"
 msgstr ""
 "Bitten Sie einen Mentor den *getesteten* Code eines Testcases zu brechen"
+
+msgid "Ask people about their contribution experience"
+msgstr "Fragen Sie Leute über ihre Erfahrung bei der Mitarbeit"
+
+msgid "Ask people about their contributions"
+msgstr "Fragen Sie Leute  über ihre Beiträge"
+
+msgid "Ask people you know about the project"
+msgstr "Fragen Sie Leute über das Projekt, die Sie kennen"
 
 msgid "Ask questions during the class"
 msgstr "Stellen Sie Fragen in der Klasse"
@@ -705,6 +714,9 @@ msgstr "Gemeinsamkeit"
 
 msgid "Communication"
 msgstr "Kommunikation"
+
+msgid "Community members will review your patch"
+msgstr "Community-Mitglieder werden Ihren Patch prüfen"
 
 msgid "Companies"
 msgstr "Firmen"
@@ -1602,6 +1614,9 @@ msgstr ""
 msgid "Gold member companies"
 msgstr "Gold Mitgliedsfirmen"
 
+msgid "Good manners on Sandbox"
+msgstr "Gutes Benehmen in der Sandbox"
+
 msgid "Good place to get questions answered"
 msgstr "Eine gute Anlaufstelle, um Antworten auf Fragen zu bekommen"
 
@@ -1613,6 +1628,9 @@ msgstr ""
 
 msgid "Good: new API + new feature"
 msgstr "Gut: neue API + neue Funktion"
+
+msgid "Great repository to begin your OpenStack learning"
+msgstr "Ein gutes Repository um mit dem OpenStack-lernen zu beginnen"
 
 msgid "Group exercise"
 msgstr "Gruppen-Übung"
@@ -1689,6 +1707,9 @@ msgstr "wie man sich auf andere Prüfungen vorbereitet"
 
 msgid "How to use OpenStack"
 msgstr "wie man OpenStack verwendet"
+
+msgid "However, please keep in mind that it is on your own responsibility."
+msgstr "Bitte beachten Sie, dass es in Ihrer Verantwortung liegt."
 
 msgid "Hypervisor Tuning Guide"
 msgstr "Hypervisor Tuning Guide"
@@ -2581,6 +2602,9 @@ msgstr "OpenStack als eine Gemeinschaft"
 msgid "OpenStack from Telecom/NFV perspective"
 msgstr "OpenStack aus der Telekom/NFV Perspektive"
 
+msgid "OpenStack has a sandbox repository for learning and testing purposes"
+msgstr "OpenStack hat ein Sandbox Repository für Lern- und Testzwecke"
+
 msgid "Openness"
 msgstr "Offenheit"
 
@@ -2678,6 +2702,9 @@ msgstr ""
 msgid "Patrick East – PureStorage"
 msgstr "Patrick East – PureStorage"
 
+msgid "Pay attention to who is an expert in what area"
+msgstr "Achten Sie darauf, wer in welchen Bereichen Experte ist"
+
 msgid "People sitting in the inner circle lead the discussion"
 msgstr "Personen im inneren Kreis leiten die Diskussion"
 
@@ -2689,6 +2716,10 @@ msgstr "Pro Projektmarke"
 
 msgid "Perform the smaller tasks"
 msgstr "kleine Aufgaben durchführen"
+
+msgid "Pick a task (bug, trivial fix, documentation, implementation)"
+msgstr ""
+"Wählen Sie eine Aufgabe (Bug, einfacher Fix, Dokumentation, Implementierung)"
 
 msgid "Picking Your Project"
 msgstr "Wählen Sie Ihr Projekt"
@@ -2713,6 +2744,13 @@ msgstr "Platin Mitgliedsfirmen"
 
 msgid "Play with your network"
 msgstr "Spielen Sie mit Ihrem Netzwerk."
+
+msgid ""
+"Please do not let students create 10 or more changes. (This is not the "
+"intention of Sandboxes!)"
+msgstr ""
+"Lassen Sie Studenten nicht 10 oder mehr Änderungen erzeugen. Dies ist nicht "
+"der Zweck von Sandboxes."
 
 msgid "Prepare an environment by yourself from scratch:"
 msgstr "Erstellen Sie selbst eine Umgebung von Grund auf:"
@@ -2979,11 +3017,20 @@ msgstr "Review-Einladung"
 msgid "Review other launchpad bugs and improve yours."
 msgstr "Überprüfen Sie anderer Launchpad-Fehler und verbessern Sie Ihre."
 
+msgid "Review other's code"
+msgstr "Überprüfen des Codes von anderen"
+
+msgid "Review three patches in the sandbox environment:"
+msgstr "Überprüfen Sie drei Patches in der Sandbox-Umgebung:"
+
 msgid "Review unified"
 msgstr "einheitlich überprüfen"
 
 msgid "Reviewing"
 msgstr "Überprüfen"
+
+msgid "Reviewing the patch and giving feedback with comment"
+msgstr "Prüfen des Patches und geben einer Rückmeldung mit Kommentar"
 
 msgid "Reviewing with comment"
 msgstr "Review mit Kommentar"
@@ -3037,8 +3084,14 @@ msgstr "Sahid Ferdjaoui (Assistent, französisch, englisch)"
 msgid "Sandbox Launchpad"
 msgstr "Sandbox Launchpad"
 
+msgid "Sandbox Launchpad Bug list"
+msgstr "Sandbox Launchpad Bug Liste"
+
 msgid "Sandbox Status"
 msgstr "Sandbox Status"
+
+msgid "Sandbox repository"
+msgstr "Sandbox Repository"
 
 msgid "Say a few words about yourself"
 msgstr "Sagen Sie ein paar Worte zu sich selbst"
@@ -3066,6 +3119,9 @@ msgstr "Dienst Terminals"
 
 msgid "Set by each project team"
 msgstr "Werden von jedem Projektteam gesetzt"
+
+msgid "Setup & First Patch"
+msgstr "Einrichtung & erster Patch"
 
 msgid "Setup Gerrit Account"
 msgstr "Gerrit Konto einrichten"
@@ -3616,6 +3672,9 @@ msgstr "Laden Sie Ihren Code so bald wie möglich im Releasezyklus hoch"
 
 msgid "Uploading a new patchset"
 msgstr "Ein neues Patchset hochladen"
+
+msgid "Uploading a revised patch with comment"
+msgstr "Hochladen eines überarbeiteten Patches mit Kommentar"
 
 msgid "Uploading to Gerrit"
 msgstr "In Gerrit hochladen"
@@ -4529,6 +4588,9 @@ msgstr "Nach Duplikaten überprüfen"
 
 msgid "checkout the latest stable branch"
 msgstr "den letzten stabilen Branch auschecken"
+
+msgid "code contributions, wiki, vote, presentations"
+msgstr "Codebeiträge, Wiki, Abstimmung, Präsentation"
 
 msgid ""
 "core developer or a member of the project bug supervision team => "
