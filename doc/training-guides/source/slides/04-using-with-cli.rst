@@ -123,8 +123,7 @@ Create and source the OpenStack RC file from scratch
    lives in clear text format in the ``PROJECT-openrc.sh`` file.
    Restrict the permissions on this file to avoid security problems.
    You can also remove the ``OS_PASSWORD`` variable from the file, and
-   use the :option:`--password` parameter with OpenStack client commands
-   instead.
+   use the ``--password`` parameter with OpenStack client commands instead.
 
 .. note::
 
