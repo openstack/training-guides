@@ -2,15 +2,16 @@
 # Akihiro Motoki <amotoki@gmail.com>, 2016. #zanata
 # KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>, 2016. #zanata
 # Yoshiki Eguchi <yoshiki.eguchi@gmail.com>, 2016. #zanata
+# KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>, 2017. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-08 09:17+0000\n"
+"POT-Creation-Date: 2017-01-16 14:34+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-12-09 07:26+0000\n"
+"PO-Revision-Date: 2017-01-17 01:00+0000\n"
 "Last-Translator: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -662,6 +663,9 @@ msgstr ""
 msgid "Commit files and write commit message"
 msgstr "ファイルのコミットとコミットメッセージの作成"
 
+msgid "Commit log message"
+msgstr "コミットログメッセージ"
+
 msgid "Commit messages"
 msgstr "コミットメッセージ"
 
@@ -1055,6 +1059,13 @@ msgstr "迅速な関わり"
 msgid "Ensure basic interoperability with the rest of OpenStack"
 msgstr "OpenStack の他の部分と基本的な相互運用性がある"
 
+msgid ""
+"Ensure you have the DevStack repository cloned to the VM you would like to "
+"use it"
+msgstr ""
+"DevStack リポジトリーが、使用したい VM にクローンされていることを確認してくだ"
+"さい。"
+
 msgid "Error report"
 msgstr "エラー報告"
 
@@ -1108,6 +1119,9 @@ msgstr "演習: 個人メンバー登録および CLA の署名"
 
 msgid "Exercise: Step 1"
 msgstr "演習: 手順 1"
+
+msgid "Exercise: Step 2"
+msgstr "演習: ステップ2"
 
 msgid "Exercise: What kind of Program do you contribute to ?"
 msgstr "演習: コントリビューションしたいプロジェクトは何か?"
@@ -1497,6 +1511,9 @@ msgstr ""
 "各自の名前と役割を記した名札を各自に配ります。フリーエージェントは誰が気が"
 "散っているか、物議をかもす人か、もしくは愛想の良い人かを公開しないでくださ"
 "い。コミュニティーは自分たちでその答えを出す必要があります。"
+
+msgid "Global Events and Releases"
+msgstr "グローバルイベントおよびリリース"
 
 msgid ""
 "Go to `Gerrit's SSH Public Keys settings <https://review.openstack.org/#/"
@@ -2121,6 +2138,9 @@ msgstr "人が話しているときは聞く"
 
 msgid "Local Upstream Trainings"
 msgstr "ローカル Upstream Trainings"
+
+msgid "Local branch creation"
+msgstr "ローカルのブランチ作成"
 
 msgid "Logs of meetings are archived so that they can be referenced later on"
 msgstr "後から参照できるよう、ミーティングログは保存される"
@@ -2833,8 +2853,14 @@ msgstr "今後のサミットにおけるデザインサミットの代替"
 msgid "Reply to comments"
 msgstr "コメントに応答します"
 
+msgid "Report a bug - Details"
+msgstr "バグ報告 - 詳細"
+
 msgid "Report a bug - Summary"
 msgstr "バグ報告 - 概要"
+
+msgid "Reporting a bug on Launchpad"
+msgstr "Launchpad におけるバグ報告"
 
 msgid "Repositories"
 msgstr "リポジトリー"
