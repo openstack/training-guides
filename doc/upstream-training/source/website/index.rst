@@ -66,7 +66,7 @@ How to prepare
 
 * Prepare an environment by yourself from scratch:
 
-  * Create a virtual machine on your laptop with Ubuntu 14.04 installed and
+  * Create a virtual machine on your laptop with Ubuntu 16.04 installed and
     6+ GB of RAM.
   * Alternatively, you can use your virtual machine on a public cloud.
   * Check that you can ssh from your laptop to the virtual machine
