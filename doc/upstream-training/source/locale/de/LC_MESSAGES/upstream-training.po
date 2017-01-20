@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-10 09:21+0000\n"
+"POT-Creation-Date: 2017-01-17 09:29+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-01-10 10:34+0000\n"
+"PO-Revision-Date: 2017-01-19 01:33+0000\n"
 "Last-Translator: Robert Simai <robert.simai@suse.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -24,6 +24,10 @@ msgid ""
 msgstr ""
 "\"Guiding principles\" werden vom Foundation Board benutzt, um kommerzielle "
 "Implementierungen von OpenStack unter der Marke OpenStack zu ermöglichen"
+
+msgid "(As an example, a new file has been created using cat command.)"
+msgstr ""
+"(Als Beispiel, eine neue Datei wurde mittels des cat Kommandos erstellt.)"
 
 msgid "(Checking log message before uploading is always a nice idea.)"
 msgstr ""
@@ -173,6 +177,9 @@ msgstr ""
 
 msgid "API"
 msgstr "API"
+
+msgid "APIImpact"
+msgstr "APIImpact"
 
 msgid "About software, documentation, release management etc"
 msgstr "Über Software, Dokumentation, Releasemanagement, etc."
@@ -394,6 +401,9 @@ msgstr "Regelmäßige Meetings besuchen"
 msgid "Attends project meetings"
 msgstr "Teilnahme an Projektmeeetings"
 
+msgid "Auto-Login On Connecting To Freenode"
+msgstr "Auto-Login On Connecting To Freenode"
+
 msgid "Bad: new feature and refactor"
 msgstr "Schlecht: neue Funktion und Refactoring"
 
@@ -405,6 +415,9 @@ msgstr "kooperativ sein"
 
 msgid "Be communicative"
 msgstr "Kommunikativ sein"
+
+msgid "Be on top of people's comments"
+msgstr "Bleiben Sie bei den Kommentaren der anderen am Ball"
 
 msgid "Be patient"
 msgstr "Geduld haben"
@@ -441,6 +454,9 @@ msgstr "Big Tent ist ein Codename für die offiziellen OpenStack Projekte"
 msgid "Blueprint"
 msgstr "Blueprint"
 
+msgid "Blueprint (Partial-Implements, Implements)"
+msgstr "Blueprint (Partial-Implements, Implements)"
+
 msgid "Board : 1"
 msgstr "Board : 1"
 
@@ -455,6 +471,9 @@ msgstr "Branching-Modell"
 
 msgid "Bug"
 msgstr "Fehler"
+
+msgid "Bug (Partial-Bug, Related-Bug, Closes-Bug)"
+msgstr "Bug (Partial-Bug, Related-Bug, Closes-Bug)"
 
 msgid "Bug Assigned"
 msgstr "Bug zugewiesen"
@@ -564,6 +583,9 @@ msgstr "Änderungen an Notifikationsdefinitionen"
 msgid "Check For Existing Keys"
 msgstr "Auf vorhandene Schlüssel prüfen"
 
+msgid "Check peer's Review"
+msgstr "Peer-Review prüfen"
+
 msgid "Check that :command:`apt install` works on the virtual machine"
 msgstr ""
 "Prüfen Sie, dass :command:`apt install` in der virtuellen Maschine "
@@ -630,11 +652,26 @@ msgstr "Aktivitäten zur Bereinigung sind nötig"
 msgid "Cleber Rosa (mentoring, assistant, portuguese)"
 msgstr "Cleber Rosa (Mentoring, Assistent, Portugiesisch)"
 
+msgid "Click **cancel**."
+msgstr "Klicken Sie **cancel**."
+
 msgid "Click the 'Add Key' button."
 msgstr "Klicken Sie den 'Add Key' Knopf."
 
 msgid "Click the **I am a new Ubuntu One user**."
 msgstr "Klicke auf **Ich bin ein neuer Ubuntu One Benutzer**."
+
+msgid "Click the **edit** button and"
+msgstr "Klicken Sie den **edit** Button und"
+
+msgid "Click the **info** icon."
+msgstr "Klicken Sie das **info** Icon."
+
+msgid "Click the **message user** icon and type::"
+msgstr "Klicken Sie das **message user** Icon und tippen::"
+
+msgid "Clone and be familiar with the code"
+msgstr "Klonen und kennen lernen des Codes"
 
 msgid "Closing Exercises"
 msgstr "Abschlussübung"
@@ -661,6 +698,9 @@ msgstr ""
 msgid "Code stabilization period"
 msgstr "Code-Stabilisierungszeitraum"
 
+msgid "Code-Review -2/+2 is for core reviewers (Sandbox repository is open)"
+msgstr "Code-Review -2/+2 ist für Core-Reviewer (Sandbox Repository ist offen)"
+
 msgid "Collaboration tools"
 msgstr "Kollaborationswerkzeuge"
 
@@ -682,6 +722,11 @@ msgstr "Kommentieren"
 
 msgid "Commit Messages"
 msgstr "Commit Nachrichten"
+
+msgid "Commit added files and explain changes in the commit message"
+msgstr ""
+"Committen Sie hinzugefügte Dateien und erläutern Sie Änderungen in der "
+"Commit-Nachricht"
 
 msgid "Commit files and write commit message"
 msgstr "Dateien Committen und Commitnachricht schreiben"
@@ -752,6 +797,16 @@ msgstr "Bestätigt"
 msgid "Confirming & prioritizing"
 msgstr "Bestätigen & Priorisieren"
 
+msgid ""
+"Congratulations you're now ready to communicate with the OpenStack community "
+"and have a registered nick name on Freenode! From here on out when you "
+"connect to Freenode with Hexchat you will be identified with your nickname."
+msgstr ""
+"Glückwunsch! Sie haben einen Spitznamen auf Freenode registriert und sind "
+"jetzt bereit, mit der OpenStack Gemeinschaft zu kommunizieren. Wenn Sie sich "
+"mit Hexchat zu Freenode verbinden werden Sie ab jetzt mit Ihrem Spitznamen "
+"identifiziert."
+
 msgid "Contact Information"
 msgstr "Kontaktinformationen"
 
@@ -816,6 +871,13 @@ msgstr "Kursinhalt"
 msgid "Create a draft .rst file with an outline for the itinerary."
 msgstr ""
 "Erstellen Sie eine .rst Entwurfsdatei mit einer Beschreibung des Reiseplans."
+
+msgid ""
+"Create a new commit with the .rst file in openstack-dev/sandbox repository "
+"and submit the commit to Gerrit when you are finished."
+msgstr ""
+"Erzeugen Sie einen neuen Commit mit der .rst Datei im openstack-dev/sandbox "
+"Repository und submitten Sie den Commit an Gerrit, wenn Sie bereit sind."
 
 msgid ""
 "Create a virtual machine on your laptop with Ubuntu 14.04 installed and 6+ "
@@ -929,6 +991,9 @@ msgstr "Demo Umgebung"
 msgid "Depends on the priority of your work item"
 msgstr "Hängen von den Prioritäten der Arbeitsaufgaben ab"
 
+msgid "Depends-On"
+msgstr "Depends-On"
+
 msgid "Describe a release cycle based on the information you found"
 msgstr ""
 "Beschreiben Sie einen Releasezyklus anhand der von Ihnen gefundenen "
@@ -1000,6 +1065,12 @@ msgstr "Distributionen"
 
 msgid "Do not assume ..."
 msgstr "Nehmen Sie nicht an ..."
+
+msgid ""
+"Do not be frustrated! We can revise the current patchset to address comments."
+msgstr ""
+"Lassen Sie sich nicht frustrieren! Wir können das aktuelle Patchset "
+"revidieren, um Kommentare zu berücksichtigen."
 
 msgid ""
 "Do not change meeting name: *upstream training*. The meeting name is "
@@ -1313,6 +1384,9 @@ msgstr "02.-03.02.2015 (Mo-Di)"
 msgid "Figure out who's behind it"
 msgstr "Herausfinden wer dahinter steckt."
 
+msgid "Filing a blueprint/spec"
+msgstr "Erstellen Sie ein Blueprint/Spec"
+
 msgid "Filing, fixing, and triaging bugs"
 msgstr "Eingeben, beseitigen und vorqualifizieren von Bugs"
 
@@ -1446,6 +1520,23 @@ msgstr ""
 msgid "For more information, see :doc:`upstream-details`."
 msgstr "Für mehr Informationen schauen Sie auf  :doc:`upstream-details`."
 
+msgid ""
+"For the **Chat Server Port** type in **6697** and check the **SSL "
+"Connection** box."
+msgstr ""
+"Als **Chat Server Port** geben Sie **6697** an und markieren **SSL "
+"Connection**."
+
+msgid "For the **Chat server** type in **irc.freenode.net**."
+msgstr "Geben Sie als **Chat server** Typ **irc.freenode.net** an."
+
+msgid ""
+"For the cores you found earlier, figure out what time zone they are probably "
+"in."
+msgstr ""
+"Finden Sie die Zeitzonen, in denen sich die zuvor identifizierten Cores "
+"wahrscheinlich befinden."
+
 msgid "Forbidden"
 msgstr "Verboten"
 
@@ -1510,6 +1601,9 @@ msgstr "GIT Commit-Nachricht-Sruktur"
 msgid "Gathers feedback and consolidates requirements"
 msgstr "Sammelt Feedback und konsolidiert Anforderungen"
 
+msgid "General Contribution Workflow"
+msgstr "Genereller Workflow der Mitarbeit"
+
 msgid "General discussion around what's going on in a project"
 msgstr "Allgemeine Diskussionen, was im Projekt vor sich geht"
 
@@ -1571,6 +1665,27 @@ msgstr "Git"
 
 msgid "Git Review"
 msgstr "Git Review"
+
+msgid ""
+"Git is a free and open source distributed version control system that the "
+"OpenStack community uses to manage changes to source code."
+msgstr ""
+"Git ist ein freies verteiltes Open Source Versionskontrollsystem, dass die "
+"OpenStack Gemeinschaft zur Verwaltung von Quellcode verwendet."
+
+msgid ""
+"Git review assumes the user you're running it as is the same as your Gerrit "
+"username. If it's not, you can tell it by setting this git config setting::"
+msgstr ""
+"Git review nimmt an, dass ausführende Benutzer derselbe ist, wie Ihr Gerrit "
+"Benutzer. Wenn nicht, konfigurieren Sie die folgenden Einstellungen::"
+
+msgid ""
+"Git review is tool maintained by the OpenStack community. It adds an "
+"additional sub-command to git like so::"
+msgstr ""
+"Git review ist ein von der OpenStack Gemeinschaft betreutes Werkzeug. Es "
+"fügt sub-Kommandos zu git hinzu, wie::"
 
 msgid "Global Events and Releases"
 msgstr "Globale Veranstaltungen und Releases"
@@ -1672,6 +1787,9 @@ msgstr "High Availability Guide"
 msgid "Highlight and copy the output."
 msgstr "Markieren und kopieren Sie die Ausgabe."
 
+msgid "History status"
+msgstr "Historie Status"
+
 msgid "Hopefully we end up with a unique Lego creation!"
 msgstr "Am Ende haben wir hoffentlich eine einzigartige Lego-Kreation!"
 
@@ -1742,6 +1860,22 @@ msgid "Identify common characteristics of these cycles"
 msgstr "Finden Sie Gemeinsamkeiten dieser Zyklen"
 
 msgid ""
+"If all goes well we should be connected and no pop ups as indicted in the "
+"previous step's Troubleshooting section."
+msgstr ""
+"Wenn alles gut geht sind wir verbunden und es erscheint kein Popup, wie in "
+"den Tipps zur Fehlersuche im vorherigen Schritt angegeben."
+
+msgid ""
+"If all goes well you should receive a message back instantly that the nick "
+"name is registered by you and an activation email will be sent to the email "
+"address you provided."
+msgstr ""
+"Wenn alles gut geht, erhalten Sie eine Nachricht, dass der Spitzname für Sie "
+"registriert wurde und es wird eine Aktivierungs-E-Mail an die angegebene "
+"Adresse geschickt."
+
+msgid ""
 "If contributing code, being technically proficient enough to carry out "
 "simple bug fixes in the project"
 msgstr ""
@@ -1795,6 +1929,13 @@ msgstr ""
 "Falls Sie eine Nachricht erhalten, dass der Spitzname bereits belegt ist"
 
 msgid ""
+"If you get a notice that the nick name is already taken, quit and go back to "
+"the first set of steps to pick a different nickname."
+msgstr ""
+"Bei der Nachricht, dass ein Spitzname schon belegt ist, brechen Sie ab und "
+"gehen Sie zurück zum ersten Schritt, um einen anderen Spitznamen auszuwählen."
+
+msgid ""
 "If you use the package manager `Homebrew <http://brew.sh>`_, open a terminal "
 "and type::"
 msgstr ""
@@ -1844,6 +1985,9 @@ msgstr ""
 "Implementierungen, damit ein Kern die OpenStack Marke benutzen kann "
 "(OpenStack™)"
 
+msgid "Implementing a blueprint/spec"
+msgstr "Implementieren eines Blueprints/Spec"
+
 msgid "Import Public Key Into Gerrit"
 msgstr "Importieren des öffentlichen Schlüssels in Gerrit"
 
@@ -1861,8 +2005,24 @@ msgstr "In Arbeit"
 msgid "In a terminal type::"
 msgstr "In einem Terminal, tippen Sie: "
 
+msgid ""
+"In order to register we need to send a message to nickserv on freenode, "
+"which is a bot that allows us to register and identify ourselves as the "
+"owner of a nick name."
+msgstr ""
+"Zum registrieren müssen wir eine Nachricht an nickserv auf freenode senden. "
+"Dies ist ein Bot, der Registrierung und Identifizierung als Inhaber eines "
+"Spitznamens erlaubt. "
+
 msgid "In the **Password** field type your password."
 msgstr "Geben Sie Ihr Passwort im **Password** Feld ein."
+
+msgid ""
+"In the **Password** put in the password we picked in the previous step and "
+"click close."
+msgstr ""
+"Geben Sie Ihr im vorherigen Schritt gewähltes Passwort unter **Password** an "
+"und klicken Sie auf Schließen."
 
 msgid "In this example, we use Lego to represent a software project"
 msgstr ""
@@ -2154,6 +2314,16 @@ msgid "Look up the location and dates of the first PTG"
 msgstr "Nachsehen von Ort und Datum des ersten PTG"
 
 msgid ""
+"Look up the project you are most interested in and find the three most "
+"active core reviewers (people that would be good to know for review help and "
+"getting your patches merged)."
+msgstr ""
+"Schlagen Sie ein Projekt nach, an dem Sie am meisten interessiert sind und "
+"suchen Sie die drei aktivsten Core-Reviewer (Leute, die man kennen sollte, "
+"um Hilfe für Reviews anzufordern und um die eigenen Patches gemerged zu "
+"bekommen)."
+
+msgid ""
 "Look up the release schedule for the current and past two OpenStack release "
 "cycles"
 msgstr ""
@@ -2195,11 +2365,20 @@ msgstr "Erstellen Sie einen neuen Branch in Ihrem lokalen Repository"
 msgid "Make changes"
 msgstr "Änderungen durchführen"
 
+msgid "Make changes and push new patchsets"
+msgstr "Machen Sie Änderungen und pushen neue Patchsets"
+
 msgid "Make code changes"
 msgstr "Codeänderungen vornehmen"
 
 msgid "Make code contributions."
 msgstr "Erstellen von Code-Beiträgen"
+
+msgid ""
+"Make sure that **Use SSL for all the servers on this network** is checked."
+msgstr ""
+"Stellen Sie sicher, dass **Use SSL for all the servers on this network** "
+"markiert ist."
 
 msgid ""
 "Make sure to use the same email address you'll want to use for code "
@@ -2266,6 +2445,9 @@ msgstr "Melvin Hillsman – OSIC"
 msgid "Mentors/helpers"
 msgstr "Mentoren, Helfer"
 
+msgid "Merged in the master branch first and then cherry-picked to stable"
+msgstr "Merged im Master Branch und dann cherry-picked für Stable"
+
 msgid "Merged!"
 msgstr "Merged!"
 
@@ -2293,11 +2475,17 @@ msgstr "Mission"
 msgid "Mission (https://wiki.openstack.org/wiki/Main_Page)"
 msgstr "Mission (https://wiki.openstack.org/wiki/Main_Page)"
 
+msgid "Module - more views"
+msgstr "Module - weitere Ansichten"
+
 msgid "Module contributors"
 msgstr "Module Beiträger"
 
 msgid "More focus on testing"
 msgstr "Mehr Fokus auf das Testen"
+
+msgid "More information: Governance page"
+msgstr "Weitere Informationen: Governance Seite"
 
 msgid "More information: http://openstackdays.com/archive/2015/feature/"
 msgstr "Mehr Informationen: http://openstackdays.com/archive/2015/feature/"
@@ -2379,6 +2567,9 @@ msgstr "Neue Vereinbarung"
 
 msgid "New features"
 msgstr "Neue Funktionen"
+
+msgid "New patchset was recorded in Gerrit."
+msgstr "Neues Patchset wurde in Gerrit festgehalten."
 
 msgid "New release-critical bugs"
 msgstr "Neue versionskritische Fehler"
@@ -2480,6 +2671,16 @@ msgstr ""
 "Option passiert."
 
 msgid ""
+"Once you have Git installed you need to configure it. Open your terminal "
+"application and issue the following commands putting in your first/last name "
+"and email address. This is how your contributions will be identified::"
+msgstr ""
+"Nachdem Sie Git installiert haben müssen Sie es konfigurieren. Öffnen Sie "
+"ein Terminal und setzen Sie die folgenden Kommando ab. Fügen Sie Vorname/"
+"Nachname und Ihre E-Mail Adresse ein. Mit diesen Daten werden Ihre Beiträge "
+"identifiziert::"
+
+msgid ""
 "Once your contact information is saved successfully, you will see the line **"
 "\"Contact information last updated ....\"** just above the forms of mailing "
 "address."
@@ -2509,6 +2710,13 @@ msgstr "Offene Entwicklung"
 
 msgid "Open Source"
 msgstr "Offene Quellen"
+
+msgid ""
+"Open an *upstream training* IRC meeting and make consensus from various "
+"travel plans."
+msgstr ""
+"Öffnen Sie ein *Upstream Training* IRC-Meeting und stimmen Sie die diversen "
+"Reisepläne ab."
 
 msgid "Open collaboration"
 msgstr "offene Zusammenarbeit"
@@ -2716,6 +2924,9 @@ msgstr "Pro Projektmarke"
 
 msgid "Perform the smaller tasks"
 msgstr "kleine Aufgaben durchführen"
+
+msgid "Personal message or talk in the channel to people"
+msgstr "Persönliche Nachricht oder sprechen mit den Leuten im Kanal"
 
 msgid "Pick a task (bug, trivial fix, documentation, implementation)"
 msgstr ""
@@ -2989,6 +3200,9 @@ msgstr "Anforderungen an offizielle OpenStack Projekte"
 msgid "Reserved for ad-hoc meetings of project teams"
 msgstr "Reserviert für ad-hoc Meetings von Projektteams"
 
+msgid "Resolve merge conflicts"
+msgstr "Auflösen von Merge-Konflikten"
+
 msgid "Resolve technical disputes"
 msgstr "Technische Konflikte lösen"
 
@@ -3002,8 +3216,14 @@ msgstr ""
 "Starten Sie den entsprechenden Dienst in Ihrer DevStack Umgebung neu und "
 "finden Sie die neuen Nachrichten in den Logs"
 
+msgid "Results will be accumulated in History."
+msgstr "Ergebnisse werden in der Historie gesammelt."
+
 msgid "Review"
 msgstr "Überprüfung"
+
+msgid "Review Score & Results"
+msgstr "Review Score & Ergebnis"
 
 msgid "Review again"
 msgstr "wiederholte Review"
@@ -3096,6 +3316,12 @@ msgstr "Sandbox Repository"
 msgid "Say a few words about yourself"
 msgstr "Sagen Sie ein paar Worte zu sich selbst"
 
+msgid "Score status"
+msgstr "Score Status"
+
+msgid "Score will reflect reviewer's opinion."
+msgstr "Der Score entspricht der Meinung des Reviewers."
+
 msgid "Second day"
 msgstr "Zweiter Tag"
 
@@ -3107,6 +3333,9 @@ msgstr "SecurityImpact"
 
 msgid "Seeing new comment"
 msgstr "Neue Kommentare wahrnehmen"
+
+msgid "Seeing review score with written comments"
+msgstr "Betrachten von Review-Scores mit geschriebenen Kommentaren"
 
 msgid "Self-contained"
 msgstr "In sich geschlossen"
@@ -3218,6 +3447,9 @@ msgstr "Spezialitätenteams"
 msgid "Speed up the acceptance"
 msgstr "Aktzeptanz erhöhen."
 
+msgid "Speeding the Acceptance"
+msgstr "Akzeptanz beschleunigen"
+
 msgid "Stable branches"
 msgstr "Stabile Branches"
 
@@ -3227,6 +3459,13 @@ msgstr "Stackalytics"
 msgid "Stackalytics Wiki: https://wiki.openstack.org/wiki/Stackalytics"
 msgstr "Stackalytics Wiki: https://wiki.openstack.org/wiki/Stackalytics"
 
+msgid ""
+"Stackalytics site is being migrated to http://stackalytics.openstack.org by "
+"OpenStack Infrastructure team."
+msgstr ""
+"Die Stackalytics Seite wurde von OpenStack Infrastruktur Team nach http://"
+"stackalytics.openstack.org migriert."
+
 msgid "Staff"
 msgstr "Lehrpersonal"
 
@@ -3234,6 +3473,9 @@ msgid "Start DevStack in a VM on your laptop or in public cloud"
 msgstr ""
 "Starten von DevStack in einer VM auf dem Laptop oder in einer öffentlichen "
 "Cloud"
+
+msgid "Start work from latest patchset"
+msgstr "Starten Sie mit dem letzten Patchset"
 
 msgid "Status: Fix Committed"
 msgstr "Status: behoben committed"
@@ -3504,6 +3746,13 @@ msgstr ""
 "Gatherings (PTG)"
 
 msgid ""
+"The trainers have led the training in Barcelona and will lead the next "
+"training in Boston, in English:"
+msgstr ""
+"Die Trainer haben das Training in Barcelona geleitet und werden das nächste "
+"Training in Boston leiten, in Englisch:"
+
+msgid ""
 "The training concentrates on the common cycle with the development "
 "milestones as that is what most students will face with. The other types "
 "should be described with examples."
@@ -3583,6 +3832,16 @@ msgstr "Zeitliche Koordinierung"
 msgid "To notify working status on the bug to others"
 msgstr "Um den Bearbeitungszustand eines Bugreports an andere zu melden"
 
+msgid ""
+"To produce the ubiquitous Open Source Cloud Computing platform that will "
+"meet the needs of public and private clouds regardless of size, by being "
+"simple to implement and massively scalable."
+msgstr ""
+"Zur Herstellung der ubiquitären Open Source Cloud Computing Plattform, die "
+"die Ansprüche an eine öffentliche und private Cloud befriedigt, unabhängig "
+"von der Größe, durch Einfachheit bei der Implementierung und massive "
+"Skalierbarkeit."
+
 msgid "To understand how it all fits together, we use a hands on example"
 msgstr ""
 "Wie benutzen ein paar Beispiele, um zu zeigen, wie alles zusammen passt"
@@ -3633,6 +3892,20 @@ msgstr "ausgelöst bei jedem Commit"
 msgid "Troubleshooting"
 msgstr "Fehlersuche"
 
+msgid ""
+"Try to find things to make comments on even if they are just asking a "
+"question and not pointing out an issue, don't just +1 three different "
+"patches."
+msgstr ""
+"Versuchen Sie Dinge zu finden, die sie kommentieren können, auch wenn das "
+"bedeutet nur Fragen zu stellen und nicht auf ein Problem hinzuweisen. Geben "
+"Sie nicht nur drei verschiedenen Patches +1."
+
+msgid "Type in a different user/nick name as shown in the previous step."
+msgstr ""
+"Geben Sie einen anderen Benutzer/Spitznamen als den im vorherigen Schritt "
+"angezeigten an."
+
 msgid "Types of sessions"
 msgstr "Typen von Sitzungen"
 
@@ -3663,6 +3936,9 @@ msgstr "Das Reglement verstehen"
 
 msgid "Unit"
 msgstr "Unit"
+
+msgid "Update and add tests (unit, functional, etc.)"
+msgstr "Aktualisieren und Tests hinzufügen (Unit, funktional, etc.)"
 
 msgid "UpgradeImpact"
 msgstr "UpgradeImpact"
@@ -3872,6 +4148,13 @@ msgstr ""
 "sicher, dass sie dieselbe E-Mail-Adresse verwenden wir für die Code-Beiträge."
 
 msgid ""
+"When you login to the server for the first time with your nickname, its "
+"being used by you, but it's still not registered yet."
+msgstr ""
+"Wenn Sie sich zum ersten Mal auf dem Server mit Ihrem Spitznamen einloggen "
+"wird er von Ihnen verwendet, ist aber noch nicht registriert."
+
+msgid ""
 "When you're prompted to \"Enter a file in which to save the key\" press "
 "Enter. This accepts the default location::"
 msgstr ""
@@ -3957,6 +4240,9 @@ msgstr ""
 msgid "Workflow service"
 msgstr "Workflow-Dienst"
 
+msgid "Working for commit"
+msgstr "Auf den Commit hinarbeiten"
+
 msgid "Working groups"
 msgstr "Arbeitsgruppen"
 
@@ -3981,6 +4267,13 @@ msgstr ""
 "um sich durch die Tutorials für git zu arbeiten."
 
 msgid ""
+"You need to register your contact information including your full name, "
+"email address and offline contact information."
+msgstr ""
+"Sie müssen Ihre Kontaktinformationen registrieren, einschließlich Ihres "
+"vollständigen Namens, E-Mail Adresse und offline Kontaktinformationen."
+
+msgid ""
 "You will be prompted to select a username. You can enter the same one you "
 "did for launchpad, or something else."
 msgstr ""
@@ -3989,6 +4282,13 @@ msgstr ""
 
 msgid "Your Patch Upstream"
 msgstr "Ihr Patch Upstream"
+
+msgid ""
+"Your full name and email address will be public and the email address needs "
+"to match the email address which you plan to use in your commits."
+msgstr ""
+"Ihr vollständiger Name und die E-Mail Adresse sind öffentlich und die E-Mail "
+"Adresse muss der entsprechen, die Sie in Commits verwenden wollen."
 
 msgid "Your management"
 msgstr "Ihr Management"
