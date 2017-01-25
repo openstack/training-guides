@@ -1,6 +1,6 @@
 # Ian Y. Choi <ianyrchoi@gmail.com>, 2015. #zanata
 # Sungjin Kang <gang.sungjin@gmail.com>, 2015. #zanata
-# Eunseop Shin <kairos9603@gmail.com>, 2016. #zanata
+# Eunseop Shin <kairos9603@khu.ac.kr>, 2016. #zanata
 # Ian Y. Choi <ianyrchoi@gmail.com>, 2016. #zanata
 # Jun-Sik Shin <jsshin@smartx.kr>, 2016. #zanata
 # SeongSoo Cho <nexusz99@gmail.com>, 2016. #zanata
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-03 08:58+0000\n"
+"POT-Creation-Date: 2017-01-20 18:20+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -941,11 +941,6 @@ msgid ""
 msgstr ""
 "해당 .rst 파일을 포함하여 새로운 커밋을 openstack-dev/sandbox 저장소에 생성하"
 "고 완료된 경우 해당 커밋을 Gerrit에 제출합니다."
-
-msgid ""
-"Create a virtual machine on your laptop with Ubuntu 14.04 installed and 6+ "
-"GB of RAM."
-msgstr "노트북에 Ubuntu 14.04 설치 및 RAM 6기가 이상의 가상 머신을 생성합니다."
 
 msgid "Create your commit"
 msgstr "커밋을 생성합니다"
