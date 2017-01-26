@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-20 18:20+0000\n"
+"POT-Creation-Date: 2017-01-25 10:13+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -3863,9 +3863,6 @@ msgstr "コメントを付けた改定パッチのアップロード"
 
 msgid "Uploading to Gerrit"
 msgstr "Gerrit へのアップロード"
-
-msgid "Upstream Training in Japan"
-msgstr "日本ローカル Upstream Training"
 
 msgid "Upstream is responsible for the finished product."
 msgstr "アップストリームは完成した製品に責任を持ちます。"

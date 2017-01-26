@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-20 18:20+0000\n"
+"POT-Creation-Date: 2017-01-25 10:13+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -4344,9 +4344,6 @@ msgstr "Meng-upload sebuah patch yang direvisi dengan komentar"
 
 msgid "Uploading to Gerrit"
 msgstr "Meng-upload ke Gerrit"
-
-msgid "Upstream Training in Japan"
-msgstr "Upstream Training in Japan (pelatihan hulu di Jepang)"
 
 msgid "Upstream is responsible for the finished product."
 msgstr "Hulu bertanggung jawab untuk produk jadi."
