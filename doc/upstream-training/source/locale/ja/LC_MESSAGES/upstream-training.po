@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-25 10:13+0000\n"
+"POT-Creation-Date: 2017-02-02 09:36+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-01-20 02:32+0000\n"
+"PO-Revision-Date: 2017-02-03 02:37+0000\n"
 "Last-Translator: KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1059,6 +1059,9 @@ msgstr ""
 msgid "Done"
 msgstr "完了"
 
+msgid "Draft comment publishment"
+msgstr "ドラフトコメントの公開"
+
 msgid "Draft comment was saved"
 msgstr "コメントのドラフトが保存されました"
 
@@ -1220,6 +1223,9 @@ msgstr "演習: 手順 1"
 
 msgid "Exercise: Step 2"
 msgstr "演習: ステップ2"
+
+msgid "Exercise: Step 3 and more"
+msgstr "演習: ステップ 3 以降"
 
 msgid "Exercise: What kind of Program do you contribute to ?"
 msgstr "演習: コントリビューションしたいプロジェクトは何か?"
@@ -2446,6 +2452,10 @@ msgstr "マイルストーン (Milestone): バグが修正されたマイルス�
 msgid "Milestones"
 msgstr "マイルストーン"
 
+msgid "Milestones are tagged in the repository using b1, b2 and b3"
+msgstr ""
+"マイルストーンは、b1、b2、b3 を使用して、リポジトリーでタグ付けされます。"
+
 msgid "Mission"
 msgstr "ミッション"
 
@@ -2562,6 +2572,9 @@ msgid ""
 "Nonprofit foundation created to \"develop, support, protect, and promote\" "
 "OpenStack"
 msgstr "OpenStack を「開発、支援、保護、促進」するために作成された非営利団体"
+
+msgid "Not a classic conference with presenter and audience"
+msgstr "昔ながらの発表者と参加者によるコンファレンスではありません。"
 
 msgid "Not really a bug, but a suggested improvement"
 msgstr "実際のバグではなく、改善提案"
@@ -2791,6 +2804,9 @@ msgstr "その他: https://wiki.openstack.org/wiki/Meetings"
 msgid "Outline and online slide index"
 msgstr "概要およびスライドのインデックス"
 
+msgid "Overall feature freeze is the third milestone"
+msgstr "全体の機能凍結は 3 番目のマイルストーンです"
+
 msgid "Oversight over the OpenStack projects"
 msgstr "OpenStack プロジェクト全体の監督"
 
@@ -2945,6 +2961,9 @@ msgstr "パブリッククラウド/プライベートクラウド向け"
 
 msgid "Publish comment"
 msgstr "コメントの公開"
+
+msgid "Publish comment reply"
+msgstr "返信コメントの公開"
 
 msgid "Published collectively as the OpenStack release"
 msgstr "OpenStack リリースとして、まとめて公開される"
@@ -3791,6 +3810,9 @@ msgstr ""
 "透明性: すべての統計が正確かつ公平に数えられていることをコミュニティーが確信"
 "できる"
 
+msgid "Treat documentation like OpenStack code."
+msgstr "ドキュメントを OpenStack コードのように取り扱います。"
+
 msgid "Triaged"
 msgstr "Triaged"
 
@@ -3799,6 +3821,15 @@ msgstr "すべてのコミットにおいて実行"
 
 msgid "Troubleshooting"
 msgstr "トラブルシューティング"
+
+msgid ""
+"Try to find things to make comments on even if they are just asking a "
+"question and not pointing out an issue, don't just +1 three different "
+"patches."
+msgstr ""
+"コメントが問題を指摘するものではなく単に質問であってもよいので、何か見つけて"
+"コメントするようにしてください。くれぐれも 3 つのパッチにただ +1 をするだけと"
+"いうのはやめてください。"
 
 msgid "Type in a different user/nick name as shown in the previous step."
 msgstr "前の手順にあるとおり、別のユーザー名とニックネームを入力します。"
@@ -3986,6 +4017,12 @@ msgstr "OpenStack におけるコミュニケーション方法"
 
 msgid "We are new age people with some good old technology around"
 msgstr "私たちは新世代の人間ですが、優れた古い技術を活用しています"
+
+msgid "We have seen in `Commit Messages <workflow-commit-message.html#9>`__"
+msgstr "`コミットメッセージ <workflow-commit-message.html#9>`_ で確認しました"
+
+msgid "We have seen in `Gerrit <workflow-gerrit.html#5>`__"
+msgstr "`Gerrit <workflow-gerrit.html#5>`__ で確認しました"
 
 msgid ""
 "We have seen in `Overview of the contribution process <workflow-training-"
@@ -5106,6 +5143,9 @@ msgstr "master ブランチは開発向けにオープンになります"
 
 msgid "milestone or release branch"
 msgstr "マイルストーンまたはリリースブランチ"
+
+msgid "more like a collaborative brainstorming session"
+msgstr "より協調的なブレインストーミングのセッションです。"
 
 msgid "nvie inspired"
 msgstr "nvie による触発"
