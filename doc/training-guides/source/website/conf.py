@@ -66,7 +66,7 @@ release = '0.0.1'
 #   bug_tag: Tag for categorizing the bug. Must be set manually.
 #   bug_project: Project to file bugs against.
 # These variables are passed to the logabug code via html_context.
-giturl = u'http://git.openstack.org/cgit/openstack/training-guides/tree/doc/training-guides/'
+giturl = u'https://git.openstack.org/cgit/openstack/training-guides/tree/doc/training-guides/'
 git_cmd = "/usr/bin/git log | head -n1 | cut -f2 -d' '"
 gitsha = os.popen(git_cmd).read().strip('\n')
 html_context = {"gitsha": gitsha, "bug_tag": bug_tag,
