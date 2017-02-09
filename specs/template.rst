@@ -110,7 +110,7 @@ Each API method which is either added or changed should have the following
       inconsistent parameters supplied to the method, or when an
       instance is not in an appropriate state for the request to
       succeed. Errors caused by syntactic problems covered by the JSON
-      schema defintion do not need to be included.
+      schema definition do not need to be included.
 
   * URL for the resource
 
