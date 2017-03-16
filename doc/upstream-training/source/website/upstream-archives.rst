@@ -128,19 +128,39 @@ Local Upstream Trainings
 Seoul, Korea
 ------------
 
-* Date: February 18, 2016 (Thu)
-* `Etherpad for Upstream Training, Korea, 2016
-  <https://etherpad.openstack.org/p/upstream-training-korea-2016>`_
-* More information: http://sdndev.net/10
-* Staff
+* 2nd Upstream Training in Seoul with Ubuntu Korea Community & Naver D2
 
-  * Ian Y. Choi (training, assistant, mentoring)
-  * Stephan Ahn (training, assistant, mentoring)
-  * Sungjin Kang (training, assistant, mentoring)
-  * Namgon Lucas Kim (assistant, mentoring)
-  * Junsik Shin (assistant, mentoring)
-  * Jungsu Han (assistant, mentoring)
-  * Jieun Kim (assistant)
+  * Date: February 11, 2017 (Sat)
+  * `Etherpad for Upstream Training, Korea, 2017
+    <https://etherpad.openstack.org/p/upstream-training-korea-2017>`_
+  * More information: http://sdndev.net/11
+  * Staff
+
+    * Ian Y. Choi (training, assistant, mentoring)
+    * SeongSoo Cho (assistant, mentoring)
+    * Taehee Jang (assistant, mentoring - Ubuntu Korea Community)
+    * Youngwoo Kim (assistant, mentoring)
+    * EunSeop Shin (assistant, mentoring)
+    * Young-Kyun Kim (assistant, mentoring)
+    * Sungjin Kang (assistant, mentoring)
+    * Hyeunjee Kim (assistant, mentoring)
+    * Peter Ko (assistant, mentoring)
+
+* 1st Upstream Training in Seoul
+
+  * Date: February 18, 2016 (Thu)
+  * `Etherpad for Upstream Training, Korea, 2016
+    <https://etherpad.openstack.org/p/upstream-training-korea-2016>`_
+  * More information: http://sdndev.net/10
+  * Staff
+
+    * Ian Y. Choi (training, assistant, mentoring)
+    * Stephan Ahn (training, assistant, mentoring)
+    * Sungjin Kang (training, assistant, mentoring)
+    * Namgon Lucas Kim (assistant, mentoring)
+    * Junsik Shin (assistant, mentoring)
+    * Jungsu Han (assistant, mentoring)
+    * Jieun Kim (assistant)
 
 Tokyo, Japan
 ------------
