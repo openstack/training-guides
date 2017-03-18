@@ -56,6 +56,8 @@ For more information about the session of the OpenStack Upstream Institute
 in Boston, see the `OpenStack Academy page
 <https://www.openstack.org/summit/boston-2017/openstack-academy>`_.
 
+.. _prepare-environment:
+
 How to prepare
 ==============
 

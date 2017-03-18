@@ -1,6 +1,6 @@
-===================================
-OpenStack Upstream Training Details
-===================================
+==========================================
+OpenStack Upstream Institute Class Details
+==========================================
 
 Introduction
 ============
@@ -8,78 +8,99 @@ Introduction
 With over 2000 developers from 80 different companies worldwide, OpenStack is
 one of the largest collaborative software-development projects. Because of its
 size, it is characterized by a huge diversity in social norms and technical
-conventions. These can significantly slow down the speed at which newcomers
-are successful at integrating their own roadmap into that of the OpenStack
-project.
+conventions. Attending a live class to get an insight of how the community
+operates and to learn about the insights and best practices can significantly
+increase the speed at which newcomers are successful at integrating their own
+roadmap into that of the OpenStack project.
 
-We've designed a training program to help professional developers negotiate
-this hurdle. It shows them how to ensure their bug fix or feature is accepted
-in the OpenStack project in a minimum amount of time. The educational program
-requires students to work on real-life bug fixes or new features during two
-days of real-life classes and online mentoring, until the work is accepted by
-OpenStack. The live two-day class teaches them to navigate the intricacies of
-the project's technical tools and social interactions. In a followup session,
-the students benefit from individual online sessions to help them resolve any
-remaining problems they might have.
+We've designed a training program to provide an interactive environment to
+newcomers where they can learn they ways of collaborating with our community.
+We are relying on the principles of open collaboration and describe and show
+how the 'Four Opens' work in OpenStack in practice.
+
+The training has a modular structre by which it gives room to attendees with
+different job roles.
+
+For example if you are a project or program manager it is very important for
+you to understand how the OpenStack releases are structured in order to be able
+to plan the roadmap for the product you are responsible for. You might also be
+interested in participating in Working Groups to actively participate in and
+influence the community in you areas of interest. The training helps you to
+find the information entry points you need.
+
+If you are a developer we help you to find your way into the community to get
+your bug fix or feature accepted in the OpenStack project in a minimum amount
+of time.
+
+The live one and a half day class teaches the students how to navigate the
+intricacies of the project's technical tools and social interactions and shows
+how they can collaborate with the community and find their place in the
+ecosystem.
+
+After the training students have the possibility to sign up for a longer term
+mentoring to further stregthen the skills they've learnt during the training.
 
 Objectives
 ==========
 
-- Faster integration of the companies product roadmap into the OpenStack
-  release cycle
-- Successfully contribute one real world patch to an OpenStack component
-- Master the technical tools
+- Understand the OpenStack release cycle to the level of being able to
+  sychronize and integrate it with your product's roadmap
+- Get to know the technical tools
 - Understand the OpenStack contribution workflow and social norms
+- Know where to find information, where and how to get help if needed
+- Be able to identify and start a task (bug fix, feature design and
+  implementation, Working Group activity and so forth)
 
 Target Audience
 ===============
 
-- Developers
+- Developers/Software Engineers/Architects
 - System administrators
+- Project/Program managers/Product owners
 
-Prerequisites
-=============
+Prerequisites to attend the class
+=================================
 
 - Being able to read and write English at a technical level
+
+Recommendations to become an active community member
+====================================================
+
+- For code and/or documentation contributions having at least 40% of your work
+  time dedicate to the project, be it through programming or through
+  interacting with the community
+- For Working Group participation having at least 15-20% of your work time
+  allocated for community activities
 - If contributing code, being technically proficient enough to carry out
   simple bug fixes in the project
 - If contributing documentation, being able to produce documents in the
   project's chosen infrastructure
-- Having at least 8 hours a week to dedicate to the project, be it through
-  programming or through interacting with the community
+
 
 Duration
 ========
 
-- Face-to-face section: 2 days
-- Online section: 10 one-hour individual mentoring sessions over a period of
-  4 to 10 weeks
+- Face-to-face section: 1.5 days
 
 Infrastructure
 ==============
 
-- `ready to use DevStack VM <https://wiki.openstack.org/wiki/OpenStack_Upstream_Training/Setup_DevStack>`_
-  for participants with network connectivity but troubles with their laptop
+We are providing a virtual machine with the necessary tools pre-installed in
+it. For further information about the system requirements on it please see the
+`ref: prepare-environment` section.
 
 Course Outline
 ==============
 
-First day
-=========
-
-Introduction
-~~~~~~~~~~~~
-
-* A week before Day 1: choice of a contribution, via email, with each
-  participant
 * Day 1: Introduction
 * Day 1: How OpenStack is made
 * Day 1: Learn and practice Git, Gerrit, IRC
 
 * Day 2: The theory of contribution
-* Day 2: Lego contribution simulation
-* Day 2: Individual presentation of the contribution plan
-* Day 2: Online mentoring
+* Day 2: Deep dive sessions
+
+First day
+---------
 
 Introduction
 ~~~~~~~~~~~~
@@ -218,7 +239,7 @@ Workflow of an OpenStack contribution and tools (3h including 2h exercises)
   * Exercise: add an error and match it to the Jenkins message
 
 Second day
-==========
+----------
 
 The Contribution Process (1 hour)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -245,122 +266,5 @@ Overview of the contribution process
 * Maximize karma
 * Work in parallel
 * Archive and collect
-
-Lego applied to Free Software contributions (15 min)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Lego applied to Free Software contributions
-
-These slides prepare students for the Lego activity, and ensure they
-understand the metaphors in use. The Lego in the exercise represents the
-code of a software project, in this case OpenStack. The students all take
-on roles that represent various facets of the OpenStack community, including
-upstream roles like Foundation and TC, and contributors like corporations,
-and unaffiliated individuals animated by unknown motives (free agents).
-
-The group is split into their new 'teams' at this stage. Facilitators can
-choose any way they prefer to do this (selecting teams, or allowing students
-to self-select). The recommended numbers are in the slides, but can be
-changed to suit the number of participants in the room. For a very large
-group, consider separating into two 'communities', which then have to
-fit their streets together to complete the session. Having more
-communities requires an extra level of coordination to reach
-`interoperability` between the results of their work.
-
-Give each person a nametag to wear, with their first name and their
-role written on it. For free agents, don't disclose who is distracted,
-controversial, or agreeable. The community will need to work this out
-on their own.
-
-Contribution Simulation (2 hour)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Ahead of time: ensure the existing Lego buildings are set out on a table,
-but not connected to each other. All the unsorted bricks should be available
-in several smaller boxes in a different part of the room, for participants
-to use. There is no need to display the boxes or instruction manuals.
-
-Once the students are separated into their new roles, and have an
-understanding of the project, begin the timer for the first sprint. During
-the five minutes planning time, encourage each group to get together and
-think about their project. If possible, give each group a corner of the room
-and access to a whiteboard or flipchart. For companies, ensure the CEO sets
-a direction, and the team is on board. Their responsibility is to
-deliver value to their stakeholders. For upstream, have them think about
-the community standards they want to set: they are responsible for the
-quality of the finished product. For free agent contributors,
-use this time to get them to understand their role in the simulation:
-explain their part as agents of chaos. They can get straight to work
-as soon as they understand their role, no need to wait for the timer
-to go off. The free agents should not be forced to coordinate among
-themselves: there are better results if they find out how hard it is
-to accomplish anything without coordinating with others. In theory,
-the free agents can decide to demolish things, too: try suggesting
-this option to one of them, see what happens.
-
-Suggestions of projects to work on:
-
-* Companies: big industrial items like a shopping mall, carpark, energy
-  plant, datacenter, and hospital.
-
-* Free agents: community items like vegetable patches, bicycle paths,
-  public artworks, playgrounds. For the controversial agent, problematic
-  items such as a jail, skate bowl, and dog park.
-
-* Upstream: consider guidelines around consistency in the bricks used, how to
-  connect the road and sidewalk between the buildings, the kinds of
-  buildings they should request the community to make, and the things they
-  simply will not accept. Make them understand that they are
-  responsible for the finished product.
-
-Start the timer for building time, and allow everyone to start work. During
-each building phase, have mentors wander around the groups listening in and
-making suggestions, without actually doing any of the work or giving
-answers. The role of the mentors is to ask questions to orient the
-conversations among the teams. For example, during the first sprint it
-is common that the CEO and the PTL will face incompatibility of their
-plans. Mentors should ask the teams how to address those issues.
-
-In your interactions with the students, do not be afraid to provoke some
-issues. For example, bring up the idea of an API (a way of connecting the
-buildings to each other) with individual companies, but don't mention it
-to upstream, so that upstream are finally faced with the challenge of
-standardizing the API. You could also, in the second or third sprint,
-encourage one group to call for a meeting off the sprint cycle to sort
-the problem out.
-
-During the final five minutes of the sprint (review time), ask everyone to
-take their hands off the Lego, and gather around the in-progress street. At
-this stage, upstream get to vote on the changes, and anything rejected gets
-sent back to the contributing group to be fixed. Ensure upstream give good
-reasons for rejections, along with suggestions for improvement. Encourage
-Upstream to reject a few things early on, to try and ensure contributors
-understand the need to have Foundation on board before they throw something
-over the wall.
-
-At the end of the four sprints, ensure you take a group photo!
-
-Contribution Planning (2 hours)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-`ODP slides <http://dachary.org/loic/openstack-training/training-student-project-sample.odp>`_
-`PDF slides <http://dachary.org/loic/openstack-training/training-student-project-sample.pdf>`_
-
-* The students use template slides to prepare a 5-minute presentation of
-  their planned contribution
-* A sample presentation is given by the teacher, as an example
-* Each student group prepares a presentation describing:
-
-  * the contribution they plan to work on during the online sessions
-  * how they will engage with the Upstream
-  * how it contributes to the company's agenda
-  * and whom they will be working with
-
-* Each student group presents its slides to the class
-
-Etherpad
-~~~~~~~~
-
-https://etherpad.openstack.org/p/upstream-training-vancouver
 
 `Complete index in slide format only <http://docs.openstack.org/upstream-training/slide-index.html>`_
