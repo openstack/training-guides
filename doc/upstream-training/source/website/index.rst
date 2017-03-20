@@ -68,6 +68,8 @@ For more information about this session and other OpenStack trainings and
 workshops in Boston, see the `OpenStack Academy page
 <https://www.openstack.org/summit/boston-2017/openstack-academy>`_.
 
+.. _prepare-environment:
+
 How to prepare
 ==============
 
