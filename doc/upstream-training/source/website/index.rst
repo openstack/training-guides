@@ -1,6 +1,6 @@
-===========================
-OpenStack Upstream Training
-===========================
+============================
+OpenStack Upstream Institute
+============================
 
 .. All documents in the source directory must occur in some toctree directive.
    Otherwise Sphinx will emit a warning if it finds a file that is not
@@ -41,19 +41,31 @@ to become an active and successful member of the OpenStack community.
 
 For more information, see :doc:`upstream-details`.
 
-When & Where to get OpenStack Upstream Training
-===============================================
+When and where to get an OpenStack Upstream Institute class
+===========================================================
 
-The next session of the OpenStack Upstream Training - OpenStack Upstream
-Institute - will be held in Boston, just before the
-`OpenStack Summit Boston 2017
-<https://www.openstack.org/summit/boston-2017/>`_.
+The next session of the OpenStack Upstream Collaboration Training - OpenStack
+Upstream Institute - will be held in Boston, just before the `OpenStack Summit
+Boston 2017 <https://www.openstack.org/summit/boston-2017/>`_.
 
  **Saturday, May 6, 2017 at 1:00 p.m. to 6:00 p.m.
  - Sunday, May 7, 2017 at 09:00 a.m. to 6:00 p.m. (local time)**
 
-For more information about the session of the OpenStack Upstream Institute
-in Boston, see the `OpenStack Academy page
+As a first exercise we ask you to `register to the OpenStack Foundation
+<https://www.openstack.org/join/register/>`_ as a Foundation member if you
+haven't done it yet. After signing in you will also need to `associate your
+EventBrite order with your OpenStackID
+<https://www.openstack.org/profile/attendeeInfoRegistration>`_.
+
+When you are all set you can `RSVP
+<https://www.openstack.org/summit/boston-2017/summit-schedule/events/18639/openstack-upstream-institute-day-1>`_ to the class.
+
+See YOU in Boston!
+
+Please note that the language of the training is English.
+
+For more information about this session and other OpenStack trainings and
+workshops in Boston, see the `OpenStack Academy page
 <https://www.openstack.org/summit/boston-2017/openstack-academy>`_.
 
 How to prepare
@@ -76,16 +88,21 @@ How to prepare
 
 * Read and complete the :doc:`accounts` guide.
 
-`Etherpad for Barcelona Upstream Training
-<https://etherpad.openstack.org/p/upstream-training-barcelona>`_
+`Etherpad for Boston Upstream Collaboration Training
+<https://etherpad.openstack.org/p/upstream-training-boston>`_
 
 Staff
 =====
 
-The trainers have led the training in Barcelona and will lead the next training
-in Boston, in English:
+Training organizers
+-------------------
 
-Ildiko Vancsa, Kendall Nelson, Mark Korondi, and Marton Kiss
+Ildiko Vancsa, Kendall Nelson
+
+Further trainers/coaches
+------------------------
+
+
 
 Archives
 ========
