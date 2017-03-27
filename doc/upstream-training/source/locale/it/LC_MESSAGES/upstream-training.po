@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-17 03:18+0000\n"
+"POT-Creation-Date: 2017-03-24 12:14+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -86,13 +86,6 @@ msgstr ""
 
 msgid "A way to coordinate the development of multiple projects"
 msgstr "Un modo per coordinare lo sviluppo di diversi progetti"
-
-msgid ""
-"A week before Day 1: choice of a contribution, via email, with each "
-"participant"
-msgstr ""
-"Una settimana prima del giorno 1: scelta di una collaborazione, via email, "
-"con ciascun partecipante"
 
 #, fuzzy
 msgid "Abstract"
@@ -415,15 +408,6 @@ msgstr "Giorno 1: Come è fatto OpenStack"
 msgid "Day 1: Learn and practice Git, Gerrit, IRC"
 msgstr "Giorno 1: Impara e metti in pratica Git, Gerrit, IRC"
 
-msgid "Day 2: Individual presentation of the contribution plan"
-msgstr "Giorno 2: Presentazione individuale del piano di collaborazione"
-
-msgid "Day 2: Lego contribution simulation"
-msgstr "GIorno 2: Simulazione di collaborazione di Lego"
-
-msgid "Day 2: Online mentoring"
-msgstr "Giorno 2: Tutoraggio online"
-
 msgid "Day 2: The theory of contribution"
 msgstr "Giorno 2: La teoria della collaborazione"
 
@@ -591,9 +575,6 @@ msgstr ""
 msgid "Explain what you do"
 msgstr "Spiega cosa fai"
 
-msgid "Face-to-face section: 2 days"
-msgstr "Sezione faccia a faccia: 2 giorni"
-
 msgid ""
 "Failure of a significant feature, with workaround. Failure of a fringe "
 "feature, no workaround"
@@ -606,13 +587,6 @@ msgstr "Errori falsi"
 
 msgid "Familiarize yourself with the code of conduct"
 msgstr "Acquisisci familiarità con il codice di condotta"
-
-msgid ""
-"Faster integration of the companies product roadmap into the OpenStack "
-"release cycle"
-msgstr ""
-"Integrazione più rapida della tabella di marcia dei prodotti delle aziende "
-"nel ciclo di rilascio di OpenStack"
 
 msgid "Feature freeze"
 msgstr "Feature ferma"
@@ -822,13 +796,6 @@ msgstr "Corretto: nuova API + nuova funzionalità"
 
 msgid "Haikel Guemar (assistant, mentor, french, english)"
 msgstr "Haikel Guemar (assistente, mentore, francese, inglese)"
-
-msgid ""
-"Having at least 8 hours a week to dedicate to the project, be it through "
-"programming or through interacting with the community"
-msgstr ""
-"Avere almeno 8 ore a settimana da dedicare al progetto, sia attraverso la "
-"programmazione sia interagendo con la comunità"
 
 msgid "High"
 msgstr "Alto"
@@ -1218,9 +1185,6 @@ msgstr ""
 msgid "Marton Kiss (training, mentoring, assistant)"
 msgstr "Marton Kiss (formazione, tutoraggio, assistenza)"
 
-msgid "Master the technical tools"
-msgstr "Padroneggia gli strumenti tecnici"
-
 msgid "Maximize karma"
 msgstr "Massimizza il karma"
 
@@ -1323,13 +1287,6 @@ msgstr ""
 "terminale ed inserisci i seguenti comandi mettendo il tuo nome/cognome ed "
 "indirizzo email. Così è comele tue collaborazioni saranno identificate::"
 
-msgid ""
-"Online section: 10 one-hour individual mentoring sessions over a period of 4 "
-"to 10 weeks"
-msgstr ""
-"Sezione online: 10 sessioni di tutoraggio individuali di un'ora per un "
-"periodo da 4 a 10 settimane"
-
 msgid "Open Community"
 msgstr "Open Community"
 
@@ -1375,9 +1332,6 @@ msgstr "OpenStack Upstream Training"
 msgid "OpenStack Upstream Training Archives"
 msgstr "Archivi dell'OpenStack Upstream Training"
 
-msgid "OpenStack Upstream Training Details"
-msgstr "Dettagli dell'OpenStack Upstream Training"
-
 msgid "Opinion"
 msgstr "Opinione"
 
@@ -1417,9 +1371,6 @@ msgstr "Gioca con il tuo network"
 
 msgid "Prepare the backport"
 msgstr "Prepara la backport"
-
-msgid "Prerequisites"
-msgstr "prerequisiti "
 
 msgid "Prioritize bugs / bug triage"
 msgstr "Dai la priorità ai bug/ conferma di bug"
@@ -1624,11 +1575,6 @@ msgstr "Le stringhe si fermano"
 
 msgid "Submit presentations to OpenStack conferences."
 msgstr "Inviare presentazioni alle conferenze di OpenStack."
-
-msgid "Successfully contribute one real world patch to an OpenStack component"
-msgstr ""
-"Contribuisci con successo un patch vero e proprio in un componente di "
-"OpenStack"
 
 msgid "Sungjin Kang (training, assistant, mentoring)"
 msgstr "Sungjin Kang (formazione, assistente, tutoraggio)"
@@ -1863,29 +1809,6 @@ msgstr ""
 msgid "We'll install an IRC program called Colloquy."
 msgstr "Installeremo un programma di IRC chiamato Colloquy."
 
-msgid ""
-"We've designed a training program to help professional developers negotiate "
-"this hurdle. It shows them how to ensure their bug fix or feature is "
-"accepted in the OpenStack project in a minimum amount of time. The "
-"educational program requires students to work on real-life bug fixes or new "
-"features during two days of real-life classes and online mentoring, until "
-"the work is accepted by OpenStack. The live two-day class teaches them to "
-"navigate the intricacies of the project's technical tools and social "
-"interactions. In a followup session, the students benefit from individual "
-"online sessions to help them resolve any remaining problems they might have."
-msgstr ""
-"Abbiamo progettato un programma di formazione per aiutare gli sviluppatori "
-"professionisti a getsire questo ostacolo. Esso gli mostra come assicurarsi "
-"che le loro correzioni di bug o feature venga accettato nel progetto "
-"OpenStack nella minima quantità di tempo. Il programma educativo richiede "
-"che gli studenti lavorino in correzioni di bug veri e propri o nuove feature "
-"durante due giorni di lezioni in diretta e tutoraggio online, finchè il "
-"lavoro venga accettato da OpenSTack. I due giorni di lezioni in diretta "
-"insegna loro a navigare le complessità degli strumenti tecnici del progetto "
-"e le interazioni sociali. In una sessione di tutoraggio, gli studenti "
-"possono godere di sessioni online individuali per aiutarli a risolvere "
-"qualsiasi altro problema essi possano avere."
-
 msgid "What are they?"
 msgstr "Che cosa sono?"
 
@@ -1906,9 +1829,6 @@ msgstr "A che tipo di progetto vuoi contribuire?"
 
 msgid "What makes a release"
 msgstr "Cosa rende un rilascio"
-
-msgid "When & Where to get OpenStack Upstream Training"
-msgstr "Quando e Dove avere l'OpenStack Upstream Training"
 
 msgid ""
 "When signing up for Foundation Membership, make sure to give the same email "
@@ -1956,21 +1876,6 @@ msgstr ""
 "rallentare significativamente la velocità in cui i nuovi arrivati hanno "
 "successo nell'integrare la loro tabella di marcia in quella del progetto "
 "OpenStack."
-
-msgid ""
-"With over 2000 developers from 80 different companies worldwide, OpenStack "
-"is one of the largest collaborative software-development projects. Because "
-"of its size, it is characterized by a huge diversity in social norms and "
-"technical conventions. These can significantly slow down the speed at which "
-"newcomers are successful at integrating their own roadmap into that of the "
-"OpenStack project."
-msgstr ""
-"Con più di 2000 sviluppatori da 80 aziende diverse nel mondo, OpenStack è "
-"uno dei progetti di sviluppo di software più vasti e collaborativi. A causa "
-"delle sue dimensioni, è caratterizzato da un'enorme diversità nelle norme "
-"sociali e nelle convenzioni tecniche. Queste possono rallentare "
-"significativamente la velocità in cui i nuovi arrivati hanno successo ad "
-"integrare la propria tabella di marcia in quella del progetto OpenStack."
 
 msgid "Won't Fix"
 msgstr "Non si risolverà"

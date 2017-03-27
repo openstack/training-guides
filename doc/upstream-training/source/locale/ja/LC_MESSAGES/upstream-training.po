@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-17 03:18+0000\n"
+"POT-Creation-Date: 2017-03-24 12:14+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -169,11 +169,6 @@ msgstr ""
 
 msgid "A way to coordinate the development of multiple projects"
 msgstr "複数のプロジェクトの開発を調整する方法"
-
-msgid ""
-"A week before Day 1: choice of a contribution, via email, with each "
-"participant"
-msgstr "開催 1 週間前: 各受講者によるコントリビューションの選択、メール経由"
 
 msgid "API"
 msgstr "API"
@@ -928,15 +923,6 @@ msgstr "1 日目: Git、Gerrit、IRC の学習と習熟"
 msgid "Day 2"
 msgstr "2 日目"
 
-msgid "Day 2: Individual presentation of the contribution plan"
-msgstr "2 日目: コントリビューション計画の個人発表"
-
-msgid "Day 2: Lego contribution simulation"
-msgstr "2 日目: LEGO を用いたコントリビューションのシミュレーション"
-
-msgid "Day 2: Online mentoring"
-msgstr "2 日目: オンラインのメンタリング"
-
 msgid "Day 2: The theory of contribution"
 msgstr "2 日目: コントリビューションの理論"
 
@@ -1292,9 +1278,6 @@ msgstr "何をしているかを説明する"
 msgid "Explanation of issue being solved and why it should be fixed"
 msgstr "解決される問題の説明、なぜ修正すべきなのか"
 
-msgid "Face-to-face section: 2 days"
-msgstr "集合教育: 2 日間"
-
 msgid ""
 "Failure of a significant feature, with workaround. Failure of a fringe "
 "feature, no workaround"
@@ -1305,11 +1288,6 @@ msgstr "誤検知エラー"
 
 msgid "Familiarize yourself with the code of conduct"
 msgstr "自分自身を行動規範に慣れさせる。"
-
-msgid ""
-"Faster integration of the companies product roadmap into the OpenStack "
-"release cycle"
-msgstr "企業の製品ロードマップと OpenStack のリリースサイクルの統合を早くする"
 
 msgid "Feature freeze"
 msgstr "機能の凍結"
@@ -1716,13 +1694,6 @@ msgstr "1 人以上のコントリビューターがいる活動中のチーム�
 msgid "Have one mentor sit together with each group"
 msgstr "各グループにメンターが 1 人入ります"
 
-msgid ""
-"Having at least 8 hours a week to dedicate to the project, be it through "
-"programming or through interacting with the community"
-msgstr ""
-"プログラミングまたはコミュニティーとのコミュニケーションを取り、1 週間に 8 時"
-"間はプロジェクトに専念すること。"
-
 msgid "Held by local groups to celebrate another year of OpenStack"
 msgstr "OpenStack の 1 年を祝うためにローカルグループにより開催されます"
 
@@ -1908,9 +1879,6 @@ msgstr ""
 
 msgid "Ildiko Vancsa - ildikov - Telemetry (mentoring, assistant)"
 msgstr "Ildiko Vancsa - ildikov - Telemetry (mentoring, assistant)"
-
-msgid "Ildiko Vancsa, Kendall Nelson, Mark Korondi, and Marton Kiss"
-msgstr "Ildiko Vancsa, Kendall Nelson, Mark Korondi, Marton Kiss"
 
 msgid "Ildikó Váncsa – The OpenStack Foundation"
 msgstr "Ildikó Váncsa – The OpenStack Foundation"
@@ -2398,9 +2366,6 @@ msgstr ""
 msgid "Marton Kiss (training, mentoring, assistant)"
 msgstr "Marton Kiss (training, mentoring, assistant)"
 
-msgid "Master the technical tools"
-msgstr "技術的なツールの習熟"
-
 msgid "Maximize karma"
 msgstr "カルマの最大化"
 
@@ -2642,12 +2607,6 @@ msgstr ""
 msgid "Online Communication"
 msgstr "オンラインコミュニケーション"
 
-msgid ""
-"Online section: 10 one-hour individual mentoring sessions over a period of 4 "
-"to 10 weeks"
-msgstr ""
-"オンラインセッション: 4 ～ 10 週間にわたる 10 回の 1 時間の個人メンタリング"
-
 msgid "Open Community"
 msgstr "オープンなコミュニティー"
 
@@ -2720,9 +2679,6 @@ msgstr "OpenStack Upstream Training"
 
 msgid "OpenStack Upstream Training Archives"
 msgstr "OpenStack Upstream Training アーカイブ"
-
-msgid "OpenStack Upstream Training Details"
-msgstr "OpenStack Upstream Training 詳細"
 
 msgid "OpenStack Upstream Training Introductions"
 msgstr "OpenStack Upstream Training 概要"
@@ -2885,9 +2841,6 @@ msgstr "あなたのアイディアを公開する準備"
 
 msgid "Prepared virtual machine image with a development environment:"
 msgstr "開発環境を入れた仮想マシンイメージを準備します。"
-
-msgid "Prerequisites"
-msgstr "事前要件"
 
 msgid "Prioritize bugs / bug triage"
 msgstr "バグの優先度付け、バグトリアージ"
@@ -3410,11 +3363,6 @@ msgstr "TC の監督の元に入る"
 msgid "Subset of the Foundation Individual Members"
 msgstr "Foundation Individual Members の一部"
 
-msgid "Successfully contribute one real world patch to an OpenStack component"
-msgstr ""
-"OpenStack コンポーネントへのパッチのコントリビューションを実際に 1 つ成功させ"
-"る"
-
 msgid "Succinctly describes patch content"
 msgstr "パッチの内容を簡潔に述べます"
 
@@ -3665,13 +3613,6 @@ msgid ""
 msgstr ""
 "チームは OpenStack サミットと Project Team Gathering (PTG) でスペースをもらえ"
 "ます"
-
-msgid ""
-"The trainers have led the training in Barcelona and will lead the next "
-"training in Boston, in English:"
-msgstr ""
-"トレーナーは、バルセロナでトレーニングをリードしました。また、次のボストンで"
-"も英語でリードします。"
 
 msgid ""
 "These slides prepare students for the Lego activity, and ensure they "
@@ -4043,26 +3984,6 @@ msgstr ""
 msgid "We'll install an IRC program called Colloquy."
 msgstr "Colloquy IRC プログラムをインストールします。"
 
-msgid ""
-"We've designed a training program to help professional developers negotiate "
-"this hurdle. It shows them how to ensure their bug fix or feature is "
-"accepted in the OpenStack project in a minimum amount of time. The "
-"educational program requires students to work on real-life bug fixes or new "
-"features during two days of real-life classes and online mentoring, until "
-"the work is accepted by OpenStack. The live two-day class teaches them to "
-"navigate the intricacies of the project's technical tools and social "
-"interactions. In a followup session, the students benefit from individual "
-"online sessions to help them resolve any remaining problems they might have."
-msgstr ""
-"プロフェッショナル開発者がこのハードルを乗り越える支援をするために、トレーニ"
-"ングプログラムを用意しました。バグ修正や機能追加ができる限り早く OpenStack プ"
-"ロジェクトにきちんと取り込まれるための方法を説明します。この教育プログラム"
-"は、受講者が、2日間の集合教育とオンラインのメンタリングを通して、OpenStack に"
-"取り込まれるまで、実際にバグ修正や新機能追加に取り組む必要があります。プロ"
-"ジェクトの技術的なツールやコミュニティとの関わりの複雑さについて、2日間の集合"
-"教育で説明します。フォローアップセッションでは、受講者が何か疑問に感じた点を"
-"解決するために、個々のオンラインセッションを受けられます。"
-
 msgid "What are they?"
 msgstr "これらは何か?"
 
@@ -4083,9 +4004,6 @@ msgstr "どの種類のプロジェクトに貢献したいですか?"
 
 msgid "What makes a release"
 msgstr "リリースとは何か"
-
-msgid "When & Where to get OpenStack Upstream Training"
-msgstr "OpenStack Upstream Training の開催日時および開催場所"
 
 msgid "When in the cycle you intend to complete it"
 msgstr "完了する予定のリリースサイクル"
@@ -4165,20 +4083,6 @@ msgstr ""
 "の規模によりもたらされる、社会規範や技術的な習慣における多様性が特徴的です。"
 "新規参入者が自身のロードマップと OpenStack プロジェクトとの統合を成功するまで"
 "に、かなり時間がかかってしまう可能性があります。"
-
-msgid ""
-"With over 2000 developers from 80 different companies worldwide, OpenStack "
-"is one of the largest collaborative software-development projects. Because "
-"of its size, it is characterized by a huge diversity in social norms and "
-"technical conventions. These can significantly slow down the speed at which "
-"newcomers are successful at integrating their own roadmap into that of the "
-"OpenStack project."
-msgstr ""
-"OpenStack は、最も巨大なコラボレーション型ソフトウェア開発プロジェクトの 1 つ"
-"です。世界中の 80 か国以上から 2000 人を超える開発者が参加しています。その規"
-"模によりもたらされる、社会規範や技術的な習慣における多様性が特徴的です。新規"
-"参入者が自身のロードマップと OpenStack プロジェクトとの統合を成功するまでに、"
-"かなり時間がかかってしまう可能性があります。"
 
 msgid "Won't Fix"
 msgstr "Won't Fix"
@@ -4377,13 +4281,6 @@ msgstr "`Documentation <https://wiki.openstack.org/wiki/Documentation/HowTo>`_"
 
 msgid "`Documentation Deep Dive <docs.html>`_"
 msgstr "`Documentation ディープダイブ <docs.html>`_"
-
-msgid ""
-"`Etherpad for Barcelona Upstream Training <https://etherpad.openstack.org/p/"
-"upstream-training-barcelona>`_"
-msgstr ""
-"`Barcelona Upstream Training の Etherpad <https://etherpad.openstack.org/p/"
-"upstream-training-barcelona>`_"
 
 msgid ""
 "`Etherpad for Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
@@ -4836,15 +4733,6 @@ msgid ""
 msgstr ""
 "`最小設定 <http://docs.openstack.org/developer/devstack/configuration."
 "html#minimal-configuration>`_"
-
-msgid ""
-"`ready to use DevStack VM <https://wiki.openstack.org/wiki/"
-"OpenStack_Upstream_Training/Setup_DevStack>`_ for participants with network "
-"connectivity but troubles with their laptop"
-msgstr ""
-"参加者は `devstack 仮想マシンの使用準備 <https://wiki.openstack.org/wiki/"
-"OpenStack_Upstream_Training/Setup_DevStack>`_ とネットワーク接続ができている"
-"が、ノート PC に問題がある"
 
 msgid "`reporting a bug <https://wiki.openstack.org/wiki/Bugs#Reporting>`_"
 msgstr "`バグ報告 <https://wiki.openstack.org/wiki/Bugs#Reporting>`_"

@@ -9,11 +9,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-17 13:02+0000\n"
+"POT-Creation-Date: 2017-03-24 12:14+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-03-24 01:23+0000\n"
+"PO-Revision-Date: 2017-03-27 06:39+0000\n"
 "Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
@@ -97,6 +97,9 @@ msgstr "179 개 국가"
 msgid "19:45 Barcelona FC Game"
 msgstr "19:45 바르셀로나 FC 경기"
 
+msgid "1st Upstream Training in Seoul"
+msgstr "서울에서의 첫 번째 업스트림 트레이닝"
+
 msgid "2,336 developers"
 msgstr "개발자 2,336 명"
 
@@ -129,6 +132,11 @@ msgstr "2016 스페인 Barcelona"
 
 msgid "2016 was 6th birthday of OpenStack"
 msgstr "2016년은 OpenStack 여섯 번째 생일이었습니다"
+
+msgid "2nd Upstream Training in Seoul with Ubuntu Korea Community & Naver D2"
+msgstr ""
+"우분투 한국 커뮤니티 & Naver D2와 함께 한 서울에서의 두 번째 업스트림 트레이"
+"닝"
 
 msgid "3-4 different companies"
 msgstr "3-4 개의 서로 다른 회사"
@@ -197,11 +205,6 @@ msgstr ""
 
 msgid "A way to coordinate the development of multiple projects"
 msgstr "여러 프로젝트에 대한 개발을 조정하는 방법"
-
-msgid ""
-"A week before Day 1: choice of a contribution, via email, with each "
-"participant"
-msgstr "1일차 1주일 전: 각 대상자와 함께 이메일을 통한 컨트리뷰션 사항 선택"
 
 msgid "API"
 msgstr "API"
@@ -386,11 +389,26 @@ msgstr "보관 및 수집"
 msgid "Archive of additional training activities"
 msgstr "부가적인 트레이닝 활동에 대한 아카이브"
 
+msgid "Archived exercises"
+msgstr "이전 실습"
+
 msgid "Archives"
 msgstr "아카이브"
 
 msgid "Areas of interest"
 msgstr "관심 분야"
+
+msgid ""
+"As a first exercise we ask you to `register to the OpenStack Foundation "
+"<https://www.openstack.org/join/register/>`_ as a Foundation member if you "
+"haven't done it yet. After signing in you will also need to `associate your "
+"EventBrite order with your OpenStackID <https://www.openstack.org/profile/"
+"attendeeInfoRegistration>`_."
+msgstr ""
+"첫 실습으로, 아직 계정이 없는 경우 `OpenStack Foundation 등록 <https://www."
+"openstack.org/join/register/>`_ 에서 Foundation 멤버로 등록하는 것을 요청합니"
+"다. 로그인을 한 다음에는 `EventBrite 등록을 OpenStackID와 연결 <https://www."
+"openstack.org/profile/attendeeInfoRegistration>`_ 을 할 필요가 있습니다."
 
 msgid "Ask a mentor to break the *tested* code of one test case"
 msgstr ""
@@ -996,6 +1014,9 @@ msgstr ""
 msgid "Date"
 msgstr "일자"
 
+msgid "Date: February 11, 2017 (Sat)"
+msgstr "일자: 2017년 2월 11일 (토)"
+
 msgid "Date: February 18, 2016 (Thu)"
 msgstr "일자: 2016년 2월 18일 (목)"
 
@@ -1013,15 +1034,6 @@ msgstr "1일차: Git, Gerrit, IRC 학습 및 실습"
 
 msgid "Day 2"
 msgstr "2일차"
-
-msgid "Day 2: Individual presentation of the contribution plan"
-msgstr "2일차: 컨트리뷰션 계획에 대한 개인별 발표"
-
-msgid "Day 2: Lego contribution simulation"
-msgstr "2일차: Lego 컨트리뷰션 시뮬레이션"
-
-msgid "Day 2: Online mentoring"
-msgstr "2일차: 온라인 멘토링"
 
 msgid "Day 2: The theory of contribution"
 msgstr "2일차: 컨트리뷰션에 대한 이론"
@@ -1295,6 +1307,9 @@ msgstr "Etherpad"
 msgid "Etherpads"
 msgstr "Etherpad"
 
+msgid "EunSeop Shin (assistant, mentoring)"
+msgstr "EunSeop Shin (조교, 멘토링)"
+
 msgid "Events"
 msgstr "이벤트"
 
@@ -1414,9 +1429,6 @@ msgstr "행하는 것을 설명하기"
 msgid "Explanation of issue being solved and why it should be fixed"
 msgstr "해결하고자 하는 이슈에 및 왜 수정이 되어야 하는지에 대한 설명"
 
-msgid "Face-to-face section: 2 days"
-msgstr "오프라인 세션: 2일"
-
 msgid ""
 "Failure of a significant feature, with workaround. Failure of a fringe "
 "feature, no workaround"
@@ -1429,11 +1441,6 @@ msgstr "잘못된 오류"
 
 msgid "Familiarize yourself with the code of conduct"
 msgstr "행동 강령과 친숙해집니다"
-
-msgid ""
-"Faster integration of the companies product roadmap into the OpenStack "
-"release cycle"
-msgstr "회사 제품 로드맵을 OpenStack 릴리즈 주기로 빠르게 통합하기"
 
 msgid "Feature freeze"
 msgstr "기능 프리징"
@@ -1587,13 +1594,13 @@ msgstr ""
 "는, :doc:`upstream-archives` 를 살펴봅니다."
 
 msgid ""
-"For more information about the session of the OpenStack Upstream Institute "
-"in Boston, see the `OpenStack Academy page <https://www.openstack.org/summit/"
-"boston-2017/openstack-academy>`_."
+"For more information about this session and other OpenStack trainings and "
+"workshops in Boston, see the `OpenStack Academy page <https://www.openstack."
+"org/summit/boston-2017/openstack-academy>`_."
 msgstr ""
-"Boston에서 있을 OpenStack Upstreaming Institute에 대한 보다 자세한 정보는 "
-"`OpenStack Academy page <https://www.openstack.org/summit/boston-2017/"
-"openstack-academy>`_ 를 살펴봅니다."
+"Boston에서 있을 다른 OpenStack Upstreaming 트레이닝 및 워크샵에 대한 보다 자"
+"세한 정보는 `OpenStack Academy page <https://www.openstack.org/summit/"
+"boston-2017/openstack-academy>`_ 를 살펴봅니다."
 
 msgid "For more information, see :doc:`upstream-details`."
 msgstr "보다 자세한 정보는, :doc:`upstream-details` 를 살펴봅니다."
@@ -1694,6 +1701,9 @@ msgstr "보다 자세한 내용은 차후 세션에서 다룹니다"
 
 msgid "Further supporting companies and organizations"
 msgstr "보다 많은 지원을 하는 회사 및 기관이 있습니다"
+
+msgid "Further trainers/coaches"
+msgstr "향후 트레이너/코치"
 
 msgid "GIT commit message structure"
 msgstr "GIT 커밋 메시지 구조"
@@ -1885,13 +1895,6 @@ msgstr "한 명 이상의 컨트리뷰터로 구성된 활발한 팀을 갖습�
 msgid "Have one mentor sit together with each group"
 msgstr "멘토 1명이 각 그룹과 합께 앉습니다"
 
-msgid ""
-"Having at least 8 hours a week to dedicate to the project, be it through "
-"programming or through interacting with the community"
-msgstr ""
-"적어도 일주일동안 8시간을 투자하여, 프로그래밍을 하거나 커뮤니티와 상호작용"
-"을 통해 프로젝트에 참여해봅니다"
-
 msgid "Held by local groups to celebrate another year of OpenStack"
 msgstr "로컬 그룹에서 개최되며 또 다른 OpenStack 년도를 축하합니다"
 
@@ -1945,6 +1948,9 @@ msgstr "OpenStack을 사용하는 방법"
 
 msgid "However, please keep in mind that it is on your own responsibility."
 msgstr "그러나, 이는 각자에게 책임이 있음을 명심하십시오."
+
+msgid "Hyeunjee Kim (assistant, mentoring)"
+msgstr "Hyeunjee Kim (조교, 멘토링)"
 
 msgid "Hypervisor Tuning Guide"
 msgstr "하이퍼바이저 튜닝 가이드"
@@ -2076,8 +2082,8 @@ msgstr ""
 msgid "Ildiko Vancsa - ildikov - Telemetry (mentoring, assistant)"
 msgstr "Ildiko Vancsa - ildikov - Telemetry (멘토링, 조교)"
 
-msgid "Ildiko Vancsa, Kendall Nelson, Mark Korondi, and Marton Kiss"
-msgstr "Ildiko Vancsa, Kendall Nelson, Mark Korondi, 그리고 Marton Kiss"
+msgid "Ildiko Vancsa, Kendall Nelson"
+msgstr "Ildiko Vancsa, Kendall Nelson"
 
 msgid "Ildikó Váncsa – The OpenStack Foundation"
 msgstr "Ildikó Váncsa – The OpenStack Foundation"
@@ -2616,9 +2622,6 @@ msgstr ""
 msgid "Marton Kiss (training, mentoring, assistant)"
 msgstr "Marton Kiss (교육, 멘토링, 조교)"
 
-msgid "Master the technical tools"
-msgstr "기술 툴 마스터하기"
-
 msgid "Maximize karma"
 msgstr "karma를 최대화해 봅니다"
 
@@ -2693,6 +2696,9 @@ msgstr "자세한 정보: http://openstackdays.com/archive/2015/feature/"
 
 msgid "More information: http://sdndev.net/10"
 msgstr "자세한 정보: http://sdndev.net/10"
+
+msgid "More information: http://sdndev.net/11"
+msgstr "자세한 정보: http://sdndev.net/11"
 
 msgid ""
 "More information: http://www.meetup.com/Japan-OpenStack-User-Group/"
@@ -2883,11 +2889,6 @@ msgstr ""
 msgid "Online Communication"
 msgstr "온라인 의사소통"
 
-msgid ""
-"Online section: 10 one-hour individual mentoring sessions over a period of 4 "
-"to 10 weeks"
-msgstr "온라인 세션: 4-10 주 동안 10시간 개별 멘토링 세션"
-
 msgid "Open Community"
 msgstr "개방형 커뮤니티"
 
@@ -2959,14 +2960,17 @@ msgstr "OpenStack 프로젝트 팀"
 msgid "OpenStack Release Cycle"
 msgstr "OpenStack 릴리즈 주기"
 
+msgid "OpenStack Upstream Institute"
+msgstr "OpenStack Upstream Institute"
+
+msgid "OpenStack Upstream Institute Class Details"
+msgstr "OpenStack Upstream Institute 클레스에 대한 자세한 정보"
+
 msgid "OpenStack Upstream Training"
 msgstr "OpenStack Upstream Training"
 
 msgid "OpenStack Upstream Training Archives"
 msgstr "OpenStack Upstream Training 보관"
-
-msgid "OpenStack Upstream Training Details"
-msgstr "OpenStack Upstream Training 세부 사항"
 
 msgid "OpenStack Upstream Training Introductions"
 msgstr "OpenStack Upstream Training 소개"
@@ -3104,6 +3108,9 @@ msgstr "보다 작은 작업을 수행합니다"
 msgid "Personal message or talk in the channel to people"
 msgstr "개인 메시지 또는 채널 내 대화를 사람들과 합니다"
 
+msgid "Peter Ko (assistant, mentoring)"
+msgstr "Peter Ko (조교, 멘토링)"
+
 msgid "Pick a task (bug, trivial fix, documentation, implementation)"
 msgstr "작업을 고릅니다 (버그, 단순한 수정, 문서화, 구현)"
 
@@ -3145,6 +3152,9 @@ msgstr ""
 "학생들이 10 개 이상의 변경 사항을 생성하지 않도록 합니다. (이는 Sandbox에 대"
 "한 의도와 다릅니다!)"
 
+msgid "Please note that the language of the training is English."
+msgstr "참고로 트레이닝에서는 영어를 사용합니다."
+
 msgid "Prepare an environment by yourself from scratch:"
 msgstr "기반부터 환경을 스스로 준비합니다:"
 
@@ -3157,8 +3167,8 @@ msgstr "생각을 대중에게 (이야기할 수 있도록) 준비합니다"
 msgid "Prepared virtual machine image with a development environment:"
 msgstr "개발 환경에 대한 준비된 가상 머신 이미지:"
 
-msgid "Prerequisites"
-msgstr "선행조건"
+msgid "Previous trainings"
+msgstr "이전 트레이닝"
 
 msgid "Prioritize bugs / bug triage"
 msgstr "버그 우선 순위 / 버그 분류"
@@ -3519,6 +3529,9 @@ msgstr "보안 가이드"
 msgid "SecurityImpact"
 msgstr "SecurityImpact"
 
+msgid "See YOU in Boston!"
+msgstr "보스턴에서 봅시다!"
+
 msgid "Seeing new comment"
 msgstr "새로운 댓글 보기"
 
@@ -3527,6 +3540,9 @@ msgstr "작성된 댓글에 대한 리뷰 점수 살펴보기"
 
 msgid "Self-contained"
 msgstr "Self-contained"
+
+msgid "SeongSoo Cho (assistant, mentoring)"
+msgstr "SeongSoo Cho (조교, 멘토링)"
 
 msgid "Seoul, Korea"
 msgstr "한국, 서울"
@@ -3734,9 +3750,6 @@ msgstr "Foundation 개별 구성원 중의 부분 집합"
 msgid "Successful bug report submission"
 msgstr "버그 리포트 제출 성공"
 
-msgid "Successfully contribute one real world patch to an OpenStack component"
-msgstr "실제 존재하는 패치 하나를 OpenStack 구성요소에 성공적으로 기여하기"
-
 msgid "Succinctly describes patch content"
 msgstr "간결하게 패치 내용을 설명합니다"
 
@@ -3745,6 +3758,9 @@ msgstr "작업하고자 하는 프로젝트 제안:"
 
 msgid "Summits"
 msgstr "Summit"
+
+msgid "Sungjin Kang (assistant, mentoring)"
+msgstr "Sungjin Kang (조교, 멘토링)"
 
 msgid "Sungjin Kang (training, assistant, mentoring)"
 msgstr "Sungjin Kang (교육, 조교, 멘토링)"
@@ -3763,6 +3779,9 @@ msgstr "시스템 관리자"
 
 msgid "TC seats are elected from and by the group of ATC's"
 msgstr "TC 자리는 ATC 그룹에 의해 구성 및 선출이 이루어집니다"
+
+msgid "Taehee Jang (assistant, mentoring - Ubuntu Korea Community)"
+msgstr "Taehee Jang (조교, 멘토링 - 우분투 한국 커뮤니티)"
 
 msgid "Tags can be proposed by anyone"
 msgstr "태그는 모든 사람에 의해 제안이 이루어질 수 있습니다"
@@ -3943,11 +3962,12 @@ msgid ""
 msgstr "버그 수정을 필요로 하는 마일스톤, 또는 수정되었던 마일스톤/버전"
 
 msgid ""
-"The next session of the OpenStack Upstream Training - OpenStack Upstream "
-"Institute - will be held in Boston, just before the `OpenStack Summit Boston "
-"2017 <https://www.openstack.org/summit/boston-2017/>`_."
+"The next session of the OpenStack Upstream Collaboration Training - "
+"OpenStack Upstream Institute - will be held in Boston, just before the "
+"`OpenStack Summit Boston 2017 <https://www.openstack.org/summit/boston-2017/"
+">`_."
 msgstr ""
-" 다음 OpenStack 업스트림 트레이닝 세션 - OpenStack Upstream Institute는 "
+" 다음 OpenStack 업스트림 트레이닝 합동 세션 - OpenStack Upstream Institute는 "
 "Boston에서 열리는 `OpenStack Summit Boston 2017 <https://www.openstack.org/"
 "summit/boston-2017/>`_ 바로 이전에 진행될 예정입니다."
 
@@ -3997,13 +4017,6 @@ msgid ""
 "The teams get space on OpenStack Summits and Project Team Gatherings (PTG)"
 msgstr ""
 "팀은 OpenStack Summits 및 Project Team Gatherings (PTG) 에서 공간을 얻습니다"
-
-msgid ""
-"The trainers have led the training in Barcelona and will lead the next "
-"training in Boston, in English:"
-msgstr ""
-"다음 진행자께서 Barcelona에서 트레이닝을 개최하였으며 다음 트레이닝은 Boston"
-"에서 영어로 개최 예정입니다:"
 
 msgid ""
 "The training concentrates on the common cycle with the development "
@@ -4133,6 +4146,9 @@ msgstr "트레이닝 가이드"
 
 msgid "Training labs"
 msgstr "트레이닝 랩"
+
+msgid "Training organizers"
+msgstr "트레이닝 조직 위원"
 
 msgid "Translations / i18n issues."
 msgstr "번역 / i18n 이슈."
@@ -4422,28 +4438,6 @@ msgid "We'll install an IRC program called Colloquy."
 msgstr "Colloquy 라는 IRC 프로그램을 설치할 것입니다."
 
 msgid ""
-"We've designed a training program to help professional developers negotiate "
-"this hurdle. It shows them how to ensure their bug fix or feature is "
-"accepted in the OpenStack project in a minimum amount of time. The "
-"educational program requires students to work on real-life bug fixes or new "
-"features during two days of real-life classes and online mentoring, until "
-"the work is accepted by OpenStack. The live two-day class teaches them to "
-"navigate the intricacies of the project's technical tools and social "
-"interactions. In a followup session, the students benefit from individual "
-"online sessions to help them resolve any remaining problems they might have."
-msgstr ""
-"새로운 OpenStack 개발자들이 그들이 가진 로드맵을 해당되는 OpenStack 프로젝트"
-"에 통합하는데 있어 성공적이도록 속도를 높이기 위한 교육 프로그램을 디자인하였"
-"습니다. 본 프로그램은 개발자들에게 버그 수정 또는 (새로운) 기능이 OpenStack "
-"프로젝트 내에서 최소의 시간 내에 받아들여지는 것을 어떻게 보장하는지를 보여줍"
-"니다. 학생들은 필수적으로 실제 버그 수정 또는 새로운 기능을 이틀 간의 실제 수"
-"업 및 온라인 멘토링 동안에 OpenStack에 의해 받아들여질 때까지 작업해야 합니"
-"다. 생동감있는 이틀 간의 수업에서는 학생들에게 프로젝트의 기술적인 도구 및 사"
-"회적 상호작용에 대한 복잡함을 다루는 법을 가르칩니다. 덧붙이는 세션에서는, 학"
-"생들은 개별 온라인 세션으로부터 그들이 가질 수 있는 남은 문제를 해결하는데 도"
-"와주기 위한 이점을 얻습니다."
-
-msgid ""
 "We've designed a training program to share knowledge about the different "
 "ways of contributing to OpenStack like providing new features, writing "
 "documentation, participating in working groups, and so forth. The "
@@ -4489,8 +4483,8 @@ msgstr "어떤 프로젝트에 기여하고 싶은가?"
 msgid "What makes a release"
 msgstr "릴리즈를 이루는 것들"
 
-msgid "When & Where to get OpenStack Upstream Training"
-msgstr "OpenStack Upstream Training을 언제 & 어디서 받는가"
+msgid "When and where to get an OpenStack Upstream Institute class"
+msgstr "OpenStack Upstream Institute 클래스 개최 일자 및 장소"
 
 msgid "When in the cycle you intend to complete it"
 msgstr "목적으로 하는 주기 내에 완료하고자 할 때"
@@ -4501,6 +4495,15 @@ msgid ""
 msgstr ""
 "Foundation 멤버쉽으로 가입한 경우, 코드 컨트리뷰션을 위해 사용할 이메일 주소"
 "와 동일하게 입력했는지 확인하세요."
+
+msgid ""
+"When you are all set you can `RSVP <https://www.openstack.org/summit/"
+"boston-2017/summit-schedule/events/18639/openstack-upstream-institute-"
+"day-1>`_ to the class."
+msgstr ""
+"모든 것이 설정된 다음에는 `RSVP <https://www.openstack.org/summit/"
+"boston-2017/summit-schedule/events/18639/openstack-upstream-institute-"
+"day-1>`_ 를 통해 클래스에 등록할 수 있습니다."
 
 msgid ""
 "When you have changes in an OpenStack project repository, you can use this "
@@ -4564,20 +4567,6 @@ msgid ""
 msgstr ""
 "전 세계 300개의 다른 기관으로부터 2,000 명 이상의 개발자와 함께, OpenStack은 "
 "가장 커다란 서로 협력하는 소프트웨어 개발 프로젝트 중 하나입니다. 이러한 크기"
-"로 인하여, 사회적 규범 및 기술적인 관계에 있어 거대한 다양성으로 특징이 지어"
-"지고 있습니다. 이러한 것들로 인해 새로 온 사람들이 OpenStack 프로젝트에 통합"
-"됨에 따른 변화의 속도가 확연히 줄어들 수 있습니다."
-
-msgid ""
-"With over 2000 developers from 80 different companies worldwide, OpenStack "
-"is one of the largest collaborative software-development projects. Because "
-"of its size, it is characterized by a huge diversity in social norms and "
-"technical conventions. These can significantly slow down the speed at which "
-"newcomers are successful at integrating their own roadmap into that of the "
-"OpenStack project."
-msgstr ""
-"전 세계 80개의 다른 회사로부터 2000 명 이상의 개발자와 함께, OpenStack은 가"
-"장 커다란 서로 협력하는 소프트웨어 개발 프로젝트 중 하나입니다. 이러한 크기"
 "로 인하여, 사회적 규범 및 기술적인 관계에 있어 거대한 다양성으로 특징이 지어"
 "지고 있습니다. 이러한 것들로 인해 새로 온 사람들이 OpenStack 프로젝트에 통합"
 "됨에 따른 변화의 속도가 확연히 줄어들 수 있습니다."
@@ -4655,6 +4644,12 @@ msgid ""
 msgstr ""
 "사용자 이름을 선택하는 프롬프트가 나타날 것입니다. launchpad에서 사용했던 것"
 "과 동일한 사용자 이름을 입력 가능하며, 또는 다른 것도 가능합니다."
+
+msgid "Young-Kyun Kim (assistant, mentoring)"
+msgstr "Young-Kyun Kim (조교, 멘토링)"
+
+msgid "Youngwoo Kim (assistant, mentoring)"
+msgstr "Youngwoo Kim (조교, 멘토링)"
 
 msgid "Your Patch Upstream"
 msgstr "패치 업스트림"
@@ -4786,11 +4781,11 @@ msgid "`Documentation Deep Dive <docs.html>`_"
 msgstr "`문서 파헤치기 <docs.html>`_"
 
 msgid ""
-"`Etherpad for Barcelona Upstream Training <https://etherpad.openstack.org/p/"
-"upstream-training-barcelona>`_"
+"`Etherpad for Boston Upstream Collaboration Training <https://etherpad."
+"openstack.org/p/upstream-training-boston>`_"
 msgstr ""
-"`Barcelona Upstream Training을 위한 Etherpad <https://etherpad.openstack.org/"
-"p/upstream-training-barcelona>`_"
+"`업스트림 합동 트레이닝을 위한 Etherpad <https://etherpad.openstack.org/p/"
+"upstream-training-boston>`_"
 
 msgid ""
 "`Etherpad for Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
@@ -4798,6 +4793,13 @@ msgid ""
 msgstr ""
 "`2016년 한국 업스트림 트레이닝 Etherpad  <https://etherpad.openstack.org/p/"
 "upstream-training-korea-2016>`_"
+
+msgid ""
+"`Etherpad for Upstream Training, Korea, 2017 <https://etherpad.openstack.org/"
+"p/upstream-training-korea-2017>`_"
+msgstr ""
+"`2017 한국 업스트림 트레이닝을 위한 Etherpad <https://etherpad.openstack.org/"
+"p/upstream-training-korea-2017>`_"
 
 msgid "`Gerrit <workflow-gerrit.html>`_"
 msgstr "`Gerrit <workflow-gerrit.html>`_"
@@ -5235,15 +5237,6 @@ msgstr ""
 "`최소 구성 <http://docs.openstack.org/developer/devstack/configuration."
 "html#minimal-configuration>`_"
 
-msgid ""
-"`ready to use DevStack VM <https://wiki.openstack.org/wiki/"
-"OpenStack_Upstream_Training/Setup_DevStack>`_ for participants with network "
-"connectivity but troubles with their laptop"
-msgstr ""
-"참여자들이 `DevStack VM을 사용 <https://wiki.openstack.org/wiki/"
-"OpenStack_Upstream_Training/Setup_DevStack>`_ 할 수있도록 네트워크 연결과 함"
-"께 준비가 되어야 하나 노트북에 문제가 있을 수도 있습니다"
-
 msgid "`reporting a bug <https://wiki.openstack.org/wiki/Bugs#Reporting>`_"
 msgstr "`버그 보고 <https://wiki.openstack.org/wiki/Bugs#Reporting>`_"
 
@@ -5439,6 +5432,9 @@ msgstr "https://bugs.launchpad.net/openstack-dev-sandbox/+filebug"
 
 msgid "https://bugs.launchpad.net/openstack-manuals"
 msgstr "https://bugs.launchpad.net/openstack-manuals"
+
+msgid "https://etherpad.openstack.org/p/upstream-training-barcelona"
+msgstr "https://etherpad.openstack.org/p/upstream-training-barcelona"
 
 msgid "https://etherpad.openstack.org/p/upstream-training-vancouver"
 msgstr "https://etherpad.openstack.org/p/upstream-training-vancouver"
