@@ -64,69 +64,25 @@ Project Team Gathering (PTG)
 Exercise 2
 ==========
 
-- Look up the location and dates of the first PTG
+- Look up the location and dates of the next PTG
 
-OpenStack Design Summit
-=======================
+Summit & Forum
+==============
 
-Where developers meet face to face to finalize planning for the next release
-cycle.
+- The summit is a regular conference with keynotes, presenations,
+  and panel discussions
+- Forum:
 
-.. image:: ./_assets/05-01-design-summit.png
+    - User focused discussions at the Forum to collect feedback
+      for developers
+    - Better entry point for new contributors finding their place in the
+      community
 
-.. note
-   This format is being deprecated and this Summit is the last where this will
-   be the format.
+Types of sessions at the Forum
+==============================
 
-How does it work?
-=================
-
-- Not a classic conference with presenter and audience
-
-  - more like a collaborative brainstorming session
-
-- Discuss upcoming features for the next release cycle
-- Not suitable to start learning about a topic
-
-.. image:: ./_assets/05-02-design-summit.png
-  :width: 50%
-  :align: center
-
-Etherpads
-=========
-
-.. image:: ./_assets/05-03-etherpads.png
-
-Types of sessions
-=================
-
-- Fishbowl sessions
-
-  * Open discussions, chairs organized in concentric rings
-  * People sitting in the inner circle lead the discussion
-  * No mics.
-
-- Work sessions
-
-  * Like sprints, small groups of people work on specific themes
-
-- Contributor meetups
-
-  * Reserved for ad-hoc meetings of project teams
-  * No predefined agenda.
-
-
-List of sessions
-================
-
-- Ocata
-
-  * https://www.openstack.org/summit/barcelona-2016/summit-schedule/
-
-Forum
-=====
-
-- Replacement for Design Summit at future Summits
-- More user focused discussion to collect feedback for developers
-- Better entry point for new contributors finding their place in the
-  community
+- Fishbowls: Open moderated discussions
+- Project Onboarding Sessions: A place for new contributors to ask
+  questions and get to know other contributors to the project
+- Hacking Rooms: Reservable rooms for projects to gather for technical
+  discussions
