@@ -6,13 +6,6 @@ Overview of the contribution process
    :class: fill
    :width: 100%
 
-Picking Your Project
-====================
-
-- Each project has its own purpose
-- Each project has its own culture
-- Does your company want you to work on something specific?
-
 Getting to Know Your Project
 ============================
 
@@ -34,6 +27,9 @@ Getting to Know Your Project
 - Look at open reviews
 - Join the openstack-dev mailing list
 
+.. note::
+   Each project has its own purpose & culture.
+
 Interacting with the Project
 ============================
 
@@ -45,27 +41,35 @@ Interacting with the Project
 - Filing a blueprint/spec
 - Implementing a blueprint/spec
 
+Building Your Persona
+=====================
+
+- Review other's code
+- Help fix the documentation
+- Answer other's questions or help direct them to
+  those who can
+- Attend the meetings
+- Build a network
+    - Pay attention to who is an expert in what area
+    - Ask questions in the channel or send direct messages
+
+.. note::
+   If people know you, you have a better chance at your code
+   getting attention.
+
 General Contribution Workflow
 =============================
 
 - Pick a task (bug, trivial fix, documentation, implementation)
 - Make a new branch in your local repository
-
-.. code-block:: console
-
-   $ git checkout -b name_whatever_you_want
-
 - Make code changes
 - Update and add tests (unit, functional, etc.)
 - Run tests (unit, functional, etc.)
+- Create your commit and push upstream for review
 
-General Contribution Workflow
-=============================
-
-- Create your commit
-    - Add files to your commit
-    - Commit added files and explain changes in the commit message
-- Push upstream for review
+.. note::
+   We will go into this later on in more detail so hold off on answering
+   detailed questions for now.
 
 Your Patch Upstream
 ===================
@@ -86,20 +90,3 @@ Speeding the Acceptance
 
 REMEMBER: This is open source.
 Things happen on the community's schedule, not yours.
-
-Building Karma
-==============
-
-- Review other's code
-- Fix the documentation
-- Answer questions
-- Attend the meetings
-
-Build Your Network
-==================
-
-- Personal message or talk in the channel to people
-- Ask people you know about the project
-- Ask people about their contributions
-- Ask people about their contribution experience
-- Pay attention to who is an expert in what area
