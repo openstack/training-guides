@@ -17,42 +17,29 @@ Ways to Communicate in OpenStack
 IRC Channels
 ============
 
-- Each project and working group has its own channel
-- The common syntax: #openstack-<name-of-project>
-- Meeting channels (#openstack-meeting, #openstack-meeting-cp, etc.)
-- General discussion around what's going on in a project
-- Good place to get questions answered
+- Project Channels:
+    - https://wiki.openstack.org/wiki/IRC
+    - Each project and working group has its own channel
+    - The common syntax: #openstack-<name-of-project>
 
-.. notes
+- Meeting Channels:
+    - #openstack-meeting, #openstack-meeting-cp, etc.
+    - Meetings typically follow an agenda
+    - IRC meetings: http://eavesdrop.openstack.org/
+    - Others: https://wiki.openstack.org/wiki/Meetings
+
+.. note::
    There are a finite number of meeting channels so that meetings are
    spread around. This is enforced by infra. The #openstack-meeting-cp
    channel is special in that it is dedicated to cross project efforts.
 
-IRC Meetings
-============
-
-
-.. image:: ./_assets/06-01-irc-meetings.png
-  :width: 100%
-
-.. notes
-   Usually follow an agenda, more structured discussion than in the project
-   specific channel
-
-IRC Meetings List
-=================
-
-.. image:: ./_assets/06-02-irc-meetings-list.png
-  :width: 100%
-
-- IRC meetings: http://eavesdrop.openstack.org/
-- Others: https://wiki.openstack.org/wiki/Meetings
-
 IRC Logs
 ========
 
-- Logs of meetings are archived so that they can be referenced later on
-- http://eavesdrop.openstack.org/
+- Logs of meetings and channels are archived so that they can be
+  referenced later on
+- Meeting Logs: http://eavesdrop.openstack.org/meetings/
+- Channel Logs: http://eavesdrop.openstack.org/irclogs/
 
 Exercise 1
 ==========
