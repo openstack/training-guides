@@ -88,7 +88,9 @@ How to prepare
   * Read and complete the :doc:`irc` guide.
   * Read and complete the :doc:`git` guide.
 
-* Read and complete the :doc:`accounts` guide.
+* Read and complete the :doc:`accounts` guide. (**Note:** you will need to sign
+  the Individual Contributor License Agreement
+  (`ICLA <https://review.openstack.org/static/cla.html>`_) during this.)
 
 `Etherpad for Boston Upstream Collaboration Training
 <https://etherpad.openstack.org/p/upstream-training-boston>`_
