@@ -75,43 +75,20 @@ Agenda - Day 2, afternoon
 
 - Closing exercise
 
-Introductions
-=============
+Exercise
+========
 
-- Say a few words about yourself
+Introduce yourself to the others at your table! Who you are,
+what experience you have with OpenStack if any, what company
+you are at and what your role is there, why you are attending
+the course, etc.
 
-  - Name, current role, company
-  - Experience with OpenStack if any
-  - Areas of interest
-  - Why you're attending the course? What are your expectations?
-
-- Trainers
-- Mentors/helpers
-- Attendees
-
-- Add your details to the class etherpad (Specified on the actual training)
-
-Team up
-=======
-
-- Form groups of 4 (Actual group size depends on the class size)
-
-  - People with similar area of interest
-  - Different level of experience
-
-- Sit together
-- Have one mentor sit together with each group
-
-- Let's get started!!!
+.. note::
+   We will introduce ourselves first and then turn it over to them
+   to talk to each other at their tables.
 
 Jump on IRC
 ===========
-
-- We are new age people with some good old technology around
-- IRC
-
-  - Text based chat
-  - Freenode
 
 - Join the #openstack-101 channel
 
