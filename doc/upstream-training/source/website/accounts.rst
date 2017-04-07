@@ -111,11 +111,14 @@ If you are contributing on behalf of a company or organization.
 
 #. In Gerrit's `settings <https://review.openstack.org/#/settings/agreements>`_
    click the **New Contributor Agreement** link and sign the agreement.
-#. An employer of the company or organization needs to sign the `Corporate
-   Contributor License Agreement
-   <https://secure.echosign.com/public/hostedForm?formid=56JUVGT95E78X5>`_.
 
-.. image:: _assets/account-setup/3.png
+   .. image:: _assets/account-setup/3.png
+
+#. An employer with the appropriate signing rights of the company or
+   organization needs to sign the `Corporate Contributor License Agreement
+   <https://secure.echosign.com/public/hostedForm?formid=56JUVGT95E78X5>`_.
+#. If the CCLA only needs to be extended follow `this
+   <https://wiki.openstack.org/wiki/HowToUpdateCorporateCLA>`_ procedure.
 
 .. note::
 
