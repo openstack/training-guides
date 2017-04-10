@@ -1,55 +1,70 @@
 ===============
-Commit messages
+Commit Messages
 ===============
 
 .. image:: ./_assets/os_background.png
    :class: fill
    :width: 100%
 
-Commit messages
+Commit Messages
 ===============
 
-- quality of the OpenStack git history
-- carrot by alerting people to the benefits
-- anyone doing Gerrit code review can act as the stick
-- review the commit message, not just the code
-- Developers read mostly, write occasionally
-- https://wiki.openstack.org/wiki/GitCommitMessages
+- The first thing a reviewer sees and it is as important as the code
+- Brief explanation with context about the patch
+- Provide a description of the history of changes in a
+  repository
+- Cannot be modified once merged
+- Format:
 
-Bad: two independent changes
-=============================
+  - Summary Line
+  - Body
+  - External References
 
-.. image:: ./_assets/17-01-bad-two.png
+- Guidelines: https://wiki.openstack.org/wiki/GitCommitMessages
 
-Bad: new feature and refactor
-==============================
-
-.. image:: ./_assets/17-02-bad-new.png
-
-Good: new API + new feature
-============================
-
-.. image:: ./_assets/17-03-good.png
-
-Contents of a Commit Message (Summary Line)
-===========================================
+Summary Line
+=============
 
 - Succinctly describes patch content
-- Verb in the present tense and object
 - Limited to 50 characters
 - Should not end with a period
 
-Contents of a Commit Message (Body)
-===================================
+Exercise
+========
+
+Write a summary line for each of the following scenarios:
+
+- Someone left a print statement that was used for testing during
+  development that is being added to the logs.
+- There are unused arguments being passed into a method that is
+  used in several different files.
+- A new capability was added to the project that should be
+  implemented in all vendor drivers.
+
+Share your favorite to our IRC channel.
+
+Body
+====
 
 - Lines limited to 72 characters
 - Explanation of issue being solved and why it should be fixed
-- Explain how problem is solved
+- Explain how the problem is solved
 - Other possible content
 
-    - Does it improve code structure?
-    - Does it fix limitations of the current code?
-    - References to other relevant patches?
+  - Does it improve code structure?
+  - Does it fix limitations of the current code?
+  - References to other relevant patches?
+
+Exercise
+========
+
+Write a commit message body to expand on each of the following summary
+lines. Feel free to make up details to make the context more realistic.
+Share your favorite in IRC.
+
+- Cleanup deprecated methods
+- Minimize database queries
+- Added unit tests to cover untested methods
 
 Do not assume ...
 =================
@@ -58,23 +73,39 @@ Do not assume ...
 - The reviewer has access to external web services/site
 - The code is self-evident/self-documenting
 
-Required external references
-============================
+External References
+===================
 
-- Change-id
-- Bug (Partial-Bug, Related-Bug, Closes-Bug)
-- Blueprint (Partial-Implements, Implements)
+- Required:
 
-Optional external references
-============================
+  - Change-Id
+  - Task Tracking Info:
 
-- DocImpact
-- APIImpact
-- SecurityImpact
-- UpgradeImpact
-- Depends-On
+    - Bug (Partial-Bug, Related-Bug, Closes-Bug)
+    - Blueprint (Partial-Implements, Implements)
 
-GIT commit message structure
-============================
+- Additional External References:
 
-.. image:: ./_assets/17-04-commit-message.png
+  - DocImpact
+  - APIImpact
+  - SecurityImpact
+  - UpgradeImpact
+  - Depends-On
+
+.. note::
+   Explain the tags and when you use them. Documentation, API,
+   Security or Upgrade Impacts are for patches with changes that
+   alter the existing state. Depends-On is for cross repository
+   dependencies. Change-Id's are filled in automatically with git
+   review -s.
+
+Exercise
+========
+
+Write a commit message for the bug you created during our earlier
+exercise. Include a summary line, body, and the required exernal references
+along with any optional external references you think it may benefit from.
+
+
+Share the commit message with one or two people at your table. Give them
+feedback on their commit messages.
