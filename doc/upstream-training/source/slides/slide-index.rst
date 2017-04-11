@@ -36,7 +36,7 @@ Workflow and Tools for Participation
 
    workflow-training-contribution-process.rst
    workflow-reg-and-accounts.rst
-   workflow-launchpad.rst
+   workflow-task-tracking.rst
    workflow-gerrit.rst
    workflow-reviewing.rst
    workflow-commit-message.rst
