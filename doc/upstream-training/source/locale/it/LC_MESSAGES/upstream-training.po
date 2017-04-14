@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-24 12:14+0000\n"
+"POT-Creation-Date: 2017-04-07 13:14+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -126,18 +126,6 @@ msgstr ""
 "Un accordo di licenza per chiarire la proprietà intellettuale concesso con "
 "il contributo di una persona o entità. `In anteprima l'accordo completo "
 "<https://review.openstack.org/static/cla.html>` _."
-
-msgid ""
-"An employer of the company or organization needs to sign the `Corporate "
-"Contributor License Agreement <https://secure.echosign.com/public/hostedForm?"
-"formid=56JUVGT95E78X5>`_."
-msgstr ""
-"Un datore di lavoro od organizzazione deve firmare `l'accordo di licenza del "
-"collaboratore aziendale <https://secure.echosign.com/public/hostedForm?"
-"formid=56JUVGT95E78X5>`_."
-
-msgid "Answer questions"
-msgstr "RIspondi domande"
 
 msgid "Apply for individual membership and sign the CLA"
 msgstr "Fai domanda per la qualifica di membro individuale e firma il CLA"
@@ -350,9 +338,6 @@ msgstr "Piano di contribuzione (2 ore)"
 msgid "Contribution Simulation (2 hour)"
 msgstr "Simulazione di contribuzione (2 ore)"
 
-msgid "Contributor meetups"
-msgstr "Incontri di collaboratori"
-
 msgid "Contributors From a Company or Organization"
 msgstr "Collaboratori di un'azienda od organizzazione"
 
@@ -433,10 +418,6 @@ msgid "Developers read mostly, write occasionally"
 msgstr ""
 "Gli sviluppatori leggono la maggior parte delle volte, scrivono "
 "occasionalmente"
-
-msgid "Discuss upcoming features for the next release cycle"
-msgstr ""
-"Discutere delle prossime funzionalità per il prossimo cliclo di rilascio"
 
 msgid "Distracted : 1"
 msgstr "Distratto : 1"
@@ -610,9 +591,6 @@ msgstr ""
 msgid "First day"
 msgstr "Primo giorno"
 
-msgid "Fishbowl sessions"
-msgstr "Sessioni ad acquario"
-
 msgid "Fix Committed"
 msgstr "E' stato fatto il commit della correzione"
 
@@ -630,9 +608,6 @@ msgid "Fix for the bug would significantly ease OpenStack operation."
 msgstr ""
 "Correggere il bug faciliterebbe significativamente il funzionamento di "
 "OpenStack"
-
-msgid "Fix the documentation"
-msgstr "Correggi la documentazione"
 
 msgid "Focus on what we want to do for the next one"
 msgstr "Cocentrarsi su cosa vogliamo fare per prossimo"
@@ -808,9 +783,6 @@ msgstr "Come è fatto OpenStack"
 
 msgid "How OpenStack is made (3h including 1h30 exercises)"
 msgstr "Come è fatto OpenStack (3 ore includendo 1h30 di esercizi)"
-
-msgid "How does it work?"
-msgstr "Come funziona?"
 
 msgid "How to contribute"
 msgstr "Come contribuire"
@@ -1114,18 +1086,11 @@ msgstr ""
 "Prima compiliamo il campo di **Nickname** e quello di **Nome utente** con la "
 "nostra scelta di nickname:"
 
-msgid "Like sprints, small groups of people work on specific themes"
-msgstr ""
-"Come negli sprint, piccoli gruppi di persone lavorano su tematiche specifiche"
-
 msgid "Linux"
 msgstr "Linux"
 
 msgid "List of approved tags"
 msgstr "Elenco dei tag approvati"
-
-msgid "List of sessions"
-msgstr "Elenco di sessioni"
 
 msgid "Local Upstream Trainings"
 msgstr "Upstream Training Locali"
@@ -1253,12 +1218,6 @@ msgstr "Nuovi bug critici di rilascio"
 msgid "No agreement"
 msgstr "Nessun accordo"
 
-msgid "No mics."
-msgstr "Niente microfoni."
-
-msgid "No predefined agenda."
-msgstr "Nessun programma predefinito."
-
 msgid ""
 "Nonprofit foundation created to \"develop, support, protect, and promote\" "
 "OpenStack"
@@ -1268,9 +1227,6 @@ msgstr ""
 
 msgid "Not really a bug, but a suggested improvement"
 msgstr "Non un bug vero e proprio, ma un miglioramento consigliato"
-
-msgid "Not suitable to start learning about a topic"
-msgstr "Non adatto per iniziare ad imparare un argomento"
 
 msgid "Objectives"
 msgstr "Obiettivi"
@@ -1299,9 +1255,6 @@ msgstr "Open Development"
 msgid "Open Source"
 msgstr "Open Source"
 
-msgid "Open discussions, chairs organized in concentric rings"
-msgstr "Discussioni aperte, sedie organizzate in anelli concentrici"
-
 msgid "Open your terminal program and type::"
 msgstr "Apri il tuo terminale e digita::"
 
@@ -1310,9 +1263,6 @@ msgstr "Attività OpenStack - Dashboard "
 
 msgid "OpenStack Activity - Other Metrics"
 msgstr "Attività di OpenStack- altre metriche"
-
-msgid "OpenStack Design Summit"
-msgstr "Design Summit di OpenStack"
 
 msgid "OpenStack Foundation"
 msgstr "La fondazione OpenStack"
@@ -1357,9 +1307,6 @@ msgstr ""
 "Incolla la chiave pubblica sulla casella di testo **Aggiungi chiave pubblica "
 "SSH** e clicca Aggiungi."
 
-msgid "People sitting in the inner circle lead the discussion"
-msgstr "Le persone sedute all'interno del cerchio conducono la discussione"
-
 msgid "Per project tags"
 msgstr "Per i tag di progetto"
 
@@ -1383,9 +1330,6 @@ msgstr "Pubblicato collettivamente come il rilascio di OpenStack"
 
 msgid "Quantify the delta"
 msgstr "Quantificare il delta"
-
-msgid "Read and complete the :doc:`accounts` guide."
-msgstr "Leggi e completa il :doc: guida `accounts`."
 
 msgid "Read and complete the :doc:`git` guide."
 msgstr "Leggi e completa il :doc: guida `git`"
@@ -1433,9 +1377,6 @@ msgstr "RIpetuto il numero di volte necessario"
 
 msgid "Required external references"
 msgstr "Referenze esterne richieste."
-
-msgid "Reserved for ad-hoc meetings of project teams"
-msgstr "Riservato per riunioni ad hoc dei team di progetto"
 
 msgid "Resolve technical disputes"
 msgstr "Risolvere controversie tecniche"
@@ -1739,9 +1680,6 @@ msgstr ""
 "rimpiazzando **mysecretpassword** e **test@domain.com** con la tua password "
 "ed indirizzo email::"
 
-msgid "Types of sessions"
-msgstr "Tipi di sessioni"
-
 msgid "Typically public key filenames will look like:"
 msgstr ""
 "Normalmente i nomi dei file delle chiavi pubbliche assomiglieranno a questo::"
@@ -1851,13 +1789,6 @@ msgstr ""
 "Quando ti viene chiesto di \"Inserire un file sul quale salvare la chiave\" "
 "premi Invio. Questo accetta l'ubicazione di default::"
 
-msgid ""
-"Where developers meet face to face to finalize planning for the next release "
-"cycle."
-msgstr ""
-"Dove gli sviluppatori si incontrano faccia a faccia per finalizzare la "
-"pianificazione per il prossimo ciclo di rilascio. "
-
 msgid "Wishlist"
 msgstr "Lista dei desideri"
 
@@ -1885,9 +1816,6 @@ msgstr "Lavora in parallelo"
 
 msgid "Work on the fix is in progress, bug has an assignee"
 msgstr "Lavora sulla soluzione in corso, il bug ha un assegnatario"
-
-msgid "Work sessions"
-msgstr "Sessioni di lavoro"
 
 msgid "Workflow of an OpenStack contribution and tools"
 msgstr "Workflow di una collaborazione di OpenStack e strumenti"

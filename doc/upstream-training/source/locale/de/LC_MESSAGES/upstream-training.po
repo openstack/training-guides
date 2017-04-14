@@ -9,12 +9,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-24 12:14+0000\n"
+"POT-Creation-Date: 2017-04-07 13:14+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-02-26 02:11+0000\n"
-"Last-Translator: Robert Simai <robert.simai@suse.com>\n"
+"PO-Revision-Date: 2017-04-12 07:41+0000\n"
+"Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
 "Language-Team: German\n"
 "Language: de\n"
 "X-Generator: Zanata 3.9.6\n"
@@ -26,6 +26,9 @@ msgid ""
 msgstr ""
 "\"Guiding principles\" werden vom Foundation Board benutzt, um kommerzielle "
 "Implementierungen von OpenStack unter der Marke OpenStack zu ermöglichen"
+
+msgid "#openstack-meeting, #openstack-meeting-cp, etc."
+msgstr "#openstack-meeting, #openstack-meeting-cp, etc."
 
 msgid "(As an example, a new file has been created using cat command.)"
 msgstr ""
@@ -249,9 +252,6 @@ msgstr "Bugs hinzufügen oder Reviews für andere Gruppen schreiben."
 msgid "Add files"
 msgstr "Dateien hinzufügen"
 
-msgid "Add files to your commit"
-msgstr "Dateien zum Commit hinzufügen"
-
 msgid "Add the file and commit"
 msgstr "Datei hinzufügen und committen"
 
@@ -348,20 +348,8 @@ msgstr ""
 "Beiträgen einer Person oder Einrichtung entsteht. `Vorschau der vollen "
 "Vereinbarung <https://review.openstack.org/static/cla.html>`_."
 
-msgid ""
-"An employer of the company or organization needs to sign the `Corporate "
-"Contributor License Agreement <https://secure.echosign.com/public/hostedForm?"
-"formid=56JUVGT95E78X5>`_."
-msgstr ""
-"Ein Mitarbeiter einer Firma oder Organisation unterzeichnet "
-"die`Lizenzvereinbarung Kooperationsbeiträger <https://secure.echosign.com/"
-"public/hostedForm?formid=56JUVGT95E78X5>`_."
-
 msgid "Anne Gentle – Cisco"
 msgstr "Anne Gentle – Cisco"
-
-msgid "Answer questions"
-msgstr "Fragen beantworten"
 
 msgid "Answering reviewer's comment(s) is a good manner."
 msgstr "Die Kommentare eines Überprüfers zu beantworten gehört zum guten Ton."
@@ -397,15 +385,6 @@ msgstr "Interessensgebiete"
 msgid "Ask a mentor to break the *tested* code of one test case"
 msgstr ""
 "Bitten Sie einen Mentor den *getesteten* Code eines Testcases kaputtzumachen"
-
-msgid "Ask people about their contribution experience"
-msgstr "Fragen Sie Leute über ihre Erfahrung bei der Mitarbeit"
-
-msgid "Ask people about their contributions"
-msgstr "Fragen Sie Leute  über ihre Beiträge"
-
-msgid "Ask people you know about the project"
-msgstr "Fragen Sie Leute über das Projekt, die Sie kennen"
 
 msgid "Ask questions during the class"
 msgstr "Stellen Sie Fragen in der Klasse"
@@ -573,9 +552,6 @@ msgstr ""
 "Arbeitsablauf vertraut zu machen und den ersten Kontakt mit dem Code in der "
 "Openstack-Entwicklung zu machen."
 
-msgid "Build Your Network"
-msgstr "Bauen Sie Ihr Netzwerk"
-
 msgid ""
 "Build a street out of Lego. All buildings must be connected by road and "
 "sidewalk. The Foundation, TC, and Board must approve the overall design of "
@@ -587,9 +563,6 @@ msgstr ""
 
 msgid "Building Blocks: build as you need"
 msgstr "Bausteine: bauen, wie benötigt"
-
-msgid "Building Karma"
-msgstr "Karma aufbauen"
 
 msgid "Building documentation"
 msgstr "Bauanleitung"
@@ -628,6 +601,9 @@ msgstr "Änderungen an externen HTTP APIs"
 
 msgid "Changes to the notification definitions"
 msgstr "Änderungen an Notifikationsdefinitionen"
+
+msgid "Channel Logs: http://eavesdrop.openstack.org/irclogs/"
+msgstr "Channel Logs: http://eavesdrop.openstack.org/irclogs/"
 
 msgid "Check For Existing Keys"
 msgstr "Auf vorhandene Schlüssel prüfen"
@@ -804,11 +780,6 @@ msgstr "Kommentieren"
 msgid "Commit Messages"
 msgstr "Commit Nachrichten"
 
-msgid "Commit added files and explain changes in the commit message"
-msgstr ""
-"Committen Sie hinzugefügte Dateien und erläutern Sie Änderungen in der "
-"Commit-Nachricht"
-
 msgid "Commit files and write commit message"
 msgstr "Dateien Committen und Commitnachricht schreiben"
 
@@ -916,9 +887,6 @@ msgstr "Beitragssimmulation (2 Stunden)"
 msgid "Contributor guide"
 msgstr "Mitarbeiteranleitung"
 
-msgid "Contributor meetups"
-msgstr "Mitarbeiter-Meetings"
-
 msgid "Contributors From a Company or Organization"
 msgstr "Beiträger von Firmen oder Organisationen"
 
@@ -979,9 +947,6 @@ msgid ""
 msgstr ""
 "Erstellen Sie eine virtuelle Maschine auf Ihrem Laptop mit Ubuntu 16.04 und "
 "6+ GB RAM."
-
-msgid "Create your commit"
-msgstr "Commit erstellen"
 
 msgid "Created by a large growing community"
 msgstr "Erstellt von einer schnell wachsenden Gemeinschaft"
@@ -1139,9 +1104,6 @@ msgstr "Verschiedener Wissensstand"
 msgid "Discuss the answers with the class"
 msgstr "Diskutieren Sie die Antworten mit der Klasse"
 
-msgid "Discuss upcoming features for the next release cycle"
-msgstr "Diskutieren über neue Funktionen im nächsten Versionszyklus"
-
 msgid "Discuss with your peers"
 msgstr "Diskutieren Sie mit Ihren Kollegen"
 
@@ -1193,9 +1155,6 @@ msgstr "Beseitigt es Beschränkungen des aktuellen Codes?"
 
 msgid "Does it improve code structure?"
 msgstr "Verbessert es die Codestruktur?"
-
-msgid "Does your company want you to work on something specific?"
-msgstr "Möchte Ihre Firma, dass Sie an etwas bestimmten arbeiten?"
 
 msgid "Done"
 msgstr "Fertig"
@@ -1259,12 +1218,6 @@ msgstr "Jedes Projekt und jede Arbeitsgruppe hat ihre eigene Wiki-Seite"
 
 msgid "Each project and working group has its own channel"
 msgstr "Jedes Projekt und jede Arbeitsgruppe hat ihren eigenen Kanal"
-
-msgid "Each project has its own culture"
-msgstr "Jedes Projekt hat seine eigene Kultur"
-
-msgid "Each project has its own purpose"
-msgstr "Jedes Projekt hat einen eigenen Zweck"
 
 msgid "Each student group prepares a presentation describing:"
 msgstr "Jeder Student bereitet eine Präsentation vor, die beschreibt:"
@@ -1528,9 +1481,6 @@ msgstr "Auffinden der aktuellen Board of Directors Mitglieder, TC und UC"
 msgid "First day"
 msgstr "Erster Tag"
 
-msgid "Fishbowl sessions"
-msgstr "Fishbowl Sitzung"
-
 msgid "Fitting it all together"
 msgstr "Füge alles zusammen"
 
@@ -1553,9 +1503,6 @@ msgstr ""
 msgid "Fix for the bug would significantly ease OpenStack operation."
 msgstr ""
 "Bugbeseitigung würde OpenStack signifikant einfacher zu betreiben machen."
-
-msgid "Fix the documentation"
-msgstr "Dokumentation reparieren"
 
 msgid "Flexibility"
 msgstr "Flexibilität"
@@ -1653,8 +1600,8 @@ msgstr "Verboten"
 msgid "Form groups of 4 (Actual group size depends on the class size)"
 msgstr "Formieren Sie sich in Vierergruppen (abhängig von der Klassengröße)"
 
-msgid "Forum"
-msgstr "Forum"
+msgid "Forum:"
+msgstr "Forum:"
 
 msgid "Foundation, technical committee, and board members"
 msgstr "Foundation, Technisches Komitee und Vorstandsmitglieder"
@@ -1736,9 +1683,6 @@ msgstr "Sammelt Feedback und konsolidiert Anforderungen"
 
 msgid "General Contribution Workflow"
 msgstr "Genereller Workflow der Mitarbeit"
-
-msgid "General discussion around what's going on in a project"
-msgstr "Allgemeine Diskussionen, was im Projekt vor sich geht"
 
 msgid "Generally has information about who the PTL and cores are"
 msgstr "Hat im Allgemeinen Informationen darüber, wer PTL und Cores sind"
@@ -1883,9 +1827,6 @@ msgstr "Gold Mitgliedsfirmen"
 msgid "Good manners on Sandbox"
 msgstr "Gutes Benehmen in der Sandbox"
 
-msgid "Good place to get questions answered"
-msgstr "Eine gute Anlaufstelle, um Antworten auf Fragen zu bekommen"
-
 msgid ""
 "Good source of info about when and in what channel regular meetings are held"
 msgstr ""
@@ -1949,9 +1890,6 @@ msgstr "Wie Openstack gemacht ist"
 msgid "How OpenStack is made (3h including 1h30 exercises)"
 msgstr "Wie OpenStack gemacht ist (3 Stunden incl. 1,5 Stunden Übungen)"
 
-msgid "How does it work?"
-msgstr "Wie funktioniert es?"
-
 msgid "How projects are released"
 msgstr "Wie Projekte released werden"
 
@@ -1984,12 +1922,6 @@ msgstr "IRC-Kanäle"
 
 msgid "IRC Logs"
 msgstr "IRC Logs"
-
-msgid "IRC Meetings"
-msgstr "IRC Meetings"
-
-msgid "IRC Meetings List"
-msgstr "IRC Meetinglisten"
 
 msgid "IRC meetings: http://eavesdrop.openstack.org/"
 msgstr "IRC Meetings: http://eavesdrop.openstack.org/"
@@ -2497,9 +2429,6 @@ msgstr "In OpenStack sind da:"
 msgid "Like any software project, there are:"
 msgstr "Wie in einem Softwareprojekt sind da:"
 
-msgid "Like sprints, small groups of people work on specific themes"
-msgstr "Wie Sprints, kleine Gruppe von Leuten arbeitet an speziellen Themen"
-
 msgid "Limited to 50 characters"
 msgstr "Begrenzt auf 50 Zeichen"
 
@@ -2515,9 +2444,6 @@ msgstr "Linux & Windows"
 msgid "List of approved tags"
 msgstr "Liste der bestätigten Schlagworte"
 
-msgid "List of sessions"
-msgstr "Liste der Sitzungen"
-
 msgid "Listen when people talk"
 msgstr "Höre zu, wenn Leute etwas sagen"
 
@@ -2527,9 +2453,12 @@ msgstr "Lokale Upstream Trainings"
 msgid "Local branch creation"
 msgstr "Erstellen eines lokalen Branches"
 
-msgid "Logs of meetings are archived so that they can be referenced later on"
+msgid ""
+"Logs of meetings and channels are archived so that they can be referenced "
+"later on"
 msgstr ""
-"Logs der Meetings werden archiviert und können später referenziert werden"
+"Logdateien von Meetings und Kanälen werden archiviert, sodass man sp#ter "
+"darauf referenzieren kann"
 
 msgid "Loic Dachary (training, mentoring, assistant, french, english)"
 msgstr "Loic Dachary (Training, Mentoring, Assistant, französisch, englisch)"
@@ -2555,8 +2484,8 @@ msgid ""
 "interested in attending"
 msgstr "Schauen Sie nach Veranstaltungen \"OpenStack Days\" in Ihrer Nähe"
 
-msgid "Look up the location and dates of the first PTG"
-msgstr "Nachsehen von Ort und Datum des ersten PTG"
+msgid "Look up the location and dates of the next PTG"
+msgstr "Schauen SIe nach der Lokation und dem Datum des nächsten PTG"
 
 msgid ""
 "Look up the project you are most interested in and find the three most "
@@ -2688,8 +2617,14 @@ msgstr "Mittel"
 msgid "Meet any policies that the TC requires from all projects"
 msgstr "Erfüllen aller Richtlinien, die der TC von allen Projekten verlangt"
 
-msgid "Meeting channels (#openstack-meeting, #openstack-meeting-cp, etc.)"
-msgstr "Meeting-Kanäle (#openstack-meeting, #openstack-meeting-cp, etc.)"
+msgid "Meeting Channels:"
+msgstr "Meetingkanäle:"
+
+msgid "Meeting Logs: http://eavesdrop.openstack.org/meetings/"
+msgstr "Meeting Logs: http://eavesdrop.openstack.org/meetings/"
+
+msgid "Meetings typically follow an agenda"
+msgstr "Meetings haben üblicherweise eine Agenda"
 
 msgid "Melvin Hillsman – OSIC"
 msgstr "Melvin Hillsman – OSIC"
@@ -2775,11 +2710,6 @@ msgstr "Mehr als 20.000 Patches"
 msgid "More than 40 different ML's"
 msgstr "Mehr als 40 verschiedene MLs"
 
-msgid "More user focused discussion to collect feedback for developers"
-msgstr ""
-"Mehr auf den Benutzer bezogene Diskussion, um Feedback für Entwickler zu "
-"sammeln"
-
 msgid "Most of the OpenStack services"
 msgstr "Die meisten OpenStack Dienste"
 
@@ -2836,12 +2766,6 @@ msgstr ""
 "Keine Übersicht aller Etherpads - macht es schwieriger das Gewünschte zu "
 "finden ohne nach der URL zu fragen"
 
-msgid "No mics."
-msgstr "Keine Mikrofone."
-
-msgid "No predefined agenda."
-msgstr "Keine vordefinierte Agenda."
-
 msgid ""
 "Nonprofit foundation created to \"develop, support, protect, and promote\" "
 "OpenStack"
@@ -2849,17 +2773,11 @@ msgstr ""
 "Gemeinnützige Stiftung gegründet zum \"Entwickeln, Unterstützen, Beschützen, "
 "und Bewerben\" von OpenStack"
 
-msgid "Not a classic conference with presenter and audience"
-msgstr "Keine klassische Konferenz mit Präsentator und Publikum"
-
 msgid "Not good as an entry point"
 msgstr "Kein guter Einstiegspunkt"
 
 msgid "Not really a bug, but a suggested improvement"
 msgstr "Kein richtiger Bug, aber eine empfohlene Verbesserung"
-
-msgid "Not suitable to start learning about a topic"
-msgstr "Nicht sinnvoll, um ein neues Thema zu lernen"
 
 msgid "Now open the hexchat program just like you would for any Linux program."
 msgstr ""
@@ -2867,9 +2785,6 @@ msgstr ""
 
 msgid "Objectives"
 msgstr "Ziele"
-
-msgid "Ocata"
-msgstr "Ocata"
 
 msgid "October 10 - 11, 2014 (Fri - Sat)"
 msgstr "10.-11.10. 2014 (Fr-Sa)"
@@ -2966,9 +2881,6 @@ msgstr ""
 msgid "Open collaboration"
 msgstr "offene Zusammenarbeit"
 
-msgid "Open discussions, chairs organized in concentric rings"
-msgstr "Offene Diskussionen, Stühle in konzentrischen Ringen organisiert"
-
 msgid ""
 "Open reviews, contribution for the latest 30 or 90 days, activity report, "
 "etc."
@@ -2993,9 +2905,6 @@ msgstr "OpenStack Geburtstagsfeier"
 
 msgid "OpenStack Days"
 msgstr "OpenStack Tage"
-
-msgid "OpenStack Design Summit"
-msgstr "OpenStack Design Summit"
 
 msgid "OpenStack Documentation"
 msgstr "OpenStack Dokumentation"
@@ -3145,9 +3054,6 @@ msgstr "Patrick East – PureStorage"
 msgid "Pay attention to who is an expert in what area"
 msgstr "Achten Sie darauf, wer in welchen Bereichen Experte ist"
 
-msgid "People sitting in the inner circle lead the discussion"
-msgstr "Personen im inneren Kreis leiten die Diskussion"
-
 msgid "People with similar area of interest"
 msgstr "Personen mit ähnlichen Interessensgebieten"
 
@@ -3157,15 +3063,9 @@ msgstr "Pro Projektmarke"
 msgid "Perform the smaller tasks"
 msgstr "kleine Aufgaben durchführen"
 
-msgid "Personal message or talk in the channel to people"
-msgstr "Persönliche Nachricht oder sprechen mit den Leuten im Kanal"
-
 msgid "Pick a task (bug, trivial fix, documentation, implementation)"
 msgstr ""
 "Wählen Sie eine Aufgabe (Bug, einfacher Fix, Dokumentation, Implementierung)"
-
-msgid "Picking Your Project"
-msgstr "Wählen Sie Ihr Projekt"
 
 msgid "Planning - Design"
 msgstr "Planung - Design"
@@ -3227,6 +3127,9 @@ msgstr "*Ergebnisse* produzieren, um klar beschriebene *Ziele* zu erreichen"
 msgid "Product owners"
 msgstr "Product Owner"
 
+msgid "Project Channels:"
+msgstr "Projektkanäle"
+
 msgid "Project Team Gathering (PTG)"
 msgstr "Project Team Gathering (PTG)"
 
@@ -3282,9 +3185,6 @@ msgstr "Gemeinsam veröffentlicht als OpenStack-Version"
 msgid "Push code to Gerrit for review"
 msgstr "Pushen des Codes nach Gerrit zur Review"
 
-msgid "Push upstream for review"
-msgstr "Upstream-Review anstoßen"
-
 msgid "Quality"
 msgstr "Qualität"
 
@@ -3300,9 +3200,6 @@ msgstr ""
 
 msgid "REST APIs"
 msgstr "REST APIs"
-
-msgid "Read and complete the :doc:`accounts` guide."
-msgstr "Lesen und abschließen der Anleitung :doc:`accounts`."
 
 msgid "Read and complete the :doc:`git` guide."
 msgstr "Lesen und abschließen der Anleitung :doc:`git`."
@@ -3403,9 +3300,6 @@ msgstr "Ändern der Codeänderungen und laufen lassen der Tests"
 msgid "Repeated as many times as necessary"
 msgstr "Wiederholen so oft wie nötig"
 
-msgid "Replacement for Design Summit at future Summits"
-msgstr "Ersatz für den Design Summit in zukünftigen Summits"
-
 msgid "Reply to comments"
 msgstr "Auf Kommentare antworten"
 
@@ -3439,9 +3333,6 @@ msgstr ""
 
 msgid "Requirements of Official OpenStack projects"
 msgstr "Anforderungen an offizielle OpenStack Projekte"
-
-msgid "Reserved for ad-hoc meetings of project teams"
-msgstr "Reserviert für ad-hoc Meetings von Projektteams"
 
 msgid "Resolve merge conflicts"
 msgstr "Auflösen von Merge-Konflikten"
@@ -3804,6 +3695,9 @@ msgstr "Prägnante Beschreibung des Patchinhaltes"
 msgid "Suggestions of projects to work on:"
 msgstr "Vorschläge zum arbeiten an Projekten:"
 
+msgid "Summit & Forum"
+msgstr "Summit & Forum"
+
 msgid "Summits"
 msgstr "Summits"
 
@@ -4053,6 +3947,13 @@ msgstr ""
 "ihren geplanten Beitrag zu erstellen."
 
 msgid ""
+"The summit is a regular conference with keynotes, presenations, and panel "
+"discussions"
+msgstr ""
+"Der Summit ist eine reguläre Konferenz mit Keynots, Präsentationen und Panel-"
+"Diskussionen."
+
+msgid ""
 "The teams get space on OpenStack Summits and Project Team Gatherings (PTG)"
 msgstr ""
 "Die Teams bekommen Raum auf den OpenStack Summits und Project Team "
@@ -4066,6 +3967,15 @@ msgstr ""
 "Das Training konzentriert sich auf den üblichen Zyklus mit "
 "Entwicklungsmeilensteinen. Andere Vorgehensweisen sollten anhand von "
 "Beispielen beschrieben werden."
+
+msgid ""
+"There are a finite number of meeting channels so that meetings are spread "
+"around. This is enforced by infra. The #openstack-meeting-cp channel is "
+"special in that it is dedicated to cross project efforts."
+msgstr ""
+"Es gibt eine endliche Anzahl von Meetingkanälen. Diese werden von Infra "
+"erweitert. Der #openstack-meeting-cp Kanal ist speziell für "
+"bereichsübergreifene Projekte bestimmt."
 
 msgid ""
 "These slides prepare students for the Lego activity, and ensure they "
@@ -4246,9 +4156,6 @@ msgstr ""
 "ersetzen **mysecretpassword** und **test@domain.com** mit Ihrem eigenen "
 "Passwort und Email-Adresse::"
 
-msgid "Types of sessions"
-msgstr "Typen von Sitzungen"
-
 msgid "Typically public key filenames will look like:"
 msgstr "Dateinamen öffentlicher Schlüssel sehen üblicherweise so aus:"
 
@@ -4346,6 +4253,12 @@ msgstr "User Komitee (\"UC\")"
 
 msgid "User Group Meetups"
 msgstr "Usergroup Treffen"
+
+msgid ""
+"User focused discussions at the Forum to collect feedback for developers"
+msgstr ""
+"Anwenderfokusierte Diskussionen im Forum, um Feedback für Entwickler zu "
+"sammeln."
 
 msgid "User groups"
 msgstr "Benutzergruppen"
@@ -4571,13 +4484,6 @@ msgstr ""
 msgid "When your blueprint/spec is accepted"
 msgstr "Wenn Ihr Bluebrint oder Spec akzeptiert wurde"
 
-msgid ""
-"Where developers meet face to face to finalize planning for the next release "
-"cycle."
-msgstr ""
-"Wo Entwickler sich Angesicht zu Angesicht treffen, um die Planung zum "
-"nächsten Versionszyklus abzuschliessen."
-
 msgid "Who's familiar with the term?"
 msgstr "Wer kennt den Begriff?"
 
@@ -4625,9 +4531,6 @@ msgstr "Arbeiten Sie an Rückmeldungen und Kommentaren"
 
 msgid "Work on the fix is in progress, bug has an assignee"
 msgstr "Fehlerbehebung ist in Arbeit, Bug ist jemandem zugewiesen"
-
-msgid "Work sessions"
-msgstr "Arbeitssitzung"
 
 msgid "Work towards OpenStack's mission"
 msgstr "darauf hinwirken, die OpenStack Mission zu erfüllen"
@@ -5427,9 +5330,6 @@ msgid "http://docs.openstack.org/upstream-training/workflow-using-sandbox.html"
 msgstr ""
 "http://docs.openstack.org/upstream-training/workflow-using-sandbox.html"
 
-msgid "http://eavesdrop.openstack.org/"
-msgstr "http://eavesdrop.openstack.org/"
-
 msgid ""
 "http://governance.openstack.org/reference/new-projects-requirements.html"
 msgstr ""
@@ -5513,9 +5413,6 @@ msgstr "https://www.openstack.org/foundation/tech-committee/"
 msgid "https://www.openstack.org/join/"
 msgstr "https://www.openstack.org/join/"
 
-msgid "https://www.openstack.org/summit/barcelona-2016/summit-schedule/"
-msgstr "https://www.openstack.org/summit/barcelona-2016/summit-schedule/"
-
 msgid "i18n"
 msgstr "i18n"
 
@@ -5557,9 +5454,6 @@ msgstr "Master Branch ist für Entwicklung geöffnet"
 
 msgid "milestone or release branch"
 msgstr "Meilenstein oder Versions-Branch"
-
-msgid "more like a collaborative brainstorming session"
-msgstr "mehr ein gemeinsames Brainstorming"
 
 msgid "nvie inspired"
 msgstr "nvie inspiriert"
