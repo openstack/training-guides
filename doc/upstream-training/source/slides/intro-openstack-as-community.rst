@@ -11,9 +11,12 @@ OpenStack as a Community
 
 - Mission
 
-  To produce the ubiquitous Open Source Cloud Computing platform that will meet
-  the needs of public and private clouds regardless of size, by being simple to
-  implement and massively scalable.
+::
+
+  To produce a ubiquitous Open Source Cloud Computing platform that is
+  easy to use, simple to implement, interoperable between deployments,
+  works well at all scales, and meets the needs of users and operators
+  of both public and private clouds.
 
 Four "open"s
 ============
@@ -42,21 +45,18 @@ Framework
 
   - Wiki
   - IRC
-  - Etherpad
+  - Etherpad/Ethercalc
 
 Life in and around OpenStack
 ============================
 
-- Projects under a "Big Tent"
-
-  - Code
-  - Documentation
-
+- Official & Unofficial Projects
 - Working groups
 - User groups
 - Events
 
-  - Summits
+  - Summits/Forums
+  - Project Teams Gatherings (PTGs)
   - Operators' meet ups
   - OpenStack Days
 
