@@ -9,11 +9,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-07 13:14+0000\n"
+"POT-Creation-Date: 2017-04-14 11:35+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-04-12 07:41+0000\n"
+"PO-Revision-Date: 2017-04-17 01:34+0000\n"
 "Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -76,6 +76,13 @@ msgstr ""
 "**Public key** - Dieser kann mit SSH-Servern frei geteilt werden, mit denen "
 "Sie sich verbinden wollen."
 
+msgid ""
+"**Saturday, May 6, 2017 at 1:00 p.m. to 6:00 p.m. - Sunday, May 7, 2017 at "
+"09:00 a.m. to 6:00 p.m. (local time)**"
+msgstr ""
+"**Sonnabend, 6. Mai 2017 13:00 bis 18:00 Uhr - Sonntag, 7. Mai 2017 09:00 "
+"bis 18:00 Uhr (lokale Zeit)**"
+
 msgid "**Staff**"
 msgstr "**Staff**"
 
@@ -96,6 +103,9 @@ msgstr "179 Länder"
 
 msgid "19:45 Barcelona FC Game"
 msgstr "19:45 Barcelona FC Game"
+
+msgid "1st Upstream Training in Seoul"
+msgstr "1. Upstream Training in Seoul"
 
 msgid "2,336 developers"
 msgstr "2.336 Entwickler"
@@ -129,6 +139,9 @@ msgstr "2016 Barcelona, Spanien"
 
 msgid "2016 was 6th birthday of OpenStack"
 msgstr "2016 war der 6. Geburtstag von OpenStack"
+
+msgid "2nd Upstream Training in Seoul with Ubuntu Korea Community & Naver D2"
+msgstr "2. Upstream Training in Seoul mit Ubuntu Korea Community & Naver D2"
 
 msgid "3-4 different companies"
 msgstr "3-4 verschiedene Firmen"
@@ -276,6 +289,15 @@ msgstr "Nachdem die Änderung akzeptiert wurde"
 msgid "After the last milestone"
 msgstr "Nach dem letzten Meilenstein"
 
+msgid ""
+"After the training students have the possibility to sign up for a longer "
+"term mentoring to further stregthen the skills they've learnt during the "
+"training."
+msgstr ""
+"Nach dem Training haben die Schüler die Möglichkeit, sich für ein "
+"längerfristiges Mentoring einzuschreiben, um die Fähigkeiten, die sie "
+"während des Trainings gelernt haben, weiter zu stärken."
+
 msgid "Agenda - Day 1"
 msgstr "Agenda - Tag 1"
 
@@ -348,8 +370,21 @@ msgstr ""
 "Beiträgen einer Person oder Einrichtung entsteht. `Vorschau der vollen "
 "Vereinbarung <https://review.openstack.org/static/cla.html>`_."
 
+msgid ""
+"An employer with the appropriate signing rights of the company or "
+"organization needs to sign the `Corporate Contributor License Agreement "
+"<https://secure.echosign.com/public/hostedForm?formid=56JUVGT95E78X5>`_."
+msgstr ""
+"Ein Arbeitgeber mit den entsprechenden Unterzeichnungsrechten der "
+"Gesellschaft oder Organisation muss die \"Corporate Contributor "
+"Lizenzvereinbarung <https://secure.echosign.com/public/hostedForm?"
+"formid=56JUVGT95E78X5>` _ unterzeichnen."
+
 msgid "Anne Gentle – Cisco"
 msgstr "Anne Gentle – Cisco"
+
+msgid "Answer other's questions or help direct them to those who can"
+msgstr "Beantworten Sie Fragen oder helfen Sie jemanden zu suchen, der es kann"
 
 msgid "Answering reviewer's comment(s) is a good manner."
 msgstr "Die Kommentare eines Überprüfers zu beantworten gehört zum guten Ton."
@@ -376,11 +411,27 @@ msgstr "Archivieren und sammeln"
 msgid "Archive of additional training activities"
 msgstr "Archiv weiterer Trainingsaktivitäten"
 
+msgid "Archived exercises"
+msgstr "Erreichte Übungen"
+
 msgid "Archives"
 msgstr "Archive"
 
 msgid "Areas of interest"
 msgstr "Interessensgebiete"
+
+msgid ""
+"As a first exercise we ask you to `register to the OpenStack Foundation "
+"<https://www.openstack.org/join/register/>`_ as a Foundation member if you "
+"haven't done it yet. After signing in you will also need to `associate your "
+"EventBrite order with your OpenStackID <https://www.openstack.org/profile/"
+"attendeeInfoRegistration>`_."
+msgstr ""
+"Als erste Übung bitten wir Sie, sich bei der OpenStack Foundation <https://"
+"www.openstack.org/join/register/> `_ als Foundation-Mitglied zu "
+"registrieren, wenn Sie es noch nicht getan haben. Nach der Anmeldung müssen "
+"Sie auch Ihren EventBrite-Auftrag mit Ihrem OpenStackID <https://www."
+"openstack.org/profile/attendeeInfoRegistration> `_ verknüpfen."
 
 msgid "Ask a mentor to break the *tested* code of one test case"
 msgstr ""
@@ -388,6 +439,9 @@ msgstr ""
 
 msgid "Ask questions during the class"
 msgstr "Stellen Sie Fragen in der Klasse"
+
+msgid "Ask questions in the channel or send direct messages"
+msgstr "Stellen Sie Fragen im Kanal oder senden Sie direkte Nachrichten"
 
 msgid "Assess your approach"
 msgstr "Beurteilen Sie Ihre Vorgehensweise"
@@ -437,6 +491,14 @@ msgstr "Schlecht: neue Funktion und Refactoring"
 
 msgid "Bad: two independent changes"
 msgstr "Schlecht: zwei unabhängige Änderungen"
+
+msgid ""
+"Be able to identify and start a task (bug fix, feature design and "
+"implementation, Working Group activity and so forth)"
+msgstr ""
+"In der Lage sein, eine Aufgabe zu identifizieren und zu starten "
+"(Fehlerbehebung, Feature-Design und Implementierung, Arbeitsgruppeaktivität "
+"und so weiter)"
 
 msgid "Be collaborative"
 msgstr "kooperativ sein"
@@ -552,6 +614,9 @@ msgstr ""
 "Arbeitsablauf vertraut zu machen und den ersten Kontakt mit dem Code in der "
 "Openstack-Entwicklung zu machen."
 
+msgid "Build a network"
+msgstr "Bauen Sie ein Netzwerk"
+
 msgid ""
 "Build a street out of Lego. All buildings must be connected by road and "
 "sidewalk. The Foundation, TC, and Board must approve the overall design of "
@@ -563,6 +628,9 @@ msgstr ""
 
 msgid "Building Blocks: build as you need"
 msgstr "Bausteine: bauen, wie benötigt"
+
+msgid "Building Your Persona"
+msgstr "Bauen Sie Ihre Persona"
 
 msgid "Building documentation"
 msgstr "Bauanleitung"
@@ -948,6 +1016,9 @@ msgstr ""
 "Erstellen Sie eine virtuelle Maschine auf Ihrem Laptop mit Ubuntu 16.04 und "
 "6+ GB RAM."
 
+msgid "Create your commit and push upstream for review"
+msgstr "Erstellen Sie Ihr Commit und pushen ihn zu Upstream zum Review"
+
 msgid "Created by a large growing community"
 msgstr "Erstellt von einer schnell wachsenden Gemeinschaft"
 
@@ -989,6 +1060,9 @@ msgstr ""
 msgid "Date"
 msgstr "Datum"
 
+msgid "Date: February 11, 2017 (Sat)"
+msgstr "Date: February 11, 2017 (Sat)"
+
 msgid "Date: February 18, 2016 (Thu)"
 msgstr "Datum: 18.02.2016 "
 
@@ -1006,6 +1080,9 @@ msgstr "Tag 1: Git, Gerrit, IRC lernen und praktisch anwenden"
 
 msgid "Day 2"
 msgstr "Tag 2"
+
+msgid "Day 2: Deep dive sessions"
+msgstr "Tag 2: Deep Dive Sessions"
 
 msgid "Day 2: The theory of contribution"
 msgstr "Tag 2: Die Theorie des Beitragens"
@@ -1094,6 +1171,9 @@ msgstr "Entwickler"
 
 msgid "Developers read mostly, write occasionally"
 msgstr "Entwickler lesen meistens, schreiben gelegentlich"
+
+msgid "Developers/Software Engineers/Architects"
+msgstr "Entwickler/Software-Ingenieure/Architekten"
 
 msgid "Development environment setup"
 msgstr "Einrichtung Entwicklungsumgebung"
@@ -1219,6 +1299,9 @@ msgstr "Jedes Projekt und jede Arbeitsgruppe hat ihre eigene Wiki-Seite"
 msgid "Each project and working group has its own channel"
 msgstr "Jedes Projekt und jede Arbeitsgruppe hat ihren eigenen Kanal"
 
+msgid "Each project has its own purpose & culture."
+msgstr "Jedes Projekt hat seinen eigenen Zweck und Kultur."
+
 msgid "Each student group prepares a presentation describing:"
 msgstr "Jeder Student bereitet eine Präsentation vor, die beschreibt:"
 
@@ -1280,6 +1363,9 @@ msgstr "Etherpad"
 
 msgid "Etherpads"
 msgstr "Etherpads"
+
+msgid "EunSeop Shin (assistant, mentoring)"
+msgstr "EunSeop Shin (assistant, mentoring)"
 
 msgid "Events"
 msgstr "Ereignisse"
@@ -1404,6 +1490,9 @@ msgstr "Erklären was Sie tun"
 msgid "Explanation of issue being solved and why it should be fixed"
 msgstr "Erklärung zum gelösten Problem und warum es gelöst werden soll"
 
+msgid "Face-to-face section: 1.5 days"
+msgstr "Face-to-Face-Bereich: 1,5 Tage"
+
 msgid ""
 "Failure of a significant feature, with workaround. Failure of a fringe "
 "feature, no workaround"
@@ -1481,6 +1570,9 @@ msgstr "Auffinden der aktuellen Board of Directors Mitglieder, TC und UC"
 msgid "First day"
 msgstr "Erster Tag"
 
+msgid "Fishbowls: Open moderated discussions"
+msgstr "Fishbowls: Offene moderierte DIskussionen"
+
 msgid "Fitting it all together"
 msgstr "Füge alles zusammen"
 
@@ -1534,6 +1626,13 @@ msgstr ""
 "aufgelistet unter Hexchat."
 
 msgid ""
+"For Working Group participation having at least 15-20% of your work time "
+"allocated for community activities"
+msgstr ""
+"Für die Teilnahme der Arbeitsgruppe mit mindestens 15-20% Ihrer Arbeitszeit "
+"für Gemeinschaftsaktivitäten"
+
+msgid ""
 "For a Linux distributions like Debian, Ubuntu, or Mint open a terminal and "
 "type::"
 msgstr ""
@@ -1546,6 +1645,15 @@ msgid ""
 msgstr ""
 "Für eine Linuxdistribution wie  Redhat, Fedora 21 oder älter, oder CentOS "
 "öffnen Sie ein Terminal und geben ein::"
+
+msgid ""
+"For code and/or documentation contributions having at least 40% of your work "
+"time dedicate to the project, be it through programming or through "
+"interacting with the community"
+msgstr ""
+"Für Code- und/oder Dokumentationsbeiträge mit mindestens 40% Ihrer "
+"Arbeitszeit für das Projekt, sei es durch Programmierung oder durch die "
+"Interaktion mit der Community"
 
 msgid ""
 "For distributions like Debian, Ubuntu, or Mint open a terminal and type::"
@@ -1561,6 +1669,22 @@ msgstr ""
 "ein Terminal und tippen::"
 
 msgid ""
+"For example if you are a project or program manager it is very important for "
+"you to understand how the OpenStack releases are structured in order to be "
+"able to plan the roadmap for the product you are responsible for. You might "
+"also be interested in participating in Working Groups to actively "
+"participate in and influence the community in you areas of interest. The "
+"training helps you to find the information entry points you need."
+msgstr ""
+"Zum Beispiel, wenn Sie ein Projekt- oder Programm-Manager sind, ist es sehr "
+"wichtig für Sie zu verstehen, wie die OpenStack-Releases strukturiert sind, "
+"um die Roadmap für das Produkt, für das Sie verantwortlich sind, planen zu "
+"können. Sie könnten auch daran interessiert sein, an den Arbeitsgruppen "
+"teilzunehmen, um aktiv an der Gemeinschaft teilzunehmen und diese zu "
+"beeinflussen. Das Training hilft Ihnen, die gewünschten Informationspunkte "
+"zu finden."
+
+msgid ""
 "For further commands see the `User's Manual <https://www.gnu.org/software/"
 "screen/manual/screen.html>`_"
 msgstr ""
@@ -1573,6 +1697,15 @@ msgid ""
 msgstr ""
 "Weitere Informationen über vergangene Trainings und lokale Upstream-"
 "Trainings finden Sie unter :doc:`upstream-archives`."
+
+msgid ""
+"For more information about this session and other OpenStack trainings and "
+"workshops in Boston, see the `OpenStack Academy page <https://www.openstack."
+"org/summit/boston-2017/openstack-academy>`_."
+msgstr ""
+"Für mehr Information über diesen Lehrgang und andere OpenStack Trainings und "
+"Workshops in Boston, schauen Sie nach`OpenStack Academy page <https://www."
+"openstack.org/summit/boston-2017/openstack-academy>`_."
 
 msgid "For more information, see :doc:`upstream-details`."
 msgstr "Für mehr Informationen schauen Sie auf  :doc:`upstream-details`."
@@ -1675,6 +1808,9 @@ msgstr "Mehr Details in einer späteren Sitzung"
 msgid "Further supporting companies and organizations"
 msgstr "Weitere unterstützende Firmen und Organisationen"
 
+msgid "Further trainers/coaches"
+msgstr "Weitere Trainer/Coaches"
+
 msgid "GIT commit message structure"
 msgstr "GIT Commit-Nachricht-Sruktur"
 
@@ -1730,6 +1866,9 @@ msgstr "Erhalten Marketing von der OpenStack Foundation"
 
 msgid "Get to know the code"
 msgstr "Kennenlernen des Codes"
+
+msgid "Get to know the technical tools"
+msgstr "Die technischen Werkzeuge kennenlernen"
 
 msgid "Getting to Know Your Project"
 msgstr "Lernen Sie Ihr Projekt kennen"
@@ -1848,6 +1987,13 @@ msgstr "Wachsende Zahl (26 in 2016)"
 msgid "Guide to SetUp and Push First Patch"
 msgstr "Anleitung zum Einrichten und Pushen des ersten Patches"
 
+msgid ""
+"Hacking Rooms: Reservable rooms for projects to gather for technical "
+"discussions"
+msgstr ""
+"Hacking Rooms: Reservierte Räume für Projekte, um technische Diskussionen "
+"zusammenzutragen"
+
 msgid "Haikel Guemar (assistant, mentor, french, english)"
 msgstr "Haikel Guemar (Assistent, Mentor, französisch, englisch)"
 
@@ -1862,6 +2008,9 @@ msgstr "Ein Mentor sitzt bei jeder Gruppe"
 
 msgid "Held by local groups to celebrate another year of OpenStack"
 msgstr "Zelebrierung des Jahrestages von OpenStack durch lokale Gruppen"
+
+msgid "Help fix the documentation"
+msgstr "Helfen Sie die Dokumentation zu korrigieren"
 
 msgid "High"
 msgstr "Hoch"
@@ -1910,6 +2059,9 @@ msgstr "wie man OpenStack verwendet"
 
 msgid "However, please keep in mind that it is on your own responsibility."
 msgstr "Bitte beachten Sie, dass es in Ihrer Verantwortung liegt."
+
+msgid "Hyeunjee Kim (assistant, mentoring)"
+msgstr "Hyeunjee Kim (assistant, mentoring)"
 
 msgid "Hypervisor Tuning Guide"
 msgstr "Hypervisor Tuning Guide"
@@ -1981,6 +2133,28 @@ msgstr ""
 "Wenn Dokumentation beigesteuert wird, in der Lage sein, Dokumente in der "
 "gegebenen Infrastruktur zu liefern."
 
+msgid ""
+"If people know you, you have a better chance at your code getting attention."
+msgstr ""
+"Wenn die Leute SIe kennen, haben Sie eine bessere Chance, daß Ihr Code "
+"beachtet wird."
+
+msgid ""
+"If the CCLA only needs to be extended follow `this <https://wiki.openstack."
+"org/wiki/HowToUpdateCorporateCLA>`_ procedure."
+msgstr ""
+"Wenn die CCLA nur noch verlängert werden muss, folgen Sie `this <https://"
+"wiki.openstack.org/wiki/HowToUpdateCorporateCLA>`_ procedure."
+
+msgid ""
+"If you are a developer we help you to find your way into the community to "
+"get your bug fix or feature accepted in the OpenStack project in a minimum "
+"amount of time."
+msgstr ""
+"Wenn Sie ein Entwickler sind, helfen wir Ihnen, Ihren Weg in die Community "
+"zu finden, um Ihre Bugfix oder Feature in das OpenStack-Projekt in einem "
+"minimalen Zeitraum einzubringen."
+
 msgid "If you are contributing on behalf of a company or organization."
 msgstr "Wenn Sie im Namen einer Firma oder Organisation mitarbeiten."
 
@@ -2043,6 +2217,9 @@ msgstr ""
 
 msgid "Ildiko Vancsa - ildikov - Telemetry (mentoring, assistant)"
 msgstr "Ildiko Vancsa - ildikov - Telemetry (Mentoring, Assistent)"
+
+msgid "Ildiko Vancsa, Kendall Nelson"
+msgstr "Ildiko Vancsa, Kendall Nelson"
 
 msgid "Ildikó Váncsa – The OpenStack Foundation"
 msgstr "Ildikó Váncsa – The OpenStack Foundation"
@@ -2348,6 +2525,10 @@ msgstr "Kato Tomoyuki- Fujitsu"
 
 msgid "Kendall Nelson – The OpenStack Foundation"
 msgstr "Kendall Nelson – The OpenStack Foundation"
+
+msgid "Know where to find information, where and how to get help if needed"
+msgstr ""
+"Zu wissen wo Informationen zu finden sind und wo und wie jemand helfen kann"
 
 msgid "LOG message exercise"
 msgstr "Lognachricht-Übung"
@@ -2680,6 +2861,9 @@ msgstr "Mehr Informationen: http://openstackdays.com/archive/2015/feature/"
 msgid "More information: http://sdndev.net/10"
 msgstr "Mehr Informationen: http://sdndev.net/10"
 
+msgid "More information: http://sdndev.net/11"
+msgstr "Mehr Information: http://sdndev.net/11"
+
 msgid ""
 "More information: http://www.meetup.com/Japan-OpenStack-User-Group/"
 "events/223005607/"
@@ -2927,6 +3111,12 @@ msgstr "OpenStack Arbeitsgruppen"
 msgid "OpenStack Release Cycle"
 msgstr "OpenStack Versionszyklen"
 
+msgid "OpenStack Upstream Institute"
+msgstr "OpenStack Upstream Institut"
+
+msgid "OpenStack Upstream Institute Class Details"
+msgstr "OpenStack Upstream Institute Class Details"
+
 msgid "OpenStack Upstream Training"
 msgstr "OpenStack Upstream Training"
 
@@ -3063,6 +3253,9 @@ msgstr "Pro Projektmarke"
 msgid "Perform the smaller tasks"
 msgstr "kleine Aufgaben durchführen"
 
+msgid "Peter Ko (assistant, mentoring)"
+msgstr "Peter Ko (assistant, mentoring)"
+
 msgid "Pick a task (bug, trivial fix, documentation, implementation)"
 msgstr ""
 "Wählen Sie eine Aufgabe (Bug, einfacher Fix, Dokumentation, Implementierung)"
@@ -3103,6 +3296,9 @@ msgstr ""
 "Lassen Sie Studenten nicht 10 oder mehr Änderungen erzeugen. Dies ist nicht "
 "der Zweck von Sandboxes."
 
+msgid "Please note that the language of the training is English."
+msgstr "Beachten SIe, dass die Unterrichtssprache in Englisch ist."
+
 msgid "Prepare an environment by yourself from scratch:"
 msgstr "Erstellen Sie selbst eine Umgebung von Grund auf:"
 
@@ -3114,6 +3310,12 @@ msgstr "Bereiten Sie Ihre Idee für die Öffentlichkeit vor"
 
 msgid "Prepared virtual machine image with a development environment:"
 msgstr "Vorbereitete virtuelle Maschinenabbilder mit Entwicklungsumgebung:"
+
+msgid "Prerequisites to attend the class"
+msgstr "Vorbedingungen zur Teilnahme an der Klasse"
+
+msgid "Previous trainings"
+msgstr "Vorheriges Training"
 
 msgid "Prioritize bugs / bug triage"
 msgstr "Bugs priorisieren/Bugs sichten"
@@ -3130,6 +3332,13 @@ msgstr "Product Owner"
 msgid "Project Channels:"
 msgstr "Projektkanäle"
 
+msgid ""
+"Project Onboarding Sessions: A place for new contributors to ask questions "
+"and get to know other contributors to the project"
+msgstr ""
+"Project Onboarding Sessions: Ein Platz für neue Beitragende, um Fragen zu "
+"stellen und andere Beitragende vom Projekt kennenzulernen"
+
 msgid "Project Team Gathering (PTG)"
 msgstr "Project Team Gathering (PTG)"
 
@@ -3142,6 +3351,9 @@ msgid ""
 msgstr ""
 "Projekt-Teams helfen Ihnen die Meilensteine zu identifizieren und in "
 "Tracking-Tool einzutragen."
+
+msgid "Project/Program managers/Product owners"
+msgstr "Projekt/Programmanager/Produkteigentümer"
 
 msgid "Projects APIs are documented within the project"
 msgstr "Projekt-APIs sind im Rahmen des Projekts dokumentiert"
@@ -3201,6 +3413,15 @@ msgstr ""
 msgid "REST APIs"
 msgstr "REST APIs"
 
+msgid ""
+"Read and complete the :doc:`accounts` guide. (**Note:** you will need to "
+"sign the Individual Contributor License Agreement (`ICLA <https://review."
+"openstack.org/static/cla.html>`_) during this.)"
+msgstr ""
+"Lesen und vervollständigen Sie den :doc:`accounts` guide. (**Hinweis:** Sie "
+"müssen das Individual Contributor License Agreement (`ICLA <https://review."
+"openstack.org/static/cla.html>`_) unterzeichnen.)"
+
 msgid "Read and complete the :doc:`git` guide."
 msgstr "Lesen und abschließen der Anleitung :doc:`git`."
 
@@ -3223,6 +3444,9 @@ msgstr "Lesen der Bugbeschreibung und sich selbst für Bugbeseitigung zuweisen"
 
 msgid "Recheck bug #XXX"
 msgstr "Recheck bug #XXX"
+
+msgid "Recommendations to become an active community member"
+msgstr "Empfehlungen um aktivies Community-Mitglied zu werden"
 
 msgid "References to other relevant patches?"
 msgstr "Referenzen zu anderen relevanten Patches?"
@@ -3468,6 +3692,9 @@ msgstr "Sicherheitsanleitung"
 msgid "SecurityImpact"
 msgstr "SecurityImpact"
 
+msgid "See YOU in Boston!"
+msgstr "Wir sehen SIE in Boston!"
+
 msgid "Seeing new comment"
 msgstr "Neue Kommentare wahrnehmen"
 
@@ -3476,6 +3703,9 @@ msgstr "Betrachten von Review-Scores mit geschriebenen Kommentaren"
 
 msgid "Self-contained"
 msgstr "in sich geschlossen"
+
+msgid "SeongSoo Cho (assistant, mentoring)"
+msgstr "SeongSoo Cho (assistant, mentoring)"
 
 msgid "Seoul, Korea"
 msgstr "Seoul, Korea"
@@ -3701,6 +3931,9 @@ msgstr "Summit & Forum"
 msgid "Summits"
 msgstr "Summits"
 
+msgid "Sungjin Kang (assistant, mentoring)"
+msgstr "Sungjin Kang (assistant, mentoring)"
+
 msgid "Sungjin Kang (training, assistant, mentoring)"
 msgstr "Sungjin Kang (Training, Assistent, Mentoring)"
 
@@ -3718,6 +3951,9 @@ msgstr "Systemadministratoren"
 
 msgid "TC seats are elected from and by the group of ATC's"
 msgstr "TC werden aus und durch die Gruppe der ATCs gewählt"
+
+msgid "Taehee Jang (assistant, mentoring - Ubuntu Korea Community)"
+msgstr "Taehee Jang (assistant, mentoring - Ubuntu Korea Community)"
 
 msgid "Tags can be proposed by anyone"
 msgstr "Tags können von jedem vorgeschlagen werden"
@@ -3897,11 +4133,33 @@ msgstr ""
 "den Ergebnissen ihrer Arbeit zu erreichen."
 
 msgid ""
+"The live one and a half day class teaches the students how to navigate the "
+"intricacies of the project's technical tools and social interactions and "
+"shows how they can collaborate with the community and find their place in "
+"the ecosystem."
+msgstr ""
+"Die lebendigene eineinhalbtägige Klasse unterrichtet die Schüler, wie man "
+"die Feinheiten der technischen Werkzeuge und sozialen Interaktionen des "
+"Projekts navigiert und zeigt, wie sie mit der Gemeinschaft zusammenarbeiten "
+"und ihren Platz im Ökosystem finden können."
+
+msgid ""
 "The milestone we need to fix the bug for, or the milestone/version it was "
 "fixed in."
 msgstr ""
 "Den Meilenstein, den wir zur Bugbeseitigung brauchen, oder Meilenstein/"
 "Version, in der er behoben wurde."
+
+msgid ""
+"The next session of the OpenStack Upstream Collaboration Training - "
+"OpenStack Upstream Institute - will be held in Boston, just before the "
+"`OpenStack Summit Boston 2017 <https://www.openstack.org/summit/boston-2017/"
+">`_."
+msgstr ""
+"Die nächste Sitzung des OpenStack Upstream Collaboration Training - "
+"OpenStack Upstream Institut - findet in Boston statt, kurz vor dem "
+"\"OpenStack Summit Boston 2017 <https://www.openstack.org/summit/boston-2017/"
+">` _."
 
 msgid "The official list of projects:"
 msgstr "Die offizielle Liste der Projekte:"
@@ -3967,6 +4225,13 @@ msgstr ""
 "Das Training konzentriert sich auf den üblichen Zyklus mit "
 "Entwicklungsmeilensteinen. Andere Vorgehensweisen sollten anhand von "
 "Beispielen beschrieben werden."
+
+msgid ""
+"The training has a modular structre by which it gives room to attendees with "
+"different job roles."
+msgstr ""
+"Das Training hat eine modulare Struktur, durch die es Raum für Teilnehmer "
+"mit unterschiedlichen Jobrollen gibt."
 
 msgid ""
 "There are a finite number of meeting channels so that meetings are spread "
@@ -4101,6 +4366,9 @@ msgstr "Trainingsanleitungen"
 msgid "Training labs"
 msgstr "Training Labs"
 
+msgid "Training organizers"
+msgstr "Training Organisator"
+
 msgid "Translations / i18n issues."
 msgstr "Übersetzungs / i18n Probleme."
 
@@ -4156,6 +4424,9 @@ msgstr ""
 "ersetzen **mysecretpassword** und **test@domain.com** mit Ihrem eigenen "
 "Passwort und Email-Adresse::"
 
+msgid "Types of sessions at the Forum"
+msgstr "Versammlungsarten auf dem Forum"
+
 msgid "Typically public key filenames will look like:"
 msgstr "Dateinamen öffentlicher Schlüssel sehen üblicherweise so aus:"
 
@@ -4177,6 +4448,14 @@ msgstr ""
 
 msgid "Understand the OpenStack contribution workflow and social norms"
 msgstr "Verstehen Sie die OpenStack Beitragung und soziale Normen"
+
+msgid ""
+"Understand the OpenStack release cycle to the level of being able to "
+"sychronize and integrate it with your product's roadmap"
+msgstr ""
+"Verstehen Sie den OpenStack-Release-Zyklus auf dem Niveau, auf dem es "
+"möglich ist, es mit Ihrer Produkt-Roadmap zu synchronisieren und zu "
+"integrieren"
 
 msgid "Understand the conventions"
 msgstr "Das Reglement verstehen"
@@ -4349,6 +4628,15 @@ msgstr "Wege der Kommunikation in OpenStack"
 msgid "We are new age people with some good old technology around"
 msgstr "Wir sind New Age Leute mit der guten alten Technologie"
 
+msgid ""
+"We are providing a virtual machine with the necessary tools pre-installed in "
+"it. For further information about the system requirements on it please see "
+"the `ref: prepare-environment` section."
+msgstr ""
+"Wir stellen eine virtuelle Maschine mit den notwendigen Werkzeugen "
+"vorinstalliert zur Verfügung. Weitere Informationen zu den "
+"Systemanforderungen finden Sie im Abschnitt `ref: prepare-environment`."
+
 msgid "We have seen in `Commit Messages <workflow-commit-message.html#9>`__"
 msgstr ""
 "Wir haben `Commit Nachrichten <workflow-commit-message.html#9>` gesehen__"
@@ -4390,6 +4678,11 @@ msgstr ""
 "Training vor dem OpenStack Summit. Vor dem \"offiziellen\" Event halten "
 "manche Benutzergruppen lokale Upstream Trainings."
 
+msgid ""
+"We will go into this later on in more detail so hold off on answering "
+"detailed questions for now."
+msgstr "Wir werden später noch näher darauf eingehen."
+
 msgid "We will install an IRC program called Hexchat."
 msgstr "Wir werden ein IRC-Programm mit Namen Hexchat installieren."
 
@@ -4398,6 +4691,18 @@ msgstr "Wir zeigen alle Rollen und wie jedes Gemeinschaftsmitglied interagiert"
 
 msgid "We'll install an IRC program called Colloquy."
 msgstr "Wir werden ein IRC-Programm mit Namen Colloquy installieren."
+
+msgid ""
+"We've designed a training program to provide an interactive environment to "
+"newcomers where they can learn they ways of collaborating with our "
+"community. We are relying on the principles of open collaboration and "
+"describe and show how the 'Four Opens' work in OpenStack in practice."
+msgstr ""
+"Wir haben das Trainingsprogramm entworfen, um den Anfängern eine interaktive "
+"Umgebung zu bieten, wo sie lernen können, wie sie mit unserer Community "
+"zusammenarbeiten können. Wir setzen auf die Prinzipien der offenen "
+"Zusammenarbeit und beschreiben und zeigen, wie die \"Four Opens\" in "
+"OpenStack in der Praxis funktionieren."
 
 msgid ""
 "We've designed a training program to share knowledge about the different "
@@ -4447,6 +4752,9 @@ msgstr "Welche Art von Projekt möchten Sie beisteuern?"
 msgid "What makes a release"
 msgstr "Was macht eine Version"
 
+msgid "When and where to get an OpenStack Upstream Institute class"
+msgstr "Wann und wo bekommt man eine OpenStack Upstream Institut Klasse"
+
 msgid "When in the cycle you intend to complete it"
 msgstr "Wann während des Zyklusses soll es planmäßig abgeschlossen sein"
 
@@ -4456,6 +4764,15 @@ msgid ""
 msgstr ""
 "Wenn Sie sich für die Foundation Membership registrieren, stellen Sie "
 "sicher, dass sie dieselbe E-Mail-Adresse verwenden wir für die Code-Beiträge."
+
+msgid ""
+"When you are all set you can `RSVP <https://www.openstack.org/summit/"
+"boston-2017/summit-schedule/events/18639/openstack-upstream-institute-"
+"day-1>`_ to the class."
+msgstr ""
+"Wenn Sie alles gemacht haben, können Sie sich in der Klasse anmelden `RSVP "
+"<https://www.openstack.org/summit/boston-2017/summit-schedule/events/18639/"
+"openstack-upstream-institute-day-1>`_ ."
 
 msgid ""
 "When you have changes in an OpenStack project repository, you can use this "
@@ -4519,6 +4836,24 @@ msgstr ""
 "und technischen Konventionen. Dies kann signifikant die Geschwindigkeit "
 "senken, wenn neue Leute erfolgreich integriert sind und ihren eigenen "
 "Strategieplan ins OpenStack Projekt bringen."
+
+msgid ""
+"With over 2000 developers from 80 different companies worldwide, OpenStack "
+"is one of the largest collaborative software-development projects. Because "
+"of its size, it is characterized by a huge diversity in social norms and "
+"technical conventions. Attending a live class to get an insight of how the "
+"community operates and to learn about the insights and best practices can "
+"significantly increase the speed at which newcomers are successful at "
+"integrating their own roadmap into that of the OpenStack project."
+msgstr ""
+"Mit über 2000 Entwicklern aus 80 verschiedenen Unternehmen weltweit ist "
+"OpenStack eines der größten kollaborativen Software-Entwicklungsprojekte. "
+"Aufgrund seiner Größe zeichnet sie sich durch eine große Vielfalt an "
+"sozialen Normen und technischen Konventionen aus. Die Teilnahme an einer "
+"Live-Klasse kann von Vorteil sein, um einen Einblick zu bekommen, wie die "
+"Community operiert und sich über die Einsichten und Best Practices zu "
+"informieren. Somit werden Neulinge mit hoher Geschwindigkeit in die eigene "
+"Roadmap integriert."
 
 msgid "Won't Fix"
 msgstr "Wird nicht repariert"
@@ -4593,6 +4928,12 @@ msgid ""
 msgstr ""
 "Sie werden aufgefordert, einen Benutzernamen zu wählen. Sie können denselben "
 "verwenden wie in Launchpad oder einen anderen."
+
+msgid "Young-Kyun Kim (assistant, mentoring)"
+msgstr "Young-Kyun Kim (assistant, mentoring)"
+
+msgid "Youngwoo Kim (assistant, mentoring)"
+msgstr "Youngwoo Kim (assistant, mentoring)"
 
 msgid "Your Patch Upstream"
 msgstr "Ihr Patch Upstream"
@@ -4725,11 +5066,25 @@ msgid "`Documentation Deep Dive <docs.html>`_"
 msgstr "`Documentation Deep Dive <docs.html>`_"
 
 msgid ""
+"`Etherpad for Boston Upstream Collaboration Training <https://etherpad."
+"openstack.org/p/upstream-training-boston>`_"
+msgstr ""
+"`Etherpad für Boston Upstream Collaboration Training <https://etherpad."
+"openstack.org/p/upstream-training-boston>`_"
+
+msgid ""
 "`Etherpad for Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
 "p/upstream-training-korea-2016>`_"
 msgstr ""
 "`Etherpad für Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
 "p/upstream-training-korea-2016>`_"
+
+msgid ""
+"`Etherpad for Upstream Training, Korea, 2017 <https://etherpad.openstack.org/"
+"p/upstream-training-korea-2017>`_"
+msgstr ""
+"`Etherpad für Upstream Training, Korea, 2017 <https://etherpad.openstack.org/"
+"p/upstream-training-korea-2017>`_"
 
 msgid "`Gerrit <workflow-gerrit.html>`_"
 msgstr "`Gerrit <workflow-gerrit.html>`_"
@@ -5373,6 +5728,9 @@ msgstr "https://bugs.launchpad.net/openstack-dev-sandbox/+filebug"
 
 msgid "https://bugs.launchpad.net/openstack-manuals"
 msgstr "https://bugs.launchpad.net/openstack-manuals"
+
+msgid "https://etherpad.openstack.org/p/upstream-training-barcelona"
+msgstr "https://etherpad.openstack.org/p/upstream-training-barcelona"
 
 msgid "https://etherpad.openstack.org/p/upstream-training-vancouver"
 msgstr "https://etherpad.openstack.org/p/upstream-training-vancouver"
