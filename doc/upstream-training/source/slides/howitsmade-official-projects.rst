@@ -11,22 +11,22 @@ Official OpenStack projects
 ===========================
 - `Requirements <https://governance.openstack.org/reference/new-projects-requirements.html>`_
   for official OpenStack projects
-- Projects are evolving themselves and also sustain for one collaborative
-  framework, OpenStack
+- Projects improve and grow independently but also strive to improve one
+  collaborative framework: OpenStack
 
  - Projects APIs are documented within the project
  - Testable on its own
  - Dashboard (horizon) and DevStack provide plugin interface for easy
    integration
- - Projects are tracked in the
+ - Core and mature Big Tent projects are tracked in the
    `Project Navigator <https://www.openstack.org/software/project-navigator>`_
 
 - Big Tent is a code name for the official OpenStack projects
 
  .. note::
 
-  - Project Navigator doesn't include all OpenStack Projects at this time.
-    Currently limited to core projects and more mature Big Tent projects.
+  - Not all projects are currently tracked in Project Navigator.  The goal,
+    however, is for it to be an ever growing list.
 
 Benefits of being an Official OpenStack project
 ===============================================
