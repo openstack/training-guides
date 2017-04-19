@@ -40,7 +40,7 @@ Workflow and Tools for Participation
    workflow-gerrit.rst
    workflow-reviewing.rst
    workflow-commit-message.rst
-   workflow-jenkins.rst
+   workflow-project-status-and-zuul.rst
    workflow-metrics.rst
    workflow-setup-and-first-patch.rst
    workflow-using-sandbox.rst

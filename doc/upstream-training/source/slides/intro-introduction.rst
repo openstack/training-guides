@@ -51,7 +51,7 @@ Agenda - Day 2, morning
   - Gerrit
   - Reviewing
   - Commit Messages
-  - Jenkins
+  - Project Status and Zuul
   - Metrics
   - UC/WG intro
 
