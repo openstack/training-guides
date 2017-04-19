@@ -91,3 +91,13 @@ Exercise
   - Processes followed, release management, etc.
 
 
+References
+==========
+
+  - `PTG <https://www.openstack.org/ptg/>`_
+  - `Mentoring <https://wiki.openstack.org/wiki/Mentors>`_
+  - `Internship Programs <https://wiki.openstack.org/wiki/Outreachy>`_
+  - `OpenStack Project Teams <https://governance.openstack.org/tc/reference/projects/index.html>`_
+  - `New Project Requirements <https://governance.openstack.org/tc/reference/new-projects-requirements.html>`_
+  - `Tags <http://governance.openstack.org/reference/tags/index.html>`_
+
