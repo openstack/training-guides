@@ -25,6 +25,7 @@ IRC Channels
 - Meeting Channels:
     - #openstack-meeting, #openstack-meeting-cp, etc.
     - Meetings typically follow an agenda
+    - Most projects use the OpenStack wiki to post agendas
     - IRC meetings: http://eavesdrop.openstack.org/
     - Others: https://wiki.openstack.org/wiki/Meetings
 
@@ -59,7 +60,7 @@ Exercise 2
 ==========
 
 Look up when the next meeting is for the channel you joined and where
-the meeting is (#openstack-meeting, #openstack-meeting-3, etc).
+the meeting is conducted (#openstack-meeting, #openstack-meeting-3, etc).
 
 Etherpads
 =========
@@ -68,6 +69,7 @@ Etherpads
   and planning of events
 - No master list of etherpads - harder to find what you are looking for
   without having looked at it before or without asking for the URL
+- `https://etherpad.openstack.org <https://etherpad.openstack.org>`_
 
 Mailing Lists (ML)
 ==================
@@ -77,10 +79,12 @@ Mailing Lists (ML)
 - Way for people to communicate to a larger group than those that
   are on IRC
 - All emails are archived
+- The `Mailing Lists <https://wiki.openstack.org/wiki/Mailing_Lists>`_ wiki
+  page describes how to subscribe to a list and describes some popular lists
 
 Exercise 3
 ==========
 
 Look through the list of mailing lists and subscribe to at least
-one that would be most helpful for you and then locate where the archives
-for that ML are.
+one list of interest.  Once subscribed, locate the archives
+for that ML.
