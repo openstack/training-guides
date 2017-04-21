@@ -33,15 +33,15 @@ Sandbox Launchpad
 Learning example with two Sandboxes
 ===================================
 
-- Using Sandbox repository and Launchpad, next number of slides will show
-  the following steps:
+- The following slides demonstrate using the Sandbox repository
+  and Launchpad to:
 
-  - Reporting a bug on Launchpad
-  - Reading the bug description and assigning her/himself to fix the bug
-  - Uploading a patch and inviting a peer as a reviewer
-  - Reviewing the patch and giving feedback with comment
-  - Uploading a revised patch with comment
-  - Reviewing the revised patch and merging the patch
+  - Report a bug on Launchpad
+  - Read the bug description and assign yourself to fix the bug
+  - Upload a patch and invite a peer as a reviewer
+  - Review the patch and give feedback with comments
+  - Upload a revised patch with comment
+  - Review the revised patch and merge the patch
 
  .. note::
   - Try to emphasize the synergy of using repository integration
@@ -60,7 +60,7 @@ Report a bug - Summary
 ======================
 
 - We have seen in `Overview of the contribution process
-  <workflow-training-contribution-process.html#4>`_
+  <workflow-training-contribution-process.html#5>`_
 - https://bugs.launchpad.net/openstack-dev-sandbox/+filebug
 
 .. image:: ./_assets/sandbox-report-a-bug-summary.png
@@ -70,7 +70,15 @@ Report a bug - Summary
 Report a bug - Details
 ======================
 
-- (Real bug report needs detail descriptions.)
+- (A real bug report needs a more detailed description.)
+
+.. note::
+
+  - Detailed description should include the OpenStack release that
+    was running, log snippets showing the error, steps to recreate the error
+    and any vendor hardware possibly involved.
+  - Details need to be sufficient for a developer to narrow down where
+    the failure occurred and/or recreate the failure.
 
 .. image:: ./_assets/sandbox-report-a-bug-details.png
   :width: 80%
@@ -88,16 +96,20 @@ Bug Report Submission
 Bug Assigning
 =============
 
-- To notify working status on the bug to others
+- To notify others that someone is working on the bug
 
 .. image:: ./_assets/sandbox-lp-assign.png
   :width: 80%
   :align: center
 
+.. note::
+
+  - Should not take the bug if you are not planning to work on the bug.
+
 Bug Assigned
 ============
 
-- (Other people will think that someone working on the bug.)
+- (Other people will assume the person is working on the bug.)
 
 .. image:: ./_assets/sandbox-lp-assignee-changed.png
   :width: 80%
@@ -106,9 +118,8 @@ Bug Assigned
 Local branch creation
 =====================
 
-- We have seen in `Overview of the contribution process
-  <workflow-training-contribution-process.html#5>`__
-  and `Setup & First patch <workflow-setup-and-first-patch.html#8>`__
+- We have seen in
+  `Setup & First patch <workflow-setup-and-first-patch.html#6>`__
 
 .. code-block:: console
 
@@ -118,8 +129,8 @@ Local branch creation
   :width: 80%
   :align: center
 
-Working for commit
-==================
+Working to get a commit
+=======================
 
 - (As an example, a new file has been created using cat command.)
 
@@ -131,7 +142,7 @@ Checking work status
 ====================
 
 - Current branch name information
-- File status working in the repository
+- File status in the working repository
 
 .. code-block:: console
 
@@ -151,7 +162,7 @@ Add the file and commit
 
 - Writing 'Related-Bug: #[Bug number in Lanuchpad]' on message content
 
-  - We have seen in `Commit Messages <workflow-commit-message.html#9>`__
+  - We have seen in `Commit Messages <workflow-commit-message.html#8>`__
 
 .. image:: ./_assets/sandbox-git-commit-message.png
   :width: 80%
@@ -160,7 +171,7 @@ Add the file and commit
 Commit log message
 ==================
 
-- (Checking log message before uploading is always a nice idea.)
+- (Checking the log message before uploading is a best practice.)
 
 .. code-block:: console
 
@@ -175,7 +186,9 @@ Uploading to Gerrit
 
 .. code-block:: console
 
-  $ git review
+  $ git review master
+
+(Note: In some environments need to use 'git-review master')
 
 .. image:: ./_assets/sandbox-git-review.png
   :align: center
@@ -266,7 +279,7 @@ Review Score & Results
 Check peer's Review
 ===================
 
-- Seeing review score with written comments
+- Review score with written comments
 
 .. image:: ./_assets/sandbox-committer-checking.png
   :width: 80%
@@ -332,7 +345,7 @@ Seeing new comment
 Comment reply
 =============
 
-- Answering reviewer's comment(s) is a good manner.
+- Answering reviewer's comment(s) is a best practice.
 - Click 'Reply' and write your message, or just 'Done' for "Done" message.
 
 .. image:: ./_assets/sandbox-gerrit-checking-comment.png
@@ -393,11 +406,12 @@ Merged!
   :width: 80%
   :align: center
 
-Good manners on Sandbox
-=======================
+Home Work
+=========
 
-- Please create a few logical and different changes and submit new patchsets
-  to those few changes in Sandbox repository for one bug in Launchpad.
+- You can practice the skills documented in the previous slides.
+- Create a few different changes and submit new patchsets
+  to those few changes in the Sandbox repository for one bug in Launchpad.
 - Cleaning up activities are needed
 
   - Includes the deletion of uploaded files on Sandbox repository
