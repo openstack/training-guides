@@ -79,7 +79,8 @@ Methodologies
 OpenStack and Agile
 ===================
 
-- Exercise - Collect items with your group to the two questions below:
+- Exercise - Collect answers/ideas within your group to the two questions
+  below:
 
   - Why Agile methodologies are a good fit to a community like OpenStack?
   - Why they are not a good fit?
