@@ -69,7 +69,7 @@ Exercise 2
 Summit & Forum
 ==============
 
-- The summit is a regular conference with keynotes, presenations,
+- The summit is a biannual conference with keynotes, presentations,
   and panel discussions
 - Forum:
 
