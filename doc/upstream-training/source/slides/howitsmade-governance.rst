@@ -76,7 +76,8 @@ OpenStack Project Teams
   - Work towards OpenStack's mission
 
 - Teams in OpenStack can be freely created as they are needed
-- Teams of official projects are under the authority of the TC
+- Official project teams fall under the TC's authority and are led by a
+  Project Team Lead and Core Team Members
 - The official list of projects:
 
   - http://governance.openstack.org/reference/projects/
@@ -116,3 +117,28 @@ Project Team Leads (PTLs)
 - Drive the program goals
 - Resolve technical disputes
 - Elected from and by the group of APC's
+
+Core Team Members
+=================
+
+- Have authority to merge code into a project
+- Assist the PTL in driving program goals
+- May also be stable core members (able to merge to stable branches)
+- Elected by PTL and other Core Team Members
+- Unlike ATC, APC and PTLs, role is not defined in the TC charter
+
+.. note::
+
+  - Election process is more informal than PTLs.
+  - PTL or Core Team Member nominates a person.
+  - PTL e-mails nomination to mailing list.
+  - Though not defined in the TC charter like other roles above, cores
+    serve an important role in Project Teams.
+  - Person is elected if no team members object to the nomination.
+
+Exercise
+========
+
+- Determine who the PTL is for your favorite project
+- Determine the Core Team list for your favorite project
+
