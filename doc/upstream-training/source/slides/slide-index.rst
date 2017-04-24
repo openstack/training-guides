@@ -44,7 +44,6 @@ Workflow and Tools for Participation
    workflow-metrics.rst
    workflow-setup-and-first-patch.rst
    workflow-using-sandbox.rst
-   workflow-closing-exercise.rst
 
 Code Deep Dive
 ==============
@@ -72,3 +71,4 @@ Archive
    :maxdepth: 1
 
    archive-training-agile-for-contributors.rst
+   archive-closing-exercise.rst

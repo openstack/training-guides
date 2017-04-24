@@ -73,8 +73,6 @@ Agenda - Day 2, afternoon
   - Docco deep dive
   - WG deep dive
 
-- Closing exercise
-
 Exercise
 ========
 
