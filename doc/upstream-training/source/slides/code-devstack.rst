@@ -29,7 +29,7 @@ DevStack Clone and Setup
 
 .. code-block:: console
 
-  git clone https://github.com/openstack-dev/devstack
+  git clone https://git.openstack.org/openstack-dev/devstack
 
 - Make any local configurations changes (set passwords, IP addresses, etc.)
 
@@ -37,7 +37,12 @@ DevStack Clone and Setup
 
   cd ./devstack
   cp ./samples/local.conf .
-  vi ./local.conf
+  nano ./local.conf
+
+.. note::
+
+  - Students can use a different editor instead of nano with their own
+    preferences (e.g. vi, emacs, or whatever they want).
 
 - Run DevStack
 
