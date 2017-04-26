@@ -101,3 +101,7 @@ References
   - `New Project Requirements <https://governance.openstack.org/tc/reference/new-projects-requirements.html>`_
   - `Tags <http://governance.openstack.org/reference/tags/index.html>`_
 
+.. note::
+
+ - This slide is for reference links in case people want to get more information later. Presenters
+   do not need to spend time on this.
