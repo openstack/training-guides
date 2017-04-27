@@ -62,10 +62,11 @@ Revise the original patch according to discussion results.
 Exercise: Step 3 and more
 =========================
 
-- Add bugs or write reviews the itinerary from other groups.
-- Include concrete activities and times and any other details
-  your group think as a blueprint.
+- Add bugs against, or write reviews for, the itinerary patches from other
+  groups.
+- Create a blueprint based upon concrete activities, times and any other
+  details your group thinks are appropriate.
 
-  - Register a blueprint
+  - Register the blueprint
     : https://blueprints.launchpad.net/openstack-dev-sandbox
   - Use "Implements: [blueprint name]" in commit messages

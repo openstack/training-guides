@@ -154,7 +154,6 @@ Workflow and Tools for Participation
 * `Guide to SetUp and Push First Patch
   <workflow-setup-and-first-patch.html>`_
 * `Using Sandbox for Practice <workflow-using-sandbox.html>`_
-* `Closing Exercise  <workflow-closing-exercise.html>`_
 
 Code Deep Dive
 --------------
@@ -175,6 +174,6 @@ Archive of additional training activities
 
 * `Lego applied to Free Software contributions
   <archive-training-agile-for-contributors.html>`_
-
+* `Closing Exercise  <archive-closing-exercise.html>`_
 
 `Complete index in slide format only <slide-index.html>`_
