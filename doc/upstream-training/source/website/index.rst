@@ -149,7 +149,7 @@ Workflow and Tools for Participation
 * `Gerrit <workflow-gerrit.html>`_
 * `Reviewing <workflow-reviewing.html>`_
 * `Commit Messages <workflow-commit-message.html>`_
-* `Jenkins <workflow-jenkins.html>`_
+* `Project Status and Zuul <workflow-project-status-and-zuul.html>`_
 * `Metrics <workflow-metrics.html>`_
 * `Guide to SetUp and Push First Patch
   <workflow-setup-and-first-patch.html>`_
