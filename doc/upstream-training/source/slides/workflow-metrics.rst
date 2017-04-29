@@ -6,21 +6,36 @@ Metrics
    :class: fill
    :width: 100%
 
-The OpenStack Community
-=======================
+The OpenStack Community in numbers
+==================================
 
-- Created by a large growing community
+- Large and diverse community
 
-  - 40,497 people
-  - 596 supporting companies
-  - 179 countries
+  - 73,723 people
+  - 660 supporting companies
+  - 185 countries
   - More than 20 million lines of code
 
-- Most recent ("Mitaka") release stats:
+- Most recent ("Ocata") release stats:
 
-  - 2,336 developers
-  - 345 different organizations
+  - 2,000 developers
+  - 265 different organizations
   - More than 20,000 patches
+
+Community metrics
+=================
+
+- Publicly available statistics about the community
+
+  - Activity
+  - Status
+  - Progress
+
+- The data can be collected and analyzed by anyone
+- The metrics should be used within context
+
+  - Don't game the numbers
+  - Numbers should be used as an indication for competition
 
 Stackalytics
 ============
@@ -41,8 +56,9 @@ Stackalytics
  .. note::
 
   - Stackalytics Wiki: https://wiki.openstack.org/wiki/Stackalytics
-  - Stackalytics site is being migrated to http://stackalytics.openstack.org
-    by OpenStack Infrastructure team.
+  - There is a Forum session in Boston about the future of Stackalytics as
+    there are issues with the tool. As we don't have a replacement as of now
+    we can still share info about the currently available tool.
 
 Relevant actors
 ===============
@@ -50,13 +66,13 @@ Relevant actors
 .. image:: ./_assets/02-01-relevant-actors.png
   :width: 100%
 
-Relevance metrics
+Available metrics
 =================
 
 .. image:: ./_assets/02-02-relevance-metrics.png
 
-Module contributors
-===================
+Module - contributors
+=====================
 
 .. image:: ./_assets/02-05-module-contributors.png
   :width: 95%
@@ -75,22 +91,6 @@ Module - more views
 
 .. image:: ./_assets/stackalytics-module-open-reviews.png
   :width: 95%
-
-OpenStack Activity - Dashboard
-==============================
-
-http://activity.openstack.org
-
-.. image:: ./_assets/02-07-activity-dashboard.png
-  :width: 100%
-
-OpenStack Activity - Other Metrics
-==================================
-
-http://activity.openstack.org
-
-.. image:: ./_assets/02-08-activity-metrics.png
-  :width: 100%
 
 Exercise 2
 ==========
