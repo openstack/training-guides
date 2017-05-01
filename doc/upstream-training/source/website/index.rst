@@ -64,9 +64,21 @@ See YOU in Boston!
 
 Please note that the language of the training is English.
 
-For more information about this session and other OpenStack trainings and
+Continued Education in Boston
+=============================
+
+For more information about Upstream Institute and other OpenStack trainings and
 workshops in Boston, see the `OpenStack Academy page
 <https://www.openstack.org/summit/boston-2017/openstack-academy>`_.
+
+Was there a project you wanted to learn about at the training but no contributors
+from it could make it? Want to learn more about a specific project? Check out
+the `Project Onboarding Rooms
+<https://www.openstack.org/summit/boston-2017/summit-schedule/global-search?t=Forum%3A%2BProject%2BOnboarding>`_.
+
+Still need a little help with figuring out Gerrit? Check out the `Git and
+Gerrit Lunch and Learn
+<https://www.openstack.org/summit/boston-2017/summit-schedule/global-search?t=Git+>`_.
 
 .. _prepare-environment:
 
@@ -105,7 +117,6 @@ Ildiko Vancsa, Kendall Nelson
 
 Further trainers/coaches
 ------------------------
-
 
 
 Archives
