@@ -16,6 +16,14 @@ Introduction
    intro-openstack-as-software.rst
    intro-openstack-as-community.rst
 
+Setup the Development Environment
+=================================
+
+.. toctree::
+   :maxdepth: 1
+
+   development-environment-setup.rst
+
 How OpenStack is Made
 =====================
 

@@ -30,6 +30,7 @@ Agenda - Day 1
   - Introducing OpenStack as a Software
   - Introducing OpenStack as a Community
 
+- Development environment setup
 - How OpenStack is made
 
   - Official OpenStack projects
@@ -37,8 +38,6 @@ Agenda - Day 1
   - Release cycle
   - Communication
   - Events
-
-- Development environment setup
 
 Agenda - Day 2, morning
 =======================
