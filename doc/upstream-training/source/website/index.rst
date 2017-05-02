@@ -141,6 +141,11 @@ Introduction
 * `Introducing OpenStack as a Software <intro-openstack-as-software.html>`_
 * `Introducing OpenStack as a Community <intro-openstack-as-community.html>`_
 
+Setup the Development Environment
+---------------------------------
+
+* `Environment Setup <development-environment-setup.html>`_
+
 How OpenStack is Made
 ---------------------
 
