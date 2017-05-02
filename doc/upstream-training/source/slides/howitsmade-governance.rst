@@ -82,6 +82,22 @@ Exercise
 ========
 
 - Find the current members of the Board of Directors, TC and UC
+- Find the latest election results for Board of Directors, TC and UC.
+  Also find where the OpenStack election procedures are documented.
+- Post the information and web sites in the Upstream Collaboration Training
+  Etherpad.
+
+.. note::
+
+  - The election of Board of Directors is announced via
+    `Board election page <https://www.openstack.org/election/>`_,
+    and the election result can be seen in
+    `Foundation mailing list <http://lists.openstack.org/cgi-bin/mailman/listinfo/foundation>`_.
+  - TC (+PTL) candidates and election results are available on
+    `Governance - Election page <https://governance.openstack.org/election/>`_,
+    and shared through `openstack-dev mailing list <http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-dev>`_.
+  - UC election information is available though
+    `User-committee mailing list <http://lists.openstack.org/cgi-bin/mailman/listinfo/user-committee>`_.
 
 OpenStack Project Teams
 =======================
@@ -140,10 +156,19 @@ Active Project Contributor (APC)
 Project Team Leads (PTLs)
 =========================
 
-- Manage day-to-day operations
-- Drive the program goals
-- Resolve technical disputes
 - Elected from and by the group of APC's
+- Each PTL candidate needs to submit PTL candidacy
+- PTL responsibilities
+
+  - Manage day-to-day operations
+  - Drive the program goals
+  - Resolve technical disputes
+  - `Other responsibilities <https://docs.openstack.org/project-team-guide/ptl.html>`_
+
+.. note::
+
+  - The responsibilities of a PTL also depend on the project
+    (Each project handles things a little differently).
 
 Core Team Members
 =================
@@ -163,8 +188,28 @@ Core Team Members
     serve an important role in Project Teams.
   - Person is elected if no team members object to the nomination.
 
+Active User Contributors (AUC)
+==============================
+
+- Users with the following activities are recognized with AUC status:
+
+  - Organizers of Official OpenStack User Groups
+  - Active members and contributors to functional teams and/or working groups
+  - Moderators of any of the operators' official meet-up sessions
+  - Contributors to the repository under the UC governance
+  - Track chairs for OpenStack Summits
+  - Contributors to Superuser
+  - Active moderators on ask.openstack.org
+
+.. note::
+
+  - `OpenStack User Committee Charter <https://governance.openstack.org/uc/reference/charter.html>`_
+
 Exercise
 ========
 
-- Determine who the PTL is for your favorite project
-- Determine the Core Team list for your favorite project
+- Determine who the current PTL is of your favorite project.
+- Post their name, the project and a project goal for the next release in
+  the Upstream Collaboration Training Etherpad.
+- Find two other cores in the project and post their names in
+  the Upstream Collaboration Training Etherpad.
