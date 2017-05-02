@@ -32,6 +32,18 @@ Board of Directors
   - Gold member companies
   - Individual Foundation members
 
+.. note::
+
+  - Each Platinum member can delegate one member
+  - Gold members can delegate the same amount of members as Platinum members
+
+    - by majority vote of all Gold Members
+
+  - Individual members elect the same amount
+
+  For more info see Article IV of `Bylaws of the OpenStack Foundation
+  <https://www.openstack.org/legal/bylaws-of-the-openstack-foundation/>`_
+
 Technical Committee ("TC")
 ==========================
 
@@ -40,19 +52,19 @@ Technical Committee ("TC")
   - Oversight over the OpenStack projects
   - Technical leadership
 
-- Enforces OpenStack ideals
-
-  - Openness
-  - Transparency
-  - Commonality
-  - Integration
-  - Quality
-
+- Enforces OpenStack ideals like: Openness, Transparency, Commonality,
+  Integration and Quality
 - Handles cross-project related topics and issues
+- Composed of 13 OpenStack Foundation Individual members
+
+  - directly elected by ATC's
+  - The TC Chair is proposed by the TC members
 
 .. note::
 
-  - https://www.openstack.org/foundation/tech-committee/
+  - `OpenStack Technical Comittee page <https://governance.openstack.org/tc/>`_
+  - `OpenStack Technical Comittee Charter <https://governance.openstack.org/tc/reference/charter.html>`_
+  - `List of TC members <https://www.openstack.org/foundation/tech-committee/>`_
 
 User Committee ("UC")
 =====================
@@ -60,6 +72,11 @@ User Committee ("UC")
 - Represents OpenStack users
 - Gathers feedback and consolidates requirements
 - Further details are in a later session
+
+.. note::
+
+  - `OpenStack User Committee page <https://governance.openstack.org/uc/index.html>`_
+  - `Members of OpenStack User Comittee <https://www.openstack.org/foundation/user-committee/>`_
 
 Exercise
 ========
@@ -94,21 +111,31 @@ Active Technical Contributor (ATC)
 
   - Code or documentation contribution to any of the official project
     repositories
-  - Apply for ATC role
+  - Individual members, like bug triagers or technical documentation writers
+    can apply for ATC status with the agreement from existing ATC's or TC chair
+    as extra-ATC status.
 
-    - Bug triagers
-    - Technical documentation writers
-
+- An OpenStack wide status
 - TC seats are elected from and by the group of ATC's
+
+.. note::
+
+  - ATC's should be proposed into `projects.yaml
+    <http://git.openstack.org/cgit/openstack/governance/tree/reference/projects.yaml>`_
+    under ``extra-atcs`` of the actual project, but not after the
+    `Extra-ATC's deadline <https://releases.openstack.org/pike/schedule.html#p-extra-atcs>`_
+    of the cycle expired.
 
 Active Project Contributor (APC)
 ================================
 
-- Actively contributing to one or more OpenStack projects
+- Actively contributing to an OpenStack project
 
   - Also ATC
   - Attends project meetings
   - Participates in project related mail threads on the mailing lists
+
+- OpenStack project specific status
 
 Project Team Leads (PTLs)
 =========================
@@ -141,4 +168,3 @@ Exercise
 
 - Determine who the PTL is for your favorite project
 - Determine the Core Team list for your favorite project
-
