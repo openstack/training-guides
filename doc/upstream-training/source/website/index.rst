@@ -71,6 +71,10 @@ For more information about Upstream Institute and other OpenStack trainings and
 workshops in Boston, see the `OpenStack Academy page
 <https://www.openstack.org/summit/boston-2017/openstack-academy>`_.
 
+Check out the `How to Contribute Sessions Track
+<https://www.openstack.org/summit/boston-2017/summit-schedule/global-search?t=how+to+contribute>`_
+for more hints, tips and best practices from fellow community members.
+
 Was there a project you wanted to learn about at the training but no contributors
 from it could make it? Want to learn more about a specific project? Check out
 the `Project Onboarding Rooms
