@@ -68,7 +68,21 @@ Jenkins Failures
 
 .. image:: ./_assets/workflow-project-status-and-zuul-jenkins-fail.png
 
+
+Analysing Jenkins Failures
+==========================
 - Logs may be accessed by clicking on the test's name
+
+  - Directs the user to saved log output
+  - Uses the browser to view the logs
+
+- Voting and non-voting jobs
+
+  - Voting job failures cause a -1 vote from Jenkins on the patch
+  - Non-voting jobs do not cause a -1 vote from Jenkins upon failure
+
+- Non-voting jobs are new jobs that are being tested and may not yet be ready
+  to vote
 
 Log Output
 ==========
