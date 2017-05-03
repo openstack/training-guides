@@ -38,6 +38,7 @@ Agenda - Day 1
   - Release cycle
   - Communication
   - Events
+  - User Committee and Working Groups
 
 Agenda - Day 2, morning
 =======================
