@@ -64,35 +64,28 @@ http://localhost/
 .. image:: ./_assets/devstack-http-localhost.png
   :width: 100%
 
-Using Linux 'screen'
-====================
+Running services in DevStack
+============================
 
-- Access the terminals the installed services are running in
-- Use command 'screen -ls' to see the running screen sessions
-- Use command 'screen -R <session name>' or 'screen -C stack-screenrc' to
-  attach to or start a new session
-- For further commands see the
-  `User's Manual <https://www.gnu.org/software/screen/manual/screen.html>`_
+- ``screen`` command was used to access the virtual terminals running the
+  installed services
+
+  - ``screen`` use is now deprecated
+  - To use ``screen`` explicitly set ``USE_SCREEN=True`` option in
+    ``local.conf``
+
+- More details: `Developing with Devstack <https://docs.openstack.org/developer/devstack/development.html>`_
 
 .. image:: ./_assets/devstack-screen.png
   :width: 90%
   :align: center
 
-Exercise
-========
-
-- Ensure you have the DevStack repository cloned to the VM where you
-  would like to use it
-- Using the 'screen' command determine if there is a screen session running
-  in your VM.  If there is, attach to it.  If not, start a new session.
-- Once attached to a screen session switch between the running services to
-  get to your favorite service and try stopping and restarting the service.
-- Disconnect from your screen session and ensure it is still running in the
-  background.
-
 .. note::
 
-  - Commands needed:
+  - Screen is going away in Queens
+    : http://lists.openstack.org/pipermail/openstack-dev/2017-May/116301.html
+
+  - Useful screen commands:
 
     - List sessions: screen -ls
     - Connect: screen -R <session name>
@@ -101,4 +94,24 @@ Exercise
     - Kill and restart a service: <ctrl>-c , <up arrow> to retrieve command
     - Disconnect: <ctrl>-a d
 
+DevStack services with Systemd
+==============================
 
+- ``systemd`` is the replacement for ``screen``
+- Services in DevStack are running as ``systemd`` units named
+  devstack@$servicename.service
+- Interact with services using commands like
+  ``sudo systemctl <start|stop|restart> devstack@$servicename.service``
+- Follow logs with ``journalctl -f --unit devstack@$servicename.service``
+- More details: `Using Systemd in DevStack <https://docs.openstack.org/developer/devstack/systemd.html>`_
+
+Exercise
+========
+
+- Ensure you have the DevStack repository cloned to the VM where you
+  would like to use it
+- Use ``systemctl status devstack@*`` to ensure devstack is running on your VM.
+  If it is not started, start it with ``systemctl start devstack@*``
+- Use the ``journalctl`` command to view output from your favorite service
+- Ensure you can use commands like ``cinder`` or ``nova`` to interact with
+  the services running on your VM
