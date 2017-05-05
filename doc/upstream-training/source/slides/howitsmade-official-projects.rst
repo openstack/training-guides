@@ -53,7 +53,7 @@ Core and Optional Services
 ==========================
 - Core services are OpenStack projects and essential in every OpenStack-powered
   IaaS cloud or product
-- Optional services are also OpenStack projects but not necessarily need to
+- Optional services are also OpenStack projects but not necessarily needed to
   operate OpenStack depending on use cases
 
 .. note::
