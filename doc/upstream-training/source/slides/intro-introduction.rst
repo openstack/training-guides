@@ -53,7 +53,6 @@ Agenda - Day 2, morning
   - Commit Messages
   - Project Status and Zuul
   - Metrics
-  - UC/WG intro
 
 Agenda - Day 2, afternoon
 =========================
