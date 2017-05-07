@@ -43,7 +43,7 @@ Blueprints
 Bugs
 ====
 
-- Filed against a specific Openstack project(s)
+- Filed against a specific OpenStack project(s)
 - Statuses: New, Incomplete, Confirmed, Triaged, In Progress, Fix Committed,
   Fix Released, Invalid, Opinion, Won't Fix
 - Tags: low-hanging-fruit, documentation, security, other per project tags
