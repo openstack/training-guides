@@ -35,7 +35,7 @@ Community metrics
 - The metrics should be used within context
 
   - Don't game the numbers
-  - Numbers should be used as an indication for competition
+  - Numbers should not be used as an indication for competition
 
 Stackalytics
 ============
