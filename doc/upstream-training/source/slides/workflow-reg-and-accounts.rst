@@ -23,42 +23,49 @@ https://www.openstack.org/join/
 
 .. image:: ./_assets/12-join-openstack-org.png
   :width: 100%
+  :class: image-pad-top
 
 http://launchpad.net/
 =====================
 
 .. image:: ./_assets/12-01-launchpad-net.png
   :width: 75%
+  :class: image-pad-top
 
 http://review.openstack.org
 ===========================
 
 .. image:: ./_assets/12-02-review.png
   :width: 100%
+  :class: image-pad-top
 
 Sign In
 =======
 
 .. image:: ./_assets/12-03-signin.png
   :width: 100%
+  :class: image-pad-top
 
 No agreement
 ============
 
 .. image:: ./_assets/12-04-no-agreement.png
   :width: 100%
+  :class: image-pad-top
 
 New agreement
 =============
 
 .. image:: ./_assets/12-05-new-agreement.png
   :width: 100%
+  :class: image-pad-top
 
 Sign the Individual agreement
 =============================
 
 .. image:: ./_assets/12-06-individual-agreement.png
   :width: 100%
+  :class: image-pad-top
 
 Do you work at a company?
 =========================
@@ -77,6 +84,7 @@ Signed agreement
 
 .. image:: ./_assets/12-07-signed-agreement.png
   :width: 100%
+  :class: image-pad-top
 
 Exercise
 ========

@@ -67,6 +67,8 @@ Jenkins Failures
 ================
 
 .. image:: ./_assets/workflow-project-status-and-zuul-jenkins-fail.png
+  :class: image-pad-top
+
 
 
 Analysing Jenkins Failures
@@ -88,6 +90,7 @@ Log Output
 ==========
 
 .. image:: ./_assets/workflow-project-status-and-zuul-failure-log.png
+  :class: image-pad-top
 
 Intermittent Failures
 =====================
@@ -102,4 +105,3 @@ Exercise
 - Find how rechecks are categorized
 - Discuss with your table how you would determine you encountered
   one of these bugs
-
