@@ -53,6 +53,8 @@ Exercise
 - Describe a release cycle based on the information you found
 - Determine how many OpenStack releases are officially supported
   by the community
+- Post the information on the IRC channel
+
 
 Common cycle with development milestones
 ========================================
