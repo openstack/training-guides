@@ -67,3 +67,7 @@ a.logabug {
 .fa-bug:hover {
     color: #9A201D;
 }
+
+.image-pad-top {
+  padding-top: 10px
+}
