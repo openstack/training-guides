@@ -45,44 +45,24 @@ When and where to get an OpenStack Upstream Institute class
 ===========================================================
 
 The next session of the OpenStack Upstream Collaboration Training - OpenStack
-Upstream Institute - will be held in Boston, just before the `OpenStack Summit
-Boston 2017 <https://www.openstack.org/summit/boston-2017/>`_.
+Upstream Institute - will be held in Beijing, in parallel to the conference
+part of the `OPNFV Summit
+2017 <http://events.linuxfoundation.org/events/archive/2017/opnfv-summit>`_.
 
- **Saturday, May 6, 2017 at 1:00 p.m. to 6:00 p.m.
- - Sunday, May 7, 2017 at 09:00 a.m. to 6:00 p.m. (local time)**
+ **Wednesday, June 14, 2017 at 11:00 a.m. to 5:00 p.m.
+ - Thursday, June 15, 2017 at 11:00 a.m. to 5:00 p.m. (local time)**
 
-As a first exercise we ask you to `register to the OpenStack Foundation
-<https://www.openstack.org/join/register/>`_ as a Foundation member if you
-haven't done it yet. After signing in you will also need to `associate your
-EventBrite order with your OpenStackID
-<https://www.openstack.org/profile/attendeeInfoRegistration>`_.
+In order to RSVP you need to register to the OPNFV Summit first and you can add
+the course to your registration as an Add-On. If you registered already you can
+add the course to your registration later as well.
 
-When you are all set you can `RSVP
-<https://www.openstack.org/summit/boston-2017/summit-schedule/events/18639/openstack-upstream-institute-day-1>`_ to the class.
+Please see the `OpenStack Upstream Institute
+<http://events.linuxfoundation.org/events/archive/2017/opnfv-summit/extend-the-experience/openstack-upstream-institute>`_ class information for more
+details.
 
-See YOU in Boston!
+See YOU in Beijing!
 
 Please note that the language of the training is English.
-
-Continued Education in Boston
-=============================
-
-For more information about Upstream Institute and other OpenStack trainings and
-workshops in Boston, see the `OpenStack Academy page
-<https://www.openstack.org/summit/boston-2017/openstack-academy>`_.
-
-Check out the `How to Contribute Sessions Track
-<https://www.openstack.org/summit/boston-2017/summit-schedule/global-search?t=how+to+contribute>`_
-for more hints, tips and best practices from fellow community members.
-
-Was there a project you wanted to learn about at the training but no contributors
-from it could make it? Want to learn more about a specific project? Check out
-the `Project Onboarding Rooms
-<https://www.openstack.org/summit/boston-2017/summit-schedule/global-search?t=Forum%3A%2BProject%2BOnboarding>`_.
-
-Still need a little help with figuring out Gerrit? Check out the `Git and
-Gerrit Lunch and Learn
-<https://www.openstack.org/summit/boston-2017/summit-schedule/global-search?t=Git+>`_.
 
 .. _prepare-environment:
 
@@ -108,8 +88,8 @@ How to prepare
   the Individual Contributor License Agreement
   (`ICLA <https://review.openstack.org/static/cla.html>`_) during this.)
 
-`Etherpad for Boston Upstream Collaboration Training
-<https://etherpad.openstack.org/p/upstream-training-boston>`_
+`Etherpad for Beijing Upstream Collaboration Training
+<https://etherpad.openstack.org/p/upstream-institute-beijing>`_
 
 Staff
 =====
@@ -121,6 +101,9 @@ Ildiko Vancsa, Kendall Nelson
 
 Further trainers/coaches
 ------------------------
+
+You can find the list of trainers/coaches on the `training occaisons
+<https://wiki.openstack.org/wiki/OpenStack_Upstream_Institute_Occasions#Beijing_Crew>`_ wiki page.
 
 
 Archives
