@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-29 16:35+0000\n"
+"POT-Creation-Date: 2017-05-10 03:22+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -122,9 +122,6 @@ msgstr ""
 msgid "A sample presentation is given by the teacher, as an example"
 msgstr "サンプルプレゼンが、例として講師から提供されます。"
 
-msgid "API"
-msgstr "API"
-
 msgid "APIImpact"
 msgstr "APIImpact"
 
@@ -133,9 +130,6 @@ msgstr "トレーニングについて"
 
 msgid "Abstract"
 msgstr "概要"
-
-msgid "Access the terminals the installed services are running in"
-msgstr "インストールしたサービスが動作しているターミナルにアクセスします"
 
 msgid "Account Setup"
 msgstr "アカウントのセットアップ"
@@ -148,9 +142,6 @@ msgstr "Active Project Contributor (APC)"
 
 msgid "Active Technical Contributor (ATC)"
 msgstr "Active Technical Contributor (ATC)"
-
-msgid "Actively contributing to one or more OpenStack projects"
-msgstr "1 つ以上の OpenStack プロジェクトにアクティブに貢献する"
 
 msgid "Activities listed here are not realized at every Upstream training."
 msgstr "ここにある内容は必ずしも毎回実施されるわけではありません。"
@@ -229,9 +220,6 @@ msgstr "Anne Gentle – Cisco"
 
 msgid "Application Catalog service"
 msgstr "Application Catalog サービス"
-
-msgid "Apply for ATC role"
-msgstr "ATC ロールへの登録"
 
 msgid "Apply for individual membership and sign the CLA"
 msgstr "個人メンバーに登録し、 CLA に署名してください"
@@ -360,9 +348,6 @@ msgstr "バグ修正"
 
 msgid "Bug reports"
 msgstr "バグ報告"
-
-msgid "Bug triagers"
-msgstr "バグトリアージ者"
 
 msgid ""
 "Build a street out of Lego. All buildings must be connected by road and "
@@ -562,9 +547,6 @@ msgstr "開発マイルストーンを持つ共通サイクル"
 msgid "Common cycle with intermediary release"
 msgstr "中間リリースを持つ共通サイクル"
 
-msgid "Commonality"
-msgstr "共通性"
-
 msgid "Communication"
 msgstr "コミュニケーション"
 
@@ -589,9 +571,6 @@ msgstr "登録を完了します。"
 
 msgid "Configuration"
 msgstr "設定"
-
-msgid "Configuration Reference and CLI Reference"
-msgstr "Configuration Reference and CLI Reference"
 
 msgid "Configure Git"
 msgstr "Git の設定"
@@ -879,9 +858,6 @@ msgstr ""
 msgid "Endorsed by the Foundation"
 msgstr "Foundation により支持されます"
 
-msgid "Enforces OpenStack ideals"
-msgstr "OpenStack の理想の追求"
-
 msgid "Engage immediately"
 msgstr "迅速な関わり"
 
@@ -1099,13 +1075,6 @@ msgid ""
 msgstr ""
 "Red Hat、Fedora 21 以前、CentOS 以前などのディストリビューションの場合、ター"
 "ミナルを開き、次のように入力します。"
-
-msgid ""
-"For further commands see the `User's Manual <https://www.gnu.org/software/"
-"screen/manual/screen.html>`_"
-msgstr ""
-"その他のコマンドは `User's Manual <https://www.gnu.org/software/screen/"
-"manual/screen.html>`_ を参照してください。"
 
 msgid ""
 "For more information about the past trainings and the local upstream "
@@ -1344,9 +1313,6 @@ msgstr "クロスプロジェクト関連の話題や問題を取り扱う"
 msgid "Held by local groups to celebrate another year of OpenStack"
 msgstr "OpenStack の 1 年を祝うためにローカルグループにより開催されます"
 
-msgid "High Availability Guide"
-msgstr "High Availability Guide"
-
 msgid "Highlight and copy the output."
 msgstr "出力をハイライトして、コピーします。"
 
@@ -1383,9 +1349,6 @@ msgstr "他の試験に向けた準備"
 
 msgid "How to use OpenStack"
 msgstr "OpenStack の使い方"
-
-msgid "Hypervisor Tuning Guide"
-msgstr "Hypervisor Tuning Guide"
 
 msgid "IRC"
 msgstr "IRC"
@@ -1660,9 +1623,6 @@ msgstr "git review のインストール"
 
 msgid "Installation"
 msgstr "インストール"
-
-msgid "Installation guides"
-msgstr "インストールガイド"
 
 msgid "Installs services from source"
 msgstr "ソースからサービスのインストール"
@@ -2022,9 +1982,6 @@ msgstr "NFV = Network Function Virtualization (ネットワーク機能の仮想
 msgid "Namgon Lucas Kim (assistant, mentoring)"
 msgstr "Namgon Lucas Kim (assistant, mentoring)"
 
-msgid "Networking Guide"
-msgstr "ネットワークガイド"
-
 msgid "New agreement"
 msgstr "新規アグリーメント"
 
@@ -2190,21 +2147,8 @@ msgstr "テレコム/NFV 観点での OpenStack"
 msgid "OpenStack has a sandbox repository for learning and testing purposes"
 msgstr "OpenStack は学習やテストの目的に sandbox リポジトリーがあります"
 
-msgid "Openness"
-msgstr "オープン性"
-
-msgid "Operations and Architecture Design guides"
-msgstr "運用ガイド、アーキテクチャー設計ガイド"
-
 msgid "Operators' meet ups"
 msgstr "オペレーター meet up"
-
-msgid ""
-"Optional services are also OpenStack projects but not necessarily need to "
-"operate OpenStack depending on use cases"
-msgstr ""
-"追加サービスも OpenStack プロジェクトですが、ユースケースによっては "
-"OpenStack を運用する上で必ずしも必要ではないサービス"
 
 msgid "Orchestration service"
 msgstr "Orchestration サービス"
@@ -2348,9 +2292,6 @@ msgstr "OpenStack リリースとして、まとめて公開される"
 
 msgid "Push code to Gerrit for review"
 msgstr "レビューのためにコードを Gerrit にプッシュします"
-
-msgid "Quality"
-msgstr "品質"
 
 msgid "Quantify the delta"
 msgstr "差分の定量化"
@@ -2543,9 +2484,6 @@ msgstr "スコアはレビューアーの意見が反映されます。"
 
 msgid "Second day"
 msgstr "2 日目"
-
-msgid "Security Guide"
-msgstr "セキュリティーガイド"
 
 msgid "SecurityImpact"
 msgstr "SecurityImpact"
@@ -2767,9 +2705,6 @@ msgstr "Technical Committee (\"TC\")"
 msgid "Technical committee : 1"
 msgstr "技術委員会 (TC) : 1"
 
-msgid "Technical documentation writers"
-msgstr "技術ドキュメント執筆者"
-
 msgid "Technical leadership"
 msgstr "技術的なリーダーシップ"
 
@@ -2948,15 +2883,6 @@ msgstr "トラッキング"
 msgid "Trailing the common cycle"
 msgstr "共通サイクルの追従"
 
-msgid "Training guides"
-msgstr "トレーニングガイド"
-
-msgid "Training labs"
-msgstr "トレーニングラボ"
-
-msgid "Transparency"
-msgstr "透明性"
-
 msgid ""
 "Transparency: the community can have confidence that all calculations are "
 "correct and fair"
@@ -2992,9 +2918,6 @@ msgstr ""
 
 msgid "Typically public key filenames will look like:"
 msgstr "公開鍵の一般的なファイル名:"
-
-msgid "UC/WG intro"
-msgstr "UC/WG 概要"
 
 msgid "Ubuntu or Fedora"
 msgstr "Ubuntu または Fedora"
@@ -3076,14 +2999,8 @@ msgstr "ユーザーグループミートアップ"
 msgid "User groups"
 msgstr "ユーザーグループ"
 
-msgid "User guides"
-msgstr "ユーザーガイド"
-
 msgid "Using Lego to represent the community"
 msgstr "LEGO によるコミュニティーの再現"
-
-msgid "Using Linux 'screen'"
-msgstr "Linux の 'screen' の利用"
 
 msgid "Using Sandbox for Practice"
 msgstr "Sandbox を使用した実践"
@@ -3823,29 +3740,8 @@ msgstr ""
 msgid "``cd devstack; ./stack.sh``"
 msgstr "``cd devstack; ./stack.sh``"
 
-msgid "``docs-specs``"
-msgstr "``docs-specs``"
-
 msgid "``git clone https://git.openstack.org/openstack-dev/devstack``"
 msgstr "``git clone https://git.openstack.org/openstack-dev/devstack``"
-
-msgid "``openstack-doc-tools``"
-msgstr "``openstack-doc-tools``"
-
-msgid "``openstack-manuals``"
-msgstr "``openstack-manuals``"
-
-msgid "``openstackdocstheme``"
-msgstr "``openstackdocstheme``"
-
-msgid "``security-doc``"
-msgstr "``security-doc``"
-
-msgid "``training-guides``"
-msgstr "``training-guides``"
-
-msgid "``training-labs``"
-msgstr "``training-labs``"
 
 msgid "`bugfixing <https://wiki.openstack.org/wiki/Bugs#Bugfixing>`_"
 msgstr "`バグ修正 <https://wiki.openstack.org/wiki/Bugs#Bugfixing>`_"
@@ -4039,9 +3935,6 @@ msgstr "https://wiki.openstack.org/wiki/IRC"
 
 msgid "https://wiki.openstack.org/wiki/Main_Page"
 msgstr "https://wiki.openstack.org/wiki/Main_Page"
-
-msgid "https://www.openstack.org/foundation/tech-committee/"
-msgstr "https://www.openstack.org/foundation/tech-committee/"
 
 msgid "https://www.openstack.org/join/"
 msgstr "https://www.openstack.org/join/"

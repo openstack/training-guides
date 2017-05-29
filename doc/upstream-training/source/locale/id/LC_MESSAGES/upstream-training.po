@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-29 16:35+0000\n"
+"POT-Creation-Date: 2017-05-10 03:22+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -150,9 +150,6 @@ msgstr ""
 msgid "A sample presentation is given by the teacher, as an example"
 msgstr "Sebuah presentasi sampel diberikan oleh guru, sebagai contoh"
 
-msgid "API"
-msgstr "API"
-
 msgid "APIImpact"
 msgstr "APIImpact"
 
@@ -161,9 +158,6 @@ msgstr "Tentang pelatihan"
 
 msgid "Abstract"
 msgstr "Abstrak"
-
-msgid "Access the terminals the installed services are running in"
-msgstr "Mengakses terminal layanan yang terinstal sedang berjalan "
 
 msgid "Account Setup"
 msgstr "Account Setup (pengaturan akun)"
@@ -176,9 +170,6 @@ msgstr "Active Project Contributor (APC) (kontributor proyek aktif)"
 
 msgid "Active Technical Contributor (ATC)"
 msgstr "Active Technical Contributor (ATC) (kontributor teknis aktif)"
-
-msgid "Actively contributing to one or more OpenStack projects"
-msgstr "Aktif memberikan kontribusi untuk satu atau lebih proyek OpenStack"
 
 msgid "Activities listed here are not realized at every Upstream training."
 msgstr ""
@@ -300,9 +291,6 @@ msgstr ""
 
 msgid "Application Catalog service"
 msgstr "Layanan Application Catalog"
-
-msgid "Apply for ATC role"
-msgstr "Melamar untuk peran ATC (Active Technical Contributor)"
 
 msgid "Apply for individual membership and sign the CLA"
 msgstr ""
@@ -458,9 +446,6 @@ msgstr "Perbaikan kesalahan"
 
 msgid "Bug reports"
 msgstr "Laporan bug"
-
-msgid "Bug triagers"
-msgstr "Triagers kesalahan"
 
 msgid "Build a network"
 msgstr "Membangun jaringan"
@@ -693,9 +678,6 @@ msgstr ""
 "Tempat umum untuk memiliki orang di proyek berkolaborasi pada proyek besar "
 "dan perencanaan acara"
 
-msgid "Commonality"
-msgstr "Commonality (kesamaan)"
-
 msgid "Communication"
 msgstr "Communication (komunikasi)"
 
@@ -720,9 +702,6 @@ msgstr "Melengkapi permohonan aplikasi."
 
 msgid "Configuration"
 msgstr "Konfigurasi"
-
-msgid "Configuration Reference and CLI Reference"
-msgstr "Referensi konfigurasi dan referensi CLI"
 
 msgid "Configure Git"
 msgstr "Konfigurasi Git"
@@ -1096,9 +1075,6 @@ msgstr ""
 msgid "Endorsed by the Foundation"
 msgstr "Endorsed by the Foundation (disahkan oleh Yayasan)"
 
-msgid "Enforces OpenStack ideals"
-msgstr "Menegakkan OpenStack yang ideal"
-
 msgid "Engage immediately"
 msgstr "Terlibat langsung"
 
@@ -1379,27 +1355,11 @@ msgstr ""
 "yang Anda butuhkan."
 
 msgid ""
-"For further commands see the `User's Manual <https://www.gnu.org/software/"
-"screen/manual/screen.html>`_"
-msgstr ""
-"Untuk perintah lebih lanjut lihat  `User's Manual <https://www.gnu.org/"
-"software/screen/manual/screen.html>`_"
-
-msgid ""
 "For more information about the past trainings and the local upstream "
 "trainings, see :doc:`upstream-archives`."
 msgstr ""
 "Untuk informasi lebih lanjut tentang pelatihan masa lalu dan pelatihan hulu "
 "lokal, lihat :doc:`upstream-archives`."
-
-msgid ""
-"For more information about this session and other OpenStack trainings and "
-"workshops in Boston, see the `OpenStack Academy page <https://www.openstack."
-"org/summit/boston-2017/openstack-academy>`_."
-msgstr ""
-"Untuk informasi lebih lanjut tentang sesi ini dan pelatihan dan lokakarya "
-"OpenStack lain di Boston, lihat `OpenStack Academy page <https://www."
-"openstack.org/summit/boston-2017/openstack-academy>`_."
 
 msgid "For more information, see :doc:`upstream-details`."
 msgstr "Untuk informasi lebih lanjut, lihat :doc:`upstream-details`."
@@ -1672,9 +1632,6 @@ msgstr ""
 msgid "Help fix the documentation"
 msgstr "Membantu memperbaiki dokumentasi"
 
-msgid "High Availability Guide"
-msgstr "Panduan ketersediaan tinggi"
-
 msgid "Highlight and copy the output."
 msgstr "Sorot dan copy output."
 
@@ -1718,9 +1675,6 @@ msgstr "Namun, harap diingat bahwa itu adalah tanggung jawab Anda sendiri."
 
 msgid "Hyeunjee Kim (assistant, mentoring)"
 msgstr "Hyeunjee Kim (assistant, mentoring)"
-
-msgid "Hypervisor Tuning Guide"
-msgstr "Hypervisor Tuning Guide (panduan penyetelan hypervisor)"
 
 msgid "IRC"
 msgstr "IRC (Internet Relay Chat)"
@@ -2038,9 +1992,6 @@ msgstr "Instal git review"
 
 msgid "Installation"
 msgstr "Installation (pemasangan)"
-
-msgid "Installation guides"
-msgstr "Panduan instalasi"
 
 msgid "Installs services from source"
 msgstr "Menginstal layanan dari sumber"
@@ -2462,9 +2413,6 @@ msgstr "NFV = Network Function Virtualization"
 msgid "Namgon Lucas Kim (assistant, mentoring)"
 msgstr "Namgon Lucas Kim (assistant, mentoring)"
 
-msgid "Networking Guide"
-msgstr "Panduan jaringan"
-
 msgid "New agreement"
 msgstr "New agreement (kesepakatan baru)"
 
@@ -2669,12 +2617,6 @@ msgid "OpenStack has a sandbox repository for learning and testing purposes"
 msgstr ""
 "OpenStack memiliki repositori sandbox untuk tujuan pembelajaran dan pengujian"
 
-msgid "Openness"
-msgstr "Openness (keterbukaan)"
-
-msgid "Operations and Architecture Design guides"
-msgstr "Panduan operasi dan desain arsitektur"
-
 msgid "Operators' meet ups"
 msgstr "Pertemuan operator"
 
@@ -2687,13 +2629,6 @@ msgid ""
 msgstr ""
 "Opsi 2: Gunakan manajer paket `Homebrew <http://brew.sh>`_, dan ketik di "
 "terminal ::"
-
-msgid ""
-"Optional services are also OpenStack projects but not necessarily need to "
-"operate OpenStack depending on use cases"
-msgstr ""
-"Layanan opsional juga proyek OpenStack tetapi tidak perlu untuk beroperasi "
-"OpenStack tergantung pada kasus penggunaan"
 
 msgid "Orchestration service"
 msgstr "Layanan Orchestration"
@@ -2874,9 +2809,6 @@ msgstr "Diterbitkan secara kolektif sebagai rilis OpenStack"
 
 msgid "Push code to Gerrit for review"
 msgstr "Mendorong kode ke Gerrit untuk ulasan"
-
-msgid "Quality"
-msgstr "Quality (kualitas)"
 
 msgid "Quantify the delta"
 msgstr "Kuantifikasi (quantity) delta"
@@ -3102,9 +3034,6 @@ msgstr "Skor akan mencerminkan opini pengkaji."
 
 msgid "Second day"
 msgstr "Hari kedua"
-
-msgid "Security Guide"
-msgstr "Panduan keamanan"
 
 msgid "SecurityImpact"
 msgstr "SecurityImpact"
@@ -3369,9 +3298,6 @@ msgstr "Technical Committee (\"TC\")"
 msgid "Technical committee : 1"
 msgstr "Technical committee : 1"
 
-msgid "Technical documentation writers"
-msgstr "Penulis dokumentasi teknis"
-
 msgid "Technical leadership"
 msgstr "Kepemimpinan teknis"
 
@@ -3602,17 +3528,8 @@ msgstr "Tracking (pelacakan)"
 msgid "Trailing the common cycle"
 msgstr "Dalam Periode siklus umum"
 
-msgid "Training guides"
-msgstr "Panduan pelatihan"
-
-msgid "Training labs"
-msgstr "Laboratorium pelatihan"
-
 msgid "Training organizers"
 msgstr "Training organizers"
-
-msgid "Transparency"
-msgstr "Transparency (transparansi)"
 
 msgid ""
 "Transparency: the community can have confidence that all calculations are "
@@ -3662,9 +3579,6 @@ msgstr "Jenis sesi di Forum"
 
 msgid "Typically public key filenames will look like:"
 msgstr "Nama file kunci publik biasanya akan terlihat seperti:"
-
-msgid "UC/WG intro"
-msgstr "Pengantar UC/WG"
 
 msgid "Ubuntu or Fedora"
 msgstr "Ubuntu atau Fedora"
@@ -3763,14 +3677,8 @@ msgstr ""
 msgid "User groups"
 msgstr "Kelompok pengguna"
 
-msgid "User guides"
-msgstr "Panduan pengguna"
-
 msgid "Using Lego to represent the community"
 msgstr "Menggunakan Lego untuk mewakili masyarakat"
-
-msgid "Using Linux 'screen'"
-msgstr "Penggunaan Linux 'screen'"
 
 msgid "Using Sandbox for Practice"
 msgstr "Menggunakan Sandbox untuk praktek"
@@ -4627,29 +4535,8 @@ msgstr ""
 msgid "``cd devstack; ./stack.sh``"
 msgstr "``cd devstack; ./stack.sh``"
 
-msgid "``docs-specs``"
-msgstr "``docs-specs``"
-
 msgid "``git clone https://git.openstack.org/openstack-dev/devstack``"
 msgstr "``git clone https://git.openstack.org/openstack-dev/devstack``"
-
-msgid "``openstack-doc-tools``"
-msgstr "``openstack-doc-tools``"
-
-msgid "``openstack-manuals``"
-msgstr "``openstack-manuals``"
-
-msgid "``openstackdocstheme``"
-msgstr "``openstackdocstheme``"
-
-msgid "``security-doc``"
-msgstr "``security-doc``"
-
-msgid "``training-guides``"
-msgstr "``training-guides``"
-
-msgid "``training-labs``"
-msgstr "``training-labs``"
 
 msgid "`bugfixing <https://wiki.openstack.org/wiki/Bugs#Bugfixing>`_"
 msgstr "`bugfixing <https://wiki.openstack.org/wiki/Bugs#Bugfixing>`_"
@@ -4846,9 +4733,6 @@ msgstr "https://wiki.openstack.org/wiki/IRC"
 
 msgid "https://wiki.openstack.org/wiki/Main_Page"
 msgstr "https://wiki.openstack.org/wiki/Main_Page"
-
-msgid "https://www.openstack.org/foundation/tech-committee/"
-msgstr "https://www.openstack.org/foundation/tech-committee/"
 
 msgid "https://www.openstack.org/join/"
 msgstr "https://www.openstack.org/join/"
