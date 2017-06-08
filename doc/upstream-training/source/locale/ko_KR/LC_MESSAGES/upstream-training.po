@@ -5,21 +5,25 @@
 # Jun-Sik Shin <jsshin@smartx.kr>, 2016. #zanata
 # SeongSoo Cho <nexusz99@gmail.com>, 2016. #zanata
 # Ian Y. Choi <ianyrchoi@gmail.com>, 2017. #zanata
+# Jun-Sik Shin <jsshin@smartx.kr>, 2017. #zanata
 # Wonil Choi <wonil0522@gmail.com>, 2017. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-10 03:22+0000\n"
+"POT-Creation-Date: 2017-05-29 12:38+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-05-29 02:41+0000\n"
-"Last-Translator: Wonil Choi <wonil0522@gmail.com>\n"
+"PO-Revision-Date: 2017-06-08 02:12+0000\n"
+"Last-Translator: Jun-Sik Shin <jsshin@smartx.kr>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
 "X-Generator: Zanata 3.9.6\n"
 "Plural-Forms: nplurals=1; plural=0\n"
+
+msgid "#openstack-meeting, #openstack-meeting-cp, etc."
+msgstr "#openstack-meeting, #openstack-meeting-cp 등"
 
 msgid "(As an example, a new file has been created using cat command.)"
 msgstr "(예시로, cat 명령어를 사용하여 새로운 파일을 생성하였습니다.)"
@@ -50,13 +54,6 @@ msgid ""
 "connect to."
 msgstr ""
 "**공개키** - 접속하고자 하는 임의의 SSH 서버에 자유롭게 공유 가능합니다."
-
-msgid ""
-"**Saturday, May 6, 2017 at 1:00 p.m. to 6:00 p.m. - Sunday, May 7, 2017 at "
-"09:00 a.m. to 6:00 p.m. (local time)**"
-msgstr ""
-"**2017년 5월 6일 토요일, 1:00 p.m. 부터 6:00 p.m. 까지 - 2017년 5월 7일 일요"
-"일, 09:00 a.m. 부터 6:00 p.m. 까지 (현지 시각)**"
 
 msgid "**Staff**"
 msgstr "**스태프**"
@@ -203,6 +200,9 @@ msgstr "IaaS 위에 만들어지는 부가적인 서비스"
 msgid "Adrien Cunin (mentoring, assistant, french, english)"
 msgstr "Adrien Cunin (멘토링, 조교, 프랑스어, 영어)"
 
+msgid "After DevStack is run Horizon is accessible via localhost"
+msgstr "DevStack이 실행된 이후 localhost를 통해 Horizon에 접근 가능합니다."
+
 msgid "After the last milestone"
 msgstr "마지막 마일스톤 이후"
 
@@ -285,18 +285,6 @@ msgstr "이전 실습"
 
 msgid "Archives"
 msgstr "아카이브"
-
-msgid ""
-"As a first exercise we ask you to `register to the OpenStack Foundation "
-"<https://www.openstack.org/join/register/>`_ as a Foundation member if you "
-"haven't done it yet. After signing in you will also need to `associate your "
-"EventBrite order with your OpenStackID <https://www.openstack.org/profile/"
-"attendeeInfoRegistration>`_."
-msgstr ""
-"첫 실습으로, 아직 계정이 없는 경우 `OpenStack Foundation 등록 <https://www."
-"openstack.org/join/register/>`_ 에서 Foundation 멤버로 등록하는 것을 요청합니"
-"다. 로그인을 한 다음에는 `EventBrite 등록을 OpenStackID와 연결 <https://www."
-"openstack.org/profile/attendeeInfoRegistration>`_ 을 할 필요가 있습니다."
 
 msgid "Ask a mentor to break the *tested* code of one test case"
 msgstr ""
@@ -556,6 +544,9 @@ msgstr "**info** 아이콘을 클릭합니다."
 
 msgid "Click the **message user** icon and type::"
 msgstr "**message user** 아이콘을 클릭하고 입력합니다::"
+
+msgid "Clone DevStack to your vm"
+msgstr "DevStack을 VM으로 복사합니다."
 
 msgid "Clone and be familiar with the code"
 msgstr "코드를 클론하여 친숙해 집니다"
@@ -843,6 +834,9 @@ msgstr "시간 프레임을 결정합니다"
 msgid "DevStack"
 msgstr "DevStack"
 
+msgid "DevStack Clone and Setup"
+msgstr "DevStack 복사 및 설치"
+
 msgid "DevStack exercise"
 msgstr "DevStack 실습"
 
@@ -900,6 +894,9 @@ msgstr "문서 파헤치기"
 
 msgid "Documentation frameworks"
 msgstr "문서화 프레임워크"
+
+msgid "Documentation team structure"
+msgstr "문서화 팀 구조"
 
 msgid "Documentation: http://docs.openstack.org/developer/devstack/"
 msgstr "문서: http://docs.openstack.org/developer/devstack/"
@@ -1264,6 +1261,9 @@ msgstr ""
 msgid "Forbidden"
 msgstr "금지되는 사항"
 
+msgid "Forum:"
+msgstr "포럼:"
+
 msgid "Foundation, technical committee, and board members"
 msgstr "Foundation, 기술 위원회, 그리고 이사회 구성원"
 
@@ -1539,6 +1539,9 @@ msgstr "IRC 채널"
 
 msgid "IRC Logs"
 msgstr "IRC 로그"
+
+msgid "IRC client: HexChat"
+msgstr "IRC 클라이언트: HexChat"
 
 msgid "IRC meetings: http://eavesdrop.openstack.org/"
 msgstr "IRC 미팅: http://eavesdrop.openstack.org/"
@@ -2390,6 +2393,9 @@ msgid "OpenStack has a sandbox repository for learning and testing purposes"
 msgstr ""
 "OpenStack은 학습 및 테스트 목적을 위해 sandbox 저장소를 보유하고 있습니다"
 
+msgid "OpenStack sandbox environment: DevStack"
+msgstr "OpenStack sandbox 환경: DevStack"
+
 msgid "Operators' meet ups"
 msgstr "운영자 밋업"
 
@@ -2521,6 +2527,9 @@ msgstr "명료하게 기술된 *목표* 를 달성하기 위한 *산출물* 을 
 msgid "Product owners"
 msgstr "프로젝트 소유자"
 
+msgid "Project Channels:"
+msgstr "프로젝트 채널:"
+
 msgid "Project Team Gathering (PTG)"
 msgstr "Project Team Gathering (PTG)"
 
@@ -2618,6 +2627,13 @@ msgstr "연락처 정보 등록"
 
 msgid "Register Your Nick Name"
 msgstr "닉네임을 등록합니다"
+
+msgid ""
+"Register the blueprint : https://blueprints.launchpad.net/openstack-dev-"
+"sandbox"
+msgstr ""
+"blueprint를 등록합니다 : https://blueprints.launchpad.net/openstack-dev-"
+"sandbox"
 
 msgid "Registration and Accounts"
 msgstr "등록 및 계정"
@@ -2743,6 +2759,9 @@ msgstr "Rohit Agarwalla (조교)"
 msgid "Rossella Sblendido (assistant, Italian, English)"
 msgstr "Rossella Sblendido (조교, 이탈리아어, 영어)"
 
+msgid "Run DevStack"
+msgstr "DevStack 실행"
+
 msgid "Run for elected positions in the OpenStack project."
 msgstr "OpenStack 프로젝트 내에서 선출로 정해지는 자리에 지원하기."
 
@@ -2760,6 +2779,9 @@ msgstr "테스트를 실행합니다"
 
 msgid "Run unit tests"
 msgstr "유닛 테스트를 실행합니다"
+
+msgid "Running services in DevStack"
+msgstr "DevStack에서 서비스 실행하기"
 
 msgid "SSH keys are always generated in pairs:"
 msgstr "SSH 키는 항상 쌍으로 생성됩니다:"
@@ -2790,9 +2812,6 @@ msgstr "두 번째 날"
 
 msgid "SecurityImpact"
 msgstr "SecurityImpact"
-
-msgid "See YOU in Boston!"
-msgstr "보스턴에서 봅시다!"
 
 msgid "Seeing new comment"
 msgstr "새로운 댓글 보기"
@@ -2893,6 +2912,9 @@ msgstr ""
 "몇몇 구성원은 개발에 집중을 하며 다른 구성원들은 보다 사용자 및 운영자에게 초"
 "점을 맞춥니다"
 
+msgid "Some documents (e.g., install-guides) require testing with releases"
+msgstr "일부 문서들 (예: install-guides)는 릴리즈를 통한 테스트가 필요합니다."
+
 msgid ""
 "Someone of authority needs to sign the `U.S. Government Contributor License "
 "Agreement <https://wiki.openstack.org/wiki/GovernmentCLA>`_. Contact the "
@@ -2984,6 +3006,9 @@ msgstr "간결하게 패치 내용을 설명합니다"
 msgid "Suggestions of projects to work on:"
 msgstr "작업하고자 하는 프로젝트 제안:"
 
+msgid "Summit & Forum"
+msgstr "Summit & 포럼"
+
 msgid "Sungjin Kang (assistant, mentoring)"
 msgstr "Sungjin Kang (조교, 멘토링)"
 
@@ -3047,6 +3072,9 @@ msgstr "기술 위원회: 1"
 msgid "Technical leadership"
 msgstr "기술 리더쉽"
 
+msgid "Terminal emulator: Xfce4-terminal"
+msgstr "터미널 에뮬레이터: Xfce4-terminal"
+
 msgid "Test coverage exercise"
 msgstr "테스트 범위 실습"
 
@@ -3067,6 +3095,9 @@ msgstr "테스팅 실습"
 
 msgid "Testing framework"
 msgstr "테스팅 프레임워크"
+
+msgid "Text editor: Geany"
+msgstr "텍스트 편집기: Geany"
 
 msgid "The Contribution Process (1 hour)"
 msgstr "컨트리뷰션 프로세스 (1시간)"
@@ -3116,16 +3147,6 @@ msgstr ""
 "우 큰 그룹에 대해서는 두 '커뮤니티' 로 나누어 각 그룹의 길에 맞게 두어 세션"
 "을 완료하도록 하는 것을 고려합니다. 보다 많은 그룹에서는 각 작업의 결과 사이"
 "에서 `상호운용성` 에 도달할 수 있도록 부가적인 수준의 조정을 필요로 합니다."
-
-msgid ""
-"The next session of the OpenStack Upstream Collaboration Training - "
-"OpenStack Upstream Institute - will be held in Boston, just before the "
-"`OpenStack Summit Boston 2017 <https://www.openstack.org/summit/boston-2017/"
-">`_."
-msgstr ""
-" 다음 OpenStack 업스트림 트레이닝 합동 세션 - OpenStack Upstream Institute는 "
-"Boston에서 열리는 `OpenStack Summit Boston 2017 <https://www.openstack.org/"
-"summit/boston-2017/>`_ 바로 이전에 진행될 예정입니다."
 
 msgid "The official list of projects:"
 msgstr "공식 프로젝트 목록:"
@@ -3358,6 +3379,9 @@ msgstr "최종 릴리즈와 같이 그대로 사용"
 msgid "Useful for participants if they are already working with a project team"
 msgstr "특정 프로젝트 팀에 이미 작업을 하고 있는 경우 참가자에게 유용합니다"
 
+msgid "Useful screen commands:"
+msgstr "유용한 screen 명령어들:"
+
 msgid "User Committee"
 msgstr "사용자 위원회"
 
@@ -3378,6 +3402,13 @@ msgstr "연습을 위한 Sandbox"
 
 msgid "Using the common tools (code repository, bug tracker, CI system, etc.)"
 msgstr "공통 도구 (코드 저장소, 버그 트래커, CI 시스템 등)를 사용합니다"
+
+msgid ""
+"VM image and instructions: https://github.com/kmARC/openstack-training-"
+"virtual-environment/blob/master/README.md"
+msgstr ""
+"VM 이미지 및 가이드: https://github.com/kmARC/openstack-training-virtual-"
+"environment/blob/master/README.md"
 
 msgid "Validate the services are running"
 msgstr "실행 중인 서비스를 검증합니다"
@@ -3489,6 +3520,9 @@ msgstr ""
 "구성원이 되기 위한 도움 및 가이드를 얻는 멘토링 프로그램에 가입할 수 있는 기"
 "회가 주어집니다."
 
+msgid "Web browser: Firefox"
+msgstr "웹 브라우저: Firefox"
+
 msgid "What are they?"
 msgstr "어떤 것일까요?"
 
@@ -3519,15 +3553,6 @@ msgid ""
 msgstr ""
 "Foundation 멤버쉽으로 가입한 경우, 코드 컨트리뷰션을 위해 사용할 이메일 주소"
 "와 동일하게 입력했는지 확인하세요."
-
-msgid ""
-"When you are all set you can `RSVP <https://www.openstack.org/summit/"
-"boston-2017/summit-schedule/events/18639/openstack-upstream-institute-"
-"day-1>`_ to the class."
-msgstr ""
-"모든 것이 설정된 다음에는 `RSVP <https://www.openstack.org/summit/"
-"boston-2017/summit-schedule/events/18639/openstack-upstream-institute-"
-"day-1>`_ 를 통해 클래스에 등록할 수 있습니다."
 
 msgid ""
 "When you have changes in an OpenStack project repository, you can use this "
@@ -3777,13 +3802,6 @@ msgstr "`문서 파헤치기 <docs.html>`_"
 
 msgid "`Environment Setup <development-environment-setup.html>`_"
 msgstr "`환경 셋업 <development-environment-setup.html>`_"
-
-msgid ""
-"`Etherpad for Boston Upstream Collaboration Training <https://etherpad."
-"openstack.org/p/upstream-training-boston>`_"
-msgstr ""
-"`업스트림 합동 트레이닝을 위한 Etherpad <https://etherpad.openstack.org/p/"
-"upstream-training-boston>`_"
 
 msgid ""
 "`Etherpad for Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
@@ -4166,6 +4184,12 @@ msgstr "``cd devstack; ./stack.sh``"
 msgid "``git clone https://git.openstack.org/openstack-dev/devstack``"
 msgstr "``git clone https://git.openstack.org/openstack-dev/devstack``"
 
+msgid "``screen`` use is now deprecated"
+msgstr "``screen``은 더 이상 사용되지 않습니다."
+
+msgid "``systemd`` is the replacement for ``screen``"
+msgstr "``systemd``는 ``screen을 대체합니다."
+
 msgid "`bugfixing <https://wiki.openstack.org/wiki/Bugs#Bugfixing>`_"
 msgstr "`버그 수정 <https://wiki.openstack.org/wiki/Bugs#Bugfixing>`_"
 
@@ -4337,6 +4361,9 @@ msgstr "https://bugs.launchpad.net/openstack-dev-sandbox/+filebug"
 
 msgid "https://bugs.launchpad.net/openstack-manuals"
 msgstr "https://bugs.launchpad.net/openstack-manuals"
+
+msgid "https://bugs.launchpad.net/openstack-training-guides"
+msgstr "https://bugs.launchpad.net/openstack-training-guides"
 
 msgid "https://etherpad.openstack.org/p/upstream-training-barcelona"
 msgstr "https://etherpad.openstack.org/p/upstream-training-barcelona"
