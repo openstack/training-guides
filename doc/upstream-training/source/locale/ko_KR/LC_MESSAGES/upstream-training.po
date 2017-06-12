@@ -6,17 +6,17 @@
 # SeongSoo Cho <nexusz99@gmail.com>, 2016. #zanata
 # Ian Y. Choi <ianyrchoi@gmail.com>, 2017. #zanata
 # Jun-Sik Shin <jsshin@smartx.kr>, 2017. #zanata
-# Wonil Choi <wonil0522@gmail.com>, 2017. #zanata
+# Wonil Choi <wonil22.choi@samsung.com>, 2017. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-29 12:38+0000\n"
+"POT-Creation-Date: 2017-06-08 12:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-06-08 02:12+0000\n"
-"Last-Translator: Jun-Sik Shin <jsshin@smartx.kr>\n"
+"PO-Revision-Date: 2017-06-11 09:28+0000\n"
+"Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
 "X-Generator: Zanata 3.9.6\n"
@@ -184,6 +184,13 @@ msgid ""
 msgstr ""
 "이전 실습에서 선택한 API 요청에 대한 함수 중 하나에 LOG.debug() 를 몇 줄 추가"
 "합니다"
+
+msgid ""
+"Add bugs against, or write reviews for, the itinerary patches from other "
+"groups."
+msgstr ""
+"다른 그룹에서 주기적으로 발생하는 패치에 대해 버그를 추가하거나 리뷰를 작성합"
+"니다."
 
 msgid "Add files"
 msgstr "파일을 추가합니다"
@@ -2015,6 +2022,9 @@ msgid ""
 "interested in attending"
 msgstr ""
 "거주하는 곳과 가까우며 참석 의향이 있는 OpenStack Days 이벤트를 찾아봅니다"
+
+msgid "Look up the location and dates of the next PTG"
+msgstr "다음 PTG에 대한 위치 및 날짜를 찾아봅니다"
 
 msgid ""
 "Look up the project you are most interested in and find the three most "
@@ -4382,6 +4392,9 @@ msgstr "https://launchpad.net/openstack-dev-sandbox"
 
 msgid "https://review.openstack.org/#/settings/ssh-keys"
 msgstr "https://review.openstack.org/#/settings/ssh-keys"
+
+msgid "https://storyboard-dev.openstack.org/"
+msgstr "https://storyboard-dev.openstack.org/"
 
 msgid "https://wiki.openstack.org/wiki/IRC"
 msgstr "https://wiki.openstack.org/wiki/IRC"
