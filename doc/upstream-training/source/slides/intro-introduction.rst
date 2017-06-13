@@ -30,7 +30,6 @@ Agenda - Day 1
   - Introducing OpenStack as a Software
   - Introducing OpenStack as a Community
 
-- Development environment setup
 - How OpenStack is made
 
   - Official OpenStack projects
@@ -39,6 +38,8 @@ Agenda - Day 1
   - Communication
   - Events
   - User Committee and Working Groups
+
+- Development environment setup
 
 Agenda - Day 2, morning
 =======================
@@ -61,16 +62,6 @@ Agenda - Day 2, afternoon
 
   - Guide to SetUp and Push First Patch
   - Using Sandbox for Practice
-
-- Parallel modules
-
-  - Code deep dive
-
-    - DevStack
-    - Exercises
-
-  - Docco deep dive
-  - WG deep dive
 
 Exercise
 ========
