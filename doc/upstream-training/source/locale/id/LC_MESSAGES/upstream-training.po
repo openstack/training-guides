@@ -4,11 +4,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-08 12:06+0000\n"
+"POT-Creation-Date: 2017-06-12 13:10+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-06-12 03:06+0000\n"
+"PO-Revision-Date: 2017-06-12 08:26+0000\n"
 "Last-Translator: suhartono <cloudsuhartono@gmail.com>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -21,9 +21,15 @@ msgstr "#openstack-meeting, #openstack-meeting-cp, etc."
 msgid "'Gates' code entering the stable or master branches"
 msgstr "Kode 'Gates' masuk ke cabang stabil atau master"
 
+msgid "(A real bug report needs a more detailed description.)"
+msgstr "(Laporan bug yang sebenarnya membutuhkan deskripsi yang lebih rinci.)"
+
 msgid "(As an example, a new file has been created using cat command.)"
 msgstr ""
 "(Sebagai contoh, sebuah file baru telah dibuat menggunakan perintah cat.)"
+
+msgid "(Checking the log message before uploading is a best practice.)"
+msgstr "(Memeriksa pesan log sebelum mengunggah adalah praktik terbaik.)"
 
 msgid "(Draft comments are not visible to others.)"
 msgstr "(Draft komentar tidak terlihat oleh orang lain.)"
@@ -33,6 +39,14 @@ msgstr "(Pastikan bahwa komentar Anda sedang ditampilkan dalam Riwayat.)"
 
 msgid "(Find reviewer by Gerrit username or e-mail address.)"
 msgstr "(Cari pengulas senior dengan username Gerrit atau alamat email.)"
+
+msgid "(Note: In some environments need to use 'git-review master')"
+msgstr ""
+"(Catatan: Di beberapa lingkungan perlu menggunakan 'git-review master')"
+
+msgid "(Other people will assume the person is working on the bug.)"
+msgstr ""
+"(Orang lain akan menganggap orang tersebut sedang mengerjakan bug tersebut.)"
 
 msgid "(Please also change your commit message if needed.)"
 msgstr "(Silakan juga mengubah pesan commit Anda jika diperlukan.)"
@@ -55,6 +69,13 @@ msgstr ""
 
 msgid "**Staff**"
 msgstr "**Staff**"
+
+msgid ""
+"**Wednesday, June 14, 2017 at 11:00 a.m. to 5:00 p.m. - Thursday, June 15, "
+"2017 at 11:00 a.m. to 5:00 p.m. (local time)**"
+msgstr ""
+"**Wednesday, June 14, 2017 at 11:00 a.m. to 5:00 p.m. - Thursday, June 15, "
+"2017 at 11:00 a.m. to 5:00 p.m. (local time)**"
 
 msgid "*Common cycle with development milestones*"
 msgstr "*Common cycle with development milestones*"
@@ -143,6 +164,12 @@ msgstr ""
 "kenyataan, terutama Loic Dachary, Stefano Maffulli, Tim Freund, Marton Cium, "
 "dan Ildiko Váncsa yang memimpin pelatihan."
 
+msgid "A blueprint is a description of a solution"
+msgstr "Cetak biru adalah deskripsi solusinya"
+
+msgid "A board is a collection of worklists"
+msgstr "Board adalah kumpulan daftar kerja"
+
 msgid "A bunch of scripts to build a full OpenStack environment"
 msgstr "Sekelompok script untuk membangun lingkungan OpenStack penuh"
 
@@ -169,8 +196,26 @@ msgstr ""
 "Kemampuan baru ditambahkan ke proyek yang harus diimplementasikan di semua "
 "vendor driver.."
 
+msgid "A place for listing and planning specifications for work to be done"
+msgstr ""
+"Tempat untuk daftar dan spesifikasi perencanaan pekerjaan yang harus "
+"dilakukan"
+
+msgid ""
+"A possible setup could be a board is a project and the worklists on the "
+"board could be different releases or bugs versus implementations"
+msgstr ""
+"Penyiapan yang mungkin bisa berupa sebuah board adalah sebuah proyek dan "
+"daftar kerja di board bisa berbeda dengan rilis atau bug versus implementasi"
+
 msgid "A sample presentation is given by the teacher, as an example"
 msgstr "Sebuah presentasi sampel diberikan oleh guru, sebagai contoh"
+
+msgid "A story is a work item such as a bug or a new feature"
+msgstr "Cerita adalah item pekerjaan seperti bug atau fitur baru"
+
+msgid "API first implementation"
+msgstr "Implementasi API pertama"
 
 msgid "API, Security Guide, Training Guides, Training Labs"
 msgstr "API, Security Guide, Training Guides, Training Labs"
@@ -366,6 +411,9 @@ msgstr ""
 msgid "An official project is aligned with the OpenStack Mission if it"
 msgstr "Sebuah proyek resmi diselaraskan dengan Misi OpenStack jika itu"
 
+msgid "Analysing Jenkins Failures"
+msgstr "Menganalisis Kegagalan Jenkins"
+
 msgid "Anne Gentle – Cisco"
 msgstr "Anne Gentle – Cisco"
 
@@ -373,6 +421,9 @@ msgid "Answer other's questions or help direct them to those who can"
 msgstr ""
 "Menjawab pertanyaan orang lain atau membantu mengarahkan mereka ke orang "
 "yang bisa"
+
+msgid "Answering reviewer's comment(s) is a best practice."
+msgstr "Komentar penjawab resensi adalah praktik terbaik."
 
 msgid "Application Catalog service"
 msgstr "Layanan Application Catalog"
@@ -480,6 +531,9 @@ msgstr "Benar untuk peran Anda"
 msgid "Being able to read and write English at a technical level"
 msgstr "Mampu membaca dan menulis bahasa Inggris di tingkat teknis"
 
+msgid "Being phased out over the next few releases"
+msgstr "Dihapus selama beberapa rilis berikutnya"
+
 msgid "Benefits of being an Official OpenStack project"
 msgstr "Manfaat menjadi proyek OpenStack resmi"
 
@@ -489,11 +543,20 @@ msgstr ""
 "Pintu masuk yang baik bagi kontributor baru menemukan tempat mereka di "
 "masyarakat"
 
+msgid "Better for cross project coordination"
+msgstr "Lebih baik koordinasi lintas proyek"
+
 msgid "Big Tent is a code name for the official OpenStack projects"
 msgstr "Big Tent adalah nama kode untuk proyek OpenStack resmi"
 
 msgid "Blueprint (Partial-Implements, Implements)"
 msgstr "Blueprint (Partial-Implements, Implements)"
+
+msgid "Blueprints"
+msgstr "Cetak biru (blueprint)"
+
+msgid "Blueprints can have an associated spec"
+msgstr "Cetak biru bisa memiliki spec yang terkait"
 
 msgid "Board : 1"
 msgstr "Board : 1"
@@ -537,6 +600,14 @@ msgstr "Bugday"
 msgid "Bugday shows real-time stats during bug smash days."
 msgstr ""
 "Bugday menunjukkan statistik real-time selama hari-hari penghancuran bug."
+
+msgid "Bugs"
+msgstr "Bug"
+
+msgid ""
+"Bugs: - Issues with current code - Items that need to be changed or updated"
+msgstr ""
+"Bug: - Masalah dengan kode saat ini - Item yang perlu diubah atau diperbarui"
 
 msgid "Build a network"
 msgstr "Membangun jaringan"
@@ -584,6 +655,9 @@ msgstr "Tidak bisa dimodifikasi sekali digabung"
 
 msgid "Capture your idea in a spec/blueprint"
 msgstr "Menangkap ide Anda di spesifikasi / cetak biru"
+
+msgid "Caused by timing/connectivity issues in check/gate"
+msgstr "Disebabkan oleh timing/masalah konektivitas di cek/gate"
 
 msgid "Change-Id"
 msgstr "Change-Id"
@@ -962,6 +1036,13 @@ msgid "Create a draft .rst file with an outline for the itinerary."
 msgstr "Buat file .rst draft dengan garis besar untuk rencana perjalanan."
 
 msgid ""
+"Create a few different changes and submit new patchsets to those few changes "
+"in the Sandbox repository for one bug in Launchpad."
+msgstr ""
+"Buat beberapa perubahan yang berbeda dan kirimkan patch baru ke beberapa "
+"perubahan di repositori Sandbox untuk satu bug di Launchpad."
+
+msgid ""
 "Create a new commit with the .rst file in openstack-dev/sandbox repository "
 "and submit the commit to Gerrit when you are finished."
 msgstr ""
@@ -974,6 +1055,22 @@ msgid ""
 msgstr ""
 "Buat mesin virtual pada laptop Anda dengan Ubuntu 16.04 yang telah terinstal "
 "dan 6+ GB RAM."
+
+msgid ""
+"Create a worklist, with a story that has at least two tasks in the sandbox "
+"enivronment. After it's been created assign the tasks to yourself."
+msgstr ""
+"Buat daftar kerja, dengan cerita yang memiliki setidaknya dua tugas di dalam "
+"lingkungan sandbox. Setelah itu buat tetapkan tugas untuk diri sendiri."
+
+msgid ""
+"Create and submit a bug or blueprint to our sandbox repository. Include at "
+"least one tag when creating your bug. Once it has been created, assign it to "
+"yourself."
+msgstr ""
+"Buat dan kirimkan bug atau cetak biru ke repositori sandbox kami. Sertakan "
+"setidaknya satu tag saat membuat bug Anda. Setelah itu diciptakan, berikan "
+"pada diri Anda sendiri."
 
 msgid "Create your commit and push upstream for review"
 msgstr "Buat Anda berkomitmen dan mendorong hulu untuk peninjauan"
@@ -1075,6 +1172,22 @@ msgstr ""
 "kegiatan."
 
 msgid ""
+"Detailed description should include the OpenStack release that was running, "
+"log snippets showing the error, steps to recreate the error and any vendor "
+"hardware possibly involved."
+msgstr ""
+"Uraian terperinci harus menyertakan rilis OpenStack yang sedang berjalan, "
+"cuplikan log yang menunjukkan kesalahan, langkah-langkah untuk menciptakan "
+"kesalahan dan kemungkinan perangkat keras vendor mungkin terlibat."
+
+msgid ""
+"Details need to be sufficient for a developer to narrow down where the "
+"failure occurred and/or recreate the failure."
+msgstr ""
+"Rincian perlu cukup bagi pengembang untuk mempersempit tempat kegagalan "
+"terjadi dan/atau menciptakan kegagalan."
+
+msgid ""
 "Determine how many OpenStack releases are officially supported by the "
 "community"
 msgstr ""
@@ -1127,6 +1240,9 @@ msgstr "Developers/Software Engineers/Architects"
 msgid "Development environment setup"
 msgstr "Penyiapan lingkungan pengembangan"
 
+msgid "Directs the user to saved log output"
+msgstr "Mengarahkan pengguna ke output log tersimpan"
+
 msgid "Disconnect: <ctrl>-a d"
 msgstr "Memutuskan: <ctrl>-a d"
 
@@ -1135,6 +1251,16 @@ msgstr "Mendiskusikan jawaban dengan kelas"
 
 msgid "Discuss with your project team"
 msgstr "Diskusikan dengan tim proyek Anda"
+
+msgid ""
+"Discuss with your table how you would determine you encountered one of these "
+"bugs"
+msgstr ""
+"Diskusikan dengan meja Anda bagaimana Anda akan menentukan bahwa Anda "
+"menemui salah satu bug ini"
+
+msgid "Discuss your findings with your group"
+msgstr "Diskusikan temuan Anda dengan kelompok Anda"
 
 msgid "Distracted : 1"
 msgstr "Distracted : 1"
@@ -1253,6 +1379,11 @@ msgstr "Setiap perusahaan memiliki:"
 
 msgid "Each individual sets their own objective."
 msgstr "Setiap individu menetapkan tujuan mereka sendiri."
+
+msgid "Each item on a worklist is placed on a 'card' in the worklist"
+msgstr ""
+"Setiap item pada daftar pekerjaan ditempatkan pada ''card'' di daftar "
+"pekerjaan"
 
 msgid "Each project and working group also has its own wiki page"
 msgstr "Setiap proyek dan kelompok kerja juga memiliki halaman wiki sendiri"
@@ -1515,6 +1646,12 @@ msgstr "2-3 Februari 2015 (Senin - Selasa)"
 msgid "Figure out who's behind it"
 msgstr "Mencari tahu siapa di balik itu"
 
+msgid "File status in the working repository"
+msgstr "Status file dalam repositori kerja"
+
+msgid "Filed against a specific OpenStack project(s)"
+msgstr "Diarsipkan pada proyek OpenStack tertentu"
+
 msgid "Filing a blueprint/spec"
 msgstr "Mengajukan cetak biru / spek"
 
@@ -1539,6 +1676,9 @@ msgstr "Cari kajian terbuka yang kurang kompleks dan download patch"
 msgid "Find feature proposal deadlines in the current release schedule"
 msgstr "Cari batas waktu usulan fitur di jadwal rilis terkini"
 
+msgid "Find how rechecks are categorized"
+msgstr "Temukan bagaimana cek ulang dikategorikan"
+
 msgid ""
 "Find out what parameters were passed to that method by using the LOG messages"
 msgstr ""
@@ -1553,6 +1693,9 @@ msgstr ""
 msgid "Find the current members of the Board of Directors, TC and UC"
 msgstr ""
 "Cari anggota Dewan Direktur, Technical Committee dan User Committee saat ini"
+
+msgid "Find the information that can be retrieved for each patch in a pipeline"
+msgstr "Temukan informasi yang bisa diambil untuk setiap patch dalam pipeline"
 
 msgid ""
 "Find the latest election results for Board of Directors, TC and UC. Also "
@@ -2007,6 +2150,9 @@ msgstr "Sorot dan copy output."
 msgid "History status"
 msgstr "Status riwayat"
 
+msgid "Home Work"
+msgstr "Home Work"
+
 msgid "Hopefully we end up with a unique Lego creation!"
 msgstr "Mudah-mudahan kita berakhir dengan penciptaan Lego yang unik!"
 
@@ -2023,6 +2169,9 @@ msgstr "Bagaimana OpenStack dibuat"
 
 msgid "How OpenStack is made (3h including 1h30 exercises)"
 msgstr "Bagaimana OpenStack dibuat (3jam termasuk latihan 1jam 30menit)"
+
+msgid "How many gate and check jobs are running"
+msgstr "Berapa banyak gerbang dan pekerjaan cek yang sedang berjalan"
 
 msgid "How to contribute"
 msgstr "Bagaimana untuk berkontribusi"
@@ -2232,6 +2381,9 @@ msgstr "Menerapkan cetak biru / spek"
 msgid "Import Public Key Into Gerrit"
 msgstr "Impor Public Key ke Gerrit"
 
+msgid "Importance and Milestones can only be set by cores of the project"
+msgstr "Importance dan Milestone hanya dapat ditentukan oleh inti proyek"
+
 msgid ""
 "In Gerrit's `settings <https://review.openstack.org/#/settings/agreements>`_ "
 "click the **New Contributor Agreement** link and sign the agreement."
@@ -2249,6 +2401,15 @@ msgid ""
 msgstr ""
 "Selain tonggak sejarah, ada tanggal pembekuan untuk berbagai aktivitas dalam "
 "pelepasan"
+
+msgid ""
+"In order to RSVP you need to register to the OPNFV Summit first and you can "
+"add the course to your registration as an Add-On. If you registered already "
+"you can add the course to your registration later as well."
+msgstr ""
+"Agar RSVP Anda perlu mendaftar ke KTT OPNFV terlebih dahulu dan Anda bisa "
+"menambahkan kursus ke pendaftaran Anda sebagai Add-On. Jika sudah mendaftar "
+"maka Anda bisa menambahkan kursus ke pendaftaran Anda nanti juga."
 
 msgid ""
 "In order to identify ourselves that we own the nick name upon logging in, we "
@@ -2420,6 +2581,9 @@ msgstr "Berinteraksi dengan Proyek"
 msgid "Interactive, hands-on class"
 msgstr "Kelas langsung, interaktif"
 
+msgid "Intermittent Failures"
+msgstr "Kegagalan Intermiten"
+
 msgid ""
 "Introduce yourself to the others at your table! Who you are, what experience "
 "you have with OpenStack if any, what company you are at and what your role "
@@ -2460,6 +2624,9 @@ msgstr ""
 msgid "Jay Bryant – IBM"
 msgstr "Jay Bryant – IBM"
 
+msgid "Jenkins Failures"
+msgstr "Kegagalan Jenkins"
+
 msgid "Jenkins and vendor CIs will review your patch"
 msgstr "Jenkins dan vendor CI akan meninjau patch Anda"
 
@@ -2471,6 +2638,9 @@ msgstr "Jieun Kim (assistant)"
 
 msgid "Jirayut Nimsaeng- Kaidee"
 msgstr "Jirayut Nimsaeng- Kaidee"
+
+msgid "Jobs run against a patch after it merges"
+msgstr "Pekerjaan berjalan melawan sebuah patch setelah itu bergabung"
 
 msgid "Join the #openstack-101 channel"
 msgstr "Bergabung dengan # openstack-101 channel"
@@ -2554,6 +2724,13 @@ msgstr ""
 "hal-hal seperti laporan bug. Akun ini juga mengetahui bagaimana kita akan "
 "mengidentifikasi diri di sistem pengkajian kode OpenStack."
 
+msgid ""
+"Launchpad uses blueprints and bugs as the trackable items work supplemented "
+"with specs."
+msgstr ""
+"Launchpad menggunakan cetak biru dan bug karena item yang dilacak bekerja "
+"dilengkapi dengan spesifikasi."
+
 msgid "Learn about the community"
 msgstr "Pelajari tentang masyarakat"
 
@@ -2617,6 +2794,9 @@ msgstr "Linux"
 msgid "Linux & Windows"
 msgstr "Linux & Windows"
 
+msgid "List of `Rechecks <http://status.openstack.org/elastic-recheck>`_"
+msgstr "Daftar `Rechecks <http://status.openstack.org/elastic-recheck>`_"
+
 msgid "List sessions: screen -ls"
 msgstr "Daftar sesi: screen -ls"
 
@@ -2628,6 +2808,12 @@ msgstr "Local Upstream Trainings"
 
 msgid "Local branch creation"
 msgstr "Penciptaan cabang lokal"
+
+msgid "Log Output"
+msgstr "Keluaran Log"
+
+msgid "Logs may be accessed by clicking on the test's name"
+msgstr "Log dapat diakses dengan mengklik nama tes"
 
 msgid ""
 "Logs of meetings and channels are archived so that they can be referenced "
@@ -2643,6 +2829,9 @@ msgstr "Loic Dachary (training, mentoring, assistant, french, english) - lead"
 
 msgid "Look at open reviews"
 msgstr "Lihat ulasan terbuka"
+
+msgid "Look at the `Zuul <http://status.openstack.org/zuul>`_ status page"
+msgstr "Lihatlah halaman `Zuul <http://status.openstack.org/zuul>` _ status"
 
 msgid ""
 "Look through the list of mailing lists and subscribe to at least one list of "
@@ -2774,6 +2963,9 @@ msgid "May also be stable core members (able to merge to stable branches)"
 msgstr ""
 "Mungkin juga anggota inti yang stabil (bisa bergabung ke cabang yang stabil)"
 
+msgid "May receive elastic recheck message"
+msgstr "Mungkin menerima pesan cek elastis"
+
 msgid ""
 "Meaningful: anyone may submit a correction that will adjust the influence of "
 "appropriate statistical data"
@@ -2873,6 +3065,9 @@ msgstr ""
 "Informasi lebih lanjut: http://www.openstack.org/blog/2014/11/openstack-"
 "upstream-training-in-japan/"
 
+msgid "More kanban style structure"
+msgstr "Lebih banyak struktur gaya kanban"
+
 msgid "More than 20 million lines of code"
 msgstr "Lebih dari 20 juta baris kode"
 
@@ -2910,6 +3105,14 @@ msgstr "NFV = Network Function Virtualization"
 msgid "Namgon Lucas Kim (assistant, mentoring)"
 msgstr "Namgon Lucas Kim (assistant, mentoring)"
 
+msgid ""
+"New Features: - Specs are formal write ups of implementations that affect "
+"the whole project - Specs live in a per project repository"
+msgstr ""
+"Fitur Baru: - Spesifikasi adalah penulisan formal implementasi yang "
+"mempengaruhi keseluruhan proyek - Spesifikasi hidup dalam repositori per "
+"proyek"
+
 msgid "New agreement"
 msgstr "New agreement (kesepakatan baru)"
 
@@ -2918,6 +3121,9 @@ msgstr "Fitur baru"
 
 msgid "New patchset was recorded in Gerrit."
 msgstr "P9atchset baru tercatat di Gerrit."
+
+msgid "New, open-source task tracking tool"
+msgstr "Alat pelacakan tugas open-source yang baru"
 
 msgid "No agreement"
 msgstr "No agreement (tidak ada kesepakatan)"
@@ -2928,6 +3134,17 @@ msgid ""
 msgstr ""
 "Tidak ada daftar master etherpads - sulit untuk menemukan apa yang Anda cari "
 "tanpa melihat itu sebelum atau tanpa meminta URL"
+
+msgid ""
+"Non-voting jobs are new jobs that are being tested and may not yet be ready "
+"to vote"
+msgstr ""
+"Pekerjaan non-voting adalah pekerjaan baru yang sedang diuji dan mungkin "
+"belum siap untuk memilih"
+
+msgid "Non-voting jobs do not cause a -1 vote from Jenkins upon failure"
+msgstr ""
+"Pekerjaan non-voting tidak menyebabkan vote -1 dari Jenkins karena kegagalan"
 
 msgid ""
 "Nonprofit foundation created to \"develop, support, protect, and promote\" "
@@ -3262,6 +3479,12 @@ msgstr "Peter Ko (assistant, mentoring)"
 msgid "Pick a task (bug, trivial fix, documentation, implementation)"
 msgstr "Memilih tugas (bug, perbaikan biasa, dokumentasi, implementasi)"
 
+msgid ""
+"Pick your favorite project and report how many jobs it has running in IRC"
+msgstr ""
+"Pilih proyek favorit Anda dan laporkan berapa banyak pekerjaan yang telah "
+"berjalan di IRC"
+
 msgid "Planning - Design"
 msgstr "Perencanaan - Perancangan"
 
@@ -3292,6 +3515,15 @@ msgstr ""
 
 msgid "Please note that the language of the training is English."
 msgstr "Harap dicatat bahwa bahasa untuk pelatihan ini adalah bahasa Inggris."
+
+msgid ""
+"Please see the `OpenStack Upstream Institute <http://events.linuxfoundation."
+"org/events/archive/2017/opnfv-summit/extend-the-experience/openstack-"
+"upstream-institute>`_ class information for more details."
+msgstr ""
+"Silakan lihat `OpenStack Upstream Institute <http://events.linuxfoundation."
+"org/events/archive/2017/opnfv-summit/extend-the-experience/openstack-"
+"upstream-institute>`_ class information for more details."
 
 msgid "Post"
 msgstr "Post"
@@ -3467,6 +3699,9 @@ msgstr "Baca dan selesaikan panduan :doc:`git`."
 msgid "Read and complete the :doc:`irc` guide."
 msgstr "Baca dan selesaikan panduan :doc:`irc`."
 
+msgid "Read the bug description and assign yourself to fix the bug"
+msgstr "Bacalah deskripsi bug dan tetapkan diri Anda untuk memperbaiki bug"
+
 msgid ""
 "Read through the presented individual member terms of service and our "
 "`Community Code of Conduct <https://www.openstack.org/legal/community-code-"
@@ -3577,6 +3812,9 @@ msgstr "Laporkan bug - Rincian"
 msgid "Report a bug - Summary"
 msgstr "Laporkan bug - Ringkasan"
 
+msgid "Report a bug on Launchpad"
+msgstr "Laporkan bug di Launchpad"
+
 msgid "Repositories"
 msgstr "Repositories (repositori)"
 
@@ -3629,6 +3867,15 @@ msgstr "Surat undangan pengulasan"
 
 msgid "Review other's code"
 msgstr "Mengulas kode milik lain"
+
+msgid "Review score with written comments"
+msgstr "Tinjau skor dengan komentar tertulis"
+
+msgid "Review the patch and give feedback with comments"
+msgstr "Tinjau patch dan berikan umpan balik dengan komentar"
+
+msgid "Review the revised patch and merge the patch"
+msgstr "Tinjau revisi patch dan gabungkan patch"
 
 msgid "Review three patches in the sandbox environment:"
 msgstr "Mengulas tiga patch di lingkungan sandbox:"
@@ -3734,6 +3981,9 @@ msgstr "SecurityImpact"
 msgid "See EOL status at: https://releases.openstack.org"
 msgstr "Lihat status EOL di: https://releases.openstack.org"
 
+msgid "See YOU in Beijing!"
+msgstr "Sampai jumpa di Beijing!"
+
 msgid "Seeing new comment"
 msgstr "Melihat komentar baru"
 
@@ -3780,6 +4030,9 @@ msgstr "Penyiapan dan Belajar GIT"
 msgid "Setup the Development Environment"
 msgstr "Mempersiapkan Development Environment"
 
+msgid "Several projects have already migrated"
+msgstr "Beberapa proyek telah bermigrasi"
+
 msgid ""
 "Share the commit message with one or two people at your table. Give them "
 "feedback on their commit messages."
@@ -3795,6 +4048,10 @@ msgstr "Shinobu KINJO (mentoring, assistant, japanese)"
 
 msgid "Should not end with a period"
 msgstr "Sebaiknya tidak diakhiri dengan titik"
+
+msgid "Should not take the bug if you are not planning to work on the bug."
+msgstr ""
+"Sebaiknya jangan mengambil bug jika Anda tidak berencana mengerjakan bug."
 
 msgid "Sign In"
 msgstr "Sign In (masuk)"
@@ -3948,11 +4205,34 @@ msgstr "Mulai bekerja dari patchset terbaru"
 msgid "Status"
 msgstr "Status"
 
+msgid ""
+"Statuses: New, Incomplete, Confirmed, Triaged, In Progress, Fix Committed, "
+"Fix Released, Invalid, Opinion, Won't Fix"
+msgstr ""
+"Status: Baru, Tidak Lengkap, Dikonfirmasi, Dipotong, Sedang Berjalan, "
+"Perbaiki Komitmen, Perbaiki Rilis, Tidak Sah, Opini, Tidak Akan Perbaiki"
+
 msgid "Stefano Maffulli (training, mentoring, assistant, english)"
 msgstr "Stefano Maffulli (training, mentoring, assistant, english)"
 
 msgid "Stephan Ahn (training, assistant, mentoring)"
 msgstr "Stephan Ahn (training, assistant, mentoring)"
+
+msgid "Stories & Tasks"
+msgstr "Cerita & Tugas"
+
+msgid "Stories can have tags to make them more searchable/filterable"
+msgstr "Cerita dapat memberi tag agar lebih mudah dicari/disaring"
+
+msgid "StoryBoard"
+msgstr "StoryBoard"
+
+msgid ""
+"Storyboard uses worklists, boards, stories, and tasks as the items for "
+"organizing and tracking work."
+msgstr ""
+"Storyboard menggunakan daftar kerja, papan, cerita, dan tugas sebagai item "
+"untuk mengatur dan melacak pekerjaan."
 
 msgid "Strategic and financial oversight"
 msgstr "Pengawasan strategis dan keuangan"
@@ -4047,6 +4327,13 @@ msgstr ""
 "Tag dapat dikaitkan dengan proyek. Cari tahu tag apa dan temukan daftar tag "
 "yang ada saat ini."
 
+msgid ""
+"Tags: low-hanging-fruit, documentation, security, other per project tags -  "
+"https://wiki.openstack.org/wiki/BugTags"
+msgstr ""
+"Tag: low-hanging-fruit, dokumentasi, keamanan, tag per proyek lainnya - "
+"https://wiki.openstack.org/wiki/BugTags"
+
 msgid "Takashi Torii (assistant, japanese)"
 msgstr "Takashi Torii (assistant, japanese)"
 
@@ -4065,8 +4352,27 @@ msgstr "Berbicara dalam saluran IRC"
 msgid "Target Audience"
 msgstr "Target Audience (khalayak target)"
 
+msgid "Task Tracking"
+msgstr "Pelacakan Tugas"
+
 msgid "Task Tracking Info:"
 msgstr "Task Tracking Info:"
+
+msgid "Task tracking tool most widely used in the community"
+msgstr "Alat pelacak tugas paling banyak digunakan di masyarakat"
+
+msgid "Tasks are classified as blueprints or bugs"
+msgstr "Tugas diklasifikasikan sebagai cetak biru atau bug"
+
+msgid ""
+"Tasks are the steps required to complete the story - Tests - Patches - "
+"Documentation"
+msgstr ""
+"Tugas adalah langkah yang diperlukan untuk menyelesaikan cerita - Tes - "
+"Patch - Dokumentasi"
+
+msgid "Tasks have statuses similar to Launchpad items"
+msgstr "Tugas memiliki status yang mirip dengan item Launchpad"
 
 msgid "Team members : 3-5"
 msgstr "Anggota tim : 3-5"
@@ -4184,6 +4490,13 @@ msgstr ""
 "Hal pertama peserta resensi melihat dan itu sama pentingnya dengan kode"
 
 msgid ""
+"The following slides demonstrate using the Sandbox repository and Launchpad "
+"to:"
+msgstr ""
+"Slide berikut ini menunjukkan penggunaan repositori Sandbox dan Launchpad "
+"untuk:"
+
+msgid ""
 "The group is split into their new 'teams' at this stage. Facilitators can "
 "choose any way they prefer to do this (selecting teams, or allowing students "
 "to self-select). The recommended numbers are in the slides, but can be "
@@ -4215,6 +4528,17 @@ msgstr ""
 
 msgid "The metrics should be used within context"
 msgstr "Metrik harus digunakan dalam konteks"
+
+msgid ""
+"The next session of the OpenStack Upstream Collaboration Training - "
+"OpenStack Upstream Institute - will be held in Beijing, in parallel to the "
+"conference part of the `OPNFV Summit 2017 <http://events.linuxfoundation.org/"
+"events/archive/2017/opnfv-summit>`_."
+msgstr ""
+"Sesi berikutnya dari OpenStack Upstream Collaboration Training - OpenStack "
+"Upstream Institute - akan diadakan di Beijing, sejajar dengan bagian "
+"konferensi dari `OPNFV Summit 2017 <http://events.linuxfoundation.org/events/"
+"archive/2017/opnfv-summit>`_."
 
 msgid "The official list of projects:"
 msgstr "Daftar proyek resmi:"
@@ -4391,6 +4715,18 @@ msgstr ""
 "Untuk mengelola dan melacak bug yangdilaporkan dan isu terkait dengan "
 "repositori openstack-dev/sandbox"
 
+msgid "To notify others that someone is working on the bug"
+msgstr ""
+"Untuk memberitahukan kepada orang lain bahwa seseorang sedang mengerjakan "
+"bug tersebut"
+
+msgid ""
+"To trigger a re-run of check or gate add a comment to the patch in the form "
+"of 'recheck bug XXXXX'"
+msgstr ""
+"Untuk memicu re-run of check atau gate tambahkan komentar ke patch berupa "
+"'recheck bug XXXXX'"
+
 msgid "To understand how it all fits together, we use a hands on example"
 msgstr ""
 "Untuk memahami bagaimana semua itu cocok untuk bersama-sama, kita membantu "
@@ -4413,6 +4749,9 @@ msgstr "Tox"
 
 msgid "Track chairs for OpenStack Summits"
 msgstr "Track pimpinan untuk OpenStack Summits"
+
+msgid "Tracked Items"
+msgstr "Item yang Dilacak"
 
 msgid "Tracking"
 msgstr "Tracking (pelacakan)"
@@ -4525,6 +4864,12 @@ msgstr "Memperbarui dan menambahkan tes (unit, fungsional, dll)"
 msgid "UpgradeImpact"
 msgstr "UpgradeImpact"
 
+msgid "Upload a patch and invite a peer as a reviewer"
+msgstr "Upload patch dan undang peer sebagai reviewer"
+
+msgid "Upload a revised patch with comment"
+msgstr "Unggah patch yang direvisi dengan komentar"
+
 msgid "Upload your code as early as possible in the release cycle"
 msgstr "Upload kode Anda sedini mungkin dalam siklus rilis"
 
@@ -4612,6 +4957,9 @@ msgstr "Kelompok pengguna"
 msgid "Users with the following activities are recognized with AUC status:"
 msgstr "Pengguna dengan kegiatan berikut dikenali dengan status AUC:"
 
+msgid "Uses the browser to view the logs"
+msgstr "Menggunakan browser untuk melihat log"
+
 msgid "Using Lego to represent the community"
 msgstr "Menggunakan Lego untuk mewakili masyarakat"
 
@@ -4672,6 +5020,12 @@ msgstr ""
 msgid "Vote in elections."
 msgstr "Memilih dalam pemilihan."
 
+msgid "Voting and non-voting jobs"
+msgstr "Pekerjaan voting dan non-voting"
+
+msgid "Voting job failures cause a -1 vote from Jenkins on the patch"
+msgstr "Voting kegagalan kerja menyebabkan vote -1 dari Jenkins di patch"
+
 msgid "WG deep dive"
 msgstr "Mempelajari lebih dalam tentang WG"
 
@@ -4693,8 +5047,25 @@ msgstr ""
 "dalamnya. Untuk informasi lebih lanjut tentang persyaratan sistem di atasnya "
 "silakan lihat bagian `ref: prepare-environment`."
 
+msgid ""
+"We go into blueprints in the next few slides, so just mention them for now."
+msgstr ""
+"Kami masuk ke cetak biru dalam beberapa slide berikutnya, jadi sebutkan saja "
+"untuk saat ini."
+
+msgid "We have seen in `Commit Messages <workflow-commit-message.html#8>`__"
+msgstr ""
+"Kami telah melihat di `Commit Messages <workflow-commit-message.html#8>`__"
+
 msgid "We have seen in `Gerrit <workflow-gerrit.html#5>`__"
 msgstr "Kita telah melihat di `Gerrit <workflow-gerrit.html#5>`__"
+
+msgid ""
+"We have seen in `Overview of the contribution process <workflow-training-"
+"contribution-process.html#5>`_"
+msgstr ""
+"Kami telah melihat di `Overview of the contribution process <workflow-"
+"training-contribution-process.html#5>`_"
 
 msgid ""
 "We have seen in `Setup & First Patch <workflow-setup-and-first-patch."
@@ -4702,6 +5073,13 @@ msgid ""
 msgstr ""
 "Kita telah melihat di `Setup & First Patch <workflow-setup-and-first-patch."
 "html#8>`__"
+
+msgid ""
+"We have seen in `Setup & First patch <workflow-setup-and-first-patch."
+"html#6>`__"
+msgstr ""
+"Kami telah melihat di `Setup & First patch <workflow-setup-and-first-patch."
+"html#6>`__"
 
 msgid ""
 "We held the first OpenStack Upstream Training in Atlanta, before OpenStack "
@@ -4786,6 +5164,9 @@ msgstr "Web browser: Firefox"
 msgid "What are they?"
 msgstr "Apakah mereka?"
 
+msgid "What happens if you click on a patch under test"
+msgstr "Apa yang terjadi jika Anda klik pada patch yang sedang diuji"
+
 msgid "What is Gerrit?"
 msgstr "Apakah Gerrit?"
 
@@ -4797,6 +5178,9 @@ msgstr "Apa itu?"
 
 msgid "What is the OpenStack Foundation Account?"
 msgstr "Apakah OpenStack Foundation Account?"
+
+msgid "What is the significance of the dots, lines and colors"
+msgstr "Apa pentingnya titik, garis dan warna"
 
 msgid "What makes a release"
 msgstr "Apa yang membuat rilis"
@@ -4935,6 +5319,19 @@ msgstr "Kelompok kerja"
 msgid "Working software over comprehensive documentation"
 msgstr "Software bekerja atas dokumentasi yang komprehensif"
 
+msgid "Working to get a commit"
+msgstr "Bekerja untuk mendapatkan komit"
+
+msgid "Worklists & Boards"
+msgstr "Daftar Pekerjaan & Boards"
+
+msgid ""
+"Worklists are user defined groupings of stories and tasks that aid in the "
+"organization of work"
+msgstr ""
+"Daftar Pekerjaan adalah pengelompokan cerita dan tugas yang ditentukan "
+"pengguna yang membantu dalam pengorganisasian pekerjaan"
+
 msgid ""
 "Write a commit message body to expand on each of the following summary "
 "lines. Feel free to make up details to make the context more realistic. "
@@ -4965,6 +5362,20 @@ msgstr "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 
 msgid "Xing Yang – Dell EMC"
 msgstr "Xing Yang – Dell EMC"
+
+msgid ""
+"You can find the list of trainers/coaches on the `training occaisons "
+"<https://wiki.openstack.org/wiki/"
+"OpenStack_Upstream_Institute_Occasions#Beijing_Crew>`_ wiki page."
+msgstr ""
+"Anda bisa menemukan daftar trainer/coache di `training occaisons <https://"
+"wiki.openstack.org/wiki/"
+"OpenStack_Upstream_Institute_Occasions#Beijing_Crew>`_ wiki page."
+
+msgid "You can practice the skills documented in the previous slides."
+msgstr ""
+"Anda bisa mempraktikkan keterampilan yang didokumentasikan di slide "
+"sebelumnya."
 
 msgid ""
 "You can use `Git Immersion <http://gitimmersion.com/lab_02.html>`_ to work "
@@ -5062,6 +5473,9 @@ msgstr "`Branching model <branching-model.html>`_"
 
 msgid "`Bugs <https://wiki.openstack.org/wiki/Bugs>`_"
 msgstr "`Bugs <https://wiki.openstack.org/wiki/Bugs>`_"
+
+msgid "`Closing Exercise  <archive-closing-exercise.html>`_"
+msgstr "`Closing Exercise  <archive-closing-exercise.html>`_"
 
 msgid "`Code <http://git.openstack.org/cgit>`_"
 msgstr "`Code <http://git.openstack.org/cgit>`_"
@@ -5163,6 +5577,16 @@ msgstr ""
 "`Documentation cross-project liaisons <https://wiki.openstack.org/wiki/"
 "CrossProjectLiaisons#Documentation>`_ for questions, reviews, doc bug "
 "triaging, and patching docs"
+
+msgid "`Environment Setup <development-environment-setup.html>`_"
+msgstr "`Environment Setup <development-environment-setup.html>`_"
+
+msgid ""
+"`Etherpad for Beijing Upstream Collaboration Training <https://etherpad."
+"openstack.org/p/upstream-institute-beijing>`_"
+msgstr ""
+"`Etherpad for Beijing Upstream Collaboration Training <https://etherpad."
+"openstack.org/p/upstream-institute-beijing>`_"
 
 msgid ""
 "`Etherpad for Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
@@ -5491,6 +5915,9 @@ msgstr ""
 "`Principles behind the manifesto <http://agilemanifesto.org/principles."
 "html>`_"
 
+msgid "`Project Status and Zuul <workflow-project-status-and-zuul.html>`_"
+msgstr "`Project Status and Zuul <workflow-project-status-and-zuul.html>`_"
+
 msgid ""
 "`Propose sessions <https://wiki.openstack.org/wiki/Design_Summit/Planning>`_"
 msgstr ""
@@ -5563,6 +5990,9 @@ msgstr ""
 
 msgid "`Tags <http://governance.openstack.org/reference/tags/index.html>`_"
 msgstr "`Tags <http://governance.openstack.org/reference/tags/index.html>`_"
+
+msgid "`Task Tracking <workflow-task-tracking.html>`_"
+msgstr "`Task Tracking <workflow-task-tracking.html>`_"
 
 msgid ""
 "`Technical Committee <http://governance.openstack.org/reference/charter."
@@ -5871,6 +6301,9 @@ msgstr "https://launchpad.net/openstack-dev-sandbox"
 
 msgid "https://review.openstack.org/#/settings/ssh-keys"
 msgstr "https://review.openstack.org/#/settings/ssh-keys"
+
+msgid "https://storyboard-dev.openstack.org/"
+msgstr "https://storyboard-dev.openstack.org/"
 
 msgid "https://wiki.openstack.org/wiki/IRC"
 msgstr "https://wiki.openstack.org/wiki/IRC"
