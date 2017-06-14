@@ -41,8 +41,8 @@ Agenda - Day 1
 
 - Development environment setup
 
-Agenda - Day 2, morning
-=======================
+Agenda - Day 2
+==============
 
 - Workflow of an OpenStack contribution and tools
 
@@ -54,12 +54,6 @@ Agenda - Day 2, morning
   - Commit Messages
   - Project Status and Zuul
   - Metrics
-
-Agenda - Day 2, afternoon
-=========================
-
-- Workflow of an OpenStack contribution and tools
-
   - Guide to SetUp and Push First Patch
   - Using Sandbox for Practice
 
