@@ -61,7 +61,6 @@ Code Deep Dive
 
    code-devstack.rst
    code-exercises.rst
-   branching-model.rst
 
 Documentation Deep Dive
 =======================
@@ -80,3 +79,4 @@ Archive
 
    archive-training-agile-for-contributors.rst
    archive-closing-exercise.rst
+   archive-branching-model.rst

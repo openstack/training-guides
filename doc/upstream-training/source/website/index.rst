@@ -163,7 +163,6 @@ Code Deep Dive
 
 * `Demo environment <code-devstack.html>`_
 * `Code exercises <code-exercises.html>`_
-* `Branching model <branching-model.html>`_
 
 Other
 -----------------------
@@ -178,5 +177,6 @@ Archive of additional training activities
 * `Lego applied to Free Software contributions
   <archive-training-agile-for-contributors.html>`_
 * `Closing Exercise  <archive-closing-exercise.html>`_
+* `Branching model <archive-branching-model.html>`_
 
 `Complete index in slide format only <slide-index.html>`_
