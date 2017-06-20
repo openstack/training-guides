@@ -44,9 +44,10 @@ User Group Meetups
 Global Events and Releases
 ==========================
 
-.. image:: ./_assets/revised_timeline.png
-   :class: fill
-   :width: 100%
+- Each Release has two main events: PTG and the Summit
+- The PTG is scheduled around the start of a release to plan release goals
+- Summits take place around the middle of a release to exhibit accomplishments
+  and get feedback from users on the most recent release
 
 Project Team Gathering (PTG)
 ============================
