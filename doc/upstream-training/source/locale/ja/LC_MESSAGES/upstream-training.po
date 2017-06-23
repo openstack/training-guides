@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-10 03:22+0000\n"
+"POT-Creation-Date: 2017-06-20 13:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -163,12 +163,6 @@ msgstr "最終マイルストーンの後"
 
 msgid "Agenda - Day 1"
 msgstr "アジェンダ - 1 日目"
-
-msgid "Agenda - Day 2, afternoon"
-msgstr "アジェンダ - 2 日目 午後"
-
-msgid "Agenda - Day 2, morning"
-msgstr "アジェンダ - 2 日目 午前"
 
 msgid "Agile"
 msgstr "アジャイル"
@@ -494,9 +488,6 @@ msgstr "まとめ演習"
 msgid "Code Deep Dive"
 msgstr "コード Deep Dive"
 
-msgid "Code deep dive"
-msgstr "コードディープダイブ"
-
 msgid ""
 "Code or documentation contribution to any of the official project "
 "repositories"
@@ -758,9 +749,6 @@ msgstr "会社に勤めていますか?"
 msgid "DocImpact"
 msgstr "DocImpact"
 
-msgid "Docco deep dive"
-msgstr "ドキュメントディープダイブ"
-
 msgid "Documentation"
 msgstr "ドキュメント"
 
@@ -967,9 +955,6 @@ msgstr "演習: ドラフトのコミットメッセージの相互レビュー"
 
 msgid "Exercise: review other launchpad bugs and improve yours"
 msgstr "演習: 他の launchpad バグの参照および自身のものの改善"
-
-msgid "Exercises"
-msgstr "演習"
 
 msgid "Explain what you do"
 msgstr "何をしているかを説明する"
@@ -2186,9 +2171,6 @@ msgstr "PTL"
 msgid "Packaging"
 msgstr "パッケージ"
 
-msgid "Parallel modules"
-msgstr "並行モジュール"
-
 msgid "Part of the OpenStack project's functional testing"
 msgstr "OpenStack プロジェクトの機能テストの一部"
 
@@ -3051,9 +3033,6 @@ msgstr ""
 
 msgid "Vote in elections."
 msgstr "選挙への投票"
-
-msgid "WG deep dive"
-msgstr "WG ディープダイブ"
 
 msgid ""
 "Way for people to communicate to a larger group than those that are on IRC"

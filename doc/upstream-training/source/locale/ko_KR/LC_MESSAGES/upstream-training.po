@@ -11,12 +11,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-12 13:10+0000\n"
+"POT-Creation-Date: 2017-06-20 13:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-06-12 02:04+0000\n"
-"Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
+"PO-Revision-Date: 2017-06-23 02:44+0000\n"
+"Last-Translator: Wonil Choi <wonil22.choi@samsung.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
 "X-Generator: Zanata 3.9.6\n"
@@ -245,12 +245,6 @@ msgstr "마지막 마일스톤 이후"
 
 msgid "Agenda - Day 1"
 msgstr "일정 - 1일차"
-
-msgid "Agenda - Day 2, afternoon"
-msgstr "일정 - 2일차, 오후"
-
-msgid "Agenda - Day 2, morning"
-msgstr "일정 - 2일차, 오전"
 
 msgid "Agile"
 msgstr "애자일"
@@ -601,9 +595,6 @@ msgid "Closing Exercises"
 msgstr "마무리 실습"
 
 msgid "Code Deep Dive"
-msgstr "코드 파헤치기"
-
-msgid "Code deep dive"
 msgstr "코드 파헤치기"
 
 msgid ""
@@ -966,9 +957,6 @@ msgstr "회사에서 일하는 경우"
 msgid "DocImpact"
 msgstr "DocImpact"
 
-msgid "Docco deep dive"
-msgstr "문서화 파헤치기"
-
 msgid "Documentation"
 msgstr "문서화"
 
@@ -1040,6 +1028,9 @@ msgstr "EOL 문서는 문서 저장소에서 유지보수가 (더 이상) 이루
 
 msgid "Each PTL candidate needs to submit PTL candidacy"
 msgstr "각 PTL 후보는 PTL 입후보를 제출할 필요가 있습니다"
+
+msgid "Each Release has two main events: PTG and the Summit"
+msgstr "각 릴리즈에는 PTG와 Summit, 두 개의  메인 이벤트가 있습니다"
 
 msgid "Each company has:"
 msgstr "각 기업은 다음을 갖습니다:"
@@ -1220,9 +1211,6 @@ msgstr "실습: draft로 있는 각자 메시지를 리뷰하기"
 
 msgid "Exercise: review other launchpad bugs and improve yours"
 msgstr "실습: 다른 launchpad 버그를 리뷰하고 개선합니다"
-
-msgid "Exercises"
-msgstr "실습"
 
 msgid "Explain what it means if they didn't"
 msgstr "실패하지 않는 경우 어떤 의미를 갖는지 설명합니다"
@@ -2643,9 +2631,6 @@ msgstr "PTL"
 msgid "Packaging"
 msgstr "패키징"
 
-msgid "Parallel modules"
-msgstr "병렬로 이루어지는 모듈"
-
 msgid "Part of the OpenStack project's functional testing"
 msgstr "OpenStack 프로젝트 기능 테스트 부분"
 
@@ -3726,9 +3711,6 @@ msgstr ""
 
 msgid "Vote in elections."
 msgstr "선거에서 투표하기."
-
-msgid "WG deep dive"
-msgstr "WG 파헤치기"
 
 msgid ""
 "Way for people to communicate to a larger group than those that are on IRC"

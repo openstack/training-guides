@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-12 13:10+0000\n"
+"POT-Creation-Date: 2017-06-20 13:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -339,12 +339,6 @@ msgstr ""
 
 msgid "Agenda - Day 1"
 msgstr "Agenda - Hari 1"
-
-msgid "Agenda - Day 2, afternoon"
-msgstr "Agenda - Hari 2, sore"
-
-msgid "Agenda - Day 2, morning"
-msgstr "Agenda - Hari 2, pagi"
 
 msgid "Agile"
 msgstr "Tangkas"
@@ -808,9 +802,6 @@ msgstr ""
 "menyeimbangkan pengintegrasian perbaikan dan kode churn - Perbaikan kritis "
 "memiliki prioritas tertinggi sementara perbaikan bug yang lebih kecil "
 "mungkin lebih aman ditahan untuk rilis berikutnya."
-
-msgid "Code deep dive"
-msgstr "Mempelajari lebih dalam tentang kode"
 
 msgid ""
 "Code or documentation contribution to any of the official project "
@@ -1290,9 +1281,6 @@ msgstr "Apakah Anda bekerja di sebuah perusahaan?"
 msgid "DocImpact"
 msgstr "DocImpact"
 
-msgid "Docco deep dive"
-msgstr "Mempelajari lebih dalam tentang Docco"
-
 msgid "Documentation"
 msgstr "Dokumentasi"
 
@@ -1591,9 +1579,6 @@ msgid "Exercise: review other launchpad bugs and improve yours"
 msgstr ""
 "Latihan: mengulas bug launchpad yang dimiliki orang lain dan meningkatkan "
 "mutu bug Anda"
-
-msgid "Exercises"
-msgstr "Latihan"
 
 msgid "Explain how the problem is solved"
 msgstr "Jelaskan bagaimana masalahnya dipecahkan"
@@ -3446,9 +3431,6 @@ msgstr "PTLs"
 msgid "Packaging"
 msgstr "Packaging (pengemasan)"
 
-msgid "Parallel modules"
-msgstr "Modul paralel"
-
 msgid "Part of the OpenStack project's functional testing"
 msgstr "Bagian dari uji fungsional proyek OpenStack"
 
@@ -5025,9 +5007,6 @@ msgstr "Pekerjaan voting dan non-voting"
 
 msgid "Voting job failures cause a -1 vote from Jenkins on the patch"
 msgstr "Voting kegagalan kerja menyebabkan vote -1 dari Jenkins di patch"
-
-msgid "WG deep dive"
-msgstr "Mempelajari lebih dalam tentang WG"
 
 msgid ""
 "Way for people to communicate to a larger group than those that are on IRC"
