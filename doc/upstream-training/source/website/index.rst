@@ -15,6 +15,7 @@ OpenStack Upstream Institute
    accounts
    git
    upstream-archives
+   upstream-trainers-guide
 
 Abstract
 ========
@@ -105,12 +106,15 @@ Further trainers/coaches
 You can find the list of trainers/coaches on the `training occaisons
 <https://wiki.openstack.org/wiki/OpenStack_Upstream_Institute_Occasions#Beijing_Crew>`_ wiki page.
 
+Best Practices for Trainers
+===========================
 
-Archives
-========
+If you're joining the training activities as a trainer, coach, or if you hold
+training sessions locally you can find some tips and best practices to consider
+before hosting the class provided on the :doc:`upstream-trainers-guide` page.
 
-For more information about the past trainings and the local upstream trainings,
-see :doc:`upstream-archives`.
+We have collected the suggestions based on our experiences from previous
+Upstream Institute trainings.
 
 Outline and online slide index
 ==============================
@@ -169,6 +173,12 @@ Other
 -----------------------
 
 * `Documentation Deep Dive <docs.html>`_
+
+Archives
+========
+
+For more information about the past trainings and the local upstream trainings,
+see :doc:`upstream-archives`.
 
 Archive of additional training activities
 -----------------------------------------
