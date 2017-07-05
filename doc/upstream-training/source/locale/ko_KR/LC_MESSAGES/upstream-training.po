@@ -6,17 +6,17 @@
 # SeongSoo Cho <nexusz99@gmail.com>, 2016. #zanata
 # Ian Y. Choi <ianyrchoi@gmail.com>, 2017. #zanata
 # Jun-Sik Shin <jsshin@smartx.kr>, 2017. #zanata
-# Wonil Choi <wonil22.choi@samsung.com>, 2017. #zanata
+# Wonil Choi <wonil0522@gmail.com>, 2017. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-20 13:16+0000\n"
+"POT-Creation-Date: 2017-06-29 17:08+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "PO-Revision-Date: 2017-06-23 02:44+0000\n"
-"Last-Translator: Wonil Choi <wonil22.choi@samsung.com>\n"
+"Last-Translator: Wonil Choi <wonil0522@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
 "X-Generator: Zanata 3.9.6\n"
@@ -4007,9 +4007,6 @@ msgstr "`Blueprints <https://wiki.openstack.org/wiki/Blueprints>`_"
 
 msgid "`Branch model <https://wiki.openstack.org/wiki/Branch_Model>`_"
 msgstr "`브랜칭 모델 <https://wiki.openstack.org/wiki/Branch_Model>`_"
-
-msgid "`Branching model <branching-model.html>`_"
-msgstr "`브랜칭 모델 <branching-model.html>`_"
 
 msgid "`Bugs <https://wiki.openstack.org/wiki/Bugs>`_"
 msgstr "`버그 <https://wiki.openstack.org/wiki/Bugs>`_"

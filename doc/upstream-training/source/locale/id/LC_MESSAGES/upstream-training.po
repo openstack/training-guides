@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-20 13:16+0000\n"
+"POT-Creation-Date: 2017-06-29 17:08+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -5446,9 +5446,6 @@ msgstr "`Blueprints <https://wiki.openstack.org/wiki/Blueprints>`_"
 
 msgid "`Branch model <https://wiki.openstack.org/wiki/Branch_Model>`_"
 msgstr "`Branch model <https://wiki.openstack.org/wiki/Branch_Model>`_"
-
-msgid "`Branching model <branching-model.html>`_"
-msgstr "`Branching model <branching-model.html>`_"
 
 msgid "`Bugs <https://wiki.openstack.org/wiki/Bugs>`_"
 msgstr "`Bugs <https://wiki.openstack.org/wiki/Bugs>`_"

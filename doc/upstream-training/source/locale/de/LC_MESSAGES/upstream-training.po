@@ -9,12 +9,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-20 13:16+0000\n"
+"POT-Creation-Date: 2017-06-29 17:08+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-04-17 01:34+0000\n"
-"Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
+"PO-Revision-Date: 2017-07-04 12:50+0000\n"
+"Last-Translator: Robert Simai <robert.simai@suse.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
 "X-Generator: Zanata 3.9.6\n"
@@ -68,11 +68,17 @@ msgstr "13:45 Sagrada Familia"
 msgid "15:00 Overnight in Ibiza"
 msgstr "15:00 über Nacht nach Ibiza"
 
+msgid "185 countries"
+msgstr "185 Länder"
+
 msgid "19:45 Barcelona FC Game"
 msgstr "19:45 Barcelona FC Game"
 
 msgid "1st Upstream Training in Seoul"
 msgstr "1. Upstream Training in Seoul"
+
+msgid "2,000 developers"
+msgstr "2,000 Entwickler"
 
 msgid "20 mins building"
 msgstr "20 min arbeiten"
@@ -104,6 +110,9 @@ msgstr "2016 Barcelona, Spanien"
 msgid "2016 was 6th birthday of OpenStack"
 msgstr "2016 war der 6. Geburtstag von OpenStack"
 
+msgid "265 different organizations"
+msgstr "265 verschiedene Organisationen"
+
 msgid "2nd Upstream Training in Seoul with Ubuntu Korea Community & Naver D2"
 msgstr "2. Upstream Training in Seoul mit Ubuntu Korea Community & Naver D2"
 
@@ -115,6 +124,12 @@ msgstr "5 min planen"
 
 msgid "5 mins review"
 msgstr "5 min überprüfen"
+
+msgid "660 supporting companies"
+msgstr "660 unterstützende Firmen"
+
+msgid "73,723 people"
+msgstr "73.723 Leute"
 
 msgid "7:00 Day Trip to Madrid"
 msgstr "7:00 Tagestrip nach Madrid"
@@ -175,6 +190,9 @@ msgstr ""
 "Die hier aufgeführten Aktivitäten werden nicht bei jedem Upstream-Training "
 "realisiert."
 
+msgid "Activity"
+msgstr "Aktivität"
+
 msgid "Add A New Connection"
 msgstr "Neue Verbindung hinzufügen"
 
@@ -214,6 +232,9 @@ msgstr ""
 
 msgid "Agenda - Day 1"
 msgstr "Agenda - Tag 1"
+
+msgid "Agenda - Day 2"
+msgstr "Agenda - Tag 2"
 
 msgid "Agile"
 msgstr "Agile"
@@ -273,6 +294,9 @@ msgstr ""
 "Gesellschaft oder Organisation muss die \"Corporate Contributor "
 "Lizenzvereinbarung <https://secure.echosign.com/public/hostedForm?"
 "formid=56JUVGT95E78X5>` _ unterzeichnen."
+
+msgid "Analysing Jenkins Failures"
+msgstr "Analyse von Jenkins Fehlern"
 
 msgid "Anne Gentle – Cisco"
 msgstr "Anne Gentle – Cisco"
@@ -716,6 +740,9 @@ msgstr ""
 "mit Hexchat zu Freenode verbinden werden Sie ab jetzt mit Ihrem Spitznamen "
 "identifiziert."
 
+msgid "Connect: screen -R <session name>"
+msgstr "Verbinden: screen -R <session name>"
+
 msgid "Contact Information"
 msgstr "Kontaktinformationen"
 
@@ -745,6 +772,9 @@ msgstr "Kopiere öffentliche Schlüssel"
 
 msgid "Core : 5"
 msgstr "Core : 5"
+
+msgid "Core Team Members"
+msgstr "Kernteam Mitglieder"
 
 msgid "Core and Optional Services"
 msgstr "Kern- und optionale Dienste"
@@ -899,6 +929,9 @@ msgstr "DevStack"
 msgid "DevStack exercise"
 msgstr "DevStack Übung"
 
+msgid "DevStack services with Systemd"
+msgstr "DevStack Dienste mit Systemd"
+
 msgid ""
 "Develop and maintain tools and processes to ensure quality, accurate "
 "documentation."
@@ -914,6 +947,9 @@ msgstr "Entwickler/Software-Ingenieure/Architekten"
 
 msgid "Development environment setup"
 msgstr "Einrichtung Entwicklungsumgebung"
+
+msgid "Disconnect: <ctrl>-a d"
+msgstr "Trennen: <strg>-a d"
 
 msgid "Discuss the answers with the class"
 msgstr "Diskutieren Sie die Antworten mit der Klasse"
@@ -1065,6 +1101,9 @@ msgstr "Sofort engagieren"
 msgid "Etherpad"
 msgstr "Etherpad"
 
+msgid "Etherpad/Ethercalc"
+msgstr "Etherpad/Ethercalc"
+
 msgid "Etherpads"
 msgstr "Etherpads"
 
@@ -1085,6 +1124,13 @@ msgstr "Beispiele von IRC-Meeting Kommandos:"
 
 msgid "Example:"
 msgstr "Beispiel:"
+
+msgid ""
+"Example: `Heat repository <https://git.openstack.org/cgit/openstack/heat/"
+"tree/>`_"
+msgstr ""
+"Beispiel: `Heat Repository <https://git.openstack.org/cgit/openstack/heat/"
+"tree/>`_"
 
 msgid "Executing \"git review\" command will submit the amended commit."
 msgstr "Ausführen des Kommandos \"git review\" mit geändertem Commit."
@@ -1179,6 +1225,9 @@ msgstr "Erklären was Sie tun"
 
 msgid "Explanation of issue being solved and why it should be fixed"
 msgstr "Erklärung zum gelösten Problem und warum es gelöst werden soll"
+
+msgid "External References"
+msgstr "Externe Referenzen"
 
 msgid "Face-to-face section: 1.5 days"
 msgstr "Face-to-Face-Bereich: 1,5 Tage"
@@ -1370,6 +1419,9 @@ msgstr ""
 
 msgid "Forbidden"
 msgstr "Verboten"
+
+msgid "Format:"
+msgstr "Format:"
 
 msgid "Forum:"
 msgstr "Forum:"
@@ -1664,6 +1716,9 @@ msgstr "IRC-Kanäle"
 
 msgid "IRC Logs"
 msgstr "IRC Logs"
+
+msgid "IRC client: HexChat"
+msgstr "IRC Client: HexChat"
 
 msgid "IRC meetings: http://eavesdrop.openstack.org/"
 msgstr "IRC Meetings: http://eavesdrop.openstack.org/"
@@ -2019,6 +2074,9 @@ msgstr ""
 msgid "Jay Bryant – IBM"
 msgstr "Jay Bryant – IBM"
 
+msgid "Jenkins Failures"
+msgstr "Jenkins Fehler"
+
 msgid "Jenkins and vendor CIs will review your patch"
 msgstr "Jenkins und Hersteller-CIs werden Ihren Patch prüfen"
 
@@ -2160,6 +2218,9 @@ msgstr "Linux"
 
 msgid "Linux & Windows"
 msgstr "Linux & Windows"
+
+msgid "List sessions: screen -ls"
+msgstr "Sitzungen anzeigen: screen -ls"
 
 msgid "Listen when people talk"
 msgstr "Höre zu, wenn Leute etwas sagen"
@@ -2644,6 +2705,9 @@ msgstr "PTG: https://www.openstack.org/ptg/"
 msgid "PTL : 1"
 msgstr "PTL : 1"
 
+msgid "PTL responsibilities"
+msgstr "PTL Verantwortungen"
+
 msgid "PTLs"
 msgstr "PTLs"
 
@@ -2733,6 +2797,9 @@ msgstr "*Ergebnisse* produzieren, um klar beschriebene *Ziele* zu erreichen"
 msgid "Product owners"
 msgstr "Product Owner"
 
+msgid "Progress"
+msgstr "Fortschritt"
+
 msgid "Project Channels:"
 msgstr "Projektkanäle"
 
@@ -2748,6 +2815,9 @@ msgstr "Project Team Gathering (PTG)"
 
 msgid "Project Team Leads (PTLs)"
 msgstr "Projektgruppenmitglied (PTLs)"
+
+msgid "Project Teams Gatherings (PTGs)"
+msgstr "Project Teams Gatherings (PTGs)"
 
 msgid ""
 "Project team helps you to identify the target milestone and register it in "
@@ -2848,6 +2918,13 @@ msgstr "Kontaktinformationen registrieren"
 
 msgid "Register Your Nick Name"
 msgstr "Registrieren Sie Ihren Spitznamen"
+
+msgid ""
+"Register the blueprint : https://blueprints.launchpad.net/openstack-dev-"
+"sandbox"
+msgstr ""
+"Den Blueprint anmelden : https://blueprints.launchpad.net/openstack-dev-"
+"sandbox"
 
 msgid "Registration and Accounts"
 msgstr "Registrierung und Konten"
@@ -3167,6 +3244,9 @@ msgstr ""
 "Starten von DevStack in einer VM auf dem Laptop oder in einer öffentlichen "
 "Cloud"
 
+msgid "Start a new session:  screen -C devstack/stack-screenrc"
+msgstr "Neue Sitzung starten:  screen -C devstack/stack-screenrc"
+
 msgid ""
 "Start the timer for building time, and allow everyone to start work. During "
 "each building phase, have mentors wander around the groups listening in and "
@@ -3187,6 +3267,9 @@ msgstr ""
 
 msgid "Start work from latest patchset"
 msgstr "Starten Sie mit dem letzten Patchset"
+
+msgid "Status"
+msgstr "Status"
 
 msgid "Stefano Maffulli (training, mentoring, assistant, english)"
 msgstr "Stefano Maffulli (Training, Mentoring, Assistent, englisch)"
@@ -3217,6 +3300,9 @@ msgstr "Vorschläge zum arbeiten an Projekten:"
 
 msgid "Summit & Forum"
 msgstr "Summit & Forum"
+
+msgid "Summits/Forums"
+msgstr "Summits/Foren"
 
 msgid "Sungjin Kang (assistant, mentoring)"
 msgstr "Sungjin Kang (assistant, mentoring)"
@@ -3302,6 +3388,9 @@ msgstr "Test-Übung"
 
 msgid "Testing framework"
 msgstr "Test-Framework"
+
+msgid "Text editor: Geany"
+msgstr "Text Editor: Geany"
 
 msgid "The Contribution Process (1 hour)"
 msgstr "Der Beitrags-Prozess (1 Stunde)"
@@ -3492,6 +3581,12 @@ msgstr ""
 msgid "To understand how it all fits together, we use a hands on example"
 msgstr "Wie benutzen ein paar Beispiele, um zu zeigen, wie alles zusammenpasst"
 
+msgid ""
+"To use ``screen`` explicitly set ``USE_SCREEN=True`` option in ``local.conf``"
+msgstr ""
+"Um ``screen`` zu verwenden, setzen Sie explizit die ``USE_SCREEN=True`` "
+"Option in ``local.conf``"
+
 msgid "Tokyo, Japan"
 msgstr "Tokio, Japan"
 
@@ -3640,6 +3735,9 @@ msgstr "Nutzerausschuss"
 
 msgid "User Committee (\"UC\")"
 msgstr "User Komitee (\"UC\")"
+
+msgid "User Committee and Working Groups"
+msgstr "Nutzerausschuss und Arbeitsgruppen"
 
 msgid "User Group Meetups"
 msgstr "Usergroup Treffen"
@@ -4021,9 +4119,6 @@ msgstr "`Blueprints <https://wiki.openstack.org/wiki/Blueprints>`_"
 msgid "`Branch model <https://wiki.openstack.org/wiki/Branch_Model>`_"
 msgstr "`Branch Modell <https://wiki.openstack.org/wiki/Branch_Model>`_"
 
-msgid "`Branching model <branching-model.html>`_"
-msgstr "`Verzweigungsmodell <branching-model.html>`_"
-
 msgid "`Bugs <https://wiki.openstack.org/wiki/Bugs>`_"
 msgstr "`Bugs <https://wiki.openstack.org/wiki/Bugs>`_"
 
@@ -4164,6 +4259,9 @@ msgstr ""
 "`Implementierung (Milestone-Iterationen <https://wiki.openstack.org/wiki/"
 "Release_Cycle#Implementation_.28Milestone_iterations.29>`_"
 
+msgid "`Internship Programs <https://wiki.openstack.org/wiki/Outreachy>`_"
+msgstr "`Internship Programme <https://wiki.openstack.org/wiki/Outreachy>`_"
+
 msgid ""
 "`Introducing OpenStack as a Community <intro-openstack-as-community.html>`_"
 msgstr ""
@@ -4222,6 +4320,9 @@ msgstr ""
 "`Meetings <https://wiki.openstack.org/wiki/"
 "Meetings#Technical_Committee_meeting>`_"
 
+msgid "`Mentoring <https://wiki.openstack.org/wiki/Mentors>`_"
+msgstr "`Mentoring <https://wiki.openstack.org/wiki/Mentors>`_"
+
 msgid ""
 "`Mentoring <https://wiki.openstack.org/wiki/Mentors>`_ is run by the Women "
 "of OpenStack group, where mentees are guided through the OpenStack processes."
@@ -4231,6 +4332,13 @@ msgstr ""
 
 msgid "`Metrics <workflow-metrics.html>`_"
 msgstr "`Metriken <workflow-metrics.html>`_"
+
+msgid ""
+"`New Project Requirements <https://governance.openstack.org/tc/reference/new-"
+"projects-requirements.html>`_"
+msgstr ""
+"`Neue Projektanforderungen <https://governance.openstack.org/tc/reference/"
+"new-projects-requirements.html>`_"
 
 msgid ""
 "`ODP slides <http://dachary.org/loic/openstack-training/training-student-"
@@ -4271,6 +4379,13 @@ msgstr ""
 "projects/index.html>`__"
 
 msgid ""
+"`OpenStack Project Teams <https://governance.openstack.org/tc/reference/"
+"projects/index.html>`_"
+msgstr ""
+"`OpenStack Projekt Teams <https://governance.openstack.org/tc/reference/"
+"projects/index.html>`_"
+
+msgid ""
 "`OpenStack Project Teams list <http://governance.openstack.org/reference/"
 "projects/index.html>`_"
 msgstr ""
@@ -4299,11 +4414,21 @@ msgstr ""
 "Release_Cycle#Other_release_candidates>`_"
 
 msgid ""
+"`Other responsibilities <https://docs.openstack.org/project-team-guide/ptl."
+"html>`_"
+msgstr ""
+"`Weitere Verantwortungen <https://docs.openstack.org/project-team-guide/ptl."
+"html>`_"
+
+msgid ""
 "`Overview of the contribution process <workflow-training-contribution-"
 "process.html>`_"
 msgstr ""
 "`Übersicht des Mitwirkungsprozesses <workflow-training-contribution-process."
 "html>`_"
+
+msgid "`PTG <https://www.openstack.org/ptg/>`_"
+msgstr "`PTG <https://www.openstack.org/ptg/>`_"
 
 msgid ""
 "`PTLs <http://governance.openstack.org/reference/charter.html#project-team-"
@@ -4410,6 +4535,10 @@ msgstr ""
 "`Status, Importance, Assigned To, Milestone, Tags <https://wiki.openstack."
 "org/wiki/Bugs#Bugs_reference>`_"
 
+msgid "`Tags <http://governance.openstack.org/reference/tags/index.html>`_"
+msgstr ""
+"`Schlagworte <http://governance.openstack.org/reference/tags/index.html>`_"
+
 msgid ""
 "`Technical Committee <http://governance.openstack.org/reference/charter."
 "html>`_"
@@ -4489,6 +4618,19 @@ msgstr "``cd devstack; ./stack.sh``"
 msgid "``git clone https://git.openstack.org/openstack-dev/devstack``"
 msgstr "``git clone https://git.openstack.org/openstack-dev/devstack``"
 
+msgid ""
+"``screen`` command was used to access the virtual terminals running the "
+"installed services"
+msgstr ""
+"Das ``screen`` Kommando wurde für den Zugriff auf virtuelle Terminals "
+"verwendet, in denen die installierten Dienste laufen"
+
+msgid "``screen`` use is now deprecated"
+msgstr "``screen`` ist mittlerweile veraltet"
+
+msgid "``systemd`` is the replacement for ``screen``"
+msgstr "``systemd`` ist der Ersatz für ``screen``"
+
 msgid "`bugfixing <https://wiki.openstack.org/wiki/Bugs#Bugfixing>`_"
 msgstr "`Fehler beseitigen <https://wiki.openstack.org/wiki/Bugs#Bugfixing>`_"
 
@@ -4550,6 +4692,9 @@ msgstr "den letzten stabilen Branch auschecken"
 
 msgid "code contributions, wiki, vote, presentations"
 msgstr "Codebeiträge, Wiki, Abstimmung, Präsentation"
+
+msgid "directly elected by ATC's"
+msgstr "direkt durch ATCs gewählt"
 
 msgid "etc."
 msgstr "etc."
@@ -4663,6 +4808,12 @@ msgstr "https://bugs.launchpad.net/openstack-dev-sandbox/+filebug"
 msgid "https://bugs.launchpad.net/openstack-manuals"
 msgstr "https://bugs.launchpad.net/openstack-manuals"
 
+msgid "https://bugs.launchpad.net/openstack-training-guides"
+msgstr "https://bugs.launchpad.net/openstack-training-guides"
+
+msgid "https://docs.openstack.org/draft/draft-index.html"
+msgstr "https://docs.openstack.org/draft/draft-index.html"
+
 msgid "https://etherpad.openstack.org/p/upstream-training-barcelona"
 msgstr "https://etherpad.openstack.org/p/upstream-training-barcelona"
 
@@ -4671,6 +4822,11 @@ msgstr "https://etherpad.openstack.org/p/upstream-training-vancouver"
 
 msgid "https://git.openstack.org/cgit/openstack-dev/sandbox"
 msgstr "https://git.openstack.org/cgit/openstack-dev/sandbox"
+
+msgid ""
+"https://governance.openstack.org/tc/reference/new-projects-requirements.html"
+msgstr ""
+"https://governance.openstack.org/tc/reference/new-projects-requirements.html"
 
 msgid "https://groups.openstack.org/"
 msgstr "https://groups.openstack.org/"
