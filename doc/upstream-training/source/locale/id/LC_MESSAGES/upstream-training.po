@@ -4,11 +4,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-29 17:08+0000\n"
+"POT-Creation-Date: 2017-07-11 16:38+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-06-12 08:26+0000\n"
+"PO-Revision-Date: 2017-07-14 12:07+0000\n"
 "Last-Translator: suhartono <cloudsuhartono@gmail.com>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -340,6 +340,9 @@ msgstr ""
 msgid "Agenda - Day 1"
 msgstr "Agenda - Hari 1"
 
+msgid "Agenda - Day 2"
+msgstr "Agenda - Day 2"
+
 msgid "Agile"
 msgstr "Tangkas"
 
@@ -530,6 +533,9 @@ msgstr "Dihapus selama beberapa rilis berikutnya"
 
 msgid "Benefits of being an Official OpenStack project"
 msgstr "Manfaat menjadi proyek OpenStack resmi"
+
+msgid "Best Practices for Trainers"
+msgstr "Best Practices for Trainers"
 
 msgid ""
 "Better entry point for new contributors finding their place in the community"
@@ -1362,6 +1368,9 @@ msgstr "Setiap calon PTL harus mengajukan pencalonan PTL"
 msgid "Each Platinum member can delegate one member"
 msgstr "Setiap anggota Platinum bisa mendelegasikan satu anggota"
 
+msgid "Each Release has two main events: PTG and the Summit"
+msgstr "Setiap Rilis memiliki dua acara utama: PTG dan KTT"
+
 msgid "Each company has:"
 msgstr "Setiap perusahaan memiliki:"
 
@@ -1937,6 +1946,9 @@ msgstr "Mengumpulkan umpan balik dan mengkonsolidasikan persyaratan"
 msgid "General Contribution Workflow"
 msgstr "General Contribution Workflow (alur kerja kontribusi umum)"
 
+msgid "General tips for Trainers and Coaches"
+msgstr "General tips for Trainers and Coaches"
+
 msgid "Generally has information about who the PTL and cores are"
 msgstr ""
 "Umumnya hal ini memiliki informasi tentang siapa Project Team Leader (PTL) "
@@ -2279,6 +2291,9 @@ msgstr ""
 msgid "If you are contributing on behalf of a company or organization."
 msgstr "Jika Anda berkontribusi atas nama sebuah perusahaan atau organisasi."
 
+msgid "If you are not presenting, remain engaged with the class"
+msgstr "Jika Anda tidak hadir, tetaplah terlibat dengan kelas"
+
 msgid ""
 "If you do not register your contact information, you cannot upload your any "
 "changes to Gerrit."
@@ -2327,6 +2342,17 @@ msgid ""
 msgstr ""
 "Jika Anda menggunakan manajer paket `Homebrew <http://brew.sh>`_, buka "
 "terminal dan ketik::"
+
+msgid ""
+"If you're joining the training activities as a trainer, coach, or if you "
+"hold training sessions locally you can find some tips and best practices to "
+"consider before hosting the class provided on the :doc:`upstream-trainers-"
+"guide` page."
+msgstr ""
+"Jika Anda mengikuti kegiatan pelatihan sebagai trainer, coach, atau jika "
+"Anda mengikuti sesi pelatihan secara lokal, Anda dapat menemukan beberapa "
+"tip dan praktik terbaik untuk dipertimbangkan sebelum menjadi tuan rumah "
+"kelas yang tersedia di halaman :doc:`upstream-trainers-guide`."
 
 msgid ""
 "If your contribution is on behalf of a company, have your managers sign the "
@@ -3317,6 +3343,9 @@ msgstr "OpenStack Upstream Institute"
 msgid "OpenStack Upstream Institute Class Details"
 msgstr "OpenStack Upstream Institute Class Details"
 
+msgid "OpenStack Upstream Institute Trainers' Guide"
+msgstr "OpenStack Upstream Institute Trainers' Guide"
+
 msgid "OpenStack Upstream Training"
 msgstr "OpenStack Upstream Training (pelatihanOpen Stack Upstream)"
 
@@ -4262,6 +4291,13 @@ msgstr "Summary Line"
 msgid "Summit & Forum"
 msgstr "Summit & Forum"
 
+msgid ""
+"Summits take place around the middle of a release to exhibit accomplishments "
+"and get feedback from users on the most recent release"
+msgstr ""
+"Puncak berlangsung di tengah rilis untuk menunjukkan prestasi dan "
+"mendapatkan umpan balik dari pengguna pada rilis terbaru"
+
 msgid "Summits/Forums"
 msgstr "Summits/Forums"
 
@@ -4422,6 +4458,10 @@ msgstr ""
 
 msgid "The OpenStack Package"
 msgstr "The OpenStack Package (paket openstack)"
+
+msgid ""
+"The PTG is scheduled around the start of a release to plan release goals"
+msgstr "PTG dijadwalkan sekitar awal rilis untuk merencanakan tujuan rilis"
 
 msgid "The TC Chair is proposed by the TC members"
 msgstr "Ketua TC diusulkan oleh anggota TC"
@@ -5032,6 +5072,13 @@ msgstr ""
 "Kami masuk ke cetak biru dalam beberapa slide berikutnya, jadi sebutkan saja "
 "untuk saat ini."
 
+msgid ""
+"We have collected the suggestions based on our experiences from previous "
+"Upstream Institute trainings."
+msgstr ""
+"Kami telah mengumpulkan saran berdasarkan pengalaman kami dari pelatihan "
+"Upstream Institute sebelumnya."
+
 msgid "We have seen in `Commit Messages <workflow-commit-message.html#8>`__"
 msgstr ""
 "Kami telah melihat di `Commit Messages <workflow-commit-message.html#8>`__"
@@ -5446,6 +5493,9 @@ msgstr "`Blueprints <https://wiki.openstack.org/wiki/Blueprints>`_"
 
 msgid "`Branch model <https://wiki.openstack.org/wiki/Branch_Model>`_"
 msgstr "`Branch model <https://wiki.openstack.org/wiki/Branch_Model>`_"
+
+msgid "`Branching model <archive-branching-model.html>`_"
+msgstr "`Branching model <archive-branching-model.html>`_"
 
 msgid "`Bugs <https://wiki.openstack.org/wiki/Bugs>`_"
 msgstr "`Bugs <https://wiki.openstack.org/wiki/Bugs>`_"
