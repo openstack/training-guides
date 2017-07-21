@@ -4,11 +4,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-11 16:38+0000\n"
+"POT-Creation-Date: 2017-07-14 13:13+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-07-14 12:07+0000\n"
+"PO-Revision-Date: 2017-07-20 11:33+0000\n"
 "Last-Translator: suhartono <cloudsuhartono@gmail.com>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -213,6 +213,13 @@ msgstr "Sebuah presentasi sampel diberikan oleh guru, sebagai contoh"
 
 msgid "A story is a work item such as a bug or a new feature"
 msgstr "Cerita adalah item pekerjaan seperti bug atau fitur baru"
+
+msgid ""
+"A week before the training begins, ensure attendees are aware of the "
+"prerequisites when confirming attendance"
+msgstr ""
+"Seminggu sebelum pelatihan dimulai, pastikan peserta mengetahui prasyarat "
+"saat mengkonfirmasikan kehadiran"
 
 msgid "API first implementation"
 msgstr "Implementasi API pertama"
@@ -457,6 +464,13 @@ msgstr "Mengajukan pertanyaan selama kelas"
 msgid "Ask questions in the channel or send direct messages"
 msgstr "Mengajukan pertanyaan di channel atau mengirim pesan langsung"
 
+msgid ""
+"Ask the students questions to make sure they are engaged and understand the "
+"material"
+msgstr ""
+"Ajukan pertanyaan kepada siswa untuk memastikan mereka terlibat dan mengerti "
+"materinya"
+
 msgid "Assess your approach"
 msgstr "Menilai pendekatan Anda"
 
@@ -521,6 +535,13 @@ msgstr "Harap sabar"
 
 msgid "Be polite, be helpful"
 msgstr "Bersikaplah sopan, membantu"
+
+msgid ""
+"Be prepared with the deep dives that attendees have very different level of "
+"knowledge and experience"
+msgstr ""
+"Bersiaplah dengan penyelaman yang mendalam bahwa peserta memiliki tingkat "
+"pengetahuan dan pengalaman yang sangat berbeda"
 
 msgid "Be true to your role"
 msgstr "Benar untuk peran Anda"
@@ -704,6 +725,9 @@ msgid ""
 msgstr ""
 "Pilih layanan dan keluarkan panggilan API atau gunakan klien untuk "
 "memverifikasi fungsionalitas"
+
+msgid "Choose a table and sit with the students to help"
+msgstr "Pilih meja dan duduklah bersama siswa untuk membantu"
 
 msgid ""
 "Choose and type your username carefully. Once it is set, you cannot change "
@@ -1016,6 +1040,22 @@ msgstr ""
 msgid "Core team"
 msgstr "Core team (tim inti)"
 
+msgid ""
+"Could be a short question as an IRC vote or something like as an exercise "
+"between two blocks"
+msgstr ""
+"Bisa jadi pertanyaan singkat sebagai pemungutan suara IRC atau sesuatu "
+"seperti latihan antara dua blok"
+
+msgid ""
+"Could be done before end of class, for instance during the deep dive blocks"
+msgstr "Bisa dilakukan sebelum akhir kelas, misalnya saat mendalami dalam blok"
+
+msgid "Could be emailed survey after the class - harder to get participation"
+msgstr ""
+"Bisa diemailkan survei setelah kelas - lebih sulit untuk mendapatkan "
+"partisipasi"
+
 msgid "Course Outline"
 msgstr "Course Outline (garis besar mata pelajaran)"
 
@@ -1246,6 +1286,13 @@ msgstr "Memutuskan: <ctrl>-a d"
 msgid "Discuss the answers with the class"
 msgstr "Mendiskusikan jawaban dengan kelas"
 
+msgid ""
+"Discuss the problems and solutions and have them explain how they got there "
+"or why they answered what they did"
+msgstr ""
+"Diskusikan masalah dan solusinya dan mintalah mereka menjelaskan bagaimana "
+"mereka sampai di sana atau mengapa mereka menjawab apa yang mereka lakukan"
+
 msgid "Discuss with your project team"
 msgstr "Diskusikan dengan tim proyek Anda"
 
@@ -1310,6 +1357,9 @@ msgstr "Apakah itu memperbaiki struktur kode?"
 
 msgid "Don't game the numbers"
 msgstr "Jangan mainkan angka"
+
+msgid "Don't give out VM image at the beginning of the first day"
+msgstr "Jangan berikan image VM di awal hari pertama"
 
 msgid "Done"
 msgstr "Done (selesai)"
@@ -1432,6 +1482,13 @@ msgstr ""
 "Pengusaha dapat memperbarui daftar karyawan yang berwenang dengan mengisi "
 "dan menandatangani  `Updated Schedule A Form <https://openstack.echosign.com/"
 "public/hostedForm?formid=56JUVP6K4Z6P4C>`_."
+
+msgid ""
+"Encourage use of IRC for answering questions or the training etherpad if an "
+"exercise requires more space or IRC is not available"
+msgstr ""
+"Dorong penggunaan IRC untuk menjawab pertanyaan atau pelatihan etherpad jika "
+"latihan membutuhkan lebih banyak ruang atau IRC tidak tersedia."
 
 msgid "Endorsed by the Foundation"
 msgstr "Endorsed by the Foundation (disahkan oleh Yayasan)"
@@ -1995,6 +2052,15 @@ msgstr "Mendapatkan bimbingan dari para anggota dan para pemimpin komunitas"
 msgid "Get marketing from the OpenStack Foundation"
 msgstr "Dapatkan pemasaran dari OpenStack Foundation"
 
+msgid ""
+"Get started on time even if there aren't many people in the room, just go "
+"slowly to give people more time to show up, while still holding the interest "
+"of the students that are there"
+msgstr ""
+"Mulailah tepat waktu meski tidak banyak orang di ruangan itu, cukup pelan-"
+"pelan memberi lebih banyak waktu kepada orang untuk hadir, sambil tetap "
+"memegangi minat para siswa yang ada disana."
+
 msgid "Get to know the code"
 msgstr "Kenali kode"
 
@@ -2046,6 +2112,11 @@ msgstr ""
 "peran mereka tertulis di atasnya. Untuk agen bebas, jangan mengungkapkan "
 "siapa yang terganggu, kontroversial, atau sejalan. Masyarakat perlu bekerja "
 "untuk menghasilkan keluaran dari diri sendiri."
+
+msgid "Give out swag and use competition to help keep interest and attention"
+msgstr ""
+"Berikan swag (hadiah) dan gunakan kompetisi untuk membantu menjaga "
+"ketertarikan dan perhatian"
 
 msgid "Global Events and Releases"
 msgstr "Global Events and Releases (acara global dan pers)"
@@ -2280,6 +2351,13 @@ msgstr ""
 "openstack.org/wiki/HowToUpdateCorporateCLA>`_."
 
 msgid ""
+"If there aren't enough mentors or every table has one already, float around "
+"the room checking in on people, especially during exercises"
+msgstr ""
+"Jika tidak ada cukup mentor atau setiap meja yang sudah ada, mengapung di "
+"sekitar ruangan yang memeriksa orang, terutama saat latihan"
+
+msgid ""
 "If you are a developer we help you to find your way into the community to "
 "get your bug fix or feature accepted in the OpenStack project in a minimum "
 "amount of time."
@@ -2502,6 +2580,9 @@ msgstr ""
 "standardisasi API. Anda juga bisa, di sprint kedua atau ketiga, mendorong "
 "satu kelompok untuk memanggil pertemuan siklus sprint untuk  memilah masalah."
 
+msgid "Incentivize participation"
+msgstr "Insentif partisipasi"
+
 msgid ""
 "Includes the deletion of uploaded files on Sandbox repository and change of "
 "bug status in Launchpad to \"Invalid\", \"Won't Fix\", or \"Fix Released\""
@@ -2655,6 +2736,9 @@ msgstr "Pekerjaan berjalan melawan sebuah patch setelah itu bergabung"
 
 msgid "Join the #openstack-101 channel"
 msgstr "Bergabung dengan # openstack-101 channel"
+
+msgid "Join the IRC channel of the class and participate during the training"
+msgstr "Bergabunglah dengan saluran IRC di kelas dan ikuti selama pelatihan"
 
 msgid ""
 "Join the channel of the project(s) you are interested in and find the logs "
@@ -3410,6 +3494,9 @@ msgstr ""
 msgid "Orchestration service"
 msgstr "Layanan Orchestration"
 
+msgid "Organize the tables according to project interest - especially on day 2"
+msgstr "Atur tabel sesuai dengan kepentingan proyek - terutama pada hari ke 2"
+
 msgid "Organizers of Official OpenStack User Groups"
 msgstr "Organizers of Official OpenStack User Groups"
 
@@ -3473,6 +3560,13 @@ msgstr ""
 
 msgid "Patrick East – PureStorage"
 msgstr "Patrick East – PureStorage"
+
+msgid ""
+"Pause to ask students if they have questions on the material throughout your "
+"presentation"
+msgstr ""
+"Jeda untuk bertanya kepada siswa apakah mereka memiliki pertanyaan tentang "
+"materi selama presentasi Anda"
 
 msgid "Pay attention to who is an expert in what area"
 msgstr "Perhatikan ahli di bidang apa"
@@ -3573,6 +3667,13 @@ msgstr "Prasyarat untuk menghadiri kelas"
 msgid "Previous trainings"
 msgstr "Pelatihan sebelumnya"
 
+msgid ""
+"Prior to the Summits promote Project Onboarding and other related conference "
+"sessions"
+msgstr ""
+"Sebelum KTT mempromosikan Project Onboarding dan sesi konferensi terkait "
+"lainnya"
+
 msgid "Prioritization of items (e.g. testing, documentation, etc.)"
 msgstr "Memprioritaskan item (misalnya pengujian, dokumentasi, dll.)"
 
@@ -3645,6 +3746,11 @@ msgid ""
 msgstr ""
 "Proyek berkembang dan berkembang secara mandiri namun juga berusaha "
 "memperbaiki satu kerangka kerja kolaboratif: OpenStack"
+
+msgid "Promote ideas for next steps after training is done; for example"
+msgstr ""
+"Promosikan gagasan untuk langkah selanjutnya setelah pelatihan selesai; "
+"sebagai contoh"
 
 msgid "Provide a description of the history of changes in a repository"
 msgstr "Berikan deskripsi tentang sejarah perubahan dalam repositori"
@@ -3813,6 +3919,13 @@ msgstr "Aktor yang relevan"
 
 msgid "Remove the code changes and run the tests"
 msgstr "Keluarkan perubahan kode dan jalankan tes"
+
+msgid ""
+"Repeat sending out a reminder to the attendees including the prerequisites "
+"and details about the timing and venue the day before the training"
+msgstr ""
+"Ulangi mengirimkan pengingat kepada peserta termasuk prasyarat dan rincian "
+"tentang waktu dan tempat sehari sebelum pelatihan"
 
 msgid "Reply to comments"
 msgstr "Membalas komentar"
@@ -4262,6 +4375,10 @@ msgstr ""
 "Siswa dapat menggunakan editor yang berbeda, bukan nano dengan preferensi "
 "mereka sendiri (misalnya vi, emacs, atau apapun yang mereka inginkan)."
 
+msgid ""
+"Students will play with the image instead of paying attention to the class"
+msgstr "Siswa akan bermain dengan image daripada memperhatikan kelas"
+
 msgid "Submit presentations to OpenStack conferences."
 msgstr "Kirim presentasi ke OpenStack konferensi."
 
@@ -4360,6 +4477,12 @@ msgstr "Mengambil langkah mundur"
 
 msgid "Take the pulse of the project"
 msgstr "Mengambil pulsa (denyut nadi) dari proyek"
+
+msgid ""
+"Talk slowly when you are presenting - English may not be their first language"
+msgstr ""
+"Bicara perlahan saat Anda mempresentasikan - Bahasa Inggris mungkin bukan "
+"bahasa pertama mereka"
 
 msgid "Talking in IRC Channels & Meetings"
 msgstr "Berbicara di IRC Channels & Meetings"
@@ -4708,6 +4831,15 @@ msgstr ""
 msgid "This will need to match your preferred email address in Gerrit."
 msgstr "Ini menjadi perlu untuk mencocokkan alamat email Anda di Gerrit."
 
+msgid "Those who forgot can still prepare"
+msgstr "Mereka yang lupa masih bisa mempersiapkannya"
+
+msgid ""
+"Those who haven't seen the previous notification get a chance to prepare"
+msgstr ""
+"Mereka yang belum melihat pemberitahuan sebelumnya mendapat kesempatan untuk "
+"mempersiapkannya"
+
 msgid ""
 "Though not defined in the TC charter like other roles above, cores serve an "
 "important role in Project Teams."
@@ -4729,6 +4861,12 @@ msgstr "Tim Freund (training, mentoring, assistant, english)"
 
 msgid "Timing"
 msgstr "Pemilihan waktu"
+
+msgid "Tips for Exercises"
+msgstr "Tips untuk Latihan"
+
+msgid "Tips for the Class"
+msgstr "Tips untuk Kelas"
 
 msgid ""
 "To manage and track the reported bugs and issues related with openstack-dev/"
@@ -4931,8 +5069,17 @@ msgstr ""
 "berjalan pada VM Anda. Jika belum dimulai, mulailah dengan ``systemctl start "
 "devstack @ * ``"
 
+msgid "Use every opportunity to receive feedback, for example:"
+msgstr "Gunakan setiap kesempatan untuk menerima umpan balik, misalnya:"
+
 msgid "Use it for exercises"
 msgstr "Menggunakannya untuk latihan"
+
+msgid ""
+"Use round tables if available as opposed to traditional classroom style setup"
+msgstr ""
+"Gunakan meja bundar jika tersedia dibandingkan dengan pengaturan gaya kelas "
+"tradisional"
 
 msgid ""
 "Use the ``journalctl`` command to view output from your favorite service"
@@ -5216,6 +5363,9 @@ msgstr "Kapan dan dimana untuk mendapatkan kelas OpenStack Upstream Institute."
 
 msgid "When in the cycle you intend to complete it"
 msgstr "Ketika dalam siklus Anda berniat untuk menyelesaikannya"
+
+msgid "When possible, sit at a table and build connections with attendees"
+msgstr "Bila mungkin, duduklah di meja dan bangun koneksi dengan peserta"
 
 msgid ""
 "When signing up for Foundation Membership, make sure to give the same email "
