@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-14 13:13+0000\n"
+"POT-Creation-Date: 2017-08-03 13:58+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -298,9 +298,6 @@ msgid ""
 "groups."
 msgstr ""
 "Tambahkan bug, atau tulis ulasan untuk, itinerary patches dari grup lain."
-
-msgid "Add files"
-msgstr "Tambahkan file"
 
 msgid "Add the file and commit"
 msgstr "Tambahkan file dan komit"
@@ -3003,9 +3000,6 @@ msgid ""
 msgstr ""
 "Buat perubahan konfigurasi lokal (tetapkan kata sandi, alamat IP, dll.)"
 
-msgid "Make changes"
-msgstr "Membuat perubahan"
-
 msgid "Make changes and push new patchsets"
 msgstr "Melakukan perubahan dan mendorong patchset baru"
 
@@ -4058,9 +4052,6 @@ msgstr "Menjalankan tes (unit, fungsional, dll)"
 
 msgid "Run the tests"
 msgstr "Menjalankan tes"
-
-msgid "Run unit tests"
-msgstr "Jalankan tes unit"
 
 msgid "Running services in DevStack"
 msgstr "Menjalankan layanan di DevStack"
@@ -6316,9 +6307,6 @@ msgstr "`reporting a bug <https://wiki.openstack.org/wiki/Bugs#Reporting>`_"
 msgid "and whom they will be working with"
 msgstr "dan dengan siapa mereka akan bekerja"
 
-msgid "apt / yum / pip install … git review"
-msgstr "apt / yum / pip install … git review"
-
 msgid "bug tracking, blueprints"
 msgstr "pelacakan bug, cetak biru (blueprint)"
 
@@ -6352,9 +6340,6 @@ msgstr "sejarah patchset Gerrit"
 msgid "gerrit workflow"
 msgstr "Alur kerja Gerrit"
 
-msgid "git checkout -b <branch_name>"
-msgstr "git checkout -b <branch_name>"
-
 msgid "git checkout -b TOPIC-BRANCH"
 msgstr "git checkout -b TOPIC-BRANCH"
 
@@ -6366,12 +6351,6 @@ msgstr "git commit --amend"
 
 msgid "git config"
 msgstr "git config"
-
-msgid "git config --global user.email \"your_email@youremail.com\""
-msgstr "git config --global user.email \"your_email@youremail.com\""
-
-msgid "git config --global user.name \"Firstname Lastname\""
-msgstr "git config --global user.name \"Firstname Lastname\""
 
 msgid "git review"
 msgstr "git review"
