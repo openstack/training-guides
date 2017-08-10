@@ -12,21 +12,23 @@ Accounts
 
 - OpenStack Foundation Account
 
-  - code contributions, wiki, vote, presentations
+  - elections (candidacy or vote), presentations
 
-- Launchpad
+- Single sign-on OpenID
 
-  - bug tracking, blueprints
+  - code review, bug tracking, blueprints, wiki
 
 https://www.openstack.org/join/
 ===============================
+
+Recommended to join, but not mandatory for code contributions
 
 .. image:: ./_assets/12-join-openstack-org.png
   :width: 100%
   :class: image-pad-top
 
-http://launchpad.net/
-=====================
+https://login.ubuntu.com
+========================
 
 .. image:: ./_assets/12-01-launchpad-net.png
   :width: 75%
@@ -72,12 +74,11 @@ Do you work at a company?
 
 - If your contribution is on behalf of a company, have your managers sign the
   Corporate Contributor License Agreement
-- When signing up for Foundation Membership, make sure to give the same email
-  address you’ll use for code contributions.
+- When signing up for Foundation Membership, make sure to include the email
+  address you’ll use for code contributions in one of the fields in your
+  profile
 
-  - This will need to match your preferred email address in Gerrit.
-
-- http://docs.openstack.org/infra/manual/developers.html#account-setup
+- https://docs.openstack.org/infra/manual/developers.html#account-setup
 
 Signed agreement
 ================
@@ -89,4 +90,5 @@ Signed agreement
 Exercise
 ========
 
-Apply for individual membership and sign the CLA
+Apply for individual membership (recommended), create a single sign-on
+account and sign the ICLA
