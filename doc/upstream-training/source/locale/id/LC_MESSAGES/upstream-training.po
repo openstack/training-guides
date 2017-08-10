@@ -4,11 +4,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-03 13:58+0000\n"
+"POT-Creation-Date: 2017-08-04 13:17+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-07-20 11:33+0000\n"
+"PO-Revision-Date: 2017-08-10 03:10+0000\n"
 "Last-Translator: suhartono <cloudsuhartono@gmail.com>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -1555,6 +1555,9 @@ msgstr ""
 msgid "Exercise"
 msgstr "Latihan"
 
+msgid "Exercise #1"
+msgstr "Exercise #1"
+
 msgid ""
 "Exercise - Collect answers/ideas within your group to the two questions "
 "below:"
@@ -2999,6 +3002,9 @@ msgid ""
 "Make any local configurations changes (set passwords, IP addresses, etc.)"
 msgstr ""
 "Buat perubahan konfigurasi lokal (tetapkan kata sandi, alamat IP, dll.)"
+
+msgid "Make changes (add / edit files)"
+msgstr "Buat perubahan (tambahk / edit file)"
 
 msgid "Make changes and push new patchsets"
 msgstr "Melakukan perubahan dan mendorong patchset baru"
@@ -5060,6 +5066,13 @@ msgstr ""
 "berjalan pada VM Anda. Jika belum dimulai, mulailah dengan ``systemctl start "
 "devstack @ * ``"
 
+msgid ""
+"Use either your distribution's package manager (``apt``/``yum``) or ``pip`` "
+"(recommended)"
+msgstr ""
+"Gunakan manajer paket distribusi Anda (``apt`` / ``yum``) atau ``pip`` "
+"(disarankan)"
+
 msgid "Use every opportunity to receive feedback, for example:"
 msgstr "Gunakan setiap kesempatan untuk menerima umpan balik, misalnya:"
 
@@ -5451,6 +5464,15 @@ msgstr ""
 "di mana pendatang baru yang berhasil mengintegrasikan roadmap mereka sendiri "
 "ke dalam proyek OpenStack."
 
+msgid ""
+"Without going into details, mention and explain what kind of tools are "
+"available when it comes to diff, merge and edit commit messages in a real-"
+"world scenario."
+msgstr ""
+"Tanpa membahas secara terperinci, sebutkan dan jelaskan alat bantu apa yang "
+"tersedia saat membahas perbedaan, gabungkan dan edit komit pesan dalam real-"
+"world scenario."
+
 msgid "Work in parallel"
 msgstr "Bekerja secara paralel"
 
@@ -5498,6 +5520,9 @@ msgid ""
 msgstr ""
 "Daftar Pekerjaan adalah pengelompokan cerita dan tugas yang ditentukan "
 "pengguna yang membantu dalam pengorganisasian pekerjaan"
+
+msgid "Worth mentioning:"
+msgstr "Layak disebut:"
 
 msgid ""
 "Write a commit message body to expand on each of the following summary "
@@ -6237,8 +6262,23 @@ msgstr ""
 msgid "``cd devstack; ./stack.sh``"
 msgstr "``cd devstack; ./stack.sh``"
 
+msgid "``git checkout -b <branch_name>``"
+msgstr "``git checkout -b <branch_name>``"
+
 msgid "``git clone https://git.openstack.org/openstack-dev/devstack``"
 msgstr "``git clone https://git.openstack.org/openstack-dev/devstack``"
+
+msgid "``git clone``"
+msgstr "``git clone``"
+
+msgid "``git config``"
+msgstr "``git config``"
+
+msgid "``git review -s``"
+msgstr "``git review -s``"
+
+msgid "``git review``"
+msgstr "``git review``"
 
 msgid ""
 "``screen`` command was used to access the virtual terminals running the "
@@ -6352,11 +6392,20 @@ msgstr "git commit --amend"
 msgid "git config"
 msgstr "git config"
 
+msgid "git gui"
+msgstr "git gui"
+
+msgid "git remote show gerrit"
+msgstr "Git remote memunjulkan gerrit"
+
 msgid "git review"
 msgstr "git review"
 
 msgid "git review -s"
 msgstr "git review -s"
+
+msgid "gitk / gitg"
+msgstr "gitk / gitg"
 
 msgid "has a clear and defined scope"
 msgstr "Memiliki ruang lingkup yang jelas dan terbatas"
@@ -6496,6 +6545,9 @@ msgstr "cabang master terbuka untuk pengembangan"
 msgid "nvie inspired"
 msgstr "nvie yang terinspirasi"
 
+msgid "other graphical stand-alone tools (sourcetree, tortoisegit)"
+msgstr "Alat grafis lain yang stand-alone (sourcetree, tortoisegit)"
+
 msgid "patchset diffs"
 msgstr "perbedaan suntingan patchset"
 
@@ -6521,8 +6573,14 @@ msgstr "cabang stabil / release"
 msgid "the contribution they plan to work on during the online sessions"
 msgstr "kontribusi dimana mereka berencana untuk bekerja selama sesi online"
 
+msgid "tig"
+msgstr "tig"
+
 msgid "upload an ssh key"
 msgstr "meng-upload kunci ssh"
 
 msgid "user visible benefit"
 msgstr "manfaat terlihat pengguna"
+
+msgid "vim-fugitive, emacs-magit"
+msgstr "vim-fugitive, emacs-magit"
