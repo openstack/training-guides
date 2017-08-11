@@ -42,28 +42,73 @@ to become an active and successful member of the OpenStack community.
 
 For more information, see :doc:`upstream-details`.
 
+Please note that the language of the training is English.
+
 When and where to get an OpenStack Upstream Institute class
 ===========================================================
 
-The next session of the OpenStack Upstream Collaboration Training - OpenStack
-Upstream Institute - will be held in Beijing, in parallel to the conference
-part of the `OPNFV Summit
-2017 <http://events.linuxfoundation.org/events/archive/2017/opnfv-summit>`_.
+Summits
+-------
 
- **Wednesday, June 14, 2017 at 11:00 a.m. to 5:00 p.m.
- - Thursday, June 15, 2017 at 11:00 a.m. to 5:00 p.m. (local time)**
+We run the full training prior to each OpenStack Summit, see this web page and
+the schedule of the upcoming event for more details and registration.
 
-In order to RSVP you need to register to the OPNFV Summit first and you can add
-the course to your registration as an Add-On. If you registered already you can
-add the course to your registration later as well.
+OpenStack Summit Sydney
++++++++++++++++++++++++
 
-Please see the `OpenStack Upstream Institute
-<http://events.linuxfoundation.org/events/archive/2017/opnfv-summit/extend-the-experience/openstack-upstream-institute>`_ class information for more
-details.
+The upcoming `OpenStack Summit
+<https://www.openstack.org/summit/sydney-2017/>`_ will be in Sydney in
+November with a full training running prior to the event.
 
-See YOU in Beijing!
+`Etherpad for Sydney Upstream Collaboration Training
+<https://etherpad.openstack.org/p/upstream-institute-sydney-2017>`_
 
-Please note that the language of the training is English.
+ **Saturday, November 04, 2017 - Sunday, November 05, 2017**
+
+ More details coming soon...
+
+Other events
+------------
+
+We are bringing a one day long version of the training to some of the local
+OpenStack Days events and other industry events. Keep your eyes open for these
+events and check back on this website to find new occasions.
+
+OpenStack Days UK
++++++++++++++++++
+
+You can access the training in parallel to the `OpenStack Days UK
+<https://openstackdays.uk/2017/>`_ event.
+
+ **Tuesday, September 26, 2017 at 11:00 a.m. to 5:45 p.m. (local time)**
+
+Please see the `Upstream Developer Training
+<https://openstackdays.uk/2017/?schedule=upstream-developer-training>`_ class
+information for more details.
+
+`Etherpad for London Upstream Collaboration Training
+<https://etherpad.openstack.org/p/upstream-institute-uk-2017>`_
+
+See YOU in London!
+
+OpenStack Days Nordic
++++++++++++++++++++++
+
+You can access the training on the first day of the `OpenStack Days Nordic
+<http://openstacknordic.org/copenhagen2017/>`_ event.
+
+ **Wednesday, October 18, 2017 at 08:30 a.m. to 4:30 p.m. (local time)**
+
+Please see the `Becoming a member of the OpenStack community Part 1
+<https://openstackdaysnordic2017.sched.com/event/9kSn>`_ and
+`Becoming a member of the OpenStack community Part 2
+<https://openstackdaysnordic2017.sched.com/event/BNkw>` pages for class
+information and more details.
+
+`Etherpad for Nordic Upstream Collaboration Training
+<https://etherpad.openstack.org/p/upstream-institute-nordic-2017>`_
+
+See YOU in Copenhagen!
 
 .. _prepare-environment:
 
@@ -89,9 +134,6 @@ How to prepare
   the Individual Contributor License Agreement
   (`ICLA <https://review.openstack.org/static/cla.html>`_) during this.)
 
-`Etherpad for Beijing Upstream Collaboration Training
-<https://etherpad.openstack.org/p/upstream-institute-beijing>`_
-
 Staff
 =====
 
@@ -104,7 +146,8 @@ Further trainers/coaches
 ------------------------
 
 You can find the list of trainers/coaches on the `training occaisons
-<https://wiki.openstack.org/wiki/OpenStack_Upstream_Institute_Occasions#Beijing_Crew>`_ wiki page.
+<https://wiki.openstack.org/wiki/OpenStack_Upstream_Institute_Occasions>`_
+wiki page.
 
 Best Practices for Trainers
 ===========================
