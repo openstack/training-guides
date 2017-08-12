@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-03 13:58+0000\n"
+"POT-Creation-Date: 2017-08-11 16:42+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -303,10 +303,6 @@ msgstr "Beantworten Sie Fragen oder helfen Sie jemanden zu suchen, der es kann"
 
 msgid "Application Catalog service"
 msgstr "Applikationskatalog-Dienst"
-
-msgid "Apply for individual membership and sign the CLA"
-msgstr ""
-"Bewerben Sie sich für Einzelmitgliedschaft und unterzeichnen Sie die CLA"
 
 msgid "Appropriate Fixes"
 msgstr "Geeignete Fehlerbehebungen"
@@ -3323,6 +3319,9 @@ msgstr "Zusammenfassung"
 msgid "Summit & Forum"
 msgstr "Summit & Forum"
 
+msgid "Summits"
+msgstr "Summits"
+
 msgid "Summits/Forums"
 msgstr "Summits/Foren"
 
@@ -3573,10 +3572,6 @@ msgid "This section assumes you have completed :doc:`accounts` guide."
 msgstr ""
 "Dieser Absatz setzt voraus, dass Sie :doc:`accounts` Anleitung bearbeitet "
 "haben."
-
-msgid "This will need to match your preferred email address in Gerrit."
-msgstr ""
-"Dies wird benötigt, um Ihre beforzugte E-Mail-Adresse in Gerrit zu verwenden."
 
 msgid "Three development milestones during a release cycle"
 msgstr "Drei Entwicklungsmeilensteine währen eines Reelasezyklus"
@@ -3943,13 +3938,6 @@ msgstr "Wann und wo bekommt man eine OpenStack Upstream Institut Klasse"
 
 msgid "When in the cycle you intend to complete it"
 msgstr "Wann während des Zyklusses soll es planmäßig abgeschlossen sein"
-
-msgid ""
-"When signing up for Foundation Membership, make sure to give the same email "
-"address you’ll use for code contributions."
-msgstr ""
-"Wenn Sie sich für die Foundation Membership registrieren, stellen Sie "
-"sicher, dass sie dieselbe E-Mail-Adresse verwenden wir für die Code-Beiträge."
 
 msgid ""
 "When you have changes in an OpenStack project repository, you can use this "
@@ -4706,14 +4694,8 @@ msgstr "`Melden eines Bugs <https://wiki.openstack.org/wiki/Bugs#Reporting>`_"
 msgid "and whom they will be working with"
 msgstr "und mit wem sie arbeiten werden"
 
-msgid "bug tracking, blueprints"
-msgstr "Bugtracking, Blueprints"
-
 msgid "checkout the latest stable branch"
 msgstr "den letzten stabilen Branch auschecken"
-
-msgid "code contributions, wiki, vote, presentations"
-msgstr "Codebeiträge, Wiki, Abstimmung, Präsentation"
 
 msgid "directly elected by ATC's"
 msgstr "direkt durch ATCs gewählt"
@@ -4772,9 +4754,6 @@ msgstr "http://docs.openstack.org/contributor-guide/docs-builds.html"
 msgid "http://docs.openstack.org/contributor-guide/index.html"
 msgstr "http://docs.openstack.org/contributor-guide/index.html"
 
-msgid "http://docs.openstack.org/infra/manual/developers.html#account-setup"
-msgstr "http://docs.openstack.org/infra/manual/developers.html#account-setup"
-
 msgid "http://docs.openstack.org/infra/manual/sandbox.html"
 msgstr "http://docs.openstack.org/infra/manual/sandbox.html"
 
@@ -4790,9 +4769,6 @@ msgstr "http://governance.openstack.org/reference/projects/"
 
 msgid "http://governance.openstack.org/reference/tags/index.html"
 msgstr "http://governance.openstack.org/reference/tags/index.html"
-
-msgid "http://launchpad.net/"
-msgstr "http://launchpad.net/"
 
 msgid "http://lists.openstack.org/cgi-bin/mailman/listinfo"
 msgstr "http://lists.openstack.org/cgi-bin/mailman/listinfo"

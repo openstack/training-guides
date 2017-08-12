@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-04 13:17+0000\n"
+"POT-Creation-Date: 2017-08-11 16:42+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -69,13 +69,6 @@ msgstr ""
 
 msgid "**Staff**"
 msgstr "**Staff**"
-
-msgid ""
-"**Wednesday, June 14, 2017 at 11:00 a.m. to 5:00 p.m. - Thursday, June 15, "
-"2017 at 11:00 a.m. to 5:00 p.m. (local time)**"
-msgstr ""
-"**Wednesday, June 14, 2017 at 11:00 a.m. to 5:00 p.m. - Thursday, June 15, "
-"2017 at 11:00 a.m. to 5:00 p.m. (local time)**"
 
 msgid "*Common cycle with development milestones*"
 msgstr "*Common cycle with development milestones*"
@@ -428,11 +421,6 @@ msgstr "Komentar penjawab resensi adalah praktik terbaik."
 
 msgid "Application Catalog service"
 msgstr "Layanan Application Catalog"
-
-msgid "Apply for individual membership and sign the CLA"
-msgstr ""
-"Ajukan permohonan keanggotaan individu dan menandatangani CLA (Contributor "
-"License Agreement)"
 
 msgid "Appropriate Fixes"
 msgstr "Appropriate Fixes (perbaikan yang tepat)"
@@ -2492,15 +2480,6 @@ msgstr ""
 "pelepasan"
 
 msgid ""
-"In order to RSVP you need to register to the OPNFV Summit first and you can "
-"add the course to your registration as an Add-On. If you registered already "
-"you can add the course to your registration later as well."
-msgstr ""
-"Agar RSVP Anda perlu mendaftar ke KTT OPNFV terlebih dahulu dan Anda bisa "
-"menambahkan kursus ke pendaftaran Anda sebagai Add-On. Jika sudah mendaftar "
-"maka Anda bisa menambahkan kursus ke pendaftaran Anda nanti juga."
-
-msgid ""
 "In order to identify ourselves that we own the nick name upon logging in, we "
 "need to tell Colloquy to communicate our password over upon connecting."
 msgstr ""
@@ -3621,15 +3600,6 @@ msgstr ""
 msgid "Please note that the language of the training is English."
 msgstr "Harap dicatat bahwa bahasa untuk pelatihan ini adalah bahasa Inggris."
 
-msgid ""
-"Please see the `OpenStack Upstream Institute <http://events.linuxfoundation."
-"org/events/archive/2017/opnfv-summit/extend-the-experience/openstack-"
-"upstream-institute>`_ class information for more details."
-msgstr ""
-"Silakan lihat `OpenStack Upstream Institute <http://events.linuxfoundation."
-"org/events/archive/2017/opnfv-summit/extend-the-experience/openstack-"
-"upstream-institute>`_ class information for more details."
-
 msgid "Post"
 msgstr "Post"
 
@@ -4102,9 +4072,6 @@ msgstr "SecurityImpact"
 msgid "See EOL status at: https://releases.openstack.org"
 msgstr "Lihat status EOL di: https://releases.openstack.org"
 
-msgid "See YOU in Beijing!"
-msgstr "Sampai jumpa di Beijing!"
-
 msgid "Seeing new comment"
 msgstr "Melihat komentar baru"
 
@@ -4405,6 +4372,9 @@ msgstr "Summary Line"
 msgid "Summit & Forum"
 msgstr "Summit & Forum"
 
+msgid "Summits"
+msgstr "Pertemuan puncak"
+
 msgid ""
 "Summits take place around the middle of a release to exhibit accomplishments "
 "and get feedback from users on the most recent release"
@@ -4671,17 +4641,6 @@ msgstr ""
 msgid "The metrics should be used within context"
 msgstr "Metrik harus digunakan dalam konteks"
 
-msgid ""
-"The next session of the OpenStack Upstream Collaboration Training - "
-"OpenStack Upstream Institute - will be held in Beijing, in parallel to the "
-"conference part of the `OPNFV Summit 2017 <http://events.linuxfoundation.org/"
-"events/archive/2017/opnfv-summit>`_."
-msgstr ""
-"Sesi berikutnya dari OpenStack Upstream Collaboration Training - OpenStack "
-"Upstream Institute - akan diadakan di Beijing, sejajar dengan bagian "
-"konferensi dari `OPNFV Summit 2017 <http://events.linuxfoundation.org/events/"
-"archive/2017/opnfv-summit>`_."
-
 msgid "The official list of projects:"
 msgstr "Daftar proyek resmi:"
 
@@ -4824,9 +4783,6 @@ msgid ""
 msgstr ""
 "Slide ini untuk link referensi jika orang ingin mendapatkan lebih banyak "
 "informasi nantinya. Presenter tidak perlu meluangkan waktu untuk ini."
-
-msgid "This will need to match your preferred email address in Gerrit."
-msgstr "Ini menjadi perlu untuk mencocokkan alamat email Anda di Gerrit."
 
 msgid "Those who forgot can still prepare"
 msgstr "Mereka yang lupa masih bisa mempersiapkannya"
@@ -5372,13 +5328,6 @@ msgid "When possible, sit at a table and build connections with attendees"
 msgstr "Bila mungkin, duduklah di meja dan bangun koneksi dengan peserta"
 
 msgid ""
-"When signing up for Foundation Membership, make sure to give the same email "
-"address you’ll use for code contributions."
-msgstr ""
-"Ketika mendaftar untuk Foundation Membership, pastikan untuk memberikan "
-"alamat email yang sama akan Anda gunakan untuk kontribusi kode."
-
-msgid ""
 "When you have changes in an OpenStack project repository, you can use this "
 "sub-command to have the changes posted to `Gerrit <https://review.openstack."
 "org/>`__ so that they can be reviewed."
@@ -5554,15 +5503,6 @@ msgstr "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 
 msgid "Xing Yang – Dell EMC"
 msgstr "Xing Yang – Dell EMC"
-
-msgid ""
-"You can find the list of trainers/coaches on the `training occaisons "
-"<https://wiki.openstack.org/wiki/"
-"OpenStack_Upstream_Institute_Occasions#Beijing_Crew>`_ wiki page."
-msgstr ""
-"Anda bisa menemukan daftar trainer/coache di `training occaisons <https://"
-"wiki.openstack.org/wiki/"
-"OpenStack_Upstream_Institute_Occasions#Beijing_Crew>`_ wiki page."
 
 msgid "You can practice the skills documented in the previous slides."
 msgstr ""
@@ -5772,13 +5712,6 @@ msgstr ""
 
 msgid "`Environment Setup <development-environment-setup.html>`_"
 msgstr "`Environment Setup <development-environment-setup.html>`_"
-
-msgid ""
-"`Etherpad for Beijing Upstream Collaboration Training <https://etherpad."
-"openstack.org/p/upstream-institute-beijing>`_"
-msgstr ""
-"`Etherpad for Beijing Upstream Collaboration Training <https://etherpad."
-"openstack.org/p/upstream-institute-beijing>`_"
 
 msgid ""
 "`Etherpad for Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
@@ -6347,17 +6280,11 @@ msgstr "`reporting a bug <https://wiki.openstack.org/wiki/Bugs#Reporting>`_"
 msgid "and whom they will be working with"
 msgstr "dan dengan siapa mereka akan bekerja"
 
-msgid "bug tracking, blueprints"
-msgstr "pelacakan bug, cetak biru (blueprint)"
-
 msgid "by majority vote of all Gold Members"
 msgstr "Dengan suara terbanyak dari semua Anggota Emas"
 
 msgid "checkout the latest stable branch"
 msgstr "pemeriksaan cabang stabil terbaru"
-
-msgid "code contributions, wiki, vote, presentations"
-msgstr "kontribusi kode, wiki, suara, presentasi"
 
 msgid "directly elected by ATC's"
 msgstr "Langsung dipilih oleh ATC"
@@ -6428,9 +6355,6 @@ msgstr "http://docs.openstack.org/contributor-guide/docs-builds.html"
 msgid "http://docs.openstack.org/contributor-guide/index.html"
 msgstr "http://docs.openstack.org/contributor-guide/index.html"
 
-msgid "http://docs.openstack.org/infra/manual/developers.html#account-setup"
-msgstr "http://docs.openstack.org/infra/manual/developers.html#account-setup"
-
 msgid "http://docs.openstack.org/infra/manual/sandbox.html"
 msgstr "http://docs.openstack.org/infra/manual/sandbox.html"
 
@@ -6446,9 +6370,6 @@ msgstr "http://governance.openstack.org/reference/projects/"
 
 msgid "http://governance.openstack.org/reference/tags/index.html"
 msgstr "http://governance.openstack.org/reference/tags/index.html"
-
-msgid "http://launchpad.net/"
-msgstr "http://launchpad.net/"
 
 msgid "http://lists.openstack.org/cgi-bin/mailman/listinfo"
 msgstr "http://lists.openstack.org/cgi-bin/mailman/listinfo"

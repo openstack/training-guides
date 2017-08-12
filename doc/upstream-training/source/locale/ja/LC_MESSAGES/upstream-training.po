@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-03 13:58+0000\n"
+"POT-Creation-Date: 2017-08-11 16:42+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -211,9 +211,6 @@ msgstr "Anne Gentle – Cisco"
 
 msgid "Application Catalog service"
 msgstr "Application Catalog サービス"
-
-msgid "Apply for individual membership and sign the CLA"
-msgstr "個人メンバーに登録し、 CLA に署名してください"
 
 msgid "Appropriate Fixes"
 msgstr "適切な修正"
@@ -2627,6 +2624,9 @@ msgstr "パッチの内容を簡潔に述べます"
 msgid "Suggestions of projects to work on:"
 msgstr "取り組むプロジェクトの提案 : "
 
+msgid "Summits"
+msgstr "サミット"
+
 msgid "Sungjin Kang (training, assistant, mentoring)"
 msgstr "Sungjin Kang (training, assistant, mentoring)"
 
@@ -2821,9 +2821,6 @@ msgstr ""
 msgid "This section assumes you have completed :doc:`accounts` guide."
 msgstr ""
 "このセクションは :doc:`accounts` ガイドを完了していることを前提にしています。"
-
-msgid "This will need to match your preferred email address in Gerrit."
-msgstr "これは Gerrit の優先メールアドレスと一致する必要がある"
 
 msgid "Three development milestones during a release cycle"
 msgstr "リリースサイクル中の 3 つの開発マイルストーン"
@@ -3083,13 +3080,6 @@ msgstr "リリースとは何か"
 
 msgid "When in the cycle you intend to complete it"
 msgstr "完了する予定のリリースサイクル"
-
-msgid ""
-"When signing up for Foundation Membership, make sure to give the same email "
-"address you’ll use for code contributions."
-msgstr ""
-"Foundation Membership にサインアップするとき、コードのコントリビューションに"
-"使用する予定のメールアドレスと必ず同じものを使用する"
 
 msgid ""
 "When you have changes in an OpenStack project repository, you can use this "
@@ -3758,14 +3748,8 @@ msgstr "`バグ報告 <https://wiki.openstack.org/wiki/Bugs#Reporting>`_"
 msgid "and whom they will be working with"
 msgstr "そして、誰と一緒に作業をするか"
 
-msgid "bug tracking, blueprints"
-msgstr "バグ管理、ブループリント"
-
 msgid "checkout the latest stable branch"
 msgstr "最新の stable ブランチのチェックアウト"
-
-msgid "code contributions, wiki, vote, presentations"
-msgstr "コード貢献、Wiki、投票、プレゼン"
 
 msgid "etc."
 msgstr "他"
@@ -3821,9 +3805,6 @@ msgstr "http://docs.openstack.org/contributor-guide/docs-builds.html"
 msgid "http://docs.openstack.org/contributor-guide/index.html"
 msgstr "http://docs.openstack.org/contributor-guide/index.html"
 
-msgid "http://docs.openstack.org/infra/manual/developers.html#account-setup"
-msgstr "http://docs.openstack.org/infra/manual/developers.html#account-setup"
-
 msgid "http://docs.openstack.org/infra/manual/sandbox.html"
 msgstr "http://docs.openstack.org/infra/manual/sandbox.html"
 
@@ -3839,9 +3820,6 @@ msgstr "http://governance.openstack.org/reference/projects/"
 
 msgid "http://governance.openstack.org/reference/tags/index.html"
 msgstr "http://governance.openstack.org/reference/tags/index.html"
-
-msgid "http://launchpad.net/"
-msgstr "http://launchpad.net/"
 
 msgid "http://lists.openstack.org/cgi-bin/mailman/listinfo"
 msgstr "http://lists.openstack.org/cgi-bin/mailman/listinfo"

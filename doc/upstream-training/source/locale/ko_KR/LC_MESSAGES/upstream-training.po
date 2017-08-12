@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-03 13:58+0000\n"
+"POT-Creation-Date: 2017-08-11 16:42+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -306,9 +306,6 @@ msgstr "Anne Gentle – Cisco"
 
 msgid "Application Catalog service"
 msgstr "응용 프로그램 카탈로그 서비스"
-
-msgid "Apply for individual membership and sign the CLA"
-msgstr "개인 멤버쉽으로 가입을 신청하고 CLA에 서명합니다"
 
 msgid "Appropriate Fixes"
 msgstr "적절한 수정"
@@ -3081,9 +3078,6 @@ msgstr "SecurityImpact"
 msgid "See EOL status at: https://releases.openstack.org"
 msgstr "EOL 상태 확인: https://releases.openstack.org"
 
-msgid "See YOU in Beijing!"
-msgstr "베이징에서 봅시다!"
-
 msgid "Seeing new comment"
 msgstr "새로운 댓글 보기"
 
@@ -3306,6 +3300,9 @@ msgstr "요약 줄"
 msgid "Summit & Forum"
 msgstr "Summit & 포럼"
 
+msgid "Summits"
+msgstr "Summit"
+
 msgid "Summits/Forums"
 msgstr "Summits/Forums"
 
@@ -3524,9 +3521,6 @@ msgstr ""
 
 msgid "This section assumes you have completed :doc:`accounts` guide."
 msgstr "이 섹션에서는 :doc:`accounts` 가이드를 완료했다고 가정합니다."
-
-msgid "This will need to match your preferred email address in Gerrit."
-msgstr "Gerrit에서 선호하는 이메일 주소와 일치시킬 필요가 있습니다"
 
 msgid "Three development milestones during a release cycle"
 msgstr "릴리즈 주기 내 세 개발 마일스톤"
@@ -3883,13 +3877,6 @@ msgid "When in the cycle you intend to complete it"
 msgstr "목적으로 하는 주기 내에 완료하고자 할 때"
 
 msgid ""
-"When signing up for Foundation Membership, make sure to give the same email "
-"address you’ll use for code contributions."
-msgstr ""
-"Foundation 멤버쉽으로 가입한 경우, 코드 컨트리뷰션을 위해 사용할 이메일 주소"
-"와 동일하게 입력했는지 확인하세요."
-
-msgid ""
 "When you have changes in an OpenStack project repository, you can use this "
 "sub-command to have the changes posted to `Gerrit <https://review.openstack."
 "org/>`__ so that they can be reviewed."
@@ -4194,13 +4181,6 @@ msgstr ""
 
 msgid "`Environment Setup <development-environment-setup.html>`_"
 msgstr "`환경 셋업 <development-environment-setup.html>`_"
-
-msgid ""
-"`Etherpad for Beijing Upstream Collaboration Training <https://etherpad."
-"openstack.org/p/upstream-institute-beijing>`_"
-msgstr ""
-"`베이징 업스트림 합동 트레이닝을 위한 Etherpad <https://etherpad.openstack."
-"org/p/upstream-institute-beijing>`_"
 
 msgid ""
 "`Etherpad for Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
@@ -4755,14 +4735,8 @@ msgstr "`버그 보고 <https://wiki.openstack.org/wiki/Bugs#Reporting>`_"
 msgid "and whom they will be working with"
 msgstr "그리고 같이 일하고자 하는 대상"
 
-msgid "bug tracking, blueprints"
-msgstr "버그 추적, blueprints"
-
 msgid "checkout the latest stable branch"
 msgstr "가장 최신의 안정 버전 브랜치를 가져옵니다"
-
-msgid "code contributions, wiki, vote, presentations"
-msgstr "코드 컨트리뷰션, 위치, 투표, 발표"
 
 msgid "directly elected by ATC's"
 msgstr "ATC에 의해 직접 선출이 이루어집니다"
@@ -4827,9 +4801,6 @@ msgstr "http://docs.openstack.org/contributor-guide/docs-builds.html"
 msgid "http://docs.openstack.org/contributor-guide/index.html"
 msgstr "http://docs.openstack.org/contributor-guide/index.html"
 
-msgid "http://docs.openstack.org/infra/manual/developers.html#account-setup"
-msgstr "http://docs.openstack.org/infra/manual/developers.html#account-setup"
-
 msgid "http://docs.openstack.org/infra/manual/sandbox.html"
 msgstr "http://docs.openstack.org/infra/manual/sandbox.html"
 
@@ -4845,9 +4816,6 @@ msgstr "http://governance.openstack.org/reference/projects/"
 
 msgid "http://governance.openstack.org/reference/tags/index.html"
 msgstr "http://governance.openstack.org/reference/tags/index.html"
-
-msgid "http://launchpad.net/"
-msgstr "http://launchpad.net/"
 
 msgid "http://lists.openstack.org/cgi-bin/mailman/listinfo"
 msgstr "http://lists.openstack.org/cgi-bin/mailman/listinfo"
