@@ -4,11 +4,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-11 16:42+0000\n"
+"POT-Creation-Date: 2017-08-12 12:37+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-08-10 03:10+0000\n"
+"PO-Revision-Date: 2017-08-12 03:34+0000\n"
 "Last-Translator: suhartono <cloudsuhartono@gmail.com>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -67,8 +67,19 @@ msgstr ""
 "**Public key** - Bisa berbagi secara bebas dengan semua  server SSH dimana "
 "Anda ingin terhubung."
 
+msgid "**Saturday, November 04, 2017 - Sunday, November 05, 2017**"
+msgstr "**Saturday, November 04, 2017 - Sunday, November 05, 2017**"
+
 msgid "**Staff**"
 msgstr "**Staff**"
+
+msgid "**Tuesday, September 26, 2017 at 11:00 a.m. to 5:45 p.m. (local time)**"
+msgstr ""
+"**Tuesday, September 26, 2017 at 11:00 a.m. to 5:45 p.m. (local time)**"
+
+msgid "**Wednesday, October 18, 2017 at 08:30 a.m. to 4:30 p.m. (local time)**"
+msgstr ""
+"**Wednesday, October 18, 2017 at 08:30 a.m. to 4:30 p.m. (local time)**"
 
 msgid "*Common cycle with development milestones*"
 msgstr "*Common cycle with development milestones*"
@@ -421,6 +432,13 @@ msgstr "Komentar penjawab resensi adalah praktik terbaik."
 
 msgid "Application Catalog service"
 msgstr "Layanan Application Catalog"
+
+msgid ""
+"Apply for individual membership (recommended), create a single sign-on "
+"account and sign the ICLA"
+msgstr ""
+"Mendaftar untuk keanggotaan individu (disarankan), buat satu akun masuk dan "
+"tanda tangani ICLA"
 
 msgid "Appropriate Fixes"
 msgstr "Appropriate Fixes (perbaikan yang tepat)"
@@ -3089,6 +3107,9 @@ msgstr "Modul - kontributor"
 msgid "Module - more views"
 msgstr "Modul - lebih banyak tampilan"
 
+msgid "More details coming soon..."
+msgstr "Keterangan lebih lanjut segera hadir ..."
+
 msgid ""
 "More details: `Developing with Devstack <https://docs.openstack.org/"
 "developer/devstack/development.html>`_"
@@ -3373,6 +3394,12 @@ msgstr "OpenStack Birthday Celebration (perayaan ulang tahun OpenStack)"
 msgid "OpenStack Days"
 msgstr "OpenStack Days (hari OpenStack)"
 
+msgid "OpenStack Days Nordic"
+msgstr "OpenStack Days Nordic"
+
+msgid "OpenStack Days UK"
+msgstr "OpenStack Days UK"
+
 msgid "OpenStack Documentation"
 msgstr "Dokumentasi OpenStack"
 
@@ -3399,6 +3426,9 @@ msgstr "Tim proyek OpenStack"
 
 msgid "OpenStack Release Cycle"
 msgstr "OpenStack Release Cycle (siklus rilis OpenStack)"
+
+msgid "OpenStack Summit Sydney"
+msgstr "OpenStack Summit Sydney"
 
 msgid "OpenStack Upstream Institute"
 msgstr "OpenStack Upstream Institute"
@@ -3481,6 +3511,9 @@ msgstr "Organizers of Official OpenStack User Groups"
 
 msgid "Other"
 msgstr "Lainnya"
+
+msgid "Other events"
+msgstr "Acara lainnya"
 
 msgid "Other possible content"
 msgstr "Konten lain yang mungkin"
@@ -3599,6 +3632,24 @@ msgstr ""
 
 msgid "Please note that the language of the training is English."
 msgstr "Harap dicatat bahwa bahasa untuk pelatihan ini adalah bahasa Inggris."
+
+msgid ""
+"Please see the `Becoming a member of the OpenStack community Part 1 <https://"
+"openstackdaysnordic2017.sched.com/event/9kSn>`_ and `Becoming a member of "
+"the OpenStack community Part 2 <https://openstackdaysnordic2017.sched.com/"
+"event/BNkw>` pages for class information and more details."
+msgstr ""
+"Silakan lihat halaman `Becoming a member of the OpenStack community Part 1 "
+"<https://openstackdaysnordic2017.sched.com/event/9kSn>`_ dan `Becoming a "
+"member of the OpenStack community Part 2 <https://openstackdaysnordic2017."
+"sched.com/event/BNkw>` untuk informasi kelas dan rincian lebih lanjut."
+
+msgid ""
+"Please see the `Upstream Developer Training <https://openstackdays.uk/2017/?"
+"schedule=upstream-developer-training>`_ class information for more details."
+msgstr ""
+"Silakan lihat `Upstream Developer Training <https://openstackdays.uk/2017/?"
+"schedule=upstream-developer-training>`_ informasi kelas untuk lebih jelasnya."
 
 msgid "Post"
 msgstr "Post"
@@ -3813,6 +3864,9 @@ msgstr ""
 
 msgid "Recommendations to become an active community member"
 msgstr "Rekomendasi untuk menjadi anggota komunitas yang aktif"
+
+msgid "Recommended to join, but not mandatory for code contributions"
+msgstr "Disarankan untuk bergabung, tapi tidak wajib untuk kontribusi kode"
 
 msgid "References"
 msgstr "Referensi"
@@ -4072,6 +4126,12 @@ msgstr "SecurityImpact"
 msgid "See EOL status at: https://releases.openstack.org"
 msgstr "Lihat status EOL di: https://releases.openstack.org"
 
+msgid "See YOU in Copenhagen!"
+msgstr "Sampai jumpa di Kopenhagen!"
+
+msgid "See YOU in London!"
+msgstr "Sampai jumpa di London!"
+
 msgid "Seeing new comment"
 msgstr "Melihat komentar baru"
 
@@ -4165,6 +4225,9 @@ msgstr ""
 
 msgid "Single and multi node setup"
 msgstr "Tunggal dan multi pengaturan nodus"
+
+msgid "Single sign-on OpenID"
+msgstr "Single sign-on OpenID"
 
 msgid "Sites"
 msgstr "Sites (situs)"
@@ -4708,6 +4771,15 @@ msgstr ""
 "peserta dengan peran pekerjaan yang berbeda."
 
 msgid ""
+"The upcoming `OpenStack Summit <https://www.openstack.org/summit/sydney-2017/"
+">`_ will be in Sydney in November with a full training running prior to the "
+"event."
+msgstr ""
+"KTT mendatang `OpenStack Summit  <https://www.openstack.org/summit/"
+"sydney-2017/> `_ akan berada di Sydney pada bulan November dengan pelatihan "
+"penuh yang berjalan sebelum acara berlangsung."
+
+msgid ""
 "There are a finite number of meeting channels so that meetings are spread "
 "around. This is enforced by infra. The #openstack-meeting-cp channel is "
 "special in that it is dedicated to cross project efforts."
@@ -5165,6 +5237,15 @@ msgid "Ways to Communicate in OpenStack"
 msgstr "Cara berkomunikasi di OpenStack"
 
 msgid ""
+"We are bringing a one day long version of the training to some of the local "
+"OpenStack Days events and other industry events. Keep your eyes open for "
+"these events and check back on this website to find new occasions."
+msgstr ""
+"Kami membawa versi pelatihan satu hari yang panjang untuk beberapa acara "
+"OpenStack Days dan acara industri lainnya. Jagalah agar tetap terbuka untuk "
+"event ini dan periksa kembali situs ini untuk menemukan acara baru."
+
+msgid ""
 "We are providing a virtual machine with the necessary tools pre-installed in "
 "it. For further information about the system requirements on it please see "
 "the `ref: prepare-environment` section."
@@ -5224,6 +5305,14 @@ msgstr ""
 "OpenStack Summit Atlanta 2014. Sejak Atlanta, kami telah mengadakan "
 "pelatihan sebelum setiap OpenStack Summit. Selain itu acara \"official\", "
 "beberapa kelompok pengguna mengadakan pelatihan Upstream lokal."
+
+msgid ""
+"We run the full training prior to each OpenStack Summit, see this web page "
+"and the schedule of the upcoming event for more details and registration."
+msgstr ""
+"Kami menjalankan pelatihan penuh sebelum setiap OpenStack Summit, lihat "
+"halaman web ini dan jadwal acara yang akan datang untuk lebih jelasnya dan "
+"registrasi."
 
 msgid ""
 "We will go into this later on in more detail so hold off on answering "
@@ -5326,6 +5415,15 @@ msgstr "Ketika dalam siklus Anda berniat untuk menyelesaikannya"
 
 msgid "When possible, sit at a table and build connections with attendees"
 msgstr "Bila mungkin, duduklah di meja dan bangun koneksi dengan peserta"
+
+msgid ""
+"When signing up for Foundation Membership, make sure to include the email "
+"address you’ll use for code contributions in one of the fields in your "
+"profile"
+msgstr ""
+"Saat mendaftar Foundation Membership, pastikan untuk memasukkan alamat email "
+"yang akan Anda gunakan untuk kontribusi kode di salah satu bidang di profil "
+"Anda"
 
 msgid ""
 "When you have changes in an OpenStack project repository, you can use this "
@@ -5503,6 +5601,29 @@ msgstr "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 
 msgid "Xing Yang – Dell EMC"
 msgstr "Xing Yang – Dell EMC"
+
+msgid ""
+"You can access the training in parallel to the `OpenStack Days UK <https://"
+"openstackdays.uk/2017/>`_ event."
+msgstr ""
+"Anda dapat mengakses pelatihan secara paralel dengan event `OpenStack Days "
+"UK <https://openstackdays.uk/2017/>`_."
+
+msgid ""
+"You can access the training on the first day of the `OpenStack Days Nordic "
+"<http://openstacknordic.org/copenhagen2017/>`_ event."
+msgstr ""
+"Anda dapat mengakses pelatihan pada hari pertama event `OpenStack Days "
+"Nordic <http://openstacknordic.org/copenhagen2017/>`_."
+
+msgid ""
+"You can find the list of trainers/coaches on the `training occaisons "
+"<https://wiki.openstack.org/wiki/OpenStack_Upstream_Institute_Occasions>`_ "
+"wiki page."
+msgstr ""
+"Anda bisa menemukan daftar pelatih / pelatih di wiki page `training "
+"occaisons <https://wiki.openstack.org/wiki/"
+"OpenStack_Upstream_Institute_Occasions>`_ ."
 
 msgid "You can practice the skills documented in the previous slides."
 msgstr ""
@@ -5712,6 +5833,27 @@ msgstr ""
 
 msgid "`Environment Setup <development-environment-setup.html>`_"
 msgstr "`Environment Setup <development-environment-setup.html>`_"
+
+msgid ""
+"`Etherpad for London Upstream Collaboration Training <https://etherpad."
+"openstack.org/p/upstream-institute-uk-2017>`_"
+msgstr ""
+"`Etherpad for London Upstream Collaboration Training <https://etherpad."
+"openstack.org/p/upstream-institute-uk-2017>`_"
+
+msgid ""
+"`Etherpad for Nordic Upstream Collaboration Training <https://etherpad."
+"openstack.org/p/upstream-institute-nordic-2017>`_"
+msgstr ""
+"`Etherpad for Nordic Upstream Collaboration Training <https://etherpad."
+"openstack.org/p/upstream-institute-nordic-2017>`_"
+
+msgid ""
+"`Etherpad for Sydney Upstream Collaboration Training <https://etherpad."
+"openstack.org/p/upstream-institute-sydney-2017>`_"
+msgstr ""
+"`Etherpad for Sydney Upstream Collaboration Training <https://etherpad."
+"openstack.org/p/upstream-institute-sydney-2017>`_"
 
 msgid ""
 "`Etherpad for Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
@@ -6286,8 +6428,14 @@ msgstr "Dengan suara terbanyak dari semua Anggota Emas"
 msgid "checkout the latest stable branch"
 msgstr "pemeriksaan cabang stabil terbaru"
 
+msgid "code review, bug tracking, blueprints, wiki"
+msgstr "review kode, pelacakan bug, cetak biru, wiki"
+
 msgid "directly elected by ATC's"
 msgstr "Langsung dipilih oleh ATC"
+
+msgid "elections (candidacy or vote), presentations"
+msgstr "pemilihan (pencalonan atau pemungutan suara), presentasi"
 
 msgid "etc."
 msgstr "etc. (dan lain lain)"
@@ -6404,6 +6552,9 @@ msgstr "https://bugs.launchpad.net/openstack-training-guides"
 msgid "https://docs.openstack.org/draft/draft-index.html"
 msgstr "https://docs.openstack.org/draft/draft-index.html"
 
+msgid "https://docs.openstack.org/infra/manual/developers.html#account-setup"
+msgstr "https://docs.openstack.org/infra/manual/developers.html#account-setup"
+
 msgid "https://etherpad.openstack.org/p/upstream-training-barcelona"
 msgstr "https://etherpad.openstack.org/p/upstream-training-barcelona"
 
@@ -6423,6 +6574,9 @@ msgstr "https://groups.openstack.org/"
 
 msgid "https://launchpad.net/openstack-dev-sandbox"
 msgstr "https://launchpad.net/openstack-dev-sandbox"
+
+msgid "https://login.ubuntu.com"
+msgstr "https://login.ubuntu.com"
 
 msgid "https://review.openstack.org/#/settings/ssh-keys"
 msgstr "https://review.openstack.org/#/settings/ssh-keys"
