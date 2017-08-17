@@ -12,11 +12,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-11 16:42+0000\n"
+"POT-Creation-Date: 2017-08-13 11:37+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-08-04 07:06+0000\n"
+"PO-Revision-Date: 2017-08-16 08:06+0000\n"
 "Last-Translator: minwook-shin <minwook0106@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
@@ -69,8 +69,14 @@ msgid ""
 msgstr ""
 "**공개키** - 접속하고자 하는 임의의 SSH 서버에 자유롭게 공유 가능합니다."
 
+msgid "**Saturday, November 04, 2017 - Sunday, November 05, 2017**"
+msgstr "**2017년 11월 04일 토요일 - 2017년 11월 05일 일요일**"
+
 msgid "**Staff**"
 msgstr "**스태프**"
+
+msgid "**Tuesday, September 26, 2017 at 11:00 a.m. to 5:45 p.m. (local time)**"
+msgstr "**2017년 9월 26일 토요일 오전 11:10부터 오후 5:45까지. (현지 시간)**"
 
 msgid "*Common cycle with development milestones*"
 msgstr "*개발 마일스톤을 가지고 있는 공통 주기*"
@@ -122,6 +128,9 @@ msgstr "2016 스페인 Barcelona"
 
 msgid "2016 was 6th birthday of OpenStack"
 msgstr "2016년은 OpenStack 여섯 번째 생일이었습니다"
+
+msgid "265 different organizations"
+msgstr "265 개의 서로 다른 회사"
 
 msgid "2nd Upstream Training in Seoul with Ubuntu Korea Community & Naver D2"
 msgstr ""
@@ -175,6 +184,9 @@ msgstr ""
 
 msgid "A sample presentation is given by the teacher, as an example"
 msgstr "선생님에 의해 주어진 샘플 발표를, 예시로 합니다"
+
+msgid "API first implementation"
+msgstr "API 첫번째 구현"
 
 msgid "API, Security Guide, Training Guides, Training Labs"
 msgstr "API, Security Guide, Training Guides, Training Labs"
@@ -253,6 +265,9 @@ msgstr "마지막 마일스톤 이후"
 
 msgid "Agenda - Day 1"
 msgstr "일정 - 1일차"
+
+msgid "Agenda - Day 2"
+msgstr "일정 - 2일차"
 
 msgid "Agile"
 msgstr "애자일"
@@ -441,6 +456,12 @@ msgstr "버그 수정"
 
 msgid "Bug reports"
 msgstr "버그 리포트"
+
+msgid "Bugday"
+msgstr "버그데이"
+
+msgid "Bugs"
+msgstr "버그"
 
 msgid "Build a network"
 msgstr "네트워크 구축"
@@ -682,6 +703,9 @@ msgstr "의사소통"
 
 msgid "Community members will review your patch"
 msgstr "커뮤니티 구성원이 패치를 리뷰할 것입니다"
+
+msgid "Community metrics"
+msgstr "커뮤니티 지표"
 
 msgid "Companies"
 msgstr "회사"
@@ -1000,6 +1024,9 @@ msgstr "현재 코드에 대한 한계점을 수정하는가?"
 
 msgid "Does it improve code structure?"
 msgstr "코드 구조를 개선하는가?"
+
+msgid "Don't give out VM image at the beginning of the first day"
+msgstr "첫날 초반에 VM 이미지를 제공하지 마십시오."
 
 msgid "Done"
 msgstr "완료"
@@ -1477,6 +1504,9 @@ msgstr "보다 많은 지원을 하는 회사 및 기관이 있습니다"
 
 msgid "Further trainers/coaches"
 msgstr "향후 트레이너/코치"
+
+msgid "Gate"
+msgstr "게이트"
 
 msgid "Gathers feedback and consolidates requirements"
 msgstr "피드백을 수집하고 요구 사항을 통합합니다"
@@ -2344,6 +2374,9 @@ msgstr "모듈 - 컨트리뷰터"
 msgid "Module - more views"
 msgstr "모듈 - 더 많은 뷰"
 
+msgid "More details coming soon..."
+msgstr "곧 더 많은 세부 정보를 제공 예정입니다..."
+
 msgid ""
 "More details: `Developing with Devstack <https://docs.openstack.org/"
 "developer/devstack/development.html>`_"
@@ -2568,6 +2601,12 @@ msgstr "OpenStack 생일 축하"
 msgid "OpenStack Days"
 msgstr "OpenStack Days"
 
+msgid "OpenStack Days Nordic"
+msgstr "OpenStack Days Nordic"
+
+msgid "OpenStack Days UK"
+msgstr "OpenStack Days UK"
+
 msgid "OpenStack Documentation"
 msgstr "OpenStack 문서화"
 
@@ -2588,6 +2627,9 @@ msgstr "OpenStack 프로젝트 팀"
 
 msgid "OpenStack Release Cycle"
 msgstr "OpenStack 릴리즈 주기"
+
+msgid "OpenStack Summit Sydney"
+msgstr "OpenStack Summit Sydney"
 
 msgid "OpenStack Upstream Institute"
 msgstr "OpenStack Upstream Institute"
@@ -2653,6 +2695,9 @@ msgstr "Orchestration 서비스"
 
 msgid "Other"
 msgstr "기타"
+
+msgid "Other events"
+msgstr "다른 이벤트"
 
 msgid "Other possible content"
 msgstr "다른 가능한 내용"
@@ -2744,6 +2789,9 @@ msgstr ""
 
 msgid "Please note that the language of the training is English."
 msgstr "참고로 트레이닝에서는 영어를 사용합니다."
+
+msgid "Post"
+msgstr "보내기"
 
 msgid "Prepare an environment by yourself from scratch:"
 msgstr "기반부터 환경을 스스로 준비합니다:"
@@ -3078,6 +3126,9 @@ msgstr "SecurityImpact"
 msgid "See EOL status at: https://releases.openstack.org"
 msgstr "EOL 상태 확인: https://releases.openstack.org"
 
+msgid "See YOU in London!"
+msgstr "런던에서 봅시다!"
+
 msgid "Seeing new comment"
 msgstr "새로운 댓글 보기"
 
@@ -3154,6 +3205,9 @@ msgstr ""
 
 msgid "Single and multi node setup"
 msgstr "단일 및 멀티 노드 셋업"
+
+msgid "Single sign-on OpenID"
+msgstr "단일 sign-on OpenID"
 
 msgid "Sites"
 msgstr "사이트"
@@ -3263,6 +3317,12 @@ msgstr "Stefano Maffulli (교육, 멘토링, 조교, 영어)"
 msgid "Stephan Ahn (training, assistant, mentoring)"
 msgstr "Stephan Ahn (교육, 조교, 멘토링)"
 
+msgid "Stories & Tasks"
+msgstr "스토리 & 작업"
+
+msgid "StoryBoard"
+msgstr "스토리보드"
+
 msgid "Strategic and financial oversight"
 msgstr "전략 및 재정에 대한 감독"
 
@@ -3347,6 +3407,9 @@ msgstr "IRC 채널에서 대화"
 
 msgid "Target Audience"
 msgstr "대상 청중"
+
+msgid "Task Tracking"
+msgstr "작업 추적"
 
 msgid "Team members : 3-5"
 msgstr "팀 구성원: 3-5"
@@ -3568,6 +3631,9 @@ msgstr "도구들은 VM 이미지에 사전 패키징되어 있습니다"
 
 msgid "Tox"
 msgstr "Tox"
+
+msgid "Tracked Items"
+msgstr "추적된 항목"
 
 msgid "Tracking"
 msgstr "추적"
@@ -4183,6 +4249,13 @@ msgid "`Environment Setup <development-environment-setup.html>`_"
 msgstr "`환경 셋업 <development-environment-setup.html>`_"
 
 msgid ""
+"`Etherpad for Sydney Upstream Collaboration Training <https://etherpad."
+"openstack.org/p/upstream-institute-sydney-2017>`_"
+msgstr ""
+"`Sydney Upstream Collaboration Training를 위한  Etherpad <https://etherpad."
+"openstack.org/p/upstream-institute-sydney-2017>`_"
+
+msgid ""
 "`Etherpad for Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
 "p/upstream-training-korea-2016>`_"
 msgstr ""
@@ -4716,6 +4789,9 @@ msgid ""
 msgstr ""
 "`디버깅 <https://wiki.openstack.org/wiki/Bugs#Debugging_.28optional.29>`_"
 
+msgid "`http://status.openstack.org <http://status.openstack.org>`_"
+msgstr "`http://status.openstack.org <http://status.openstack.org>`_"
+
 msgid "`https://etherpad.openstack.org <https://etherpad.openstack.org>`_"
 msgstr "`https://etherpad.openstack.org <https://etherpad.openstack.org>`_"
 
@@ -4850,6 +4926,9 @@ msgstr "https://bugs.launchpad.net/openstack-training-guides"
 msgid "https://docs.openstack.org/draft/draft-index.html"
 msgstr "https://docs.openstack.org/draft/draft-index.html"
 
+msgid "https://docs.openstack.org/infra/manual/developers.html#account-setup"
+msgstr "https://docs.openstack.org/infra/manual/developers.html#account-setup"
+
 msgid "https://etherpad.openstack.org/p/upstream-training-barcelona"
 msgstr "https://etherpad.openstack.org/p/upstream-training-barcelona"
 
@@ -4869,6 +4948,9 @@ msgstr "https://groups.openstack.org/"
 
 msgid "https://launchpad.net/openstack-dev-sandbox"
 msgstr "https://launchpad.net/openstack-dev-sandbox"
+
+msgid "https://login.ubuntu.com"
+msgstr "https://login.ubuntu.com"
 
 msgid "https://review.openstack.org/#/settings/ssh-keys"
 msgstr "https://review.openstack.org/#/settings/ssh-keys"
@@ -4938,3 +5020,6 @@ msgstr "ssh 키 업로드"
 
 msgid "user visible benefit"
 msgstr "사용자에게 보이는 이점"
+
+msgid "vim-fugitive, emacs-magit"
+msgstr "vim-fugitive, emacs-magit"
