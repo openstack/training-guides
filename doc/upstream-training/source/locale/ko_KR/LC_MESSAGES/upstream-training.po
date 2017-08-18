@@ -5,6 +5,7 @@
 # Jun-Sik Shin <jsshin@smartx.kr>, 2016. #zanata
 # SeongSoo Cho <nexusz99@gmail.com>, 2016. #zanata
 # Ian Y. Choi <ianyrchoi@gmail.com>, 2017. #zanata
+# Jongwoo Han <jongwoohan@gmail.com>, 2017. #zanata
 # Jun-Sik Shin <jsshin@smartx.kr>, 2017. #zanata
 # Wonil Choi <wonil0522@gmail.com>, 2017. #zanata
 # minwook-shin <minwook0106@gmail.com>, 2017. #zanata
@@ -12,12 +13,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-13 11:37+0000\n"
+"POT-Creation-Date: 2017-08-17 11:44+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-08-16 08:06+0000\n"
-"Last-Translator: minwook-shin <minwook0106@gmail.com>\n"
+"PO-Revision-Date: 2017-08-17 04:54+0000\n"
+"Last-Translator: Jongwoo Han <jongwoohan@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
 "X-Generator: Zanata 3.9.6\n"
@@ -217,6 +218,9 @@ msgstr "Active User Contributors (AUC)"
 
 msgid "Active moderators on ask.openstack.org"
 msgstr "ask.openstack.org에서 활발한 조정자"
+
+msgid "Actively contributing to an OpenStack project"
+msgstr "오픈스택 프로젝트에 활발히 기여하기"
 
 msgid "Activities listed here are not realized at every Upstream training."
 msgstr ""
@@ -1079,6 +1083,9 @@ msgstr "EOL 문서는 문서 저장소에서 유지보수가 (더 이상) 이루
 msgid "Each PTL candidate needs to submit PTL candidacy"
 msgstr "각 PTL 후보는 PTL 입후보를 제출할 필요가 있습니다"
 
+msgid "Each Platinum member can delegate one member"
+msgstr "각 플래티넘 멤버는 다른 멤버에게 위힘할 수 있습니다."
+
 msgid "Each Release has two main events: PTG and the Summit"
 msgstr "각 릴리즈에는 PTG와 Summit, 두 개의  메인 이벤트가 있습니다"
 
@@ -1335,6 +1342,9 @@ msgstr "현재 릴리스의 릴리스 날짜 찾기"
 
 msgid "First day"
 msgstr "첫 날"
+
+msgid "Fishbowls: Open moderated discussions"
+msgstr "피쉬볼: 관리를 거친 공개된 토론"
 
 msgid "Fitting it all together"
 msgstr "모두 함께 어울리기"
@@ -2216,6 +2226,11 @@ msgstr "로컬 브랜치 생성"
 msgid "Log Output"
 msgstr "로그 출력"
 
+msgid ""
+"Logs of meetings and channels are archived so that they can be referenced "
+"later on"
+msgstr "미팅과 채널의 로그는 아카이빙되어서 나중에 참고할 수 있습니다."
+
 msgid "Loic Dachary (training, mentoring, assistant, french, english)"
 msgstr "Loic Dachary (교육, 멘토링, 조교, 프랑스어, 영어)"
 
@@ -2224,6 +2239,13 @@ msgstr "Loic Dachary (교육, 멘토링, 조교, 프랑스어, 영어) - 진행"
 
 msgid "Look at open reviews"
 msgstr "열려있는 리뷰를 살펴봅니다"
+
+msgid ""
+"Look through the list of mailing lists and subscribe to at least one list of "
+"interest.  Once subscribed, locate the archives for that ML."
+msgstr ""
+"메일링리스트 목록을 살펴보고 가장 도움이 될 것이라고 생각하는 적어도 하나를 "
+"구독한 후 해당 ML 의 아카이브를 찾아봅니다."
 
 msgid ""
 "Look up an OpenStack Days event close to where you live that you would be "
@@ -2247,6 +2269,13 @@ msgid ""
 "cycles"
 msgstr ""
 "현재 및 지난 두 개의 OpenStack 릴리즈 주기에 대한 릴리즈 일정을 찾아봅니다"
+
+msgid ""
+"Look up when the next meeting is for the channel you joined and where the "
+"meeting is conducted (#openstack-meeting, #openstack-meeting-3, etc)."
+msgstr ""
+"당신이 참가한 채널이 다음에 언제 어디서 미팅을 가질지를 검색해 보십시오.  "
+"(#openstack-meeting, #openstack-meeting-3, etc)."
 
 msgid "Loïc Dachary (Training, mentoring, assistant, english and french)"
 msgstr "Loïc Dachary (교육, 멘토링, 조교, 영어 및 프랑스어)"
@@ -2508,6 +2537,13 @@ msgid ""
 msgstr ""
 "공식 OpenStack 프로젝트는 해당 프로그램에 가입한 인턴에게 주제 및 멘터를 권함"
 "으로써 참여할 수 있습니다."
+
+msgid ""
+"Official project teams fall under the TC's authority and are led by a "
+"Project Team Lead and Core Team Members"
+msgstr ""
+"공식 프로젝트 팀은 TC의 권한 하에서 프로젝트 팀 리드(PTC)와 코어 팀 멤버의 지"
+"도를 받습니다."
 
 msgid ""
 "Once the students are separated into their new roles, and have an "
@@ -2819,6 +2855,13 @@ msgstr "진행"
 
 msgid "Project Channels:"
 msgstr "프로젝트 채널:"
+
+msgid ""
+"Project Onboarding Sessions: A place for new contributors to ask questions "
+"and get to know other contributors to the project"
+msgstr ""
+"프로젝트 진행사항 세션: 새로운 공헌자가 질문을 하고 프로젝트의 다른 공헌자들"
+"과 안면을 트는 자리"
 
 msgid "Project Team Gathering (PTG)"
 msgstr "Project Team Gathering (PTG)"
@@ -3363,6 +3406,13 @@ msgstr "Summit & 포럼"
 msgid "Summits"
 msgstr "Summit"
 
+msgid ""
+"Summits take place around the middle of a release to exhibit accomplishments "
+"and get feedback from users on the most recent release"
+msgstr ""
+"서밋은 릴리즈의 중간 시점에 성취한 것을 전시하고 가장 마지막 릴리즈의 사용자"
+"들로부터의 피드백을 받습니다."
+
 msgid "Summits/Forums"
 msgstr "Summits/Forums"
 
@@ -3475,6 +3525,18 @@ msgstr ""
 msgid "The OpenStack Package"
 msgstr "OpenStack 패키지"
 
+msgid ""
+"The PTG is scheduled around the start of a release to plan release goals"
+msgstr ""
+" 릴리즈의 시작 시기에 릴리즈의 목표를 계획하기 위해 PTG의 스케줄이 잡힙니다."
+
+msgid ""
+"The `Mailing Lists <https://wiki.openstack.org/wiki/Mailing_Lists>`_ wiki "
+"page describes how to subscribe to a list and describes some popular lists"
+msgstr ""
+"메일링 리스트 <https://wiki.openstack.org/wiki/Mailing_Lists>`_ wiki 페이지"
+"는 메일 리스트를 구독하는 방법과 몇몇 인기있는 리스트를 보여줍니다."
+
 msgid "The code is self-evident/self-documenting"
 msgstr "코드는 자체가 명료함을 보이고 자체가 문서에 해당합니다."
 
@@ -3539,6 +3601,20 @@ msgid ""
 msgstr ""
 "학생들은 템플릿 슬라이드를 사용하여 계획된 컨트리뷰션에 대한 5분 발표를 준비"
 "합니다"
+
+msgid ""
+"The summit is a biannual conference with keynotes, presentations, and panel "
+"discussions"
+msgstr "서밋은 키노트, 발표와 패널 토의로 의루어진 연 2회의 행사입니다."
+
+msgid ""
+"There are a finite number of meeting channels so that meetings are spread "
+"around. This is enforced by infra. The #openstack-meeting-cp channel is "
+"special in that it is dedicated to cross project efforts."
+msgstr ""
+"미팅을 활성화하기 위해서 몇몇 미팅 채널이 있습니다. 이는 인프라에 의해서 강제"
+"됩니다. #openstack-meeting-cp 채널은 프로젝트간의 연결을 활성화하기 위한 특"
+"별 전담 채널입니다."
 
 msgid ""
 "These slides prepare students for the Lego activity, and ensure they "
@@ -3682,8 +3758,18 @@ msgstr ""
 "다음을 입력하여 **mysecretpassword** 및 **test@domain.com** 를 사용하고자 하"
 "는 암호 및 이메일 주소로 변경하도록 nickserv에 닉네임을 등록합니다."
 
+msgid "Types of sessions at the Forum"
+msgstr "포럼의 세션 유형"
+
 msgid "Typically public key filenames will look like:"
 msgstr "보통 공개키 파일 이름은 다음과 같습니다:"
+
+msgid ""
+"UC election information is available though `User-committee mailing list "
+"<http://lists.openstack.org/cgi-bin/mailman/listinfo/user-committee>`_."
+msgstr ""
+"UC 투표에 관한 정보는 `User-committee mailing list <http://lists.openstack."
+"org/cgi-bin/mailman/listinfo/user-committee>`_ 에 있습니다."
 
 msgid "Ubuntu or Fedora"
 msgstr "Ubuntu나 Fedora"
@@ -3778,6 +3864,10 @@ msgstr "사용자 위원회 (\"UC\")"
 
 msgid "User Group Meetups"
 msgstr "사용자 그룹 밋업"
+
+msgid ""
+"User focused discussions at the Forum to collect feedback for developers"
+msgstr "개발자들로부터의 피드백을 수렴하기 위한 포럼의 사용자 중심적인 토론"
 
 msgid "User groups"
 msgstr "사용자 그룹"
@@ -4810,6 +4900,9 @@ msgstr "`버그 보고 <https://wiki.openstack.org/wiki/Bugs#Reporting>`_"
 
 msgid "and whom they will be working with"
 msgstr "그리고 같이 일하고자 하는 대상"
+
+msgid "by majority vote of all Gold Members"
+msgstr "모든 골드 멤버의 다수 투표에 의해"
 
 msgid "checkout the latest stable branch"
 msgstr "가장 최신의 안정 버전 브랜치를 가져옵니다"
