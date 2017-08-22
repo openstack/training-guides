@@ -5,6 +5,8 @@ OpenStack as Software
 .. image:: ./_assets/os_background.png
    :class: fill
    :width: 100%
+.. note::
+   Tags: [management]
 
 OpenStack
 =========

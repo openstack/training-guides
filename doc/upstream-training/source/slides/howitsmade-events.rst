@@ -6,6 +6,9 @@ OpenStack Events
    :class: fill
    :width: 100%
 
+.. note::
+   Tags: [management]
+
 Regional Events
 ===============
 
