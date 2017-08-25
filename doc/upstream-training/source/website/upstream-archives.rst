@@ -129,6 +129,24 @@ Contribution Planning (2 hours)
 Previous trainings
 ==================
 
+2017 Beijing, China
+-------------------
+
+- `June 14-15 in parallel to the conference part of the OPNFV Summit 2017
+  <http://events.linuxfoundation.org/events/archive/2017/opnfv-summit/extend-the-experience/openstack-upstream-institute>`_
+- Crews: `Beijing Crew
+  <https://wiki.openstack.org/wiki/OpenStack_Upstream_Institute_Occasions#Beijing_Crew>`_
+- Etherpad: https://etherpad.openstack.org/p/upstream-institute-beijing
+
+2017 Boston, USA
+----------------
+
+- Article: `Get up to speed with the OpenStack Upstream Institute
+  <http://superuser.openstack.org/articles/openstack-upstream-institute-update/>`_
+- Crews: `Boston Crew
+  <https://wiki.openstack.org/wiki/OpenStack_Upstream_Institute_Occasions#Boston_Crew>`_
+- Etherpad: https://etherpad.openstack.org/p/upstream-training-boston
+
 2016 Barcelona, Spain
 ---------------------
 
