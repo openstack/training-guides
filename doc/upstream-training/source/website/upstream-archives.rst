@@ -328,3 +328,13 @@ Japan OpenStack User Group has held the Upstream Training in Japan.
    * - October 10 - 11, 2014 (Fri - Sat)
      - More information:
        http://www.openstack.org/blog/2014/11/openstack-upstream-training-in-japan/
+
+Archive of additional training activities
+-----------------------------------------
+
+.. note:: Activities listed here are not realized at every Upstream training.
+
+* `Lego applied to Free Software contributions
+  <archive-training-agile-for-contributors.html>`_
+* `Closing Exercise  <archive-closing-exercise.html>`_
+* `Branching model <archive-branching-model.html>`_

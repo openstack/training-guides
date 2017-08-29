@@ -2,6 +2,14 @@
 OpenStack Upstream Institute Trainers' Guide
 ============================================
 
+If you're joining the training activities as a trainer, coach, or if you hold
+training sessions locally you can refer to this document to find some tips and
+best practices to consider before hosting the class.
+
+We have collected the suggestions based on our experiences from previous
+Upstream Institute trainings.
+
+
 General tips for Trainers and Coaches
 =====================================
 
