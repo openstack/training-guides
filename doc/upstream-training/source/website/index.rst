@@ -80,11 +80,11 @@ OpenStack Days UK
 You can access the training in parallel to the `OpenStack Days UK
 <https://openstackdays.uk/2017/>`_ event.
 
- **Tuesday, September 26, 2017 at 11:00 a.m. to 5:45 p.m. (local time)**
+ **Tuesday, September 26, 2017 at 11:00 a.m. to 5:30 p.m. (local time)**
 
-Please see the `Upstream Developer Training
-<https://openstackdays.uk/2017/?schedule=upstream-developer-training>`_ class
-information for more details.
+Please see the `OpenStack Upstream Institute Office Hours
+<https://openstackdays.uk/2017/?schedule=upstream-developer-training-1>`_
+class information for more details.
 
 `Etherpad for London Upstream Collaboration Training
 <https://etherpad.openstack.org/p/upstream-institute-uk-2017>`_
@@ -102,7 +102,7 @@ You can access the training on the first day of the `OpenStack Days Nordic
 Please see the `Becoming a member of the OpenStack community Part 1
 <https://openstackdaysnordic2017.sched.com/event/9kSn>`_ and
 `Becoming a member of the OpenStack community Part 2
-<https://openstackdaysnordic2017.sched.com/event/BNkw>` pages for class
+<https://openstackdaysnordic2017.sched.com/event/BNkw>`_ pages for class
 information and more details.
 
 `Etherpad for Nordic Upstream Collaboration Training
@@ -118,7 +118,7 @@ How to prepare
 * Make sure you have a wifi enabled laptop with you.
 * Prepared virtual machine image with a development environment:
 
-  * Image and instructions: https://github.com/kmARC/openstack-training-virtual-environment/
+  * Image and instructions: https://github.com/openstack/upstream-institute-virtual-environment
 
 * Prepare an environment by yourself from scratch:
 
