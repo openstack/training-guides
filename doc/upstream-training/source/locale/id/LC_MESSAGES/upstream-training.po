@@ -4,11 +4,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-12 12:37+0000\n"
+"POT-Creation-Date: 2017-08-31 19:29+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-08-12 03:34+0000\n"
+"PO-Revision-Date: 2017-09-01 03:18+0000\n"
 "Last-Translator: suhartono <cloudsuhartono@gmail.com>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -73,9 +73,9 @@ msgstr "**Saturday, November 04, 2017 - Sunday, November 05, 2017**"
 msgid "**Staff**"
 msgstr "**Staff**"
 
-msgid "**Tuesday, September 26, 2017 at 11:00 a.m. to 5:45 p.m. (local time)**"
+msgid "**Tuesday, September 26, 2017 at 11:00 a.m. to 5:30 p.m. (local time)**"
 msgstr ""
-"**Tuesday, September 26, 2017 at 11:00 a.m. to 5:45 p.m. (local time)**"
+"**Tuesday, September 26, 2017 at 11:00 a.m. to 5:30 p.m. (local time)**"
 
 msgid "**Wednesday, October 18, 2017 at 08:30 a.m. to 4:30 p.m. (local time)**"
 msgstr ""
@@ -83,6 +83,12 @@ msgstr ""
 
 msgid "*Common cycle with development milestones*"
 msgstr "*Common cycle with development milestones*"
+
+msgid "1 Day"
+msgstr "1 Day"
+
+msgid "1.5 Days"
+msgstr "1.5 Days"
 
 msgid "13:45 Sagrada Familia"
 msgstr "13:45 Sagrada Familia"
@@ -132,6 +138,12 @@ msgstr "2016 Barcelona, Spain (spanyol)"
 msgid "2016 was 6th birthday of OpenStack"
 msgstr "2016 adalah hari ulang tahun ke-6 dari OpenStack"
 
+msgid "2017 Beijing, China"
+msgstr "2017 Beijing, China"
+
+msgid "2017 Boston, USA"
+msgstr "2017 Boston, USA"
+
 msgid "265 different organizations"
 msgstr "265 organisasi yang berbeda"
 
@@ -158,6 +170,31 @@ msgstr "7:00 Hari perjalanan ke Madrid"
 
 msgid "7:45 Cava & Winery Tour"
 msgstr "7:45 Wisata Cava & Winery"
+
+msgid ""
+":doc:`upstream-details`: : A detailed overview of OpenStack Upstream "
+"Institute Training."
+msgstr ""
+":doc:`upstream-details`: : A detailed overview of OpenStack Upstream "
+"Institute Training."
+
+msgid ":doc:`upstream-trainees-guide`"
+msgstr ":doc:`upstream-trainees-guide`"
+
+msgid ":doc:`upstream-trainers-guide`"
+msgstr ":doc:`upstream-trainers-guide`"
+
+msgid ":doc:`upstream-training-content`"
+msgstr ":doc:`upstream-training-content`"
+
+msgid ":doc:`upstream-training-summit`"
+msgstr ":doc:`upstream-training-summit`"
+
+msgid ":ref:`openstack-day-nordic`"
+msgstr ":ref:`openstack-day-nordic`"
+
+msgid ":ref:`openstack-day-uk`"
+msgstr ":ref:`openstack-day-uk`"
 
 msgid ""
 "A big thank you to everyone that has made this possible, especially Loic "
@@ -249,9 +286,6 @@ msgstr ""
 
 msgid "About the training"
 msgstr "Tentang pelatihan"
-
-msgid "Abstract"
-msgstr "Abstrak"
 
 msgid "Account Setup"
 msgstr "Account Setup (pengaturan akun)"
@@ -458,6 +492,13 @@ msgstr "Latihan yang diarsipkan"
 msgid "Archives"
 msgstr "Arsip"
 
+msgid ""
+"Article: `Get up to speed with the OpenStack Upstream Institute <http://"
+"superuser.openstack.org/articles/openstack-upstream-institute-update/>`_"
+msgstr ""
+"Article: `Get up to speed with the OpenStack Upstream Institute <http://"
+"superuser.openstack.org/articles/openstack-upstream-institute-update/>`_"
+
 msgid "Ask a mentor to break the *tested* code of one test case"
 msgstr "Meminta mentor untuk memecahkan kode *tested* untuk satu batu ujian"
 
@@ -557,9 +598,6 @@ msgstr "Dihapus selama beberapa rilis berikutnya"
 
 msgid "Benefits of being an Official OpenStack project"
 msgstr "Manfaat menjadi proyek OpenStack resmi"
-
-msgid "Best Practices for Trainers"
-msgstr "Best Practices for Trainers"
 
 msgid ""
 "Better entry point for new contributors finding their place in the community"
@@ -935,6 +973,9 @@ msgstr ""
 "Bandingkan tenggat waktu antara dua tim proyek yang berbeda dan bahas "
 "perbedaan dengan kelompok Anda"
 
+msgid "Complete content of Upstream Institute Training can be seen here:"
+msgstr "Isi lengkap Upstream Institute Training dapat dilihat di sini:"
+
 msgid "Complete the application."
 msgstr "Melengkapi permohonan aplikasi."
 
@@ -1007,6 +1048,9 @@ msgstr "Controversial : 1"
 
 msgid "Coordinated development of multiple projects"
 msgstr "Berkoordinasi pengembangan beberapa proyek"
+
+msgid "Copenhagen, Denmark"
+msgstr "Copenhagen, Denmark"
 
 msgid "Copy Public Key"
 msgstr "Copy Public Key"
@@ -1115,6 +1159,20 @@ msgstr ""
 msgid "Create your commit and push upstream for review"
 msgstr "Buat Anda berkomitmen dan mendorong hulu untuk peninjauan"
 
+msgid ""
+"Crews: `Beijing Crew <https://wiki.openstack.org/wiki/"
+"OpenStack_Upstream_Institute_Occasions#Beijing_Crew>`_"
+msgstr ""
+"Crews: `Beijing Crew <https://wiki.openstack.org/wiki/"
+"OpenStack_Upstream_Institute_Occasions#Beijing_Crew>`_"
+
+msgid ""
+"Crews: `Boston Crew <https://wiki.openstack.org/wiki/"
+"OpenStack_Upstream_Institute_Occasions#Boston_Crew>`_"
+msgstr ""
+"Crews: `Boston Crew <https://wiki.openstack.org/wiki/"
+"OpenStack_Upstream_Institute_Occasions#Boston_Crew>`_"
+
 msgid "Current branch name information"
 msgstr "Informasi nama cabang saat ini"
 
@@ -1219,6 +1277,9 @@ msgstr ""
 "Uraian terperinci harus menyertakan rilis OpenStack yang sedang berjalan, "
 "cuplikan log yang menunjukkan kesalahan, langkah-langkah untuk menciptakan "
 "kesalahan dan kemungkinan perangkat keras vendor mungkin terlibat."
+
+msgid "Details"
+msgstr "Details"
 
 msgid ""
 "Details need to be sufficient for a developer to narrow down where the "
@@ -1526,11 +1587,20 @@ msgstr "Etherpad"
 msgid "Etherpad/Ethercalc"
 msgstr "Etherpad/Ethercalc"
 
+msgid "Etherpad: https://etherpad.openstack.org/p/upstream-institute-beijing"
+msgstr "Etherpad: https://etherpad.openstack.org/p/upstream-institute-beijing"
+
+msgid "Etherpad: https://etherpad.openstack.org/p/upstream-training-boston"
+msgstr "Etherpad: https://etherpad.openstack.org/p/upstream-training-boston"
+
 msgid "Etherpads"
 msgstr "Etherpads"
 
 msgid "EunSeop Shin (assistant, mentoring)"
 msgstr "EunSeop Shin (assistant, mentoring)"
+
+msgid "Event"
+msgstr "Event"
 
 msgid "Events"
 msgstr "Acara"
@@ -1819,6 +1889,12 @@ msgstr "Untuk Fedora 22 atau lebih baru buka terminal dan ketik::"
 msgid "For SUSE distributions open a terminal and type::"
 msgstr "Untuk distribusi SUSE buka terminal dan ketik::"
 
+msgid "For Trainees"
+msgstr "Untuk Peserta Pelatihan"
+
+msgid "For Trainers"
+msgstr "Untuk Pelatih"
+
 msgid ""
 "For Windows environment, download latest Hexchat installation binary from "
 "`Hexchat download <https://hexchat.github.io/downloads.html>`__ and install "
@@ -1901,9 +1977,6 @@ msgid ""
 msgstr ""
 "Untuk informasi lebih lanjut tentang pelatihan masa lalu dan pelatihan hulu "
 "lokal, lihat :doc:`upstream-archives`."
-
-msgid "For more information, see :doc:`upstream-details`."
-msgstr "Untuk informasi lebih lanjut, lihat :doc:`upstream-details`."
 
 msgid ""
 "For the **Chat Server Port** type in **6697** and check the **SSL "
@@ -2429,14 +2502,13 @@ msgstr ""
 
 msgid ""
 "If you're joining the training activities as a trainer, coach, or if you "
-"hold training sessions locally you can find some tips and best practices to "
-"consider before hosting the class provided on the :doc:`upstream-trainers-"
-"guide` page."
+"hold training sessions locally you can refer to this document to find some "
+"tips and best practices to consider before hosting the class."
 msgstr ""
 "Jika Anda mengikuti kegiatan pelatihan sebagai trainer, coach, atau jika "
-"Anda mengikuti sesi pelatihan secara lokal, Anda dapat menemukan beberapa "
-"tip dan praktik terbaik untuk dipertimbangkan sebelum menjadi tuan rumah "
-"kelas yang tersedia di halaman :doc:`upstream-trainers-guide`."
+"Anda mengikuti sesi pelatihan secara lokal, Anda dapat merujuk ke dokumen "
+"ini untuk menemukan beberapa tip dan praktik terbaik yang harus "
+"dipertimbangkan sebelum menjadi tuan rumah kelas."
 
 msgid ""
 "If your contribution is on behalf of a company, have your managers sign the "
@@ -2448,18 +2520,20 @@ msgstr ""
 msgid "Ildiko Vancsa - ildikov - Telemetry (mentoring, assistant)"
 msgstr "Ildiko Vancsa - ildikov - Telemetry (mentoring, assistant)"
 
-msgid "Ildiko Vancsa, Kendall Nelson"
-msgstr "Ildiko Vancsa, Kendall Nelson"
+msgid ""
+"Ildiko Vancsa: ildiko@openstack.org Kendall Nelson: knelson@openstack.org"
+msgstr ""
+"Ildiko Vancsa: ildiko@openstack.org Kendall Nelson: knelson@openstack.org"
 
 msgid "Ildikó Váncsa – The OpenStack Foundation"
 msgstr "Ildikó Váncsa – The OpenStack Foundation"
 
 msgid ""
-"Image and instructions: https://github.com/kmARC/openstack-training-virtual-"
-"environment/"
+"Image and instructions: https://github.com/openstack/upstream-institute-"
+"virtual-environment"
 msgstr ""
-"Image dan instruksi: https://github.com/kmARC/openstack-training-virtual-"
-"environment/"
+"Image dan instruksi: https://github.com/openstack/upstream-institute-virtual-"
+"environment"
 
 msgid "Implementation"
 msgstr "Implementation (pelaksanaan)"
@@ -2901,6 +2975,9 @@ msgstr "Local Upstream Trainings"
 msgid "Local branch creation"
 msgstr "Penciptaan cabang lokal"
 
+msgid "Location"
+msgstr "Location"
+
 msgid "Log Output"
 msgstr "Keluaran Log"
 
@@ -2918,6 +2995,9 @@ msgstr "Loic Dachary (training, mentoring, assistant, french, english)"
 
 msgid "Loic Dachary (training, mentoring, assistant, french, english) - lead"
 msgstr "Loic Dachary (training, mentoring, assistant, french, english) - lead"
+
+msgid "London, UK"
+msgstr "London, UK"
 
 msgid "Look at open reviews"
 msgstr "Lihat ulasan terbuka"
@@ -3258,6 +3338,9 @@ msgstr ""
 msgid "Not good as an entry point"
 msgstr "Tidak baik sebagai titik masuk"
 
+msgid "November 04, 2017"
+msgstr "November 04, 2017"
+
 msgid "Now open the hexchat program just like you would for any Linux program."
 msgstr ""
 "Sekarang buka program hexchat sama seperti yang Anda lakukan untuk setiap "
@@ -3271,6 +3354,9 @@ msgstr "Objectives (sasaran)"
 
 msgid "October 10 - 11, 2014 (Fri - Sat)"
 msgstr "10-11 Oktober 2014 (Jumat - Sabtu)"
+
+msgid "October 18, 2017"
+msgstr "October 18, 2017"
 
 msgid "Official & Unofficial Projects"
 msgstr "Proyek Resmi & Tidak Resmi"
@@ -3436,8 +3522,14 @@ msgstr "OpenStack Upstream Institute"
 msgid "OpenStack Upstream Institute Class Details"
 msgstr "OpenStack Upstream Institute Class Details"
 
+msgid "OpenStack Upstream Institute Trainees' Guide"
+msgstr "OpenStack Upstream Institute Trainees' Guide"
+
 msgid "OpenStack Upstream Institute Trainers' Guide"
 msgstr "OpenStack Upstream Institute Trainers' Guide"
+
+msgid "OpenStack Upstream Institute Training Content"
+msgstr "OpenStack Upstream Institute Training Content"
 
 msgid "OpenStack Upstream Training"
 msgstr "OpenStack Upstream Training (pelatihanOpen Stack Upstream)"
@@ -3512,23 +3604,20 @@ msgstr "Organizers of Official OpenStack User Groups"
 msgid "Other"
 msgstr "Lainnya"
 
-msgid "Other events"
-msgstr "Acara lainnya"
-
 msgid "Other possible content"
 msgstr "Konten lain yang mungkin"
 
 msgid "Others: https://wiki.openstack.org/wiki/Meetings"
 msgstr "Lainnya: https://wiki.openstack.org/wiki/Meetings"
 
-msgid "Outline and online slide index"
-msgstr "Indeks slide secara outline dan online"
-
 msgid "Overall feature freeze is the third milestone"
 msgstr "Secara keseluruhan pembekuan fitur adalah tonggak ketiga"
 
 msgid "Oversight over the OpenStack projects"
 msgstr "Pengawasan atas proyek OpenStack"
+
+msgid "Overview"
+msgstr "Ikhtisar"
 
 msgid "Overview of the contribution process"
 msgstr "Ikhtisar proses kontribusi"
@@ -3637,19 +3726,21 @@ msgid ""
 "Please see the `Becoming a member of the OpenStack community Part 1 <https://"
 "openstackdaysnordic2017.sched.com/event/9kSn>`_ and `Becoming a member of "
 "the OpenStack community Part 2 <https://openstackdaysnordic2017.sched.com/"
-"event/BNkw>` pages for class information and more details."
+"event/BNkw>`_ pages for class information and more details."
 msgstr ""
-"Silakan lihat halaman `Becoming a member of the OpenStack community Part 1 "
-"<https://openstackdaysnordic2017.sched.com/event/9kSn>`_ dan `Becoming a "
-"member of the OpenStack community Part 2 <https://openstackdaysnordic2017."
-"sched.com/event/BNkw>` untuk informasi kelas dan rincian lebih lanjut."
+"Silakan lihat `Becoming a member of the OpenStack community Part 1 <https://"
+"openstackdaysnordic2017.sched.com/event/9kSn>`_ dan `Becoming a member of "
+"the OpenStack community Part 2 <https://openstackdaysnordic2017.sched.com/"
+"event/BNkw>`_ halaman untuk informasi kelas dan rincian lebih lanjut."
 
 msgid ""
-"Please see the `Upstream Developer Training <https://openstackdays.uk/2017/?"
-"schedule=upstream-developer-training>`_ class information for more details."
+"Please see the `OpenStack Upstream Institute Office Hours <https://"
+"openstackdays.uk/2017/?schedule=upstream-developer-training-1>`_ class "
+"information for more details."
 msgstr ""
-"Silakan lihat `Upstream Developer Training <https://openstackdays.uk/2017/?"
-"schedule=upstream-developer-training>`_ informasi kelas untuk lebih jelasnya."
+"Silakan lihat `OpenStack Upstream Institute Office Hours <https://"
+"openstackdays.uk/2017/?schedule=upstream-developer-training-1>`_ informasi "
+"kelas untuk lebih jelasnya."
 
 msgid "Post"
 msgstr "Post"
@@ -3681,6 +3772,9 @@ msgstr "Siapkan ide Anda untuk proposal ke masyarakat."
 
 msgid "Prepared virtual machine image with a development environment:"
 msgstr "Image mesin virtual disiapkan dengan lingkungan pengembangan:"
+
+msgid "Prerequisite and best practice guide for trainees:"
+msgstr "Panduan prasyarat dan terbaik bagi peserta pelatihan:"
 
 msgid "Prerequisites to attend the class"
 msgstr "Prasyarat untuk menghadiri kelas"
@@ -4132,6 +4226,13 @@ msgstr "Sampai jumpa di Kopenhagen!"
 msgid "See YOU in London!"
 msgstr "Sampai jumpa di London!"
 
+msgid ""
+"See this web page and the schedule of the upcoming class for more details "
+"and registration."
+msgstr ""
+"Lihat halaman web ini dan jadwal kelas yang akan datang untuk lebih jelasnya "
+"dan registrasi."
+
 msgid "Seeing new comment"
 msgstr "Melihat komentar baru"
 
@@ -4143,6 +4244,9 @@ msgstr "SeongSoo Cho (assistant, mentoring)"
 
 msgid "Seoul, Korea"
 msgstr "Seoul, Korea"
+
+msgid "September 26, 2017"
+msgstr "September 26, 2017"
 
 msgid ""
 "Services in DevStack are running as ``systemd`` units named devstack@"
@@ -4435,9 +4539,6 @@ msgstr "Summary Line"
 msgid "Summit & Forum"
 msgstr "Summit & Forum"
 
-msgid "Summits"
-msgstr "Pertemuan puncak"
-
 msgid ""
 "Summits take place around the middle of a release to exhibit accomplishments "
 "and get feedback from users on the most recent release"
@@ -4456,6 +4557,9 @@ msgstr "Sungjin Kang (training, assistant, mentoring)"
 
 msgid "Swami Redydy (mentoring, assistant)"
 msgstr "Swami Redydy (mentoring, assistant)"
+
+msgid "Sydney, Australia"
+msgstr "Sydney, Australia"
 
 msgid "Syed Armani (training, mentoring, assistant, english)"
 msgstr "Syed Armani (training, mentoring, assistant, english)"
@@ -4887,6 +4991,13 @@ msgstr "Tim Freund (training, mentoring, assistant, english)"
 msgid "Timing"
 msgstr "Pemilihan waktu"
 
+msgid ""
+"Tips and best practices guide for trainers, coaches and mentors holding the "
+"training locally:"
+msgstr ""
+"Kiat dan panduan praktik terbaik untuk pelatih, pelatih, dan mentor yang "
+"mengikuti pelatihan secara lokal:"
+
 msgid "Tips for Exercises"
 msgstr "Tips untuk Latihan"
 
@@ -4953,8 +5064,14 @@ msgstr ""
 "seperti mengemas atau menerapkan OpenStack mengikuti model ini; misalnya "
 "Fuel and Kolla"
 
+msgid "Training Content"
+msgstr "Konten Pelatihan"
+
 msgid "Training organizers"
 msgstr "Training organizers"
+
+msgid "Trainings"
+msgstr "Pelatihan"
 
 msgid ""
 "Transparency: the community can have confidence that all calculations are "
@@ -5043,6 +5160,9 @@ msgid "Unlike ATC, APC and PTLs, role is not defined in the TC charter"
 msgstr ""
 "Tidak seperti ATC, APC dan PTL, peran tidak didefinisikan dalam piagam TC"
 
+msgid "Upcoming Trainings"
+msgstr "Pelatihan Mendatang"
+
 msgid "Update and add tests (unit, functional, etc.)"
 msgstr "Memperbarui dan menambahkan tes (unit, fungsional, dll)"
 
@@ -5063,6 +5183,9 @@ msgstr "Mengunggah patchset baru"
 
 msgid "Uploading to Gerrit"
 msgstr "Meng-upload ke Gerrit"
+
+msgid "Upstream Institute Training Other Events"
+msgstr "Upstream Institute Training Other Events"
 
 msgid "Upstream Training in Japan"
 msgstr "Upstream Training in Japan (pelatihan hulu di Jepang)"
@@ -5237,13 +5360,13 @@ msgid "Ways to Communicate in OpenStack"
 msgstr "Cara berkomunikasi di OpenStack"
 
 msgid ""
-"We are bringing a one day long version of the training to some of the local "
-"OpenStack Days events and other industry events. Keep your eyes open for "
-"these events and check back on this website to find new occasions."
+"We are also bringing a one day long version of the training to some of the "
+"local OpenStack Days events and other industry events. Keep a look out for "
+"updates about these events in the `Upcoming Trainings`_ section."
 msgstr ""
-"Kami membawa versi pelatihan satu hari yang panjang untuk beberapa acara "
-"OpenStack Days dan acara industri lainnya. Jagalah agar tetap terbuka untuk "
-"event ini dan periksa kembali situs ini untuk menemukan acara baru."
+"Kami juga membawa versi pelatihan satu hari yang panjang ke beberapa acara "
+"OpenStack Days dan acara industri lainnya. Lihat pemutakhiran tentang acara "
+"ini di bagian `Upcoming Trainings`_."
 
 msgid ""
 "We are providing a virtual machine with the necessary tools pre-installed in "
@@ -5306,13 +5429,8 @@ msgstr ""
 "pelatihan sebelum setiap OpenStack Summit. Selain itu acara \"official\", "
 "beberapa kelompok pengguna mengadakan pelatihan Upstream lokal."
 
-msgid ""
-"We run the full training prior to each OpenStack Summit, see this web page "
-"and the schedule of the upcoming event for more details and registration."
-msgstr ""
-"Kami menjalankan pelatihan penuh sebelum setiap OpenStack Summit, lihat "
-"halaman web ini dan jadwal acara yang akan datang untuk lebih jelasnya dan "
-"registrasi."
+msgid "We run the full training prior to each OpenStack Summit."
+msgstr "Kami menjalankan pelatihan penuh sebelum setiap OpenStack Summit."
 
 msgid ""
 "We will go into this later on in more detail so hold off on answering "
@@ -5406,9 +5524,6 @@ msgstr "Apa pentingnya titik, garis dan warna"
 
 msgid "What makes a release"
 msgstr "Apa yang membuat rilis"
-
-msgid "When and where to get an OpenStack Upstream Institute class"
-msgstr "Kapan dan dimana untuk mendapatkan kelas OpenStack Upstream Institute."
 
 msgid "When in the cycle you intend to complete it"
 msgstr "Ketika dalam siklus Anda berniat untuk menyelesaikannya"
@@ -5687,6 +5802,9 @@ msgstr ""
 "Zuul adalah proyek gating dan sistem otomasi yang menguji dan menggabungkan "
 "perubahan serta menerbitkan rilis dan dokumentasi."
 
+msgid "\\"
+msgstr "\\"
+
 msgid ""
 "`\"Big Tent\" and tags <http://governance.openstack.org/reference/new-"
 "projects-requirements.html>`_"
@@ -5952,6 +6070,15 @@ msgid ""
 msgstr ""
 "`Jenkins (Automated testing) <http://docs.openstack.org/infra/manual/"
 "developers.html#automated-testing>`_"
+
+msgid ""
+"`June 14-15 in parallel to the conference part of the OPNFV Summit 2017 "
+"<http://events.linuxfoundation.org/events/archive/2017/opnfv-summit/extend-"
+"the-experience/openstack-upstream-institute>`_"
+msgstr ""
+"`June 14-15 in parallel to the conference part of the OPNFV Summit 2017 "
+"<http://events.linuxfoundation.org/events/archive/2017/opnfv-summit/extend-"
+"the-experience/openstack-upstream-institute>`_"
 
 msgid "`Launchpad <https://help.launchpad.net/>`_"
 msgstr "`Launchpad <https://help.launchpad.net/>`_"

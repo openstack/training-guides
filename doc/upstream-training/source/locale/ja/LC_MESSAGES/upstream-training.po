@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-11 16:42+0000\n"
+"POT-Creation-Date: 2017-08-31 19:29+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -127,9 +127,6 @@ msgstr "APIImpact"
 
 msgid "About the training"
 msgstr "トレーニングについて"
-
-msgid "Abstract"
-msgstr "概要"
 
 msgid "Account Setup"
 msgstr "アカウントのセットアップ"
@@ -1062,9 +1059,6 @@ msgstr ""
 "これまでのトレーニングや地域ごとの Upstream Training の情報は、 :doc:"
 "`upstream-archives` にあります。"
 
-msgid "For more information, see :doc:`upstream-details`."
-msgstr "詳細は :doc:`upstream-details` を参照してください。"
-
 msgid ""
 "For the **Chat Server Port** type in **6697** and check the **SSL "
 "Connection** box."
@@ -1453,13 +1447,6 @@ msgstr "Ildiko Vancsa - ildikov - Telemetry (mentoring, assistant)"
 
 msgid "Ildikó Váncsa – The OpenStack Foundation"
 msgstr "Ildikó Váncsa – The OpenStack Foundation"
-
-msgid ""
-"Image and instructions: https://github.com/kmARC/openstack-training-virtual-"
-"environment/"
-msgstr ""
-"イメージおよび説明: https://github.com/kmARC/openstack-training-virtual-"
-"environment/"
 
 msgid "Implementation"
 msgstr "実装"
@@ -2138,9 +2125,6 @@ msgstr "その他記載する可能性があるものとしては、"
 msgid "Others: https://wiki.openstack.org/wiki/Meetings"
 msgstr "その他: https://wiki.openstack.org/wiki/Meetings"
 
-msgid "Outline and online slide index"
-msgstr "概要およびスライドのインデックス"
-
 msgid "Overall feature freeze is the third milestone"
 msgstr "全体の機能凍結は 3 番目のマイルストーンです"
 
@@ -2623,9 +2607,6 @@ msgstr "パッチの内容を簡潔に述べます"
 
 msgid "Suggestions of projects to work on:"
 msgstr "取り組むプロジェクトの提案 : "
-
-msgid "Summits"
-msgstr "サミット"
 
 msgid "Sungjin Kang (training, assistant, mentoring)"
 msgstr "Sungjin Kang (training, assistant, mentoring)"

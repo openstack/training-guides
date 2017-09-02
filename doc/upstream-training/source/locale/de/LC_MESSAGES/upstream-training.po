@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-18 13:22+0000\n"
+"POT-Creation-Date: 2017-08-31 19:29+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -169,9 +169,6 @@ msgstr "APIImpact"
 
 msgid "About the training"
 msgstr "Über das Training"
-
-msgid "Abstract"
-msgstr "Auftakt"
 
 msgid "Account Setup"
 msgstr "Benutzerkonto einrichten"
@@ -1394,9 +1391,6 @@ msgstr ""
 "Weitere Informationen über vergangene Trainings und lokale Upstream-"
 "Trainings finden Sie unter :doc:`upstream-archives`."
 
-msgid "For more information, see :doc:`upstream-details`."
-msgstr "Für mehr Informationen schauen Sie auf  :doc:`upstream-details`."
-
 msgid ""
 "For the **Chat Server Port** type in **6697** and check the **SSL "
 "Connection** box."
@@ -1857,18 +1851,8 @@ msgstr ""
 msgid "Ildiko Vancsa - ildikov - Telemetry (mentoring, assistant)"
 msgstr "Ildiko Vancsa - ildikov - Telemetry (Mentoring, Assistent)"
 
-msgid "Ildiko Vancsa, Kendall Nelson"
-msgstr "Ildiko Vancsa, Kendall Nelson"
-
 msgid "Ildikó Váncsa – The OpenStack Foundation"
 msgstr "Ildikó Váncsa – The OpenStack Foundation"
-
-msgid ""
-"Image and instructions: https://github.com/kmARC/openstack-training-virtual-"
-"environment/"
-msgstr ""
-"Abbild und Anleitung: https://github.com/kmARC/openstack-training-virtual-"
-"environment/"
 
 msgid "Implementation"
 msgstr "Implementierung"
@@ -2697,9 +2681,6 @@ msgstr "Weiterer möglicher Inhalt"
 msgid "Others: https://wiki.openstack.org/wiki/Meetings"
 msgstr "Andere: https://wiki.openstack.org/wiki/Meetings"
 
-msgid "Outline and online slide index"
-msgstr "Gliederung und Online-Inhaltsverzeichnis"
-
 msgid "Overall feature freeze is the third milestone"
 msgstr ""
 "Allgemeine Sperrfrist für neue Funktionen beginnt mit dem dritten Meilenstein"
@@ -3319,9 +3300,6 @@ msgstr "Zusammenfassung"
 msgid "Summit & Forum"
 msgstr "Summit & Forum"
 
-msgid "Summits"
-msgstr "Summits"
-
 msgid "Summits/Forums"
 msgstr "Summits/Foren"
 
@@ -3932,9 +3910,6 @@ msgstr "Was ist der OpenStack Foundation Account?"
 
 msgid "What makes a release"
 msgstr "Was macht eine Version"
-
-msgid "When and where to get an OpenStack Upstream Institute class"
-msgstr "Wann und wo bekommt man eine OpenStack Upstream Institut Klasse"
 
 msgid "When in the cycle you intend to complete it"
 msgstr "Wann während des Zyklusses soll es planmäßig abgeschlossen sein"
