@@ -6,6 +6,9 @@ Official OpenStack projects
    :class: fill
    :width: 100%
 
+.. note::
+   Tags: [management]
+
 
 Official OpenStack projects
 ===========================

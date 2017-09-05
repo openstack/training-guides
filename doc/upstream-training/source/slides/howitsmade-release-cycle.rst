@@ -6,6 +6,9 @@ OpenStack Release Cycle
    :class: fill
    :width: 100%
 
+.. note::
+   Tags: [management]
+
 What makes a release
 ====================
 
