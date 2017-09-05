@@ -6,6 +6,9 @@ Metrics
    :class: fill
    :width: 100%
 
+.. note::
+   Tags: [management]
+
 The OpenStack Community in numbers
 ==================================
 

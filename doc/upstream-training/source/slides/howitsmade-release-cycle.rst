@@ -7,7 +7,7 @@ OpenStack Release Cycle
    :width: 100%
 
 .. note::
-   Tags: [management]
+   Tags: [management] [operator]
 
 What makes a release
 ====================

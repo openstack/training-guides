@@ -7,7 +7,7 @@ OpenStack Events
    :width: 100%
 
 .. note::
-   Tags: [management]
+   Tags: [management] [operator]
 
 Regional Events
 ===============
