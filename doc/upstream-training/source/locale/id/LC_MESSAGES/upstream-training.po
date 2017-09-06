@@ -4,11 +4,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-31 19:29+0000\n"
+"POT-Creation-Date: 2017-09-05 12:32+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-09-01 03:18+0000\n"
+"PO-Revision-Date: 2017-09-05 04:49+0000\n"
 "Last-Translator: suhartono <cloudsuhartono@gmail.com>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -1020,6 +1020,9 @@ msgstr "Kontak informasi"
 msgid "Contribution Planning (2 hours)"
 msgstr "Perencanaan kontribusi (2 jam)"
 
+msgid "Contribution Process"
+msgstr "Proses Kontribusi"
+
 msgid "Contribution Simulation (2 hour)"
 msgstr "Kontribusi Simulasi (2 jam)"
 
@@ -1240,6 +1243,9 @@ msgstr ""
 
 msgid "Dedicated and detailed technical discussions"
 msgstr "Diskusi teknis khusus dan rinci"
+
+msgid "Demo Environment"
+msgstr "Demo Environment"
 
 msgid "Demo environment"
 msgstr "Lingkungan demo"
@@ -1580,6 +1586,9 @@ msgid ""
 msgstr ""
 "Pastikan Anda memiliki repositori DevStack yang dikloning ke VM dimana Anda "
 "ingin menggunakannya"
+
+msgid "Environment Setup"
+msgstr "Environment Setup"
 
 msgid "Etherpad"
 msgstr "Etherpad"
@@ -2251,6 +2260,9 @@ msgid ""
 "Good source of info about when and in what channel regular meetings are held"
 msgstr ""
 "Sumber bagus info tentang kapan dan apa saluran pertemuan rutin diadakan"
+
+msgid "Governance"
+msgstr "Governance"
 
 msgid "Great repository to begin your OpenStack learning"
 msgstr "Repositori besar untuk memulai belajar OpenStack Anda"
@@ -3116,6 +3128,9 @@ msgstr ""
 msgid "Manage day-to-day operations"
 msgstr "Mengelola operasi sehari-hari"
 
+msgid "Management"
+msgstr "Management"
+
 msgid "Managers"
 msgstr "Managers (manajer)"
 
@@ -3358,6 +3373,9 @@ msgstr "10-11 Oktober 2014 (Jumat - Sabtu)"
 msgid "October 18, 2017"
 msgstr "October 18, 2017"
 
+msgid "Offical Projects"
+msgstr "Offical Projects"
+
 msgid "Official & Unofficial Projects"
 msgstr "Proyek Resmi & Tidak Resmi"
 
@@ -3552,6 +3570,9 @@ msgstr "OpenStack as Software (openstack sebagai perangkat lunak)"
 msgid "OpenStack as a Community"
 msgstr "OpenStack sebagai komunitas"
 
+msgid "OpenStack as a Software"
+msgstr "OpenStack sebagai Software"
+
 msgid "OpenStack from Telecom/NFV perspective"
 msgstr "OpenStack dari perspektif Telecom/NFV"
 
@@ -3571,6 +3592,9 @@ msgstr "OpenStack-Health"
 msgid "OpenStack-Health has a dashboard of overal OpenStack test results."
 msgstr ""
 "OpenStack-Health memiliki dashboard hasil tes OpenStack secara keseluruhan."
+
+msgid "Openstack as a Community"
+msgstr "Openstack sebagai Community"
 
 msgid "Operators' meet ups"
 msgstr "Pertemuan operator"
@@ -3818,6 +3842,9 @@ msgstr ""
 "Project Onboarding Sessions: Tempat untuk kontributor baru untuk mengajukan "
 "pertanyaan dan mengenal kontributor lainnya untuk proyek"
 
+msgid "Project Status & Zuul"
+msgstr "Project Status & Zuul"
+
 msgid "Project Status and Zuul"
 msgstr "Project Status dan Zuul"
 
@@ -3987,6 +4014,9 @@ msgstr ""
 "Daftarkan blueprint itu : https://blueprints.launchpad.net/openstack-dev-"
 "sandbox"
 
+msgid "Registration & Accounts"
+msgstr "Pendaftaran & Akun"
+
 msgid "Registration and Accounts"
 msgstr "Registration and Accounts (pendaftaran dan akun)"
 
@@ -4006,6 +4036,9 @@ msgstr ""
 
 msgid "Release Candidates"
 msgstr "Kandidat rilis"
+
+msgid "Release Cycle"
+msgstr "Siklus rilis"
 
 msgid "Release candidate process"
 msgstr "Proses release candidate"
@@ -4185,6 +4218,9 @@ msgstr "Kunci SSH selalu dihasilkan berpasangan:"
 
 msgid "Sahid Ferdjaoui (assistant, french, english)"
 msgstr "Sahid Ferdjaoui (assistant, french, english)"
+
+msgid "Sandbox"
+msgstr "Sandbox"
 
 msgid "Sandbox Launchpad"
 msgstr "Sandbox Launchpad"
@@ -4595,6 +4631,9 @@ msgid ""
 msgstr ""
 "Tag dapat dikaitkan dengan proyek. Cari tahu tag apa dan temukan daftar tag "
 "yang ada saat ini."
+
+msgid "Tags: [management]"
+msgstr "Tags: [management]"
 
 msgid ""
 "Tags: low-hanging-fruit, documentation, security, other per project tags -  "
@@ -5710,6 +5749,9 @@ msgstr "Tulislah baris ringkasan untuk masing-masing skenario berikut ini:"
 
 msgid "Writing 'Related-Bug: #[Bug number in Lanuchpad]' on message content"
 msgstr "Penulisan 'Related-Bug: #[Bug number in Lanuchpad]' pada isi pesan"
+
+msgid "X"
+msgstr "X"
 
 msgid "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 msgstr "Xavier Antoviaque (training, mentoring, assistant, french, english)"
