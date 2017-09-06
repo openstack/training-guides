@@ -17,8 +17,8 @@ Mission
 Sites
 =====
 
-- http://docs.openstack.org
-- http://developer.openstack.org
+- https://docs.openstack.org
+- https://developer.openstack.org
 
 Documentation team structure
 ============================
@@ -40,13 +40,13 @@ Repositories
 ============
 
 - `Official deliverables with repositories <https://governance.openstack.org/tc/reference/projects/documentation.html#deliverables>`_
-- Project repos can have installation tutorial and developer documentation
+- Project repos have installation tutorials and developer documentation
 
   - Example: `Heat repository <https://git.openstack.org/cgit/openstack/heat/tree/>`_
 
     - `Installation Tutorial (Ocata) <https://docs.openstack.org/project-install-guide/orchestration/ocata/>`_
       is published from install-guide directory in stable/ocata branch
-    - `Developer documentation <https://docs.openstack.org/developer/heat/>`_
+    - `Developer documentation <https://docs.openstack.org/heat/>`_
       is published from doc directory in master branch
 
 Bug reports
@@ -59,7 +59,7 @@ Bug reports
 Contributor guide
 =================
 
-- http://docs.openstack.org/contributor-guide/index.html
+- https://docs.openstack.org/contributor-guide/index.html
 
 This guide provides detailed instructions on the contribution workflow and
 conventions to be considered by all documentation contributors.
@@ -67,13 +67,12 @@ conventions to be considered by all documentation contributors.
 Building documentation
 ======================
 
-- http://docs.openstack.org/contributor-guide/docs-builds.html
+- https://docs.openstack.org/contributor-guide/docs-builds.html
 
-Draft documentation, testing, and EOL
-=====================================
+EOL documents
+=============
 
-- https://docs.openstack.org/draft/draft-index.html
-- Some documents (e.g., install-guides) require testing with releases
-- EOL documents are not maintained in documentation repositories
+- EOL documents are not maintained in the documentation repositories,
+  the content is frozen.
 
   - See EOL status at: https://releases.openstack.org
