@@ -13,12 +13,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-31 19:29+0000\n"
+"POT-Creation-Date: 2017-09-07 01:17+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-08-26 03:32+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"PO-Revision-Date: 2017-09-08 05:24+0000\n"
+"Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
 "X-Generator: Zanata 3.9.6\n"
@@ -126,6 +126,9 @@ msgstr "2016 스페인 Barcelona"
 
 msgid "2016 was 6th birthday of OpenStack"
 msgstr "2016년은 OpenStack 여섯 번째 생일이었습니다"
+
+msgid "2017 Boston, USA"
+msgstr "2017 미국 보스턴"
 
 msgid "265 different organizations"
 msgstr "265 개의 서로 다른 회사"
@@ -337,6 +340,13 @@ msgstr "이전 실습"
 
 msgid "Archives"
 msgstr "아카이브"
+
+msgid ""
+"Article: `Get up to speed with the OpenStack Upstream Institute <http://"
+"superuser.openstack.org/articles/openstack-upstream-institute-update/>`_"
+msgstr ""
+"기사: `Get up to speed with the OpenStack Upstream Institute <http://"
+"superuser.openstack.org/articles/openstack-upstream-institute-update/>`_"
 
 msgid "Ask a mentor to break the *tested* code of one test case"
 msgstr ""
@@ -757,6 +767,9 @@ msgstr "연락처 정보"
 msgid "Contribution Planning (2 hours)"
 msgstr "컨트리뷰션 계획 (2시간)"
 
+msgid "Contribution Process"
+msgstr "컨트리뷰션 프로세스"
+
 msgid "Contribution Simulation (2 hour)"
 msgstr "컨트리뷰션 시뮬레이션 (2시간)"
 
@@ -900,6 +913,9 @@ msgstr "다른 그룹과 함께 여행을 위해 참석하고자 하는 국가�
 msgid "Dedicated and detailed technical discussions"
 msgstr "집중된 그리고 자세한 기술적인 토론이 있습니다"
 
+msgid "Demo Environment"
+msgstr "데모 환경"
+
 msgid "Demo environment"
 msgstr "데모 환경"
 
@@ -1032,9 +1048,6 @@ msgstr "댓글 초안에 대한 게시"
 msgid "Draft comment was saved"
 msgstr "댓글 초안이 저장되었습니다"
 
-msgid "Draft documentation, testing, and EOL"
-msgstr "Draft 문서, 테스팅, 그리고 EOL"
-
 msgid "Draft inline comments"
 msgstr "인라인 코멘트 초안"
 
@@ -1068,8 +1081,15 @@ msgstr ""
 "업스트림 트레이닝 기간에는, 이에 대해 걱정하지 마십시오! 업스트림 트레이닝 진"
 "행자들이 트레이닝 완료 후 제거할 것입니다."
 
-msgid "EOL documents are not maintained in documentation repositories"
-msgstr "EOL 문서는 문서 저장소에서 유지보수가 (더 이상) 이루어지지 않습니다"
+msgid "EOL documents"
+msgstr "EOL 문서"
+
+msgid ""
+"EOL documents are not maintained in the documentation repositories, the "
+"content is frozen."
+msgstr ""
+"EOL 문서는 문서화 저장소에서 관리하지 않으며, 내용 변경이 이루어지지 않습니"
+"다."
 
 msgid "Each PTL candidate needs to submit PTL candidacy"
 msgstr "각 PTL 후보는 PTL 입후보를 제출할 필요가 있습니다"
@@ -1143,11 +1163,20 @@ msgid ""
 "like to use it"
 msgstr "사용하고자 하는 VM에 DevStack 저장소를 clone하였는지를 확인합니다"
 
+msgid "Environment Setup"
+msgstr "환경 셋업"
+
 msgid "Etherpad"
 msgstr "Etherpad"
 
 msgid "Etherpad/Ethercalc"
 msgstr "Etherpad/Ethercalc"
+
+msgid "Etherpad: https://etherpad.openstack.org/p/upstream-institute-beijing"
+msgstr "Etherpad: https://etherpad.openstack.org/p/upstream-institute-beijing"
+
+msgid "Etherpad: https://etherpad.openstack.org/p/upstream-training-boston"
+msgstr "Etherpad: https://etherpad.openstack.org/p/upstream-training-boston"
 
 msgid "Etherpads"
 msgstr "Etherpad"
@@ -1655,6 +1684,9 @@ msgstr ""
 "언제 그리고 어떤 채널이 정기적으로 회의를 하고 있는지에 대한 정보를 갖는 좋"
 "은 소스입니다"
 
+msgid "Governance"
+msgstr "Governance"
+
 msgid "Great repository to begin your OpenStack learning"
 msgstr "OpenStack 학습을 시작하기 위한 훌륭한 저장소입니다"
 
@@ -1847,6 +1879,13 @@ msgstr "Ildiko Vancsa - ildikov - Telemetry (멘토링, 조교)"
 
 msgid "Ildikó Váncsa – The OpenStack Foundation"
 msgstr "Ildikó Váncsa – The OpenStack Foundation"
+
+msgid ""
+"Image and instructions: https://github.com/openstack/upstream-institute-"
+"virtual-environment"
+msgstr ""
+"이미지 및 안내: https://github.com/openstack/upstream-institute-virtual-"
+"environment"
 
 msgid "Implementation"
 msgstr "구현"
@@ -2503,6 +2542,9 @@ msgstr "목표"
 msgid "October 10 - 11, 2014 (Fri - Sat)"
 msgstr "2014년 10월 10 - 11일 (금 - 토)"
 
+msgid "Offical Projects"
+msgstr "공식 프로젝트"
+
 msgid "Official & Unofficial Projects"
 msgstr "공식 & 비공식 프로젝트"
 
@@ -2675,6 +2717,9 @@ msgstr "소프트웨어로서의 OpenStack"
 msgid "OpenStack as a Community"
 msgstr "커뮤니티로서의 OpenStack"
 
+msgid "OpenStack as a Software"
+msgstr "소프트웨어로서의 OpenStack"
+
 msgid "OpenStack from Telecom/NFV perspective"
 msgstr "통신사/NFV 관점에서의 OpenStack"
 
@@ -2690,6 +2735,9 @@ msgstr "OpenStack sandbox 환경: DevStack"
 
 msgid "OpenStack-Health"
 msgstr "OpenStack-Health"
+
+msgid "Openstack as a Community"
+msgstr "커뮤니티로서의 OpenStack"
 
 msgid "Operators' meet ups"
 msgstr "운영자 밋업"
@@ -2835,6 +2883,9 @@ msgstr ""
 "프로젝트 진행사항 세션: 새로운 공헌자가 질문을 하고 프로젝트의 다른 공헌자들"
 "과 안면을 트는 자리"
 
+msgid "Project Status & Zuul"
+msgstr "프로젝트 상태 & Zuul"
+
 msgid "Project Team Gathering (PTG)"
 msgstr "Project Team Gathering (PTG)"
 
@@ -2844,9 +2895,8 @@ msgstr "Project Team Leads (PTLs)"
 msgid "Project Teams Gatherings (PTGs)"
 msgstr "Project Teams Gatherings (PTGs)"
 
-msgid ""
-"Project repos can have installation tutorial and developer documentation"
-msgstr "프로젝트 저장소는 설치 튜토리얼 및 개발자 문서를 보유할 수 있습니다"
+msgid "Project repos have installation tutorials and developer documentation"
+msgstr "프로젝트 저장소에 설치 튜토리얼 및 개발자 문서가 있습니다"
 
 msgid ""
 "Project team helps you to identify the target milestone and register it in "
@@ -2953,6 +3003,9 @@ msgstr ""
 "blueprint를 등록합니다 : https://blueprints.launchpad.net/openstack-dev-"
 "sandbox"
 
+msgid "Registration & Accounts"
+msgstr "등록 & 계정"
+
 msgid "Registration and Accounts"
 msgstr "등록 및 계정"
 
@@ -2967,6 +3020,9 @@ msgstr "릴리즈"
 
 msgid "Release Candidates"
 msgstr "릴리즈 대상"
+
+msgid "Release Cycle"
+msgstr "릴리즈 주기"
 
 msgid "Release cycle"
 msgstr "릴리즈 주기"
@@ -3106,6 +3162,9 @@ msgstr "SSH 키는 항상 쌍으로 생성됩니다:"
 
 msgid "Sahid Ferdjaoui (assistant, french, english)"
 msgstr "Sahid Ferdjaoui (조교, 프랑스어, 영어)"
+
+msgid "Sandbox"
+msgstr "Sandbox"
 
 msgid "Sandbox Launchpad"
 msgstr "Sandbox Launchpad"
@@ -3252,9 +3311,6 @@ msgid ""
 msgstr ""
 "몇몇 구성원은 개발에 집중을 하며 다른 구성원들은 보다 사용자 및 운영자에게 초"
 "점을 맞춥니다"
-
-msgid "Some documents (e.g., install-guides) require testing with releases"
-msgstr "일부 문서들 (예: install-guides)는 릴리즈를 통한 테스트가 필요합니다."
 
 msgid ""
 "Someone of authority needs to sign the `U.S. Government Contributor License "
@@ -3408,6 +3464,9 @@ msgstr "TC 자리는 ATC 그룹에 의해 구성 및 선출이 이루어집니�
 
 msgid "Taehee Jang (assistant, mentoring - Ubuntu Korea Community)"
 msgstr "Taehee Jang (조교, 멘토링 - 우분투 한국 커뮤니티)"
+
+msgid "Tags: [management]"
+msgstr "태그: [관리]"
 
 msgid "Takashi Torii (assistant, japanese)"
 msgstr "Takashi Torii (조교, 일본어)"
@@ -4102,6 +4161,9 @@ msgstr "전반적인 문서화와 함께 하는 동작하는 소프트웨어"
 msgid "Writing 'Related-Bug: #[Bug number in Lanuchpad]' on message content"
 msgstr "메시지 내용에 'Related-Bug: #[Lanuchpad 버그 번호]' 작성"
 
+msgid "X"
+msgstr "X"
+
 msgid "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 msgstr "Xavier Antoviaque (교육, 멘토링, 조교, 프랑스어, 영어)"
 
@@ -4253,11 +4315,11 @@ msgid "`DevStack <http://docs.openstack.org/developer/devstack/>`_"
 msgstr "`DevStack <http://docs.openstack.org/developer/devstack/>`_"
 
 msgid ""
-"`Developer documentation <https://docs.openstack.org/developer/heat/>`_ is "
-"published from doc directory in master branch"
+"`Developer documentation <https://docs.openstack.org/heat/>`_ is published "
+"from doc directory in master branch"
 msgstr ""
-"`Developer documentation <https://docs.openstack.org/developer/heat/>`_ 는 "
-"master 브랜치 내 doc 디렉토리에서 퍼블리싱이 이루어집니다"
+"`Developer documentation <https://docs.openstack.org/heat/>`_ 은 master 브랜"
+"치 내 doc 디렉토리에서 퍼블리싱이 이루어집니다."
 
 msgid ""
 "`Developer’s Guide <http://docs.openstack.org/infra/manual/developers.html>`_"
@@ -4924,18 +4986,6 @@ msgstr "기업 목표에 어떻게 기여할 것인지에 대한 방법"
 msgid "how they will engage with the Upstream"
 msgstr "업스트림에 어떻게 참여할 것인지에 대한 방법"
 
-msgid "http://developer.openstack.org"
-msgstr "http://developer.openstack.org"
-
-msgid "http://docs.openstack.org"
-msgstr "http://docs.openstack.org"
-
-msgid "http://docs.openstack.org/contributor-guide/docs-builds.html"
-msgstr "http://docs.openstack.org/contributor-guide/docs-builds.html"
-
-msgid "http://docs.openstack.org/contributor-guide/index.html"
-msgstr "http://docs.openstack.org/contributor-guide/index.html"
-
 msgid "http://docs.openstack.org/infra/manual/sandbox.html"
 msgstr "http://docs.openstack.org/infra/manual/sandbox.html"
 
@@ -4982,8 +5032,17 @@ msgstr "https://bugs.launchpad.net/openstack-manuals"
 msgid "https://bugs.launchpad.net/openstack-training-guides"
 msgstr "https://bugs.launchpad.net/openstack-training-guides"
 
-msgid "https://docs.openstack.org/draft/draft-index.html"
-msgstr "https://docs.openstack.org/draft/draft-index.html"
+msgid "https://developer.openstack.org"
+msgstr "https://developer.openstack.org"
+
+msgid "https://docs.openstack.org"
+msgstr "https://docs.openstack.org"
+
+msgid "https://docs.openstack.org/contributor-guide/docs-builds.html"
+msgstr "https://docs.openstack.org/contributor-guide/docs-builds.html"
+
+msgid "https://docs.openstack.org/contributor-guide/index.html"
+msgstr "https://docs.openstack.org/contributor-guide/index.html"
 
 msgid "https://docs.openstack.org/infra/manual/developers.html#account-setup"
 msgstr "https://docs.openstack.org/infra/manual/developers.html#account-setup"
