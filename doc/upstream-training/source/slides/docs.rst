@@ -6,6 +6,9 @@ OpenStack Documentation
    :class: fill
    :width: 100%
 
+.. note::
+   Tags: [operator]
+
 Mission
 =======
 

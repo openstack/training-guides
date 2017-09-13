@@ -6,6 +6,8 @@ Task Tracking
    :class: fill
    :width: 100%
 
+.. note::
+   Tags: [operator]
 
 Tracked Items
 =============

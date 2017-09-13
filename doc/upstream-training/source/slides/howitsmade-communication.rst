@@ -6,6 +6,9 @@ Online Communication
    :class: fill
    :width: 100%
 
+.. note::
+   Tags: [operator]
+
 Ways to Communicate in OpenStack
 ================================
 
