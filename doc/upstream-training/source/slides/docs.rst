@@ -7,7 +7,7 @@ OpenStack Documentation
    :width: 100%
 
 .. note::
-   Tags: [operator]
+   Tags: [operator] [user]
 
 Mission
 =======
