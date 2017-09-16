@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-07 01:17+0000\n"
+"POT-Creation-Date: 2017-09-13 12:02+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -4160,9 +4160,6 @@ msgstr "전반적인 문서화와 함께 하는 동작하는 소프트웨어"
 
 msgid "Writing 'Related-Bug: #[Bug number in Lanuchpad]' on message content"
 msgstr "메시지 내용에 'Related-Bug: #[Lanuchpad 버그 번호]' 작성"
-
-msgid "X"
-msgstr "X"
 
 msgid "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 msgstr "Xavier Antoviaque (교육, 멘토링, 조교, 프랑스어, 영어)"
