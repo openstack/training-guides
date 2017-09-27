@@ -6,7 +6,7 @@ OpenStack as Software
    :class: fill
    :width: 100%
 .. note::
-   Tags: [management]
+   Tags: [management] [user]
 
 OpenStack
 =========
