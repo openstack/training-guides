@@ -7,7 +7,7 @@ Metrics
    :width: 100%
 
 .. note::
-   Tags: [management]
+   Tags: [management] [new_dev] [dev]
 
 The OpenStack Community in numbers
 ==================================

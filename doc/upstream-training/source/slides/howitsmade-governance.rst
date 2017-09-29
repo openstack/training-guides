@@ -7,7 +7,7 @@ OpenStack Governance
    :width: 100%
 
 .. note::
-   Tags: [management]
+   Tags: [management] [new_dev] [dev]
 
 OpenStack Foundation
 ====================

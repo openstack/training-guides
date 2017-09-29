@@ -7,7 +7,7 @@ Online Communication
    :width: 100%
 
 .. note::
-   Tags: [operator] [user]
+   Tags: [operator] [user] [new_dev] [dev]
 
 Ways to Communicate in OpenStack
 ================================

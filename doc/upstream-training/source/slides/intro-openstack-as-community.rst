@@ -6,7 +6,7 @@ OpenStack as Community
    :class: fill
    :width: 100%
 .. note::
-   Tags: [management] [user]
+   Tags: [management] [user] [new_dev]
 
 OpenStack as a Community
 ========================

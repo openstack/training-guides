@@ -6,6 +6,9 @@ Overview of the contribution process
    :class: fill
    :width: 100%
 
+.. note::
+   Tags: [new_dev]
+
 Getting to Know Your Project
 ============================
 

@@ -7,7 +7,7 @@ Task Tracking
    :width: 100%
 
 .. note::
-   Tags: [operator] [user]
+   Tags: [operator] [user] [new_dev] [dev]
 
 Tracked Items
 =============

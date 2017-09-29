@@ -7,7 +7,7 @@ Official OpenStack projects
    :width: 100%
 
 .. note::
-   Tags: [management] [operator] [user]
+   Tags: [management] [operator] [user] [new_dev] [dev]
 
 
 Official OpenStack projects
