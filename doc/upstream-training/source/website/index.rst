@@ -76,9 +76,6 @@ and registration.
 +----------+----------+---------+------------+--------------------------------+
 | Date     | Event    | Duration| Location   |              Details           |
 +==========+==========+=========+============+================================+
-| September| OpenStack|    1 Day| London, UK |     :ref:`openstack-day-uk`    |
-| 26, 2017 | Days UK  |         |            |             \                  |
-+----------+----------+---------+------------+--------------------------------+
 | October  | OpenStack|    1 Day| Copenhagen,|     :ref:`openstack-day-nordic`|
 | 18, 2017 | Days     |         | Denmark    |             \                  |
 |          | Nordic   |         |            |                                |
