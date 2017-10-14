@@ -1,0 +1,14 @@
+# Zuulv3 CI setup for OpenStack.
+# The build-tox-manuals-checkbuild job is defined in openstack-manuals.
+
+- project:
+    name: openstack/training-guides
+    check:
+      jobs:
+        - build-tox-manuals-checkbuild
+    gate:
+      jobs:
+        - build-tox-manuals-checkbuild
+    post:
+      jobs:
+        - publish-openstack-manuals
