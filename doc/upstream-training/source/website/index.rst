@@ -76,10 +76,6 @@ and registration.
 +----------+----------+---------+------------+--------------------------------+
 | Date     | Event    | Duration| Location   |              Details           |
 +==========+==========+=========+============+================================+
-| October  | OpenStack|    1 Day| Copenhagen,|     :ref:`openstack-day-nordic`|
-| 18, 2017 | Days     |         | Denmark    |             \                  |
-|          | Nordic   |         |            |                                |
-+----------+----------+---------+------------+--------------------------------+
 | November | OpenStack|     1.5 | Sydney,    | :doc:`upstream-training-summit`|
 | 04, 2017 | Summit   |     Days| Australia  |             \                  |
 |          | Sydney   |         |            |                                |
