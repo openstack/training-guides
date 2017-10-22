@@ -130,12 +130,11 @@ Active Technical Contributor (ATC)
 
   - Code or documentation contribution to any of the official project
     repositories
-  - Individual members, like bug triagers or technical documentation writers
-    can apply for ATC status with the agreement from existing ATC's or TC chair
-    as extra-ATC status.
+  - Individual members, can be granted ATC status by the PTL of an official
+    project and TC approval. This is called extra-ATC status.
 
 - An OpenStack wide status
-- TC seats are elected from and by the group of ATC's
+- TC members are elected by the ATC's
 
 .. note::
 
@@ -148,12 +147,8 @@ Active Technical Contributor (ATC)
 Active Project Contributor (APC)
 ================================
 
-- Actively contributing to an OpenStack project
-
-  - Also ATC
-  - Attends project meetings
-  - Participates in project related mail threads on the mailing lists
-
+- Subset of ATCs who have contributed to a specific project
+- Same criteria as ATC except for contirbutions to a project
 - OpenStack project specific status
 
 Project Team Leads (PTLs)
@@ -178,14 +173,14 @@ Core Team Members
 
 - Have authority to merge code into a project
 - Assist the PTL in driving program goals
-- May also be stable core members (able to merge to stable branches)
-- Elected by PTL and other Core Team Members
+- New Core Team members are nominated and elected by other Core Team Members
 - Unlike ATC, APC and PTLs, role is not defined in the TC charter
 
 .. note::
 
   - Election process is more informal than PTLs.
   - PTL or Core Team Member nominates a person.
+  - Core team membership is about merging on master, stable core membership is independent
   - PTL e-mails nomination to mailing list.
   - Though not defined in the TC charter like other roles above, cores
     serve an important role in Project Teams.
