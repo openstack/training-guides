@@ -31,15 +31,20 @@ What makes a release
     milestones as that is what most students will work with. The other types
     should be described.
   - Common cycle with intermediary release:
+
     - Used for components needing more frequent releases. e.g. Oslo Libraries
     - Intermediary releases can also be used to time releases near the
-    beginning and end of the release cycle. Horizon plug-ins do this.
+      beginning and end of the release cycle. Horizon plug-ins do this.
+
   - Trailing the common cycle:
+
     - Projects dependent upon the output of a release, like packaging or
-    deploying OpenStack follow this model; e.g. Fuel and Kolla
+      deploying OpenStack follow this model; e.g. Fuel and Kolla
+
   - Independent release model:
-    - These projects may hold tools used for OpenStack part aren't part of a
-    production release.
+
+    - These projects may hold tools used for OpenStack but are not part of a
+      production release.
 
 Exercise
 ========
@@ -172,15 +177,22 @@ Exercise
 .. note::
 
   - Spec freeze
+
     - Point at which specs must be proposed and reviewed for the release.
+
   - Feature freeze
+
     - Code for new features is no longer accepted.
+
   - String freeze
+
     - Externally visible strings can no longer be changed. Helps translation
-    activities complete on time.
+      activities complete on time.
+
   - Requirements freeze
-    - No longer change requirements to allow downstream packagers time to
-    pull-in and build dependencies.
+
+    - Requirements cannot be changed to allow downstream packagers time to
+      pull-in and build dependencies.
 
 Release Candidates
 ==================
@@ -200,9 +212,11 @@ Release Candidates
 .. note::
 
   - Code change during the RC phase is a balancing act
+
     - Need to balance integrating fixes and code churn
     - Critical fixes have the highest priority while more minor bug fixes may
-    be safer to hold for the subsequent release.
+      be safer to hold for the subsequent release.
+
   - Who is able to approve patches during the RC phase is limited.
 
 Release candidate process
@@ -214,6 +228,7 @@ Release candidate process
 - Used as-is as the final release
 - Additional Release Candidates created for critical bugs found during
   RC testing
+
   - (RC2, RC3, ...) with bugs targeted to it
   - Repeated as many times as necessary
 
@@ -229,4 +244,46 @@ Exercise
 - Find the release day for the current release
 - Find where the currently released code is posted
 
+Stable Branch
+=============
 
+- Name for a cycle that has been released
+- Projects that follow some form of the 'Common' release
+  cycle have branches like 'stable/<release name>' in their repo
+- Support phases
+
++------------+-----------------------------+---------------------------------+
+|   Phase    |  Time Frame                 |  Changes Supported              |
++============+=============================+=================================+
+| I          | First 6 months              | All appropriate bug fixes       |
++------------+-----------------------------+---------------------------------+
+| II         | 6 - 12 months after release | Only critical or security fixes |
++------------+-----------------------------+---------------------------------+
+| III        | More than 12 months         | Only security fixes accepted    |
++------------+-----------------------------+---------------------------------+
+
+
+Proposing fixes to Stable Branches
+==================================
+- Fixes to stable must first merge to master and all intermediate branches
+- Appropriate backports
+
+  - Low regression risk in stable branch
+  - Fixes a user visible problem
+  - Backport is self contained
+
+- Inappropriate backports
+
+  - Backports of new functionality
+  - Changes to external HTTP APIs
+  - Notification, DB Schema or incompatible config file changes
+
+Stable Branch Reviews
+=====================
+
+- Stable maintenance teams
+
+  - Each project has a subset of cores able to merge stable branch changes
+
+- Ensure that the stable branch policies are enforced
+- Ensure that backports are associated with the patch submitted to master
