@@ -13,12 +13,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-05 05:45+0000\n"
+"POT-Creation-Date: 2017-10-23 22:11+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-10-05 12:37+0000\n"
-"Last-Translator: Jun-Sik Shin <jsshin@smartx.kr>\n"
+"PO-Revision-Date: 2017-10-24 04:15+0000\n"
+"Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
 "X-Generator: Zanata 3.9.6\n"
@@ -127,6 +127,9 @@ msgstr "2016 스페인 Barcelona"
 msgid "2016 was 6th birthday of OpenStack"
 msgstr "2016년은 OpenStack 여섯 번째 생일이었습니다"
 
+msgid "2017 Beijing, China"
+msgstr "2017 중국 베이징"
+
 msgid "2017 Boston, USA"
 msgstr "2017 미국 보스턴"
 
@@ -158,6 +161,12 @@ msgstr "7:00 마드리드로 하루 여행"
 
 msgid "7:45 Cava & Winery Tour"
 msgstr "7:45 카바 & 와이너리 투어"
+
+msgid ":doc:`upstream-training-content`"
+msgstr ":doc:`upstream-training-content`"
+
+msgid ":doc:`upstream-training-summit`"
+msgstr ":doc:`upstream-training-summit`"
 
 msgid ""
 "A big thank you to everyone that has made this possible, especially Loic "
@@ -444,6 +453,9 @@ msgstr "공식 OpenStack 프로젝트에 속하고 있을 때 이점"
 msgid ""
 "Better entry point for new contributors finding their place in the community"
 msgstr "커뮤니티에서 새로운 컨트리뷰터가 진입점으로 찾는 데 보다 적합합니다"
+
+msgid "Better for cross project coordination"
+msgstr "프로젝트 간 상호 조정에 적합"
 
 msgid "Big Tent is a code name for the official OpenStack projects"
 msgstr "Big Tent는 공식 OpenStack 프로젝트에 대한 코드명입니다"
@@ -2640,6 +2652,9 @@ msgstr ""
 "자세한 정보: http://www.openstack.org/blog/2014/11/openstack-upstream-"
 "training-in-japan/"
 
+msgid "More kanban style structure"
+msgstr "칸반 스타일을 보다 많이 가진 구조"
+
 msgid "More than 20 million lines of code"
 msgstr "2백만 이상의 코드 줄"
 
@@ -2684,6 +2699,9 @@ msgstr "새로운 기능"
 
 msgid "New patchset was recorded in Gerrit."
 msgstr "새로운 patchset이 Gerrit에 기록되었습니다."
+
+msgid "New, open-source task tracking tool"
+msgstr "새로운 오픈 소스 작업 추적 도구"
 
 msgid "No agreement"
 msgstr "약관 동의를 하지 않음"
@@ -3498,6 +3516,9 @@ msgstr "GIT 셋업 및 학습"
 msgid "Setup the Development Environment"
 msgstr "개발 환경 셋업"
 
+msgid "Several projects have already migrated"
+msgstr "몇몇 프로젝트들은 이미 옮겼습니다"
+
 msgid "Share your favorite to our IRC channel."
 msgstr "당신이 가장 선호하는 것을 우리의 IRC 채널에 공유합니다."
 
@@ -3741,8 +3762,14 @@ msgstr "태그: [management] [new_dev] [dev]"
 msgid "Tags: [management] [operator] [user] [new_dev] [dev]"
 msgstr "태그: [management] [operator] [user] [new_dev] [dev]"
 
+msgid "Tags: [management] [user] [new_dev]"
+msgstr "태그: [management] [user] [new_dev]"
+
 msgid "Tags: [new_dev]"
 msgstr "태그: [new_dev]"
+
+msgid "Tags: [new_dev] [dev]"
+msgstr "태그: [new_dev] [dev]"
 
 msgid "Tags: [operator] [user] [new_dev] [dev]"
 msgstr "태그: [operator] [user] [new_dev] [dev]"
@@ -4089,6 +4116,9 @@ msgid ""
 msgstr ""
 "공통 주기 종료 시점: - OpenStack 패키징 또는 배포와 핱이 릴리즈 결과물에 의존"
 "하는 프로젝트들이 해당 모델을 따릅니다; 예: Fuel 및 Kolla"
+
+msgid "Training Content"
+msgstr "트레이닝 내용"
 
 msgid "Training organizers"
 msgstr "트레이닝 조직 위원"
@@ -4572,6 +4602,9 @@ msgstr "Zuul"
 
 msgid "Zuul Pipelines"
 msgstr "Zuul 파이프라인"
+
+msgid "\\"
+msgstr "\\"
 
 msgid ""
 "`\"Big Tent\" and tags <http://governance.openstack.org/reference/new-"
