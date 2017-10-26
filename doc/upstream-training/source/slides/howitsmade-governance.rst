@@ -211,3 +211,30 @@ Exercise
   the Upstream Collaboration Training Etherpad.
 - Find two other cores in the project and post their names in
   the Upstream Collaboration Training Etherpad.
+
+
+References
+==========
+
+  - `Board election <https://www.openstack.org/election/>`_
+  - `Bylaws of the OpenStack Foundation <https://www.openstack.org/legal/bylaws-of-the-openstack-foundation/>`_
+  - `Foundation mailing list <http://lists.openstack.org/cgi-bin/mailman/listinfo/foundation>`_
+  - `Governance - Election page <https://governance.openstack.org/election/>`_
+  - `List of TC members <https://www.openstack.org/foundation/tech-committee/>`_
+  - `Members of OpenStack User Comittee <https://www.openstack.org/foundation/user-committee/>`_
+  - `openstack-dev mailing list <http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-dev>`_
+  - `OpenStack Technical Comittee Charter <https://governance.openstack.org/tc/reference/charter.html>`_
+  - `OpenStack Technical Comittee page <https://governance.openstack.org/tc/>`_
+  - `OpenStack User Committee <https://governance.openstack.org/uc/index.html>`_
+
+.. note::
+
+ - This slide is for reference links in case people want to get more information later. Presenters
+   do not need to spend time on this.
+
+
+References Cont.
+================
+
+  - `OpenStack User Committee Charter <https://governance.openstack.org/uc/reference/charter.html>`_
+  - `User-committee mailing list <http://lists.openstack.org/cgi-bin/mailman/listinfo/user-committee>`_
