@@ -1,3 +1,4 @@
+# Frank Kloeker <eumel@arcor.de>, 2015. #zanata
 # Adriano Perri <adriano.perri@telekom.de>, 2017. #zanata
 # Frank Kloeker <eumel@arcor.de>, 2017. #zanata
 # Robert Simai <robert.simai@suse.com>, 2017. #zanata
@@ -5,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-22 10:18+0000\n"
+"POT-Creation-Date: 2017-10-25 19:56+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -305,9 +306,6 @@ msgstr ""
 msgid "Active moderators on ask.openstack.org"
 msgstr "Aktive Moderatoren auf ask.openstack.org"
 
-msgid "Actively contributing to an OpenStack project"
-msgstr "Aktive Beitrag zu einem OpenStack-Projekt"
-
 msgid "Activities listed here are not realized at every Upstream training."
 msgstr ""
 "Die hier aufgeführten Aktivitäten werden nicht bei jedem Upstream-Training "
@@ -344,15 +342,6 @@ msgstr "Hinzufügen von Unit-Tests, um nicht getestete Methoden zu checken"
 
 msgid "Additional External References:"
 msgstr "Zusätzliche externe Referenzen:"
-
-msgid ""
-"Additional Release Candidates created for critical bugs found during RC "
-"testing - (RC2, RC3, ...) with bugs targeted to it - Repeated as many times "
-"as necessary"
-msgstr ""
-"Zusätzliche Release-Kandidaten für kritische Bugs bei RC-Tests gefunden - "
-"(RC2, RC3, ...) mit Bugs, die darauf ausgerichtet sind - wiederholt so oft "
-"wie nötig"
 
 msgid "Additional services built upon IaaS"
 msgstr "Zusätzliche Dienstleistungen auf IaaS gebaut"
@@ -410,9 +399,6 @@ msgstr "Alle E-Mails sind archiviert"
 
 msgid "Allows you to:"
 msgstr "Ihnen erlaubt:"
-
-msgid "Also ATC"
-msgstr "Auch ATC"
 
 msgid "Alternatively, you can use your virtual machine on a public cloud."
 msgstr ""
@@ -546,9 +532,6 @@ msgstr "An den Treffen teilnehmen"
 
 msgid "Attending regular meetings"
 msgstr "Regelmäßige Meetings besuchen"
-
-msgid "Attends project meetings"
-msgstr "Teilnahme an Projektmeetings"
 
 msgid "Auto-Login On Connecting To Freenode"
 msgstr "Auto-Login am Anschluss an Freenode"
@@ -873,16 +856,6 @@ msgstr ""
 "wird"
 
 msgid ""
-"Code change during the RC phase is a balancing act - Need to balance "
-"integrating fixes and code churn - Critical fixes have the highest priority "
-"while more minor bug fixes may be safer to hold for the subsequent release."
-msgstr ""
-"Code-Änderung während der RC-Phase ist ein Balanceakt - Es ist notwendig die "
-"Balance zwischen Integration und Code Churn zu halten - Critical Fixes haben "
-"die höchste Priorität, während mehr kleinere Bug-Fixes besser für das "
-"anschließende Release  gehalten werden können."
-
-msgid ""
 "Code or documentation contribution to any of the official project "
 "repositories"
 msgstr ""
@@ -936,17 +909,6 @@ msgstr "Gemeinsamer Zyklus mit Entwicklungsmeilensteinen"
 
 msgid "Common cycle with intermediary release"
 msgstr "Gemeinsamer Zyklus mit Zwischenfreigabe"
-
-msgid ""
-"Common cycle with intermediary release: - Used for components needing more "
-"frequent releases. e.g. Oslo Libraries - Intermediary releases can also be "
-"used to time releases near the beginning and end of the release cycle. "
-"Horizon plug-ins do this."
-msgstr ""
-"Gemeinsamer Zyklus mit Zwischenfreigabe: - Wird für Komponenten verwendet, "
-"die häufiger Freigaben benötigen. zB Oslo-Bibliotheken - Intermediäre "
-"Releases können auch zum Zeitpunkt der Freigabe am Anfang und am Ende des "
-"Release-Zyklus verwendet werden. Horizon-Plug-Ins machen dies."
 
 msgid ""
 "Common place to have people in a project collaborate on larger projects and "
@@ -1561,9 +1523,6 @@ msgstr "Edouard THULEAU (Assistent, Französisch, Englisch)"
 msgid "Edouard Thuleau (assistant, french, english)"
 msgstr "Edouard Thuleau (Assistent, französisch, englisch)"
 
-msgid "Elected by PTL and other Core Team Members"
-msgstr "Von PTL und anderen Kern Team Mitgliedern gewählt"
-
 msgid "Elected from and by the group of APC's"
 msgstr "Gewählt aus der und durch die Gruppe der APCs"
 
@@ -1797,8 +1756,8 @@ msgstr "Face-to-Face-Bereich: 1,5 Tage"
 msgid "Familiarize yourself with the code of conduct"
 msgstr "Machen Sie sich mit dem Verhaltenskodex vertraut"
 
-msgid "Feature freeze - Code for new features is no longer accepted."
-msgstr "Feature Freeze - Code für neue Funktionen wird nicht mehr akzeptiert."
+msgid "Feature freeze"
+msgstr "Funktionssperre"
 
 msgid "Feature proposal freeze"
 msgstr "Feature-Vorlage einfrieren"
@@ -2713,14 +2672,6 @@ msgstr "Inkompatible Konfigurationsdatei ändert sich"
 msgid "Independent release model"
 msgstr "Unabhängiges Release-Modell"
 
-msgid ""
-"Independent release model: - These projects may hold tools used for "
-"OpenStack part aren't part of a production release."
-msgstr ""
-"Unabhängiges Release-Modell: - Diese Projekte können Werkzeuge enthalten, "
-"die für den OpenStack-Teil verwendet werden, die nicht Teil einer "
-"Produktionsfreigabe sind."
-
 msgid "Individual Contributor License Agreement"
 msgstr "Lizenzvereinbarung für Individuelle Beitragende"
 
@@ -2732,15 +2683,6 @@ msgstr "Individuelle Stiftungsmitglieder"
 
 msgid "Individual members elect the same amount"
 msgstr "Einzelmitglieder wählen den gleichen Betrag"
-
-msgid ""
-"Individual members, like bug triagers or technical documentation writers can "
-"apply for ATC status with the agreement from existing ATC's or TC chair as "
-"extra-ATC status."
-msgstr ""
-"Einzelne Mitglieder, wie Bug-Triagers oder Schreiber technischer "
-"Dokumentationen  können ATC-Status mit der Vereinbarung von bestehenden ATC "
-"oder TC-Vorsitz als Extra-ATC-Status beantragen."
 
 msgid "Individual members: all of us"
 msgstr "Einzelmitglieder: alle von uns"
@@ -3190,11 +3132,6 @@ msgstr "Marton Kiss (Ausbildung, Mentoring, Assistent)"
 
 msgid "Maximize karma"
 msgstr "Maximieren Sie das Karma"
-
-msgid "May also be stable core members (able to merge to stable branches)"
-msgstr ""
-"Kann auch stabile Kernmitglieder sein (in der Lage, zu stable Branches zu "
-"mergen)"
 
 msgid "May receive elastic recheck message"
 msgstr "Kann eine elastische Nachricht abrufen"
@@ -3737,9 +3674,6 @@ msgstr "Paketierung"
 msgid "Part of the OpenStack project's functional testing"
 msgstr "Teil des Funktionstests des OpenStack-Projekts"
 
-msgid "Participates in project related mail threads on the mailing lists"
-msgstr "Teilnahme an projektbezogenen Mail-Threads auf den Mailinglisten"
-
 msgid ""
 "Paste the public key into the **Add SSH Public Key** text box and click Add."
 msgstr ""
@@ -4145,6 +4079,9 @@ msgstr ""
 "Voraussetzungen und Details über das Timing und Veranstaltungsort am Tag vor "
 "dem Training"
 
+msgid "Repeated as many times as necessary"
+msgstr "Wiederholen so oft wie nötig"
+
 msgid "Reply to comments"
 msgstr "Antwort auf Kommentare"
 
@@ -4168,13 +4105,6 @@ msgstr "Stellt OpenStack-Benutzer dar"
 
 msgid "Required:"
 msgstr "Erforderlich:"
-
-msgid ""
-"Requirements freeze - No longer change requirements to allow downstream "
-"packagers time to pull-in and build dependencies."
-msgstr ""
-"Requirements Freeze - Keine Änderung von Anforderungen, damit Downstream-"
-"Packer Zeit haben Abhängigkeiten einzuziehen und einzubauen."
 
 msgid "Resolve merge conflicts"
 msgstr "Beheben Sie Zusammenführungskonflikte"
@@ -4489,13 +4419,6 @@ msgstr ""
 "Quelldatei wird im `governance Repository gehostet <http://git.openstack.org/"
 "cgit/openstack/governance/tree/reference/projects.yaml> `_"
 
-msgid ""
-"Spec freeze - Point at which specs must be proposed and reviewed for the "
-"release."
-msgstr ""
-"Spec Freeze - Punkt, an dem Spezifikationen vorgeschlagen und für die "
-"Freigabe überprüft werden müssen."
-
 msgid "Spec/blueprint freeze"
 msgstr "Spezifikation/Blueprints einfrieren"
 
@@ -4593,12 +4516,8 @@ msgstr ""
 msgid "Strategic and financial oversight"
 msgstr "Strategische und finanzielle Aufsicht"
 
-msgid ""
-"String freeze - Externally visible strings can no longer be changed. Helps "
-"translation activities complete on time."
-msgstr ""
-"String Freeze - Äußerlich sichtbare Strings können nicht mehr geändert "
-"werden. Hilft um mit Übersetzungsaktivitäten rechtzeitig fertig zu werden."
+msgid "String freeze"
+msgstr "Zeichenkettensperre"
 
 msgid ""
 "Students can use a different editor instead of nano with their own "
@@ -4683,9 +4602,6 @@ msgstr ""
 "Election\" verfügbar <https://governance.openstack.org/election/> `_, und "
 "geteilt durch` openstack-dev Mailing-Liste <http://lists.openstack.org/cgi-"
 "bin/mailman/listinfo/openstack-dev> `_."
-
-msgid "TC seats are elected from and by the group of ATC's"
-msgstr "TC werden aus und durch die Gruppe der ATCs gewählt"
 
 msgid "Taehee Jang (assistant, mentoring - Ubuntu Korea Community)"
 msgstr "Taehee Jang (Assistentin, Mentoring - Ubuntu Korea Community)"
@@ -5169,15 +5085,6 @@ msgstr "Verfolgung"
 
 msgid "Trailing the common cycle"
 msgstr "Im Anschluss an den allgemeinen Zyklus"
-
-msgid ""
-"Trailing the common cycle: - Projects dependent upon the output of a "
-"release, like packaging or deploying OpenStack follow this model; e.g. Fuel "
-"and Kolla"
-msgstr ""
-"Nach dem gemeinsamen Zyklus: - Projekte abhängig von der Ausgabe eines "
-"Release, wie Packaging oder Bereitstellung von OpenStack folgen diesem "
-"Modell; z.B. Fuel und Kolla"
 
 msgid "Training Content"
 msgstr "Schulungsinhalte"
