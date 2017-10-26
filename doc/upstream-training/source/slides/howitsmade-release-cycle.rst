@@ -287,3 +287,14 @@ Stable Branch Reviews
 
 - Ensure that the stable branch policies are enforced
 - Ensure that backports are associated with the patch submitted to master
+
+
+References
+==========
+
+  - `Release management description <http://docs.openstack.org/project-team-guide/release-management.html>`_
+
+.. note::
+
+ - This slide is for reference links in case people want to get more information later. Presenters
+   do not need to spend time on this.

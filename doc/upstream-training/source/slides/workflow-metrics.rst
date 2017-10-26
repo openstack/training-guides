@@ -100,3 +100,14 @@ Exercise 2
 
 For the cores you found earlier, figure out what time zone they
 are probably in.
+
+
+References
+==========
+
+  - `Stackalytics Wiki <https://wiki.openstack.org/wiki/Stackalytics>`_
+
+.. note::
+
+ - This slide is for reference links in case people want to get more information later. Presenters
+   do not need to spend time on this.
