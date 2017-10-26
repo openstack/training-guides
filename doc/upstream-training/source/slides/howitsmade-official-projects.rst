@@ -21,10 +21,10 @@ Official OpenStack projects
  - Testable on its own
  - Dashboard (horizon) and DevStack provide plugin interface for easy
    integration
- - Core and mature Big Tent projects are tracked in the
+ - Official OpenStack projects are tracked in the
    `Project Navigator <https://www.openstack.org/software/project-navigator>`_
 
-- Big Tent is a code name for the official OpenStack projects
+- Big Tent was a code name for the official OpenStack projects
 
  .. note::
 
@@ -67,7 +67,7 @@ Core and Optional Services
 Core and Optional Services
 ==========================
 
-.. image:: ./_assets/big-tent-and-core-services.png
+.. image:: ./_assets/official-openstack-projects.png
   :scale: 90 %
 
 
