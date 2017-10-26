@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-23 22:11+0000\n"
+"POT-Creation-Date: 2017-10-25 19:56+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -244,9 +244,6 @@ msgstr "활동적인 팀 그리고/또는 워킹 그룹에 대한 활발한 구�
 msgid "Active moderators on ask.openstack.org"
 msgstr "ask.openstack.org에서 활발한 조정자"
 
-msgid "Actively contributing to an OpenStack project"
-msgstr "오픈스택 프로젝트에 활발히 기여하기"
-
 msgid "Activities listed here are not realized at every Upstream training."
 msgstr ""
 "여기에 나열된 활동은 모든 업스트림 트레이닝에서 설명이 이루어지지는 않습니다."
@@ -323,9 +320,6 @@ msgstr "모든 이메일은 보관됩니다"
 
 msgid "Allows you to:"
 msgstr "다음을 가능하게 합니다:"
-
-msgid "Also ATC"
-msgstr "ATC이기도 합니다"
 
 msgid "Alternatively, you can use your virtual machine on a public cloud."
 msgstr "대안으로, 공용 클라우드 상의 가상 머신을 사용할 수 있습니다."
@@ -419,9 +413,6 @@ msgstr "미팅에 참석합니다"
 
 msgid "Attending regular meetings"
 msgstr "정기 미팅에 참석합니다"
-
-msgid "Attends project meetings"
-msgstr "프로젝트 미팅에 참여합니다"
 
 msgid "Auto-Login On Connecting To Freenode"
 msgstr "Freenode 연결에 대한 자동 로그인"
@@ -735,16 +726,6 @@ msgstr "개발 마일스톤을 가진 릴리즈 주기"
 
 msgid "Common cycle with intermediary release"
 msgstr "중간 단계 릴리즈를 가진 공통 주기"
-
-msgid ""
-"Common cycle with intermediary release: - Used for components needing more "
-"frequent releases. e.g. Oslo Libraries - Intermediary releases can also be "
-"used to time releases near the beginning and end of the release cycle. "
-"Horizon plug-ins do this."
-msgstr ""
-"중간 단계 릴리즈를 가진 공통 주기: - 보다 잦은 릴리즈를 필요로 하는 컴포넌트"
-"에 사용. 예: Oslo 라이브러리 - 중간 릴리즈 또한 릴리즈 주기 시작 및 끝 근처"
-"에 릴리즈로 사용이 될 수 있습니다. Horizon 플러그인이 이를 따릅니다."
 
 msgid ""
 "Common place to have people in a project collaborate on larger projects and "
@@ -1221,9 +1202,6 @@ msgstr "Edouard THULEAU (조교, 프랑스어, 영어)"
 msgid "Edouard Thuleau (assistant, french, english)"
 msgstr "Edouard Thuleau (조교, 프랑스어, 영어)"
 
-msgid "Elected by PTL and other Core Team Members"
-msgstr "PTL 및 다른 코어 팀 구성원에 의해 선출이 이루어집니다"
-
 msgid "Elected from and by the group of APC's"
 msgstr "APC 그룹에 의해 구성 및 선출이 이루어집니다"
 
@@ -1412,6 +1390,9 @@ msgstr "오프라인 세션: 1.5일"
 
 msgid "Familiarize yourself with the code of conduct"
 msgstr "행동 강령과 친숙해집니다"
+
+msgid "Feature freeze"
+msgstr "기능 프리징"
 
 msgid "Feature proposal freeze"
 msgstr "제안된 기능 프리징하기"
@@ -2151,13 +2132,6 @@ msgstr "호환되지 않는 구성 파일 변경 사항"
 msgid "Independent release model"
 msgstr "독립 릴리즈 모델"
 
-msgid ""
-"Independent release model: - These projects may hold tools used for "
-"OpenStack part aren't part of a production release."
-msgstr ""
-"독립 릴리즈 모델: - 해당 프로젝트들은 프로덕션 릴리즈 부분과 무관한 "
-"OpenStack 도구를 사용 또는 지니고 있습니다."
-
 msgid "Individual Contributor License Agreement"
 msgstr "개인 컨트리뷰터 라이선스 동의"
 
@@ -2169,14 +2143,6 @@ msgstr "개별 Foundation 구성원"
 
 msgid "Individual members elect the same amount"
 msgstr "개별 구성원은 동일 수 만큼을 선출합니다"
-
-msgid ""
-"Individual members, like bug triagers or technical documentation writers can "
-"apply for ATC status with the agreement from existing ATC's or TC chair as "
-"extra-ATC status."
-msgstr ""
-"버그 구분 또는 기술 문서 작성자와 같은 개별 컨트리뷰터는 기존 ATC 또는 TC 의"
-"장으로부터 동의를 얻은 후 extra-ATC 상태로 ATC 상태에 지원 가능합니다."
 
 msgid "Individual members: all of us"
 msgstr "개인 멤버 : 우리 모두"
@@ -2550,10 +2516,6 @@ msgstr "Marton Kiss (교육, 멘토링, 조교)"
 
 msgid "Maximize karma"
 msgstr "karma를 최대화해 봅니다"
-
-msgid "May also be stable core members (able to merge to stable branches)"
-msgstr ""
-"안정 버전에 대한 코어 구성원 (안정 버전에 머지 가능) 또한 될 수 있습니다"
 
 msgid ""
 "Meaningful: anyone may submit a correction that will adjust the influence of "
@@ -3008,9 +2970,6 @@ msgstr "패키징"
 msgid "Part of the OpenStack project's functional testing"
 msgstr "OpenStack 프로젝트 기능 테스트 부분"
 
-msgid "Participates in project related mail threads on the mailing lists"
-msgstr "메일링 리스트에서 프로젝트와 관련된 메일 thread에 참여합니다"
-
 msgid ""
 "Paste the public key into the **Add SSH Public Key** text box and click Add."
 msgstr ""
@@ -3318,6 +3277,9 @@ msgstr "관련 구성원"
 
 msgid "Remove the code changes and run the tests"
 msgstr "코드 변경사항을 제거한 후 테스트를 실행합니다"
+
+msgid "Repeated as many times as necessary"
+msgstr "필요로 할 때에는 여러 번 반복됩니다"
 
 msgid "Reply to comments"
 msgstr "코멘트에 응답합니다"
@@ -3670,6 +3632,9 @@ msgstr "스토리보드"
 msgid "Strategic and financial oversight"
 msgstr "전략 및 재정에 대한 감독"
 
+msgid "String freeze"
+msgstr "문자열 프리징"
+
 msgid ""
 "Students can use a different editor instead of nano with their own "
 "preferences (e.g. vi, emacs, or whatever they want)."
@@ -3742,9 +3707,6 @@ msgstr ""
 "governance.openstack.org/election/>`_ 에서 확인 가능하며, `openstack-dev "
 "mailing list <http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-"
 "dev>`_ 를 통해 공유가 이루어집니다."
-
-msgid "TC seats are elected from and by the group of ATC's"
-msgstr "TC 자리는 ATC 그룹에 의해 구성 및 선출이 이루어집니다"
 
 msgid "Taehee Jang (assistant, mentoring - Ubuntu Korea Community)"
 msgstr "Taehee Jang (조교, 멘토링 - 우분투 한국 커뮤니티)"
@@ -4108,14 +4070,6 @@ msgstr "추적"
 
 msgid "Trailing the common cycle"
 msgstr "공통 주기를 종료"
-
-msgid ""
-"Trailing the common cycle: - Projects dependent upon the output of a "
-"release, like packaging or deploying OpenStack follow this model; e.g. Fuel "
-"and Kolla"
-msgstr ""
-"공통 주기 종료 시점: - OpenStack 패키징 또는 배포와 핱이 릴리즈 결과물에 의존"
-"하는 프로젝트들이 해당 모델을 따릅니다; 예: Fuel 및 Kolla"
 
 msgid "Training Content"
 msgstr "트레이닝 내용"

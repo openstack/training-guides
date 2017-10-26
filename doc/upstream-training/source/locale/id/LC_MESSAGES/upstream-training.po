@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-22 10:18+0000\n"
+"POT-Creation-Date: 2017-10-25 19:56+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -301,9 +301,6 @@ msgstr ""
 msgid "Active moderators on ask.openstack.org"
 msgstr "Moderator aktif di ask.openstack.org"
 
-msgid "Actively contributing to an OpenStack project"
-msgstr "Secara aktif berkontribusi terhadap proyek OpenStack"
-
 msgid "Activities listed here are not realized at every Upstream training."
 msgstr ""
 "Kegiatan yang tercantum di sini tidak memperlihatkan pada setiap pelatihan "
@@ -339,15 +336,6 @@ msgstr "Unit tes yang ditambahkan untuk mencakup metode yang belum diuji"
 
 msgid "Additional External References:"
 msgstr "Additional External References:"
-
-msgid ""
-"Additional Release Candidates created for critical bugs found during RC "
-"testing - (RC2, RC3, ...) with bugs targeted to it - Repeated as many times "
-"as necessary"
-msgstr ""
-"Release Candidate tambahan dibuat untuk bug kritis yang ditemukan selama "
-"pengujian RC - (RC2, RC3, ...) dengan bug yang ditargetkan untuk itu - "
-"Diulang sebanyak yang diperlukan"
 
 msgid "Additional services built upon IaaS"
 msgstr "Layanan tambahan dibangun di atas IaaS"
@@ -404,9 +392,6 @@ msgstr "Semua email diarsipkan"
 
 msgid "Allows you to:"
 msgstr "Memungkinkan Anda untuk:"
-
-msgid "Also ATC"
-msgstr "Also ATC (juga Active Technical Contributor)"
 
 msgid "Alternatively, you can use your virtual machine on a public cloud."
 msgstr ""
@@ -539,9 +524,6 @@ msgstr "Menghadiri pertemuan"
 
 msgid "Attending regular meetings"
 msgstr "Menghadiri pertemuan rutin"
-
-msgid "Attends project meetings"
-msgstr "Menghadiri pertemuan proyek"
 
 msgid "Auto-Login On Connecting To Freenode"
 msgstr "Auto-Login On Connecting To Freenode"
@@ -856,16 +838,6 @@ msgid "Code can be uploaded before a blueprint/spec is accepted"
 msgstr "Kode bisa diupload sebelum blueprint / spec diterima"
 
 msgid ""
-"Code change during the RC phase is a balancing act - Need to balance "
-"integrating fixes and code churn - Critical fixes have the highest priority "
-"while more minor bug fixes may be safer to hold for the subsequent release."
-msgstr ""
-"Perubahan kode selama fase RC adalah tindakan penyeimbangan - Perlu "
-"menyeimbangkan pengintegrasian perbaikan dan kode churn - Perbaikan kritis "
-"memiliki prioritas tertinggi sementara perbaikan bug yang lebih kecil "
-"mungkin lebih aman ditahan untuk rilis berikutnya."
-
-msgid ""
 "Code or documentation contribution to any of the official project "
 "repositories"
 msgstr "Kontribusi kode dan dokumentasi ke salah satu repositori proyek resmi"
@@ -916,17 +888,6 @@ msgstr "Siklus umum dengan tonggak pembangunan"
 
 msgid "Common cycle with intermediary release"
 msgstr "Siklus umum dengan rilis perantara"
-
-msgid ""
-"Common cycle with intermediary release: - Used for components needing more "
-"frequent releases. e.g. Oslo Libraries - Intermediary releases can also be "
-"used to time releases near the beginning and end of the release cycle. "
-"Horizon plug-ins do this."
-msgstr ""
-"Siklus umum dengan pelepasan perantara: - Digunakan untuk komponen yang "
-"membutuhkan pelepasan yang lebih sering. misalnya Oslo Libraries - Perantara "
-"rilis juga dapat digunakan untuk rilis waktu di dekat awal dan akhir siklus "
-"rilis. Horizon plug-in melakukan ini."
 
 msgid ""
 "Common place to have people in a project collaborate on larger projects and "
@@ -1535,9 +1496,6 @@ msgstr "Edouard THULEAU (assistant, french, english)"
 msgid "Edouard Thuleau (assistant, french, english)"
 msgstr "Edouard Thuleau (assistant, french, english)"
 
-msgid "Elected by PTL and other Core Team Members"
-msgstr "Dipilih oleh PTL dan Anggota Tim Inti lainnya"
-
 msgid "Elected from and by the group of APC's"
 msgstr "Dipilih dari dan oleh kelompok APC"
 
@@ -1770,8 +1728,8 @@ msgstr "Sessi face-to-face: 1.5 hari"
 msgid "Familiarize yourself with the code of conduct"
 msgstr "Membiasakan diri dengan kode etik"
 
-msgid "Feature freeze - Code for new features is no longer accepted."
-msgstr "Feature freeze - Kode untuk fitur baru tidak lagi diterima."
+msgid "Feature freeze"
+msgstr "Pembekuan fitur"
 
 msgid "Feature proposal freeze"
 msgstr "Pembekuan usulan fitur"
@@ -2679,13 +2637,6 @@ msgstr "Perubahan file konfigurasi tidak kompatibel"
 msgid "Independent release model"
 msgstr "Model rilis independen"
 
-msgid ""
-"Independent release model: - These projects may hold tools used for "
-"OpenStack part aren't part of a production release."
-msgstr ""
-"Model pelepasan independen: - Proyek ini dapat menahan alat yang digunakan "
-"untuk bagian OpenStack bukan bagian dari rilis produksi."
-
 msgid "Individual Contributor License Agreement"
 msgstr "Individual Contributor License Agreement"
 
@@ -2697,15 +2648,6 @@ msgstr "Anggota Yayasan individu"
 
 msgid "Individual members elect the same amount"
 msgstr "Anggota individu memilih jumlah yang sama"
-
-msgid ""
-"Individual members, like bug triagers or technical documentation writers can "
-"apply for ATC status with the agreement from existing ATC's or TC chair as "
-"extra-ATC status."
-msgstr ""
-"Anggota individu, seperti bug triagers atau penulis dokumentasi teknis dapat "
-"mengajukan permohonan untuk status ATC dengan kesepakatan dari kursi ATC "
-"atau TC yang ada sebagai status ekstra-ATC."
 
 msgid "Individual members: all of us"
 msgstr "Anggota individu: kita semua"
@@ -3147,10 +3089,6 @@ msgstr "Marton Kiss (training, mentoring, assistant)"
 
 msgid "Maximize karma"
 msgstr "Maksimalkan karma"
-
-msgid "May also be stable core members (able to merge to stable branches)"
-msgstr ""
-"Mungkin juga anggota inti yang stabil (bisa bergabung ke cabang yang stabil)"
 
 msgid "May receive elastic recheck message"
 msgstr "Mungkin menerima pesan cek elastis"
@@ -3693,9 +3631,6 @@ msgstr "Packaging (pengemasan)"
 msgid "Part of the OpenStack project's functional testing"
 msgstr "Bagian dari uji fungsional proyek OpenStack"
 
-msgid "Participates in project related mail threads on the mailing lists"
-msgstr "Berpartisipasi dalam proyek terkait rangkaian email di milis"
-
 msgid ""
 "Paste the public key into the **Add SSH Public Key** text box and click Add."
 msgstr ""
@@ -4094,6 +4029,9 @@ msgstr ""
 "Ulangi mengirimkan pengingat kepada peserta termasuk prasyarat dan rincian "
 "tentang waktu dan tempat sehari sebelum pelatihan"
 
+msgid "Repeated as many times as necessary"
+msgstr "Diulang sebanyak yang diperlukan"
+
 msgid "Reply to comments"
 msgstr "Membalas komentar"
 
@@ -4117,13 +4055,6 @@ msgstr "Merepresentasikan pengguna OpenStack"
 
 msgid "Required:"
 msgstr "Required:"
-
-msgid ""
-"Requirements freeze - No longer change requirements to allow downstream "
-"packagers time to pull-in and build dependencies."
-msgstr ""
-"Requirements freeze - Tidak ada lagi perubahan persyaratan untuk "
-"memungkinkan waktu paket hilir untuk menarik dan membangun ketergantungan."
 
 msgid "Resolve merge conflicts"
 msgstr "Menyelesaikan konflik penggabungan"
@@ -4437,13 +4368,6 @@ msgstr ""
 "Sumber file host di `governance repository <http://git.openstack.org/cgit/"
 "openstack/governance/tree/reference/projects.yaml>`_"
 
-msgid ""
-"Spec freeze - Point at which specs must be proposed and reviewed for the "
-"release."
-msgstr ""
-"Spec freeze - Point dimana spesifikasi harus diajukan dan ditinjau untuk "
-"rilis."
-
 msgid "Spec/blueprint freeze"
 msgstr "Spesifikasi/cetak biru membeku"
 
@@ -4537,12 +4461,8 @@ msgstr ""
 msgid "Strategic and financial oversight"
 msgstr "Pengawasan strategis dan keuangan"
 
-msgid ""
-"String freeze - Externally visible strings can no longer be changed. Helps "
-"translation activities complete on time."
-msgstr ""
-"String freeze - String yang terlihat secara eksternal tidak dapat lagi "
-"diubah. Membantu kegiatan penerjemahan selesai tepat waktu."
+msgid "String freeze"
+msgstr "Pembekuan string"
 
 msgid ""
 "Students can use a different editor instead of nano with their own "
@@ -4625,11 +4545,6 @@ msgstr ""
 "<https://governance.openstack.org/election/>`_, Dan berbagi melalui "
 "`openstack-dev mailing list <http://lists.openstack.org/cgi-bin/mailman/"
 "listinfo/openstack-dev>`_."
-
-msgid "TC seats are elected from and by the group of ATC's"
-msgstr ""
-"Kursi Technical Committee (TC) dipilih dari dan oleh kelompok ATC (Active "
-"Technical Contributor)"
 
 msgid "Taehee Jang (assistant, mentoring - Ubuntu Korea Community)"
 msgstr "Taehee Jang (assistant, mentoring - Ubuntu Korea Community)"
@@ -5121,15 +5036,6 @@ msgstr "Tracking (pelacakan)"
 
 msgid "Trailing the common cycle"
 msgstr "Dalam Periode siklus umum"
-
-msgid ""
-"Trailing the common cycle: - Projects dependent upon the output of a "
-"release, like packaging or deploying OpenStack follow this model; e.g. Fuel "
-"and Kolla"
-msgstr ""
-"Mengarahkan siklus bersama: - Proyek bergantung pada keluaran pelepasan, "
-"seperti mengemas atau menerapkan OpenStack mengikuti model ini; misalnya "
-"Fuel and Kolla"
 
 msgid "Training Content"
 msgstr "Konten Pelatihan"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-05 05:45+0000\n"
+"POT-Creation-Date: 2017-10-25 19:56+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -266,9 +266,6 @@ msgstr ""
 msgid "Active moderators on ask.openstack.org"
 msgstr "ask.openstack.org'deki aktif moderatörler"
 
-msgid "Actively contributing to an OpenStack project"
-msgstr "OpenStack projesine aktif olarak katkıda bulunmak"
-
 msgid "Activities listed here are not realized at every Upstream training."
 msgstr "Burada listelenen aktiviteler, her Upstream eğitiminde gerçekleşmez."
 
@@ -303,14 +300,6 @@ msgstr "Test edilmemiş yöntemleri kapsayan birim testleri eklendi"
 
 msgid "Additional External References:"
 msgstr "Ek Harici Kaynaklar:"
-
-msgid ""
-"Additional Release Candidates created for critical bugs found during RC "
-"testing - (RC2, RC3, ...) with bugs targeted to it - Repeated as many times "
-"as necessary"
-msgstr ""
-"RC Testi sırasında bulunan kritik hatalar için oluşturulan Ek Sürüm Adayları "
-"(RC2, RC3, ...) hedeflenen hatalarla - Gerektiği kadar tekrar eder"
 
 msgid "Additional services built upon IaaS"
 msgstr "IaaS üzerine inşa edilen ek servisler"
@@ -366,9 +355,6 @@ msgstr "Tüm e-postalar arşivlenir"
 
 msgid "Allows you to:"
 msgstr "Şunu yapmanıza olanak tanır:"
-
-msgid "Also ATC"
-msgstr "Ayrıca ATC"
 
 msgid "Alternatively, you can use your virtual machine on a public cloud."
 msgstr ""
@@ -493,9 +479,6 @@ msgstr "Toplantılara katılın"
 
 msgid "Attending regular meetings"
 msgstr "Düzenli toplantılara katılma"
-
-msgid "Attends project meetings"
-msgstr "Proje toplantılarına katılır"
 
 msgid "Auto-Login On Connecting To Freenode"
 msgstr "Freenode'a Bağlandığında Otomatik Oturum Açma"
@@ -811,16 +794,6 @@ msgid "Code can be uploaded before a blueprint/spec is accepted"
 msgstr "Kod, bir plan/özellik kabul edilmeden önce yüklenebilir"
 
 msgid ""
-"Code change during the RC phase is a balancing act - Need to balance "
-"integrating fixes and code churn - Critical fixes have the highest priority "
-"while more minor bug fixes may be safer to hold for the subsequent release."
-msgstr ""
-"RC safhasındaki kod değişikliği dengeleyici bir eylemdir - Düzeltmeleri ve "
-"kod değişimini dengelemek için gereken - Kritik düzeltmeler en yüksek "
-"önceliğe sahiptir, daha küçük hata düzeltmeleri daha sonraki sürüm için daha "
-"güvenli olabilir."
-
-msgid ""
 "Code or documentation contribution to any of the official project "
 "repositories"
 msgstr "Herhangi bir resmi proje depolarına kod veya belge katkısı"
@@ -871,17 +844,6 @@ msgstr "Geliştirme kilometre taşları ile ortak döngü"
 
 msgid "Common cycle with intermediary release"
 msgstr "İleri seviye sürüm ile ortak döngü"
-
-msgid ""
-"Common cycle with intermediary release: - Used for components needing more "
-"frequent releases. e.g. Oslo Libraries - Intermediary releases can also be "
-"used to time releases near the beginning and end of the release cycle. "
-"Horizon plug-ins do this."
-msgstr ""
-"Ara sürüm ile ortak döngü: - Daha sık sürüm gerektiren bileşenler için "
-"kullanılır. Örneğin, Oslo Kütüphaneleri - Ara sürüm bültenleri, sürüm "
-"döngüsünün başlangıcında ve sonundaki bültenleri zamanlamak için de "
-"kullanılabilir. Horizon eklentileri bunu yapar."
 
 msgid ""
 "Common place to have people in a project collaborate on larger projects and "
@@ -1451,9 +1413,6 @@ msgstr "Edouard THULEAU (yardımcı, fransızca, ingilizce)"
 msgid "Edouard Thuleau (assistant, french, english)"
 msgstr "Edouard Thuleau (yardımcı, fransızca, ingilizce)"
 
-msgid "Elected by PTL and other Core Team Members"
-msgstr "PTL ve diğer Çekirdek Ekip Üyeleri tarafından seçildi"
-
 msgid "Elected from and by the group of APC's"
 msgstr "APC'lerin bir grubundan ve grubu tarafından seçilir"
 
@@ -1671,9 +1630,6 @@ msgstr "Yüz-yüze bölümü: 1.5 gün"
 
 msgid "Familiarize yourself with the code of conduct"
 msgstr "Davranış kurallarını kendiniz tanıyın."
-
-msgid "Feature freeze - Code for new features is no longer accepted."
-msgstr "Özellik dondurma - Yeni özellikler için kod artık kabul edilmiyor."
 
 msgid "Feature proposal freeze"
 msgstr "Öneriyi dondurma özelliği"
@@ -2530,13 +2486,6 @@ msgstr "Uyumlu olmayan yapılandırma dosyası değişiklikleri"
 msgid "Independent release model"
 msgstr "Bağımsız sürüm modeli"
 
-msgid ""
-"Independent release model: - These projects may hold tools used for "
-"OpenStack part aren't part of a production release."
-msgstr ""
-"Bağımsız sürüm modeli: - Bu projeler, OpenStack bölümü için kullanılan "
-"araçları içerebilir; bunlar bir üretim sürümünün parçası değildir."
-
 msgid "Individual Contributor License Agreement"
 msgstr "Bireysel Geliştirici Lisans Anlaşması"
 
@@ -2548,15 +2497,6 @@ msgstr "Bireysel Vakıf üyeleri"
 
 msgid "Individual members elect the same amount"
 msgstr "Bireysel üyeler aynı miktarı seçer"
-
-msgid ""
-"Individual members, like bug triagers or technical documentation writers can "
-"apply for ATC status with the agreement from existing ATC's or TC chair as "
-"extra-ATC status."
-msgstr ""
-"Hata otoriteleri veya teknik dokümantasyon yazarları gibi bireysel üyeler, "
-"mevcut ATC'lerin veya TC başkanının ekstra ATC statüsü anlaşmasıyla ATC "
-"statüsüne başvurabilirler."
 
 msgid "Individual members: all of us"
 msgstr "Bireysel üyeler: hepimiz"
@@ -2992,10 +2932,6 @@ msgstr "Marton Kiss (eğitim, danışman, yardımcı)"
 
 msgid "Maximize karma"
 msgstr "Karmayı en üst düzeye çıkar"
-
-msgid "May also be stable core members (able to merge to stable branches)"
-msgstr ""
-"Ayrıca kararlı bir çekirdek üye olabilir (kararlı dalları birleştirebilir)"
 
 msgid "May receive elastic recheck message"
 msgstr "Elastik tekrar kontrol mesajı alabilirsiniz"
@@ -3498,9 +3434,6 @@ msgstr "Paketleme"
 msgid "Part of the OpenStack project's functional testing"
 msgstr "OpenStack projesinin işlev testinin bir parçası"
 
-msgid "Participates in project related mail threads on the mailing lists"
-msgstr "E-posta listesindeki proje ile alakalı e-posta zincirinde yer alır"
-
 msgid ""
 "Paste the public key into the **Add SSH Public Key** text box and click Add."
 msgstr ""
@@ -3885,13 +3818,6 @@ msgstr "OpenStack kullanıcılarını temsil eder"
 msgid "Required:"
 msgstr "Gerekli:"
 
-msgid ""
-"Requirements freeze - No longer change requirements to allow downstream "
-"packagers time to pull-in and build dependencies."
-msgstr ""
-"Gereksinimler dondurma - Aşağı akım paketleyicilerinin bağımlılıkları çekme "
-"ve kurma zamanı tanımak için artık gereksinimleri değiştirmeyin."
-
 msgid "Resolve merge conflicts"
 msgstr "Birleştirme çakışmalarını çöz"
 
@@ -4193,13 +4119,6 @@ msgstr ""
 "Kaynak dosya `yönetim reposu <http://git.openstack.org/cgit/openstack/"
 "governance/tree/reference/projects.yaml>`_ belgesinde sunulur"
 
-msgid ""
-"Spec freeze - Point at which specs must be proposed and reviewed for the "
-"release."
-msgstr ""
-"Farklı dondurma faaliyetlerini bulmak ve tartışmak için grubunuzla birlikte "
-"çalışın"
-
 msgid "Spec/blueprint freeze"
 msgstr "Spesifikasyon/blueprint donma"
 
@@ -4297,13 +4216,6 @@ msgid "Strategic and financial oversight"
 msgstr "Stratejik ve mali gözetim"
 
 msgid ""
-"String freeze - Externally visible strings can no longer be changed. Helps "
-"translation activities complete on time."
-msgstr ""
-"Dize dondurma - Dışarıdan görünen dizeler artık değiştirilemez. Çeviri "
-"faaliyetlerinin zamanında tamamlanmasına yardımcı olur."
-
-msgid ""
 "Students can use a different editor instead of nano with their own "
 "preferences (e.g. vi, emacs, or whatever they want)."
 msgstr ""
@@ -4379,9 +4291,6 @@ msgstr ""
 "governance.openstack.org/election/>`_nda görülebilir, ve `openstack-dev e-"
 "posta listesinde <http://lists.openstack.org/cgi-bin/mailman/listinfo/"
 "openstack-dev>`_ paylaşılır."
-
-msgid "TC seats are elected from and by the group of ATC's"
-msgstr "TC koltukları ATC grubundan ve ATC grubu tarafından seçilir"
 
 msgid "Taehee Jang (assistant, mentoring - Ubuntu Korea Community)"
 msgstr "Taehee Jang (yardımcı, danışman - Ubuntu Kore Topluluğu)"
@@ -4836,15 +4745,6 @@ msgstr "İzleme"
 
 msgid "Trailing the common cycle"
 msgstr "Ortak döngünün izini sürmek"
-
-msgid ""
-"Trailing the common cycle: - Projects dependent upon the output of a "
-"release, like packaging or deploying OpenStack follow this model; e.g. Fuel "
-"and Kolla"
-msgstr ""
-"Ortak döngünün izini sürmek: - Bir modelin çıktısına bağımlı projeler (ör. "
-"OpenStack'in paketlenmesi veya dağıtılması gibi) bu modeli takip eder; "
-"Örneğin, Fuel ve Kolla"
 
 msgid "Training organizers"
 msgstr "Eğitim düzenleyiciler"
