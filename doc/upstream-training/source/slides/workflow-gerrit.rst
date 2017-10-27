@@ -52,3 +52,10 @@ patchset diffs
 .. image:: ./_assets/14-17-patchset-diffs.png
   :width: 100%
   :class: image-pad-top
+
+patch in gerrit
+===============
+
+.. image:: ./_assets/workflow-gerrit-merged-patch.png
+  :width: 100%
+  :class: image-pad-top
