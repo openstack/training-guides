@@ -22,41 +22,6 @@ About the training
   - How to deploy OpenStack
   - How to prepare for different exams
 
-Agenda - Day 1
-==============
-
-- Introduction
-
-  - Introducing OpenStack as a Software
-  - Introducing OpenStack as a Community
-
-- How OpenStack is made
-
-  - Official OpenStack projects
-  - OpenStack Governance
-  - Release cycle
-  - Communication
-  - Events
-  - User Committee and Working Groups
-
-- Development environment setup
-
-Agenda - Day 2
-==============
-
-- Workflow of an OpenStack contribution and tools
-
-  - Overview of the contribution process
-  - Registration and accounts
-  - Tracking
-  - Gerrit
-  - Reviewing
-  - Commit Messages
-  - Project Status and Zuul
-  - Metrics
-  - Guide to SetUp and Push First Patch
-  - Using Sandbox for Practice
-
 Exercise
 ========
 
@@ -69,8 +34,8 @@ the course, etc.
    We will introduce ourselves first and then turn it over to them
    to talk to each other at their tables.
 
-Jump on IRC
-===========
+Jump on IRC and etherpad
+========================
 
 - Join the #openstack-101 channel
 
@@ -79,3 +44,6 @@ Jump on IRC
   - Use your IRC client or Web IRC:
 
     http://webchat.freenode.net/?channels=openstack-101
+
+- Open the `training etherpad <https://etherpad.openstack.org/p/upstream-institute-sydney-2017>`_
+  for team work
