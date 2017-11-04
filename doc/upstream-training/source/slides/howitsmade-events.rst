@@ -31,7 +31,7 @@ OpenStack Birthday Celebration
 ==============================
 
 - Held by local groups to celebrate another year of OpenStack
-- 2016 was 6th birthday of OpenStack
+- 2017 was 7th birthday of OpenStack
 
 User Group Meetups
 ==================
