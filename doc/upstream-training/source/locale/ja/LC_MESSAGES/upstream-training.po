@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-25 19:56+0000\n"
+"POT-Creation-Date: 2017-11-04 23:22+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -76,9 +76,6 @@ msgstr "2016 Austin, USA"
 
 msgid "2016 Barcelona, Spain"
 msgstr "2016 Barcelona, Spain"
-
-msgid "2016 was 6th birthday of OpenStack"
-msgstr "2016年は OpenStack 6 周年"
 
 msgid "3-4 different companies"
 msgstr "3〜4 社のカンパニー"
@@ -154,9 +151,6 @@ msgstr "Adrien Cunin (mentoring, assistant, french, english)"
 
 msgid "After the last milestone"
 msgstr "最終マイルストーンの後"
-
-msgid "Agenda - Day 1"
-msgstr "アジェンダ - 1 日目"
 
 msgid "Agile"
 msgstr "アジャイル"
@@ -291,9 +285,6 @@ msgid ""
 msgstr ""
 "コミュニティーに居場所を見つけるために、新規コントリビューターのより良い入り"
 "口"
-
-msgid "Big Tent is a code name for the official OpenStack projects"
-msgstr "Big Tent は OpenStack 公式プロジェクト全体のコード名です。"
 
 msgid "Blueprint (Partial-Implements, Implements)"
 msgstr "ブループリント (Partial-Implements, Implements)"
@@ -712,9 +703,6 @@ msgstr "DevStack 演習"
 
 msgid "Developers"
 msgstr "開発者"
-
-msgid "Development environment setup"
-msgstr "開発環境のセットアップ"
 
 msgid "Discuss the answers with the class"
 msgstr "意見をクラスで議論しましょう"
@@ -1271,9 +1259,6 @@ msgstr "グループ演習"
 msgid "Growing in number (26 in 2016)"
 msgstr "増加中 (2016 年は 26 回)"
 
-msgid "Guide to SetUp and Push First Patch"
-msgstr "環境設定と最初のパッチの投稿"
-
 msgid "Haikel Guemar (assistant, mentor, french, english)"
 msgstr "Haikel Guemar (assistant, mentor, french, english)"
 
@@ -1296,9 +1281,6 @@ msgid "Hosted annually by local OpenStack User Groups and companies"
 msgstr "各地域の OpenStack ユーザーグループや企業により毎年ホストされます"
 
 msgid "How OpenStack is Made"
-msgstr "OpenStack はどのように作られているか"
-
-msgid "How OpenStack is made"
 msgstr "OpenStack はどのように作られているか"
 
 msgid "How OpenStack is made (3h including 1h30 exercises)"
@@ -1602,12 +1584,6 @@ msgstr "プロジェクトに関わろう"
 msgid "Interactive, hands-on class"
 msgstr "対話型のハンズオン"
 
-msgid "Introducing OpenStack as a Community"
-msgstr "コミュニティーとしての OpenStack 概要"
-
-msgid "Introducing OpenStack as a Software"
-msgstr "ソフトウェアとしての OpenStack 概要"
-
 msgid "Introduction"
 msgstr "はじめに"
 
@@ -1658,9 +1634,6 @@ msgstr "2016 年 7 月 6 - 7 日 (水 - 木 )"
 
 msgid "July 9 - 10, 2015 (Thu - Fri)"
 msgstr "2015 年 7 月 9 - 10 日 (木 - 金)"
-
-msgid "Jump on IRC"
-msgstr "IRC に入ろう"
 
 msgid "Jungsu Han (assistant, mentoring)"
 msgstr "Jungsu Han (assistant, mentoring)"
@@ -2291,9 +2264,6 @@ msgstr "ニックネームの登録"
 msgid "Registration and Accounts"
 msgstr "登録およびアカウント"
 
-msgid "Registration and accounts"
-msgstr "登録およびアカウント"
-
 msgid "Regular reviewer"
 msgstr "通常のレビューアー"
 
@@ -2302,9 +2272,6 @@ msgstr "リリース"
 
 msgid "Release Candidates"
 msgstr "リリース候補版"
-
-msgid "Release cycle"
-msgstr "リリースサイクル"
 
 msgid "Release day"
 msgstr "リリース日"
@@ -2825,9 +2792,6 @@ msgstr "日本 東京"
 msgid "Tox"
 msgstr "Tox"
 
-msgid "Tracking"
-msgstr "トラッキング"
-
 msgid "Trailing the common cycle"
 msgstr "共通サイクルの追従"
 
@@ -3126,9 +3090,6 @@ msgstr "OpenStack のミッションに向かった作業"
 
 msgid "Workflow and Tools for Participation"
 msgstr "参加するための流れとツール"
-
-msgid "Workflow of an OpenStack contribution and tools"
-msgstr "OpenStack コントリビューションのワークフローとツール"
 
 msgid ""
 "Workflow of an OpenStack contribution and tools (3h including 2h exercises)"

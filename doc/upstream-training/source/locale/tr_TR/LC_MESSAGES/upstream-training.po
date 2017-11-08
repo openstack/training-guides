@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-25 19:56+0000\n"
+"POT-Creation-Date: 2017-11-04 23:22+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -68,9 +68,6 @@ msgstr ""
 "**Public key** - Bağlanmak istediğiniz herhangi bir SSH sunucusuyla özgürce "
 "paylaşılabilir."
 
-msgid "**Saturday, November 04, 2017 - Sunday, November 05, 2017**"
-msgstr "**04 Kasım 2017 Cumartesi - 5 Kasım 2017 Pazar**"
-
 msgid "**Staff**"
 msgstr "**Çalışanlar**"
 
@@ -124,9 +121,6 @@ msgstr "2016 Austin, ABD"
 
 msgid "2016 Barcelona, Spain"
 msgstr "2016 Barcelona, İspanya"
-
-msgid "2016 was 6th birthday of OpenStack"
-msgstr "2016, OpenStack'in 6. doğum günü oldu"
 
 msgid "265 different organizations"
 msgstr "265 farklı kurum"
@@ -323,12 +317,6 @@ msgstr ""
 "güçlendirmek için daha uzun süreli mentorluk başvurusu yapma olanağına sahip "
 "olurlar."
 
-msgid "Agenda - Day 1"
-msgstr "Ajanda - Gün 1"
-
-msgid "Agenda - Day 2"
-msgstr "Ajanda - Gün 2"
-
 msgid "Agile"
 msgstr "Agile"
 
@@ -386,9 +374,6 @@ msgstr ""
 
 msgid "An official project is aligned with the OpenStack Mission if it"
 msgstr "Resmi bir proje OpenStack Misyonu ile uyumluysa"
-
-msgid "Analysing Jenkins Failures"
-msgstr "Jenkins Hatalarını Analiz etme"
 
 msgid "Anne Gentle – Cisco"
 msgstr "Anne Gentle – Cisco"
@@ -535,9 +520,6 @@ msgstr ""
 
 msgid "Better for cross project coordination"
 msgstr "Çapraz proje kordinasyonu için daha iyi"
-
-msgid "Big Tent is a code name for the official OpenStack projects"
-msgstr "Big Tent, resmi OpenStack projelerinin kod adıdır"
 
 msgid "Blueprint (Partial-Implements, Implements)"
 msgstr "Plan (Parça-Uygulama, Uygulama)"
@@ -962,13 +944,6 @@ msgstr "Çekirdek Takım Üyeleri"
 msgid "Core and Optional Services"
 msgstr "Çekirdek ve Seçimli Servisler"
 
-msgid ""
-"Core and mature Big Tent projects are tracked in the `Project Navigator "
-"<https://www.openstack.org/software/project-navigator>`_"
-msgstr ""
-"Çekirdek ve olgun Big Tent projeleri `Proje Gezgini <https://www.openstack."
-"org/software/project-navigator>`_nde kayıtlıdır."
-
 msgid "Core reviewer"
 msgstr "Ana inceleyici"
 
@@ -1218,9 +1193,6 @@ msgstr "Geliştiriciler"
 
 msgid "Developers/Software Engineers/Architects"
 msgstr "Geliştiriciler/Yazılım Mühendisleri/Mimarlar"
-
-msgid "Development environment setup"
-msgstr "Geliştirme ortamı kurulumu"
 
 msgid "Directs the user to saved log output"
 msgstr "Kullanıcıyı kaydedilen günlük çıktısına yönlendirir"
@@ -2112,9 +2084,6 @@ msgstr "Grup alıştırması"
 msgid "Growing in number (26 in 2016)"
 msgstr "Sayılarla büyüme (2016'da 26)"
 
-msgid "Guide to SetUp and Push First Patch"
-msgstr "Kurulum ve İlk Yamayı Gönderme Kılavuzu"
-
 msgid "Guidelines: https://wiki.openstack.org/wiki/GitCommitMessages"
 msgstr "Kurallar: https://wiki.openstack.org/wiki/GitCommitMessages"
 
@@ -2160,9 +2129,6 @@ msgstr ""
 
 msgid "How OpenStack is Made"
 msgstr "OpenStack Nasıl Yapıldı"
-
-msgid "How OpenStack is made"
-msgstr "OpenStack Nasıl Yapılır"
 
 msgid "How OpenStack is made (3h including 1h30 exercises)"
 msgstr "OpenStack nasıl yapıldı (1s30dk alıştırma içiren 3s)"
@@ -2559,12 +2525,6 @@ msgstr ""
 "tecrübeye sahipsin, bulunduğun şirket ve orada rolün nedir, neden dersi "
 "alıyorsun, vb."
 
-msgid "Introducing OpenStack as a Community"
-msgstr "OpenStack'i Topluluk Olarak Tanıtmak"
-
-msgid "Introducing OpenStack as a Software"
-msgstr "OpenStack'i Yazılım Olarak Tanıtmak"
-
 msgid "Introduction"
 msgstr "Giriş"
 
@@ -2591,14 +2551,8 @@ msgstr ""
 msgid "Jay Bryant – IBM"
 msgstr "Jay Bryant – IBM"
 
-msgid "Jenkins Failures"
-msgstr "Jenkins Hataları"
-
 msgid "Jenkins and vendor CIs will review your patch"
 msgstr "Jenkins ve şube CI'ler yamanızı inceler"
-
-msgid "Jenkins votes +1/-1 depending on test results"
-msgstr "Jenkins, test sonuçlarına bağlı olarak +1/-1 oy verir"
 
 msgid "Jieun Kim (assistant)"
 msgstr "Jieun Kim (yardımcı)"
@@ -2636,9 +2590,6 @@ msgstr "Temmuz 6 - 7, 2016 (Çar - Perş)"
 
 msgid "July 9 - 10, 2015 (Thu - Fri)"
 msgstr "Temmuz 9 - 10 2015 (Per - Cum)"
-
-msgid "Jump on IRC"
-msgstr "IRC'ye atlamak"
 
 msgid "Jungsu Han (assistant, mentoring)"
 msgstr "Jungsu Han (yardımcı, danışman)"
@@ -2781,9 +2732,6 @@ msgstr "Yerel dal oluşturma"
 
 msgid "Location"
 msgstr "Konum"
-
-msgid "Log Output"
-msgstr "Günlük Çıktısı"
 
 msgid "Logs may be accessed by clicking on the test's name"
 msgstr "Günlüklere test ismine tıklanarak erişilebilir"
@@ -2986,9 +2934,6 @@ msgstr "Modül - katkıda bulunan kişiler"
 msgid "Module - more views"
 msgstr "Modül - daha fazla görünüm"
 
-msgid "More details coming soon..."
-msgstr "Daha fazla bilgi yakında gelecek ..."
-
 msgid ""
 "More details: `Developing with Devstack <https://docs.openstack.org/"
 "developer/devstack/development.html>`_"
@@ -3113,10 +3058,6 @@ msgid ""
 msgstr ""
 "Oy kullanmayan işler test edilen yeni işlerdir ve henüz oy kullanmaya hazır "
 "olmayabilirler"
-
-msgid "Non-voting jobs do not cause a -1 vote from Jenkins upon failure"
-msgstr ""
-"Oylanmayan iş başarısızlık durumunda Jenkins'in -1 vermesine sebep olmaz"
 
 msgid ""
 "Nonprofit foundation created to \"develop, support, protect, and promote\" "
@@ -3572,9 +3513,6 @@ msgstr ""
 "Proje Yayına alım Oturumları: Yeni katkıda bulunanların soru sormaları ve "
 "projeye katkıda bulunan diğer kişileri tanımaları için bir yer."
 
-msgid "Project Status and Zuul"
-msgstr "Proje Durumu ve Zuul"
-
 msgid "Project Team Gathering (PTG)"
 msgstr "Proje Takımı Toplantısı (PTG)"
 
@@ -3740,9 +3678,6 @@ msgstr ""
 msgid "Registration and Accounts"
 msgstr "Kayıt ve Hesaplar"
 
-msgid "Registration and accounts"
-msgstr "Kayıt ve hesaplar"
-
 msgid "Regular reviewer"
 msgstr "Normal inceleyici"
 
@@ -3758,9 +3693,6 @@ msgstr "Sürüm Adayları"
 
 msgid "Release candidate process"
 msgstr "Sürüm adayı süreci"
-
-msgid "Release cycle"
-msgstr "Sürüm döngüsü"
 
 msgid "Release day"
 msgstr "Sürüm tarihi"
@@ -4740,9 +4672,6 @@ msgstr "OpenStack Zirveleri için koltuk kaydı"
 msgid "Tracked Items"
 msgstr "İzlenen Öğeler"
 
-msgid "Tracking"
-msgstr "İzleme"
-
 msgid "Trailing the common cycle"
 msgstr "Ortak döngünün izini sürmek"
 
@@ -4928,9 +4857,6 @@ msgstr "Kullanıcı Komitesi"
 msgid "User Committee (\"UC\")"
 msgstr "Kullanıcı Komitesi (\"UC\")"
 
-msgid "User Committee and Working Groups"
-msgstr "Kullanıcı Komitesi ve Çalışma Grupları"
-
 msgid "User Group Meetups"
 msgstr "Kullanıcı Grup Toplantıları"
 
@@ -5010,10 +4936,6 @@ msgstr "Seçimlerde oy kullanmak."
 
 msgid "Voting and non-voting jobs"
 msgstr "Oylayan ve oylamayan işler"
-
-msgid "Voting job failures cause a -1 vote from Jenkins on the patch"
-msgstr ""
-"Oylayan işin başarısız olması yamaya Jenkins'in -1 vermesine sebep olur"
 
 msgid ""
 "Way for people to communicate to a larger group than those that are on IRC"
@@ -5294,9 +5216,6 @@ msgstr ""
 
 msgid "Workflow and Tools for Participation"
 msgstr "Katılmak için İş Akışları ve Araçlar"
-
-msgid "Workflow of an OpenStack contribution and tools"
-msgstr "OpenStack katkısının iş akışı ve araçları"
 
 msgid ""
 "Workflow of an OpenStack contribution and tools (3h including 2h exercises)"

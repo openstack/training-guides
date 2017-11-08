@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-25 19:56+0000\n"
+"POT-Creation-Date: 2017-11-04 23:22+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -70,9 +70,6 @@ msgid ""
 msgstr ""
 "**공개키** - 접속하고자 하는 임의의 SSH 서버에 자유롭게 공유 가능합니다."
 
-msgid "**Saturday, November 04, 2017 - Sunday, November 05, 2017**"
-msgstr "**2017년 11월 04일 토요일 - 2017년 11월 05일 일요일**"
-
 msgid "**Staff**"
 msgstr "**스태프**"
 
@@ -123,9 +120,6 @@ msgstr "2016 미국 Austin"
 
 msgid "2016 Barcelona, Spain"
 msgstr "2016 스페인 Barcelona"
-
-msgid "2016 was 6th birthday of OpenStack"
-msgstr "2016년은 OpenStack 여섯 번째 생일이었습니다"
 
 msgid "2017 Beijing, China"
 msgstr "2017 중국 베이징"
@@ -289,12 +283,6 @@ msgstr "DevStack이 실행된 이후 localhost를 통해 Horizon에 접근 가�
 msgid "After the last milestone"
 msgstr "마지막 마일스톤 이후"
 
-msgid "Agenda - Day 1"
-msgstr "일정 - 1일차"
-
-msgid "Agenda - Day 2"
-msgstr "일정 - 2일차"
-
 msgid "Agile"
 msgstr "애자일"
 
@@ -447,9 +435,6 @@ msgstr "커뮤니티에서 새로운 컨트리뷰터가 진입점으로 찾는 �
 
 msgid "Better for cross project coordination"
 msgstr "프로젝트 간 상호 조정에 적합"
-
-msgid "Big Tent is a code name for the official OpenStack projects"
-msgstr "Big Tent는 공식 OpenStack 프로젝트에 대한 코드명입니다"
 
 msgid "Blueprint (Partial-Implements, Implements)"
 msgstr "블루프린트 (Partial-Implements, Implements)"
@@ -847,13 +832,6 @@ msgstr "코어 팀 구성원"
 msgid "Core and Optional Services"
 msgstr "핵심 및 선택 서비스"
 
-msgid ""
-"Core and mature Big Tent projects are tracked in the `Project Navigator "
-"<https://www.openstack.org/software/project-navigator>`_"
-msgstr ""
-"코어 및 성숙이 이루어진 Big Tent 프로젝트들은 `Project Navigator <https://"
-"www.openstack.org/software/project-navigator>`_ 에서 확인 가능합니다."
-
 msgid "Core reviewer"
 msgstr "핵심 검토자"
 
@@ -1040,9 +1018,6 @@ msgstr "개발자"
 
 msgid "Developers/Software Engineers/Architects"
 msgstr "개발자/소프트웨어 엔지니어/아키텍트"
-
-msgid "Development environment setup"
-msgstr "개발 환경 셋업"
 
 msgid "Disconnect: <ctrl>-a d"
 msgstr "연결 해제: <ctrl>-a d"
@@ -1818,9 +1793,6 @@ msgstr "그룹 실습"
 msgid "Growing in number (26 in 2016)"
 msgstr "숫자가 증가하고 있습니다 (2016년 26)"
 
-msgid "Guide to SetUp and Push First Patch"
-msgstr "첫 패치에 대한 셋업 및 푸시 가이드"
-
 msgid "Guidelines: https://wiki.openstack.org/wiki/GitCommitMessages"
 msgstr "가이드라인: https://wiki.openstack.org/wiki/GitCommitMessages"
 
@@ -1857,9 +1829,6 @@ msgid "Hosted annually by local OpenStack User Groups and companies"
 msgstr "로컬 OpenStack 사용자 그룹 및 회사에 의해 매년 개최가 이루어집니다"
 
 msgid "How OpenStack is Made"
-msgstr "OpenStack은 어떻게 만들어지는가"
-
-msgid "How OpenStack is made"
 msgstr "OpenStack은 어떻게 만들어지는가"
 
 msgid "How OpenStack is made (3h including 1h30 exercises)"
@@ -2193,12 +2162,6 @@ msgstr "프로젝트와 상호작용"
 msgid "Interactive, hands-on class"
 msgstr "인터렉티브, 핸즈 온 수업"
 
-msgid "Introducing OpenStack as a Community"
-msgstr "커뮤니티로서의 OpenStack 소개"
-
-msgid "Introducing OpenStack as a Software"
-msgstr "소프트웨어로서의 OpenStack 소개"
-
 msgid "Introduction"
 msgstr "소개"
 
@@ -2223,9 +2186,6 @@ msgstr ""
 
 msgid "Jay Bryant – IBM"
 msgstr "Jay Bryant – IBM"
-
-msgid "Jenkins Failures"
-msgstr "Jenkins 실패"
 
 msgid "Jenkins and vendor CIs will review your patch"
 msgstr "Jenkins 및 벤더 CI에서 패치를 리뷰할 것입니다"
@@ -2259,9 +2219,6 @@ msgstr "2016년 7월 6 - 7일 (수 - 목)"
 
 msgid "July 9 - 10, 2015 (Thu - Fri)"
 msgstr "2015년 7월 9 - 10일 (목 - 금)"
-
-msgid "Jump on IRC"
-msgstr "IRC로 뛰어오기"
 
 msgid "Jungsu Han (assistant, mentoring)"
 msgstr "Jungsu Han (조교, 멘토링)"
@@ -2380,9 +2337,6 @@ msgstr "로컬 업스트림 트레이닝"
 
 msgid "Local branch creation"
 msgstr "로컬 브랜치 생성"
-
-msgid "Log Output"
-msgstr "로그 출력"
 
 msgid ""
 "Logs of meetings and channels are archived so that they can be referenced "
@@ -2563,9 +2517,6 @@ msgstr "모듈 - 컨트리뷰터"
 
 msgid "Module - more views"
 msgstr "모듈 - 더 많은 뷰"
-
-msgid "More details coming soon..."
-msgstr "곧 더 많은 세부 정보를 제공 예정입니다..."
 
 msgid ""
 "More details: `Developing with Devstack <https://docs.openstack.org/"
@@ -3232,9 +3183,6 @@ msgstr "등록 & 계정"
 msgid "Registration and Accounts"
 msgstr "등록 및 계정"
 
-msgid "Registration and accounts"
-msgstr "등록 및 계정"
-
 msgid "Regular reviewer"
 msgstr "일반 검토자"
 
@@ -3249,9 +3197,6 @@ msgstr "릴리즈 주기"
 
 msgid "Release candidate process"
 msgstr "릴리즈 후보 절차"
-
-msgid "Release cycle"
-msgstr "릴리즈 주기"
 
 msgid "Release day"
 msgstr "릴리즈 일자"
@@ -4065,9 +4010,6 @@ msgstr "OpenStack Summits 트랙 의장"
 msgid "Tracked Items"
 msgstr "추적된 항목"
 
-msgid "Tracking"
-msgstr "추적"
-
 msgid "Trailing the common cycle"
 msgstr "공통 주기를 종료"
 
@@ -4478,9 +4420,6 @@ msgstr "OpenStack 미션을 향해 작업합니다"
 
 msgid "Workflow and Tools for Participation"
 msgstr "준비를 위한 워크플로우 및 도구"
-
-msgid "Workflow of an OpenStack contribution and tools"
-msgstr "OpenStack 컨트리뷰션과 도구에 대한 워크 플로우"
 
 msgid ""
 "Workflow of an OpenStack contribution and tools (3h including 2h exercises)"
