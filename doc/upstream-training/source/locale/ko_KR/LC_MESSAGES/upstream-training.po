@@ -4,6 +4,7 @@
 # Ian Y. Choi <ianyrchoi@gmail.com>, 2016. #zanata
 # Jun-Sik Shin <jsshin@smartx.kr>, 2016. #zanata
 # SeongSoo Cho <nexusz99@gmail.com>, 2016. #zanata
+# ByungYeol Woo <wby1089@gmail.com>, 2017. #zanata
 # Ian Y. Choi <ianyrchoi@gmail.com>, 2017. #zanata
 # Jongwoo Han <jongwoohan@gmail.com>, 2017. #zanata
 # Jun-Sik Shin <jsshin@smartx.kr>, 2017. #zanata
@@ -13,12 +14,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-04 23:22+0000\n"
+"POT-Creation-Date: 2017-11-08 12:19+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-10-24 04:15+0000\n"
-"Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
+"PO-Revision-Date: 2017-11-09 04:18+0000\n"
+"Last-Translator: ByungYeol Woo <wby1089@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
 "X-Generator: Zanata 3.9.6\n"
@@ -126,6 +127,9 @@ msgstr "2017 중국 베이징"
 
 msgid "2017 Boston, USA"
 msgstr "2017 미국 보스턴"
+
+msgid "2017 was 7th birthday of OpenStack"
+msgstr "2017년은 오픈스택의 일곱 번째 생일이었습니다."
 
 msgid "265 different organizations"
 msgstr "265 개의 서로 다른 회사"
@@ -2113,6 +2117,13 @@ msgstr "개별 Foundation 구성원"
 msgid "Individual members elect the same amount"
 msgstr "개별 구성원은 동일 수 만큼을 선출합니다"
 
+msgid ""
+"Individual members, can be granted ATC status by the PTL of an official "
+"project and TC approval. This is called extra-ATC status."
+msgstr ""
+"개별 멤버는 공식 프로젝트의 PTL과 TC 승인으로 ATC 상태를 부여받을 수 있습니"
+"다. 이는 extra-ATC 상태라고 불립니다."
+
 msgid "Individual members: all of us"
 msgstr "개인 멤버 : 우리 모두"
 
@@ -3593,6 +3604,9 @@ msgstr "OpenStack 컨퍼런스에 프리젠테이션 제출하기."
 msgid "Submit the blueprints and/or specs"
 msgstr "블루프린트 그리고/또는 스펙을 제출합니다"
 
+msgid "Subset of ATCs who have contributed to a specific project"
+msgstr "특정 프로젝트에 기여한 ATC의 부분 집합"
+
 msgid "Subset of the Foundation Individual Members"
 msgstr "Foundation 개별 구성원 중의 부분 집합"
 
@@ -3652,6 +3666,9 @@ msgstr ""
 "governance.openstack.org/election/>`_ 에서 확인 가능하며, `openstack-dev "
 "mailing list <http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-"
 "dev>`_ 를 통해 공유가 이루어집니다."
+
+msgid "TC members are elected by the ATC's"
+msgstr "TC 멤버는 ATC 멤버에 의해 선출됩니다."
 
 msgid "Taehee Jang (assistant, mentoring - Ubuntu Korea Community)"
 msgstr "Taehee Jang (조교, 멘토링 - 우분투 한국 커뮤니티)"
