@@ -14,12 +14,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-08 12:19+0000\n"
+"POT-Creation-Date: 2017-11-09 07:28+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-11-09 04:18+0000\n"
-"Last-Translator: ByungYeol Woo <wby1089@gmail.com>\n"
+"PO-Revision-Date: 2017-11-14 07:14+0000\n"
+"Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
 "X-Generator: Zanata 3.9.6\n"
@@ -440,6 +440,9 @@ msgstr "커뮤니티에서 새로운 컨트리뷰터가 진입점으로 찾는 �
 msgid "Better for cross project coordination"
 msgstr "프로젝트 간 상호 조정에 적합"
 
+msgid "Big Tent was a code name for the official OpenStack projects"
+msgstr "Big Tent는 공식 OpenStack 프로젝트에 대한 코드 이름이었습니다."
+
 msgid "Blueprint (Partial-Implements, Implements)"
 msgstr "블루프린트 (Partial-Implements, Implements)"
 
@@ -716,6 +719,9 @@ msgstr "개발 마일스톤을 가진 릴리즈 주기"
 msgid "Common cycle with intermediary release"
 msgstr "중간 단계 릴리즈를 가진 공통 주기"
 
+msgid "Common cycle with intermediary release:"
+msgstr "중간 단계 릴리즈를 가진 공통 주기:"
+
 msgid ""
 "Common place to have people in a project collaborate on larger projects and "
 "planning of events"
@@ -989,6 +995,9 @@ msgstr "시간 프레임을 결정합니다"
 
 msgid "Determine who the current PTL is of your favorite project."
 msgstr "선호하는 프로젝트에서 누가 현재 PTL인지를 찾아봅니다."
+
+msgid "Dev"
+msgstr "Dev"
 
 msgid "DevStack"
 msgstr "DevStack"
@@ -1859,6 +1868,12 @@ msgstr "그러나, 이는 각자에게 책임이 있음을 명심하십시오."
 msgid "Hyeunjee Kim (assistant, mentoring)"
 msgstr "Hyeunjee Kim (조교, 멘토링)"
 
+msgid "I"
+msgstr "I"
+
+msgid "III"
+msgstr "III"
+
 msgid "IRC"
 msgstr "IRC"
 
@@ -2104,6 +2119,9 @@ msgstr "호환되지 않는 구성 파일 변경 사항"
 
 msgid "Independent release model"
 msgstr "독립 릴리즈 모델"
+
+msgid "Independent release model:"
+msgstr "독립 릴리즈 모델:"
 
 msgid "Individual Contributor License Agreement"
 msgstr "개인 컨트리뷰터 라이선스 동의"
@@ -2467,6 +2485,9 @@ msgstr "개발 주기를 구성하기 위해 시간 내에서 유용한 레퍼�
 msgid "Manage day-to-day operations"
 msgstr "일상적인 운영 관리"
 
+msgid "Management"
+msgstr "Management"
+
 msgid "Managers"
 msgstr "매니저"
 
@@ -2615,6 +2636,9 @@ msgstr "NFV = Network Function Virtualization"
 msgid "Namgon Lucas Kim (assistant, mentoring)"
 msgstr "Namgon Lucas Kim (조교, 멘토링)"
 
+msgid "New Dev"
+msgstr "New Dev"
+
 msgid "New agreement"
 msgstr "새 약관 동의"
 
@@ -2669,6 +2693,13 @@ msgstr "공식 & 비공식 프로젝트"
 
 msgid "Official OpenStack projects"
 msgstr "공식 OpenStack 프로젝트"
+
+msgid ""
+"Official OpenStack projects are tracked in the `Project Navigator <https://"
+"www.openstack.org/software/project-navigator>`_"
+msgstr ""
+"Official OpenStack projects are tracked in the `Project Navigator <https://"
+"www.openstack.org/software/project-navigator>`_"
 
 msgid ""
 "Official OpenStack projects can participate by offering topics and mentors "
@@ -2797,6 +2828,9 @@ msgstr "OpenStack Foundation 계정"
 msgid "OpenStack Governance"
 msgstr "OpenStack Governance"
 
+msgid "OpenStack Infrastructure and Project Status"
+msgstr "OpenStack 인프라 및 프로젝트 상태"
+
 msgid "OpenStack Project Status and Zuul"
 msgstr "OpenStack 프로젝트 상태 및 Zuul"
 
@@ -2860,6 +2894,9 @@ msgstr "OpenStack-Health"
 
 msgid "Openstack as a Community"
 msgstr "커뮤니티로서의 OpenStack"
+
+msgid "Operator"
+msgstr "Operator"
 
 msgid "Operators' meet ups"
 msgstr "운영자 밋업"
@@ -3165,6 +3202,9 @@ msgstr "재확인"
 
 msgid "References"
 msgstr "레퍼런스"
+
+msgid "References Cont."
+msgstr "레퍼런스 (계속)"
 
 msgid "References to other relevant patches?"
 msgstr "다른 적절한 패치를 레퍼런스하는가?"
@@ -4030,6 +4070,9 @@ msgstr "추적된 항목"
 msgid "Trailing the common cycle"
 msgstr "공통 주기를 종료"
 
+msgid "Trailing the common cycle:"
+msgstr "공통 주기를 종료 시점:"
+
 msgid "Training Content"
 msgstr "트레이닝 내용"
 
@@ -4174,6 +4217,9 @@ msgstr "특정 프로젝트 팀에 이미 작업을 하고 있는 경우 참가�
 
 msgid "Useful screen commands:"
 msgstr "유용한 screen 명령어들:"
+
+msgid "User"
+msgstr "User"
 
 msgid "User Committee"
 msgstr "사용자 위원회"
@@ -4547,6 +4593,9 @@ msgstr ""
 msgid "`Blueprints <https://wiki.openstack.org/wiki/Blueprints>`_"
 msgstr "`Blueprints <https://wiki.openstack.org/wiki/Blueprints>`_"
 
+msgid "`Board election <https://www.openstack.org/election/>`_"
+msgstr "`Board election <https://www.openstack.org/election/>`_"
+
 msgid "`Branch model <https://wiki.openstack.org/wiki/Branch_Model>`_"
 msgstr "`브랜칭 모델 <https://wiki.openstack.org/wiki/Branch_Model>`_"
 
@@ -4555,6 +4604,13 @@ msgstr "`브랜칭 모델 <archive-branching-model.html>`_"
 
 msgid "`Bugs <https://wiki.openstack.org/wiki/Bugs>`_"
 msgstr "`버그 <https://wiki.openstack.org/wiki/Bugs>`_"
+
+msgid ""
+"`Bylaws of the OpenStack Foundation <https://www.openstack.org/legal/bylaws-"
+"of-the-openstack-foundation/>`_"
+msgstr ""
+"`Bylaws of the OpenStack Foundation <https://www.openstack.org/legal/bylaws-"
+"of-the-openstack-foundation/>`_"
 
 msgid "`Closing Exercise  <archive-closing-exercise.html>`_"
 msgstr "`마무리 실습  <archive-closing-exercise.html>`_"
@@ -4684,6 +4740,13 @@ msgstr ""
 "`2017 한국 업스트림 트레이닝을 위한 Etherpad <https://etherpad.openstack.org/"
 "p/upstream-training-korea-2017>`_"
 
+msgid ""
+"`Foundation mailing list <http://lists.openstack.org/cgi-bin/mailman/"
+"listinfo/foundation>`_"
+msgstr ""
+"`Foundation mailing list <http://lists.openstack.org/cgi-bin/mailman/"
+"listinfo/foundation>`_"
+
 msgid "`Gerrit <workflow-gerrit.html>`_"
 msgstr "`Gerrit <workflow-gerrit.html>`_"
 
@@ -4699,6 +4762,11 @@ msgid ""
 msgstr ""
 "`Git review 설치 <http://docs.openstack.org/infra/manual/developers."
 "html#installing-git-review>`_"
+
+msgid ""
+"`Governance - Election page <https://governance.openstack.org/election/>`_"
+msgstr ""
+"`Governance - Election page <https://governance.openstack.org/election/>`_"
 
 msgid ""
 "`Guide to SetUp and Push First Patch <workflow-setup-and-first-patch.html>`_"
@@ -4919,6 +4987,11 @@ msgstr ""
 "openstack-upstream-training-in-paris/>`_."
 
 msgid ""
+"`OpenStack User Committee <https://governance.openstack.org/uc/index.html>`_"
+msgstr ""
+"`OpenStack User Committee <https://governance.openstack.org/uc/index.html>`_"
+
+msgid ""
 "`OpenStack User Committee Charter <https://governance.openstack.org/uc/"
 "reference/charter.html>`_"
 msgstr ""
@@ -5103,6 +5176,13 @@ msgstr ""
 "`기능에 대한 유스케이스 <http://specs.openstack.org/openstack/openstack-user-"
 "stories/>`_"
 
+msgid ""
+"`User-committee mailing list <http://lists.openstack.org/cgi-bin/mailman/"
+"listinfo/user-committee>`_"
+msgstr ""
+"`User-committee mailing list <http://lists.openstack.org/cgi-bin/mailman/"
+"listinfo/user-committee>`_"
+
 msgid "`Using Sandbox for Practice <workflow-using-sandbox.html>`_"
 msgstr "`연습을 위한 Sandbox <workflow-using-sandbox.html>`_"
 
@@ -5219,6 +5299,13 @@ msgid ""
 msgstr ""
 "`최소 구성 <http://docs.openstack.org/developer/devstack/configuration."
 "html#minimal-configuration>`_"
+
+msgid ""
+"`openstack-dev mailing list <http://lists.openstack.org/cgi-bin/mailman/"
+"listinfo/openstack-dev>`_"
+msgstr ""
+"`openstack-dev mailing list <http://lists.openstack.org/cgi-bin/mailman/"
+"listinfo/openstack-dev>`_"
 
 msgid "`reporting a bug <https://wiki.openstack.org/wiki/Bugs#Reporting>`_"
 msgstr "`버그 보고 <https://wiki.openstack.org/wiki/Bugs#Reporting>`_"
@@ -5448,3 +5535,6 @@ msgstr "사용자에게 보이는 이점"
 
 msgid "vim-fugitive, emacs-magit"
 msgstr "vim-fugitive, emacs-magit"
+
+msgid "✔"
+msgstr "✔"
