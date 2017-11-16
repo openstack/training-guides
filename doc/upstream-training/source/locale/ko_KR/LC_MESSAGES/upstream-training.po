@@ -14,11 +14,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-09 07:28+0000\n"
+"POT-Creation-Date: 2017-11-14 07:38+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-11-14 07:14+0000\n"
+"PO-Revision-Date: 2017-11-14 07:19+0000\n"
 "Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
@@ -857,6 +857,13 @@ msgstr ""
 
 msgid "Core team"
 msgstr "코어 팀"
+
+msgid ""
+"Core team membership is about merging on master, stable core membership is "
+"independent"
+msgstr ""
+"코어 팀 멤버쉽은 master에 대한 머징에 해당하며, 안정 버전에 대한 코어 멤버쉽"
+"은 별개입니다"
 
 msgid "Course Outline"
 msgstr "과정 목차"
@@ -2191,6 +2198,13 @@ msgstr "프로젝트와 상호작용"
 msgid "Interactive, hands-on class"
 msgstr "인터렉티브, 핸즈 온 수업"
 
+msgid ""
+"Intermediary releases can also be used to time releases near the beginning "
+"and end of the release cycle. Horizon plug-ins do this."
+msgstr ""
+"중간 릴리즈 또한 릴리즈 주기 시작 및 끝 근처에 릴리즈로 사용이 될 수 있습니"
+"다. Horizon 플러그인이 이를 따릅니다."
+
 msgid "Introduction"
 msgstr "소개"
 
@@ -2633,8 +2647,15 @@ msgstr "Márton Kiss – Aptira"
 msgid "NFV = Network Function Virtualization"
 msgstr "NFV = Network Function Virtualization"
 
+msgid "Name for a cycle that has been released"
+msgstr "릴리즈가 이루어진 사이클에 대한 이름"
+
 msgid "Namgon Lucas Kim (assistant, mentoring)"
 msgstr "Namgon Lucas Kim (조교, 멘토링)"
+
+msgid ""
+"New Core Team members are nominated and elected by other Core Team Members"
+msgstr "새로운 코어 팀 구성원은 다른 코어 팀 구성원에 의해 제안 및 선출됩니다"
 
 msgid "New Dev"
 msgstr "New Dev"
@@ -3120,6 +3141,13 @@ msgid "Projects APIs are documented within the project"
 msgstr "프로젝트 API는 해당 프로젝트 내에 문서화되어 있습니다"
 
 msgid ""
+"Projects dependent upon the output of a release, like packaging or deploying "
+"OpenStack follow this model; e.g. Fuel and Kolla"
+msgstr ""
+"OpenStack 패키징 또는 배포와 같이 릴리즈 결과물에 의존하는 프로젝트들이 해당 "
+"모델을 따릅니다; 예: Fuel 및 Kolla"
+
+msgid ""
 "Projects improve and grow independently but also strive to improve one "
 "collaborative framework: OpenStack"
 msgstr ""
@@ -3298,6 +3326,9 @@ msgstr "OpenStack 사용자를 대표합니다"
 msgid "Required:"
 msgstr "필수:"
 
+msgid "Requirements freeze"
+msgstr "요구 사항 프리징"
+
 msgid "Resolve merge conflicts"
 msgstr "머지 conflict를 해결합니다"
 
@@ -3387,6 +3418,10 @@ msgstr "SSH 키는 항상 쌍으로 생성됩니다:"
 
 msgid "Sahid Ferdjaoui (assistant, french, english)"
 msgstr "Sahid Ferdjaoui (조교, 프랑스어, 영어)"
+
+msgid "Same criteria as ATC except for contirbutions to a project"
+msgstr ""
+"특정 프로젝트에 컨트리뷰션을 한다는 것을 제외하고는 ATC와 동일한 기준입니다"
 
 msgid "Sandbox"
 msgstr "Sandbox"
@@ -3561,6 +3596,9 @@ msgstr ""
 "소스 파일은 `governance repository <http://git.openstack.org/cgit/openstack/"
 "governance/tree/reference/projects.yaml>`_ 에 호스팅되어 있습니다"
 
+msgid "Spec freeze"
+msgstr "스펙 프리징"
+
 msgid "Spec/blueprint freeze"
 msgstr "스펙/블루프린트 프리징"
 
@@ -3572,6 +3610,9 @@ msgstr "수용을 가속화합니다"
 
 msgid "Speeding the Acceptance"
 msgstr "수용을 보다 빠르게 하기"
+
+msgid "Stable Branch"
+msgstr "안정 버전 브랜치"
 
 msgid "Stable branches"
 msgstr "안정 브랜치"
@@ -3956,6 +3997,13 @@ msgstr ""
 "별 전담 채널입니다."
 
 msgid ""
+"These projects may hold tools used for OpenStack but are not part of a "
+"production release."
+msgstr ""
+"해당 프로젝트들은 OpenStack을 위한 도구를 포함하고 있으나 프로덕션 릴리즈 부"
+"분에는 해당하지 않습니다."
+
+msgid ""
 "These slides prepare students for the Lego activity, and ensure they "
 "understand the metaphors in use. The Lego in the exercise represents the "
 "code of a software project, in this case OpenStack. The students all take on "
@@ -4211,6 +4259,9 @@ msgstr "다음의 경우 사용합니다"
 
 msgid "Used as-is as the final release"
 msgstr "최종 릴리즈와 같이 그대로 사용"
+
+msgid "Used for components needing more frequent releases. e.g. Oslo Libraries"
+msgstr "보다 잦은 릴리즈를 필요로 하는 컴포넌트에 사용. 예: Oslo 라이브러리"
 
 msgid "Useful for participants if they are already working with a project team"
 msgstr "특정 프로젝트 팀에 이미 작업을 하고 있는 경우 참가자에게 유용합니다"
@@ -5120,6 +5171,9 @@ msgstr "`스펙 <http://specs.openstack.org>`_"
 
 msgid "`Stable branch <https://wiki.openstack.org/wiki/StableBranch>`_"
 msgstr "`Stable 브랜치 <https://wiki.openstack.org/wiki/StableBranch>`_"
+
+msgid "`Stackalytics Wiki <https://wiki.openstack.org/wiki/Stackalytics>`_"
+msgstr "`Stackalytics Wiki <https://wiki.openstack.org/wiki/Stackalytics>`_"
 
 msgid ""
 "`Starting Work on a New Repository <http://docs.openstack.org/infra/manual/"
