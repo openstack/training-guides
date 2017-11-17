@@ -18,8 +18,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-11-14 07:19+0000\n"
-"Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
+"PO-Revision-Date: 2017-11-17 04:12+0000\n"
+"Last-Translator: ByungYeol Woo <wby1089@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
 "X-Generator: Zanata 3.9.6\n"
@@ -665,6 +665,12 @@ msgstr "코드 파헤치기"
 
 msgid "Code can be uploaded before a blueprint/spec is accepted"
 msgstr "코드는 블루프린트/스펙이 승낙되기 전에 업로드 할 수 있습니다."
+
+msgid "Code change during the RC phase is a balancing act"
+msgstr "RC 단계 중 코드 변경은 균형잡힌 동작입니다."
+
+msgid "Code for new features is no longer accepted."
+msgstr "새로운 기능에 대한 코드는 더 이상 허용되지 않습니다."
 
 msgid ""
 "Code or documentation contribution to any of the official project "
@@ -1380,6 +1386,20 @@ msgstr "해결하고자 하는 이슈에 및 왜 수정이 되어야 하는지�
 msgid "External References"
 msgstr "외부 레퍼런스"
 
+msgid ""
+"Externally visible strings can no longer be changed. Helps translation "
+"activities complete on time."
+msgstr ""
+"외부에 보여지는 문자열은 더 이상 변경되지 않습니다. 이는 제 시간에 번역 활동"
+"이 마무리되도록 도와줍니다."
+
+msgid ""
+"Face to face planning discussions happen at the Project Teams Gathering "
+"(PTG) which is coordinated with the start of a development new cycle"
+msgstr ""
+"새로운 개발 주기의 시작과 함께 조정되는 프로젝트 팀 회의(PTG)에서 대면 계획 "
+"토론이 진행됩니다."
+
 msgid "Face-to-face section: 1.5 days"
 msgstr "오프라인 세션: 1.5일"
 
@@ -2043,6 +2063,11 @@ msgid "In a terminal type::"
 msgstr "터미널에서 입력합니다::"
 
 msgid ""
+"In addition to milestones, there are freeze dates for different activities "
+"in the release"
+msgstr "이정표에 추가하자면, 릴리즈의 다른 활동에 대한 확정된 날짜가 있습니다."
+
+msgid ""
 "In order to identify ourselves that we own the nick name upon logging in, we "
 "need to tell Colloquy to communicate our password over upon connecting."
 msgstr ""
@@ -2653,6 +2678,9 @@ msgstr "릴리즈가 이루어진 사이클에 대한 이름"
 msgid "Namgon Lucas Kim (assistant, mentoring)"
 msgstr "Namgon Lucas Kim (조교, 멘토링)"
 
+msgid "Need to balance integrating fixes and code churn"
+msgstr "수정사항 반영과 코드 변경 사이의 균형을 조정할 필요가 있습니다."
+
 msgid ""
 "New Core Team members are nominated and elected by other Core Team Members"
 msgstr "새로운 코어 팀 구성원은 다른 코어 팀 구성원에 의해 제안 및 선출됩니다"
@@ -3045,6 +3073,9 @@ msgstr ""
 msgid "Please note that the language of the training is English."
 msgstr "참고로 트레이닝에서는 영어를 사용합니다."
 
+msgid "Point at which specs must be proposed and reviewed for the release."
+msgstr "다음 릴리즈에 사양이 제안되고 검토되어야 할 지점."
+
 msgid "Post"
 msgstr "보내기"
 
@@ -3325,6 +3356,13 @@ msgstr "OpenStack 사용자를 대표합니다"
 
 msgid "Required:"
 msgstr "필수:"
+
+msgid ""
+"Requirements cannot be changed to allow downstream packagers time to pull-in "
+"and build dependencies."
+msgstr ""
+"하위 패키지 담당자가 종속성을 가져오고 빌드할 수 있는 시간을 허용하기 위하여 "
+"요구사항들은 변경될 수 없습니다."
 
 msgid "Requirements freeze"
 msgstr "요구 사항 프리징"
@@ -3647,6 +3685,13 @@ msgstr ""
 "화를 지향하도록 하기 위해 질문을 요청하는 것입니다. 예를 들면, 첫 번째 "
 "sprint 동안에는 CEO와 PTL이 계획에 대한 상호운용성과 마주할 것입니다. 멘토는 "
 "팀에게 해당 이슈를 어떻게 고심할 것인지 물어보아야 합니다."
+
+msgid ""
+"Start with a blueprint and look to the project team's core members for "
+"guidance on whether a spec is needed."
+msgstr ""
+"청사진으로 시작하고 프로젝트 팀의 핵심 구성원에게 사양이 필요한지에 대한 지침"
+"을 살펴봅니다."
 
 msgid "Start work from latest patchset"
 msgstr "마지막 patchset에서 작업을 시작합니다"
@@ -4474,6 +4519,13 @@ msgstr ""
 msgid "When your blueprint/spec is accepted"
 msgstr "블루프린트/스펙이 수락되었을 때"
 
+msgid ""
+"Whether a change requires just a blueprint or spec and blueprint depends on "
+"the complexity of the change."
+msgstr ""
+"변화가 단지 청사진이 필요하거나, 사양과 청사진이 모두 필요한지는 변화의 복잡"
+"성에 달려 있습니다."
+
 msgid "Who is able to approve patches during the RC phase is limited."
 msgstr "RC Phase 기간 동안 패치를 승인할 수 있는 사람이 제한됩니다."
 
@@ -4531,6 +4583,10 @@ msgstr "피드백 및 조언을 합니다"
 
 msgid "Work towards OpenStack's mission"
 msgstr "OpenStack 미션을 향해 작업합니다"
+
+msgid ""
+"Work with your group to find and discuss the different freeze activities"
+msgstr "다른 확정된 활동을 찾아내고 논의하기 위해 당신의 그룹과 진행하세요."
 
 msgid "Workflow and Tools for Participation"
 msgstr "준비를 위한 워크플로우 및 도구"
