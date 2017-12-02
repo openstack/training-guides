@@ -148,7 +148,7 @@ Active Project Contributor (APC)
 ================================
 
 - Subset of ATCs who have contributed to a specific project
-- Same criteria as ATC except for contirbutions to a project
+- Same criteria as ATC except for contributions to a project
 - OpenStack project specific status
 
 Project Team Leads (PTLs)
