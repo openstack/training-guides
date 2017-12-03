@@ -6,12 +6,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-04 23:22+0000\n"
+"POT-Creation-Date: 2017-12-02 14:28+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-10-17 03:49+0000\n"
-"Last-Translator: Robert Simai <robert.simai@suse.com>\n"
+"PO-Revision-Date: 2017-12-02 09:02+0000\n"
+"Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
 "Language-Team: German\n"
 "Language: de\n"
 "X-Generator: Zanata 3.9.6\n"
@@ -137,6 +137,9 @@ msgstr "2017 Peking, China"
 
 msgid "2017 Boston, USA"
 msgstr "2017 Boston, USA"
+
+msgid "2017 was 7th birthday of OpenStack"
+msgstr "2017 war der 7. Geburtstag von OpenStack"
 
 msgid "265 different organizations"
 msgstr "265 verschiedene Organisationen"
@@ -577,6 +580,9 @@ msgstr ""
 msgid "Better for cross project coordination"
 msgstr "Besser für Cross-Projekt-Koordination"
 
+msgid "Big Tent was a code name for the official OpenStack projects"
+msgstr "Big Tent war ein Code-Name für die offiziellen OpenStack-Projekte"
+
 msgid "Blueprint (Partial-Implements, Implements)"
 msgstr "Blueprint (Partial-Implements, Implements)"
 
@@ -837,6 +843,12 @@ msgstr ""
 "Code kann hochgeladen werden, bevor ein Blueprint/Spezifikation akzeptiert "
 "wird"
 
+msgid "Code change during the RC phase is a balancing act"
+msgstr "Code-Änderung während der RC-Phase ist ein Balanceakt"
+
+msgid "Code for new features is no longer accepted."
+msgstr "Code für neue Funktionen wird nicht länger akzeptiert."
+
 msgid ""
 "Code or documentation contribution to any of the official project "
 "repositories"
@@ -891,6 +903,9 @@ msgstr "Gemeinsamer Zyklus mit Entwicklungsmeilensteinen"
 
 msgid "Common cycle with intermediary release"
 msgstr "Gemeinsamer Zyklus mit Zwischenfreigabe"
+
+msgid "Common cycle with intermediary release:"
+msgstr "Gemeinsamer Zyklus mit intermediärer Version:"
 
 msgid ""
 "Common place to have people in a project collaborate on larger projects and "
@@ -1035,6 +1050,13 @@ msgid "Core team"
 msgstr "Kernteam"
 
 msgid ""
+"Core team membership is about merging on master, stable core membership is "
+"independent"
+msgstr ""
+"Core-Team-Mitgliedschaft ist zum Mergen nach Master, Stable-Core-"
+"Mitgliedschaft ist unabhängig"
+
+msgid ""
 "Could be a short question as an IRC vote or something like as an exercise "
 "between two blocks"
 msgstr ""
@@ -1124,6 +1146,13 @@ msgid ""
 msgstr ""
 "Besatzungen: `Boston Crew <https://wiki.openstack.org/wiki/"
 "OpenStack_Upstream_Institute_Occasions#Boston_Crew> `_"
+
+msgid ""
+"Critical fixes have the highest priority while more minor bug fixes may be "
+"safer to hold for the subsequent release."
+msgstr ""
+"Kritische Reparaturen haben die höchste Priorität, während niedrige "
+"Fehlerbehebung besser in der folgenden Version aufgehoben sind."
 
 msgid "Current branch name information"
 msgstr "Aktuelle Branchennamen"
@@ -1714,6 +1743,13 @@ msgstr "Erläuterung des Problems und warum sollte es behoben werden"
 
 msgid "External References"
 msgstr "Externe Referenzen"
+
+msgid ""
+"Externally visible strings can no longer be changed. Helps translation "
+"activities complete on time."
+msgstr ""
+"Extern sichtbare Zeichenketten können nicht länger geändert werden. Hilft "
+"den Übersetzungsaktivitäten, um rechtzeitig fertig zu werden."
 
 msgid ""
 "Face to face planning discussions happen at the Project Teams Gathering "
@@ -2638,6 +2674,9 @@ msgstr "Inkompatible Konfigurationsdatei ändert sich"
 msgid "Independent release model"
 msgstr "Unabhängiges Release-Modell"
 
+msgid "Independent release model:"
+msgstr "Unabhängiges Versionsmodell:"
+
 msgid "Individual Contributor License Agreement"
 msgstr "Lizenzvereinbarung für Individuelle Beitragende"
 
@@ -2649,6 +2688,14 @@ msgstr "Individuelle Stiftungsmitglieder"
 
 msgid "Individual members elect the same amount"
 msgstr "Einzelmitglieder wählen den gleichen Betrag"
+
+msgid ""
+"Individual members, can be granted ATC status by the PTL of an official "
+"project and TC approval. This is called extra-ATC status."
+msgstr ""
+"Individuelle Mitglieder können vom PTL eines offiziellen Projekts und "
+"Bestätigung des TC den ATC-Status bekommen. Dieser wird Extra-ATC-Status "
+"genannt."
 
 msgid "Individual members: all of us"
 msgstr "Einzelmitglieder: alle von uns"
@@ -2698,6 +2745,14 @@ msgstr "Interaktion mit dem Projekt"
 
 msgid "Interactive, hands-on class"
 msgstr "interaktives , praktisches Arbeiten in der Gruppe"
+
+msgid ""
+"Intermediary releases can also be used to time releases near the beginning "
+"and end of the release cycle. Horizon plug-ins do this."
+msgstr ""
+"Intermediäre Versionen können auch für zeitbasierte Versionen nahe zum "
+"Versions-Anfang oder Ende des Zyklus benutzt werden. Horizon plug-ins tun "
+"dies."
 
 msgid "Intermittent Failures"
 msgstr "Intermittierende Fehler"
@@ -3226,6 +3281,17 @@ msgstr "NFV = Netzwerkfunktion Virtualisierung"
 msgid "Namgon Lucas Kim (assistant, mentoring)"
 msgstr "Namgon Lucas Kim (Assistent, Mentoring)"
 
+msgid "Need to balance integrating fixes and code churn"
+msgstr ""
+"Brauch die Balance zwischen der Integration von Reparaturen und Code-"
+"Änderungen"
+
+msgid ""
+"New Core Team members are nominated and elected by other Core Team Members"
+msgstr ""
+"Neue Core-Team-Mitglieder sind nominiert und gewählt von anderen Core-Team-"
+"Mitgliedern"
+
 msgid ""
 "New Developer: No experience with OpenStack at all. Never tried to "
 "contribute and has little to no base knowledge."
@@ -3311,6 +3377,13 @@ msgstr "Offizielle und inoffizielle Projekte"
 
 msgid "Official OpenStack projects"
 msgstr "Offizielle OpenStack-Projekte"
+
+msgid ""
+"Official OpenStack projects are tracked in the `Project Navigator <https://"
+"www.openstack.org/software/project-navigator>`_"
+msgstr ""
+"Offizielle OpenStack-Projekte werden verfolgt im `Project Navigator <https://"
+"www.openstack.org/software/project-navigator>`_"
 
 msgid ""
 "Official OpenStack projects can participate by offering topics and mentors "
@@ -3706,6 +3779,10 @@ msgstr ""
 "openstackdays.uk/2017/?schedule=upstream-developer-training-1> `_ "
 "Informationen für weitere Details."
 
+msgid "Point at which specs must be proposed and reviewed for the release."
+msgstr ""
+"Punkt an dem Specs bestätigt und überprüft sein müssen für eine Version."
+
 msgid "Post"
 msgstr "Post"
 
@@ -3818,6 +3895,13 @@ msgid "Projects APIs are documented within the project"
 msgstr "Projekte APIs werden im Projekt dokumentiert"
 
 msgid ""
+"Projects dependent upon the output of a release, like packaging or deploying "
+"OpenStack follow this model; e.g. Fuel and Kolla"
+msgstr ""
+"Projekte, die abhängig vom Ertrag eines Releases sind, wie Packetierung und "
+"Bereitstellung von OpenStack folgen diese Modell; z.B. Fuel und Kolla"
+
+msgid ""
 "Projects improve and grow independently but also strive to improve one "
 "collaborative framework: OpenStack"
 msgstr ""
@@ -3928,6 +4012,9 @@ msgstr "Empfohlen zu verbinden, aber nicht obligatorisch für Codebeiträge"
 msgid "References"
 msgstr "Referenzen"
 
+msgid "References Cont."
+msgstr "Fortsetzung der Referenzen"
+
 msgid "References to other relevant patches?"
 msgstr "Verweise auf andere relevante Patches?"
 
@@ -4036,6 +4123,16 @@ msgstr "Stellt OpenStack-Benutzer dar"
 
 msgid "Required:"
 msgstr "Erforderlich:"
+
+msgid ""
+"Requirements cannot be changed to allow downstream packagers time to pull-in "
+"and build dependencies."
+msgstr ""
+"Anforderungen können nicht geändert werden, um Downstream-Paketierern Zeit "
+"zum Abholen und Bauen der Abhängigkeiten zu geben."
+
+msgid "Requirements freeze"
+msgstr "Requirements freeze"
 
 msgid "Resolve merge conflicts"
 msgstr "Beheben Sie Zusammenführungskonflikte"
@@ -4350,6 +4447,9 @@ msgstr ""
 "Quelldatei wird im `governance Repository gehostet <http://git.openstack.org/"
 "cgit/openstack/governance/tree/reference/projects.yaml> `_"
 
+msgid "Spec freeze"
+msgstr "Spec freeze"
+
 msgid "Spec/blueprint freeze"
 msgstr "Spezifikation/Blueprints einfrieren"
 
@@ -4469,6 +4569,10 @@ msgstr "Präsentationen einreichen zu OpenStack Konferenzen"
 msgid "Submit the blueprints and/or specs"
 msgstr "Geben Sie die Blueprints und/oder Spezifikationen ein"
 
+msgid "Subset of ATCs who have contributed to a specific project"
+msgstr ""
+"Teilmenge der ATCs, die zu einem spezifischen Projekt beigetragen haben"
+
 msgid "Subset of the Foundation Individual Members"
 msgstr "Untergruppe der Foundation Individual Members"
 
@@ -4534,6 +4638,9 @@ msgstr ""
 "geteilt durch` openstack-dev Mailing-Liste <http://lists.openstack.org/cgi-"
 "bin/mailman/listinfo/openstack-dev> `_."
 
+msgid "TC members are elected by the ATC's"
+msgstr "TC-Mitglieder werden von ATCs gewählt"
+
 msgid "Taehee Jang (assistant, mentoring - Ubuntu Korea Community)"
 msgstr "Taehee Jang (Assistentin, Mentoring - Ubuntu Korea Community)"
 
@@ -4544,11 +4651,20 @@ msgstr ""
 "Tags können mit Projekten verknüpft werden. Finden Sie heraus, welche Tags "
 "sind und finden Sie die aktuelle Liste der verfügbaren Tags."
 
+msgid "Tags: [management] [new_dev] [dev]"
+msgstr "Tags: [management] [new_dev] [dev]"
+
+msgid "Tags: [management] [operator] [user] [new_dev] [dev]"
+msgstr "Tags: [management] [operator] [user] [new_dev] [dev]"
+
 msgid "Tags: [new_dev]"
 msgstr "Tags: [new_dev]"
 
 msgid "Tags: [new_dev] [dev]"
 msgstr "Tags: [new_dev] [dev]"
+
+msgid "Tags: [operator] [user] [new_dev] [dev]"
+msgstr "Tags: [operator] [user] [new_dev] [dev]"
 
 msgid ""
 "Tags: low-hanging-fruit, documentation, security, other per project tags -  "
@@ -4872,6 +4988,13 @@ msgstr ""
 "uns noch über das aktuell verfügbare Tool informieren."
 
 msgid ""
+"These projects may hold tools used for OpenStack but are not part of a "
+"production release."
+msgstr ""
+"Diese Projekte beinhalten Werkzeuge für OpenStack, aber sind nicht Teil der "
+"Produktionsversion."
+
+msgid ""
 "These slides prepare students for the Lego activity, and ensure they "
 "understand the metaphors in use. The Lego in the exercise represents the "
 "code of a software project, in this case OpenStack. The students all take on "
@@ -5013,6 +5136,9 @@ msgstr "Rückverfolgte Elemente"
 
 msgid "Trailing the common cycle"
 msgstr "Im Anschluss an den allgemeinen Zyklus"
+
+msgid "Trailing the common cycle:"
+msgstr "Hinter dem gemeinsamen Zyklus:"
 
 msgid "Training Content"
 msgstr "Schulungsinhalte"
@@ -5203,6 +5329,11 @@ msgstr "Benutzt als"
 
 msgid "Used as-is as the final release"
 msgstr "Benutzen \"als es ist\" die finale Version"
+
+msgid "Used for components needing more frequent releases. e.g. Oslo Libraries"
+msgstr ""
+"Benutzt für Komponenten, die mehr frequentierte Versionen benötigen, z.B. "
+"Oslo-Bibliotheken"
 
 msgid "Useful for participants if they are already working with a project team"
 msgstr "Sinnvoll für Teilnehmer, die bereits in einem Projektteam arbeiten"
@@ -5788,6 +5919,9 @@ msgstr ""
 msgid "`Blueprints <https://wiki.openstack.org/wiki/Blueprints>`_"
 msgstr "`Blueprints <https://wiki.openstack.org/wiki/Blueprints>`_"
 
+msgid "`Board election <https://www.openstack.org/election/>`_"
+msgstr "`Board-Wahl <https://www.openstack.org/election/>`_"
+
 msgid "`Branch model <https://wiki.openstack.org/wiki/Branch_Model>`_"
 msgstr ""
 "`Niederlassungsmodell <https://wiki.openstack.org/wiki/Branch_Model> `_"
@@ -5797,6 +5931,13 @@ msgstr "`Branching-Modell <archive-branching-model.html> `_"
 
 msgid "`Bugs <https://wiki.openstack.org/wiki/Bugs>`_"
 msgstr "`Bugs <https://wiki.openstack.org/wiki/Bugs> `_"
+
+msgid ""
+"`Bylaws of the OpenStack Foundation <https://www.openstack.org/legal/bylaws-"
+"of-the-openstack-foundation/>`_"
+msgstr ""
+"`Nach den Regeln der OpenStack Foundation <https://www.openstack.org/legal/"
+"bylaws-of-the-openstack-foundation/>`_"
 
 msgid "`Closing Exercise  <archive-closing-exercise.html>`_"
 msgstr "`Abschluss-Übung <archive-closing-exercise.html> `_"
@@ -5942,6 +6083,13 @@ msgstr ""
 "`Etherpad für Upstream Training, Korea, 2017 <https://etherpad.openstack.org/"
 "p/upstream-training-korea-2017> `_"
 
+msgid ""
+"`Foundation mailing list <http://lists.openstack.org/cgi-bin/mailman/"
+"listinfo/foundation>`_"
+msgstr ""
+"`Foundation Mailingliste <http://lists.openstack.org/cgi-bin/mailman/"
+"listinfo/foundation>`_"
+
 msgid "`Gerrit <workflow-gerrit.html>`_"
 msgstr "`Gerrit <workflow-gerrit.html> `_"
 
@@ -5958,6 +6106,10 @@ msgid ""
 msgstr ""
 "`Git Überprüfung Installation <http://docs.openstack.org/infra/manual/"
 "developers.html#installing-git-review> `_"
+
+msgid ""
+"`Governance - Election page <https://governance.openstack.org/election/>`_"
+msgstr "`Governance - Wahlseite <https://governance.openstack.org/election/>`_"
 
 msgid ""
 "`Guide to SetUp and Push First Patch <workflow-setup-and-first-patch.html>`_"
@@ -6195,6 +6347,11 @@ msgstr ""
 "openstack-upstream-training-in-paris/> `_."
 
 msgid ""
+"`OpenStack User Committee <https://governance.openstack.org/uc/index.html>`_"
+msgstr ""
+"`OpenStack User Committee <https://governance.openstack.org/uc/index.html>`_"
+
+msgid ""
 "`OpenStack User Committee Charter <https://governance.openstack.org/uc/"
 "reference/charter.html>`_"
 msgstr ""
@@ -6384,6 +6541,13 @@ msgstr ""
 "`Anwendungsfälle für Funktionen <http://specs.openstack.org/openstack/"
 "openstack-user-stories/> `_"
 
+msgid ""
+"`User-committee mailing list <http://lists.openstack.org/cgi-bin/mailman/"
+"listinfo/user-committee>`_"
+msgstr ""
+"`User-Committee Mailingliste <http://lists.openstack.org/cgi-bin/mailman/"
+"listinfo/user-committee>`_"
+
 msgid "`Using Sandbox for Practice <workflow-using-sandbox.html>`_"
 msgstr "`Verwenden von Sandbox für die Praxis <workflow-using-sandbox.html> `_"
 
@@ -6503,6 +6667,13 @@ msgid ""
 msgstr ""
 "`minimale Konfiguration <http://docs.openstack.org/developer/devstack/"
 "configuration.html#minimal-configuration> `_"
+
+msgid ""
+"`openstack-dev mailing list <http://lists.openstack.org/cgi-bin/mailman/"
+"listinfo/openstack-dev>`_"
+msgstr ""
+"`openstack-dev Mailingliste <http://lists.openstack.org/cgi-bin/mailman/"
+"listinfo/openstack-dev>`_"
 
 msgid "`reporting a bug <https://wiki.openstack.org/wiki/Bugs#Reporting>`_"
 msgstr ""
