@@ -14,11 +14,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-03 11:03+0000\n"
+"POT-Creation-Date: 2017-12-06 12:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-12-05 03:05+0000\n"
+"PO-Revision-Date: 2017-12-08 03:06+0000\n"
 "Last-Translator: ByungYeol Woo <wby1089@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
@@ -524,6 +524,9 @@ msgstr "버그 리포트"
 
 msgid "Bugday"
 msgstr "버그데이"
+
+msgid "Bugday shows real-time stats during bug smash days."
+msgstr "버그데이는 버그 잡는 날의 실시간 통계를 보여줍니다."
 
 msgid "Bugs"
 msgstr "버그"
@@ -3092,6 +3095,9 @@ msgstr "OpenStack sandbox 환경: DevStack"
 msgid "OpenStack-Health"
 msgstr "OpenStack-Health"
 
+msgid "OpenStack-Health has a dashboard of overal OpenStack test results."
+msgstr "오픈스택-상태에는 전반적인 오픈스택 테스트 결과의 대시보드가 있습니다."
+
 msgid "Openstack as a Community"
 msgstr "커뮤니티로서의 OpenStack"
 
@@ -3426,6 +3432,12 @@ msgstr "리뷰 초청 읽기"
 msgid "Rechecks"
 msgstr "재확인"
 
+msgid ""
+"Rechecks has a list of bugs and associated information for nondeterministic "
+"check/gate failures."
+msgstr ""
+"재검사에는 버그의 리스트와 비표준 검사/관문 실패와 연관된 정보가 있습니다."
+
 msgid "References"
 msgstr "레퍼런스"
 
@@ -3586,6 +3598,13 @@ msgstr "댓글로 검토하기"
 msgid "Reviews"
 msgstr "리뷰"
 
+msgid ""
+"Reviews has a list of important reviews based on blueprint and bug priority "
+"organized by project."
+msgstr ""
+"검토에는 청사진을 바탕으로 한 중요한 검토 리스트와 프로젝트로 정리된 버그 우"
+"선순위가 있습니다."
+
 msgid "Revise the original patch according to discussion results."
 msgstr "원본 patch를 토론 결과에 따라 개선합니다."
 
@@ -3603,6 +3622,9 @@ msgstr "Rossella Sblendido (조교, 이탈리아어, 영어)"
 
 msgid "Run DevStack"
 msgstr "DevStack 실행"
+
+msgid "Run against all newly updated patch sets"
+msgstr "새롭게 업데이트된 모든 패치 세트에 대해 실행"
 
 msgid "Run for elected positions in the OpenStack project."
 msgstr "OpenStack 프로젝트 내에서 선출로 정해지는 자리에 지원하기."
@@ -4247,6 +4269,15 @@ msgid ""
 "several different files."
 msgstr ""
 "몇몇 다른 파일에서 사용되는 메소드로 전달되는 사용되지 않은 인수가 있습니다."
+
+msgid ""
+"There is a Forum session in Boston about the future of Stackalytics as there "
+"are issues with the tool. As we don't have a replacement as of now we can "
+"still share info about the currently available tool."
+msgstr ""
+"그 도구에 대한 이슈가 있기 때문에 Stackalytics의 미래에 대한 포럼 세션이 보스"
+"턴에 있습니다. 대체할 것이 없기 때문에 현재 사용 가능한 도구에 대한 정보를 공"
+"유할 수 있습니다."
 
 msgid ""
 "These projects may hold tools used for OpenStack but are not part of a "
@@ -4899,6 +4930,13 @@ msgstr "Zuul"
 
 msgid "Zuul Pipelines"
 msgstr "Zuul 파이프라인"
+
+msgid ""
+"Zuul is the project gating and automation system that tests and merges "
+"changes as well as publishing releases and documentation."
+msgstr ""
+"Zull은 변화를 테스트하고 병합할 뿐만 아니라 릴리즈와 문서를 게시하는 프로젝"
+"트 관문이고 자동화 시스템입니다."
 
 msgid "\\"
 msgstr "\\"
