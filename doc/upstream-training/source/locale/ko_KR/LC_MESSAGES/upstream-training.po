@@ -18,7 +18,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-12-08 03:06+0000\n"
+"PO-Revision-Date: 2017-12-12 02:23+0000\n"
 "Last-Translator: ByungYeol Woo <wby1089@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
@@ -27,6 +27,9 @@ msgstr ""
 
 msgid "#openstack-meeting, #openstack-meeting-cp, etc."
 msgstr "#openstack-meeting, #openstack-meeting-cp 등"
+
+msgid "'Gates' code entering the stable or master branches"
+msgstr "안정이나 마스터 브랜치에 들어가는 'Gate' 코드"
 
 msgid "(A real bug report needs a more detailed description.)"
 msgstr "(실제 버그 보고서에는 더 자세한 설명이 필요합니다.)"
@@ -359,6 +362,9 @@ msgstr ""
 msgid "An official project is aligned with the OpenStack Mission if it"
 msgstr "공식 프로젝트는 다음과 같은 경우 OpenStack 임무와 나란히 합니다"
 
+msgid "Analysing Zuul Failures"
+msgstr "Zull 실패 분석"
+
 msgid "Anne Gentle – Cisco"
 msgstr "Anne Gentle – Cisco"
 
@@ -567,6 +573,9 @@ msgstr ""
 
 msgid "Can publish to docs.openstack.org and developer.openstack.org"
 msgstr "docs.openstack.org 및 developer.openstack.org에 출판할 수 있습니다"
+
+msgid "Can use the patch number to track status in Zuul status page."
+msgstr "Zull 상태 페이지에서 상태를 추적하기 위해 패치 번호를 사용할 수 있음."
 
 msgid "Cannot be modified once merged"
 msgstr "한 번 병합되면 수정될 수 없음"
@@ -1116,6 +1125,9 @@ msgstr "답변을 수업에서 토론합니다"
 msgid "Discuss with your project team"
 msgstr "당신의 프로젝트 팀과 논의합니다."
 
+msgid "Discuss your findings with your group"
+msgstr "발견한 것에 대해 당신의 그룹과 논의하세요"
+
 msgid "Distracted : 1"
 msgstr "주의를 빼앗기는 자 : 1"
 
@@ -1149,6 +1161,9 @@ msgstr "문서화"
 
 msgid "Documentation Deep Dive"
 msgstr "문서 파헤치기"
+
+msgid "Documentation build/publishing, tarball generation, image build"
+msgstr "문서 빌드/출판, tarball 생성, 이미지 빌드"
 
 msgid "Documentation frameworks"
 msgstr "문서화 프레임워크"
@@ -1523,6 +1538,9 @@ msgstr "이메일 주소, 이름, 암호를 채우고 서비스 약관에 동의
 msgid "Fill your contact information and click 'Save Changes'."
 msgstr "연락처 정보를 채우고 'Save Changes' 을 클릭합니다."
 
+msgid "Filtering on Patch Number in Zuul"
+msgstr "Zull에서 패치 번호를 필터링"
+
 msgid "Finalize documentation"
 msgstr "문서화를 마무리합니다"
 
@@ -1546,6 +1564,9 @@ msgstr ""
 
 msgid "Find the current members of the Board of Directors, TC and UC"
 msgstr "현재 이사회, TC 및 UC 구성원을 찾아봅니다"
+
+msgid "Find the information that can be retrieved for each patch in a pipeline"
+msgstr "파이프라인의 각 패치를 가져올 수 있는 정보를 찾으세요."
 
 msgid ""
 "Find the latest election results for Board of Directors, TC and UC. Also "
@@ -1979,6 +2000,9 @@ msgstr "OpenStack은 어떻게 만들어지는가"
 msgid "How OpenStack is made (3h including 1h30 exercises)"
 msgstr "OpenStack이 어떻게 만들어지는가 (1시간 30분 실습을 포함한 3시간)"
 
+msgid "How many gate and check jobs are running"
+msgstr "얼마나 많은 관문과 검사 작업이 실행되고 있는지"
+
 msgid "How to contribute"
 msgstr "기여 방법"
 
@@ -2384,6 +2408,9 @@ msgstr "Jieun Kim (조교)"
 msgid "Jirayut Nimsaeng- Kaidee"
 msgstr "Jirayut Nimsaeng- Kaidee"
 
+msgid "Jobs run against a patch after it merges"
+msgstr "병합 후 패치에 대한 작업 실행"
+
 msgid "Join the #openstack-101 channel"
 msgstr "#openstack-101 채널에 들어옵니다"
 
@@ -2532,6 +2559,9 @@ msgstr "로컬 업스트림 트레이닝"
 msgid "Local branch creation"
 msgstr "로컬 브랜치 생성"
 
+msgid "Logs may be accessed by clicking on the test's name"
+msgstr "테스트 이름을 클릭하여 로그에 접속할 수 있음"
+
 msgid ""
 "Logs of meetings and channels are archived so that they can be referenced "
 "later on"
@@ -2545,6 +2575,9 @@ msgstr "Loic Dachary (교육, 멘토링, 조교, 프랑스어, 영어) - 진행"
 
 msgid "Look at open reviews"
 msgstr "열려있는 리뷰를 살펴봅니다"
+
+msgid "Look at the `Zuul <http://status.openstack.org/zuul>`_ status page"
+msgstr "`Zuul <http://status.openstack.org/zuul>`_ 상태 페이지를 살펴보세요"
 
 msgid ""
 "Look through the list of mailing lists and subscribe to at least one list of "
@@ -2734,6 +2767,9 @@ msgid ""
 msgstr ""
 "보다 자세한 사항: `Using Systemd in DevStack <https://docs.openstack.org/"
 "developer/devstack/systemd.html>`_"
+
+msgid "More extensive testing than check pipeline"
+msgstr "검사 파이프라인보다 더 광범위한 테스트"
 
 msgid "More information: Governance page"
 msgstr "자세한 정보: Governance 페이지"
@@ -2962,6 +2998,9 @@ msgstr "온라인 의사소통"
 msgid "Only critical or security fixes"
 msgstr "치명적이거나 보안 수정만 "
 
+msgid "Only run after a patch is approved by a core reviewer"
+msgstr "코드 검토자에 의해 패치가 승인된 후에만 실행하세요"
+
 msgid "Only security fixes accepted"
 msgstr "보안 수정만 수용됨"
 
@@ -3181,6 +3220,9 @@ msgstr ""
 "공개키를 **Add SSH Public Key** 텍스트 상자에 붙여넣기한 후 추가를 클릭합니"
 "다."
 
+msgid "Patch Number"
+msgstr "패치 번호"
+
 msgid "Patrick East – PureStorage"
 msgstr "Patrick East – PureStorage"
 
@@ -3201,6 +3243,12 @@ msgstr "Phase"
 
 msgid "Pick a task (bug, trivial fix, documentation, implementation)"
 msgstr "작업을 고릅니다 (버그, 단순한 수정, 문서화, 구현)"
+
+msgid ""
+"Pick your favorite project and report how many jobs it has running in IRC"
+msgstr ""
+"선호하는 프로젝트를 선택하고 IRC에서 얼마나 많은 작업이 실행되고 있는지 보고"
+"하세요."
 
 msgid "Planning - Design"
 msgstr "계획 - 설계"
@@ -3644,6 +3692,14 @@ msgstr "테스트를 실행합니다"
 msgid "Running services in DevStack"
 msgstr "DevStack에서 서비스 실행하기"
 
+msgid "Runs another unit test run along with additional tempest testing"
+msgstr "추가적인 템페스트 테스트와 함께 다른 단위 테스트를 실행하세요"
+
+msgid ""
+"Runs unit testing, Pep8, docs/releasenote build and functional tempest "
+"testing"
+msgstr "실행 단위 테스트, Pep8, 문서/릴리즈노트 빌드와 기능 템페스트 테스트"
+
 msgid "SSH keys are always generated in pairs:"
 msgstr "SSH 키는 항상 쌍으로 생성됩니다:"
 
@@ -3757,6 +3813,9 @@ msgstr "Shinobu KINJO (멘토링, 조교, 일본어)"
 
 msgid "Should not end with a period"
 msgstr "마침표로 (문장을) 종료하지 않아야 합니다"
+
+msgid "Shows the Zuul status page filtered down to just the patch of interest."
+msgstr "관심 있는 패치로 필터되어 Zull 상태 페이지가 보여짐"
 
 msgid "Sign In"
 msgstr "로그인"
@@ -4144,6 +4203,13 @@ msgstr ""
 "메일링 리스트 <https://wiki.openstack.org/wiki/Mailing_Lists>`_ wiki 페이지"
 "는 메일 리스트를 구독하는 방법과 몇몇 인기있는 리스트를 보여줍니다."
 
+msgid ""
+"The above jobs are examples of what is run in each pipeline. What is "
+"actually run varies based upon the project being tested."
+msgstr ""
+"위의 작업들은 각 파이프라인에서 무엇이 실행하는지에대한 예제입니다. 실제로 실"
+"행되는 것은 테스트되고 있는 프로젝트에 따라 다릅니다."
+
 msgid "The code is self-evident/self-documenting"
 msgstr "코드는 자체가 명료함을 보이고 자체가 문서에 해당합니다."
 
@@ -4198,6 +4264,9 @@ msgstr ""
 
 msgid "The metrics should be used within context"
 msgstr "문맥 내에서 메트릭은 사용되어야 합니다."
+
+msgid "The number next to 'Change' is the patch number."
+msgstr "'Change' 다음의 번호가 패치 번호입니다."
 
 msgid "The official list of projects:"
 msgstr "공식 프로젝트 목록:"
@@ -4723,6 +4792,9 @@ msgstr "웹 브라우저: Firefox"
 msgid "What are they?"
 msgstr "어떤 것일까요?"
 
+msgid "What happens if you click on a patch under test"
+msgstr "테스트 중인 패치를 클릭하면 어떤 일이 일어나는지"
+
 msgid "What is Gerrit?"
 msgstr "Gerrit이란?"
 
@@ -4734,6 +4806,9 @@ msgstr "이것은 무엇입니까?"
 
 msgid "What is the OpenStack Foundation Account?"
 msgstr "OpenStack Foundation 계정이란?"
+
+msgid "What is the significance of the dots, lines and colors"
+msgstr "점, 선, 색깔의 의미는 무엇인지"
 
 msgid "What makes a release"
 msgstr "릴리즈를 이루는 것들"
@@ -4928,8 +5003,14 @@ msgstr "임무로, 선택하여 수락해야 합니다"
 msgid "Zuul"
 msgstr "Zuul"
 
+msgid "Zuul Failures"
+msgstr "Zull 실패"
+
 msgid "Zuul Pipelines"
 msgstr "Zuul 파이프라인"
+
+msgid "Zuul Pipelines - cont."
+msgstr "Zull 파이프라인 - 계속."
 
 msgid ""
 "Zuul is the project gating and automation system that tests and merges "
@@ -4937,6 +5018,9 @@ msgid ""
 msgstr ""
 "Zull은 변화를 테스트하고 병합할 뿐만 아니라 릴리즈와 문서를 게시하는 프로젝"
 "트 관문이고 자동화 시스템입니다."
+
+msgid "Zuul votes +1/-1 depending on test results"
+msgstr "테스트 결과에 따라 Zull은 +1/-1을 부여합니다."
 
 msgid "\\"
 msgstr "\\"
