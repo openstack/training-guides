@@ -14,12 +14,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-13 07:52+0000\n"
+"POT-Creation-Date: 2017-12-15 07:04+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-12-14 12:04+0000\n"
-"Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
+"PO-Revision-Date: 2017-12-27 03:14+0000\n"
+"Last-Translator: ByungYeol Woo <wby1089@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
 "X-Generator: Zanata 3.9.6\n"
@@ -264,6 +264,9 @@ msgstr ""
 
 msgid "Activity"
 msgstr "활동"
+
+msgid "Actual log files will vary depending on the test you are examining"
+msgstr "실제 로그 파일은 검사중인 테스트에 따라 다릅니다."
 
 msgid "Add A New Connection"
 msgstr "새 연결 추가"
@@ -582,6 +585,9 @@ msgstr "한 번 병합되면 수정될 수 없음"
 
 msgid "Capture your idea in a spec/blueprint"
 msgstr "생각을 스펙/블루프린트로 정리합니다"
+
+msgid "Caused by timing/connectivity issues in check/gate"
+msgstr "확인/게이트의 타이밍/연결성 문제에 영향받음"
 
 msgid "Change-Id"
 msgstr "Change-Id"
@@ -1367,6 +1373,9 @@ msgstr "예시 여정: 스페인"
 
 msgid "Example of IRC meeting commands:"
 msgstr "IRC 미팅 명령어 예시:"
+
+msgid "Example of what the logs for a run look like"
+msgstr "실행에 대한 로그 모양이 어떠한지에 대한 예제"
 
 msgid "Example:"
 msgstr "예시:"
@@ -2368,6 +2377,9 @@ msgstr ""
 "중간 릴리즈 또한 릴리즈 주기 시작 및 끝 근처에 릴리즈로 사용이 될 수 있습니"
 "다. Horizon 플러그인이 이를 따릅니다."
 
+msgid "Intermittent Failures"
+msgstr "간헐적인 실패"
+
 msgid ""
 "Introduce yourself to the others at your table! Who you are, what experience "
 "you have with OpenStack if any, what company you are at and what your role "
@@ -2550,6 +2562,9 @@ msgstr "Linux"
 msgid "Linux & Windows"
 msgstr "Linux & Windows"
 
+msgid "List of `Rechecks <http://status.openstack.org/elastic-recheck>`_"
+msgstr "`재확인 <http://status.openstack.org/elastic-recheck>` 목록_"
+
 msgid "List sessions: screen -ls"
 msgstr "세션 목록: screen -ls"
 
@@ -2561,6 +2576,15 @@ msgstr "로컬 업스트림 트레이닝"
 
 msgid "Local branch creation"
 msgstr "로컬 브랜치 생성"
+
+msgid "Logs"
+msgstr "로그"
+
+msgid "Logs - Job Run Output"
+msgstr "로그 - 작업 실행 결과"
+
+msgid "Logs - Testr HTML Report"
+msgstr "로그 - Testr HTML 보고서"
 
 msgid "Logs may be accessed by clicking on the test's name"
 msgstr "테스트 이름을 클릭하여 로그에 접속할 수 있습니다"
@@ -2706,6 +2730,9 @@ msgstr "Marton Kiss (교육, 멘토링, 조교)"
 
 msgid "Maximize karma"
 msgstr "karma를 최대화해 봅니다"
+
+msgid "May receive elastic recheck message"
+msgstr "탄력적인ㅇ 재확인 메시지를 받을 수 있습니다."
 
 msgid ""
 "Meaningful: anyone may submit a correction that will adjust the influence of "
@@ -2883,6 +2910,14 @@ msgid ""
 msgstr ""
 "Etherpad 주 목록이 없습니다 - 이전에 살펴보지 않았거나 해당 URL을 묻지 않는 "
 "한 찾기 어려울 것입니다"
+
+msgid ""
+"Non-voting jobs are new jobs that are being tested and may not yet be ready "
+"to vote"
+msgstr "비투표 작업은 테스트되고 투표할 준비가 되지 않은 새로운 작업입니다."
+
+msgid "Non-voting jobs do not cause a -1 vote from Zuul upon failure"
+msgstr "비투표 작업은 실패 시 Zull에서 -1표를 얻지 않습니다."
 
 msgid ""
 "Nonprofit foundation created to \"develop, support, protect, and promote\" "
@@ -4712,6 +4747,9 @@ msgstr "선거에서 투표하기."
 
 msgid "Voting and non-voting jobs"
 msgstr "투표 및 비투표 작업"
+
+msgid "Voting job failures cause a -1 vote from Zuul on the patch"
+msgstr "투표 작업 실패로 패치에서 Zull에서 -1 표를 얻었습니다."
 
 msgid ""
 "Way for people to communicate to a larger group than those that are on IRC"
