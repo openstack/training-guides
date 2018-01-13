@@ -19,7 +19,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-01-11 03:07+0000\n"
+"PO-Revision-Date: 2018-01-12 02:53+0000\n"
 "Last-Translator: ByungYeol Woo <wby1089@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
@@ -397,6 +397,9 @@ msgstr "Zull 실패 분석"
 msgid "Anne Gentle – Cisco"
 msgstr "Anne Gentle – Cisco"
 
+msgid "Answer other's questions or help direct them to those who can"
+msgstr "다른 사람의 질문에 답하거나 도와줄 수 있는 사람에게 연결해주세요"
+
 msgid "Application Catalog service"
 msgstr "응용 프로그램 카탈로그 서비스"
 
@@ -440,6 +443,9 @@ msgstr ""
 
 msgid "Ask questions during the class"
 msgstr "수업 중 질문을 합니다"
+
+msgid "Ask questions in the channel or send direct messages"
+msgstr "채널에서 질문하거나 직접 메시지를 보내세요"
 
 msgid "Assess your approach"
 msgstr "접근 방식에 대한 평가"
@@ -595,6 +601,9 @@ msgstr ""
 
 msgid "Building Blocks: build as you need"
 msgstr "블록 생성: 필요한 만큼 생성합니다"
+
+msgid "Building Your Persona"
+msgstr "당신의 역할 만들기"
 
 msgid "Building documentation"
 msgstr "문서 빌드"
@@ -1014,12 +1023,22 @@ msgid ""
 msgstr "노트북에 Ubuntu 16.04 설치 및 RAM 6기가 이상의 가상 머신을 생성합니다."
 
 msgid ""
+"Create a worklist, with a story that has at least two tasks in the sandbox "
+"enivronment. After it's been created assign the tasks to yourself."
+msgstr ""
+"샌드박스 환경에서 적어도 두 개의 작업을 가진 스토리가 포함된 작업목록을 만드"
+"세요. 만들어진 이후에는 자신에게 작업을 할당하세요."
+
+msgid ""
 "Create and submit a bug or blueprint to our sandbox repository. Include at "
 "least one tag when creating your bug. Once it has been created, assign it to "
 "yourself."
 msgstr ""
 "버그나 청사진을 샌드박스 저장소에  만들어 제출하세요. 버그를 만들 때 적어도 "
 "하나의 태그를 포함시키세요. 일단 생성되면 자신에게 할당하세요."
+
+msgid "Create your commit and push upstream for review"
+msgstr "리뷰를 위해 커밋을 만들고 업스트림에 푸시하기"
 
 msgid ""
 "Critical fixes have the highest priority while more minor bug fixes may be "
@@ -1342,6 +1361,9 @@ msgstr "각 프로젝트와 워킹그룹은 각 채널을 가지고 있습니다
 msgid "Each project has a subset of cores able to merge stable branch changes"
 msgstr ""
 "각 프로젝트는 안정 브랜치 변화를 병합할 수 있는 코어의 하위 집합이 있습니다."
+
+msgid "Each project has its own purpose & culture."
+msgstr "각 프로젝트에는 각자의 목적 & 문화가 있습니다."
 
 msgid "Each project team sets priorities/dates for the release"
 msgstr "각 프로젝트는 해당 릴리즈를 위한 우선순위/일정을 설정합니다."
@@ -2078,6 +2100,9 @@ msgstr "코드를 프로젝트에 머지하는 권한을 가집니다"
 msgid "Held by local groups to celebrate another year of OpenStack"
 msgstr "로컬 그룹에서 개최되며 또 다른 OpenStack 년도를 축하합니다"
 
+msgid "Help fix the documentation"
+msgstr "문서 수정을 도와주세요"
+
 msgid "Highlight and copy the output."
 msgstr "결과를 (드래그하여) 강조한 후 복사합니다."
 
@@ -2200,6 +2225,10 @@ msgid ""
 "If contributing documentation, being able to produce documents in the "
 "project's chosen infrastructure"
 msgstr "문서 기여는 프로젝트에서 선택한 인프라에서 문서를 작업할 수 있습니다"
+
+msgid ""
+"If people know you, you have a better chance at your code getting attention."
+msgstr "사람들이 당신을 안다면, 당신의 코드에 관심이 몰릴 좋은 기회입니다."
 
 msgid "If you are contributing on behalf of a company or organization."
 msgstr "회사 또는 기관에 소속되어 컨트리뷰션할 경우에 해당합니다."
@@ -3624,6 +3653,9 @@ msgstr ":doc:`git` 가이드를 읽고 완료합니다."
 msgid "Read and complete the :doc:`irc` guide."
 msgstr ":doc:`irc` 가이드를 읽고 완료합니다."
 
+msgid "Read the bug description and assign yourself to fix the bug"
+msgstr "버그 설명을 읽고 버그 수정을 위해 자신에게 할당하세요."
+
 msgid ""
 "Read through the presented individual member terms of service and our "
 "`Community Code of Conduct <https://www.openstack.org/legal/community-code-"
@@ -3740,6 +3772,9 @@ msgstr "버그 리포트 - 세부 사항"
 msgid "Report a bug - Summary"
 msgstr "버그 리포트 - 요약"
 
+msgid "Report a bug on Launchpad"
+msgstr "런치패드에 버그 제보하기"
+
 msgid "Repositories"
 msgstr "저장소"
 
@@ -3794,6 +3829,12 @@ msgstr "리뷰 요청 편지"
 
 msgid "Review other's code"
 msgstr "다른 사람의 코드를 리뷰합니다"
+
+msgid "Review the patch and give feedback with comments"
+msgstr "패치를 리뷰하고 의견으로 피드백을 주세요"
+
+msgid "Review the revised patch and merge the patch"
+msgstr "개선된 패치를 리뷰하고 패치 병합"
 
 msgid "Review three patches in the sandbox environment:"
 msgstr "Sandbox 환경 내 패치 3개를 검토합니다:"
@@ -4315,6 +4356,14 @@ msgstr "커뮤니티에서 가장 폭넓게 사용되는 작업 추적 도구"
 msgid "Tasks are classified as blueprints or bugs"
 msgstr "작업은 청사진이나 버그로 분류됩니다."
 
+msgid ""
+"Tasks are the steps required to complete the story - Tests - Patches - "
+"Documentation"
+msgstr "작업은 스토리를 완성하는 데 필요한 절차입니다. - 테스트 - 패치 - 문서"
+
+msgid "Tasks have statuses similar to Launchpad items"
+msgstr "작업은 런치패드 항목과 유사한 상태를 가집니다."
+
 msgid "Team members : 3-5"
 msgstr "팀 구성원: 3-5"
 
@@ -4438,6 +4487,11 @@ msgstr "정확한 일정은 각 프로젝트 팀에 따라 결정됩니다."
 
 msgid "The first thing a reviewer sees and it is as important as the code"
 msgstr "검토자가 보는 첫 번째 사항은 코드만큼 중요합니다."
+
+msgid ""
+"The following slides demonstrate using the Sandbox repository and Launchpad "
+"to:"
+msgstr "다음 슬라이드는 샌드박스 저장소와 런치패드를 사용하여 시연합니다:"
 
 msgid ""
 "The group is split into their new 'teams' at this stage. Facilitators can "
@@ -4761,6 +4815,12 @@ msgstr "업데이트하고 테스트를 추가합니다 (단위, 기능 등)"
 msgid "UpgradeImpact"
 msgstr "UpgradeImpact"
 
+msgid "Upload a patch and invite a peer as a reviewer"
+msgstr "패치를 업로드하고 상대를 검토자로 초대하세요"
+
+msgid "Upload a revised patch with comment"
+msgstr "의견과 함께 개선된 패치 업로드"
+
 msgid "Upload your code as early as possible in the release cycle"
 msgstr "릴리즈 주기에서 코드를 가능한 일찍 업로드합니다"
 
@@ -4972,6 +5032,13 @@ msgstr ""
 "이전에 개최하였습니다. Atlanta 이후, 매번 OpenStack Summit 이전에 트레이닝을 "
 "개최하였습니다. \"공식\" 이벤트 뿐만 아니라, 몇몇 사용자 그룹은 로컬 "
 "Upstream training을 개최합니다."
+
+msgid ""
+"We will go into this later on in more detail so hold off on answering "
+"detailed questions for now."
+msgstr ""
+"이 건은 나중에 자세히 살펴보겠으니, 지금은 상세한 질문에 답하는 것을 보류하겠"
+"습니다."
 
 msgid "We will install an IRC program called Hexchat."
 msgstr "Hexchat이라는 IRC 프로그램을 설치할 것입니다."
