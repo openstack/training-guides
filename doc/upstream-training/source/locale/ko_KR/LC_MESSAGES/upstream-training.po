@@ -11,16 +11,17 @@
 # Wonil Choi <wonil0522@gmail.com>, 2017. #zanata
 # minwook-shin <minwook0106@gmail.com>, 2017. #zanata
 # ByungYeol Woo <wby1089@gmail.com>, 2018. #zanata
+# Jun-Sik Shin <jsshin@smartx.kr>, 2018. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-28 07:09+0000\n"
+"POT-Creation-Date: 2018-01-13 17:56+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-01-12 02:53+0000\n"
-"Last-Translator: ByungYeol Woo <wby1089@gmail.com>\n"
+"PO-Revision-Date: 2018-01-14 09:58+0000\n"
+"Last-Translator: Jun-Sik Shin <jsshin@smartx.kr>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
 "X-Generator: Zanata 3.9.6\n"
@@ -1143,6 +1144,22 @@ msgid ""
 msgstr "매력적인 장소, 음식 및 활동을 포함하는 5일간 여행 여정을 설계합니다."
 
 msgid ""
+"Detailed description should include the OpenStack release that was running, "
+"log snippets showing the error, steps to recreate the error and any vendor "
+"hardware possibly involved."
+msgstr ""
+"세부 설명에는 사용한 OpenStack 릴리즈 정보, 에러가 표기된 로그 snippet, 에러"
+"를 재생성하기 위한 단계, 연관되었을 수 있는 벤더 하드웨어가 포함되어야 합니"
+"다."
+
+msgid ""
+"Details need to be sufficient for a developer to narrow down where the "
+"failure occurred and/or recreate the failure."
+msgstr ""
+"세부 내용은 개발자가 실패가 발생한 범위를 좁히고, 실패를 재생성 할  수 있을 "
+"정도로 충분해야 합니다."
+
+msgid ""
 "Determine how many OpenStack releases are officially supported by the "
 "community"
 msgstr ""
@@ -1631,6 +1648,9 @@ msgstr "2015년 2월 2 - 3일 (월 - 화)"
 
 msgid "Figure out who's behind it"
 msgstr "누가 해당 프로젝트의 배경에 있는지 파악합니다"
+
+msgid "File status in the working repository"
+msgstr "작업 중인 저장소 내 파일 상태"
 
 msgid "Filed against a specific OpenStack project(s)"
 msgstr "특정 오픈스택 프로젝트에 대한 정리"
@@ -3364,6 +3384,9 @@ msgstr "전반적인 기능 프리징은 세 번째 마일스톤에 해당합니
 msgid "Oversight over the OpenStack projects"
 msgstr "OpenStack 프로젝트 전반에 걸쳐 통찰력있게 살펴봅니다"
 
+msgid "Overview"
+msgstr "개요"
+
 msgid "Overview of the contribution process"
 msgstr "컨트리뷰션 프로세스 개요"
 
@@ -3830,6 +3853,9 @@ msgstr "리뷰 요청 편지"
 msgid "Review other's code"
 msgstr "다른 사람의 코드를 리뷰합니다"
 
+msgid "Review score with written comments"
+msgstr "작성된 댓글과 리뷰 점수"
+
 msgid "Review the patch and give feedback with comments"
 msgstr "패치를 리뷰하고 의견으로 피드백을 주세요"
 
@@ -4018,6 +4044,9 @@ msgstr "Shinobu KINJO (멘토링, 조교, 일본어)"
 
 msgid "Should not end with a period"
 msgstr "마침표로 (문장을) 종료하지 않아야 합니다"
+
+msgid "Should not take the bug if you are not planning to work on the bug."
+msgstr "해당 버그에 대해 작업할 계획이 아니라면 이를 맡아서는 안됩니다."
 
 msgid "Shows the Zuul status page filtered down to just the patch of interest."
 msgstr "관심 있는 패치로 필터되어 Zull 상태 페이지가 보여짐"
@@ -4692,6 +4721,9 @@ msgid ""
 msgstr ""
 "openstack-dev/sandbox 저장소와 관련이 있는 보고된 버그 및 이슈를 추석 및 관리"
 
+msgid "To notify others that someone is working on the bug"
+msgstr "해당 버그에 대해 작업 중인 다른 사람들에게 알립니다."
+
 msgid ""
 "To trigger a re-run of check or gate add a comment to the patch in the form "
 "of 'recheck bug XXXXX'"
@@ -4736,6 +4768,9 @@ msgstr "트레이닝 내용"
 
 msgid "Training organizers"
 msgstr "트레이닝 조직 위원"
+
+msgid "Trainings"
+msgstr "트레이닝"
 
 msgid ""
 "Transparency: the community can have confidence that all calculations are "
@@ -5009,6 +5044,13 @@ msgid "We have seen in `Gerrit <workflow-gerrit.html#5>`__"
 msgstr "`Gerrit <workflow-gerrit.html#5>`__ 에서 살펴 보았습니다"
 
 msgid ""
+"We have seen in `Overview of the contribution process <workflow-training-"
+"contribution-process.html#5>`_"
+msgstr ""
+"`컨트리뷰션 프로세스 개요 <workflow-training-contribution-process.html#5>`_ "
+"에 대해서 살펴 보았습니다."
+
+msgid ""
 "We have seen in `Setup & First Patch <workflow-setup-and-first-patch."
 "html#8>`__"
 msgstr ""
@@ -5032,6 +5074,9 @@ msgstr ""
 "이전에 개최하였습니다. Atlanta 이후, 매번 OpenStack Summit 이전에 트레이닝을 "
 "개최하였습니다. \"공식\" 이벤트 뿐만 아니라, 몇몇 사용자 그룹은 로컬 "
 "Upstream training을 개최합니다."
+
+msgid "We run the full training prior to each OpenStack Summit."
+msgstr "각 OpenStack 서밋에 앞서 완전 트레이닝을 운영합니다."
 
 msgid ""
 "We will go into this later on in more detail so hold off on answering "
