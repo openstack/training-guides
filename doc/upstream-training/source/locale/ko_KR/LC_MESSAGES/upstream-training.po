@@ -16,11 +16,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-13 17:56+0000\n"
+"POT-Creation-Date: 2018-01-15 08:17+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-01-14 09:58+0000\n"
+"PO-Revision-Date: 2018-01-16 07:11+0000\n"
 "Last-Translator: Jun-Sik Shin <jsshin@smartx.kr>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
@@ -90,6 +90,9 @@ msgstr "**스태프**"
 
 msgid "*Common cycle with development milestones*"
 msgstr "*개발 마일스톤을 가지고 있는 공통 주기*"
+
+msgid "1.5 Days"
+msgstr "일"
 
 msgid "13:45 Sagrada Familia"
 msgstr "13:45 파밀리에 성당"
@@ -176,6 +179,18 @@ msgstr "7:00 마드리드로 하루 여행"
 
 msgid "7:45 Cava & Winery Tour"
 msgstr "7:45 카바 & 와이너리 투어"
+
+msgid ""
+":doc:`upstream-details`: : A detailed overview of OpenStack Upstream "
+"Institute Training."
+msgstr ""
+":doc:`upstream-details`: : OpenStack Upstream Institute 트레이닝의 상세 개요."
+
+msgid ":doc:`upstream-trainees-guide`"
+msgstr ":doc:`upstream-trainees-guide`"
+
+msgid ":doc:`upstream-trainers-guide`"
+msgstr ":doc:`upstream-trainers-guide`"
 
 msgid ":doc:`upstream-training-content`"
 msgstr ":doc:`upstream-training-content`"
@@ -400,6 +415,9 @@ msgstr "Anne Gentle – Cisco"
 
 msgid "Answer other's questions or help direct them to those who can"
 msgstr "다른 사람의 질문에 답하거나 도와줄 수 있는 사람에게 연결해주세요"
+
+msgid "Answering reviewer's comment(s) is a best practice."
+msgstr "검토자 댓글에 답변하는 것이 가장 좋은 연습입니다."
 
 msgid "Application Catalog service"
 msgstr "응용 프로그램 카탈로그 서비스"
@@ -888,6 +906,9 @@ msgstr ""
 "다른 두 프로젝트 팀의 마감기한을 비교해보고 그 차이점을 당신의 그룹과 논의하"
 "십시오."
 
+msgid "Complete content of Upstream Institute Training can be seen here:"
+msgstr "Upstream Institute 트레이닝의 전체 내용은 이곳에서 볼 수 있습니다:"
+
 msgid "Complete the application."
 msgstr "지원서를 완료합니다."
 
@@ -1151,6 +1172,9 @@ msgstr ""
 "세부 설명에는 사용한 OpenStack 릴리즈 정보, 에러가 표기된 로그 snippet, 에러"
 "를 재생성하기 위한 단계, 연관되었을 수 있는 벤더 하드웨어가 포함되어야 합니"
 "다."
+
+msgid "Details"
+msgstr "세부 사항"
 
 msgid ""
 "Details need to be sufficient for a developer to narrow down where the "
@@ -1474,6 +1498,9 @@ msgstr "Etherpad"
 
 msgid "EunSeop Shin (assistant, mentoring)"
 msgstr "EunSeop Shin (조교, 멘토링)"
+
+msgid "Event"
+msgstr "이벤트"
 
 msgid "Events"
 msgstr "이벤트"
@@ -2250,6 +2277,13 @@ msgid ""
 "If people know you, you have a better chance at your code getting attention."
 msgstr "사람들이 당신을 안다면, 당신의 코드에 관심이 몰릴 좋은 기회입니다."
 
+msgid ""
+"If the CCLA only needs to be extended follow `this <https://wiki.openstack."
+"org/wiki/HowToUpdateCorporateCLA>`_ procedure."
+msgstr ""
+"CCLA만 확장해야 하는 경우 `이 절차<https://wiki.openstack.org/wiki/"
+"HowToUpdateCorporateCLA>`_ 를 따르십시오."
+
 msgid "If you are contributing on behalf of a company or organization."
 msgstr "회사 또는 기관에 소속되어 컨트리뷰션할 경우에 해당합니다."
 
@@ -2306,6 +2340,11 @@ msgstr ""
 
 msgid "Ildiko Vancsa - ildikov - Telemetry (mentoring, assistant)"
 msgstr "Ildiko Vancsa - ildikov - Telemetry (멘토링, 조교)"
+
+msgid ""
+"Ildiko Vancsa: ildiko@openstack.org Kendall Nelson: knelson@openstack.org"
+msgstr ""
+"Ildiko Vancsa: ildiko@openstack.org Kendall Nelson: knelson@openstack.org"
 
 msgid "Ildikó Váncsa – The OpenStack Foundation"
 msgstr "Ildikó Váncsa – The OpenStack Foundation"
@@ -2726,6 +2765,9 @@ msgstr "로컬 업스트림 트레이닝"
 msgid "Local branch creation"
 msgstr "로컬 브랜치 생성"
 
+msgid "Location"
+msgstr "위치"
+
 msgid "Logs"
 msgstr "로그"
 
@@ -3098,6 +3140,9 @@ msgstr "logstash를 보고 launchpad에 링크하는 기능을 참고하세요."
 
 msgid "Notification, DB Schema or incompatible config file changes"
 msgstr "알림, DB 스키마 또는 호환되지 않은 설정 파일 변경"
+
+msgid "November 04, 2017"
+msgstr "2017년 12월 4일"
 
 msgid "Now open the hexchat program just like you would for any Linux program."
 msgstr "이제 임의의 Linux 프로그램과 마찬가지로 hexchat 프로그램을 엽니다."
@@ -4297,6 +4342,9 @@ msgstr "구문을 지원함"
 msgid "Swami Redydy (mentoring, assistant)"
 msgstr "Swami Redydy (멘토링, 조교)"
 
+msgid "Sydney, Australia"
+msgstr "호주 시드니"
+
 msgid "Syed Armani (training, mentoring, assistant, english)"
 msgstr "Syed Armani (교육, 멘토링, 조교, 영어)"
 
@@ -4844,6 +4892,9 @@ msgstr "단위"
 msgid "Unlike ATC, APC and PTLs, role is not defined in the TC charter"
 msgstr "ATC, APC 및 PTL과 달리 해당 역할은 TC 헌장에 명시되어 있지는 않습니다"
 
+msgid "Upcoming Trainings"
+msgstr "다음 트레이닝"
+
 msgid "Update and add tests (unit, functional, etc.)"
 msgstr "업데이트하고 테스트를 추가합니다 (단위, 기능 등)"
 
@@ -5291,6 +5342,9 @@ msgstr "워킹 그룹"
 msgid "Working software over comprehensive documentation"
 msgstr "전반적인 문서화와 함께 하는 동작하는 소프트웨어"
 
+msgid "Working to get a commit"
+msgstr "커밋을 하기 위한 작업"
+
 msgid "Worklists & Boards"
 msgstr "작업목록 & 게시판"
 
@@ -5332,6 +5386,9 @@ msgstr "Xavier Antoviaque (교육, 멘토링, 조교, 프랑스어, 영어)"
 
 msgid "Xing Yang – Dell EMC"
 msgstr "Xing Yang – Dell EMC"
+
+msgid "You can practice the skills documented in the previous slides."
+msgstr "이전 슬라이드에 설명된 기술들을 연습할 수 있습니다."
 
 msgid ""
 "You can use `Git Immersion <http://gitimmersion.com/lab_02.html>`_ to work "
