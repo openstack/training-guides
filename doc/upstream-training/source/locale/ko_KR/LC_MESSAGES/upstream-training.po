@@ -16,12 +16,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-15 08:17+0000\n"
+"POT-Creation-Date: 2018-01-17 00:11+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-01-16 07:11+0000\n"
-"Last-Translator: Jun-Sik Shin <jsshin@smartx.kr>\n"
+"PO-Revision-Date: 2018-01-16 02:31+0000\n"
+"Last-Translator: ByungYeol Woo <wby1089@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
 "X-Generator: Zanata 3.9.6\n"
@@ -403,6 +403,15 @@ msgstr ""
 "어떤 사람 또는 주체로부터 컨트리뷰션 부여에서 지적 재산권 라이선스를 명확화하"
 "는 약관입니다. `전체 약관 미리보기 <https://review.openstack.org/static/cla."
 "html>`_"
+
+msgid ""
+"An employer with the appropriate signing rights of the company or "
+"organization needs to sign the `Corporate Contributor License Agreement "
+"<https://secure.echosign.com/public/hostedForm?formid=56JUVGT95E78X5>`_."
+msgstr ""
+"회사나 조직의 적절한 서명 권리를 가진 고용주는 다음 사항에 서명해야 합니다 "
+"`Corporate Contributor License Agreement <https://secure.echosign.com/public/"
+"hostedForm?formid=56JUVGT95E78X5>`_."
 
 msgid "An official project is aligned with the OpenStack Mission if it"
 msgstr "공식 프로젝트는 다음과 같은 경우 OpenStack 임무와 나란히 합니다"
@@ -1031,6 +1040,13 @@ msgstr ""
 
 msgid "Create a draft .rst file with an outline for the itinerary."
 msgstr "여정에 대한 개요와 함께 .rst 초안 파일을 생성합니다."
+
+msgid ""
+"Create a few different changes and submit new patchsets to those few changes "
+"in the Sandbox repository for one bug in Launchpad."
+msgstr ""
+"몇몇 변경사항을 작성하고, 런치패드의 한 버그에 대한 샌드박스 저장소의 몇 가"
+"지 변경 사항에 대한 새로운 패치 세트를 제출하세요."
 
 msgid ""
 "Create a new commit with the .rst file in openstack-dev/sandbox repository "
@@ -1802,6 +1818,12 @@ msgstr "Fedora 22 또는 이후 버전에 대하여 터미널을 열고 입력�
 
 msgid "For SUSE distributions open a terminal and type::"
 msgstr "SUSE 배포판의 경우 터미널을 열고 입력합니다::"
+
+msgid "For Trainees"
+msgstr "연습생을 위한"
+
+msgid "For Trainers"
+msgstr "트레이너용"
 
 msgid ""
 "For Windows environment, download latest Hexchat installation binary from "
@@ -3569,6 +3591,9 @@ msgstr "커뮤니티에 제안할 당신의 아이디어를 준비합니다."
 msgid "Prepared virtual machine image with a development environment:"
 msgstr "개발 환경에 대한 준비된 가상 머신 이미지:"
 
+msgid "Prerequisite and best practice guide for trainees:"
+msgstr "연습생을 위한 선행조건 및 모범 사례 가이드:"
+
 msgid "Previous trainings"
 msgstr "이전 트레이닝"
 
@@ -4024,6 +4049,12 @@ msgstr "EOL 상태 확인: https://releases.openstack.org"
 
 msgid "See YOU in London!"
 msgstr "런던에서 봅시다!"
+
+msgid ""
+"See this web page and the schedule of the upcoming class for more details "
+"and registration."
+msgstr ""
+"자세한 정보와 등록을 위해 이 웹 페이지와 다가오는 수업 스케줄을 살펴보세요."
 
 msgid "Seeing new comment"
 msgstr "새로운 댓글 보기"
@@ -5082,6 +5113,15 @@ msgstr ""
 
 msgid "Ways to Communicate in OpenStack"
 msgstr "OpenStack에서 의사소통 하는 법"
+
+msgid ""
+"We are also bringing a one day long version of the training to some of the "
+"local OpenStack Days events and other industry events. Keep a look out for "
+"updates about these events in the `Upcoming Trainings`_ section."
+msgstr ""
+"또한 우리는 지역 오픈스택 행사 이벤트나 다른 업계 이벤트 중 일부에 종일 교육"
+"을 제공합니다. `Upcoming Trainings`_ 섹션에서  이러한 이벤트에 대한 새로운 정"
+"보를 찾아보세요."
 
 msgid ""
 "We go into blueprints in the next few slides, so just mention them for now."
