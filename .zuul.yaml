@@ -2,7 +2,6 @@
 # The build-tox-manuals-checkbuild job is defined in openstack-manuals.
 
 - project:
-    name: openstack/training-guides
     check:
       jobs:
         - build-tox-manuals-checkbuild
