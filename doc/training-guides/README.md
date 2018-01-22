@@ -21,6 +21,7 @@ Introduction
   contributing to training guides
   https://wiki.openstack.org/wiki/Training-guides
 
+* This document is not published at docs.openstack.org anymore since it's outdated.
 
 Structure of this folder
 ========================
