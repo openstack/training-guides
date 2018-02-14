@@ -49,16 +49,11 @@ master_doc = 'index'
 # General information about the project.
 project = u'Upstream Training Guide'
 bug_tag = u'upstream'
-copyright = u'2014-2016, OpenStack contributors'
+copyright = u'2014-2018, OpenStack contributors'
 
-# The version info for the project you're documenting, acts as replacement for
-# |version| and |release|, also used in various other places throughout the
-# built documents.
-#
-# The short X.Y version.
-version = '2016.2'
-# The full version, including alpha/beta/rc tags.
-release = '2016.2'
+# No need to show a version number
+version = ''
+release = ''
 
 # A few variables have to be set for the log-a-bug feature.
 #   giturl: The location of conf.py on Git. Must be set manually.
