@@ -2,16 +2,17 @@
 # Adriano Perri <adriano.perri@telekom.de>, 2017. #zanata
 # Frank Kloeker <eumel@arcor.de>, 2017. #zanata
 # Robert Simai <robert.simai@suse.com>, 2017. #zanata
+# Reik Keutterling <spielkind@gmail.com>, 2018. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-02 14:28+0000\n"
+"POT-Creation-Date: 2018-01-26 00:11+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-12-02 09:02+0000\n"
-"Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
+"PO-Revision-Date: 2018-02-13 02:17+0000\n"
+"Last-Translator: Reik Keutterling <spielkind@gmail.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
 "X-Generator: Zanata 3.9.6\n"
@@ -53,6 +54,9 @@ msgstr ""
 
 msgid "(Please also change your commit message if needed.)"
 msgstr "(bitte ändern Sie falls nötig auch die Commit-Nachricht)"
+
+msgid "(RC2, RC3, ...) with bugs targeted to it"
+msgstr "(RC2, RC3, ...) mit zugehörigen Bugs"
 
 msgid "(Review invitation letter has been sent by e-mail.)"
 msgstr "(Review Einladung wurde als E-mail verschickt.)"
@@ -155,6 +159,9 @@ msgstr "5 min Planen"
 
 msgid "5 mins review"
 msgstr "5 min Überprüfen"
+
+msgid "6 - 12 months after release"
+msgstr "6 - 12 Monate nach Release"
 
 msgid "660 supporting companies"
 msgstr "660 unterstützende Unternehmen"
@@ -423,6 +430,9 @@ msgstr ""
 
 msgid "An official project is aligned with the OpenStack Mission if it"
 msgstr "Ein offizielles Projekt ist auf die OpenStack Mission ausgerichtet"
+
+msgid "Analysing Zuul Failures"
+msgstr "Analysieren von Zuul-Fehlern"
 
 msgid "Anne Gentle – Cisco"
 msgstr "Anne Gentle - Cisco"
@@ -1292,6 +1302,9 @@ msgstr "Bestimmen Sie den Zeitrahmen"
 msgid "Determine who the current PTL is of your favorite project."
 msgstr "Bestimmen Sie, wer der aktuelle PTL von Ihrem Lieblingsprojekt ist."
 
+msgid "Dev"
+msgstr "Entwickler"
+
 msgid "DevStack"
 msgstr "DevStack"
 
@@ -1860,6 +1873,9 @@ msgstr ""
 msgid "Find where the currently released code is posted"
 msgstr "Finden Sie, wo der aktuell veröffentlichte Code gepostet wurde"
 
+msgid "First 6 months"
+msgstr "Erste sechs Monate"
+
 msgid "First day"
 msgstr "Erster Tag"
 
@@ -2344,6 +2360,15 @@ msgstr "Bitte beachten Sie, dass es in Ihrer Verantwortung liegt."
 
 msgid "Hyeunjee Kim (assistant, mentoring)"
 msgstr "Hyeunjee Kim (Assistent, Mentoring)"
+
+msgid "I"
+msgstr "I"
+
+msgid "II"
+msgstr "II"
+
+msgid "III"
+msgstr "III"
 
 msgid "IRC"
 msgstr "IRC"
@@ -2833,6 +2858,9 @@ msgstr "Juli 6 - 7, 2016 (Mi - Do)"
 msgid "July 9 - 10, 2015 (Thu - Fri)"
 msgstr "Juli 9 - 10, 2015 (Do - Fr)"
 
+msgid "Jump on IRC and etherpad"
+msgstr "Ab in den IRC und ins Etherpad"
+
 msgid "Jungsu Han (assistant, mentoring)"
 msgstr "Jungsu Han (Assistent, Mentoring)"
 
@@ -2973,6 +3001,9 @@ msgstr "Lokale Brancherstellung"
 
 msgid "Location"
 msgstr "Ort"
+
+msgid "Logs"
+msgstr "Logs"
 
 msgid "Logs may be accessed by clicking on the test's name"
 msgstr "Protokolle können durch Anklicken des Testnamens aufgerufen werden"
@@ -3244,6 +3275,9 @@ msgstr ""
 msgid "More kanban style structure"
 msgstr "Mehr Kanban Stil Struktur"
 
+msgid "More than 12 months"
+msgstr "Mehr als 12 Monate"
+
 msgid "More than 20 million lines of code"
 msgstr "Mehr als 20 Millionen Zeilen Code"
 
@@ -3291,6 +3325,9 @@ msgid ""
 msgstr ""
 "Neue Core-Team-Mitglieder sind nominiert und gewählt von anderen Core-Team-"
 "Mitgliedern"
+
+msgid "New Dev"
+msgstr "Neuer Entwickler"
 
 msgid ""
 "New Developer: No experience with OpenStack at all. Never tried to "
@@ -3692,6 +3729,9 @@ msgid ""
 msgstr ""
 "Fügen Sie den öffentlichen Schlüssel in das Textfeld **SSH Public Key "
 "hinzufügen**  hinzu und klicken Sie auf Hinzufügen."
+
+msgid "Patch Number"
+msgstr "Patch-Nummer"
 
 msgid "Patrick East – PureStorage"
 msgstr "Patrick East - PureStorage"
@@ -4244,6 +4284,9 @@ msgstr "SSH-Schlüssel werden immer paarweise erzeugt:"
 msgid "Sahid Ferdjaoui (assistant, french, english)"
 msgstr "Sahid Ferdjaoui (Assistent, Französisch, Englisch)"
 
+msgid "Same criteria as ATC except for contributions to a project"
+msgstr "Gleiche Kriterien wie ATC, außer für Beiträge zu einem Projekt"
+
 msgid "Sandbox"
 msgstr "Sandkasten"
 
@@ -4462,6 +4505,9 @@ msgstr "Beschleunigen Sie die Akzeptanz"
 msgid "Speeding the Acceptance"
 msgstr "Beschleunigung der Annahme"
 
+msgid "Stable Branch"
+msgstr "Stabiler Branch"
+
 msgid "Stable branches"
 msgstr "Stabile Zweige"
 
@@ -4656,6 +4702,9 @@ msgstr "Tags: [management] [new_dev] [dev]"
 
 msgid "Tags: [management] [operator] [user] [new_dev] [dev]"
 msgstr "Tags: [management] [operator] [user] [new_dev] [dev]"
+
+msgid "Tags: [management] [user] [new_dev]"
+msgstr "Tags: [management] [user] [new_dev]"
 
 msgid "Tags: [new_dev]"
 msgstr "Tags: [new_dev]"
@@ -5076,6 +5125,9 @@ msgstr "Tim Freund (Training, Assistent, Englisch)"
 
 msgid "Tim Freund (training, mentoring, assistant, english)"
 msgstr "Tim Freund (Training, Mentoring, Assistent, Englisch)"
+
+msgid "Time Frame"
+msgstr "Zeitfenster"
 
 msgid "Timing"
 msgstr "Zeitliche Koordinierung"
@@ -5874,6 +5926,9 @@ msgstr "Ihre Mission, falls Sie sie annehmen, ist"
 
 msgid "Zuul"
 msgstr "Zuul"
+
+msgid "Zuul Failures"
+msgstr "Zuul-Fehler"
 
 msgid "Zuul Pipelines"
 msgstr "Zuul Pipelines"
