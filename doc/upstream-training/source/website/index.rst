@@ -11,9 +11,6 @@ OpenStack Upstream Institute
    :hidden:
 
    upstream-details
-   irc
-   accounts
-   git
    upstream-archives
    upstream-trainers-guide
    upstream-training-other-events
@@ -57,7 +54,7 @@ local OpenStack Days events and other industry events.
 Keep a look out for updates about these events in the `Upcoming Trainings`_
 section.
 
-:doc:`upstream-details`: : A detailed overview of OpenStack Upstream Institute
+:doc:`upstream-details`: A detailed overview of OpenStack Upstream Institute
 Training.
 
 Training Content

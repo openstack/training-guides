@@ -19,9 +19,14 @@ How to prepare
   * Alternatively, you can use your virtual machine on a public cloud.
   * Check that you can ssh from your laptop to the virtual machine
   * Check that :command:`apt install` works on the virtual machine
-  * Read and complete the :doc:`irc` guide.
-  * Read and complete the :doc:`git` guide.
+  * Read and complete the
+    `Setup IRC <https://docs.openstack.org/contributors/common/irc.html>`_
+    guide.
+  * Read and complete the
+    `Setup and Learn GIT <https://docs.openstack.org/contributors/common/git.html>`_
+    guide.
 
-* Read and complete the :doc:`accounts` guide. (**Note:** you will need to sign
-  the Individual Contributor License Agreement
-  (`ICLA <https://review.openstack.org/static/cla.html>`_) during this.)
+* Read and complete the `Account Setup <https://docs.openstack.org/contributors/common/accounts.html>`_
+  guide. (**Note:** you will need to sign the Individual Contributor License
+  Agreement (`ICLA <https://review.openstack.org/static/cla.html>`_)
+  during this.)
