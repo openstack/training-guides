@@ -12,17 +12,18 @@
 # minwook-shin <minwook0106@gmail.com>, 2017. #zanata
 # ByungYeol Woo <wby1089@gmail.com>, 2018. #zanata
 # Ian Y. Choi <ianyrchoi@gmail.com>, 2018. #zanata
+# Jaewook Oh <kyle.oh95@gmail.com>, 2018. #zanata
 # Jun-Sik Shin <jsshin@smartx.kr>, 2018. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-23 07:55+0000\n"
+"POT-Creation-Date: 2018-02-17 09:20+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-01-24 03:09+0000\n"
-"Last-Translator: ByungYeol Woo <wby1089@gmail.com>\n"
+"PO-Revision-Date: 2018-02-23 01:21+0000\n"
+"Last-Translator: Jaewook Oh <kyle.oh95@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko-KR\n"
 "X-Generator: Zanata 3.9.6\n"
@@ -268,6 +269,14 @@ msgstr "선생님에 의해 주어진 샘플 발표를, 예시로 합니다"
 msgid "A story is a work item such as a bug or a new feature"
 msgstr "스토리는 버그나 새로운 기능같은 작업 항목입니다."
 
+#, fuzzy
+msgid ""
+"A week before the training begins, ensure attendees are aware of the "
+"prerequisites when confirming attendance"
+msgstr ""
+"트레이닝이 시작하기 일주일 전에 참석자들이 전제 조건을 알고 있는지 확인합니"
+"다."
+
 msgid "API first implementation"
 msgstr "API 첫번째 구현"
 
@@ -496,6 +505,13 @@ msgstr "수업 중 질문을 합니다"
 
 msgid "Ask questions in the channel or send direct messages"
 msgstr "채널에서 질문하거나 직접 메시지를 보냅니다"
+
+msgid ""
+"Ask the students questions to make sure they are engaged and understand the "
+"material"
+msgstr ""
+"학생들이 잘 참여하고 자료에 대해 이해했는지 확실히 하기 위해 학생들에게 질문"
+"을 합니다."
 
 msgid "Assess your approach"
 msgstr "접근 방식에 대한 평가"
@@ -747,6 +763,9 @@ msgid ""
 msgstr ""
 "서비스를 선택한 후 API 요청을 발생하거나 클라이언트를 사용하여 기능을 점검합"
 "니다"
+
+msgid "Choose a table and sit with the students to help"
+msgstr "테이블을 선택하고 앉아서 학생들을 돕습니다."
 
 msgid ""
 "Choose and type your username carefully. Once it is set, you cannot change "
@@ -2381,6 +2400,10 @@ msgstr ""
 msgid "If you are contributing on behalf of a company or organization."
 msgstr "회사 또는 기관에 소속되어 컨트리뷰션할 경우에 해당합니다."
 
+#, fuzzy
+msgid "If you are not presenting, remain engaged with the class"
+msgstr "발표 중이 아닐 때도 수업에 열심히 참가합니다."
+
 msgid ""
 "If you do not register your contact information, you cannot upload your any "
 "changes to Gerrit."
@@ -2706,6 +2729,9 @@ msgstr "병합 후 패치에 대한 작업 실행"
 
 msgid "Join the #openstack-101 channel"
 msgstr "#openstack-101 채널에 들어옵니다"
+
+msgid "Join the IRC channel of the class and participate during the training"
+msgstr "수업의 IRC 채널에 참가하여 트레이닝 동안 참여합니다."
 
 msgid ""
 "Join the channel of the project(s) you are interested in and find the logs "
@@ -3606,6 +3632,11 @@ msgstr ""
 
 msgid "Patrick East – PureStorage"
 msgstr "Patrick East – PureStorage"
+
+msgid ""
+"Pause to ask students if they have questions on the material throughout your "
+"presentation"
+msgstr "학생들에게 발표를 통해 자료에 대해 질문이 있는지 묻습니다."
 
 msgid "Pay attention to who is an expert in what area"
 msgstr "특정 영역에 누가 전문가인지를 귀기울여 봅니다"
@@ -4556,6 +4587,12 @@ msgstr "한 발짝 되돌아가기"
 msgid "Take the pulse of the project"
 msgstr "프로젝트의 리듬을 이해합니다"
 
+msgid ""
+"Talk slowly when you are presenting - English may not be their first language"
+msgstr ""
+"발표할 때는 천천히 말합니다. - 모국어가 영어가 아닌 사람들도 있을 수 있습니"
+"다."
+
 msgid "Talking in IRC Channels & Meetings"
 msgstr "IRC 채널에서 말하거나 만나는 것 "
 
@@ -5418,6 +5455,9 @@ msgstr "릴리즈를 이루는 것들"
 
 msgid "When in the cycle you intend to complete it"
 msgstr "목적으로 하는 주기 내에 완료하고자 할 때"
+
+msgid "When possible, sit at a table and build connections with attendees"
+msgstr "가능하다면, 테이블에 앉아서 참석자들과 관계를 구축합니다."
 
 msgid ""
 "When signing up for Foundation Membership, make sure to include the email "
