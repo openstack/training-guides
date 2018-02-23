@@ -111,18 +111,13 @@ At the end of the four sprints, ensure you take a group photo!
 Contribution Planning (2 hours)
 -------------------------------
 
-`ODP slides <http://dachary.org/loic/openstack-training/training-student-project-sample.odp>`_
-`PDF slides <http://dachary.org/loic/openstack-training/training-student-project-sample.pdf>`_
-
-* The students use template slides to prepare a 5-minute presentation of
-  their planned contribution
-* A sample presentation is given by the teacher, as an example
+* The students prepare a 5-minute presentation of their planned contribution.
 * Each student group prepares a presentation describing:
 
-* the contribution they plan to work on during the online sessions
-* how they will engage with the Upstream
-* how it contributes to the company's agenda
-* and whom they will be working with
+  * the contribution they plan to work on during the online sessions
+  * how they will engage with the Upstream
+  * how it contributes to the company's agenda
+  * and whom they will be working with
 
 * Each student group presents its slides to the class
 
