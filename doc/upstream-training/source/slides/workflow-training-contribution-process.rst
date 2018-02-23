@@ -52,9 +52,23 @@ Building Your Persona
 - Answer other's questions or help direct them to
   those who can
 - Attend the meetings
+- Let the PTL know you are interested in participating in the project
+    - Explain why you are interested and what are your strengths
+    - Ask how you can help the project
+
+Building Your Persona
+=====================
+
 - Build a network
     - Pay attention to who is an expert in what area
     - Ask questions in the channel or send direct messages
+- Trust within the community
+    - Trust that your comments are valid
+    - Trust that you can write and review code
+    - Trust that you understand or have the willingness to understand
+      the technology
+    - Trust that you are consistent and reliable and come back
+      regularly
 
 .. note::
    If people know you, you have a better chance at your code
