@@ -62,8 +62,8 @@ Project Team Gathering (PTG)
 - Not good as an entry point
 
 .. note
-   http://www.openstack.org/ptg
-   http://www.openstack.org/ptg/ptgfaq/
+   https://www.openstack.org/ptg
+   https://www.openstack.org/ptg/ptgfaq/
 
 Exercise 2
 ==========

@@ -128,7 +128,7 @@ Previous trainings
 -------------------
 
 - `June 14-15 in parallel to the conference part of the OPNFV Summit 2017
-  <http://events.linuxfoundation.org/events/archive/2017/opnfv-summit/extend-the-experience/openstack-upstream-institute>`_
+  <http://events17.linuxfoundation.org/events/opnfv-summit/extend-the-experience/openstack-upstream-institute>`_
 - Crews: `Beijing Crew
   <https://wiki.openstack.org/wiki/OpenStack_Upstream_Institute_Occasions#Beijing_Crew>`_
 - Etherpad: https://etherpad.openstack.org/p/upstream-institute-beijing
@@ -137,7 +137,7 @@ Previous trainings
 ----------------
 
 - Article: `Get up to speed with the OpenStack Upstream Institute
-  <http://superuser.openstack.org/articles/openstack-upstream-institute-update/>`_
+  <https//superuser.openstack.org/articles/openstack-upstream-institute-update/>`_
 - Crews: `Boston Crew
   <https://wiki.openstack.org/wiki/OpenStack_Upstream_Institute_Occasions#Boston_Crew>`_
 - Etherpad: https://etherpad.openstack.org/p/upstream-training-boston
@@ -146,7 +146,7 @@ Previous trainings
 ---------------------
 
 `What’s new with OpenStack Upstream Training
-<http://superuser.openstack.org/articles/openstack-upstream-training-revamp/>`_.
+<https://superuser.openstack.org/articles/openstack-upstream-training-revamp/>`_.
 
 **Mentors**
 
@@ -223,7 +223,7 @@ https://etherpad.openstack.org/p/upstream-training-vancouver
 ------------------
 
 `OpenStack Upstream Training in Paris
-<http://www.openstack.org/blog/2014/08/openstack-upstream-training-in-paris/>`_.
+<https://www.openstack.org/blog/?p=6403>`_.
 
 **Staff**
 
@@ -251,7 +251,7 @@ https://etherpad.openstack.org/p/upstream-training-vancouver
 -----------------
 
 `OpenStack Upstream Training in Atlanta A Big Success
-<http://www.openstack.org/blog/2014/05/openstack-upstream-training-in-atlanta-a-big-success/>`_.
+<https://www.openstack.org/blog/?p=5961>`_.
 
 **Staff**
 
@@ -314,15 +314,15 @@ Japan OpenStack User Group has held the Upstream Training in Japan.
      - Description
    * - July 6 - 7, 2016 (Wed - Thu)
      - More information:
-       http://www.meetup.com/Japan-OpenStack-User-Group/events/231744095/
+       https://www.meetup.com/Japan-OpenStack-User-Group/events/231744095/
    * - July 9 - 10, 2015 (Thu - Fri)
      - More information:
-       http://www.meetup.com/Japan-OpenStack-User-Group/events/223005607/
+       https://www.meetup.com/Japan-OpenStack-User-Group/events/223005607/
    * - February 2 - 3, 2015 (Mon - Tue)
      - More information: http://openstackdays.com/archive/2015/feature/
    * - October 10 - 11, 2014 (Fri - Sat)
      - More information:
-       http://www.openstack.org/blog/2014/11/openstack-upstream-training-in-japan/
+       https://www.openstack.org/blog/?p=6622
 
 Archive of additional training activities
 -----------------------------------------

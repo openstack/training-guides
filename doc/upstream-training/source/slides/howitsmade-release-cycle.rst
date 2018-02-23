@@ -26,7 +26,7 @@ What makes a release
 .. note::
 
   - Release management description:
-    http://docs.openstack.org/project-team-guide/release-management.html
+    https://docs.openstack.org/project-team-guide/release-management.html
   - The training concentrates on the common cycle with the development
     milestones as that is what most students will work with. The other types
     should be described.
@@ -292,7 +292,7 @@ Stable Branch Reviews
 References
 ==========
 
-  - `Release management description <http://docs.openstack.org/project-team-guide/release-management.html>`_
+  - `Release management description <https://docs.openstack.org/project-team-guide/release-management.html>`_
 
 .. note::
 

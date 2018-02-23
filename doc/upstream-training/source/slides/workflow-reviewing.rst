@@ -41,7 +41,7 @@ Exercise
 
 Review three patches in the sandbox environment:
 
-http://docs.openstack.org/upstream-training/workflow-using-sandbox.html
+https://docs.openstack.org/upstream-training/workflow-using-sandbox.html
 
 Try to find things to make comments on even if they
 are just asking a question and not pointing out an

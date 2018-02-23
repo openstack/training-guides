@@ -427,4 +427,4 @@ Home Work
  .. note::
   - Please do not let students create 10 or more changes.
     (This is not the intention of Sandboxes!)
-  - http://docs.openstack.org/infra/manual/sandbox.html
+  - https://docs.openstack.org/infra/manual/sandbox.html

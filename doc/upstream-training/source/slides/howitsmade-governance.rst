@@ -116,11 +116,11 @@ OpenStack Project Teams
   Project Team Lead and Core Team Members
 - The official list of projects:
 
-  - http://governance.openstack.org/reference/projects/
+  - https://governance.openstack.org/reference/projects/
 
 .. note::
 
-  - Source file is hosted in the `governance repository <http://git.openstack.org/cgit/openstack/governance/tree/reference/projects.yaml>`_
+  - Source file is hosted in the `governance repository <https://git.openstack.org/cgit/openstack/governance/tree/reference/projects.yaml>`_
 
 Active Technical Contributor (ATC)
 ==================================
@@ -139,7 +139,7 @@ Active Technical Contributor (ATC)
 .. note::
 
   - ATC's should be proposed into `projects.yaml
-    <http://git.openstack.org/cgit/openstack/governance/tree/reference/projects.yaml>`_
+    <https://git.openstack.org/cgit/openstack/governance/tree/reference/projects.yaml>`_
     under ``extra-atcs`` of the actual project, but not after the
     `Extra-ATC's deadline <https://releases.openstack.org/pike/schedule.html#p-extra-atcs>`_
     of the cycle expired.

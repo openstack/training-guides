@@ -24,7 +24,7 @@ DevStack
   - from git master by default
   - from stable branches by configuration, e.g. stable/newton
 
-- Documentation: http://docs.openstack.org/developer/devstack/
+- Documentation: https://docs.openstack.org/developer/devstack/
 
 DevStack Clone and Setup
 ========================

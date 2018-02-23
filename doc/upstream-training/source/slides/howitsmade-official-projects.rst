@@ -88,7 +88,7 @@ Exercise
     existing OpenStack cloud infrastructure service
   - Follows/observes the four opens: Source, Community, Development, Design
 
- - http://governance.openstack.org/reference/tags/index.html
+ - https://governance.openstack.org/reference/tags/index.html
 
   - Describe the artifacts created by an OpenStack community team
   - Processes followed, release management, etc.
@@ -102,7 +102,7 @@ References
   - `Internship Programs <https://wiki.openstack.org/wiki/Outreachy>`_
   - `OpenStack Project Teams <https://governance.openstack.org/tc/reference/projects/index.html>`_
   - `New Project Requirements <https://governance.openstack.org/tc/reference/new-projects-requirements.html>`_
-  - `Tags <http://governance.openstack.org/reference/tags/index.html>`_
+  - `Tags <https://governance.openstack.org/reference/tags/index.html>`_
 
 .. note::
 

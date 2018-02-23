@@ -29,7 +29,7 @@ Four "open"s
 - Open Community
 - More information: Governance page
 
-  - http://governance.openstack.org/reference/opens.html
+  - https://governance.openstack.org/reference/opens.html
 
 Framework
 =========

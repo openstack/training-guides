@@ -124,33 +124,33 @@ How OpenStack is made (3h including 1h30 exercises)
 
 * Relevant actors
 
-  * `committers <http://www.stackalytics.com/?release=kilo&metric=commits&project_type=integrated&module=&company=&user_id=>`_
+  * `committers <http://www.stackalytics.com/?release=kilo&metric=commits&project_type=openstack&module=&company=&user_id=>`_
     companies
-  * `commiters <http://www.stackalytics.com/?release=kilo&metric=commits&project_type=integrated&module=&company=&user_id=>`_
+  * `commiters <http://www.stackalytics.com/?release=kilo&metric=commits&project_type=openstack&module=&company=&user_id=>`_
     individuals (bottom of the page)
   * Your management
 
-* `OpenStack Governance <http://governance.openstack.org/>`_
+* `OpenStack Governance <https://governance.openstack.org/>`_
 
-  * `Technical Committee <http://governance.openstack.org/reference/charter.html>`_
-  * `The role of the Technical Committee <http://governance.openstack.org/reference/charter.html#mission>`_
-  * `OpenStack Project Teams <http://governance.openstack.org/reference/charter.html#openstack-project-teams>`_
-  * `OpenStack Project Teams list <http://governance.openstack.org/reference/projects/index.html>`_
+  * `Technical Committee <https://governance.openstack.org/reference/charter.html>`_
+  * `The role of the Technical Committee <https://governance.openstack.org/reference/charter.html#mission>`_
+  * `OpenStack Project Teams <https://governance.openstack.org/reference/charter.html#openstack-project-teams>`_
+  * `OpenStack Project Teams list <https://governance.openstack.org/reference/projects/index.html>`_
   * `Meetings <https://wiki.openstack.org/wiki/Meetings#Technical_Committee_meeting>`_
   * Exercise: read `archived <http://eavesdrop.openstack.org/meetings/tc/2014/tc.2014-04-01-20.03.log.html>`_
     and briefly comment on `keystone document <https://etherpad.openstack.org/p/keystone-incubation-integration-requirements>`_
-  * `PTLs <http://governance.openstack.org/reference/charter.html#project-team-leads>`_
-  * `APC <http://governance.openstack.org/reference/charter.html#voters-for-ptl-seats-apc>`_
-  * `ATC <http://governance.openstack.org/reference/charter.html#voters-for-tc-seats-atc>`_
+  * `PTLs <https://governance.openstack.org/reference/charter.html#project-team-leads>`_
+  * `APC <https://governance.openstack.org/reference/charter.html#voters-for-ptl-seats-apc>`_
+  * `ATC <https://governance.openstack.org/reference/charter.html#voters-for-tc-seats-atc>`_
   * Exercise: each APC / ATC in the class add a URL to the etherpad proving it
 
-* `"Big Tent" and tags <http://governance.openstack.org/reference/new-projects-requirements.html>`_
+* `"Big Tent" and tags <https://governance.openstack.org/reference/new-projects-requirements.html>`_
 
-  * `OpenStack Project Teams <http://governance.openstack.org/reference/projects/index.html>`__
-  * `List of approved tags <http://governance.openstack.org/reference/tags/index.html>`_
+  * `OpenStack Project Teams <https://governance.openstack.org/reference/projects/index.html>`__
+  * `List of approved tags <https://governance.openstack.org/reference/tags/index.html>`_
   * `Understanding the DefCore Guidelines <https://git.openstack.org/cgit/openstack/defcore>`_
   * `Core Definition <https://git.openstack.org/cgit/openstack/defcore/plain/doc/source/process/CoreDefinition.rst>`_
-  * `How to create a project <http://docs.openstack.org/infra/manual/creators.html>`_
+  * `How to create a project <https://docs.openstack.org/infra/manual/creators.html>`_
   * Exercise: What kind of Program do you contribute to ?
 
 * `Design summits <https://wiki.openstack.org/wiki/Design_Summit>`_
@@ -163,8 +163,8 @@ How OpenStack is made (3h including 1h30 exercises)
 
 * `IRC meetings <https://wiki.openstack.org/wiki/Meetings>`_
 
-  * `IRC Services <http://docs.openstack.org/infra/system-config/irc.html>`_
-  * `meetbot <http://wiki.debian.org/MeetBot>`_
+  * `IRC Services <https://docs.openstack.org/infra/system-config/irc.html>`_
+  * `meetbot <https://wiki.debian.org/MeetBot>`_
   * `OpenStack IRC channels <https://wiki.openstack.org/wiki/IRC>`_
   * `IRC Logs <http://eavesdrop.openstack.org/irclogs/>`_
   * ``#info`` - Add an info item to the minutes. People should liberally use
@@ -181,11 +181,11 @@ How OpenStack is made (3h including 1h30 exercises)
 Workflow of an OpenStack contribution and tools (3h including 2h exercises)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* `DevStack <http://docs.openstack.org/developer/devstack/>`_
+* `DevStack <https://docs.openstack.org/developer/devstack/>`_
 
   * Ubuntu or Fedora
   * ``git clone https://git.openstack.org/openstack-dev/devstack``
-  * `minimal configuration <http://docs.openstack.org/developer/devstack/configuration.html#minimal-configuration>`_
+  * `minimal configuration <https://docs.openstack.org/devstack/latest/configuration.html#minimal-configuration>`_
   * ``cd devstack; ./stack.sh``
   * Exercise: get the code for the targeted contribution
 
@@ -211,13 +211,13 @@ Workflow of an OpenStack contribution and tools (3h including 2h exercises)
 
 * How to contribute
 
-  * `Developer’s Guide <http://docs.openstack.org/infra/manual/developers.html>`_
-  * `Account setup <http://docs.openstack.org/infra/manual/developers.html#account-setup>`_
-  * `Git review installation <http://docs.openstack.org/infra/manual/developers.html#installing-git-review>`_
-  * `Starting Work on a New Repository <http://docs.openstack.org/infra/manual/developers.html#starting-work-on-a-new-repository>`_
-  * `Development workflow <http://docs.openstack.org/infra/manual/developers.html#development-workflow>`_
-  * `Running unit tests <http://docs.openstack.org/infra/manual/developers.html#running-unit-tests>`_
-  * `Cross-Repository Dependencies <http://docs.openstack.org/infra/manual/developers.html#cross-repository-dependencies>`_
+  * `Developer’s Guide <https://docs.openstack.org/infra/manual/developers.html>`_
+  * `Account setup <https://docs.openstack.org/infra/manual/developers.html#account-setup>`_
+  * `Git review installation <https://docs.openstack.org/infra/manual/developers.html#installing-git-review>`_
+  * `Starting Work on a New Repository <https://docs.openstack.org/infra/manual/developers.html#starting-work-on-a-new-repository>`_
+  * `Development workflow <https://docs.openstack.org/infra/manual/developers.html#development-workflow>`_
+  * `Running unit tests <https://docs.openstack.org/infra/manual/developers.html#running-unit-tests>`_
+  * `Cross-Repository Dependencies <https://docs.openstack.org/infra/manual/developers.html#cross-repository-dependencies>`_
   * Exercise: push a WIP or draft and invite reviewers
 
 * Branching model
@@ -226,17 +226,17 @@ Workflow of an OpenStack contribution and tools (3h including 2h exercises)
   * `Stable branch <https://wiki.openstack.org/wiki/StableBranch>`_
   * Exercise: checkout the latest stable branch
 
-* `Code Review <http://docs.openstack.org/infra/manual/developers.html#code-review>`_
-* `Peer Review <http://docs.openstack.org/infra/manual/developers.html#peer-review>`_
+* `Code Review <https://docs.openstack.org/infra/manual/developers.html#code-review>`_
+* `Peer Review <https://docs.openstack.org/infra/manual/developers.html#peer-review>`_
 
   * `Git Commit Good Practice <https://wiki.openstack.org/wiki/GitCommitMessages>`_
   * Gerrit Documentation: `Gerrit Code Review - A Quick Introduction <https://review.openstack.org/Documentation/intro-quick.html>`_
   * Gerrit Documentation: `Reviewing the Change <https://review.openstack.org/Documentation/intro-quick.html#_reviewing_the_change>`_
   * Exercise: review each other messages on the draft
 
-* `Jenkins (Automated testing) <http://docs.openstack.org/infra/manual/developers.html#automated-testing>`_
+* `Zuul (Automated testing) <https://docs.openstack.org/infra/manual/developers.html#automated-testing>`_
 
-  * Exercise: add an error and match it to the Jenkins message
+  * Exercise: add an error and match it to the Zuul message
 
 Second day
 ----------
@@ -267,4 +267,4 @@ Overview of the contribution process
 * Work in parallel
 * Archive and collect
 
-`Complete index in slide format only <http://docs.openstack.org/upstream-training/slide-index.html>`_
+`Complete index in slide format only <https://docs.openstack.org/upstream-training/slide-index.html>`_
