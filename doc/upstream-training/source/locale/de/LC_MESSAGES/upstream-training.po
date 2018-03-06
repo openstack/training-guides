@@ -3,16 +3,17 @@
 # Frank Kloeker <eumel@arcor.de>, 2017. #zanata
 # Robert Simai <robert.simai@suse.com>, 2017. #zanata
 # Reik Keutterling <spielkind@gmail.com>, 2018. #zanata
+# Robert Simai <robert.simai@suse.com>, 2018. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide 2016.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-23 11:41+0000\n"
+"POT-Creation-Date: 2018-03-01 07:40+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-02-15 06:54+0000\n"
-"Last-Translator: Reik Keutterling <spielkind@gmail.com>\n"
+"PO-Revision-Date: 2018-03-05 09:37+0000\n"
+"Last-Translator: Robert Simai <robert.simai@suse.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
 "X-Generator: Zanata 4.3.3\n"
@@ -410,6 +411,9 @@ msgstr ""
 msgid "Appropriate Fixes"
 msgstr "Geeignete Fixes"
 
+msgid "Appropriate backports"
+msgstr "Geeignete Rückportierungen"
+
 msgid "Archive"
 msgstr "Archiv"
 
@@ -435,6 +439,9 @@ msgstr ""
 msgid "Ask a mentor to break the *tested* code of one test case"
 msgstr ""
 "Bitten Sie einen Mentor den *getesteten* Code eines Testcases kaputtzumachen"
+
+msgid "Ask how you can help the project"
+msgstr "Fragen Sie, wie Sie das Projekt unterstützen können"
 
 msgid "Ask questions during the class"
 msgstr "Stellen Sie Fragen in der Klasse"
@@ -469,6 +476,9 @@ msgstr "Regelmäßige Meetings besuchen"
 
 msgid "Available metrics"
 msgstr "Verfügbare Metriken"
+
+msgid "Backports of new functionality"
+msgstr "Rückportierungen mit neuer Funktionalität"
 
 msgid ""
 "Be able to identify and start a task (bug fix, feature design and "
@@ -640,6 +650,9 @@ msgstr "Änderungs-Id"
 
 msgid "Changes to Nova's internal AMQP API"
 msgstr "Änderungen an der internen AMQP-API von Nova"
+
+msgid "Changes to external HTTP APIs"
+msgstr "Änderungen an externen HTTP-APIs"
 
 msgid "Changes to the external HTTP APIs"
 msgstr "Änderungen an den externen HTTP-APIs"
@@ -1272,6 +1285,9 @@ msgstr "Gibt es Beschränkungen des aktuellen Codes?"
 msgid "Does it improve code structure?"
 msgstr "Verbessert es die Codestruktur?"
 
+msgid "Don't -1 for spelling mistakes, wording or missing details"
+msgstr "Kein -1 für Buchstabierfehler, Wortlaut oder fehlende Details"
+
 msgid "Don't game the numbers"
 msgstr "Spielen Sie nicht mit den Zahlen"
 
@@ -1581,6 +1597,9 @@ msgstr "Erklären der Bedeutung wenn nicht"
 msgid "Explain what you do"
 msgstr "Erklären Sie, was Sie tun"
 
+msgid "Explain why you are interested and what are your strengths"
+msgstr "Erklären Sie, was Sie interessiert und was Ihre Stärken sind"
+
 msgid "Explanation of issue being solved and why it should be fixed"
 msgstr "Erläuterung des Problems und warum sollte es behoben werden"
 
@@ -1706,6 +1725,9 @@ msgstr "Alles zusammen passen"
 
 msgid "Fix as many bugs as possible"
 msgstr "So viele Bugs wie möglich lösen"
+
+msgid "Fixes a user visible problem"
+msgstr "Beseitigt ein für Benutzer sichtbares Problem"
 
 msgid "Flexibility"
 msgstr "Flexibilität"
@@ -2189,6 +2211,9 @@ msgstr ""
 "dritten Sprint eine Gruppe ermutigen,  ausserhalb des Sprint-Zyklusses ein "
 "Meeting einzuberufen, um das Problem auszusortieren."
 
+msgid "Inappropriate backports"
+msgstr "Unangemessene Rückportierungen"
+
 msgid "Incentivize participation"
 msgstr "Incentivieren Sie die Teilnahme"
 
@@ -2430,6 +2455,10 @@ msgstr "Lego gilt für freie Softwarebeiträge"
 msgid "Lego applied to Free Software contributions (15 min)"
 msgstr "Lego gilt für freie Softwarebeiträge (15 min)"
 
+msgid "Let the PTL know you are interested in participating in the project"
+msgstr ""
+"Teilen Sie dem PTL mit, dass Sie an einer Projektteilnahme interessiert sind"
+
 msgid "Let's play!"
 msgstr "Lassen Sie uns spielen!"
 
@@ -2533,6 +2562,9 @@ msgstr ""
 "Schauen Sie nach, wann das nächste Treffen für den Kanal ist, dem Sie "
 "beigetreten sind und wo das Treffen stattfindet (#openstack-meeting, "
 "#openstack-meeting-3, etc)."
+
+msgid "Low regression risk in stable branch"
+msgstr "Geringes Risiko von Regressionen im stabilen Branch"
 
 msgid "Loïc Dachary (Training, mentoring, assistant, english and french)"
 msgstr ""
@@ -3835,6 +3867,9 @@ msgstr "Beschleunigung der Annahme"
 
 msgid "Stable Branch"
 msgstr "Stabiler Branch"
+
+msgid "Stable Branch Reviews"
+msgstr "Reviews im stabilen Branch"
 
 msgid "Stable branches"
 msgstr "Stabile Zweige"
