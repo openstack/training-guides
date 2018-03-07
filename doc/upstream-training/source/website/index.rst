@@ -73,9 +73,9 @@ and registration.
 +----------+----------+---------+------------+--------------------------------+
 | Date     | Event    | Duration| Location   |              Details           |
 +==========+==========+=========+============+================================+
-| November | OpenStack|     1.5 | Sydney,    | :doc:`upstream-training-summit`|
-| 04, 2017 | Summit   |     Days| Australia  |             \                  |
-|          | Sydney   |         |            |                                |
+|May 19-20,| OpenStack|     1.5 | Vancouver, | :doc:`upstream-training-summit`|
+|2018      | Summit   |     Days| British    |             \                  |
+|          | Vancouver|         | Columbia   |                                |
 +----------+----------+---------+------------+--------------------------------+
 
 
