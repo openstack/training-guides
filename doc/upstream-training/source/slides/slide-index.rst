@@ -43,7 +43,6 @@ Workflow and Tools for Participation
    :maxdepth: 1
 
    workflow-training-contribution-process.rst
-   workflow-reg-and-accounts.rst
    workflow-task-tracking.rst
    workflow-gerrit.rst
    workflow-reviewing.rst

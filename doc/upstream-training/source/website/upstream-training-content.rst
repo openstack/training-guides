@@ -34,7 +34,6 @@ Workflow and Tools for Participation
 
 * `Overview of the contribution process
   <workflow-training-contribution-process.html>`_
-* `Registration and accounts <workflow-reg-and-accounts.html>`_
 * `Task Tracking <workflow-task-tracking.html>`_
 * `Gerrit <workflow-gerrit.html>`_
 * `Reviewing <workflow-reviewing.html>`_
