@@ -70,13 +70,26 @@ Upcoming Trainings
 See this web page and the schedule of the upcoming class for more details
 and registration.
 
-+----------+----------+---------+------------+--------------------------------+
-| Date     | Event    | Duration| Location   |              Details           |
-+==========+==========+=========+============+================================+
-|May 19-20,| OpenStack|     1.5 | Vancouver, | :doc:`upstream-training-summit`|
-|2018      | Summit   |     Days| British    |             \                  |
-|          | Vancouver|         | Columbia   |                                |
-+----------+----------+---------+------------+--------------------------------+
++------------+---------+---------+-----------+-------------------------------+
+| Date       | Event   | Duration| Location  |              Details          |
++============+=========+=========+===========+===============================+
+| May 19-20, |OpenStack|  1.5    | Vancouver,|:doc:`upstream-training-summit`|
+| 2018       |Summit   |  days   | British   |             \                 |
+|            |Vancouver|         | Columbia, |                               |
+|            |         |         | Canada    |                               |
++------------+---------+---------+-----------+-------------------------------+
+| June 11-12,|OpenStack|  1 day  | Kraków,   | :ref:`openstack-day-poland`   |
+| 2018       |Day      |         | Poland    |             \                 |
+|            |Poland   |         |           |                               |
++------------+---------+---------+-----------+-------------------------------+
+| June 28-29,|OpenInfra|  1 day  | Seoul,    | :ref:`openstack-day-korea`    |
+| 2018       |Days     |         | Korea     |             \                 |
+|            |Korea    |         |           |                               |
++------------+---------+---------+-----------+-------------------------------+
+| July 27-28,|OpenStack|  1 day  | São Paulo,| :ref:`openstack-day-brazil`   |
+| 2018       |Day      |         | Brazil    |             \                 |
+|            |Brazil   |         |           |                               |
++------------+---------+---------+-----------+-------------------------------+
 
 
 For Trainees

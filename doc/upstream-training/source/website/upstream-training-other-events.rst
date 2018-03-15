@@ -3,43 +3,52 @@ Upstream Institute Training Other Events
 ========================================
 
 
-.. _openstack-day-uk:
+.. _openstack-day-poland:
 
-OpenStack Days UK
------------------
-
-You can access the training in parallel to the `OpenStack Days UK
-<https://openstackdays.uk/2017/>`_ event.
-
- **Tuesday, September 26, 2017 at 11:00 a.m. to 5:30 p.m. (local time)**
-
-Please see the `OpenStack Upstream Institute Office Hours
-<https://openstackdays.uk/2017/?schedule=upstream-developer-training-1>`_
-class information for more details.
-
-`Etherpad for London Upstream Collaboration Training
-<https://etherpad.openstack.org/p/upstream-institute-uk-2017>`_
-
-See YOU in London!
-
-
-.. _openstack-day-nordic:
-
-OpenStack Days Nordic
+OpenStack Days Poland
 ---------------------
 
-You can access the training on the first day of the `OpenStack Days Nordic
-<http://openstacknordic.org/copenhagen2017/>`_ event.
+`OpenStack Days Poland <http://www.openstackday.pl/>`_ event site
 
- **Wednesday, October 18, 2017 at 08:30 a.m. to 4:30 p.m. (local time)**
+ **Monday and Tuesday, June 11-12, 2018**
 
-Please see the `Becoming a member of the OpenStack community Part 1
-<https://openstackdaysnordic2017.sched.com/event/9kSn>`_ and
-`Becoming a member of the OpenStack community Part 2
-<https://openstackdaysnordic2017.sched.com/event/BNkw>`_ pages for class
-information and more details.
+Exact schedule and class details to come!
 
-`Etherpad for Nordic Upstream Collaboration Training
-<https://etherpad.openstack.org/p/upstream-institute-nordic-2017>`_
+`Etherpad for Poland Upstream Collaboration Training
+<https://etherpad.openstack.org/p/upstream-institute-poland-2018>`_
 
-See YOU in Copenhagen!
+See YOU in Kraków!
+
+
+.. _openstack-day-korea:
+
+OpenInfra Days Korea
+---------------------
+
+`OpenStack Days Korea <http://event.openstack.or.kr/>`_ event site.
+
+ **Thursday and Friday, June 28-29, 2018**
+
+ Exact schedule and class details to come!
+
+`Etherpad for Korea Upstream Collaboration Training
+<https://etherpad.openstack.org/p/upstream-institute-korea-2018>`_
+
+See YOU in Seoul!
+
+
+.. _openstack-day-brazil:
+
+OpenStack Days Brazil
+---------------------
+
+`OpenStack Days Brazil <http://www.openstackbr.com.br/events/2018/>`_ event site
+
+ **Friday and Saturday, July 27-28, 2018**
+
+Exact schedule and class details to come!
+
+`Etherpad for Brazil Upstream Collaboration Training
+<https://etherpad.openstack.org/p/upstream-institute-brazil-2018>`_
+
+See YOU in São Paulo!
