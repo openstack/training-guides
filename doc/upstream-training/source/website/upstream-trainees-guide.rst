@@ -22,13 +22,12 @@ How to prepare
   * Read and complete the
     `Setup IRC <https://docs.openstack.org/contributors/common/irc.html>`_
     guide.
-  * Read and complete the `Accounts <https://docs.openstack.org/contributors/common/accounts.html>`_ section of the Contributor Guide.
-
-  * Read and complete the
-    `Setup and Learn GIT <https://docs.openstack.org/contributors/common/git.html>`_
-    guide.
-
 * Read and complete the `Account Setup <https://docs.openstack.org/contributors/common/accounts.html>`_
   guide. (**Note:** you will need to sign the Individual Contributor License
   Agreement (`ICLA <https://review.openstack.org/static/cla.html>`_)
   during this.)
+
+
+.. note::
+   Aside from the Setup IRC section above, we will cover everything else that is in
+   `the Contributor Guide <https://docs.openstack.org/contributors/>`_ during the class.

@@ -8,6 +8,11 @@ OpenStack Upstream Institute Training Content
    include additional explanation in the *Presenter notes* (press
    :command:`c` to see them).
 
+.. note::
+   Most of the course content is being moved to `the Contributor Guide
+   <https://docs.openstack.org/contributors/>`_. In the future, all
+   that will live here are exercises that accompany the Guide.
+
 Introduction
 ------------
 
@@ -35,7 +40,6 @@ Workflow and Tools for Participation
 * `Overview of the contribution process
   <workflow-training-contribution-process.html>`_
 * `Task Tracking <workflow-task-tracking.html>`_
-* `Gerrit <workflow-gerrit.html>`_
 * `Reviewing <workflow-reviewing.html>`_
 * `Commit Messages <workflow-commit-message.html>`_
 * `Project Status and Zuul <workflow-project-status-and-zuul.html>`_

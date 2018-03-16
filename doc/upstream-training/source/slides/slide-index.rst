@@ -44,7 +44,6 @@ Workflow and Tools for Participation
 
    workflow-training-contribution-process.rst
    workflow-task-tracking.rst
-   workflow-gerrit.rst
    workflow-reviewing.rst
    workflow-commit-message.rst
    workflow-project-status-and-zuul.rst
