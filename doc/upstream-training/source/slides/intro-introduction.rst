@@ -37,13 +37,13 @@ the course, etc.
 Jump on IRC and etherpad
 ========================
 
-- Join the #openstack-101 channel
+- Join the #openstack-dev channel
 
   - Ask questions during the class
   - Use it for exercises
   - Use your IRC client or Web IRC:
 
-    https://webchat.freenode.net/?channels=openstack-101
+    https://webchat.freenode.net/?channels=openstack-dev
 
 - Open the `training etherpad <https://etherpad.openstack.org/p/upstream-institute-sydney-2017>`_
   for team work
