@@ -33,18 +33,15 @@ Install OpenStack command-line clients
 - Most Linux distributions include packaged versions of the Command-Line
   Clients that you can install directly.
 
-    - On Red Hat Enterprise Linux, CentOS, or Fedora, use ``yum``:
+    - On Red Hat Enterprise Linux, CentOS, or Fedora, use ``yum``
+    - For Ubuntu or Debian, use ``apt``
+    - For OpenSUSE or SLES use ``zypper``
 
       .. code-block:: console
 
          # yum install python-openstackclient
-
-    * For Ubuntu or Debian, use ``apt``:
-
-      .. code-block:: console
-
          # apt install python-openstackclient
-
+         # zypper install python-openstackclient
 
 Install OpenStack command-line clients (cont.)
 ==============================================
