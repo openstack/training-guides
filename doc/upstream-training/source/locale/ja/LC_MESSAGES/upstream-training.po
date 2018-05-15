@@ -5,9 +5,9 @@
 # KATO Tomoyuki <kato.tomoyuki@jp.fujitsu.com>, 2017. #zanata
 msgid ""
 msgstr ""
-"Project-Id-Version: Upstream Training Guide 2016.2\n"
+"Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-23 11:41+0000\n"
+"POT-Creation-Date: 2018-05-02 09:37+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -99,17 +99,11 @@ msgstr "完全な OpenStack 環境を構築するためのスクリプト群"
 msgid "A gathering of projects teams and contributors"
 msgstr "プロジェクトチームとコントリビューターの集会"
 
-msgid "A sample presentation is given by the teacher, as an example"
-msgstr "サンプルプレゼンが、例として講師から提供されます。"
-
 msgid "APIImpact"
 msgstr "APIImpact"
 
 msgid "About the training"
 msgstr "トレーニングについて"
-
-msgid "Accounts"
-msgstr "アカウント"
 
 msgid "Active Project Contributor (APC)"
 msgstr "Active Project Contributor (APC)"
@@ -150,9 +144,6 @@ msgid "Aim to become a major contributor and demonstrate your mad skills!"
 msgstr ""
 "メジャーなコントリビューターを目指し、あなたのヤバいスキルを見せつけましょう!"
 
-msgid "All emails are archived"
-msgstr "すべてのメールは保存される"
-
 msgid "Alternatively, you can use your virtual machine on a public cloud."
 msgstr "代わりに、パブリッククラウドにある仮想マシンを使用できます。"
 
@@ -189,9 +180,6 @@ msgstr "トレーニング中の質問に使います"
 
 msgid "Assess your approach"
 msgstr "自身のアプローチの評価"
-
-msgid "Assignee: the developer working on the fix"
-msgstr "担当者 (Assignee): 修正に取り組んでいる開発者"
 
 msgid "At the end of the four sprints, ensure you take a group photo!"
 msgstr "4回のスプリントが終わったら、グループ写真を撮ることを忘れずに !"
@@ -460,9 +448,6 @@ msgstr "コア : 5"
 msgid "Core and Optional Services"
 msgstr "コアサービスと追加サービス"
 
-msgid "Core reviewer"
-msgstr "コアレビューアー"
-
 msgid "Core services (Compute, Networking, Block and Object Storage, etc.)"
 msgstr "コアサービス (Compute, Networking, Block, Object Storage など)"
 
@@ -579,9 +564,6 @@ msgstr "ディストリビューション"
 msgid "Do not assume ..."
 msgstr "前提をおかない ..."
 
-msgid "Do you work at a company?"
-msgstr "会社に勤めていますか?"
-
 msgid "DocImpact"
 msgstr "DocImpact"
 
@@ -594,9 +576,6 @@ msgstr "ドキュメントディープダイブ"
 msgid "Documentation frameworks"
 msgstr "ドキュメントのフレームワーク"
 
-msgid "Documentation: http://docs.openstack.org/developer/devstack/"
-msgstr "ドキュメント: http://docs.openstack.org/developer/devstack/"
-
 msgid "Does it fix limitations of the current code?"
 msgstr "現在のコードの制約を修正するものか？"
 
@@ -608,9 +587,6 @@ msgstr "ドラフトコメントの公開"
 
 msgid "Draft comment was saved"
 msgstr "コメントのドラフトが保存されました"
-
-msgid "Draft inline comments"
-msgstr "ドラフトのインラインコメント"
 
 msgid "Drive the program goals"
 msgstr "プログラムの目標の推進"
@@ -670,9 +646,6 @@ msgstr "迅速な関わり"
 msgid "Etherpad"
 msgstr "Etherpad"
 
-msgid "Etherpads"
-msgstr "Etherpad"
-
 msgid "Events"
 msgstr "イベント"
 
@@ -726,9 +699,6 @@ msgstr "演習: ステップ 3 以降"
 
 msgid "Exercise: What kind of Program do you contribute to ?"
 msgstr "演習: コントリビューションしたいプロジェクトは何か?"
-
-msgid "Exercise: add an error and match it to the Jenkins message"
-msgstr "実習: エラーを追加して、Jenkins のメッセージと対応づけてください。"
 
 msgid ""
 "Exercise: based on the `Kilo release schedule <https://wiki.openstack.org/"
@@ -906,9 +876,6 @@ msgstr ""
 "Gerrit ドキュメント: `Reviewing the Change <https://review.openstack.org/"
 "Documentation/intro-quick.html#_reviewing_the_change>`_"
 
-msgid "Gerrit will automatically set the status"
-msgstr "Gerrit が自動的に状態を変更します"
-
 msgid "Get guidance from community members and leaders"
 msgstr "コミュニティーメンバーやリーダーから助言をもらえます"
 
@@ -992,15 +959,6 @@ msgstr "OpenStack の使い方"
 msgid "IRC"
 msgstr "IRC"
 
-msgid "IRC Channels"
-msgstr "IRC チャンネル"
-
-msgid "IRC Logs"
-msgstr "IRC ログ"
-
-msgid "IRC meetings: http://eavesdrop.openstack.org/"
-msgstr "IRC ミーティング: http://eavesdrop.openstack.org/"
-
 msgid "Ian Y. Choi (training, assistant, mentoring)"
 msgstr "Ian Y. Choi (training, assistant, mentoring)"
 
@@ -1023,13 +981,6 @@ msgstr ""
 
 msgid "If you feel the community needs consensus, call a midcycle!"
 msgstr "コンセンサスが必要と感じた場合、ミッドサイクルを開こう!"
-
-msgid ""
-"If your contribution is on behalf of a company, have your managers sign the "
-"Corporate Contributor License Agreement"
-msgstr ""
-"あなたのコントリビューションが企業活動ならば、マネージャーに Corporate "
-"Contributor License Agreement に署名してもらってください"
 
 msgid "Ildiko Vancsa - ildikov - Telemetry (mentoring, assistant)"
 msgstr "Ildiko Vancsa - ildikov - Telemetry (mentoring, assistant)"
@@ -1091,12 +1042,6 @@ msgstr "Infrastructure as a Service (IaaS)"
 msgid "Infrastructure for"
 msgstr "さまざまなインフラ"
 
-msgid "Inline comments"
-msgstr "インラインコメント"
-
-msgid "Install git review"
-msgstr "git review のインストール"
-
 msgid "Installs services from source"
 msgstr "ソースからサービスのインストール"
 
@@ -1145,9 +1090,6 @@ msgstr "Jieun Kim (assistant)"
 msgid "Jirayut Nimsaeng- Kaidee"
 msgstr "Jirayut Nimsaeng- Kaidee"
 
-msgid "Join the #openstack-101 channel"
-msgstr "#openstack-101 チャンネルに参加してください"
-
 msgid "Join the openstack-dev mailing list"
 msgstr "openstack-dev メーリングリストに参加する"
 
@@ -1186,9 +1128,6 @@ msgstr "Lana Brindley (assistant, mentoring, English)"
 
 msgid "Lana Brindley - Docs (mentoring, assistant)"
 msgstr "Lana Brindley - Docs (mentoring, assistant)"
-
-msgid "Launchpad"
-msgstr "Launchpad"
 
 msgid "Launchpad (openstack-dev-sandbox)"
 msgstr "Launchpad (openstack-dev-sandbox)"
@@ -1266,12 +1205,6 @@ msgstr ""
 msgid "Loïc Dachary (Training, mentoring, assistant, english and french)"
 msgstr "Loïc Dachary (Training, mentoring, assistant, english and french)"
 
-msgid "Mailing Lists"
-msgstr "メーリングリスト"
-
-msgid "Mailing Lists (ML)"
-msgstr "メーリングリスト (ML)"
-
 msgid "Main activities"
 msgstr "おもな活動"
 
@@ -1344,33 +1277,11 @@ msgstr "詳細: http://openstackdays.com/archive/2015/feature/"
 msgid "More information: http://sdndev.net/10"
 msgstr "詳細: http://sdndev.net/10"
 
-msgid ""
-"More information: http://www.meetup.com/Japan-OpenStack-User-Group/"
-"events/223005607/"
-msgstr ""
-"詳細: http://www.meetup.com/Japan-OpenStack-User-Group/events/223005607/"
-
-msgid ""
-"More information: http://www.meetup.com/Japan-OpenStack-User-Group/"
-"events/231744095/"
-msgstr ""
-"詳細: http://www.meetup.com/Japan-OpenStack-User-Group/events/231744095/"
-
-msgid ""
-"More information: http://www.openstack.org/blog/2014/11/openstack-upstream-"
-"training-in-japan/"
-msgstr ""
-"詳細: http://www.openstack.org/blog/2014/11/openstack-upstream-training-in-"
-"japan/"
-
 msgid "More than 20 million lines of code"
 msgstr "2,000 万行以上のコード"
 
 msgid "More than 20,000 patches"
 msgstr "20,000 以上のパッチ"
-
-msgid "More than 40 different ML's"
-msgstr "40 を超える ML"
 
 msgid "Most of the OpenStack services"
 msgstr "ほとんどの OpenStack サービス"
@@ -1390,17 +1301,11 @@ msgstr "NFV = Network Function Virtualization (ネットワーク機能の仮想
 msgid "Namgon Lucas Kim (assistant, mentoring)"
 msgstr "Namgon Lucas Kim (assistant, mentoring)"
 
-msgid "New agreement"
-msgstr "新規アグリーメント"
-
 msgid "New features"
 msgstr "新機能"
 
 msgid "New patchset was recorded in Gerrit."
 msgstr "新しいパッチセットが Gerrit に記録されます。"
-
-msgid "No agreement"
-msgstr "アグリーメントなし"
 
 msgid ""
 "Nonprofit foundation created to \"develop, support, protect, and promote\" "
@@ -1494,9 +1399,6 @@ msgstr "OpenStack イベント"
 msgid "OpenStack Foundation"
 msgstr "OpenStack Foundation"
 
-msgid "OpenStack Foundation Account"
-msgstr "OpenStack Foundation Account"
-
 msgid "OpenStack Governance"
 msgstr "OpenStack ガバナンス"
 
@@ -1544,9 +1446,6 @@ msgstr "その他"
 
 msgid "Other possible content"
 msgstr "その他記載する可能性があるものとしては、"
-
-msgid "Others: https://wiki.openstack.org/wiki/Meetings"
-msgstr "その他: https://wiki.openstack.org/wiki/Meetings"
 
 msgid "Overall feature freeze is the third milestone"
 msgstr "全体の機能凍結は 3 番目のマイルストーンです"
@@ -1687,12 +1586,6 @@ msgstr "地域ミニサミット"
 msgid "Regional Events"
 msgstr "地域イベント"
 
-msgid "Registration and Accounts"
-msgstr "登録およびアカウント"
-
-msgid "Regular reviewer"
-msgstr "通常のレビューアー"
-
 msgid "Release"
 msgstr "リリース"
 
@@ -1701,13 +1594,6 @@ msgstr "リリース候補版"
 
 msgid "Release day"
 msgstr "リリース日"
-
-msgid ""
-"Release management description: http://docs.openstack.org/project-team-guide/"
-"release-management.html"
-msgstr ""
-"リリースマネジメント概要: http://docs.openstack.org/project-team-guide/"
-"release-management.html"
 
 msgid "Release models"
 msgstr "リリースモデル"
@@ -1771,9 +1657,6 @@ msgstr "他の人のコードをレビューする"
 
 msgid "Review three patches in the sandbox environment:"
 msgstr "sandbox 環境にあるパッチを 3 つレビューしてください。"
-
-msgid "Review unified"
-msgstr "一元レビュー"
 
 msgid "Reviewing"
 msgstr "レビュー"
@@ -1847,15 +1730,6 @@ msgstr "Shinobu KINJO (mentoring, assistant, japanese)"
 msgid "Should not end with a period"
 msgstr "ピリオドで終わらない"
 
-msgid "Sign In"
-msgstr "サインイン"
-
-msgid "Sign the Individual agreement"
-msgstr "個人アグリーメントの署名"
-
-msgid "Signed agreement"
-msgstr "署名済みアグリーメント"
-
 msgid "Single and multi node setup"
 msgstr "シングルノード・マルチノードのセットアップ"
 
@@ -1882,13 +1756,6 @@ msgstr "ソフトウェア開発キット (SDK)"
 
 msgid "Software package that provides a cloud platform for"
 msgstr "クラウドプラットフォームを提供するソフトウェアパッケージ"
-
-msgid ""
-"Source file is hosted in the `governance repository <http://git.openstack."
-"org/cgit/openstack/governance/tree/reference/projects.yaml>`_"
-msgstr ""
-"ソースファイルは `governance リポジトリー <http://git.openstack.org/cgit/"
-"openstack/governance/tree/reference/projects.yaml>`_ に置かれています。"
 
 msgid "Spec/blueprint freeze"
 msgstr "スペックとブループリントの凍結"
@@ -2048,9 +1915,6 @@ msgstr "OpenStack のパッケージ"
 msgid "The code is self-evident/self-documenting"
 msgstr "コードは自明である、それ自体で説明になっている"
 
-msgid "The common syntax: #openstack-<name-of-project>"
-msgstr "一般的な形式: #openstack-<name-of-project>"
-
 msgid "The deadline for proposing new ideas for a release cycle"
 msgstr "そのリリースに向けた新しいアイディアの提案締め切り"
 
@@ -2085,13 +1949,6 @@ msgstr "レビューアーは外部のウェブサービスやサイトにアク
 
 msgid "The reviewer understands what the original problem was"
 msgstr "レビューアーは元の問題が何かを理解している"
-
-msgid ""
-"The students use template slides to prepare a 5-minute presentation of their "
-"planned contribution"
-msgstr ""
-"受講者は、テンプレートを使用して、コントリビューション計画に関する 5 分間の発"
-"表を準備します。"
 
 msgid ""
 "These slides prepare students for the Lego activity, and ensure they "
@@ -2267,13 +2124,6 @@ msgstr "Virtual Infrastructure Manager (VIM) + NFV Infratsructure (NFVI)"
 msgid "Virtual Network Functions Manager (VNFM)"
 msgstr "Virtual Network Functions Manager (VNFM)"
 
-msgid ""
-"Way for people to communicate to a larger group than those that are on IRC"
-msgstr "IRC よりも大きなグループとコミュニケーションする手段"
-
-msgid "Ways to Communicate in OpenStack"
-msgstr "OpenStack におけるコミュニケーション方法"
-
 msgid "We have seen in `Gerrit <workflow-gerrit.html#5>`__"
 msgstr "`Gerrit <workflow-gerrit.html#5>`__ で確認しました"
 
@@ -2320,9 +2170,6 @@ msgstr "なぜうまく合わないのか？"
 
 msgid "Wiki"
 msgstr "Wiki"
-
-msgid "Wiki Pages"
-msgstr "Wiki ページ"
 
 msgid ""
 "With over 2,000 developers from over 300 different organizations worldwide, "
@@ -2380,34 +2227,6 @@ msgstr "あなたの管理者"
 msgid "Your mission, should you choose to accept it"
 msgstr "あなたのミッション : 許容するかを決めてください"
 
-msgid ""
-"`\"Big Tent\" and tags <http://governance.openstack.org/reference/new-"
-"projects-requirements.html>`_"
-msgstr ""
-"`ビッグテントとタグ <http://governance.openstack.org/reference/new-projects-"
-"requirements.html>`_"
-
-msgid ""
-"`APC <http://governance.openstack.org/reference/charter.html#voters-for-ptl-"
-"seats-apc>`_"
-msgstr ""
-"`APC <http://governance.openstack.org/reference/charter.html#voters-for-ptl-"
-"seats-apc>`_"
-
-msgid ""
-"`ATC <http://governance.openstack.org/reference/charter.html#voters-for-tc-"
-"seats-atc>`_"
-msgstr ""
-"`ATC <http://governance.openstack.org/reference/charter.html#voters-for-tc-"
-"seats-atc>`_"
-
-msgid ""
-"`Account setup <http://docs.openstack.org/infra/manual/developers."
-"html#account-setup>`_"
-msgstr ""
-"`Account setup <http://docs.openstack.org/infra/manual/developers."
-"html#account-setup>`_"
-
 msgid "`Blueprints <https://wiki.openstack.org/wiki/Blueprints>`_"
 msgstr "`ブループリント <https://wiki.openstack.org/wiki/Blueprints>`_"
 
@@ -2417,13 +2236,6 @@ msgstr "`ブランチモデル <https://wiki.openstack.org/wiki/Branch_Model>`_"
 msgid "`Bugs <https://wiki.openstack.org/wiki/Bugs>`_"
 msgstr "`バグ <https://wiki.openstack.org/wiki/Bugs>`_"
 
-msgid ""
-"`Code Review <http://docs.openstack.org/infra/manual/developers.html#code-"
-"review>`_"
-msgstr ""
-"`コードレビュー <http://docs.openstack.org/infra/manual/developers.html#code-"
-"review>`_"
-
 msgid "`Code exercises <code-exercises.html>`_"
 msgstr "`コードの演習 <code-exercises.html>`_"
 
@@ -2432,13 +2244,6 @@ msgstr "`コミットメッセージ <workflow-commit-message.html>`_"
 
 msgid "`Communication <howitsmade-communication.html>`_"
 msgstr "`コミュニケーション <howitsmade-communication.html>`_"
-
-msgid ""
-"`Complete index in slide format only <http://docs.openstack.org/upstream-"
-"training/slide-index.html>`_"
-msgstr ""
-"`スライド形式のインデックス <http://docs.openstack.org/ja/upstream-training/"
-"slide-index.html>`_"
 
 msgid "`Complete index in slide format only <slide-index.html>`_"
 msgstr "`スライド形式のインデックス <slide-index.html>`_"
@@ -2450,33 +2255,11 @@ msgstr ""
 "`コアの定義 <https://git.openstack.org/cgit/openstack/defcore/plain/doc/"
 "source/process/CoreDefinition.rst>`_"
 
-msgid ""
-"`Cross-Repository Dependencies <http://docs.openstack.org/infra/manual/"
-"developers.html#cross-repository-dependencies>`_"
-msgstr ""
-"`クロスリポジトリーの依存関係 <http://docs.openstack.org/infra/manual/"
-"developers.html#cross-repository-dependencies>`_"
-
 msgid "`Demo environment <code-devstack.html>`_"
 msgstr "`デモ環境 <code-devstack.html>`_"
 
 msgid "`Design summits <https://wiki.openstack.org/wiki/Design_Summit>`_"
 msgstr "`デザインサミット <https://wiki.openstack.org/wiki/Design_Summit>`_"
-
-msgid "`DevStack <http://docs.openstack.org/developer/devstack/>`_"
-msgstr "`DevStack <http://docs.openstack.org/developer/devstack/>`_"
-
-msgid ""
-"`Developer’s Guide <http://docs.openstack.org/infra/manual/developers.html>`_"
-msgstr ""
-"`Developer’s Guide <http://docs.openstack.org/infra/manual/developers.html>`_"
-
-msgid ""
-"`Development workflow <http://docs.openstack.org/infra/manual/developers."
-"html#development-workflow>`_"
-msgstr ""
-"`Development workflow <http://docs.openstack.org/infra/manual/developers."
-"html#development-workflow>`_"
 
 msgid "`Documentation <https://wiki.openstack.org/wiki/Documentation/HowTo>`_"
 msgstr "`Documentation <https://wiki.openstack.org/wiki/Documentation/HowTo>`_"
@@ -2491,9 +2274,6 @@ msgstr ""
 "`Etherpad for Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
 "p/upstream-training-korea-2016>`_"
 
-msgid "`Gerrit <workflow-gerrit.html>`_"
-msgstr "`Gerrit <workflow-gerrit.html>`_"
-
 msgid ""
 "`Git Commit Good Practice <https://wiki.openstack.org/wiki/"
 "GitCommitMessages>`_"
@@ -2502,22 +2282,8 @@ msgstr ""
 "GitCommitMessages>`_"
 
 msgid ""
-"`Git review installation <http://docs.openstack.org/infra/manual/developers."
-"html#installing-git-review>`_"
-msgstr ""
-"`Git review installation <http://docs.openstack.org/infra/manual/developers."
-"html#installing-git-review>`_"
-
-msgid ""
 "`Guide to SetUp and Push First Patch <workflow-setup-and-first-patch.html>`_"
 msgstr "`環境設定と最初のパッチの投稿 <workflow-setup-and-first-patch.html>`_"
-
-msgid ""
-"`How to create a project <http://docs.openstack.org/infra/manual/creators."
-"html>`_"
-msgstr ""
-"`プロジェクトの作成方法 <http://docs.openstack.org/infra/manual/creators."
-"html>`_"
 
 msgid ""
 "`How_To_Contribute URL <https://wiki.openstack.org/wiki/How_To_Contribute>`_"
@@ -2527,11 +2293,6 @@ msgstr ""
 
 msgid "`IRC Logs <http://eavesdrop.openstack.org/irclogs/>`_"
 msgstr "`IRC ログ <http://eavesdrop.openstack.org/irclogs/>`_"
-
-msgid ""
-"`IRC Services <http://docs.openstack.org/infra/system-config/irc.html>`_"
-msgstr ""
-"`IRC サービス <http://docs.openstack.org/infra/system-config/irc.html>`_"
 
 msgid "`IRC meetings <https://wiki.openstack.org/wiki/Meetings>`_"
 msgstr "`IRC ミーティング <https://wiki.openstack.org/wiki/Meetings>`_"
@@ -2556,13 +2317,6 @@ msgstr ""
 msgid "`Introduction <intro-introduction.html>`_"
 msgstr "`はじめに <intro-introduction.html>`_"
 
-msgid ""
-"`Jenkins (Automated testing) <http://docs.openstack.org/infra/manual/"
-"developers.html#automated-testing>`_"
-msgstr ""
-"`Jenkins (自動テスト) <http://docs.openstack.org/infra/manual/developers."
-"html#automated-testing>`_"
-
 msgid "`Launchpad <https://help.launchpad.net/>`_"
 msgstr "`Launchpad <https://help.launchpad.net/>`_"
 
@@ -2579,13 +2333,6 @@ msgid ""
 msgstr ""
 "`Liberty Summit の Etherpad <https://wiki.openstack.org/wiki/Design_Summit/"
 "Liberty/Etherpads>`_"
-
-msgid ""
-"`List of approved tags <http://governance.openstack.org/reference/tags/index."
-"html>`_"
-msgstr ""
-"`承認済みタグの一覧 <http://governance.openstack.org/reference/tags/index."
-"html>`_"
 
 msgid ""
 "`List of sessions <https://libertydesignsummit.sched.org/overview/type/design"
@@ -2612,15 +2359,6 @@ msgstr ""
 msgid "`Metrics <workflow-metrics.html>`_"
 msgstr "`メトリクス <workflow-metrics.html>`_"
 
-msgid ""
-"`ODP slides <http://dachary.org/loic/openstack-training/training-student-"
-"project-sample.odp>`_ `PDF slides <http://dachary.org/loic/openstack-"
-"training/training-student-project-sample.pdf>`_"
-msgstr ""
-"`ODP スライド <http://dachary.org/loic/openstack-training/training-student-"
-"project-sample.odp>`_ `PDF スライド <http://dachary.org/loic/openstack-"
-"training/training-student-project-sample.pdf>`_"
-
 msgid "`Official OpenStack projects <howitsmade-official-projects.html>`_"
 msgstr "`OpenStack 公式プロジェクト <howitsmade-official-projects.html>`_"
 
@@ -2630,46 +2368,8 @@ msgstr "`OpenStack イベント <howitsmade-events.html>`_"
 msgid "`OpenStack Governance <howitsmade-governance.html>`_"
 msgstr "`OpenStack ガバナンス <howitsmade-governance.html>`_"
 
-msgid "`OpenStack Governance <http://governance.openstack.org/>`_"
-msgstr "`OpenStack ガバナンス <http://governance.openstack.org/>`_"
-
 msgid "`OpenStack IRC channels <https://wiki.openstack.org/wiki/IRC>`_"
 msgstr "`OpenStack IRC チャンネル <https://wiki.openstack.org/wiki/IRC>`_"
-
-msgid ""
-"`OpenStack Project Teams <http://governance.openstack.org/reference/charter."
-"html#openstack-project-teams>`_"
-msgstr ""
-"`OpenStack プロジェクトチーム <http://governance.openstack.org/reference/"
-"charter.html#openstack-project-teams>`_"
-
-msgid ""
-"`OpenStack Project Teams <http://governance.openstack.org/reference/projects/"
-"index.html>`__"
-msgstr ""
-"`OpenStack プロジェクトチーム <http://governance.openstack.org/reference/"
-"projects/index.html>`__"
-
-msgid ""
-"`OpenStack Project Teams list <http://governance.openstack.org/reference/"
-"projects/index.html>`_"
-msgstr ""
-"`OpenStack プロジェクトチーム一覧 <http://governance.openstack.org/reference/"
-"projects/index.html>`_"
-
-msgid ""
-"`OpenStack Upstream Training in Atlanta A Big Success <http://www.openstack."
-"org/blog/2014/05/openstack-upstream-training-in-atlanta-a-big-success/>`_."
-msgstr ""
-"`OpenStack Upstream Training in Atlanta A Big Success <http://www.openstack."
-"org/blog/2014/05/openstack-upstream-training-in-atlanta-a-big-success/>`_."
-
-msgid ""
-"`OpenStack Upstream Training in Paris <http://www.openstack.org/blog/2014/08/"
-"openstack-upstream-training-in-paris/>`_."
-msgstr ""
-"`OpenStack Upstream Training in Paris <http://www.openstack.org/blog/2014/08/"
-"openstack-upstream-training-in-paris/>`_."
 
 msgid ""
 "`Other release candidates <https://wiki.openstack.org/wiki/"
@@ -2684,20 +2384,6 @@ msgid ""
 msgstr ""
 "`コントリビューションの流れの概要 <workflow-training-contribution-process."
 "html>`_"
-
-msgid ""
-"`PTLs <http://governance.openstack.org/reference/charter.html#project-team-"
-"leads>`_"
-msgstr ""
-"`PTL <http://governance.openstack.org/reference/charter.html#project-team-"
-"leads>`_"
-
-msgid ""
-"`Peer Review <http://docs.openstack.org/infra/manual/developers.html#peer-"
-"review>`_"
-msgstr ""
-"`相互レビュー <http://docs.openstack.org/infra/manual/developers.html#peer-"
-"review>`_"
 
 msgid ""
 "`Planning (Design, Discuss and Target) <https://wiki.openstack.org/wiki/"
@@ -2732,9 +2418,6 @@ msgstr ""
 "`Puppet <https://wiki.openstack.org/wiki/"
 "Puppet#Contributing_to_the_modules>`_"
 
-msgid "`Registration and accounts <workflow-reg-and-accounts.html>`_"
-msgstr "`登録およびアカウント <workflow-reg-and-accounts.html>`_"
-
 msgid ""
 "`Release candidate 1 <https://wiki.openstack.org/wiki/"
 "Release_Cycle#Release_candidate_1>`_"
@@ -2763,43 +2446,15 @@ msgstr ""
 msgid "`Reviewing <workflow-reviewing.html>`_"
 msgstr "`レビュー <workflow-reviewing.html>`_"
 
-msgid ""
-"`Running unit tests <http://docs.openstack.org/infra/manual/developers."
-"html#running-unit-tests>`_"
-msgstr ""
-"`ユニットテストの実行 <http://docs.openstack.org/infra/manual/developers."
-"html#running-unit-tests>`_"
-
 msgid "`Stable branch <https://wiki.openstack.org/wiki/StableBranch>`_"
 msgstr "`安定ブランチ <https://wiki.openstack.org/wiki/StableBranch>`_"
 
 msgid ""
-"`Starting Work on a New Repository <http://docs.openstack.org/infra/manual/"
-"developers.html#starting-work-on-a-new-repository>`_"
-msgstr ""
-"`Starting Work on a New Repository <http://docs.openstack.org/infra/manual/"
-"developers.html#starting-work-on-a-new-repository>`_"
-
-msgid ""
 "`Status, Importance, Assigned To, Milestone, Tags <https://wiki.openstack."
 "org/wiki/Bugs#Bugs_reference>`_"
 msgstr ""
 "`Status, Importance, Assigned To, Milestone, Tags <https://wiki.openstack."
 "org/wiki/Bugs#Bugs_reference>`_"
-
-msgid ""
-"`Technical Committee <http://governance.openstack.org/reference/charter."
-"html>`_"
-msgstr ""
-"`Technical Committee <http://governance.openstack.org/reference/charter."
-"html>`_"
-
-msgid ""
-"`The role of the Technical Committee <http://governance.openstack.org/"
-"reference/charter.html#mission>`_"
-msgstr ""
-"`Technical Committee の役割 <http://governance.openstack.org/reference/"
-"charter.html#mission>`_"
 
 msgid ""
 "`Training guides <https://wiki.openstack.org/wiki/Training-guides#How_To>`_"
@@ -2815,13 +2470,6 @@ msgstr ""
 
 msgid "`Using Sandbox for Practice <workflow-using-sandbox.html>`_"
 msgstr "`Sandbox を使用した実践 <workflow-using-sandbox.html>`_"
-
-msgid ""
-"`What’s new with OpenStack Upstream Training <http://superuser.openstack.org/"
-"articles/openstack-upstream-training-revamp/>`_."
-msgstr ""
-"`What’s new with OpenStack Upstream Training <http://superuser.openstack.org/"
-"articles/openstack-upstream-training-revamp/>`_."
 
 msgid ""
 "``#action`` - Document an action item in the minutes. Include any nicknames "
@@ -2858,23 +2506,6 @@ msgid "`bugfixing <https://wiki.openstack.org/wiki/Bugs#Bugfixing>`_"
 msgstr "`バグ修正 <https://wiki.openstack.org/wiki/Bugs#Bugfixing>`_"
 
 msgid ""
-"`commiters <http://www.stackalytics.com/?"
-"release=kilo&metric=commits&project_type=integrated&module=&company=&user_id=>`_ "
-"individuals (bottom of the page)"
-msgstr ""
-"個人別 `コミット <http://www.stackalytics.com/?"
-"release=kilo&metric=commits&project_type=integrated&module=&company=&user_id=>`_ "
-"(ページ下部)"
-
-msgid ""
-"`committers <http://www.stackalytics.com/?"
-"release=kilo&metric=commits&project_type=integrated&module=&company=&user_id=>`_ "
-"companies"
-msgstr ""
-"企業別 `コミット <http://www.stackalytics.com/?"
-"release=kilo&metric=commits&project_type=integrated&module=&company=&user_id=>`_"
-
-msgid ""
 "`confirming and prioritizing <https://wiki.openstack.org/wiki/"
 "Bugs#Confirming_.26_prioritizing>`_"
 msgstr ""
@@ -2885,16 +2516,6 @@ msgid ""
 "`debugging <https://wiki.openstack.org/wiki/Bugs#Debugging_.28optional.29>`_"
 msgstr ""
 "`デバッグ <https://wiki.openstack.org/wiki/Bugs#Debugging_.28optional.29>`_"
-
-msgid "`meetbot <http://wiki.debian.org/MeetBot>`_"
-msgstr "`meetbot <http://wiki.debian.org/MeetBot>`_"
-
-msgid ""
-"`minimal configuration <http://docs.openstack.org/developer/devstack/"
-"configuration.html#minimal-configuration>`_"
-msgstr ""
-"`最小設定 <http://docs.openstack.org/developer/devstack/configuration."
-"html#minimal-configuration>`_"
 
 msgid "`reporting a bug <https://wiki.openstack.org/wiki/Bugs#Reporting>`_"
 msgstr "`バグ報告 <https://wiki.openstack.org/wiki/Bugs#Reporting>`_"
@@ -2917,66 +2538,17 @@ msgstr "デフォルトで git の master ブランチから"
 msgid "from stable branches by configuration, e.g. stable/newton"
 msgstr "設定により stable/newton などの安定版ブランチから"
 
-msgid "gerrit patchset history"
-msgstr "gerrit パッチセットの履歴"
-
-msgid "gerrit workflow"
-msgstr "gerrit ワークフロー"
-
-msgid "git checkout -b TOPIC-BRANCH"
-msgstr "git checkout -b TOPIC-BRANCH"
-
-msgid "git clone"
-msgstr "git clone"
-
-msgid "git commit --amend"
-msgstr "git commit --amend"
-
-msgid "git config"
-msgstr "git config"
-
-msgid "git review"
-msgstr "git review"
-
-msgid "git review -s"
-msgstr "git review -s"
-
 msgid "how it contributes to the company's agenda"
 msgstr "企業の指針に対してどうコントリビュートするか"
 
 msgid "how they will engage with the Upstream"
 msgstr "どのようにアップストリームと関わるか"
 
-msgid "http://docs.openstack.org/infra/manual/sandbox.html"
-msgstr "http://docs.openstack.org/infra/manual/sandbox.html"
-
-msgid "http://docs.openstack.org/upstream-training/workflow-using-sandbox.html"
-msgstr ""
-"http://docs.openstack.org/upstream-training/workflow-using-sandbox.html"
-
-msgid "http://governance.openstack.org/reference/opens.html"
-msgstr "http://governance.openstack.org/reference/opens.html"
-
-msgid "http://governance.openstack.org/reference/projects/"
-msgstr "http://governance.openstack.org/reference/projects/"
-
-msgid "http://governance.openstack.org/reference/tags/index.html"
-msgstr "http://governance.openstack.org/reference/tags/index.html"
-
-msgid "http://lists.openstack.org/cgi-bin/mailman/listinfo"
-msgstr "http://lists.openstack.org/cgi-bin/mailman/listinfo"
-
 msgid "http://localhost/"
 msgstr "http://localhost/"
 
-msgid "http://review.openstack.org"
-msgstr "http://review.openstack.org"
-
 msgid "http://stackalytics.com"
 msgstr "http://stackalytics.com"
-
-msgid "http://webchat.freenode.net/?channels=openstack-101"
-msgstr "http://webchat.freenode.net/?channels=openstack-101"
 
 msgid "https://bugs.launchpad.net/openstack-api-site"
 msgstr "https://bugs.launchpad.net/openstack-api-site"
@@ -3002,23 +2574,11 @@ msgstr "https://groups.openstack.org/"
 msgid "https://launchpad.net/openstack-dev-sandbox"
 msgstr "https://launchpad.net/openstack-dev-sandbox"
 
-msgid "https://review.openstack.org/#/settings/ssh-keys"
-msgstr "https://review.openstack.org/#/settings/ssh-keys"
-
 msgid "https://wiki.openstack.org/wiki/IRC"
 msgstr "https://wiki.openstack.org/wiki/IRC"
 
-msgid "https://wiki.openstack.org/wiki/Main_Page"
-msgstr "https://wiki.openstack.org/wiki/Main_Page"
-
-msgid "https://www.openstack.org/join/"
-msgstr "https://www.openstack.org/join/"
-
 msgid "install git review"
 msgstr "git review のインストール"
-
-msgid "invite reviewers"
-msgstr "レビューアーの招待"
 
 msgid "macJack (assistant, English, Chinese)"
 msgstr "macJack (assistant, English, Chinese)"
@@ -3029,26 +2589,14 @@ msgstr "master ブランチは開発向けにオープンになります"
 msgid "nvie inspired"
 msgstr "nvie による触発"
 
-msgid "patchset diffs"
-msgstr "パッチセットの差分"
-
-msgid "review.openstack.org"
-msgstr "review.openstack.org"
-
 msgid "risk of regression"
 msgstr "後退のリスク"
-
-msgid "running unit tests"
-msgstr "ユニットテストの実行"
 
 msgid "stable/release branch"
 msgstr "stable ブランチ、リリースブランチ"
 
 msgid "the contribution they plan to work on during the online sessions"
 msgstr "オンラインセッション中に手がけようとしているコントリビューションの計画"
-
-msgid "upload an ssh key"
-msgstr "SSH 鍵のアップロード"
 
 msgid "user visible benefit"
 msgstr "利用者に見える価値"
