@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-02 09:37+0000\n"
+"POT-Creation-Date: 2018-05-17 14:08+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,9 +14,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Zanata 4.3.3\n"
 "X-POOTLE-MTIME: 1506513961.000000\n"
-
-msgid "'Gates' code entering the stable or master branches"
-msgstr "'Gates' kodunun kararlı veya master dallara girişi"
 
 msgid "(A real bug report needs a more detailed description.)"
 msgstr ""
@@ -55,9 +52,6 @@ msgstr "**Danışmalar**"
 
 msgid "**Staff**"
 msgstr "**Çalışanlar**"
-
-msgid "*Common cycle with development milestones*"
-msgstr "*Geliştirme kilometre taşları ile ortak döngü*"
 
 msgid "13:45 Sagrada Familia"
 msgstr "13:45 Sagrada Familia"
@@ -143,12 +137,6 @@ msgstr ""
 msgid "A bunch of scripts to build a full OpenStack environment"
 msgstr "Tam bir OpenStack ortamı oluşturmak için bir grup komut dosyası"
 
-msgid "A gathering of projects teams and contributors"
-msgstr "Proje takımlarının ve destekçilerinin toplanması"
-
-msgid "A given project cannot follow more than one model"
-msgstr "Belli bir proje birden fazla modeli takip edemez"
-
 msgid ""
 "A new capability was added to the project that should be implemented in all "
 "vendor drivers."
@@ -166,29 +154,8 @@ msgstr ""
 msgid "API, Security Guide, Training Guides, Training Labs"
 msgstr "API, Güvenlik Kılavuzu, Eğitim Kılavuzları, Eğitim Laboratuvarları"
 
-msgid "APIImpact"
-msgstr "APIImpact"
-
 msgid "About the training"
 msgstr "Eğitim hakkında"
-
-msgid "Active Project Contributor (APC)"
-msgstr "Aktif Proje Destekçisi (APC)"
-
-msgid "Active Technical Contributor (ATC)"
-msgstr "Aktif Teknik Destekçiler (ATC)"
-
-msgid "Active User Contributors (AUC)"
-msgstr "Aktif Kullanıcı Katkıcılar (AUC)"
-
-msgid ""
-"Active members and contributors to functional teams and/or working groups"
-msgstr ""
-"Aktif üyeler ve fonksiyonel ekiplere ve/veya çalışma gruplarına katkıda "
-"bulunan kişiler"
-
-msgid "Active moderators on ask.openstack.org"
-msgstr "ask.openstack.org'deki aktif moderatörler"
 
 msgid "Activities listed here are not realized at every Upstream training."
 msgstr "Burada listelenen aktiviteler, her Upstream eğitiminde gerçekleşmez."
@@ -219,9 +186,6 @@ msgstr "Gözden Geçiren olarak eklendi"
 msgid "Added unit tests to cover untested methods"
 msgstr "Test edilmemiş yöntemleri kapsayan birim testleri eklendi"
 
-msgid "Additional External References:"
-msgstr "Ek Harici Kaynaklar:"
-
 msgid "Additional services built upon IaaS"
 msgstr "IaaS üzerine inşa edilen ek servisler"
 
@@ -231,9 +195,6 @@ msgstr "Adrien Cunin (danışman, yardımcı, fransızca, ingilizce"
 msgid "After DevStack is run Horizon is accessible via localhost"
 msgstr ""
 "DevStack çalıştırıldıktan sonra Horizon'a localhost üzerinden erişilebilir"
-
-msgid "After the last milestone"
-msgstr "Son kilometre taşından sonra"
 
 msgid ""
 "After the training students have the possibility to sign up for a longer "
@@ -271,12 +232,6 @@ msgstr ""
 
 msgid "Amending the commit"
 msgstr "Gönderimi değiştirme"
-
-msgid "An OpenStack wide status"
-msgstr "OpenStack geniş bir statü"
-
-msgid "An official project is aligned with the OpenStack Mission if it"
-msgstr "Resmi bir proje OpenStack Misyonu ile uyumluysa"
 
 msgid "Anne Gentle – Cisco"
 msgstr "Anne Gentle – Cisco"
@@ -330,9 +285,6 @@ msgstr ""
 msgid "Assess your approach"
 msgstr "Yaklaşımını değerlendir"
 
-msgid "Assist the PTL in driving program goals"
-msgstr "Program hedeflerine ulaşmada PTL'ye yardımcı olun"
-
 msgid "At the end of the four sprints, ensure you take a group photo!"
 msgstr "Dört sprintin sonunda, bir grup fotoğrafı çektiğinizden emin olun!"
 
@@ -380,38 +332,11 @@ msgstr "Rolüne sadık kal"
 msgid "Being able to read and write English at a technical level"
 msgstr "Teknik seviyede İngilizce okuma ve yazma becerisi"
 
-msgid "Benefits of being an Official OpenStack project"
-msgstr "Resmi OpenStack projesi olmanın faydaları"
-
-msgid ""
-"Better entry point for new contributors finding their place in the community"
-msgstr ""
-"Yeni katkıcıların toplulukta yerlerini bulmaları için daha iyi bir giriş "
-"noktası"
-
-msgid "Blueprint (Partial-Implements, Implements)"
-msgstr "Plan (Parça-Uygulama, Uygulama)"
-
 msgid "Board : 1"
 msgstr "Pano: 1"
 
-msgid "Board of Directors"
-msgstr "Yönetici Panosu"
-
-msgid "Board of directors"
-msgstr "Yönetim kurulu"
-
-msgid "Body"
-msgstr "Gövde"
-
 msgid "Branching model"
 msgstr "Dallanma modeli"
-
-msgid "Brief explanation with context about the patch"
-msgstr "Bağlamla birlikte yama hakkında kısa açıklama"
-
-msgid "Bug (Partial-Bug, Related-Bug, Closes-Bug)"
-msgstr "Hata (Parça-Hata, İlgili-Hata, Kapalı-Hata)"
 
 msgid "Bug Assigned"
 msgstr "Hata Atandı"
@@ -422,17 +347,8 @@ msgstr "Hata Atama"
 msgid "Bug Report Submission"
 msgstr "Hata Bildirimi Gönderme"
 
-msgid "Bug fixes"
-msgstr "Hata ayıklama"
-
 msgid "Bug reports"
 msgstr "Hata raporları"
-
-msgid "Bugday"
-msgstr "Hata günü"
-
-msgid "Bugday shows real-time stats during bug smash days."
-msgstr "Bugday, hata bulma günlerinde gerçek zamanlı istatistikleri gösterir."
 
 msgid "Build a network"
 msgstr "Bir ağ oluşturun"
@@ -463,28 +379,6 @@ msgstr "CEO : 1"
 msgid "CI"
 msgstr "CI"
 
-msgid ""
-"Can participate in common programs, like mentoring and internship to help "
-"with on boarding"
-msgstr ""
-"Takıma katılma ile ilgili yardım etmek için mentorluk ve staj gibi ortak "
-"programlara katılabilir"
-
-msgid "Can publish to docs.openstack.org and developer.openstack.org"
-msgstr "docs.openstack.org ve developer.openstack.org'a yayın yapabilir"
-
-msgid "Cannot be modified once merged"
-msgstr "Bir kez birleştirildiğinde değiştirilemiyor"
-
-msgid "Capture your idea in a spec/blueprint"
-msgstr "Fikrinizi bir tasarım/planda yakalama"
-
-msgid "Caused by timing/connectivity issues in check/gate"
-msgstr "Denetim/kapuda zamanlama/bağlantı sorunları neden olmuştur"
-
-msgid "Change-Id"
-msgstr "Değişiklik-Id"
-
 msgid "Changes to Nova's internal AMQP API"
 msgstr "Nova'nın dahili AMQP APIsinde yapılan değişiklikler"
 
@@ -493,9 +387,6 @@ msgstr "Harici HTTP API'lerinde yapılan değişiklikler"
 
 msgid "Changes to the notification definitions"
 msgstr "Bildirim tanımlarında yapılan değişiklikler"
-
-msgid "Check"
-msgstr "Kontrol"
 
 msgid "Check peer's Review"
 msgstr "Eşinizin Görüşlerini kontrol edin"
@@ -578,17 +469,6 @@ msgstr "Kapama Alıştırmaları"
 msgid "Code Deep Dive"
 msgstr "Kodun Derinine İnme"
 
-msgid "Code can be uploaded before a blueprint/spec is accepted"
-msgstr "Kod, bir plan/özellik kabul edilmeden önce yüklenebilir"
-
-msgid ""
-"Code or documentation contribution to any of the official project "
-"repositories"
-msgstr "Herhangi bir resmi proje depolarına kod veya belge katkısı"
-
-msgid "Code stabilization period"
-msgstr "Kodu kararlı hale getirme süreci"
-
 msgid "Code-Review -1/0/+1 is for all OpenStack reviewers"
 msgstr "Code-Review -1/0/+1 tüm OpenStack gözden geçiricileri içindir"
 
@@ -624,15 +504,6 @@ msgstr "Dosyaları gönder ve gönderim mesajı yaz"
 msgid "Commit log message"
 msgstr "Günlük mesajlarını gönder"
 
-msgid "Committed a change over the last two 6-month release cycles"
-msgstr "Son iki 6 aylık sürüm çevriminde bir değişiklik yapıldı"
-
-msgid "Common cycle with development milestones"
-msgstr "Geliştirme kilometre taşları ile ortak döngü"
-
-msgid "Common cycle with intermediary release"
-msgstr "İleri seviye sürüm ile ortak döngü"
-
 msgid "Communication"
 msgstr "İletişim"
 
@@ -662,9 +533,6 @@ msgstr ""
 "İki farklı proje ekibi arasındaki son tarihleri karşılaştırın ve grubunuzla "
 "olan farklılıkları tartışın"
 
-msgid "Composed of 13 OpenStack Foundation Individual members"
-msgstr "13 OpenStack Vakfı bireysel üyesinden oluşuyor"
-
 msgid "Configure your workspace"
 msgstr "Çalışma alanını yapılandır"
 
@@ -680,39 +548,14 @@ msgstr "Katki Simülasyonu (2 saat)"
 msgid "Contributor guide"
 msgstr "Destekçi kılavuzu"
 
-msgid "Contributors get to vote in the Technical Committee election"
-msgstr "Katkıda bulunan kişiler Teknik Komite seçiminde oy kullanabilir"
-
-msgid "Contributors to Superuser"
-msgstr "Süper kullanıcıya katkıda bulunanlar"
-
-msgid "Contributors to the repository under the UC governance"
-msgstr "UC yönetimindeki depoya katkıda bulunan kişiler"
-
 msgid "Controversial : 1"
 msgstr "Tartışmalı : 1"
-
-msgid "Coordinated development of multiple projects"
-msgstr "Birden fazla projenin koordineli geliştirilmesi"
 
 msgid "Core : 5"
 msgstr "Çekirdek : 5"
 
-msgid "Core Team Members"
-msgstr "Çekirdek Takım Üyeleri"
-
-msgid "Core and Optional Services"
-msgstr "Çekirdek ve Seçimli Servisler"
-
 msgid "Core services (Compute, Networking, Block and Object Storage, etc.)"
 msgstr "Çekirdek servisler (Hesaplama, Ağ, Blok ve Nesne Deposu, vs.)"
-
-msgid ""
-"Core services are OpenStack projects and essential in every OpenStack-"
-"powered IaaS cloud or product"
-msgstr ""
-"Çekirdek hizmetler OpenStack projeleridir ve her OpenStack ile çalışan IaaS "
-"bulut veya ürünü için önemlidir"
 
 msgid "Core team"
 msgstr "Çekirden takım"
@@ -780,13 +623,6 @@ msgstr "Sözleşme müzakeresi için müşteri işbirliği"
 msgid "DB schema changes"
 msgstr "DB şema değişiklikleri"
 
-msgid ""
-"Dashboard (horizon) and DevStack provide plugin interface for easy "
-"integration"
-msgstr ""
-"Gösterge Paneli (horizon) ve DevStack kolay entegrasyon için eklenti arayüzü "
-"sağlar"
-
 msgid "Date"
 msgstr "Tarih"
 
@@ -826,9 +662,6 @@ msgstr "Gün 5"
 msgid "Deadlines"
 msgstr "Teslim günleri"
 
-msgid "Deadlines for the code to get merged"
-msgstr "Kodun birleştirilmesi için son tarih"
-
 msgid ""
 "Decide a country your group would like to visit with other groups for "
 "sightseeing."
@@ -836,29 +669,14 @@ msgstr ""
 "Grubunuzun gezi amacıyla diğer gruplarla ziyaret etmek istediği bir ülkeye "
 "karar verin."
 
-msgid "Dedicated and detailed technical discussions"
-msgstr "Odaklanılmış ve detaylı teknik tartışmalar"
-
 msgid "Demo environment"
 msgstr "Tanıtım ortamı"
-
-msgid "Depends on the priority of your work item"
-msgstr "İş öğenizin önceliğine bağlı"
-
-msgid "Depends-On"
-msgstr "Bağımlı"
 
 msgid "Describe a release cycle based on the information you found"
 msgstr "Bulduğunuz bilgilere dayanan bir sürüm döngüsü tanımlayın."
 
-msgid "Describe the artifacts created by an OpenStack community team"
-msgstr "OpenStack topluluk takımı tarafından oluşturulan eserleri tanımla"
-
 msgid "Description"
 msgstr "Açıklama"
-
-msgid "Design activity is a continuous effort"
-msgstr "Tasarım etkinliği devamlı bir çabadır"
 
 msgid ""
 "Design an 5-day travel itinerary with attractive places, foods, and "
@@ -899,9 +717,6 @@ msgstr "Projenin sosyal gruplarını belirle"
 msgid "Determine the time frame"
 msgstr "Zaman çerçevesini belirleyin"
 
-msgid "Determine who the current PTL is of your favorite project."
-msgstr "Favori projenizin mevcut PTL'sini belirleyin."
-
 msgid "DevStack"
 msgstr "DevStack"
 
@@ -936,9 +751,6 @@ msgstr "Geliştiriciler"
 msgid "Developers/Software Engineers/Architects"
 msgstr "Geliştiriciler/Yazılım Mühendisleri/Mimarlar"
 
-msgid "Directs the user to saved log output"
-msgstr "Kullanıcıyı kaydedilen günlük çıktısına yönlendirir"
-
 msgid "Disconnect: <ctrl>-a d"
 msgstr "Bağlantıyı kes: <ctrl>-a d"
 
@@ -951,9 +763,6 @@ msgid ""
 msgstr ""
 "Sorunları ve çözümleri tartışın ve oraya nasıl geldiklerini veya "
 "yaptıklarına neden cevap verdiklerini açıklayın"
-
-msgid "Discuss with your project team"
-msgstr "Proje ekibinizle tartışın"
 
 msgid ""
 "Discuss with your table how you would determine you encountered one of these "
@@ -971,9 +780,6 @@ msgstr "Dikkati dağılmış : 1"
 msgid "Distributions"
 msgstr "Dağıtımlar"
 
-msgid "Do not assume ..."
-msgstr "Varsaymayın ..."
-
 msgid ""
 "Do not be frustrated! We can revise the current patchset to address comments."
 msgstr ""
@@ -987,9 +793,6 @@ msgstr ""
 "Toplantı adını değiştirme: *upstream training*. Toplantı adı, üst akım "
 "eğitim faaliyetleri için ayrılmıştır."
 
-msgid "DocImpact"
-msgstr "DocImpact"
-
 msgid "Documentation"
 msgstr "Belgelendirme"
 
@@ -1002,12 +805,6 @@ msgstr "Belge çatıları"
 msgid "Documentation team structure"
 msgstr "Belgelendirme takım yapısı"
 
-msgid "Does it fix limitations of the current code?"
-msgstr "Geçerli kodun sınırlamalarını düzeltiyor mu?"
-
-msgid "Does it improve code structure?"
-msgstr "Bu kod yapısını geliştirir mi?"
-
 msgid "Don't game the numbers"
 msgstr "Numaraları oynamayın"
 
@@ -1019,9 +816,6 @@ msgstr "Taslak yorum yayınlama"
 
 msgid "Draft comment was saved"
 msgstr "Taslak yorum kaydedildi"
-
-msgid "Drive the program goals"
-msgstr "Programın hedeflerini yönlendirir"
 
 msgid "Duration"
 msgstr "Süre"
@@ -1062,15 +856,6 @@ msgstr ""
 "EOL belgeleri belgelendirme deoplarından yönetilmezler, içerik "
 "dondurulmuştur."
 
-msgid "Each PTL candidate needs to submit PTL candidacy"
-msgstr "Her PTL adayın PTL adayı göndermesi gerekiyor"
-
-msgid "Each Platinum member can delegate one member"
-msgstr "Her Platinum üyesi bir üyeyi devredebilir"
-
-msgid "Each Release has two main events: PTG and the Summit"
-msgstr "Her Sürüm iki ana etkinliğe sahiptir: PTG ve Zirve"
-
 msgid "Each company has:"
 msgstr "Her şirket şuna sahip:"
 
@@ -1079,9 +864,6 @@ msgstr "Her birey kendi amaçlarını belirler."
 
 msgid "Each project has its own purpose & culture."
 msgstr "Her proje kendi amacına & kültürüne sahiptir."
-
-msgid "Each project team sets priorities/dates for the release"
-msgstr "Her proje ekibi, yayın için öncelikleri/tarihleri belirler"
 
 msgid "Each student group prepares a presentation describing:"
 msgstr "Her öğrenci grubu, aşağıdakileri anlatan bir sunum hazırlar:"
@@ -1098,12 +880,6 @@ msgstr "Edouard THULEAU (yardımcı, fransızca, ingilizce)"
 msgid "Edouard Thuleau (assistant, french, english)"
 msgstr "Edouard Thuleau (yardımcı, fransızca, ingilizce)"
 
-msgid "Elected from and by the group of APC's"
-msgstr "APC'lerin bir grubundan ve grubu tarafından seçilir"
-
-msgid "Election process is more informal than PTLs."
-msgstr "Seçim süreci PTL'lerden daha gayri resmi."
-
 msgid ""
 "Encourage use of IRC for answering questions or the training etherpad if an "
 "exercise requires more space or IRC is not available"
@@ -1111,16 +887,6 @@ msgstr ""
 "Bir egzersizin daha fazla alan gerektirmesi veya IRC'nin mevcut olmaması "
 "durumunda, sorulara cevap vermek için IRC kullanımını veya eğitim "
 "etherpadini teşvik edin"
-
-msgid "Endorsed by the Foundation"
-msgstr "Vakıf Tarafından Onaylandı"
-
-msgid ""
-"Enforces OpenStack ideals like: Openness, Transparency, Commonality, "
-"Integration and Quality"
-msgstr ""
-"OpenStack ideallerini şunlar gibi zorlar: Açıklık, Şeffaflık, Ortaklık, "
-"Entegrasyon ve Kalite"
 
 msgid "Engage immediately"
 msgstr "Hemen katılın"
@@ -1152,9 +918,6 @@ msgstr "Olay"
 
 msgid "Events"
 msgstr "Etkinlikler"
-
-msgid "Every cycle includes"
-msgstr "Her döngü aşağıdakileri içerir"
 
 msgid "Example Itinerary: Spain"
 msgstr "Örnek Güzergah: İspanya"
@@ -1259,47 +1022,17 @@ msgid "Exercise: review other launchpad bugs and improve yours"
 msgstr ""
 "Egzersiz: diğer launchpad hatalarını gözden geçirin ve sizinkini geliştirin"
 
-msgid "Explain how the problem is solved"
-msgstr "Sorunun nasıl çözülebileceğini açıklayın"
-
-msgid ""
-"Explain the tags and when you use them. Documentation, API, Security or "
-"Upgrade Impacts are for patches with changes that alter the existing state. "
-"Depends-On is for cross repository dependencies. Change-Id's are filled in "
-"automatically with git review -s."
-msgstr ""
-"Etiketleri ve ne zaman kullandığınızı açıklayın. Belgeler, API, Güvenlik "
-"veya Yükseltme Etkileri, mevcut durumu değiştiren değişiklikler içeren "
-"yamalar içindir. Depends-On, çapraz depo bağımlılıkları içindir. Değişiklik "
-"kimlikleri, git incelemesi -s ile otomatik olarak doldurulur."
-
 msgid "Explain what it means if they didn't"
 msgstr "Değillerse bunun ne anlama geldiğini açıklayın"
 
 msgid "Explain what you do"
 msgstr "Ne yaptığınızı açıklayın"
 
-msgid "Explanation of issue being solved and why it should be fixed"
-msgstr "Çözülmekte olan sorunun açıklaması ve niçin düzeltilmesi gerektiği"
-
-msgid "External References"
-msgstr "Harici Referanslar"
-
-msgid ""
-"Face to face planning discussions happen at the Project Teams Gathering "
-"(PTG) which is coordinated with the start of a development new cycle"
-msgstr ""
-"Yüzyüze planlama tartışmaları, yeni bir döngü gelişiminin başlangıcıyla "
-"koordine edilen Proje Takımları Buluşması'nda (PTT) gerçekleşir"
-
 msgid "Face-to-face section: 1.5 days"
 msgstr "Yüz-yüze bölümü: 1.5 gün"
 
 msgid "Familiarize yourself with the code of conduct"
 msgstr "Davranış kurallarını kendiniz tanıyın."
-
-msgid "Feature proposal freeze"
-msgstr "Öneriyi dondurma özelliği"
 
 msgid "February 2 - 3, 2015 (Mon - Tue)"
 msgstr "Şubat 2 - 3, 2015 (Pts - Sal)"
@@ -1315,9 +1048,6 @@ msgstr "Bir plan/özellik raporlama"
 
 msgid "Filing, fixing, and triaging bugs"
 msgstr "Hataları rapolama, düzeltme ve önceliklendirme"
-
-msgid "Finalize documentation"
-msgstr "Belgeleri tamamla"
 
 msgid "Find an open review which is less complex and download the patch"
 msgstr "Daha az karmaşık olan açık bir revizyon bulun ve yamayı indirin"
@@ -1348,13 +1078,6 @@ msgid "Find the information that can be retrieved for each patch in a pipeline"
 msgstr ""
 "Bir iletişim hattındaki her düzeltme ekibi için alınabilen bilgileri bulun"
 
-msgid ""
-"Find the latest election results for Board of Directors, TC and UC. Also "
-"find where the OpenStack election procedures are documented."
-msgstr ""
-"Yönetim Kurulu, TC ve UC için yapılan son seçim sonuçlarını bulun. Ayrıca, "
-"OpenStack seçim prosedürlerinin belgelendiği yeri bulun."
-
 msgid "Find the release day for the current release"
 msgstr "Mevcut sürüm için sürüm tarihini bulun"
 
@@ -1363,33 +1086,17 @@ msgid ""
 msgstr ""
 "Resmi bir OpenStack projesi olması için karşılanması gereken şartları bulun"
 
-msgid ""
-"Find two other cores in the project and post their names in the Upstream "
-"Collaboration Training Etherpad."
-msgstr ""
-"Projede iki diğer çekirdeği bulun ve isimlerini Üstakım Birlikte Çalışma "
-"Eğitimi Etherpad'e ekleyin."
-
 msgid "Find where the currently released code is posted"
 msgstr "Halihazırda yayınlanan kodu nerede yayınladığını bulun"
 
 msgid "First day"
 msgstr "İlk gün"
 
-msgid "Fishbowls: Open moderated discussions"
-msgstr "Fishbowls: Başkanlık edilen açık tartışmalar"
-
 msgid "Fitting it all together"
 msgstr "Hepsini bir araya sığdırma"
 
-msgid "Fix as many bugs as possible"
-msgstr "Mümkün olduğunca çok hata çözün"
-
 msgid "Flexibility"
 msgstr "Esneklik"
-
-msgid "Focus on what we want to do for the next one"
-msgstr "Bir sonraki bölüm için ne yapmak istediğimize odaklanın"
 
 msgid "Follow logs with ``journalctl -f --unit devstack@$servicename.service``"
 msgstr ""
@@ -1400,9 +1107,6 @@ msgid ""
 "Following and participating in project related mail threads in the mailing "
 "list"
 msgstr "Posta listesindeki proje ile ilgili posta konularını izleme ve katılma"
-
-msgid "Follows/observes the four opens: Source, Community, Development, Design"
-msgstr "Dört açılımı izler/gözlemlerse: Kaynak, Topluluk, Geliştirme, Tasarım"
 
 msgid ""
 "For Working Group participation having at least 15-20% of your work time "
@@ -1436,14 +1140,6 @@ msgstr ""
 "noktalarını bulmanıza yardımcı olur."
 
 msgid ""
-"For more info see Article IV of `Bylaws of the OpenStack Foundation <https://"
-"www.openstack.org/legal/bylaws-of-the-openstack-foundation/>`_"
-msgstr ""
-"Daha fazla bilgi için `Bylaws of the OpenStack Foundation <https://www."
-"openstack.org/legal/bylaws-of-the-openstack-foundation/>`_ belgesinin Makale "
-"IV'üne bakın"
-
-msgid ""
 "For more information about the past trainings and the local upstream "
 "trainings, see :doc:`upstream-archives`."
 msgstr ""
@@ -1458,12 +1154,6 @@ msgstr ""
 
 msgid "Forbidden"
 msgstr "Yasak"
-
-msgid "Format:"
-msgstr "Biçim:"
-
-msgid "Forum:"
-msgstr "Forum:"
 
 msgid "Foundation, technical committee, and board members"
 msgstr "Vakıf, teknik komite ve yönetim kurulu üyeleri"
@@ -1489,39 +1179,17 @@ msgstr ""
 "oyun alanları gibi topluluk öğeleri. Tartışmalı ajanlar için hapishane, "
 "paten kasesi ve köpek parkı gibi sorunlu öğeler."
 
-msgid ""
-"Full list of Official OpenStack Project Teams: https://governance.openstack."
-"org/tc/reference/projects/index.html"
-msgstr ""
-"Resmi OpenStack Proje Takımlarının tam listesi: https://governance.openstack."
-"org/tc/reference/projects/index.html"
-
 msgid "Functional"
 msgstr "İşlevsel"
 
-msgid "Further details are in a later session"
-msgstr "Daha ayrıntılı bilgi daha sonraki bir oturumda"
-
-msgid "Further supporting companies and organizations"
-msgstr "Destekleyen şirketler ve kuruluşlar"
-
 msgid "Further trainers/coaches"
 msgstr "Daha fazla eğitmenler/koçlar"
-
-msgid "Gate"
-msgstr "Geçit"
-
-msgid "Gathers feedback and consolidates requirements"
-msgstr "Geri bildirim toplar ve gereksinimleri konsolide eder"
 
 msgid "General Contribution Workflow"
 msgstr "Genel Katkı İş Akışı"
 
 msgid "General tips for Trainers and Coaches"
 msgstr "Eğiticiler ve Koçlar için genel ipuçları"
-
-msgid "Generic intention behind planning"
-msgstr "Planlamanın arkasındaki genel hedef"
 
 msgid "Gergely Csatári – Nokia"
 msgstr "Gergely Csatári – Nokia"
@@ -1545,15 +1213,6 @@ msgid ""
 msgstr ""
 "Gerrit Belgeleme: `Değişiklikleri Gözden Geçirme <https://review.openstack."
 "org/Documentation/intro-quick.html#_reviewing_the_change>`_"
-
-msgid "Get critical and high priority bugs fixed first"
-msgstr "Kritik ve yüksek öncellikli hataları en önce çözün"
-
-msgid "Get guidance from community members and leaders"
-msgstr "Topluluk üyeleri ve liderlerden rehberlik alın"
-
-msgid "Get marketing from the OpenStack Foundation"
-msgstr "OpenStack Vakfından pazarlama yapın"
 
 msgid ""
 "Get started on time even if there aren't many people in the room, just go "
@@ -1589,47 +1248,14 @@ msgstr ""
 msgid "Give out swag and use competition to help keep interest and attention"
 msgstr "İlgiyi ve dikkatin devam etmesine yardımcı olmak için rekabet kullanın"
 
-msgid "Global Events and Releases"
-msgstr "Küresel Etkinlikler ve Sürümler"
-
-msgid "Gold member companies"
-msgstr "Altın üye şirketler"
-
-msgid ""
-"Gold members can delegate the same amount of members as Platinum members"
-msgstr "Altın üyeler, aynı miktarda üyeyi Platin üyeler olarak atayabilir"
-
 msgid "Great repository to begin your OpenStack learning"
 msgstr "OpenStack öğrenmenizi başlatmak için mükemmel depo"
 
 msgid "Group exercise"
 msgstr "Grup alıştırması"
 
-msgid "Growing in number (26 in 2016)"
-msgstr "Sayılarla büyüme (2016'da 26)"
-
-msgid "Guidelines: https://wiki.openstack.org/wiki/GitCommitMessages"
-msgstr "Kurallar: https://wiki.openstack.org/wiki/GitCommitMessages"
-
-msgid ""
-"Hacking Rooms: Reservable rooms for projects to gather for technical "
-"discussions"
-msgstr ""
-"Kodlama Odaları: Teknik tartışmalar için toplanacak projelere ayrılabilir "
-"odalar"
-
 msgid "Haikel Guemar (assistant, mentor, french, english)"
 msgstr "Haikel Guemar (yardımcı, danışman, fransızca, ingilizce)"
-
-msgid "Handles cross-project related topics and issues"
-msgstr "Projeler arası ilgili konuları ve sorunları halleder"
-
-msgid "Have authority to merge code into a project"
-msgstr "Kodu projeye birleştirmeye yetkisi var"
-
-msgid "Held by local groups to celebrate another year of OpenStack"
-msgstr ""
-"Yerel gruplar tarafından OpenStack'in bir yılını kutlamak üzere düzenlenen"
 
 msgid "Help fix the documentation"
 msgstr "Belgelemeyi düzeltmede yardımcı olun"
@@ -1642,11 +1268,6 @@ msgstr "Ev Ödevi"
 
 msgid "Hopefully we end up with a unique Lego creation!"
 msgstr "Umarım eşsiz bir Lego oluşumuyla sonuçlanırız!"
-
-msgid "Hosted annually by local OpenStack User Groups and companies"
-msgstr ""
-"Her yıl yerel OpenStack Kullanıcı Grupları ve şirketler tarafından "
-"barındırılıyor"
 
 msgid "How OpenStack is Made"
 msgstr "OpenStack Nasıl Yapıldı"
@@ -1686,9 +1307,6 @@ msgstr "IRC istemci: HexChat"
 
 msgid "Ian Y. Choi (training, assistant, mentoring)"
 msgstr "Ian Y. Choi (eğitim, yardımcı, danışman"
-
-msgid "Identify a target milestone"
-msgstr "Bir hedef kilometre taşı belirleyin"
 
 msgid ""
 "Identify common characteristics of these cycles and discuss them with your "
@@ -1743,15 +1361,6 @@ msgstr "Ildiko Vancsa - ildikov - Telemetry (danışman, yardımcı)"
 msgid "Ildikó Váncsa – The OpenStack Foundation"
 msgstr "Ildikó Váncsa – OpenStack Vakfı"
 
-msgid "Implementation"
-msgstr "Uygulama"
-
-msgid "Implementation - Milestone"
-msgstr "Uygulama - Kilometre taşı"
-
-msgid "Implementation work"
-msgstr "Gerçekleme çalışması"
-
 msgid "Implementing a blueprint/spec"
 msgstr "Bir plan/özellik uygulama"
 
@@ -1795,18 +1404,6 @@ msgstr ""
 msgid "Incompatible config file changes"
 msgstr "Uyumlu olmayan yapılandırma dosyası değişiklikleri"
 
-msgid "Independent release model"
-msgstr "Bağımsız sürüm modeli"
-
-msgid "Individual Foundation members"
-msgstr "Bireysel Vakıf üyeleri"
-
-msgid "Individual members elect the same amount"
-msgstr "Bireysel üyeler aynı miktarı seçer"
-
-msgid "Individual members: all of us"
-msgstr "Bireysel üyeler: hepimiz"
-
 msgid "Individuals and interactions over processes and tools"
 msgstr "Süreçler ve araçlar üzerinde bireyler ve etkileşimler"
 
@@ -1821,9 +1418,6 @@ msgstr "Şunun için altyapı"
 
 msgid "Installs services from source"
 msgstr "Kaynaktan servisleri kurar"
-
-msgid "Institutional members: Platinum and Gold sponsors"
-msgstr "Kurumsal üyeler: Platin ve Altın sponsorlar"
 
 msgid "Integration"
 msgstr "Bütünleşme"
@@ -1840,9 +1434,6 @@ msgstr "Proje ile etkileşim"
 
 msgid "Interactive, hands-on class"
 msgstr "Etkileşimli, pratik sınıf"
-
-msgid "Intermittent Failures"
-msgstr "Aralıklı Arızalar"
 
 msgid ""
 "Introduce yourself to the others at your table! Who you are, what experience "
@@ -1868,9 +1459,6 @@ msgstr "Şunun hakkında"
 msgid "It is not about"
 msgstr "Hakkında değil"
 
-msgid "Its activities are under the oversight of the TC"
-msgstr "Faaliyetleri TC'nin gözetimindedir."
-
 msgid "Japan OpenStack User Group has held the Upstream Training in Japan."
 msgstr ""
 "Japonya OpenStack Kullanıcı Grubu Japonya'da Upstream Eğitimini "
@@ -1887,9 +1475,6 @@ msgstr "Jieun Kim (yardımcı)"
 
 msgid "Jirayut Nimsaeng- Kaidee"
 msgstr "Jirayut Nimsaeng- Kaidee"
-
-msgid "Jobs run against a patch after it merges"
-msgstr "Bir yama birleştirildikten sonra yama üzerinde çalıştırılacak işler "
 
 msgid "Join the IRC channel of the class and participate during the training"
 msgstr "Sınıfın IRC kanalına katılın ve eğitim sırasında katılın"
@@ -1945,9 +1530,6 @@ msgstr "Lana Brindley - Belgeler (danışman, yardımcı)"
 msgid "Large and diverse community"
 msgstr "Büyük ve çeşitli topluluk"
 
-msgid "Last published release candidate from all Project Teams"
-msgstr "Tüm Proje Takımlarından son yayınlanan sürüm adayları"
-
 msgid "Launchpad (openstack-dev-sandbox)"
 msgstr "Launchpad (openstack-dev-sandbox)"
 
@@ -1984,16 +1566,6 @@ msgstr "OpenStack gibi, şunlar var:"
 msgid "Like any software project, there are:"
 msgstr "Her yazılım projesinde olduğu gibi, şunlar var:"
 
-msgid "Limited to 50 characters"
-msgstr "50 karakterle sınırlı"
-
-msgid "Lines limited to 72 characters"
-msgstr "Satırlar 72 karakter ile sınırlıdır"
-
-msgid "List of `Rechecks <http://status.openstack.org/elastic-recheck>`_"
-msgstr ""
-"`Yeniden Kontorller <http://status.openstack.org/elastic-recheck>`_in listesi"
-
 msgid "List sessions: screen -ls"
 msgstr "Oturumları listele: screen -ls"
 
@@ -2008,9 +1580,6 @@ msgstr "Yerel dal oluşturma"
 
 msgid "Location"
 msgstr "Konum"
-
-msgid "Logs may be accessed by clicking on the test's name"
-msgstr "Günlüklere test ismine tıklanarak erişilebilir"
 
 msgid "Loic Dachary (training, mentoring, assistant, french, english)"
 msgstr "Loic Dachary (eğitim, danışman, yardımcı, fransızca, ingilizce)"
@@ -2052,9 +1621,6 @@ msgstr "Geçerli ve son iki OpenStack sürüm döngüsünün sürüm programın�
 msgid "Loïc Dachary (Training, mentoring, assistant, english and french)"
 msgstr "Loïc Dachary (eğitim, danışman, yardımcı, ingilizce ve fransızca)"
 
-msgid "Main activities"
-msgstr "Ana etkinlikler"
-
 msgid "Make a new branch in your local repository"
 msgstr "Yerel deponuzda yeni bir dal oluşturun"
 
@@ -2076,14 +1642,6 @@ msgstr "Kod değişiklikleri yapın"
 msgid "Make sure you have a wifi enabled laptop with you."
 msgstr "Yanında bir wifi özellikli dizüstü bilgisayarın olduğundan emin olun"
 
-msgid "Make useful reference points in time to organize the development cycle"
-msgstr ""
-"Geliştirme döngüsünü organize etmek için zamanında faydalı referans "
-"noktaları yaratın"
-
-msgid "Manage day-to-day operations"
-msgstr "Günlük işlemleri yönetir"
-
 msgid "Managers"
 msgstr "Yöneticiler"
 
@@ -2098,9 +1656,6 @@ msgstr "Marton Kiss (eğitim, danışman, yardımcı)"
 
 msgid "Maximize karma"
 msgstr "Karmayı en üst düzeye çıkar"
-
-msgid "May receive elastic recheck message"
-msgstr "Elastik tekrar kontrol mesajı alabilirsiniz"
 
 msgid ""
 "Meaningful: anyone may submit a correction that will adjust the influence of "
@@ -2124,18 +1679,11 @@ msgstr "Ölçümler"
 msgid "Milestones"
 msgstr "Kilometre Taşları"
 
-msgid "Milestones are tagged in the repository using b1, b2 and b3"
-msgstr "Kilometre Taşları depoda b1, b2 ve b3 kullanılarak etiketlenir"
-
 msgid "Minimize database queries"
 msgstr "Veritabanı sorgularını en aza indirin"
 
 msgid "Mission"
 msgstr "Görev"
-
-msgid "Moderators of any of the operators' official meet-up sessions"
-msgstr ""
-"Operatörlerin resmi görüşme oturumlarının herhangi birinin moderatörleri"
 
 msgid "Module - contributors"
 msgstr "Modül - katkıda bulunan kişiler"
@@ -2156,9 +1704,6 @@ msgid ""
 msgstr ""
 "Daha fazla bilgi için: `DevStack'de Systemd Kullanma <https://docs.openstack."
 "org/developer/devstack/systemd.html>`_"
-
-msgid "More extensive testing than check pipeline"
-msgstr "Kontrol hattından daha geniş test"
 
 msgid "More information: Governance page"
 msgstr "Daha fazla bilgi için: Yönetim sayfası"
@@ -2187,9 +1732,6 @@ msgstr "En son (\"Ocata\") sürüm istatistikleri:"
 msgid "Move between services: <ctrl>-a n , <ctrl>-a p"
 msgstr "Servisler arasında taşı: <ctrl>-a n , <ctrl>-a p"
 
-msgid "Multi-layer group of leadership"
-msgstr "Çok katmanlı liderlik grubu"
-
 msgid "Márk Korondi – IBM Research Zürich"
 msgstr "Márk Korondi – IBM Araştırma Zurich"
 
@@ -2208,30 +1750,6 @@ msgstr "Yeni özellikler"
 msgid "New patchset was recorded in Gerrit."
 msgstr "Yeni yama kümeleri Gerrit'de kaydedildi."
 
-msgid ""
-"Non-voting jobs are new jobs that are being tested and may not yet be ready "
-"to vote"
-msgstr ""
-"Oy kullanmayan işler test edilen yeni işlerdir ve henüz oy kullanmaya hazır "
-"olmayabilirler"
-
-msgid ""
-"Nonprofit foundation created to \"develop, support, protect, and promote\" "
-"OpenStack"
-msgstr ""
-"OpenStack'ı \"geliştirmek, desteklemek, korumak ve yaymak\" için kar amacı "
-"gütmeyen vakıf"
-
-msgid ""
-"Not all projects are currently tracked in Project Navigator.  The goal, "
-"however, is for it to be an ever growing list."
-msgstr ""
-"Project Navigator'da şu an tüm projeler izlenmemektedir. Bununla birlikte, "
-"amaç, gittikçe büyüyen bir liste olmasıdır."
-
-msgid "Not good as an entry point"
-msgstr "İyi bir başlangıç noktası değil"
-
 msgid "Numbers should not be used as an indication for competition"
 msgstr "Rakamlar rekabet için bir gösterge olarak kullanılmamalıdır"
 
@@ -2243,23 +1761,6 @@ msgstr "Ekim 10 - 11, 2014 (Cum - Cts)"
 
 msgid "Official & Unofficial Projects"
 msgstr "Resmi & Resmi Olmayan Projeler"
-
-msgid "Official OpenStack projects"
-msgstr "Resmi OpenStack projeleri"
-
-msgid ""
-"Official OpenStack projects can participate by offering topics and mentors "
-"for the interns who sign up for this program."
-msgstr ""
-"Resmi OpenStack projeleri, bu programa kaydolan stajyerlere konular ve "
-"rehberler sunarak katılabilir."
-
-msgid ""
-"Official project teams fall under the TC's authority and are led by a "
-"Project Team Lead and Core Team Members"
-msgstr ""
-"Resmi proje ekipleri TC'nin yetki alanına girer ve bir Proje Ekibi Lideri ve "
-"Temel Ekip Üyesi tarafından yönetilir"
 
 msgid ""
 "Once the students are separated into their new roles, and have an "
@@ -2299,11 +1800,6 @@ msgstr ""
 msgid "Online Communication"
 msgstr "Çevrimiçi İletişim"
 
-msgid "Only run after a patch is approved by a core reviewer"
-msgstr ""
-"Bir yamayı sadece, bir çekirdek inceleyici tarafından kabul edildikten sonra "
-"çalıştırın"
-
 msgid "Open Community"
 msgstr "Açık Topluluk"
 
@@ -2334,9 +1830,6 @@ msgstr "Açık incelemeler, son 30 veya 90 güne katkı, aktivite raporu vs."
 msgid "OpenStack"
 msgstr "OpenStack"
 
-msgid "OpenStack Birthday Celebration"
-msgstr "OpenStack Doğumgünü Kutlaması"
-
 msgid "OpenStack Days"
 msgstr "OpenStack Günleri"
 
@@ -2346,20 +1839,11 @@ msgstr "OpenStack Belgeleme"
 msgid "OpenStack Events"
 msgstr "OpenStack Etkinlikleri"
 
-msgid "OpenStack Foundation"
-msgstr "OpenStack Vakfı"
-
 msgid "OpenStack Governance"
 msgstr "OpenStack Yönetimi"
 
-msgid "OpenStack Infrastructure and Project Status"
-msgstr "OpenStack Altyapısı ve Proje Durumu"
-
 msgid "OpenStack Project Status and Zuul"
 msgstr "OpenStack Proje Durumu ve Zuul"
-
-msgid "OpenStack Project Teams"
-msgstr "OpenStack Proje Takımları"
 
 msgid "OpenStack Release Cycle"
 msgstr "OpenStack Sürüm Çıkma Döngüsü"
@@ -2400,30 +1884,11 @@ msgstr "Telecom/NFV perspektifinden OpenStack"
 msgid "OpenStack has a sandbox repository for learning and testing purposes"
 msgstr "OpenStack, öğrenme ve test etme amaçlı bir sandbox deposuna sahiptir"
 
-msgid "OpenStack project specific status"
-msgstr "OpenStack proje özelinde durum"
-
 msgid "OpenStack sandbox environment: DevStack"
 msgstr "OpenStack sandbox ortamı: DevStack"
 
-msgid "OpenStack-Health"
-msgstr "OpenStack-Health"
-
-msgid "OpenStack-Health has a dashboard of overal OpenStack test results."
-msgstr ""
-"OpenStack-Health genel OpenStack test sonuçlarının bir gösterge tablosuna "
-"sahiptir."
-
 msgid "Operators' meet ups"
 msgstr "Operatörler toplantısı"
-
-msgid ""
-"Optional services are also OpenStack projects but not necessarily needed to "
-"operate OpenStack depending on use cases"
-msgstr ""
-"İsteğe bağlı hizmetler aynı zamanda OpenStack projeleridir ancak kullanım "
-"durumlarına bağlı olarak OpenStack'i çalıştırmak için mutlaka gerekli "
-"değildir"
 
 msgid "Orchestration service"
 msgstr "Orkestrasyon hizmeti"
@@ -2431,20 +1896,8 @@ msgstr "Orkestrasyon hizmeti"
 msgid "Organize the tables according to project interest - especially on day 2"
 msgstr "Masaları, proje ilgi alanına göre düzenleyin - özellikle 2. günde"
 
-msgid "Organizers of Official OpenStack User Groups"
-msgstr "Resmi OpenStack Kullanıcı Gruplarının Organizatörleri"
-
 msgid "Other"
 msgstr "Diğer"
-
-msgid "Other possible content"
-msgstr "Diğer mümkün içerikler"
-
-msgid "Overall feature freeze is the third milestone"
-msgstr "Genel özellik donma üçüncü kilometre taşıdır"
-
-msgid "Oversight over the OpenStack projects"
-msgstr "OpenStack projelerinin yönetimi"
 
 msgid "Overview"
 msgstr "Genel görünüm"
@@ -2452,24 +1905,8 @@ msgstr "Genel görünüm"
 msgid "Overview of the contribution process"
 msgstr "Katkı sürecinin özeti"
 
-msgid "PTG is a good time to propose and discuss features/fixes"
-msgstr ""
-"PTG, özellikleri/düzeltmeleri önermek ve tartışmak için iyi bir zamandır"
-
-msgid "PTG: https://www.openstack.org/ptg/"
-msgstr "PTG: https://www.openstack.org/ptg/"
-
 msgid "PTL : 1"
 msgstr "PTL: 1"
-
-msgid "PTL e-mails nomination to mailing list."
-msgstr "PTL, posta listesine e-postayla aday gösterir."
-
-msgid "PTL or Core Team Member nominates a person."
-msgstr "PTL veya Çekirdek Ekip Üyesi bir kişiyi aday gösterir."
-
-msgid "PTL responsibilities"
-msgstr "PTL sorumlulukları"
 
 msgid "PTLs"
 msgstr "PTLler"
@@ -2496,9 +1933,6 @@ msgstr "Hangi alanda uzman olduğuna dikkat edin."
 msgid "Perform the smaller tasks"
 msgstr "Küçük görevleri yerine getirin"
 
-msgid "Person is elected if no team members object to the nomination."
-msgstr "Aday gösterilen herhangi bir takım üyesi yoksa, kişi seçilir."
-
 msgid "Peter Ko (assistant, mentoring)"
 msgstr "Peter Ko (yardımcı, danışman)"
 
@@ -2508,24 +1942,6 @@ msgstr "Bir görev seç (hata, ince ayar, belgeleme, uygulama)"
 msgid ""
 "Pick your favorite project and report how many jobs it has running in IRC"
 msgstr "Favori projenizi seçin ve IRC'e kaç tane işi çalıştırdığını raporlayın"
-
-msgid "Planning - Design"
-msgstr "Planlama - Tasarım"
-
-msgid "Planning - Discuss"
-msgstr "Planlama - Tartışma"
-
-msgid "Planning - Target"
-msgstr "Planlama - Hedef"
-
-msgid "Planning and design activities"
-msgstr "Planlama ve tasarım aktiviteleri"
-
-msgid "Planning for a release cycle starts at the end of the previous cycle"
-msgstr "Bir sürüm döngüsü için planlama, bir önceki döngünün sonunda başlar"
-
-msgid "Platinum member companies"
-msgstr "Platin üye şirketler"
 
 msgid "Play with your network"
 msgstr "Ağınız ile oynayın"
@@ -2540,33 +1956,14 @@ msgstr ""
 msgid "Please note that the language of the training is English."
 msgstr "Eğitim dilinin İngilizce olduğunu not edin."
 
-msgid "Post"
-msgstr "Gönder"
-
-msgid ""
-"Post the information and web sites in the Upstream Collaboration Training "
-"Etherpad."
-msgstr ""
-"Bilgileri ve web sitelerini Üstakım İşbirliği Eğitimi Etherpad'e gönderin."
-
 msgid "Post the information on the IRC channel"
 msgstr "Bilgileri IRC kanalına gönderin"
-
-msgid ""
-"Post their name, the project and a project goal for the next release in the "
-"Upstream Collaboration Training Etherpad."
-msgstr ""
-"Onların adını, projesini ve Üstakım Birlikte Çalışma Eğitimi Etherpad'deki "
-"bir sonraki sürüm için bir proje hedefi gönderin."
 
 msgid "Prepare an environment by yourself from scratch:"
 msgstr "Kendiniz sıfırdan bir ortam hazırlayın:"
 
 msgid "Prepare the backport"
 msgstr "Arka kapıyı hazırla"
-
-msgid "Prepare your idea for proposal to the community."
-msgstr "Öneri için fikrinizi topluluğa hazırlayın."
 
 msgid "Prepared virtual machine image with a development environment:"
 msgstr "Bir geliştirme ortamıyla hazırlanmış sanal makine imajı:"
@@ -2584,36 +1981,11 @@ msgstr ""
 "Zirvelerden önce, Projeye Katılımı ve diğer ilgili konferans oturumlarını "
 "tanıtın"
 
-msgid "Prioritization of items (e.g. testing, documentation, etc.)"
-msgstr "Öğelerin önceliklendirilmesi (örn. test, belgeleme, vs.)"
-
-msgid "Prioritize bugs / bug triage"
-msgstr "Hataların öneliklendirilmesi / özelliklerine göre ayrılması"
-
-msgid "Processes followed, release management, etc."
-msgstr "Takip edilen süreç, sürüm yönetimi vs."
-
-msgid "Produce *deliverables* to achieve a clearly stated *objective*"
-msgstr "Açıkça belirtilmiş bir *amaca* ulaşmak için *teslimatlar* üretin"
-
 msgid "Product owners"
 msgstr "Ürün sahipleri"
 
 msgid "Progress"
 msgstr "İlerleme"
-
-msgid ""
-"Project Onboarding Sessions: A place for new contributors to ask questions "
-"and get to know other contributors to the project"
-msgstr ""
-"Proje Yayına alım Oturumları: Yeni katkıda bulunanların soru sormaları ve "
-"projeye katkıda bulunan diğer kişileri tanımaları için bir yer."
-
-msgid "Project Team Gathering (PTG)"
-msgstr "Proje Takımı Toplantısı (PTG)"
-
-msgid "Project Team Leads (PTLs)"
-msgstr "Proje Takım Liderleri (PTLler)"
 
 msgid "Project Teams Gatherings (PTGs)"
 msgstr "Proje Takımları Buluşmaları (PTGler)"
@@ -2622,46 +1994,16 @@ msgid "Project repos have installation tutorials and developer documentation"
 msgstr ""
 "Proje depolarının kurulum öğreticileri ve geliştirici belgelendirmeleri var"
 
-msgid ""
-"Project team helps you to identify the target milestone and register it in "
-"the tracking tool"
-msgstr ""
-"Proje ekibi, hedef kilometre taşını belirlemenize ve izleme araçlarına "
-"kaydettirmenize yardımcı olur"
-
-msgid ""
-"Project teams create their deliverables, including testing and "
-"documentation, on a coordinated schedule"
-msgstr ""
-"Proje ekipleri, test ve dokümantasyon da dahil olmak üzere, teslim "
-"edilenlerini koordineli bir programda hazırlarlar"
-
 msgid "Project/Program managers/Product owners"
 msgstr "Proje/Program yöneticileri/Ürün sahipleri"
 
-msgid "Projects APIs are documented within the project"
-msgstr "Proje API'leri projede belgelenmiştir"
-
-msgid ""
-"Projects improve and grow independently but also strive to improve one "
-"collaborative framework: OpenStack"
-msgstr ""
-"Projeler bağımsız olarak gelişir ve büyürler, aynı zamanda bir işbirliği "
-"çerçevesi geliştirmeye çalışırlar: OpenStack"
-
 msgid "Promote ideas for next steps after training is done; for example"
 msgstr "Eğitim bittikten sonraki adımlar için fikir teşvik edin; örneğin"
-
-msgid "Provide a description of the history of changes in a repository"
-msgstr "Bir depodaki değişikliklerin geçmişine ilişkin bir açıklama sağlama"
 
 msgid "Provide documentation for core OpenStack projects to promote OpenStack."
 msgstr ""
 "OpenStack'i desteklemek için çekirdek OpenStack projeleri için belge "
 "sağlayın."
-
-msgid "Provides"
-msgstr "Sağlar"
 
 msgid ""
 "Provides transparent and meaningful statistics regarding contributions to "
@@ -2681,12 +2023,6 @@ msgstr "Yorumu yayınla"
 
 msgid "Publish comment reply"
 msgstr "Yorum cevabını yayınla"
-
-msgid "Published collectively as the OpenStack release"
-msgstr "Toplu olarak OpenStack sürümü olarak yayınlandı"
-
-msgid "Push code to Gerrit for review"
-msgstr "Kodu, gözden geçirme için Gerrit'e gönderin"
 
 msgid "Quantify the delta"
 msgstr "Delta sayısallaştırmak"
@@ -2708,61 +2044,17 @@ msgstr ""
 msgid "Reading review invitation"
 msgstr "Gözden geçirme davetini okumak"
 
-msgid "Rechecks"
-msgstr "Yeniden Kontroller"
-
-msgid ""
-"Rechecks has a list of bugs and associated information for nondeterministic "
-"check/gate failures."
-msgstr ""
-"Yeniden denetlemeler, hataların listesini ve deterministik olmayan kontrol/"
-"kapı hataları ile ilişkili bilgileri içerir."
-
 msgid "Recommendations to become an active community member"
 msgstr "Aktif bir topluluk üyesi olmak için tavsiyeler"
 
 msgid "References"
 msgstr "Kaynaklar"
 
-msgid "References to other relevant patches?"
-msgstr "Diğer ilgili yamalara yapılan referanslar?"
-
-msgid "Regional 'Mini-Summit'"
-msgstr "Bölgesel 'Mini-Zirve'"
-
-msgid "Regional Events"
-msgstr "Bölgesel Etkinlikler"
-
 msgid ""
 "Register the blueprint : https://blueprints.launchpad.net/openstack-dev-"
 "sandbox"
 msgstr ""
 "Planı kaydedin : https://blueprints.launchpad.net/openstack-dev-sandbox"
-
-msgid "Release"
-msgstr "Sürüm"
-
-msgid ""
-"Release Candidate 1 (RC1) is cut when all the release-critical bugs are fixed"
-msgstr "Sürüm Adayı 1 (RC1) tüm sürüm kritik hataları düzeltildiğinde kesilir"
-
-msgid "Release Candidates"
-msgstr "Sürüm Adayları"
-
-msgid "Release candidate process"
-msgstr "Sürüm adayı süreci"
-
-msgid "Release day"
-msgstr "Sürüm tarihi"
-
-msgid "Release models"
-msgstr "Sürüm modelleri"
-
-msgid "Release preparation"
-msgstr "Sürüm hazırlığı"
-
-msgid "Release process is managed by the Release Management team"
-msgstr "Sürüm çıkma süreci, Sürüm Yönetimi ekibi tarafından yönetilir"
 
 msgid "Relevant actors"
 msgstr "İlgili oyuncular"
@@ -2792,20 +2084,8 @@ msgstr "Launchpad üzerinde bir hata raporla"
 msgid "Repositories"
 msgstr "Depolar"
 
-msgid "Representatives are elected from"
-msgstr "Temsilciler şuradan seçilir"
-
-msgid "Represents OpenStack users"
-msgstr "OpenStack kullanıcılarını temsil eder"
-
-msgid "Required:"
-msgstr "Gerekli:"
-
 msgid "Resolve merge conflicts"
 msgstr "Birleştirme çakışmalarını çöz"
-
-msgid "Resolve technical disputes"
-msgstr "Teknik anlaşmazlıkları çözer"
 
 msgid "Responding to change over following a plan"
 msgstr "Bir planı izleyerek değişime tepki verme"
@@ -2854,16 +2134,6 @@ msgstr "Gözden Geçirme"
 msgid "Reviewing with comment"
 msgstr "Yorum ile gözden geçirme"
 
-msgid "Reviews"
-msgstr "Gözden Geçirmeler"
-
-msgid ""
-"Reviews has a list of important reviews based on blueprint and bug priority "
-"organized by project."
-msgstr ""
-"İncelemeler, projenin organize ettiği plan ve hata önceliğine dayanan önemli "
-"değerlendirmelerin bir listesini içerir."
-
 msgid "Revise the original patch according to discussion results."
 msgstr "Orijinal yamayı tartışma sonuçlarına göre revize edin."
 
@@ -2881,9 +2151,6 @@ msgstr "Rossella Sblendido (yardımcı, İtalyanca, İngilizce)"
 
 msgid "Run DevStack"
 msgstr "DevStack'i Çalıştır"
-
-msgid "Run against all newly updated patch sets"
-msgstr "Yeni güncellenen tüm düzeltme ekiplerine karşı çalıştır"
 
 msgid "Run one test case"
 msgstr "Bir test durumunu çalıştırın"
@@ -2931,9 +2198,6 @@ msgstr ""
 msgid "Second day"
 msgstr "İkinci gün"
 
-msgid "SecurityImpact"
-msgstr "GüvenliğeEtkisi"
-
 msgid "See EOL status at: https://releases.openstack.org"
 msgstr "EOL durumuna şuradan bakın: https://releases.openstack.org"
 
@@ -2956,9 +2220,6 @@ msgstr ""
 "DevStack'deki servisler devstack@$servicename.service ismi ile ``systemd`` "
 "birimleri olarak çalışıyor"
 
-msgid "Set by each project team"
-msgstr "Her proje ekibi tarafından belirlenir"
-
 msgid "Setup & First Patch"
 msgstr "Kurulum & İlk yama"
 
@@ -2977,9 +2238,6 @@ msgstr "En sevdiğinizi IRC kanalımızdan paylaşın."
 
 msgid "Shinobu KINJO (mentoring, assistant, japanese)"
 msgstr "Shinobu KINJO (danışman, yardımcı, japonca)"
-
-msgid "Should not end with a period"
-msgstr "Bir nokta ile bitmemeli"
 
 msgid "Should not take the bug if you are not planning to work on the bug."
 msgstr "Hata üzerinde çalışmayı planlamıyorsanız hatayı üzerine almamalısınız."
@@ -3008,9 +2266,6 @@ msgstr ""
 "kullanın (tarayıcıda :command:`t`ye basın). Bazı slaytlar *Sunum notlarına* "
 "ek açıklama getirir (bunları görmek için :command:`c` tuşuna basın.)."
 
-msgid "Smaller scale than OpenStack Days Events"
-msgstr "OpenStack Günleri Etkinliklerinden daha küçük ölçekli"
-
 msgid "Software Development Kits (SDKs)"
 msgstr "Yazılım Geliştirme Araçları (SDKlar)"
 
@@ -3018,20 +2273,11 @@ msgid "Software package that provides a cloud platform for"
 msgstr "Bir bulut platformu sağlayan yazılım paketi"
 
 msgid ""
-"Some are more development focused while others are more user and ops focused"
-msgstr ""
-"Bazıları kullanıcı ve operasyon odaklı iken bazıları daha çok geliştirme "
-"odaklıdır"
-
-msgid ""
 "Someone left a print statement that was used for testing during development "
 "that is being added to the logs."
 msgstr ""
 "Birisi, günlüklere eklenmekte olan geliştirme sırasında test için kullanılan "
 "bir basılmış ifadeden ayrıldı."
-
-msgid "Spec/blueprint freeze"
-msgstr "Spesifikasyon/blueprint donma"
 
 msgid "Specialty teams"
 msgstr "Özel takımlar"
@@ -3080,13 +2326,6 @@ msgstr ""
 "durumdur. Mentorlar ekiplere bu konuların nasıl ele alınması gerektiğini "
 "soracaktır."
 
-msgid ""
-"Start with a blueprint and look to the project team's core members for "
-"guidance on whether a spec is needed."
-msgstr ""
-"Bir planın başında başlayın ve bir özellik gerekip gerekmediğine ilişkin "
-"rehberlik için proje ekibinin ana üyelerine bakın."
-
 msgid "Start work from latest patchset"
 msgstr "En son yama kümesinden çalışmaya başla"
 
@@ -3099,9 +2338,6 @@ msgstr "Stefano Maffulli (eğitim, danışman, yardımcı, ingilizce)"
 msgid "Stephan Ahn (training, assistant, mentoring)"
 msgstr "Stephan Ahn (eğitim, yardımcı, danışman)"
 
-msgid "Strategic and financial oversight"
-msgstr "Stratejik ve mali gözetim"
-
 msgid ""
 "Students can use a different editor instead of nano with their own "
 "preferences (e.g. vi, emacs, or whatever they want)."
@@ -3113,36 +2349,14 @@ msgid ""
 "Students will play with the image instead of paying attention to the class"
 msgstr "Öğrenciler sınıfa dikkat etmek yerine imaj ile oynayacaklardır."
 
-msgid "Submit the blueprints and/or specs"
-msgstr "Planları ve/veya özellikleri gönder"
-
-msgid "Subset of the Foundation Individual Members"
-msgstr "Vakfın Alt Kümesi Bireysel Üyeler"
-
 msgid "Successful bug report submission"
 msgstr "Başarılı hata raporu gönderimi"
-
-msgid "Succinctly describes patch content"
-msgstr "Yama içeriğini özetle anlatıyor"
 
 msgid "Suggestions of projects to work on:"
 msgstr "Üzerinde çalışılacak proje önerileri:"
 
 msgid "Summary"
 msgstr "Özet"
-
-msgid "Summary Line"
-msgstr "Özet Satırı"
-
-msgid "Summit & Forum"
-msgstr "Zirve & Forum"
-
-msgid ""
-"Summits take place around the middle of a release to exhibit accomplishments "
-"and get feedback from users on the most recent release"
-msgstr ""
-"Zirveler, başarıların sergilenmesi ve kullanıcıların en son sürümdeki "
-"geribildirimlerini alabilmeleri için bir sürümün ortasında gerçekleşir"
 
 msgid "Summits/Forums"
 msgstr "Zirveler/Forumlar"
@@ -3165,32 +2379,11 @@ msgstr "Sylvain Bauza (yardımcı, danışman, eğitim, fransızca, ingilizce)"
 msgid "System administrators"
 msgstr "Sistem yöneticileri"
 
-msgid ""
-"TC (+PTL) candidates and election results are available on `Governance - "
-"Election page <https://governance.openstack.org/election/>`_, and shared "
-"through `openstack-dev mailing list <http://lists.openstack.org/cgi-bin/"
-"mailman/listinfo/openstack-dev>`_."
-msgstr ""
-"TC (+PTL) adayları ve seçim sonuçları `Yönetim - Seçim sayfası <https://"
-"governance.openstack.org/election/>`_nda görülebilir, ve `openstack-dev e-"
-"posta listesinde <http://lists.openstack.org/cgi-bin/mailman/listinfo/"
-"openstack-dev>`_ paylaşılır."
-
 msgid "Taehee Jang (assistant, mentoring - Ubuntu Korea Community)"
 msgstr "Taehee Jang (yardımcı, danışman - Ubuntu Kore Topluluğu)"
 
-msgid ""
-"Tags can be associated with projects.  Find out what tags are and find the "
-"current list of available tags."
-msgstr ""
-"Etiketler proje ile ilişkilendirilebilir. Hangi etiketler olduğunu öğrenin "
-"ve mevcut etiketlerin mevcut listesini bulun."
-
 msgid "Takashi Torii (assistant, japanese)"
 msgstr "Takashi Torii (yardımcı, japonca)"
-
-msgid "Take a step back"
-msgstr "Bir adım geri atın"
 
 msgid "Take the pulse of the project"
 msgstr "Projenin nabzını tutun"
@@ -3208,29 +2401,11 @@ msgstr "Hedef Dinleyici"
 msgid "Task Tracking"
 msgstr "Görev İzleme"
 
-msgid "Task Tracking Info:"
-msgstr "Görev Kayıt bilgisi:"
-
 msgid "Team members : 3-5"
 msgstr "Takım üyeleri : 3-5"
 
-msgid "Teams in OpenStack can be freely created as they are needed"
-msgstr "OpenStack'taki takımlar, ihtiyaç duyuldukça serbestçe yaratılabilir"
-
-msgid "Teams of people who"
-msgstr "Kimlerin ekipleri"
-
-msgid "Technical Committee"
-msgstr "Teknik Komite"
-
-msgid "Technical Committee (\"TC\")"
-msgstr "Teknik Komite (\"TC\")"
-
 msgid "Technical committee : 1"
 msgstr "Teknik komite: 1"
-
-msgid "Technical leadership"
-msgstr "Teknik liderlik"
 
 msgid "Terminal emulator: Xfce4-terminal"
 msgstr "Terminal emülatörü: Xfce4-terminal"
@@ -3240,12 +2415,6 @@ msgstr "Test kapsamı alıştırması"
 
 msgid "Test suites"
 msgstr "Test takımları"
-
-msgid "Test the code and file bugs"
-msgstr "Kodu test et ve hata kaydı gir"
-
-msgid "Testable on its own"
-msgstr "Kendi kendine test edilebilir"
 
 msgid "Testing"
 msgstr "Test"
@@ -3268,49 +2437,11 @@ msgstr "Gerrit gözden geçirmesi Workflow'da +1 ile birleştirilir"
 msgid "The OpenStack Community in numbers"
 msgstr "Sayılarla OpenStack Topluluğu"
 
-msgid ""
-"The OpenStack Foundation participates in internship programs as `Outreachy "
-"<https://wiki.openstack.org/wiki/Outreachy>`_."
-msgstr ""
-"OpenStack Vakfı, `Outreachy <https://wiki.openstack.org/wiki/Outreachy>`_de "
-"staj programlarında yer alır."
-
 msgid "The OpenStack Package"
 msgstr "OpenStack Paketi"
 
-msgid ""
-"The PTG is scheduled around the start of a release to plan release goals"
-msgstr ""
-"PTG, yayınlanma hedeflerini planlamak için bir sürüm başlangıcında "
-"planlanıyor."
-
-msgid "The TC Chair is proposed by the TC members"
-msgstr "TC Başkanı, TC üyeleri tarafından önerilir"
-
-msgid "The code is self-evident/self-documenting"
-msgstr "Kod kendini gösteriyor/kendini belgeliyor"
-
 msgid "The data can be collected and analyzed by anyone"
 msgstr "Veriler herkes tarafından toplanabilir ve analiz edilebilir"
-
-msgid "The deadline for proposing new ideas for a release cycle"
-msgstr "Bir sürüm döngüsü için yeni fikirler önermek için son tarih"
-
-msgid ""
-"The election of Board of Directors is announced via `Board election page "
-"<https://www.openstack.org/election/>`_, and the election result can be seen "
-"in `Foundation mailing list <http://lists.openstack.org/cgi-bin/mailman/"
-"listinfo/foundation>`_."
-msgstr ""
-"Yönetim kurulu seçimi `Kurul seçim sayfası <https://www.openstack.org/"
-"election/>`_ ile duyurulur, ve seçim sonucu `Vakıf e-posta listesi <http://"
-"lists.openstack.org/cgi-bin/mailman/listinfo/foundation>`_nde görülebilir."
-
-msgid "The exact date is determined by each project team"
-msgstr "Tam tarih her proje ekibi tarafından belirlenir"
-
-msgid "The first thing a reviewer sees and it is as important as the code"
-msgstr "Bir gözden geçirenin gördüğü ilk şey ve kod kadar önemlidir"
 
 msgid ""
 "The following slides demonstrate using the Sandbox repository and Launchpad "
@@ -3351,49 +2482,6 @@ msgstr ""
 
 msgid "The metrics should be used within context"
 msgstr "Metrikler bağlam içinde kullanılmalıdır."
-
-msgid "The official list of projects:"
-msgstr "Projelerin resmi listesi:"
-
-msgid ""
-"The priority of the work item is set by the project team members or lead"
-msgstr ""
-"Çalışma öğesinin önceliği, proje ekibi üyeleri veya lider tarafından "
-"belirlenir"
-
-msgid ""
-"The responsibilities of a PTL also depend on the project (Each project "
-"handles things a little differently)."
-msgstr ""
-"Bir PTL'nin sorumlulukları da projeye bağlıdır (Her proje, işleri farklı "
-"kılar)."
-
-msgid "The reviewer has access to external web services/site"
-msgstr "İnceleyenin harici web servislerine/siteye erişimi var"
-
-msgid "The reviewer understands what the original problem was"
-msgstr "İnceleyen kişi orijinal sorunun ne olduğunu anlar"
-
-msgid ""
-"The summit is a biannual conference with keynotes, presentations, and panel "
-"discussions"
-msgstr ""
-"Zirve, yılda iki kere yapılan, açılış konuşmaları, sunumlar ve panel "
-"tartışmaları içeren bir konferanstır"
-
-msgid ""
-"The teams get space at OpenStack Summits and Project Team Gatherings (PTG)"
-msgstr ""
-"Ekipler, OpenStack Zirveleri ve Proje Ekibi Buluşmaları (PTG)'nda yer "
-"alabilir"
-
-msgid ""
-"The training concentrates on the common cycle with the development "
-"milestones as that is what most students will work with. The other types "
-"should be described."
-msgstr ""
-"Eğitim, çoğu öğrencinin birlikte çalışacağı bu geliştirme kilometre taşları "
-"ile ortak döngü üzerine yoğunlaşmaktadır. Diğer tipler de tanımlanmalıdır."
 
 msgid ""
 "The training has a modular structre by which it gives room to attendees with "
@@ -3454,16 +2542,6 @@ msgid ""
 msgstr ""
 "Daha önce bildirimi görmemiş olanlar, hazırlanmak için bir şans buluyor."
 
-msgid ""
-"Though not defined in the TC charter like other roles above, cores serve an "
-"important role in Project Teams."
-msgstr ""
-"TC tüzüğünde yukarıdaki diğer roller gibi tanımlanmamasına rağmen, "
-"çekirdekler Proje Ekipleri'nde önemli bir rol oynamaktadır."
-
-msgid "Three development milestones during a release cycle"
-msgstr "Bir sürüm çevrimi süresince üç geliştirme kilometre taşı"
-
 msgid "Tim Freund (assistant, english)"
 msgstr "Tim Freund (asistan, ingilizce)"
 
@@ -3492,13 +2570,6 @@ msgstr ""
 msgid "To notify others that someone is working on the bug"
 msgstr "Birilerinin hata üzerinde çalıştığını diğerlerine bildirmek için"
 
-msgid ""
-"To trigger a re-run of check or gate add a comment to the patch in the form "
-"of 'recheck bug XXXXX'"
-msgstr ""
-"Bir kontrol veya kapının yeniden çalıştırılmasını tetiklemek için yamaya "
-"'yeniden kontrol hatası XXXXX' şeklinde bir yorum ekleyin"
-
 msgid "To understand how it all fits together, we use a hands on example"
 msgstr ""
 "Her şeyin nasıl bir araya geldiğini anlamak için, pratik örnekler veriyoruz."
@@ -3517,12 +2588,6 @@ msgstr "Bir VM görüntüsünde önceden paketlenmiş araçlar"
 
 msgid "Tox"
 msgstr "Tox"
-
-msgid "Track chairs for OpenStack Summits"
-msgstr "OpenStack Zirveleri için koltuk kaydı"
-
-msgid "Trailing the common cycle"
-msgstr "Ortak döngünün izini sürmek"
 
 msgid "Training organizers"
 msgstr "Eğitim düzenleyiciler"
@@ -3554,16 +2619,6 @@ msgstr ""
 "Yalnızca bir soru sormakla birlikte bir soru işaret etmese bile yorum "
 "yapacak şeyler bulmaya çalışın, üç farklı yamayı +1 etmeyin."
 
-msgid "Types of sessions at the Forum"
-msgstr "Forum'daki oturum türleri"
-
-msgid ""
-"UC election information is available though `User-committee mailing list "
-"<http://lists.openstack.org/cgi-bin/mailman/listinfo/user-committee>`_."
-msgstr ""
-"UC seçim bilgileri  `User-committee e-posta listesi <http://lists.openstack."
-"org/cgi-bin/mailman/listinfo/user-committee>`_nde görülebilir durumdadır."
-
 msgid "Ubuntu or Fedora"
 msgstr "Ubuntu veya Fedora"
 
@@ -3586,14 +2641,8 @@ msgstr "Sözleşmeleri anlama"
 msgid "Unit"
 msgstr "Birim"
 
-msgid "Unlike ATC, APC and PTLs, role is not defined in the TC charter"
-msgstr "ATC, APC ve PTL'lerin aksine, rol TC tüzüğünde tanımlanmamıştır."
-
 msgid "Update and add tests (unit, functional, etc.)"
 msgstr "Testleri güncelleyin ve ekleyin (birim, işlevsel vb.)"
-
-msgid "UpgradeImpact"
-msgstr "YükseltmeEtkisi"
 
 msgid "Upload a patch and invite a peer as a reviewer"
 msgstr ""
@@ -3601,9 +2650,6 @@ msgstr ""
 
 msgid "Upload a revised patch with comment"
 msgstr "Yorumu içeren gözden geçirilmiş bir düzeltme eki yükleyin"
-
-msgid "Upload your code as early as possible in the release cycle"
-msgstr "Kodunuzu sürüm döngüsünde mümkün olduğunca erken gönderin"
 
 msgid "Uploading a new patchset"
 msgstr "Yeni bir yama kümesi yükleme"
@@ -3662,48 +2708,17 @@ msgstr "IRC istemcinizi veya Web IRC'yi kullanın:"
 msgid "Used as"
 msgstr "Kullanılan isim:"
 
-msgid "Used as-is as the final release"
-msgstr "Son sürüm olarak olduğu gibi kullanılır"
-
-msgid "Useful for participants if they are already working with a project team"
-msgstr "Zaten bir proje ekibiyle çalışıyorlarsa katılımcılar için yararlıdır"
-
 msgid "Useful screen commands:"
 msgstr "Kullanışlı ekran komutları:"
 
-msgid "User Committee"
-msgstr "Kullanıcı Komitesi"
-
-msgid "User Committee (\"UC\")"
-msgstr "Kullanıcı Komitesi (\"UC\")"
-
-msgid "User Group Meetups"
-msgstr "Kullanıcı Grup Toplantıları"
-
-msgid ""
-"User focused discussions at the Forum to collect feedback for developers"
-msgstr ""
-"Geliştiricilerin geribildirim toplaması için Forum'da kullanıcı odaklı "
-"tartışmalar"
-
 msgid "User groups"
 msgstr "Kullanıcı grupları"
-
-msgid "Users with the following activities are recognized with AUC status:"
-msgstr ""
-"Aşağıdaki etkinliklere sahip kullanıcılar AUC statüsü ile tanınmaktadır:"
-
-msgid "Uses the browser to view the logs"
-msgstr "Günlükleri görüntülemek için tarayıcıyı kullanır"
 
 msgid "Using Lego to represent the community"
 msgstr "Toplumu temsil etmek için Lego'yu kullanmak"
 
 msgid "Using Sandbox for Practice"
 msgstr "Pratik yapmak için Sandbox kullanmak"
-
-msgid "Using the common tools (code repository, bug tracker, CI system, etc.)"
-msgstr "Ortak araçlar (kod deposu, hata izleme, CI sistemi, vb.)"
 
 msgid ""
 "VM image and instructions: https://github.com/kmARC/openstack-training-"
@@ -3736,9 +2751,6 @@ msgstr "Sanal Altyapı Yöneticisi (VIM) + NFV Altyapısı (NFVI)"
 
 msgid "Virtual Network Functions Manager (VNFM)"
 msgstr "Sanal Ağ İşlevleri Yöneticisi (VNFM)"
-
-msgid "Voting and non-voting jobs"
-msgstr "Oylayan ve oylamayan işler"
 
 msgid ""
 "We are providing a virtual machine with the necessary tools pre-installed in "
@@ -3859,27 +2871,8 @@ msgstr "Test aşamasındaki bir yamaya tıklarsanız ne olur"
 msgid "What is the significance of the dots, lines and colors"
 msgstr "Nokta, çizgi ve renklerin önemi nedir?"
 
-msgid "What makes a release"
-msgstr "Ne sürüm olarak çıkar"
-
-msgid "When in the cycle you intend to complete it"
-msgstr "Bitirmeyi düşündüğünüz çevrimdeyken"
-
 msgid "When possible, sit at a table and build connections with attendees"
 msgstr "Mümkünse, bir masaya oturun ve katılımcılarla bağlantı kurun"
-
-msgid "When your blueprint/spec is accepted"
-msgstr "Planınız/özelliğiniz kabul edildiğinde"
-
-msgid ""
-"Whether a change requires just a blueprint or spec and blueprint depends on "
-"the complexity of the change."
-msgstr ""
-"Bir değişikliğin sadece bir plan veya şartname gerektirip gerektirmediği ve "
-"planın değişikliği karmaşıklığına bağlıdır."
-
-msgid "Who is able to approve patches during the RC phase is limited."
-msgstr "RC aşamasında yamaları kimlerin onaylayabildiği sınırlıdır."
 
 msgid "Who's familiar with the term?"
 msgstr "Kim bu terime aşına?"
@@ -3927,12 +2920,6 @@ msgstr ""
 
 msgid "Work in parallel"
 msgstr "Paralel çalış"
-
-msgid "Work on feedback and comments"
-msgstr "Geribildirim ve yorumlar üzerinde çalışın"
-
-msgid "Work towards OpenStack's mission"
-msgstr "OpenStack'ın amacına uygun çalışın"
 
 msgid ""
 "Work with your group to find and discuss the different freeze activities"
@@ -4017,19 +3004,6 @@ msgstr "Yönetiminiz"
 
 msgid "Your mission, should you choose to accept it"
 msgstr "Görevin, kabul etmeyi seçer misin?"
-
-msgid "Zuul"
-msgstr "Zuul"
-
-msgid "Zuul Pipelines"
-msgstr "Zuul Hatları"
-
-msgid ""
-"Zuul is the project gating and automation system that tests and merges "
-"changes as well as publishing releases and documentation."
-msgstr ""
-"Zuul, değişiklikleri test edip birleştiren ve bültenleri ve belgeleri "
-"yayınlayan proje geçitlendirme ve otomasyon sistemidir."
 
 msgid "`Blueprints <https://wiki.openstack.org/wiki/Blueprints>`_"
 msgstr "`Plan taslakları <https://wiki.openstack.org/wiki/Blueprints>`_"
@@ -4164,9 +3138,6 @@ msgstr ""
 "orchestration/ocata/>`_ stable/ocata dalında install-guide dizininde "
 "yayınlanır"
 
-msgid "`Internship Programs <https://wiki.openstack.org/wiki/Outreachy>`_"
-msgstr "`Staj Programları <https://wiki.openstack.org/wiki/Outreachy>`_"
-
 msgid ""
 "`Introducing OpenStack as a Community <intro-openstack-as-community.html>`_"
 msgstr ""
@@ -4197,12 +3168,6 @@ msgstr ""
 "Design_Summit/Liberty/Etherpads>`_"
 
 msgid ""
-"`List of TC members <https://www.openstack.org/foundation/tech-committee/>`_"
-msgstr ""
-"`TC üyelerinin listesi <https://www.openstack.org/foundation/tech-committee/"
-">`_"
-
-msgid ""
 "`List of sessions <https://libertydesignsummit.sched.org/overview/type/design"
 "+summit#.VVeYTt-uNNw>`_"
 msgstr ""
@@ -4216,33 +3181,8 @@ msgstr ""
 "`Toplantılar <https://wiki.openstack.org/wiki/"
 "Meetings#Technical_Committee_meeting>`_"
 
-msgid ""
-"`Members of OpenStack User Comittee <https://www.openstack.org/foundation/"
-"user-committee/>`_"
-msgstr ""
-"`OpenStack Kullanıcı Komitesinin Üyeleri <https://www.openstack.org/"
-"foundation/user-committee/>`_"
-
-msgid "`Mentoring <https://wiki.openstack.org/wiki/Mentors>`_"
-msgstr "`Danışmanlık <https://wiki.openstack.org/wiki/Mentors>`_"
-
-msgid ""
-"`Mentoring <https://wiki.openstack.org/wiki/Mentors>`_ is run by the Women "
-"of OpenStack group, where mentees are guided through the OpenStack processes."
-msgstr ""
-"`Mentorluk <https://wiki.openstack.org/wiki/Mentors>`_ OpenStack süreçleri "
-"hakkında katılımcılara kılavuzluk edilen OpenStack grubunun Kadınları "
-"tarafından yürütülür."
-
 msgid "`Metrics <workflow-metrics.html>`_"
 msgstr "`Metrikler <workflow-metrics.html>`_"
-
-msgid ""
-"`New Project Requirements <https://governance.openstack.org/tc/reference/new-"
-"projects-requirements.html>`_"
-msgstr ""
-"`Yeni Proje Gereksinimleri <https://governance.openstack.org/tc/reference/"
-"new-projects-requirements.html>`_"
 
 msgid "`Official OpenStack projects <howitsmade-official-projects.html>`_"
 msgstr "`Resmi OpenStack projeleri <howitsmade-official-projects.html>`_"
@@ -4264,39 +3204,6 @@ msgid "`OpenStack IRC channels <https://wiki.openstack.org/wiki/IRC>`_"
 msgstr "`OpenStack IRC kanalları <https://wiki.openstack.org/wiki/IRC>`_"
 
 msgid ""
-"`OpenStack Project Teams <https://governance.openstack.org/tc/reference/"
-"projects/index.html>`_"
-msgstr ""
-"`OpenStack Proje Takımları <https://governance.openstack.org/tc/reference/"
-"projects/index.html>`_"
-
-msgid ""
-"`OpenStack Technical Comittee Charter <https://governance.openstack.org/tc/"
-"reference/charter.html>`_"
-msgstr ""
-"`OpenStack Teknik Komite Tüzüğü <https://governance.openstack.org/tc/"
-"reference/charter.html>`_"
-
-msgid ""
-"`OpenStack Technical Comittee page <https://governance.openstack.org/tc/>`_"
-msgstr ""
-"`OpenStack Teknik Komite sayfası <https://governance.openstack.org/tc/>`_"
-
-msgid ""
-"`OpenStack User Committee Charter <https://governance.openstack.org/uc/"
-"reference/charter.html>`_"
-msgstr ""
-"`OpenStack Kullanıcı Komitesi Tüzüğü <https://governance.openstack.org/uc/"
-"reference/charter.html>`_"
-
-msgid ""
-"`OpenStack User Committee page <https://governance.openstack.org/uc/index."
-"html>`_"
-msgstr ""
-"`OpenStack Kullanıcı Komite sayfası <https://governance.openstack.org/uc/"
-"index.html>`_"
-
-msgid ""
 "`Other release candidates <https://wiki.openstack.org/wiki/"
 "Release_Cycle#Other_release_candidates>`_"
 msgstr ""
@@ -4304,20 +3211,10 @@ msgstr ""
 "Release_Cycle#Other_release_candidates>`_"
 
 msgid ""
-"`Other responsibilities <https://docs.openstack.org/project-team-guide/ptl."
-"html>`_"
-msgstr ""
-"`Diğer sorumluluklar <https://docs.openstack.org/project-team-guide/ptl."
-"html>`_"
-
-msgid ""
 "`Overview of the contribution process <workflow-training-contribution-"
 "process.html>`_"
 msgstr ""
 "`Katkı sürecine genel bakış <workflow-training-contribution-process.html>`_"
-
-msgid "`PTG <https://www.openstack.org/ptg/>`_"
-msgstr "`PTG <https://www.openstack.org/ptg/>`_"
 
 msgid ""
 "`Planning (Design, Discuss and Target) <https://wiki.openstack.org/wiki/"
@@ -4372,13 +3269,6 @@ msgid ""
 "`Release day <https://wiki.openstack.org/wiki/Release_Cycle#Release_day>`_"
 msgstr ""
 "`Sürüm günü <https://wiki.openstack.org/wiki/Release_Cycle#Release_day>`_"
-
-msgid ""
-"`Requirements <https://governance.openstack.org/reference/new-projects-"
-"requirements.html>`_ for official OpenStack projects"
-msgstr ""
-"Resmi OpenStack projeleri için `Gereksinimler <https://governance.openstack."
-"org/reference/new-projects-requirements.html>`_"
 
 msgid "`Reviewing <workflow-reviewing.html>`_"
 msgstr "`Gözden geçirme <workflow-reviewing.html>`_"
@@ -4488,23 +3378,14 @@ msgstr ""
 "`hata ayıklama <https://wiki.openstack.org/wiki/"
 "Bugs#Debugging_.28optional.29>`_"
 
-msgid "`http://status.openstack.org <http://status.openstack.org>`_"
-msgstr "`http://status.openstack.org <http://status.openstack.org>`_"
-
 msgid "`reporting a bug <https://wiki.openstack.org/wiki/Bugs#Reporting>`_"
 msgstr "`bir hata raporlama <https://wiki.openstack.org/wiki/Bugs#Reporting>`_"
 
 msgid "and whom they will be working with"
 msgstr "ve kiminle çalışacağı"
 
-msgid "by majority vote of all Gold Members"
-msgstr "tüm Altın Üyeler'in çoğunluk oyuyla"
-
 msgid "checkout the latest stable branch"
 msgstr "son kararlı dalı kontrol edin"
-
-msgid "directly elected by ATC's"
-msgstr "ATC tarafından doğrudan seçilir"
 
 msgid "etc."
 msgstr "vs."
@@ -4517,9 +3398,6 @@ msgstr "varsayılan olarak git masterdan"
 
 msgid "from stable branches by configuration, e.g. stable/newton"
 msgstr "yapılandırma tarafından kararlı dallar, e.g. kararlı/newton"
-
-msgid "has a clear and defined scope"
-msgstr "temiz ve tanımlı alana sahipse"
 
 msgid "how it contributes to the company's agenda"
 msgstr "şirketin gündemine nasıl katkıda bulunur"
@@ -4569,14 +3447,6 @@ msgstr "https://etherpad.openstack.org/p/upstream-training-vancouver"
 msgid "https://git.openstack.org/cgit/openstack-dev/sandbox"
 msgstr "https://git.openstack.org/cgit/openstack-dev/sandbox"
 
-msgid ""
-"https://governance.openstack.org/tc/reference/new-projects-requirements.html"
-msgstr ""
-"https://governance.openstack.org/tc/reference/new-projects-requirements.html"
-
-msgid "https://groups.openstack.org/"
-msgstr "https://groups.openstack.org/"
-
 msgid "https://launchpad.net/openstack-dev-sandbox"
 msgstr "https://launchpad.net/openstack-dev-sandbox"
 
@@ -4589,24 +3459,11 @@ msgstr "git review'ı kur"
 msgid "macJack (assistant, English, Chinese)"
 msgstr "macJack (yardımcı, İngilizce, Çince)"
 
-msgid "master branch is open for development"
-msgstr "master dalı geliştirme için açık"
-
 msgid "nvie inspired"
 msgstr "ilham kaynağı nvie"
 
-msgid ""
-"provides a cloud infrastructure service or directly builds on an existing "
-"OpenStack cloud infrastructure service"
-msgstr ""
-"bulut altyapısı hizmeti sağlar veya mevcut bir OpenStack bulut altyapısı "
-"hizmetini doğrudan geliştirirse"
-
 msgid "risk of regression"
 msgstr "gerileme riski"
-
-msgid "stable/release branch"
-msgstr "stable/release dalı"
 
 msgid "the contribution they plan to work on during the online sessions"
 msgstr "çevrimiçi oturumlar sırasında üzerinde çalışmayı planladıkları katkı"

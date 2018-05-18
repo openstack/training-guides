@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-02 09:37+0000\n"
+"POT-Creation-Date: 2018-05-17 14:08+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -29,9 +29,6 @@ msgstr "**メンター**"
 
 msgid "**Staff**"
 msgstr "**スタッフ**"
-
-msgid "*Common cycle with development milestones*"
-msgstr "*開発マイルストーンを持つ共通サイクル*"
 
 msgid "13:45 Sagrada Familia"
 msgstr "13:45 Sagrada Familia"
@@ -96,20 +93,8 @@ msgstr ""
 msgid "A bunch of scripts to build a full OpenStack environment"
 msgstr "完全な OpenStack 環境を構築するためのスクリプト群"
 
-msgid "A gathering of projects teams and contributors"
-msgstr "プロジェクトチームとコントリビューターの集会"
-
-msgid "APIImpact"
-msgstr "APIImpact"
-
 msgid "About the training"
 msgstr "トレーニングについて"
-
-msgid "Active Project Contributor (APC)"
-msgstr "Active Project Contributor (APC)"
-
-msgid "Active Technical Contributor (ATC)"
-msgstr "Active Technical Contributor (ATC)"
 
 msgid "Activities listed here are not realized at every Upstream training."
 msgstr "ここにある内容は必ずしも毎回実施されるわけではありません。"
@@ -119,9 +104,6 @@ msgstr "IaaS 上に構築されるサービス群"
 
 msgid "Adrien Cunin (mentoring, assistant, french, english)"
 msgstr "Adrien Cunin (mentoring, assistant, french, english)"
-
-msgid "After the last milestone"
-msgstr "最終マイルストーンの後"
 
 msgid "Agile"
 msgstr "アジャイル"
@@ -211,32 +193,11 @@ msgstr "役割に忠実である"
 msgid "Being able to read and write English at a technical level"
 msgstr "技術レベルの英語を読み書きできること"
 
-msgid "Benefits of being an Official OpenStack project"
-msgstr "OpenStack 公式プロジェクトであることのメリット"
-
-msgid ""
-"Better entry point for new contributors finding their place in the community"
-msgstr ""
-"コミュニティーに居場所を見つけるために、新規コントリビューターのより良い入り"
-"口"
-
-msgid "Blueprint (Partial-Implements, Implements)"
-msgstr "ブループリント (Partial-Implements, Implements)"
-
 msgid "Board : 1"
 msgstr "ボード : 1"
 
-msgid "Board of Directors"
-msgstr "Board of Directors"
-
-msgid "Board of directors"
-msgstr "Board of directors"
-
 msgid "Branching model"
 msgstr "ブランチモデル"
-
-msgid "Bug (Partial-Bug, Related-Bug, Closes-Bug)"
-msgstr "バグ (Partial-Bug, Related-Bug, Closes-Bug)"
 
 msgid "Bug Assigned"
 msgstr "割り当てられたバグ"
@@ -246,9 +207,6 @@ msgstr "バグ割り当て"
 
 msgid "Bug Report Submission"
 msgstr "バグ報告の提出"
-
-msgid "Bug fixes"
-msgstr "バグ修正"
 
 msgid "Bug reports"
 msgstr "バグ報告"
@@ -276,20 +234,6 @@ msgstr "CEO : 1"
 
 msgid "CI"
 msgstr "CI"
-
-msgid ""
-"Can participate in common programs, like mentoring and internship to help "
-"with on boarding"
-msgstr ""
-"共通のプログラムに参加できます。新規参加者を支援するメンタリングやインターン"
-"シップなど。"
-
-msgid "Can publish to docs.openstack.org and developer.openstack.org"
-msgstr ""
-"docs.openstack.org と developer.openstack.org でドキュメントを公開できます"
-
-msgid "Capture your idea in a spec/blueprint"
-msgstr "アイディアをスペック・ブループリントにまとめる"
 
 msgid "Changes to Nova's internal AMQP API"
 msgstr "Nova の内部 AMQP API の変更"
@@ -354,14 +298,6 @@ msgstr "まとめ演習"
 msgid "Code Deep Dive"
 msgstr "コード Deep Dive"
 
-msgid ""
-"Code or documentation contribution to any of the official project "
-"repositories"
-msgstr "公式プロジェクトのリポジトリーどれかに対するコードやドキュメントの貢献"
-
-msgid "Code stabilization period"
-msgstr "コード安定化期間"
-
 msgid "Code-Review -1/0/+1 is for all OpenStack reviewers"
 msgstr "Code-Review -1/0/+1 は OpenStack のすべてのレビューアー向けです"
 
@@ -395,15 +331,6 @@ msgstr "ファイルのコミットとコミットメッセージの作成"
 msgid "Commit log message"
 msgstr "コミットログメッセージ"
 
-msgid "Committed a change over the last two 6-month release cycles"
-msgstr "過去 2 回の 6 か月サイクルにおける変更のコミット"
-
-msgid "Common cycle with development milestones"
-msgstr "開発マイルストーンを持つ共通サイクル"
-
-msgid "Common cycle with intermediary release"
-msgstr "中間リリースを持つ共通サイクル"
-
 msgid "Communication"
 msgstr "コミュニケーション"
 
@@ -435,28 +362,14 @@ msgstr "コントリビューションのシミュレーション (2 時間)"
 msgid "Contributor guide"
 msgstr "Contributor guide"
 
-msgid "Contributors get to vote in the Technical Committee election"
-msgstr ""
-"プロジェクトのコントリビューターは Technical Committee の選挙に投票できます"
-
 msgid "Controversial : 1"
 msgstr "議論好きの人 : 1"
 
 msgid "Core : 5"
 msgstr "コア : 5"
 
-msgid "Core and Optional Services"
-msgstr "コアサービスと追加サービス"
-
 msgid "Core services (Compute, Networking, Block and Object Storage, etc.)"
 msgstr "コアサービス (Compute, Networking, Block, Object Storage など)"
-
-msgid ""
-"Core services are OpenStack projects and essential in every OpenStack-"
-"powered IaaS cloud or product"
-msgstr ""
-"コアサービスは OpenStack プロジェクトで、かつ、どの OpenStack ベースの IaaS "
-"クラウドや製品でも不可欠なサービス"
 
 msgid "Core team"
 msgstr "コアチーム"
@@ -472,13 +385,6 @@ msgstr "契約の交渉よりも顧客との共同作業を"
 
 msgid "DB schema changes"
 msgstr "DB スキーマの変更"
-
-msgid ""
-"Dashboard (horizon) and DevStack provide plugin interface for easy "
-"integration"
-msgstr ""
-"ダッシュボード (horizon) と DevStack はプラグインインターフェースを提供してお"
-"り、簡単に統合できます"
 
 msgid "Date"
 msgstr "日付"
@@ -513,29 +419,14 @@ msgstr "Day 5"
 msgid "Deadlines"
 msgstr "締め切り"
 
-msgid "Deadlines for the code to get merged"
-msgstr "コードがマージされるための締め切り"
-
-msgid "Dedicated and detailed technical discussions"
-msgstr "技術に特化した集中議論"
-
 msgid "Demo environment"
 msgstr "デモ環境"
-
-msgid "Depends on the priority of your work item"
-msgstr "作業項目の優先度に依存する"
-
-msgid "Depends-On"
-msgstr "Depends-On"
 
 msgid "Describe a release cycle based on the information you found"
 msgstr "見つけた情報に基づいてリリースサイクルを説明してください。"
 
 msgid "Description"
 msgstr "説明"
-
-msgid "Design activity is a continuous effort"
-msgstr "設計活動は継続的な取り組みです"
 
 msgid "Determine the project's social groups"
 msgstr "プロジェクトの社会的なグループを判断する。"
@@ -561,12 +452,6 @@ msgstr "気が散っている人 : 1"
 msgid "Distributions"
 msgstr "ディストリビューション"
 
-msgid "Do not assume ..."
-msgstr "前提をおかない ..."
-
-msgid "DocImpact"
-msgstr "DocImpact"
-
 msgid "Documentation"
 msgstr "ドキュメント"
 
@@ -576,20 +461,11 @@ msgstr "ドキュメントディープダイブ"
 msgid "Documentation frameworks"
 msgstr "ドキュメントのフレームワーク"
 
-msgid "Does it fix limitations of the current code?"
-msgstr "現在のコードの制約を修正するものか？"
-
-msgid "Does it improve code structure?"
-msgstr "コードの構造を改善しているのか？"
-
 msgid "Draft comment publishment"
 msgstr "ドラフトコメントの公開"
 
 msgid "Draft comment was saved"
 msgstr "コメントのドラフトが保存されました"
-
-msgid "Drive the program goals"
-msgstr "プログラムの目標の推進"
 
 msgid "Duration"
 msgstr "期間"
@@ -634,12 +510,6 @@ msgstr "Edouard THULEAU (assistant, french, english)"
 msgid "Edouard Thuleau (assistant, french, english)"
 msgstr "Edouard Thuleau (assistant, french, english)"
 
-msgid "Elected from and by the group of APC's"
-msgstr "APC の中から APC により選挙されます"
-
-msgid "Endorsed by the Foundation"
-msgstr "Foundation により支持されます"
-
 msgid "Engage immediately"
 msgstr "迅速な関わり"
 
@@ -648,9 +518,6 @@ msgstr "Etherpad"
 
 msgid "Events"
 msgstr "イベント"
-
-msgid "Every cycle includes"
-msgstr "すべてのサイクルは以下を含みます"
 
 msgid "Example Itinerary: Spain"
 msgstr "Example Itinerary: Spain"
@@ -747,17 +614,8 @@ msgstr "演習: 他の launchpad バグの参照および自身のものの改�
 msgid "Explain what you do"
 msgstr "何をしているかを説明する"
 
-msgid "Explanation of issue being solved and why it should be fixed"
-msgstr "解決される問題の説明、なぜ修正すべきなのか"
-
 msgid "Familiarize yourself with the code of conduct"
 msgstr "自分自身を行動規範に慣れさせる。"
-
-msgid "Feature freeze"
-msgstr "機能の凍結"
-
-msgid "Feature proposal freeze"
-msgstr "機能提案の凍結"
 
 msgid "February 2 - 3, 2015 (Mon - Tue)"
 msgstr "2015 年 2 月 2 - 3 日 (月 - 火)"
@@ -771,9 +629,6 @@ msgstr "blueprint や spec を登録する"
 msgid "Filing, fixing, and triaging bugs"
 msgstr "バグの登録、修正、仕分けを行う"
 
-msgid "Finalize documentation"
-msgstr "ドキュメントの安定化"
-
 msgid "Find feature proposal deadlines in the current release schedule"
 msgstr "現在のリリーススケジュールにおける機能提案の締め切りを探してください。"
 
@@ -786,14 +641,8 @@ msgstr "1 日目"
 msgid "Fitting it all together"
 msgstr "全てを組み合わせる"
 
-msgid "Fix as many bugs as possible"
-msgstr "できるだけ多くのバグを修正する"
-
 msgid "Flexibility"
 msgstr "柔軟性"
-
-msgid "Focus on what we want to do for the next one"
-msgstr "次に実行したいことに注力"
 
 msgid ""
 "Following and participating in project related mail threads in the mailing "
@@ -838,20 +687,8 @@ msgstr ""
 msgid "Functional"
 msgstr "機能"
 
-msgid "Further details are in a later session"
-msgstr "詳細は後ほど"
-
-msgid "Further supporting companies and organizations"
-msgstr "その他の支援企業や支援団体"
-
-msgid "Gathers feedback and consolidates requirements"
-msgstr "フィードバックを集めて、要件をまとめる"
-
 msgid "General Contribution Workflow"
 msgstr "一般的なコントリビューションの流れ"
-
-msgid "Generic intention behind planning"
-msgstr "計画の後ろにある一般的な意図"
 
 msgid "Gergely Csatári – Nokia"
 msgstr "Gergely Csatári – Nokia"
@@ -876,12 +713,6 @@ msgstr ""
 "Gerrit ドキュメント: `Reviewing the Change <https://review.openstack.org/"
 "Documentation/intro-quick.html#_reviewing_the_change>`_"
 
-msgid "Get guidance from community members and leaders"
-msgstr "コミュニティーメンバーやリーダーから助言をもらえます"
-
-msgid "Get marketing from the OpenStack Foundation"
-msgstr "OpenStack Foundation によるマーケティングが受けられます"
-
 msgid "Get to know the code"
 msgstr "コードをよく知る"
 
@@ -901,38 +732,20 @@ msgstr ""
 "散っているか、物議をかもす人か、もしくは愛想の良い人かを公開しないでくださ"
 "い。コミュニティーは自分たちでその答えを出す必要があります。"
 
-msgid "Global Events and Releases"
-msgstr "グローバルイベントおよびリリース"
-
-msgid "Gold member companies"
-msgstr "ゴールドメンバー企業"
-
 msgid "Great repository to begin your OpenStack learning"
 msgstr "OpenStack の学習を始めるための素晴らしいリポジトリー"
 
 msgid "Group exercise"
 msgstr "グループ演習"
 
-msgid "Growing in number (26 in 2016)"
-msgstr "増加中 (2016 年は 26 回)"
-
 msgid "Haikel Guemar (assistant, mentor, french, english)"
 msgstr "Haikel Guemar (assistant, mentor, french, english)"
-
-msgid "Handles cross-project related topics and issues"
-msgstr "クロスプロジェクト関連の話題や問題を取り扱う"
-
-msgid "Held by local groups to celebrate another year of OpenStack"
-msgstr "OpenStack の 1 年を祝うためにローカルグループにより開催されます"
 
 msgid "History status"
 msgstr "履歴の状態"
 
 msgid "Hopefully we end up with a unique Lego creation!"
 msgstr "ユニークな LEGO が創って終わることができますように!"
-
-msgid "Hosted annually by local OpenStack User Groups and companies"
-msgstr "各地域の OpenStack ユーザーグループや企業により毎年ホストされます"
 
 msgid "How OpenStack is Made"
 msgstr "OpenStack はどのように作られているか"
@@ -962,9 +775,6 @@ msgstr "IRC"
 msgid "Ian Y. Choi (training, assistant, mentoring)"
 msgstr "Ian Y. Choi (training, assistant, mentoring)"
 
-msgid "Identify a target milestone"
-msgstr "ターゲットマイルストーンの設定"
-
 msgid ""
 "If contributing code, being technically proficient enough to carry out "
 "simple bug fixes in the project"
@@ -987,15 +797,6 @@ msgstr "Ildiko Vancsa - ildikov - Telemetry (mentoring, assistant)"
 
 msgid "Ildikó Váncsa – The OpenStack Foundation"
 msgstr "Ildikó Váncsa – The OpenStack Foundation"
-
-msgid "Implementation"
-msgstr "実装"
-
-msgid "Implementation - Milestone"
-msgstr "実装 - マイルストーン"
-
-msgid "Implementation work"
-msgstr "実装作業"
 
 msgid "Implementing a blueprint/spec"
 msgstr "blueprint や spec を実装する"
@@ -1021,15 +822,6 @@ msgstr ""
 msgid "Incompatible config file changes"
 msgstr "互換性のない設定ファイルの変更"
 
-msgid "Independent release model"
-msgstr "独立リリースモデル"
-
-msgid "Individual Foundation members"
-msgstr "個人の Foundation メンバー"
-
-msgid "Individual members: all of us"
-msgstr "個人メンバー：私たち全員"
-
 msgid "Individuals and interactions over processes and tools"
 msgstr "プロセスやツールよりも個人と対話を"
 
@@ -1044,9 +836,6 @@ msgstr "さまざまなインフラ"
 
 msgid "Installs services from source"
 msgstr "ソースからサービスのインストール"
-
-msgid "Institutional members: Platinum and Gold sponsors"
-msgstr "組織メンバー：プラチナスポンサーおよびゴールドスポンサー"
 
 msgid "Integration"
 msgstr "結合"
@@ -1071,9 +860,6 @@ msgstr "ここで扱うこと"
 
 msgid "It is not about"
 msgstr "ここでは扱わないこと"
-
-msgid "Its activities are under the oversight of the TC"
-msgstr "活動は TC の監督下におかれます"
 
 msgid "Japan OpenStack User Group has held the Upstream Training in Japan."
 msgstr "日本OpenStackユーザ会は、日本版 Upstream Training を開催してきました。"
@@ -1166,12 +952,6 @@ msgid "Like any software project, there are:"
 msgstr ""
 "あらゆるソフトウェアプロジェクトと同じく、以下のようなプレイヤーがいます :"
 
-msgid "Limited to 50 characters"
-msgstr "50 文字以内にします"
-
-msgid "Lines limited to 72 characters"
-msgstr "1 行は 72 文字以内にします"
-
 msgid "Listen when people talk"
 msgstr "人が話しているときは聞く"
 
@@ -1205,9 +985,6 @@ msgstr ""
 msgid "Loïc Dachary (Training, mentoring, assistant, english and french)"
 msgstr "Loïc Dachary (Training, mentoring, assistant, english and french)"
 
-msgid "Main activities"
-msgstr "おもな活動"
-
 msgid "Make a new branch in your local repository"
 msgstr "手元のリポジトリーで新しいブランチを作成します"
 
@@ -1219,9 +996,6 @@ msgstr "コードを変更します"
 
 msgid "Make sure you have a wifi enabled laptop with you."
 msgstr "Wi-FI をきちんと有効化します。"
-
-msgid "Manage day-to-day operations"
-msgstr "日々の活動の管理"
 
 msgid "Managers"
 msgstr "マネージャー"
@@ -1258,10 +1032,6 @@ msgstr "指標"
 msgid "Milestones"
 msgstr "マイルストーン"
 
-msgid "Milestones are tagged in the repository using b1, b2 and b3"
-msgstr ""
-"マイルストーンは、b1、b2、b3 を使用して、リポジトリーでタグ付けされます。"
-
 msgid "Mission"
 msgstr "ミッション"
 
@@ -1286,9 +1056,6 @@ msgstr "20,000 以上のパッチ"
 msgid "Most of the OpenStack services"
 msgstr "ほとんどの OpenStack サービス"
 
-msgid "Multi-layer group of leadership"
-msgstr "複数階層のリーダーシップのグループ"
-
 msgid "Márk Korondi – IBM Research Zürich"
 msgstr "Márk Korondi – IBM Research Zürich"
 
@@ -1307,19 +1074,11 @@ msgstr "新機能"
 msgid "New patchset was recorded in Gerrit."
 msgstr "新しいパッチセットが Gerrit に記録されます。"
 
-msgid ""
-"Nonprofit foundation created to \"develop, support, protect, and promote\" "
-"OpenStack"
-msgstr "OpenStack を「開発、支援、保護、促進」するために作成された非営利団体"
-
 msgid "Objectives"
 msgstr "目的"
 
 msgid "October 10 - 11, 2014 (Fri - Sat)"
 msgstr "2014 年 10 月 10 - 11 日 (金 - 土)"
-
-msgid "Official OpenStack projects"
-msgstr "OpenStack 公式プロジェクト"
 
 msgid ""
 "Once the students are separated into their new roles, and have an "
@@ -1384,9 +1143,6 @@ msgstr ""
 msgid "OpenStack"
 msgstr "OpenStack"
 
-msgid "OpenStack Birthday Celebration"
-msgstr "OpenStack 誕生祭"
-
 msgid "OpenStack Days"
 msgstr "OpenStack Days"
 
@@ -1396,14 +1152,8 @@ msgstr "OpenStack Documentation"
 msgid "OpenStack Events"
 msgstr "OpenStack イベント"
 
-msgid "OpenStack Foundation"
-msgstr "OpenStack Foundation"
-
 msgid "OpenStack Governance"
 msgstr "OpenStack ガバナンス"
-
-msgid "OpenStack Project Teams"
-msgstr "OpenStack プロジェクトチーム"
 
 msgid "OpenStack Release Cycle"
 msgstr "リリースサイクル"
@@ -1444,20 +1194,8 @@ msgstr "Orchestration サービス"
 msgid "Other"
 msgstr "その他"
 
-msgid "Other possible content"
-msgstr "その他記載する可能性があるものとしては、"
-
-msgid "Overall feature freeze is the third milestone"
-msgstr "全体の機能凍結は 3 番目のマイルストーンです"
-
-msgid "Oversight over the OpenStack projects"
-msgstr "OpenStack プロジェクト全体の監督"
-
 msgid "Overview of the contribution process"
 msgstr "コントリビューションの流れの概要"
-
-msgid "PTG: https://www.openstack.org/ptg/"
-msgstr "PTG: https://www.openstack.org/ptg/"
 
 msgid "PTL : 1"
 msgstr "PTL : 1"
@@ -1483,24 +1221,6 @@ msgstr "より小さな作業を実行する。"
 msgid "Pick a task (bug, trivial fix, documentation, implementation)"
 msgstr "タスク (バグ、些細な修正、ドキュメント、実装) を選びます"
 
-msgid "Planning - Design"
-msgstr "計画 - 設計"
-
-msgid "Planning - Discuss"
-msgstr "計画 - 議論"
-
-msgid "Planning - Target"
-msgstr "計画 - 目標"
-
-msgid "Planning and design activities"
-msgstr "計画と設計の活動内容"
-
-msgid "Planning for a release cycle starts at the end of the previous cycle"
-msgstr "リリースサイクルの計画は、前のサイクルの最後に開始します"
-
-msgid "Platinum member companies"
-msgstr "プラチナメンバー企業"
-
 msgid "Play with your network"
 msgstr "あなたの知り合いと一緒に作業する。"
 
@@ -1513,33 +1233,8 @@ msgstr "バックポートの準備"
 msgid "Prepared virtual machine image with a development environment:"
 msgstr "開発環境を入れた仮想マシンイメージを準備します。"
 
-msgid "Prioritize bugs / bug triage"
-msgstr "バグの優先度付け、バグトリアージ"
-
-msgid "Produce *deliverables* to achieve a clearly stated *objective*"
-msgstr "明確に記載された *目標* を実現するための *成果物* を生産する"
-
 msgid "Product owners"
 msgstr "プロダクトオーナー"
-
-msgid "Project Team Gathering (PTG)"
-msgstr "Project Team Gathering (PTG)"
-
-msgid "Project Team Leads (PTLs)"
-msgstr "Project Team Lead (PTL)"
-
-msgid ""
-"Project team helps you to identify the target milestone and register it in "
-"the tracking tool"
-msgstr ""
-"プロジェクトチームは、ターゲットのマイルストーンを識別し、トラックツールに登"
-"録する手助けをします"
-
-msgid "Projects APIs are documented within the project"
-msgstr "プロジェクトの API ドキュメントは各プロジェクトで作成されます"
-
-msgid "Provides"
-msgstr "提供するもの"
 
 msgid ""
 "Provides transparent and meaningful statistics regarding contributions to "
@@ -1557,12 +1252,6 @@ msgstr "コメントの公開"
 msgid "Publish comment reply"
 msgstr "返信コメントの公開"
 
-msgid "Published collectively as the OpenStack release"
-msgstr "OpenStack リリースとして、まとめて公開される"
-
-msgid "Push code to Gerrit for review"
-msgstr "レビューのためにコードを Gerrit にプッシュします"
-
 msgid "Quantify the delta"
 msgstr "差分の定量化"
 
@@ -1577,41 +1266,11 @@ msgstr ""
 msgid "REST APIs"
 msgstr "REST API"
 
-msgid "References to other relevant patches?"
-msgstr "他の関連パッチへの参照があるか？"
-
-msgid "Regional 'Mini-Summit'"
-msgstr "地域ミニサミット"
-
-msgid "Regional Events"
-msgstr "地域イベント"
-
-msgid "Release"
-msgstr "リリース"
-
-msgid "Release Candidates"
-msgstr "リリース候補版"
-
-msgid "Release day"
-msgstr "リリース日"
-
-msgid "Release models"
-msgstr "リリースモデル"
-
-msgid "Release preparation"
-msgstr "リリース準備"
-
-msgid "Release process is managed by the Release Management team"
-msgstr "リリースプロセスは Release Management チームにより管理される"
-
 msgid "Relevant actors"
 msgstr "OpenStack に関わっている人々"
 
 msgid "Remove the code changes and run the tests"
 msgstr "コードの変更を削除して、テストを実行します"
-
-msgid "Repeated as many times as necessary"
-msgstr "必要な回数だけ繰り返される"
 
 msgid "Reply to comments"
 msgstr "コメントに応答します"
@@ -1625,17 +1284,8 @@ msgstr "バグ報告 - 概要"
 msgid "Repositories"
 msgstr "リポジトリー"
 
-msgid "Representatives are elected from"
-msgstr "以下から代表者の選出"
-
-msgid "Represents OpenStack users"
-msgstr "OpenStack ユーザーの代表"
-
 msgid "Resolve merge conflicts"
 msgstr "マージ時の衝突を解消します"
-
-msgid "Resolve technical disputes"
-msgstr "技術的な論争の解決"
 
 msgid "Responding to change over following a plan"
 msgstr "計画の遵守よりも変化への対応を"
@@ -1660,9 +1310,6 @@ msgstr "sandbox 環境にあるパッチを 3 つレビューしてください�
 
 msgid "Reviewing"
 msgstr "レビュー"
-
-msgid "Reviews"
-msgstr "レビュー数"
 
 msgid "Rodolphe Quiedeville (training, mentoring, assistant, french)"
 msgstr "Rodolphe Quiedeville (training, mentoring, assistant, french)"
@@ -1706,9 +1353,6 @@ msgstr "スコアはレビューアーの意見が反映されます。"
 msgid "Second day"
 msgstr "2 日目"
 
-msgid "SecurityImpact"
-msgstr "SecurityImpact"
-
 msgid "Seeing new comment"
 msgstr "新しいコメントの参照"
 
@@ -1718,17 +1362,11 @@ msgstr "自己完結"
 msgid "Seoul, Korea"
 msgstr "韓国 ソウル"
 
-msgid "Set by each project team"
-msgstr "各プロジェクトチームにより設定される"
-
 msgid "Setup & First Patch"
 msgstr "環境設定と最初のパッチ"
 
 msgid "Shinobu KINJO (mentoring, assistant, japanese)"
 msgstr "Shinobu KINJO (mentoring, assistant, japanese)"
-
-msgid "Should not end with a period"
-msgstr "ピリオドで終わらない"
 
 msgid "Single and multi node setup"
 msgstr "シングルノード・マルチノードのセットアップ"
@@ -1748,17 +1386,11 @@ msgstr ""
 "説明は *プレゼンターノート* で参照できます (参照するには :command:`c` を押し"
 "ます)。"
 
-msgid "Smaller scale than OpenStack Days Events"
-msgstr "OpenStack Days イベントよりも小規模"
-
 msgid "Software Development Kits (SDKs)"
 msgstr "ソフトウェア開発キット (SDK)"
 
 msgid "Software package that provides a cloud platform for"
 msgstr "クラウドプラットフォームを提供するソフトウェアパッケージ"
-
-msgid "Spec/blueprint freeze"
-msgstr "スペックとブループリントの凍結"
 
 msgid "Specialty teams"
 msgstr "専門チーム"
@@ -1806,21 +1438,6 @@ msgstr "Stefano Maffulli (training, mentoring, assistant, english)"
 msgid "Stephan Ahn (training, assistant, mentoring)"
 msgstr "Stephan Ahn (training, assistant, mentoring)"
 
-msgid "Strategic and financial oversight"
-msgstr "戦略と財務の監督"
-
-msgid "String freeze"
-msgstr "ストリングフリーズ"
-
-msgid "Submit the blueprints and/or specs"
-msgstr "ブループリントやスペックの提出"
-
-msgid "Subset of the Foundation Individual Members"
-msgstr "Foundation Individual Members の一部"
-
-msgid "Succinctly describes patch content"
-msgstr "パッチの内容を簡潔に述べます"
-
 msgid "Suggestions of projects to work on:"
 msgstr "取り組むプロジェクトの提案 : "
 
@@ -1842,9 +1459,6 @@ msgstr "システム管理者"
 msgid "Takashi Torii (assistant, japanese)"
 msgstr "Takashi Torii (assistant, japanese)"
 
-msgid "Take a step back"
-msgstr "譲歩する"
-
 msgid "Take the pulse of the project"
 msgstr "プロジェクトの活動状況を取得する。"
 
@@ -1857,35 +1471,14 @@ msgstr "想定対象者"
 msgid "Team members : 3-5"
 msgstr "チームメンバー : 3〜5"
 
-msgid "Teams in OpenStack can be freely created as they are needed"
-msgstr "OpenStack のチームは必要に応じて自由に作成できます。"
-
-msgid "Teams of people who"
-msgstr "以下の人々によるチーム"
-
-msgid "Technical Committee"
-msgstr "技術委員会 (TC: Technical Committee)"
-
-msgid "Technical Committee (\"TC\")"
-msgstr "Technical Committee (\"TC\")"
-
 msgid "Technical committee : 1"
 msgstr "技術委員会 (TC) : 1"
-
-msgid "Technical leadership"
-msgstr "技術的なリーダーシップ"
 
 msgid "Test coverage exercise"
 msgstr "テストカバレージの演習"
 
 msgid "Test suites"
 msgstr "テストコード"
-
-msgid "Test the code and file bugs"
-msgstr "コードのテスト、バグの登録"
-
-msgid "Testable on its own"
-msgstr "プロジェクト単体でテスト可能です"
 
 msgid "Testing"
 msgstr "テスト"
@@ -1902,21 +1495,8 @@ msgstr "コントリビューションの流れ (1 時間)"
 msgid "The Gerrit review will be merged by +1 in Workflow"
 msgstr "Gerrit のレビューは Workflow +1 によりマージされます"
 
-msgid ""
-"The OpenStack Foundation participates in internship programs as `Outreachy "
-"<https://wiki.openstack.org/wiki/Outreachy>`_."
-msgstr ""
-"OpenStack Foundation は `Outreachy <https://wiki.openstack.org/wiki/"
-"Outreachy>`_ などのインターンシッププログラムに参加します。"
-
 msgid "The OpenStack Package"
 msgstr "OpenStack のパッケージ"
-
-msgid "The code is self-evident/self-documenting"
-msgstr "コードは自明である、それ自体で説明になっている"
-
-msgid "The deadline for proposing new ideas for a release cycle"
-msgstr "そのリリースに向けた新しいアイディアの提案締め切り"
 
 msgid ""
 "The group is split into their new 'teams' at this stage. Facilitators can "
@@ -1936,20 +1516,6 @@ msgstr ""
 "整する必要があります。より多くのコミュニティーを持つ場合、各チームの作業の結"
 "果に `相互運用性`  を持たせるため、高いレベルの調整が求められます。"
 
-msgid "The official list of projects:"
-msgstr "プロジェクトの公式な一覧"
-
-msgid ""
-"The priority of the work item is set by the project team members or lead"
-msgstr ""
-"作業項目の優先度は、プロジェクトのチームメンバーやリーダーにより設定されます"
-
-msgid "The reviewer has access to external web services/site"
-msgstr "レビューアーは外部のウェブサービスやサイトにアクセスできる"
-
-msgid "The reviewer understands what the original problem was"
-msgstr "レビューアーは元の問題が何かを理解している"
-
 msgid ""
 "These slides prepare students for the Lego activity, and ensure they "
 "understand the metaphors in use. The Lego in the exercise represents the "
@@ -1965,9 +1531,6 @@ msgstr ""
 "Foundation や TC といったアップストリームの役割、企業や不明な動機で活動する無"
 "所属の個人（フリーエージェント）といったコントリビューターの役割も含まれま"
 "す。"
-
-msgid "Three development milestones during a release cycle"
-msgstr "リリースサイクル中の 3 つの開発マイルストーン"
 
 msgid "Tim Freund (assistant, english)"
 msgstr "Tim Freund (assistant, english)"
@@ -1990,9 +1553,6 @@ msgstr "日本 東京"
 
 msgid "Tox"
 msgstr "Tox"
-
-msgid "Trailing the common cycle"
-msgstr "共通サイクルの追従"
 
 msgid ""
 "Transparency: the community can have confidence that all calculations are "
@@ -2031,12 +1591,6 @@ msgstr "ユニット"
 msgid "Update and add tests (unit, functional, etc.)"
 msgstr "テストの更新や追加を行います (ユニットテスト、機能テストなど)"
 
-msgid "UpgradeImpact"
-msgstr "UpgradeImpact"
-
-msgid "Upload your code as early as possible in the release cycle"
-msgstr "リリースサイクルの中でなるべく早くコードをアップロードします"
-
 msgid "Uploading a new patchset"
 msgstr "新しいパッチセットのアップロード"
 
@@ -2073,18 +1627,6 @@ msgstr "お使いの IRC クライアントか Web IRC を使用します"
 msgid "Used as"
 msgstr "以下に使用される"
 
-msgid "Used as-is as the final release"
-msgstr "最終リリースとして、そのまま使われる"
-
-msgid "User Committee"
-msgstr "ユーザー委員会 (UC: User Committee)"
-
-msgid "User Committee (\"UC\")"
-msgstr "User Committee (\"UC\")"
-
-msgid "User Group Meetups"
-msgstr "ユーザーグループミートアップ"
-
 msgid "User groups"
 msgstr "ユーザーグループ"
 
@@ -2093,10 +1635,6 @@ msgstr "LEGO によるコミュニティーの再現"
 
 msgid "Using Sandbox for Practice"
 msgstr "Sandbox を使用した実践"
-
-msgid "Using the common tools (code repository, bug tracker, CI system, etc.)"
-msgstr ""
-"共通のツールを使用する (コードリポジトリー、バグトラッカー、CI システムなど)"
 
 msgid "Validate the services are running"
 msgstr "実行中のサービスを検証します"
@@ -2149,15 +1687,6 @@ msgstr ""
 "我々は、コミュニティーメンバー同士がどう影響し合うかを見るために、各自役割を"
 "引き受けます"
 
-msgid "What makes a release"
-msgstr "リリースとは何か"
-
-msgid "When in the cycle you intend to complete it"
-msgstr "完了する予定のリリースサイクル"
-
-msgid "When your blueprint/spec is accepted"
-msgstr "ブループリントとスペックが承認されたとき"
-
 msgid "Who's familiar with the term?"
 msgstr "この言葉をよく知っている人はいますか？"
 
@@ -2187,12 +1716,6 @@ msgstr ""
 
 msgid "Work in parallel"
 msgstr "並行作業"
-
-msgid "Work on feedback and comments"
-msgstr "フィードバックとコメントへの対応"
-
-msgid "Work towards OpenStack's mission"
-msgstr "OpenStack のミッションに向かった作業"
 
 msgid "Workflow and Tools for Participation"
 msgstr "参加するための流れとツール"
@@ -2348,14 +1871,6 @@ msgstr ""
 "`ミーティング <https://wiki.openstack.org/wiki/"
 "Meetings#Technical_Committee_meeting>`_"
 
-msgid ""
-"`Mentoring <https://wiki.openstack.org/wiki/Mentors>`_ is run by the Women "
-"of OpenStack group, where mentees are guided through the OpenStack processes."
-msgstr ""
-"`メンタリング <https://wiki.openstack.org/wiki/Mentors>`_ は\n"
-" Women of OpenStack グループにより実施されます。参加者は OpenStack プロセス全"
-"体についてガイドを受けます。"
-
 msgid "`Metrics <workflow-metrics.html>`_"
 msgstr "`メトリクス <workflow-metrics.html>`_"
 
@@ -2435,13 +1950,6 @@ msgid ""
 "`Release day <https://wiki.openstack.org/wiki/Release_Cycle#Release_day>`_"
 msgstr ""
 "`リリース日 <https://wiki.openstack.org/wiki/Release_Cycle#Release_day>`_"
-
-msgid ""
-"`Requirements <https://governance.openstack.org/reference/new-projects-"
-"requirements.html>`_ for official OpenStack projects"
-msgstr ""
-"OpenStack 公式プロジェクトの `要件 <https://governance.openstack.org/"
-"reference/new-projects-requirements.html>`__"
 
 msgid "`Reviewing <workflow-reviewing.html>`_"
 msgstr "`レビュー <workflow-reviewing.html>`_"
@@ -2568,9 +2076,6 @@ msgstr "https://etherpad.openstack.org/p/upstream-training-vancouver"
 msgid "https://git.openstack.org/cgit/openstack-dev/sandbox"
 msgstr "https://git.openstack.org/cgit/openstack-dev/sandbox"
 
-msgid "https://groups.openstack.org/"
-msgstr "https://groups.openstack.org/"
-
 msgid "https://launchpad.net/openstack-dev-sandbox"
 msgstr "https://launchpad.net/openstack-dev-sandbox"
 
@@ -2583,17 +2088,11 @@ msgstr "git review のインストール"
 msgid "macJack (assistant, English, Chinese)"
 msgstr "macJack (assistant, English, Chinese)"
 
-msgid "master branch is open for development"
-msgstr "master ブランチは開発向けにオープンになります"
-
 msgid "nvie inspired"
 msgstr "nvie による触発"
 
 msgid "risk of regression"
 msgstr "後退のリスク"
-
-msgid "stable/release branch"
-msgstr "stable ブランチ、リリースブランチ"
 
 msgid "the contribution they plan to work on during the online sessions"
 msgstr "オンラインセッション中に手がけようとしているコントリビューションの計画"
