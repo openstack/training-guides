@@ -9,6 +9,16 @@ OpenStack Events
 .. note::
    Tags: [management] [operator] [user] [new_dev] [dev]
 
+Learning Exercise
+=================
+
+* Open the `Events
+  <https://docs.openstack.org/contributors/common/events.html>`_ section
+  of the Contributor Guide
+* Read the material
+* Ask the mentors questions
+* Get ready to go through the exercises
+
 Exercise 1
 ==========
 

@@ -13,8 +13,6 @@ Introduction
    :maxdepth: 1
 
    intro-introduction.rst
-   intro-openstack-as-software.rst
-   intro-openstack-as-community.rst
 
 Setup the Development Environment
 =================================
@@ -30,7 +28,6 @@ How OpenStack is Made
 .. toctree::
    :maxdepth: 1
 
-   howitsmade-official-projects.rst
    howitsmade-governance.rst
    howitsmade-release-cycle.rst
    howitsmade-communication.rst
@@ -48,7 +45,6 @@ Workflow and Tools for Participation
    workflow-commit-message.rst
    workflow-project-status-and-zuul.rst
    workflow-setup-and-first-patch.rst
-   workflow-using-sandbox.rst
 
 Code Deep Dive
 ==============

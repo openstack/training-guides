@@ -9,6 +9,16 @@ OpenStack Project Status and Zuul
 .. note::
    Tags: [new_dev] [dev]
 
+Learning Exercise
+=================
+
+* Open the `Checking Status in Zuul
+  <https://docs.openstack.org/contributors/common/zuul-status.html>`_ section
+  of the Contributor Guide
+* Read the material
+* Ask the mentors questions
+* Get ready to go through the exercises
+
 Exercise 1
 ==========
 - Look at the `Zuul <http://status.openstack.org/zuul>`_ status page

@@ -45,5 +45,19 @@ Jump on IRC and etherpad
 
     https://webchat.freenode.net/?channels=openstack-dev
 
-- Open the `training etherpad <https://etherpad.openstack.org/p/upstream-institute-sydney-2017>`_
+- Open the `training etherpad <https://etherpad.openstack.org/p/upstream-institute-vancouver-2018>`_
   for team work
+
+Open the Contributor Guide
+==========================
+
+The Contributor Guide contains all the information you need to know to be able
+to start contributing to OpenStack.
+
+The training blocks will guide you through the chapters to get to know the
+community, tools and processes that we are using.
+
+Ready, set, go to https://docs.openstack.org/contributors/
+
+And then open the `Introductions
+<https://docs.openstack.org/contributors/common/introduction.html>`_ chapter.

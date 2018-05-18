@@ -9,6 +9,15 @@ OpenStack Release Cycle
 .. note::
    Tags: [management] [operator] [user] [new_dev] [dev]
 
+Learning Exercise
+=================
+
+* Open the `Releases
+  <https://docs.openstack.org/contributors/common/governance.html#releases>`_
+  section of the Contributor Guide under OpenStack Governance
+* Read the material
+* Ask the mentors questions
+* Get ready to go through the exercises
 
 Exercise 1
 ==========

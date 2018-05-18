@@ -9,6 +9,16 @@ Task Tracking
 .. note::
    Tags: [operator] [user] [new_dev] [dev]
 
+Learning Exercise
+=================
+
+* Open the `Task Tracking
+  <https://docs.openstack.org/contributors/common/task-tracking.html>`_
+  section of the Contributor Guide
+* Read the material
+* Ask the mentors questions
+* Get ready to go through the exercises
+
 Exercise 1
 ==========
 
