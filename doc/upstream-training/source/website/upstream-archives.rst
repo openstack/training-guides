@@ -333,3 +333,4 @@ Archive of additional training activities
   <archive-training-agile-for-contributors.html>`_
 * `Closing Exercise  <archive-closing-exercise.html>`_
 * `Branching model <archive-branching-model.html>`_
+* `Metrics <workflow-metrics.html>`_

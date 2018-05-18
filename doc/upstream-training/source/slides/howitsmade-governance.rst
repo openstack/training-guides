@@ -23,7 +23,7 @@ Exercise 2
   next round?
 
 
-Exercise 2
+Exercise 3
 ==========
 
 - What is the difference between ATC, AUC, and APC?
