@@ -21,4 +21,4 @@ Summary
   - OpenStack sandbox environment: DevStack
 
 - VM image and instructions:
-  https://github.com/kmARC/openstack-training-virtual-environment/blob/master/README.md
+  https://github.com/openstack/upstream-institute-virtual-environment/blob/master/README.md
