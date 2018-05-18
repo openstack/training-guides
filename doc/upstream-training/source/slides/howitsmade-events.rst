@@ -24,4 +24,4 @@ Exercise 2
 Exercise 3
 ==========
 
-- Look up the location and dates of the next Summit/Forum.
+- Look up the location and dates of the next Summit/Forum

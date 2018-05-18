@@ -15,11 +15,11 @@ Exercise 1
 Write a summary line for each of the following scenarios:
 
 - Someone left a print statement that was used for testing during
-  development that is being added to the logs.
+  development that is being added to the logs
 - There are unused arguments being passed into a method that is
-  used in several different files.
+  used in several different files
 - A new capability was added to the project that should be
-  implemented in all vendor drivers.
+  implemented in all vendor drivers
 
 Share your favorite to our IRC channel.
 

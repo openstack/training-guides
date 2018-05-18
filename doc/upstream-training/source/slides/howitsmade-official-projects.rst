@@ -19,5 +19,5 @@ Exercise 2
 ==========
 
 - Tags can be associated with projects.  Find out what tags are used for and
-  find the current list of available tags.
+  find the current list of available tags
 

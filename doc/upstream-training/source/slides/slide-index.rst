@@ -47,7 +47,6 @@ Workflow and Tools for Participation
    workflow-reviewing.rst
    workflow-commit-message.rst
    workflow-project-status-and-zuul.rst
-   workflow-metrics.rst
    workflow-setup-and-first-patch.rst
    workflow-using-sandbox.rst
 
@@ -78,3 +77,4 @@ Archive
    archive-training-agile-for-contributors.rst
    archive-closing-exercise.rst
    archive-branching-model.rst
+   archive-metrics.rst
