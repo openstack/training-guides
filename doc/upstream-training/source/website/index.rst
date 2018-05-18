@@ -22,7 +22,7 @@ OpenStack Upstream Institute
 Overview
 ========
 
-With over 2,000 developers from over 300 different organizations worldwide,
+With over 6,000 developers from over 300 different organizations worldwide,
 OpenStack is one of the largest collaborative software-development projects.
 Because of its size, it is characterized by a huge diversity in social norms
 and technical conventions.
@@ -34,7 +34,7 @@ of contributing to OpenStack like providing new features, writing
 documentation, participating in working groups, and so forth. The educational
 program is built on the principle of open collaboration and will teach the
 students how to find information and navigate the intricacies of the
-project’s technical tools and social interactions in order to get their
+project's technical tools and social interactions in order to get their
 contributions accepted. The live one and a half day class is focusing on
 hands-on practice like the students can use a prepared development
 environment to learn how to test, prepare and upload new code snippets or
@@ -111,8 +111,8 @@ Staff
 Training organizers
 -------------------
 
-Ildiko Vancsa: ildiko@openstack.org
-Kendall Nelson: knelson@openstack.org
+- Ildiko Vancsa: ildiko@openstack.org
+- Kendall Nelson: knelson@openstack.org
 
 Further trainers/coaches
 ------------------------
