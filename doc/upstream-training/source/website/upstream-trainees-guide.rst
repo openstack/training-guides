@@ -10,7 +10,7 @@ How to prepare
 * Make sure you have a wifi enabled laptop with you.
 * Prepared virtual machine image with a development environment:
 
-  * Image and instructions: https://github.com/openstack/upstream-institute-virtual-environment
+  * Image: http://bit.ly/vm-2018-vancouver-v1
 
 * Prepare an environment by yourself from scratch:
 
