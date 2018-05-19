@@ -17,8 +17,6 @@ Introduction
 ------------
 
 * `Introduction <intro-introduction.html>`_
-* `Introducing OpenStack as a Software <intro-openstack-as-software.html>`_
-* `Introducing OpenStack as a Community <intro-openstack-as-community.html>`_
 
 Setup the Development Environment
 ---------------------------------
@@ -28,7 +26,6 @@ Setup the Development Environment
 How OpenStack is Made
 ---------------------
 
-* `Official OpenStack projects <howitsmade-official-projects.html>`_
 * `OpenStack Governance <howitsmade-governance.html>`_
 * `Release cycle <howitsmade-release-cycle.html>`_
 * `Communication <howitsmade-communication.html>`_
@@ -45,7 +42,6 @@ Workflow and Tools for Participation
 * `Project Status and Zuul <workflow-project-status-and-zuul.html>`_
 * `Guide to SetUp and Push First Patch
   <workflow-setup-and-first-patch.html>`_
-* `Using Sandbox for Practice <workflow-using-sandbox.html>`_
 
 Code Deep Dive
 --------------

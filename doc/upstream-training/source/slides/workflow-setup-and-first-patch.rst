@@ -15,6 +15,16 @@ Setup & First Patch
    Look at the 'Setup & Learn Git','Setting Up Your Gerrit Account', and
    the 'Using Gerrit' sections for reference.
 
+Learning Exercise
+=================
+
+* Open the `Setup and Learn GIT
+  <https://docs.openstack.org/contributors/common/git.html>`_ section
+  of the Contributor Guide
+* Read the material
+* Ask the mentors questions
+* Get ready to go through the exercises
+
 Exercise
 ========
 
@@ -28,3 +38,10 @@ Exercise
     - Make changes (add / edit files)
     - Commit files and write commit message
     - ``git review``
+
+Exercise
+========
+
+- Read the `How to Become a Patch Guru?
+  <https://docs.openstack.org/contributors/code-and-documentation/patch-best-practices.html>`_ section
+- Ask questions or suggest more best practices

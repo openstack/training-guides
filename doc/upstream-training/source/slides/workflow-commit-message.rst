@@ -9,6 +9,16 @@ Commit Messages
 .. note::
    Tags: [new_dev] [dev]
 
+Learning Exercise
+=================
+
+* Open the `Commit Messages
+  <https://docs.openstack.org/contributors/common/git.html#commit-messages>`_
+  section of the Contributor Guide under Git
+* Read the material
+* Ask the mentors questions
+* Get ready to go through the exercises
+
 Exercise 1
 ==========
 
