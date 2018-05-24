@@ -10,7 +10,7 @@ OpenStack Days Poland
 
 `OpenStack Days Poland <http://www.openstackday.pl/>`_ event site
 
- **Monday and Tuesday, June 11-12, 2018**
+**Monday and Tuesday, June 11-12, 2018**
 
 Exact schedule and class details to come!
 
@@ -27,9 +27,9 @@ OpenInfra Days Korea
 
 `OpenStack Days Korea <http://event.openstack.or.kr/>`_ event site.
 
- **Thursday and Friday, June 28-29, 2018**
+**Thursday and Friday, June 28-29, 2018**
 
- Exact schedule and class details to come!
+Exact schedule and class details to come!
 
 `Etherpad for Korea Upstream Collaboration Training
 <https://etherpad.openstack.org/p/upstream-institute-korea-2018>`_
@@ -44,7 +44,7 @@ OpenStack Days Brazil
 
 `OpenStack Days Brazil <http://www.openstackbr.com.br/events/2018/>`_ event site
 
- **Friday and Saturday, July 27-28, 2018**
+**Friday and Saturday, July 27-28, 2018**
 
 Exact schedule and class details to come!
 
