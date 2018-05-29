@@ -28,10 +28,11 @@ Documentation team structure
 
 - Specialty teams
 
-  - API, Security Guide, Training Guides, Training Labs
+  - API, Contributor Guide, Security Guide, Training Guides, Training Labs
 
 - `Docs cores <https://review.openstack.org/#/admin/groups/30,members>`_
   and separate core teams for `docs-specs <https://review.openstack.org/#/admin/groups/384,members>`_
+  , `contributor-guide <https://review.openstack.org/#/admin/groups/1841,members>`_
   , `security-doc <https://review.openstack.org/#/admin/groups/347,members>`_
   , `training-guides <https://review.openstack.org/#/admin/groups/360,members>`_
   , and `training-labs <https://review.openstack.org/#/admin/groups/1118,members>`_
@@ -47,10 +48,10 @@ Repositories
 
   - Example: `Heat repository <https://git.openstack.org/cgit/openstack/heat/tree/>`_
 
-    - `Installation Tutorial (Ocata) <https://docs.openstack.org/project-install-guide/orchestration/ocata/>`_
-      is published from install-guide directory in stable/ocata branch
     - `Developer documentation <https://docs.openstack.org/heat/>`_
       is published from doc directory in master branch
+    - `Installation Tutorial (Ocata) <https://docs.openstack.org/project-install-guide/orchestration/ocata/>`_
+      is published from install-guide directory in stable/ocata branch
 
 Bug reports
 ===========
@@ -58,6 +59,7 @@ Bug reports
 - https://bugs.launchpad.net/openstack-manuals
 - https://bugs.launchpad.net/openstack-api-site
 - https://bugs.launchpad.net/openstack-training-guides
+- https://storyboard.openstack.org/#!/project/913
 
 Contributor guide
 =================
@@ -76,6 +78,7 @@ EOL documents
 =============
 
 - EOL documents are not maintained in the documentation repositories,
-  the content is frozen.
+  the content is frozen, but published documents are accessible by
+  `retention policy <http://specs.openstack.org/openstack/docs-specs/specs/queens/retention-policy.html>`_
 
   - See EOL status at: https://releases.openstack.org
