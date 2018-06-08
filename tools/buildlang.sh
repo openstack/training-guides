@@ -30,10 +30,10 @@ MARKER_TEXT="Project: $ZUUL_PROJECT Ref: $ZUUL_REFNAME Build: $ZUUL_UUID"
 # upstream-training contains the HTML and slides contents
 
 # build upstream-training slides
-sphinx-build -j $NUMBER_OF_CORES -b slides -b gettext ${DIRECTORY}/source/slides \
+sphinx-build -j $NUMBER_OF_CORES -b gettext ${DIRECTORY}/source/slides \
     ${DIRECTORY}/source/locale/
 # build upstream landing page index.html
-sphinx-build -j $NUMBER_OF_CORES -b html -b gettext ${DIRECTORY}/source/website \
+sphinx-build -j $NUMBER_OF_CORES -b gettext ${DIRECTORY}/source/website \
     ${DIRECTORY}/source/locale/
 
 # check all language translation resouce
