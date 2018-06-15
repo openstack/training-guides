@@ -50,7 +50,7 @@ Install Maven:
 http://docs.openstack.org/training-guides/content/operator-getting-started-lab.html#operator-fix-doc-bug
 git-review
 http://www.mediawiki.org/wiki/Gerrit/git-review
-https://pypi.python.org/pypi/git-review
+https://pypi.org/project/git-review/
 http://docs.openstack.org/infra/manual/developers.html#installing-git-review
 
 Understanding the submission process in-depth:
