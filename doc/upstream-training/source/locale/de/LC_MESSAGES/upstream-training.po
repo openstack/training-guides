@@ -1,18 +1,19 @@
 # Adriano Perri <adriano.perri@telekom.de>, 2017. #zanata
 # Frank Kloeker <eumel@arcor.de>, 2017. #zanata
 # Robert Simai <robert.simai@suse.com>, 2017. #zanata
+# Alexander Loew <alexander.loew@innovo-cloud.de>, 2018. #zanata
 # Reik Keutterling <spielkind@gmail.com>, 2018. #zanata
 # Robert Simai <robert.simai@suse.com>, 2018. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-29 08:45+0000\n"
+"POT-Creation-Date: 2018-07-10 17:46+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-03-05 09:36+0000\n"
-"Last-Translator: Robert Simai <robert.simai@suse.com>\n"
+"PO-Revision-Date: 2018-07-10 10:56+0000\n"
+"Last-Translator: Alexander Loew <alexander.loew@innovo-cloud.de>\n"
 "Language-Team: German\n"
 "Language: de\n"
 "X-Generator: Zanata 4.3.3\n"
@@ -23,6 +24,12 @@ msgstr "** Mentoren **"
 
 msgid "**Staff**"
 msgstr "**Personal**"
+
+msgid "1 day"
+msgstr "1 Tag"
+
+msgid "1.5 days"
+msgstr "1,5 Tage"
 
 msgid "13:45 Sagrada Familia"
 msgstr "13:45 Sagrada Familia"
@@ -85,7 +92,7 @@ msgid "3-4 different companies"
 msgstr "3-4 verschiedene Firmen"
 
 msgid "5 mins planning"
-msgstr "5 min Planen"
+msgstr "5 min Planung"
 
 msgid "5 mins review"
 msgstr "5 min Überprüfen"
@@ -229,6 +236,9 @@ msgstr "Stellen Sie Fragen in der Klasse"
 
 msgid "Ask questions in the channel or send direct messages"
 msgstr "Fragen im Kanal stellen oder direkte Nachrichten senden"
+
+msgid "Ask the mentors questions"
+msgstr "Stelle dem Mentor fragen"
 
 msgid ""
 "Ask the students questions to make sure they are engaged and understand the "
@@ -682,6 +692,9 @@ msgstr "Dokumentation Deep Dive"
 msgid "Documentation team structure"
 msgstr "Dokumentationsteamstruktur"
 
+msgid "Documentation: https://docs.openstack.org/developer/devstack/"
+msgstr "Dokumentation: https://docs.openstack.org/developer/devstack/"
+
 msgid "Don't game the numbers"
 msgstr "Spielen Sie nicht mit den Zahlen"
 
@@ -805,6 +818,12 @@ msgstr "Übung 2"
 
 msgid "Exercise 3"
 msgstr "Übung 3"
+
+msgid "Exercise 4"
+msgstr "Übung 4"
+
+msgid "Exercise 5"
+msgstr "Übung 5"
 
 msgid "Exercise: Step 1"
 msgstr "Übung: Schritt 1"
@@ -982,6 +1001,9 @@ msgstr "Gergely Csatári - Nokia"
 
 msgid "Gerrit"
 msgstr "Gerrit"
+
+msgid "Get ready to go through the exercises"
+msgstr "Sei bereit die Übungen zu machen"
 
 msgid ""
 "Get started on time even if there aren't many people in the room, just go "
@@ -1222,10 +1244,16 @@ msgstr "Jieun Kim (Assistent)"
 msgid "Jirayut Nimsaeng- Kaidee"
 msgstr "Jirayut Nimsaeng - Kaidee"
 
+msgid "Join the #openstack-dev channel"
+msgstr "Komm in den #openstack-dev channel"
+
 msgid "Join the IRC channel of the class and participate during the training"
 msgstr ""
 "Betreten Sie den IRC-Kanal der Klasse und nehmen Sie während des Trainings "
 "am Chat teil"
+
+msgid "Join the channel of the project(s) you are interested in"
+msgstr "Trete den Kanälen der Projekte bei, die dich interessieren "
 
 msgid "Join the openstack-dev mailing list"
 msgstr "Der openstack-dev Mailingliste beitreten"
@@ -1261,12 +1289,16 @@ msgid "Kendall Nelson – The OpenStack Foundation"
 msgstr "Kendall Nelson – The OpenStack Foundation"
 
 msgid "Kill and restart a service: <ctrl>-c , <up arrow> to retrieve command"
-msgstr "Töten und neu starten: <ctrl> -c, <up arrow> den Befehl abrufen"
+msgstr ""
+"service abbrechen und neu starten: <ctrl> -c, <up arrow> den Befehl abrufen"
 
 msgid "Know where to find information, where and how to get help if needed"
 msgstr ""
 "Wissen Sie, wo Sie Informationen finden können, wo und wie Sie Hilfe "
 "bekommen, wenn nötig"
+
+msgid "Kraków, Poland"
+msgstr "Krakau, Polen"
 
 msgid "LOG message exercise"
 msgstr "Lognachricht-Übung"
@@ -1285,6 +1317,9 @@ msgstr "Erfahren Sie mehr über die Community"
 
 msgid "Learn how to participate in OpenStack"
 msgstr "Erfahren Sie, wie Sie an OpenStack teilnehmen können"
+
+msgid "Learning Exercise"
+msgstr "Lernübung"
 
 msgid "Lego applied to Free Software contributions"
 msgstr "Lego gilt für freie Softwarebeiträge"
@@ -1458,6 +1493,15 @@ msgstr "Mehr als 20 Millionen Zeilen Code"
 msgid "More than 20,000 patches"
 msgstr "Mehr als 20.000 Patches"
 
+msgid ""
+"Most of the course content is being moved to `the Contributor Guide <https://"
+"docs.openstack.org/contributors/>`_. In the future, all that will live here "
+"are exercises that accompany the Guide."
+msgstr ""
+"Das meiste des Kursinhaltes wurde nach `the Contributor Guide <https://docs."
+"openstack.org/contributors/>` verschoben.In Zukunft werden die Übungen die "
+"den Contributor Guide begleiten, hier zu finden sein."
+
 msgid "Most recent (\"Ocata\") release stats:"
 msgstr "Die letzten (\"Ocata\") Release-Statistiken:"
 
@@ -1555,6 +1599,15 @@ msgstr ""
 "Offene Reviews, Beitrag für die letzten 30 oder 90 Tage, Tätigkeitsbericht, "
 "etc."
 
+msgid "OpenStack Day Poland"
+msgstr "OpenStack Tage Polen"
+
+msgid "OpenStack Days Brazil"
+msgstr "OpenStack Tage Brasilien"
+
+msgid "OpenStack Days Poland"
+msgstr "OpenStack Tage Polen"
+
 msgid "OpenStack Documentation"
 msgstr "OpenStack-Dokumentation"
 
@@ -1569,6 +1622,9 @@ msgstr "OpenStack Projektstatus und Zuul"
 
 msgid "OpenStack Release Cycle"
 msgstr "OpenStack Versionszyklen"
+
+msgid "OpenStack Summit Vancouver"
+msgstr "OpenStack Summit Vancouver"
 
 msgid "OpenStack Upstream Institute"
 msgstr "OpenStack Upstream Institut"
@@ -1728,6 +1784,16 @@ msgstr ""
 "BEACHTEN SIE: Dies ist Open Source. Dinge passieren nach der Planung der "
 "Gemeinschaft, nicht nach Ihrer."
 
+msgid "Read the material"
+msgstr "Lese die Unterlagen"
+
+msgid "Read the material until the Releases section"
+msgstr "Lese das Material bis zum Kapitel Releases"
+
+msgid "Ready, set, go to https://docs.openstack.org/contributors/"
+msgstr ""
+"Auf die Plätze, fertig, los  gehe zu https://docs.openstack.org/contributors/"
+
 msgid "Recommendations to become an active community member"
 msgstr "Empfehlungen um aktivies Community-Mitglied zu werden"
 
@@ -1834,6 +1900,12 @@ msgstr ""
 
 msgid "See EOL status at: https://releases.openstack.org"
 msgstr "Siehe EOL-Status unter: https://releases.openstack.org"
+
+msgid "See YOU in Kraków!"
+msgstr "Wir sehen uns in Krakau!"
+
+msgid "See YOU in Seoul!"
+msgstr "Wir sehen uns, in Seoul!"
 
 msgid ""
 "See this web page and the schedule of the upcoming class for more details "
@@ -2094,6 +2166,15 @@ msgstr ""
 "Die unten stehende Tabelle teilt die Module für verschiedene Positionen auf."
 
 msgid ""
+"The training will take place in `Vancouver Convention Centre West - Level "
+"Two - Room 215-216 <https://www.openstack.org/summit/vancouver-2018/venues/"
+"#venue=338>`_."
+msgstr ""
+"Das Training findet im `Vancouver Convention Centre West - Level Two - Room "
+"215-216 <https://www.openstack.org/summit/vancouver-2018/venues/#venue=338>` "
+"statt."
+
+msgid ""
 "There is a Forum session in Boston about the future of Stackalytics as there "
 "are issues with the tool. As we don't have a replacement as of now we can "
 "still share info about the currently available tool."
@@ -2204,6 +2285,9 @@ msgstr ""
 msgid "Treat documentation like OpenStack code."
 msgstr "Behandeln Sie Dokumentation wie OpenStack Code."
 
+msgid "Trust within the community"
+msgstr "Vertraue in die Gemeinschaft"
+
 msgid ""
 "Try to find things to make comments on even if they are just asking a "
 "question and not pointing out an issue, don't just +1 three different "
@@ -2306,6 +2390,13 @@ msgstr "User: Benutzt OpenStack oder beginnt es zu verwenden."
 msgid "Using Lego to represent the community"
 msgstr "Lego benutzen, um die Gemeinschaft zu vertreten"
 
+msgid ""
+"VM image and instructions: https://github.com/openstack/upstream-institute-"
+"virtual-environment/blob/master/README.md"
+msgstr ""
+"VM Abbild und Anleitung: https://github.com/openstack/upstream-institute-"
+"virtual-environment/blob/master/README.md"
+
 msgid "Validate the services are running"
 msgstr "Validieren der laufenden Dienste"
 
@@ -2383,6 +2474,13 @@ msgid "When possible, sit at a table and build connections with attendees"
 msgstr ""
 "Wenn möglich, sitzen Sie an einem Tisch und bauen Verbindungen mit den "
 "Teilnehmern auf"
+
+msgid ""
+"Which members of these groups will be up for reelection during the next "
+"round?"
+msgstr ""
+"Welche Mitglieder dieser Gruppen stellen sich zur Neuwahl in der nächsten "
+"Runde?"
 
 msgid ""
 "Work with your group to find and discuss the different freeze activities"
@@ -2653,6 +2751,9 @@ msgstr "https://etherpad.openstack.org/p/upstream-training-barcelona"
 
 msgid "https://etherpad.openstack.org/p/upstream-training-vancouver"
 msgstr "https://etherpad.openstack.org/p/upstream-training-vancouver"
+
+msgid "https://storyboard.openstack.org/#!/project/913"
+msgstr "https://storyboard.openstack.org/#!/project/913"
 
 msgid "https://wiki.openstack.org/wiki/IRC"
 msgstr "https://wiki.openstack.org/wiki/IRC"
