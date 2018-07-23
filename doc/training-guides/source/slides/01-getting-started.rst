@@ -53,7 +53,8 @@ Release Cycle
 
 - Coordinated 6-month release cycle with frequent development milestones
 
-  - Current development release: http://docs.openstack.org/project-team-guide/release-management.html
+  - Current development release: `Release Management
+    <http://docs.openstack.org/project-team-guide/release-management.html>`_
 
 - The Release Cycle
 
@@ -66,7 +67,7 @@ Release Cycle
 .. note::
 
     - OpenStack is a true and innovative open standard. For more user stories,
-      see http://www.openstack.org/user-stories.
+      see `The World #RunsOnOpenStack <http://www.openstack.org/user-stories>`_.
 
 Governance
 ==========
