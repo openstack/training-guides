@@ -131,7 +131,8 @@ Previous trainings
   <http://events17.linuxfoundation.org/events/opnfv-summit/extend-the-experience/openstack-upstream-institute>`_
 - Crews: `Beijing Crew
   <https://wiki.openstack.org/wiki/OpenStack_Upstream_Institute_Occasions#Beijing_Crew>`_
-- Etherpad: https://etherpad.openstack.org/p/upstream-institute-beijing
+- Etherpad: `Etherpad for Upstream Training, Beijing, 2017
+  <https://etherpad.openstack.org/p/upstream-institute-beijing>`_
 
 2017 Boston, USA
 ----------------
@@ -140,7 +141,8 @@ Previous trainings
   <https//superuser.openstack.org/articles/openstack-upstream-institute-update/>`_
 - Crews: `Boston Crew
   <https://wiki.openstack.org/wiki/OpenStack_Upstream_Institute_Occasions#Boston_Crew>`_
-- Etherpad: https://etherpad.openstack.org/p/upstream-training-boston
+- Etherpad: `Etherpad for Upstream Training, Boston, 2017
+  <https://etherpad.openstack.org/p/upstream-training-boston>`_
 
 2016 Barcelona, Spain
 ---------------------
@@ -169,7 +171,8 @@ Previous trainings
 Etherpad
 ~~~~~~~~
 
-https://etherpad.openstack.org/p/upstream-training-barcelona
+`Etherpad for Upstream Training, Barcelona, 2016
+<https://etherpad.openstack.org/p/upstream-training-barcelona>`_
 
 2016 Austin, USA
 ----------------
@@ -217,7 +220,8 @@ https://etherpad.openstack.org/p/upstream-training-barcelona
 Etherpad
 ~~~~~~~~
 
-https://etherpad.openstack.org/p/upstream-training-vancouver
+`Etherpad for Upstream Training, Vancouver, 2015
+<https://etherpad.openstack.org/p/upstream-training-vancouver>`_
 
 2014 Paris, France
 ------------------
