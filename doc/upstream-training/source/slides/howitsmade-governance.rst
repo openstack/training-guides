@@ -15,7 +15,6 @@ Learning Exercise
 * Open the `OpenStack Governance
   <https://docs.openstack.org/contributors/common/governance.html>`_ section
   of the Contributor Guide
-* Read the material until the Releases section
 * Ask the mentors questions
 * Get ready to go through the exercises
 
@@ -41,9 +40,3 @@ Exercise 4
 ==========
 
 - Find the requirements that must be met to be an official OpenStack project
-
-Exercise 5
-==========
-
-- Tags can be associated with projects.  Find out what tags are used for and
-  find the current list of available tags

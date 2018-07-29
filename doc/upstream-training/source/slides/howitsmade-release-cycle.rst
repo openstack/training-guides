@@ -13,8 +13,8 @@ Learning Exercise
 =================
 
 * Open the `Releases
-  <https://docs.openstack.org/contributors/common/governance.html#releases>`_
-  section of the Contributor Guide under OpenStack Governance
+  <https://docs.openstack.org/contributors/common/releases.html>`_
+  section of the Contributor Guide
 * Read the material
 * Ask the mentors questions
 * Get ready to go through the exercises

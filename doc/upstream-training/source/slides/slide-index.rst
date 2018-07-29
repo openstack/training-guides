@@ -39,12 +39,14 @@ Workflow and Tools for Participation
 .. toctree::
    :maxdepth: 1
 
+   workflow-accounts.rst
    workflow-training-contribution-process.rst
    workflow-task-tracking.rst
+   workflow-setup-git-and-commit-messages.rst
+   workflow-configuring-gerrit.rst
+   workflow-patch-gurus.rst
    workflow-reviewing.rst
-   workflow-commit-message.rst
    workflow-project-status-and-zuul.rst
-   workflow-setup-and-first-patch.rst
 
 Code Deep Dive
 ==============
