@@ -70,27 +70,22 @@ Upcoming Trainings
 See this web page and the schedule of the upcoming class for more details
 and registration.
 
-+------------+---------+---------+-----------+-------------------------------+
-| Date       | Event   | Duration| Location  |              Details          |
-+============+=========+=========+===========+===============================+
-| May 19-20, |OpenStack|  1.5    | Vancouver,|:doc:`upstream-training-summit`|
-| 2018       |Summit   |  days   | British   |             \                 |
-|            |Vancouver|         | Columbia, |                               |
-|            |         |         | Canada    |                               |
-+------------+---------+---------+-----------+-------------------------------+
-| June 11-12,|OpenStack|  1 day  | Kraków,   | :ref:`openstack-day-poland`   |
-| 2018       |Day      |         | Poland    |             \                 |
-|            |Poland   |         |           |                               |
-+------------+---------+---------+-----------+-------------------------------+
-| June 28-29,|OpenInfra|  1 day  | Seoul,    | :ref:`openstack-day-korea`    |
-| 2018       |Days     |         | Korea     |             \                 |
-|            |Korea    |         |           |                               |
-+------------+---------+---------+-----------+-------------------------------+
-| July 27-28,|OpenStack|  1 day  | São Paulo,| :ref:`openstack-day-brazil`   |
-| 2018       |Day      |         | Brazil    |             \                 |
-|            |Brazil   |         |           |                               |
-+------------+---------+---------+-----------+-------------------------------+
-
++------------+---------+---------+-----------+--------------------------------+
+| Date       | Event   | Duration| Location  |              Details           |
++============+=========+=========+===========+================================+
+| July 30-31,|Upstream |  1.5    | Rio de    | :ref:`OUI_rio_de_janeiro`      |
+| 2018       |Institute|  days   | Janeiro,  |             \                  |
+|            |at UFRJ  |         | Brazil    |                                |
+|            |         |         |           |                                |
++------------+---------+---------+-----------+--------------------------------+
+| October 9, |OpenStack|  1 day  | Stockholm,| :ref:`openstack-day-nordics`   |
+| 2018       |Days     |         | Sweden    |             \                  |
+|            |Nordics  |         |           |                                |
++------------+---------+---------+-----------+--------------------------------+
+| November   |OpenStack|  1.5    | Berlin,   |:doc:`upstream-training-summit` |
+| 11-12,     |Summit   |  days   | Germany   |             \                  |
+| 2018       |Berlin   |         |           |                                |
++------------+---------+---------+-----------+--------------------------------+
 
 For Trainees
 ============
