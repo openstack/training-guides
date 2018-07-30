@@ -3,52 +3,29 @@ Upstream Institute Training Other Events
 ========================================
 
 
-.. _openstack-day-poland:
+.. _OUI_rio_de_janeiro:
 
-OpenStack Days Poland
----------------------
+OUI at Universidade Federal do Rio de Janeiro
+---------------------------------------------
 
-`OpenStack Days Poland <http://www.openstackday.pl/>`_ event site
+**Monday and Tuesday, July 30-31, 2018**
 
-**Monday and Tuesday, June 11-12, 2018**
+`Etherpad for UFRJ Upstream Institute
+<https://etherpad.openstack.org/p/upstream-institute-rio-2018>`_
 
-Exact schedule and class details to come!
+See YOU in Rio de Janeiro!
 
-`Etherpad for Poland Upstream Collaboration Training
-<https://etherpad.openstack.org/p/upstream-institute-poland-2018>`_
+.. _openstack-day-nordics:
 
-See YOU in Kraków!
+OpenStack Days Nordics
+----------------------
 
-
-.. _openstack-day-korea:
-
-OpenInfra Days Korea
----------------------
-
-`OpenStack Days Korea <http://event.openstack.or.kr/>`_ event site.
-
-**Thursday and Friday, June 28-29, 2018**
-
-Exact schedule and class details to come!
-
-`Etherpad for Korea Upstream Collaboration Training
-<https://etherpad.openstack.org/p/upstream-institute-korea-2018>`_
-
-See YOU in Seoul!
+`OpenStack Days Nordics <http://stockholm.openstacknordic.org/>`_ event site
 
 
-.. _openstack-day-brazil:
+**Tuesday, October 9, 2018**
 
-OpenStack Days Brazil
----------------------
+`Etherpad for OpenStack Days Nordics Upstream Institute
+<https://etherpad.openstack.org/p/upstream-institute-nordics-2018>`_
 
-`OpenStack Days Brazil <http://www.openstackbr.com.br/events/2018/>`_ event site
-
-**Friday and Saturday, July 27-28, 2018**
-
-Exact schedule and class details to come!
-
-`Etherpad for Brazil Upstream Collaboration Training
-<https://etherpad.openstack.org/p/upstream-institute-brazil-2018>`_
-
-See YOU in São Paulo!
+See YOU in Stockholm!
