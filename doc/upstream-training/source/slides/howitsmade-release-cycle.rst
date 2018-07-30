@@ -23,38 +23,40 @@ Exercise 1
 ==========
 
 - Look up the release schedule for the current and past two OpenStack
-  release cycles
-- Identify common characteristics of these cycles and discuss them with
-  your group
-
-  - Milestones
-  - Deadlines
-  - etc.
-
-- Describe a release cycle based on the information you found
-- Determine how many OpenStack releases are officially supported
-  by the community
-- Post the information on the IRC channel
-
-
+  release cycles & share links
+- Identify common characteristics of these cycles
 
 Exercise 2
 ==========
 
-- Find feature proposal deadlines in the current release schedule
-- Compare the deadlines between two different project teams and discuss the
-  differences with your group
+- How many milestones are there?
+- What is the focus of each of the milestones?
 
 Exercise 3
 ==========
 
-- In addition to milestones, there are freeze dates for different activities
-  in the release
-
-    - Work with your group to find and discuss the different freeze activities
+- How many OpenStack releases are officially supported
+  by the community?
+- Post the information on the IRC channel
 
 Exercise 4
 ==========
 
-- Find the release day for the current release
+- Find some of the feature proposal freeze deadlines in the current release
+  schedule
+- Compare the deadlines between two different project teams and discuss the
+  differences with your group
+- Why are there different dates for some teams?
+
+Exercise 5
+==========
+
+- What are some of the different freeze dates for different activities
+  in the release?
+
+Exercise 6
+==========
+
+- Find the release week for the current release
+- Why is there a whole week and not a single day planned?
 - Find where the currently released code is posted
