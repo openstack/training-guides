@@ -34,14 +34,17 @@ How OpenStack is Made
 Workflow and Tools for Participation
 ------------------------------------
 
+* `Accounts <workflow-accounts.html>`_
 * `Overview of the contribution process
   <workflow-training-contribution-process.html>`_
 * `Task Tracking <workflow-task-tracking.html>`_
-* `Reviewing <workflow-reviewing.html>`_
-* `Commit Messages <workflow-commit-message.html>`_
+* `Setting Up Git & Commit Messages
+  <workflow-setup-git-and-commit-messages.html>`_
+* `Configuring Gerrit <workflow-configuring-gerrit.html>`_
+* `Patch Gurus! <workflow-patch-gurus.html>`_
+* `Reviewing & Using Gerrit <workflow-reviewing.html>`_
 * `Project Status and Zuul <workflow-project-status-and-zuul.html>`_
-* `Guide to SetUp and Push First Patch
-  <workflow-setup-and-first-patch.html>`_
+
 
 Code Deep Dive
 --------------
