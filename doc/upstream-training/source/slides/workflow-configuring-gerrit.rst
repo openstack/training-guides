@@ -13,7 +13,7 @@ Learning Exercise
 =================
 
 * Open the `Setting Up Your Gerrit Account
-  <https://docs.openstack.org/contributors/code-and-documentation/setup-gerrit.html>`_
+  <https://docs.openstack.org/contributors/common/setup-gerrit.html>`_
   section of the Contributor Guide
 * Read the material
 * Ask the mentors questions
