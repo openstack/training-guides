@@ -91,7 +91,7 @@ General Contribution Workflow
 Your Patch Upstream
 ===================
 
-- Jenkins and vendor CIs will review your patch
+- Zuul and vendor CIs will review your patch
 - Community members will review your patch
 - Reply to comments
 - Make changes and push new patchsets
