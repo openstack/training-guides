@@ -44,8 +44,8 @@ Workflow and Tools for Participation
    workflow-task-tracking.rst
    workflow-setup-git-and-commit-messages.rst
    workflow-configuring-gerrit.rst
-   workflow-patch-gurus.rst
    workflow-reviewing.rst
+   workflow-patch-gurus.rst
    workflow-project-status-and-zuul.rst
 
 Code Deep Dive
