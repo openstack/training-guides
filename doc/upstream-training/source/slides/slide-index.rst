@@ -31,6 +31,7 @@ How OpenStack is Made
    howitsmade-governance.rst
    howitsmade-release-cycle.rst
    howitsmade-communication.rst
+   howitsmade-irc.rst
    howitsmade-events.rst
 
 Workflow and Tools for Participation

@@ -29,6 +29,7 @@ How OpenStack is Made
 * `OpenStack Governance <howitsmade-governance.html>`_
 * `Release cycle <howitsmade-release-cycle.html>`_
 * `Communication <howitsmade-communication.html>`_
+* `Setup IRC <howitsmade-irc.html>`_
 * `OpenStack Events <howitsmade-events.html>`_
 
 Workflow and Tools for Participation
