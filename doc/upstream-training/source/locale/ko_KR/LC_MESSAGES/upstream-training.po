@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-29 08:45+0000\n"
+"POT-Creation-Date: 2018-07-31 20:47+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -361,9 +361,6 @@ msgstr "Christophe Sauthier (교육, 조교, 멘토링, 프랑스어, 영어)"
 msgid "Cindy Pallares (assistant, english)"
 msgstr "Cindy Pallares (조교, 영어)"
 
-msgid "Cleanup deprecated methods"
-msgstr "지원 만료된 메소드를 정리"
-
 msgid "Cleber Rosa (mentoring, assistant, portuguese)"
 msgstr "Cleber Rosa (멘토링, 조교, 포르투갈어)"
 
@@ -391,9 +388,6 @@ msgstr "open 리뷰에 댓글을 작성합니다"
 
 msgid "Commit Messages"
 msgstr "커밋 메시지"
-
-msgid "Commit files and write commit message"
-msgstr "파일을 커밋하고 커밋 메시지를 작성합니다"
 
 msgid "Communication"
 msgstr "의사소통"
@@ -453,9 +447,6 @@ msgstr "코어: 5"
 
 msgid "Core team"
 msgstr "코어 팀"
-
-msgid "Create & push a Work in Progress (WIP) to the sandbox"
-msgstr "Work in Progress (WIP) 를 sandbox에 생성 및 푸시합니다"
 
 msgid ""
 "Create a blueprint based upon concrete activities, times and any other "
@@ -520,9 +511,6 @@ msgstr "3-4일차"
 msgid "Day 5"
 msgstr "5일차"
 
-msgid "Deadlines"
-msgstr "마감 기한"
-
 msgid ""
 "Decide a country your group would like to visit with other groups for "
 "sightseeing."
@@ -534,9 +522,6 @@ msgstr "데모 환경"
 msgid "Demo environment"
 msgstr "데모 환경"
 
-msgid "Describe a release cycle based on the information you found"
-msgstr "찾은 정보에 기반하여 릴리즈 주기를 설명합니다"
-
 msgid "Description"
 msgstr "설명"
 
@@ -547,12 +532,6 @@ msgstr "매력적인 장소, 음식 및 활동을 포함하는 5일간 여행 �
 
 msgid "Details"
 msgstr "세부 사항"
-
-msgid ""
-"Determine how many OpenStack releases are officially supported by the "
-"community"
-msgstr ""
-"얼마나 많은 OpenStack 릴리즈를 커뮤니티에서 공식적으로 지원하는지 확인합니다"
 
 msgid "Dev"
 msgstr "Dev"
@@ -696,12 +675,6 @@ msgstr "환경 셋업"
 msgid "Etherpad"
 msgstr "Etherpad"
 
-msgid "Etherpad: https://etherpad.openstack.org/p/upstream-institute-beijing"
-msgstr "Etherpad: https://etherpad.openstack.org/p/upstream-institute-beijing"
-
-msgid "Etherpad: https://etherpad.openstack.org/p/upstream-training-boston"
-msgstr "Etherpad: https://etherpad.openstack.org/p/upstream-training-boston"
-
 msgid "EunSeop Shin (assistant, mentoring)"
 msgstr "EunSeop Shin (조교, 멘토링)"
 
@@ -766,9 +739,6 @@ msgstr "버그에 대한 제출, 수정 및 구분"
 msgid "Find an open review which is less complex and download the patch"
 msgstr "덜 복잡한 open 상태 리뷰를 찾아 패치를 다운로드합니다"
 
-msgid "Find feature proposal deadlines in the current release schedule"
-msgstr "현재 릴리즈 일정에서 기능 제안 마감 기한을 찾아봅니다"
-
 msgid "Find how rechecks are categorized"
 msgstr "재검사가 어떻게 분류되었는지 찾기"
 
@@ -789,9 +759,6 @@ msgstr "현재 이사회, TC 및 UC 구성원을 찾아봅니다"
 
 msgid "Find the information that can be retrieved for each patch in a pipeline"
 msgstr "파이프라인의 각 패치를 가져올 수 있는 정보를 찾으세요."
-
-msgid "Find the release day for the current release"
-msgstr "현재 릴리스의 릴리스 날짜 찾기"
 
 msgid ""
 "Find the requirements that must be met to be an official OpenStack project"
@@ -950,10 +917,8 @@ msgstr "IRC 클라이언트: HexChat"
 msgid "Ian Y. Choi (training, assistant, mentoring)"
 msgstr "Ian Y. Choi (교육, 조교, 멘토링)"
 
-msgid ""
-"Identify common characteristics of these cycles and discuss them with your "
-"group"
-msgstr "해당 주기에서의 공통된 특성을 식별하고 그룹 내에서 토론해 봅니다"
+msgid "Identify common characteristics of these cycles"
+msgstr "해당 주기에서의 공통된 특성을 식별합니다"
 
 msgid ""
 "If contributing code, being technically proficient enough to carry out "
@@ -993,11 +958,6 @@ msgstr "Ildikó Váncsa – The OpenStack Foundation"
 
 msgid "Implementing a blueprint/spec"
 msgstr "블루프린트/스펙 구현"
-
-msgid ""
-"In addition to milestones, there are freeze dates for different activities "
-"in the release"
-msgstr "이정표에 추가하자면, 릴리즈의 다른 활동에 대한 확정된 날짜가 있습니다."
 
 msgid "In this example, we use Lego to represent a software project"
 msgstr "이 예시에서는 Lego를 사용하여 소프트웨어 프로젝트를 표현합니다"
@@ -1073,9 +1033,6 @@ msgstr ""
 
 msgid "Jay Bryant – IBM"
 msgstr "Jay Bryant – IBM"
-
-msgid "Jenkins and vendor CIs will review your patch"
-msgstr "Jenkins 및 벤더 CI에서 패치를 리뷰할 것입니다"
 
 msgid "Jieun Kim (assistant)"
 msgstr "Jieun Kim (조교)"
@@ -1202,12 +1159,6 @@ msgstr ""
 "가장 관심있는 프로젝트를 찾은 후 가장 활발한 핵심 검토자 (리뷰 도움 및 패치"
 "를 병합을 위해 알면 좋은 사람들) 3명을 찾습니다."
 
-msgid ""
-"Look up the release schedule for the current and past two OpenStack release "
-"cycles"
-msgstr ""
-"현재 및 지난 두 개의 OpenStack 릴리즈 주기에 대한 릴리즈 일정을 찾아봅니다"
-
 msgid "Loïc Dachary (Training, mentoring, assistant, english and french)"
 msgstr "Loïc Dachary (교육, 멘토링, 조교, 영어 및 프랑스어)"
 
@@ -1217,9 +1168,6 @@ msgstr "로컬 저장소 내 새로운 브랜치를 만듭니다"
 msgid ""
 "Make any local configurations changes (set passwords, IP addresses, etc.)"
 msgstr "로컬 설정 변경사항을 만듭니다.(패스워드 설정,  IP 주소 등)"
-
-msgid "Make changes (add / edit files)"
-msgstr "Make changes (add / edit files)"
 
 msgid "Make changes and push new patchsets"
 msgstr "변경사항을 만들고 새로운 패치셋을 푸시합니다"
@@ -1259,9 +1207,6 @@ msgstr "Melvin Hillsman – OSIC"
 
 msgid "Metrics"
 msgstr "지표"
-
-msgid "Milestones"
-msgstr "마일스톤"
 
 msgid "Minimize database queries"
 msgstr "데이터베이서 쿼리를 최소화"
@@ -1682,9 +1627,6 @@ msgid ""
 msgstr ""
 "자리에서 한 두 명의 다른 사람들과 커밋 메시지를 공유하세요. 다른 사람들의 커"
 "밋 메시지에 피드백을 주세요."
-
-msgid "Share your favorite to our IRC channel."
-msgstr "당신이 가장 선호하는 것을 우리의 IRC 채널에 공유합니다."
 
 msgid "Shinobu KINJO (mentoring, assistant, japanese)"
 msgstr "Shinobu KINJO (멘토링, 조교, 일본어)"
@@ -2142,10 +2084,6 @@ msgstr "점, 선, 색깔의 의미는 무엇인지"
 msgid "When possible, sit at a table and build connections with attendees"
 msgstr "가능하다면, 테이블에 앉아서 참석자들과 관계를 구축합니다."
 
-msgid ""
-"Work with your group to find and discuss the different freeze activities"
-msgstr "다른 확정된 활동을 찾아내고 논의하기 위해 당신의 그룹과 진행하세요."
-
 msgid "Workflow and Tools for Participation"
 msgstr "준비를 위한 워크플로우 및 도구"
 
@@ -2208,9 +2146,6 @@ msgstr "`마무리 실습  <archive-closing-exercise.html>`_"
 msgid "`Code exercises <code-exercises.html>`_"
 msgstr "`코드 실습 <code-exercises.html>`_"
 
-msgid "`Commit Messages <workflow-commit-message.html>`_"
-msgstr "`커밋 메시지 <workflow-commit-message.html>`_"
-
 msgid "`Communication <howitsmade-communication.html>`_"
 msgstr "`의사 소통 <howitsmade-communication.html>`_"
 
@@ -2255,11 +2190,6 @@ msgid ""
 msgstr ""
 "`2017 한국 업스트림 트레이닝을 위한 Etherpad <https://etherpad.openstack.org/"
 "p/upstream-training-korea-2017>`_"
-
-msgid ""
-"`Guide to SetUp and Push First Patch <workflow-setup-and-first-patch.html>`_"
-msgstr ""
-"`첫 패치에 대한 셋업 및 푸시 가이드 <workflow-setup-and-first-patch.html>`_"
 
 msgid ""
 "`Installation Tutorial (Ocata) <https://docs.openstack.org/project-install-"
@@ -2308,29 +2238,14 @@ msgstr "`프로젝트 상태 및 Zuul <workflow-project-status-and-zuul.html>`_"
 msgid "`Release cycle <howitsmade-release-cycle.html>`_"
 msgstr "`릴리즈 주기 <howitsmade-release-cycle.html>`_"
 
-msgid "`Reviewing <workflow-reviewing.html>`_"
-msgstr "`리뷰하기 <workflow-reviewing.html>`_"
-
 msgid "`Stackalytics Wiki <https://wiki.openstack.org/wiki/Stackalytics>`_"
 msgstr "`Stackalytics Wiki <https://wiki.openstack.org/wiki/Stackalytics>`_"
 
 msgid "`Task Tracking <workflow-task-tracking.html>`_"
 msgstr "`작업 추적 <workflow-task-tracking.html>`_"
 
-msgid "``git checkout -b <branch_name>``"
-msgstr "``git checkout -b <branch_name>``"
-
-msgid "``git clone``"
-msgstr "``git clone``"
-
 msgid "``git config``"
 msgstr "``git config``"
-
-msgid "``git review -s``"
-msgstr "``git review -s``"
-
-msgid "``git review``"
-msgstr "``git review``"
 
 msgid ""
 "``screen`` command was used to access the virtual terminals running the "
@@ -2350,9 +2265,6 @@ msgstr "그리고 같이 일하고자 하는 대상"
 
 msgid "checkout the latest stable branch"
 msgstr "가장 최신의 안정 버전 브랜치를 가져옵니다"
-
-msgid "etc."
-msgstr "기타"
 
 msgid "fix is already on master"
 msgstr "수정이 이미 master에 있음"
@@ -2398,12 +2310,6 @@ msgstr "https://docs.openstack.org/contributor-guide/docs-builds.html"
 
 msgid "https://docs.openstack.org/contributor-guide/index.html"
 msgstr "https://docs.openstack.org/contributor-guide/index.html"
-
-msgid "https://etherpad.openstack.org/p/upstream-training-barcelona"
-msgstr "https://etherpad.openstack.org/p/upstream-training-barcelona"
-
-msgid "https://etherpad.openstack.org/p/upstream-training-vancouver"
-msgstr "https://etherpad.openstack.org/p/upstream-training-vancouver"
 
 msgid "https://wiki.openstack.org/wiki/IRC"
 msgstr "https://wiki.openstack.org/wiki/IRC"

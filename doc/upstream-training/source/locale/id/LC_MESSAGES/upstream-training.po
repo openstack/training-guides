@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-13 11:21+0000\n"
+"POT-Creation-Date: 2018-07-31 20:47+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,25 +16,11 @@ msgstr ""
 "X-Generator: Zanata 4.3.3\n"
 "Plural-Forms: nplurals=1; plural=0\n"
 
-msgid "**Friday and Saturday, July 27-28, 2018**"
-msgstr "**Friday and Saturday, July 27-28, 2018**"
-
 msgid "**Mentors**"
 msgstr "**Mentors**"
 
-msgid "**Monday and Tuesday, June 11-12, 2018**"
-msgstr "**Monday and Tuesday, June 11-12, 2018**"
-
-msgid ""
-"**Saturday, May 19th (2 to 6pm), 2018 - Sunday, May 20th (9am to 6pm), 2018**"
-msgstr ""
-"**Saturday, May 19th (2 to 6pm), 2018 - Sunday, May 20th (9am to 6pm), 2018**"
-
 msgid "**Staff**"
 msgstr "**Staff**"
-
-msgid "**Thursday and Friday, June 28-29, 2018**"
-msgstr "**Thursday and Friday, June 28-29, 2018**"
 
 msgid "1 day"
 msgstr "1 hari"
@@ -139,15 +125,6 @@ msgstr ":doc:`upstream-training-content`"
 msgid ":doc:`upstream-training-summit`"
 msgstr ":doc:`upstream-training-summit`"
 
-msgid ":ref:`openstack-day-brazil`"
-msgstr ":ref:`openstack-day-brazil`"
-
-msgid ":ref:`openstack-day-korea`"
-msgstr ":ref:`openstack-day-korea`"
-
-msgid ":ref:`openstack-day-poland`"
-msgstr ":ref:`openstack-day-poland`"
-
 msgid ""
 "A big thank you to everyone that has made this possible, especially Loic "
 "Dachary, Stefano Maffulli, Tim Freund, Marton Kiss, and Ildikó Váncsa who "
@@ -159,13 +136,6 @@ msgstr ""
 
 msgid "A bunch of scripts to build a full OpenStack environment"
 msgstr "Sekelompok script untuk membangun lingkungan OpenStack penuh"
-
-msgid ""
-"A new capability was added to the project that should be implemented in all "
-"vendor drivers"
-msgstr ""
-"Kemampuan baru ditambahkan ke proyek yang harus diterapkan di semua driver "
-"vendor"
 
 msgid ""
 "A week before the training begins, ensure attendees are aware of the "
@@ -302,9 +272,6 @@ msgstr "Mengajukan pertanyaan selama kelas"
 
 msgid "Ask questions in the channel or send direct messages"
 msgstr "Mengajukan pertanyaan di channel atau mengirim pesan langsung"
-
-msgid "Ask questions or suggest more best practices"
-msgstr "Ajukan pertanyaan atau sarankan praktik terbaik lainnya"
 
 msgid "Ask the mentors questions"
 msgstr "Ajukan pertanyaan mentor"
@@ -448,9 +415,6 @@ msgstr "Christophe Sauthier (training, assistant, mentoring, french, english)"
 msgid "Cindy Pallares (assistant, english)"
 msgstr "Cindy Pallares (assistant, english)"
 
-msgid "Cleanup deprecated methods"
-msgstr "Bersihkan metode yang tidak berlaku lagi"
-
 msgid "Cleber Rosa (mentoring, assistant, portuguese)"
 msgstr "Cleber Rosa (mentoring, assistant, portuguese)"
 
@@ -478,9 +442,6 @@ msgstr "Komentar hasil penelahaan terbuka"
 
 msgid "Commit Messages"
 msgstr "Commit Messages (komit pesan)"
-
-msgid "Commit files and write commit message"
-msgstr "Komit file dan menulis pesan commit"
 
 msgid "Communication"
 msgstr "Communication (komunikasi)"
@@ -556,9 +517,6 @@ msgid "Could be emailed survey after the class - harder to get participation"
 msgstr ""
 "Bisa diemailkan survei setelah kelas - lebih sulit untuk mendapatkan "
 "partisipasi"
-
-msgid "Create & push a Work in Progress (WIP) to the sandbox"
-msgstr "Buat & mendorong Work in Progress (WIP) ke sandbox"
 
 msgid ""
 "Create a blueprint based upon concrete activities, times and any other "
@@ -660,9 +618,6 @@ msgstr "Hari 3-4"
 msgid "Day 5"
 msgstr "Hari 5"
 
-msgid "Deadlines"
-msgstr "Deadlines (batas waktu)"
-
 msgid ""
 "Decide a country your group would like to visit with other groups for "
 "sightseeing."
@@ -676,9 +631,6 @@ msgstr "Demo Environment"
 msgid "Demo environment"
 msgstr "Lingkungan demo"
 
-msgid "Describe a release cycle based on the information you found"
-msgstr "Menggambarkan siklus rilis berdasarkan informasi yang Anda temukan"
-
 msgid "Description"
 msgstr "Description"
 
@@ -691,13 +643,6 @@ msgstr ""
 
 msgid "Details"
 msgstr "Details"
-
-msgid ""
-"Determine how many OpenStack releases are officially supported by the "
-"community"
-msgstr ""
-"Tentukan berapa banyak rilis OpenStack yang secara resmi didukung oleh "
-"masyarakat"
 
 msgid "Dev"
 msgstr "Dev"
@@ -876,12 +821,6 @@ msgstr "Environment Setup"
 msgid "Etherpad"
 msgstr "Etherpad"
 
-msgid "Etherpad: https://etherpad.openstack.org/p/upstream-institute-beijing"
-msgstr "Etherpad: https://etherpad.openstack.org/p/upstream-institute-beijing"
-
-msgid "Etherpad: https://etherpad.openstack.org/p/upstream-training-boston"
-msgstr "Etherpad: https://etherpad.openstack.org/p/upstream-training-boston"
-
 msgid "EunSeop Shin (assistant, mentoring)"
 msgstr "EunSeop Shin (assistant, mentoring)"
 
@@ -890,9 +829,6 @@ msgstr "Event"
 
 msgid "Events"
 msgstr "Acara"
-
-msgid "Exact schedule and class details to come!"
-msgstr "Jadwal yang tepat dan detail kelas yang akan datang!"
 
 msgid "Example Itinerary: Spain"
 msgstr "Contoh rencana perjalanan: Spanyol"
@@ -969,9 +905,6 @@ msgstr "Mengajukan, memperbaiki, memprioritaskan bug"
 msgid "Find an open review which is less complex and download the patch"
 msgstr "Cari kajian terbuka yang kurang kompleks dan download patch"
 
-msgid "Find feature proposal deadlines in the current release schedule"
-msgstr "Cari batas waktu usulan fitur di jadwal rilis terkini"
-
 msgid "Find how rechecks are categorized"
 msgstr "Temukan bagaimana cek ulang dikategorikan"
 
@@ -1000,9 +933,6 @@ msgstr ""
 
 msgid "Find the logs from the most recent meeting"
 msgstr "Temukan log rapat terbaru"
-
-msgid "Find the release day for the current release"
-msgstr "Temukan hari rilis untuk rilis saat ini"
 
 msgid ""
 "Find the requirements that must be met to be an official OpenStack project"
@@ -1206,12 +1136,8 @@ msgstr "IRC client: HexChat"
 msgid "Ian Y. Choi (training, assistant, mentoring)"
 msgstr "Ian Y. Choi (training, assistant, mentoring)"
 
-msgid ""
-"Identify common characteristics of these cycles and discuss them with your "
-"group"
-msgstr ""
-"Identifikasi karakteristik umum dari siklus ini dan diskusikan dengan "
-"kelompok Anda"
+msgid "Identify common characteristics of these cycles"
+msgstr "Mengidentifikasi karakteristik umum dari siklus ini"
 
 msgid ""
 "If contributing code, being technically proficient enough to carry out "
@@ -1279,13 +1205,6 @@ msgstr "Image: http://bit.ly/vm-2018-vancouver-v1"
 
 msgid "Implementing a blueprint/spec"
 msgstr "Menerapkan cetak biru / spek"
-
-msgid ""
-"In addition to milestones, there are freeze dates for different activities "
-"in the release"
-msgstr ""
-"Selain tonggak sejarah, ada tanggal pembekuan untuk berbagai aktivitas dalam "
-"pelepasan"
 
 msgid "In this example, we use Lego to represent a software project"
 msgstr ""
@@ -1363,9 +1282,6 @@ msgstr ""
 msgid "Jay Bryant – IBM"
 msgstr "Jay Bryant – IBM"
 
-msgid "Jenkins and vendor CIs will review your patch"
-msgstr "Jenkins dan vendor CI akan meninjau patch Anda"
-
 msgid "Jieun Kim (assistant)"
 msgstr "Jieun Kim (assistant)"
 
@@ -1390,9 +1306,6 @@ msgstr "Bergabung saluran IRC proyek"
 msgid "Julie Pichon (training, mentoring, assistant, english)"
 msgstr "Julie Pichon (training, mentoring, assistant, english)"
 
-msgid "July 27-28, 2018"
-msgstr "July 27-28, 2018"
-
 msgid "July 6 - 7, 2016 (Wed - Thu)"
 msgstr "July 6 - 7, 2016 (Wed - Thu)"
 
@@ -1401,12 +1314,6 @@ msgstr "July 9 - 10, 2015 (Thu - Fri)"
 
 msgid "Jump on IRC and etherpad"
 msgstr "Langsung ke IRC dan etherpad"
-
-msgid "June 11-12, 2018"
-msgstr "11-12 Juni 2018"
-
-msgid "June 28-29, 2018"
-msgstr "June 28-29, 2018"
 
 msgid "Jungsu Han (assistant, mentoring)"
 msgstr "Jungsu Han (assistant, mentoring)"
@@ -1434,9 +1341,6 @@ msgid "Know where to find information, where and how to get help if needed"
 msgstr ""
 "Tahu dimana menemukan informasi, dimana dan bagaimana untuk mendapatkan "
 "bantuan jika diperlukan"
-
-msgid "Kraków, Poland"
-msgstr "Kraków, Poland"
 
 msgid "LOG message exercise"
 msgstr "Latihan pesan LOG"
@@ -1536,12 +1440,6 @@ msgstr ""
 "mendapatkan patch gabungan Anda)."
 
 msgid ""
-"Look up the release schedule for the current and past two OpenStack release "
-"cycles"
-msgstr ""
-"Mencari jadwal rilis untuk dua siklus rilis OpenStack saat ini dan masa lalu"
-
-msgid ""
 "Look up when the next meeting is for the project who's channel you joined"
 msgstr ""
 "Cari tahu kapan rapat berikutnya adalah untuk proyek siapa saluran yang Anda "
@@ -1557,9 +1455,6 @@ msgid ""
 "Make any local configurations changes (set passwords, IP addresses, etc.)"
 msgstr ""
 "Buat perubahan konfigurasi lokal (tetapkan kata sandi, alamat IP, dll.)"
-
-msgid "Make changes (add / edit files)"
-msgstr "Buat perubahan (tambahk / edit file)"
 
 msgid "Make changes and push new patchsets"
 msgstr "Melakukan perubahan dan mendorong patchset baru"
@@ -1587,9 +1482,6 @@ msgstr "Mark Korondi (mentoring, assistant)"
 msgid "Marton Kiss (training, mentoring, assistant)"
 msgstr "Marton Kiss (training, mentoring, assistant)"
 
-msgid "May 19-20, 2018"
-msgstr "19-20 Mei 2018"
-
 msgid ""
 "Meaningful: anyone may submit a correction that will adjust the influence of "
 "appropriate statistical data"
@@ -1602,9 +1494,6 @@ msgstr "Melvin Hillsman – OSIC"
 
 msgid "Metrics"
 msgstr "Metrics (metrik)"
-
-msgid "Milestones"
-msgstr "Milestones (tonggak)"
 
 msgid "Minimize database queries"
 msgstr "Minimalkan query database"
@@ -1784,13 +1673,6 @@ msgstr ""
 "contributors/common/zuul-status.html>`_ dari Contributor Guide"
 
 msgid ""
-"Open the `Commit Messages <https://docs.openstack.org/contributors/common/"
-"git.html#commit-messages>`_ section of the Contributor Guide under Git"
-msgstr ""
-"Buka bagian `Commit Messages <https://docs.openstack.org/contributors/common/"
-"git.html#commit-messages>`_ dari Contributor Guide di bawah Git"
-
-msgid ""
 "Open the `Communication <https://docs.openstack.org/contributors/common/"
 "communication.html>`_ section of the Contributor Guide"
 msgstr ""
@@ -1810,15 +1692,6 @@ msgid ""
 msgstr ""
 "Buka bagian `OpenStack Governance <https://docs.openstack.org/contributors/"
 "common/governance.html>`_ dari Contributor Guide"
-
-msgid ""
-"Open the `Releases <https://docs.openstack.org/contributors/common/"
-"governance.html#releases>`_ section of the Contributor Guide under OpenStack "
-"Governance"
-msgstr ""
-"Buka bagian `Releases <https://docs.openstack.org/contributors/common/"
-"governance.html#releases>` _ dari Panduan Kontributor (Contributor Guide) di "
-"bawah OpenStack Governance"
 
 msgid ""
 "Open the `Setup and Learn GIT <https://docs.openstack.org/contributors/"
@@ -1848,21 +1721,6 @@ msgstr ""
 "Buka `training etherpad <https://etherpad.openstack.org/p/upstream-institute-"
 "vancouver-2018>`_ untuk kerja tim"
 
-msgid "OpenInfra Days Korea"
-msgstr "OpenInfra Days Korea"
-
-msgid "OpenStack Day Brazil"
-msgstr "OpenStack Day Brazil"
-
-msgid "OpenStack Day Poland"
-msgstr "OpenStack Day Poland"
-
-msgid "OpenStack Days Brazil"
-msgstr "OpenStack Days Brazil"
-
-msgid "OpenStack Days Poland"
-msgstr "OpenStack Days Poland"
-
 msgid "OpenStack Documentation"
 msgstr "Dokumentasi OpenStack"
 
@@ -1877,9 +1735,6 @@ msgstr "OpenStack Project Status dan Zuul"
 
 msgid "OpenStack Release Cycle"
 msgstr "OpenStack Release Cycle (siklus rilis OpenStack)"
-
-msgid "OpenStack Summit Vancouver"
-msgstr "OpenStack Summit Vancouver"
 
 msgid "OpenStack Upstream Institute"
 msgstr "OpenStack Upstream Institute"
@@ -1965,18 +1820,6 @@ msgid ""
 msgstr ""
 "Pilih proyek favorit Anda dan laporkan berapa banyak pekerjaan yang telah "
 "berjalan di IRC"
-
-msgid ""
-"Please `RSVP <https://www.openstack.org/summit/vancouver-2018/summit-"
-"schedule/events/21580/openstack-upstream-institute-day-1-rsvp-required>`_ if "
-"you plan on attending the training in Vancouver. If you decide after "
-"registration closes to attend, please drop by and check for available seats."
-msgstr ""
-"Silahkan `RSVP <https://www.openstack.org/summit/vancouver-2018/summit-"
-"schedule/events/21580/openstack-upstream-institute-day-1-rsvp-required>`_ "
-"jika Anda berencana menghadiri pelatihan di Vancouver. Jika Anda memutuskan "
-"setelah pendaftaran tutup untuk hadir, silakan mampir dan periksa kursi yang "
-"tersedia."
 
 msgid "Please note that the language of the training is English."
 msgstr "Harap dicatat bahwa bahasa untuk pelatihan ini adalah bahasa Inggris."
@@ -2066,18 +1909,8 @@ msgstr ""
 "Baca dan selesaikan panduan `Setup IRC <https://docs.openstack.org/"
 "contributors/common/irc.html>` _."
 
-msgid ""
-"Read the `How to Become a Patch Guru? <https://docs.openstack.org/"
-"contributors/code-and-documentation/patch-best-practices.html>`_ section"
-msgstr ""
-"Baca bagian `How to Become a Patch Guru? <https://docs.openstack.org/"
-"contributors/code-and-documentation/patch-best-practices.html>`_ "
-
 msgid "Read the material"
 msgstr "Baca materinya"
-
-msgid "Read the material until the Releases section"
-msgstr "Baca materi hingga bagian Rilis"
 
 msgid "Ready, set, go to https://docs.openstack.org/contributors/"
 msgstr "Bersedia, siap, buka https://docs.openstack.org/contributors/"
@@ -2188,15 +2021,6 @@ msgstr ""
 msgid "See EOL status at: https://releases.openstack.org"
 msgstr "Lihat status EOL di: https://releases.openstack.org"
 
-msgid "See YOU in Kraków!"
-msgstr "See YOU in Kraków!"
-
-msgid "See YOU in Seoul!"
-msgstr "See YOU in Seoul!"
-
-msgid "See YOU in São Paulo!"
-msgstr "See YOU in São Paulo!"
-
 msgid ""
 "See this web page and the schedule of the upcoming class for more details "
 "and registration."
@@ -2242,9 +2066,6 @@ msgid ""
 msgstr ""
 "Bagikan papan Anda dengan grup Anda. Tetapkan diri Anda untuk tiga tugas di "
 "cerita orang lain. Komentar satu cerita."
-
-msgid "Share your favorite to our IRC channel."
-msgstr "Bagikan favorit Anda ke saluran IRC kami."
 
 msgid "Shinobu KINJO (mentoring, assistant, japanese)"
 msgstr "Shinobu KINJO (mentoring, assistant, japanese)"
@@ -2322,17 +2143,6 @@ msgstr "Status"
 msgid "Stefano Maffulli (training, mentoring, assistant, english)"
 msgstr "Stefano Maffulli (training, mentoring, assistant, english)"
 
-msgid ""
-"Step by step guides to help with the exercise exists in the contributor "
-"portal: https://docs.openstack.org/contributors/code-and-documentation/ Look "
-"at the 'Setup & Learn Git','Setting Up Your Gerrit Account', and the 'Using "
-"Gerrit' sections for reference."
-msgstr ""
-"Panduan langkah demi langkah untuk membantu latihan ada di portal "
-"kontributor: https://docs.openstack.org/contributors/code-and-documentation/ "
-"Lihat 'Setup & Learn Git','Setting Up Your Gerrit Account',  dan bagian "
-"'Using Gerrit' sebagai referensi."
-
 msgid "Stephan Ahn (training, assistant, mentoring)"
 msgstr "Stephan Ahn (training, assistant, mentoring)"
 
@@ -2371,18 +2181,8 @@ msgstr "Sylvain Bauza (assistant, mentoring, training, french, english)"
 msgid "System administrators"
 msgstr "Administrator sistem"
 
-msgid "São Paulo, Brazil"
-msgstr "São Paulo, Brazil"
-
 msgid "Taehee Jang (assistant, mentoring - Ubuntu Korea Community)"
 msgstr "Taehee Jang (assistant, mentoring - Ubuntu Korea Community)"
-
-msgid ""
-"Tags can be associated with projects.  Find out what tags are used for and "
-"find the current list of available tags"
-msgstr ""
-"Tag dapat dikaitkan dengan proyek. Cari tahu tag apa yang digunakan dan "
-"temukan daftar tag yang tersedia saat ini"
 
 msgid "Tags: [management] [new_dev] [dev]"
 msgstr "Tags: [management] [new_dev] [dev]"
@@ -2513,24 +2313,6 @@ msgid ""
 msgstr ""
 "Pelatihan ini memiliki struktur modular yang memberikan ruang bagi peserta "
 "dengan peran pekerjaan yang berbeda."
-
-msgid ""
-"The training will take place in `Vancouver Convention Centre West - Level "
-"Two - Room 215-216 <https://www.openstack.org/summit/vancouver-2018/venues/"
-"#venue=338>`_."
-msgstr ""
-"Pelatihan akan berlangsung di `Vancouver Convention Centre West - Level Two "
-"- Room 215-216 <https://www.openstack.org/summit/vancouver-2018/venues/"
-"#venue=338>`_."
-
-msgid ""
-"The upcoming `OpenStack Summit <https://www.openstack.org/summit/"
-"vancouver-2018/>`_ will be in Vancouver in May with a full training running "
-"prior to the event."
-msgstr ""
-"The upcoming `OpenStack Summit <https://www.openstack.org/summit/"
-"vancouver-2018/>`_ akan berada di Vancouver pada bulan Mei dengan pelatihan "
-"penuh sebelum acara dimulai."
 
 msgid ""
 "There are unused arguments being passed into a method that is used in "
@@ -2784,9 +2566,6 @@ msgstr ""
 msgid "Validate the services are running"
 msgstr "Validasi layanan yang berjalan"
 
-msgid "Vancouver, British Columbia, Canada"
-msgstr "Vancouver, British Columbia, Canada"
-
 msgid ""
 "Victoria Martinez de la Cruz - vkmc - Trove/Zaqar (mentoring, assistant)"
 msgstr ""
@@ -2943,12 +2722,6 @@ msgstr ""
 "secara signifikan memperlambat kecepatan di mana pendatang baru berhasil "
 "mengintegrasikan peta jalan mereka sendiri ke dalam proyek OpenStack."
 
-msgid ""
-"Work with your group to find and discuss the different freeze activities"
-msgstr ""
-"Bekerjalah dengan kelompok Anda untuk menemukan dan mendiskusikan berbagai "
-"kegiatan freeze"
-
 msgid "Workflow and Tools for Participation"
 msgstr "Alur kerja dan Alat untuk Partisipasi"
 
@@ -3013,9 +2786,6 @@ msgstr "`Closing Exercise  <archive-closing-exercise.html>`_"
 msgid "`Code exercises <code-exercises.html>`_"
 msgstr "`Code exercises <code-exercises.html>`_"
 
-msgid "`Commit Messages <workflow-commit-message.html>`_"
-msgstr "`Commit Messages <workflow-commit-message.html>`_"
-
 msgid "`Communication <howitsmade-communication.html>`_"
 msgstr "`Communication <howitsmade-communication.html>`_"
 
@@ -3065,27 +2835,6 @@ msgid "`Environment Setup <development-environment-setup.html>`_"
 msgstr "`Environment Setup <development-environment-setup.html>`_"
 
 msgid ""
-"`Etherpad for Brazil Upstream Collaboration Training <https://etherpad."
-"openstack.org/p/upstream-institute-brazil-2018>`_"
-msgstr ""
-"`Etherpad for Brazil Upstream Collaboration Training <https://etherpad."
-"openstack.org/p/upstream-institute-brazil-2018>`_"
-
-msgid ""
-"`Etherpad for Korea Upstream Collaboration Training <https://etherpad."
-"openstack.org/p/upstream-institute-korea-2018>`_"
-msgstr ""
-"`Etherpad for Korea Upstream Collaboration Training <https://etherpad."
-"openstack.org/p/upstream-institute-korea-2018>`_"
-
-msgid ""
-"`Etherpad for Poland Upstream Collaboration Training <https://etherpad."
-"openstack.org/p/upstream-institute-poland-2018>`_"
-msgstr ""
-"`Etherpad for Poland Upstream Collaboration Training <https://etherpad."
-"openstack.org/p/upstream-institute-poland-2018>`_"
-
-msgid ""
 "`Etherpad for Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
 "p/upstream-training-korea-2016>`_"
 msgstr ""
@@ -3098,18 +2847,6 @@ msgid ""
 msgstr ""
 "`Etherpad for Upstream Training, Korea, 2017 <https://etherpad.openstack.org/"
 "p/upstream-training-korea-2017>`_"
-
-msgid ""
-"`Etherpad for Vancouver Upstream Collaboration Training <https://etherpad."
-"openstack.org/p/upstream-institute-vancouver-2018>`_"
-msgstr ""
-"`Etherpad for Vancouver Upstream Collaboration Training <https://etherpad."
-"openstack.org/p/upstream-institute-vancouver-2018>`_"
-
-msgid ""
-"`Guide to SetUp and Push First Patch <workflow-setup-and-first-patch.html>`_"
-msgstr ""
-"`Guide to SetUp and Push First Patch <workflow-setup-and-first-patch.html>`_"
 
 msgid ""
 "`Installation Tutorial (Ocata) <https://docs.openstack.org/project-install-"
@@ -3149,19 +2886,6 @@ msgstr ""
 "`Official deliverables with repositories <https://governance.openstack.org/"
 "tc/reference/projects/documentation.html#deliverables>`_"
 
-msgid ""
-"`OpenStack Days Brazil <http://www.openstackbr.com.br/events/2018/>`_ event "
-"site"
-msgstr ""
-"`OpenStack Days Brazil <http://www.openstackbr.com.br/events/2018/>`_ event "
-"site"
-
-msgid "`OpenStack Days Korea <http://event.openstack.or.kr/>`_ event site."
-msgstr "`OpenStack Days Korea <http://event.openstack.or.kr/>`_ event site."
-
-msgid "`OpenStack Days Poland <http://www.openstackday.pl/>`_ event site"
-msgstr "`OpenStack Days Poland <http://www.openstackday.pl/>`_ event site"
-
 msgid "`OpenStack Events <howitsmade-events.html>`_"
 msgstr "`OpenStack Events <howitsmade-events.html>`_"
 
@@ -3195,9 +2919,6 @@ msgstr "`Project Status and Zuul <workflow-project-status-and-zuul.html>`_"
 msgid "`Release cycle <howitsmade-release-cycle.html>`_"
 msgstr "`Release cycle <howitsmade-release-cycle.html>`_"
 
-msgid "`Reviewing <workflow-reviewing.html>`_"
-msgstr "`Reviewing <workflow-reviewing.html>`_"
-
 msgid "`Stackalytics Wiki <https://wiki.openstack.org/wiki/Stackalytics>`_"
 msgstr "`Stackalytics Wiki <https://wiki.openstack.org/wiki/Stackalytics>`_"
 
@@ -3211,20 +2932,8 @@ msgstr ""
 "`What’s new with OpenStack Upstream Training <https://superuser.openstack."
 "org/articles/openstack-upstream-training-revamp/>`_."
 
-msgid "``git checkout -b <branch_name>``"
-msgstr "``git checkout -b <branch_name>``"
-
-msgid "``git clone``"
-msgstr "``git clone``"
-
 msgid "``git config``"
 msgstr "``git config``"
-
-msgid "``git review -s``"
-msgstr "``git review -s``"
-
-msgid "``git review``"
-msgstr "``git review``"
 
 msgid ""
 "``screen`` command was used to access the virtual terminals running the "
@@ -3244,9 +2953,6 @@ msgstr "dan dengan siapa mereka akan bekerja"
 
 msgid "checkout the latest stable branch"
 msgstr "pemeriksaan cabang stabil terbaru"
-
-msgid "etc."
-msgstr "etc. (dan lain lain)"
 
 msgid "fix is already on master"
 msgstr "perbaikan sudah pada master"
@@ -3302,12 +3008,6 @@ msgid ""
 msgstr ""
 "https://docs.openstack.org/contributors/code-and-documentation/sandbox-house-"
 "rules.html"
-
-msgid "https://etherpad.openstack.org/p/upstream-training-barcelona"
-msgstr "https://etherpad.openstack.org/p/upstream-training-barcelona"
-
-msgid "https://etherpad.openstack.org/p/upstream-training-vancouver"
-msgstr "https://etherpad.openstack.org/p/upstream-training-vancouver"
 
 msgid "https://storyboard-dev.openstack.org/#!/dashboard/"
 msgstr "https://storyboard-dev.openstack.org/#!/dashboard/"

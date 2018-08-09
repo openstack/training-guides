@@ -1,3 +1,4 @@
+# Robert Simai <robert.simai@suse.com>, 2016. #zanata
 # Adriano Perri <adriano.perri@telekom.de>, 2017. #zanata
 # Frank Kloeker <eumel@arcor.de>, 2017. #zanata
 # Robert Simai <robert.simai@suse.com>, 2017. #zanata
@@ -8,12 +9,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-11 07:32+0000\n"
+"POT-Creation-Date: 2018-07-31 20:47+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-07-11 02:36+0000\n"
-"Last-Translator: Alexander Loew <alexander.loew@innovo-cloud.de>\n"
+"PO-Revision-Date: 2018-07-26 12:03+0000\n"
+"Last-Translator: Robert Simai <robert.simai@suse.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
 "X-Generator: Zanata 4.3.3\n"
@@ -387,9 +388,6 @@ msgstr ""
 msgid "Cindy Pallares (assistant, english)"
 msgstr "Cindy Pallares (Assistentin, Englisch)"
 
-msgid "Cleanup deprecated methods"
-msgstr "Aufräumen veralteter Methoden"
-
 msgid "Cleber Rosa (mentoring, assistant, portuguese)"
 msgstr "Cleber Rosa (Mentoring, Assistentin, Portugiesisch)"
 
@@ -417,9 +415,6 @@ msgstr "Kommentieren der offenen Review"
 
 msgid "Commit Messages"
 msgstr "Commit Messages"
-
-msgid "Commit files and write commit message"
-msgstr "Commit-Dateien und schreiben Commit-Nachricht"
 
 msgid "Communication"
 msgstr "Kommunikation"
@@ -499,9 +494,6 @@ msgstr ""
 "Könnte per E-Mail Umfrage nach der Klasse gemacht werden - schlechter, um "
 "Teilnahme zu bekommen"
 
-msgid "Create & push a Work in Progress (WIP) to the sandbox"
-msgstr "Erstellen & Pushen Sie eine Work in Progress (WIP) in den Sandkasten"
-
 msgid ""
 "Create a blueprint based upon concrete activities, times and any other "
 "details your group thinks are appropriate."
@@ -568,9 +560,6 @@ msgstr "Tag 3-4"
 msgid "Day 5"
 msgstr "Tag 5"
 
-msgid "Deadlines"
-msgstr "Fristen"
-
 msgid ""
 "Decide a country your group would like to visit with other groups for "
 "sightseeing."
@@ -584,11 +573,6 @@ msgstr "Demo Umgebung"
 msgid "Demo environment"
 msgstr "Demo-Umgebung"
 
-msgid "Describe a release cycle based on the information you found"
-msgstr ""
-"Beschreiben Sie einen Release-Zyklus auf der Grundlage der Informationen, "
-"die Sie gefunden haben"
-
 msgid "Description"
 msgstr "Beschreibung"
 
@@ -601,13 +585,6 @@ msgstr ""
 
 msgid "Details"
 msgstr "Details"
-
-msgid ""
-"Determine how many OpenStack releases are officially supported by the "
-"community"
-msgstr ""
-"Bestimmen Sie, wie viele OpenStack-Versionen offiziell von der Community "
-"unterstützt werden"
 
 msgid "Dev"
 msgstr "Entwickler"
@@ -776,12 +753,6 @@ msgstr "Umgebungseinstellung"
 msgid "Etherpad"
 msgstr "Etherpad"
 
-msgid "Etherpad: https://etherpad.openstack.org/p/upstream-institute-beijing"
-msgstr "Etherpad: https://etherpad.openstack.org/p/upstream-institute-beijing"
-
-msgid "Etherpad: https://etherpad.openstack.org/p/upstream-training-boston"
-msgstr "Etherpad: https://etherpad.openstack.org/p/upstream-training-boston"
-
 msgid "EunSeop Shin (assistant, mentoring)"
 msgstr "EunSeop Shin (Assistent, Mentoring)"
 
@@ -857,9 +828,6 @@ msgstr ""
 "Finden Sie eine weniger komplexe offene Review und laden Sie den Patch "
 "herunter"
 
-msgid "Find feature proposal deadlines in the current release schedule"
-msgstr "Im aktuellen Release-Zeitplan finden Sie die Abgabefristen"
-
 msgid "Find how rechecks are categorized"
 msgstr "Finden Sie, wie rechecks kategorisiert werden"
 
@@ -883,9 +851,6 @@ msgid "Find the information that can be retrieved for each patch in a pipeline"
 msgstr ""
 "Finden Sie die Informationen, die für jeden Patch in einer Pipeline "
 "abgerufen werden können"
-
-msgid "Find the release day for the current release"
-msgstr "Finde den Freigabetag für die aktuelle Version"
 
 msgid ""
 "Find the requirements that must be met to be an official OpenStack project"
@@ -1083,12 +1048,8 @@ msgstr "IRC-Client: HexChat"
 msgid "Ian Y. Choi (training, assistant, mentoring)"
 msgstr "Ian Y. Choi (Ausbildung, Assistent, Mentoring)"
 
-msgid ""
-"Identify common characteristics of these cycles and discuss them with your "
-"group"
-msgstr ""
-"Identifizieren Sie gemeinsame Merkmale dieser Zyklen und diskutieren sie mit "
-"Ihrer Gruppe"
+msgid "Identify common characteristics of these cycles"
+msgstr "Finden Sie Gemeinsamkeiten dieser Zyklen"
 
 msgid ""
 "If contributing code, being technically proficient enough to carry out "
@@ -1150,13 +1111,6 @@ msgstr "Ildikó Váncsa – The OpenStack Foundation"
 
 msgid "Implementing a blueprint/spec"
 msgstr "Implementierung eines Blueprints / Spezifikation"
-
-msgid ""
-"In addition to milestones, there are freeze dates for different activities "
-"in the release"
-msgstr ""
-"Zusätzlich zu den Meilensteinen gibt es Sperrtermine für verschiedene "
-"Aktivitäten in der Freigabe"
 
 msgid "In this example, we use Lego to represent a software project"
 msgstr ""
@@ -1235,9 +1189,6 @@ msgstr ""
 msgid "Jay Bryant – IBM"
 msgstr "Jay Bryant - IBM"
 
-msgid "Jenkins and vendor CIs will review your patch"
-msgstr "Jenkins und Vendor CIs werden Ihren Patch überprüfen"
-
 msgid "Jieun Kim (assistant)"
 msgstr "Jieun Kim (Assistent)"
 
@@ -1296,9 +1247,6 @@ msgid "Know where to find information, where and how to get help if needed"
 msgstr ""
 "Wissen Sie, wo Sie Informationen finden können, wo und wie Sie Hilfe "
 "bekommen, wenn nötig"
-
-msgid "Kraków, Poland"
-msgstr "Krakau, Polen"
 
 msgid "LOG message exercise"
 msgstr "Lognachricht-Übung"
@@ -1387,13 +1335,6 @@ msgstr ""
 "um Hilfe für Reviews anzufordern und um die eigenen Patches gemerged zu "
 "bekommen)."
 
-msgid ""
-"Look up the release schedule for the current and past two OpenStack release "
-"cycles"
-msgstr ""
-"Schauen Sie sich den Release-Plan für die aktuellen und vergangenen zwei "
-"OpenStack Release-Zyklen an"
-
 msgid "Loïc Dachary (Training, mentoring, assistant, english and french)"
 msgstr ""
 "Loïc Dachary (Training, Mentoring, Assistent, Englisch und Französisch)"
@@ -1406,9 +1347,6 @@ msgid ""
 msgstr ""
 "Nehmen Sie lokale Konfigurationen vor (stellen Sie Passwörter, IP-Adressen "
 "usw. ein)"
-
-msgid "Make changes (add / edit files)"
-msgstr "Änderungen vornehmen (Dateien hinzufügen / bearbeiten)"
 
 msgid "Make changes and push new patchsets"
 msgstr "Änderungen vornehmen und neue Patches starten"
@@ -1448,9 +1386,6 @@ msgstr "Melvin Hillsman - OSIC"
 
 msgid "Metrics"
 msgstr "Metriken"
-
-msgid "Milestones"
-msgstr "Meilensteine"
 
 msgid "Minimize database queries"
 msgstr "Minimieren von Datenbankabfragen"
@@ -1602,15 +1537,6 @@ msgstr ""
 "Offene Reviews, Beitrag für die letzten 30 oder 90 Tage, Tätigkeitsbericht, "
 "etc."
 
-msgid "OpenStack Day Poland"
-msgstr "OpenStack Tage Polen"
-
-msgid "OpenStack Days Brazil"
-msgstr "OpenStack Tage Brasilien"
-
-msgid "OpenStack Days Poland"
-msgstr "OpenStack Tage Polen"
-
 msgid "OpenStack Documentation"
 msgstr "OpenStack-Dokumentation"
 
@@ -1625,9 +1551,6 @@ msgstr "OpenStack Projektstatus und Zuul"
 
 msgid "OpenStack Release Cycle"
 msgstr "OpenStack Versionszyklen"
-
-msgid "OpenStack Summit Vancouver"
-msgstr "OpenStack Summit Vancouver"
 
 msgid "OpenStack Upstream Institute"
 msgstr "OpenStack Upstream Institut"
@@ -1790,9 +1713,6 @@ msgstr ""
 msgid "Read the material"
 msgstr "Lese die Unterlagen"
 
-msgid "Read the material until the Releases section"
-msgstr "Lese das Material bis zum Kapitel Releases"
-
 msgid "Ready, set, go to https://docs.openstack.org/contributors/"
 msgstr ""
 "Auf die Plätze, fertig, los  gehe zu https://docs.openstack.org/contributors/"
@@ -1904,12 +1824,6 @@ msgstr ""
 msgid "See EOL status at: https://releases.openstack.org"
 msgstr "Siehe EOL-Status unter: https://releases.openstack.org"
 
-msgid "See YOU in Kraków!"
-msgstr "Wir sehen uns in Krakau!"
-
-msgid "See YOU in Seoul!"
-msgstr "Wir sehen uns, in Seoul!"
-
 msgid ""
 "See this web page and the schedule of the upcoming class for more details "
 "and registration."
@@ -1948,9 +1862,6 @@ msgid ""
 msgstr ""
 "Teilen Sie die Commit-Nachricht mit einem oder zwei Personen an Ihrem Tisch. "
 "Geben Sie ihnen Feedback zu ihren Commit-Nachrichten."
-
-msgid "Share your favorite to our IRC channel."
-msgstr "Teilen Sie Ihren Favoriten in unserem IRC-Kanal."
 
 msgid "Shinobu KINJO (mentoring, assistant, japanese)"
 msgstr "Shinobu KINJO (Mentoring, Assistentin, Japanisch)"
@@ -2170,15 +2081,6 @@ msgstr "Die Metriken sollten im Kontext verwendet werden"
 msgid "The table below tags the modules relevant to different positions."
 msgstr ""
 "Die unten stehende Tabelle teilt die Module für verschiedene Positionen auf."
-
-msgid ""
-"The training will take place in `Vancouver Convention Centre West - Level "
-"Two - Room 215-216 <https://www.openstack.org/summit/vancouver-2018/venues/"
-"#venue=338>`_."
-msgstr ""
-"Das Training findet im `Vancouver Convention Centre West - Level Two - Room "
-"215-216 <https://www.openstack.org/summit/vancouver-2018/venues/#venue=338>` "
-"statt."
 
 msgid ""
 "There is a Forum session in Boston about the future of Stackalytics as there "
@@ -2491,12 +2393,6 @@ msgstr ""
 msgid "Who spoke the most during that meeting?"
 msgstr "Who spoke the most during that meeting?"
 
-msgid ""
-"Work with your group to find and discuss the different freeze activities"
-msgstr ""
-"Arbeiten Sie mit Ihrer Gruppe, um die verschiedenen Freeze-Aktivitäten zu "
-"finden und zu diskutieren"
-
 msgid "Workflow and Tools for Participation"
 msgstr "Arbeitsabläufe und Werkzeuge für die Teilnahme"
 
@@ -2565,9 +2461,6 @@ msgstr "`Abschluss-Übung <archive-closing-exercise.html> `_"
 msgid "`Code exercises <code-exercises.html>`_"
 msgstr "`Code-Übungen <code-exercises.html> `_"
 
-msgid "`Commit Messages <workflow-commit-message.html>`_"
-msgstr "`Commit Nachrichten <workflow-commit-message.html> `_"
-
 msgid "`Communication <howitsmade-communication.html>`_"
 msgstr "`Kommunikation <howitsmade-communication.html> `_"
 
@@ -2612,12 +2505,6 @@ msgid ""
 msgstr ""
 "`Etherpad für Upstream Training, Korea, 2017 <https://etherpad.openstack.org/"
 "p/upstream-training-korea-2017> `_"
-
-msgid ""
-"`Guide to SetUp and Push First Patch <workflow-setup-and-first-patch.html>`_"
-msgstr ""
-"`Anleitung zur Einrichtung und zum Pushen des ersten Patches <workflow-setup-"
-"and-first-patch.html>`_"
 
 msgid ""
 "`Installation Tutorial (Ocata) <https://docs.openstack.org/project-install-"
@@ -2667,26 +2554,14 @@ msgstr "`Projektstatus und Zuul <workflow-project-status-and-zuul.html> `_"
 msgid "`Release cycle <howitsmade-release-cycle.html>`_"
 msgstr "`Releasezyklus <howitsmade-release-cycle.html>`_"
 
-msgid "`Reviewing <workflow-reviewing.html>`_"
-msgstr "`Reviewing <workflow-reviewing.html>`_"
+msgid "`Stackalytics Wiki <https://wiki.openstack.org/wiki/Stackalytics>`_"
+msgstr "`Stackalytics Wiki <https://wiki.openstack.org/wiki/Stackalytics>`_"
 
 msgid "`Task Tracking <workflow-task-tracking.html>`_"
 msgstr "`Aufgabenverfolgung <workflow-task-tracking.html> `_"
 
-msgid "``git checkout -b <branch_name>``"
-msgstr "`` git checkout -b <branch_name> ``"
-
-msgid "``git clone``"
-msgstr "`` git clone``"
-
 msgid "``git config``"
 msgstr "`` git config``"
-
-msgid "``git review -s``"
-msgstr "`` git review -s``"
-
-msgid "``git review``"
-msgstr "`` git review``"
 
 msgid ""
 "``screen`` command was used to access the virtual terminals running the "
@@ -2706,9 +2581,6 @@ msgstr "und mit wem sie arbeiten werden"
 
 msgid "checkout the latest stable branch"
 msgstr "Checkout des letzten stabilen Branch"
-
-msgid "etc."
-msgstr "etc."
 
 msgid "fix is already on master"
 msgstr "fix ist schon auf master"
@@ -2755,14 +2627,11 @@ msgstr "https://docs.openstack.org/contributor-guide/docs-builds.html"
 msgid "https://docs.openstack.org/contributor-guide/index.html"
 msgstr "https://docs.openstack.org/contributor-guide/index.html"
 
-msgid "https://etherpad.openstack.org/p/upstream-training-barcelona"
-msgstr "https://etherpad.openstack.org/p/upstream-training-barcelona"
-
-msgid "https://etherpad.openstack.org/p/upstream-training-vancouver"
-msgstr "https://etherpad.openstack.org/p/upstream-training-vancouver"
-
 msgid "https://storyboard.openstack.org/#!/project/913"
 msgstr "https://storyboard.openstack.org/#!/project/913"
+
+msgid "https://webchat.freenode.net/?channels=openstack-dev"
+msgstr "https://webchat.freenode.net/?channels=openstack-dev"
 
 msgid "https://wiki.openstack.org/wiki/IRC"
 msgstr "https://wiki.openstack.org/wiki/IRC"

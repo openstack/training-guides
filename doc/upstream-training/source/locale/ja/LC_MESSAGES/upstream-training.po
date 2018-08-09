@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-19 18:24+0000\n"
+"POT-Creation-Date: 2018-07-31 20:47+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -263,9 +263,6 @@ msgstr "オープンなレビューにコメントする"
 msgid "Commit Messages"
 msgstr "コミットメッセージ"
 
-msgid "Commit files and write commit message"
-msgstr "ファイルのコミットとコミットメッセージの作成"
-
 msgid "Communication"
 msgstr "コミュニケーション"
 
@@ -306,9 +303,6 @@ msgstr "コア : 5"
 msgid "Core team"
 msgstr "コアチーム"
 
-msgid "Create & push a Work in Progress (WIP) to the sandbox"
-msgstr "作業中のパッチ (Work in Progress; WIP) の作成と sandbox への投稿"
-
 msgid "DB schema changes"
 msgstr "DB スキーマの変更"
 
@@ -330,14 +324,8 @@ msgstr "Day 3-4"
 msgid "Day 5"
 msgstr "Day 5"
 
-msgid "Deadlines"
-msgstr "締め切り"
-
 msgid "Demo environment"
 msgstr "デモ環境"
-
-msgid "Describe a release cycle based on the information you found"
-msgstr "見つけた情報に基づいてリリースサイクルを説明してください。"
 
 msgid "Description"
 msgstr "説明"
@@ -445,9 +433,6 @@ msgstr "blueprint や spec を登録する"
 msgid "Filing, fixing, and triaging bugs"
 msgstr "バグの登録、修正、仕分けを行う"
 
-msgid "Find feature proposal deadlines in the current release schedule"
-msgstr "現在のリリーススケジュールにおける機能提案の締め切りを探してください。"
-
 msgid "Find the current members of the Board of Directors, TC and UC"
 msgstr "現在の Board of Directors、TC、UC のメンバーを探してください。"
 
@@ -546,6 +531,9 @@ msgstr "OpenStack の使い方"
 msgid "Ian Y. Choi (training, assistant, mentoring)"
 msgstr "Ian Y. Choi (training, assistant, mentoring)"
 
+msgid "Identify common characteristics of these cycles"
+msgstr "これらのサイクルの共通的な特性を見つけてください。"
+
 msgid ""
 "If contributing code, being technically proficient enough to carry out "
 "simple bug fixes in the project"
@@ -625,9 +613,6 @@ msgstr "日本OpenStackユーザ会は、日本版 Upstream Training を開催�
 
 msgid "Jay Bryant – IBM"
 msgstr "Jay Bryant – IBM"
-
-msgid "Jenkins and vendor CIs will review your patch"
-msgstr "Jenkins やベンダー CI があなたのパッチをレビューします"
 
 msgid "Jieun Kim (assistant)"
 msgstr "Jieun Kim (assistant)"
@@ -716,13 +701,6 @@ msgid ""
 "interested in attending"
 msgstr "お住まいに近く、参加してみたい OpenStack Days イベントを探してください"
 
-msgid ""
-"Look up the release schedule for the current and past two OpenStack release "
-"cycles"
-msgstr ""
-"OpenStack のリリースサイクルの過去 2 サイクルのリリーススケジュールを探してく"
-"ださい。"
-
 msgid "Loïc Dachary (Training, mentoring, assistant, english and french)"
 msgstr "Loïc Dachary (Training, mentoring, assistant, english and french)"
 
@@ -757,9 +735,6 @@ msgstr "Melvin Hillsman – OSIC"
 
 msgid "Metrics"
 msgstr "指標"
-
-msgid "Milestones"
-msgstr "マイルストーン"
 
 msgid "Mission"
 msgstr "ミッション"
@@ -1251,9 +1226,6 @@ msgstr "あなたのミッション : 許容するかを決めてください"
 msgid "`Code exercises <code-exercises.html>`_"
 msgstr "`コードの演習 <code-exercises.html>`_"
 
-msgid "`Commit Messages <workflow-commit-message.html>`_"
-msgstr "`コミットメッセージ <workflow-commit-message.html>`_"
-
 msgid "`Communication <howitsmade-communication.html>`_"
 msgstr "`コミュニケーション <howitsmade-communication.html>`_"
 
@@ -1272,10 +1244,6 @@ msgid ""
 msgstr ""
 "`Etherpad for Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
 "p/upstream-training-korea-2016>`_"
-
-msgid ""
-"`Guide to SetUp and Push First Patch <workflow-setup-and-first-patch.html>`_"
-msgstr "`環境設定と最初のパッチの投稿 <workflow-setup-and-first-patch.html>`_"
 
 msgid "`Introduction <intro-introduction.html>`_"
 msgstr "`はじめに <intro-introduction.html>`_"
@@ -1306,17 +1274,11 @@ msgstr ""
 msgid "`Release cycle <howitsmade-release-cycle.html>`_"
 msgstr "`リリースサイクル <howitsmade-release-cycle.html>`_"
 
-msgid "`Reviewing <workflow-reviewing.html>`_"
-msgstr "`レビュー <workflow-reviewing.html>`_"
-
 msgid "and whom they will be working with"
 msgstr "そして、誰と一緒に作業をするか"
 
 msgid "checkout the latest stable branch"
 msgstr "最新の stable ブランチのチェックアウト"
-
-msgid "etc."
-msgstr "他"
 
 msgid "fix is already on master"
 msgstr "修正がマスターに存在します"
@@ -1347,9 +1309,6 @@ msgstr "https://bugs.launchpad.net/openstack-dev-sandbox/+filebug"
 
 msgid "https://bugs.launchpad.net/openstack-manuals"
 msgstr "https://bugs.launchpad.net/openstack-manuals"
-
-msgid "https://etherpad.openstack.org/p/upstream-training-vancouver"
-msgstr "https://etherpad.openstack.org/p/upstream-training-vancouver"
 
 msgid "https://wiki.openstack.org/wiki/IRC"
 msgstr "https://wiki.openstack.org/wiki/IRC"
