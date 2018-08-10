@@ -43,7 +43,7 @@ Jump on IRC and etherpad
   - Use it for exercises
   - Use your IRC client or Web IRC:
 
-    https://webchat.freenode.net/?channels=openstack-dev
+    `Connect to freenode IRC <https://webchat.freenode.net/?channels=openstack-dev>`_
 
 - Open the `training etherpad <https://etherpad.openstack.org/p/upstream-institute-vancouver-2018>`_
   for team work
