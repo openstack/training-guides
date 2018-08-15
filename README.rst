@@ -88,7 +88,7 @@ Published guides
 
 Guides are published at:
 
- * http://docs.openstack.org/upstream-training/
+ * https://docs.openstack.org/upstream-training/
 
 
 Release Notes
