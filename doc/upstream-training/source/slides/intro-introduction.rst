@@ -57,7 +57,7 @@ to start contributing to OpenStack.
 The training blocks will guide you through the chapters to get to know the
 community, tools and processes that we are using.
 
-Ready, set, go to https://docs.openstack.org/contributors/
+Ready, set, go to `The OpenStack Contributor Guide <https://docs.openstack.org/contributors/>`_
 
 And then open the `Introductions
 <https://docs.openstack.org/contributors/common/introduction.html>`_ chapter.
