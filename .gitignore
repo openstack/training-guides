@@ -22,6 +22,5 @@ boxes/*
 # Editors
 *~
 .*.swp
-*.pyc
 .bak
 /.project
