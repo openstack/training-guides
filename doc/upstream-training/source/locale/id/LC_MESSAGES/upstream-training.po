@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-31 20:47+0000\n"
+"POT-Creation-Date: 2018-08-15 21:54+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -3014,9 +3014,6 @@ msgstr "https://storyboard-dev.openstack.org/#!/dashboard/"
 
 msgid "https://storyboard.openstack.org/#!/project/913"
 msgstr "https://storyboard.openstack.org/#!/project/913"
-
-msgid "https://webchat.freenode.net/?channels=openstack-dev"
-msgstr "https://webchat.freenode.net/?channels=openstack-dev"
 
 msgid "https://wiki.openstack.org/wiki/IRC"
 msgstr "https://wiki.openstack.org/wiki/IRC"
