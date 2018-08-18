@@ -95,3 +95,8 @@ Release Notes
 =============
 
  * https://docs.openstack.org/releasenotes/openstack-manuals/
+
+Repository
+==========
+
+* https://git.openstack.org/cgit/openstack/training-guides
