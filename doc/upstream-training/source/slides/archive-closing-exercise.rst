@@ -68,5 +68,5 @@ Exercise: Step 3 and more
   details your group thinks are appropriate.
 
   - Register the blueprint
-    : https://blueprints.launchpad.net/openstack-dev-sandbox
+    : `Blueprints for openstack-dev-sandbox <https://blueprints.launchpad.net/openstack-dev-sandbox>`_
   - Use "Implements: [blueprint name]" in commit messages
