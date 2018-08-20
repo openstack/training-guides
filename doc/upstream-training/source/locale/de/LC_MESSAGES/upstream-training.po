@@ -3,18 +3,19 @@
 # Frank Kloeker <eumel@arcor.de>, 2017. #zanata
 # Robert Simai <robert.simai@suse.com>, 2017. #zanata
 # Alexander Loew <alexander.loew@innovo-cloud.de>, 2018. #zanata
+# Andreas Jaeger <jaegerandi@gmail.com>, 2018. #zanata
 # Reik Keutterling <spielkind@gmail.com>, 2018. #zanata
 # Robert Simai <robert.simai@suse.com>, 2018. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-17 18:21+0000\n"
+"POT-Creation-Date: 2018-08-19 08:09+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-07-26 12:02+0000\n"
-"Last-Translator: Robert Simai <robert.simai@suse.com>\n"
+"PO-Revision-Date: 2018-08-19 07:55+0000\n"
+"Last-Translator: Andreas Jaeger <jaegerandi@gmail.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
 "X-Generator: Zanata 4.3.3\n"
@@ -141,6 +142,9 @@ msgid ""
 msgstr ""
 "Eine Woche vor Beginn des Trainings ist sicherzustellen, dass die Teilnehmer "
 "die Voraussetzungen bei der Bestätigung der Teilnahme kennen"
+
+msgid "API, Contributor Guide, Security Guide, Training Guides, Training Labs"
+msgstr "API, Contributor Guide, Security Guide, Training Guides, Training Labs"
 
 msgid "About the training"
 msgstr "Über das Training"
@@ -796,6 +800,9 @@ msgstr "Übung 4"
 msgid "Exercise 5"
 msgstr "Übung 5"
 
+msgid "Exercise 6"
+msgstr "Übung 6"
+
 msgid "Exercise: Step 1"
 msgstr "Übung: Schritt 1"
 
@@ -851,6 +858,10 @@ msgid "Find the information that can be retrieved for each patch in a pipeline"
 msgstr ""
 "Finden Sie die Informationen, die für jeden Patch in einer Pipeline "
 "abgerufen werden können"
+
+msgid "Find the latest election results for Board of Directors, TC and UC."
+msgstr ""
+"Finden Sie die neuesten Wahlergebnisse für Board of Directors, TC und UC. "
 
 msgid ""
 "Find the requirements that must be met to be an official OpenStack project"
@@ -1297,6 +1308,13 @@ msgstr "Hören Sie zu, wenn Leute reden"
 msgid "Local Upstream Trainings"
 msgstr "Lokale Upstream-Trainings"
 
+msgid ""
+"Locate the archives for that ML. What email thread has the most responses "
+"this month?"
+msgstr ""
+"Finde die Archive für diese Mailingliste. Welcher Email Thread hatte die "
+"größte Beteiligung diesen Monat?"
+
 msgid "Location"
 msgstr "Ort"
 
@@ -1313,6 +1331,13 @@ msgstr "Offene Reviews ansehen"
 msgid "Look at the `Zuul <http://status.openstack.org/zuul>`_ status page"
 msgstr ""
 "Schauen Sie auf die Zuul <http://status.openstack.org/zuul> `_ status Seite"
+
+msgid ""
+"Look through the list of mailing lists and subscribe to at least one list of "
+"interest"
+msgstr ""
+"Schauen Sie durch die Liste der Mailinglisten und abonnieren Sie mindestens "
+"eine Liste von Interesse"
 
 msgid ""
 "Look up an OpenStack Days event close to where you live that you would be "
@@ -1334,6 +1359,12 @@ msgstr ""
 "suchen Sie die drei aktivsten Core-Reviewer (Leute, die man kennen sollte, "
 "um Hilfe für Reviews anzufordern und um die eigenen Patches gemerged zu "
 "bekommen)."
+
+msgid ""
+"Look up when the next meeting is for the project who's channel you joined"
+msgstr ""
+"Schauen Sie nach, wann das nächste Meeting für Ihren Kanal ist und wo es "
+"stattfindet"
 
 msgid "Loïc Dachary (Training, mentoring, assistant, english and french)"
 msgstr ""
@@ -2371,6 +2402,9 @@ msgstr "Webbrowser: Firefox"
 msgid "What happens if you click on a patch under test"
 msgstr "Was passiert, wenn Sie auf einen Patch im Test klicken"
 
+msgid "What is the difference between ATC, AUC, and APC?"
+msgstr "Was ist der Unterschied zwischen ATC, AUC und APC?"
+
 msgid "What is the significance of the dots, lines and colors"
 msgstr "Was ist die Bedeutung der Punkte, Linien und Farben"
 
@@ -2378,6 +2412,13 @@ msgid "When possible, sit at a table and build connections with attendees"
 msgstr ""
 "Wenn möglich, sitzen Sie an einem Tisch und bauen Verbindungen mit den "
 "Teilnehmern auf"
+
+msgid ""
+"Where is the meeting is conducted (#openstack-meeting, #openstack-meeting-3, "
+"etc)?"
+msgstr ""
+"Wo findet das Meeting  (#openstack-meeting, #openstack-meeting-3, etc.) "
+"statt?"
 
 msgid ""
 "Which members of these groups will be up for reelection during the next "
@@ -2472,6 +2513,23 @@ msgid ""
 msgstr ""
 "`Entwicklerdokumentation <https://docs.openstack.org/heat/>`_ ist "
 "veröffentlicht vom doc Verzeichnis im Master Branch"
+
+msgid ""
+"`Docs cores <https://review.openstack.org/#/admin/groups/30,members>`_ and "
+"separate core teams for `docs-specs <https://review.openstack.org/#/admin/"
+"groups/384,members>`_ , `contributor-guide <https://review.openstack.org/#/"
+"admin/groups/1841,members>`_ , `security-doc <https://review.openstack.org/#/"
+"admin/groups/347,members>`_ , `training-guides <https://review.openstack.org/"
+"#/admin/groups/360,members>`_ , and `training-labs <https://review.openstack."
+"org/#/admin/groups/1118,members>`_"
+msgstr ""
+"`Docs Kernteam <https://review.openstack.org/#/admin/groups/30,members> `` "
+"und separate Kernteams für `docs-specs <https://review.openstack.org/#/admin/"
+"groups/384,members> ``,  `contributor-guide <https://review.openstack.org/#/"
+"admin/groups/1841,members>`_ ,  `security-doc <https://review.openstack.org/"
+"#/admin/groups/347,members> ``, `training-guides <https://review.openstack."
+"org/#/admin/groups/360,members> ``, und `training-labs <https://review."
+"openstack.org/#/admin/groups/1118,members> `_"
 
 msgid "`Documentation Deep Dive <docs.html>`_"
 msgstr "`Dokumentation Deep Dive <docs.html> `_"
