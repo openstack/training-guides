@@ -41,8 +41,8 @@ Workflow and Tools for Participation
 * `Setting Up Git & Commit Messages
   <workflow-setup-git-and-commit-messages.html>`_
 * `Configuring Gerrit <workflow-configuring-gerrit.html>`_
-* `Patch Gurus! <workflow-patch-gurus.html>`_
 * `Reviewing & Using Gerrit <workflow-reviewing.html>`_
+* `Patch Gurus! <workflow-patch-gurus.html>`_
 * `Project Status and Zuul <workflow-project-status-and-zuul.html>`_
 
 
