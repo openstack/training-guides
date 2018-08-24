@@ -42,7 +42,8 @@ Plugins
 Current Set of Plugins
 ======================
 
-Complete list of supported plugins https://wiki.openstack.org/wiki/Neutron_Plugins_and_Drivers
+Complete list of supported plugins `Neutron Plugins and Drivers
+<https://wiki.openstack.org/wiki/Neutron_Plugins_and_Drivers>`_
 
 .. rst-class:: colleft
 
