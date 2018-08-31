@@ -22,21 +22,10 @@ Learning Exercise
 Exercise 1
 ==========
 
-* Join the channel of the project(s) you are interested in
-* Find the logs from the most recent meeting
-* Who spoke the most during that meeting?
-
+* Add your name and email address (and IRC nick if you have one already) to
+  the training etherpad
 
 Exercise 2
-==========
-
-* Look up when the next meeting is for the project who's channel you joined
-* Where is the meeting is conducted (#openstack-meeting, #openstack-meeting-3,
-  etc)?
-* Share something you find interesting from the proposed agenda
-
-
-Exercise 3
 ==========
 
 * Look through the list of mailing lists and subscribe to at least
