@@ -64,7 +64,7 @@ Bug reports
 Contributor guide
 =================
 
-- https://docs.openstack.org/contributor-guide/index.html
+- https://docs.openstack.org/doc-contrib-guide/index.html
 
 This guide provides detailed instructions on the contribution workflow and
 conventions to be considered by all documentation contributors.
@@ -72,7 +72,7 @@ conventions to be considered by all documentation contributors.
 Building documentation
 ======================
 
-- https://docs.openstack.org/contributor-guide/docs-builds.html
+- https://docs.openstack.org/doc-contrib-guide/docs-builds.html
 
 EOL documents
 =============
