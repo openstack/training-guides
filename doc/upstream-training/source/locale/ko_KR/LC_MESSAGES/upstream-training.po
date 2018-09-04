@@ -40,7 +40,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-27 13:53+0000\n"
+"POT-Creation-Date: 2018-09-01 11:21+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -3172,12 +3172,6 @@ msgstr "https://developer.openstack.org"
 
 msgid "https://docs.openstack.org"
 msgstr "https://docs.openstack.org"
-
-msgid "https://docs.openstack.org/contributor-guide/docs-builds.html"
-msgstr "https://docs.openstack.org/contributor-guide/docs-builds.html"
-
-msgid "https://docs.openstack.org/contributor-guide/index.html"
-msgstr "https://docs.openstack.org/contributor-guide/index.html"
 
 msgid ""
 "https://docs.openstack.org/contributors/code-and-documentation/sandbox-house-"
