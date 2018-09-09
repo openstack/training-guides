@@ -138,7 +138,7 @@ Previous trainings
 ----------------
 
 - Article: `Get up to speed with the OpenStack Upstream Institute
-  <https//superuser.openstack.org/articles/openstack-upstream-institute-update/>`_
+  <https://superuser.openstack.org/articles/openstack-upstream-institute-update/>`_
 - Crews: `Boston Crew
   <https://wiki.openstack.org/wiki/OpenStack_Upstream_Institute_Occasions#Boston_Crew>`_
 - Etherpad: `Etherpad for Upstream Training, Boston, 2017
