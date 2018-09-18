@@ -73,11 +73,6 @@ and registration.
 +------------+---------+---------+-----------+--------------------------------+
 | Date       | Event   | Duration| Location  |              Details           |
 +============+=========+=========+===========+================================+
-| July 30-31,|Upstream |  1.5    | Rio de    | :ref:`OUI_rio_de_janeiro`      |
-| 2018       |Institute|  days   | Janeiro,  |             \                  |
-|            |at UFRJ  |         | Brazil    |                                |
-|            |         |         |           |                                |
-+------------+---------+---------+-----------+--------------------------------+
 | October 9, |OpenStack|  1 day  | Stockholm,| :ref:`openstack-day-nordics`   |
 | 2018       |Days     |         | Sweden    |             \                  |
 |            |Nordics  |         |           |                                |
