@@ -8,11 +8,12 @@ How to prepare
 ==============
 
 * Make sure you have a wifi enabled laptop with you.
-* Prepared virtual machine image with a development environment:
+* Download the prepared virtual machine image and some environment
+  for running the image (We suggest VirtualBox):
 
   * Image: http://bit.ly/vm-2018-vancouver-v1
 
-* Prepare an environment by yourself from scratch:
+* Optional: Prepare an environment by yourself from scratch:
 
   * Create a virtual machine on your laptop with Ubuntu 16.04 installed and
     6+ GB of RAM.
@@ -22,11 +23,6 @@ How to prepare
   * Read and complete the
     `Setup IRC <https://docs.openstack.org/contributors/common/irc.html>`_
     guide.
-* Read and complete the `Account Setup <https://docs.openstack.org/contributors/common/accounts.html>`_
-  guide. (**Note:** you will need to sign the Individual Contributor License
-  Agreement (`ICLA <https://review.openstack.org/static/cla.html>`_)
-  during this.)
-
 
 .. note::
    Aside from the Setup IRC section above, we will cover everything else that is in
