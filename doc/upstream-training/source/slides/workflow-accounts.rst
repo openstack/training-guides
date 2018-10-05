@@ -6,9 +6,6 @@ Account SetUp
    :class: fill
    :width: 100%
 
-.. note::
-   Tags: [new_dev] [dev]
-
 Learning Exercise
 =================
 

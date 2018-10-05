@@ -6,9 +6,6 @@ Setting Up IRC
    :class: fill
    :width: 100%
 
-.. note::
-   Tags: [operator] [user] [new_dev] [dev]
-
 Learning Exercise
 =================
 

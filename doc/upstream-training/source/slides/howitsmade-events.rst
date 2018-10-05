@@ -6,9 +6,6 @@ OpenStack Events
    :class: fill
    :width: 100%
 
-.. note::
-   Tags: [management] [operator] [user] [new_dev] [dev]
-
 Learning Exercise
 =================
 

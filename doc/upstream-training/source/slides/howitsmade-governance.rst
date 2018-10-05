@@ -6,9 +6,6 @@ OpenStack Governance
    :class: fill
    :width: 100%
 
-.. note::
-   Tags: [management] [new_dev] [dev]
-
 Learning Exercise
 =================
 
