@@ -4,11 +4,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-12 19:37+0000\n"
+"POT-Creation-Date: 2018-10-04 20:53+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-09-12 08:53+0000\n"
+"PO-Revision-Date: 2018-10-05 11:17+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom)\n"
 "Language: en_GB\n"
@@ -17,9 +17,6 @@ msgstr ""
 
 msgid "**Mentors**"
 msgstr "**Mentors**"
-
-msgid "**Monday and Tuesday, July 30-31, 2018**"
-msgstr "**Monday and Tuesday, 30th-31st July 2018**"
 
 msgid "**Staff**"
 msgstr "**Staff**"
@@ -136,9 +133,6 @@ msgstr ":doc:`upstream-training-content`"
 
 msgid ":doc:`upstream-training-summit`"
 msgstr ":doc:`upstream-training-summit`"
-
-msgid ":ref:`OUI_rio_de_janeiro`"
-msgstr ":ref:`OUI_rio_de_janeiro`"
 
 msgid ":ref:`openstack-day-nordics`"
 msgstr ":ref:`openstack-day-nordics`"
@@ -759,6 +753,13 @@ msgstr "Don't game the numbers"
 msgid "Don't give out VM image at the beginning of the first day"
 msgstr "Don't give out VM image at the beginning of the first day"
 
+msgid ""
+"Download the prepared virtual machine image and some environment for running "
+"the image (We suggest VirtualBox):"
+msgstr ""
+"Download the prepared virtual machine image and some environment for running "
+"the image (We suggest VirtualBox):"
+
 msgid "Duration"
 msgstr "Duration"
 
@@ -1358,9 +1359,6 @@ msgstr "Join the project's IRC channel"
 msgid "Julie Pichon (training, mentoring, assistant, english)"
 msgstr "Julie Pichon (training, mentoring, assistant, english)"
 
-msgid "July 30-31, 2018"
-msgstr "30th-31st July 2018"
-
 msgid "July 6 - 7, 2016 (Wed - Thu)"
 msgstr "July 6 - 7, 2016 (Wed - Thu)"
 
@@ -1661,9 +1659,6 @@ msgstr "11th-12th November 2018"
 msgid "Numbers should not be used as an indication for competition"
 msgstr "Numbers should not be used as an indication for competition"
 
-msgid "OUI at Universidade Federal do Rio de Janeiro"
-msgstr "OUI at Universidade Federal do Rio de Janeiro"
-
 msgid "Objectives"
 msgstr "Objectives"
 
@@ -1887,6 +1882,9 @@ msgstr "Operator"
 msgid "Operator: Operates or is starting to deploy OpenStack."
 msgstr "Operator: Operates or is starting to deploy OpenStack."
 
+msgid "Optional: Prepare an environment by yourself from scratch:"
+msgstr "Optional: Prepare an environment by yourself from scratch:"
+
 msgid "Organize the tables according to project interest - especially on day 2"
 msgstr ""
 "Organise the tables according to project interest - especially on day 2"
@@ -1942,12 +1940,6 @@ msgstr "Please note that the language of the training is English."
 msgid "Post the information on the IRC channel"
 msgstr "Post the information on the IRC channel"
 
-msgid "Prepare an environment by yourself from scratch:"
-msgstr "Prepare an environment by yourself from scratch:"
-
-msgid "Prepared virtual machine image with a development environment:"
-msgstr "Prepared virtual machine image with a development environment:"
-
 msgid "Prerequisite and best practice guide for trainees:"
 msgstr "Prerequisite and best practice guide for trainees:"
 
@@ -2002,17 +1994,6 @@ msgid ""
 msgstr ""
 "REMEMBER: This is open source. Things happen on the community's schedule, "
 "not yours."
-
-msgid ""
-"Read and complete the `Account Setup <https://docs.openstack.org/"
-"contributors/common/accounts.html>`_ guide. (**Note:** you will need to sign "
-"the Individual Contributor License Agreement (`ICLA <https://review."
-"openstack.org/static/cla.html>`_) during this.)"
-msgstr ""
-"Read and complete the `Account Setup <https://docs.openstack.org/"
-"contributors/common/accounts.html>`_ guide. (**Note:** you will need to sign "
-"the Individual Contributor License Agreement (`ICLA <https://review."
-"openstack.org/static/cla.html>`_) during this.)"
 
 msgid ""
 "Read and complete the `Setup IRC <https://docs.openstack.org/contributors/"
@@ -2094,9 +2075,6 @@ msgstr "Reviewing"
 msgid "Revise the original patch according to discussion results."
 msgstr "Revise the original patch according to discussion results."
 
-msgid "Rio de Janeiro, Brazil"
-msgstr "Rio de Janeiro, Brazil"
-
 msgid "Rodolphe Quiedeville (training, mentoring, assistant, french)"
 msgstr "Rodolphe Quiedeville (training, mentoring, assistant, french)"
 
@@ -2139,9 +2117,6 @@ msgstr ""
 
 msgid "See EOL status at: https://releases.openstack.org"
 msgstr "See EOL status at: https://releases.openstack.org"
-
-msgid "See YOU in Rio de Janeiro!"
-msgstr "See YOU in Rio de Janeiro!"
 
 msgid "See YOU in Stockholm!"
 msgstr "See YOU in Stockholm!"
@@ -2623,9 +2598,6 @@ msgstr "Update and add tests (unit, functional, etc.)"
 msgid "Upstream Institute Training Other Events"
 msgstr "Upstream Institute Training Other Events"
 
-msgid "Upstream Institute at UFRJ"
-msgstr "Upstream Institute at UFRJ"
-
 msgid "Upstream Training in Japan"
 msgstr "Upstream Training in Japan"
 
@@ -3030,13 +3002,6 @@ msgid ""
 msgstr ""
 "`Etherpad for OpenStack Days Nordics Upstream Institute <https://etherpad."
 "openstack.org/p/upstream-institute-nordics-2018>`_"
-
-msgid ""
-"`Etherpad for UFRJ Upstream Institute <https://etherpad.openstack.org/p/"
-"upstream-institute-rio-2018>`_"
-msgstr ""
-"`Etherpad for UFRJ Upstream Institute <https://etherpad.openstack.org/p/"
-"upstream-institute-rio-2018>`_"
 
 msgid ""
 "`Etherpad for Upstream Training, Barcelona, 2016 <https://etherpad.openstack."

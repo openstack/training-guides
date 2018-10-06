@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-31 20:47+0000\n"
+"POT-Creation-Date: 2018-10-04 20:53+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -864,12 +864,6 @@ msgstr "誰がどの領域が得意なのかを意識しましょう"
 
 msgid "Pick a task (bug, trivial fix, documentation, implementation)"
 msgstr "タスク (バグ、些細な修正、ドキュメント、実装) を選びます"
-
-msgid "Prepare an environment by yourself from scratch:"
-msgstr "自分で最初から環境を用意します。"
-
-msgid "Prepared virtual machine image with a development environment:"
-msgstr "開発環境を入れた仮想マシンイメージを準備します。"
 
 msgid "Product owners"
 msgstr "プロダクトオーナー"

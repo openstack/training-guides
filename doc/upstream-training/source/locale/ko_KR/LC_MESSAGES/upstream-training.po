@@ -40,7 +40,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-12 19:37+0000\n"
+"POT-Creation-Date: 2018-10-04 20:53+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -53,9 +53,6 @@ msgstr ""
 
 msgid "**Mentors**"
 msgstr "**멘토**"
-
-msgid "**Monday and Tuesday, July 30-31, 2018**"
-msgstr "**2018년 7월 30-31 (월요일, 화요일)**"
 
 msgid "**Staff**"
 msgstr "**스태프**"
@@ -173,9 +170,6 @@ msgstr ":doc:`upstream-training-content`"
 
 msgid ":doc:`upstream-training-summit`"
 msgstr ":doc:`upstream-training-summit`"
-
-msgid ":ref:`OUI_rio_de_janeiro`"
-msgstr "리우 데 자네이루"
 
 msgid ":ref:`openstack-day-nordics`"
 msgstr ":ref:`openstack-day-nordics`"
@@ -1344,9 +1338,6 @@ msgstr "프로젝트 IRC 채널에 참여합니다"
 msgid "Julie Pichon (training, mentoring, assistant, english)"
 msgstr "Julie Pichon (교육, 멘토링, 조교, 영어)"
 
-msgid "July 30-31, 2018"
-msgstr "2018년 7월 30-31일"
-
 msgid "July 6 - 7, 2016 (Wed - Thu)"
 msgstr "2016년 7월 6 - 7일 (수 - 목)"
 
@@ -1644,9 +1635,6 @@ msgstr "11월 11-12,2018"
 msgid "Numbers should not be used as an indication for competition"
 msgstr "숫자가 경쟁의 지표로 사용되어서는 안 됩니다."
 
-msgid "OUI at Universidade Federal do Rio de Janeiro"
-msgstr "리오 데 자네이로 연방 대학교에서 만나요!"
-
 msgid "Objectives"
 msgstr "목표"
 
@@ -1912,12 +1900,6 @@ msgstr "참고로 트레이닝에서는 영어를 사용합니다."
 msgid "Post the information on the IRC channel"
 msgstr "해당 정보를 IRC 채널에 게시합니다"
 
-msgid "Prepare an environment by yourself from scratch:"
-msgstr "기반부터 환경을 스스로 준비합니다:"
-
-msgid "Prepared virtual machine image with a development environment:"
-msgstr "개발 환경에 대한 준비된 가상 머신 이미지:"
-
 msgid "Prerequisite and best practice guide for trainees:"
 msgstr "연습생을 위한 선행조건 및 모범 사례 가이드:"
 
@@ -1970,17 +1952,6 @@ msgid ""
 msgstr ""
 "기억할 점: 여기는 오픈 소스입니다. 여러분보다는 커뮤니티 일정에 상에서 일어납"
 "니다."
-
-msgid ""
-"Read and complete the `Account Setup <https://docs.openstack.org/"
-"contributors/common/accounts.html>`_ guide. (**Note:** you will need to sign "
-"the Individual Contributor License Agreement (`ICLA <https://review."
-"openstack.org/static/cla.html>`_) during this.)"
-msgstr ""
-"`Account Setup <https://docs.openstack.org/contributors/common/accounts."
-"html>`_ 가이드를 읽고 완성하세요. (**참고:** 이를 진행하는 도중 개인 컨트리뷰"
-"터 라이센스 계약 (`ICLA <https://review.openstack.org/static/cla.html>`_) 에 "
-"사인하셔야 합니다.)"
 
 msgid ""
 "Read and complete the `Setup IRC <https://docs.openstack.org/contributors/"
@@ -2061,9 +2032,6 @@ msgstr "리뷰하기"
 msgid "Revise the original patch according to discussion results."
 msgstr "원본 patch를 토론 결과에 따라 개선합니다."
 
-msgid "Rio de Janeiro, Brazil"
-msgstr "브라질, 리우 데 자네이루"
-
 msgid "Rodolphe Quiedeville (training, mentoring, assistant, french)"
 msgstr "Rodolphe Quiedeville (교육, 멘토링, 조교, 프랑스어)"
 
@@ -2106,9 +2074,6 @@ msgstr ""
 
 msgid "See EOL status at: https://releases.openstack.org"
 msgstr "EOL 상태 확인: https://releases.openstack.org"
-
-msgid "See YOU in Rio de Janeiro!"
-msgstr "리우 데 자네이로 에서 만나요!"
 
 msgid "See YOU in Stockholm!"
 msgstr "스톡홀름에서 만나요!"
@@ -2578,9 +2543,6 @@ msgstr "업데이트하고 테스트를 추가합니다 (단위, 기능 등)"
 msgid "Upstream Institute Training Other Events"
 msgstr "업스트림 연구소 교육 기타 이벤트"
 
-msgid "Upstream Institute at UFRJ"
-msgstr "UFRJ 업스트림 연구소"
-
 msgid "Upstream Training in Japan"
 msgstr "일본에서의 Upstream Training"
 
@@ -2965,13 +2927,6 @@ msgid ""
 msgstr ""
 "`Nordics Upstream Institute OpenStack의 날을 위한 Etherpad <https://etherpad."
 "openstack.org/p/upstream-institute-nordics-2018>`_"
-
-msgid ""
-"`Etherpad for UFRJ Upstream Institute <https://etherpad.openstack.org/p/"
-"upstream-institute-rio-2018>`_"
-msgstr ""
-"`UFRJ Upstream Institute를 위한 Etherpad <https://etherpad.openstack.org/p/"
-"upstream-institute-rio-2018>`_"
 
 msgid ""
 "`Etherpad for Upstream Training, Barcelona, 2016 <https://etherpad.openstack."

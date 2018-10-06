@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-01 11:21+0000\n"
+"POT-Creation-Date: 2018-10-04 20:53+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1422,12 +1422,6 @@ msgstr "Eğitim dilinin İngilizce olduğunu not edin."
 
 msgid "Post the information on the IRC channel"
 msgstr "Bilgileri IRC kanalına gönderin"
-
-msgid "Prepare an environment by yourself from scratch:"
-msgstr "Kendiniz sıfırdan bir ortam hazırlayın:"
-
-msgid "Prepared virtual machine image with a development environment:"
-msgstr "Bir geliştirme ortamıyla hazırlanmış sanal makine imajı:"
 
 msgid "Prerequisites to attend the class"
 msgstr "Derse katılmak için ön şartlar"

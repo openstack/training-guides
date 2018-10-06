@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-01 11:21+0000\n"
+"POT-Creation-Date: 2018-10-04 20:53+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1676,12 +1676,6 @@ msgstr "Bitte beachten Sie, dass die Sprache der Ausbildung Englisch ist."
 
 msgid "Post the information on the IRC channel"
 msgstr "Posten Sie die Informationen auf dem IRC-Kanal"
-
-msgid "Prepare an environment by yourself from scratch:"
-msgstr "Erstellen Sie selbst eine Umgebung von Grund auf:"
-
-msgid "Prepared virtual machine image with a development environment:"
-msgstr "Vorbereitetes virtuelles Maschinenbild mit einer Entwicklungsumgebung:"
 
 msgid "Prerequisite and best practice guide for trainees:"
 msgstr "Voraussetzung und Best Practice Guide für Auszubildende:"
