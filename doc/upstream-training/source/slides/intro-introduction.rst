@@ -22,8 +22,8 @@ About the training
   - How to deploy OpenStack
   - How to prepare for different exams
 
-Exercise
-========
+Exercise 1
+==========
 
 Introduce yourself to the others at your table! Who you are,
 what experience you have with OpenStack if any, what company
@@ -61,3 +61,14 @@ Ready, set, go to `The OpenStack Contributor Guide <https://docs.openstack.org/c
 
 And then open the `Introductions
 <https://docs.openstack.org/contributors/common/introduction.html>`_ chapter.
+
+Exercise 2
+==========
+
+List at least three of the nine services that make up OpenStack's core
+functionality.
+
+Exercise 3
+==========
+
+What are the Four Opens?
