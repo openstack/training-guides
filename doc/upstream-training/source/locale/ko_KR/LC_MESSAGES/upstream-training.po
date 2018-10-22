@@ -27,6 +27,7 @@
 # Su Hyeon Cho <suhyeon_cho@knu.ac.kr>, 2018. #zanata
 # Suhyeon Kim <gerang9119@gmail.com>, 2018. #zanata
 # Sung-Hoon Choi <tjdgns9246@naver.com>, 2018. #zanata
+# Sungjin Kang <gang.sungjin@gmail.com>, 2018. #zanata
 # TaeWon Kim <dydalehdxo@naver.com>, 2018. #zanata
 # YEONJE CHOI <dbdbdb156@naver.com>, 2018. #zanata
 # Yongtae Cheon <ide2143@naver.com>, 2018. #zanata
@@ -40,12 +41,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-04 20:53+0000\n"
+"POT-Creation-Date: 2018-10-09 14:20+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-08-30 05:34+0000\n"
-"Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
+"PO-Revision-Date: 2018-10-21 07:16+0000\n"
+"Last-Translator: Sungjin Kang <gang.sungjin@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko_KR\n"
 "X-Generator: Zanata 4.3.3\n"
@@ -223,6 +224,13 @@ msgstr ""
 "다른 그룹에서 주기적으로 발생하는 패치에 대해 버그를 추가하거나 리뷰를 작성합"
 "니다."
 
+msgid ""
+"Add your name and email address (and IRC nick if you have one already) to "
+"the training etherpad"
+msgstr ""
+"당신의 이름과 이메일 주소 (그리고 이미 있다면, IRC 닉)을 교육용 ehterpad에 추"
+"가합니다."
+
 msgid "Added unit tests to cover untested methods"
 msgstr "테스트가 되지 않은 방식을 보완하기 위한 단위 테스트가 추가됨"
 
@@ -287,6 +295,13 @@ msgstr "이전 실습"
 
 msgid "Archives"
 msgstr "아카이브"
+
+msgid ""
+"Article: `Get up to speed with the OpenStack Upstream Institute <https://"
+"superuser.openstack.org/articles/openstack-upstream-institute-update/>`_"
+msgstr ""
+"읽을거리: `OpenStack Upstream Institute 최신 정보 얻기 <https://superuser."
+"openstack.org/articles/openstack-upstream-institute-update/>`_"
 
 msgid ""
 "Aside from the Setup IRC section above, we will cover everything else that "
@@ -479,9 +494,6 @@ msgstr ""
 msgid "Comment on the open review"
 msgstr "open 리뷰에 댓글을 작성합니다"
 
-msgid "Commit Messages"
-msgstr "커밋 메시지"
-
 msgid "Communication"
 msgstr "의사소통"
 
@@ -525,9 +537,6 @@ msgstr "연결: screen -R <session name>"
 
 msgid "Contribution Planning (2 hours)"
 msgstr "컨트리뷰션 계획 (2시간)"
-
-msgid "Contribution Process"
-msgstr "기여 절차"
 
 msgid "Contribution Simulation (2 hour)"
 msgstr "컨트리뷰션 시뮬레이션 (2시간)"
@@ -657,9 +666,6 @@ msgid ""
 "sightseeing."
 msgstr "다른 그룹과 함께 방문하고자 하는 국가를 결정합니다"
 
-msgid "Demo Environment"
-msgstr "데모 환경"
-
 msgid "Demo environment"
 msgstr "데모 환경"
 
@@ -673,9 +679,6 @@ msgstr "매력적인 장소, 음식 및 활동을 포함하는 5일간 여행 �
 
 msgid "Details"
 msgstr "세부 사항"
-
-msgid "Dev"
-msgstr "Dev"
 
 msgid "DevStack"
 msgstr "DevStack"
@@ -703,13 +706,6 @@ msgid ""
 "documentation."
 msgstr ""
 "품질 및 정확한 문서화를 보장하는 도구 및 프로세스를 개발하고 유지합니다."
-
-msgid ""
-"Developer: Has some experience with OpenStack and the contribution process, "
-"but could use some reference materials."
-msgstr ""
-"개발자 (Developer): OpenStack 및 컨트리뷰션 과정에 대한 경험이 다소 있으며, "
-"몇몇 레퍼런스 자료를 사용할 수 있습니다."
 
 msgid "Developers"
 msgstr "개발자"
@@ -744,9 +740,6 @@ msgstr ""
 "*upstream training* 의 미팅 이름을 변경하지 마십시오. 해당 미팅 이름은 업스트"
 "림 트레이닝 활동을 위해 예약되어 있습니다."
 
-msgid "Documentation"
-msgstr "문서화"
-
 msgid "Documentation Deep Dive"
 msgstr "문서 파헤치기"
 
@@ -761,6 +754,13 @@ msgstr "숫자놀음은 하지 마세요."
 
 msgid "Don't give out VM image at the beginning of the first day"
 msgstr "첫날 초반에 VM 이미지를 제공하지 마십시오."
+
+msgid ""
+"Download the prepared virtual machine image and some environment for running "
+"the image (We suggest VirtualBox):"
+msgstr ""
+"준비된 VM 이미지와 이미지 실행을 위한 환경을 다운로드 합니다. (VirtualBox 권"
+"장):"
 
 msgid "Duration"
 msgstr "기간"
@@ -835,9 +835,6 @@ msgid ""
 "like to use it"
 msgstr "사용하고자 하는 VM에 DevStack 저장소를 clone하였는지를 확인합니다"
 
-msgid "Environment Setup"
-msgstr "환경 셋업"
-
 msgid "Etherpad"
 msgstr "Etherpad"
 
@@ -859,9 +856,6 @@ msgid "EunSeop Shin (assistant, mentoring)"
 msgstr "EunSeop Shin (조교, 멘토링)"
 
 msgid "Event"
-msgstr "이벤트"
-
-msgid "Events"
 msgstr "이벤트"
 
 msgid "Example Itinerary: Spain"
@@ -1076,9 +1070,6 @@ msgstr "트레이너와 코치를 위한 일반적인 팁"
 msgid "Gergely Csatári – Nokia"
 msgstr "Gergely Csatári – Nokia"
 
-msgid "Gerrit"
-msgstr "Gerrit"
-
 msgid "Get ready to go through the exercises"
 msgstr "실습 준비 완료"
 
@@ -1119,9 +1110,6 @@ msgid ""
 "Go post comments on a blueprint or a bug that was created by someone in your "
 "group."
 msgstr "그룹의 다른 사용자가 만든 Blueprint나 버그에 주석을 게시합니다."
-
-msgid "Governance"
-msgstr "Governance"
 
 msgid "Group exercise"
 msgstr "그룹 실습"
@@ -1502,14 +1490,6 @@ msgstr "코드 변경사항을 만듭니다"
 msgid "Make sure you have a wifi enabled laptop with you."
 msgstr "Wifi를 사용할 수 있는 노트북을 가지고 와야 합니다."
 
-msgid "Management"
-msgstr "Management"
-
-msgid "Management: Manages people that contribute to, deploy or use OpenStack."
-msgstr ""
-"관리 (Management): OpenStack에 기여하거나 배포, 또는 사용하는 사람을 관리합니"
-"다"
-
 msgid "Managers"
 msgstr "매니저"
 
@@ -1543,9 +1523,6 @@ msgstr "모듈 - 컨트리뷰터"
 
 msgid "Module - more views"
 msgstr "모듈 - 더 많은 뷰"
-
-msgid "Module Tags"
-msgstr "모듈 태그"
 
 msgid ""
 "More details: `Developing with Devstack <https://docs.openstack.org/"
@@ -1616,16 +1593,6 @@ msgstr "Márton Kiss – Aptira"
 msgid "Namgon Lucas Kim (assistant, mentoring)"
 msgstr "Namgon Lucas Kim (조교, 멘토링)"
 
-msgid "New Dev"
-msgstr "New Dev"
-
-msgid ""
-"New Developer: No experience with OpenStack at all. Never tried to "
-"contribute and has little to no base knowledge."
-msgstr ""
-"신규 개발자 (New Developer): OpenStack에 대한 경험이 전혀 없습니다. 컨트리뷰"
-"션을 하지 않았거나 기반 지식이 부족합니다."
-
 msgid "New features"
 msgstr "새로운 기능"
 
@@ -1643,9 +1610,6 @@ msgstr "2014년 10월 10 - 11일 (금 - 토)"
 
 msgid "October 9, 2018"
 msgstr "2018년 10월 9일"
-
-msgid "Offical Projects"
-msgstr "공식 프로젝트"
 
 msgid ""
 "Once the students are separated into their new roles, and have an "
@@ -1760,6 +1724,13 @@ msgstr ""
 "contributors/common/setup-gerrit.html>`_ 섹션을 여세요"
 
 msgid ""
+"Open the `Setup IRC <https://docs.openstack.org/contributors/common/irc."
+"html>`_ section of the Contributor Guide"
+msgstr ""
+"컨트리뷰트 가이드의 `IRC 설정 <https://docs.openstack.org/contributors/"
+"common/irc.html>`_ 섹션을 확인합니다."
+
+msgid ""
 "Open the `Setup and Learn GIT <https://docs.openstack.org/contributors/"
 "common/git.html>`_ section of the Contributor Guide"
 msgstr ""
@@ -1832,20 +1803,11 @@ msgstr "OpenStack Upstream Training Archives"
 msgid "OpenStack Upstream Training Introductions"
 msgstr "OpenStack Upstream Training 소개"
 
-msgid "OpenStack as a Software"
-msgstr "소프트웨어로서의 OpenStack"
-
 msgid "OpenStack sandbox environment: DevStack"
 msgstr "OpenStack sandbox 환경: DevStack"
 
-msgid "Openstack as a Community"
-msgstr "커뮤니티로서의 OpenStack"
-
-msgid "Operator"
-msgstr "Operator"
-
-msgid "Operator: Operates or is starting to deploy OpenStack."
-msgstr "운영자 (Operator): OpenStack을 운영하거나 배포를 시작합니다"
+msgid "Optional: Prepare an environment by yourself from scratch:"
+msgstr "선택 사항: 처음부터 환경을 구축할수 있습니다:"
 
 msgid "Organize the tables according to project interest - especially on day 2"
 msgstr "프로젝트 관심 분야에 따른 테이블 구성 - 2일차"
@@ -1920,9 +1882,6 @@ msgstr "프로젝트 소유자"
 msgid "Progress"
 msgstr "진행"
 
-msgid "Project Status & Zuul"
-msgstr "프로젝트 상태 & Zuul"
-
 msgid "Project repos have installation tutorials and developer documentation"
 msgstr "프로젝트 저장소에 설치 튜토리얼 및 개발자 문서가 있습니다"
 
@@ -1982,12 +1941,6 @@ msgid ""
 msgstr ""
 "`openstack-dev-sandbox를 위한 blueprint <https://blueprints.launchpad.net/"
 "openstack-dev-sandbox> `_ 에 가입하세요: "
-
-msgid "Registration & Accounts"
-msgstr "등록 & 계정"
-
-msgid "Release Cycle"
-msgstr "릴리즈 주기"
 
 msgid "Relevant actors"
 msgstr "관련 구성원"
@@ -2062,9 +2015,6 @@ msgstr "DevStack에서 서비스 실행하기"
 msgid "Sahid Ferdjaoui (assistant, french, english)"
 msgstr "Sahid Ferdjaoui (조교, 프랑스어, 영어)"
 
-msgid "Sandbox"
-msgstr "샌드박스"
-
 msgid ""
 "Screen is going away in Queens : http://lists.openstack.org/pipermail/"
 "openstack-dev/2017-May/116301.html"
@@ -2100,8 +2050,8 @@ msgstr ""
 "DevStack 내 서비스는 devstack@$servicename.service 이름을 가진 ``systemd`` 단"
 "위로 실행 중입니다"
 
-msgid "Setup & First Patch"
-msgstr "셋업 & 첫 패치"
+msgid "Setting Up IRC"
+msgstr "IRC 설정"
 
 msgid "Setup git & Commit Messages"
 msgstr "git 설정 & commit 메세지"
@@ -2248,14 +2198,8 @@ msgstr "Taehee Jang (조교, 멘토링 - 우분투 한국 커뮤니티)"
 msgid "Tags: [management] [new_dev] [dev]"
 msgstr "태그: [management] [new_dev] [dev]"
 
-msgid "Tags: [management] [operator] [user] [new_dev] [dev]"
-msgstr "태그: [management] [operator] [user] [new_dev] [dev]"
-
 msgid "Tags: [new_dev]"
 msgstr "태그: [new_dev]"
-
-msgid "Tags: [new_dev] [dev]"
-msgstr "태그: [new_dev] [dev]"
 
 msgid "Tags: [operator] [user] [new_dev] [dev]"
 msgstr "태그: [operator] [user] [new_dev] [dev]"
@@ -2351,9 +2295,6 @@ msgstr "지표는 맥락에 맞게 사용되어야 합니다."
 msgid ""
 "The students prepare a 5-minute presentation of their planned contribution."
 msgstr "학생들은 계획된 기부금에 대한 5분짜리 발표 자료를 준비합니다."
-
-msgid "The table below tags the modules relevant to different positions."
-msgstr "아래 표는 서로 다른 영역에 적절한 모듈을 태깅한 것입니다"
 
 msgid ""
 "The training blocks will guide you through the chapters to get to know the "
@@ -2596,12 +2537,6 @@ msgstr "다음의 경우 사용합니다"
 msgid "Useful screen commands:"
 msgstr "유용한 screen 명령어들:"
 
-msgid "User"
-msgstr "User"
-
-msgid "User: Uses or is starting to use OpenStack."
-msgstr "사용자 (User): OpenStack을 사용하거나 사용을 시작합니다"
-
 msgid "Using Lego to represent the community"
 msgstr "Lego를 사용한 커뮤니티 표현"
 
@@ -2753,6 +2688,9 @@ msgstr "점, 선, 색깔의 의미는 무엇인지"
 msgid "When possible, sit at a table and build connections with attendees"
 msgstr "가능하다면, 테이블에 앉아서 참석자들과 관계를 구축합니다."
 
+msgid "Where can you find a list of all of the OpenStack irc channels?"
+msgstr "모든 OpenStack irc 채널에 대한 목록은 어디서 확인할 수 있나요?"
+
 msgid ""
 "Where is the meeting is conducted (#openstack-meeting, #openstack-meeting-3, "
 "etc)?"
@@ -2825,6 +2763,13 @@ msgstr ""
 "트레이너/코치에 대한 목록은 `training occaisons <https://wiki.openstack.org/"
 "wiki/OpenStack_Upstream_Institute_Occasions>`_ 위키 페이지에서 찾을 수 있습니"
 "다."
+
+msgid ""
+"You do not have to setup the IRC client locally, there is an IRC client on "
+"the VM image that you can use"
+msgstr ""
+"IRC 클라이언트를 로컬에 설정할 필요없습니다. VM 이미지에서 사용할 수 있는 "
+"IRC 클라이언트가 있습니다."
 
 msgid "Young-Kyun Kim (assistant, mentoring)"
 msgstr "Young-Kyun Kim (조교, 멘토링)"
@@ -3044,6 +2989,9 @@ msgstr ""
 "`git 설정 & commit 메세지  <workflow-setup-git-and-commit-messages.html>`_\n"
 "Details"
 
+msgid "`Setup IRC <howitsmade-irc.html>`_"
+msgstr "`IRC 설정 <howitsmade-irc.html>`_"
+
 msgid "`Stackalytics Wiki <https://wiki.openstack.org/wiki/Stackalytics>`_"
 msgstr "`Stackalytics Wiki <https://wiki.openstack.org/wiki/Stackalytics>`_"
 
@@ -3128,6 +3076,12 @@ msgstr ""
 "https://docs.openstack.org/contributors/code-and-documentation/sandbox-house-"
 "rules.html"
 
+msgid "https://docs.openstack.org/doc-contrib-guide/docs-builds.html"
+msgstr "https://docs.openstack.org/doc-contrib-guide/docs-builds.html"
+
+msgid "https://docs.openstack.org/doc-contrib-guide/index.html"
+msgstr "https://docs.openstack.org/doc-contrib-guide/index.html"
+
 msgid "https://storyboard-dev.openstack.org/#!/dashboard/"
 msgstr "https://storyboard-dev.openstack.org/#!/dashboard/"
 
@@ -3154,6 +3108,3 @@ msgstr "온라인 세션동안 작업하고자 계획하는 컨트리뷰션"
 
 msgid "user visible benefit"
 msgstr "사용자에게 보이는 이점"
-
-msgid "✔"
-msgstr "✔"

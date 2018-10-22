@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-04 20:53+0000\n"
+"POT-Creation-Date: 2018-10-09 14:20+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -365,9 +365,6 @@ msgstr ""
 msgid "Comment on the open review"
 msgstr "Açık inceleme üzerine yorum"
 
-msgid "Commit Messages"
-msgstr "Gönderim Mesajları"
-
 msgid "Communication"
 msgstr "İletişim"
 
@@ -573,9 +570,6 @@ msgstr ""
 "Toplantı adını değiştirme: *upstream training*. Toplantı adı, üst akım "
 "eğitim faaliyetleri için ayrılmıştır."
 
-msgid "Documentation"
-msgstr "Belgelendirme"
-
 msgid "Documentation Deep Dive"
 msgstr "Dokümantasyon Derin Dalış"
 
@@ -663,9 +657,6 @@ msgstr "EunSeop Shin (yardımcı, danışman)"
 
 msgid "Event"
 msgstr "Olay"
-
-msgid "Events"
-msgstr "Etkinlikler"
 
 msgid "Example Itinerary: Spain"
 msgstr "Örnek Güzergah: İspanya"
@@ -844,9 +835,6 @@ msgstr "Eğiticiler ve Koçlar için genel ipuçları"
 
 msgid "Gergely Csatári – Nokia"
 msgstr "Gergely Csatári – Nokia"
-
-msgid "Gerrit"
-msgstr "Gerrit"
 
 msgid ""
 "Get started on time even if there aren't many people in the room, just go "
@@ -1579,9 +1567,6 @@ msgid ""
 msgstr ""
 "DevStack'deki servisler devstack@$servicename.service ismi ile ``systemd`` "
 "birimleri olarak çalışıyor"
-
-msgid "Setup & First Patch"
-msgstr "Kurulum & İlk yama"
 
 msgid "Setup the Development Environment"
 msgstr "Geliştirme Ortamını Kur"

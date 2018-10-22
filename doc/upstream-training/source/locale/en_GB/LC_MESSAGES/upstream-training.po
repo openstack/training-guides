@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-04 20:53+0000\n"
+"POT-Creation-Date: 2018-10-09 14:20+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -456,9 +456,6 @@ msgstr ""
 msgid "Comment on the open review"
 msgstr "Comment on the open review"
 
-msgid "Commit Messages"
-msgstr "Commit Messages"
-
 msgid "Communication"
 msgstr "Communication"
 
@@ -502,9 +499,6 @@ msgstr "Connect: screen -R <session name>"
 
 msgid "Contribution Planning (2 hours)"
 msgstr "Contribution Planning (2 hours)"
-
-msgid "Contribution Process"
-msgstr "Contribution Process"
 
 msgid "Contribution Simulation (2 hour)"
 msgstr "Contribution Simulation (2 hour)"
@@ -642,9 +636,6 @@ msgstr ""
 "Decide a country your group would like to visit with other groups for "
 "sightseeing."
 
-msgid "Demo Environment"
-msgstr "Demo Environment"
-
 msgid "Demo environment"
 msgstr "Demo environment"
 
@@ -660,9 +651,6 @@ msgstr ""
 
 msgid "Details"
 msgstr "Details"
-
-msgid "Dev"
-msgstr "Dev"
 
 msgid "DevStack"
 msgstr "DevStack"
@@ -691,13 +679,6 @@ msgid ""
 msgstr ""
 "Develop and maintain tools and processes to ensure quality, accurate "
 "documentation."
-
-msgid ""
-"Developer: Has some experience with OpenStack and the contribution process, "
-"but could use some reference materials."
-msgstr ""
-"Developer: Has some experience with OpenStack and the contribution process, "
-"but could use some reference materials."
 
 msgid "Developers"
 msgstr "Developers"
@@ -734,9 +715,6 @@ msgid ""
 msgstr ""
 "Do not change meeting name: *upstream training*. The meeting name is "
 "reserved for upstream training activities."
-
-msgid "Documentation"
-msgstr "Documentation"
 
 msgid "Documentation Deep Dive"
 msgstr "Documentation Deep Dive"
@@ -838,9 +816,6 @@ msgstr ""
 "Ensure you have the DevStack repository cloned to the VM where you would "
 "like to use it"
 
-msgid "Environment Setup"
-msgstr "Environment Setup"
-
 msgid "Etherpad"
 msgstr "Etherpad"
 
@@ -863,9 +838,6 @@ msgstr "EunSeop Shin (assistant, mentoring)"
 
 msgid "Event"
 msgstr "Event"
-
-msgid "Events"
-msgstr "Events"
 
 msgid "Example Itinerary: Spain"
 msgstr "Example Itinerary: Spain"
@@ -1088,9 +1060,6 @@ msgstr "General tips for Trainers and Coaches"
 msgid "Gergely Csatári – Nokia"
 msgstr "Gergely Csatári – Nokia"
 
-msgid "Gerrit"
-msgstr "Gerrit"
-
 msgid "Get ready to go through the exercises"
 msgstr "Get ready to go through the exercises"
 
@@ -1135,9 +1104,6 @@ msgid ""
 msgstr ""
 "Go post comments on a blueprint or a bug that was created by someone in your "
 "group."
-
-msgid "Governance"
-msgstr "Governance"
 
 msgid "Group exercise"
 msgstr "Group exercise"
@@ -1526,13 +1492,6 @@ msgstr "Make code changes"
 msgid "Make sure you have a wifi enabled laptop with you."
 msgstr "Make sure you have a WiFi enabled laptop with you."
 
-msgid "Management"
-msgstr "Management"
-
-msgid "Management: Manages people that contribute to, deploy or use OpenStack."
-msgstr ""
-"Management: Manages people that contribute to, deploy or use OpenStack."
-
 msgid "Managers"
 msgstr "Managers"
 
@@ -1566,9 +1525,6 @@ msgstr "Module - contributors"
 
 msgid "Module - more views"
 msgstr "Module - more views"
-
-msgid "Module Tags"
-msgstr "Module Tags"
 
 msgid ""
 "More details: `Developing with Devstack <https://docs.openstack.org/"
@@ -1640,16 +1596,6 @@ msgstr "Márton Kiss – Aptira"
 msgid "Namgon Lucas Kim (assistant, mentoring)"
 msgstr "Namgon Lucas Kim (assistant, mentoring)"
 
-msgid "New Dev"
-msgstr "New Dev"
-
-msgid ""
-"New Developer: No experience with OpenStack at all. Never tried to "
-"contribute and has little to no base knowledge."
-msgstr ""
-"New Developer: No experience with OpenStack at all. Never tried to "
-"contribute and has little to no base knowledge."
-
 msgid "New features"
 msgstr "New features"
 
@@ -1667,9 +1613,6 @@ msgstr "October 10 - 11, 2014 (Fri - Sat)"
 
 msgid "October 9, 2018"
 msgstr "9th October 2018"
-
-msgid "Offical Projects"
-msgstr "Official Projects"
 
 msgid ""
 "Once the students are separated into their new roles, and have an "
@@ -1867,20 +1810,8 @@ msgstr "OpenStack Upstream Training Archives"
 msgid "OpenStack Upstream Training Introductions"
 msgstr "OpenStack Upstream Training Introductions"
 
-msgid "OpenStack as a Software"
-msgstr "OpenStack as a Software"
-
 msgid "OpenStack sandbox environment: DevStack"
 msgstr "OpenStack sandbox environment: DevStack"
-
-msgid "Openstack as a Community"
-msgstr "OpenStack as a Community"
-
-msgid "Operator"
-msgstr "Operator"
-
-msgid "Operator: Operates or is starting to deploy OpenStack."
-msgstr "Operator: Operates or is starting to deploy OpenStack."
 
 msgid "Optional: Prepare an environment by yourself from scratch:"
 msgstr "Optional: Prepare an environment by yourself from scratch:"
@@ -1962,9 +1893,6 @@ msgstr "Product owners"
 msgid "Progress"
 msgstr "Progress"
 
-msgid "Project Status & Zuul"
-msgstr "Project Status & Zuul"
-
 msgid "Project repos have installation tutorials and developer documentation"
 msgstr "Project repos have installation tutorials and developer documentation"
 
@@ -2024,12 +1952,6 @@ msgid ""
 msgstr ""
 "Register the blueprint : `Blueprints for openstack-dev-sandbox <https://"
 "blueprints.launchpad.net/openstack-dev-sandbox>`_"
-
-msgid "Registration & Accounts"
-msgstr "Registration & Accounts"
-
-msgid "Release Cycle"
-msgstr "Release Cycle"
 
 msgid "Relevant actors"
 msgstr "Relevant actors"
@@ -2105,9 +2027,6 @@ msgstr "Running services in DevStack"
 msgid "Sahid Ferdjaoui (assistant, french, english)"
 msgstr "Sahid Ferdjaoui (assistant, french, english)"
 
-msgid "Sandbox"
-msgstr "Sandbox"
-
 msgid ""
 "Screen is going away in Queens : http://lists.openstack.org/pipermail/"
 "openstack-dev/2017-May/116301.html"
@@ -2146,9 +2065,6 @@ msgstr ""
 
 msgid "Setting Up IRC"
 msgstr "Setting Up IRC"
-
-msgid "Setup & First Patch"
-msgstr "Setup & First Patch"
 
 msgid "Setup git & Commit Messages"
 msgstr "Setup git & Commit Messages"
@@ -2298,14 +2214,8 @@ msgstr "Taehee Jang (assistant, mentoring - Ubuntu Korea Community)"
 msgid "Tags: [management] [new_dev] [dev]"
 msgstr "Tags: [management] [new_dev] [dev]"
 
-msgid "Tags: [management] [operator] [user] [new_dev] [dev]"
-msgstr "Tags: [management] [operator] [user] [new_dev] [dev]"
-
 msgid "Tags: [new_dev]"
 msgstr "Tags: [new_dev]"
-
-msgid "Tags: [new_dev] [dev]"
-msgstr "Tags: [new_dev] [dev]"
 
 msgid "Tags: [operator] [user] [new_dev] [dev]"
 msgstr "Tags: [operator] [user] [new_dev] [dev]"
@@ -2404,9 +2314,6 @@ msgid ""
 "The students prepare a 5-minute presentation of their planned contribution."
 msgstr ""
 "The students prepare a 5-minute presentation of their planned contribution."
-
-msgid "The table below tags the modules relevant to different positions."
-msgstr "The table below tags the modules relevant to different positions."
 
 msgid ""
 "The training blocks will guide you through the chapters to get to know the "
@@ -2651,12 +2558,6 @@ msgstr "Used as"
 
 msgid "Useful screen commands:"
 msgstr "Useful screen commands:"
-
-msgid "User"
-msgstr "User"
-
-msgid "User: Uses or is starting to use OpenStack."
-msgstr "User: Uses or is starting to use OpenStack."
 
 msgid "Using Lego to represent the community"
 msgstr "Using Lego to represent the community"
@@ -3239,6 +3140,3 @@ msgstr "the contribution they plan to work on during the online sessions"
 
 msgid "user visible benefit"
 msgstr "user visible benefit"
-
-msgid "✔"
-msgstr "✔"

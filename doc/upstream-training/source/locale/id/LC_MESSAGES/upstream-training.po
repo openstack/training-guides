@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-04 20:53+0000\n"
+"POT-Creation-Date: 2018-10-09 14:20+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -433,9 +433,6 @@ msgstr ""
 msgid "Comment on the open review"
 msgstr "Komentar hasil penelahaan terbuka"
 
-msgid "Commit Messages"
-msgstr "Commit Messages (komit pesan)"
-
 msgid "Communication"
 msgstr "Communication (komunikasi)"
 
@@ -476,9 +473,6 @@ msgstr "Menghubungkan: screen -R <session name>"
 
 msgid "Contribution Planning (2 hours)"
 msgstr "Perencanaan kontribusi (2 jam)"
-
-msgid "Contribution Process"
-msgstr "Proses Kontribusi"
 
 msgid "Contribution Simulation (2 hour)"
 msgstr "Kontribusi Simulasi (2 jam)"
@@ -618,9 +612,6 @@ msgstr ""
 "Tentukan negara dimana kelompok Anda ingin mengunjungi dengan kelompok lain "
 "untuk tamasya."
 
-msgid "Demo Environment"
-msgstr "Demo Environment"
-
 msgid "Demo environment"
 msgstr "Lingkungan demo"
 
@@ -636,9 +627,6 @@ msgstr ""
 
 msgid "Details"
 msgstr "Details"
-
-msgid "Dev"
-msgstr "Dev"
 
 msgid "DevStack"
 msgstr "DevStack"
@@ -667,13 +655,6 @@ msgid ""
 msgstr ""
 "Mengembangkan dan memelihara alat dan proses untuk memastikan kualitas, "
 "dokumentasi yang akurat."
-
-msgid ""
-"Developer: Has some experience with OpenStack and the contribution process, "
-"but could use some reference materials."
-msgstr ""
-"Developer: Memiliki pengalaman dengan OpenStack dan proses kontribusi, tapi "
-"bisa menggunakan beberapa bahan referensi."
 
 msgid "Developers"
 msgstr "Developers (pengembang)"
@@ -710,9 +691,6 @@ msgid ""
 msgstr ""
 "Jangan mengubah nama memenuhi: *upstream training*.  Nama rapat dicadangkan "
 "untuk kegiatan pelatihan hulu."
-
-msgid "Documentation"
-msgstr "Dokumentasi"
 
 msgid "Documentation Deep Dive"
 msgstr "Documentation Deep Dive"
@@ -808,9 +786,6 @@ msgstr ""
 "Pastikan Anda memiliki repositori DevStack yang dikloning ke VM dimana Anda "
 "ingin menggunakannya"
 
-msgid "Environment Setup"
-msgstr "Environment Setup"
-
 msgid "Etherpad"
 msgstr "Etherpad"
 
@@ -819,9 +794,6 @@ msgstr "EunSeop Shin (assistant, mentoring)"
 
 msgid "Event"
 msgstr "Event"
-
-msgid "Events"
-msgstr "Acara"
 
 msgid "Example Itinerary: Spain"
 msgstr "Contoh rencana perjalanan: Spanyol"
@@ -1037,9 +1009,6 @@ msgstr "General tips for Trainers and Coaches"
 msgid "Gergely Csatári – Nokia"
 msgstr "Gergely Csatári – Nokia"
 
-msgid "Gerrit"
-msgstr "Gerrit"
-
 msgid "Get ready to go through the exercises"
 msgstr "Bersiaplah untuk melakukan latihan"
 
@@ -1086,9 +1055,6 @@ msgid ""
 msgstr ""
 "Kirimkan komentar pada blueprint atau bug yang dibuat oleh seseorang di grup "
 "Anda."
-
-msgid "Governance"
-msgstr "Governance"
 
 msgid "Group exercise"
 msgstr "Latihan kelompok"
@@ -1458,14 +1424,6 @@ msgstr "Membuat perubahan kode"
 msgid "Make sure you have a wifi enabled laptop with you."
 msgstr "Pastikan bahwa Anda memiliki laptop wifi diaktifkan dengan Anda."
 
-msgid "Management"
-msgstr "Management"
-
-msgid "Management: Manages people that contribute to, deploy or use OpenStack."
-msgstr ""
-"Management: Mengelola orang yang berkontribusi, menggunakan atau menggunakan "
-"OpenStack."
-
 msgid "Managers"
 msgstr "Managers (manajer)"
 
@@ -1499,9 +1457,6 @@ msgstr "Modul - kontributor"
 
 msgid "Module - more views"
 msgstr "Modul - lebih banyak tampilan"
-
-msgid "Module Tags"
-msgstr "Module Tags"
 
 msgid ""
 "More details: `Developing with Devstack <https://docs.openstack.org/"
@@ -1573,16 +1528,6 @@ msgstr "Márton Kiss – Aptira"
 msgid "Namgon Lucas Kim (assistant, mentoring)"
 msgstr "Namgon Lucas Kim (assistant, mentoring)"
 
-msgid "New Dev"
-msgstr "New Dev"
-
-msgid ""
-"New Developer: No experience with OpenStack at all. Never tried to "
-"contribute and has little to no base knowledge."
-msgstr ""
-"New Developer: Tidak ada pengalaman dengan OpenStack sama sekali. Tidak "
-"pernah mencoba untuk berkontribusi dan tidak memiliki pengetahuan dasar."
-
 msgid "New features"
 msgstr "Fitur baru"
 
@@ -1594,9 +1539,6 @@ msgstr "Objectives (sasaran)"
 
 msgid "October 10 - 11, 2014 (Fri - Sat)"
 msgstr "10-11 Oktober 2014 (Jumat - Sabtu)"
-
-msgid "Offical Projects"
-msgstr "Offical Projects"
 
 msgid ""
 "Once the students are separated into their new roles, and have an "
@@ -1753,20 +1695,8 @@ msgstr "OpenStack Upstream Training Archives (arsip pelatihan hulu OpenStack)"
 msgid "OpenStack Upstream Training Introductions"
 msgstr "Pengenalan pelatihan hulu OpenStack"
 
-msgid "OpenStack as a Software"
-msgstr "OpenStack sebagai Software"
-
 msgid "OpenStack sandbox environment: DevStack"
 msgstr "OpenStack sandbox environment: DevStack"
-
-msgid "Openstack as a Community"
-msgstr "Openstack sebagai Community"
-
-msgid "Operator"
-msgstr "Operator"
-
-msgid "Operator: Operates or is starting to deploy OpenStack."
-msgstr "Operator: Beroperasi atau mulai menyebarkan OpenStack."
 
 msgid "Organize the tables according to project interest - especially on day 2"
 msgstr "Atur tabel sesuai dengan kepentingan proyek - terutama pada hari ke 2"
@@ -1842,9 +1772,6 @@ msgstr "Product owners (pemilik produk)"
 msgid "Progress"
 msgstr "Kemajuan"
 
-msgid "Project Status & Zuul"
-msgstr "Project Status & Zuul"
-
 msgid "Project repos have installation tutorials and developer documentation"
 msgstr "Repos proyek memiliki tutorial instalasi dan dokumentasi pengembang"
 
@@ -1893,12 +1820,6 @@ msgstr "Rekomendasi untuk menjadi anggota komunitas yang aktif"
 
 msgid "References"
 msgstr "Referensi"
-
-msgid "Registration & Accounts"
-msgstr "Pendaftaran & Akun"
-
-msgid "Release Cycle"
-msgstr "Siklus rilis"
 
 msgid "Relevant actors"
 msgstr "Aktor yang relevan"
@@ -1974,9 +1895,6 @@ msgstr "Menjalankan layanan di DevStack"
 msgid "Sahid Ferdjaoui (assistant, french, english)"
 msgstr "Sahid Ferdjaoui (assistant, french, english)"
 
-msgid "Sandbox"
-msgstr "Sandbox"
-
 msgid ""
 "Screen is going away in Queens : http://lists.openstack.org/pipermail/"
 "openstack-dev/2017-May/116301.html"
@@ -2009,9 +1927,6 @@ msgid ""
 msgstr ""
 "Layanan di DevStack dijalankan sebagai unit ``systemd`` yang dinamai "
 "devstack@$servicename.service"
-
-msgid "Setup & First Patch"
-msgstr "Setup & First Patch"
 
 msgid "Setup the Development Environment"
 msgstr "Mempersiapkan Development Environment"
@@ -2153,14 +2068,8 @@ msgstr "Taehee Jang (assistant, mentoring - Ubuntu Korea Community)"
 msgid "Tags: [management] [new_dev] [dev]"
 msgstr "Tags: [management] [new_dev] [dev]"
 
-msgid "Tags: [management] [operator] [user] [new_dev] [dev]"
-msgstr "Tags: [management] [operator] [user] [new_dev] [dev]"
-
 msgid "Tags: [new_dev]"
 msgstr "Tags: [new_dev]"
-
-msgid "Tags: [new_dev] [dev]"
-msgstr "Tags: [new_dev] [dev]"
 
 msgid "Tags: [operator] [user] [new_dev] [dev]"
 msgstr "Tags: [operator] [user] [new_dev] [dev]"
@@ -2261,10 +2170,6 @@ msgid ""
 msgstr ""
 "Para siswa mempersiapkan presentasi 5 menit dari kontribusi yang "
 "direncanakan mereka."
-
-msgid "The table below tags the modules relevant to different positions."
-msgstr ""
-"Tabel di bawah ini menandai modul yang relevan dengan posisi yang berbeda."
 
 msgid ""
 "The training blocks will guide you through the chapters to get to know the "
@@ -2512,12 +2417,6 @@ msgstr "Digunakan sebagai"
 
 msgid "Useful screen commands:"
 msgstr "Perintah screen yang berguna:"
-
-msgid "User"
-msgstr "User"
-
-msgid "User: Uses or is starting to use OpenStack."
-msgstr "User: Menggunakan atau mulai menggunakan OpenStack."
 
 msgid "Using Lego to represent the community"
 msgstr "Menggunakan Lego untuk mewakili masyarakat"
@@ -2995,6 +2894,3 @@ msgstr "kontribusi dimana mereka berencana untuk bekerja selama sesi online"
 
 msgid "user visible benefit"
 msgstr "manfaat terlihat pengguna"
-
-msgid "✔"
-msgstr "✔"

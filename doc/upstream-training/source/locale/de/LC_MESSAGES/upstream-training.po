@@ -1,7 +1,6 @@
 # Robert Simai <robert.simai@suse.com>, 2016. #zanata
 # Adriano Perri <adriano.perri@telekom.de>, 2017. #zanata
 # Frank Kloeker <eumel@arcor.de>, 2017. #zanata
-# Robert Simai <robert.simai@suse.com>, 2017. #zanata
 # Alexander Loew <alexander.loew@innovo-cloud.de>, 2018. #zanata
 # Andreas Jaeger <jaegerandi@gmail.com>, 2018. #zanata
 # Reik Keutterling <spielkind@gmail.com>, 2018. #zanata
@@ -10,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-04 20:53+0000\n"
+"POT-Creation-Date: 2018-10-09 14:20+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -417,9 +416,6 @@ msgstr ""
 msgid "Comment on the open review"
 msgstr "Kommentieren der offenen Review"
 
-msgid "Commit Messages"
-msgstr "Commit Messages"
-
 msgid "Communication"
 msgstr "Kommunikation"
 
@@ -461,9 +457,6 @@ msgstr "Verbinden: screen -R <session name>"
 
 msgid "Contribution Planning (2 hours)"
 msgstr "Beitragsplanung (2 Stunden)"
-
-msgid "Contribution Process"
-msgstr "Mitwirkungsprozess"
 
 msgid "Contribution Simulation (2 hour)"
 msgstr "Beitragssimulation (2 Stunden)"
@@ -571,9 +564,6 @@ msgstr ""
 "Entscheiden Sie über ein Land, das Ihre Gruppe mit anderen Gruppen für "
 "Sightseeing besuchen möchte."
 
-msgid "Demo Environment"
-msgstr "Demo Umgebung"
-
 msgid "Demo environment"
 msgstr "Demo-Umgebung"
 
@@ -589,9 +579,6 @@ msgstr ""
 
 msgid "Details"
 msgstr "Details"
-
-msgid "Dev"
-msgstr "Entwickler"
 
 msgid "DevStack"
 msgstr "DevStack"
@@ -620,13 +607,6 @@ msgid ""
 msgstr ""
 "Entwicklung und Wartung von Werkzeugen und Prozessen, um qualitativ "
 "hochwertige und genaue Dokumentation sicherzustellen."
-
-msgid ""
-"Developer: Has some experience with OpenStack and the contribution process, "
-"but could use some reference materials."
-msgstr ""
-"Entwickler: Hat etwas Erfahrung mit OpenStack und der Mitarbeit, aber "
-"benötigt Referenzmaterialien."
 
 msgid "Developers"
 msgstr "Entwickler"
@@ -663,9 +643,6 @@ msgid ""
 msgstr ""
 "Ändern Sie nicht den Meeting-Namen: * Upstream Training *. Der Tagungsname "
 "ist für vorgeschaltete Trainingsaktivitäten reserviert."
-
-msgid "Documentation"
-msgstr "Dokumentation"
 
 msgid "Documentation Deep Dive"
 msgstr "Dokumentation Deep Dive"
@@ -751,9 +728,6 @@ msgstr ""
 "Stellen Sie sicher, dass das DevStack-Repository auf die VM geklont ist, wo "
 "Sie es verwenden möchten"
 
-msgid "Environment Setup"
-msgstr "Umgebungseinstellung"
-
 msgid "Etherpad"
 msgstr "Etherpad"
 
@@ -762,9 +736,6 @@ msgstr "EunSeop Shin (Assistent, Mentoring)"
 
 msgid "Event"
 msgstr "Ereignis"
-
-msgid "Events"
-msgstr "Veranstaltungen"
 
 msgid "Example Itinerary: Spain"
 msgstr "Beispiel Reiseplan: Spanien"
@@ -975,9 +946,6 @@ msgstr "Allgemeine Tipps für Trainer und Coaches"
 msgid "Gergely Csatári – Nokia"
 msgstr "Gergely Csatári - Nokia"
 
-msgid "Gerrit"
-msgstr "Gerrit"
-
 msgid "Get ready to go through the exercises"
 msgstr "Sei bereit die Übungen zu machen"
 
@@ -1016,9 +984,6 @@ msgid "Give out swag and use competition to help keep interest and attention"
 msgstr ""
 "Geben Sie den Swag aus und nutzen den Wettbewerb, um Interesse und "
 "Aufmerksamkeit zu erhalten"
-
-msgid "Governance"
-msgstr "Governance"
 
 msgid "Group exercise"
 msgstr "Gruppenübung"
@@ -1388,14 +1353,6 @@ msgstr "Codeänderungen vornehmen"
 msgid "Make sure you have a wifi enabled laptop with you."
 msgstr "Stellen Sie sicher, daß sie ein Laptop mit aktivierten WLAN mitführen."
 
-msgid "Management"
-msgstr "Management"
-
-msgid "Management: Manages people that contribute to, deploy or use OpenStack."
-msgstr ""
-"Management: Managt Personen, die an OpenStack mitarbeiten, es installieren "
-"oder benutzen."
-
 msgid "Managers"
 msgstr "Manager"
 
@@ -1429,9 +1386,6 @@ msgstr "Modul - Mitwirkende"
 
 msgid "Module - more views"
 msgstr "Modul - mehr Ansichten"
-
-msgid "Module Tags"
-msgstr "Module Tags"
 
 msgid ""
 "More details: `Developing with Devstack <https://docs.openstack.org/"
@@ -1486,16 +1440,6 @@ msgstr "Márton Kiss - Aptira"
 msgid "Namgon Lucas Kim (assistant, mentoring)"
 msgstr "Namgon Lucas Kim (Assistent, Mentoring)"
 
-msgid "New Dev"
-msgstr "Neuer Entwickler"
-
-msgid ""
-"New Developer: No experience with OpenStack at all. Never tried to "
-"contribute and has little to no base knowledge."
-msgstr ""
-"Neuer Entwickler: Noch keine Erfahrung mit OpenStack. Hat noch nicht "
-"versucht mitzuarbeiten und hat wenig Basiswissen."
-
 msgid "New features"
 msgstr "Neue Eigenschaften"
 
@@ -1507,9 +1451,6 @@ msgstr "Ziele"
 
 msgid "October 10 - 11, 2014 (Fri - Sat)"
 msgstr "Oktober 10 - 11, 2014 (Fr - Sa)"
-
-msgid "Offical Projects"
-msgstr "Offizielle Projekte"
 
 msgid ""
 "Once the students are separated into their new roles, and have an "
@@ -1607,20 +1548,8 @@ msgstr "OpenStack Upstream Schulungsarchiv"
 msgid "OpenStack Upstream Training Introductions"
 msgstr "OpenStack Upstream Training Einführungen"
 
-msgid "OpenStack as a Software"
-msgstr "OpenStack als Software"
-
 msgid "OpenStack sandbox environment: DevStack"
 msgstr "OpenStack Sandbox Umgebung: DevStack"
-
-msgid "Openstack as a Community"
-msgstr "Openstack als Gemeinschaft"
-
-msgid "Operator"
-msgstr "Operator"
-
-msgid "Operator: Operates or is starting to deploy OpenStack."
-msgstr "Operator: Bedient OpenStack oder beginnt mit Installationen."
 
 msgid "Organize the tables according to project interest - especially on day 2"
 msgstr ""
@@ -1698,9 +1627,6 @@ msgstr "Product Owner"
 msgid "Progress"
 msgstr "Fortschritt"
 
-msgid "Project Status & Zuul"
-msgstr "Projektstatus & Zuul"
-
 msgid "Project repos have installation tutorials and developer documentation"
 msgstr ""
 "Projektrepos haben Installationsanleitungen und Entwicklerdokumentation"
@@ -1743,12 +1669,6 @@ msgstr "Empfehlungen um aktivies Community-Mitglied zu werden"
 
 msgid "References"
 msgstr "Referenzen"
-
-msgid "Registration & Accounts"
-msgstr "Registrierung & Konten"
-
-msgid "Release Cycle"
-msgstr "Releasezyklus"
 
 msgid "Relevant actors"
 msgstr "Relevante Akteure"
@@ -1825,9 +1745,6 @@ msgstr "Dienste laufen in DevStack"
 msgid "Sahid Ferdjaoui (assistant, french, english)"
 msgstr "Sahid Ferdjaoui (Assistent, Französisch, Englisch)"
 
-msgid "Sandbox"
-msgstr "Sandkasten"
-
 msgid ""
 "Screen is going away in Queens : http://lists.openstack.org/pipermail/"
 "openstack-dev/2017-May/116301.html"
@@ -1860,9 +1777,6 @@ msgid ""
 msgstr ""
 "Services in DevStack laufen als `` systemd`` Einheiten namens devstack@"
 "$servicename.service"
-
-msgid "Setup & First Patch"
-msgstr "Setup & First Patch"
 
 msgid "Setup the Development Environment"
 msgstr "Richten Sie die Entwicklungsumgebung ein"
@@ -1995,14 +1909,8 @@ msgstr "Taehee Jang (Assistentin, Mentoring - Ubuntu Korea Community)"
 msgid "Tags: [management] [new_dev] [dev]"
 msgstr "Tags: [management] [new_dev] [dev]"
 
-msgid "Tags: [management] [operator] [user] [new_dev] [dev]"
-msgstr "Tags: [management] [operator] [user] [new_dev] [dev]"
-
 msgid "Tags: [new_dev]"
 msgstr "Tags: [new_dev]"
-
-msgid "Tags: [new_dev] [dev]"
-msgstr "Tags: [new_dev] [dev]"
 
 msgid "Tags: [operator] [user] [new_dev] [dev]"
 msgstr "Tags: [operator] [user] [new_dev] [dev]"
@@ -2091,10 +1999,6 @@ msgstr ""
 
 msgid "The metrics should be used within context"
 msgstr "Die Metriken sollten im Kontext verwendet werden"
-
-msgid "The table below tags the modules relevant to different positions."
-msgstr ""
-"Die unten stehende Tabelle teilt die Module für verschiedene Positionen auf."
 
 msgid ""
 "There is a Forum session in Boston about the future of Stackalytics as there "
@@ -2302,12 +2206,6 @@ msgstr "Benutzt als"
 
 msgid "Useful screen commands:"
 msgstr "Nützliche Bildschirmbefehle:"
-
-msgid "User"
-msgstr "Benutzer"
-
-msgid "User: Uses or is starting to use OpenStack."
-msgstr "User: Benutzt OpenStack oder beginnt es zu verwenden."
 
 msgid "Using Lego to represent the community"
 msgstr "Lego benutzen, um die Gemeinschaft zu vertreten"
@@ -2685,6 +2583,3 @@ msgstr "den Beitrag, den sie während der Online-Sessions bearbeiten wollen"
 
 msgid "user visible benefit"
 msgstr "sichtbarer Nutzen für Anwender"
-
-msgid "✔"
-msgstr "✔"

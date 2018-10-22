@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-04 20:53+0000\n"
+"POT-Creation-Date: 2018-10-09 14:20+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -260,9 +260,6 @@ msgstr ""
 msgid "Comment on the open review"
 msgstr "オープンなレビューにコメントする"
 
-msgid "Commit Messages"
-msgstr "コミットメッセージ"
-
 msgid "Communication"
 msgstr "コミュニケーション"
 
@@ -342,9 +339,6 @@ msgstr "開発者"
 msgid "Distracted : 1"
 msgstr "気が散っている人 : 1"
 
-msgid "Documentation"
-msgstr "ドキュメント"
-
 msgid "Documentation Deep Dive"
 msgstr "ドキュメントディープダイブ"
 
@@ -390,9 +384,6 @@ msgstr "Edouard Thuleau (assistant, french, english)"
 
 msgid "Etherpad"
 msgstr "Etherpad"
-
-msgid "Events"
-msgstr "イベント"
 
 msgid "Example Itinerary: Spain"
 msgstr "Example Itinerary: Spain"
@@ -481,9 +472,6 @@ msgstr "一般的なコントリビューションの流れ"
 
 msgid "Gergely Csatári – Nokia"
 msgstr "Gergely Csatári – Nokia"
-
-msgid "Gerrit"
-msgstr "Gerrit"
 
 msgid "Get to know the code"
 msgstr "コードをよく知る"
@@ -936,9 +924,6 @@ msgstr "自己完結"
 
 msgid "Seoul, Korea"
 msgstr "韓国 ソウル"
-
-msgid "Setup & First Patch"
-msgstr "環境設定と最初のパッチ"
 
 msgid "Shinobu KINJO (mentoring, assistant, japanese)"
 msgstr "Shinobu KINJO (mentoring, assistant, japanese)"
