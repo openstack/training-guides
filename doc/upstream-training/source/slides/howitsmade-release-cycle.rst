@@ -32,8 +32,7 @@ Exercise 2
 Exercise 3
 ==========
 
-- How many OpenStack releases are officially supported
-  by the community?
+- How many OpenStack releases are currently maintained by the community?
 - Post the information on the IRC channel
 
 Exercise 4
