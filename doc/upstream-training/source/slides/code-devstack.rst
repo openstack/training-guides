@@ -113,5 +113,5 @@ Exercise
 - Use ``systemctl status devstack@*`` to ensure devstack is running on your VM.
   If it is not started, start it with ``systemctl start devstack@*``
 - Use the ``journalctl`` command to view output from your favorite service
-- Ensure you can use commands like ``cinder`` or ``nova`` to interact with
-  the services running on your VM
+- Ensure you can use the ``openstack`` command to interact with the services
+  running on your VM
