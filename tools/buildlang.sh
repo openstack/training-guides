@@ -36,7 +36,7 @@ sphinx-build -j $NUMBER_OF_CORES -b gettext ${DIRECTORY}/source/slides \
 sphinx-build -j $NUMBER_OF_CORES -b gettext ${DIRECTORY}/source/website \
     ${DIRECTORY}/source/locale/
 
-# check all language translation resouce
+# check all language translation resource
 for locale in `find ${DIRECTORY}/source/locale/ -maxdepth 1 -type d` ; do
     # skip if it is not a valid language translation resource.
     if [ ! -e ${locale}/LC_MESSAGES/${DOCNAME}.po ]; then
