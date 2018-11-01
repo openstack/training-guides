@@ -41,7 +41,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-09 14:20+0000\n"
+"POT-Creation-Date: 2018-11-01 03:36+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -824,13 +824,6 @@ msgstr ""
 "교육용 Etherpad를 사용하도록 권장합니다"
 
 msgid ""
-"Ensure you can use commands like ``cinder`` or ``nova`` to interact with the "
-"services running on your VM"
-msgstr ""
-"VM에서 실행 중인 서비스와 상호작용하기 위해 `cinder`` 또는 ``nova`` 와 같은 "
-"명령어를 사용할 수 있는지를 확인합니다"
-
-msgid ""
 "Ensure you have the DevStack repository cloned to the VM where you would "
 "like to use it"
 msgstr "사용하고자 하는 VM에 DevStack 저장소를 clone하였는지를 확인합니다"
@@ -1132,9 +1125,6 @@ msgstr "어떻게 같은, 혹은 여러 저장소의 의존성 변화를 다룰 
 
 msgid "How do you initialize your local repo with git review?"
 msgstr "git 검토와 함깨 당신의 지역 저장소를 어떻게 초기화 할 것입니까?"
-
-msgid "How many OpenStack releases are officially supported by the community?"
-msgstr "커뮤니티에서 공식적으로 지원하는 OpenStack 릴리즈는 몇 개입니까?"
 
 msgid "How many gate and check jobs are running"
 msgstr "얼마나 많은 관문과 검사 작업이 실행되고 있는지"
