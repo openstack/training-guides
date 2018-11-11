@@ -25,7 +25,7 @@ Getting to Know Your Project
 - Join the project's IRC channel
     - https://wiki.openstack.org/wiki/IRC
 - Look at open reviews
-- Join the openstack-dev mailing list
+- Join the openstack-discuss mailing list
 
 .. note::
    Each project has its own purpose & culture.
