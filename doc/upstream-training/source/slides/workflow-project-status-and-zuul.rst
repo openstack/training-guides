@@ -12,6 +12,9 @@ Learning Exercise
 * Open the `Checking Status in Zuul
   <https://docs.openstack.org/contributors/common/zuul-status.html>`_ section
   of the Contributor Guide
+* Open the `Using Elastic Recheck
+  <https://docs.openstack.org/contributors/code-and-documentation/elastic-recheck.html>`_ section
+  of the Contributor Guide
 * Read the material
 * Ask the mentors questions
 * Get ready to go through the exercises
