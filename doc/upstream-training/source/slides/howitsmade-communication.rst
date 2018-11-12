@@ -25,8 +25,7 @@ Exercise 1
 Exercise 2
 ==========
 
-* Look through the list of mailing lists and subscribe to at least
-  one list of interest
-* Locate the archives for that ML. What email thread has the most responses
-  this month?
+* Subscribe to the openstack-discuss mailing list.
+* Locate the archives for the openstack-discuss ML.
+  What email thread has the most responses this month?
 
