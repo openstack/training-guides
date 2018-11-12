@@ -33,6 +33,6 @@ Exercise 1
 
 Exercise 2
 ==========
-- Find how rechecks are categorized
+- Find how `rechecks <https://docs.openstack.org/contributors/code-and-documentation/elastic-recheck.html>`_ are categorized
 - Discuss with your table how you would determine you encountered
   one of these bugs
