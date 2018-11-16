@@ -11,7 +11,7 @@ How to prepare
 * Download the prepared virtual machine image and some environment
   for running the image (We suggest VirtualBox):
 
-  * Image: http://bit.ly/vm-2018-vancouver-v1
+  * Image: http://bit.ly/vm-2018-berlin-v1
 
 * Optional: Prepare an environment by yourself from scratch:
 
