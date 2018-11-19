@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-01 03:36+0000\n"
+"POT-Creation-Date: 2018-11-16 16:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -704,9 +704,6 @@ msgstr "Hataları rapolama, düzeltme ve önceliklendirme"
 
 msgid "Find an open review which is less complex and download the patch"
 msgstr "Daha az karmaşık olan açık bir revizyon bulun ve yamayı indirin"
-
-msgid "Find how rechecks are categorized"
-msgstr "Yeniden denetlemelerin nasıl sınıflandırıldığını bul"
 
 msgid ""
 "Find out what parameters were passed to that method by using the LOG messages"

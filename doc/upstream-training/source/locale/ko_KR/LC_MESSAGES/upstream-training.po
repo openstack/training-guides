@@ -41,7 +41,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-11 14:15+0000\n"
+"POT-Creation-Date: 2018-11-16 16:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -925,9 +925,6 @@ msgstr "버그에 대한 제출, 수정 및 구분"
 msgid "Find an open review which is less complex and download the patch"
 msgstr "덜 복잡한 open 상태 리뷰를 찾아 패치를 다운로드합니다"
 
-msgid "Find how rechecks are categorized"
-msgstr "재검사가 어떻게 분류되었는지 찾기"
-
 msgid ""
 "Find out what parameters were passed to that method by using the LOG messages"
 msgstr ""
@@ -1210,9 +1207,6 @@ msgstr "Ildiko Vancsa: ildiko@openstack.org "
 
 msgid "Ildikó Váncsa – The OpenStack Foundation"
 msgstr "Ildikó Váncsa – The OpenStack Foundation"
-
-msgid "Image: http://bit.ly/vm-2018-vancouver-v1"
-msgstr "이미지: http://bit.ly/vm-2018-vancouver-v1"
 
 msgid "Implementing a blueprint/spec"
 msgstr "블루프린트/스펙 구현"
