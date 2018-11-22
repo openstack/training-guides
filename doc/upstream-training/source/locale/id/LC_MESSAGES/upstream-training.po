@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-16 16:03+0000\n"
+"POT-Creation-Date: 2018-11-19 13:13+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1242,9 +1242,6 @@ msgstr "Bergabunglah dengan saluran IRC di kelas dan ikuti selama pelatihan"
 
 msgid "Join the channel of the project(s) you are interested in"
 msgstr "Bergabunglah dengan saluran proyek yang Anda minati"
-
-msgid "Join the openstack-dev mailing list"
-msgstr "Bergabung dengan openstack-dev mailing list"
 
 msgid "Join the project's IRC channel"
 msgstr "Bergabung saluran IRC proyek"
