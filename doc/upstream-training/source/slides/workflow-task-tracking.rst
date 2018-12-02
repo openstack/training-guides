@@ -36,8 +36,8 @@ https://blueprints.launchpad.net/openstack-dev-sandbox
 Exercise 3
 ==========
 
-Go post comments on a blueprint or a bug that was created by
-someone in your group.
+Go post comments on a bug or add some ideas on a blueprint's whiteboard
+that was created by someone in your group.
 
 Examples: You can ask a question about the issue
 or proposed feature. You can confirm the issue and update its
