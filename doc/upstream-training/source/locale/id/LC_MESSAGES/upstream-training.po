@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-02 12:09+0000\n"
+"POT-Creation-Date: 2018-12-05 11:32+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1327,12 +1327,6 @@ msgstr "Mendengarkan ketika orang berbicara"
 msgid "Local Upstream Trainings"
 msgstr "Local Upstream Trainings"
 
-msgid ""
-"Locate the archives for that ML. What email thread has the most responses "
-"this month?"
-msgstr ""
-"Cari arsip untuk ML itu. Apa untaian email paling banyak tanggapan bulan ini?"
-
 msgid "Location"
 msgstr "Location"
 
@@ -1347,11 +1341,6 @@ msgstr "Lihat ulasan terbuka"
 
 msgid "Look at the `Zuul <http://status.openstack.org/zuul>`_ status page"
 msgstr "Lihatlah halaman `Zuul <http://status.openstack.org/zuul>` _ status"
-
-msgid ""
-"Look through the list of mailing lists and subscribe to at least one list of "
-"interest"
-msgstr "Lihatlah daftar milis dan berlangganan setidaknya satu daftar minat"
 
 msgid ""
 "Look up an OpenStack Days event close to where you live that you would be "
