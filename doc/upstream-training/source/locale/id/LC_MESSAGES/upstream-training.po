@@ -1,15 +1,16 @@
 # suhartono <cloudsuhartono@gmail.com>, 2016. #zanata
 # suhartono <cloudsuhartono@gmail.com>, 2017. #zanata
 # suhartono <cloudsuhartono@gmail.com>, 2018. #zanata
+# suhartono <cloudsuhartono@gmail.com>, 2019. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-05 11:32+0000\n"
+"POT-Creation-Date: 2018-12-05 13:41+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-06-12 02:54+0000\n"
+"PO-Revision-Date: 2019-01-13 04:38+0000\n"
 "Last-Translator: suhartono <cloudsuhartono@gmail.com>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -21,6 +22,16 @@ msgstr "**Mentors**"
 
 msgid "**Staff**"
 msgstr "**Staff**"
+
+msgid ""
+"**TENTATIVELY SCHEDULED: Sunday, November 11th(2 to 6pm), 2018 - Monday, "
+"November 12th (9am to 6pm), 2018**"
+msgstr ""
+"**TENTATIVELY SCHEDULED: Sunday, November 11th(2 to 6pm), 2018 - Monday, "
+"November 12th (9am to 6pm), 2018**"
+
+msgid "**Tuesday, October 9, 2018**"
+msgstr "**Tuesday, October 9, 2018**"
 
 msgid "1 day"
 msgstr "1 hari"
@@ -125,6 +136,9 @@ msgstr ":doc:`upstream-training-content`"
 msgid ":doc:`upstream-training-summit`"
 msgstr ":doc:`upstream-training-summit`"
 
+msgid ":ref:`openstack-day-nordics`"
+msgstr ":ref:`openstack-day-nordics`"
+
 msgid ""
 "A big thank you to everyone that has made this possible, especially Loic "
 "Dachary, Stefano Maffulli, Tim Freund, Marton Kiss, and Ildikó Váncsa who "
@@ -151,6 +165,9 @@ msgstr ""
 msgid "About the training"
 msgstr "Tentang pelatihan"
 
+msgid "Account SetUp"
+msgstr "Pengaturan akun"
+
 msgid "Activities listed here are not realized at every Upstream training."
 msgstr ""
 "Kegiatan yang tercantum di sini tidak memperlihatkan pada setiap pelatihan "
@@ -171,6 +188,13 @@ msgid ""
 "groups."
 msgstr ""
 "Tambahkan bug, atau tulis ulasan untuk, itinerary patches dari grup lain."
+
+msgid ""
+"Add your name and email address (and IRC nick if you have one already) to "
+"the training etherpad"
+msgstr ""
+"Tambahkan nama dan alamat email Anda (dan IRC nick jika Anda sudah "
+"memilikinya) ke etherpad pelatihan"
 
 msgid "Added unit tests to cover untested methods"
 msgstr "Unit tes yang ditambahkan untuk mencakup metode yang belum diuji"
@@ -244,6 +268,13 @@ msgstr "Latihan yang diarsipkan"
 
 msgid "Archives"
 msgstr "Arsip"
+
+msgid ""
+"Article: `Get up to speed with the OpenStack Upstream Institute <https://"
+"superuser.openstack.org/articles/openstack-upstream-institute-update/>`_"
+msgstr ""
+"Artikel: `Get up to speed with the OpenStack Upstream Institute <https://"
+"superuser.openstack.org/articles/openstack-upstream-institute-update/>`_"
 
 msgid ""
 "Aside from the Setup IRC section above, we will cover everything else that "
@@ -322,6 +353,9 @@ msgstr "Benar untuk peran Anda"
 
 msgid "Being able to read and write English at a technical level"
 msgstr "Mampu membaca dan menulis bahasa Inggris di tingkat teknis"
+
+msgid "Berlin, Germany"
+msgstr "Berlin, Germany"
 
 msgid "Board : 1"
 msgstr "Board : 1"
@@ -467,6 +501,9 @@ msgstr "Isi lengkap Upstream Institute Training dapat dilihat di sini:"
 
 msgid "Configure your workspace"
 msgstr "Mengkonfigurasi ruang kerja Anda"
+
+msgid "Configuring Your Gerrit Account"
+msgstr "Mengkonfigurasi Akun Gerrit Anda"
 
 msgid "Connect: screen -R <session name>"
 msgstr "Menghubungkan: screen -R <session name>"
@@ -707,6 +744,13 @@ msgstr "Jangan mainkan angka"
 msgid "Don't give out VM image at the beginning of the first day"
 msgstr "Jangan berikan image VM di awal hari pertama"
 
+msgid ""
+"Download the prepared virtual machine image and some environment for running "
+"the image (We suggest VirtualBox):"
+msgstr ""
+"Unduh image mesin virtual (virtual machine image) yang disiapkan dan "
+"beberapa lingkungan untuk menjalankan image (Kami sarankan VirtualBox):"
+
 msgid "Duration"
 msgstr "Duration (lamanya)"
 
@@ -773,6 +817,13 @@ msgstr ""
 "latihan membutuhkan lebih banyak ruang atau IRC tidak tersedia."
 
 msgid ""
+"Ensure you can use the ``openstack`` command to interact with the services "
+"running on your VM"
+msgstr ""
+"Pastikan Anda dapat menggunakan perintah ``openstack`` untuk berinteraksi "
+"dengan layanan yang berjalan di VM Anda"
+
+msgid ""
 "Ensure you have the DevStack repository cloned to the VM where you would "
 "like to use it"
 msgstr ""
@@ -781,6 +832,20 @@ msgstr ""
 
 msgid "Etherpad"
 msgstr "Etherpad"
+
+msgid ""
+"Etherpad: `Etherpad for Upstream Training, Beijing, 2017 <https://etherpad."
+"openstack.org/p/upstream-institute-beijing>`_"
+msgstr ""
+"Etherpad: `Etherpad for Upstream Training, Beijing, 2017 <https://etherpad."
+"openstack.org/p/upstream-institute-beijing>`_"
+
+msgid ""
+"Etherpad: `Etherpad for Upstream Training, Boston, 2017 <https://etherpad."
+"openstack.org/p/upstream-training-boston>`_"
+msgstr ""
+"Etherpad: `Etherpad for Upstream Training, Boston, 2017 <https://etherpad."
+"openstack.org/p/upstream-training-boston>`_"
 
 msgid "EunSeop Shin (assistant, mentoring)"
 msgstr "EunSeop Shin (assistant, mentoring)"
@@ -864,6 +929,13 @@ msgid "Find an open review which is less complex and download the patch"
 msgstr "Cari kajian terbuka yang kurang kompleks dan download patch"
 
 msgid ""
+"Find how `rechecks <https://docs.openstack.org/contributors/code-and-"
+"documentation/elastic-recheck.html>`_ are categorized"
+msgstr ""
+"Temukan caranya `rechecks <https://docs.openstack.org/contributors/code-and-"
+"documentation/elastic-recheck.html>`_ dikategorikan"
+
+msgid ""
 "Find out what parameters were passed to that method by using the LOG messages"
 msgstr ""
 "Cari tahu apa parameter yang dilewatkan ke metode yang menggunakan pesan LOG"
@@ -873,6 +945,13 @@ msgid ""
 "output"
 msgstr ""
 "Cari tahu apa modifikasi yang dijalankan tes dan penganalisaan output ujian"
+
+msgid ""
+"Find some of the feature proposal freeze deadlines in the current release "
+"schedule"
+msgstr ""
+"Temukan beberapa usulan tenggat waktu pembekuan fitur dalam jadwal rilis "
+"saat ini"
 
 msgid "Find the current members of the Board of Directors, TC and UC"
 msgstr ""
@@ -888,6 +967,9 @@ msgstr ""
 
 msgid "Find the logs from the most recent meeting"
 msgstr "Temukan log rapat terbaru"
+
+msgid "Find the release week for the current release"
+msgstr "Temukan minggu rilis untuk rilis saat ini"
 
 msgid ""
 "Find the requirements that must be met to be an official OpenStack project"
@@ -1039,6 +1121,13 @@ msgstr ""
 "Berikan swag (hadiah) dan gunakan kompetisi untuk membantu menjaga "
 "ketertarikan dan perhatian"
 
+msgid ""
+"Go post comments on a bug or add some ideas on a blueprint's whiteboard that "
+"was created by someone in your group."
+msgstr ""
+"Kirim komentar pada bug atau tambahkan beberapa ide di blueprint's "
+"whiteboard yang dibuat oleh seseorang di grup Anda."
+
 msgid "Group exercise"
 msgstr "Latihan kelompok"
 
@@ -1054,8 +1143,23 @@ msgstr "Mudah-mudahan kita berakhir dengan penciptaan Lego yang unik!"
 msgid "How OpenStack is Made"
 msgstr "Bagaimana OpenStack dibuat"
 
+msgid ""
+"How do you handle dependent changes in the same or multiple repositories?"
+msgstr ""
+"Bagaimana Anda menangani perubahan dependen di repositori yang sama atau "
+"multipel?"
+
+msgid "How do you initialize your local repo with git review?"
+msgstr "Bagaimana Anda menginisialisasi repo lokal Anda dengan ulasan git?"
+
+msgid "How many OpenStack releases are currently maintained by the community?"
+msgstr "Berapa banyak rilis OpenStack yang saat ini dikelola oleh komunitas?"
+
 msgid "How many gate and check jobs are running"
 msgstr "Berapa banyak gerbang dan pekerjaan cek yang sedang berjalan"
+
+msgid "How many milestones are there?"
+msgstr "Ada berapa tonggak sejarah?"
 
 msgid "How to deploy OpenStack"
 msgstr "Cara mengerahkan OpenStack"
@@ -1142,8 +1246,17 @@ msgstr "Ildiko Vancsa: ildiko@openstack.org"
 msgid "Ildikó Váncsa – The OpenStack Foundation"
 msgstr "Ildikó Váncsa – The OpenStack Foundation"
 
+msgid "Image: http://bit.ly/vm-2018-berlin-v1"
+msgstr "Image: http://bit.ly/vm-2018-berlin-v1"
+
 msgid "Implementing a blueprint/spec"
 msgstr "Menerapkan cetak biru / spek"
+
+msgid ""
+"In case there are no events planned, how about organizing one in your area?"
+msgstr ""
+"Jika tidak ada acara yang direncanakan, bagaimana dengan mengorganisirnya di "
+"daerah Anda?"
 
 msgid "In this example, we use Lego to represent a software project"
 msgstr ""
@@ -1236,6 +1349,9 @@ msgstr "Bergabunglah dengan saluran IRC di kelas dan ikuti selama pelatihan"
 msgid "Join the channel of the project(s) you are interested in"
 msgstr "Bergabunglah dengan saluran proyek yang Anda minati"
 
+msgid "Join the openstack-discuss mailing list"
+msgstr "Bergabunglah dengan milis openstack-discuss"
+
 msgid "Join the project's IRC channel"
 msgstr "Bergabung saluran IRC proyek"
 
@@ -1318,6 +1434,13 @@ msgstr "Seperti OpenStack, ada:"
 msgid "Like any software project, there are:"
 msgstr "Seperti proyek software, ada:"
 
+msgid ""
+"List at least three of the nine services that make up OpenStack's core "
+"functionality."
+msgstr ""
+"Daftar setidaknya tiga dari sembilan layanan yang membentuk fungsionalitas "
+"inti OpenStack."
+
 msgid "List sessions: screen -ls"
 msgstr "Daftar sesi: screen -ls"
 
@@ -1327,8 +1450,18 @@ msgstr "Mendengarkan ketika orang berbicara"
 msgid "Local Upstream Trainings"
 msgstr "Local Upstream Trainings"
 
+msgid ""
+"Locate the archives for the openstack-discuss ML. What email thread has the "
+"most responses this month?"
+msgstr ""
+"Temukan arsip untuk openstack-discuss ML. Utas email apa yang paling banyak "
+"merespons bulan ini?"
+
 msgid "Location"
 msgstr "Location"
+
+msgid "Location details and RSVP to come."
+msgstr "Detail lokasi dan RSVP yang akan datang."
 
 msgid "Loic Dachary (training, mentoring, assistant, french, english)"
 msgstr "Loic Dachary (training, mentoring, assistant, french, english)"
@@ -1363,6 +1496,13 @@ msgstr ""
 "Mencari proyek yang paling tertarik dan menemukan tiga pengulas inti yang "
 "paling aktif (masyarakat akan baik untuk mengetahui untuk bantuan ulasan dan "
 "mendapatkan patch gabungan Anda)."
+
+msgid ""
+"Look up the release schedule for the current and past two OpenStack release "
+"cycles & share links"
+msgstr ""
+"Cari jadwal rilis untuk dua siklus rilis & tautan OpenStack saat ini dan "
+"yang lalu"
 
 msgid ""
 "Look up when the next meeting is for the project who's channel you joined"
@@ -1497,6 +1637,9 @@ msgstr "Namgon Lucas Kim (assistant, mentoring)"
 msgid "New features"
 msgstr "Fitur baru"
 
+msgid "November 11-12, 2018"
+msgstr "November 11-12, 2018"
+
 msgid "Numbers should not be used as an indication for competition"
 msgstr "Angka tidak boleh digunakan sebagai indikasi persaingan"
 
@@ -1505,6 +1648,9 @@ msgstr "Objectives (sasaran)"
 
 msgid "October 10 - 11, 2014 (Fri - Sat)"
 msgstr "10-11 Oktober 2014 (Jumat - Sabtu)"
+
+msgid "October 9, 2018"
+msgstr "October 9, 2018"
 
 msgid ""
 "Once the students are separated into their new roles, and have an "
@@ -1567,6 +1713,13 @@ msgid "Open the Contributor Guide"
 msgstr "Buka Contributor Guide (panduan kontributor)"
 
 msgid ""
+"Open the `Accounts Setup <https://docs.openstack.org/contributors/common/"
+"accounts.html#>`_ section of the Contributor Guide"
+msgstr ""
+"Buka bagian `Accounts Setup <https://docs.openstack.org/contributors/common/"
+"accounts.html#>`_ pada Contributor Guide"
+
+msgid ""
 "Open the `Checking Status in Zuul <https://docs.openstack.org/contributors/"
 "common/zuul-status.html>`_ section of the Contributor Guide"
 msgstr ""
@@ -1588,11 +1741,41 @@ msgstr ""
 "html>`_ dari  Contributor Guide"
 
 msgid ""
+"Open the `How to Become a Patch Guru? <https://docs.openstack.org/"
+"contributors/code-and-documentation/patch-best-practices.html>`_ section of "
+"the Contributor Guide"
+msgstr ""
+"Buka bagian `How to Become a Patch Guru? <https://docs.openstack.org/"
+"contributors/code-and-documentation/patch-best-practices.html>`_ pada "
+"Contributor Guide"
+
+msgid ""
 "Open the `OpenStack Governance <https://docs.openstack.org/contributors/"
 "common/governance.html>`_ section of the Contributor Guide"
 msgstr ""
 "Buka bagian `OpenStack Governance <https://docs.openstack.org/contributors/"
 "common/governance.html>`_ dari Contributor Guide"
+
+msgid ""
+"Open the `Releases <https://docs.openstack.org/contributors/common/releases."
+"html>`_ section of the Contributor Guide"
+msgstr ""
+"Buka bagian `Releases <https://docs.openstack.org/contributors/common/"
+"releases.html>` _ pada Contributor Guide"
+
+msgid ""
+"Open the `Setting Up Your Gerrit Account <https://docs.openstack.org/"
+"contributors/common/setup-gerrit.html>`_ section of the Contributor Guide"
+msgstr ""
+"Buka bagian `Setting Up Your Gerrit Account <https://docs.openstack.org/"
+"contributors/common/setup-gerrit.html>`_ pada Contributor Guide"
+
+msgid ""
+"Open the `Setup IRC <https://docs.openstack.org/contributors/common/irc."
+"html>`_ section of the Contributor Guide"
+msgstr ""
+"Buka bagian `Setup IRC <https://docs.openstack.org/contributors/common/irc."
+"html>` _ pada Contributor Guide"
 
 msgid ""
 "Open the `Setup and Learn GIT <https://docs.openstack.org/contributors/"
@@ -1609,11 +1792,29 @@ msgstr ""
 "task-tracking.html>`_ dari Contributor Guide"
 
 msgid ""
+"Open the `Using Elastic Recheck <https://docs.openstack.org/contributors/"
+"code-and-documentation/elastic-recheck.html>`_ section of the Contributor "
+"Guide"
+msgstr ""
+"Buka bagian `Using Elastic Recheck <https://docs.openstack.org/contributors/"
+"code-and-documentation/elastic-recheck.html>`_ pada Contributor Guide"
+
+msgid ""
 "Open the `Using Gerrit <https://docs.openstack.org/contributors/code-and-"
 "documentation/using-gerrit.html>`_ section of the Contributor Guide"
 msgstr ""
 "Buka bagian `Using Gerrit <https://docs.openstack.org/contributors/code-and-"
 "documentation/using-gerrit.html>`_ dari Contributor Guide"
+
+msgid ""
+"Open the `training etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-berlin-2018>`_ for team work"
+msgstr ""
+"Buka `training etherpad <https://etherpad.openstack.org/p/upstream-institute-"
+"berlin-2018>`_ untuk kerja tim"
+
+msgid "OpenStack Days Nordics"
+msgstr "OpenStack Days Nordics"
 
 msgid "OpenStack Documentation"
 msgstr "Dokumentasi OpenStack"
@@ -1629,6 +1830,9 @@ msgstr "OpenStack Project Status dan Zuul"
 
 msgid "OpenStack Release Cycle"
 msgstr "OpenStack Release Cycle (siklus rilis OpenStack)"
+
+msgid "OpenStack Summit Berlin"
+msgstr "OpenStack Summit Berlin"
 
 msgid "OpenStack Upstream Institute"
 msgstr "OpenStack Upstream Institute"
@@ -1657,6 +1861,9 @@ msgstr "Pengenalan pelatihan hulu OpenStack"
 msgid "OpenStack sandbox environment: DevStack"
 msgstr "OpenStack sandbox environment: DevStack"
 
+msgid "Optional: Prepare an environment by yourself from scratch:"
+msgstr "Opsional: Persiapkan lingkungan sendiri dari awal:"
+
 msgid "Organize the tables according to project interest - especially on day 2"
 msgstr "Atur tabel sesuai dengan kepentingan proyek - terutama pada hari ke 2"
 
@@ -1677,6 +1884,9 @@ msgstr "PTLs"
 
 msgid "Part of the OpenStack project's functional testing"
 msgstr "Bagian dari uji fungsional proyek OpenStack"
+
+msgid "Patch Guru"
+msgstr "Patch Guru"
 
 msgid "Patrick East – PureStorage"
 msgstr "Patrick East – PureStorage"
@@ -1774,11 +1984,25 @@ msgstr ""
 msgid "Read the material"
 msgstr "Baca materinya"
 
+msgid ""
+"Ready, set, go to `The OpenStack Contributor Guide <https://docs.openstack."
+"org/contributors/>`_"
+msgstr ""
+"Siap, atur, buka `The OpenStack Contributor Guide <https://docs.openstack."
+"org/contributors/>`_"
+
 msgid "Recommendations to become an active community member"
 msgstr "Rekomendasi untuk menjadi anggota komunitas yang aktif"
 
 msgid "References"
 msgstr "Referensi"
+
+msgid ""
+"Register the blueprint : `Blueprints for openstack-dev-sandbox <https://"
+"blueprints.launchpad.net/openstack-dev-sandbox>`_"
+msgstr ""
+"Daftarkan blueprint: `Blueprints for openstack-dev-sandbox <https://"
+"blueprints.launchpad.net/openstack-dev-sandbox>`_"
 
 msgid "Relevant actors"
 msgstr "Aktor yang relevan"
@@ -1864,6 +2088,9 @@ msgstr ""
 msgid "See EOL status at: https://releases.openstack.org"
 msgstr "Lihat status EOL di: https://releases.openstack.org"
 
+msgid "See YOU in Stockholm!"
+msgstr "Lihat ANDA di Stockholm!"
+
 msgid ""
 "See this web page and the schedule of the upcoming class for more details "
 "and registration."
@@ -1887,8 +2114,17 @@ msgstr ""
 "Layanan di DevStack dijalankan sebagai unit ``systemd`` yang dinamai "
 "devstack@$servicename.service"
 
+msgid "Setting Up IRC"
+msgstr "Menyiapkan IRC"
+
+msgid "Setup git & Commit Messages"
+msgstr "Mempersiapkan git & Commit Messages"
+
 msgid "Setup the Development Environment"
 msgstr "Mempersiapkan Development Environment"
+
+msgid "Share both in our IRC channel."
+msgstr "Bagikan keduanya di saluran IRC kami."
 
 msgid "Share something you find interesting from the proposed agenda"
 msgstr "Bagikan sesuatu yang Anda anggap menarik dari agenda yang diusulkan"
@@ -1986,6 +2222,9 @@ msgstr "Stefano Maffulli (training, mentoring, assistant, english)"
 msgid "Stephan Ahn (training, assistant, mentoring)"
 msgstr "Stephan Ahn (training, assistant, mentoring)"
 
+msgid "Stockholm, Sweden"
+msgstr "Stockholm, Sweden"
+
 msgid ""
 "Students can use a different editor instead of nano with their own "
 "preferences (e.g. vi, emacs, or whatever they want)."
@@ -1996,6 +2235,9 @@ msgstr ""
 msgid ""
 "Students will play with the image instead of paying attention to the class"
 msgstr "Siswa akan bermain dengan image daripada memperhatikan kelas"
+
+msgid "Subscribe to the openstack-discuss mailing list."
+msgstr "Berlangganan ke mailing list openstack-discuss."
 
 msgid "Suggestions of projects to work on:"
 msgstr "Saran dari proyek untuk bekerja pada:"
@@ -2143,6 +2385,15 @@ msgid ""
 msgstr ""
 "Pelatihan ini memiliki struktur modular yang memberikan ruang bagi peserta "
 "dengan peran pekerjaan yang berbeda."
+
+msgid ""
+"The upcoming `OpenStack Summit <https://www.openstack.org/summit/berlin-2018/"
+">`_ will be in Berlin in November with a full training running prior to the "
+"event."
+msgstr ""
+"Mendatang `OpenStack Summit <https://www.openstack.org/summit/berlin-2018/"
+">`_ akan berada di Berlin pada bulan November dengan pelatihan penuh "
+"berjalan sebelum acara."
 
 msgid ""
 "There are unused arguments being passed into a method that is used in "
@@ -2502,17 +2753,49 @@ msgstr ""
 msgid "Web browser: Firefox"
 msgstr "Web browser: Firefox"
 
+msgid ""
+"What are some of the different freeze dates for different activities in the "
+"release?"
+msgstr ""
+"Apa saja tanggal pembekuan yang berbeda untuk berbagai kegiatan dalam rilis?"
+
+msgid "What are the Four Opens?"
+msgstr "Apa Four Opens itu?"
+
+msgid "What can individual Foundation members do that community members can't?"
+msgstr ""
+"Apa yang dapat dilakukan oleh setiap anggota Foundation yang anggota "
+"komunitas tidak dapat lakukan?"
+
+msgid "What command do you use to modify a patch within a chain?"
+msgstr ""
+"Perintah apa yang Anda gunakan untuk memodifikasi tambalan (patch) di dalam "
+"rantai?"
+
+msgid "What does ICLA stand for? What is it?"
+msgstr "Apa singkatan ICLA ? Apa itu?"
+
+msgid "What else can you do with a OpenStack Foundation membership?"
+msgstr ""
+"Apa lagi yang dapat Anda lakukan dengan keanggotaan OpenStack Foundation?"
+
 msgid "What happens if you click on a patch under test"
 msgstr "Apa yang terjadi jika Anda klik pada patch yang sedang diuji"
 
 msgid "What is the difference between ATC, AUC, and APC?"
 msgstr "Apa perbedaan antara ATC, AUC, dan APC?"
 
+msgid "What is the focus of each of the milestones?"
+msgstr "Apa fokus dari masing-masing tonggak sejarah?"
+
 msgid "What is the significance of the dots, lines and colors"
 msgstr "Apa pentingnya titik, garis dan warna"
 
 msgid "When possible, sit at a table and build connections with attendees"
 msgstr "Bila mungkin, duduklah di meja dan bangun koneksi dengan peserta"
+
+msgid "Where can you find a list of all of the OpenStack irc channels?"
+msgstr "Di mana Anda dapat menemukan daftar semua saluran irc OpenStack?"
 
 msgid ""
 "Where is the meeting is conducted (#openstack-meeting, #openstack-meeting-3, "
@@ -2530,6 +2813,13 @@ msgstr ""
 
 msgid "Who spoke the most during that meeting?"
 msgstr "Siapa yang paling banyak berbicara selama pertemuan itu?"
+
+msgid "Why are there different dates for some teams?"
+msgstr "Mengapa ada tanggal yang berbeda untuk beberapa tim?"
+
+msgid "Why is there a whole week and not a single day planned?"
+msgstr ""
+"Mengapa ada satu minggu penuh dan tidak ada satu hari pun yang direncanakan?"
 
 msgid ""
 "With over 6,000 developers from over 300 different organizations worldwide, "
@@ -2586,6 +2876,13 @@ msgstr ""
 "occaisons <https://wiki.openstack.org/wiki/"
 "OpenStack_Upstream_Institute_Occasions>`_ ."
 
+msgid ""
+"You do not have to setup the IRC client locally, there is an IRC client on "
+"the VM image that you can use"
+msgstr ""
+"Anda tidak harus mengatur klien IRC secara lokal, ada klien IRC pada image "
+"VM yang dapat Anda gunakan"
+
 msgid "Young-Kyun Kim (assistant, mentoring)"
 msgstr "Young-Kyun Kim (assistant, mentoring)"
 
@@ -2598,8 +2895,14 @@ msgstr "Patch hulu Anda"
 msgid "Your mission, should you choose to accept it"
 msgstr "Misi Anda, sebaiknya Anda memilih untuk menerimanya"
 
+msgid "Zuul and vendor CIs will review your patch"
+msgstr "Zuul dan vendor CI akan meninjau patch Anda"
+
 msgid "\\"
 msgstr "\\"
+
+msgid "`Accounts <workflow-accounts.html>`_"
+msgstr "`Accounts <workflow-accounts.html>`_"
 
 msgid "`Branching model <archive-branching-model.html>`_"
 msgstr "`Branching model <archive-branching-model.html>`_"
@@ -2615,6 +2918,16 @@ msgstr "`Communication <howitsmade-communication.html>`_"
 
 msgid "`Complete index in slide format only <slide-index.html>`_"
 msgstr "`Complete index in slide format only <slide-index.html>`_"
+
+msgid "`Configuring Gerrit <workflow-configuring-gerrit.html>`_"
+msgstr "`Configuring Gerrit <workflow-configuring-gerrit.html>`_"
+
+msgid ""
+"`Connect to freenode IRC <https://webchat.freenode.net/?channels=openstack-"
+"dev>`_"
+msgstr ""
+"`Connect to freenode IRC <https://webchat.freenode.net/?channels=openstack-"
+"dev>`_"
 
 msgid "`Demo environment <code-devstack.html>`_"
 msgstr "`Demo environment <code-devstack.html>`_"
@@ -2659,6 +2972,27 @@ msgid "`Environment Setup <development-environment-setup.html>`_"
 msgstr "`Environment Setup <development-environment-setup.html>`_"
 
 msgid ""
+"`Etherpad for Berlin Upstream Collaboration Training <https://etherpad."
+"openstack.org/p/upstream-institute-berlin-2018>`_"
+msgstr ""
+"`Etherpad for Berlin Upstream Collaboration Training <https://etherpad."
+"openstack.org/p/upstream-institute-berlin-2018>`_"
+
+msgid ""
+"`Etherpad for OpenStack Days Nordics Upstream Institute <https://etherpad."
+"openstack.org/p/upstream-institute-nordics-2018>`_"
+msgstr ""
+"`Etherpad for OpenStack Days Nordics Upstream Institute <https://etherpad."
+"openstack.org/p/upstream-institute-nordics-2018>`_"
+
+msgid ""
+"`Etherpad for Upstream Training, Barcelona, 2016 <https://etherpad.openstack."
+"org/p/upstream-training-barcelona>`_"
+msgstr ""
+"`Etherpad for Upstream Training, Barcelona, 2016 <https://etherpad.openstack."
+"org/p/upstream-training-barcelona>`_"
+
+msgid ""
 "`Etherpad for Upstream Training, Korea, 2016 <https://etherpad.openstack.org/"
 "p/upstream-training-korea-2016>`_"
 msgstr ""
@@ -2671,6 +3005,13 @@ msgid ""
 msgstr ""
 "`Etherpad for Upstream Training, Korea, 2017 <https://etherpad.openstack.org/"
 "p/upstream-training-korea-2017>`_"
+
+msgid ""
+"`Etherpad for Upstream Training, Vancouver, 2015 <https://etherpad.openstack."
+"org/p/upstream-training-vancouver>`_"
+msgstr ""
+"`Etherpad for Upstream Training, Vancouver, 2015 <https://etherpad.openstack."
+"org/p/upstream-training-vancouver>`_"
 
 msgid ""
 "`Installation Tutorial (Ocata) <https://docs.openstack.org/project-install-"
@@ -2710,6 +3051,11 @@ msgstr ""
 "`Official deliverables with repositories <https://governance.openstack.org/"
 "tc/reference/projects/documentation.html#deliverables>`_"
 
+msgid ""
+"`OpenStack Days Nordics <http://stockholm.openstacknordic.org/>`_ event site"
+msgstr ""
+"`OpenStack Days Nordics <http://stockholm.openstacknordic.org/>`_ event site"
+
 msgid "`OpenStack Events <howitsmade-events.html>`_"
 msgstr "`OpenStack Events <howitsmade-events.html>`_"
 
@@ -2737,11 +3083,27 @@ msgstr ""
 "`Overview of the contribution process <workflow-training-contribution-"
 "process.html>`_"
 
+msgid "`Patch Gurus! <workflow-patch-gurus.html>`_"
+msgstr "`Patch Gurus! <workflow-patch-gurus.html>`_"
+
 msgid "`Project Status and Zuul <workflow-project-status-and-zuul.html>`_"
 msgstr "`Project Status and Zuul <workflow-project-status-and-zuul.html>`_"
 
 msgid "`Release cycle <howitsmade-release-cycle.html>`_"
 msgstr "`Release cycle <howitsmade-release-cycle.html>`_"
+
+msgid "`Reviewing & Using Gerrit <workflow-reviewing.html>`_"
+msgstr "`Reviewing & Using Gerrit <workflow-reviewing.html>`_"
+
+msgid ""
+"`Setting Up Git & Commit Messages <workflow-setup-git-and-commit-messages."
+"html>`_"
+msgstr ""
+"`Setting Up Git & Commit Messages <workflow-setup-git-and-commit-messages."
+"html>`_"
+
+msgid "`Setup IRC <howitsmade-irc.html>`_"
+msgstr "`Setup IRC <howitsmade-irc.html>`_"
 
 msgid "`Stackalytics Wiki <https://wiki.openstack.org/wiki/Stackalytics>`_"
 msgstr "`Stackalytics Wiki <https://wiki.openstack.org/wiki/Stackalytics>`_"
@@ -2826,6 +3188,12 @@ msgid ""
 msgstr ""
 "https://docs.openstack.org/contributors/code-and-documentation/sandbox-house-"
 "rules.html"
+
+msgid "https://docs.openstack.org/doc-contrib-guide/docs-builds.html"
+msgstr "https://docs.openstack.org/doc-contrib-guide/docs-builds.html"
+
+msgid "https://docs.openstack.org/doc-contrib-guide/index.html"
+msgstr "https://docs.openstack.org/doc-contrib-guide/index.html"
 
 msgid "https://storyboard-dev.openstack.org/#!/dashboard/"
 msgstr "https://storyboard-dev.openstack.org/#!/dashboard/"
