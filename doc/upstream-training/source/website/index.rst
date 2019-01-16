@@ -107,7 +107,7 @@ Training organizers
 Further trainers/coaches
 ------------------------
 
-You can find the list of trainers/coaches on the `training occaisons
+You can find the list of trainers/coaches on the `training occasions
 <https://wiki.openstack.org/wiki/OpenStack_Upstream_Institute_Occasions>`_
 wiki page.
 
