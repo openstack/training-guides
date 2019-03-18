@@ -70,17 +70,13 @@ Upcoming Trainings
 See this web page and the schedule of the upcoming class for more details
 and registration.
 
-+------------+---------+---------+-----------+--------------------------------+
-| Date       | Event   | Duration| Location  |              Details           |
-+============+=========+=========+===========+================================+
-| October 9, |OpenStack|  1 day  | Stockholm,| :ref:`openstack-day-nordics`   |
-| 2018       |Days     |         | Sweden    |             \                  |
-|            |Nordics  |         |           |                                |
-+------------+---------+---------+-----------+--------------------------------+
-| November   |OpenStack|  1.5    | Berlin,   |:doc:`upstream-training-summit` |
-| 11-12,     |Summit   |  days   | Germany   |             \                  |
-| 2018       |Berlin   |         |           |                                |
-+------------+---------+---------+-----------+--------------------------------+
++------------+----------+---------+---------+--------------------------------+
+| Date       | Event    | Duration| Location|              Details           |
++============+==========+=========+=========+================================+
+| April      |Open Infra|  1      | Denver, |:doc:`upstream-training-summit` |
+| 28, 2019   |Summit    |  day    | CO, USA |             \                  |
+|            |Denver    |         |         |                                |
++------------+----------+---------+---------+--------------------------------+
 
 For Trainees
 ============
