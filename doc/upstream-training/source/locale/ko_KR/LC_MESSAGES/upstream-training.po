@@ -37,16 +37,17 @@
 # joo jihun <as458@naver.com>, 2018. #zanata
 # minkuk jo <strike0115@naver.com>, 2018. #zanata
 # yunha Cho <jyh_5530@naver.com>, 2018. #zanata
+# Sungjin Kang <gang.sungjin@gmail.com>, 2019. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-17 07:21+0000\n"
+"POT-Creation-Date: 2019-03-19 15:27+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-12-02 09:49+0000\n"
-"Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
+"PO-Revision-Date: 2019-03-23 08:45+0000\n"
+"Last-Translator: Sungjin Kang <gang.sungjin@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko_KR\n"
 "X-Generator: Zanata 4.3.3\n"
@@ -55,24 +56,17 @@ msgstr ""
 msgid "**Mentors**"
 msgstr "**멘토**"
 
+msgid "**SCHEDULED: Sunday, April 28th(9am to 6pm local time), 2019**"
+msgstr "**일정: 2019년 04월 28일 (오전 09시 ~ 오후 06시, 현지 시간)**"
+
 msgid "**Staff**"
 msgstr "**스태프**"
-
-msgid ""
-"**TENTATIVELY SCHEDULED: Sunday, November 11th(2 to 6pm), 2018 - Monday, "
-"November 12th (9am to 6pm), 2018**"
-msgstr ""
-"**잠정적으로 예정된 일정: 2018년 11월 11일 일요일(오후 2 - 오후 6시) - 2018"
-"년 11월 12일 월요일 (오전 9시 - 오후 6시)**"
 
 msgid "**Tuesday, October 9, 2018**"
 msgstr "**2018년 10월 9일 화요일**"
 
 msgid "1 day"
 msgstr "1일차"
-
-msgid "1.5 days"
-msgstr "1.5일"
 
 msgid "13:45 Sagrada Familia"
 msgstr "13:45 파밀리에 성당"
@@ -171,9 +165,6 @@ msgstr ":doc:`upstream-training-content`"
 
 msgid ":doc:`upstream-training-summit`"
 msgstr ":doc:`upstream-training-summit`"
-
-msgid ":ref:`openstack-day-nordics`"
-msgstr ":ref:`openstack-day-nordics`"
 
 msgid ""
 "A big thank you to everyone that has made this possible, especially Loic "
@@ -284,6 +275,9 @@ msgstr "다른 사람의 질문에 답하거나 도와줄 수 있는 사람에�
 msgid "Appropriate Fixes"
 msgstr "적절한 수정"
 
+msgid "April 28, 2019"
+msgstr "2019년 04월 28일"
+
 msgid "Archive"
 msgstr "아카이브"
 
@@ -380,9 +374,6 @@ msgstr "역할에 대해 진실성을 가집니다"
 
 msgid "Being able to read and write English at a technical level"
 msgstr "영어로된 기술 용어를 읽고 쓸 수 있는 레벨"
-
-msgid "Berlin, Germany"
-msgstr "베를린, 독일"
 
 msgid "Board : 1"
 msgstr "이사회: 1"
@@ -668,6 +659,9 @@ msgstr "다른 그룹과 함께 방문하고자 하는 국가를 결정합니다
 
 msgid "Demo environment"
 msgstr "데모 환경"
+
+msgid "Denver, CO, USA"
+msgstr "Denver, CO, USA"
 
 msgid "Description"
 msgstr "설명"
@@ -1429,9 +1423,6 @@ msgstr "로컬 업스트림 트레이닝"
 msgid "Location"
 msgstr "위치"
 
-msgid "Location details and RSVP to come."
-msgstr "오기위한 위치 세부 정보와  RSVP"
-
 msgid "Loic Dachary (training, mentoring, assistant, french, english)"
 msgstr "Loic Dachary (교육, 멘토링, 조교, 프랑스어, 영어)"
 
@@ -1490,6 +1481,15 @@ msgstr "변경사항을 만들고 새로운 패치셋을 푸시합니다"
 
 msgid "Make code changes"
 msgstr "코드 변경사항을 만듭니다"
+
+msgid ""
+"Make sure you `RSVP <https://www.openstack.org/summit/denver-2019/summit-"
+"schedule/events/23607/openstack-upstream-institute-sponsored-by-lenovo-rsvp-"
+"required>`_!"
+msgstr ""
+"`RSVP <https://www.openstack.org/summit/denver-2019/summit-schedule/"
+"events/23607/openstack-upstream-institute-sponsored-by-lenovo-rsvp-"
+"required>`_! 를 확인하세요."
 
 msgid "Make sure you have a wifi enabled laptop with you."
 msgstr "Wifi를 사용할 수 있는 노트북을 가지고 와야 합니다."
@@ -1600,9 +1600,6 @@ msgstr "Namgon Lucas Kim (조교, 멘토링)"
 msgid "New features"
 msgstr "새로운 기능"
 
-msgid "November 11-12, 2018"
-msgstr "11월 11-12,2018"
-
 msgid "Numbers should not be used as an indication for competition"
 msgstr "숫자가 경쟁의 지표로 사용되어서는 안 됩니다."
 
@@ -1611,9 +1608,6 @@ msgstr "목표"
 
 msgid "October 10 - 11, 2014 (Fri - Sat)"
 msgstr "2014년 10월 10 - 11일 (금 - 토)"
-
-msgid "October 9, 2018"
-msgstr "2018년 10월 9일"
 
 msgid ""
 "Once the students are separated into their new roles, and have an "
@@ -1651,6 +1645,12 @@ msgstr ""
 
 msgid "Online Communication"
 msgstr "온라인 의사소통"
+
+msgid "Open Infra Summit Denver"
+msgstr "Open Infra Summit Denver"
+
+msgid "Open Infrastructure Summit Denver"
+msgstr "Open Infrastructure Summit Denver"
 
 msgid ""
 "Open an *upstream training* IRC meeting and make consensus from various "
@@ -1787,9 +1787,6 @@ msgstr "OpenStack 프로젝트 상태 및 Zuul"
 
 msgid "OpenStack Release Cycle"
 msgstr "OpenStack 릴리즈 주기"
-
-msgid "OpenStack Summit Berlin"
-msgstr "OpenStack Summit Berlin"
 
 msgid "OpenStack Upstream Institute"
 msgstr "OpenStack Upstream Institute"
@@ -2166,9 +2163,6 @@ msgstr "Stefano Maffulli (교육, 멘토링, 조교, 영어)"
 msgid "Stephan Ahn (training, assistant, mentoring)"
 msgstr "Stephan Ahn (교육, 조교, 멘토링)"
 
-msgid "Stockholm, Sweden"
-msgstr "스톡홀름, 스웨덴"
-
 msgid ""
 "Students can use a different editor instead of nano with their own "
 "preferences (e.g. vi, emacs, or whatever they want)."
@@ -2321,14 +2315,6 @@ msgid ""
 msgstr ""
 "이 훈련은 다른 직무 역할을 가진 참가자들에게 공간을 제공하는 모듈식 구조를 가"
 "지고 있다."
-
-msgid ""
-"The upcoming `OpenStack Summit <https://www.openstack.org/summit/berlin-2018/"
-">`_ will be in Berlin in November with a full training running prior to the "
-"event."
-msgstr ""
-"다가오는 `오픈스택 정상회의<https://www.openstack.org/summit/berlin-2018/>`_ "
-"는 11월 베를린에서 열리는데, 행사 전에 본격적인 훈련을 할 예정이다."
 
 msgid ""
 "There are unused arguments being passed into a method that is used in "
@@ -2866,13 +2852,6 @@ msgid "`Environment Setup <development-environment-setup.html>`_"
 msgstr "`환경 셋업 <development-environment-setup.html>`_"
 
 msgid ""
-"`Etherpad for Berlin Upstream Collaboration Training <https://etherpad."
-"openstack.org/p/upstream-institute-berlin-2018>`_"
-msgstr ""
-"`베를린 업스트림 협업 트레이닝을 위한 이더패드<https://etherpad.openstack."
-"org/p/upstream-institute-berlin-2018>`_"
-
-msgid ""
 "`Etherpad for OpenStack Days Nordics Upstream Institute <https://etherpad."
 "openstack.org/p/upstream-institute-nordics-2018>`_"
 msgstr ""
@@ -2906,6 +2885,13 @@ msgid ""
 msgstr ""
 "`Etherpad for Upstream Training, Vancouver, 2015 <https://etherpad.openstack."
 "org/p/upstream-training-vancouver>`_"
+
+msgid ""
+"`Etherpad for the Denver Upstream Collaboration Training <https://etherpad."
+"openstack.org/p/upstream-institute-denver-2019>`_"
+msgstr ""
+"`Denver Upstream Collaboration Training를 위한 Etherpad <https://etherpad."
+"openstack.org/p/upstream-institute-denver-2019>`_"
 
 msgid ""
 "`Installation Tutorial (Ocata) <https://docs.openstack.org/project-install-"

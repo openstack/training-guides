@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-17 07:21+0000\n"
+"POT-Creation-Date: 2019-03-19 15:27+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,21 +23,11 @@ msgstr "**Mentors**"
 msgid "**Staff**"
 msgstr "**Staff**"
 
-msgid ""
-"**TENTATIVELY SCHEDULED: Sunday, November 11th(2 to 6pm), 2018 - Monday, "
-"November 12th (9am to 6pm), 2018**"
-msgstr ""
-"**TENTATIVELY SCHEDULED: Sunday, November 11th(2 to 6pm), 2018 - Monday, "
-"November 12th (9am to 6pm), 2018**"
-
 msgid "**Tuesday, October 9, 2018**"
 msgstr "**Tuesday, October 9, 2018**"
 
 msgid "1 day"
 msgstr "1 hari"
-
-msgid "1.5 days"
-msgstr "1,5 hari"
 
 msgid "13:45 Sagrada Familia"
 msgstr "13:45 Sagrada Familia"
@@ -135,9 +125,6 @@ msgstr ":doc:`upstream-training-content`"
 
 msgid ":doc:`upstream-training-summit`"
 msgstr ":doc:`upstream-training-summit`"
-
-msgid ":ref:`openstack-day-nordics`"
-msgstr ":ref:`openstack-day-nordics`"
 
 msgid ""
 "A big thank you to everyone that has made this possible, especially Loic "
@@ -353,9 +340,6 @@ msgstr "Benar untuk peran Anda"
 
 msgid "Being able to read and write English at a technical level"
 msgstr "Mampu membaca dan menulis bahasa Inggris di tingkat teknis"
-
-msgid "Berlin, Germany"
-msgstr "Berlin, Germany"
 
 msgid "Board : 1"
 msgstr "Board : 1"
@@ -1460,9 +1444,6 @@ msgstr ""
 msgid "Location"
 msgstr "Location"
 
-msgid "Location details and RSVP to come."
-msgstr "Detail lokasi dan RSVP yang akan datang."
-
 msgid "Loic Dachary (training, mentoring, assistant, french, english)"
 msgstr "Loic Dachary (training, mentoring, assistant, french, english)"
 
@@ -1637,9 +1618,6 @@ msgstr "Namgon Lucas Kim (assistant, mentoring)"
 msgid "New features"
 msgstr "Fitur baru"
 
-msgid "November 11-12, 2018"
-msgstr "November 11-12, 2018"
-
 msgid "Numbers should not be used as an indication for competition"
 msgstr "Angka tidak boleh digunakan sebagai indikasi persaingan"
 
@@ -1648,9 +1626,6 @@ msgstr "Objectives (sasaran)"
 
 msgid "October 10 - 11, 2014 (Fri - Sat)"
 msgstr "10-11 Oktober 2014 (Jumat - Sabtu)"
-
-msgid "October 9, 2018"
-msgstr "October 9, 2018"
 
 msgid ""
 "Once the students are separated into their new roles, and have an "
@@ -1830,9 +1805,6 @@ msgstr "OpenStack Project Status dan Zuul"
 
 msgid "OpenStack Release Cycle"
 msgstr "OpenStack Release Cycle (siklus rilis OpenStack)"
-
-msgid "OpenStack Summit Berlin"
-msgstr "OpenStack Summit Berlin"
 
 msgid "OpenStack Upstream Institute"
 msgstr "OpenStack Upstream Institute"
@@ -2222,9 +2194,6 @@ msgstr "Stefano Maffulli (training, mentoring, assistant, english)"
 msgid "Stephan Ahn (training, assistant, mentoring)"
 msgstr "Stephan Ahn (training, assistant, mentoring)"
 
-msgid "Stockholm, Sweden"
-msgstr "Stockholm, Sweden"
-
 msgid ""
 "Students can use a different editor instead of nano with their own "
 "preferences (e.g. vi, emacs, or whatever they want)."
@@ -2385,15 +2354,6 @@ msgid ""
 msgstr ""
 "Pelatihan ini memiliki struktur modular yang memberikan ruang bagi peserta "
 "dengan peran pekerjaan yang berbeda."
-
-msgid ""
-"The upcoming `OpenStack Summit <https://www.openstack.org/summit/berlin-2018/"
-">`_ will be in Berlin in November with a full training running prior to the "
-"event."
-msgstr ""
-"Mendatang `OpenStack Summit <https://www.openstack.org/summit/berlin-2018/"
-">`_ akan berada di Berlin pada bulan November dengan pelatihan penuh "
-"berjalan sebelum acara."
 
 msgid ""
 "There are unused arguments being passed into a method that is used in "
@@ -2970,13 +2930,6 @@ msgstr ""
 
 msgid "`Environment Setup <development-environment-setup.html>`_"
 msgstr "`Environment Setup <development-environment-setup.html>`_"
-
-msgid ""
-"`Etherpad for Berlin Upstream Collaboration Training <https://etherpad."
-"openstack.org/p/upstream-institute-berlin-2018>`_"
-msgstr ""
-"`Etherpad for Berlin Upstream Collaboration Training <https://etherpad."
-"openstack.org/p/upstream-institute-berlin-2018>`_"
 
 msgid ""
 "`Etherpad for OpenStack Days Nordics Upstream Institute <https://etherpad."
