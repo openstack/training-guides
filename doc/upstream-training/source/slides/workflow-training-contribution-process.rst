@@ -13,13 +13,13 @@ Getting to Know Your Project
 
 .. code-block:: console
 
-   $ git clone git://git.openstack.org/openstack/<your_project>
+   $ git clone https://git.openstack.org/openstack/<your_project>
 
 - Example:
 
 .. code-block:: console
 
-   $ git clone git://git.openstack.org/openstack/training-guides
+   $ git clone https://git.openstack.org/openstack/training-guides
 
 - Run the tests
 - Join the project's IRC channel
