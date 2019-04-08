@@ -18,12 +18,13 @@ Learning Exercise
 Exercise 1
 ==========
 
-- Find the current members of the Board of Directors, TC and UC
+- Find the current members of the Board of Directors
+- How many of each type of member are there? (Platinum, Gold, and Individual)
 
 Exercise 2
 ===========
 
-- Find the latest election results for Board of Directors, TC and UC.
+- Find the latest election results for the TC and UC.
 - Which members of these groups will be up for reelection during the
   next round?
 
@@ -36,4 +37,4 @@ Exercise 3
 Exercise 4
 ==========
 
-- Find the requirements that must be met to be an official OpenStack project
+- How many SIGs are there? Name two.
