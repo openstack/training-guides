@@ -78,6 +78,10 @@ and registration.
 |            |Denver    |         |         |                                |
 +------------+----------+---------+---------+--------------------------------+
 
+.. note::
+   For the Denver Summit training it is **essential that all trainees complete
+   the prequisite steps** in the ``For Trainees`` section below.
+
 For Trainees
 ============
 Prerequisite and best practice guide for trainees:
