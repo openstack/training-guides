@@ -30,12 +30,12 @@ Documentation team structure
 
   - API, Contributor Guide, Security Guide, Training Guides, Training Labs
 
-- `Docs cores <https://review.openstack.org/#/admin/groups/30,members>`_
-  and separate core teams for `docs-specs <https://review.openstack.org/#/admin/groups/384,members>`_
-  , `contributor-guide <https://review.openstack.org/#/admin/groups/1841,members>`_
-  , `security-doc <https://review.openstack.org/#/admin/groups/347,members>`_
-  , `training-guides <https://review.openstack.org/#/admin/groups/360,members>`_
-  , and `training-labs <https://review.openstack.org/#/admin/groups/1118,members>`_
+- `Docs cores <https://review.opendev.org/#/admin/groups/30,members>`_
+  and separate core teams for `docs-specs <https://review.opendev.org/#/admin/groups/384,members>`_
+  , `contributor-guide <https://review.opendev.org/#/admin/groups/1841,members>`_
+  , `security-doc <https://review.opendev.org/#/admin/groups/347,members>`_
+  , `training-guides <https://review.opendev.org/#/admin/groups/360,members>`_
+  , and `training-labs <https://review.opendev.org/#/admin/groups/1118,members>`_
 
 - `Documentation cross-project liaisons <https://wiki.openstack.org/wiki/CrossProjectLiaisons#Documentation>`_
   for questions, reviews, doc bug triaging, and patching docs
@@ -46,7 +46,7 @@ Repositories
 - `Official deliverables with repositories <https://governance.openstack.org/tc/reference/projects/documentation.html#deliverables>`_
 - Project repos have installation tutorials and developer documentation
 
-  - Example: `Heat repository <https://git.openstack.org/cgit/openstack/heat/tree/>`_
+  - Example: `Heat repository <https://opendev.org/openstack/heat/>`_
 
     - `Developer documentation <https://docs.openstack.org/heat/>`_
       is published from doc directory in master branch

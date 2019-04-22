@@ -21,7 +21,7 @@ DevStack
   - from git master by default
   - from stable branches by configuration, e.g. stable/newton
 
-- Documentation: https://docs.openstack.org/developer/devstack/
+- Documentation: https://docs.openstack.org/devstack/
 
 DevStack Clone and Setup
 ========================
@@ -29,7 +29,7 @@ DevStack Clone and Setup
 
 .. code-block:: console
 
-  git clone https://git.openstack.org/openstack-dev/devstack
+  git clone https://opendev.org/openstack/devstack
 
 - Make any local configurations changes (set passwords, IP addresses, etc.)
 

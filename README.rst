@@ -99,4 +99,4 @@ Release Notes
 Repository
 ==========
 
-* https://git.openstack.org/cgit/openstack/training-guides
+* https://opendev.org/openstack/training-guides

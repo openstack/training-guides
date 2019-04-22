@@ -127,7 +127,7 @@ Each API method which is either added or changed should have the following
   think about when defining their policy.
 
 Example JSON schema definitions can be found in the Nova tree
-http://git.openstack.org/cgit/openstack/nova/tree/nova/api/openstack/compute/schemas/v3
+http://opendev.org/openstack/nova/src/nova/api/openstack/compute/schemas/v3
 
 Note that the schema should be defined as restrictively as
 possible. Parameters which are required should be marked as such and
