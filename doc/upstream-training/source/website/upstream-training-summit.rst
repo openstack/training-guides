@@ -13,3 +13,17 @@ April with a full training running prior to the event.
 
 Make sure you `RSVP <https://www.openstack.org/summit/denver-2019/summit-schedule/events/23607/openstack-upstream-institute-sponsored-by-lenovo-rsvp-required>`_!
 
+.. warning::
+   The OpenStack Upstream Institute session in Denver is going to be
+   shortened from its normal one-and-a-half day length to a single day.
+   As a result it will be essential for all attendees to complete the
+   preparation steps in the `OpenStack Upstream Institute Trainees' Guide
+   <https://docs.openstack.org/upstream-training/upstream-trainees-guide.html>`_
+
+.. note::
+   If you are attempting the steps above in the week before the OpenStack
+   Upstream Institute class and need assistance you can find mentors in the
+   #openstack-upstream-institute channel on irc.freenode.net.
+
+   There will also be office hours from 4 to 6 pm at the Former Saint
+   Craft Kitchen and Taps in the Hyatt on Saturday, April 27th, 2019.
