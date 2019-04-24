@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-19 15:27+0000\n"
+"POT-Creation-Date: 2019-04-24 00:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -709,9 +709,6 @@ msgstr "Dokumentation Deep Dive"
 msgid "Documentation team structure"
 msgstr "Dokumentationsteamstruktur"
 
-msgid "Documentation: https://docs.openstack.org/developer/devstack/"
-msgstr "Dokumentation: https://docs.openstack.org/developer/devstack/"
-
 msgid "Don't game the numbers"
 msgstr "Spielen Sie nicht mit den Zahlen"
 
@@ -829,13 +826,6 @@ msgstr "Beispiel für IRC-Besprechungsbefehle:"
 msgid "Example:"
 msgstr "Beispiel:"
 
-msgid ""
-"Example: `Heat repository <https://git.openstack.org/cgit/openstack/heat/"
-"tree/>`_"
-msgstr ""
-"Beispiel: `Heat-Repository <https://git.openstack.org/cgit/openstack/heat/"
-"tree/> `_"
-
 msgid "Exercise"
 msgstr "Übung"
 
@@ -909,29 +899,16 @@ msgstr ""
 "Finden Sie heraus, was die Änderung ist, indem Sie den Test durchführen und "
 "die Testausgabe analysieren"
 
-msgid "Find the current members of the Board of Directors, TC and UC"
-msgstr "Finden Sie die aktuellen Mitglieder des Board of Directors, TC und UC"
-
 msgid "Find the information that can be retrieved for each patch in a pipeline"
 msgstr ""
 "Finden Sie die Informationen, die für jeden Patch in einer Pipeline "
 "abgerufen werden können"
-
-msgid "Find the latest election results for Board of Directors, TC and UC."
-msgstr ""
-"Finden Sie die neuesten Wahlergebnisse für Board of Directors, TC und UC. "
 
 msgid "Find the logs from the most recent meeting"
 msgstr "Finden Sie die Logs des letzten Meetings"
 
 msgid "Find the release week for the current release"
 msgstr "Finde die Freigabewoche für die aktuelle Version"
-
-msgid ""
-"Find the requirements that must be met to be an official OpenStack project"
-msgstr ""
-"Finden Sie die Anforderungen, die erfüllt sein müssen, um ein offizielles "
-"OpenStack-Projekt zu sein"
 
 msgid "Find where the currently released code is posted"
 msgstr "Finden Sie, wo der aktuell veröffentlichte Code gepostet wurde"
@@ -1187,9 +1164,6 @@ msgstr "Ildiko Vancsa: ildiko@openstack.org"
 
 msgid "Ildikó Váncsa – The OpenStack Foundation"
 msgstr "Ildikó Váncsa – The OpenStack Foundation"
-
-msgid "Image: http://bit.ly/vm-2018-berlin-v1"
-msgstr "Bild: http://bit.ly/vm-2018-berlin-v1"
 
 msgid "Implementing a blueprint/spec"
 msgstr "Implementierung eines Blueprints / Spezifikation"
@@ -1785,9 +1759,6 @@ msgstr "OpenStack Upstream Training Einführungen"
 msgid "OpenStack sandbox environment: DevStack"
 msgstr "OpenStack Sandbox Umgebung: DevStack"
 
-msgid "Optional: Prepare an environment by yourself from scratch:"
-msgstr "Optional: Erstellen Sie selbst eine Umgebung von Grund auf:"
-
 msgid "Organize the tables according to project interest - especially on day 2"
 msgstr ""
 "Organisieren Sie die Tische nach Projektinteresse - vor allem am 2. Tag"
@@ -1845,6 +1816,9 @@ msgstr "Bitte beachten Sie, dass die Sprache der Ausbildung Englisch ist."
 
 msgid "Post the information on the IRC channel"
 msgstr "Posten Sie die Informationen auf dem IRC-Kanal"
+
+msgid "Prepare an environment by yourself from scratch:"
+msgstr "Erstellen Sie selbst eine Umgebung von Grund auf:"
 
 msgid "Prerequisite and best practice guide for trainees:"
 msgstr "Voraussetzung und Best Practice Guide für Auszubildende:"
@@ -2805,23 +2779,6 @@ msgid ""
 msgstr ""
 "`Entwicklerdokumentation <https://docs.openstack.org/heat/>`_ ist "
 "veröffentlicht vom doc Verzeichnis im Master Branch"
-
-msgid ""
-"`Docs cores <https://review.openstack.org/#/admin/groups/30,members>`_ and "
-"separate core teams for `docs-specs <https://review.openstack.org/#/admin/"
-"groups/384,members>`_ , `contributor-guide <https://review.openstack.org/#/"
-"admin/groups/1841,members>`_ , `security-doc <https://review.openstack.org/#/"
-"admin/groups/347,members>`_ , `training-guides <https://review.openstack.org/"
-"#/admin/groups/360,members>`_ , and `training-labs <https://review.openstack."
-"org/#/admin/groups/1118,members>`_"
-msgstr ""
-"`Docs Kernteam <https://review.openstack.org/#/admin/groups/30,members> `` "
-"und separate Kernteams für `docs-specs <https://review.openstack.org/#/admin/"
-"groups/384,members> ``,  `contributor-guide <https://review.openstack.org/#/"
-"admin/groups/1841,members>`_ ,  `security-doc <https://review.openstack.org/"
-"#/admin/groups/347,members> ``, `training-guides <https://review.openstack."
-"org/#/admin/groups/360,members> ``, und `training-labs <https://review."
-"openstack.org/#/admin/groups/1118,members> `_"
 
 msgid "`Documentation Deep Dive <docs.html>`_"
 msgstr "`Dokumentation Deep Dive <docs.html> `_"

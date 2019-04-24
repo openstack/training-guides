@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-17 07:21+0000\n"
+"POT-Creation-Date: 2019-04-24 00:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -660,12 +660,6 @@ msgstr "IRC toplantı komutlarına örnek:"
 msgid "Example:"
 msgstr "Örnek:"
 
-msgid ""
-"Example: `Heat repository <https://git.openstack.org/cgit/openstack/heat/"
-"tree/>`_"
-msgstr ""
-"Örnek: `Heat deposu <https://git.openstack.org/cgit/openstack/heat/tree/>`_"
-
 msgid "Exercise"
 msgstr "Alıştırma"
 
@@ -718,17 +712,9 @@ msgstr ""
 "Testi çalıştırarak ve test çıktısını analiz ederek değişikliğin ne olduğunu "
 "öğrenin"
 
-msgid "Find the current members of the Board of Directors, TC and UC"
-msgstr "Yönetim Kurulu'nun mevcut üyelerini, TC ve UC'yi bulun"
-
 msgid "Find the information that can be retrieved for each patch in a pipeline"
 msgstr ""
 "Bir iletişim hattındaki her düzeltme ekibi için alınabilen bilgileri bulun"
-
-msgid ""
-"Find the requirements that must be met to be an official OpenStack project"
-msgstr ""
-"Resmi bir OpenStack projesi olması için karşılanması gereken şartları bulun"
 
 msgid "Find where the currently released code is posted"
 msgstr "Halihazırda yayınlanan kodu nerede yayınladığını bulun"
@@ -1397,6 +1383,9 @@ msgstr "Eğitim dilinin İngilizce olduğunu not edin."
 
 msgid "Post the information on the IRC channel"
 msgstr "Bilgileri IRC kanalına gönderin"
+
+msgid "Prepare an environment by yourself from scratch:"
+msgstr "Kendiniz sıfırdan bir ortam hazırlayın:"
 
 msgid "Prerequisites to attend the class"
 msgstr "Derse katılmak için ön şartlar"

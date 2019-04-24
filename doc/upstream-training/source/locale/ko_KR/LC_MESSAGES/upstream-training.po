@@ -14,7 +14,6 @@
 # Donghoon Song <thdehdgns@gmail.com>, 2018. #zanata
 # Dupyo Hong <8chelvl.s.dom4in@gmail.com>, 2018. #zanata
 # Gu YeongJun <guyeongjun95@gmail.com>, 2018. #zanata
-# Hwang Kyu Min <hkm_m@naver.com>, 2018. #zanata
 # Ian Y. Choi <ianyrchoi@gmail.com>, 2018. #zanata
 # JEONGHUN SHIN <ot2406@naver.com>, 2018. #zanata
 # JI-hyun Park <pjh2609@daum.net>, 2018. #zanata
@@ -42,7 +41,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-19 15:27+0000\n"
+"POT-Creation-Date: 2019-04-24 00:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -296,15 +295,6 @@ msgid ""
 msgstr ""
 "읽을거리: `OpenStack Upstream Institute 최신 정보 얻기 <https://superuser."
 "openstack.org/articles/openstack-upstream-institute-update/>`_"
-
-msgid ""
-"Aside from the Setup IRC section above, we will cover everything else that "
-"is in `the Contributor Guide <https://docs.openstack.org/contributors/>`_ "
-"during the class."
-msgstr ""
-" 위에 있는 Setup IRC 섹션에서 뿐만 아니라  이 수업동안 우리는 다른 모든 것을 "
-"다음 문서에서 발견할 수 있습니다.`the Contributor Guide <https://docs."
-"openstack.org/contributors/>`_"
 
 msgid "Ask a mentor to break the *tested* code of one test case"
 msgstr ""
@@ -740,9 +730,6 @@ msgstr "문서 파헤치기"
 msgid "Documentation team structure"
 msgstr "문서화 팀 구조"
 
-msgid "Documentation: https://docs.openstack.org/developer/devstack/"
-msgstr "문서: https://docs.openstack.org/developer/devstack/"
-
 msgid "Don't game the numbers"
 msgstr "숫자놀음은 하지 마세요."
 
@@ -862,13 +849,6 @@ msgid "Example:"
 msgstr "예시:"
 
 msgid ""
-"Example: `Heat repository <https://git.openstack.org/cgit/openstack/heat/"
-"tree/>`_"
-msgstr ""
-"예제: `Heat repository <https://git.openstack.org/cgit/openstack/heat/tree/"
-">`_"
-
-msgid ""
 "Examples: You can ask a question about the issue or proposed feature. You "
 "can confirm the issue and update its status to triaged."
 msgstr ""
@@ -950,24 +930,14 @@ msgid ""
 "schedule"
 msgstr "현재 릴리즈 스케줄에서 일부 기능 제안 동결 기한 찾기"
 
-msgid "Find the current members of the Board of Directors, TC and UC"
-msgstr "현재 이사회, TC 및 UC 구성원을 찾아봅니다"
-
 msgid "Find the information that can be retrieved for each patch in a pipeline"
 msgstr "파이프라인의 각 패치를 가져올 수 있는 정보를 찾으세요."
-
-msgid "Find the latest election results for Board of Directors, TC and UC."
-msgstr "TC, UC의 최근 이사회 의장 선거 결과를 찾아보세요."
 
 msgid "Find the logs from the most recent meeting"
 msgstr "제일 최근 미팅에서 기록을 찾으세요."
 
 msgid "Find the release week for the current release"
 msgstr "현재 버젼의 출시 날짜를 알아보세요"
-
-msgid ""
-"Find the requirements that must be met to be an official OpenStack project"
-msgstr "공식 OpenStack 프로젝트가 되기 위한 요구사항을 찾아봅니다"
 
 msgid "Find where the currently released code is posted"
 msgstr "현재 릴리즈된 코드가 어디에 게시되었는지 찾기"
@@ -1220,9 +1190,6 @@ msgstr "Ildiko Vancsa: ildiko@openstack.org "
 
 msgid "Ildikó Váncsa – The OpenStack Foundation"
 msgstr "Ildikó Váncsa – The OpenStack Foundation"
-
-msgid "Image: http://bit.ly/vm-2018-berlin-v1"
-msgstr "이미지: http://bit.ly/vm-2018-berlin-v1"
 
 msgid "Implementing a blueprint/spec"
 msgstr "블루프린트/스펙 구현"
@@ -1815,9 +1782,6 @@ msgstr "OpenStack Upstream Training 소개"
 msgid "OpenStack sandbox environment: DevStack"
 msgstr "OpenStack sandbox 환경: DevStack"
 
-msgid "Optional: Prepare an environment by yourself from scratch:"
-msgstr "선택 사항: 처음부터 환경을 구축할수 있습니다:"
-
 msgid "Organize the tables according to project interest - especially on day 2"
 msgstr "프로젝트 관심 분야에 따른 테이블 구성 - 2일차"
 
@@ -1870,6 +1834,9 @@ msgstr "참고로 트레이닝에서는 영어를 사용합니다."
 
 msgid "Post the information on the IRC channel"
 msgstr "해당 정보를 IRC 채널에 게시합니다"
+
+msgid "Prepare an environment by yourself from scratch:"
+msgstr "기반부터 환경을 스스로 준비합니다:"
 
 msgid "Prerequisite and best practice guide for trainees:"
 msgstr "연습생을 위한 선행조건 및 모범 사례 가이드:"
@@ -2818,23 +2785,6 @@ msgid ""
 msgstr ""
 "`Developer documentation <https://docs.openstack.org/heat/>`_ 은 master 브랜"
 "치 내 doc 디렉토리에서 퍼블리싱이 이루어집니다."
-
-msgid ""
-"`Docs cores <https://review.openstack.org/#/admin/groups/30,members>`_ and "
-"separate core teams for `docs-specs <https://review.openstack.org/#/admin/"
-"groups/384,members>`_ , `contributor-guide <https://review.openstack.org/#/"
-"admin/groups/1841,members>`_ , `security-doc <https://review.openstack.org/#/"
-"admin/groups/347,members>`_ , `training-guides <https://review.openstack.org/"
-"#/admin/groups/360,members>`_ , and `training-labs <https://review.openstack."
-"org/#/admin/groups/1118,members>`_"
-msgstr ""
-"`Docs cores <https://review.openstack.org/#/admin/groups/30,members>`_ and "
-"separate core teams for `docs-specs <https://review.openstack.org/#/admin/"
-"groups/384,members>`_ , `contributor-guide <https://review.openstack.org/#/"
-"admin/groups/1841,members>`_ , `security-doc <https://review.openstack.org/#/"
-"admin/groups/347,members>`_ , `training-guides <https://review.openstack.org/"
-"#/admin/groups/360,members>`_ , and `training-labs <https://review.openstack."
-"org/#/admin/groups/1118,members>`_"
 
 msgid "`Documentation Deep Dive <docs.html>`_"
 msgstr "`문서 파헤치기 <docs.html>`_"

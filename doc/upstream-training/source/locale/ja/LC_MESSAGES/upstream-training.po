@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-19 13:13+0000\n"
+"POT-Creation-Date: 2019-04-24 00:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -423,9 +423,6 @@ msgstr "blueprint や spec を登録する"
 
 msgid "Filing, fixing, and triaging bugs"
 msgstr "バグの登録、修正、仕分けを行う"
-
-msgid "Find the current members of the Board of Directors, TC and UC"
-msgstr "現在の Board of Directors、TC、UC のメンバーを探してください。"
 
 msgid "Fitting it all together"
 msgstr "全てを組み合わせる"
@@ -849,6 +846,9 @@ msgstr "誰がどの領域が得意なのかを意識しましょう"
 
 msgid "Pick a task (bug, trivial fix, documentation, implementation)"
 msgstr "タスク (バグ、些細な修正、ドキュメント、実装) を選びます"
+
+msgid "Prepare an environment by yourself from scratch:"
+msgstr "自分で最初から環境を用意します。"
 
 msgid "Product owners"
 msgstr "プロダクトオーナー"
