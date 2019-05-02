@@ -26,8 +26,8 @@ Exercise 1
 Exercise 2
 ==========
 
-- How many milestones are there?
-- What is the focus of each of the milestones?
+- How many release models are there?
+- Describe and contrast them
 
 Exercise 3
 ==========
