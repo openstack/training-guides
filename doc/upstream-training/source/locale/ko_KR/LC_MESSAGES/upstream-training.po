@@ -41,7 +41,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-24 00:16+0000\n"
+"POT-Creation-Date: 2019-05-02 21:05+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1108,9 +1108,6 @@ msgstr "커뮤니티에서 공식적으로 유지보수하는 OpenStack 릴리�
 
 msgid "How many gate and check jobs are running"
 msgstr "얼마나 많은 관문과 검사 작업이 실행되고 있는지"
-
-msgid "How many milestones are there?"
-msgstr "그곳엔 몇 개의 이정표가 있습니까?"
 
 msgid "How to deploy OpenStack"
 msgstr "OpenStack을 배포하는 방법"
@@ -2646,9 +2643,6 @@ msgstr "테스트 중인 패치를 클릭하면 어떤 일이 일어나는지"
 
 msgid "What is the difference between ATC, AUC, and APC?"
 msgstr "ATC,AUC 그리고 APC의 차이점이 무엇입니까?"
-
-msgid "What is the focus of each of the milestones?"
-msgstr "각 이정표는 무엇에 초점을 둡니까?"
 
 msgid "What is the significance of the dots, lines and colors"
 msgstr "점, 선, 색깔의 의미는 무엇인지"

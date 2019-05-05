@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-24 14:31+0000\n"
+"POT-Creation-Date: 2019-05-02 21:05+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1209,9 +1209,6 @@ msgstr "Wieviele SIGs gibt es? Benenne zwei."
 
 msgid "How many gate and check jobs are running"
 msgstr "Wie viele Gate- und Checkaufträge laufen"
-
-msgid "How many milestones are there?"
-msgstr "Wieviele Meilensteine gibt es?"
 
 msgid ""
 "How many of each type of member are there? (Platinum, Gold, and Individual)"
@@ -2888,9 +2885,6 @@ msgstr "Was passiert, wenn Sie auf einen Patch im Test klicken"
 
 msgid "What is the difference between ATC, AUC, and APC?"
 msgstr "Was ist der Unterschied zwischen ATC, AUC und APC?"
-
-msgid "What is the focus of each of the milestones?"
-msgstr "Was ist der Fokus von jedem Meilenstein?"
 
 msgid "What is the significance of the dots, lines and colors"
 msgstr "Was ist die Bedeutung der Punkte, Linien und Farben"

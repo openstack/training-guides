@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-25 12:24+0000\n"
+"POT-Creation-Date: 2019-05-02 21:05+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-04-25 06:02+0000\n"
+"PO-Revision-Date: 2019-05-04 07:38+0000\n"
 "Last-Translator: suhartono <cloudsuhartono@gmail.com>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -656,6 +656,9 @@ msgstr "Lingkungan demo"
 msgid "Denver, CO, USA"
 msgstr "Denver, CO, USA"
 
+msgid "Describe and contrast them"
+msgstr "Jelaskan dan kontraskan mereka"
+
 msgid "Description"
 msgstr "Description"
 
@@ -1181,14 +1184,14 @@ msgstr "Ada berapa banyak SIG? Sebutkan dua."
 msgid "How many gate and check jobs are running"
 msgstr "Berapa banyak gerbang dan pekerjaan cek yang sedang berjalan"
 
-msgid "How many milestones are there?"
-msgstr "Ada berapa tonggak sejarah?"
-
 msgid ""
 "How many of each type of member are there? (Platinum, Gold, and Individual)"
 msgstr ""
 "Berapa banyak dari masing-masing jenis anggota yang ada? (Platinum, Gold, "
 "dan Individual)"
+
+msgid "How many release models are there?"
+msgstr "Berapa banyak model rilis yang ada?"
 
 msgid "How to deploy OpenStack"
 msgstr "Cara mengerahkan OpenStack"
@@ -2845,9 +2848,6 @@ msgstr "Apa yang terjadi jika Anda klik pada patch yang sedang diuji"
 
 msgid "What is the difference between ATC, AUC, and APC?"
 msgstr "Apa perbedaan antara ATC, AUC, dan APC?"
-
-msgid "What is the focus of each of the milestones?"
-msgstr "Apa fokus dari masing-masing tonggak sejarah?"
 
 msgid "What is the significance of the dots, lines and colors"
 msgstr "Apa pentingnya titik, garis dan warna"
