@@ -70,17 +70,17 @@ Upcoming Trainings
 See this web page and the schedule of the upcoming class for more details
 and registration.
 
-+------------+----------+---------+---------+--------------------------------+
-| Date       | Event    | Duration| Location|              Details           |
-+============+==========+=========+=========+================================+
-| April      |Open Infra|  1      | Denver, |:doc:`upstream-training-summit` |
-| 28, 2019   |Summit    |  day    | CO, USA |             \                  |
-|            |Denver    |         |         |                                |
-+------------+----------+---------+---------+--------------------------------+
-
-.. note::
-   For the Denver Summit training it is **essential that all trainees complete
-   the prequisite steps** in the ``For Trainees`` section below.
++------------+----------+---------+----------+--------------------------------+
+| Date       | Event    | Duration| Location |              Details           |
++============+==========+=========+==========+================================+
+| August     |Open Infra|   1 day | Hanoi,   | :ref:`openinfra-days-vietnam`  |
+| 25, 2019   |Days      |         | Vietnam  |             \                  |
+|            |Vietnam   |         |          |                                |
++------------+----------+---------+----------+--------------------------------+
+| October    |Open Infra|   1 day |Stockholm,|  :ref:`openinfra-days-nordics` |
+| 2, 2019    |Days      |         | Sweden   |             \                  |
+|            |Nordics   |         |          |                                |
++------------+----------+---------+----------+--------------------------------+
 
 For Trainees
 ============

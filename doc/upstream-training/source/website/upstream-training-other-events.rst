@@ -2,17 +2,30 @@
 Upstream Institute Training Other Events
 ========================================
 
-.. _openstack-day-nordics:
+.. _openinfra-days-vietnam:
 
-OpenStack Days Nordics
+OpenInfra Days Vietnam
 ----------------------
 
-`OpenStack Days Nordics <http://stockholm.openstacknordic.org/>`_ event site
+`OpenInfra Days Vietnam <http://day.vietopeninfra.org/>`_ event site
 
+**Sunday, August 25, 2019**
 
-**Tuesday, October 9, 2018**
+`Etherpad for OpenInfra Days Vietnam Upstream Institute
+<https://etherpad.openstack.org/p/upstream-institute-vietnam-2019>`_
 
-`Etherpad for OpenStack Days Nordics Upstream Institute
-<https://etherpad.openstack.org/p/upstream-institute-nordics-2018>`_
+See YOU in Vietnam!
+
+.. _openinfra-days-nordics:
+
+OpenInfra Days Nordics
+----------------------
+
+`OpenInfra Days Nordics <https://openinfranordics.com/>`_ event site
+
+**Wednesday, October 2, 2018**
+
+`Etherpad for OpenInfra Days Nordics Upstream Institute
+<https://etherpad.openstack.org/p/upstream-institute-nordics-2019>`_
 
 See YOU in Stockholm!
