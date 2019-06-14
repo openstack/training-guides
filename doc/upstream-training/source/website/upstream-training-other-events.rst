@@ -23,7 +23,7 @@ OpenInfra Days Nordics
 
 `OpenInfra Days Nordics <https://openinfranordics.com/>`_ event site
 
-**Wednesday, October 2, 2018**
+**Wednesday, October 2, 2019**
 
 `Etherpad for OpenInfra Days Nordics Upstream Institute
 <https://etherpad.openstack.org/p/upstream-institute-nordics-2019>`_

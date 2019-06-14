@@ -124,6 +124,35 @@ Contribution Planning (2 hours)
 Previous trainings
 ==================
 
+2019
+----
+- Apr 28: `Open Infrastructure Summit Denver <https://www.openstack.org/summit/denver-2019/>`_
+  - `Etherpad <https://etherpad.openstack.org/p/upstream-institute-denver-2019>`__
+
+2018
+----
+
+- Nov 11-12: `OpenStack Summit Berlin <https://www.openstack.org/summit/berlin-2018/>`_
+  - `Etherpad <https://etherpad.openstack.org/p/upstream-institute-berlin-2018>`__
+- Oct 9: `OpenStack Days Nordics <http://stockholm.openstacknordic.org/>`__
+  - `Etherpad <https://etherpad.openstack.org/p/upstream-institute-nordics-2018>`__
+- Jul 27-28: OpenStack Days Brazil 2018
+  - `Etherpad <https://etherpad.openstack.org/p/upstream-institute-brazil-2018>`__
+- Jun 28-29: `Open Infra Days Korea <https://www.openinfradays.kr/2018/>`__
+  - `Etherpad <https://etherpad.openstack.org/p/upstream-institute-korea-2018>`__
+- Jun 11-12: `OpenStack Days Poland <http://www.openstackday.pl/>`__
+  - `Etherpad <https://etherpad.openstack.org/p/upstream-institute-poland-2018>`__
+
+2017
+----
+
+- Nov 04-05: `OpenStack Summit Sydney <https://www.openstack.org/summit/sydney-2017/>`_
+  - `Etherpad <https://etherpad.openstack.org/p/upstream-institute-sydney-2017>`__
+- Oct 18: `OpenStack Days Nordic <https://openinfranordics.com/openstack-days-nordic-2017/>`__
+  - `Etherpad <https://etherpad.openstack.org/p/upstream-institute-nordic-2017>`__
+- Sep 26: OpenStack Days UK 2017
+  - `Etherpad <https://etherpad.openstack.org/p/upstream-institute-uk-2017>`__
+
 2017 Beijing, China
 -------------------
 
