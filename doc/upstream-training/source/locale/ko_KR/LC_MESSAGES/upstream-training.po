@@ -41,7 +41,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-02 21:05+0000\n"
+"POT-Creation-Date: 2019-06-15 09:52+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -60,9 +60,6 @@ msgstr "**일정: 2019년 04월 28일 (오전 09시 ~ 오후 06시, 현지 시�
 
 msgid "**Staff**"
 msgstr "**스태프**"
-
-msgid "**Tuesday, October 9, 2018**"
-msgstr "**2018년 10월 9일 화요일**"
 
 msgid "1 day"
 msgstr "1일차"
@@ -161,9 +158,6 @@ msgstr ":doc:`upstream-trainers-guide`"
 
 msgid ":doc:`upstream-training-content`"
 msgstr ":doc:`upstream-training-content`"
-
-msgid ":doc:`upstream-training-summit`"
-msgstr ":doc:`upstream-training-summit`"
 
 msgid ""
 "A big thank you to everyone that has made this possible, especially Loic "
@@ -273,9 +267,6 @@ msgstr "다른 사람의 질문에 답하거나 도와줄 수 있는 사람에�
 
 msgid "Appropriate Fixes"
 msgstr "적절한 수정"
-
-msgid "April 28, 2019"
-msgstr "2019년 04월 28일"
 
 msgid "Archive"
 msgstr "아카이브"
@@ -649,9 +640,6 @@ msgstr "다른 그룹과 함께 방문하고자 하는 국가를 결정합니다
 
 msgid "Demo environment"
 msgstr "데모 환경"
-
-msgid "Denver, CO, USA"
-msgstr "Denver, CO, USA"
 
 msgid "Description"
 msgstr "설명"
@@ -1610,9 +1598,6 @@ msgstr ""
 msgid "Online Communication"
 msgstr "온라인 의사소통"
 
-msgid "Open Infra Summit Denver"
-msgstr "Open Infra Summit Denver"
-
 msgid "Open Infrastructure Summit Denver"
 msgstr "Open Infrastructure Summit Denver"
 
@@ -1733,9 +1718,6 @@ msgid ""
 msgstr ""
 "협업을 위해 `training etherpad <https://etherpad.openstack.org/p/upstream-"
 "institute-berlin-2018>`_ 를 여세요."
-
-msgid "OpenStack Days Nordics"
-msgstr "OpenStack Days Nordics"
 
 msgid "OpenStack Documentation"
 msgstr "OpenStack 문서화"
@@ -2796,13 +2778,6 @@ msgid "`Environment Setup <development-environment-setup.html>`_"
 msgstr "`환경 셋업 <development-environment-setup.html>`_"
 
 msgid ""
-"`Etherpad for OpenStack Days Nordics Upstream Institute <https://etherpad."
-"openstack.org/p/upstream-institute-nordics-2018>`_"
-msgstr ""
-"`Nordics Upstream Institute OpenStack의 날을 위한 Etherpad <https://etherpad."
-"openstack.org/p/upstream-institute-nordics-2018>`_"
-
-msgid ""
 "`Etherpad for Upstream Training, Barcelona, 2016 <https://etherpad.openstack."
 "org/p/upstream-training-barcelona>`_"
 msgstr ""
@@ -2874,12 +2849,6 @@ msgid ""
 msgstr ""
 "`Official deliverables with repositories <https://governance.openstack.org/"
 "tc/reference/projects/documentation.html#deliverables>`_"
-
-msgid ""
-"`OpenStack Days Nordics <http://stockholm.openstacknordic.org/>`_ event site"
-msgstr ""
-"`북유럽 OpenStack의 날 <http://stockholm.openstacknordic.org/>`_ 이벤트 사이"
-"트"
 
 msgid "`OpenStack Events <howitsmade-events.html>`_"
 msgstr "`OpenStack 이벤트 <howitsmade-events.html>`_"

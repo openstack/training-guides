@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-02 21:05+0000\n"
+"POT-Creation-Date: 2019-06-15 09:52+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-05-04 07:38+0000\n"
+"PO-Revision-Date: 2019-06-17 06:48+0000\n"
 "Last-Translator: suhartono <cloudsuhartono@gmail.com>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -26,8 +26,11 @@ msgstr "**SCHEDULED: Sunday, April 28th(9am to 6pm local time), 2019**"
 msgid "**Staff**"
 msgstr "**Staff**"
 
-msgid "**Tuesday, October 9, 2018**"
-msgstr "**Tuesday, October 9, 2018**"
+msgid "**Sunday, August 25, 2019**"
+msgstr "**Sunday, August 25, 2019**"
+
+msgid "**Wednesday, October 2, 2018**"
+msgstr "**Wednesday, October 2, 2018**"
 
 msgid "1 day"
 msgstr "1 hari"
@@ -126,8 +129,11 @@ msgstr ":doc:`upstream-trainers-guide`"
 msgid ":doc:`upstream-training-content`"
 msgstr ":doc:`upstream-training-content`"
 
-msgid ":doc:`upstream-training-summit`"
-msgstr ":doc:`upstream-training-summit`"
+msgid ":ref:`openinfra-days-nordics`"
+msgstr ":ref:`openinfra-days-nordics`"
+
+msgid ":ref:`openinfra-days-vietnam`"
+msgstr ":ref:`openinfra-days-vietnam`"
 
 msgid ""
 "A big thank you to everyone that has made this possible, especially Loic "
@@ -247,9 +253,6 @@ msgstr ""
 msgid "Appropriate Fixes"
 msgstr "Appropriate Fixes (perbaikan yang tepat)"
 
-msgid "April 28, 2019"
-msgstr "April 28, 2019"
-
 msgid "Archive"
 msgstr "Archive (arsip)"
 
@@ -308,6 +311,9 @@ msgstr "Menghadiri pertemuan"
 
 msgid "Attending regular meetings"
 msgstr "Menghadiri pertemuan rutin"
+
+msgid "August 25, 2019"
+msgstr "August 25, 2019"
 
 msgid "Available metrics"
 msgstr "Metrik yang tersedia"
@@ -652,9 +658,6 @@ msgstr ""
 
 msgid "Demo environment"
 msgstr "Lingkungan demo"
-
-msgid "Denver, CO, USA"
-msgstr "Denver, CO, USA"
 
 msgid "Describe and contrast them"
 msgstr "Jelaskan dan kontraskan mereka"
@@ -1033,13 +1036,6 @@ msgstr ""
 "lokal, lihat :doc:`upstream-archives`."
 
 msgid ""
-"For the Denver Summit training it is **essential that all trainees complete "
-"the prequisite steps** in the ``For Trainees`` section below."
-msgstr ""
-"Untuk pelatihan Denver Summit **essential that all trainees complete the "
-"prequisite steps** di bagian di bawah ini. ``For Trainees`` section below."
-
-msgid ""
 "For the cores you found earlier, figure out what time zone they are probably "
 "in."
 msgstr ""
@@ -1156,6 +1152,9 @@ msgstr "Latihan kelompok"
 
 msgid "Haikel Guemar (assistant, mentor, french, english)"
 msgstr "Haikel Guemar (assistant, mentor, french, english)"
+
+msgid "Hanoi, Vietnam"
+msgstr "Hanoi, Vietnam"
 
 msgid "Help fix the documentation"
 msgstr "Membantu memperbaiki dokumentasi"
@@ -1693,6 +1692,9 @@ msgstr "Objectives (sasaran)"
 msgid "October 10 - 11, 2014 (Fri - Sat)"
 msgstr "10-11 Oktober 2014 (Jumat - Sabtu)"
 
+msgid "October 2, 2019"
+msgstr "October 2, 2019"
+
 msgid ""
 "Once the students are separated into their new roles, and have an "
 "understanding of the project, begin the timer for the first sprint. During "
@@ -1733,8 +1735,11 @@ msgstr ""
 msgid "Online Communication"
 msgstr "Komunikasi secara online"
 
-msgid "Open Infra Summit Denver"
-msgstr "Open Infra Summit Denver"
+msgid "Open Infra Days Nordics"
+msgstr "Open Infra Days Nordics"
+
+msgid "Open Infra Days Vietnam"
+msgstr "Open Infra Days Vietnam"
 
 msgid "Open Infrastructure Summit Denver"
 msgstr "Open Infrastructure Summit Denver"
@@ -1860,8 +1865,11 @@ msgstr ""
 "Buka `training etherpad <https://etherpad.openstack.org/p/upstream-institute-"
 "berlin-2018>`_ untuk kerja tim"
 
-msgid "OpenStack Days Nordics"
-msgstr "OpenStack Days Nordics"
+msgid "OpenInfra Days Nordics"
+msgstr "OpenInfra Days Nordics"
+
+msgid "OpenInfra Days Vietnam"
+msgstr "OpenInfra Days Vietnam"
 
 msgid "OpenStack Documentation"
 msgstr "Dokumentasi OpenStack"
@@ -2138,6 +2146,9 @@ msgstr "Lihat status EOL di: https://releases.openstack.org"
 msgid "See YOU in Stockholm!"
 msgstr "Lihat ANDA di Stockholm!"
 
+msgid "See YOU in Vietnam!"
+msgstr "See YOU in Vietnam!"
+
 msgid ""
 "See this web page and the schedule of the upcoming class for more details "
 "and registration."
@@ -2269,6 +2280,9 @@ msgstr "Stefano Maffulli (training, mentoring, assistant, english)"
 msgid "Stephan Ahn (training, assistant, mentoring)"
 msgstr "Stephan Ahn (training, assistant, mentoring)"
 
+msgid "Stockholm,"
+msgstr "Stockholm,"
+
 msgid ""
 "Students can use a different editor instead of nano with their own "
 "preferences (e.g. vi, emacs, or whatever they want)."
@@ -2297,6 +2311,9 @@ msgstr "Sungjin Kang (training, assistant, mentoring)"
 
 msgid "Swami Redydy (mentoring, assistant)"
 msgstr "Swami Redydy (mentoring, assistant)"
+
+msgid "Sweden"
+msgstr "Sweden"
 
 msgid "Syed Armani (training, mentoring, assistant, english)"
 msgstr "Syed Armani (training, mentoring, assistant, english)"
@@ -3033,11 +3050,18 @@ msgid "`Environment Setup <development-environment-setup.html>`_"
 msgstr "`Environment Setup <development-environment-setup.html>`_"
 
 msgid ""
-"`Etherpad for OpenStack Days Nordics Upstream Institute <https://etherpad."
-"openstack.org/p/upstream-institute-nordics-2018>`_"
+"`Etherpad for OpenInfra Days Nordics Upstream Institute <https://etherpad."
+"openstack.org/p/upstream-institute-nordics-2019>`_"
 msgstr ""
-"`Etherpad for OpenStack Days Nordics Upstream Institute <https://etherpad."
-"openstack.org/p/upstream-institute-nordics-2018>`_"
+"`Etherpad for OpenInfra Days Nordics Upstream Institute <https://etherpad."
+"openstack.org/p/upstream-institute-nordics-2019>`_"
+
+msgid ""
+"`Etherpad for OpenInfra Days Vietnam Upstream Institute <https://etherpad."
+"openstack.org/p/upstream-institute-vietnam-2019>`_"
+msgstr ""
+"`Etherpad for OpenInfra Days Vietnam Upstream Institute <https://etherpad."
+"openstack.org/p/upstream-institute-vietnam-2019>`_"
 
 msgid ""
 "`Etherpad for Upstream Training, Barcelona, 2016 <https://etherpad.openstack."
@@ -3112,10 +3136,11 @@ msgstr ""
 "`Official deliverables with repositories <https://governance.openstack.org/"
 "tc/reference/projects/documentation.html#deliverables>`_"
 
-msgid ""
-"`OpenStack Days Nordics <http://stockholm.openstacknordic.org/>`_ event site"
-msgstr ""
-"`OpenStack Days Nordics <http://stockholm.openstacknordic.org/>`_ event site"
+msgid "`OpenInfra Days Nordics <https://openinfranordics.com/>`_ event site"
+msgstr "`OpenInfra Days Nordics <https://openinfranordics.com/>`_ event site"
+
+msgid "`OpenInfra Days Vietnam <http://day.vietopeninfra.org/>`_ event site"
+msgstr "`OpenInfra Days Vietnam <http://day.vietopeninfra.org/>`_ event site"
 
 msgid "`OpenStack Events <howitsmade-events.html>`_"
 msgstr "`OpenStack Events <howitsmade-events.html>`_"
