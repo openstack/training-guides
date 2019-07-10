@@ -73,6 +73,10 @@ and registration.
 +------------+----------+---------+----------+--------------------------------+
 | Date       | Event    | Duration| Location |              Details           |
 +============+==========+=========+==========+================================+
+| July       |OpenStack |  .5 day | Tokyo,   | :ref:`openstack-days-tokyo`    |
+| 23, 2019   |Days      |         | Japan    |             \                  |
+|            |Tokyo     |         |          |                                |
++------------+----------+---------+----------+--------------------------------+
 | August     |Open Infra|   1 day | Hanoi,   | :ref:`openinfra-days-vietnam`  |
 | 25, 2019   |Days      |         | Vietnam  |             \                  |
 |            |Vietnam   |         |          |                                |

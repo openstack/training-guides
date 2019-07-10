@@ -2,6 +2,20 @@
 Upstream Institute Training Other Events
 ========================================
 
+.. _openstack-days-tokyo:
+
+OpenStack Days Tokyo
+--------------------
+
+`OpenStack Days Tokyo <https://openstackdays.com/>`_ event site
+
+**Tuesday, July 23, 2019**
+
+`Etherpad for OpenStack Days Tokyo Upstream Institute
+<https://etherpad.openstack.org/p/upstream-training-cndt-osdt-tokyo-2019>`_
+
+See YOU in Tokyo!
+
 .. _openinfra-days-vietnam:
 
 OpenInfra Days Vietnam
