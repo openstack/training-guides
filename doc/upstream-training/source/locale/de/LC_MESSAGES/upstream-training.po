@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-15 09:52+0000\n"
+"POT-Creation-Date: 2019-07-10 18:54+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,9 +33,6 @@ msgstr "**Personal**"
 
 msgid "**Sunday, August 25, 2019**"
 msgstr "**Sonntag, 25. August 2019**"
-
-msgid "**Wednesday, October 2, 2018**"
-msgstr "**Mittwoch, 2. Oktober 2018**"
 
 msgid "1 day"
 msgstr "1 Tag"

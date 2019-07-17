@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-15 09:52+0000\n"
+"POT-Creation-Date: 2019-07-10 18:54+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-06-17 06:48+0000\n"
+"PO-Revision-Date: 2019-07-16 06:20+0000\n"
 "Last-Translator: suhartono <cloudsuhartono@gmail.com>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -29,8 +29,14 @@ msgstr "**Staff**"
 msgid "**Sunday, August 25, 2019**"
 msgstr "**Sunday, August 25, 2019**"
 
-msgid "**Wednesday, October 2, 2018**"
-msgstr "**Wednesday, October 2, 2018**"
+msgid "**Tuesday, July 23, 2019**"
+msgstr "**Tuesday, July 23, 2019**"
+
+msgid "**Wednesday, October 2, 2019**"
+msgstr "**Wednesday, October 2, 2019**"
+
+msgid ".5 day"
+msgstr ".5 day"
 
 msgid "1 day"
 msgstr "1 hari"
@@ -80,11 +86,20 @@ msgstr "2016 Austin, USA"
 msgid "2016 Barcelona, Spain"
 msgstr "2016 Barcelona, Spain (spanyol)"
 
+msgid "2017"
+msgstr "2017"
+
 msgid "2017 Beijing, China"
 msgstr "2017 Beijing, China"
 
 msgid "2017 Boston, USA"
 msgstr "2017 Boston, USA"
+
+msgid "2018"
+msgstr "2018"
+
+msgid "2019"
+msgstr "2019"
 
 msgid "265 different organizations"
 msgstr "265 organisasi yang berbeda"
@@ -134,6 +149,9 @@ msgstr ":ref:`openinfra-days-nordics`"
 
 msgid ":ref:`openinfra-days-vietnam`"
 msgstr ":ref:`openinfra-days-vietnam`"
+
+msgid ":ref:`openstack-days-tokyo`"
+msgstr ":ref:`openstack-days-tokyo`"
 
 msgid ""
 "A big thank you to everyone that has made this possible, especially Loic "
@@ -252,6 +270,15 @@ msgstr ""
 
 msgid "Appropriate Fixes"
 msgstr "Appropriate Fixes (perbaikan yang tepat)"
+
+msgid ""
+"Apr 28: `Open Infrastructure Summit Denver <https://www.openstack.org/summit/"
+"denver-2019/>`_ - `Etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-denver-2019>`__"
+msgstr ""
+"Apr 28: `Open Infrastructure Summit Denver <https://www.openstack.org/summit/"
+"denver-2019/>`_ - `Etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-denver-2019>`__"
 
 msgid "Archive"
 msgstr "Archive (arsip)"
@@ -1395,8 +1422,18 @@ msgstr "Bergabunglah dengan milis openstack-discuss"
 msgid "Join the project's IRC channel"
 msgstr "Bergabung saluran IRC proyek"
 
+msgid ""
+"Jul 27-28: OpenStack Days Brazil 2018 - `Etherpad <https://etherpad."
+"openstack.org/p/upstream-institute-brazil-2018>`__"
+msgstr ""
+"Jul 27-28: OpenStack Days Brazil 2018 - `Etherpad <https://etherpad."
+"openstack.org/p/upstream-institute-brazil-2018>`__"
+
 msgid "Julie Pichon (training, mentoring, assistant, english)"
 msgstr "Julie Pichon (training, mentoring, assistant, english)"
+
+msgid "July 23, 2019"
+msgstr "July 23, 2019"
 
 msgid "July 6 - 7, 2016 (Wed - Thu)"
 msgstr "July 6 - 7, 2016 (Wed - Thu)"
@@ -1406,6 +1443,22 @@ msgstr "July 9 - 10, 2015 (Thu - Fri)"
 
 msgid "Jump on IRC and etherpad"
 msgstr "Langsung ke IRC dan etherpad"
+
+msgid ""
+"Jun 11-12: `OpenStack Days Poland <http://www.openstackday.pl/>`__ - "
+"`Etherpad <https://etherpad.openstack.org/p/upstream-institute-"
+"poland-2018>`__"
+msgstr ""
+"Jun 11-12: `OpenStack Days Poland <http://www.openstackday.pl/>`__ - "
+"`Etherpad <https://etherpad.openstack.org/p/upstream-institute-"
+"poland-2018>`__"
+
+msgid ""
+"Jun 28-29: `Open Infra Days Korea <https://www.openinfradays.kr/2018/>`__ - "
+"`Etherpad <https://etherpad.openstack.org/p/upstream-institute-korea-2018>`__"
+msgstr ""
+"Jun 28-29: `Open Infra Days Korea <https://www.openinfradays.kr/2018/>`__ - "
+"`Etherpad <https://etherpad.openstack.org/p/upstream-institute-korea-2018>`__"
 
 msgid "Jungsu Han (assistant, mentoring)"
 msgstr "Jungsu Han (assistant, mentoring)"
@@ -1683,11 +1736,48 @@ msgstr "Namgon Lucas Kim (assistant, mentoring)"
 msgid "New features"
 msgstr "Fitur baru"
 
+#, fuzzy
+msgid ""
+"Nov 04-05: `OpenStack Summit Sydney <https://www.openstack.org/summit/"
+"sydney-2017/>`_ - `Etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-sydney-2017>`__"
+msgstr ""
+"Nov 04-05: `OpenStack Summit Sydney <https://www.openstack.org/summit/"
+"sydney-2017/>`_ - `Etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-sydney-2017>`__"
+
+msgid ""
+"Nov 11-12: `OpenStack Summit Berlin <https://www.openstack.org/summit/"
+"berlin-2018/>`_ - `Etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-berlin-2018>`__"
+msgstr ""
+"Nov 11-12: `OpenStack Summit Berlin <https://www.openstack.org/summit/"
+"berlin-2018/>`_ - `Etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-berlin-2018>`__"
+
 msgid "Numbers should not be used as an indication for competition"
 msgstr "Angka tidak boleh digunakan sebagai indikasi persaingan"
 
 msgid "Objectives"
 msgstr "Objectives (sasaran)"
+
+msgid ""
+"Oct 18: `OpenStack Days Nordic <https://openinfranordics.com/openstack-days-"
+"nordic-2017/>`__ - `Etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-nordic-2017>`__"
+msgstr ""
+"Oct 18: `OpenStack Days Nordic <https://openinfranordics.com/openstack-days-"
+"nordic-2017/>`__ - `Etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-nordic-2017>`__"
+
+msgid ""
+"Oct 9: `OpenStack Days Nordics <http://stockholm.openstacknordic.org/>`__ - "
+"`Etherpad <https://etherpad.openstack.org/p/upstream-institute-"
+"nordics-2018>`__"
+msgstr ""
+"Oct 9: `OpenStack Days Nordics <http://stockholm.openstacknordic.org/>`__ - "
+"`Etherpad <https://etherpad.openstack.org/p/upstream-institute-"
+"nordics-2018>`__"
 
 msgid "October 10 - 11, 2014 (Fri - Sat)"
 msgstr "10-11 Oktober 2014 (Jumat - Sabtu)"
@@ -1870,6 +1960,9 @@ msgstr "OpenInfra Days Nordics"
 
 msgid "OpenInfra Days Vietnam"
 msgstr "OpenInfra Days Vietnam"
+
+msgid "OpenStack Days Tokyo"
+msgstr "OpenStack Days Tokyo"
 
 msgid "OpenStack Documentation"
 msgstr "Dokumentasi OpenStack"
@@ -2146,6 +2239,9 @@ msgstr "Lihat status EOL di: https://releases.openstack.org"
 msgid "See YOU in Stockholm!"
 msgstr "Lihat ANDA di Stockholm!"
 
+msgid "See YOU in Tokyo!"
+msgstr "See YOU in Tokyo!"
+
 msgid "See YOU in Vietnam!"
 msgstr "See YOU in Vietnam!"
 
@@ -2164,6 +2260,13 @@ msgstr "SeongSoo Cho (assistant, mentoring)"
 
 msgid "Seoul, Korea"
 msgstr "Seoul, Korea"
+
+msgid ""
+"Sep 26: OpenStack Days UK 2017 - `Etherpad <https://etherpad.openstack.org/p/"
+"upstream-institute-uk-2017>`__"
+msgstr ""
+"Sep 26: OpenStack Days UK 2017 - `Etherpad <https://etherpad.openstack.org/p/"
+"upstream-institute-uk-2017>`__"
 
 msgid ""
 "Services in DevStack are running as ``systemd`` units named devstack@"
@@ -3064,6 +3167,13 @@ msgstr ""
 "openstack.org/p/upstream-institute-vietnam-2019>`_"
 
 msgid ""
+"`Etherpad for OpenStack Days Tokyo Upstream Institute <https://etherpad."
+"openstack.org/p/upstream-training-cndt-osdt-tokyo-2019>`_"
+msgstr ""
+"`Etherpad for OpenStack Days Tokyo Upstream Institute <https://etherpad."
+"openstack.org/p/upstream-training-cndt-osdt-tokyo-2019>`_"
+
+msgid ""
 "`Etherpad for Upstream Training, Barcelona, 2016 <https://etherpad.openstack."
 "org/p/upstream-training-barcelona>`_"
 msgstr ""
@@ -3141,6 +3251,9 @@ msgstr "`OpenInfra Days Nordics <https://openinfranordics.com/>`_ event site"
 
 msgid "`OpenInfra Days Vietnam <http://day.vietopeninfra.org/>`_ event site"
 msgstr "`OpenInfra Days Vietnam <http://day.vietopeninfra.org/>`_ event site"
+
+msgid "`OpenStack Days Tokyo <https://openstackdays.com/>`_ event site"
+msgstr "`OpenStack Days Tokyo <https://openstackdays.com/>`_ event site"
 
 msgid "`OpenStack Events <howitsmade-events.html>`_"
 msgstr "`OpenStack Events <howitsmade-events.html>`_"
