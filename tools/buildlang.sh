@@ -74,9 +74,9 @@ for locale in `find ${DIRECTORY}/source/locale/ -maxdepth 1 -type d` ; do
         ${DIRECTORY}/source/website ${DIRECTORY}/build/slides/
 
     # move built guide to publish directory
-    mkdir -p publish-docs/${language}/${DOCNAME}/
-    rsync -a ${DIRECTORY}/build/slides/ publish-docs/${language}/${DOCNAME}/
-    echo $MARKER_TEXT > publish-docs/${language}/${DOCNAME}/.root-marker
+    mkdir -p publish-docs/html/${language}/${DOCNAME}/
+    rsync -a ${DIRECTORY}/build/slides/ publish-docs/html/${language}/${DOCNAME}/
+    echo $MARKER_TEXT > publish-docs/html/${language}/${DOCNAME}/.root-marker
 
     # remove newly created files
     git clean -f -q ${DIRECTORY}/source/locale/${language}/LC_MESSAGES/*.po
