@@ -52,7 +52,8 @@ gating jobs.
 
 If you like to run individual tests, run:
 
- * ``tox -e checkbuild`` - to actually build all guides
+ * ``tox -e publishdocs`` - to actually build all guides (used in CI
+   for building and publishing)
  * ``tox -e upstream-slides`` - build the Upstream training
  * ``tox -e training-slides`` - build the Training guides
 
