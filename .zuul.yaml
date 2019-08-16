@@ -8,6 +8,6 @@
     gate:
       jobs:
         - build-tox-manuals-checkbuild
-    post:
+    promote:
       jobs:
-        - publish-openstack-manuals
+        - promote-openstack-manuals
