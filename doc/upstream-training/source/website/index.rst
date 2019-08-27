@@ -73,17 +73,13 @@ and registration.
 +------------+----------+---------+----------+--------------------------------+
 | Date       | Event    | Duration| Location |              Details           |
 +============+==========+=========+==========+================================+
-| July       |OpenStack |  .5 day | Tokyo,   | :ref:`openstack-days-tokyo`    |
-| 23, 2019   |Days      |         | Japan    |             \                  |
-|            |Tokyo     |         |          |                                |
-+------------+----------+---------+----------+--------------------------------+
-| August     |Open Infra|   1 day | Hanoi,   | :ref:`openinfra-days-vietnam`  |
-| 25, 2019   |Days      |         | Vietnam  |             \                  |
-|            |Vietnam   |         |          |                                |
-+------------+----------+---------+----------+--------------------------------+
 | October    |Open Infra|   1 day |Stockholm,|  :ref:`openinfra-days-nordics` |
 | 2, 2019    |Days      |         | Sweden   |             \                  |
 |            |Nordics   |         |          |                                |
++------------+----------+---------+----------+--------------------------------+
+| November 2 |Open Infra| 1.5 day |Shanghai, | :doc:`upstream-training-summit`|
+| -3, 2019   |Summit    |         | China    |             \                  |
+|            |Shanghai  |         |          |                                |
 +------------+----------+---------+----------+--------------------------------+
 
 For Trainees
