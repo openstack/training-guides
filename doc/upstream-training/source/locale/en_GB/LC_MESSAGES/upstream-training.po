@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-15 09:52+0000\n"
+"POT-Creation-Date: 2019-08-28 10:49+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -118,6 +118,9 @@ msgstr ":doc:`upstream-trainers-guide`"
 
 msgid ":doc:`upstream-training-content`"
 msgstr ":doc:`upstream-training-content`"
+
+msgid ":doc:`upstream-training-summit`"
+msgstr ":doc:`upstream-training-summit`"
 
 msgid ""
 "A big thank you to everyone that has made this possible, especially Loic "

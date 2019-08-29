@@ -37,16 +37,15 @@
 # minkuk jo <strike0115@naver.com>, 2018. #zanata
 # yunha Cho <jyh_5530@naver.com>, 2018. #zanata
 # Ian Y. Choi <ianyrchoi@gmail.com>, 2019. #zanata
-# Sungjin Kang <gang.sungjin@gmail.com>, 2019. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-16 16:11+0000\n"
+"POT-Creation-Date: 2019-08-28 10:49+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-08-25 03:00+0000\n"
+"PO-Revision-Date: 2019-08-25 02:56+0000\n"
 "Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko_KR\n"
@@ -55,9 +54,6 @@ msgstr ""
 
 msgid "**Mentors**"
 msgstr "**멘토**"
-
-msgid "**SCHEDULED: Sunday, April 28th(9am to 6pm local time), 2019**"
-msgstr "**일정: 2019년 04월 28일 (오전 09시 ~ 오후 06시, 현지 시간)**"
 
 msgid "**Staff**"
 msgstr "**스태프**"
@@ -70,9 +66,6 @@ msgstr "**2019년 7월 23일, 화요일**"
 
 msgid "**Wednesday, October 2, 2019**"
 msgstr "**2019년 10월 2일, 수요일**"
-
-msgid ".5 day"
-msgstr "0.5일"
 
 msgid "1 day"
 msgstr "1일차"
@@ -181,14 +174,11 @@ msgstr ":doc:`upstream-trainers-guide`"
 msgid ":doc:`upstream-training-content`"
 msgstr ":doc:`upstream-training-content`"
 
+msgid ":doc:`upstream-training-summit`"
+msgstr ":doc:`upstream-training-summit`"
+
 msgid ":ref:`openinfra-days-nordics`"
 msgstr ":ref:`openinfra-days-nordics`"
-
-msgid ":ref:`openinfra-days-vietnam`"
-msgstr ":ref:`openinfra-days-vietnam`"
-
-msgid ":ref:`openstack-days-tokyo`"
-msgstr ":ref:`openstack-days-tokyo`"
 
 msgid ""
 "A big thank you to everyone that has made this possible, especially Loic "
@@ -367,9 +357,6 @@ msgstr "미팅에 참석합니다"
 
 msgid "Attending regular meetings"
 msgstr "정기 미팅에 참석합니다"
-
-msgid "August 25, 2019"
-msgstr "2019년 8월 25일"
 
 msgid "Available metrics"
 msgstr "사용 가능한 지표"
@@ -1172,9 +1159,6 @@ msgstr "그룹 실습"
 msgid "Haikel Guemar (assistant, mentor, french, english)"
 msgstr "Haikel Guemar (조교, 멘터, 프랑스어, 영어)"
 
-msgid "Hanoi, Vietnam"
-msgstr "베트남 하노이"
-
 msgid "Help fix the documentation"
 msgstr "문서 수정을 돕습니다"
 
@@ -1411,9 +1395,6 @@ msgstr ""
 msgid "Julie Pichon (training, mentoring, assistant, english)"
 msgstr "Julie Pichon (교육, 멘토링, 조교, 영어)"
 
-msgid "July 23, 2019"
-msgstr "2019년 7월 23일"
-
 msgid "July 6 - 7, 2016 (Wed - Thu)"
 msgstr "2016년 7월 6 - 7일 (수 - 목)"
 
@@ -1589,15 +1570,6 @@ msgstr "변경사항을 만들고 새로운 패치셋을 푸시합니다"
 
 msgid "Make code changes"
 msgstr "코드 변경사항을 만듭니다"
-
-msgid ""
-"Make sure you `RSVP <https://www.openstack.org/summit/denver-2019/summit-"
-"schedule/events/23607/openstack-upstream-institute-sponsored-by-lenovo-rsvp-"
-"required>`_!"
-msgstr ""
-"`RSVP <https://www.openstack.org/summit/denver-2019/summit-schedule/"
-"events/23607/openstack-upstream-institute-sponsored-by-lenovo-rsvp-"
-"required>`_! 를 확인하세요."
 
 msgid "Make sure you have a wifi enabled laptop with you."
 msgstr "Wifi를 사용할 수 있는 노트북을 가지고 와야 합니다."
@@ -1795,12 +1767,6 @@ msgstr "온라인 의사소통"
 
 msgid "Open Infra Days Nordics"
 msgstr "Open Infra Days Nordics"
-
-msgid "Open Infra Days Vietnam"
-msgstr "Open Infra Days Vietnam"
-
-msgid "Open Infrastructure Summit Denver"
-msgstr "Open Infrastructure Summit Denver"
 
 msgid ""
 "Open an *upstream training* IRC meeting and make consensus from various "
@@ -2446,19 +2412,6 @@ msgstr ""
 msgid "The OpenStack Community in numbers"
 msgstr "숫자로 보는 OpenStack 커뮤니티"
 
-msgid ""
-"The OpenStack Upstream Institute session in Denver is going to be shortened "
-"from its normal one-and-a-half day length to a single day. As a result it "
-"will be essential for all attendees to complete the preparation steps in the "
-"`OpenStack Upstream Institute Trainees' Guide <https://docs.openstack.org/"
-"upstream-training/upstream-trainees-guide.html>`_"
-msgstr ""
-"Denver에서 진행되는 OpenStack Upstream Institute 세션은 보통 진행되었던 1.5일"
-"에서 1일로 줄어들 예정입니다. 따라서 모든 참가자들에게 `OpenStack Upstream "
-"Institute Trainees' Guide <https://docs.openstack.org/upstream-training/"
-"upstream-trainees-guide.html>`_ 에 있는 준비 단계를 완료할 것을 필수적으로 권"
-"장하고 있습니다."
-
 msgid "The data can be collected and analyzed by anyone"
 msgstr "데이터는 누구든지 모으거나 분석할 수 있습니다."
 
@@ -2509,15 +2462,6 @@ msgid ""
 msgstr ""
 "이 훈련은 다른 직무 역할을 가진 참가자들에게 공간을 제공하는 모듈식 구조를 가"
 "지고 있다."
-
-msgid ""
-"The upcoming `Open Infrastructure Summit <https://www.openstack.org/summit/"
-"denver-2019/>`_ will be in Denver in April with a full training running "
-"prior to the event."
-msgstr ""
-"다가오는 `Open Infrastructure Summit <https://www.openstack.org/summit/"
-"denver-2019/>`_ 에서는 이벤트가 진행되기 바로 이전에 전체 트레이닝으로 4월 "
-"Denver에서 열릴 예정입니다."
 
 msgid ""
 "There are unused arguments being passed into a method that is used in "
@@ -3115,13 +3059,6 @@ msgid ""
 msgstr ""
 "`Etherpad for Upstream Training, Vancouver, 2015 <https://etherpad.openstack."
 "org/p/upstream-training-vancouver>`_"
-
-msgid ""
-"`Etherpad for the Denver Upstream Collaboration Training <https://etherpad."
-"openstack.org/p/upstream-institute-denver-2019>`_"
-msgstr ""
-"`Denver Upstream Collaboration Training를 위한 Etherpad <https://etherpad."
-"openstack.org/p/upstream-institute-denver-2019>`_"
 
 msgid ""
 "`Installation Tutorial (Ocata) <https://docs.openstack.org/project-install-"
