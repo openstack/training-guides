@@ -34,16 +34,8 @@ the course, etc.
    We will introduce ourselves first and then turn it over to them
    to talk to each other at their tables.
 
-Jump on IRC and etherpad
-========================
-
-- Join the #openstack-dev channel
-
-  - Ask questions during the class
-  - Use it for exercises
-  - Use your IRC client or Web IRC:
-
-    `Connect to freenode IRC <https://webchat.freenode.net/?channels=openstack-dev>`_
+Jump on etherpad
+================
 
 - Open the `training etherpad <https://etherpad.openstack.org/p/upstream-institute-berlin-2018>`_
   for team work
