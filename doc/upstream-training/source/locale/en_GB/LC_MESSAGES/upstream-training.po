@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-28 10:49+0000\n"
+"POT-Creation-Date: 2019-10-02 14:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -255,9 +255,6 @@ msgstr "Ask a mentor to break the *tested* code of one test case"
 
 msgid "Ask how you can help the project"
 msgstr "Ask how you can help the project"
-
-msgid "Ask questions during the class"
-msgstr "Ask questions during the class"
 
 msgid "Ask questions in the channel or send direct messages"
 msgstr "Ask questions in the channel or send direct messages"
@@ -1262,9 +1259,6 @@ msgstr "Jieun Kim (assistant)"
 msgid "Jirayut Nimsaeng- Kaidee"
 msgstr "Jirayut Nimsaeng- Kaidee"
 
-msgid "Join the #openstack-dev channel"
-msgstr "Join the #openstack-dev channel"
-
 msgid "Join the IRC channel of the class and participate during the training"
 msgstr "Join the IRC channel of the class and participate during the training"
 
@@ -1285,9 +1279,6 @@ msgstr "July 6 - 7, 2016 (Wed - Thu)"
 
 msgid "July 9 - 10, 2015 (Thu - Fri)"
 msgstr "July 9 - 10, 2015 (Thu - Fri)"
-
-msgid "Jump on IRC and etherpad"
-msgstr "Jump on IRC and Etherpad"
 
 msgid "Jungsu Han (assistant, mentoring)"
 msgstr "Jungsu Han (assistant, mentoring)"
@@ -2477,9 +2468,6 @@ msgstr ""
 msgid "Use every opportunity to receive feedback, for example:"
 msgstr "Use every opportunity to receive feedback, for example:"
 
-msgid "Use it for exercises"
-msgstr "Use it for exercises"
-
 msgid ""
 "Use round tables if available as opposed to traditional classroom style setup"
 msgstr ""
@@ -2489,9 +2477,6 @@ msgid ""
 "Use the ``journalctl`` command to view output from your favorite service"
 msgstr ""
 "Use the ``journalctl`` command to view output from your favourite service"
-
-msgid "Use your IRC client or Web IRC:"
-msgstr "Use your IRC client or Web IRC:"
 
 msgid "Used as"
 msgstr "Used as"
@@ -2780,13 +2765,6 @@ msgstr "`Complete index in slide format only <slide-index.html>`_"
 
 msgid "`Configuring Gerrit <workflow-configuring-gerrit.html>`_"
 msgstr "`Configuring Gerrit <workflow-configuring-gerrit.html>`_"
-
-msgid ""
-"`Connect to freenode IRC <https://webchat.freenode.net/?channels=openstack-"
-"dev>`_"
-msgstr ""
-"`Connect to freenode IRC <https://webchat.freenode.net/?channels=openstack-"
-"dev>`_"
 
 msgid "`Demo environment <code-devstack.html>`_"
 msgstr "`Demo environment <code-devstack.html>`_"

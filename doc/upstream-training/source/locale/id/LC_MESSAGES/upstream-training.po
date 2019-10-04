@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-29 11:27+0000\n"
+"POT-Creation-Date: 2019-10-02 14:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-09-03 04:02+0000\n"
+"PO-Revision-Date: 2019-10-03 01:59+0000\n"
 "Last-Translator: suhartono <cloudsuhartono@gmail.com>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -314,9 +314,6 @@ msgstr "Meminta mentor untuk memecahkan kode *tested* untuk satu batu ujian"
 
 msgid "Ask how you can help the project"
 msgstr "Tanyakan bagaimana Anda dapat membantu proyek ini"
-
-msgid "Ask questions during the class"
-msgstr "Mengajukan pertanyaan selama kelas"
 
 msgid "Ask questions in the channel or send direct messages"
 msgstr "Mengajukan pertanyaan di channel atau mengirim pesan langsung"
@@ -1405,9 +1402,6 @@ msgstr "Jieun Kim (assistant)"
 msgid "Jirayut Nimsaeng- Kaidee"
 msgstr "Jirayut Nimsaeng- Kaidee"
 
-msgid "Join the #openstack-dev channel"
-msgstr "Bergabunglah dengan saluran #openstack-dev"
-
 msgid "Join the IRC channel of the class and participate during the training"
 msgstr "Bergabunglah dengan saluran IRC di kelas dan ikuti selama pelatihan"
 
@@ -1436,8 +1430,8 @@ msgstr "July 6 - 7, 2016 (Wed - Thu)"
 msgid "July 9 - 10, 2015 (Thu - Fri)"
 msgstr "July 9 - 10, 2015 (Thu - Fri)"
 
-msgid "Jump on IRC and etherpad"
-msgstr "Langsung ke IRC dan etherpad"
+msgid "Jump on etherpad"
+msgstr "Lompat di etherpad"
 
 msgid ""
 "Jun 11-12: `OpenStack Days Poland <http://www.openstackday.pl/>`__ - "
@@ -2775,9 +2769,6 @@ msgstr ""
 msgid "Use every opportunity to receive feedback, for example:"
 msgstr "Gunakan setiap kesempatan untuk menerima umpan balik, misalnya:"
 
-msgid "Use it for exercises"
-msgstr "Menggunakannya untuk latihan"
-
 msgid ""
 "Use round tables if available as opposed to traditional classroom style setup"
 msgstr ""
@@ -2789,9 +2780,6 @@ msgid ""
 msgstr ""
 "Gunakan perintah ``journalctl`` untuk melihat output dari layanan favorit "
 "Anda"
-
-msgid "Use your IRC client or Web IRC:"
-msgstr "Menggunakan klien IRC atau Web IRC:"
 
 msgid "Used as"
 msgstr "Digunakan sebagai"
@@ -3089,13 +3077,6 @@ msgstr "`Complete index in slide format only <slide-index.html>`_"
 
 msgid "`Configuring Gerrit <workflow-configuring-gerrit.html>`_"
 msgstr "`Configuring Gerrit <workflow-configuring-gerrit.html>`_"
-
-msgid ""
-"`Connect to freenode IRC <https://webchat.freenode.net/?channels=openstack-"
-"dev>`_"
-msgstr ""
-"`Connect to freenode IRC <https://webchat.freenode.net/?channels=openstack-"
-"dev>`_"
 
 msgid "`Demo environment <code-devstack.html>`_"
 msgstr "`Demo environment <code-devstack.html>`_"

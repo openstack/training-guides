@@ -41,7 +41,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-28 10:49+0000\n"
+"POT-Creation-Date: 2019-10-02 14:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -332,9 +332,6 @@ msgstr ""
 
 msgid "Ask how you can help the project"
 msgstr "당신이 어떻게 프로젝트를 도울 수 있는지 물어보세요"
-
-msgid "Ask questions during the class"
-msgstr "수업 중 질문을 합니다"
 
 msgid "Ask questions in the channel or send direct messages"
 msgstr "채널에서 질문하거나 직접 메시지를 보냅니다"
@@ -1370,9 +1367,6 @@ msgstr "Jieun Kim (조교)"
 msgid "Jirayut Nimsaeng- Kaidee"
 msgstr "Jirayut Nimsaeng- Kaidee"
 
-msgid "Join the #openstack-dev channel"
-msgstr "#openstack-dev channel에 참여하기"
-
 msgid "Join the IRC channel of the class and participate during the training"
 msgstr "수업의 IRC 채널에 참가하여 트레이닝 동안 참여합니다."
 
@@ -1400,9 +1394,6 @@ msgstr "2016년 7월 6 - 7일 (수 - 목)"
 
 msgid "July 9 - 10, 2015 (Thu - Fri)"
 msgstr "2015년 7월 9 - 10일 (목 - 금)"
-
-msgid "Jump on IRC and etherpad"
-msgstr "IRC와 이더패드로 넘어가기"
 
 msgid ""
 "Jun 11-12: `OpenStack Days Poland <http://www.openstackday.pl/>`__ - "
@@ -2668,9 +2659,6 @@ msgstr ""
 msgid "Use every opportunity to receive feedback, for example:"
 msgstr "모든 기회를 이용하여 피드백을 받습니다.  예를 들면"
 
-msgid "Use it for exercises"
-msgstr "실습으로 사용해 봅니다"
-
 msgid ""
 "Use round tables if available as opposed to traditional classroom style setup"
 msgstr "기존 강의실 스타일 설정과 달리 가능한 경우 원형 테이블 사용"
@@ -2679,9 +2667,6 @@ msgid ""
 "Use the ``journalctl`` command to view output from your favorite service"
 msgstr ""
 "``journalctl`` 명령어를 사용하여 선호하는 서비스에 대한 출력을 살펴봅니다"
-
-msgid "Use your IRC client or Web IRC:"
-msgstr "IRC 클라이언트 또는 Web IRC를 사용합니다:"
 
 msgid "Used as"
 msgstr "다음의 경우 사용합니다"
@@ -2961,13 +2946,6 @@ msgstr "`슬라이드 포맷만을 위한 전체 색인 <slide-index.html>`_"
 
 msgid "`Configuring Gerrit <workflow-configuring-gerrit.html>`_"
 msgstr "`Gerrit 구성 <workflow-configuring-gerrit.html>`_"
-
-msgid ""
-"`Connect to freenode IRC <https://webchat.freenode.net/?channels=openstack-"
-"dev>`_"
-msgstr ""
-"`Connect to freenode IRC <https://webchat.freenode.net/?channels=openstack-"
-"dev>`_"
 
 msgid "`Demo environment <code-devstack.html>`_"
 msgstr "`데모 환경 <code-devstack.html>`_"

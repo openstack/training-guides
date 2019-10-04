@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-24 00:16+0000\n"
+"POT-Creation-Date: 2019-10-02 14:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -135,9 +135,6 @@ msgstr "これまでの Upstream Training"
 msgid "Ask a mentor to break the *tested* code of one test case"
 msgstr ""
 "どれかテストコードの「テスト済み」コードを壊すようメンターにお願いします"
-
-msgid "Ask questions during the class"
-msgstr "トレーニング中の質問に使います"
 
 msgid "At the end of the four sprints, ensure you take a group photo!"
 msgstr "4回のスプリントが終わったら、グループ写真を撮ることを忘れずに !"
@@ -1141,12 +1138,6 @@ msgstr ""
 
 msgid "Use \"Implements: [blueprint name]\" in commit messages"
 msgstr "コミットメッセージに \"Implements: [blueprint name]\" を使用します"
-
-msgid "Use it for exercises"
-msgstr "このチャンネルを練習に使ってください"
-
-msgid "Use your IRC client or Web IRC:"
-msgstr "お使いの IRC クライアントか Web IRC を使用します"
 
 msgid "Used as"
 msgstr "以下に使用される"

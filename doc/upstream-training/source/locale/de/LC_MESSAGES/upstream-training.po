@@ -3,7 +3,6 @@
 # Frank Kloeker <eumel@arcor.de>, 2017. #zanata
 # Alexander Loew <alexander.loew@innovo-cloud.de>, 2018. #zanata
 # Andreas Jaeger <jaegerandi@gmail.com>, 2018. #zanata
-# Reik Keutterling <spielkind@gmail.com>, 2018. #zanata
 # Robert Simai <robert.simai@suse.com>, 2018. #zanata
 # Andreas Jaeger <jaegerandi@gmail.com>, 2019. #zanata
 # Frank Kloeker <eumel@arcor.de>, 2019. #zanata
@@ -11,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-28 10:49+0000\n"
+"POT-Creation-Date: 2019-10-02 14:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -288,9 +287,6 @@ msgstr ""
 
 msgid "Ask how you can help the project"
 msgstr "Fragen Sie, wie Sie das Projekt unterstützen können"
-
-msgid "Ask questions during the class"
-msgstr "Stellen Sie Fragen in der Klasse"
 
 msgid "Ask questions in the channel or send direct messages"
 msgstr "Fragen im Kanal stellen oder direkte Nachrichten senden"
@@ -1395,9 +1391,6 @@ msgstr "Jieun Kim (Assistent)"
 msgid "Jirayut Nimsaeng- Kaidee"
 msgstr "Jirayut Nimsaeng - Kaidee"
 
-msgid "Join the #openstack-dev channel"
-msgstr "Komm in den #openstack-dev channel"
-
 msgid "Join the IRC channel of the class and participate during the training"
 msgstr ""
 "Betreten Sie den IRC-Kanal der Klasse und nehmen Sie während des Trainings "
@@ -1420,9 +1413,6 @@ msgstr "Juli 6 - 7, 2016 (Mi - Do)"
 
 msgid "July 9 - 10, 2015 (Thu - Fri)"
 msgstr "Juli 9 - 10, 2015 (Do - Fr)"
-
-msgid "Jump on IRC and etherpad"
-msgstr "Ab in den IRC und ins Etherpad"
 
 msgid "Jungsu Han (assistant, mentoring)"
 msgstr "Jungsu Han (Assistent, Mentoring)"
@@ -2678,9 +2668,6 @@ msgstr ""
 msgid "Use every opportunity to receive feedback, for example:"
 msgstr "Verwenden Sie jede Gelegenheit, um Feedback zu erhalten, zum Beispiel:"
 
-msgid "Use it for exercises"
-msgstr "Verwenden Sie es für Übungen"
-
 msgid ""
 "Use round tables if available as opposed to traditional classroom style setup"
 msgstr ""
@@ -2692,9 +2679,6 @@ msgid ""
 msgstr ""
 "Verwenden Sie den ``journalctl`` Befehl, um die Ausgabe von Ihrem "
 "Lieblingsservice anzuzeigen"
-
-msgid "Use your IRC client or Web IRC:"
-msgstr "Verwenden Sie Ihren IRC-Client oder Web-IRC:"
 
 msgid "Used as"
 msgstr "Benutzt als"
@@ -2997,13 +2981,6 @@ msgstr "`Vollständiger Index im Folienformat nur <slide-index.html> `_"
 
 msgid "`Configuring Gerrit <workflow-configuring-gerrit.html>`_"
 msgstr "`Gerrit konfigurieren  <workflow-configuring-gerrit.html>`_"
-
-msgid ""
-"`Connect to freenode IRC <https://webchat.freenode.net/?channels=openstack-"
-"dev>`_"
-msgstr ""
-"`Verbinden zu Freenode IRC <https://webchat.freenode.net/?channels=openstack-"
-"dev>`_"
 
 msgid "`Demo environment <code-devstack.html>`_"
 msgstr "`Demo-Umgebung <code-devstack.html> `_"
