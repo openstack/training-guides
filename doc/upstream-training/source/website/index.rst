@@ -73,9 +73,9 @@ and registration.
 +------------+----------+---------+----------+--------------------------------+
 | Date       | Event    | Duration| Location |              Details           |
 +============+==========+=========+==========+================================+
-| October    |Open Infra|   1 day |Stockholm,|  :ref:`openinfra-days-nordics` |
-| 2, 2019    |Days      |         | Sweden   |             \                  |
-|            |Nordics   |         |          |                                |
+| October    |Upstream  |   1 day |Bangalore,|  :ref:`upstream-training-day`  |
+| 18, 2019   |Training  |         | India    |             \                  |
+|            |Day       |         |          |                                |
 +------------+----------+---------+----------+--------------------------------+
 | November 2 |Open Infra| 1.5 day |Shanghai, | :doc:`upstream-training-summit`|
 | -3, 2019   |Summit    |         | China    |             \                  |

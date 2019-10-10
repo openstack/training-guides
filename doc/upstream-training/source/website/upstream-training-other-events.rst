@@ -43,3 +43,18 @@ OpenInfra Days Nordics
 <https://etherpad.openstack.org/p/upstream-institute-nordics-2019>`_
 
 See YOU in Stockholm!
+
+.. _upstream-training-day:
+
+OpenStack Upstream Training Day Bangalore
+-----------------------------------------
+
+`OpenStack Upstream Training Day <https://www.meetup.com/Indian-OpenStack-User-Group/events/265173622/>`_
+event site
+
+**Friday, October 18, 2019**
+
+`Etherpad for OpenStack Upstream Training Day Bangalore
+<https://etherpad.openstack.org/p/upstream-institute-india-2019>`_
+
+See YOU in Bangalore!
