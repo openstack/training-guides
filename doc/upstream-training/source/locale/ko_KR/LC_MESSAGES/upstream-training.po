@@ -41,7 +41,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-07 14:49+0000\n"
+"POT-Creation-Date: 2019-10-10 21:43+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -186,9 +186,6 @@ msgstr ":doc:`upstream-training-content`"
 
 msgid ":doc:`upstream-training-summit`"
 msgstr ":doc:`upstream-training-summit`"
-
-msgid ":ref:`openinfra-days-nordics`"
-msgstr ":ref:`openinfra-days-nordics`"
 
 msgid ""
 "A big thank you to everyone that has made this possible, especially Loic "
@@ -1744,9 +1741,6 @@ msgstr ""
 msgid "October 10 - 11, 2014 (Fri - Sat)"
 msgstr "2014년 10월 10 - 11일 (금 - 토)"
 
-msgid "October 2, 2019"
-msgstr "2019년 10월 2일"
-
 msgid ""
 "Once the students are separated into their new roles, and have an "
 "understanding of the project, begin the timer for the first sprint. During "
@@ -1783,9 +1777,6 @@ msgstr ""
 
 msgid "Online Communication"
 msgstr "온라인 의사소통"
-
-msgid "Open Infra Days Nordics"
-msgstr "Open Infra Days Nordics"
 
 msgid "Open Infra Summit Shanghai"
 msgstr "Open Infra Summit Shanghai"
@@ -2329,9 +2320,6 @@ msgstr "Stefano Maffulli (교육, 멘토링, 조교, 영어)"
 msgid "Stephan Ahn (training, assistant, mentoring)"
 msgstr "Stephan Ahn (교육, 조교, 멘토링)"
 
-msgid "Stockholm,"
-msgstr "스톡홀름,"
-
 msgid ""
 "Students can use a different editor instead of nano with their own "
 "preferences (e.g. vi, emacs, or whatever they want)."
@@ -2360,9 +2348,6 @@ msgstr "Sungjin Kang (교육, 조교, 멘토링)"
 
 msgid "Swami Redydy (mentoring, assistant)"
 msgstr "Swami Redydy (멘토링, 조교)"
-
-msgid "Sweden"
-msgstr "스웨덴"
 
 msgid "Syed Armani (training, mentoring, assistant, english)"
 msgstr "Syed Armani (교육, 멘토링, 조교, 영어)"

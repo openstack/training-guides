@@ -6,16 +6,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-02 14:06+0000\n"
+"POT-Creation-Date: 2019-10-10 21:43+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-10-03 01:59+0000\n"
+"PO-Revision-Date: 2019-10-12 06:25+0000\n"
 "Last-Translator: suhartono <cloudsuhartono@gmail.com>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
 "X-Generator: Zanata 4.3.3\n"
 "Plural-Forms: nplurals=1; plural=0\n"
+
+msgid "**Friday, October 18, 2019**"
+msgstr "**Friday, October 18, 2019**"
 
 msgid "**Mentors**"
 msgstr "**Mentors**"
@@ -151,8 +154,8 @@ msgstr ":doc:`upstream-training-content`"
 msgid ":doc:`upstream-training-summit`"
 msgstr ":doc:`upstream-training-summit`"
 
-msgid ":ref:`openinfra-days-nordics`"
-msgstr ":ref:`openinfra-days-nordics`"
+msgid ":ref:`upstream-training-day`"
+msgstr ":ref:`upstream-training-day`"
 
 msgid ""
 "A big thank you to everyone that has made this possible, especially Loic "
@@ -339,6 +342,9 @@ msgstr "Menghadiri pertemuan rutin"
 
 msgid "Available metrics"
 msgstr "Metrik yang tersedia"
+
+msgid "Bangalore,"
+msgstr "Bangalore,"
 
 msgid ""
 "Be able to identify and start a task (bug fix, feature design and "
@@ -1346,6 +1352,9 @@ msgstr "Insentif partisipasi"
 msgid "Incompatible config file changes"
 msgstr "Perubahan file konfigurasi tidak kompatibel"
 
+msgid "India"
+msgstr "India"
+
 msgid "Infrastructure"
 msgstr "Infrastruktur"
 
@@ -1773,8 +1782,8 @@ msgstr ""
 msgid "October 10 - 11, 2014 (Fri - Sat)"
 msgstr "10-11 Oktober 2014 (Jumat - Sabtu)"
 
-msgid "October 2, 2019"
-msgstr "October 2, 2019"
+msgid "October 18, 2019"
+msgstr "18 Oktober 2019"
 
 msgid ""
 "Once the students are separated into their new roles, and have an "
@@ -1815,9 +1824,6 @@ msgstr ""
 
 msgid "Online Communication"
 msgstr "Komunikasi secara online"
-
-msgid "Open Infra Days Nordics"
-msgstr "Open Infra Days Nordics"
 
 msgid "Open Infra Summit Shanghai"
 msgstr "Open Infra Summit Shanghai"
@@ -1990,6 +1996,9 @@ msgstr "OpenStack Upstream Training (pelatihanOpen Stack Upstream)"
 
 msgid "OpenStack Upstream Training Archives"
 msgstr "OpenStack Upstream Training Archives (arsip pelatihan hulu OpenStack)"
+
+msgid "OpenStack Upstream Training Day Bangalore"
+msgstr "OpenStack Upstream Training Day Bangalore"
 
 msgid "OpenStack Upstream Training Introductions"
 msgstr "Pengenalan pelatihan hulu OpenStack"
@@ -2227,6 +2236,9 @@ msgstr ""
 msgid "See EOL status at: https://releases.openstack.org"
 msgstr "Lihat status EOL di: https://releases.openstack.org"
 
+msgid "See YOU in Bangalore!"
+msgstr "Sampai jumpa ANDA di Bangalore!"
+
 msgid "See YOU in Stockholm!"
 msgstr "Lihat ANDA di Stockholm!"
 
@@ -2377,9 +2389,6 @@ msgstr "Stefano Maffulli (training, mentoring, assistant, english)"
 msgid "Stephan Ahn (training, assistant, mentoring)"
 msgstr "Stephan Ahn (training, assistant, mentoring)"
 
-msgid "Stockholm,"
-msgstr "Stockholm,"
-
 msgid ""
 "Students can use a different editor instead of nano with their own "
 "preferences (e.g. vi, emacs, or whatever they want)."
@@ -2408,9 +2417,6 @@ msgstr "Sungjin Kang (training, assistant, mentoring)"
 
 msgid "Swami Redydy (mentoring, assistant)"
 msgstr "Swami Redydy (mentoring, assistant)"
-
-msgid "Sweden"
-msgstr "Sweden"
 
 msgid "Syed Armani (training, mentoring, assistant, english)"
 msgstr "Syed Armani (training, mentoring, assistant, english)"
@@ -2735,6 +2741,9 @@ msgstr "Memperbarui dan menambahkan tes (unit, fungsional, dll)"
 
 msgid "Upstream Institute Training Other Events"
 msgstr "Upstream Institute Training Other Events"
+
+msgid "Upstream Training Day"
+msgstr "Upstream Training Day"
 
 msgid "Upstream Training in Japan"
 msgstr "Upstream Training in Japan (pelatihan hulu di Jepang)"
@@ -3142,6 +3151,13 @@ msgstr ""
 "openstack.org/p/upstream-training-cndt-osdt-tokyo-2019>`_"
 
 msgid ""
+"`Etherpad for OpenStack Upstream Training Day Bangalore <https://etherpad."
+"openstack.org/p/upstream-institute-india-2019>`_"
+msgstr ""
+"`Etherpad for OpenStack Upstream Training Day Bangalore <https://etherpad."
+"openstack.org/p/upstream-institute-india-2019>`_"
+
+msgid ""
 "`Etherpad for Upstream Training, Barcelona, 2016 <https://etherpad.openstack."
 "org/p/upstream-training-barcelona>`_"
 msgstr ""
@@ -3228,6 +3244,13 @@ msgstr "`OpenStack Events <howitsmade-events.html>`_"
 
 msgid "`OpenStack Governance <howitsmade-governance.html>`_"
 msgstr "`OpenStack Governance <howitsmade-governance.html>`_"
+
+msgid ""
+"`OpenStack Upstream Training Day <https://www.meetup.com/Indian-OpenStack-"
+"User-Group/events/265173622/>`_ event site"
+msgstr ""
+"`OpenStack Upstream Training Day <https://www.meetup.com/Indian-OpenStack-"
+"User-Group/events/265173622/>`_ event site"
 
 msgid ""
 "`OpenStack Upstream Training in Atlanta A Big Success <https://www.openstack."
