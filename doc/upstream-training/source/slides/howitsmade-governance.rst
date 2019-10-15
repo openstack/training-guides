@@ -24,7 +24,7 @@ Exercise 1
 Exercise 2
 ===========
 
-- Find the latest election results for the TC and UC.
+- Find the current members of the TC and UC
 - Which members of these groups will be up for reelection during the
   next round?
 
@@ -33,6 +33,8 @@ Exercise 3
 ==========
 
 - What is the difference between ATC, AUC, and APC?
+- Why do we care about APC status?
+- Name one activity you can do to get AUC status
 
 Exercise 4
 ==========
