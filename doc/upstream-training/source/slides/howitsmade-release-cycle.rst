@@ -19,38 +19,32 @@ Learning Exercise
 Exercise 1
 ==========
 
-- Look up the release schedule for the current and past two OpenStack
-  release cycles & share links
-- Identify common characteristics of these cycles
+- How many release models are there?
+- Which two models are most OpenStack projects following?
 
 Exercise 2
 ==========
 
-- How many release models are there?
-- Describe and contrast them
+- How long are OpenStack releases 'Maintained' by the community?
+- What action is done on 'Maintained' branches but not branches that are
+  in 'Extended Maintenance'?
 
 Exercise 3
 ==========
 
-- How many OpenStack releases are currently maintained by the community?
-- Post the information on the IRC channel
+- Look up the release schedule for the current active and previous OpenStack
+  release cycles and share the link in the etherpad
+- What are the focuses for the three milestones?
 
 Exercise 4
 ==========
 
-- Find some of the feature proposal freeze deadlines in the current release
-  schedule
-- Compare the deadlines between two different project teams and discuss the
-  differences with your group
-- Why are there different dates for some teams?
+- Compare the different deadlines for different project activities that
+  are on the release schedules
+- Why are there different dates for some teams and no dates
+  for others?
 
 Exercise 5
-==========
-
-- What are some of the different freeze dates for different activities
-  in the release?
-
-Exercise 6
 ==========
 
 - Find the release week for the current release
