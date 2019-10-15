@@ -19,10 +19,9 @@ Learning Exercise
 Exercise 1
 ==========
 
-- Look up an OpenStack Days event close to where you live that you would be
-  interested in attending
-- In case there are no events planned, how about organizing one in your area?
-
+- Look up an OpenStack (or OpenInfra) Days event close to where you
+  live that you would be interested in attending
+- If there are no events planned, is there a meetup group?
 
 Exercise 2
 ==========
