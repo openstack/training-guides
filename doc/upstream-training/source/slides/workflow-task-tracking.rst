@@ -23,6 +23,9 @@ Create and submit a bug to our sandbox repository. Include at
 least one tag when creating your bug. Once it has been created,
 assign it to yourself.
 
+*You will use this later when we practice writing commit messages
+and pushing patches to the sandbox repo so make it interesting!*
+
 https://bugs.launchpad.net/openstack-dev-sandbox/+filebug
 
 Exercise 2
@@ -30,6 +33,10 @@ Exercise 2
 
 Create and register a blueprint against the sandbox repository.
 Include a description and assign yourself.
+
+*You will use this later when we practice writing commit messages
+and pushing patches to the sandbox repo so make it interesting!*
+
 
 https://blueprints.launchpad.net/openstack-dev-sandbox
 
@@ -39,16 +46,18 @@ Exercise 3
 Go post comments on a bug or add some ideas on a blueprint's whiteboard
 that was created by someone in your group.
 
-Examples: You can ask a question about the issue
-or proposed feature. You can confirm the issue and update its
-status to triaged.
+Examples: You can ask a question about the issue or proposed feature.
+You can confirm the issue and update its status to triaged.
 
 Exercise 4
 ==========
 
 Create a board with at least two worklists (one manual and one automatic)
-for organizing tasks you are going to create. For the automatic worklist,
-give at least two criteria for the items that will go into the worklist.
+for organizing stories you are going to create in the next exercise.
+
+For the automatic worklist, give at least two criteria for the items that
+will go into the worklist. These criteria can be matching a project-group,
+story tag, etc.
 
 https://storyboard-dev.openstack.org/#!/dashboard/
 
@@ -57,11 +66,14 @@ Exercise 5
 
 Create three stories for your worklists. At least one of them should
 meet the criteria that enables it to appear in your automatic worklist.
-Each story must have a minimum of two tasks that are named differently
-than the story name.
+Each story must have a task that is named differently than the story
+name.
+
+*You will use these later when we practice writing commit messages
+and pushing patches to the sandbox repo so make them interesting!*
 
 Exercise 6
 ==========
 
-Share your board with your group. Assign yourself to three tasks on
+Share your board with your group. Assign yourself to two tasks on
 other people's stories. Comment on one story.
