@@ -18,9 +18,10 @@ Learning Exercise
 Exercise 1
 ==========
 
-What else can you do with a OpenStack Foundation membership?
+What can individual Foundation members do that community members can't?
 
 Exercise 2
 ==========
 
-What can individual Foundation members do that community members can't?
+What else can you do with an OpenStack Foundation membership?
+
