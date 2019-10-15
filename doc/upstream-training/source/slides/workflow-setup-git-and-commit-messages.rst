@@ -26,33 +26,27 @@ Exercise 1
 Exercise 2
 ==========
 
-Write a summary line for each of the following scenarios:
+Write a summary line for each bug, blueprint, and story you created
+during our task tracking exercises.
 
-- Someone left a print statement that was used for testing during
-  development that is being added to the logs
-- There are unused arguments being passed into a method that is
-  used in several different files
-
-Share both in our IRC channel.
+Share them in our IRC channel.
 
 Exercise 3
 ==========
 
-Write a commit message body to expand on each of the following summary
-lines. Feel free to make up details to make the context more realistic.
-Share your favorite in IRC.
+Write a commit message body to expand on two of the  summary
+lines you just wrote. Feel free to make up details to make the
+context more realistic.
 
-- Minimize database queries
-- Added unit tests to cover untested methods
+Share them  in IRC.
 
 
 Exercise 4
 ==========
 
-Write a commit message for the bug you created during our earlier
-exercise. Include a summary line, body, and the required exernal references
-along with any optional external references you think it may benefit from.
+Put the pieces together and finish your commit message! Make sure to include
+the summary line, body, and the required external references along with any
+optional external references you think it may benefit from.
 
-
-Share the commit message with one or two people at your table. Give them
+Share the commit message with someone sitting next to you. Give them
 feedback on their commit messages.
