@@ -23,9 +23,8 @@ Learning Exercise
 Exercise 1
 ==========
 
+* Where can you find a list of all of the OpenStack IRC channels?
 * Join the channel of the project(s) you are interested in
-* Find the logs from the most recent meeting
-* Who spoke the most during that meeting?
 
 Exercise 2
 ==========
@@ -38,5 +37,5 @@ Exercise 2
 Exercise 3
 ==========
 
-* Where can you find a list of all of the OpenStack irc channels?
-
+* Find the logs from the most recent meeting
+* Who spoke the most during that meeting?
