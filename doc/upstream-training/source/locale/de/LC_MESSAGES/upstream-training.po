@@ -1,4 +1,3 @@
-# Robert Simai <robert.simai@suse.com>, 2016. #zanata
 # Adriano Perri <adriano.perri@telekom.de>, 2017. #zanata
 # Frank Kloeker <eumel@arcor.de>, 2017. #zanata
 # Alexander Loew <alexander.loew@innovo-cloud.de>, 2018. #zanata
@@ -10,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-10 21:43+0000\n"
+"POT-Creation-Date: 2019-10-17 17:44+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -187,9 +186,6 @@ msgid ""
 msgstr ""
 "Fügen Sie Ihren Namen und Ihre E-Mail-Adresse (und Ihr IRC Nick falls Sie "
 "schon eins haben) dem Trainingsetherpad hinzu"
-
-msgid "Added unit tests to cover untested methods"
-msgstr "Hinzufügen von Unit-Tests, um nicht getestete Methoden zu checken"
 
 msgid "Adrien Cunin (mentoring, assistant, french, english)"
 msgstr "Adrien Cunin (Mentoring, Assistent, Französisch, Englisch)"
@@ -486,13 +482,6 @@ msgstr ""
 "Firmen: große industrielle Einheiten wie Einkaufszentrum, Tiefgarage, "
 "Kraftwerk, Rechenzentrum oder Krankenhaus."
 
-msgid ""
-"Compare the deadlines between two different project teams and discuss the "
-"differences with your group"
-msgstr ""
-"Vergleichen Sie die Fristen zwischen zwei verschiedenen Projektteams und "
-"diskutieren Sie die Unterschiede zu Ihrer Gruppe"
-
 msgid "Complete content of Upstream Institute Training can be seen here:"
 msgstr "Vollständige Inhalte von Upstream Institute Training finden Sie hier:"
 
@@ -559,16 +548,6 @@ msgstr ""
 "Erstellen Sie ein Blueprint auf der Grundlage von konkreten Aktivitäten, "
 "Zeiten und andere Details, die Ihre Gruppe für angebracht hält."
 
-msgid ""
-"Create a board with at least two worklists (one manual and one automatic) "
-"for organizing tasks you are going to create. For the automatic worklist, "
-"give at least two criteria for the items that will go into the worklist."
-msgstr ""
-"Erstellen Sie ein Board mit mindestens zwei Arbeitslisten (eine manuelle und "
-"eine automatische), um die zu erstellenden Aufgaben zu organisieren. Geben "
-"Sie für die automatischen Arbeitsliste mindestens zwei Kriterien für die "
-"Elemente an, die in die Arbeitsliste aufgenommen werden."
-
 msgid "Create a draft .rst file with an outline for the itinerary."
 msgstr ""
 "Erstellen Sie eine Entwürfe .rst-Datei mit einem Umriss für die Reiseroute."
@@ -601,17 +580,6 @@ msgstr ""
 "Erstellen und senden Sie einen Bug zu unserem Sandbox-Repository. Fügen Sie "
 "mindestens ein Tag bei der Erstellung Ihres Bugs ein. Sobald es erstellt "
 "wurde, ordnen Sie es sich selbst zu."
-
-msgid ""
-"Create three stories for your worklists. At least one of them should meet "
-"the criteria that enables it to appear in your automatic worklist. Each "
-"story must have a minimum of two tasks that are named differently than the "
-"story name."
-msgstr ""
-"Erstellen Sie drei Storys für Ihre Arbeitsliste. Mindestens einer von ihnen "
-"sollte die Kriterien erfüllen, die es ermöglichen, in Ihrem automatischen "
-"Arbeitsliste zu erscheinen. Jede Story muss mindestens zwei Aufgaben haben, "
-"die anders benannt sind als der Name der Story."
 
 msgid "Create your commit and push upstream for review"
 msgstr "Erstellen Sie Ihr Commit und drücken Sie upstreams für den Revew"
@@ -663,9 +631,6 @@ msgstr ""
 
 msgid "Demo environment"
 msgstr "Demo-Umgebung"
-
-msgid "Describe and contrast them"
-msgstr "Beschreibe und unterscheide diese"
 
 msgid "Description"
 msgstr "Beschreibung"
@@ -961,12 +926,6 @@ msgstr ""
 "Finden Sie heraus, was die Änderung ist, indem Sie den Test durchführen und "
 "die Testausgabe analysieren"
 
-msgid ""
-"Find some of the feature proposal freeze deadlines in the current release "
-"schedule"
-msgstr ""
-"Finde einige der Fristen für Funktionsvorschläge im aktuellen Releaseplan"
-
 msgid "Find the current members of the Board of Directors"
 msgstr "Finden Sie die aktuellen Mitglieder des Board of Directors"
 
@@ -974,9 +933,6 @@ msgid "Find the information that can be retrieved for each patch in a pipeline"
 msgstr ""
 "Finden Sie die Informationen, die für jeden Patch in einer Pipeline "
 "abgerufen werden können"
-
-msgid "Find the latest election results for the TC and UC."
-msgstr "Finde die letzten Wahlergebnisse zu TC und UC."
 
 msgid "Find the logs from the most recent meeting"
 msgstr "Finden Sie die Logs des letzten Meetings"
@@ -1182,10 +1138,6 @@ msgstr ""
 msgid "How do you initialize your local repo with git review?"
 msgstr "Wie initialisieren Sie Ihr lokales Verzeichnis mit git review?"
 
-msgid "How many OpenStack releases are currently maintained by the community?"
-msgstr ""
-"Wieviele OpenStack-Versionen werden aktuell  von der Community unterstützt?"
-
 msgid "How many SIGs are there? Name two."
 msgstr "Wieviele SIGs gibt es? Benenne zwei."
 
@@ -1219,9 +1171,6 @@ msgstr "IRC-Client: HexChat"
 
 msgid "Ian Y. Choi (training, assistant, mentoring)"
 msgstr "Ian Y. Choi (Ausbildung, Assistent, Mentoring)"
-
-msgid "Identify common characteristics of these cycles"
-msgstr "Finden Sie Gemeinsamkeiten dieser Zyklen"
 
 msgid ""
 "If contributing code, being technically proficient enough to carry out "
@@ -1298,12 +1247,6 @@ msgstr "Abbild: http://bit.ly/vm-2019-denver-v1"
 
 msgid "Implementing a blueprint/spec"
 msgstr "Implementierung eines Blueprints / Spezifikation"
-
-msgid ""
-"In case there are no events planned, how about organizing one in your area?"
-msgstr ""
-"Wie wäre es ein Event in Ihrer Umgebung zu organisieren, wenn bislang keine "
-"geplant sind?"
 
 msgid "In this example, we use Lego to represent a software project"
 msgstr ""
@@ -1518,11 +1461,6 @@ msgid "Look at the `Zuul <http://status.openstack.org/zuul>`_ status page"
 msgstr ""
 "Schauen Sie auf die Zuul <http://status.openstack.org/zuul> `_ status Seite"
 
-msgid ""
-"Look up an OpenStack Days event close to where you live that you would be "
-"interested in attending"
-msgstr "Schauen Sie nach Veranstaltungen \"OpenStack Days\" in Ihrer Nähe"
-
 msgid "Look up the location and dates of the next PTG"
 msgstr "Schauen SIe nach der Lokation und dem Datum des nächsten PTG"
 
@@ -1538,13 +1476,6 @@ msgstr ""
 "suchen Sie die drei aktivsten Core-Reviewer (Leute, die man kennen sollte, "
 "um Hilfe für Reviews anzufordern und um die eigenen Patches gemerged zu "
 "bekommen)."
-
-msgid ""
-"Look up the release schedule for the current and past two OpenStack release "
-"cycles & share links"
-msgstr ""
-"Schauen Sie sich den Release-Plan für die aktuellen und vergangenen zwei "
-"OpenStack Release-Zyklen an &  teilen Sie die Links"
 
 msgid ""
 "Look up when the next meeting is for the project who's channel you joined"
@@ -1595,9 +1526,6 @@ msgstr "Melvin Hillsman - OSIC"
 
 msgid "Metrics"
 msgstr "Metriken"
-
-msgid "Minimize database queries"
-msgstr "Minimieren von Datenbankabfragen"
 
 msgid "Mission"
 msgstr "Mission"
@@ -1955,9 +1883,6 @@ msgstr ""
 msgid "Please note that the language of the training is English."
 msgstr "Bitte beachten Sie, dass die Sprache der Ausbildung Englisch ist."
 
-msgid "Post the information on the IRC channel"
-msgstr "Posten Sie die Informationen auf dem IRC-Kanal"
-
 msgid "Prepare an environment by yourself from scratch:"
 msgstr "Erstellen Sie selbst eine Umgebung von Grund auf:"
 
@@ -2172,25 +2097,8 @@ msgstr "Git aufsetzen & Commit Messages"
 msgid "Setup the Development Environment"
 msgstr "Richten Sie die Entwicklungsumgebung ein"
 
-msgid "Share both in our IRC channel."
-msgstr "Teilen Sie beides in unserem IRC Kanal."
-
 msgid "Share something you find interesting from the proposed agenda"
 msgstr "Share something you find interesting from the proposed agenda"
-
-msgid ""
-"Share the commit message with one or two people at your table. Give them "
-"feedback on their commit messages."
-msgstr ""
-"Teilen Sie die Commit-Nachricht mit einem oder zwei Personen an Ihrem Tisch. "
-"Geben Sie ihnen Feedback zu ihren Commit-Nachrichten."
-
-msgid ""
-"Share your board with your group. Assign yourself to three tasks on other "
-"people's stories. Comment on one story."
-msgstr ""
-"Teilen Sie Ihr Board mit Ihrer Gruppe. Weisen Sie sich selbst drei Aufgaben "
-"von anderer Leute Storys zu. Kommentieren Sie eine Story."
 
 msgid "Shinobu KINJO (mentoring, assistant, japanese)"
 msgstr "Shinobu KINJO (Mentoring, Assistentin, Japanisch)"
@@ -2212,13 +2120,6 @@ msgstr ""
 "benutzen Sie *Folientabelle* (Drücken Sie :command:`t` im Browser). Einige "
 "Folien haben zusätzliche Erklärungen in den *Moderator Hinweisen* (Drücken "
 "Sie :command:`c` um diese zu sehen)."
-
-msgid ""
-"Someone left a print statement that was used for testing during development "
-"that is being added to the logs"
-msgstr ""
-"Jemand hat eine Druckanweisung hinterlassen, die zum Testen während der "
-"Entwicklung verwendet wurde, die den Protokollen hinzugefügt wird"
 
 msgid "Specialty teams"
 msgstr "Spezialteams"
@@ -2437,13 +2338,6 @@ msgid ""
 msgstr ""
 "Das Training hat eine modulare Struktur, durch die es Raum für Teilnehmer "
 "mit unterschiedlichen Jobrollen gibt."
-
-msgid ""
-"There are unused arguments being passed into a method that is used in "
-"several different files"
-msgstr ""
-"Es werden nicht verwendete Argumente in eine Methode übergeben, die in "
-"mehreren verschiedenen Dateien verwendet werden"
 
 msgid ""
 "There is a Forum session in Boston about the future of Stackalytics as there "
@@ -2796,13 +2690,6 @@ msgstr ""
 msgid "Web browser: Firefox"
 msgstr "Webbrowser: Firefox"
 
-msgid ""
-"What are some of the different freeze dates for different activities in the "
-"release?"
-msgstr ""
-"Was sind die unterschiedliche Fristen für die unterschiedlichen Aktivitäten "
-"im Release?"
-
 msgid "What are the Four Opens?"
 msgstr "Was sind die vier Opens?"
 
@@ -2818,10 +2705,6 @@ msgstr ""
 msgid "What does ICLA stand for? What is it?"
 msgstr "Wofür steht ICLA? Was ist es?"
 
-msgid "What else can you do with a OpenStack Foundation membership?"
-msgstr ""
-"Was können Sie noch mit einer  OpenStack Foundation Mitgliedschaft mache?"
-
 msgid "What happens if you click on a patch under test"
 msgstr "Was passiert, wenn Sie auf einen Patch im Test klicken"
 
@@ -2835,9 +2718,6 @@ msgid "When possible, sit at a table and build connections with attendees"
 msgstr ""
 "Wenn möglich, sitzen Sie an einem Tisch und bauen Verbindungen mit den "
 "Teilnehmern auf"
-
-msgid "Where can you find a list of all of the OpenStack irc channels?"
-msgstr "Wo können Sie eine List aller OpenStack IRC Channel finden?"
 
 msgid ""
 "Where is the meeting is conducted (#openstack-meeting, #openstack-meeting-3, "
@@ -2855,9 +2735,6 @@ msgstr ""
 
 msgid "Who spoke the most during that meeting?"
 msgstr "Who spoke the most during that meeting?"
-
-msgid "Why are there different dates for some teams?"
-msgstr "Warum gibe es unterschiedliche Termine für manche Teams?"
 
 msgid "Why is there a whole week and not a single day planned?"
 msgstr "Warum ist eine ganze Woche und nicht ein einzelner Tag geplant?"
@@ -2879,31 +2756,6 @@ msgstr ""
 
 msgid "Workflow and Tools for Participation"
 msgstr "Arbeitsabläufe und Werkzeuge für die Teilnahme"
-
-msgid ""
-"Write a commit message body to expand on each of the following summary "
-"lines. Feel free to make up details to make the context more realistic. "
-"Share your favorite in IRC."
-msgstr ""
-"Schreiben Sie einen Commit Message Body, um auf jeder der folgenden "
-"Zusammenfassungszeilen zu erweitern. Fühlen Sie sich frei, Details "
-"anzugeben, um den Kontext realistischer zu machen. Teilen Sie Ihren "
-"Favoriten im IRC."
-
-msgid ""
-"Write a commit message for the bug you created during our earlier exercise. "
-"Include a summary line, body, and the required exernal references along with "
-"any optional external references you think it may benefit from."
-msgstr ""
-"Schreiben Sie eine Commit-Nachricht für den Bug, den Sie während unserer "
-"früheren Übung erstellt haben. Fügen Sie eine zusammenfassende Linie, "
-"Körper, und die erforderlichen exernal Referenzen zusammen mit allen "
-"optionalen externen Referenzen, bei denen Sie denken, dass sie davon "
-"profitieren können."
-
-msgid "Write a summary line for each of the following scenarios:"
-msgstr ""
-"Schreiben Sie eine Zusammenfassungszeile für jedes der folgenden Szenarien:"
 
 msgid "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 msgstr ""

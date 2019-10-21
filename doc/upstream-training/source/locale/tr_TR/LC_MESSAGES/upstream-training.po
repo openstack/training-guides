@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-02 14:06+0000\n"
+"POT-Creation-Date: 2019-10-17 17:44+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -134,9 +134,6 @@ msgid ""
 msgstr ""
 "Diğer gruplardan gelen güzergah yamalarına karşı hatalar ekleyin ya da "
 "gözden geçirme yazın."
-
-msgid "Added unit tests to cover untested methods"
-msgstr "Test edilmemiş yöntemleri kapsayan birim testleri eklendi"
 
 msgid "Adrien Cunin (mentoring, assistant, french, english)"
 msgstr "Adrien Cunin (danışman, yardımcı, fransızca, ingilizce"
@@ -383,13 +380,6 @@ msgid ""
 msgstr ""
 "Şirketler: Bir alışveriş merkezi, otopark, enerji tesisi, veri merkezi ve "
 "hastane gibi büyük endüstriyel ürünler."
-
-msgid ""
-"Compare the deadlines between two different project teams and discuss the "
-"differences with your group"
-msgstr ""
-"İki farklı proje ekibi arasındaki son tarihleri karşılaştırın ve grubunuzla "
-"olan farklılıkları tartışın"
 
 msgid "Configure your workspace"
 msgstr "Çalışma alanını yapılandır"
@@ -1112,13 +1102,6 @@ msgstr "Açık gözden geçirmelere bak"
 msgid "Look at the `Zuul <http://status.openstack.org/zuul>`_ status page"
 msgstr "`Zuul <http://status.openstack.org/zuul>`_ durum sayfasına bakın"
 
-msgid ""
-"Look up an OpenStack Days event close to where you live that you would be "
-"interested in attending"
-msgstr ""
-"Katılmak isteyebileceğiniz yaşadığınız yere yakın bir OpenStack Günleri "
-"etkinliği arayın"
-
 msgid "Look up the location and dates of the next PTG"
 msgstr "Bir sonraki PTG'nin yer ve tarihlerine bakın"
 
@@ -1173,9 +1156,6 @@ msgstr "Melvin Hillsman – OSIC"
 
 msgid "Metrics"
 msgstr "Ölçümler"
-
-msgid "Minimize database queries"
-msgstr "Veritabanı sorgularını en aza indirin"
 
 msgid "Mission"
 msgstr "Görev"
@@ -1378,9 +1358,6 @@ msgstr "Favori projenizi seçin ve IRC'e kaç tane işi çalıştırdığını r
 msgid "Please note that the language of the training is English."
 msgstr "Eğitim dilinin İngilizce olduğunu not edin."
 
-msgid "Post the information on the IRC channel"
-msgstr "Bilgileri IRC kanalına gönderin"
-
 msgid "Prepare an environment by yourself from scratch:"
 msgstr "Kendiniz sıfırdan bir ortam hazırlayın:"
 
@@ -1543,13 +1520,6 @@ msgstr ""
 
 msgid "Setup the Development Environment"
 msgstr "Geliştirme Ortamını Kur"
-
-msgid ""
-"Share the commit message with one or two people at your table. Give them "
-"feedback on their commit messages."
-msgstr ""
-"Gönderim mesajınızı masanızdaki bir veya iki kişiyle paylaşın. Onlara iletme "
-"mesajları hakkında geribildirim verin."
 
 msgid "Shinobu KINJO (mentoring, assistant, japanese)"
 msgstr "Shinobu KINJO (danışman, yardımcı, japonca)"
@@ -1985,27 +1955,6 @@ msgstr "Mümkünse, bir masaya oturun ve katılımcılarla bağlantı kurun"
 
 msgid "Workflow and Tools for Participation"
 msgstr "Katılmak için İş Akışları ve Araçlar"
-
-msgid ""
-"Write a commit message body to expand on each of the following summary "
-"lines. Feel free to make up details to make the context more realistic. "
-"Share your favorite in IRC."
-msgstr ""
-"Aşağıdaki özet satırlarının her birinde genişletmek için bir komisyon mesajı "
-"gövdesi yazın. Bağlamı daha gerçekçi yapmak için ayrıntıları telafi etmekten "
-"çekinmeyin. Favorinizi IRC'de paylaşın."
-
-msgid ""
-"Write a commit message for the bug you created during our earlier exercise. "
-"Include a summary line, body, and the required exernal references along with "
-"any optional external references you think it may benefit from."
-msgstr ""
-"Önceki alıştırmamızda yarattığınız hata için bir gönderim mesajı yazın. Bir "
-"özet satır, gövde ve gereken dış referansları ve bunun faydalı olabileceğini "
-"düşündüğünüz isteğe bağlı harici referansları ekleyin."
-
-msgid "Write a summary line for each of the following scenarios:"
-msgstr "Aşağıdaki senaryolardan her biri için bir özet satırı yazın:"
 
 msgid "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 msgstr "Xavier Antoviaque (eğitim, danışman, asistan, fransızca, ingilizce)"

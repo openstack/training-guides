@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-02 14:06+0000\n"
+"POT-Creation-Date: 2019-10-17 17:44+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -176,9 +176,6 @@ msgid ""
 msgstr ""
 "Add your name and email address (and IRC nick if you have one already) to "
 "the training etherpad"
-
-msgid "Added unit tests to cover untested methods"
-msgstr "Added unit tests to cover untested methods"
 
 msgid "Adrien Cunin (mentoring, assistant, french, english)"
 msgstr "Adrien Cunin (mentoring, assistant, french, english)"
@@ -448,13 +445,6 @@ msgstr ""
 "Companies: big industrial items like a shopping centre, car park, energy "
 "plant, data centre, and hospital."
 
-msgid ""
-"Compare the deadlines between two different project teams and discuss the "
-"differences with your group"
-msgstr ""
-"Compare the deadlines between two different project teams and discuss the "
-"differences with your group"
-
 msgid "Complete content of Upstream Institute Training can be seen here:"
 msgstr "Complete content of Upstream Institute Training can be seen here:"
 
@@ -507,15 +497,6 @@ msgstr ""
 "Create a blueprint based upon concrete activities, times and any other "
 "details your group thinks are appropriate."
 
-msgid ""
-"Create a board with at least two worklists (one manual and one automatic) "
-"for organizing tasks you are going to create. For the automatic worklist, "
-"give at least two criteria for the items that will go into the worklist."
-msgstr ""
-"Create a board with at least two worklists (one manual and one automatic) "
-"for organizing tasks you are going to create. For the automatic worklist, "
-"give at least two criteria for the items that will go into the worklist."
-
 msgid "Create a draft .rst file with an outline for the itinerary."
 msgstr "Create a draft .rst file with an outline for the itinerary."
 
@@ -546,17 +527,6 @@ msgid ""
 msgstr ""
 "Create and submit a bug to our sandbox repository. Include at least one tag "
 "when creating your bug. Once it has been created, assign it to yourself."
-
-msgid ""
-"Create three stories for your worklists. At least one of them should meet "
-"the criteria that enables it to appear in your automatic worklist. Each "
-"story must have a minimum of two tasks that are named differently than the "
-"story name."
-msgstr ""
-"Create three stories for your worklists. At least one of them should meet "
-"the criteria that enables it to appear in your automatic worklist. Each "
-"story must have a minimum of two tasks that are named differently than the "
-"story name."
 
 msgid "Create your commit and push upstream for review"
 msgstr "Create your commit and push upstream for review"
@@ -892,13 +862,6 @@ msgstr ""
 "Find out what the modification is by running the test and analysing the test "
 "output"
 
-msgid ""
-"Find some of the feature proposal freeze deadlines in the current release "
-"schedule"
-msgstr ""
-"Find some of the feature proposal freeze deadlines in the current release "
-"schedule"
-
 msgid "Find the information that can be retrieved for each patch in a pipeline"
 msgstr ""
 "Find the information that can be retrieved for each patch in a pipeline"
@@ -1081,9 +1044,6 @@ msgstr ""
 msgid "How do you initialize your local repo with git review?"
 msgstr "How do you initialise your local repo with git review?"
 
-msgid "How many OpenStack releases are currently maintained by the community?"
-msgstr "How many OpenStack releases are currently maintained by the community?"
-
 msgid "How many gate and check jobs are running"
 msgstr "How many gate and check jobs are running"
 
@@ -1107,9 +1067,6 @@ msgstr "IRC client: HexChat"
 
 msgid "Ian Y. Choi (training, assistant, mentoring)"
 msgstr "Ian Y. Choi (training, assistant, mentoring)"
-
-msgid "Identify common characteristics of these cycles"
-msgstr "Identify common characteristics of these cycles"
 
 msgid ""
 "If contributing code, being technically proficient enough to carry out "
@@ -1172,11 +1129,6 @@ msgstr "Ildikó Váncsa – The OpenStack Foundation"
 
 msgid "Implementing a blueprint/spec"
 msgstr "Implementing a blueprint/spec"
-
-msgid ""
-"In case there are no events planned, how about organizing one in your area?"
-msgstr ""
-"In case there are no events planned, how about organising one in your area?"
 
 msgid "In this example, we use Lego to represent a software project"
 msgstr "In this example, we use Lego to represent a software project"
@@ -1381,13 +1333,6 @@ msgstr "Look at open reviews"
 msgid "Look at the `Zuul <http://status.openstack.org/zuul>`_ status page"
 msgstr "Look at the `Zuul <http://status.openstack.org/zuul>`_ status page"
 
-msgid ""
-"Look up an OpenStack Days event close to where you live that you would be "
-"interested in attending"
-msgstr ""
-"Look up an OpenStack Days event close to where you live that you would be "
-"interested in attending"
-
 msgid "Look up the location and dates of the next PTG"
 msgstr "Look up the location and dates of the next PTG"
 
@@ -1402,13 +1347,6 @@ msgstr ""
 "Look up the project you are most interested in and find the three most "
 "active core reviewers (people that would be good to know for review help and "
 "getting your patches merged)."
-
-msgid ""
-"Look up the release schedule for the current and past two OpenStack release "
-"cycles & share links"
-msgstr ""
-"Look up the release schedule for the current and past two OpenStack release "
-"cycles & share links"
 
 msgid ""
 "Look up when the next meeting is for the project who's channel you joined"
@@ -1456,9 +1394,6 @@ msgstr "Melvin Hillsman – OSIC"
 
 msgid "Metrics"
 msgstr "Metrics"
-
-msgid "Minimize database queries"
-msgstr "Minimise database queries"
 
 msgid "Mission"
 msgstr "Mission"
@@ -1805,9 +1740,6 @@ msgstr ""
 msgid "Please note that the language of the training is English."
 msgstr "Please note that the language of the training is English."
 
-msgid "Post the information on the IRC channel"
-msgstr "Post the information on the IRC channel"
-
 msgid "Prepare an environment by yourself from scratch:"
 msgstr "Prepare an environment by yourself from scratch:"
 
@@ -2012,25 +1944,8 @@ msgstr "Setup git & Commit Messages"
 msgid "Setup the Development Environment"
 msgstr "Setup the Development Environment"
 
-msgid "Share both in our IRC channel."
-msgstr "Share both in our IRC channel."
-
 msgid "Share something you find interesting from the proposed agenda"
 msgstr "Share something you find interesting from the proposed agenda"
-
-msgid ""
-"Share the commit message with one or two people at your table. Give them "
-"feedback on their commit messages."
-msgstr ""
-"Share the commit message with one or two people at your table. Give them "
-"feedback on their commit messages."
-
-msgid ""
-"Share your board with your group. Assign yourself to three tasks on other "
-"people's stories. Comment on one story."
-msgstr ""
-"Share your board with your group. Assign yourself to three tasks on other "
-"people's stories. Comment on one story."
 
 msgid "Shinobu KINJO (mentoring, assistant, japanese)"
 msgstr "Shinobu KINJO (mentoring, assistant, japanese)"
@@ -2051,13 +1966,6 @@ msgstr ""
 "slides quickly to find something, or jump ahead or back, use *Slide table* "
 "(press :command:`t` in the browser). Some slides include additional "
 "explanation in the *Presenter notes* (press :command:`c` to see them)."
-
-msgid ""
-"Someone left a print statement that was used for testing during development "
-"that is being added to the logs"
-msgstr ""
-"Someone left a print statement that was used for testing during development "
-"that is being added to the logs"
 
 msgid "Specialty teams"
 msgstr "Speciality teams"
@@ -2268,13 +2176,6 @@ msgid ""
 msgstr ""
 "The training has a modular structure by which it gives room to attendees "
 "with different job roles."
-
-msgid ""
-"There are unused arguments being passed into a method that is used in "
-"several different files"
-msgstr ""
-"There are unused arguments being passed into a method that is used in "
-"several different files"
 
 msgid ""
 "There is a Forum session in Boston about the future of Stackalytics as there "
@@ -2605,13 +2506,6 @@ msgstr ""
 msgid "Web browser: Firefox"
 msgstr "Web browser: Firefox"
 
-msgid ""
-"What are some of the different freeze dates for different activities in the "
-"release?"
-msgstr ""
-"What are some of the different freeze dates for different activities in the "
-"release?"
-
 msgid "What are the Four Opens?"
 msgstr "What are the Four Opens?"
 
@@ -2625,9 +2519,6 @@ msgstr "What command do you use to modify a patch within a chain?"
 msgid "What does ICLA stand for? What is it?"
 msgstr "What does ICLA stand for? What is it?"
 
-msgid "What else can you do with a OpenStack Foundation membership?"
-msgstr "What else can you do with a OpenStack Foundation membership?"
-
 msgid "What happens if you click on a patch under test"
 msgstr "What happens if you click on a patch under test"
 
@@ -2639,9 +2530,6 @@ msgstr "What is the significance of the dots, lines and colours"
 
 msgid "When possible, sit at a table and build connections with attendees"
 msgstr "When possible, sit at a table and build connections with attendees"
-
-msgid "Where can you find a list of all of the OpenStack irc channels?"
-msgstr "Where can you find a list of all of the OpenStack irc channels?"
 
 msgid ""
 "Where is the meeting is conducted (#openstack-meeting, #openstack-meeting-3, "
@@ -2659,9 +2547,6 @@ msgstr ""
 
 msgid "Who spoke the most during that meeting?"
 msgstr "Who spoke the most during that meeting?"
-
-msgid "Why are there different dates for some teams?"
-msgstr "Why are there different dates for some teams?"
 
 msgid "Why is there a whole week and not a single day planned?"
 msgstr "Why is there a whole week and not a single day planned?"
@@ -2683,27 +2568,6 @@ msgstr ""
 
 msgid "Workflow and Tools for Participation"
 msgstr "Workflow and Tools for Participation"
-
-msgid ""
-"Write a commit message body to expand on each of the following summary "
-"lines. Feel free to make up details to make the context more realistic. "
-"Share your favorite in IRC."
-msgstr ""
-"Write a commit message body to expand on each of the following summary "
-"lines. Feel free to make up details to make the context more realistic. "
-"Share your favourite in IRC."
-
-msgid ""
-"Write a commit message for the bug you created during our earlier exercise. "
-"Include a summary line, body, and the required exernal references along with "
-"any optional external references you think it may benefit from."
-msgstr ""
-"Write a commit message for the bug you created during our earlier exercise. "
-"Include a summary line, body, and the required external references along "
-"with any optional external references you think it may benefit from."
-
-msgid "Write a summary line for each of the following scenarios:"
-msgstr "Write a summary line for each of the following scenarios:"
 
 msgid "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 msgstr "Xavier Antoviaque (training, mentoring, assistant, french, english)"

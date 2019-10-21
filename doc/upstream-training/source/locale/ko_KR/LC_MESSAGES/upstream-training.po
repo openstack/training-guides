@@ -30,7 +30,6 @@
 # TaeWon Kim <dydalehdxo@naver.com>, 2018. #zanata
 # YEONJE CHOI <dbdbdb156@naver.com>, 2018. #zanata
 # Yongtae Cheon <ide2143@naver.com>, 2018. #zanata
-# Young Ha <zwei2@naver.com>, 2018. #zanata
 # Yun seowon <floidea@naver.com>, 2018. #zanata
 # jongyoung son <rsef1515@naver.com>, 2018. #zanata
 # joo jihun <as458@naver.com>, 2018. #zanata
@@ -42,7 +41,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-12 09:37+0000\n"
+"POT-Creation-Date: 2019-10-17 17:44+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -249,9 +248,6 @@ msgid ""
 msgstr ""
 "당신의 이름과 이메일 주소 (그리고 이미 있다면, IRC 닉)을 교육용 ehterpad에 추"
 "가합니다."
-
-msgid "Added unit tests to cover untested methods"
-msgstr "테스트가 되지 않은 방식을 보완하기 위한 단위 테스트가 추가됨"
 
 msgid "Adrien Cunin (mentoring, assistant, french, english)"
 msgstr "Adrien Cunin (멘토링, 조교, 프랑스어, 영어)"
@@ -543,13 +539,6 @@ msgstr ""
 "회사: 쇼핑몰, 자동차 주차장, 에너지 발전소, 데이터센터, 그리고 병원과 같은 커"
 "다란 산업 아이템"
 
-msgid ""
-"Compare the deadlines between two different project teams and discuss the "
-"differences with your group"
-msgstr ""
-"다른 두 프로젝트 팀의 마감기한을 비교해보고 그 차이점을 당신의 그룹과 논의하"
-"십시오."
-
 msgid "Complete content of Upstream Institute Training can be seen here:"
 msgstr "Upstream Institute 트레이닝의 전체 내용은 이곳에서 볼 수 있습니다:"
 
@@ -609,15 +598,6 @@ msgstr ""
 "구체적인 활동, 일정 및 그룹에 적절하다고 생각하는 기타 세부 사항을 기반으로 "
 "하는 blueprint를 생성합니다."
 
-msgid ""
-"Create a board with at least two worklists (one manual and one automatic) "
-"for organizing tasks you are going to create. For the automatic worklist, "
-"give at least two criteria for the items that will go into the worklist."
-msgstr ""
-"당신이 만들고자 하는 업무들을 관리하고 조직하는데 필요한 적어도 2개의 워크리"
-"스트를 가지고 있는 보드를 만드세요 (하나는 수동, 하나는 자동). 자동 워크리스"
-"트에 들어갈 아이템들을 정하는 적어도 두개의 기준을 정해주세요."
-
 msgid "Create a draft .rst file with an outline for the itinerary."
 msgstr "여정에 대한 개요와 함께 .rst 초안 파일을 생성합니다."
 
@@ -646,16 +626,6 @@ msgid ""
 msgstr ""
 "버그를 생성하고 샌드박스 저장소에 제출하십시오. 버그를 만들 때 태그를 하나 이"
 "상 포함합니다. 작성된 후에는 직접 할당하십시오."
-
-msgid ""
-"Create three stories for your worklists. At least one of them should meet "
-"the criteria that enables it to appear in your automatic worklist. Each "
-"story must have a minimum of two tasks that are named differently than the "
-"story name."
-msgstr ""
-"작업 목록을위한 3 개의 스토리를 생성하십시오. 이들 중 적어도 하나는 자동 작업"
-"리스트에 나타날 수있는 기준을 충족시켜야합니다. 각 스토리에는 스토리 이름과 "
-"다른 이름의 태스크가 두 개 이상 있어야합니다."
 
 msgid "Create your commit and push upstream for review"
 msgstr "리뷰를 위해 커밋을 만들고 업스트림에 푸시하기"
@@ -705,9 +675,6 @@ msgstr "다른 그룹과 함께 방문하고자 하는 국가를 결정합니다
 
 msgid "Demo environment"
 msgstr "데모 환경"
-
-msgid "Describe and contrast them"
-msgstr "설명하고 비교해보세요"
 
 msgid "Description"
 msgstr "설명"
@@ -987,19 +954,11 @@ msgstr ""
 "테스트를 실행하고 테스트 출력을 분석함으로써 어떤 변경사항이 있는지를 찾아봅"
 "니다"
 
-msgid ""
-"Find some of the feature proposal freeze deadlines in the current release "
-"schedule"
-msgstr "현재 릴리즈 스케줄에서 일부 기능 제안 동결 기한 찾기"
-
 msgid "Find the current members of the Board of Directors"
 msgstr "현재 Board of Directors 구성원을 찾아봅니다"
 
 msgid "Find the information that can be retrieved for each patch in a pipeline"
 msgstr "파이프라인의 각 패치를 가져올 수 있는 정보를 찾으세요."
-
-msgid "Find the latest election results for the TC and UC."
-msgstr "TC 및 UC에 대한 가장 최근의 선거 결과를 찾아보세요."
 
 msgid "Find the logs from the most recent meeting"
 msgstr "제일 최근 미팅에서 기록을 찾으세요."
@@ -1192,9 +1151,6 @@ msgstr "어떻게 같은, 혹은 여러 저장소의 의존성 변화를 다룰 
 msgid "How do you initialize your local repo with git review?"
 msgstr "git 검토와 함깨 당신의 지역 저장소를 어떻게 초기화 할 것입니까?"
 
-msgid "How many OpenStack releases are currently maintained by the community?"
-msgstr "커뮤니티에서 공식적으로 유지보수하는 OpenStack 릴리즈는 몇 개입니까?"
-
 msgid "How many SIGs are there? Name two."
 msgstr "얼마나 많은 SIG가 있을까요? 2개 이름을 적어봅니다."
 
@@ -1228,9 +1184,6 @@ msgstr "IRC 클라이언트: HexChat"
 
 msgid "Ian Y. Choi (training, assistant, mentoring)"
 msgstr "Ian Y. Choi (교육, 조교, 멘토링)"
-
-msgid "Identify common characteristics of these cycles"
-msgstr "해당 주기에서의 공통된 특성을 식별합니다"
 
 msgid ""
 "If contributing code, being technically proficient enough to carry out "
@@ -1301,10 +1254,6 @@ msgstr "이미지: http://bit.ly/vm-2019-denver-v1"
 
 msgid "Implementing a blueprint/spec"
 msgstr "블루프린트/스펙 구현"
-
-msgid ""
-"In case there are no events planned, how about organizing one in your area?"
-msgstr "계획된 이벤트가 없는 경우에는, 직접 지역에서 만들어 보면 어떨까요?"
 
 msgid "In this example, we use Lego to represent a software project"
 msgstr "이 예시에서는, Lego를 사용하여 소프트웨어 프로젝트를 표현합니다"
@@ -1541,12 +1490,6 @@ msgstr "열려있는 리뷰를 살펴봅니다"
 msgid "Look at the `Zuul <http://status.openstack.org/zuul>`_ status page"
 msgstr "`Zuul <http://status.openstack.org/zuul>`_ 상태 페이지를 살펴보세요"
 
-msgid ""
-"Look up an OpenStack Days event close to where you live that you would be "
-"interested in attending"
-msgstr ""
-"거주하는 곳과 가까우며 참석 의향이 있는 OpenStack Days 이벤트를 찾아봅니다"
-
 msgid "Look up the location and dates of the next PTG"
 msgstr "다음 PTG에 대한 위치 및 날짜를 찾아봅니다"
 
@@ -1560,12 +1503,6 @@ msgid ""
 msgstr ""
 "가장 관심있는 프로젝트를 찾은 후 가장 활발한 핵심 검토자 (리뷰 도움 및 패치"
 "를 병합을 위해 알면 좋은 사람들) 3명을 찾습니다."
-
-msgid ""
-"Look up the release schedule for the current and past two OpenStack release "
-"cycles & share links"
-msgstr ""
-"현재 및 지난 두 번의 OpenStack 릴리즈 주기 및 공유 링크 릴리즈 스케줄 확인"
 
 msgid ""
 "Look up when the next meeting is for the project who's channel you joined"
@@ -1621,9 +1558,6 @@ msgstr "Melvin Hillsman – OSIC"
 
 msgid "Metrics"
 msgstr "지표"
-
-msgid "Minimize database queries"
-msgstr "데이터베이서 쿼리를 최소화"
 
 msgid "Mission"
 msgstr "임무"
@@ -2022,9 +1956,6 @@ msgstr ""
 msgid "Please note that the language of the training is English."
 msgstr "참고로 트레이닝에서는 영어를 사용합니다."
 
-msgid "Post the information on the IRC channel"
-msgstr "해당 정보를 IRC 채널에 게시합니다"
-
 msgid "Prepare an environment by yourself from scratch:"
 msgstr "기반부터 환경을 스스로 준비합니다:"
 
@@ -2247,25 +2178,8 @@ msgstr "개발 환경 셋업"
 msgid "Shanghai,"
 msgstr "상해"
 
-msgid "Share both in our IRC channel."
-msgstr "IRC 채널에서 두 가지를 공유하십시오."
-
 msgid "Share something you find interesting from the proposed agenda"
 msgstr "제안된 의제에서 흥미로운 것을 공유하십시오."
-
-msgid ""
-"Share the commit message with one or two people at your table. Give them "
-"feedback on their commit messages."
-msgstr ""
-"자리에서 한 두 명의 다른 사람들과 커밋 메시지를 공유하세요. 다른 사람들의 커"
-"밋 메시지에 피드백을 주세요."
-
-msgid ""
-"Share your board with your group. Assign yourself to three tasks on other "
-"people's stories. Comment on one story."
-msgstr ""
-"그룹과 함께 보드를 공유하십시오. 다른 사람들의 이야기에 대한 세 가지 작업에 "
-"자신을 지정하십시오. 한 이야기에 대해 설명하십시오."
 
 msgid "Shinobu KINJO (mentoring, assistant, japanese)"
 msgstr "Shinobu KINJO (멘토링, 조교, 일본어)"
@@ -2286,12 +2200,6 @@ msgstr ""
 "를 빠르게 살펴보거나 무엇인가 찾기 또는 앞뒤로 이동하기 위해서는 *슬라이드 테"
 "이블* (브라우저에서 :command:`t` 입력) 을 사용합니다. 몇몇 슬라이드에는 부가"
 "적인 설명이 *발표자 노트* (살펴보려면 :command:`c` 입력)에 포함되어 있습니다."
-
-msgid ""
-"Someone left a print statement that was used for testing during development "
-"that is being added to the logs"
-msgstr ""
-"누군가 개발중에 테스팅을 위한 print 문장을 남겨놓았고, logs에 추가되었습니다."
 
 msgid "Specialty teams"
 msgstr "전문화된 팀"
@@ -2506,12 +2414,6 @@ msgstr ""
 "다가오는 `Open Infrastructure Summit <https://www.openstack.org/summit/"
 "shanghai-2019>`_ 에서는 이벤트가 진행되기 바로 이전에 전체 트레이닝으로 11월 "
 "상해에서 열릴 예정입니다."
-
-msgid ""
-"There are unused arguments being passed into a method that is used in "
-"several different files"
-msgstr ""
-"메소드로 전달되었지만 몇가지 파일에 사용되는 사용되지 않은 인자가 있습니다."
 
 msgid ""
 "There is a Forum session in Boston about the future of Stackalytics as there "
@@ -2847,11 +2749,6 @@ msgstr ""
 msgid "Web browser: Firefox"
 msgstr "웹 브라우저: Firefox"
 
-msgid ""
-"What are some of the different freeze dates for different activities in the "
-"release?"
-msgstr "릴리즈에 다른 활동들에 대한 다른 동결 날짜는 무엇입니까?"
-
 msgid "What are the Four Opens?"
 msgstr "네 가지 개방성이란 무엇일까요?"
 
@@ -2866,9 +2763,6 @@ msgstr "체인 내의 패치를 수정하는 데 사용하는 명령은 무엇�
 msgid "What does ICLA stand for? What is it?"
 msgstr "ICLA는 어떤 일을 하나요?"
 
-msgid "What else can you do with a OpenStack Foundation membership?"
-msgstr "OpenStack Foundation membership으로 그 외에 무엇을 할 수 있나요?"
-
 msgid "What happens if you click on a patch under test"
 msgstr "테스트 중인 패치를 클릭하면 어떤 일이 일어나는지"
 
@@ -2880,9 +2774,6 @@ msgstr "점, 선, 색깔의 의미는 무엇인지"
 
 msgid "When possible, sit at a table and build connections with attendees"
 msgstr "가능하다면, 테이블에 앉아서 참석자들과 관계를 구축합니다."
-
-msgid "Where can you find a list of all of the OpenStack irc channels?"
-msgstr "모든 OpenStack irc 채널에 대한 목록은 어디서 확인할 수 있나요?"
 
 msgid ""
 "Where is the meeting is conducted (#openstack-meeting, #openstack-meeting-3, "
@@ -2898,9 +2789,6 @@ msgstr "이 그룹의 멤버 중 어느 멤버가 다음 라운드에서 재선�
 
 msgid "Who spoke the most during that meeting?"
 msgstr "미팅 동안 누가 가장 많이 말했습니까?"
-
-msgid "Why are there different dates for some teams?"
-msgstr "왜 몇몇 팀들은 다른 날짜들을 가지고 있나요?"
 
 msgid "Why is there a whole week and not a single day planned?"
 msgstr "왜 일주일중 하루도 계획되지 않은 거죠?"
@@ -2921,26 +2809,6 @@ msgstr ""
 
 msgid "Workflow and Tools for Participation"
 msgstr "준비를 위한 워크플로우 및 도구"
-
-msgid ""
-"Write a commit message body to expand on each of the following summary "
-"lines. Feel free to make up details to make the context more realistic. "
-"Share your favorite in IRC."
-msgstr ""
-"다음 요약 줄 각각에 확장하기 위해 커밋 메시지 본문을 작성하세요. 문맥을 보다 "
-"현실적으로 만들기 위해 세부사항은 자유롭게 만스에요. 좋아하는 것을 IRC에 공유"
-"하세요."
-
-msgid ""
-"Write a commit message for the bug you created during our earlier exercise. "
-"Include a summary line, body, and the required exernal references along with "
-"any optional external references you think it may benefit from."
-msgstr ""
-"이전 연습 때 만든 버그에 대한 커밋 메시지를 작성하세요. 요약문, 본문, 그리고 "
-"도움이 될 수 있는 어떠한 선택적인 외부 인용이라도 포함시키세요."
-
-msgid "Write a summary line for each of the following scenarios:"
-msgstr "다음 시나리오의 각각에 대한 요약 줄을 작성합니다:"
 
 msgid "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 msgstr "Xavier Antoviaque (교육, 멘토링, 조교, 프랑스어, 영어)"
