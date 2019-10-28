@@ -9,19 +9,29 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-17 17:44+0000\n"
+"POT-Creation-Date: 2019-10-21 06:58+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-06-16 03:23+0000\n"
-"Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
+"PO-Revision-Date: 2019-10-27 12:27+0000\n"
+"Last-Translator: Andreas Jaeger <jaegerandi@gmail.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
 "X-Generator: Zanata 4.3.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
+msgid "**Friday, October 18, 2019**"
+msgstr "**Freitag, 18. Oktober 2019**"
+
 msgid "**Mentors**"
 msgstr "** Mentoren **"
+
+msgid ""
+"**SCHEDULED: Saturday, November 2nd(1pm - 5pm local time) - Sunday, November "
+"3rd(9am to 5pm local time), 2019**"
+msgstr ""
+"**GEPLANT: Samstag, 2. November (13:00-17:00 lokale Zeit) - Sonntag, 3. "
+"November (9:00-17:00 lokale Zeit) 2019**"
 
 msgid "**Staff**"
 msgstr "**Personal**"
@@ -29,8 +39,17 @@ msgstr "**Personal**"
 msgid "**Sunday, August 25, 2019**"
 msgstr "**Sonntag, 25. August 2019**"
 
+msgid "**Tuesday, July 23, 2019**"
+msgstr "**Dienstag, 23. Juli 2019**"
+
+msgid "**Wednesday, October 2, 2019**"
+msgstr "**Mittwoch, 2. Oktober 2019**"
+
 msgid "1 day"
 msgstr "1 Tag"
+
+msgid "1.5 day"
+msgstr "1.5 Tage"
 
 msgid "13:45 Sagrada Familia"
 msgstr "13:45 Sagrada Familia"
@@ -77,11 +96,20 @@ msgstr "2016 Austin, USA"
 msgid "2016 Barcelona, Spain"
 msgstr "2016 Barcelona, ​​Spanien"
 
+msgid "2017"
+msgstr "2017"
+
 msgid "2017 Beijing, China"
 msgstr "2017 Peking, China"
 
 msgid "2017 Boston, USA"
 msgstr "2017 Boston, USA"
+
+msgid "2018"
+msgstr "2018"
+
+msgid "2019"
+msgstr "2019"
 
 msgid "265 different organizations"
 msgstr "265 verschiedene Organisationen"
@@ -128,6 +156,9 @@ msgstr ":doc:`upstream-training-content`"
 
 msgid ":doc:`upstream-training-summit`"
 msgstr ":doc:`upstream-training-summit`"
+
+msgid ":ref:`upstream-training-day`"
+msgstr ":ref:`upstream-training-day`"
 
 msgid ""
 "A big thank you to everyone that has made this possible, especially Loic "
@@ -246,6 +277,15 @@ msgstr ""
 msgid "Appropriate Fixes"
 msgstr "Geeignete Fixes"
 
+msgid ""
+"Apr 28: `Open Infrastructure Summit Denver <https://www.openstack.org/summit/"
+"denver-2019/>`_ - `Etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-denver-2019>`__"
+msgstr ""
+"28. April: `Open Infrastructure Summit Denver <https://www.openstack.org/"
+"summit/denver-2019/>`_ - `Etherpad <https://etherpad.openstack.org/p/"
+"upstream-institute-denver-2019>`__"
+
 msgid "Archive"
 msgstr "Archiv"
 
@@ -305,6 +345,9 @@ msgstr "Regelmäßige Meetings besuchen"
 
 msgid "Available metrics"
 msgstr "Verfügbare Metriken"
+
+msgid "Bangalore,"
+msgstr "Bangalore,"
 
 msgid ""
 "Be able to identify and start a task (bug fix, feature design and "
@@ -399,6 +442,9 @@ msgstr ""
 msgid "Check whether the tests failed or not"
 msgstr "Prüfen Sie, ob die Tests fehlgeschlagen sind oder nicht"
 
+msgid "China"
+msgstr "China"
+
 msgid ""
 "Choose a service and issue an API call or use its client to verify "
 "functionality"
@@ -481,6 +527,13 @@ msgid ""
 msgstr ""
 "Firmen: große industrielle Einheiten wie Einkaufszentrum, Tiefgarage, "
 "Kraftwerk, Rechenzentrum oder Krankenhaus."
+
+msgid ""
+"Compare the different deadlines for different project activities that are on "
+"the release schedules"
+msgstr ""
+"Vergleichen Sie die Fristen für verschiedene Projektaktivitäten welche im "
+"Releaseschedule sind"
 
 msgid "Complete content of Upstream Institute Training can be seen here:"
 msgstr "Vollständige Inhalte von Upstream Institute Training finden Sie hier:"
@@ -580,6 +633,16 @@ msgstr ""
 "Erstellen und senden Sie einen Bug zu unserem Sandbox-Repository. Fügen Sie "
 "mindestens ein Tag bei der Erstellung Ihres Bugs ein. Sobald es erstellt "
 "wurde, ordnen Sie es sich selbst zu."
+
+msgid ""
+"Create three stories for your worklists. At least one of them should meet "
+"the criteria that enables it to appear in your automatic worklist. Each "
+"story must have a task that is named differently than the story name."
+msgstr ""
+"Erstellen Sie drei Storys für Ihre Arbeitsliste. Mindestens einer von ihnen "
+"sollte die Kriterien erfüllen, die es ermöglichen, in Ihrem automatischen "
+"Arbeitsliste zu erscheinen. Jede Story muss eine Aufgaben haben, die anders "
+"benannt ist als der Name der Story."
 
 msgid "Create your commit and push upstream for review"
 msgstr "Erstellen Sie Ihr Commit und drücken Sie upstreams für den Revew"
@@ -929,6 +992,9 @@ msgstr ""
 msgid "Find the current members of the Board of Directors"
 msgstr "Finden Sie die aktuellen Mitglieder des Board of Directors"
 
+msgid "Find the current members of the TC and UC"
+msgstr "Finden Sie die aktuellen Mitglieder von TC und UC"
+
 msgid "Find the information that can be retrieved for each patch in a pipeline"
 msgstr ""
 "Finden Sie die Informationen, die für jeden Patch in einer Pipeline "
@@ -1138,6 +1204,9 @@ msgstr ""
 msgid "How do you initialize your local repo with git review?"
 msgstr "Wie initialisieren Sie Ihr lokales Verzeichnis mit git review?"
 
+msgid "How long are OpenStack releases 'Maintained' by the community?"
+msgstr "Wie lange werden OpenStack Releases bei der Community 'maintained'?"
+
 msgid "How many SIGs are there? Name two."
 msgstr "Wieviele SIGs gibt es? Benenne zwei."
 
@@ -1189,6 +1258,9 @@ msgstr ""
 msgid ""
 "If people know you, you have a better chance at your code getting attention."
 msgstr "Wenn die Leute Sie kennen, haben Sie bessere Chancen auf Ihren Code."
+
+msgid "If there are no events planned, is there a meetup group?"
+msgstr "Falls keine Events geplant sind, gibt es eine Meetup Gruppe?"
 
 msgid ""
 "If there aren't enough mentors or every table has one already, float around "
@@ -1275,6 +1347,9 @@ msgstr "Incentivieren Sie die Teilnahme"
 msgid "Incompatible config file changes"
 msgstr "Inkompatible Konfigurationsdatei ändert sich"
 
+msgid "India"
+msgstr "Indien"
+
 msgid "Infrastructure"
 msgstr "Infrastruktur"
 
@@ -1345,6 +1420,13 @@ msgstr "Der openstack-discuss Mailingliste beitreten"
 msgid "Join the project's IRC channel"
 msgstr "Betreten Sie den IRC-Kanal des Projekts"
 
+msgid ""
+"Jul 27-28: OpenStack Days Brazil 2018 - `Etherpad <https://etherpad."
+"openstack.org/p/upstream-institute-brazil-2018>`__"
+msgstr ""
+"27.-28. July: OpenStack Days Brasilien 2018 - `Etherpad <https://etherpad."
+"openstack.org/p/upstream-institute-brazil-2018>`__"
+
 msgid "Julie Pichon (training, mentoring, assistant, english)"
 msgstr "Julie Pichon (Ausbildung, Mentoring, Assistentin, Englisch)"
 
@@ -1353,6 +1435,26 @@ msgstr "Juli 6 - 7, 2016 (Mi - Do)"
 
 msgid "July 9 - 10, 2015 (Thu - Fri)"
 msgstr "Juli 9 - 10, 2015 (Do - Fr)"
+
+msgid "Jump on etherpad"
+msgstr "Ab in's Etherpad"
+
+msgid ""
+"Jun 11-12: `OpenStack Days Poland <http://www.openstackday.pl/>`__ - "
+"`Etherpad <https://etherpad.openstack.org/p/upstream-institute-"
+"poland-2018>`__"
+msgstr ""
+"11.-12. Juni: `OpenStack Days Polen <http://www.openstackday.pl/>`__ - "
+"`Etherpad <https://etherpad.openstack.org/p/upstream-institute-"
+"poland-2018>`__"
+
+msgid ""
+"Jun 28-29: `Open Infra Days Korea <https://www.openinfradays.kr/2018/>`__ - "
+"`Etherpad <https://etherpad.openstack.org/p/upstream-institute-korea-2018>`__"
+msgstr ""
+"28.-29. Juni: `Open Infra Days Korea <https://www.openinfradays.kr/2018/>`__ "
+"- `Etherpad <https://etherpad.openstack.org/p/upstream-institute-"
+"korea-2018>`__"
 
 msgid "Jungsu Han (assistant, mentoring)"
 msgstr "Jungsu Han (Assistent, Mentoring)"
@@ -1461,6 +1563,13 @@ msgid "Look at the `Zuul <http://status.openstack.org/zuul>`_ status page"
 msgstr ""
 "Schauen Sie auf die Zuul <http://status.openstack.org/zuul> `_ status Seite"
 
+msgid ""
+"Look up an OpenStack (or OpenInfra) Days event close to where you live that "
+"you would be interested in attending"
+msgstr ""
+"Schauen Sie nach Veranstaltungen OpenStack (oder OpenInfra) Days in Ihrer "
+"Nähe"
+
 msgid "Look up the location and dates of the next PTG"
 msgstr "Schauen SIe nach der Lokation und dem Datum des nächsten PTG"
 
@@ -1476,6 +1585,13 @@ msgstr ""
 "suchen Sie die drei aktivsten Core-Reviewer (Leute, die man kennen sollte, "
 "um Hilfe für Reviews anzufordern und um die eigenen Patches gemerged zu "
 "bekommen)."
+
+msgid ""
+"Look up the release schedule for the current active and previous OpenStack "
+"release cycles and share the link in the etherpad"
+msgstr ""
+"Schauen Sie sich den Releaseschedule für den aktuellen und den vorherigen "
+"OpenStack Release Zykle an und teilen Sie den Link im Etherpad"
 
 msgid ""
 "Look up when the next meeting is for the project who's channel you joined"
@@ -1501,6 +1617,15 @@ msgstr "Änderungen vornehmen und neue Patches starten"
 
 msgid "Make code changes"
 msgstr "Codeänderungen vornehmen"
+
+msgid ""
+"Make sure you `RSVP <https://www.openstack.org/summit/shanghai-2019/summit-"
+"schedule/events/24344/openstack-upstream-institute-day-1-sponsored-by-lenovo-"
+"rsvp-required>`_!"
+msgstr ""
+"Stellen Sie sicher, daß Sie sich `anmelden <https://www.openstack.org/summit/"
+"shanghai-2019/summit-schedule/events/24344/openstack-upstream-institute-"
+"day-1-sponsored-by-lenovo-rsvp-required>`_!"
 
 msgid "Make sure you have a wifi enabled laptop with you."
 msgstr "Stellen Sie sicher, daß sie ein Laptop mit aktivierten WLAN mitführen."
@@ -1603,11 +1728,35 @@ msgstr "Márk Korondi - IBM Research Zürich"
 msgid "Márton Kiss – Aptira"
 msgstr "Márton Kiss - Aptira"
 
+msgid "Name one activity you can do to get AUC status"
+msgstr "Benenne eine Aktivität die Sie tun können um AUC Status zu erlangen"
+
 msgid "Namgon Lucas Kim (assistant, mentoring)"
 msgstr "Namgon Lucas Kim (Assistent, Mentoring)"
 
 msgid "New features"
 msgstr "Neue Eigenschaften"
+
+msgid ""
+"Nov 04-05: `OpenStack Summit Sydney <https://www.openstack.org/summit/"
+"sydney-2017/>`_ - `Etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-sydney-2017>`__"
+msgstr ""
+"4.-5. November: `OpenStack Summit Sydney <https://www.openstack.org/summit/"
+"sydney-2017/>`_ - `Etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-sydney-2017>`__"
+
+msgid ""
+"Nov 11-12: `OpenStack Summit Berlin <https://www.openstack.org/summit/"
+"berlin-2018/>`_ - `Etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-berlin-2018>`__"
+msgstr ""
+"11.-12. November: `OpenStack Summit Berlin <https://www.openstack.org/summit/"
+"berlin-2018/>`_ - `Etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-berlin-2018>`__"
+
+msgid "November 2 -3, 2019"
+msgstr "2. -3. November 2019"
 
 msgid "Numbers should not be used as an indication for competition"
 msgstr "Zahlen sollten nicht als Hinweis für den Wettbewerb verwendet werden"
@@ -1615,8 +1764,29 @@ msgstr "Zahlen sollten nicht als Hinweis für den Wettbewerb verwendet werden"
 msgid "Objectives"
 msgstr "Ziele"
 
+msgid ""
+"Oct 18: `OpenStack Days Nordic <https://openinfranordics.com/openstack-days-"
+"nordic-2017/>`__ - `Etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-nordic-2017>`__"
+msgstr ""
+"18. Oktober: `OpenStack Days Nordic <https://openinfranordics.com/openstack-"
+"days-nordic-2017/>`__ - `Etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-nordic-2017>`__"
+
+msgid ""
+"Oct 9: `OpenStack Days Nordics <http://stockholm.openstacknordic.org/>`__ - "
+"`Etherpad <https://etherpad.openstack.org/p/upstream-institute-"
+"nordics-2018>`__"
+msgstr ""
+"9. Oktober: `OpenStack Days Nordics <http://stockholm.openstacknordic.org/"
+">`__ - `Etherpad <https://etherpad.openstack.org/p/upstream-institute-"
+"nordics-2018>`__"
+
 msgid "October 10 - 11, 2014 (Fri - Sat)"
 msgstr "Oktober 10 - 11, 2014 (Fr - Sa)"
+
+msgid "October 18, 2019"
+msgstr "18. Oktober 2019"
 
 msgid ""
 "Once the students are separated into their new roles, and have an "
@@ -1657,6 +1827,12 @@ msgstr ""
 
 msgid "Online Communication"
 msgstr "Onlinekommunikation"
+
+msgid "Open Infra Summit Shanghai"
+msgstr "Open Infra Summit Shanghai"
+
+msgid "Open Infrastructure Summit Shanghai"
+msgstr "Open Infrastructure Summit Shanghai"
 
 msgid ""
 "Open an *upstream training* IRC meeting and make consensus from various "
@@ -1786,6 +1962,9 @@ msgstr "OpenInfra Days Nordics"
 msgid "OpenInfra Days Vietnam"
 msgstr "OpenInfra Days Vietnam"
 
+msgid "OpenStack Days Tokyo"
+msgstr "OpenStack Days Tokyo"
+
 msgid "OpenStack Documentation"
 msgstr "OpenStack-Dokumentation"
 
@@ -1821,6 +2000,9 @@ msgstr "OpenStack Upstream Training"
 
 msgid "OpenStack Upstream Training Archives"
 msgstr "OpenStack Upstream Schulungsarchiv"
+
+msgid "OpenStack Upstream Training Day Bangalore"
+msgstr "OpenStack Upstream Training Day Bangalore"
 
 msgid "OpenStack Upstream Training Introductions"
 msgstr "OpenStack Upstream Training Einführungen"
@@ -2059,8 +2241,14 @@ msgstr ""
 msgid "See EOL status at: https://releases.openstack.org"
 msgstr "Siehe EOL-Status unter: https://releases.openstack.org"
 
+msgid "See YOU in Bangalore!"
+msgstr "Wir sehen uns in Bangalore!"
+
 msgid "See YOU in Stockholm!"
 msgstr "Wir sehen uns in Stockholm!"
+
+msgid "See YOU in Tokyo!"
+msgstr "Wir sehen uns in Tokyo!"
 
 msgid "See YOU in Vietnam!"
 msgstr "Wir sehen uns in Vietnam!"
@@ -2082,6 +2270,13 @@ msgid "Seoul, Korea"
 msgstr "Seoul, Korea"
 
 msgid ""
+"Sep 26: OpenStack Days UK 2017 - `Etherpad <https://etherpad.openstack.org/p/"
+"upstream-institute-uk-2017>`__"
+msgstr ""
+"26. September: OpenStack Days UK 2017 - `Etherpad <https://etherpad."
+"openstack.org/p/upstream-institute-uk-2017>`__"
+
+msgid ""
 "Services in DevStack are running as ``systemd`` units named devstack@"
 "$servicename.service"
 msgstr ""
@@ -2097,8 +2292,24 @@ msgstr "Git aufsetzen & Commit Messages"
 msgid "Setup the Development Environment"
 msgstr "Richten Sie die Entwicklungsumgebung ein"
 
+msgid "Shanghai,"
+msgstr "Shanghai,"
+
 msgid "Share something you find interesting from the proposed agenda"
 msgstr "Share something you find interesting from the proposed agenda"
+
+msgid "Share them  in IRC."
+msgstr "Teile Sie auf IRC."
+
+msgid "Share them in our IRC channel."
+msgstr "Teile sie in unserem IRC-Kanal."
+
+msgid ""
+"Share your board with your group. Assign yourself to two tasks on other "
+"people's stories. Comment on one story."
+msgstr ""
+"Teilen Sie Ihr Board mit Ihrer Gruppe. Weisen Sie sich selbst zwei Aufgaben "
+"von anderer Leute Storys zu. Kommentieren Sie eine Story."
 
 msgid "Shinobu KINJO (mentoring, assistant, japanese)"
 msgstr "Shinobu KINJO (Mentoring, Assistentin, Japanisch)"
@@ -2340,6 +2551,15 @@ msgstr ""
 "mit unterschiedlichen Jobrollen gibt."
 
 msgid ""
+"The upcoming `Open Infrastructure Summit <https://www.openstack.org/summit/"
+"shanghai-2019>`_ will be in Shanghai in November with a full training "
+"running prior to the event."
+msgstr ""
+"Der bevorstehende `Open Infrastructure Summit <https://www.openstack.org/"
+"summit/shanghai-2019>` _ wird im November in Shanghai stattfinden. Vor der "
+"Veranstaltung wird ein komplettes Training durchgeführt."
+
+msgid ""
 "There is a Forum session in Boston about the future of Stackalytics as there "
 "are issues with the tool. As we don't have a replacement as of now we can "
 "still share info about the currently available tool."
@@ -2512,6 +2732,9 @@ msgstr "Aktualisieren und Hinzufügen von Tests (Einheit, Funktion, etc.)"
 
 msgid "Upstream Institute Training Other Events"
 msgstr "Upstream Institute Training Weitere Veranstaltungen"
+
+msgid "Upstream Training Day"
+msgstr "Upstraim Training Tag"
 
 msgid "Upstream Training in Japan"
 msgstr "Upstream Training in Japan"
@@ -2690,8 +2913,18 @@ msgstr ""
 msgid "Web browser: Firefox"
 msgstr "Webbrowser: Firefox"
 
+msgid ""
+"What action is done on 'Maintained' branches but not branches that are in "
+"'Extended Maintenance'?"
+msgstr ""
+"Welche Aktion wird auf 'maintained' Zweigen getan, aber nicht auf Zweigen in "
+"'Extended Maintenance'?"
+
 msgid "What are the Four Opens?"
 msgstr "Was sind die vier Opens?"
+
+msgid "What are the focuses for the three milestones?"
+msgstr "Was ist der Fokus der drei Meilensteine?"
 
 msgid "What can individual Foundation members do that community members can't?"
 msgstr ""
@@ -2704,6 +2937,10 @@ msgstr ""
 
 msgid "What does ICLA stand for? What is it?"
 msgstr "Wofür steht ICLA? Was ist es?"
+
+msgid "What else can you do with an OpenStack Foundation membership?"
+msgstr ""
+"Was können Sie noch mit einer OpenStack Foundation Mitgliedschaft machen?"
 
 msgid "What happens if you click on a patch under test"
 msgstr "Was passiert, wenn Sie auf einen Patch im Test klicken"
@@ -2719,6 +2956,9 @@ msgstr ""
 "Wenn möglich, sitzen Sie an einem Tisch und bauen Verbindungen mit den "
 "Teilnehmern auf"
 
+msgid "Where can you find a list of all of the OpenStack IRC channels?"
+msgstr "Wo können Sie eine List aller OpenStack IRC Channel finden?"
+
 msgid ""
 "Where is the meeting is conducted (#openstack-meeting, #openstack-meeting-3, "
 "etc)?"
@@ -2733,8 +2973,19 @@ msgstr ""
 "Welche Mitglieder dieser Gruppen stellen sich zur Neuwahl in der nächsten "
 "Runde?"
 
+msgid "Which two models are most OpenStack projects following?"
+msgstr "Welchen zwei Modellen folgen die meisten OpenStack Projekte?"
+
 msgid "Who spoke the most during that meeting?"
 msgstr "Who spoke the most during that meeting?"
+
+msgid "Why are there different dates for some teams and no dates for others?"
+msgstr ""
+"Warum gibe es unterschiedliche Termine für manche Teams und keine Termine "
+"für andere?"
+
+msgid "Why do we care about APC status?"
+msgstr "Warum ist uns APC Status wichtig?"
 
 msgid "Why is there a whole week and not a single day planned?"
 msgstr "Warum ist eine ganze Woche und nicht ein einzelner Tag geplant?"
@@ -2756,6 +3007,22 @@ msgstr ""
 
 msgid "Workflow and Tools for Participation"
 msgstr "Arbeitsabläufe und Werkzeuge für die Teilnahme"
+
+msgid ""
+"Write a commit message body to expand on two of the  summary lines you just "
+"wrote. Feel free to make up details to make the context more realistic."
+msgstr ""
+"Schreiben Sie einen Commit Message Body, um zwei der  "
+"Zusammenfassungszeilen, die Sie gerade geschrieben haben, zu erweitern. "
+"Fühlen Sie sich frei, Details anzugeben, um den Kontext realistischer zu "
+"machen."
+
+msgid ""
+"Write a summary line for each bug, blueprint, and story you created during "
+"our task tracking exercises."
+msgstr ""
+"Schreiben Sie eine Zusammenfassungszeile für jeden Bug, Blueprint und Story, "
+"welche Sie wärhrend der Task Tracking Aufgaben erzeugt haben."
 
 msgid "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 msgstr ""
@@ -2876,6 +3143,20 @@ msgstr ""
 "openstack.org/p/upstream-institute-vietnam-2019>`_"
 
 msgid ""
+"`Etherpad for OpenStack Days Tokyo Upstream Institute <https://etherpad."
+"openstack.org/p/upstream-training-cndt-osdt-tokyo-2019>`_"
+msgstr ""
+"`Etherpad for OpenStack Days Tokyo Upstream Institute <https://etherpad."
+"openstack.org/p/upstream-training-cndt-osdt-tokyo-2019>`_"
+
+msgid ""
+"`Etherpad for OpenStack Upstream Training Day Bangalore <https://etherpad."
+"openstack.org/p/upstream-institute-india-2019>`_"
+msgstr ""
+"`Etherpad für OpenStack Upstream Training Day Bangalore <https://etherpad."
+"openstack.org/p/upstream-institute-india-2019>`_"
+
+msgid ""
 "`Etherpad for Upstream Training, Barcelona, 2016 <https://etherpad.openstack."
 "org/p/upstream-training-barcelona>`_"
 msgstr ""
@@ -2902,6 +3183,13 @@ msgid ""
 msgstr ""
 "`Etherpad für Upstream Training, Vancouver, 2015 <https://etherpad.openstack."
 "org/p/upstream-training-vancouver> `_"
+
+msgid ""
+"`Etherpad for the Shanghai Upstream Collaboration Training <https://etherpad."
+"openstack.org/p/upstream-institute-shanghai-2019>`_"
+msgstr ""
+"`Etherpad für das kommende Shanghi Upstream Collaboration Training <https://"
+"etherpad.openstack.org/p/upstream-institute-shanghai-2019>`_"
 
 msgid ""
 "`Installation Tutorial (Ocata) <https://docs.openstack.org/project-install-"
@@ -2947,11 +3235,21 @@ msgstr "`OpenInfra Days Nordics <https://openinfranordics.com/>`_ event site"
 msgid "`OpenInfra Days Vietnam <http://day.vietopeninfra.org/>`_ event site"
 msgstr "`OpenInfra Days Vietnam <http://day.vietopeninfra.org/>`_ event site"
 
+msgid "`OpenStack Days Tokyo <https://openstackdays.com/>`_ event site"
+msgstr "`OpenStack Days Tokyo <https://openstackdays.com/>`_ event site"
+
 msgid "`OpenStack Events <howitsmade-events.html>`_"
 msgstr "`OpenStack Veranstaltungen <howitsmade-events.html> `_"
 
 msgid "`OpenStack Governance <howitsmade-governance.html>`_"
 msgstr "`OpenStack Governance <howitsmade-governance.html> `_"
+
+msgid ""
+"`OpenStack Upstream Training Day <https://www.meetup.com/Indian-OpenStack-"
+"User-Group/events/265173622/>`_ event site"
+msgstr ""
+"`OpenStack Upstream Training Day <https://www.meetup.com/Indian-OpenStack-"
+"User-Group/events/265173622/>`_ Seite"
 
 msgid ""
 "`OpenStack Upstream Training in Atlanta A Big Success <https://www.openstack."
