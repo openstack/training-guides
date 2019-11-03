@@ -21,7 +21,7 @@ Learning Exercise
 
 Exercise 1
 ==========
-- Look at the `Zuul <http://status.openstack.org/zuul>`_ status page
+- Look at the `Zuul <http://zuul.opendev.org/t/openstack/status>`_ status page
 
   - Find the information that can be retrieved for each patch in a pipeline
 
