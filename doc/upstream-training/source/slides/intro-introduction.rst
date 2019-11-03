@@ -37,7 +37,7 @@ the course, etc.
 Jump on etherpad
 ================
 
-- Open the `training etherpad <https://etherpad.openstack.org/p/upstream-institute-berlin-2018>`_
+- Open the `training etherpad <https://etherpad.openstack.org/p/upstream-institute-shanghai-2019>`_
   for team work
 
 Open the Contributor Guide
