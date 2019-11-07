@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-21 06:58+0000\n"
+"POT-Creation-Date: 2019-11-03 08:42+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1314,9 +1314,6 @@ msgstr "Ildiko Vancsa: ildiko@openstack.org"
 msgid "Ildikó Váncsa – The OpenStack Foundation"
 msgstr "Ildikó Váncsa – The OpenStack Foundation"
 
-msgid "Image: http://bit.ly/vm-2019-denver-v1"
-msgstr "Abbild: http://bit.ly/vm-2019-denver-v1"
-
 msgid "Implementing a blueprint/spec"
 msgstr "Implementierung eines Blueprints / Spezifikation"
 
@@ -1558,10 +1555,6 @@ msgstr ""
 
 msgid "Look at open reviews"
 msgstr "Offene Reviews ansehen"
-
-msgid "Look at the `Zuul <http://status.openstack.org/zuul>`_ status page"
-msgstr ""
-"Schauen Sie auf die Zuul <http://status.openstack.org/zuul> `_ status Seite"
 
 msgid ""
 "Look up an OpenStack (or OpenInfra) Days event close to where you live that "
@@ -1948,13 +1941,6 @@ msgid ""
 msgstr ""
 "Öffnen Sie den`Benutzen von Gerrit <https://docs.openstack.org/contributors/"
 "common/using-gerrit.html>`_ Abschnitt des Contributor Guides."
-
-msgid ""
-"Open the `training etherpad <https://etherpad.openstack.org/p/upstream-"
-"institute-berlin-2018>`_ for team work"
-msgstr ""
-"Öffnen Sie das `Training Etherpad <https://etherpad.openstack.org/p/upstream-"
-"institute-berlin-2018>`_ für Teamarbeit"
 
 msgid "OpenInfra Days Nordics"
 msgstr "OpenInfra Days Nordics"

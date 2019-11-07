@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-17 17:44+0000\n"
+"POT-Creation-Date: 2019-11-03 08:42+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1098,9 +1098,6 @@ msgstr ""
 
 msgid "Look at open reviews"
 msgstr "Açık gözden geçirmelere bak"
-
-msgid "Look at the `Zuul <http://status.openstack.org/zuul>`_ status page"
-msgstr "`Zuul <http://status.openstack.org/zuul>`_ durum sayfasına bakın"
 
 msgid "Look up the location and dates of the next PTG"
 msgstr "Bir sonraki PTG'nin yer ve tarihlerine bakın"
