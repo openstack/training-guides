@@ -5,25 +5,61 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-03 08:42+0000\n"
+"POT-Creation-Date: 2019-11-07 08:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-01-26 03:32+0000\n"
+"PO-Revision-Date: 2019-12-14 04:45+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom)\n"
 "Language: en_GB\n"
 "X-Generator: Zanata 4.3.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
+msgid "**Friday, October 18, 2019**"
+msgstr "**Friday, October 18, 2019**"
+
 msgid "**Mentors**"
 msgstr "**Mentors**"
+
+msgid ""
+"**SCHEDULED: Saturday, November 2nd(1pm - 5pm local time) - Sunday, November "
+"3rd(9am to 5pm local time), 2019**"
+msgstr ""
+"**SCHEDULED: Saturday, November 2nd(1pm - 5pm local time) - Sunday, November "
+"3rd(9am to 5pm local time), 2019**"
 
 msgid "**Staff**"
 msgstr "**Staff**"
 
+msgid "**Sunday, August 25, 2019**"
+msgstr "**Sunday, August 25, 2019**"
+
+msgid "**Tuesday, July 23, 2019**"
+msgstr "**Tuesday, July 23, 2019**"
+
+msgid "**Wednesday, October 2, 2019**"
+msgstr "**Wednesday, October 2, 2019**"
+
+msgid ""
+"*You will use these later when we practice writing commit messages and "
+"pushing patches to the sandbox repo so make them interesting!*"
+msgstr ""
+"*You will use these later when we practice writing commit messages and "
+"pushing patches to the sandbox repo so make them interesting!*"
+
+msgid ""
+"*You will use this later when we practice writing commit messages and "
+"pushing patches to the sandbox repo so make it interesting!*"
+msgstr ""
+"*You will use this later when we practice writing commit messages and "
+"pushing patches to the sandbox repo so make it interesting!*"
+
 msgid "1 day"
 msgstr "1 day"
+
+msgid "1.5 day"
+msgstr "1.5 day"
 
 msgid "13:45 Sagrada Familia"
 msgstr "13:45 Sagrada Familia"
@@ -70,11 +106,20 @@ msgstr "2016 Austin, USA"
 msgid "2016 Barcelona, Spain"
 msgstr "2016 Barcelona, Spain"
 
+msgid "2017"
+msgstr "2017"
+
 msgid "2017 Beijing, China"
 msgstr "2017 Beijing, China"
 
 msgid "2017 Boston, USA"
 msgstr "2017 Boston, USA"
+
+msgid "2018"
+msgstr "2018"
+
+msgid "2019"
+msgstr "2019"
 
 msgid "265 different organizations"
 msgstr "265 different organizations"
@@ -121,6 +166,9 @@ msgstr ":doc:`upstream-training-content`"
 
 msgid ":doc:`upstream-training-summit`"
 msgstr ":doc:`upstream-training-summit`"
+
+msgid ":ref:`upstream-training-day`"
+msgstr ":ref:`upstream-training-day`"
 
 msgid ""
 "A big thank you to everyone that has made this possible, especially Loic "
@@ -228,6 +276,15 @@ msgstr "Answer other's questions or help direct them to those who can"
 msgid "Appropriate Fixes"
 msgstr "Appropriate Fixes"
 
+msgid ""
+"Apr 28: `Open Infrastructure Summit Denver <https://www.openstack.org/summit/"
+"denver-2019/>`_ - `Etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-denver-2019>`__"
+msgstr ""
+"Apr 28: `Open Infrastructure Summit Denver <https://www.openstack.org/summit/"
+"denver-2019/>`_ - `Etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-denver-2019>`__"
+
 msgid "Archive"
 msgstr "Archive"
 
@@ -246,6 +303,15 @@ msgid ""
 msgstr ""
 "Article: `Get up to speed with the OpenStack Upstream Institute <https://"
 "superuser.openstack.org/articles/openstack-upstream-institute-update/>`_"
+
+msgid ""
+"Aside from the sections above, we will cover everything else that is in `the "
+"Contributor Guide <https://docs.openstack.org/contributors/>`_ during the "
+"class."
+msgstr ""
+"Aside from the sections above, we will cover everything else that is in `the "
+"Contributor Guide <https://docs.openstack.org/contributors/>`_ during the "
+"class."
 
 msgid "Ask a mentor to break the *tested* code of one test case"
 msgstr "Ask a mentor to break the *tested* code of one test case"
@@ -277,6 +343,9 @@ msgstr "Attending regular meetings"
 
 msgid "Available metrics"
 msgstr "Available metrics"
+
+msgid "Bangalore,"
+msgstr "Bangalore,"
 
 msgid ""
 "Be able to identify and start a task (bug fix, feature design and "
@@ -364,6 +433,9 @@ msgstr "Check that you can SSH from your laptop to the virtual machine"
 msgid "Check whether the tests failed or not"
 msgstr "Check whether the tests failed or not"
 
+msgid "China"
+msgstr "China"
+
 msgid ""
 "Choose a service and issue an API call or use its client to verify "
 "functionality"
@@ -445,8 +517,26 @@ msgstr ""
 "Companies: big industrial items like a shopping centre, car park, energy "
 "plant, data centre, and hospital."
 
+msgid ""
+"Compare the different deadlines for different project activities that are on "
+"the release schedules"
+msgstr ""
+"Compare the different deadlines for different project activities that are on "
+"the release schedules"
+
 msgid "Complete content of Upstream Institute Training can be seen here:"
 msgstr "Complete content of Upstream Institute Training can be seen here:"
+
+msgid ""
+"Complete the ``Configure Git`` steps documented on the `Setup and Learn GIT "
+"<https://docs.openstack.org/contributors/common/git.html>`_ page.  If you "
+"are not familiar with Git you may want to also read the content under the "
+"``Learning Git`` section."
+msgstr ""
+"Complete the ``Configure Git`` steps documented on the `Setup and Learn GIT "
+"<https://docs.openstack.org/contributors/common/git.html>`_ page.  If you "
+"are not familiar with Git you may want to also read the content under the "
+"``Learning Git`` section."
 
 msgid "Configure your workspace"
 msgstr "Configure your workspace"
@@ -497,6 +587,13 @@ msgstr ""
 "Create a blueprint based upon concrete activities, times and any other "
 "details your group thinks are appropriate."
 
+msgid ""
+"Create a board with at least two worklists (one manual and one automatic) "
+"for organizing stories you are going to create in the next exercise."
+msgstr ""
+"Create a board with at least two worklists (one manual and one automatic) "
+"for organising stories you are going to create in the next exercise."
+
 msgid "Create a draft .rst file with an outline for the itinerary."
 msgstr "Create a draft .rst file with an outline for the itinerary."
 
@@ -527,6 +624,15 @@ msgid ""
 msgstr ""
 "Create and submit a bug to our sandbox repository. Include at least one tag "
 "when creating your bug. Once it has been created, assign it to yourself."
+
+msgid ""
+"Create three stories for your worklists. At least one of them should meet "
+"the criteria that enables it to appear in your automatic worklist. Each "
+"story must have a task that is named differently than the story name."
+msgstr ""
+"Create three stories for your worklists. At least one of them should meet "
+"the criteria that enables it to appear in your automatic worklist. Each "
+"story must have a task that is named differently than the story name."
 
 msgid "Create your commit and push upstream for review"
 msgstr "Create your commit and push upstream for review"
@@ -662,6 +768,9 @@ msgstr "Documentation Deep Dive"
 msgid "Documentation team structure"
 msgstr "Documentation team structure"
 
+msgid "Documentation: https://docs.openstack.org/devstack/"
+msgstr "Documentation: https://docs.openstack.org/devstack/"
+
 msgid "Don't game the numbers"
 msgstr "Don't game the numbers"
 
@@ -785,6 +894,9 @@ msgstr "Example of IRC meeting commands:"
 msgid "Example:"
 msgstr "Example:"
 
+msgid "Example: `Heat repository <https://opendev.org/openstack/heat/>`_"
+msgstr "Example: `Heat repository <https://opendev.org/openstack/heat/>`_"
+
 msgid ""
 "Examples: You can ask a question about the issue or proposed feature. You "
 "can confirm the issue and update its status to triaged."
@@ -862,6 +974,12 @@ msgstr ""
 "Find out what the modification is by running the test and analysing the test "
 "output"
 
+msgid "Find the current members of the Board of Directors"
+msgstr "Find the current members of the Board of Directors"
+
+msgid "Find the current members of the TC and UC"
+msgstr "Find the current members of the TC and UC"
+
 msgid "Find the information that can be retrieved for each patch in a pipeline"
 msgstr ""
 "Find the information that can be retrieved for each patch in a pipeline"
@@ -932,6 +1050,15 @@ msgid ""
 msgstr ""
 "For more information about the past trainings and the local upstream "
 "trainings, see :doc:`upstream-archives`."
+
+msgid ""
+"For the automatic worklist, give at least two criteria for the items that "
+"will go into the worklist. These criteria can be matching a project-group, "
+"story tag, etc."
+msgstr ""
+"For the automatic worklist, give at least two criteria for the items that "
+"will go into the worklist. These criteria can be matching a project-group, "
+"story tag, etc."
 
 msgid ""
 "For the cores you found earlier, figure out what time zone they are probably "
@@ -1021,6 +1148,28 @@ msgstr ""
 "Go post comments on a bug or add some ideas on a blueprint's whiteboard that "
 "was created by someone in your group."
 
+msgid ""
+"Go to the `Account Setup <https://docs.openstack.org/contributors/common/"
+"accounts.html>`_ page and complete the steps documented there to setup your "
+"OpenStack Foundation Account and accounts for accessing OpenStack's bug and "
+"task tracking systems."
+msgstr ""
+"Go to the `Account Setup <https://docs.openstack.org/contributors/common/"
+"accounts.html>`_ page and complete the steps documented there to setup your "
+"OpenStack Foundation Account and accounts for accessing OpenStack's bug and "
+"task tracking systems."
+
+msgid ""
+"Go to the `Setting Up Your Gerrit Account <https://docs.openstack.org/"
+"contributors/common/setup-gerrit.html>`_ page and follow the steps for "
+"``Sign Up``, ``Individual Contributor License Agreement``, and optionally, "
+"the ``Setup SSH Keys``."
+msgstr ""
+"Go to the `Setting Up Your Gerrit Account <https://docs.openstack.org/"
+"contributors/common/setup-gerrit.html>`_ page and follow the steps for "
+"``Sign Up``, ``Individual Contributor License Agreement``, and optionally, "
+"the ``Setup SSH Keys``."
+
 msgid "Group exercise"
 msgstr "Group exercise"
 
@@ -1044,8 +1193,22 @@ msgstr ""
 msgid "How do you initialize your local repo with git review?"
 msgstr "How do you initialise your local repo with git review?"
 
+msgid "How long are OpenStack releases 'Maintained' by the community?"
+msgstr "How long are OpenStack releases 'Maintained' by the community?"
+
+msgid "How many SIGs are there? Name two."
+msgstr "How many SIGs are there? Name two."
+
 msgid "How many gate and check jobs are running"
 msgstr "How many gate and check jobs are running"
+
+msgid ""
+"How many of each type of member are there? (Platinum, Gold, and Individual)"
+msgstr ""
+"How many of each type of member are there? (Platinum, Gold, and Individual)"
+
+msgid "How many release models are there?"
+msgstr "How many release models are there?"
 
 msgid "How to deploy OpenStack"
 msgstr "How to deploy OpenStack"
@@ -1087,6 +1250,9 @@ msgid ""
 msgstr ""
 "If people know you, you have a better chance at your code getting attention."
 
+msgid "If there are no events planned, is there a meetup group?"
+msgstr "If there are no events planned, is there a meetup group?"
+
 msgid ""
 "If there aren't enough mentors or every table has one already, float around "
 "the room checking in on people, especially during exercises"
@@ -1102,6 +1268,15 @@ msgstr ""
 "If you are a developer we help you to find your way into the community to "
 "get your bug fix or feature accepted in the OpenStack project in a minimum "
 "amount of time."
+
+msgid ""
+"If you are attempting the steps above in the week before the OpenStack "
+"Upstream Institute class and need assistance you can find mentors in the "
+"#openstack-upstream-institute channel on irc.freenode.net."
+msgstr ""
+"If you are attempting the steps above in the week before the OpenStack "
+"Upstream Institute class and need assistance you can find mentors in the "
+"#openstack-upstream-institute channel on irc.freenode.net."
 
 msgid "If you are not presenting, remain engaged with the class"
 msgstr "If you are not presenting, remain engaged with the class"
@@ -1126,6 +1301,9 @@ msgstr "Ildiko Vancsa: ildiko@openstack.org"
 
 msgid "Ildikó Váncsa – The OpenStack Foundation"
 msgstr "Ildikó Váncsa – The OpenStack Foundation"
+
+msgid "Image: http://bit.ly/vm-2019-shanghai-v1"
+msgstr "Image: http://bit.ly/vm-2019-shanghai-v1"
 
 msgid "Implementing a blueprint/spec"
 msgstr "Implementing a blueprint/spec"
@@ -1155,6 +1333,9 @@ msgstr "Incentivise participation"
 
 msgid "Incompatible config file changes"
 msgstr "Incompatible config file changes"
+
+msgid "India"
+msgstr "India"
 
 msgid "Infrastructure"
 msgstr "Infrastructure"
@@ -1223,6 +1404,13 @@ msgstr "Join the openstack-discuss mailing list"
 msgid "Join the project's IRC channel"
 msgstr "Join the project's IRC channel"
 
+msgid ""
+"Jul 27-28: OpenStack Days Brazil 2018 - `Etherpad <https://etherpad."
+"openstack.org/p/upstream-institute-brazil-2018>`__"
+msgstr ""
+"Jul 27-28: OpenStack Days Brazil 2018 - `Etherpad <https://etherpad."
+"openstack.org/p/upstream-institute-brazil-2018>`__"
+
 msgid "Julie Pichon (training, mentoring, assistant, english)"
 msgstr "Julie Pichon (training, mentoring, assistant, english)"
 
@@ -1231,6 +1419,25 @@ msgstr "July 6 - 7, 2016 (Wed - Thu)"
 
 msgid "July 9 - 10, 2015 (Thu - Fri)"
 msgstr "July 9 - 10, 2015 (Thu - Fri)"
+
+msgid "Jump on etherpad"
+msgstr "Jump on Etherpad"
+
+msgid ""
+"Jun 11-12: `OpenStack Days Poland <http://www.openstackday.pl/>`__ - "
+"`Etherpad <https://etherpad.openstack.org/p/upstream-institute-"
+"poland-2018>`__"
+msgstr ""
+"Jun 11-12: `OpenStack Days Poland <http://www.openstackday.pl/>`__ - "
+"`Etherpad <https://etherpad.openstack.org/p/upstream-institute-"
+"poland-2018>`__"
+
+msgid ""
+"Jun 28-29: `Open Infra Days Korea <https://www.openinfradays.kr/2018/>`__ - "
+"`Etherpad <https://etherpad.openstack.org/p/upstream-institute-korea-2018>`__"
+msgstr ""
+"Jun 28-29: `Open Infra Days Korea <https://www.openinfradays.kr/2018/>`__ - "
+"`Etherpad <https://etherpad.openstack.org/p/upstream-institute-korea-2018>`__"
 
 msgid "Jungsu Han (assistant, mentoring)"
 msgstr "Jungsu Han (assistant, mentoring)"
@@ -1330,6 +1537,18 @@ msgstr "Loic Dachary (training, mentoring, assistant, french, english) - lead"
 msgid "Look at open reviews"
 msgstr "Look at open reviews"
 
+msgid ""
+"Look at the `Zuul <http://zuul.opendev.org/t/openstack/status>`_ status page"
+msgstr ""
+"Look at the `Zuul <http://zuul.opendev.org/t/openstack/status>`_ status page"
+
+msgid ""
+"Look up an OpenStack (or OpenInfra) Days event close to where you live that "
+"you would be interested in attending"
+msgstr ""
+"Look up an OpenStack (or OpenInfra) Days event close to where you live that "
+"you would be interested in attending"
+
 msgid "Look up the location and dates of the next PTG"
 msgstr "Look up the location and dates of the next PTG"
 
@@ -1344,6 +1563,13 @@ msgstr ""
 "Look up the project you are most interested in and find the three most "
 "active core reviewers (people that would be good to know for review help and "
 "getting your patches merged)."
+
+msgid ""
+"Look up the release schedule for the current active and previous OpenStack "
+"release cycles and share the link in the etherpad"
+msgstr ""
+"Look up the release schedule for the current active and previous OpenStack "
+"release cycles and share the link in the etherpad"
 
 msgid ""
 "Look up when the next meeting is for the project who's channel you joined"
@@ -1366,6 +1592,15 @@ msgstr "Make changes and push new patchsets"
 
 msgid "Make code changes"
 msgstr "Make code changes"
+
+msgid ""
+"Make sure you `RSVP <https://www.openstack.org/summit/shanghai-2019/summit-"
+"schedule/events/24344/openstack-upstream-institute-day-1-sponsored-by-lenovo-"
+"rsvp-required>`_!"
+msgstr ""
+"Make sure you `RSVP <https://www.openstack.org/summit/shanghai-2019/summit-"
+"schedule/events/24344/openstack-upstream-institute-day-1-sponsored-by-lenovo-"
+"rsvp-required>`_!"
 
 msgid "Make sure you have a wifi enabled laptop with you."
 msgstr "Make sure you have a WiFi enabled laptop with you."
@@ -1468,11 +1703,35 @@ msgstr "Márk Korondi – IBM Research Zürich"
 msgid "Márton Kiss – Aptira"
 msgstr "Márton Kiss – Aptira"
 
+msgid "Name one activity you can do to get AUC status"
+msgstr "Name one activity you can do to get AUC status"
+
 msgid "Namgon Lucas Kim (assistant, mentoring)"
 msgstr "Namgon Lucas Kim (assistant, mentoring)"
 
 msgid "New features"
 msgstr "New features"
+
+msgid ""
+"Nov 04-05: `OpenStack Summit Sydney <https://www.openstack.org/summit/"
+"sydney-2017/>`_ - `Etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-sydney-2017>`__"
+msgstr ""
+"Nov 04-05: `OpenStack Summit Sydney <https://www.openstack.org/summit/"
+"sydney-2017/>`_ - `Etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-sydney-2017>`__"
+
+msgid ""
+"Nov 11-12: `OpenStack Summit Berlin <https://www.openstack.org/summit/"
+"berlin-2018/>`_ - `Etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-berlin-2018>`__"
+msgstr ""
+"Nov 11-12: `OpenStack Summit Berlin <https://www.openstack.org/summit/"
+"berlin-2018/>`_ - `Etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-berlin-2018>`__"
+
+msgid "November 2 -3, 2019"
+msgstr "November 2 -3, 2019"
 
 msgid "Numbers should not be used as an indication for competition"
 msgstr "Numbers should not be used as an indication for competition"
@@ -1480,8 +1739,29 @@ msgstr "Numbers should not be used as an indication for competition"
 msgid "Objectives"
 msgstr "Objectives"
 
+msgid ""
+"Oct 18: `OpenStack Days Nordic <https://openinfranordics.com/openstack-days-"
+"nordic-2017/>`__ - `Etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-nordic-2017>`__"
+msgstr ""
+"Oct 18: `OpenStack Days Nordic <https://openinfranordics.com/openstack-days-"
+"nordic-2017/>`__ - `Etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-nordic-2017>`__"
+
+msgid ""
+"Oct 9: `OpenStack Days Nordics <http://stockholm.openstacknordic.org/>`__ - "
+"`Etherpad <https://etherpad.openstack.org/p/upstream-institute-"
+"nordics-2018>`__"
+msgstr ""
+"Oct 9: `OpenStack Days Nordics <http://stockholm.openstacknordic.org/>`__ - "
+"`Etherpad <https://etherpad.openstack.org/p/upstream-institute-"
+"nordics-2018>`__"
+
 msgid "October 10 - 11, 2014 (Fri - Sat)"
 msgstr "October 10 - 11, 2014 (Fri - Sat)"
+
+msgid "October 18, 2019"
+msgstr "October 18, 2019"
 
 msgid ""
 "Once the students are separated into their new roles, and have an "
@@ -1520,6 +1800,12 @@ msgstr ""
 
 msgid "Online Communication"
 msgstr "Online Communication"
+
+msgid "Open Infra Summit Shanghai"
+msgstr "Open Infra Summit Shanghai"
+
+msgid "Open Infrastructure Summit Shanghai"
+msgstr "Open Infrastructure Summit Shanghai"
 
 msgid ""
 "Open an *upstream training* IRC meeting and make consensus from various "
@@ -1636,6 +1922,22 @@ msgstr ""
 "Open the `Using Gerrit <https://docs.openstack.org/contributors/code-and-"
 "documentation/using-gerrit.html>`_ section of the Contributor Guide"
 
+msgid ""
+"Open the `training etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-shanghai-2019>`_ for team work"
+msgstr ""
+"Open the `training etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-shanghai-2019>`_ for team work"
+
+msgid "OpenInfra Days Nordics"
+msgstr "OpenInfra Days Nordics"
+
+msgid "OpenInfra Days Vietnam"
+msgstr "OpenInfra Days Vietnam"
+
+msgid "OpenStack Days Tokyo"
+msgstr "OpenStack Days Tokyo"
+
 msgid "OpenStack Documentation"
 msgstr "OpenStack Documentation"
 
@@ -1671,6 +1973,9 @@ msgstr "OpenStack Upstream Training"
 
 msgid "OpenStack Upstream Training Archives"
 msgstr "OpenStack Upstream Training Archives"
+
+msgid "OpenStack Upstream Training Day Bangalore"
+msgstr "OpenStack Upstream Training Day Bangalore"
 
 msgid "OpenStack Upstream Training Introductions"
 msgstr "OpenStack Upstream Training Introductions"
@@ -1733,6 +2038,9 @@ msgstr "Please note that the language of the training is English."
 msgid "Prepare an environment by yourself from scratch:"
 msgstr "Prepare an environment by yourself from scratch:"
 
+msgid "Prepare git in the virtual machine that was created above:"
+msgstr "Prepare Git in the virtual machine that was created above:"
+
 msgid "Prerequisite and best practice guide for trainees:"
 msgstr "Prerequisite and best practice guide for trainees:"
 
@@ -1777,6 +2085,15 @@ msgstr ""
 
 msgid "Publicly available statistics about the community"
 msgstr "Publicly available statistics about the community"
+
+msgid ""
+"Put the pieces together and finish your commit message! Make sure to include "
+"the summary line, body, and the required external references along with any "
+"optional external references you think it may benefit from."
+msgstr ""
+"Put the pieces together and finish your commit message! Make sure to include "
+"the summary line, body, and the required external references along with any "
+"optional external references you think it may benefit from."
 
 msgid ""
 "REMEMBER: This is open source. Things happen on the community's schedule, "
@@ -1899,8 +2216,17 @@ msgstr ""
 msgid "See EOL status at: https://releases.openstack.org"
 msgstr "See EOL status at: https://releases.openstack.org"
 
+msgid "See YOU in Bangalore!"
+msgstr "See YOU in Bangalore!"
+
 msgid "See YOU in Stockholm!"
 msgstr "See YOU in Stockholm!"
+
+msgid "See YOU in Tokyo!"
+msgstr "See YOU in Tokyo!"
+
+msgid "See YOU in Vietnam!"
+msgstr "See YOU in Vietnam!"
 
 msgid ""
 "See this web page and the schedule of the upcoming class for more details "
@@ -1919,6 +2245,13 @@ msgid "Seoul, Korea"
 msgstr "Seoul, Korea"
 
 msgid ""
+"Sep 26: OpenStack Days UK 2017 - `Etherpad <https://etherpad.openstack.org/p/"
+"upstream-institute-uk-2017>`__"
+msgstr ""
+"Sep 26: OpenStack Days UK 2017 - `Etherpad <https://etherpad.openstack.org/p/"
+"upstream-institute-uk-2017>`__"
+
+msgid ""
 "Services in DevStack are running as ``systemd`` units named devstack@"
 "$servicename.service"
 msgstr ""
@@ -1934,8 +2267,31 @@ msgstr "Setup git & Commit Messages"
 msgid "Setup the Development Environment"
 msgstr "Setup the Development Environment"
 
+msgid "Shanghai,"
+msgstr "Shanghai,"
+
 msgid "Share something you find interesting from the proposed agenda"
 msgstr "Share something you find interesting from the proposed agenda"
+
+msgid ""
+"Share the commit message with someone sitting next to you. Give them "
+"feedback on their commit messages."
+msgstr ""
+"Share the commit message with someone sitting next to you. Give them "
+"feedback on their commit messages."
+
+msgid "Share them  in IRC."
+msgstr "Share them  in IRC."
+
+msgid "Share them in our IRC channel."
+msgstr "Share them in our IRC channel."
+
+msgid ""
+"Share your board with your group. Assign yourself to two tasks on other "
+"people's stories. Comment on one story."
+msgstr ""
+"Share your board with your group. Assign yourself to two tasks on other "
+"people's stories. Comment on one story."
 
 msgid "Shinobu KINJO (mentoring, assistant, japanese)"
 msgstr "Shinobu KINJO (mentoring, assistant, japanese)"
@@ -2168,6 +2524,15 @@ msgstr ""
 "with different job roles."
 
 msgid ""
+"The upcoming `Open Infrastructure Summit <https://www.openstack.org/summit/"
+"shanghai-2019>`_ will be in Shanghai in November with a full training "
+"running prior to the event."
+msgstr ""
+"The upcoming `Open Infrastructure Summit <https://www.openstack.org/summit/"
+"shanghai-2019>`_ will be in Shanghai in November with a full training "
+"running prior to the event."
+
+msgid ""
 "There is a Forum session in Boston about the future of Stackalytics as there "
 "are issues with the tool. As we don't have a replacement as of now we can "
 "still share info about the currently available tool."
@@ -2175,6 +2540,13 @@ msgstr ""
 "There is a Forum session in Boston about the future of Stackalytics as there "
 "are issues with the tool. As we don't have a replacement as of now we can "
 "still share info about the currently available tool."
+
+msgid ""
+"There will also be office hours from 4 to 6 pm at the Former Saint Craft "
+"Kitchen and Taps in the Hyatt on Saturday, April 27th, 2019."
+msgstr ""
+"There will also be office hours from 4 to 6 pm at the Former Saint Craft "
+"Kitchen and Taps in the Hyatt on Saturday, April 27th, 2019."
 
 msgid ""
 "These slides prepare students for the Lego activity, and ensure they "
@@ -2326,6 +2698,9 @@ msgstr "Update and add tests (unit, functional, etc.)"
 
 msgid "Upstream Institute Training Other Events"
 msgstr "Upstream Institute Training Other Events"
+
+msgid "Upstream Training Day"
+msgstr "Upstream Training Day"
 
 msgid "Upstream Training in Japan"
 msgstr "Upstream Training in Japan"
@@ -2496,8 +2871,18 @@ msgstr ""
 msgid "Web browser: Firefox"
 msgstr "Web browser: Firefox"
 
+msgid ""
+"What action is done on 'Maintained' branches but not branches that are in "
+"'Extended Maintenance'?"
+msgstr ""
+"What action is done on 'Maintained' branches but not branches that are in "
+"'Extended Maintenance'?"
+
 msgid "What are the Four Opens?"
 msgstr "What are the Four Opens?"
+
+msgid "What are the focuses for the three milestones?"
+msgstr "What are the focuses for the three milestones?"
 
 msgid "What can individual Foundation members do that community members can't?"
 msgstr ""
@@ -2508,6 +2893,9 @@ msgstr "What command do you use to modify a patch within a chain?"
 
 msgid "What does ICLA stand for? What is it?"
 msgstr "What does ICLA stand for? What is it?"
+
+msgid "What else can you do with an OpenStack Foundation membership?"
+msgstr "What else can you do with an OpenStack Foundation membership?"
 
 msgid "What happens if you click on a patch under test"
 msgstr "What happens if you click on a patch under test"
@@ -2520,6 +2908,9 @@ msgstr "What is the significance of the dots, lines and colours"
 
 msgid "When possible, sit at a table and build connections with attendees"
 msgstr "When possible, sit at a table and build connections with attendees"
+
+msgid "Where can you find a list of all of the OpenStack IRC channels?"
+msgstr "Where can you find a list of all of the OpenStack IRC channels?"
 
 msgid ""
 "Where is the meeting is conducted (#openstack-meeting, #openstack-meeting-3, "
@@ -2535,8 +2926,17 @@ msgstr ""
 "Which members of these groups will be up for re-election during the next "
 "round?"
 
+msgid "Which two models are most OpenStack projects following?"
+msgstr "Which two models are most OpenStack projects following?"
+
 msgid "Who spoke the most during that meeting?"
 msgstr "Who spoke the most during that meeting?"
+
+msgid "Why are there different dates for some teams and no dates for others?"
+msgstr "Why are there different dates for some teams and no dates for others?"
+
+msgid "Why do we care about APC status?"
+msgstr "Why do we care about APC status?"
 
 msgid "Why is there a whole week and not a single day planned?"
 msgstr "Why is there a whole week and not a single day planned?"
@@ -2558,6 +2958,20 @@ msgstr ""
 
 msgid "Workflow and Tools for Participation"
 msgstr "Workflow and Tools for Participation"
+
+msgid ""
+"Write a commit message body to expand on two of the  summary lines you just "
+"wrote. Feel free to make up details to make the context more realistic."
+msgstr ""
+"Write a commit message body to expand on two of the  summary lines you just "
+"wrote. Feel free to make up details to make the context more realistic."
+
+msgid ""
+"Write a summary line for each bug, blueprint, and story you created during "
+"our task tracking exercises."
+msgstr ""
+"Write a summary line for each bug, blueprint, and story you created during "
+"our task tracking exercises."
 
 msgid "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 msgstr "Xavier Antoviaque (training, mentoring, assistant, french, english)"
@@ -2630,6 +3044,23 @@ msgstr ""
 "`Developer documentation <https://docs.openstack.org/heat/>`_ is published "
 "from doc directory in master branch"
 
+msgid ""
+"`Docs cores <https://review.opendev.org/#/admin/groups/30,members>`_ and "
+"separate core teams for `docs-specs <https://review.opendev.org/#/admin/"
+"groups/384,members>`_ , `contributor-guide <https://review.opendev.org/#/"
+"admin/groups/1841,members>`_ , `security-doc <https://review.opendev.org/#/"
+"admin/groups/347,members>`_ , `training-guides <https://review.opendev.org/#/"
+"admin/groups/360,members>`_ , and `training-labs <https://review.opendev.org/"
+"#/admin/groups/1118,members>`_"
+msgstr ""
+"`Docs cores <https://review.opendev.org/#/admin/groups/30,members>`_ and "
+"separate core teams for `docs-specs <https://review.opendev.org/#/admin/"
+"groups/384,members>`_ , `contributor-guide <https://review.opendev.org/#/"
+"admin/groups/1841,members>`_ , `security-doc <https://review.opendev.org/#/"
+"admin/groups/347,members>`_ , `training-guides <https://review.opendev.org/#/"
+"admin/groups/360,members>`_ , and `training-labs <https://review.opendev.org/"
+"#/admin/groups/1118,members>`_"
+
 msgid "`Documentation Deep Dive <docs.html>`_"
 msgstr "`Documentation Deep Dive <docs.html>`_"
 
@@ -2646,6 +3077,34 @@ msgid "`Environment Setup <development-environment-setup.html>`_"
 msgstr "`Environment Setup <development-environment-setup.html>`_"
 
 msgid ""
+"`Etherpad for OpenInfra Days Nordics Upstream Institute <https://etherpad."
+"openstack.org/p/upstream-institute-nordics-2019>`_"
+msgstr ""
+"`Etherpad for OpenInfra Days Nordics Upstream Institute <https://etherpad."
+"openstack.org/p/upstream-institute-nordics-2019>`_"
+
+msgid ""
+"`Etherpad for OpenInfra Days Vietnam Upstream Institute <https://etherpad."
+"openstack.org/p/upstream-institute-vietnam-2019>`_"
+msgstr ""
+"`Etherpad for OpenInfra Days Vietnam Upstream Institute <https://etherpad."
+"openstack.org/p/upstream-institute-vietnam-2019>`_"
+
+msgid ""
+"`Etherpad for OpenStack Days Tokyo Upstream Institute <https://etherpad."
+"openstack.org/p/upstream-training-cndt-osdt-tokyo-2019>`_"
+msgstr ""
+"`Etherpad for OpenStack Days Tokyo Upstream Institute <https://etherpad."
+"openstack.org/p/upstream-training-cndt-osdt-tokyo-2019>`_"
+
+msgid ""
+"`Etherpad for OpenStack Upstream Training Day Bangalore <https://etherpad."
+"openstack.org/p/upstream-institute-india-2019>`_"
+msgstr ""
+"`Etherpad for OpenStack Upstream Training Day Bangalore <https://etherpad."
+"openstack.org/p/upstream-institute-india-2019>`_"
+
+msgid ""
 "`Etherpad for Upstream Training, Barcelona, 2016 <https://etherpad.openstack."
 "org/p/upstream-training-barcelona>`_"
 msgstr ""
@@ -2672,6 +3131,13 @@ msgid ""
 msgstr ""
 "`Etherpad for Upstream Training, Vancouver, 2015 <https://etherpad.openstack."
 "org/p/upstream-training-vancouver>`_"
+
+msgid ""
+"`Etherpad for the Shanghai Upstream Collaboration Training <https://etherpad."
+"openstack.org/p/upstream-institute-shanghai-2019>`_"
+msgstr ""
+"`Etherpad for the Shanghai Upstream Collaboration Training <https://etherpad."
+"openstack.org/p/upstream-institute-shanghai-2019>`_"
 
 msgid ""
 "`Installation Tutorial (Ocata) <https://docs.openstack.org/project-install-"
@@ -2711,11 +3177,27 @@ msgstr ""
 "`Official deliverables with repositories <https://governance.openstack.org/"
 "tc/reference/projects/documentation.html#deliverables>`_"
 
+msgid "`OpenInfra Days Nordics <https://openinfranordics.com/>`_ event site"
+msgstr "`OpenInfra Days Nordics <https://openinfranordics.com/>`_ event site"
+
+msgid "`OpenInfra Days Vietnam <http://day.vietopeninfra.org/>`_ event site"
+msgstr "`OpenInfra Days Vietnam <http://day.vietopeninfra.org/>`_ event site"
+
+msgid "`OpenStack Days Tokyo <https://openstackdays.com/>`_ event site"
+msgstr "`OpenStack Days Tokyo <https://openstackdays.com/>`_ event site"
+
 msgid "`OpenStack Events <howitsmade-events.html>`_"
 msgstr "`OpenStack Events <howitsmade-events.html>`_"
 
 msgid "`OpenStack Governance <howitsmade-governance.html>`_"
 msgstr "`OpenStack Governance <howitsmade-governance.html>`_"
+
+msgid ""
+"`OpenStack Upstream Training Day <https://www.meetup.com/Indian-OpenStack-"
+"User-Group/events/265173622/>`_ event site"
+msgstr ""
+"`OpenStack Upstream Training Day <https://www.meetup.com/Indian-OpenStack-"
+"User-Group/events/265173622/>`_ event site"
 
 msgid ""
 "`OpenStack Upstream Training in Atlanta A Big Success <https://www.openstack."
