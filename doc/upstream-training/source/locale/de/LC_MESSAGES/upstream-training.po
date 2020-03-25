@@ -5,15 +5,16 @@
 # Robert Simai <robert.simai@suse.com>, 2018. #zanata
 # Andreas Jaeger <jaegerandi@gmail.com>, 2019. #zanata
 # Frank Kloeker <eumel@arcor.de>, 2019. #zanata
+# Andreas Jaeger <jaegerandi@gmail.com>, 2020. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-03 08:42+0000\n"
+"POT-Creation-Date: 2019-12-15 09:09+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-10-27 12:27+0000\n"
+"PO-Revision-Date: 2020-03-25 07:33+0000\n"
 "Last-Translator: Andreas Jaeger <jaegerandi@gmail.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -645,7 +646,7 @@ msgstr ""
 "benannt ist als der Name der Story."
 
 msgid "Create your commit and push upstream for review"
-msgstr "Erstellen Sie Ihr Commit und drücken Sie upstreams für den Revew"
+msgstr "Erstellen Sie Ihren Commit und pushen ihn Upstream zum Review"
 
 msgid ""
 "Crews: `Beijing Crew <https://wiki.openstack.org/wiki/"
@@ -1314,6 +1315,9 @@ msgstr "Ildiko Vancsa: ildiko@openstack.org"
 msgid "Ildikó Váncsa – The OpenStack Foundation"
 msgstr "Ildikó Váncsa – The OpenStack Foundation"
 
+msgid "Image: http://bit.ly/vm-2019-shanghai-v1"
+msgstr "Abbild: http://bit.ly/vm-2019-shanghai-v1"
+
 msgid "Implementing a blueprint/spec"
 msgstr "Implementierung eines Blueprints / Spezifikation"
 
@@ -1555,6 +1559,12 @@ msgstr ""
 
 msgid "Look at open reviews"
 msgstr "Offene Reviews ansehen"
+
+msgid ""
+"Look at the `Zuul <http://zuul.opendev.org/t/openstack/status>`_ status page"
+msgstr ""
+"Schauen Sie auf die Zuul <http://zuul.opendev.org/t/openstack/status> `_ "
+"Status Seite"
 
 msgid ""
 "Look up an OpenStack (or OpenInfra) Days event close to where you live that "
@@ -1942,6 +1952,13 @@ msgstr ""
 "Öffnen Sie den`Benutzen von Gerrit <https://docs.openstack.org/contributors/"
 "common/using-gerrit.html>`_ Abschnitt des Contributor Guides."
 
+msgid ""
+"Open the `training etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-shanghai-2019>`_ for team work"
+msgstr ""
+"Öffnen Sie das `Training Etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-shanghai-2019>`_ für Team Arbeit."
+
 msgid "OpenInfra Days Nordics"
 msgstr "OpenInfra Days Nordics"
 
@@ -2283,6 +2300,13 @@ msgstr "Shanghai,"
 
 msgid "Share something you find interesting from the proposed agenda"
 msgstr "Share something you find interesting from the proposed agenda"
+
+msgid ""
+"Share the commit message with someone sitting next to you. Give them "
+"feedback on their commit messages."
+msgstr ""
+"Teilen Sie die Commit-Nachricht mit jemand, der neben ihnen sitzt. Geben Sie "
+"ihnen Feedback zu ihren Commit-Nachrichten."
 
 msgid "Share them  in IRC."
 msgstr "Teile Sie auf IRC."
