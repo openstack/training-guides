@@ -2,7 +2,7 @@
 # of appearance. Changing the order has an impact on the overall integration
 # process, which may cause wedges in the gate later.
 pbr>=1.6
-sphinx>=1.6.2 # BSD
+sphinx>=1.6.2,!=3.0.0 # BSD
 openstackdocstheme>=1.20.0
 hieroglyph>=1.0.0
 doc8
