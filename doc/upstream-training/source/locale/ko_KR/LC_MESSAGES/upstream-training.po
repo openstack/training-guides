@@ -37,15 +37,16 @@
 # yunha Cho <jyh_5530@naver.com>, 2018. #zanata
 # Ian Y. Choi <ianyrchoi@gmail.com>, 2019. #zanata
 # SeongSoo Cho <ppiyakk2@printf.kr>, 2019. #zanata
+# SeongSoo Cho <ppiyakk2@printf.kr>, 2020. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-03 08:42+0000\n"
+"POT-Creation-Date: 2020-04-17 09:24+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-10-14 11:42+0000\n"
+"PO-Revision-Date: 2020-05-05 02:06+0000\n"
 "Last-Translator: SeongSoo Cho <ppiyakk2@printf.kr>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko_KR\n"
@@ -76,6 +77,20 @@ msgstr "**2019년 7월 23일, 화요일**"
 
 msgid "**Wednesday, October 2, 2019**"
 msgstr "**2019년 10월 2일, 수요일**"
+
+msgid ""
+"*You will use these later when we practice writing commit messages and "
+"pushing patches to the sandbox repo so make them interesting!*"
+msgstr ""
+"*나중에 sandbox 저장소에 커밋 메시지를 작성하고, 패치를 보낼 때 이것들을 사용"
+"할 것 입니다. 재미있게 만들어주세요!*"
+
+msgid ""
+"*You will use this later when we practice writing commit messages and "
+"pushing patches to the sandbox repo so make it interesting!*"
+msgstr ""
+"*나중에 sandbox 저장소에 커밋 메시지를 작성하고, 패치를 보낼 때 이것들을 사용"
+"할 것 입니다. 재미있게 만들어주세요!*"
 
 msgid "1 day"
 msgstr "1일차"
@@ -539,6 +554,13 @@ msgstr ""
 "회사: 쇼핑몰, 자동차 주차장, 에너지 발전소, 데이터센터, 그리고 병원과 같은 커"
 "다란 산업 아이템"
 
+msgid ""
+"Compare the different deadlines for different project activities that are on "
+"the release schedules"
+msgstr ""
+"다른 두 프로젝트 팀의 마감기한을 비교해보고 그 차이점을 당신의 그룹과 논의하"
+"십시오."
+
 msgid "Complete content of Upstream Institute Training can be seen here:"
 msgstr "Upstream Institute 트레이닝의 전체 내용은 이곳에서 볼 수 있습니다:"
 
@@ -598,6 +620,13 @@ msgstr ""
 "구체적인 활동, 일정 및 그룹에 적절하다고 생각하는 기타 세부 사항을 기반으로 "
 "하는 blueprint를 생성합니다."
 
+msgid ""
+"Create a board with at least two worklists (one manual and one automatic) "
+"for organizing stories you are going to create in the next exercise."
+msgstr ""
+"다음 연습에서 만들 스토리를 구성하기 위해 적어도 두개의 worklist(하나는 "
+"automatic으로, 하나는 manual로) 를 가진 보드를 만드세요."
+
 msgid "Create a draft .rst file with an outline for the itinerary."
 msgstr "여정에 대한 개요와 함께 .rst 초안 파일을 생성합니다."
 
@@ -626,6 +655,15 @@ msgid ""
 msgstr ""
 "버그를 생성하고 샌드박스 저장소에 제출하십시오. 버그를 만들 때 태그를 하나 이"
 "상 포함합니다. 작성된 후에는 직접 할당하십시오."
+
+msgid ""
+"Create three stories for your worklists. At least one of them should meet "
+"the criteria that enables it to appear in your automatic worklist. Each "
+"story must have a task that is named differently than the story name."
+msgstr ""
+"worklist에 3개의 스토리를 만드세요. 적어도 하나는 automatic worklist의 조건"
+"에 맞도록 해야합니다. 각각의 스토리는 반드시 스토리 이름과 다른 이름을 가진 "
+"task를 가져야합니다."
 
 msgid "Create your commit and push upstream for review"
 msgstr "리뷰를 위해 커밋을 만들고 업스트림에 푸시하기"
@@ -957,6 +995,9 @@ msgstr ""
 msgid "Find the current members of the Board of Directors"
 msgstr "현재 Board of Directors 구성원을 찾아봅니다"
 
+msgid "Find the current members of the TC and UC"
+msgstr "현재 TC와 UC멤버 찾기"
+
 msgid "Find the information that can be retrieved for each patch in a pipeline"
 msgstr "파이프라인의 각 패치를 가져올 수 있는 정보를 찾으세요."
 
@@ -1021,6 +1062,14 @@ msgid ""
 msgstr ""
 "지난 교육 및 각 로컬에서 개최된 upstream training에 관한 보다 자세한 정보"
 "는, :doc:`upstream-archives` 를 살펴봅니다."
+
+msgid ""
+"For the automatic worklist, give at least two criteria for the items that "
+"will go into the worklist. These criteria can be matching a project-group, "
+"story tag, etc."
+msgstr ""
+"automatic worklist의 경우, 적어도 두 개의 조건을 만들어줍니다. 이 조건들은 프"
+"로젝트 그룹, 스토리 태그 등과 매칭될 수 있습니다."
 
 msgid ""
 "For the cores you found earlier, figure out what time zone they are probably "
@@ -1151,6 +1200,9 @@ msgstr "어떻게 같은, 혹은 여러 저장소의 의존성 변화를 다룰 
 msgid "How do you initialize your local repo with git review?"
 msgstr "git 검토와 함깨 당신의 지역 저장소를 어떻게 초기화 할 것입니까?"
 
+msgid "How long are OpenStack releases 'Maintained' by the community?"
+msgstr "커뮤니티에서는 얼마동안 오픈스택 릴리즈를 유지보수할까요?"
+
 msgid "How many SIGs are there? Name two."
 msgstr "얼마나 많은 SIG가 있을까요? 2개 이름을 적어봅니다."
 
@@ -1201,6 +1253,9 @@ msgid ""
 "If people know you, you have a better chance at your code getting attention."
 msgstr "사람들이 당신을 안다면, 당신의 코드에 관심이 몰릴 좋은 기회입니다."
 
+msgid "If there are no events planned, is there a meetup group?"
+msgstr "만약 계획된 이벤트가 없다면, 밋업 그룹은 있나요?"
+
 msgid ""
 "If there aren't enough mentors or every table has one already, float around "
 "the room checking in on people, especially during exercises"
@@ -1248,6 +1303,9 @@ msgstr "Ildiko Vancsa: ildiko@openstack.org "
 
 msgid "Ildikó Váncsa – The OpenStack Foundation"
 msgstr "Ildikó Váncsa – The OpenStack Foundation"
+
+msgid "Image: http://bit.ly/vm-2019-shanghai-v1"
+msgstr "이미지: http://bit.ly/vm-2019-shanghai-v1"
 
 msgid "Implementing a blueprint/spec"
 msgstr "블루프린트/스펙 구현"
@@ -1484,6 +1542,17 @@ msgstr "Loic Dachary (교육, 멘토링, 조교, 프랑스어, 영어) - 진행"
 msgid "Look at open reviews"
 msgstr "열려있는 리뷰를 살펴봅니다"
 
+msgid ""
+"Look at the `Zuul <http://zuul.opendev.org/t/openstack/status>`_ status page"
+msgstr "`Zuul <http://status.openstack.org/zuul>`_ 상태 페이지를 살펴보세요"
+
+msgid ""
+"Look up an OpenStack (or OpenInfra) Days event close to where you live that "
+"you would be interested in attending"
+msgstr ""
+"당신이 살고있는 곳 근처에서 열리는 오픈스택 혹은 오픈 인프라 데이 이벤트를 찾"
+"아보세요."
+
 msgid "Look up the location and dates of the next PTG"
 msgstr "다음 PTG에 대한 위치 및 날짜를 찾아봅니다"
 
@@ -1497,6 +1566,13 @@ msgid ""
 msgstr ""
 "가장 관심있는 프로젝트를 찾은 후 가장 활발한 핵심 검토자 (리뷰 도움 및 패치"
 "를 병합을 위해 알면 좋은 사람들) 3명을 찾습니다."
+
+msgid ""
+"Look up the release schedule for the current active and previous OpenStack "
+"release cycles and share the link in the etherpad"
+msgstr ""
+"현재 진행중인 릴리즈 스케쥴과 과거의 오픈스택 릴리즈 주기를 알아보고 ehterpad"
+"에 링크를 공유해주세요."
 
 msgid ""
 "Look up when the next meeting is for the project who's channel you joined"
@@ -1627,6 +1703,9 @@ msgstr "Márk Korondi – IBM Research Zürich"
 
 msgid "Márton Kiss – Aptira"
 msgstr "Márton Kiss – Aptira"
+
+msgid "Name one activity you can do to get AUC status"
+msgstr "AUC를 얻기 위한 한 가지 활동을 말해보세요."
 
 msgid "Namgon Lucas Kim (assistant, mentoring)"
 msgstr "Namgon Lucas Kim (조교, 멘토링)"
@@ -1839,6 +1918,13 @@ msgstr ""
 "`Using Gerrit <https://docs.openstack.org/contributors/code-and-"
 "documentation/using-gerrit.html>`_ 의 기여자 가이드 섹션을 여세요."
 
+msgid ""
+"Open the `training etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-shanghai-2019>`_ for team work"
+msgstr ""
+"협업을 위해  `training etherpad <https://etherpad.openstack.org/p/upstream-"
+"institute-shanghai-2019>` 를 열어주세요."
+
 msgid "OpenInfra Days Nordics"
 msgstr "OpenInfra Days Nordics"
 
@@ -1991,6 +2077,14 @@ msgstr ""
 
 msgid "Publicly available statistics about the community"
 msgstr "공개적으로 사용 가능한 커뮤니티에 관한 통계"
+
+msgid ""
+"Put the pieces together and finish your commit message! Make sure to include "
+"the summary line, body, and the required external references along with any "
+"optional external references you think it may benefit from."
+msgstr ""
+"이제 모두 다 모아서 커밋 메시지 작성을 마무리합니다! 요약줄, 본문 그리고 유익"
+"할만한 외부 레퍼런스들이 다 잘 포함되어있는지 확인해주세요."
 
 msgid ""
 "REMEMBER: This is open source. Things happen on the community's schedule, "
@@ -2167,6 +2261,26 @@ msgstr "상해"
 
 msgid "Share something you find interesting from the proposed agenda"
 msgstr "제안된 의제에서 흥미로운 것을 공유하십시오."
+
+msgid ""
+"Share the commit message with someone sitting next to you. Give them "
+"feedback on their commit messages."
+msgstr ""
+"옆에 앉은 사람에게 커밋 메시지를 공유해주세요. 그리고 그들의 커밋 메시지에 대"
+"한 피드백을 주세요."
+
+msgid "Share them  in IRC."
+msgstr "IRC 채널에 공유해주세요."
+
+msgid "Share them in our IRC channel."
+msgstr "우리의 IRC 채널에 공유해주세요."
+
+msgid ""
+"Share your board with your group. Assign yourself to two tasks on other "
+"people's stories. Comment on one story."
+msgstr ""
+"너의 보드를 그룹에 공유해보세요. 다른 사람의 스토리 2개에 당신을 지정해보세"
+"요. 그리고 하나의 스토리에 댓글을 달아보세요. "
 
 msgid "Shinobu KINJO (mentoring, assistant, japanese)"
 msgstr "Shinobu KINJO (멘토링, 조교, 일본어)"
@@ -2736,8 +2850,18 @@ msgstr ""
 msgid "Web browser: Firefox"
 msgstr "웹 브라우저: Firefox"
 
+msgid ""
+"What action is done on 'Maintained' branches but not branches that are in "
+"'Extended Maintenance'?"
+msgstr ""
+"'Extended Maintenance' 브랜치에서는 하지 않지만, 'Maintained' 브랜치에서 하"
+"는 일은 무엇일까요?"
+
 msgid "What are the Four Opens?"
 msgstr "네 가지 개방성이란 무엇일까요?"
+
+msgid "What are the focuses for the three milestones?"
+msgstr "3개의 마일스톤은 어떤 것에 초점을 가지고 있나요?"
 
 msgid "What can individual Foundation members do that community members can't?"
 msgstr ""
@@ -2749,6 +2873,9 @@ msgstr "체인 내의 패치를 수정하는 데 사용하는 명령은 무엇�
 
 msgid "What does ICLA stand for? What is it?"
 msgstr "ICLA는 어떤 일을 하나요?"
+
+msgid "What else can you do with an OpenStack Foundation membership?"
+msgstr "OpenStack Foundation membership으로 그 외에 무엇을 할 수 있나요?"
 
 msgid "What happens if you click on a patch under test"
 msgstr "테스트 중인 패치를 클릭하면 어떤 일이 일어나는지"
@@ -2762,6 +2889,9 @@ msgstr "점, 선, 색깔의 의미는 무엇인지"
 msgid "When possible, sit at a table and build connections with attendees"
 msgstr "가능하다면, 테이블에 앉아서 참석자들과 관계를 구축합니다."
 
+msgid "Where can you find a list of all of the OpenStack IRC channels?"
+msgstr "모든 오픈스택 IRC 채널 목록은 어디에서 찾을 수 있나요?"
+
 msgid ""
 "Where is the meeting is conducted (#openstack-meeting, #openstack-meeting-3, "
 "etc)?"
@@ -2774,8 +2904,18 @@ msgid ""
 "round?"
 msgstr "이 그룹의 멤버 중 어느 멤버가 다음 라운드에서 재선될까요?"
 
+msgid "Which two models are most OpenStack projects following?"
+msgstr "대부분의 오픈스택 프로젝트에서 따르는 두 가지 모델은 무엇일까요?"
+
 msgid "Who spoke the most during that meeting?"
 msgstr "미팅 동안 누가 가장 많이 말했습니까?"
+
+msgid "Why are there different dates for some teams and no dates for others?"
+msgstr ""
+"왜 몇몇 팀들은 다른 날짜들을 가지고 있을까요? 그리고 다른 팀들은 왜 없을까요?"
+
+msgid "Why do we care about APC status?"
+msgstr "왜 우리는 APC 상태를 관리해야할까요?"
 
 msgid "Why is there a whole week and not a single day planned?"
 msgstr "왜 일주일중 하루도 계획되지 않은 거죠?"
@@ -2796,6 +2936,20 @@ msgstr ""
 
 msgid "Workflow and Tools for Participation"
 msgstr "준비를 위한 워크플로우 및 도구"
+
+msgid ""
+"Write a commit message body to expand on two of the  summary lines you just "
+"wrote. Feel free to make up details to make the context more realistic."
+msgstr ""
+"방금 작성한 두 개의 요약줄을 확장해서 커밋 메시지의 본문에 작성해주세요. 내용"
+"을 더 자세하고 현실감있게 구성해주세요."
+
+msgid ""
+"Write a summary line for each bug, blueprint, and story you created during "
+"our task tracking exercises."
+msgstr ""
+"Task Tracking 연습 동안 생성한 버그, 블루프린트 그리고 스토리에 대한 요약 줄"
+"을 작성합니다."
 
 msgid "Xavier Antoviaque (training, mentoring, assistant, french, english)"
 msgstr "Xavier Antoviaque (교육, 멘토링, 조교, 프랑스어, 영어)"
@@ -3099,7 +3253,7 @@ msgid "and whom they will be working with"
 msgstr "그리고 같이 일하고자 하는 대상"
 
 msgid "checkout the latest stable branch"
-msgstr "가장 최신의 안정 버전 브랜치를 가져옵니다"
+msgstr "가장 최신의 안정된 버전의 브랜치를 가져옵니다"
 
 msgid "fix is already on master"
 msgstr "수정이 이미 master에 있음"
