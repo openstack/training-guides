@@ -34,10 +34,13 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Upstream Training Guide'
-bug_tag = u'upstream'
+openstackdocs_bug_tag = u'upstream'
 copyright = u'2014-2019, OpenStack contributors'
-repository_name = 'openstack/training-guides'
-bug_project = 'training-guides'
+openstackdocs_repo_name = 'openstack/training-guides'
+openstackdocs_bug_project = 'training-guides'
+openstackdocs_auto_name = False
+openstackdocs_auto_version = False
+pygments_style = 'native'
 
 # No need to show a version number
 version = ''

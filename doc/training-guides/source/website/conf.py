@@ -35,16 +35,14 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'OpenStack Training Guides'
-bug_tag = u'training-guides'
+openstackdocs_bug_tag = u'training-guides'
 copyright = u'2014-2019, OpenStack contributors'
-repository_name = 'openstack/training-guides'
-bug_project = 'training-guides'
+openstackdocs_repo_name = 'openstack/training-guides'
+openstackdocs_bug_project = 'training-guides'
+openstackdocs_auto_name = False
+openstackdocs_auto_version = False
+pygments_style = 'native'
 
-# The version info for the project you're documenting, acts as replacement for
-# |version| and |release|, also used in various other places throughout the
-# built documents.
-#
-# The short X.Y version.
 # The repo is not versioned.
 version = ''
 # The full version, including alpha/beta/rc tags.
