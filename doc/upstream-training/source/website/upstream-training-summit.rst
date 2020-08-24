@@ -1,15 +1,14 @@
-===================================
-Open Infrastructure Summit Shanghai
-===================================
+==================================
+Virtual Open Infrastructure Summit
+==================================
 
 The upcoming `Open Infrastructure Summit
-<https://www.openstack.org/summit/shanghai-2019>`_ will be in Shanghai in
-November with a full training running prior to the event.
+<https://www.openstack.org/summit/2020/>`_ will be held virtually in October
+including the upstream training sessions.
 
-`Etherpad for the Shanghai Upstream Collaboration Training
-<https://etherpad.openstack.org/p/upstream-institute-shanghai-2019>`_
+`Etherpad for the virtual Upstream Collaboration Training
+<https://etherpad.opendev.org/p/upstream-institute-virtual-2020>`_
 
- **SCHEDULED: Saturday, November 2nd(1pm - 5pm local time) - Sunday, November
- 3rd(9am to 5pm local time), 2019**
+ **SCHEDULED will be updated soon**
 
-Make sure you `RSVP <https://www.openstack.org/summit/shanghai-2019/summit-schedule/events/24344/openstack-upstream-institute-day-1-sponsored-by-lenovo-rsvp-required>`_!
+RSVP information is coming soon!

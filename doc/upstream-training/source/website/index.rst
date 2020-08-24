@@ -70,17 +70,13 @@ Upcoming Trainings
 See this web page and the schedule of the upcoming class for more details
 and registration.
 
-+------------+----------+---------+----------+--------------------------------+
-| Date       | Event    | Duration| Location |              Details           |
-+============+==========+=========+==========+================================+
-| October    |Upstream  |   1 day |Bangalore,|  :ref:`upstream-training-day`  |
-| 18, 2019   |Training  |         | India    |             \                  |
-|            |Day       |         |          |                                |
-+------------+----------+---------+----------+--------------------------------+
-| November 2 |Open Infra| 1.5 day |Shanghai, | :doc:`upstream-training-summit`|
-| -3, 2019   |Summit    |         | China    |             \                  |
-|            |Shanghai  |         |          |                                |
-+------------+----------+---------+----------+--------------------------------+
++------------+----------+----------+----------+-------------------------------+
+| Date       | Event    | Duration | Location |             Details           |
++============+==========+==========+==========+===============================+
+| October 19 |Open Infra| Multiple | Virtual  |:doc:`upstream-training-summit`|
+| -23, 2020  |Summit,   | sessions |          |            \                  |
+|            |Virtual   |          |          |                               |
++------------+----------+----------+----------+-------------------------------+
 
 For Trainees
 ============
