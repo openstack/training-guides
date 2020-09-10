@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-07 08:06+0000\n"
+"POT-Creation-Date: 2020-09-09 19:55+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,13 +21,6 @@ msgstr "**Friday, October 18, 2019**"
 
 msgid "**Mentors**"
 msgstr "**Mentors**"
-
-msgid ""
-"**SCHEDULED: Saturday, November 2nd(1pm - 5pm local time) - Sunday, November "
-"3rd(9am to 5pm local time), 2019**"
-msgstr ""
-"**SCHEDULED: Saturday, November 2nd(1pm - 5pm local time) - Sunday, November "
-"3rd(9am to 5pm local time), 2019**"
 
 msgid "**Staff**"
 msgstr "**Staff**"
@@ -54,12 +47,6 @@ msgid ""
 msgstr ""
 "*You will use this later when we practice writing commit messages and "
 "pushing patches to the sandbox repo so make it interesting!*"
-
-msgid "1 day"
-msgstr "1 day"
-
-msgid "1.5 day"
-msgstr "1.5 day"
 
 msgid "13:45 Sagrada Familia"
 msgstr "13:45 Sagrada Familia"
@@ -166,9 +153,6 @@ msgstr ":doc:`upstream-training-content`"
 
 msgid ":doc:`upstream-training-summit`"
 msgstr ":doc:`upstream-training-summit`"
-
-msgid ":ref:`upstream-training-day`"
-msgstr ":ref:`upstream-training-day`"
 
 msgid ""
 "A big thank you to everyone that has made this possible, especially Loic "
@@ -344,9 +328,6 @@ msgstr "Attending regular meetings"
 msgid "Available metrics"
 msgstr "Available metrics"
 
-msgid "Bangalore,"
-msgstr "Bangalore,"
-
 msgid ""
 "Be able to identify and start a task (bug fix, feature design and "
 "implementation, Working Group activity and so forth)"
@@ -432,9 +413,6 @@ msgstr "Check that you can SSH from your laptop to the virtual machine"
 
 msgid "Check whether the tests failed or not"
 msgstr "Check whether the tests failed or not"
-
-msgid "China"
-msgstr "China"
 
 msgid ""
 "Choose a service and issue an API call or use its client to verify "
@@ -1334,9 +1312,6 @@ msgstr "Incentivise participation"
 msgid "Incompatible config file changes"
 msgstr "Incompatible config file changes"
 
-msgid "India"
-msgstr "India"
-
 msgid "Infrastructure"
 msgstr "Infrastructure"
 
@@ -1593,15 +1568,6 @@ msgstr "Make changes and push new patchsets"
 msgid "Make code changes"
 msgstr "Make code changes"
 
-msgid ""
-"Make sure you `RSVP <https://www.openstack.org/summit/shanghai-2019/summit-"
-"schedule/events/24344/openstack-upstream-institute-day-1-sponsored-by-lenovo-"
-"rsvp-required>`_!"
-msgstr ""
-"Make sure you `RSVP <https://www.openstack.org/summit/shanghai-2019/summit-"
-"schedule/events/24344/openstack-upstream-institute-day-1-sponsored-by-lenovo-"
-"rsvp-required>`_!"
-
 msgid "Make sure you have a wifi enabled laptop with you."
 msgstr "Make sure you have a WiFi enabled laptop with you."
 
@@ -1730,9 +1696,6 @@ msgstr ""
 "berlin-2018/>`_ - `Etherpad <https://etherpad.openstack.org/p/upstream-"
 "institute-berlin-2018>`__"
 
-msgid "November 2 -3, 2019"
-msgstr "November 2 -3, 2019"
-
 msgid "Numbers should not be used as an indication for competition"
 msgstr "Numbers should not be used as an indication for competition"
 
@@ -1759,9 +1722,6 @@ msgstr ""
 
 msgid "October 10 - 11, 2014 (Fri - Sat)"
 msgstr "October 10 - 11, 2014 (Fri - Sat)"
-
-msgid "October 18, 2019"
-msgstr "October 18, 2019"
 
 msgid ""
 "Once the students are separated into their new roles, and have an "
@@ -1800,12 +1760,6 @@ msgstr ""
 
 msgid "Online Communication"
 msgstr "Online Communication"
-
-msgid "Open Infra Summit Shanghai"
-msgstr "Open Infra Summit Shanghai"
-
-msgid "Open Infrastructure Summit Shanghai"
-msgstr "Open Infrastructure Summit Shanghai"
 
 msgid ""
 "Open an *upstream training* IRC meeting and make consensus from various "
@@ -2267,9 +2221,6 @@ msgstr "Setup git & Commit Messages"
 msgid "Setup the Development Environment"
 msgstr "Setup the Development Environment"
 
-msgid "Shanghai,"
-msgstr "Shanghai,"
-
 msgid "Share something you find interesting from the proposed agenda"
 msgstr "Share something you find interesting from the proposed agenda"
 
@@ -2524,15 +2475,6 @@ msgstr ""
 "with different job roles."
 
 msgid ""
-"The upcoming `Open Infrastructure Summit <https://www.openstack.org/summit/"
-"shanghai-2019>`_ will be in Shanghai in November with a full training "
-"running prior to the event."
-msgstr ""
-"The upcoming `Open Infrastructure Summit <https://www.openstack.org/summit/"
-"shanghai-2019>`_ will be in Shanghai in November with a full training "
-"running prior to the event."
-
-msgid ""
 "There is a Forum session in Boston about the future of Stackalytics as there "
 "are issues with the tool. As we don't have a replacement as of now we can "
 "still share info about the currently available tool."
@@ -2698,9 +2640,6 @@ msgstr "Update and add tests (unit, functional, etc.)"
 
 msgid "Upstream Institute Training Other Events"
 msgstr "Upstream Institute Training Other Events"
-
-msgid "Upstream Training Day"
-msgstr "Upstream Training Day"
 
 msgid "Upstream Training in Japan"
 msgstr "Upstream Training in Japan"
@@ -3131,13 +3070,6 @@ msgid ""
 msgstr ""
 "`Etherpad for Upstream Training, Vancouver, 2015 <https://etherpad.openstack."
 "org/p/upstream-training-vancouver>`_"
-
-msgid ""
-"`Etherpad for the Shanghai Upstream Collaboration Training <https://etherpad."
-"openstack.org/p/upstream-institute-shanghai-2019>`_"
-msgstr ""
-"`Etherpad for the Shanghai Upstream Collaboration Training <https://etherpad."
-"openstack.org/p/upstream-institute-shanghai-2019>`_"
 
 msgid ""
 "`Installation Tutorial (Ocata) <https://docs.openstack.org/project-install-"

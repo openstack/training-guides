@@ -10,11 +10,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-15 09:09+0000\n"
+"POT-Creation-Date: 2020-09-09 19:55+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2020-03-25 07:33+0000\n"
+"PO-Revision-Date: 2020-09-10 06:36+0000\n"
 "Last-Translator: Andreas Jaeger <jaegerandi@gmail.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -27,13 +27,6 @@ msgstr "**Freitag, 18. Oktober 2019**"
 msgid "**Mentors**"
 msgstr "** Mentoren **"
 
-msgid ""
-"**SCHEDULED: Saturday, November 2nd(1pm - 5pm local time) - Sunday, November "
-"3rd(9am to 5pm local time), 2019**"
-msgstr ""
-"**GEPLANT: Samstag, 2. November (13:00-17:00 lokale Zeit) - Sonntag, 3. "
-"November (9:00-17:00 lokale Zeit) 2019**"
-
 msgid "**Staff**"
 msgstr "**Personal**"
 
@@ -45,12 +38,6 @@ msgstr "**Dienstag, 23. Juli 2019**"
 
 msgid "**Wednesday, October 2, 2019**"
 msgstr "**Mittwoch, 2. Oktober 2019**"
-
-msgid "1 day"
-msgstr "1 Tag"
-
-msgid "1.5 day"
-msgstr "1.5 Tage"
 
 msgid "13:45 Sagrada Familia"
 msgstr "13:45 Sagrada Familia"
@@ -157,9 +144,6 @@ msgstr ":doc:`upstream-training-content`"
 
 msgid ":doc:`upstream-training-summit`"
 msgstr ":doc:`upstream-training-summit`"
-
-msgid ":ref:`upstream-training-day`"
-msgstr ":ref:`upstream-training-day`"
 
 msgid ""
 "A big thank you to everyone that has made this possible, especially Loic "
@@ -347,9 +331,6 @@ msgstr "Regelmäßige Meetings besuchen"
 msgid "Available metrics"
 msgstr "Verfügbare Metriken"
 
-msgid "Bangalore,"
-msgstr "Bangalore,"
-
 msgid ""
 "Be able to identify and start a task (bug fix, feature design and "
 "implementation, Working Group activity and so forth)"
@@ -442,9 +423,6 @@ msgstr ""
 
 msgid "Check whether the tests failed or not"
 msgstr "Prüfen Sie, ob die Tests fehlgeschlagen sind oder nicht"
-
-msgid "China"
-msgstr "China"
 
 msgid ""
 "Choose a service and issue an API call or use its client to verify "
@@ -1348,9 +1326,6 @@ msgstr "Incentivieren Sie die Teilnahme"
 msgid "Incompatible config file changes"
 msgstr "Inkompatible Konfigurationsdatei ändert sich"
 
-msgid "India"
-msgstr "Indien"
-
 msgid "Infrastructure"
 msgstr "Infrastruktur"
 
@@ -1621,15 +1596,6 @@ msgstr "Änderungen vornehmen und neue Patches starten"
 msgid "Make code changes"
 msgstr "Codeänderungen vornehmen"
 
-msgid ""
-"Make sure you `RSVP <https://www.openstack.org/summit/shanghai-2019/summit-"
-"schedule/events/24344/openstack-upstream-institute-day-1-sponsored-by-lenovo-"
-"rsvp-required>`_!"
-msgstr ""
-"Stellen Sie sicher, daß Sie sich `anmelden <https://www.openstack.org/summit/"
-"shanghai-2019/summit-schedule/events/24344/openstack-upstream-institute-"
-"day-1-sponsored-by-lenovo-rsvp-required>`_!"
-
 msgid "Make sure you have a wifi enabled laptop with you."
 msgstr "Stellen Sie sicher, daß sie ein Laptop mit aktivierten WLAN mitführen."
 
@@ -1725,6 +1691,9 @@ msgstr "Die letzten (\"Ocata\") Release-Statistiken:"
 msgid "Move between services: <ctrl>-a n , <ctrl>-a p"
 msgstr "Umzug zwischen den Diensten: <ctrl> -ein , <ctrl> -ap"
 
+msgid "Multiple sessions"
+msgstr "Mehrere Sitzungen"
+
 msgid "Márk Korondi – IBM Research Zürich"
 msgstr "Márk Korondi - IBM Research Zürich"
 
@@ -1758,9 +1727,6 @@ msgstr ""
 "berlin-2018/>`_ - `Etherpad <https://etherpad.openstack.org/p/upstream-"
 "institute-berlin-2018>`__"
 
-msgid "November 2 -3, 2019"
-msgstr "2. -3. November 2019"
-
 msgid "Numbers should not be used as an indication for competition"
 msgstr "Zahlen sollten nicht als Hinweis für den Wettbewerb verwendet werden"
 
@@ -1788,8 +1754,8 @@ msgstr ""
 msgid "October 10 - 11, 2014 (Fri - Sat)"
 msgstr "Oktober 10 - 11, 2014 (Fr - Sa)"
 
-msgid "October 18, 2019"
-msgstr "18. Oktober 2019"
+msgid "October 19 -23, 2020"
+msgstr "19. bis 13. Oktober 2020"
 
 msgid ""
 "Once the students are separated into their new roles, and have an "
@@ -1831,11 +1797,8 @@ msgstr ""
 msgid "Online Communication"
 msgstr "Onlinekommunikation"
 
-msgid "Open Infra Summit Shanghai"
-msgstr "Open Infra Summit Shanghai"
-
-msgid "Open Infrastructure Summit Shanghai"
-msgstr "Open Infrastructure Summit Shanghai"
+msgid "Open Infra Summit, Virtual"
+msgstr "Open Infra Summit, Virtuell"
 
 msgid ""
 "Open an *upstream training* IRC meeting and make consensus from various "
@@ -2295,9 +2258,6 @@ msgstr "Git aufsetzen & Commit Messages"
 msgid "Setup the Development Environment"
 msgstr "Richten Sie die Entwicklungsumgebung ein"
 
-msgid "Shanghai,"
-msgstr "Shanghai,"
-
 msgid "Share something you find interesting from the proposed agenda"
 msgstr "Share something you find interesting from the proposed agenda"
 
@@ -2561,13 +2521,13 @@ msgstr ""
 "mit unterschiedlichen Jobrollen gibt."
 
 msgid ""
-"The upcoming `Open Infrastructure Summit <https://www.openstack.org/summit/"
-"shanghai-2019>`_ will be in Shanghai in November with a full training "
-"running prior to the event."
+"The upcoming `Open Infrastructure Summit <https://www.openstack.org/"
+"summit/2020/>`_ will be held virtually in October including the upstream "
+"training sessions."
 msgstr ""
 "Der bevorstehende `Open Infrastructure Summit <https://www.openstack.org/"
-"summit/shanghai-2019>` _ wird im November in Shanghai stattfinden. Vor der "
-"Veranstaltung wird ein komplettes Training durchgeführt."
+"summit/2020/>`_ wird als virtueller Event inklusive Trainings im Oktober "
+"stattfinden."
 
 msgid ""
 "There is a Forum session in Boston about the future of Stackalytics as there "
@@ -2743,9 +2703,6 @@ msgstr "Aktualisieren und Hinzufügen von Tests (Einheit, Funktion, etc.)"
 msgid "Upstream Institute Training Other Events"
 msgstr "Upstream Institute Training Weitere Veranstaltungen"
 
-msgid "Upstream Training Day"
-msgstr "Upstraim Training Tag"
-
 msgid "Upstream Training in Japan"
 msgstr "Upstream Training in Japan"
 
@@ -2821,6 +2778,12 @@ msgstr "Victoria Martinez de la Cruz - Red Hat"
 
 msgid "Victoria Martínez de la Cruz (assistant, english)"
 msgstr "Victoria Martínez de la Cruz (Assistentin, Englisch)"
+
+msgid "Virtual"
+msgstr "Virtuell"
+
+msgid "Virtual Open Infrastructure Summit"
+msgstr "Virtueller Open Infrastructure Summit"
 
 msgid ""
 "We are also bringing a one day long version of the training to some of the "
@@ -3195,11 +3158,11 @@ msgstr ""
 "org/p/upstream-training-vancouver> `_"
 
 msgid ""
-"`Etherpad for the Shanghai Upstream Collaboration Training <https://etherpad."
-"openstack.org/p/upstream-institute-shanghai-2019>`_"
+"`Etherpad for the virtual Upstream Collaboration Training <https://etherpad."
+"opendev.org/p/upstream-institute-virtual-2020>`_"
 msgstr ""
-"`Etherpad für das kommende Shanghi Upstream Collaboration Training <https://"
-"etherpad.openstack.org/p/upstream-institute-shanghai-2019>`_"
+"`Etherpad für das virtuelle Upstream Collaboration Training <https://"
+"etherpad.opendev.org/p/upstream-institute-virtual-2020>`_"
 
 msgid ""
 "`Installation Tutorial (Ocata) <https://docs.openstack.org/project-install-"
