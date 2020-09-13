@@ -1,15 +1,16 @@
 # Andi Chandler <andi@gowling.com>, 2017. #zanata
 # Andi Chandler <andi@gowling.com>, 2018. #zanata
 # Andi Chandler <andi@gowling.com>, 2019. #zanata
+# Andi Chandler <andi@gowling.com>, 2020. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-09 19:55+0000\n"
+"POT-Creation-Date: 2020-09-10 10:23+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-12-14 04:45+0000\n"
+"PO-Revision-Date: 2020-09-12 10:16+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom)\n"
 "Language: en_GB\n"
@@ -21,6 +22,9 @@ msgstr "**Friday, October 18, 2019**"
 
 msgid "**Mentors**"
 msgstr "**Mentors**"
+
+msgid "**SCHEDULED will be updated soon**"
+msgstr "**SCHEDULED will be updated soon**"
 
 msgid "**Staff**"
 msgstr "**Staff**"
@@ -1663,6 +1667,9 @@ msgstr "Most recent (\"Ocata\") release stats:"
 msgid "Move between services: <ctrl>-a n , <ctrl>-a p"
 msgstr "Move between services: <ctrl>-a n , <ctrl>-a p"
 
+msgid "Multiple sessions"
+msgstr "Multiple sessions"
+
 msgid "Márk Korondi – IBM Research Zürich"
 msgstr "Márk Korondi – IBM Research Zürich"
 
@@ -1723,6 +1730,9 @@ msgstr ""
 msgid "October 10 - 11, 2014 (Fri - Sat)"
 msgstr "October 10 - 11, 2014 (Fri - Sat)"
 
+msgid "October 19 -23, 2020"
+msgstr " 19 -23 October 2020"
+
 msgid ""
 "Once the students are separated into their new roles, and have an "
 "understanding of the project, begin the timer for the first sprint. During "
@@ -1760,6 +1770,9 @@ msgstr ""
 
 msgid "Online Communication"
 msgstr "Online Communication"
+
+msgid "Open Infra Summit, Virtual"
+msgstr "Open Infra Summit, Virtual"
 
 msgid ""
 "Open an *upstream training* IRC meeting and make consensus from various "
@@ -2055,6 +2068,9 @@ msgid ""
 msgstr ""
 "REMEMBER: This is open source. Things happen on the community's schedule, "
 "not yours."
+
+msgid "RSVP information is coming soon!"
+msgstr "RSVP information is coming soon!"
 
 msgid ""
 "Read and complete the `Setup IRC <https://docs.openstack.org/contributors/"
@@ -2475,6 +2491,15 @@ msgstr ""
 "with different job roles."
 
 msgid ""
+"The upcoming `Open Infrastructure Summit <https://www.openstack.org/"
+"summit/2020/>`_ will be held virtually in October including the upstream "
+"training sessions."
+msgstr ""
+"The upcoming `Open Infrastructure Summit <https://www.openstack.org/"
+"summit/2020/>`_ will be held virtually in October including the upstream "
+"training sessions."
+
+msgid ""
 "There is a Forum session in Boston about the future of Stackalytics as there "
 "are issues with the tool. As we don't have a replacement as of now we can "
 "still share info about the currently available tool."
@@ -2712,6 +2737,12 @@ msgstr "Victoria Martinez de la Cruz – Red Hat"
 
 msgid "Victoria Martínez de la Cruz (assistant, english)"
 msgstr "Victoria Martínez de la Cruz (assistant, english)"
+
+msgid "Virtual"
+msgstr "Virtual"
+
+msgid "Virtual Open Infrastructure Summit"
+msgstr "Virtual Open Infrastructure Summit"
 
 msgid ""
 "We are also bringing a one day long version of the training to some of the "
@@ -3070,6 +3101,13 @@ msgid ""
 msgstr ""
 "`Etherpad for Upstream Training, Vancouver, 2015 <https://etherpad.openstack."
 "org/p/upstream-training-vancouver>`_"
+
+msgid ""
+"`Etherpad for the virtual Upstream Collaboration Training <https://etherpad."
+"opendev.org/p/upstream-institute-virtual-2020>`_"
+msgstr ""
+"`Etherpad for the virtual Upstream Collaboration Training <https://etherpad."
+"opendev.org/p/upstream-institute-virtual-2020>`_"
 
 msgid ""
 "`Installation Tutorial (Ocata) <https://docs.openstack.org/project-install-"
