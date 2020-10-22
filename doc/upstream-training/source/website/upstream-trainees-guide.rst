@@ -11,7 +11,7 @@ How to prepare
 * Download the prepared virtual machine image and some environment
   for running the image (We suggest VirtualBox):
 
-  * Image: http://bit.ly/vm-2019-shanghai-v1
+  * Image: http://bit.ly/vm-2020-virtual-v1
 
 * Prepare an environment by yourself from scratch:
 
@@ -44,12 +44,10 @@ How to prepare
 
 .. note::
    Aside from the sections above, we will cover everything else that is in
-   `the Contributor Guide <https://docs.openstack.org/contributors/>`_ during the class.
+   `the Contributor Guide <https://docs.openstack.org/contributors/>`_ during
+   the classes.
 
 .. note::
-   If you are attempting the steps above in the week before the OpenStack
-   Upstream Institute class and need assistance you can find mentors in the
-   #openstack-upstream-institute channel on irc.freenode.net.
-
-   There will also be office hours from 4 to 6 pm at the Former Saint
-   Craft Kitchen and Taps in the Hyatt on Saturday, April 27th, 2019.
+   If you are attempting the steps above before the Upstream Institute class
+   and need assistance you can find mentors in the #openstack-upstream-institute
+   channel on irc.freenode.net.
