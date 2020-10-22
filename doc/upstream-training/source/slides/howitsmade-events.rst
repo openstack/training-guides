@@ -31,4 +31,5 @@ Exercise 2
 Exercise 3
 ==========
 
-- Look up the location and dates of the next Summit/Forum
+- Where can you find the official dates and locations of Open
+  Infrastructure events?
