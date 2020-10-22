@@ -23,5 +23,5 @@ What can individual Foundation members do that community members can't?
 Exercise 2
 ==========
 
-What else can you do with an OpenStack Foundation membership?
+What else can you do with an Open Infrastructure Foundation membership?
 
