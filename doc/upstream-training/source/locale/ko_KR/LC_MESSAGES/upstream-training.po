@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-15 18:59+0000\n"
+"POT-Creation-Date: 2020-10-22 09:14+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -325,14 +325,6 @@ msgid ""
 msgstr ""
 "읽을거리: `OpenStack Upstream Institute 최신 정보 얻기 <https://superuser."
 "openstack.org/articles/openstack-upstream-institute-update/>`_"
-
-msgid ""
-"Aside from the sections above, we will cover everything else that is in `the "
-"Contributor Guide <https://docs.openstack.org/contributors/>`_ during the "
-"class."
-msgstr ""
-"위에서 언급된 섹션과 더불어 다른 모든 것들을 클래스 중에 `Contributor Guide "
-"<https://docs.openstack.org/contributors/>`_ 를 통해 다를 것입니다."
 
 msgid "Ask a mentor to break the *tested* code of one test case"
 msgstr ""
@@ -1237,15 +1229,6 @@ msgstr ""
 "개발자라면 오픈스택 프로젝트에서 버그 수정이나 새 기능을 커뮤니티에서 최소 시"
 "간 내에 찾는 방법을 얻을 수 있게 도와줍니다."
 
-msgid ""
-"If you are attempting the steps above in the week before the OpenStack "
-"Upstream Institute class and need assistance you can find mentors in the "
-"#openstack-upstream-institute channel on irc.freenode.net."
-msgstr ""
-"위와 같은 단계를 OpenStack Upstream Institute 이전에 이미 완료하고자 할 경우 "
-"도움을 찾고 싶다면 irc.freenode.net 에 있는 #openstack-upstream-institute 채"
-"널에 접속해 있는 멘토를 찾을 수 있습니다."
-
 msgid "If you are not presenting, remain engaged with the class"
 msgstr "발표 중이 아닐 때도 수업에 열심히 참가합니다."
 
@@ -1269,9 +1252,6 @@ msgstr "Ildiko Vancsa: ildiko@openstack.org "
 
 msgid "Ildikó Váncsa – The OpenStack Foundation"
 msgstr "Ildikó Váncsa – The OpenStack Foundation"
-
-msgid "Image: http://bit.ly/vm-2019-shanghai-v1"
-msgstr "이미지: http://bit.ly/vm-2019-shanghai-v1"
 
 msgid "Implementing a blueprint/spec"
 msgstr "블루프린트/스펙 구현"
@@ -1518,9 +1498,6 @@ msgstr ""
 
 msgid "Look up the location and dates of the next PTG"
 msgstr "다음 PTG에 대한 위치 및 날짜를 찾아봅니다"
-
-msgid "Look up the location and dates of the next Summit/Forum"
-msgstr "다음 Summit/Forum의 위치와 날짜를 확인해 보세요."
 
 msgid ""
 "Look up the project you are most interested in and find the three most "
@@ -2456,13 +2433,6 @@ msgstr ""
 "유할 수 있습니다."
 
 msgid ""
-"There will also be office hours from 4 to 6 pm at the Former Saint Craft "
-"Kitchen and Taps in the Hyatt on Saturday, April 27th, 2019."
-msgstr ""
-"2019년 4월 27일 토요일, Former Saint Craft Kitchen and Taps in the Hyatt 에"
-"서 오후 4-6시 사이에 office hour가 또한 있을 예정입니다."
-
-msgid ""
 "These slides prepare students for the Lego activity, and ensure they "
 "understand the metaphors in use. The Lego in the exercise represents the "
 "code of a software project, in this case OpenStack. The students all take on "
@@ -2800,9 +2770,6 @@ msgstr "체인 내의 패치를 수정하는 데 사용하는 명령은 무엇�
 
 msgid "What does ICLA stand for? What is it?"
 msgstr "ICLA는 어떤 일을 하나요?"
-
-msgid "What else can you do with an OpenStack Foundation membership?"
-msgstr "OpenStack Foundation membership으로 그 외에 무엇을 할 수 있나요?"
 
 msgid "What happens if you click on a patch under test"
 msgstr "테스트 중인 패치를 클릭하면 어떤 일이 일어나는지"
