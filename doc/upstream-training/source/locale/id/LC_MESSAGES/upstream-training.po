@@ -3,15 +3,16 @@
 # suhartono <cloudsuhartono@gmail.com>, 2018. #zanata
 # suhartono <cloudsuhartono@gmail.com>, 2019. #zanata
 # suhartono <cloudsuhartono@gmail.com>, 2020. #zanata
+# suhartono <cloudsuhartono@gmail.com>, 2021. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-22 09:14+0000\n"
+"POT-Creation-Date: 2020-10-26 07:30+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2020-09-27 03:45+0000\n"
+"PO-Revision-Date: 2021-01-01 04:48+0000\n"
 "Last-Translator: suhartono <cloudsuhartono@gmail.com>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -301,6 +302,15 @@ msgid ""
 msgstr ""
 "Artikel: `Get up to speed with the OpenStack Upstream Institute <https://"
 "superuser.openstack.org/articles/openstack-upstream-institute-update/>`_"
+
+msgid ""
+"Aside from the sections above, we will cover everything else that is in `the "
+"Contributor Guide <https://docs.openstack.org/contributors/>`_ during the "
+"classes."
+msgstr ""
+"Selain dari bagian di atas, kita akan membahas semua yang ada di `the "
+"Contributor Guide  <https://docs.openstack.org/contributors/>` _ selama "
+"kelas."
 
 msgid "Ask a mentor to break the *tested* code of one test case"
 msgstr "Meminta mentor untuk memecahkan kode *tested* untuk satu batu ujian"
@@ -609,6 +619,15 @@ msgstr ""
 "Buat dan kirim bug ke repositori sandbox kami. Sertakan setidaknya satu tag "
 "saat membuat bug Anda. Setelah dibuat, tetapkan untuk diri Anda sendiri."
 
+msgid ""
+"Create two new stories. Each story must have a task that is named "
+"differently than the story and a project is required for each task to save "
+"the story. Click save!"
+msgstr ""
+"Buat dua cerita baru. Setiap cerita harus memiliki tugas yang diberi nama "
+"berbeda dari cerita dan proyek diperlukan untuk setiap tugas untuk menyimpan "
+"cerita. Klik simpan!"
+
 msgid "Create your commit and push upstream for review"
 msgstr "Buat Anda berkomitmen dan mendorong hulu untuk peninjauan"
 
@@ -898,6 +917,12 @@ msgstr "Latihan 4"
 
 msgid "Exercise 5"
 msgstr "Latihan 5"
+
+msgid "Exercise 5 - optional"
+msgstr "Exercise 5 - optional"
+
+msgid "Exercise 6 - optional"
+msgstr "Exercise 6 - optional"
 
 msgid "Exercise: Step 1"
 msgstr "Latihan: Langkah 1"
@@ -1246,6 +1271,15 @@ msgstr ""
 "masyarakat untuk mendapatkan memperbaiki bug atau fitur diterima dalam "
 "proyek OpenStack dalam jumlah minimal waktu."
 
+msgid ""
+"If you are attempting the steps above before the Upstream Institute class "
+"and need assistance you can find mentors in the #openstack-upstream-"
+"institute channel on irc.freenode.net."
+msgstr ""
+"Jika Anda mencoba langkah-langkah di atas sebelum kelas Upstream Institute "
+"dan membutuhkan bantuan, Anda dapat menemukan mentor di saluran # openstack-"
+"upstream-institute di irc.freenode.net."
+
 msgid "If you are not presenting, remain engaged with the class"
 msgstr "Jika Anda tidak hadir, tetaplah terlibat dengan kelas"
 
@@ -1270,6 +1304,9 @@ msgstr "Ildiko Vancsa: ildiko@openstack.org"
 
 msgid "Ildikó Váncsa – The OpenStack Foundation"
 msgstr "Ildikó Váncsa – The OpenStack Foundation"
+
+msgid "Image: http://bit.ly/vm-2020-virtual-v1"
+msgstr "Image: http://bit.ly/vm-2020-virtual-v1"
 
 msgid "Implementing a blueprint/spec"
 msgstr "Menerapkan cetak biru / spek"
@@ -1987,6 +2024,9 @@ msgid ""
 msgstr ""
 "Pilih proyek favorit Anda dan laporkan berapa banyak pekerjaan yang telah "
 "berjalan di IRC"
+
+msgid "Play around with them - add tags, add extra tasks."
+msgstr "Bermain-main dengan mereka - tambahkan tag, tambahkan tugas ekstra."
 
 msgid "Please note that the language of the training is English."
 msgstr "Harap dicatat bahwa bahasa untuk pelatihan ini adalah bahasa Inggris."
@@ -2870,6 +2910,11 @@ msgstr ""
 msgid "What does ICLA stand for? What is it?"
 msgstr "Apa singkatan ICLA ? Apa itu?"
 
+msgid "What else can you do with an Open Infrastructure Foundation membership?"
+msgstr ""
+"Apa lagi yang dapat Anda lakukan dengan keanggotaan Open Infrastructure "
+"Foundation?"
+
 msgid "What happens if you click on a patch under test"
 msgstr "Apa yang terjadi jika Anda klik pada patch yang sedang diuji"
 
@@ -2884,6 +2929,13 @@ msgstr "Bila mungkin, duduklah di meja dan bangun koneksi dengan peserta"
 
 msgid "Where can you find a list of all of the OpenStack IRC channels?"
 msgstr "Di mana Anda dapat menemukan daftar semua saluran IRC OpenStack?"
+
+msgid ""
+"Where can you find the official dates and locations of Open Infrastructure "
+"events?"
+msgstr ""
+"Di mana Anda dapat menemukan tanggal dan lokasi resmi acara Open "
+"Infrastructure?"
 
 msgid ""
 "Where is the meeting is conducted (#openstack-meeting, #openstack-meeting-3, "
@@ -3311,6 +3363,9 @@ msgstr "https://docs.openstack.org/doc-contrib-guide/index.html"
 
 msgid "https://storyboard-dev.openstack.org/#!/dashboard/"
 msgstr "https://storyboard-dev.openstack.org/#!/dashboard/"
+
+msgid "https://storyboard-dev.openstack.org/#!/dashboard/ <--- USE THIS SITE"
+msgstr "https://storyboard-dev.openstack.org/#!/dashboard/ <--- USE THIS SITE"
 
 msgid "https://storyboard.openstack.org/#!/project/913"
 msgstr "https://storyboard.openstack.org/#!/project/913"
