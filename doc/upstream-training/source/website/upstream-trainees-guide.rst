@@ -50,4 +50,4 @@ How to prepare
 .. note::
    If you are attempting the steps above before the Upstream Institute class
    and need assistance you can find mentors in the #openstack-upstream-institute
-   channel on irc.freenode.net.
+   channel on irc.oftc.net.
