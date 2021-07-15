@@ -73,9 +73,9 @@ and registration.
 +------------+----------+----------+----------+-------------------------------+
 | Date       | Event    | Duration | Location |             Details           |
 +============+==========+==========+==========+===============================+
-| October 19 |Open Infra| Multiple | Virtual  |:doc:`upstream-training-summit`|
-| -23, 2020  |Summit,   | sessions |          |            \                  |
-|            |Virtual   |          |          |                               |
+|    TBD     |   TBD    |   TBD    |   TBD    |:doc:`upstream-training-summit`|
+|            |          |          |          |                               |
+|            |          |          |          |                               |
 +------------+----------+----------+----------+-------------------------------+
 
 For Trainees
