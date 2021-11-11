@@ -34,8 +34,7 @@ Documentation team structure
   and separate core teams for `docs-specs <https://review.opendev.org/#/admin/groups/384,members>`_
   , `contributor-guide <https://review.opendev.org/#/admin/groups/1841,members>`_
   , `security-doc <https://review.opendev.org/#/admin/groups/347,members>`_
-  , `training-guides <https://review.opendev.org/#/admin/groups/360,members>`_
-  , and `training-labs <https://review.opendev.org/#/admin/groups/1118,members>`_
+  , and `training-guides <https://review.opendev.org/#/admin/groups/360,members>`_
 
 - `Documentation cross-project liaisons <https://wiki.openstack.org/wiki/CrossProjectLiaisons#Documentation>`_
   for questions, reviews, doc bug triaging, and patching docs
