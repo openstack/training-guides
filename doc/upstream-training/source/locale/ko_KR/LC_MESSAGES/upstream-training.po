@@ -36,18 +36,19 @@
 # minkuk jo <strike0115@naver.com>, 2018. #zanata
 # yunha Cho <jyh_5530@naver.com>, 2018. #zanata
 # Ian Y. Choi <ianyrchoi@gmail.com>, 2019. #zanata
-# SeongSoo Cho <ppiyakk2@printf.kr>, 2019. #zanata
-# SeongSoo Cho <ppiyakk2@printf.kr>, 2020. #zanata
+# Seongsoo Cho <ppiyakk2@printf.kr>, 2019. #zanata
+# Seongsoo Cho <ppiyakk2@printf.kr>, 2020. #zanata
+# Eunjeong Yun <araruu2536@gmail.com>, 2021. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-22 09:14+0000\n"
+"POT-Creation-Date: 2021-11-15 11:37+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2020-05-05 02:05+0000\n"
-"Last-Translator: SeongSoo Cho <ppiyakk2@printf.kr>\n"
+"PO-Revision-Date: 2021-12-19 08:20+0000\n"
+"Last-Translator: Eunjeong Yun <araruu2536@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko_KR\n"
 "X-Generator: Zanata 4.3.3\n"
@@ -2882,9 +2883,6 @@ msgstr "임무로, 선택하여 수락해야 합니다"
 msgid "Zuul and vendor CIs will review your patch"
 msgstr "Zuul 그리고 판매인 CI들은 너의 패치를 리뷰할 것입니다."
 
-msgid "\\"
-msgstr "\\"
-
 msgid "`Accounts <workflow-accounts.html>`_"
 msgstr "`Accounts <workflow-accounts.html>`_"
 
@@ -2915,23 +2913,6 @@ msgid ""
 msgstr ""
 "`Developer documentation <https://docs.openstack.org/heat/>`_ 은 master 브랜"
 "치 내 doc 디렉토리에서 퍼블리싱이 이루어집니다."
-
-msgid ""
-"`Docs cores <https://review.opendev.org/#/admin/groups/30,members>`_ and "
-"separate core teams for `docs-specs <https://review.opendev.org/#/admin/"
-"groups/384,members>`_ , `contributor-guide <https://review.opendev.org/#/"
-"admin/groups/1841,members>`_ , `security-doc <https://review.opendev.org/#/"
-"admin/groups/347,members>`_ , `training-guides <https://review.opendev.org/#/"
-"admin/groups/360,members>`_ , and `training-labs <https://review.opendev.org/"
-"#/admin/groups/1118,members>`_"
-msgstr ""
-"`Docs cores <https://review.opendev.org/#/admin/groups/30,members>`_ and "
-"separate core teams for `docs-specs <https://review.opendev.org/#/admin/"
-"groups/384,members>`_ , `contributor-guide <https://review.opendev.org/#/"
-"admin/groups/1841,members>`_ , `security-doc <https://review.opendev.org/#/"
-"admin/groups/347,members>`_ , `training-guides <https://review.opendev.org/#/"
-"admin/groups/360,members>`_ , and `training-labs <https://review.opendev.org/"
-"#/admin/groups/1118,members>`_"
 
 msgid "`Documentation Deep Dive <docs.html>`_"
 msgstr "`문서 파헤치기 <docs.html>`_"

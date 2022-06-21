@@ -3,15 +3,16 @@
 # Andi Chandler <andi@gowling.com>, 2019. #zanata
 # Andi Chandler <andi@gowling.com>, 2020. #zanata
 # Andi Chandler <andi@gowling.com>, 2021. #zanata
+# Andi Chandler <andi@gowling.com>, 2022. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-28 09:04+0000\n"
+"POT-Creation-Date: 2021-11-15 11:37+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2021-06-19 07:21+0000\n"
+"PO-Revision-Date: 2022-06-07 02:43+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom)\n"
 "Language: en_GB\n"
@@ -24,8 +25,8 @@ msgstr "**Friday, October 18, 2019**"
 msgid "**Mentors**"
 msgstr "**Mentors**"
 
-msgid "**SCHEDULED will be updated soon**"
-msgstr "**SCHEDULED will be updated soon**"
+msgid "**SCHEDULE will be updated soon**"
+msgstr "**SCHEDULE will be updated soon**"
 
 msgid "**Staff**"
 msgstr "**Staff**"
@@ -1031,6 +1032,13 @@ msgstr ""
 "training helps you to find the information entry points you need."
 
 msgid ""
+"For information about the upcoming summits see the `Open Infrastructure "
+"Summit <https://www.openstack.org/summit/>` page."
+msgstr ""
+"For information about the upcoming summits see the `Open Infrastructure "
+"Summit <https://www.openstack.org/summit/>` page."
+
+msgid ""
 "For more information about the past trainings and the local upstream "
 "trainings, see :doc:`upstream-archives`."
 msgstr ""
@@ -1668,9 +1676,6 @@ msgstr "Most recent (\"Ocata\") release stats:"
 msgid "Move between services: <ctrl>-a n , <ctrl>-a p"
 msgstr "Move between services: <ctrl>-a n , <ctrl>-a p"
 
-msgid "Multiple sessions"
-msgstr "Multiple sessions"
-
 msgid "Márk Korondi – IBM Research Zürich"
 msgstr "Márk Korondi – IBM Research Zürich"
 
@@ -1731,9 +1736,6 @@ msgstr ""
 msgid "October 10 - 11, 2014 (Fri - Sat)"
 msgstr "October 10 - 11, 2014 (Fri - Sat)"
 
-msgid "October 19 -23, 2020"
-msgstr " 19 -23 October 2020"
-
 msgid ""
 "Once the students are separated into their new roles, and have an "
 "understanding of the project, begin the timer for the first sprint. During "
@@ -1771,9 +1773,6 @@ msgstr ""
 
 msgid "Online Communication"
 msgstr "Online Communication"
-
-msgid "Open Infra Summit, Virtual"
-msgstr "Open Infra Summit, Virtual"
 
 msgid ""
 "Open an *upstream training* IRC meeting and make consensus from various "
@@ -2373,6 +2372,9 @@ msgstr "Sylvain Bauza (assistant, mentoring, training, french, english)"
 msgid "System administrators"
 msgstr "System administrators"
 
+msgid "TBD"
+msgstr "TBD"
+
 msgid "Taehee Jang (assistant, mentoring - Ubuntu Korea Community)"
 msgstr "Taehee Jang (assistant, mentoring - Ubuntu Korea Community)"
 
@@ -2493,15 +2495,6 @@ msgid ""
 msgstr ""
 "The training has a modular structure by which it gives room to attendees "
 "with different job roles."
-
-msgid ""
-"The upcoming `Open Infrastructure Summit <https://www.openstack.org/"
-"summit/2020/>`_ will be held virtually in October including the upstream "
-"training sessions."
-msgstr ""
-"The upcoming `Open Infrastructure Summit <https://www.openstack.org/"
-"summit/2020/>`_ will be held virtually in October including the upstream "
-"training sessions."
 
 msgid ""
 "There is a Forum session in Boston about the future of Stackalytics as there "
@@ -2734,9 +2727,6 @@ msgstr "Victoria Martinez de la Cruz – Red Hat"
 
 msgid "Victoria Martínez de la Cruz (assistant, english)"
 msgstr "Victoria Martínez de la Cruz (assistant, english)"
-
-msgid "Virtual"
-msgstr "Virtual"
 
 msgid "Virtual Open Infrastructure Summit"
 msgstr "Virtual Open Infrastructure Summit"
@@ -2985,9 +2975,6 @@ msgstr "Your mission, should you choose to accept it"
 msgid "Zuul and vendor CIs will review your patch"
 msgstr "Zuul and vendor CIs will review your patch"
 
-msgid "\\"
-msgstr "\\"
-
 msgid "`Accounts <workflow-accounts.html>`_"
 msgstr "`Accounts <workflow-accounts.html>`_"
 
@@ -3024,17 +3011,15 @@ msgid ""
 "separate core teams for `docs-specs <https://review.opendev.org/#/admin/"
 "groups/384,members>`_ , `contributor-guide <https://review.opendev.org/#/"
 "admin/groups/1841,members>`_ , `security-doc <https://review.opendev.org/#/"
-"admin/groups/347,members>`_ , `training-guides <https://review.opendev.org/#/"
-"admin/groups/360,members>`_ , and `training-labs <https://review.opendev.org/"
-"#/admin/groups/1118,members>`_"
+"admin/groups/347,members>`_ , and `training-guides <https://review.opendev."
+"org/#/admin/groups/360,members>`_"
 msgstr ""
 "`Docs cores <https://review.opendev.org/#/admin/groups/30,members>`_ and "
 "separate core teams for `docs-specs <https://review.opendev.org/#/admin/"
 "groups/384,members>`_ , `contributor-guide <https://review.opendev.org/#/"
 "admin/groups/1841,members>`_ , `security-doc <https://review.opendev.org/#/"
-"admin/groups/347,members>`_ , `training-guides <https://review.opendev.org/#/"
-"admin/groups/360,members>`_ , and `training-labs <https://review.opendev.org/"
-"#/admin/groups/1118,members>`_"
+"admin/groups/347,members>`_ , and `training-guides <https://review.opendev."
+"org/#/admin/groups/360,members>`_"
 
 msgid "`Documentation Deep Dive <docs.html>`_"
 msgstr "`Documentation Deep Dive <docs.html>`_"
@@ -3106,13 +3091,6 @@ msgid ""
 msgstr ""
 "`Etherpad for Upstream Training, Vancouver, 2015 <https://etherpad.openstack."
 "org/p/upstream-training-vancouver>`_"
-
-msgid ""
-"`Etherpad for the virtual Upstream Collaboration Training <https://etherpad."
-"opendev.org/p/upstream-institute-virtual-2020>`_"
-msgstr ""
-"`Etherpad for the virtual Upstream Collaboration Training <https://etherpad."
-"opendev.org/p/upstream-institute-virtual-2020>`_"
 
 msgid ""
 "`Installation Tutorial (Ocata) <https://docs.openstack.org/project-install-"
