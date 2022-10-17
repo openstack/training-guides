@@ -39,16 +39,17 @@
 # Seongsoo Cho <ppiyakk2@printf.kr>, 2019. #zanata
 # Seongsoo Cho <ppiyakk2@printf.kr>, 2020. #zanata
 # Eunjeong Yun <araruu2536@gmail.com>, 2021. #zanata
+# HaeI Yoon <y83422918@gmail.com>, 2022. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: Upstream Training Guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-15 11:37+0000\n"
+"POT-Creation-Date: 2022-06-22 08:15+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2021-12-19 08:20+0000\n"
-"Last-Translator: Eunjeong Yun <araruu2536@gmail.com>\n"
+"PO-Revision-Date: 2022-10-16 03:36+0000\n"
+"Last-Translator: HaeI Yoon <y83422918@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko_KR\n"
 "X-Generator: Zanata 4.3.3\n"
@@ -2305,6 +2306,9 @@ msgstr "Sylvain Bauza (조교, 멘토링, 교육, 프랑스어, 영어)"
 
 msgid "System administrators"
 msgstr "시스템 관리자"
+
+msgid "TBD"
+msgstr "추후 결정 예정"
 
 msgid "Taehee Jang (assistant, mentoring - Ubuntu Korea Community)"
 msgstr "Taehee Jang (조교, 멘토링 - 우분투 한국 커뮤니티)"
