@@ -47,13 +47,6 @@ Please note that the language of the training is English.
 Trainings
 =========
 
-We run the full training prior to each OpenStack Summit.
-
-We are also bringing a one day long version of the training to some of the
-local OpenStack Days events and other industry events.
-Keep a look out for updates about these events in the `Upcoming Trainings`_
-section.
-
 :doc:`upstream-details`: A detailed overview of OpenStack Upstream Institute
 Training.
 
@@ -64,19 +57,6 @@ Complete content of Upstream Institute Training can be seen here:
 
 * :doc:`upstream-training-content`
 
-Upcoming Trainings
-------------------
-
-See this web page and the schedule of the upcoming class for more details
-and registration.
-
-+------------+----------+----------+----------+-------------------------------+
-| Date       | Event    | Duration | Location |             Details           |
-+============+==========+==========+==========+===============================+
-|    TBD     |   TBD    |   TBD    |   TBD    |:doc:`upstream-training-summit`|
-|            |          |          |          |                               |
-|            |          |          |          |                               |
-+------------+----------+----------+----------+-------------------------------+
 
 For Trainees
 ============
