@@ -52,8 +52,8 @@ source_suffix = '.rst'
 master_doc = 'slide-index'
 
 # General information about the project.
-project = u'Associate Training Guide'
-copyright = u'2014-2015, OpenStack contributors'
+project = 'Associate Training Guide'
+copyright = '2014-2015, OpenStack contributors'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -205,8 +205,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    ('index', 'AssociateTrainingGuide.tex', u'Associate Training Guide',
-     u'OpenStack contributors', 'manual'),
+    ('index', 'AssociateTrainingGuide.tex', 'Associate Training Guide',
+     'OpenStack contributors', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -235,8 +235,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'associate-training-guide', u'Associate Training Guide',
-     [u'OpenStack contributors'], 1)
+    ('index', 'associate-training-guide', 'Associate Training Guide',
+     ['OpenStack contributors'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -249,8 +249,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    ('index', 'AssociateTrainingGuide', u'Associate Training Guide',
-     u'OpenStack contributors', 'AssociateTrainingGuide',
+    ('index', 'AssociateTrainingGuide', 'Associate Training Guide',
+     'OpenStack contributors', 'AssociateTrainingGuide',
      'This guide is introduction to the OpenStack.',
      'Miscellaneous'),
 ]

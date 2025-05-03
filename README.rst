@@ -1,14 +1,6 @@
-========================
-Team and repository tags
-========================
-
-.. image:: https://governance.openstack.org/tc/badges/training-guides.svg
-    :target: https://governance.openstack.org/tc/reference/tags/index.html
-
-.. Change things from this point on
-
+=========================
 OpenStack Training Guides
-+++++++++++++++++++++++++
+=========================
 
 This repository contains open source training material that can be
 used to learn about using and different ways of contributing to OpenStack
@@ -83,14 +75,12 @@ Bugs should be filed on Launchpad, not GitHub:
 
    https://bugs.launchpad.net/openstack-training-guides
 
-
 Published guides
 ================
 
 Guides are published at:
 
  * https://docs.openstack.org/upstream-training/
-
 
 Release Notes
 =============

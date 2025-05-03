@@ -52,8 +52,8 @@ source_suffix = '.rst'
 master_doc = 'slide-index'
 
 # General information about the project.
-project = u'Upstream Training Guide'
-copyright = u'2014-2018, OpenStack contributors'
+project = 'Upstream Training Guide'
+copyright = '2014-2018, OpenStack contributors'
 
 # No need to show a version number
 version = ''
@@ -200,8 +200,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    ('index', 'UpstreamTrainingGuide.tex', u'Upstream Training Guide',
-     u'OpenStack contributors', 'manual'),
+    ('index', 'UpstreamTrainingGuide.tex', 'Upstream Training Guide',
+     'OpenStack contributors', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -244,8 +244,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    ('index', 'UpstreamTrainingGuide', u'Upstream Training Guide',
-     u'OpenStack contributors', 'UpstreamTrainingGuide',
+    ('index', 'UpstreamTrainingGuide', 'Upstream Training Guide',
+     'OpenStack contributors', 'UpstreamTrainingGuide',
      'This guide shows how to work with the OpenStack upstream.',
      'Miscellaneous'),
 ]

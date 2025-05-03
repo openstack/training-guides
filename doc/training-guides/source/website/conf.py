@@ -34,9 +34,9 @@ extensions = [
 master_doc = 'index'
 
 # General information about the project.
-project = u'OpenStack Training Guides'
-openstackdocs_bug_tag = u'training-guides'
-copyright = u'2014-2019, OpenStack contributors'
+project = 'OpenStack Training Guides'
+openstackdocs_bug_tag = 'training-guides'
+copyright = '2014-2019, OpenStack contributors'
 openstackdocs_repo_name = 'openstack/training-guides'
 openstackdocs_bug_project = 'training-guides'
 openstackdocs_auto_name = False
@@ -81,8 +81,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    ('index', 'OpenStackTrainingGuides.tex', u'OpenStack Training Guides',
-     u'OpenStack contributors', 'manual'),
+    ('index', 'OpenStackTrainingGuides.tex', 'OpenStack Training Guides',
+     'OpenStack contributors', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -111,8 +111,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'openstack-training-guides', u'OpenStack Training Guides',
-     [u'OpenStack contributors'], 1)
+    ('index', 'openstack-training-guides', 'OpenStack Training Guides',
+     ['OpenStack contributors'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -125,8 +125,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    ('index', 'OpenStackTrainingGuides', u'OpenStack Training Guides',
-     u'OpenStack contributors', 'OpenStackTrainingGuides',
+    ('index', 'OpenStackTrainingGuides', 'OpenStack Training Guides',
+     'OpenStack contributors', 'OpenStackTrainingGuides',
      'This guide offers OpenStack software training.',
      'Miscellaneous'),
 ]
